@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Global Conflict Intelligence</title>
-  <meta name="description" content="AI-powered real-time summaries of global conflicts — Ukraine-Russia War and Middle East Conflict — sourced from Telegram intelligence channels." />
+  <title>War Summary — AI Intelligence Briefing</title>
+  <meta name="description" content="AI-powered real-time intelligence briefings on global conflicts sourced from open Telegram channels." />
 
-  <!-- Leaflet map -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Scroll progress bar -->
+  <style>
+    #scroll-progress { position: fixed; top: 0; left: 0; height: 2px; width: 0%; background: linear-gradient(90deg,#e53e5b,#f59e0b); z-index: 9999; transition: width 0.1s linear; }
+  </style>
 
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
@@ -21,165 +24,231 @@
 </head>
 <body>
 
+  <!-- Scroll progress -->
+  <div id="scroll-progress"></div>
+
   <!-- Animated particle background -->
   <canvas id="particles"></canvas>
 
   <!-- Header -->
   <header class="site-header">
     <div class="header-inner">
-      <div class="logo">
-        <span class="logo-icon">◈</span>
-        <span class="logo-text">GLOBAL CONFLICT INTELLIGENCE</span>
-        <span class="live-badge">● LIVE</span>
+      <div class="header-left">
+        <div class="logo-wrap">
+          <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="title-group">
+          <h1 class="site-title" id="siteTitle">Loading…</h1>
+          <p class="site-subtitle">AI Intelligence Briefing &middot; Open-Source Telegram</p>
+        </div>
       </div>
-      <div class="header-meta">
-        <span class="last-updated" id="lastUpdated">Loading…</span>
-        <span class="update-timer" id="updateTimer">Next update in <b id="countdown">—</b></span>
+      <div class="header-right">
+        <span class="live-badge"><span class="live-dot"></span>LIVE</span>
+        <span class="header-datetime" id="headerDatetime">—</span>
+        <span class="header-countdown">Next update <b id="countdown">—</b></span>
       </div>
     </div>
   </header>
 
-  <!-- Scrolling ticker -->
-  <div class="ticker-wrap" id="tickerWrap">
-    <div class="ticker-label">INTEL FEED</div>
-    <div class="ticker-content" id="tickerContent">Loading feeds…</div>
+  <!-- Warning bar -->
+  <div class="warning-bar">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+    </svg>
+    Always double check the information given
   </div>
 
-  <!-- Main -->
+  <!-- News ticker -->
+  <div class="ticker-wrap" id="tickerWrap" aria-hidden="true">
+    <div class="ticker-label">
+      <svg width="9" height="9" viewBox="0 0 100 100" fill="none"><path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      INTEL FEED
+    </div>
+    <div class="ticker-track" id="tickerTrack"><span id="tickerContent">Loading intel feed…</span></div>
+  </div>
+
+  <!-- Conflict selector tabs -->
+  <nav class="conflict-tabs" role="tablist">
+    <button class="tab-btn active" data-tab="middle_east" role="tab">
+      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Iran War Summary
+    </button>
+    <button class="tab-btn" data-tab="ukraine" role="tab">
+      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Ukraine–Russia War
+    </button>
+  </nav>
+
+  <!-- Main layout -->
   <main class="site-main">
 
-    <!-- Conflict selector tabs -->
-    <nav class="conflict-tabs" role="tablist">
-      <button class="tab-btn active" data-tab="ukraine" role="tab">
-        <span class="tab-flag">🇺🇦</span> Ukraine–Russia
-      </button>
-      <button class="tab-btn" data-tab="middle_east" role="tab">
-        <span class="tab-flag">🌍</span> Middle East
-      </button>
-    </nav>
-
-    <!-- ── UKRAINE PANEL ── -->
-    <section class="conflict-panel" id="panel-ukraine" data-src="data/ukraine.json">
-
-      <div class="panel-grid">
-
-        <!-- Summary card -->
-        <div class="card card--summary" id="ukraine-summary-card">
-          <div class="card-header">
-            <h2 class="card-title">Situation Report</h2>
-            <div class="intensity-badge" id="ukraine-intensity">LOADING</div>
-          </div>
-          <p class="summary-text" id="ukraine-summary">Fetching…</p>
-          <div class="key-points" id="ukraine-keypoints"></div>
-          <div class="detail-row">
-            <div class="detail-item">
-              <span class="detail-label">Territorial</span>
-              <span class="detail-value" id="ukraine-territorial">—</span>
+    <!-- MIDDLE EAST PANEL -->
+    <div class="conflict-panel" id="panel-middle_east">
+      <div class="main-grid">
+        <div class="content-col">
+          <div class="stats-row">
+            <div class="stat-card stat-card--alert" id="me-stat-alerts">
+              <div class="stat-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+                RED ALERTS (IL)
+              </div>
+              <div class="stat-value" id="me-red-alerts">—</div>
+              <div class="stat-meta">Last 24 h &middot; @tzevaadom_en</div>
             </div>
-            <div class="detail-item">
-              <span class="detail-label">Casualties</span>
-              <span class="detail-value" id="ukraine-casualties">—</span>
+            <div class="stat-card" id="me-stat-messages">
+              <div class="stat-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                MESSAGES ANALYSED
+              </div>
+              <div class="stat-value" id="me-msg-count">—</div>
+              <div class="stat-meta" id="me-channel-count">— channels</div>
+            </div>
+            <div class="stat-card stat-card--intensity" id="me-stat-intensity">
+              <div class="stat-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                CONFLICT INTENSITY
+              </div>
+              <div class="stat-value" id="me-intensity-val">—</div>
+              <div class="stat-meta" id="me-sentiment-val">—</div>
             </div>
           </div>
+          <div class="sections-content" id="me-sections-content"></div>
         </div>
-
-        <!-- Map -->
-        <div class="card card--map">
-          <div class="card-header"><h2 class="card-title">Theater Map</h2></div>
-          <div id="map-ukraine" class="leaflet-map"></div>
-          <div class="map-legend">
-            <span class="legend-dot legend-dot--red"></span> Frontline activity
-            <span class="legend-dot legend-dot--blue"></span> Key cities
+        <aside class="sidebar-col">
+          <div class="sidebar-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg>
+              SECTIONS
+            </div>
+            <nav class="sections-nav" id="me-sections-nav"></nav>
           </div>
-        </div>
-
-        <!-- Intensity gauge -->
-        <div class="card card--gauge">
-          <div class="card-header"><h2 class="card-title">Conflict Intensity</h2></div>
-          <div class="gauge-wrap">
-            <canvas id="gauge-ukraine"></canvas>
-            <div class="gauge-label" id="gauge-ukraine-label">—/10</div>
+          <div class="sidebar-card chart-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+              RED ALERT FREQUENCY &mdash; 24 H
+            </div>
+            <div class="chart-container"><canvas id="me-chart-alerts"></canvas></div>
           </div>
-          <div class="sentiment-row" id="ukraine-sentiment-row">
-            <span class="sentiment-icon">⬤</span>
-            <span class="sentiment-text" id="ukraine-sentiment">—</span>
+          <div class="sidebar-card chart-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              COMBINED ACTIVITY &mdash; 24 H
+            </div>
+            <div class="chart-container"><canvas id="me-chart-activity"></canvas></div>
           </div>
-        </div>
-
-        <!-- Channels card -->
-        <div class="card card--channels">
-          <div class="card-header"><h2 class="card-title">Source Channels</h2></div>
-          <ul class="channel-list" id="ukraine-channels"></ul>
-          <div class="msg-count">
-            <span id="ukraine-msgcount">—</span> messages analyzed
+          <div class="sidebar-card chart-card chart-card--tall">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              MESSAGES BY CHANNEL
+            </div>
+            <div class="chart-container chart-container--tall"><canvas id="me-chart-channels"></canvas></div>
           </div>
-        </div>
-
+          <div class="sidebar-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+              SOURCES
+            </div>
+            <ul class="sources-list" id="me-sources-list"></ul>
+          </div>
+        </aside>
       </div>
-    </section>
+    </div>
 
-    <!-- ── MIDDLE EAST PANEL ── -->
-    <section class="conflict-panel hidden" id="panel-middle_east" data-src="data/middle_east.json">
-
-      <div class="panel-grid">
-
-        <div class="card card--summary" id="middle_east-summary-card">
-          <div class="card-header">
-            <h2 class="card-title">Situation Report</h2>
-            <div class="intensity-badge" id="middle_east-intensity">LOADING</div>
-          </div>
-          <p class="summary-text" id="middle_east-summary">Fetching…</p>
-          <div class="key-points" id="middle_east-keypoints"></div>
-          <div class="detail-row">
-            <div class="detail-item">
-              <span class="detail-label">Territorial</span>
-              <span class="detail-value" id="middle_east-territorial">—</span>
+    <!-- UKRAINE PANEL -->
+    <div class="conflict-panel hidden" id="panel-ukraine">
+      <div class="main-grid">
+        <div class="content-col">
+          <div class="stats-row">
+            <div class="stat-card stat-card--alert" id="ua-stat-alerts">
+              <div class="stat-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+                AIR ALERTS (UA)
+              </div>
+              <div class="stat-value" id="ua-red-alerts">—</div>
+              <div class="stat-meta">Last 24 h &middot; @eRadarrua</div>
             </div>
-            <div class="detail-item">
-              <span class="detail-label">Casualties</span>
-              <span class="detail-value" id="middle_east-casualties">—</span>
+            <div class="stat-card" id="ua-stat-messages">
+              <div class="stat-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                MESSAGES ANALYSED
+              </div>
+              <div class="stat-value" id="ua-msg-count">—</div>
+              <div class="stat-meta" id="ua-channel-count">— channels</div>
+            </div>
+            <div class="stat-card stat-card--intensity" id="ua-stat-intensity">
+              <div class="stat-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                CONFLICT INTENSITY
+              </div>
+              <div class="stat-value" id="ua-intensity-val">—</div>
+              <div class="stat-meta" id="ua-sentiment-val">—</div>
             </div>
           </div>
+          <div class="sections-content" id="ua-sections-content"></div>
         </div>
-
-        <div class="card card--map">
-          <div class="card-header"><h2 class="card-title">Theater Map</h2></div>
-          <div id="map-middle_east" class="leaflet-map"></div>
-          <div class="map-legend">
-            <span class="legend-dot legend-dot--red"></span> Active conflict zones
-            <span class="legend-dot legend-dot--blue"></span> Key locations
+        <aside class="sidebar-col">
+          <div class="sidebar-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg>
+              SECTIONS
+            </div>
+            <nav class="sections-nav" id="ua-sections-nav"></nav>
           </div>
-        </div>
-
-        <div class="card card--gauge">
-          <div class="card-header"><h2 class="card-title">Conflict Intensity</h2></div>
-          <div class="gauge-wrap">
-            <canvas id="gauge-middle_east"></canvas>
-            <div class="gauge-label" id="gauge-middle_east-label">—/10</div>
+          <div class="sidebar-card chart-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+              AIR ALERT FREQUENCY &mdash; 24 H
+            </div>
+            <div class="chart-container"><canvas id="ua-chart-alerts"></canvas></div>
           </div>
-          <div class="sentiment-row" id="middle_east-sentiment-row">
-            <span class="sentiment-icon">⬤</span>
-            <span class="sentiment-text" id="middle_east-sentiment">—</span>
+          <div class="sidebar-card chart-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              COMBINED ACTIVITY &mdash; 24 H
+            </div>
+            <div class="chart-container"><canvas id="ua-chart-activity"></canvas></div>
           </div>
-        </div>
-
-        <div class="card card--channels">
-          <div class="card-header"><h2 class="card-title">Source Channels</h2></div>
-          <ul class="channel-list" id="middle_east-channels"></ul>
-          <div class="msg-count">
-            <span id="middle_east-msgcount">—</span> messages analyzed
+          <div class="sidebar-card chart-card chart-card--tall">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              MESSAGES BY CHANNEL
+            </div>
+            <div class="chart-container chart-container--tall"><canvas id="ua-chart-channels"></canvas></div>
           </div>
-        </div>
-
+          <div class="sidebar-card">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+              SOURCES
+            </div>
+            <ul class="sources-list" id="ua-sources-list"></ul>
+          </div>
+        </aside>
       </div>
-    </section>
+    </div>
 
   </main>
 
   <footer class="site-footer">
-    <p>AI-generated intelligence brief · Sourced from public Telegram channels · Updated every 3 hours</p>
-    <p class="footer-disclaimer">This site provides automated summaries for informational purposes only. Always verify through official sources.</p>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <svg width="18" height="18" viewBox="0 0 100 100" fill="none">
+          <path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
+          <path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        WAR SUMMARY
+      </div>
+      <p>AI-generated intelligence brief &middot; Sourced from public Telegram channels &middot; Updated every hour</p>
+      <p class="footer-disclaimer">Automated summaries for informational purposes only. Always verify through official sources.</p>
+    </div>
   </footer>
+
+  <!-- Scroll-to-top button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top" title="Back to top">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
 
   <script src="app.js"></script>
 </body>
