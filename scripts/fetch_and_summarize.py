@@ -10,8 +10,16 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+
+# Tried in order until one succeeds
+MODELS = [
+    "google/gemini-2.5-flash-preview-05-20",
+    "anthropic/claude-3.5-haiku",
+    "meta-llama/llama-3.3-70b-instruct",
+    "google/gemma-3-27b-it:free",
+    "mistralai/mistral-7b-instruct:free",
+]
 
 CONFLICTS = {
     "middle_east": {
@@ -59,31 +67,15 @@ def fetch_channel_messages(channel: str, limit: int = 10) -> list[str]:
     return messages[-limit:]
 
 
-def call_gemini(prompt: str) -> str:
-    model = "gemini-2.5-flash-preview-05-20"
-    url = (
-        f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{model}:generateContent?key={GEMINI_API_KEY}"
-    )
-    body = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.4, "maxOutputTokens": 2048},
-    }
-    resp = requests.post(url, json=body, timeout=60)
-    resp.raise_for_status()
-    data = resp.json()
-    return data["candidates"][0]["content"]["parts"][0]["text"].strip()
-
-
-def call_openrouter(prompt: str) -> str:
+def call_openrouter(prompt: str, model: str) -> str:
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-        "HTTP-Referer": "https://global-conflicts.pages.dev",
+        "HTTP-Referer": "https://inasjackw321.github.io/war-summary",
         "Content-Type": "application/json",
     }
     body = {
-        "model": "google/gemma-4-31b-it:free",
+        "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.4,
         "max_tokens": 2048,
@@ -127,26 +119,25 @@ Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
 The intensity field is 1-10 (1=minimal, 10=extreme conflict).
 Keep all text factual, concise, and neutral. No speculation."""
 
+    if not OPENROUTER_API_KEY:
+        print("  [error] OPENROUTER_API_KEY not set", file=sys.stderr)
+        return {"summary": "API key not configured.", "key_points": [], "sentiment": "unknown", "intensity": 5}
+
     raw_json = ""
-    try:
-        if GEMINI_API_KEY:
-            raw_json = call_gemini(prompt)
-        elif OPENROUTER_API_KEY:
-            raw_json = call_openrouter(prompt)
-        else:
-            raise RuntimeError("No AI API key configured")
-    except Exception as e:
-        print(f"  [warn] Gemini failed ({e}), trying OpenRouter...", file=sys.stderr)
+    last_error = None
+    for model in MODELS:
         try:
-            raw_json = call_openrouter(prompt)
-        except Exception as e2:
-            print(f"  [error] OpenRouter also failed: {e2}", file=sys.stderr)
-            return {
-                "summary": "Summary generation temporarily unavailable.",
-                "key_points": [],
-                "sentiment": "unknown",
-                "intensity": 5,
-            }
+            print(f"  Trying model: {model}", file=sys.stderr)
+            raw_json = call_openrouter(prompt, model)
+            break
+        except Exception as e:
+            print(f"  [warn] {model} failed: {e}", file=sys.stderr)
+            last_error = e
+            time.sleep(2)
+
+    if not raw_json:
+        print(f"  [error] All models failed. Last error: {last_error}", file=sys.stderr)
+        return {"summary": "Summary generation temporarily unavailable.", "key_points": [], "sentiment": "unknown", "intensity": 5}
 
     # Strip accidental markdown fences
     raw_json = re.sub(r"^```[a-z]*\n?", "", raw_json.strip())
@@ -155,7 +146,6 @@ Keep all text factual, concise, and neutral. No speculation."""
     try:
         return json.loads(raw_json)
     except json.JSONDecodeError:
-        # Try to extract JSON object
         match = re.search(r"\{[\s\S]+\}", raw_json)
         if match:
             try:
@@ -177,7 +167,7 @@ def run():
             msgs = fetch_channel_messages(ch, limit=8)
             print(f"    -> {len(msgs)} messages")
             all_messages.extend(msgs)
-            time.sleep(1.2)  # gentle rate limit
+            time.sleep(1.2)
 
         print(f"  Generating AI summary ({len(all_messages)} messages)...")
         ai_result = generate_summary(conf["title"], all_messages)
