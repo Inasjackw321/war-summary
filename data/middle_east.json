@@ -1,137 +1,165 @@
 {
   "conflict": "Iran War Summary",
-  "updated_at": "2026-05-13T08:05:05.857285+00:00",
-  "message_count": 889,
+  "updated_at": "2026-05-13T09:00:45.257815+00:00",
+  "message_count": 120,
   "channels": [
-    "N12chat", "manniefabian", "asafroz", "yediotnews25",
-    "SharghDaily", "amitsegal", "presstv", "mamlekate",
-    "kianmeli1", "Faytuks_Network", "rodast_omiddana",
-    "naya_foriraq", "tzevaadom_en", "VahidOnline", "idf_telegram"
+    "N12chat",
+    "manniefabian",
+    "asafroz",
+    "yediotnews25",
+    "SharghDaily",
+    "amitsegal",
+    "presstv",
+    "mamlekate",
+    "kianmeli1",
+    "Faytuks_Network",
+    "rodast_omiddana",
+    "naya_foriraq",
+    "tzevaadom_en",
+    "VahidOnline",
+    "idf_telegram"
   ],
-  "red_alerts": 14,
-  "red_alerts_timeline": [0,0,0,0,2,0,0,0,0,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0],
-  "combined_activity_timeline": [8,5,3,2,4,12,18,25,32,38,42,48,55,52,45,38,30,22,15,10,7,5,4,3],
+  "red_alerts": 5,
+  "red_alerts_timeline": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "combined_activity_timeline": [
+    3,
+    2,
+    1,
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    9,
+    8,
+    7,
+    6,
+    6,
+    7,
+    7,
+    6,
+    5,
+    4,
+    4,
+    4,
+    4,
+    3
+  ],
   "messages_by_channel": {
-    "@tzevaadom_en": 220,
-    "@N12chat": 185,
-    "@idf_telegram": 150,
-    "@manniefabian": 88,
-    "@asafroz": 72,
-    "@presstv": 65,
-    "@SharghDaily": 52,
-    "@amitsegal": 44,
-    "@yediotnews25": 38,
-    "@Faytuks_Network": 30,
-    "@mamlekate": 24,
-    "@VahidOnline": 20,
-    "@kianmeli1": 18,
-    "@rodast_omiddana": 15,
-    "@naya_foriraq": 12
+    "@N12chat": 8,
+    "@manniefabian": 8,
+    "@asafroz": 8,
+    "@yediotnews25": 8,
+    "@SharghDaily": 8,
+    "@amitsegal": 8,
+    "@presstv": 8,
+    "@mamlekate": 8,
+    "@kianmeli1": 8,
+    "@Faytuks_Network": 8,
+    "@rodast_omiddana": 8,
+    "@naya_foriraq": 8,
+    "@tzevaadom_en": 8,
+    "@VahidOnline": 8,
+    "@idf_telegram": 8
   },
+  "summary": "Intensified cross‑border hostilities continue between Israel and Hezbollah in southern Lebanon, with multiple drone and rocket incidents and Israeli airstrikes on Hezbollah infrastructure. Iran faces internal challenges, including earthquake activity and political debates over military‑related legislation, while regional powers discuss the broader war context. No major territorial shifts are reported, but casualty reports and alert events indicate a volatile security environment.",
+  "key_points": [
+    "Hezbollah launched drones and rockets at Israeli positions; IDF responded with airstrikes on over 40 Hezbollah sites.",
+    "Israeli strikes hit civilian structures in southern Lebanon, including buildings in the town of Sour.",
+    "Iran reports a series of moderate earthquakes and internal political debates over a draft investigation law.",
+    "Russia announced a successful test of the Sarmat ICBM and continues missile production.",
+    "UAE involvement in the US‑Israel‑Iran conflict is condemned by an Iranian university as \"categorically haram\"."
+  ],
+  "casualties_mentioned": "At least two Israeli personnel wounded (one NCO, one reservist) and several Hezbollah operatives killed; a motorcyclist died in a traffic accident in Haifa; no civilian deaths reported from the latest cross‑border attacks.",
+  "territorial": "No significant territorial changes; incidents remain confined to border areas of southern Lebanon and northern Israel.",
+  "sentiment": "volatile",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "A new dimension of direct conflict has emerged with confirmed reports of Saudi Arabia and the UAE conducting covert airstrikes against targets in Iran in late March, followed by diplomatic de-escalation efforts. This comes as US intelligence assessments reveal Iran has largely restored its missile capabilities and operational sites, challenging previous claims of their destruction. Concurrently, Hezbollah has intensified drone and rocket attacks on northern Israel and IDF troops, causing casualties, while Iran has outlined five key conditions for any future negotiations with the United States.",
+    "executive_summary": "Cross‑border fighting between Israel and Hezbollah has escalated with repeated drone and rocket attacks and extensive Israeli airstrikes on Hezbollah infrastructure. Iran is dealing with seismic activity and internal political disputes, while Russia showcases strategic missile capabilities. Regional actors, notably the UAE, face criticism from Iranian outlets for perceived involvement in the broader conflict.",
     "iran": {
       "title": "Iran",
-      "flag": "IR",
-      "color": "red",
       "subtitle": "Military operations in and against Iran",
       "points": [
-        "Saudi Arabia reportedly carried out multiple undeclared airstrikes against targets in Iran in late March, in retaliation for Iranian attacks on Saudi territory. These strikes were preceded by Saudi notification to Tehran and followed by intensive diplomatic efforts to de-escalate tensions.",
-        "The UAE also reportedly conducted several covert strikes against Iran, including one targeting the Lavan Island oil refinery, both before and after the April 8 ceasefire. Damage to the UAE's largest gas processing plant from Iranian attacks last month may not be fully repaired until 2027.",
-        "Kuwait announced the arrest of four armed individuals allegedly affiliated with the Islamic Revolutionary Guard Corps (IRGC) who attempted to infiltrate Bubiyan Island by sea, leading to one Kuwaiti security force member being injured. Kuwait summoned Iran's ambassador in protest. Iran's Foreign Ministry denied the claims, stating the individuals were on a routine maritime patrol and entered Kuwaiti waters due to a navigation system malfunction.",
-        "The IRGC intelligence unit reportedly dismantled five weapons and ammunition smuggling networks linked to the Israeli regime.",
-        "The IRGC's Greater Tehran Command conducted a large-scale military exercise focusing on readiness to confront enemy forces.",
-        "\"Controlled explosions\" of enemy ammunition are scheduled to take place near Bandar Abbas on Wednesday."
+        "Iran reported a magnitude 4.6 earthquake near Tehran and multiple smaller tremors, with no confirmed damage or casualties.",
+        "Domestic political debate centers on a coalition‑proposed investigation committee law, with accusations of deliberate textual errors and opposition from Haredi parties."
       ]
     },
     "israel": {
       "title": "Israel",
-      "flag": "IL",
-      "color": "blue",
       "subtitle": "IDF operations and Israeli security assessments",
       "points": [
-        "US intelligence assessments indicate that Iran has renewed operational access to 30 out of 33 missile launch sites along the Strait of Hormuz and that approximately 90% of its underground storage and launch facilities are now partially or fully active.",
-        "Iran is estimated to retain about 70% of its pre-war mobile missile launchers and total missile arsenal, contradicting previous US and Israeli claims of its military infrastructure being severely degraded.",
-        "Israeli officials stated that Iran's ballistic missile force remains a significant threat despite Operation Rising Lion. Defense Minister Katz emphasized that Iran's nuclear program must still be addressed regardless of any ceasefire agreement.",
-        "The IDF conducted targeted airstrikes on Hezbollah weapons infrastructure in southern Lebanon, destroying 12 weapon storage sites and 8 rocket launcher positions over the past 24 hours.",
-        "Israeli Air Force interceptors downed 3 Hezbollah drones over the Galilee panhandle; no casualties reported. Iron Dome successfully engaged 4 rocket salvoes."
+        "The IDF confirmed killing about 15 Hezbollah operatives and striking multiple rocket launchers and weapon depots in southern Lebanon over the past day.",
+        "Two Israeli soldiers were wounded (one moderately, one lightly) by a Hezbollah drone that penetrated Israeli territory near the Lebanon border."
       ]
     },
     "gaza_west_bank": {
       "title": "Gaza & West Bank",
-      "flag": "PS",
-      "color": "blue",
       "subtitle": "Ongoing operations in Palestinian territories",
       "points": [
-        "Israeli forces continued ground operations in Rafah and northern Gaza, with reported clashes in Jabalia refugee camp resulting in 23 Palestinian fatalities according to Gaza Health Ministry sources.",
-        "The IDF announced the elimination of three Hamas battalion commanders in targeted strikes in Khan Younis over the past 48 hours.",
-        "Aid delivery remains severely restricted at Kerem Shalom crossing; UN OCHA warns of imminent famine conditions in northern Gaza with acute malnutrition rates rising sharply.",
-        "West Bank: Israeli security forces conducted overnight raids in Jenin refugee camp and Nablus, arresting 14 suspected militants and seizing weapons caches. Two Palestinian gunmen were killed in an exchange of fire.",
-        "Hamas political bureau chief issued statement from Doha rejecting latest ceasefire proposal terms, citing failure to include permanent end to Israeli military presence in Gaza."
+        "No direct Gaza or West Bank incidents were mentioned in the supplied messages.",
+        "The focus remains on the Israel‑Lebanon frontier and broader regional dynamics."
       ]
     },
     "lebanon": {
       "title": "Lebanon",
-      "flag": "LB",
-      "color": "green",
-      "subtitle": "Hezbollah activity and northern border exchanges",
+      "subtitle": "Hezbollah activity and border incidents",
       "points": [
-        "Hezbollah launched a salvo of 9 rockets and 4 attack drones targeting Israeli communities of Kiryat Shmona, Metula, and Avivim during the early morning hours. Israeli Red Alert sirens activated across the Galilee panhandle region.",
-        "The IDF reported killing approximately 15 Hezbollah operatives in southern Lebanon over the past 24 hours, including a cell commander responsible for coordinating drone strikes.",
-        "Israeli artillery conducted counter-battery fire against identified Hezbollah rocket launch positions near Bint Jbeil and Khiam, with secondary explosions confirming hits on weapons stores.",
-        "Hezbollah's media wing released reconnaissance drone footage claiming to show Israeli northern military bases and infrastructure, signaling continued intelligence-gathering operations.",
-        "UNIFIL peacekeeping forces reported two incidents of unidentified armed groups near the Blue Line; filed formal protests with both Lebanese armed forces and COGAT."
+        "Hezbollah launched several drones and rockets toward Israeli positions, triggering sirens in border communities such as Margaliot, Manara, Avivim, Zarit, and others.",
+        "Israeli forces conducted airstrikes on more than 40 Hezbollah sites, including weapons depots, rocket launchers, and a building in the town of Sour."
       ]
     },
     "syria_iraq": {
       "title": "Syria & Iraq",
-      "flag": "SY",
-      "color": "orange",
-      "subtitle": "Regional proxy activity and cross-border operations",
+      "subtitle": "Regional proxy activity",
       "points": [
-        "US forces at Mission Support Site Euphrates in eastern Syria repelled a three-drone attack at 02:30 local time; no casualties reported and one drone downed by defensive systems.",
-        "Iraqi Popular Mobilization Forces (PMF) Kata'ib Hezbollah faction announced a temporary suspension of attacks on US targets in Iraq pending further strategic guidance from Tehran.",
-        "Israeli airstrikes near al-Kiswah south of Damascus targeted a suspected Iranian weapons transfer convoy; Syrian state media confirmed explosions in the area. Imagery analysis suggests a munitions depot was struck.",
-        "Turkish-backed forces conducted operations against SDF positions in Deir ez-Zor province; SDF reported 8 fighters killed in combined drone and artillery strikes.",
-        "ISIS claimed responsibility for a suicide bombing at a government checkpoint in Homs province, killing 6 Syrian Army soldiers — the first major ISIS attack in the region in 4 months."
+        "No specific Syrian or Iraqi events were detailed in the messages.",
+        "Regional proxy considerations are implied through references to broader US‑Israel‑Iran tensions."
       ]
     },
     "gulf_states": {
       "title": "Gulf States",
-      "flag": "GS",
-      "color": "gray",
-      "subtitle": "Regional state reactions and security incidents",
+      "subtitle": "Regional state reactions and incidents",
       "points": [
-        "Saudi Arabia-Iran diplomatic back-channel communications ongoing through Omani mediation; both sides reportedly seeking to prevent further direct escalation following March airstrikes.",
-        "UAE authorities confirmed structural damage assessments for the Ruwais gas processing facility indicate full repair timeline extending to late 2027, with partial capacity restoration by Q3 2026.",
-        "Qatar hosting indirect Iran-US proximity talks; the fifth round concluded without formal agreement but with both sides describing the atmosphere as 'constructive'.",
-        "Bahrain's Fifth Fleet command increased patrol activity in the Strait of Hormuz corridor following IRGC naval exercises involving 120 fast-attack craft and multiple submarines.",
-        "Kuwait's parliament passed emergency security measures following the IRGC infiltration incident, authorizing expanded maritime patrol zones and increased defense spending by 18%."
+        "Russia announced a successful test of the Sarmat ICBM with a projected 35,000 km range, indicating heightened strategic competition.",
+        "The UAE was labeled \"categorically haram\" by an Iranian university for alleged participation in a US‑Israel war effort against Iran."
       ]
     },
     "key_developments": [
-      "Iran restores operational access to 30 of 33 missile launch sites; retains ~70% of pre-war missile arsenal",
-      "Saudi Arabia and UAE confirmed to have conducted covert retaliatory airstrikes on Iranian territory in late March",
-      "Hezbollah launched 9-rocket salvo at northern Israel; IDF struck 40 Hezbollah sites over 24 hours",
-      "US cruise missile and Patriot stockpiles significantly depleted; Pentagon requests emergency supplemental funding of $14B",
-      "Iran formally outlines five conditions for any future negotiations with the United States",
-      "Kuwait arrests four IRGC-linked infiltrators; summons Iranian ambassador amid diplomatic row",
-      "ISIS resurfaces in Syria with suicide bombing killing 6; first major attack in 4 months"
+      "Hezbollah drone and rocket attacks on Israeli border positions",
+      "IDF airstrikes on over 40 Hezbollah infrastructure sites",
+      "Iranian earthquake swarm and internal legislative dispute",
+      "Russia's Sarmat ICBM test success",
+      "UAE condemned by Iranian institution for involvement in US‑Israel conflict"
     ],
-    "threat_assessment": "The situation remains HIGHLY VOLATILE with significant escalation risk across multiple fronts simultaneously. Iran's rapid restoration of missile launch infrastructure to near pre-war operational levels represents the most significant strategic development of the past week, fundamentally undermining the stated objectives of Operation Rising Lion. The confirmation of Saudi and UAE retaliatory strikes on Iranian territory introduces unprecedented multi-state direct conflict dynamics not seen in the region's modern history. The Hezbollah front, while active, appears constrained by ceasefire framework but is testing boundaries daily. PRIMARY RISK: A miscalculation or incident on the northern Israel-Lebanon border escalating to full-scale war triggering simultaneous Iranian missile salvoes from newly restored launch sites. SECONDARY RISK: An IRGC attack on Gulf state infrastructure in retaliation for Saudi-UAE strikes, disrupting 20% of global oil supply. PROBABILITY OF MAJOR ESCALATION (72h): MODERATE-HIGH.",
-    "regional_response": "The United States has surged a second carrier strike group (USS Nimitz) to the Persian Gulf while publicly engaging in diplomatic efforts to prevent further escalation, presenting a dual deterrence-diplomacy posture. Russia has called for immediate de-escalation through UNSC channels while reportedly supplying Iran with replacement S-300 components through back-channels. China urged all parties to exercise maximum restraint and offered formal mediation services, with Foreign Minister Wang Yi conducting calls with Tehran, Riyadh, and Jerusalem. The EU convened an emergency Foreign Affairs Council session; the joint statement condemned attacks on civilian energy infrastructure but stopped short of naming responsible parties. The UN Secretary-General called for an immediate humanitarian ceasefire in Gaza and urged Iran-Israel direct communications to be restored.",
-    "intelligence_notes": "SIGINT analysis indicates a marked increase in encrypted communications traffic between IRGC Quds Force command and Hezbollah leadership in Beirut's southern suburbs over the past 72 hours — pattern consistent with pre-operation coordination. Multiple commercial satellite passes show accelerated construction activity at the Fordow nuclear enrichment facility, specifically above-ground support infrastructure. HUMINT sources in Tehran report internal IRGC debate over whether to demonstrate restored missile capability with a publicized test launch. Open-source imagery from Bandar Abbas shows at least 3 Shahab-3 mobile launchers repositioned to dispersal sites not previously targeted by Israeli strikes."
-  },
-  "summary": "Iran has largely restored its missile capabilities following Israeli strikes, with US intelligence confirming 90% of underground launch infrastructure is now operational. Saudi Arabia and the UAE have conducted covert retaliatory airstrikes on Iranian territory, introducing unprecedented multi-state direct conflict dynamics to the region. Hezbollah continues daily border provocations against northern Israel while Iran sets five conditions for US negotiations.",
-  "key_points": [
-    "Iran restores 90% of missile launch infrastructure; retains 70% of pre-war arsenal despite Israeli strikes",
-    "Saudi Arabia and UAE conducted covert airstrikes on Iran in late March — unprecedented direct state-on-state attacks",
-    "Hezbollah launched 9-rocket/4-drone salvo at northern Israel; IDF struck 40 Hezbollah sites killing ~15 operatives",
-    "Kuwait arrested four IRGC-linked sea infiltrators; diplomatic crisis with Iran ensues",
-    "Iran formally outlines five conditions for future negotiations with the United States"
-  ],
-  "casualties_mentioned": "~15 Hezbollah operatives killed; several Israeli soldiers lightly wounded; 1 Kuwaiti security officer injured; 23 Palestinian fatalities in Gaza per local health officials",
-  "territorial": "No major territorial changes; Israeli strikes targeted Hezbollah positions in southern Lebanon; IRGC naval exercises ongoing in Persian Gulf",
-  "sentiment": "escalating",
-  "intensity": 8
+    "threat_assessment": "The risk of rapid escalation remains high due to ongoing aerial and missile exchanges along the Israel‑Lebanon border and the presence of wounded personnel on both sides. Iran's internal instability and Russia's missile developments add strategic depth to the threat environment.",
+    "regional_response": "International actors have not issued coordinated diplomatic statements in the messages, but regional narratives show condemnation of external involvement (UAE) and continued military posturing by Russia. Israeli officials continue to hold briefings and cabinet meetings to manage the situation.",
+    "intelligence_notes": "Signal traffic indicates a sustained pattern of Hezbollah low‑altitude drone incursions, prompting Israeli air defenses to remain on high alert. Concurrently, Iranian domestic unrest over legislative language may affect internal cohesion, while Russian ICBM testing signals a broader escalation of great‑power competition."
+  }
 }
