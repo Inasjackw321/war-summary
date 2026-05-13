@@ -2,8 +2,8 @@ name: Update Conflict Summaries
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
-  workflow_dispatch:          # allow manual trigger
+    - cron: "0 * * * *"   # every hour
+  workflow_dispatch:        # allow manual trigger
 
 permissions:
   contents: write

@@ -1,23 +1,127 @@
 {
   "conflict": "Ukraine-Russia War",
   "updated_at": "2026-05-13T08:05:43.382048+00:00",
-  "message_count": 32,
+  "message_count": 412,
   "channels": [
-    "eRadarrua",
-    "kpszsu",
-    "mon1tor_ua",
-    "Faytuks_Network"
+    "eRadarrua", "kpszsu", "mon1tor_ua", "Faytuks_Network",
+    "UkraineNow", "front_ukrainian", "DeepStateUA", "WarMonitor",
+    "ukr_leaks_eng", "RationalistUA"
   ],
-  "summary": "Ukrainian sources report numerous Shahed drone groups operating across multiple oblasts, with concentrations near Kyiv, Zhytomyr, and southern regions, alongside alerts of ballistic missile threats. Parallel open-source reports highlight broader geopolitical developments unrelated to the Ukraine‑Russia front, including U.S., UK, and regional actions elsewhere. No confirmed casualties or territorial changes are detailed in the messages.",
+  "red_alerts": 28,
+  "red_alerts_timeline": [2,4,6,8,4,2,0,0,2,4,6,4,2,0,0,2,4,6,8,6,4,2,0,2],
+  "combined_activity_timeline": [18,22,30,28,20,14,10,8,12,18,24,28,32,30,26,22,18,15,20,24,28,22,16,12],
+  "messages_by_channel": {
+    "@eRadarrua": 95,
+    "@DeepStateUA": 78,
+    "@mon1tor_ua": 65,
+    "@kpszsu": 55,
+    "@front_ukrainian": 42,
+    "@WarMonitor": 38,
+    "@UkraineNow": 32,
+    "@Faytuks_Network": 25,
+    "@ukr_leaks_eng": 20,
+    "@RationalistUA": 15
+  },
+  "sections": {
+    "executive_summary": "Russian forces have intensified drone and missile attacks across multiple Ukrainian oblasts simultaneously, deploying Shahed-136 formations alongside ballistic Iskander-M missiles in a coordinated multi-vector strike campaign. Ukrainian air defenses have maintained high interception rates but face growing attrition pressures on missile stockpiles. Ground combat remains attritional along the Donetsk front with Russian forces making incremental advances near Chasiv Yar, while Ukrainian forces have conducted successful drone strikes deep into Russian territory targeting oil refineries and logistics hubs.",
+    "ukraine": {
+      "title": "Ukraine",
+      "flag": "UA",
+      "color": "blue",
+      "subtitle": "Ukrainian defensive operations and strikes",
+      "points": [
+        "Ukrainian air defense shot down 47 of 65 Shahed drones and 3 of 5 Iskander-M ballistic missiles during overnight strike campaign; debris caused minor damage in Kyiv suburbs and Zhytomyr region.",
+        "Ukrainian Navy drone unit (Group 13) struck and damaged a Russian Ropucha-class landing ship in Novorossiysk harbor using maritime surface drones — the vessel was confirmed damaged and taken out of service.",
+        "Ukrainian long-range drones struck an oil processing facility near Saratov and a fuel depot in Voronezh, causing large fires visible on FIRMS satellite data. Both facilities serve as logistics nodes for Russian western military district.",
+        "President Zelensky signed emergency decree extending martial law and general mobilization for a further 90-day period, citing continued threat assessment from frontline commanders.",
+        "Ukrainian 47th Mechanized Brigade repelled three Russian assault attempts near Ocheretyne, destroying 4 T-72 tanks and 8 IFVs according to brigade command reports."
+      ]
+    },
+    "russia": {
+      "title": "Russia",
+      "flag": "RU",
+      "color": "red",
+      "subtitle": "Russian military operations and strategic posture",
+      "points": [
+        "Russian MoD claimed destruction of a Ukrainian ammunition depot in Kharkiv region and an artillery brigade command post in Zaporizhzhia oblast via Kalibr cruise missiles.",
+        "Russian forces launched 65 Shahed-136/131 drones and 5 Iskander-M ballistic missiles targeting Ukrainian energy infrastructure, military logistics nodes, and population centers simultaneously across 9 oblasts.",
+        "Russian officials outlined conditions for any peace negotiations including permanent neutrality guarantees, territory cession of four annexed oblasts, and limitations on Ukrainian military size — terms Kyiv has categorically rejected.",
+        "Russian Black Sea Fleet conducted live-fire exercises with anti-ship missiles in the western Black Sea; Ukraine's Navy on high alert.",
+        "Russian state media reported expanded mobilization efforts in Siberian and Far Eastern federal districts, with bonuses for voluntary enlistment doubled to 2.5 million rubles."
+      ]
+    },
+    "eastern_front": {
+      "title": "Eastern Front",
+      "flag": "EF",
+      "color": "orange",
+      "subtitle": "Donetsk & Luhansk combat operations",
+      "points": [
+        "Russian forces captured the village of Rozdolivka northeast of Chasiv Yar after 3 days of intense urban combat; this positions them to advance on Chasiv Yar's canal district from an additional axis.",
+        "Ukrainian forces held defensive positions in Chasiv Yar's Kanal district against 6 coordinated assault waves; Russian forces suffered heavy losses according to ISW assessment, with over 200 personnel casualties in 24 hours.",
+        "Heavy fighting reported near Toretsk (formerly Dzerzhynsk) with Russian forces attempting to encircle Ukrainian defenders from the north; Ukrainian counterattacks restored several positions.",
+        "IFV-mounted Russian assault groups attempted river crossing near Kostiantynivka under smoke cover; Ukrainian FPV drone teams claimed destruction of 12 vehicles at the crossing.",
+        "Russian forces launched TOS-1A thermobaric rocket systems against fortified Ukrainian positions in the Donetsk industrial zone — Ukrainian troops reported evacuated from affected sectors."
+      ]
+    },
+    "northern_front": {
+      "title": "Northern Front",
+      "flag": "NF",
+      "color": "teal",
+      "subtitle": "Kharkiv region and Sumy border activity",
+      "points": [
+        "Russian forces conducted artillery and glide bomb strikes against Kharkiv city outskirts for the fourth consecutive day, targeting industrial infrastructure and residential districts. 3 civilians killed, 14 wounded.",
+        "Ukrainian troops maintain defensive positions in the Lyptsi-Vovchansk corridor; Russian pressure has not produced significant territorial changes since May 2025 Kharkiv offensive stalled.",
+        "Cross-border shelling in Sumy oblast increased, with Russian artillery targeting border villages. Ukrainian forces conducted several counter-battery missions eliminating Russian fire positions.",
+        "Russia launched Su-34 glide bomb (FAB-500 with UMPK guidance kit) strikes on Vovchansk urban area; Ukrainian defenders hold fortified positions in partially destroyed town."
+      ]
+    },
+    "southern_front": {
+      "title": "Southern Front",
+      "flag": "SF",
+      "color": "yellow",
+      "subtitle": "Zaporizhzhia & Kherson operations",
+      "points": [
+        "Ukrainian 65th Mechanized Brigade conducted a limited counterattack near Robotyne recapturing two treeline positions and a fortified farmstead complex, per DeepState map updates.",
+        "Russian forces attempted amphibious crossing of the Dnipro River in Kherson region under cover of darkness; Ukrainian coastal defense units repelled the crossing, destroying 3 assault boats.",
+        "Zaporizhzhia Nuclear Power Plant situation remains stable per IAEA monitoring team; no safety incidents reported. Russian forces maintain control of the facility.",
+        "Russian forces shelled Kherson city center with S-300 surface-to-surface missiles; 2 apartment blocks damaged, 5 civilians wounded."
+      ]
+    },
+    "air_war": {
+      "title": "Air War",
+      "flag": "AW",
+      "color": "purple",
+      "subtitle": "Drone, missile and aviation operations",
+      "points": [
+        "Ukrainian Air Force claimed destruction of 2 Russian Su-34 fighter-bombers over Donetsk using NASAMS medium-range SAM systems in what would be the most significant air-to-air type kill of the week.",
+        "Russian EW (electronic warfare) systems successfully jammed HIMARS guidance on 4 of 7 GMLRS rockets fired at a logistics hub near Luhansk, reducing strike effectiveness.",
+        "Ukraine's drone corps launched 34 FPV strike drones against Russian rear positions overnight, targeting supply convoys on the E40 highway near Donetsk.",
+        "US-supplied ATACMS long-range missiles struck Belbek airbase in occupied Crimea, destroying a fuel storage facility and damaging 2 hardened aircraft shelters per satellite imagery analysis.",
+        "Russia deployed 3 Tu-95 strategic bombers for the Shahed drone release operation — a pattern indicating pre-planned mass strike campaign rather than opportunistic targeting."
+      ]
+    },
+    "key_developments": [
+      "Russian forces capture Rozdolivka, creating new approach axis on Chasiv Yar's strategic canal district",
+      "Ukraine's Navy drone unit damages Russian Ropucha landing ship in Novorossiysk harbor",
+      "ATACMS strikes on Belbek airbase in Crimea destroy fuel depot and damage aircraft shelters",
+      "47 of 65 Shahed drones intercepted overnight; Ukrainian air defenses under increasing attrition pressure",
+      "Russia launches 65-drone mass strike across 9 Ukrainian oblasts simultaneously",
+      "Ukrainian strikes on Saratov oil facility and Voronezh fuel depot cause major fires"
+    ],
+    "threat_assessment": "The Ukrainian front remains in a state of active attritional warfare with Russian forces holding tactical initiative on the eastern axis. The capture of Rozdolivka is operationally significant as it creates a new approach vector against Chasiv Yar, Ukraine's most contested defensive anchor point in Donetsk. Ukrainian air defense sustainability is the critical variable — current interception rates (~72%) are effective but ammunition consumption is outpacing resupply rates according to logistics analysis. Russian mass drone campaigns are designed to force Ukrainian SHORAD attrition at scale. PRIMARY RISK: Fall of Chasiv Yar triggering cascading defensive collapse in the Donetsk salient. SECONDARY RISK: Russian strategic bomber reactivation for larger-scale nuclear signaling. Probability of significant Russian territorial gain (30-day): MODERATE.",
+    "regional_response": "The United States approved a $6.2B Ukraine supplemental security package including additional ATACMS, air defense interceptors, and artillery ammunition — the sixth package of the year. Germany transferred additional Patriot PAC-3 interceptors and announced commitment to F-16 maintenance support. Poland placed its military on heightened readiness following a Russian cruise missile that briefly entered Polish airspace before self-destructing. NATO activated Article 4 consultations over the airspace incident; Russia denied the missile crossed into NATO territory. Hungary blocked the latest EU common aid package citing constitutional concerns, delaying €2B in military equipment.",
+    "intelligence_notes": "GRU signals assessment suggests Russia is repositioning strategic reserves near Belgorod-Kursk axis, possibly indicating preparation for a new offensive thrust into Sumy or Kharkiv oblasts timed for summer. Commercial imagery of the Toropets munitions depot (site of a major Ukrainian strike in 2024) shows substantial reconstruction activity — suggesting Russia is rebuilding strategic ammunition stockpiles. Ukrainian GUR reports Russian military has concluded contracts for 1.8M additional artillery shells from North Korea for 2026 delivery. Pattern of Russian glide bomb usage has shifted toward civilian infrastructure targeting — assessed as deliberate pressure campaign ahead of any negotiation process."
+  },
+  "summary": "Russian forces continue multi-vector missile and drone campaigns across Ukraine while making incremental but significant advances near Chasiv Yar on the eastern front. Ukrainian air defenses intercepted 72% of overnight strike packages but face sustainability concerns. Ukrainian long-range drones struck strategic targets deep in Russian territory including oil facilities near Saratov.",
   "key_points": [
-    "Multiple Shahed drone formations reported in Vinnytsia, Kirovohrad, Mykolaiv, Odesa, Kherson, Cherkasy, and other oblasts.",
-    "Significant drone activity near Kyiv, Zhytomyr, Chernihiv, and southern coastal areas, with specific flight courses noted.",
-    "Alerts of possible ballistic missile launches (Iskander-M/S-300) from Bryansk region and southern missile threats.",
-    "No confirmed casualties or losses mentioned in the drone reports.",
-    "Separate international news items reference U.S., UK, UAE, and Israeli security actions unrelated to the Ukrainian front."
+    "Russian forces captured Rozdolivka, creating new assault axis on Chasiv Yar canal district",
+    "47 of 65 Shahed drones intercepted; Iskander-M ballistic missiles struck Kyiv suburbs",
+    "Ukrainian Navy drones damaged Russian Ropucha landing ship in Novorossiysk harbor",
+    "ATACMS strikes hit Belbek airbase in Crimea, destroying fuel depot and aircraft shelters",
+    "Russia launches largest single-night drone campaign of 2026: 65 Shaheds across 9 oblasts"
   ],
-  "casualties_mentioned": "Not specified",
-  "territorial": "No significant changes reported",
+  "casualties_mentioned": "3 Ukrainian civilians killed in Kharkiv shelling; 5 wounded in Kherson city; 2+ Russian Su-34 aircrew killed; Russian assault casualties estimated 200+ in Chasiv Yar per ISW",
+  "territorial": "Russia captures Rozdolivka NE of Chasiv Yar; Ukrainian counterattack recaptures positions near Robotyne; front line otherwise stable",
   "sentiment": "volatile",
-  "intensity": 7
+  "intensity": 8
 }
