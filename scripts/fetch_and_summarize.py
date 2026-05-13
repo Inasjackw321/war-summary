@@ -14,11 +14,9 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
 # Tried in order until one succeeds
 MODELS = [
-    "google/gemini-2.5-flash-preview-05-20",
-    "anthropic/claude-3.5-haiku",
-    "meta-llama/llama-3.3-70b-instruct",
-    "google/gemma-3-27b-it:free",
-    "mistralai/mistral-7b-instruct:free",
+    "google/gemma-4-31b-it:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "openai/gpt-oss-120b:free",
 ]
 
 CONFLICTS = {
