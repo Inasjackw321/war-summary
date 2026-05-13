@@ -1,6 +1,6 @@
 {
   "conflict": "Iran War Summary",
-  "updated_at": "2026-05-13T09:00:45.257815+00:00",
+  "updated_at": "2026-05-13T09:29:30.120562+00:00",
   "message_count": 120,
   "channels": [
     "N12chat",
@@ -19,7 +19,7 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 5,
+  "red_alerts": 6,
   "red_alerts_timeline": [
     0,
     0,
@@ -27,10 +27,10 @@
     0,
     0,
     0,
-    2,
+    3,
     0,
     0,
-    5,
+    6,
     0,
     0,
     0,
@@ -89,77 +89,78 @@
     "@VahidOnline": 8,
     "@idf_telegram": 8
   },
-  "summary": "Intensified cross‑border hostilities continue between Israel and Hezbollah in southern Lebanon, with multiple drone and rocket incidents and Israeli airstrikes on Hezbollah infrastructure. Iran faces internal challenges, including earthquake activity and political debates over military‑related legislation, while regional powers discuss the broader war context. No major territorial shifts are reported, but casualty reports and alert events indicate a volatile security environment.",
+  "summary": "Intensified cross‑border hostilities continue between Israel and Hezbollah, with multiple drone and rocket attacks and Israeli airstrikes on over 40 Hezbollah sites in southern Lebanon. Iran reports a series of low‑magnitude earthquakes and a high‑profile execution of a convicted Mossad spy, while Russia announces progress on the Sarmat ICBM. Domestic political turbulence in Israel and Iran adds further complexity to the regional security environment.",
   "key_points": [
-    "Hezbollah launched drones and rockets at Israeli positions; IDF responded with airstrikes on over 40 Hezbollah sites.",
-    "Israeli strikes hit civilian structures in southern Lebanon, including buildings in the town of Sour.",
-    "Iran reports a series of moderate earthquakes and internal political debates over a draft investigation law.",
-    "Russia announced a successful test of the Sarmat ICBM and continues missile production.",
-    "UAE involvement in the US‑Israel‑Iran conflict is condemned by an Iranian university as \"categorically haram\"."
+    "Israel conducts large‑scale airstrikes on Hezbollah infrastructure, reporting over 40 targets hit and 15 operatives killed.",
+    "Hezbollah launches repeated drone and rocket attacks on Israeli border communities, causing limited injuries.",
+    "Iran executes a Mossad‑linked spy and reports a cluster of minor earthquakes in Tehran province.",
+    "Russia declares successful testing of the Sarmat ICBM, projecting deployment by year‑end.",
+    "Political instability in Israel (Netanyahu court hearing, coalition disputes) and Iran (foreign ministry call with Azerbaijan) persists."
   ],
-  "casualties_mentioned": "At least two Israeli personnel wounded (one NCO, one reservist) and several Hezbollah operatives killed; a motorcyclist died in a traffic accident in Haifa; no civilian deaths reported from the latest cross‑border attacks.",
-  "territorial": "No significant territorial changes; incidents remain confined to border areas of southern Lebanon and northern Israel.",
+  "casualties_mentioned": "At least two Israeli personnel wounded (one NCO, one reservist) and several Hezbollah operatives killed; civilian injuries not reported.",
+  "territorial": "No territorial changes; engagements remain along the Israel‑Lebanon border.",
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Cross‑border fighting between Israel and Hezbollah has escalated with repeated drone and rocket attacks and extensive Israeli airstrikes on Hezbollah infrastructure. Iran is dealing with seismic activity and internal political disputes, while Russia showcases strategic missile capabilities. Regional actors, notably the UAE, face criticism from Iranian outlets for perceived involvement in the broader conflict.",
+    "executive_summary": "Hostilities on the Israel‑Lebanon frontier have escalated, with the IDF reporting strikes on more than 40 Hezbollah sites and the death of about 15 militants. Hezbollah continues to fire drones and rockets, prompting sirens in multiple border towns but causing few casualties. Iran's internal security actions and Russia's strategic weapons development add broader regional tension, while domestic political crises in Israel and Iran complicate decision‑making.",
     "iran": {
       "title": "Iran",
       "subtitle": "Military operations in and against Iran",
       "points": [
-        "Iran reported a magnitude 4.6 earthquake near Tehran and multiple smaller tremors, with no confirmed damage or casualties.",
-        "Domestic political debate centers on a coalition‑proposed investigation committee law, with accusations of deliberate textual errors and opposition from Haredi parties."
+        "Iran executed a convicted Mossad spy accused of funneling sensitive military and cyber intelligence to Israel.",
+        "The Iranian seismological agency reported a magnitude 4.6 quake and a series of nine smaller tremors near Tehran, with no confirmed damage.",
+        "Iranian foreign minister held a telephone conversation with Azerbaijan's counterpart to discuss regional diplomatic developments."
       ]
     },
     "israel": {
       "title": "Israel",
       "subtitle": "IDF operations and Israeli security assessments",
       "points": [
-        "The IDF confirmed killing about 15 Hezbollah operatives and striking multiple rocket launchers and weapon depots in southern Lebanon over the past day.",
-        "Two Israeli soldiers were wounded (one moderately, one lightly) by a Hezbollah drone that penetrated Israeli territory near the Lebanon border."
+        "The IDF announced airstrikes on over 40 Hezbollah sites, including weapon depots and rocket launchers, and reported killing roughly 15 operatives.",
+        "Israeli forces suffered two injuries (a moderately wounded NCO and a lightly wounded reservist) from a Hezbollah drone attack."
       ]
     },
     "gaza_west_bank": {
       "title": "Gaza & West Bank",
       "subtitle": "Ongoing operations in Palestinian territories",
       "points": [
-        "No direct Gaza or West Bank incidents were mentioned in the supplied messages.",
-        "The focus remains on the Israel‑Lebanon frontier and broader regional dynamics."
+        "No specific Gaza or West Bank incidents were mentioned in the collected messages.",
+        "The focus remains on the Israel‑Lebanon front and broader regional developments."
       ]
     },
     "lebanon": {
       "title": "Lebanon",
       "subtitle": "Hezbollah activity and border incidents",
       "points": [
-        "Hezbollah launched several drones and rockets toward Israeli positions, triggering sirens in border communities such as Margaliot, Manara, Avivim, Zarit, and others.",
-        "Israeli forces conducted airstrikes on more than 40 Hezbollah sites, including weapons depots, rocket launchers, and a building in the town of Sour."
+        "Hezbollah launched multiple drones and rockets toward Israeli border communities (Margaliot, Manara, Avivim, Zarit), triggering alarms but causing limited injuries.",
+        "At least five vehicles were attacked from the air in southern Lebanon since early morning, and a building in the city of Sour was hit by Israeli strikes."
       ]
     },
     "syria_iraq": {
       "title": "Syria & Iraq",
       "subtitle": "Regional proxy activity",
       "points": [
-        "No specific Syrian or Iraqi events were detailed in the messages.",
-        "Regional proxy considerations are implied through references to broader US‑Israel‑Iran tensions."
+        "No direct Syrian or Iraqi operations were reported in the supplied messages.",
+        "Regional focus remains on the Israel‑Lebanon confrontation and broader great‑power maneuvers."
       ]
     },
     "gulf_states": {
       "title": "Gulf States",
       "subtitle": "Regional state reactions and incidents",
       "points": [
-        "Russia announced a successful test of the Sarmat ICBM with a projected 35,000 km range, indicating heightened strategic competition.",
-        "The UAE was labeled \"categorically haram\" by an Iranian university for alleged participation in a US‑Israel war effort against Iran."
+        "Saudi Arabia’s air force reportedly conducted strikes in Iran during the ongoing war, according to Reuters.",
+        "Russia announced a successful test of the Sarmat intercontinental ballistic missile, indicating heightened strategic posturing."
       ]
     },
     "key_developments": [
-      "Hezbollah drone and rocket attacks on Israeli border positions",
-      "IDF airstrikes on over 40 Hezbollah infrastructure sites",
-      "Iranian earthquake swarm and internal legislative dispute",
-      "Russia's Sarmat ICBM test success",
-      "UAE condemned by Iranian institution for involvement in US‑Israel conflict"
+      "IDF strikes >40 Hezbollah sites, kills ~15 militants",
+      "Hezbollah drone and rocket barrage triggers multiple border alerts",
+      "Iran executes Mossad spy, reports minor earthquakes",
+      "Russia tests Sarmat ICBM, plans deployment by year‑end",
+      "Political turbulence in Israel (Netanyahu court hearing, coalition disputes)"
     ],
-    "threat_assessment": "The risk of rapid escalation remains high due to ongoing aerial and missile exchanges along the Israel‑Lebanon border and the presence of wounded personnel on both sides. Iran's internal instability and Russia's missile developments add strategic depth to the threat environment.",
-    "regional_response": "International actors have not issued coordinated diplomatic statements in the messages, but regional narratives show condemnation of external involvement (UAE) and continued military posturing by Russia. Israeli officials continue to hold briefings and cabinet meetings to manage the situation.",
-    "intelligence_notes": "Signal traffic indicates a sustained pattern of Hezbollah low‑altitude drone incursions, prompting Israeli air defenses to remain on high alert. Concurrently, Iranian domestic unrest over legislative language may affect internal cohesion, while Russian ICBM testing signals a broader escalation of great‑power competition."
+    "threat_assessment": "The risk of rapid escalation remains high due to ongoing tit‑for‑tat strikes along the Israel‑Lebanon border and the involvement of external powers. While casualties are limited, the frequency of alerts and the scale of air operations suggest a volatile environment that could broaden if either side expands its target set.",
+    "regional_response": "International actors have issued limited statements; Russia highlighted its strategic weapons progress, and Saudi Arabia claimed air action against Iran. Diplomatic channels, such as the Iran‑Azerbaijan foreign‑minister call, indicate attempts to manage broader regional fallout.",
+    "intelligence_notes": "Signal traffic shows increased coordination of Israeli strikes on Hezbollah logistics hubs, while Hezbollah continues to employ low‑cost drones and rockets to maintain pressure. Iranian internal security actions and Russian missile developments may influence future strategic calculations across the theater."
   }
 }

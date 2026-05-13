@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-13T09:03:21.673066+00:00",
+  "updated_at": "2026-05-13T09:30:53.454440+00:00",
   "message_count": 48,
   "channels": [
     "eRadarrua",
@@ -11,7 +11,7 @@
     "front_ukrainian",
     "DeepStateUA"
   ],
-  "red_alerts": 12,
+  "red_alerts": 2,
   "red_alerts_timeline": [
     0,
     0,
@@ -19,10 +19,10 @@
     0,
     0,
     0,
-    6,
+    1,
     0,
     0,
-    12,
+    2,
     0,
     0,
     0,
@@ -72,79 +72,79 @@
     "@UkraineNow": 8,
     "@DeepStateUA": 8
   },
-  "summary": "Ukrainian forces report a high volume of Shahed drone activity across multiple regions, with several alerts for inbound UAVs and occasional ballistic missile threats. Russian attacks continue on infrastructure in the south and east, causing civilian casualties. International news unrelated to the front is interspersed, but the primary operational picture shows intensified aerial pressure and localized ground advances near Pazeny, Kalynivka and Riznyky. Diplomatic activity focuses on sanctions and aid, while U.S. and NATO observers increase presence.",
+  "summary": "Ukrainian forces continue to face intensive Shahed and UAV attacks across multiple regions, with notable strikes on Kyiv, Poltava, Dnipropetrovsk and the north. Russian launch activity includes multiple KA-B missile salvos in Zaporizhzhia and northern Kharkiv. Casualties are reported from attacks on civilian infrastructure and a few fatalities in Kryvyi Rih. International attention remains focused on sanctions, aid and foreign military assistance.",
   "key_points": [
-    "Shahed drone waves reported in Kyiv, Zhytomyr, Chernihiv, Mykolaiv, Vinnytsia and other oblasts",
-    "Ballistic missile threat from Bryansk region noted but later dismissed",
-    "Russian strikes on civilian infrastructure in Kropyvnytskyi, Kryvyi Rih, Poltava and Dnipropetrovsk regions",
-    "Ukrainian air defenses claim destruction of multiple Shahed drones in short periods",
-    "International sanctions and diplomatic statements on Russian war crimes and child deportations"
+    "High volume of Shahed and UAV attacks reported in Kyiv, Chernihiv, Zhytomyr and other oblasts",
+    "Russian KA-B missile launches in Zaporizhzhia and northern Kharkiv",
+    "Civilian casualties and power outages in Poltava, Dnipropetrovsk and Kryvyi Rih",
+    "Ukrainian air defense claims successful interception of several Shahed drones",
+    "International diplomatic activity includes UK sanctions, US‑Ukrainian talks and NATO‑related assistance"
   ],
-  "casualties_mentioned": "At least 10 civilian deaths reported (2 in Kryvyi Rih, 8 in Dnipropetrovsk region) with additional injuries.",
-  "territorial": "Ukrainian reports of Russian advances near Pazeny, Kalynivka and Riznyky; no major front‑line changes elsewhere.",
+  "casualties_mentioned": "At least two civilians killed and several injured in Kryvyi Rih; multiple civilian power outages and infrastructure damage reported; no large‑scale military casualties specified",
+  "territorial": "No significant territorial changes; Russian forces reported advancing near Pazenko, Kalenyky and Riznyky, and near Zakytne, but Ukrainian sources do not confirm gains",
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian defenses are contending with a surge of Shahed drone attacks across the north, central and southern oblasts, while occasional ballistic missile warnings add to the pressure. Russian forces continue to strike civilian and energy infrastructure, causing casualties and power outages. Limited ground gains are reported near Pazeny, Kalynivka and Riznyky. International response includes new sanctions and increased military advisory presence.",
+    "executive_summary": "Ukrainian air defenses are under sustained pressure from Shahed drones and Russian KA-B missiles, especially around Kyiv and the northern front. Russian forces continue limited offensive pushes in the east and south, while Ukraine reports infrastructure damage and civilian casualties. International partners are increasing sanctions and military assistance, but the front lines remain largely static.",
     "ukraine": {
       "title": "Ukraine",
       "subtitle": "Ukrainian defensive operations and strikes",
       "points": [
-        "Air defense units reported intercepting dozens of Shahed drones, including a notable 7‑drone kill by the 92nd OShBr within three hours.",
-        "Ukrainian authorities issued multiple civil alerts for inbound UAVs in Kyiv, Zhytomyr, Chernihiv, Mykolaiv and Vinnytsia, urging residents to seek shelter.",
-        "Ukrainian forces repelled attacks on power infrastructure in Poltava and limited Russian advances near Pazeny, Kalynivka and Riznyky."
+        "Ukrainian air defense units intercepted multiple Shahed drones over Kyiv, Zhytomyr, Vinnytsia and other oblasts, claiming several kills.",
+        "Ukrainian forces reported successful strikes on Russian logistics, including a reported attack on the Dniester hydroelectric plant in Novodnistrovsk.",
+        "Civilian infrastructure was hit in Poltava (power substation) and Dnipropetrovsk region, causing widespread outages and several deaths."
       ]
     },
     "russia": {
       "title": "Russia",
       "subtitle": "Russian military operations and posture",
       "points": [
-        "Russian forces launched Shahed drone waves from multiple directions, targeting major cities and transport corridors.",
-        "Occasional ballistic missile launches were signaled from Bryansk, but Ukrainian air defenses reported a successful mitigation."
+        "Russia launched KA-B missile salvos from Zaporizhzhia and northern Kharkiv, targeting Ukrainian positions.",
+        "Russian commanders reportedly believe they can capture the entire Donbas by autumn, indicating a strategic focus on the eastern front."
       ]
     },
     "eastern_front": {
       "title": "Eastern Front",
       "subtitle": "Donetsk & Luhansk combat operations",
       "points": [
-        "No specific new combat events reported for Donetsk or Luhansk in the supplied messages.",
-        "Russian artillery and drone activity continues to pressure Ukrainian positions, but no territorial shifts are detailed."
+        "No new major offensives reported; Russian claims of potential Donbas capture remain speculative.",
+        "Ukrainian forces continue to hold key positions, with no confirmed territorial losses in the region."
       ]
     },
     "northern_front": {
       "title": "Northern Front",
       "subtitle": "Kharkiv region and Sumy border activity",
       "points": [
-        "Shahed drones reported heading toward Kharkiv and Sumy directions from Mykolaiv and Chernihiv origins.",
-        "Ukrainian air defenses remain on high alert; no confirmed ground engagements were mentioned."
+        "Russian KA-B launches in northern Kharkiv were noted, but Ukrainian defenses reported limited impact.",
+        "Ukrainian intelligence indicated groups of UAVs moving from Chernihiv toward Kyiv and from Kyiv toward Zhytomyr, suggesting continued pressure on the northern axis."
       ]
     },
     "southern_front": {
       "title": "Southern Front",
       "subtitle": "Zaporizhzhia & Kherson operations",
       "points": [
-        "Russian attacks hit civilian infrastructure in Kryvyi Rih, Kropyvnytskyi and Dnipropetrovsk, causing fatalities.",
-        "Ukrainian forces reported new Shahed groups moving north‑west from Mykolaiv toward Vinnytsia and Khmelnytskyi."
+        "KA-B missile launches from Zaporizhzhia indicate ongoing Russian strike capability in the south.",
+        "Ukrainian reports of Shahed attacks from the Black Sea towards Odesa and Mykolaiv highlight continued maritime threat vectors."
       ]
     },
     "air_war": {
       "title": "Air War",
       "subtitle": "Drone, missile and aviation operations",
       "points": [
-        "Multiple Shahed drone formations (up to 70 in Mykolaiv) were observed moving toward central Ukraine, prompting civil alerts.",
-        "Ballistic missile threat from Bryansk was announced and later cancelled, indicating possible Russian deception or aborted launch.",
-        "Ukrainian air defense claimed successful interception of several drone waves, including a 7‑drone kill by a single battery."
+        "Multiple Shahed drone swarms reported across central and northern Ukraine, with Ukrainian air defenses claiming several interceptions.",
+        "Russian KA-B missile launches in Zaporizhzhia and Kharkiv increase the missile threat to Ukrainian rear areas.",
+        "Ukrainian authorities issued repeated air‑raid alerts in Kyiv and other cities, reflecting high alert status."
       ]
     },
     "key_developments": [
-      "Massive Shahed drone waves across multiple oblasts",
-      "Ballistic missile threat from Bryansk region",
-      "Ukrainian air defense destroys 7 Shahed drones in three hours",
-      "Russian strikes kill civilians in Kryvyi Rih and Dnipropetrovsk",
-      "International sanctions targeting Russian officials involved in child deportations"
+      "Intensified Shahed drone attacks on Kyiv and northern oblasts",
+      "Russian KA-B missile salvos in Zaporizhzhia and Kharkiv",
+      "Civilian casualties and power outages in Poltava and Dnipropetrovsk",
+      "Ukrainian air defense claims multiple drone interceptions",
+      "International sanctions and pledges of additional aid"
     ],
-    "threat_assessment": "The threat level remains high due to sustained UAV attacks and intermittent ballistic missile warnings, raising the risk of escalation. Ukrainian air defenses are strained but appear effective in limiting damage.",
-    "regional_response": "Western nations continue to impose sanctions on Russian actors and pledge additional military assistance, including U.S. advisory teams focusing on drone warfare. NATO allies are coordinating air‑defense support and humanitarian aid.",
-    "intelligence_notes": "The pattern of coordinated Shahed launches from several origin points suggests a Russian intent to overwhelm Ukrainian air defenses and disrupt logistics. Ballistic missile alerts may be used as psychological pressure rather than actual strikes."
+    "threat_assessment": "The threat level remains high due to sustained drone and missile attacks on civilian centers and critical infrastructure. While front‑line positions are largely static, the volume of aerial threats suggests an escalation risk if Russian strike capacity expands.",
+    "regional_response": "The UK announced new sanctions targeting Russian actors involved in child deportations, while the US confirmed deployment of military experts to study Ukrainian drone warfare. NATO allies continue to discuss further air‑defence support.",
+    "intelligence_notes": "Signal traffic indicates coordinated UAV launches from multiple directions, including new maritime vectors from the Black Sea. The frequency of air‑raid alerts and reported interceptions suggests Ukrainian air‑defence systems are operating near capacity."
   }
 }
