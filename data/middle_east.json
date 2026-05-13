@@ -1,7 +1,7 @@
 {
   "conflict": "Iran War Summary",
-  "updated_at": "2026-05-13T12:11:18.452596+00:00",
-  "message_count": 96,
+  "updated_at": "2026-05-13T15:48:31.480494+00:00",
+  "message_count": 120,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -19,7 +19,7 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 5,
+  "red_alerts": 2,
   "red_alerts_timeline": [
     0,
     0,
@@ -30,13 +30,13 @@
     0,
     0,
     0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
     2,
-    0,
-    0,
-    5,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -47,117 +47,120 @@
     0
   ],
   "combined_activity_timeline": [
+    3,
     2,
     1,
     1,
-    1,
-    1,
-    3,
+    2,
     4,
+    5,
+    7,
+    8,
+    9,
+    9,
+    8,
+    7,
     6,
     6,
     7,
     7,
     6,
-    6,
-    5,
-    5,
-    6,
-    6,
     5,
     4,
     4,
     4,
-    3,
-    3,
-    2
+    4,
+    3
   ],
   "messages_by_channel": {
+    "@N12chat": 8,
     "@manniefabian": 8,
     "@asafroz": 8,
     "@yediotnews25": 8,
     "@SharghDaily": 8,
+    "@amitsegal": 8,
     "@presstv": 8,
     "@mamlekate": 8,
     "@kianmeli1": 8,
     "@Faytuks_Network": 8,
+    "@rodast_omiddana": 8,
     "@naya_foriraq": 8,
     "@tzevaadom_en": 8,
     "@VahidOnline": 8,
     "@idf_telegram": 8
   },
-  "summary": "Intense cross‑border hostilities continue between Israel and Hezbollah in southern Lebanon, with multiple rocket, drone and airstrike incidents reported. Iran is referenced in diplomatic visits, regional naval tensions and propaganda, but no direct military actions were detailed. Other regional actors, including Gulf states and Russia, are engaged in diplomatic and logistical maneuvers. Overall, the situation remains volatile with a high level of kinetic activity.",
+  "summary": "Hezbollah intensified its border attacks with rockets and drones, prompting multiple Israeli airstrikes on Hezbollah sites in southern Lebanon. Israeli domestic focus includes AI education initiatives and political statements, while Iran highlighted national pride through football team engagements. Casualties remain limited, with no reported injuries from the latest border incidents.",
   "key_points": [
-    "IDF reports killing 15 Hezbollah operatives and striking 40 sites in the past day.",
-    "Hezbollah launched several rockets and drones at Israeli forces, with interceptions but no casualties.",
-    "Iranian officials visited the UAE for coordination, and Iran claims control over Strait of Hormuz traffic.",
-    "US‑UK and other Western statements highlight ongoing sanctions and military posturing in the region.",
-    "Multiple civilian incidents reported in the Philippines and the UK, unrelated to the core conflict."
+    "Hezbollah launched rockets and drones at Israeli forces, triggering IDF airstrikes.",
+    "IDF reported destruction of Hezbollah weapon depots and launchers.",
+    "Israel announced major AI education investments during the summer break.",
+    "Iranian President Pezeshkian met the national football team, emphasizing unity.",
+    "UNIFIL reported several drone incidents near its headquarters, attributing them to Hezbollah."
   ],
-  "casualties_mentioned": "15 Hezbollah operatives killed; one Israeli NCO moderately wounded and one reservist lightly wounded; at least one civilian killed in Sidon drone strike.",
-  "territorial": "No territorial changes; engagements remain along the Israel‑Lebanon border and over maritime routes.",
+  "casualties_mentioned": "No injuries reported from recent rocket and drone incidents; separate civilian injury (5‑year‑old) unrelated to border fighting.",
+  "territorial": "No significant changes reported; engagements remain confined to southern Lebanon border area.",
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 6,
   "sections": {
-    "executive_summary": "Kinetic exchanges between Israel and Hezbollah have intensified, with dozens of airstrikes, rocket launches and drone interceptions reported in the past 24‑48 hours. Iran is active diplomatically, asserting control over the Strait of Hormuz and coordinating with the UAE, while Western powers continue to issue statements and deploy assets. The broader region sees heightened alertness but no major territorial shifts.",
+    "executive_summary": "Hezbollah escalated its campaign with rockets and drones targeting Israeli positions, leading to a series of IDF airstrikes on Hezbollah infrastructure in southern Lebanon. Israeli authorities simultaneously pushed forward domestic AI education initiatives and political messaging. Iran focused on soft power, showcasing national unity through sports, while UN forces in Lebanon reported multiple drone incidents.",
     "iran": {
       "title": "Iran",
       "subtitle": "Military operations in and against Iran",
       "points": [
-        "Iranian Army warned that US weapons will no longer be allowed to transit the Strait of Hormuz, claiming strategic control of the waterway.",
-        "Mossad chief David Barnea reportedly visited the United Arab Emirates multiple times to coordinate ongoing operations.",
-        "Press TV and other Iranian outlets broadcast statements asserting readiness to fight the US and criticizing US leadership."
+        "Iranian President Pezeshkian met the national football team, stressing national pride and unity.",
+        "No direct military actions involving Iran were reported in the collected messages.",
+        "Iranian media highlighted domestic policy statements on education and industry, but no combat operations."
       ]
     },
     "israel": {
       "title": "Israel",
       "subtitle": "IDF operations and Israeli security assessments",
       "points": [
-        "IDF announced killing 15 Hezbollah operatives and striking 40 Hezbollah sites, including rocket launchers and weapon depots.",
-        "Israeli forces reported a drone attack that wounded a non‑commissioned officer and a reservist; multiple rockets were intercepted with no injuries."
+        "IDF conducted airstrikes on at least 40 Hezbollah sites, destroying weapon depots, rocket launchers and drone launch platforms.",
+        "Israeli government announced a multi‑billion‑shekel AI education program for schools during the summer break."
       ]
     },
     "gaza_west_bank": {
       "title": "Gaza & West Bank",
       "subtitle": "Ongoing operations in Palestinian territories",
       "points": [
-        "No direct Gaza or West Bank incidents were detailed in the provided messages.",
-        "International media referenced broader US‑Israeli strategic context but no specific actions."
+        "IDF reported killing Hamas commander Hamza Sharbasi and Azzam al‑Hayya in a Gaza airstrike.",
+        "No new large‑scale ground operations or civilian casualty figures were mentioned."
       ]
     },
     "lebanon": {
       "title": "Lebanon",
       "subtitle": "Hezbollah activity and border incidents",
       "points": [
-        "Hezbollah fired several rockets and launched drones at Israeli troops in southern Lebanon; some rockets were intercepted and others landed in open areas.",
-        "Israeli air defenses shot down two apparent drones; sirens were triggered in border communities Avivim, Zarit and others."
+        "Hezbollah fired rockets and drones at Israeli troops near Zarit, triggering sirens but causing no injuries.",
+        "UNIFIL documented multiple drone attacks on its Naqoura headquarters, attributing them to Hezbollah and noting Iranian‑made components."
       ]
     },
     "syria_iraq": {
       "title": "Syria & Iraq",
       "subtitle": "Regional proxy activity",
       "points": [
-        "No explicit Syrian or Iraqi battlefield events were reported in the messages.",
-        "Reuters noted Iraq and Pakistan negotiating an oil‑gas transit route with Iran, indicating broader regional energy dynamics."
+        "No specific Syrian or Iraqi proxy actions were detailed in the messages.",
+        "Regional narratives referenced historical US‑Iran tensions but lacked operational detail."
       ]
     },
     "gulf_states": {
       "title": "Gulf States",
       "subtitle": "Regional state reactions and incidents",
       "points": [
-        "UAE hosted visits by Israeli and Iranian officials for coordination amid the conflict.",
-        "UK announced deployment of advanced air‑defence and maritime assets to protect shipping in the Strait of Hormuz."
+        "Saudi Arabia reported its lowest oil production since 1990, citing regional instability linked to the Gulf war context.",
+        "No direct military engagement involving Gulf states was noted."
       ]
     },
     "key_developments": [
-      "IDF kills 15 Hezbollah operatives and strikes 40 sites",
-      "Hezbollah rockets and drones fire on Israeli border troops",
-      "Iran claims control of Strait of Hormuz traffic",
-      "Mossad chief visits UAE for coordination",
-      "UK deploys air‑defence and naval assets to Hormuz"
+      "Hezbollah rocket and drone attacks on Israeli border positions",
+      "IDF large‑scale airstrikes on Hezbollah infrastructure",
+      "UNIFIL drone incidents at Naqoura headquarters",
+      "Israel's AI education investment announcement",
+      "Iranian President's football team meeting"
     ],
-    "threat_assessment": "The threat level remains high with frequent cross‑border fire and air operations, raising the risk of broader escalation. Iran's assertive stance over maritime routes adds a strategic dimension that could draw additional actors into the conflict.",
-    "regional_response": "Western nations are reinforcing naval and air‑defence capabilities in the Gulf, while diplomatic visits between Israel, Iran and the UAE suggest covert coordination. No major diplomatic de‑escalation initiatives were reported.",
-    "intelligence_notes": "The pattern of repeated rocket and drone launches by Hezbollah, coupled with Israeli kinetic responses, indicates a sustained low‑intensity campaign that could flare. Iranian statements about Strait of Hormuz control and coordination with the UAE may signal preparation for wider maritime pressure."
+    "threat_assessment": "Hezbollah's renewed use of rockets and drones raises the risk of rapid escalation along the Israel‑Lebanon frontier, while Israeli retaliatory strikes could provoke further retaliation. Overall threat remains high but contained to the border zone.",
+    "regional_response": "UNIFIL documented drone attacks and called for restraint; no major diplomatic interventions were reported. International attention focuses on preventing spillover while monitoring Iran's indirect influence via proxy groups.",
+    "intelligence_notes": "The pattern of coordinated rocket and drone launches suggests improved Hezbollah operational capability, possibly supported by external actors. Israeli airstrike intensity indicates a shift to pre‑emptive targeting of launch sites, aiming to degrade Hezbollah's strike capacity."
   }
 }

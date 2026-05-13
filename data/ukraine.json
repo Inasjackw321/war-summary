@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-13T12:12:25.377818+00:00",
-  "message_count": 40,
+  "updated_at": "2026-05-13T15:50:14.490827+00:00",
+  "message_count": 48,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,7 +11,7 @@
     "front_ukrainian",
     "DeepStateUA"
   ],
-  "red_alerts": 1,
+  "red_alerts": 3,
   "red_alerts_timeline": [
     0,
     0,
@@ -22,13 +22,13 @@
     0,
     0,
     0,
+    0,
+    0,
+    0,
     1,
     0,
     0,
-    1,
-    0,
-    0,
-    0,
+    3,
     0,
     0,
     0,
@@ -46,101 +46,105 @@
     1,
     1,
     2,
+    3,
+    3,
+    4,
+    4,
+    3,
+    3,
+    2,
     2,
     3,
     3,
-    3,
-    3,
     2,
     2,
     2,
     2,
-    2,
-    2,
-    2,
-    1,
-    1,
     1,
     1,
     1
   ],
   "messages_by_channel": {
+    "@eRadarrua": 8,
     "@kpszsu": 8,
     "@mon1tor_ua": 8,
     "@Faytuks_Network": 8,
     "@UkraineNow": 8,
     "@DeepStateUA": 8
   },
-  "summary": "Ukraine is facing a massive, coordinated UAV-led aerial assault targeting multiple regions including Volyn, Rivne, Kyiv, and Western Ukraine. Significant civilian casualties and infrastructure damage have been reported in Rivne, Kherson, Odessa, and Cherkasy. Concurrently, Russian forces have made incremental tactical advances near Pazeno and Zakitne.",
+  "summary": "Ukrainian forces continue to repel massive Shahed drone waves across the western, central and northern regions, reporting over 700 drones downed and several casualties. Russian operations include coordinated drone swarms, missile launches and KAB rockets on multiple fronts, with intensified pressure on Kyiv and Kharkiv. Civilian support drives fundraising efforts, while international attention remains focused on the escalating air campaign.",
   "key_points": [
-    "Massive coordinated Shahed drone swarm targeting Western and Central Ukraine",
-    "Civilian casualties and infrastructure damage reported in Rivne, Kherson, Odessa, and Cherkasy",
-    "Russian forces reported advancing near Pazeno, Kaleniky, Riznykivka, and Zakitne",
-    "UK imposes new sanctions against 85 individuals/entities regarding child deportations",
-    "Pentagon confirms deployment of US military specialists to Ukraine to study drone warfare"
+    "Massive Shahed drone attacks across western and central Ukraine, >700 downed.",
+    "Russian use of strategic aviation, ballistic missiles and KAB rockets in coordinated strikes.",
+    "Casualties reported: at least 6 civilians killed and dozens injured.",
+    "Ukrainian air defenses and REB units actively intercepting drones on all regions.",
+    "No territorial changes reported; front lines remain static."
   ],
-  "casualties_mentioned": "Multiple casualties reported: 2 dead and 4 wounded in Rivne; 3 injured in Cherkasy; 2 injured in Odessa; 7 injured in Kherson; 3 injured in Khmelnytskyi.",
-  "territorial": "Russian forces have advanced near Pazeno, Kaleniky, Riznykivka, and Zakitne.",
+  "casualties_mentioned": "At least 6 civilian deaths and multiple injuries reported in recent attacks.",
+  "territorial": "No significant changes reported",
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "The operational environment is characterized by a high-intensity aerial campaign using loitering munitions across the entire country. While the air war causes significant civilian hardship and infrastructure damage, the ground situation remains fluid with incremental Russian advances. International focus is shifting toward technical military exchange and sanctions related to war crimes.",
+    "executive_summary": "Ukrainian air defenses are under intense pressure from coordinated Russian drone and missile barrages, especially targeting the west and Kyiv region. Over 700 hostile UAVs have been shot down, but attacks continue with the threat of a second wave involving strategic aircraft. Casualties remain modest relative to the scale of attacks, and front lines are unchanged.",
     "ukraine": {
       "title": "Ukraine",
       "subtitle": "Ukrainian defensive operations and strikes",
       "points": [
-        "The 92nd Separate Assault Brigade successfully intercepted seven Shahed drones within a three-hour window.",
-        "Ukrainian drone technology is being recognized globally, with Swedish military leaders noting the necessity of adopting Ukrainian drone combat experience."
+        "Air defense units across all oblasts reported shooting down 710 Shahed, Gerbera and Ittilmas drones on 13 May.",
+        "Ukrainian REB, mobile fire groups and anti‑air artillery engaged and suppressed multiple drone swarms, limiting damage.",
+        "Civilian fundraising campaigns continue to support frontline logistics and morale."
       ]
     },
     "russia": {
       "title": "Russia",
       "subtitle": "Russian military operations and posture",
       "points": [
-        "Russian forces continue to utilize large-scale UAV swarms to saturate Ukrainian air defenses.",
-        "The Kremlin continues to implement policies regarding the forced deportation and indoctrination of Ukrainian children."
+        "Russia launched massed drone attacks from the Black Sea, Belarus and Moldova, followed by a planned second wave with strategic aviation and ballistic missiles.",
+        "KAB rocket launches were reported in Sumy, Donetsk, Kharkiv, Dnipropetrovsk and Zaporizhzhia regions."
       ]
     },
     "eastern_front": {
       "title": "Eastern Front",
       "subtitle": "Donetsk & Luhansk combat operations",
       "points": [
-        "Tactical movements indicate Russian advances in the vicinity of Pazeno and Zakitne."
+        "KAB rockets fired into Donetsk region; no specific ground engagements detailed.",
+        "Ukrainian air defenses reported interceptions over the eastern oblasts, limiting drone impact."
       ]
     },
     "northern_front": {
       "title": "Northern Front",
       "subtitle": "Kharkiv region and Sumy border activity",
       "points": [
-        "Large groups of UAVs were tracked moving from Chernihiv towards the Kyiv region."
+        "Shahed drones launched from Kherson towards Kharkiv; KAB rockets also reported in Kharkiv and Sumy.",
+        "Ukrainian forces continue to defend against aerial incursions while ground positions remain unchanged."
       ]
     },
     "southern_front": {
       "title": "Southern Front",
       "subtitle": "Zaporizhzhia & Kherson operations",
       "points": [
-        "A strike in Kherson resulted in seven casualties, including the driver and six passengers of a minibus.",
-        "UAV activity was reported near the border of Odessa and Mykolaiv regions."
+        "Multiple Shahed attacks reported in Zaporizhzhia and Kherson, causing civilian injuries.",
+        "KAB rocket launches in Zaporizhzhia and Kherson added to the pressure on southern defenses."
       ]
     },
     "air_war": {
       "title": "Air War",
       "subtitle": "Drone, missile and aviation operations",
       "points": [
-        "A massive wave of Shahed drones targeted Volyn, Rivne, Lviv, Ternopil, and Khmelnytskyi regions.",
-        "UAV debris caused fires and damage to residential buildings in Odessa and Rivne.",
-        "Rheinmetall has announced the serial production of the FV-014 kamikaze drone with a 100km range."
+        "Over 892 hostile UAVs of various types (Shahed, Gerbera, Ittilmas, Parody imitators) engaged in a single day.",
+        "Strategic aviation and ballistic missiles are expected in a second wave targeting Kyiv and surrounding oblasts.",
+        "Ukrainian air force, SAM units and electronic warfare systems reported high interception rates across all regions."
       ]
     },
     "key_developments": [
-      "Coordinated multi-regional UAV swarm attack",
-      "Russian tactical advances near Pazeno and Zakitne",
-      "UK sanctions against Russian child deportation actors",
-      "US military specialists arriving in Ukraine for drone study",
-      "Rheinmetall mass production of FV-014 loitering munitions"
+      "Massive Shahed drone wave with >700 downed",
+      "Planned second wave with strategic aircraft and missiles",
+      "KAB rocket launches on multiple fronts",
+      "Civilian casualties: 6 dead, dozens injured",
+      "No territorial shifts despite intense air activity"
     ],
-    "threat_assessment": "The threat level is high due to the scale of the UAV attacks and the ability of Russia to strike deep into Western Ukraine. The simultaneous ground advances and aerial saturation suggest a sustained multi-domain pressure campaign.",
-    "regional_response": "The United Kingdom has implemented a significant sanctions package targeting Russian propaganda and child militarization. The US is increasing direct technical engagement through the deployment of military specialists.",
-    "intelligence_notes": "The high volume of UAVs moving from the Black Sea and northern borders simultaneously indicates a sophisticated command and control effort to overwhelm regional air defenses. The focus of US interest on Ukrainian drone experience highlights a critical shift in global military doctrine toward autonomous systems."
+    "threat_assessment": "The threat level remains high as Russia prepares a second, more lethal wave of attacks involving strategic aviation and ballistic missiles, especially against Kyiv. Ukrainian air defenses are strained but continue to achieve high interception rates.",
+    "regional_response": "International observers note the escalation, with NATO allies monitoring the increased drone usage and missile launches. No new diplomatic initiatives were reported in the messages.",
+    "intelligence_notes": "Frequent mentions of cross‑border launch routes via Belarus and Moldova indicate continued exploitation of neighboring airspace. The coordinated timing of drone swarms and KAB rockets suggests a deliberate effort to overwhelm Ukrainian air defenses."
   }
 }
