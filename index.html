@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Conflict Intelligence</title>
+  <meta name="description" content="AI-powered real-time summaries of global conflicts — Ukraine-Russia War and Middle East Conflict — sourced from Telegram intelligence channels." />
+
+  <!-- Leaflet map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated particle background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">GLOBAL CONFLICT INTELLIGENCE</span>
+        <span class="live-badge">● LIVE</span>
+      </div>
+      <div class="header-meta">
+        <span class="last-updated" id="lastUpdated">Loading…</span>
+        <span class="update-timer" id="updateTimer">Next update in <b id="countdown">—</b></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Scrolling ticker -->
+  <div class="ticker-wrap" id="tickerWrap">
+    <div class="ticker-label">INTEL FEED</div>
+    <div class="ticker-content" id="tickerContent">Loading feeds…</div>
+  </div>
+
+  <!-- Main -->
+  <main class="site-main">
+
+    <!-- Conflict selector tabs -->
+    <nav class="conflict-tabs" role="tablist">
+      <button class="tab-btn active" data-tab="ukraine" role="tab">
+        <span class="tab-flag">🇺🇦</span> Ukraine–Russia
+      </button>
+      <button class="tab-btn" data-tab="middle_east" role="tab">
+        <span class="tab-flag">🌍</span> Middle East
+      </button>
+    </nav>
+
+    <!-- ── UKRAINE PANEL ── -->
+    <section class="conflict-panel" id="panel-ukraine" data-src="data/ukraine.json">
+
+      <div class="panel-grid">
+
+        <!-- Summary card -->
+        <div class="card card--summary" id="ukraine-summary-card">
+          <div class="card-header">
+            <h2 class="card-title">Situation Report</h2>
+            <div class="intensity-badge" id="ukraine-intensity">LOADING</div>
+          </div>
+          <p class="summary-text" id="ukraine-summary">Fetching…</p>
+          <div class="key-points" id="ukraine-keypoints"></div>
+          <div class="detail-row">
+            <div class="detail-item">
+              <span class="detail-label">Territorial</span>
+              <span class="detail-value" id="ukraine-territorial">—</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Casualties</span>
+              <span class="detail-value" id="ukraine-casualties">—</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="card card--map">
+          <div class="card-header"><h2 class="card-title">Theater Map</h2></div>
+          <div id="map-ukraine" class="leaflet-map"></div>
+          <div class="map-legend">
+            <span class="legend-dot legend-dot--red"></span> Frontline activity
+            <span class="legend-dot legend-dot--blue"></span> Key cities
+          </div>
+        </div>
+
+        <!-- Intensity gauge -->
+        <div class="card card--gauge">
+          <div class="card-header"><h2 class="card-title">Conflict Intensity</h2></div>
+          <div class="gauge-wrap">
+            <canvas id="gauge-ukraine"></canvas>
+            <div class="gauge-label" id="gauge-ukraine-label">—/10</div>
+          </div>
+          <div class="sentiment-row" id="ukraine-sentiment-row">
+            <span class="sentiment-icon">⬤</span>
+            <span class="sentiment-text" id="ukraine-sentiment">—</span>
+          </div>
+        </div>
+
+        <!-- Channels card -->
+        <div class="card card--channels">
+          <div class="card-header"><h2 class="card-title">Source Channels</h2></div>
+          <ul class="channel-list" id="ukraine-channels"></ul>
+          <div class="msg-count">
+            <span id="ukraine-msgcount">—</span> messages analyzed
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── MIDDLE EAST PANEL ── -->
+    <section class="conflict-panel hidden" id="panel-middle_east" data-src="data/middle_east.json">
+
+      <div class="panel-grid">
+
+        <div class="card card--summary" id="middle_east-summary-card">
+          <div class="card-header">
+            <h2 class="card-title">Situation Report</h2>
+            <div class="intensity-badge" id="middle_east-intensity">LOADING</div>
+          </div>
+          <p class="summary-text" id="middle_east-summary">Fetching…</p>
+          <div class="key-points" id="middle_east-keypoints"></div>
+          <div class="detail-row">
+            <div class="detail-item">
+              <span class="detail-label">Territorial</span>
+              <span class="detail-value" id="middle_east-territorial">—</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Casualties</span>
+              <span class="detail-value" id="middle_east-casualties">—</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--map">
+          <div class="card-header"><h2 class="card-title">Theater Map</h2></div>
+          <div id="map-middle_east" class="leaflet-map"></div>
+          <div class="map-legend">
+            <span class="legend-dot legend-dot--red"></span> Active conflict zones
+            <span class="legend-dot legend-dot--blue"></span> Key locations
+          </div>
+        </div>
+
+        <div class="card card--gauge">
+          <div class="card-header"><h2 class="card-title">Conflict Intensity</h2></div>
+          <div class="gauge-wrap">
+            <canvas id="gauge-middle_east"></canvas>
+            <div class="gauge-label" id="gauge-middle_east-label">—/10</div>
+          </div>
+          <div class="sentiment-row" id="middle_east-sentiment-row">
+            <span class="sentiment-icon">⬤</span>
+            <span class="sentiment-text" id="middle_east-sentiment">—</span>
+          </div>
+        </div>
+
+        <div class="card card--channels">
+          <div class="card-header"><h2 class="card-title">Source Channels</h2></div>
+          <ul class="channel-list" id="middle_east-channels"></ul>
+          <div class="msg-count">
+            <span id="middle_east-msgcount">—</span> messages analyzed
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>AI-generated intelligence brief · Sourced from public Telegram channels · Updated every 3 hours</p>
+    <p class="footer-disclaimer">This site provides automated summaries for informational purposes only. Always verify through official sources.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
