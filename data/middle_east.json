@@ -1,6 +1,6 @@
 {
   "conflict": "Iran War Summary",
-  "updated_at": "2026-05-13T18:08:38.631598+00:00",
+  "updated_at": "2026-05-13T20:50:06.636876+00:00",
   "message_count": 120,
   "channels": [
     "N12chat",
@@ -19,7 +19,7 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 0,
+  "red_alerts": 2,
   "red_alerts_timeline": [
     0,
     0,
@@ -38,10 +38,10 @@
     0,
     0,
     0,
+    1,
     0,
     0,
-    0,
-    0,
+    2,
     0,
     0,
     0
@@ -89,77 +89,78 @@
     "@VahidOnline": 8,
     "@idf_telegram": 8
   },
-  "summary": "Hezbollah drone attacks and Israeli airstrikes continue along the Lebanon border, while Israel reports a secret diplomatic visit to the UAE amid the broader Iran‑Israel conflict. Saudi Arabia and Kuwait have struck pro‑Iran militia targets in Iraq, and the IDF has eliminated a senior Hamas operative in Gaza. Regional tensions remain high with multiple proxy engagements and diplomatic maneuvering.",
+  "summary": "Hezbollah drone attacks and Israeli airstrikes continue along the Lebanon border while the IDF conducts internal investigations and faces a sexual harassment case. Iran reports the execution of a convicted protester and denies UAE diplomatic visits, amid rumors of Chinese arms sales to Tehran. Regional politics see covert Israeli-UAE contacts and heightened parliamentary turmoil in Israel.",
   "key_points": [
-    "Hezbollah launched drones that detonated near Israeli troops and UNIFIL headquarters in southern Lebanon.",
-    "Israel conducted a wave of airstrikes on Hezbollah sites and killed a senior Hamas commander in Gaza.",
-    "Saudi and Kuwaiti forces attacked pro‑Iran militia positions in Iraq.",
-    "Prime Minister Netanyahu reportedly made a covert visit to the UAE during the Iran war, claimed to be a historic breakthrough.",
-    "Civilian casualties reported in Israel (children injured in traffic accidents) and no injuries from recent drone incidents."
+    "Hezbollah launched multiple drones targeting Israeli troops and UNIFIL in southern Lebanon.",
+    "Israel responded with airstrikes on Hezbollah sites and reported no casualties.",
+    "Iran executed a protest-related death sentence and announced a combat casualty from Israeli-US strikes.",
+    "Secret Israeli Prime Ministerial visit to the UAE was reported, suggesting diplomatic maneuvering.",
+    "Internal Israeli military issues include a senior officer suspension for sexual harassment."
   ],
-  "casualties_mentioned": "Several civilian injuries in Israel (children injured in traffic accidents) and a senior Hamas commander killed in Gaza; no injuries reported from recent drone attacks.",
-  "territorial": "No significant territorial changes reported.",
+  "casualties_mentioned": "Hezbollah drone attacks caused no injuries; Israeli airstrikes reported no casualties; Iran reported execution of Muhammad Abbasi and a death of a Revolutionary Guard member; Hamas commander and negotiator's son killed in Gaza.",
+  "territorial": "No territorial changes; engagements remain along the Israel-Lebanon border and within Gaza.",
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Hezbollah continues to employ drones against Israeli and UN forces in southern Lebanon, prompting Israeli airstrikes on the group's infrastructure. Parallel proxy actions saw Saudi and Kuwaiti strikes on Iranian‑aligned militias in Iraq. A secret Israeli‑UAE meeting was publicized, suggesting diplomatic shifts amid the broader Iran‑Israel confrontation. Overall, the region experiences heightened military activity and diplomatic signaling.",
+    "executive_summary": "Hezbollah intensified its drone campaign against Israeli forces and UN peacekeepers in southern Lebanon, prompting a fresh wave of Israeli airstrikes on Hezbollah infrastructure. Iran escalated internal repression with an execution and reported a combat loss, while diplomatic chatter suggests secret Israeli-UAE engagement. Domestic Israeli security is strained by a high‑profile sexual harassment case and political moves to dissolve the Knesset.",
     "iran": {
       "title": "Iran",
       "subtitle": "Military operations in and against Iran",
       "points": [
-        "Iranian‑linked militias in Iraq were targeted by Saudi and Kuwaiti attacks, indicating a widening front against Tehran's proxies.",
-        "Iranian officials, including the foreign minister, engaged in diplomatic outreach to BRICS partners, reflecting Tehran's attempt to counter isolation."
+        "Iran announced the execution of Muhammad Abbasi, convicted of killing a security officer during January protests.",
+        "Iran reported the death of a Revolutionary Guard member wounded by Israeli and U.S. strikes.",
+        "Chinese firms are reportedly discussing covert arms sales to Iran, though Beijing denies official approval."
       ]
     },
     "israel": {
       "title": "Israel",
       "subtitle": "IDF operations and Israeli security assessments",
       "points": [
-        "The IDF reported shooting down two drones and carried out airstrikes on Hezbollah weapon depots and launchers in southern Lebanon.",
-        "A senior Hamas commander was killed in a Gaza airstrike; additionally, an IDF colonel was suspended over a sexual‑harassment allegation."
+        "The IDF completed airstrikes on Hezbollah weapon depots and rocket launchers in southern Lebanon.",
+        "A senior colonel in the C4I and Cyber Defense Directorate was suspended pending a sexual harassment investigation."
       ]
     },
     "gaza_west_bank": {
       "title": "Gaza & West Bank",
       "subtitle": "Ongoing operations in Palestinian territories",
       "points": [
-        "Israeli airstrike in Gaza eliminated a Hamas Shejaiya Battalion commander and also killed the son of a senior Hamas negotiator.",
-        "No new reports of West Bank incidents in the supplied messages."
+        "An airstrike in Gaza killed Hamas commander Hamza Sharbasi and Azzam al‑Hayya, son of a senior Hamas negotiator.",
+        "No new operational details were provided for the West Bank in the collected messages."
       ]
     },
     "lebanon": {
       "title": "Lebanon",
       "subtitle": "Hezbollah activity and border incidents",
       "points": [
-        "Hezbollah launched multiple drones that exploded near Israeli troops and UNIFIL headquarters, causing material damage but no casualties.",
-        "UNIFIL confirmed several drone impacts on its Naqoura base, attributing them to Iranian‑manufactured drones likely operated by Hezbollah."
+        "Hezbollah launched several drones that exploded near Israeli troops; two were shot down by Israeli air defenses.",
+        "UNIFIL reported multiple drone impacts near its Naqoura headquarters, some of Iranian manufacture, with no injuries but structural damage."
       ]
     },
     "syria_iraq": {
       "title": "Syria & Iraq",
       "subtitle": "Regional proxy activity",
       "points": [
-        "Syria’s foreign minister signaled willingness to negotiate a security pact with Israel contingent on cessation of destabilizing actions.",
-        "Saudi and Kuwaiti attacks on pro‑Iran militias in Iraq demonstrate coordinated anti‑Iran proxy operations."
+        "At least two Iranian‑backed drones struck Kurdish‑Iranian opposition forces in northern Iraq.",
+        "Syria’s foreign minister called for a security agreement with Israel based on mutual respect, rejecting forced normalization."
       ]
     },
     "gulf_states": {
       "title": "Gulf States",
       "subtitle": "Regional state reactions and incidents",
       "points": [
-        "Kuwaiti authorities arrested four armed members of the “Revolutionary Guards” attempting maritime infiltration; a Kuwaiti security officer was wounded.",
-        "Iranian foreign minister accused Kuwait of illegally seizing an Iranian vessel and detaining Iranian citizens, demanding their release."
+        "UAE foreign ministry official denied reports of a Netanyahu visit, contradicting Israeli statements of a secret meeting with Sheikh Mohamed bin Zayed.",
+        "Latvia’s defence minister resigned after Ukrainian‑supplied missiles from Russia hit a Latvian oil facility, highlighting wider regional tensions."
       ]
     },
     "key_developments": [
-      "Hezbollah drone attacks on Israeli troops and UNIFIL bases",
+      "Hezbollah drone attacks on Israeli troops and UNIFIL",
       "Israeli airstrikes on Hezbollah sites in southern Lebanon",
-      "Secret Netanyahu visit to the UAE amid Iran war",
-      "Saudi and Kuwaiti strikes on pro‑Iran militias in Iraq",
-      "Killing of senior Hamas commander in Gaza"
+      "Iran’s execution of a protest‑related death sentence",
+      "Secret Israeli Prime Ministerial visit to the UAE",
+      "Suspension of senior IDF officer for sexual harassment"
     ],
-    "threat_assessment": "The combination of drone warfare on the Lebanon front, proxy strikes in Iraq, and high‑level diplomatic moves heightens the risk of rapid escalation. While no large‑scale ground offensives are reported, the volatility of proxy engagements and secret diplomatic overtures suggest a fluid threat environment.",
-    "regional_response": "UNIFIL documented drone impacts but reported no casualties, while Gulf states engaged in limited kinetic actions against Iranian proxies. International media highlighted Netanyahu's covert UAE visit as a potential diplomatic shift, though official confirmations remain sparse.",
-    "intelligence_notes": "Drone activity indicates an increased reliance on low‑cost aerial weapons by Hezbollah, likely supplied or inspired by Iranian capabilities. Coordinated Saudi‑Kuwaiti strikes point to a broader coalition effort to degrade Iran‑aligned militia networks in Iraq, while the secret UAE visit may signal a strategic realignment aimed at isolating Tehran."
+    "threat_assessment": "The convergence of cross‑border drone attacks, retaliatory airstrikes, and covert diplomatic engagements raises the risk of rapid escalation, especially along the Israel‑Lebanon frontier. Internal Israeli security issues add a destabilizing domestic dimension.",
+    "regional_response": "UNIFIL documented drone impacts but reported no casualties, while the UN Security Council has seen a Lebanese complaint against Iran. Gulf states remain divided, with the UAE denying Israeli contact despite Israeli claims, and Latvia reacting to missile incidents linked to the Russia‑Ukraine conflict.",
+    "intelligence_notes": "Drone usage indicates a shift toward low‑cost, expendable aerial weapons by Hezbollah and possibly Iranian proxies. The secret Israeli‑UAE meeting suggests a potential diplomatic opening that could affect the broader Iran‑Israel confrontation. Monitoring of Chinese‑Iran arms discussions is warranted for possible supply chain developments."
   }
 }
