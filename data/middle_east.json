@@ -1,6 +1,6 @@
 {
   "conflict": "Iran War Summary",
-  "updated_at": "2026-05-13T15:48:31.480494+00:00",
+  "updated_at": "2026-05-13T18:08:38.631598+00:00",
   "message_count": 120,
   "channels": [
     "N12chat",
@@ -19,7 +19,7 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 2,
+  "red_alerts": 0,
   "red_alerts_timeline": [
     0,
     0,
@@ -33,10 +33,10 @@
     0,
     0,
     0,
-    1,
     0,
     0,
-    2,
+    0,
+    0,
     0,
     0,
     0,
@@ -89,78 +89,77 @@
     "@VahidOnline": 8,
     "@idf_telegram": 8
   },
-  "summary": "Hezbollah intensified its border attacks with rockets and drones, prompting multiple Israeli airstrikes on Hezbollah sites in southern Lebanon. Israeli domestic focus includes AI education initiatives and political statements, while Iran highlighted national pride through football team engagements. Casualties remain limited, with no reported injuries from the latest border incidents.",
+  "summary": "Hezbollah drone attacks and Israeli airstrikes continue along the Lebanon border, while Israel reports a secret diplomatic visit to the UAE amid the broader Iran‑Israel conflict. Saudi Arabia and Kuwait have struck pro‑Iran militia targets in Iraq, and the IDF has eliminated a senior Hamas operative in Gaza. Regional tensions remain high with multiple proxy engagements and diplomatic maneuvering.",
   "key_points": [
-    "Hezbollah launched rockets and drones at Israeli forces, triggering IDF airstrikes.",
-    "IDF reported destruction of Hezbollah weapon depots and launchers.",
-    "Israel announced major AI education investments during the summer break.",
-    "Iranian President Pezeshkian met the national football team, emphasizing unity.",
-    "UNIFIL reported several drone incidents near its headquarters, attributing them to Hezbollah."
+    "Hezbollah launched drones that detonated near Israeli troops and UNIFIL headquarters in southern Lebanon.",
+    "Israel conducted a wave of airstrikes on Hezbollah sites and killed a senior Hamas commander in Gaza.",
+    "Saudi and Kuwaiti forces attacked pro‑Iran militia positions in Iraq.",
+    "Prime Minister Netanyahu reportedly made a covert visit to the UAE during the Iran war, claimed to be a historic breakthrough.",
+    "Civilian casualties reported in Israel (children injured in traffic accidents) and no injuries from recent drone incidents."
   ],
-  "casualties_mentioned": "No injuries reported from recent rocket and drone incidents; separate civilian injury (5‑year‑old) unrelated to border fighting.",
-  "territorial": "No significant changes reported; engagements remain confined to southern Lebanon border area.",
+  "casualties_mentioned": "Several civilian injuries in Israel (children injured in traffic accidents) and a senior Hamas commander killed in Gaza; no injuries reported from recent drone attacks.",
+  "territorial": "No significant territorial changes reported.",
   "sentiment": "volatile",
-  "intensity": 6,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Hezbollah escalated its campaign with rockets and drones targeting Israeli positions, leading to a series of IDF airstrikes on Hezbollah infrastructure in southern Lebanon. Israeli authorities simultaneously pushed forward domestic AI education initiatives and political messaging. Iran focused on soft power, showcasing national unity through sports, while UN forces in Lebanon reported multiple drone incidents.",
+    "executive_summary": "Hezbollah continues to employ drones against Israeli and UN forces in southern Lebanon, prompting Israeli airstrikes on the group's infrastructure. Parallel proxy actions saw Saudi and Kuwaiti strikes on Iranian‑aligned militias in Iraq. A secret Israeli‑UAE meeting was publicized, suggesting diplomatic shifts amid the broader Iran‑Israel confrontation. Overall, the region experiences heightened military activity and diplomatic signaling.",
     "iran": {
       "title": "Iran",
       "subtitle": "Military operations in and against Iran",
       "points": [
-        "Iranian President Pezeshkian met the national football team, stressing national pride and unity.",
-        "No direct military actions involving Iran were reported in the collected messages.",
-        "Iranian media highlighted domestic policy statements on education and industry, but no combat operations."
+        "Iranian‑linked militias in Iraq were targeted by Saudi and Kuwaiti attacks, indicating a widening front against Tehran's proxies.",
+        "Iranian officials, including the foreign minister, engaged in diplomatic outreach to BRICS partners, reflecting Tehran's attempt to counter isolation."
       ]
     },
     "israel": {
       "title": "Israel",
       "subtitle": "IDF operations and Israeli security assessments",
       "points": [
-        "IDF conducted airstrikes on at least 40 Hezbollah sites, destroying weapon depots, rocket launchers and drone launch platforms.",
-        "Israeli government announced a multi‑billion‑shekel AI education program for schools during the summer break."
+        "The IDF reported shooting down two drones and carried out airstrikes on Hezbollah weapon depots and launchers in southern Lebanon.",
+        "A senior Hamas commander was killed in a Gaza airstrike; additionally, an IDF colonel was suspended over a sexual‑harassment allegation."
       ]
     },
     "gaza_west_bank": {
       "title": "Gaza & West Bank",
       "subtitle": "Ongoing operations in Palestinian territories",
       "points": [
-        "IDF reported killing Hamas commander Hamza Sharbasi and Azzam al‑Hayya in a Gaza airstrike.",
-        "No new large‑scale ground operations or civilian casualty figures were mentioned."
+        "Israeli airstrike in Gaza eliminated a Hamas Shejaiya Battalion commander and also killed the son of a senior Hamas negotiator.",
+        "No new reports of West Bank incidents in the supplied messages."
       ]
     },
     "lebanon": {
       "title": "Lebanon",
       "subtitle": "Hezbollah activity and border incidents",
       "points": [
-        "Hezbollah fired rockets and drones at Israeli troops near Zarit, triggering sirens but causing no injuries.",
-        "UNIFIL documented multiple drone attacks on its Naqoura headquarters, attributing them to Hezbollah and noting Iranian‑made components."
+        "Hezbollah launched multiple drones that exploded near Israeli troops and UNIFIL headquarters, causing material damage but no casualties.",
+        "UNIFIL confirmed several drone impacts on its Naqoura base, attributing them to Iranian‑manufactured drones likely operated by Hezbollah."
       ]
     },
     "syria_iraq": {
       "title": "Syria & Iraq",
       "subtitle": "Regional proxy activity",
       "points": [
-        "No specific Syrian or Iraqi proxy actions were detailed in the messages.",
-        "Regional narratives referenced historical US‑Iran tensions but lacked operational detail."
+        "Syria’s foreign minister signaled willingness to negotiate a security pact with Israel contingent on cessation of destabilizing actions.",
+        "Saudi and Kuwaiti attacks on pro‑Iran militias in Iraq demonstrate coordinated anti‑Iran proxy operations."
       ]
     },
     "gulf_states": {
       "title": "Gulf States",
       "subtitle": "Regional state reactions and incidents",
       "points": [
-        "Saudi Arabia reported its lowest oil production since 1990, citing regional instability linked to the Gulf war context.",
-        "No direct military engagement involving Gulf states was noted."
+        "Kuwaiti authorities arrested four armed members of the “Revolutionary Guards” attempting maritime infiltration; a Kuwaiti security officer was wounded.",
+        "Iranian foreign minister accused Kuwait of illegally seizing an Iranian vessel and detaining Iranian citizens, demanding their release."
       ]
     },
     "key_developments": [
-      "Hezbollah rocket and drone attacks on Israeli border positions",
-      "IDF large‑scale airstrikes on Hezbollah infrastructure",
-      "UNIFIL drone incidents at Naqoura headquarters",
-      "Israel's AI education investment announcement",
-      "Iranian President's football team meeting"
+      "Hezbollah drone attacks on Israeli troops and UNIFIL bases",
+      "Israeli airstrikes on Hezbollah sites in southern Lebanon",
+      "Secret Netanyahu visit to the UAE amid Iran war",
+      "Saudi and Kuwaiti strikes on pro‑Iran militias in Iraq",
+      "Killing of senior Hamas commander in Gaza"
     ],
-    "threat_assessment": "Hezbollah's renewed use of rockets and drones raises the risk of rapid escalation along the Israel‑Lebanon frontier, while Israeli retaliatory strikes could provoke further retaliation. Overall threat remains high but contained to the border zone.",
-    "regional_response": "UNIFIL documented drone attacks and called for restraint; no major diplomatic interventions were reported. International attention focuses on preventing spillover while monitoring Iran's indirect influence via proxy groups.",
-    "intelligence_notes": "The pattern of coordinated rocket and drone launches suggests improved Hezbollah operational capability, possibly supported by external actors. Israeli airstrike intensity indicates a shift to pre‑emptive targeting of launch sites, aiming to degrade Hezbollah's strike capacity."
+    "threat_assessment": "The combination of drone warfare on the Lebanon front, proxy strikes in Iraq, and high‑level diplomatic moves heightens the risk of rapid escalation. While no large‑scale ground offensives are reported, the volatility of proxy engagements and secret diplomatic overtures suggest a fluid threat environment.",
+    "regional_response": "UNIFIL documented drone impacts but reported no casualties, while Gulf states engaged in limited kinetic actions against Iranian proxies. International media highlighted Netanyahu's covert UAE visit as a potential diplomatic shift, though official confirmations remain sparse.",
+    "intelligence_notes": "Drone activity indicates an increased reliance on low‑cost aerial weapons by Hezbollah, likely supplied or inspired by Iranian capabilities. Coordinated Saudi‑Kuwaiti strikes point to a broader coalition effort to degrade Iran‑aligned militia networks in Iraq, while the secret UAE visit may signal a strategic realignment aimed at isolating Tehran."
   }
 }
