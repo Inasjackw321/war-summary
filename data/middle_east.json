@@ -1,17 +1,34 @@
 {
   "conflict": "Middle East Conflict",
-  "updated_at": "2026-05-13T00:00:00+00:00",
-  "message_count": 0,
-  "channels": ["N12chat","manniefabian","asafroz","yediotnews25","SharghDaily","amitsegal","presstv","mamlekate","kianmeli1","Faytuks_Network","rodast_omiddana","naya_foriraq","tzevaadom_en","VahidOnline","idf_telegram"],
-  "summary": "Awaiting first automated update. The workflow runs every 3 hours and will populate this summary with live intelligence from monitored Telegram channels.",
-  "key_points": [
-    "Data collection initializing",
-    "15 Telegram channels monitored across multiple perspectives",
-    "AI analysis via Gemini 2.5 / Gemma 4 31B",
-    "Updates every 3 hours automatically"
+  "updated_at": "2026-05-13T08:05:05.857285+00:00",
+  "message_count": 120,
+  "channels": [
+    "N12chat",
+    "manniefabian",
+    "asafroz",
+    "yediotnews25",
+    "SharghDaily",
+    "amitsegal",
+    "presstv",
+    "mamlekate",
+    "kianmeli1",
+    "Faytuks_Network",
+    "rodast_omiddana",
+    "naya_foriraq",
+    "tzevaadom_en",
+    "VahidOnline",
+    "idf_telegram"
   ],
-  "casualties_mentioned": "Not yet available",
-  "territorial": "Not yet available",
-  "sentiment": "stable",
-  "intensity": 5
+  "summary": "Recent Telegram traffic shows intensified low‑level hostilities along the Israel‑Lebanon border, with multiple Hezbollah drone and rocket attacks and Israeli retaliatory strikes on over 40 Hezbollah sites. Parallel reports indicate Russian confidence in advancing in Donbas and potential broader territorial ambitions in Ukraine. Separate regional news covers unrelated political, health, and cultural items.",
+  "key_points": [
+    "Hezbollah launched several drones and rockets at Israeli border communities and troops, causing minor injuries and prompting IDF air defenses.",
+    "The IDF reported killing around 15 Hezbollah operatives and striking 40 Hezbollah sites, including weapon depots and rocket launchers.",
+    "Russian officials reportedly believe their forces can capture the Donbas region by autumn and may raise further territorial demands in Ukraine.",
+    "U.S. military usage of large quantities of cruise, Tomahawk, and Patriot missiles has depleted stockpiles, indicating a strain on munitions supply.",
+    "Israeli forces reported attacking more than 40 Hezbollah infrastructure targets in southern Lebanon over the past day."
+  ],
+  "casualties_mentioned": "Several Israeli soldiers wounded (moderately and lightly) and at least 15 Hezbollah operatives killed; no civilian casualties reported in the cited incidents.",
+  "territorial": "No confirmed territorial changes; Israeli strikes targeted Hezbollah positions in southern Lebanon, while Russian claims pertain to potential future advances in Donbas.",
+  "sentiment": "escalating",
+  "intensity": 7
 }

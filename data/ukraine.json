@@ -1,17 +1,23 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-13T00:00:00+00:00",
-  "message_count": 0,
-  "channels": ["eRadarrua","kpszsu","mon1tor_ua","Faytuks_Network"],
-  "summary": "Awaiting first automated update. The workflow runs every 3 hours and will populate this summary with live intelligence from monitored Telegram channels.",
-  "key_points": [
-    "Data collection initializing",
-    "4 Telegram channels monitored",
-    "AI analysis via Gemini 2.5 / Gemma 4 31B",
-    "Updates every 3 hours automatically"
+  "updated_at": "2026-05-13T08:05:43.382048+00:00",
+  "message_count": 32,
+  "channels": [
+    "eRadarrua",
+    "kpszsu",
+    "mon1tor_ua",
+    "Faytuks_Network"
   ],
-  "casualties_mentioned": "Not yet available",
-  "territorial": "Not yet available",
-  "sentiment": "stable",
-  "intensity": 6
+  "summary": "Ukrainian sources report numerous Shahed drone groups operating across multiple oblasts, with concentrations near Kyiv, Zhytomyr, and southern regions, alongside alerts of ballistic missile threats. Parallel open-source reports highlight broader geopolitical developments unrelated to the Ukraine‑Russia front, including U.S., UK, and regional actions elsewhere. No confirmed casualties or territorial changes are detailed in the messages.",
+  "key_points": [
+    "Multiple Shahed drone formations reported in Vinnytsia, Kirovohrad, Mykolaiv, Odesa, Kherson, Cherkasy, and other oblasts.",
+    "Significant drone activity near Kyiv, Zhytomyr, Chernihiv, and southern coastal areas, with specific flight courses noted.",
+    "Alerts of possible ballistic missile launches (Iskander-M/S-300) from Bryansk region and southern missile threats.",
+    "No confirmed casualties or losses mentioned in the drone reports.",
+    "Separate international news items reference U.S., UK, UAE, and Israeli security actions unrelated to the Ukrainian front."
+  ],
+  "casualties_mentioned": "Not specified",
+  "territorial": "No significant changes reported",
+  "sentiment": "volatile",
+  "intensity": 7
 }
