@@ -52,12 +52,12 @@ const SECTION_COLORS = {
 const SECTION_DEFS = {
   middle_east: [
     { key: "executive_summary", label: "Executive Summary",                flag: "EX", color: "blue",   type: "prose" },
-    { key: "iran",              label: "Iran",                              flag: "🇮🇷", color: "red",    type: "points" },
-    { key: "israel",            label: "Israel",                            flag: "🇮🇱", color: "blue",   type: "points" },
-    { key: "gaza_west_bank",    label: "Gaza & West Bank",                  flag: "🇵🇸", color: "blue",   type: "points" },
-    { key: "lebanon",           label: "Lebanon",                           flag: "🇱🇧", color: "green",  type: "points" },
-    { key: "syria_iraq",        label: "Syria & Iraq",                      flag: "🇸🇾", color: "orange", type: "points" },
-    { key: "gulf_states",       label: "Gulf States",                       flag: "🇸🇦", color: "gray",   type: "points" },
+    { key: "iran",              label: "Iran",                              flag: "\u{1F1EE}\u{1F1F7}", color: "red",    type: "points" },
+    { key: "israel",            label: "Israel",                            flag: "\u{1F1EE}\u{1F1F1}", color: "blue",   type: "points" },
+    { key: "gaza_west_bank",    label: "Gaza & West Bank",                  flag: "\u{1F1F5}\u{1F1F8}", color: "blue",   type: "points" },
+    { key: "lebanon",           label: "Lebanon",                           flag: "\u{1F1F1}\u{1F1E7}", color: "green",  type: "points" },
+    { key: "syria_iraq",        label: "Syria & Iraq",                      flag: "\u{1F1F8}\u{1F1FE}", color: "orange", type: "points" },
+    { key: "gulf_states",       label: "Gulf States",                       flag: "\u{1F1F8}\u{1F1E6}", color: "gray",   type: "points" },
     { key: "key_developments",  label: "Key Developments",                  flag: "KD", color: "yellow", type: "keydevs" },
     { key: "threat_assessment", label: "Threat Assessment",                 flag: "TA", color: "red",    type: "prose-threat" },
     { key: "regional_response", label: "Regional & International Response", flag: "RI", color: "teal",   type: "prose-regional" },
@@ -65,8 +65,8 @@ const SECTION_DEFS = {
   ],
   ukraine: [
     { key: "executive_summary", label: "Executive Summary",     flag: "EX", color: "blue",   type: "prose" },
-    { key: "ukraine",           label: "Ukraine",                flag: "🇺🇦", color: "blue",   type: "points" },
-    { key: "russia",            label: "Russia",                 flag: "🇷🇺", color: "red",    type: "points" },
+    { key: "ukraine",           label: "Ukraine",                flag: "\u{1F1FA}\u{1F1E6}", color: "blue",   type: "points" },
+    { key: "russia",            label: "Russia",                 flag: "\u{1F1F7}\u{1F1FA}", color: "red",    type: "points" },
     { key: "eastern_front",     label: "Eastern Front",          flag: "EF", color: "orange", type: "points" },
     { key: "northern_front",    label: "Northern Front",         flag: "NF", color: "teal",   type: "points" },
     { key: "southern_front",    label: "Southern Front",         flag: "SF", color: "yellow", type: "points" },
@@ -80,6 +80,8 @@ const SECTION_DEFS = {
 
 // ── Charts registry ───────────────────────────────────────────────────────────
 const charts = {};
+// Most-recent post URL per channel, set by populatePanel before rendering source tags
+let currentUrlMap = {};
 const CHART_DEFAULTS = {
   responsive: true, maintainAspectRatio: false,
   animation: { duration: 900, easing: "easeOutQuart" },
@@ -97,7 +99,7 @@ function makeHourLabels() {
 
 function renderAlertChart(id, timelineRaw) {
   const canvas = document.getElementById(id); if (!canvas) return;
-  const data = (timelineRaw||[]).map(v => Math.round(v/2));
+  const data = (timelineRaw||[]).map(v => v || 0);
   const cfg = { type:"bar", data: { labels: makeHourLabels(), datasets: [{ data, backgroundColor: data.map(v => v>3?"rgba(229,62,91,0.85)":v>0?"rgba(229,62,91,0.55)":"rgba(229,62,91,0.1)"), borderWidth:0, borderRadius:2, hoverBackgroundColor:"#e53e5b" }] }, options: { ...CHART_DEFAULTS, plugins: { ...CHART_DEFAULTS.plugins, tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `Alerts: ${c.raw}` } } }, scales: { ...CHART_DEFAULTS.scales } } };
   if (charts[id]) { charts[id].data.datasets[0].data=data; charts[id].data.datasets[0].backgroundColor=cfg.data.datasets[0].backgroundColor; charts[id].update("active"); }
   else charts[id] = new Chart(canvas, cfg);
@@ -108,6 +110,39 @@ function renderActivityChart(id, timeline) {
   const data = timeline||[];
   const cfg = { type:"bar", data: { labels: makeHourLabels(), datasets: [{ data, backgroundColor:"rgba(59,130,246,0.45)", borderWidth:0, borderRadius:2, hoverBackgroundColor:"rgba(59,130,246,0.9)" }] }, options: { ...CHART_DEFAULTS, plugins: { ...CHART_DEFAULTS.plugins, tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `Messages: ${c.raw}` } } } } };
   if (charts[id]) { charts[id].data.datasets[0].data=data; charts[id].update("active"); }
+  else charts[id] = new Chart(canvas, cfg);
+}
+
+function renderHistoryChart(id, entries) {
+  const canvas = document.getElementById(id); if (!canvas || !entries?.length) return;
+  const byMonth = {};
+  entries.forEach(e => {
+    const m = e.date.slice(0, 7);
+    if (!byMonth[m]) byMonth[m] = { missiles: 0, drones: 0 };
+    byMonth[m].missiles += e.missiles || 0;
+    byMonth[m].drones   += e.drones   || 0;
+  });
+  const labels  = Object.keys(byMonth).sort();
+  const missiles = labels.map(l => byMonth[l].missiles);
+  const drones   = labels.map(l => byMonth[l].drones);
+  const cfg = {
+    type: "bar",
+    data: { labels, datasets: [
+      { label: "Missiles", data: missiles, backgroundColor: "rgba(229,62,91,0.75)",  borderWidth: 0, borderRadius: 2, stack: "s" },
+      { label: "Drones",   data: drones,   backgroundColor: "rgba(59,130,246,0.55)", borderWidth: 0, borderRadius: 2, stack: "s" },
+    ]},
+    options: { ...CHART_DEFAULTS,
+      scales: {
+        x: { ...CHART_DEFAULTS.scales.x, stacked: true },
+        y: { ...CHART_DEFAULTS.scales.y, stacked: true },
+      },
+      plugins: { ...CHART_DEFAULTS.plugins,
+        legend: { display: true, labels: { color: "#5a6a88", font: { family: "'JetBrains Mono', monospace", size: 9 }, boxWidth: 10, padding: 8 } },
+        tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `${c.dataset.label}: ${c.raw.toLocaleString()}` } },
+      },
+    },
+  };
+  if (charts[id]) { charts[id].data = cfg.data; charts[id].update("active"); }
   else charts[id] = new Chart(canvas, cfg);
 }
 
@@ -162,8 +197,9 @@ function renderSourceTags(text) {
   return text.replace(/\(Source:\s*(@[\w,\s@]+)\)/gi, (_, src) => {
     const tags = src.split(',').map(s => s.trim()).filter(Boolean).map(s => {
       const handle = s.startsWith('@') ? s : '@' + s;
-      const ch = handle.replace('@','');
-      return `<a class="src-tag" href="https://t.me/${ch}" target="_blank" rel="noopener">${handle}</a>`;
+      const ch = handle.slice(1);
+      const url = currentUrlMap[ch] || `https://t.me/${ch}`;
+      return `<a class="src-tag" href="${url}" target="_blank" rel="noopener">${handle}</a>`;
     }).join(' ');
     return `<span class="src-tags">${tags}</span>`;
   });
@@ -327,7 +363,10 @@ function populatePanel(prefix, data) {
   const sp   = prefix === "middle_east" ? "me" : "ua";
   const defs = SECTION_DEFS[prefix];
 
-  animateValue(`${sp}-red-alerts`, 0, Math.round((data.red_alerts||0)/2), 800);
+  // Update source-tag URL map so citations link to actual recent posts
+  currentUrlMap = data.recent_post_urls || {};
+
+  animateValue(`${sp}-red-alerts`, 0, data.red_alerts || 0, 800);
   animateValue(`${sp}-msg-count`,  0, data.message_count||0, 1000);
 
   const chEl = document.getElementById(`${sp}-channel-count`);
@@ -362,6 +401,15 @@ function populatePanel(prefix, data) {
       .map(ch => `<li><a href="https://t.me/${ch}" target="_blank" rel="noopener noreferrer">@${ch}</a></li>`)
       .join("");
   }
+
+  // Wire "MESSAGES ANALYSED" card → sources modal
+  const msgCard = document.getElementById(`${sp}-stat-messages`);
+  if (msgCard) {
+    const fresh = msgCard.cloneNode(true);
+    msgCard.parentNode.replaceChild(fresh, msgCard);
+    fresh.addEventListener("click", () => sourcesModal.open(data.channels, data.messages_by_channel));
+    fresh.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sourcesModal.open(data.channels, data.messages_by_channel); } });
+  }
 }
 
 // ── Animated counter ──────────────────────────────────────────────────────────
@@ -383,6 +431,40 @@ function showToast(msg) {
   el.querySelector("span").textContent = msg;
   el.classList.add("show"); setTimeout(() => el.classList.remove("show"), 3500);
 }
+
+// ── Sources modal ─────────────────────────────────────────────────────────────
+const sourcesModal = (function () {
+  const backdrop = document.getElementById("sourcesModalBackdrop");
+  const closeBtn  = document.getElementById("sourcesModalClose");
+  const list      = document.getElementById("sourcesModalList");
+  let isOpen = false;
+
+  function open(channels, msgsByChannel) {
+    if (!backdrop || !list) return;
+    list.innerHTML = (channels || []).map(ch => {
+      const cnt = (msgsByChannel || {})[`@${ch}`] || 0;
+      return `<li><a href="https://t.me/${ch}" target="_blank" rel="noopener noreferrer">@${ch}${cnt ? `<span class="sources-modal-count">${cnt} msgs</span>` : ""}</a></li>`;
+    }).join("");
+    backdrop.setAttribute("aria-hidden", "false");
+    backdrop.classList.add("open");
+    isOpen = true;
+    document.body.style.overflow = "hidden";
+  }
+
+  function close() {
+    if (!backdrop) return;
+    backdrop.classList.remove("open");
+    backdrop.setAttribute("aria-hidden", "true");
+    isOpen = false;
+    document.body.style.overflow = "";
+  }
+
+  if (closeBtn) closeBtn.addEventListener("click", close);
+  if (backdrop) backdrop.addEventListener("click", e => { if (e.target === backdrop) close(); });
+  document.addEventListener("keydown", e => { if (isOpen && e.key === "Escape") close(); });
+
+  return { open, close };
+})();
 
 // ── Auto-refresh ──────────────────────────────────────────────────────────────
 function scheduleAutoRefresh(updatedAt) {
@@ -448,13 +530,26 @@ function updateHeaderForConflict(data) {
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
+async function loadUkraineHistory() {
+  try {
+    const resp = await fetch(`data/ukraine_history.json?t=${Date.now()}`);
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch { return null; }
+}
+
 async function init() {
   updateDatetime(); setInterval(updateDatetime, 30000);
   document.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => switchTab(btn.dataset.tab)));
 
-  const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
+  const [me, ua, history] = await Promise.all([
+    loadConflict("middle_east"),
+    loadConflict("ukraine"),
+    loadUkraineHistory(),
+  ]);
   if (me) { populatePanel("middle_east", me); startCountdown(me.updated_at); scheduleAutoRefresh(me.updated_at); }
   if (ua) populatePanel("ukraine", ua);
+  if (history?.entries?.length) renderHistoryChart("ua-chart-history", history.entries);
   buildTicker([me, ua]);
 }
 

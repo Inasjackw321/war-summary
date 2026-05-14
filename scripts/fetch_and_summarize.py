@@ -22,6 +22,7 @@ MODELS = [
 CONFLICTS = {
     "middle_east": {
         "title": "Middle-East War",
+        "alert_channel": "tzevaadom_en",
         "channels": [
             "N12chat", "manniefabian", "asafroz", "yediotnews25",
             "SharghDaily", "amitsegal", "presstv", "mamlekate",
@@ -36,6 +37,7 @@ CONFLICTS = {
     },
     "ukraine": {
         "title": "Ukraine-Russia War",
+        "alert_channel": "eRadarrua",
         "channels": [
             "eRadarrua", "kpszsu", "mon1tor_ua", "Faytuks_Network",
             "UkraineNow", "front_ukrainian", "DeepStateUA", "WarMonitor",
@@ -60,7 +62,6 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
-# Patterns for messages that are NOT relevant conflict reporting
 _PROMO_PATTERNS = re.compile(
     r"(subscribe\s+to\s+(our|this|the)\s+channel"
     r"|join\s+(our|the)\s+(channel|group|chat)"
@@ -74,44 +75,49 @@ _PROMO_PATTERNS = re.compile(
     re.IGNORECASE,
 )
 
+# Patterns that indicate a genuine Red Alert activation (Middle East)
+_REAL_ALERT_RE = re.compile(
+    r"(hostile\s+aircraft|tzofar|red\s+alert|צבע\s*אדום|"
+    r"confrontation\s+line|rocket\s+alert|missile\s+alert|\U0001f6a8|"
+    r"air[\s-]raid\s+(?:warning|alert)|intrusion)",
+    re.IGNORECASE,
+)
+
 
 def is_relevant(text: str) -> bool:
-    """Return True if the message contains substantive conflict reporting."""
     cleaned = text.strip()
-
-    # Too short to be informative
     if len(cleaned) < 45:
         return False
-
-    # Mostly non-alphabetic (emoji walls, coordinates strings, etc.)
     alpha = sum(c.isalpha() for c in cleaned)
     if alpha / max(len(cleaned), 1) < 0.28:
         return False
-
-    # Channel promotion / spam
     if _PROMO_PATTERNS.search(cleaned):
         return False
-
-    # Just a URL or handle
     if re.match(r"^https?://\S+$", cleaned) or re.match(r"^@\w+$", cleaned):
         return False
-
     return True
 
 
-def fetch_channel_messages_24h(channel: str) -> list[str]:
+def is_real_alert(text: str) -> bool:
+    """Return True only if the post is an actual Red Alert activation (not a map or analysis)."""
+    return bool(_REAL_ALERT_RE.search(text))
+
+
+def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime], int | None]:
     """
-    Scrape all messages posted in the last 24 hours from a public Telegram channel
-    preview page (t.me/s/{channel}), paginating backwards via ?before={msg_id}.
-    Returns a deduplicated list of cleaned message texts.
+    Scrape messages from the last 24 hours of a public Telegram channel.
+    Returns (texts, timestamps, max_message_id) where max_message_id is the
+    highest post ID seen (used to build a direct link to the most recent post).
     """
     base_url = f"https://t.me/s/{channel}"
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
     seen: set[str] = set()
     all_texts: list[str] = []
+    all_times: list[datetime] = []
     before_id: int | None = None
+    max_id: int | None = None
 
-    for page_num in range(12):  # max 12 pages ≈ 240+ messages
+    for page_num in range(12):
         url = base_url if before_id is None else f"{base_url}?before={before_id}"
         try:
             resp = requests.get(url, headers=HEADERS, timeout=18)
@@ -122,7 +128,6 @@ def fetch_channel_messages_24h(channel: str) -> list[str]:
 
         soup = BeautifulSoup(resp.text, "html.parser")
         msg_els = soup.select(".tgme_widget_message")
-
         if not msg_els:
             break
 
@@ -130,33 +135,32 @@ def fetch_channel_messages_24h(channel: str) -> list[str]:
         any_within_24h = False
 
         for msg in msg_els:
-            # --- Extract message ID for pagination ---
             data_post = msg.get("data-post", "")
             if "/" in data_post:
                 try:
                     mid = int(data_post.split("/")[-1])
                     if oldest_id_on_page is None or mid < oldest_id_on_page:
                         oldest_id_on_page = mid
+                    if max_id is None or mid > max_id:
+                        max_id = mid
                 except ValueError:
                     pass
 
-            # --- Check timestamp ---
+            msg_time: datetime | None = None
             time_el = msg.select_one("time[datetime]")
             if time_el:
                 try:
                     dt_str = time_el["datetime"].replace("Z", "+00:00")
                     msg_time = datetime.fromisoformat(dt_str)
                     if msg_time < cutoff:
-                        continue  # older than 24 h — skip
+                        continue
                     any_within_24h = True
                 except Exception:
                     pass
             else:
-                # No timestamp — include anyway if on the first page
                 if page_num > 0:
                     continue
 
-            # --- Extract text ---
             txt_el = msg.select_one(".tgme_widget_message_text")
             if not txt_el:
                 continue
@@ -165,19 +169,77 @@ def fetch_channel_messages_24h(channel: str) -> list[str]:
             if txt and txt not in seen and is_relevant(txt):
                 seen.add(txt)
                 all_texts.append(txt)
+                all_times.append(msg_time)
 
-        # Stop if this whole page was outside the 24-hour window
         if not any_within_24h and page_num > 0:
             break
-
-        # Stop if we can't paginate further
         if oldest_id_on_page is None or oldest_id_on_page == before_id:
             break
 
         before_id = oldest_id_on_page
-        time.sleep(0.9)  # be polite
+        time.sleep(0.9)
 
-    return all_texts
+    return all_texts, all_times, max_id
+
+
+def bucket_into_24h_slots(timestamps: list[datetime | None]) -> list[int]:
+    """Convert real UTC timestamps into a 24-element hourly array. Index 0 = oldest, 23 = current."""
+    now = datetime.now(timezone.utc)
+    counts = [0] * 24
+    for ts in timestamps:
+        if ts is None:
+            continue
+        hours_ago = int((now - ts).total_seconds() // 3600)
+        if 0 <= hours_ago < 24:
+            counts[23 - hours_ago] += 1
+    return counts
+
+
+def build_activity_timeline_synthetic(total_messages: int) -> list[int]:
+    weights = [3, 2, 1, 1, 1, 2, 4, 6, 8, 10, 10, 9, 9, 8, 8, 8, 7, 7, 6, 5, 5, 4, 4, 3]
+    total_w = sum(weights)
+    return [round(total_messages * w / total_w) for w in weights]
+
+
+def parse_kpszsu_attack_summary(texts: list[str], timestamps: list[datetime | None]) -> dict:
+    """
+    Scan kpszsu messages for the daily attack summary infographic post.
+    Parses the total missiles + drones launched (not just shot down).
+    """
+    for text, ts in zip(texts, timestamps):
+        # Ukrainian: "731 засіб повітряного нападу"
+        m = re.search(r'(\d{2,4})\s+засіб(?:ів)?\s+повітряного\s+нападу', text, re.IGNORECASE)
+        if m:
+            total = int(m.group(1))
+            m_drones = re.search(r'(\d+)\s+(?:ворожих?\s+)?[Бб][Пп][Лл][Аа]', text)
+            drones = int(m_drones.group(1)) if m_drones else 0
+            return {"total": total, "missiles": total - drones, "drones": drones, "ts": ts}
+        # English summary: "41 MISSILES AND 652 ENEMY UAVS SHOTDOWN/SUPPRESSED"
+        m2 = re.search(r'(\d+)\s+MISSILES?\s+AND\s+(\d+)\s+(?:ENEMY\s+)?UAV', text, re.IGNORECASE)
+        if m2:
+            missiles, drones = int(m2.group(1)), int(m2.group(2))
+            return {"total": missiles + drones, "missiles": missiles, "drones": drones, "ts": ts}
+    return {"total": 0, "missiles": 0, "drones": 0, "ts": None}
+
+
+def update_ukraine_history(output_dir: Path, attack_data: dict) -> None:
+    """Append today's kpszsu attack summary to the running history file."""
+    path = output_dir / "ukraine_history.json"
+    try:
+        hist = json.loads(path.read_text()) if path.exists() else {"entries": []}
+    except Exception:
+        hist = {"entries": []}
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    hist["entries"] = [e for e in hist["entries"] if e["date"] != today]
+    if attack_data["total"] > 0:
+        hist["entries"].append({
+            "date": today,
+            "total": attack_data["total"],
+            "missiles": attack_data["missiles"],
+            "drones": attack_data["drones"],
+        })
+    hist["entries"].sort(key=lambda e: e["date"])
+    path.write_text(json.dumps(hist, indent=2, ensure_ascii=False))
 
 
 def call_openrouter(prompt: str, model: str) -> str:
@@ -208,10 +270,50 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
             "sections": {},
         }
 
-    # raw_messages is already tagged: each entry is "[channel] text"
     combined = "\n\n---\n\n".join(raw_messages)
+    is_ukraine = "Ukraine" in conflict_name or "Russia" in conflict_name
 
-    if "Iran" in conflict_name or "Middle East" in conflict_name or "Middle-East" in conflict_name:
+    if is_ukraine:
+        sections_spec = """{
+  "executive_summary": "4-5 sentence strategic overview covering the most significant developments of the past 24 hours, overall operational tempo, and front-line trajectory",
+  "ukraine": {
+    "title": "Ukraine",
+    "subtitle": "Ukrainian defensive operations and strikes",
+    "points": [
+      "5-6 detailed bullets: each 2-3 sentences with specific unit names, locations, weapon systems, intercept/strike figures"
+    ]
+  },
+  "russia": {
+    "title": "Russia",
+    "subtitle": "Russian military operations and strategic posture",
+    "points": ["5-6 detailed bullets with specifics on weapons, tactics, claimed results, mobilization data"]
+  },
+  "eastern_front": {
+    "title": "Eastern Front",
+    "subtitle": "Donetsk & Luhansk combat operations",
+    "points": ["5-6 detailed bullets with village names, assault wave counts, vehicle losses, ISW assessments where available"]
+  },
+  "northern_front": {
+    "title": "Northern Front",
+    "subtitle": "Kharkiv region and Sumy border activity",
+    "points": ["4-5 detailed bullets"]
+  },
+  "southern_front": {
+    "title": "Southern Front",
+    "subtitle": "Zaporizhzhia & Kherson operations",
+    "points": ["4-5 detailed bullets"]
+  },
+  "air_war": {
+    "title": "Air War",
+    "subtitle": "Drone, missile and aviation operations",
+    "points": ["5-6 detailed bullets covering drone counts, intercept rates, SAM activations, aircraft claimed, EW incidents"]
+  },
+  "key_developments": ["7 concise one-line summaries of the most significant events, ordered by importance"],
+  "threat_assessment": "5-6 sentence deep assessment: operational momentum, attrition balance, critical terrain, probability of major breakthrough (label LOW/MODERATE/HIGH/CRITICAL), and key indicators to watch",
+  "regional_response": "4-5 sentences: specific aid packages approved, weapons delivered or announced, diplomatic positions, NATO/EU decisions, bilateral agreements",
+  "intelligence_notes": "4-5 sentences: order-of-battle observations, logistics patterns, electronic warfare activity, satellite imagery findings, strategic reserve movements, deception indicators"
+}"""
+    else:
         sections_spec = """{
   "executive_summary": "4-5 sentence strategic overview covering the most significant developments of the past 24 hours, overall escalation trajectory, and key actors involved",
   "iran": {
@@ -255,46 +357,6 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
   "regional_response": "4-5 sentences covering US, NATO, EU, Russia, China, and regional state positions; include specific policy decisions, diplomatic meetings, or military movements announced",
   "intelligence_notes": "4-5 sentences of analytical intelligence observations: SIGINT patterns, imagery analysis, logistics movements, capability assessments, deception indicators, or strategic intentions inferred from open-source signals"
 }"""
-    else:
-        sections_spec = """{
-  "executive_summary": "4-5 sentence strategic overview covering the most significant developments of the past 24 hours, overall operational tempo, and front-line trajectory",
-  "ukraine": {
-    "title": "Ukraine",
-    "subtitle": "Ukrainian defensive operations and strikes",
-    "points": [
-      "5-6 detailed bullets: each 2-3 sentences with specific unit names, locations, weapon systems, intercept/strike figures"
-    ]
-  },
-  "russia": {
-    "title": "Russia",
-    "subtitle": "Russian military operations and strategic posture",
-    "points": ["5-6 detailed bullets with specifics on weapons, tactics, claimed results, mobilization data"]
-  },
-  "eastern_front": {
-    "title": "Eastern Front",
-    "subtitle": "Donetsk & Luhansk combat operations",
-    "points": ["5-6 detailed bullets with village names, assault wave counts, vehicle losses, ISW assessments where available"]
-  },
-  "northern_front": {
-    "title": "Northern Front",
-    "subtitle": "Kharkiv region and Sumy border activity",
-    "points": ["4-5 detailed bullets"]
-  },
-  "southern_front": {
-    "title": "Southern Front",
-    "subtitle": "Zaporizhzhia & Kherson operations",
-    "points": ["4-5 detailed bullets"]
-  },
-  "air_war": {
-    "title": "Air War",
-    "subtitle": "Drone, missile and aviation operations",
-    "points": ["5-6 detailed bullets covering drone counts, intercept rates, SAM activations, aircraft claimed, EW incidents"]
-  },
-  "key_developments": ["7 concise one-line summaries of the most significant events, ordered by importance"],
-  "threat_assessment": "5-6 sentence deep assessment: operational momentum, attrition balance, critical terrain, probability of major breakthrough (label LOW/MODERATE/HIGH/CRITICAL), and key indicators to watch",
-  "regional_response": "4-5 sentences: specific aid packages approved, weapons delivered or announced, diplomatic positions, NATO/EU decisions, bilateral agreements",
-  "intelligence_notes": "4-5 sentences: order-of-battle observations, logistics patterns, electronic warfare activity, satellite imagery findings, strategic reserve movements, deception indicators"
-}"""
 
     prompt = f"""You are a senior military intelligence analyst producing a classified-style open-source intelligence brief for {conflict_name}.
 
@@ -311,7 +373,6 @@ INSTRUCTIONS:
 - key_developments should be 7 concise actionable headlines ordered by operational significance, each ending with (Source: @channel).
 - threat_assessment, regional_response, and intelligence_notes should be analytical prose paragraphs (not bullet points), 4-6 sentences each.
 - intensity: 1–10 (1 = minimal, 10 = all-out war with nuclear signaling)
-- red_alerts: count of distinct air-raid / rocket-alert events mentioned across all messages
 - sentiment: one of escalating | de-escalating | stable | volatile
 
 Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
@@ -322,7 +383,6 @@ Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
   "territorial": "Specific territorial changes or confirmed front-line movements, or 'No significant changes reported'",
   "sentiment": "escalating|de-escalating|stable|volatile",
   "intensity": 7,
-  "red_alerts": 0,
   "sections": {sections_spec}
 }}"""
 
@@ -346,7 +406,6 @@ Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
         print(f"  [error] All models failed. Last: {last_error}", file=sys.stderr)
         return {"summary": "Summary generation temporarily unavailable.", "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
 
-    # Strip any accidental markdown fences
     raw_json = re.sub(r"^```[a-z]*\n?", "", raw_json.strip())
     raw_json = re.sub(r"\n?```$", "", raw_json.strip())
 
@@ -362,14 +421,6 @@ Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
         return {"summary": raw_json[:500], "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
 
 
-def build_activity_timeline(total_messages: int) -> list[int]:
-    """Distribute total message count across 24 hours using a realistic UTC pattern."""
-    # Peak activity: 08:00–18:00 UTC; trough: 01:00–05:00 UTC
-    weights = [3, 2, 1, 1, 1, 2, 4, 6, 8, 10, 10, 9, 9, 8, 8, 8, 7, 7, 6, 5, 5, 4, 4, 3]
-    total_w = sum(weights)
-    return [round(total_messages * w / total_w) for w in weights]
-
-
 def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> dict:
     return {f"@{ch}": cnt for ch in channels if (cnt := counts.get(ch, 0)) > 0}
 
@@ -381,15 +432,26 @@ def run():
     for key, conf in CONFLICTS.items():
         print(f"\n=== {conf['title']} ===", flush=True)
         per_channel_messages: dict[str, list[str]] = {}
+        per_channel_timestamps: dict[str, list[datetime]] = {}
         per_channel_counts: dict[str, int] = {}
+        max_ids: dict[str, int] = {}
 
         for ch in conf["channels"]:
             print(f"  Fetching 24 h from t.me/{ch} ...", file=sys.stderr)
-            msgs = fetch_channel_messages_24h(ch)
+            msgs, times, max_id = fetch_channel_messages_24h(ch)
             per_channel_messages[ch] = msgs
+            per_channel_timestamps[ch] = times
             per_channel_counts[ch] = len(msgs)
+            if max_id is not None:
+                max_ids[ch] = max_id
             print(f"    -> {len(msgs)} relevant messages in last 24 h", file=sys.stderr)
             time.sleep(1.5)
+
+        # Most recent post URL per channel (for clickable source tags in frontend)
+        recent_post_urls = {
+            ch: f"https://t.me/{ch}/{max_ids[ch]}"
+            for ch in conf["channels"] if ch in max_ids
+        }
 
         # Build balanced, channel-tagged message list: up to 15 per channel, shuffled
         tagged: list[str] = []
@@ -404,17 +466,41 @@ def run():
         print(f"  Generating AI summary...", file=sys.stderr)
 
         ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
+        # red_alerts is computed from structured data below, not from AI estimation
+        ai_result.pop("red_alerts", None)
 
         msgs_by_channel = build_messages_by_channel(conf["channels"], per_channel_counts)
-        activity_timeline = build_activity_timeline(total_count)
 
-        red_alerts_raw = ai_result.pop("red_alerts", 0) or 0
-        now_hour = datetime.now(timezone.utc).hour
-        alert_timeline = [0] * 24
-        if red_alerts_raw > 0:
-            alert_timeline[now_hour] = red_alerts_raw
-            prev = (now_hour - 3) % 24
-            alert_timeline[prev] = max(1, red_alerts_raw // 2)
+        # Real activity timeline from all channel timestamps
+        all_timestamps = [ts for ch in conf["channels"] for ts in per_channel_timestamps.get(ch, [])]
+        if any(ts is not None for ts in all_timestamps):
+            activity_timeline = bucket_into_24h_slots(all_timestamps)
+        else:
+            activity_timeline = build_activity_timeline_synthetic(total_count)
+
+        alert_ch = conf.get("alert_channel", "")
+
+        if key == "middle_east":
+            # Filter tzevaadom_en posts to only genuine Red Alert activations
+            alert_texts = per_channel_messages.get(alert_ch, [])
+            alert_times = per_channel_timestamps.get(alert_ch, [])
+            real_pairs = [
+                (t, ts) for t, ts in zip(alert_texts, alert_times) if is_real_alert(t)
+            ]
+            red_alerts_raw = len(real_pairs)
+            real_alert_timestamps = [ts for _, ts in real_pairs if ts is not None]
+            alert_timeline = bucket_into_24h_slots(real_alert_timestamps) if real_alert_timestamps else [0] * 24
+
+        else:  # ukraine
+            # Parse kpszsu daily summary infographic for total missiles + drones launched
+            kpszsu_msgs = per_channel_messages.get("kpszsu", [])
+            kpszsu_times = per_channel_timestamps.get("kpszsu", [])
+            attack_data = parse_kpszsu_attack_summary(kpszsu_msgs, kpszsu_times)
+            red_alerts_raw = attack_data["total"]
+            update_ukraine_history(output_dir, attack_data)
+            # eRadarrua air raid siren timestamps as proxy for attack timing on the 24h chart
+            ua_alert_timestamps = [ts for ts in per_channel_timestamps.get(alert_ch, []) if ts is not None]
+            alert_timeline = bucket_into_24h_slots(ua_alert_timestamps) if ua_alert_timestamps else [0] * 24
 
         output = {
             "conflict": conf["title"],
@@ -425,6 +511,7 @@ def run():
             "red_alerts_timeline": alert_timeline,
             "combined_activity_timeline": activity_timeline,
             "messages_by_channel": msgs_by_channel,
+            "recent_post_urls": recent_post_urls,
             **ai_result,
         }
 
