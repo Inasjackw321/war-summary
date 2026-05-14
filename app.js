@@ -4,12 +4,14 @@
 (function initScrollProgress() {
   const bar = document.getElementById("scroll-progress");
   const btn = document.getElementById("scrollTop");
+
   function update() {
-    const doc = document.documentElement;
-    const pct = doc.scrollTop / (doc.scrollHeight - doc.clientHeight) * 100;
+    const doc  = document.documentElement;
+    const pct  = doc.scrollTop / (doc.scrollHeight - doc.clientHeight) * 100;
     if (bar) bar.style.width = Math.min(pct, 100) + "%";
     if (btn) btn.classList.toggle("visible", doc.scrollTop > 400);
   }
+
   window.addEventListener("scroll", update, { passive: true });
   if (btn) btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 })();
@@ -19,20 +21,26 @@
   const canvas = document.getElementById("particles");
   const ctx = canvas.getContext("2d");
   let W, H, particles;
+
   function resize() {
     W = canvas.width  = window.innerWidth;
     H = canvas.height = window.innerHeight;
   }
+
   function spawn(n) {
     particles = [];
     for (let i = 0; i < n; i++) {
       particles.push({
-        x: Math.random() * W, y: Math.random() * H,
-        vx: (Math.random() - 0.5) * 0.18, vy: (Math.random() - 0.5) * 0.18,
-        r: Math.random() * 1.0 + 0.2, a: Math.random() * 0.3 + 0.05,
+        x:  Math.random() * W,
+        y:  Math.random() * H,
+        vx: (Math.random() - 0.5) * 0.18,
+        vy: (Math.random() - 0.5) * 0.18,
+        r:  Math.random() * 1.0 + 0.2,
+        a:  Math.random() * 0.3 + 0.05,
       });
     }
   }
+
   function draw() {
     ctx.clearRect(0, 0, W, H);
     particles.forEach(p => {
@@ -40,10 +48,14 @@
       ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
       ctx.fillStyle = `rgba(59,130,246,${p.a})`;
       ctx.fill();
-      p.x += p.vx; p.y += p.vy;
-      if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
-      if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < 0) p.x = W;
+      if (p.x > W) p.x = 0;
+      if (p.y < 0) p.y = H;
+      if (p.y > H) p.y = 0;
     });
+
     for (let i = 0; i < particles.length; i++) {
       for (let j = i + 1; j < particles.length; j++) {
         const dx = particles[i].x - particles[j].x;
@@ -61,6 +73,7 @@
     }
     requestAnimationFrame(draw);
   }
+
   resize();
   spawn(Math.floor((W * H) / 18000));
   draw();
@@ -69,36 +82,42 @@
 
 // ── Section color config ──────────────────────────────────────────────────────
 const SECTION_COLORS = {
-  red: "#e53e5b", blue: "#3b82f6", green: "#10b981", orange: "#f59e0b",
-  teal: "#06b6d4", yellow: "#eab308", purple: "#8b5cf6", gray: "#64748b",
+  red:    "#e53e5b",
+  blue:   "#3b82f6",
+  green:  "#10b981",
+  orange: "#f59e0b",
+  teal:   "#06b6d4",
+  yellow: "#eab308",
+  purple: "#8b5cf6",
+  gray:   "#64748b",
 };
 
 const SECTION_DEFS = {
   middle_east: [
-    { key: "executive_summary", label: "Executive Summary",                flag: "EX", color: "blue",   type: "prose" },
-    { key: "iran",              label: "Iran",                              flag: "IR", color: "red",    type: "points" },
-    { key: "israel",            label: "Israel",                            flag: "IL", color: "blue",   type: "points" },
-    { key: "gaza_west_bank",    label: "Gaza & West Bank",                  flag: "PS", color: "blue",   type: "points" },
-    { key: "lebanon",           label: "Lebanon",                           flag: "LB", color: "green",  type: "points" },
-    { key: "syria_iraq",        label: "Syria & Iraq",                      flag: "SY", color: "orange", type: "points" },
-    { key: "gulf_states",       label: "Gulf States",                       flag: "GS", color: "gray",   type: "points" },
-    { key: "key_developments",  label: "Key Developments",                  flag: "KD", color: "yellow", type: "keydevs" },
-    { key: "threat_assessment", label: "Threat Assessment",                 flag: "TA", color: "red",    type: "prose-threat" },
-    { key: "regional_response", label: "Regional & International Response", flag: "RI", color: "teal",   type: "prose-regional" },
-    { key: "intelligence_notes",label: "Intelligence Notes",                flag: "IN", color: "purple", type: "prose-intel" },
+    { key: "executive_summary", label: "Executive Summary",                   flag: "EX", color: "blue",   type: "prose" },
+    { key: "iran",              label: "Iran",                                 flag: "IR", color: "red",    type: "points" },
+    { key: "israel",            label: "Israel",                               flag: "IL", color: "blue",   type: "points" },
+    { key: "gaza_west_bank",    label: "Gaza & West Bank",                     flag: "PS", color: "blue",   type: "points" },
+    { key: "lebanon",           label: "Lebanon",                              flag: "LB", color: "green",  type: "points" },
+    { key: "syria_iraq",        label: "Syria & Iraq",                         flag: "SY", color: "orange", type: "points" },
+    { key: "gulf_states",       label: "Gulf States",                          flag: "GS", color: "gray",   type: "points" },
+    { key: "key_developments",  label: "Key Developments",                     flag: "KD", color: "yellow", type: "keydevs" },
+    { key: "threat_assessment", label: "Threat Assessment",                    flag: "TA", color: "red",    type: "prose-threat" },
+    { key: "regional_response", label: "Regional & International Response",    flag: "RI", color: "teal",   type: "prose-regional" },
+    { key: "intelligence_notes",label: "Intelligence Notes",                   flag: "IN", color: "purple", type: "prose-intel" },
   ],
   ukraine: [
-    { key: "executive_summary", label: "Executive Summary",     flag: "EX", color: "blue",   type: "prose" },
-    { key: "ukraine",           label: "Ukraine",                flag: "UA", color: "blue",   type: "points" },
-    { key: "russia",            label: "Russia",                 flag: "RU", color: "red",    type: "points" },
-    { key: "eastern_front",     label: "Eastern Front",          flag: "EF", color: "orange", type: "points" },
-    { key: "northern_front",    label: "Northern Front",         flag: "NF", color: "teal",   type: "points" },
-    { key: "southern_front",    label: "Southern Front",         flag: "SF", color: "yellow", type: "points" },
-    { key: "air_war",           label: "Air War",                flag: "AW", color: "purple", type: "points" },
-    { key: "key_developments",  label: "Key Developments",       flag: "KD", color: "yellow", type: "keydevs" },
-    { key: "threat_assessment", label: "Threat Assessment",      flag: "TA", color: "red",    type: "prose-threat" },
-    { key: "regional_response", label: "International Response", flag: "RI", color: "teal",   type: "prose-regional" },
-    { key: "intelligence_notes",label: "Intelligence Notes",     flag: "IN", color: "purple", type: "prose-intel" },
+    { key: "executive_summary", label: "Executive Summary",      flag: "EX", color: "blue",   type: "prose" },
+    { key: "ukraine",           label: "Ukraine",                 flag: "UA", color: "blue",   type: "points" },
+    { key: "russia",            label: "Russia",                  flag: "RU", color: "red",    type: "points" },
+    { key: "eastern_front",     label: "Eastern Front",           flag: "EF", color: "orange", type: "points" },
+    { key: "northern_front",    label: "Northern Front",          flag: "NF", color: "teal",   type: "points" },
+    { key: "southern_front",    label: "Southern Front",          flag: "SF", color: "yellow", type: "points" },
+    { key: "air_war",           label: "Air War",                 flag: "AW", color: "purple", type: "points" },
+    { key: "key_developments",  label: "Key Developments",        flag: "KD", color: "yellow", type: "keydevs" },
+    { key: "threat_assessment", label: "Threat Assessment",       flag: "TA", color: "red",    type: "prose-threat" },
+    { key: "regional_response", label: "International Response",  flag: "RI", color: "teal",   type: "prose-regional" },
+    { key: "intelligence_notes",label: "Intelligence Notes",      flag: "IN", color: "purple", type: "prose-intel" },
   ],
 };
 
@@ -151,15 +170,24 @@ function renderAlertChart(id, timelineRaw) {
   const labels = makeHourLabels();
   const cfg = {
     type: "bar",
-    data: { labels, datasets: [{
-      data,
-      backgroundColor: data.map(v => v > 3 ? "rgba(229,62,91,0.85)" : v > 0 ? "rgba(229,62,91,0.55)" : "rgba(229,62,91,0.1)"),
-      borderWidth: 0, borderRadius: 2, hoverBackgroundColor: "#e53e5b",
-    }]},
-    options: { ...CHART_DEFAULTS,
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: data.map(v =>
+          v > 3 ? "rgba(229,62,91,0.85)" : v > 0 ? "rgba(229,62,91,0.55)" : "rgba(229,62,91,0.1)"
+        ),
+        borderWidth: 0,
+        borderRadius: 2,
+        hoverBackgroundColor: "#e53e5b",
+      }],
+    },
+    options: {
+      ...CHART_DEFAULTS,
       plugins: { ...CHART_DEFAULTS.plugins, tooltip: { ...CHART_DEFAULTS.plugins.tooltip,
         callbacks: { label: c => `Alerts: ${c.raw}` },
       }},
+      scales: { ...CHART_DEFAULTS.scales },
     },
   };
   if (charts[id]) { charts[id].data.datasets[0].data = data; charts[id].data.datasets[0].backgroundColor = cfg.data.datasets[0].backgroundColor; charts[id].update("active"); }
@@ -172,10 +200,16 @@ function renderActivityChart(id, timeline) {
   const data = timeline || [];
   const cfg = {
     type: "bar",
-    data: { labels: makeHourLabels(), datasets: [{
-      data, backgroundColor: "rgba(59,130,246,0.45)",
-      borderWidth: 0, borderRadius: 2, hoverBackgroundColor: "rgba(59,130,246,0.9)",
-    }]},
+    data: {
+      labels: makeHourLabels(),
+      datasets: [{
+        data,
+        backgroundColor: "rgba(59,130,246,0.45)",
+        borderWidth: 0,
+        borderRadius: 2,
+        hoverBackgroundColor: "rgba(59,130,246,0.9)",
+      }],
+    },
     options: { ...CHART_DEFAULTS,
       plugins: { ...CHART_DEFAULTS.plugins, tooltip: { ...CHART_DEFAULTS.plugins.tooltip,
         callbacks: { label: c => `Messages: ${c.raw}` },
@@ -195,11 +229,16 @@ function renderChannelChart(id, msgsByChannel) {
   const max    = Math.max(...data, 1);
   const cfg = {
     type: "bar",
-    data: { labels, datasets: [{
-      data,
-      backgroundColor: data.map(v => `rgba(16,185,129,${0.3 + 0.6 * (v / max)})`),
-      borderWidth: 0, borderRadius: 3, hoverBackgroundColor: "rgba(16,185,129,0.95)",
-    }]},
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: data.map(v => `rgba(16,185,129,${0.3 + 0.6 * (v / max)})`),
+        borderWidth: 0,
+        borderRadius: 3,
+        hoverBackgroundColor: "rgba(16,185,129,0.95)",
+      }],
+    },
     options: { ...CHART_DEFAULTS, indexAxis: "y",
       plugins: { ...CHART_DEFAULTS.plugins, tooltip: { ...CHART_DEFAULTS.plugins.tooltip,
         callbacks: { label: c => `${c.raw} messages` },
@@ -214,15 +253,16 @@ function renderChannelChart(id, msgsByChannel) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
-// ── Scroll-aware section nav ──────────────────────────────────────────────────
+// ── Scroll-aware section nav active state ─────────────────────────────────────
 function initScrollSpy(prefix) {
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       const key = entry.target.id.replace("section-", "");
-      document.querySelectorAll(`#${prefix}-sections-nav .sections-nav-item[data-section="${key}"]`)
-        .forEach(n => n.classList.toggle("active", entry.isIntersecting));
+      const navItems = document.querySelectorAll(`#${prefix}-sections-nav .sections-nav-item[data-section="${key}"]`);
+      navItems.forEach(n => n.classList.toggle("active", entry.isIntersecting));
     });
   }, { rootMargin: "-20% 0px -60% 0px", threshold: 0 });
+
   document.querySelectorAll(`#panel-${prefix} .section-block`).forEach(el => observer.observe(el));
 }
 
@@ -235,6 +275,7 @@ function buildTicker(datasets) {
     (d.key_points || []).forEach(p => items.push(`${name}: ${p}`));
   });
   if (!items.length) return;
+
   const el = document.getElementById("tickerContent");
   if (!el) return;
   const text = items.join("  ·  ");
@@ -245,9 +286,9 @@ function buildTicker(datasets) {
   el.style.animation = `ticker-run ${dur}s linear infinite`;
 }
 
-// ── Helpers ──────────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────────
 
-/** Bold the first sentence of a bullet for scannability. */
+/** Bold the first sentence of a bullet point for scannability. */
 function leadBold(text) {
   const m = text.match(/^(.+?[.!?])\s+(.+)/s);
   if (m && m[1].length < text.length * 0.65) {
@@ -256,11 +297,13 @@ function leadBold(text) {
   return text;
 }
 
-/** Highlight key assessment labels in prose. */
+/** Highlight PRIMARY RISK / SECONDARY RISK labels in prose. */
 function highlightLabels(text) {
   return text
-    .replace(/(PRIMARY RISK|SECONDARY RISK|CRITICAL|MODERATE-HIGH|MODERATE|HIGH|LOW):/g, '<strong>$1:</strong>')
-    .replace(/\b(CONFIRMED|UNCONFIRMED|DEVELOPING|BREAKING)\b/g, '<strong>$1</strong>');
+    .replace(/(PRIMARY RISK|SECONDARY RISK|CRITICAL|MODERATE-HIGH|MODERATE|HIGH|LOW):/g,
+      '<strong>$1:</strong>')
+    .replace(/\b(CONFIRMED|UNCONFIRMED|DEVELOPING|BREAKING)\b/g,
+      '<strong>$1</strong>');
 }
 
 // ── Section block builder ─────────────────────────────────────────────────────
@@ -275,6 +318,7 @@ function buildSectionBlock(def, sectionsData, index) {
   block.id = `section-${def.key}`;
   block.style.animationDelay = `${index * 45}ms`;
 
+  // Count badge for collapsible sections
   let countStr = "";
   if (!isExec && !isKD && raw) {
     const pts = typeof raw === "object" && raw.points ? raw.points.length : 0;
@@ -301,7 +345,8 @@ function buildSectionBlock(def, sectionsData, index) {
   const body = block.querySelector(".section-body");
 
   if (isExec) {
-    body.innerHTML = `<p class="section-summary-text">${typeof raw === "string" ? raw : ""}</p>`;
+    const text = typeof raw === "string" ? raw : "";
+    body.innerHTML = `<p class="section-summary-text">${text}</p>`;
 
   } else if (def.type === "points") {
     const points = (typeof raw === "object" && raw && raw.points) ? raw.points : [];
@@ -323,18 +368,25 @@ function buildSectionBlock(def, sectionsData, index) {
     }</div>`;
 
   } else if (def.type === "prose-threat") {
-    body.innerHTML = `<p class="section-prose">${highlightLabels(typeof raw === "string" ? raw : "")}</p>`;
+    const text = typeof raw === "string" ? raw : "";
+    body.innerHTML = `<p class="section-prose">${highlightLabels(text)}</p>`;
 
   } else if (def.type === "prose-regional") {
-    body.innerHTML = `<p class="section-prose prose--regional">${typeof raw === "string" ? raw : ""}</p>`;
+    const text = typeof raw === "string" ? raw : "";
+    body.innerHTML = `<p class="section-prose prose--regional">${text}</p>`;
 
   } else if (def.type === "prose-intel") {
-    body.innerHTML = `<p class="section-prose prose--intel">${highlightLabels(typeof raw === "string" ? raw : "")}</p>`;
+    const text = typeof raw === "string" ? raw : "";
+    body.innerHTML = `<p class="section-prose prose--intel">${highlightLabels(text)}</p>`;
   }
 
+  // Toggle accordion (not exec, not key devs)
   if (!isExec && !isKD) {
-    block.querySelector(".section-header").addEventListener("click", () => block.classList.toggle("open"));
+    block.querySelector(".section-header").addEventListener("click", () => {
+      block.classList.toggle("open");
+    });
   }
+
   return block;
 }
 
@@ -371,8 +423,9 @@ function populatePanel(prefix, data) {
   const sp   = prefix === "middle_east" ? "me" : "ua";
   const defs = SECTION_DEFS[prefix];
 
-  animateValue(`${sp}-red-alerts`, 0, Math.round((data.red_alerts || 0) / 2), 800);
-  animateValue(`${sp}-msg-count`,  0, data.message_count || 0, 1000);
+  // Animated counters
+  animateValue(`${sp}-red-alerts`,   0, Math.round((data.red_alerts   || 0) / 2), 800);
+  animateValue(`${sp}-msg-count`,    0, data.message_count || 0,                  1000);
 
   const chEl = document.getElementById(`${sp}-channel-count`);
   if (chEl) chEl.textContent = `${(data.channels || []).length} channels`;
@@ -383,6 +436,7 @@ function populatePanel(prefix, data) {
   const sentEl = document.getElementById(`${sp}-sentiment-val`);
   if (sentEl) sentEl.textContent = (data.sentiment || "unknown").toUpperCase();
 
+  // Build sections
   const container = document.getElementById(`${sp}-sections-content`);
   if (container) {
     container.innerHTML = "";
@@ -392,10 +446,12 @@ function populatePanel(prefix, data) {
   buildSectionsNav(sp, defs);
   setTimeout(() => initScrollSpy(prefix), 200);
 
-  renderAlertChart(`${sp}-chart-alerts`,     data.red_alerts_timeline);
+  // Charts
+  renderAlertChart(`${sp}-chart-alerts`,    data.red_alerts_timeline);
   renderActivityChart(`${sp}-chart-activity`, data.combined_activity_timeline);
   renderChannelChart(`${sp}-chart-channels`,  data.messages_by_channel);
 
+  // Sources
   const sourcesList = document.getElementById(`${sp}-sources-list`);
   if (sourcesList) {
     sourcesList.innerHTML = (data.channels || [])
@@ -436,15 +492,23 @@ function showToast(msg) {
 function scheduleAutoRefresh(updatedAt) {
   const ONE_HOUR = 60 * 60 * 1000;
   const elapsed  = Date.now() - new Date(updatedAt).getTime();
-  const wait     = Math.max(ONE_HOUR - elapsed, 60000);
+  const wait     = Math.max(ONE_HOUR - elapsed, 60000); // at least 1 min from now
+
   setTimeout(async () => {
     try {
+      // Clear cache so fresh data is fetched
       delete dataCache["middle_east"];
       delete dataCache["ukraine"];
-      const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
+
+      const [me, ua] = await Promise.all([
+        loadConflict("middle_east"),
+        loadConflict("ukraine"),
+      ]);
+
       if (me) { populatePanel("middle_east", me); buildTicker([me, ua]); }
       if (ua)   populatePanel("ukraine", ua);
-      if (me || ua) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
+      if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
+
       showToast("Data refreshed");
       scheduleAutoRefresh(new Date().toISOString());
     } catch (e) {
@@ -474,7 +538,8 @@ function startCountdown(updatedAt) {
 function updateDatetime() {
   const el = document.getElementById("headerDatetime");
   if (!el) return;
-  el.textContent = new Date().toLocaleString("en-GB", {
+  const now = new Date();
+  el.textContent = now.toLocaleString("en-GB", {
     day: "2-digit", month: "short", year: "numeric",
     hour: "2-digit", minute: "2-digit", timeZone: "UTC", timeZoneName: "short",
   });
@@ -516,17 +581,24 @@ function switchTab(key) {
 function updateHeaderForConflict(data) {
   const el = document.getElementById("siteTitle");
   if (!el || !data) return;
-  el.innerHTML = `${data.conflict || "War Summary"} <span>(24 Hours)</span>`;
+  const name = data.conflict || "War Summary";
+  el.innerHTML = `${name} <span>(24 Hours)</span>`;
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
   updateDatetime();
   setInterval(updateDatetime, 30000);
+
   document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => switchTab(btn.dataset.tab));
   });
-  const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
+
+  const [me, ua] = await Promise.all([
+    loadConflict("middle_east"),
+    loadConflict("ukraine"),
+  ]);
+
   if (me) {
     populatePanel("middle_east", me);
     updateHeaderForConflict(me);
@@ -534,6 +606,7 @@ async function init() {
     scheduleAutoRefresh(me.updated_at);
   }
   if (ua) populatePanel("ukraine", ua);
+
   buildTicker([me, ua]);
 }
 

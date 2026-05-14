@@ -110,7 +110,7 @@ def fetch_channel_messages_24h(channel: str) -> list[str]:
     all_texts: list[str] = []
     before_id: int | None = None
 
-    for page_num in range(12):  # max 12 pages ~240+ messages
+    for page_num in range(12):  # max 12 pages ≈ 240+ messages
         url = base_url if before_id is None else f"{base_url}?before={before_id}"
         try:
             resp = requests.get(url, headers=HEADERS, timeout=18)
@@ -129,7 +129,7 @@ def fetch_channel_messages_24h(channel: str) -> list[str]:
         any_within_24h = False
 
         for msg in msg_els:
-            # Extract message ID for pagination
+            # --- Extract message ID for pagination ---
             data_post = msg.get("data-post", "")
             if "/" in data_post:
                 try:
@@ -139,23 +139,23 @@ def fetch_channel_messages_24h(channel: str) -> list[str]:
                 except ValueError:
                     pass
 
-            # Check timestamp
+            # --- Check timestamp ---
             time_el = msg.select_one("time[datetime]")
             if time_el:
                 try:
                     dt_str = time_el["datetime"].replace("Z", "+00:00")
                     msg_time = datetime.fromisoformat(dt_str)
                     if msg_time < cutoff:
-                        continue  # older than 24 h
+                        continue  # older than 24 h — skip
                     any_within_24h = True
                 except Exception:
                     pass
             else:
-                # No timestamp: include only on first page
+                # No timestamp — include anyway if on the first page
                 if page_num > 0:
                     continue
 
-            # Extract text
+            # --- Extract text ---
             txt_el = msg.select_one(".tgme_widget_message_text")
             if not txt_el:
                 continue
@@ -207,7 +207,7 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
             "sections": {},
         }
 
-    # Feed up to 80 messages to the model
+    # Feed up to 80 messages to the model (most recent first)
     combined = "\n\n---\n\n".join(raw_messages[-80:])
 
     if "Iran" in conflict_name or "Middle East" in conflict_name:
@@ -308,7 +308,7 @@ INSTRUCTIONS:
 - Where multiple sources corroborate a fact, note it. Where only one source reports something, note it is unconfirmed.
 - key_developments should be 7 concise actionable headlines ordered by operational significance.
 - threat_assessment, regional_response, and intelligence_notes should be analytical prose paragraphs (not bullet points), 4-6 sentences each.
-- intensity: 1-10 (1 = minimal, 10 = all-out war with nuclear signaling)
+- intensity: 1–10 (1 = minimal, 10 = all-out war with nuclear signaling)
 - red_alerts: count of distinct air-raid / rocket-alert events mentioned across all messages
 - sentiment: one of escalating | de-escalating | stable | volatile
 
@@ -362,6 +362,7 @@ Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
 
 def build_activity_timeline(total_messages: int) -> list[int]:
     """Distribute total message count across 24 hours using a realistic UTC pattern."""
+    # Peak activity: 08:00–18:00 UTC; trough: 01:00–05:00 UTC
     weights = [3, 2, 1, 1, 1, 2, 4, 6, 8, 10, 10, 9, 9, 8, 8, 8, 7, 7, 6, 5, 5, 4, 4, 3]
     total_w = sum(weights)
     return [round(total_messages * w / total_w) for w in weights]
