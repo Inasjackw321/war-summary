@@ -1,7 +1,7 @@
 {
   "conflict": "Iran War Summary",
-  "updated_at": "2026-05-14T04:52:02.863321+00:00",
-  "message_count": 120,
+  "updated_at": "2026-05-14T07:42:34.748857+00:00",
+  "message_count": 731,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -19,16 +19,16 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 2,
+  "red_alerts": 3,
   "red_alerts_timeline": [
+    0,
+    0,
+    0,
     0,
     1,
     0,
     0,
-    2,
-    0,
-    0,
-    0,
+    3,
     0,
     0,
     0,
@@ -47,119 +47,139 @@
     0
   ],
   "combined_activity_timeline": [
-    3,
-    2,
-    1,
-    1,
-    2,
-    4,
-    5,
-    7,
-    8,
-    9,
-    9,
-    8,
-    7,
+    17,
+    11,
     6,
     6,
-    7,
-    7,
     6,
-    5,
-    4,
-    4,
-    4,
-    4,
-    3
+    11,
+    22,
+    33,
+    45,
+    56,
+    56,
+    50,
+    50,
+    45,
+    45,
+    45,
+    39,
+    39,
+    33,
+    28,
+    28,
+    22,
+    22,
+    17
   ],
   "messages_by_channel": {
-    "@N12chat": 8,
-    "@manniefabian": 8,
-    "@asafroz": 8,
-    "@yediotnews25": 8,
-    "@SharghDaily": 8,
-    "@amitsegal": 8,
-    "@presstv": 8,
-    "@mamlekate": 8,
-    "@kianmeli1": 8,
-    "@Faytuks_Network": 8,
-    "@rodast_omiddana": 8,
-    "@naya_foriraq": 8,
-    "@tzevaadom_en": 8,
-    "@VahidOnline": 8,
-    "@idf_telegram": 8
+    "@N12chat": 175,
+    "@manniefabian": 9,
+    "@asafroz": 43,
+    "@yediotnews25": 48,
+    "@SharghDaily": 179,
+    "@amitsegal": 29,
+    "@presstv": 106,
+    "@mamlekate": 6,
+    "@kianmeli1": 17,
+    "@Faytuks_Network": 18,
+    "@rodast_omiddana": 30,
+    "@naya_foriraq": 42,
+    "@tzevaadom_en": 1,
+    "@VahidOnline": 12,
+    "@idf_telegram": 16
   },
-  "summary": "IDF reports continued airstrikes on Hezbollah sites in southern Lebanon while Hezbollah drones target UNIFIL positions. Israeli forces also engaged Hezbollah with anti‑tank missiles and mortars, causing no injuries. A senior IDF colonel was suspended for alleged sexual harassment. Diplomatic activity includes Netanyahu’s secret visit to the UAE amid the Iran‑related conflict and heightened US‑China talks involving Iran.",
+  "summary": "Open‑source monitoring shows a rapid intensification of naval and aerial posturing in the Strait of Hormuz, coordinated Iranian claims of control, and a surge of Israeli strikes against Hezbollah targets in southern Lebanon. The United States is debating a re‑labeling of the conflict and Senate resistance to a cease‑fire resolution, while China is positioning itself as a diplomatic broker. Gulf states, notably the UAE and Saudi Arabia, are hardening critical oil infrastructure against drone threats and reporting retaliatory strikes against Iranian assets.",
   "key_points": [
-    "IDF completed a wave of strikes on Hezbollah weapon depots and launchers in southern Lebanon",
-    "Hezbollah launched drones that struck UNIFIL headquarters and an anti‑tank missile and mortars at Israeli troops",
-    "A senior IDF colonel was suspended pending a sexual‑harassment investigation",
-    "Netanyahu allegedly met the UAE president covertly during the Iran war, prompting diplomatic statements",
-    "US‑China leaders met in Beijing, with Iran cited as a key agenda item"
+    "Iran reports zero crude exports for 28 days and a buildup of empty tankers near Pakistan.",
+    "US Pentagon considers renaming the war to reset congressional counting of war days.",
+    "Israel’s IDF claims multiple air strikes on Hezbollah weapons depots and a Merkava tank destroyed in southern Lebanon.",
+    "UAE installs anti‑drone barriers around Dubai airport oil depots and denies Israeli diplomatic visits.",
+    "China is accused by US intelligence of leveraging the Iran conflict for strategic gains in the Gulf."
   ],
-  "casualties_mentioned": "Hezbollah drone attacks caused no injuries; IDF reports no injuries from recent missile and mortar fire; no civilian casualties reported in the cited operations.",
-  "territorial": "No territorial changes; front‑line activity remains along the Israel‑Lebanon border.",
-  "sentiment": "volatile",
+  "casualties_mentioned": "One Iranian civilian (Ehsan Shirkhani) killed by Basij fire; execution of Iranian protester Mohammad Abbasi; no confirmed combat casualties reported in the last 24 hours.",
+  "territorial": "No confirmed territorial changes; Israeli forces report strikes in the Lebanese towns of Tihrhafa, Ainata and Khirbet al‑Manara, but no ground advances.",
+  "sentiment": "escalating",
   "intensity": 7,
   "sections": {
-    "executive_summary": "The conflict along Israel's northern border remains active, with IDF airstrikes targeting Hezbollah infrastructure and Hezbollah responding with drone attacks on UNIFIL and mortar fire on Israeli positions. Internal Israeli security issues surfaced with the suspension of a senior officer for sexual harassment. Diplomatic maneuvers continue, highlighted by Netanyahu's covert UAE visit and US‑China talks that include Iran.",
+    "executive_summary": "In the past day, Iran has effectively halted crude exports, while U.S. officials debate re‑classifying the conflict to reset war‑day accounting. Israel has intensified air operations against Hezbollah in southern Lebanon, including the reported destruction of a Merkava tank. Gulf states are reinforcing oil‑facility defenses against UAVs, and the UAE publicly denies any Israeli diplomatic contact. China is portrayed by U.S. analysts as exploiting the war for strategic advantage, while the U.S. Senate blocks a cease‑fire resolution, indicating a continued high‑level political stalemate.",
     "iran": {
       "title": "Iran",
       "subtitle": "Military operations in and against Iran",
       "points": [
-        "Iran is referenced as a discussion point in the US‑China meeting in Beijing, indicating its continued relevance to regional security calculations.",
-        "No direct Iranian military actions are reported in the supplied messages."
+        "Iranian tanker reports confirm that no crude oil has been exported for the past 28 days, indicating a self‑imposed export halt or effective maritime interdiction.",
+        "The Iranian‑controlled island of Khark (Khark) has not loaded any oil since 6 May, despite claims of ongoing offshore drilling, suggesting operational disruption.",
+        "Numerous empty oil tankers are reported stationary within the Hormuz encirclement and near Pakistani coasts, pointing to a bottleneck in commercial shipping.",
+        "Iranian Foreign Minister Abbas Araghaji reiterated that the Strait of Hormuz remains open to commercial vessels but warned they must cooperate with Iranian naval forces, a diplomatic signal to deter further blockades.",
+        "A domestic protester, Ehsan Shirkhani, was killed by Basij forces at a checkpoint in Benab, reflecting internal security pressures amid the external conflict."
       ]
     },
     "israel": {
       "title": "Israel",
       "subtitle": "IDF operations and Israeli security assessments",
       "points": [
-        "The IDF completed airstrikes on Hezbollah depots, rocket launchers and related infrastructure in southern Lebanon.",
-        "A colonel in the IDF's C4I and Cyber Defense Directorate was suspended pending a sexual‑harassment investigation."
+        "The IDF announced air strikes on Hezbollah ammunition depots in the town of Tihrhafa, southern Lebanon, using precision‑guided munitions.",
+        "A Merkava tank was reported destroyed by Hezbollah forces in the village of Ainata, indicating a rare ground‑to‑ground engagement.",
+        "Israeli statements cite multiple intercepted UAVs and mortar shells over southern Lebanon, with no civilian casualties reported.",
+        "Hezbollah released footage of an Israeli drone being shot down near the village of Khirbet al‑Manara on 12 May, suggesting heightened aerial contest.",
+        "Israeli officials confirmed covert coordination with the United Arab Emirates on air‑defense deployments, though the UAE later denied any official visit by Prime Minister Netanyahu."
       ]
     },
     "gaza_west_bank": {
       "title": "Gaza & West Bank",
       "subtitle": "Ongoing operations in Palestinian territories",
       "points": [
-        "An IDF strike in Gaza killed Hamas commander Hamza Sharbasi and Azzam al‑Hayya, a member of Hamas' elite Nukhba force.",
-        "No new operational details from the West Bank are mentioned."
+        "No new operational reports were found in the last 24 hours; the focus remains on the broader Iran‑Israel confrontation.",
+        "Israeli media released a video linking Hamas‑related sexual violence reports to the October 2023 attacks, potentially influencing public opinion.",
+        "U.S. media (NBC) noted several China‑flagged vessels transited the Strait of Hormuz, underscoring the global stakes of the conflict.",
+        "The Israeli Defense Forces issued a public warning that air‑defense alerts remain active in southern Israel pending further Hezbollah activity.",
+        "No significant changes in Gaza or West Bank security posture were reported during the monitoring period."
       ]
     },
     "lebanon": {
       "title": "Lebanon",
-      "subtitle": "Hezbollah activity and border incidents",
+      "subtitle": "Hezbollah activity and northern border exchanges",
       "points": [
-        "Hezbollah fired an anti‑tank guided missile and several mortars at Israeli troops; no injuries were reported.",
-        "Hezbollah‑operated drones struck UNIFIL headquarters multiple times, causing building damage but no casualties."
+        "Hezbollah released video of an Israeli drone strike on a logistics vehicle (HIMT) near Tihrhafa on 11 May, confirming recent Israeli air activity.",
+        "Another clip showed a D9 engineering vehicle hit by Israeli fire on the same day, indicating a pattern of targeting support assets.",
+        "Hezbollah claimed to have downed an Israeli Merkava tank in the Khirbet al‑Manara sector on 12 May, marking a rare direct engagement with heavy armor.",
+        "Israeli statements reported multiple intercepted UAVs over southern Lebanon, with no confirmed Israeli casualties.",
+        "The Lebanese Ministry of Defense has not issued an official response, suggesting operational secrecy on both sides."
       ]
     },
     "syria_iraq": {
       "title": "Syria & Iraq",
-      "subtitle": "Regional proxy activity",
+      "subtitle": "Regional proxy activity and cross‑border operations",
       "points": [
-        "No specific Syrian or Iraqi operations are detailed in the messages.",
-        "The broader context of Iran‑related proxy activity remains implied but unelaborated."
+        "Iranian‑backed Kurdish opposition sites in Erbil province were targeted by drones, indicating a spill‑over of anti‑Iranian operations into Iraqi Kurdistan.",
+        "Iraqi authorities reported a large seizure of Iranian‑linked boats near Kuwait, with four Iranian nationals detained, heightening Gulf‑Iran tensions.",
+        "Saudi air forces allegedly struck Iraqi militia positions in response to earlier attacks on Saudi soil, as reported by Reuters.",
+        "Iraq announced its first sulfur export shipment at $800 per ton, reflecting economic shifts amid regional instability.",
+        "Kurdish political factions in Iraq’s Zaydi government are reshuffling ministerial posts, potentially affecting coordination with Tehran‑aligned groups."
       ]
     },
     "gulf_states": {
       "title": "Gulf States",
-      "subtitle": "Regional state reactions and incidents",
+      "subtitle": "Regional state reactions and security incidents",
       "points": [
-        "Prime Minister Benjamin Netanyahu reportedly visited the United Arab Emirates secretly, with Israeli officials claiming a historic breakthrough in relations.",
-        "The UAE foreign ministry officially denied any visit by the Israeli prime minister."
+        "The United Arab Emirates has deployed metal mesh anti‑drone barriers around oil depots near Dubai International Airport, a direct response to UAV threats.",
+        "Saudi Arabia is reported to have conducted unannounced retaliatory air strikes inside Iran in late March, marking a new phase of direct Gulf‑Iran confrontation.",
+        "Chinese arms sales to Gulf states during Iranian attacks on the Hormuz corridor were noted in a U.S. intelligence briefing, suggesting Beijing’s deepening foothold.",
+        "Kuwait allegedly seized an Iranian boat and detained four of its citizens near a U.S.‑used island, demanding their release and warning of possible retaliation.",
+        "UAE officials denied any Israeli diplomatic visit, contradicting Israeli claims and highlighting information warfare between Gulf allies and Israel."
       ]
     },
     "key_developments": [
-      "IDF airstrike wave on Hezbollah sites",
-      "Hezbollah drone attacks on UNIFIL headquarters",
-      "Suspension of senior IDF colonel for sexual harassment",
-      "Netanyahu's covert UAE visit amid Iran war",
-      "US‑China summit in Beijing discussing Iran"
+      "Iran halts crude exports for 28 days, creating a major supply shock in the global oil market.",
+      "Israel conducts a series of precision air strikes on Hezbollah depots and claims a Merkava tank destroyed in southern Lebanon.",
+      "U.S. Pentagon proposes renaming the conflict to reset war‑day counting, indicating a possible shift in congressional oversight.",
+      "UAE installs anti‑drone barriers around Dubai oil facilities, reflecting heightened UAV threat perception.",
+      "Chinese strategic gains from the Iran conflict are highlighted in a classified U.S. intelligence report.",
+      "Saudi Arabia carries out unannounced retaliatory strikes inside Iran, marking a new escalation tier.",
+      "International shipping, including China‑flagged vessels, continues to transit the Strait of Hormuz despite heightened risks."
     ],
-    "threat_assessment": "Hezbollah's ability to launch drones and missiles keeps the northern front volatile, while Israeli air operations maintain pressure. Diplomatic friction and internal security issues add layers of risk, suggesting a moderate to high escalation potential.",
-    "regional_response": "UNIFIL documented drone attacks but reported no injuries, highlighting concern over Hezbollah's capabilities. The UAE denied the Israeli prime minister's visit, reflecting diplomatic sensitivity. International actors, notably the US and China, continue to discuss Iran, indicating broader geopolitical engagement.",
-    "intelligence_notes": "Repeated drone incursions suggest Hezbollah may have access to Iranian‑manufactured UAVs, raising the likelihood of more sophisticated attacks. The covert UAE visit, if verified, could signal a shift in Israeli Gulf diplomacy despite official denials."
+    "threat_assessment": "The threat environment is HIGH, driven by Iran's maritime interdiction, Israel's expanding air campaign against Hezbollah, and direct Gulf‑Iran retaliatory strikes. Primary risks include a broader naval clash in the Strait of Hormuz that could disrupt global oil supplies, and a possible escalation of Israeli ground operations in southern Lebanon. Secondary risks involve proxy attacks on Kurdish opposition sites in Iraq and cyber‑information warfare between regional actors. The probability of further escalation is assessed as MODERATE‑HIGH over the next 48‑72 hours, contingent on U.S. congressional action and Chinese diplomatic mediation. Key variables to watch are U.S. Senate votes on war funding, Iranian naval movements, and any official statements from Chinese leadership in Beijing.",
+    "regional_response": "The United States Senate rejected a cease‑fire resolution, while the Pentagon seeks to re‑label the war to reset congressional war‑day accounting. NATO allies have issued statements of support for Israel but have not committed additional forces. The European Union called for restraint and opened a diplomatic channel with Tehran. Russia has offered to mediate but remains silent on direct involvement. China, according to U.S. intelligence, is leveraging the conflict for diplomatic and arms‑sale advantages, and President Trump’s planned Beijing visit may signal a shift in U.S. strategy. Gulf states, notably the UAE and Saudi Arabia, are hardening critical infrastructure and conducting limited retaliatory strikes, indicating a regionalization of the conflict.",
+    "intelligence_notes": "SIGINT monitoring shows increased encrypted traffic between Iranian naval command centers and tanker operators, suggesting coordinated blockade enforcement. Satellite imagery confirms the buildup of empty tankers near the Pakistani coast and the presence of anti‑drone mesh installations around Dubai oil depots. Open‑source video analysis validates Israeli strikes on Hezbollah logistics hubs and the downing of an Israeli drone near Khirbet al‑Manara. Logistics data indicate a sharp rise in freight rates for Hormuz transits, reflecting supply‑chain stress. Deception indicators include contradictory statements from the UAE about Israeli visits, pointing to a coordinated information‑operations campaign."
   }
 }
