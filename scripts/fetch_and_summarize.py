@@ -4,6 +4,7 @@ import json
 import time
 import re
 import sys
+import random
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -20,7 +21,7 @@ MODELS = [
 
 CONFLICTS = {
     "middle_east": {
-        "title": "Iran War Summary",
+        "title": "Middle-East War",
         "channels": [
             "N12chat", "manniefabian", "asafroz", "yediotnews25",
             "SharghDaily", "amitsegal", "presstv", "mamlekate",
@@ -207,10 +208,10 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
             "sections": {},
         }
 
-    # Feed up to 80 messages to the model (most recent first)
-    combined = "\n\n---\n\n".join(raw_messages[-80:])
+    # raw_messages is already tagged: each entry is "[channel] text"
+    combined = "\n\n---\n\n".join(raw_messages)
 
-    if "Iran" in conflict_name or "Middle East" in conflict_name:
+    if "Iran" in conflict_name or "Middle East" in conflict_name or "Middle-East" in conflict_name:
         sections_spec = """{
   "executive_summary": "4-5 sentence strategic overview covering the most significant developments of the past 24 hours, overall escalation trajectory, and key actors involved",
   "iran": {
@@ -297,7 +298,7 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
 
     prompt = f"""You are a senior military intelligence analyst producing a classified-style open-source intelligence brief for {conflict_name}.
 
-Analyze the following Telegram messages from conflict-monitoring channels (collected over the past 24 hours) and produce a comprehensive, deeply detailed JSON intelligence report.
+Analyze the following Telegram messages from conflict-monitoring channels (collected over the past 24 hours). Each message is prefixed with [channel_name] indicating its source.
 
 SOURCE MESSAGES:
 {combined}
@@ -305,8 +306,9 @@ SOURCE MESSAGES:
 INSTRUCTIONS:
 - Write each bullet point as 2-3 full sentences. Lead with the most specific fact (unit, location, number, weapon system), then provide context and significance.
 - Do NOT use vague language. Use exact place names, unit designations, weapon types, and figures wherever the sources support it.
-- Where multiple sources corroborate a fact, note it. Where only one source reports something, note it is unconfirmed.
-- key_developments should be 7 concise actionable headlines ordered by operational significance.
+- At the end of each bullet point, cite the source channel(s) that reported the information in the format: (Source: @channel_name) — e.g. (Source: @DeepStateUA) or (Source: @eRadarrua, @UkraineNow). Only cite channels that actually provided that specific information.
+- Where multiple sources corroborate a fact, cite all of them. Where only one source reports something, note it is unconfirmed.
+- key_developments should be 7 concise actionable headlines ordered by operational significance, each ending with (Source: @channel).
 - threat_assessment, regional_response, and intelligence_notes should be analytical prose paragraphs (not bullet points), 4-6 sentences each.
 - intensity: 1–10 (1 = minimal, 10 = all-out war with nuclear signaling)
 - red_alerts: count of distinct air-raid / rocket-alert events mentioned across all messages
@@ -378,19 +380,27 @@ def run():
 
     for key, conf in CONFLICTS.items():
         print(f"\n=== {conf['title']} ===", flush=True)
-        all_messages: list[str] = []
+        per_channel_messages: dict[str, list[str]] = {}
         per_channel_counts: dict[str, int] = {}
 
         for ch in conf["channels"]:
             print(f"  Fetching 24 h from t.me/{ch} ...", file=sys.stderr)
             msgs = fetch_channel_messages_24h(ch)
+            per_channel_messages[ch] = msgs
             per_channel_counts[ch] = len(msgs)
             print(f"    -> {len(msgs)} relevant messages in last 24 h", file=sys.stderr)
-            all_messages.extend(msgs)
             time.sleep(1.5)
 
-        total_count = len(all_messages)
-        print(f"  Total messages collected: {total_count}", file=sys.stderr)
+        # Build balanced, channel-tagged message list: up to 15 per channel, shuffled
+        tagged: list[str] = []
+        for ch in conf["channels"]:
+            for msg in per_channel_messages.get(ch, [])[:15]:
+                tagged.append(f"[{ch}] {msg}")
+        random.shuffle(tagged)
+        all_messages = tagged
+
+        total_count = sum(per_channel_counts.values())
+        print(f"  Total messages collected: {total_count} ({len(all_messages)} sent to AI)", file=sys.stderr)
         print(f"  Generating AI summary...", file=sys.stderr)
 
         ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
