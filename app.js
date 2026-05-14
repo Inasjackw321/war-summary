@@ -194,12 +194,19 @@ function highlightLabels(text) {
 }
 
 function renderSourceTags(text) {
-  return text.replace(/\(Source:\s*(@[\w,\s@]+)\)/gi, (_, src) => {
+  return text.replace(/\(Source:\s*(@[\w,\s@/\d]+)\)/gi, (_, src) => {
     const tags = src.split(',').map(s => s.trim()).filter(Boolean).map(s => {
-      const handle = s.startsWith('@') ? s : '@' + s;
-      const ch = handle.slice(1);
-      const url = currentUrlMap[ch] || `https://t.me/${ch}`;
-      return `<a class="src-tag" href="${url}" target="_blank" rel="noopener">${handle}</a>`;
+      const raw = s.startsWith('@') ? s.slice(1) : s; // "channel/12345" or "channel"
+      const slash = raw.indexOf('/');
+      let ch, url;
+      if (slash !== -1) {
+        ch = raw.slice(0, slash);
+        url = `https://t.me/${ch}/${raw.slice(slash + 1)}`;
+      } else {
+        ch = raw;
+        url = currentUrlMap[ch] || `https://t.me/${ch}`;
+      }
+      return `<a class="src-tag" href="${url}" target="_blank" rel="noopener">@${ch}</a>`;
     }).join(' ');
     return `<span class="src-tags">${tags}</span>`;
   });
@@ -466,7 +473,7 @@ const sourcesModal = (function () {
   return { open, close };
 })();
 
-// ── Auto-refresh ──────────────────────────────────────────────────────────────
+// ── Auto-refresh ─────────────────────────────────────────────────────────────
 function scheduleAutoRefresh(updatedAt) {
   const ONE_HOUR = 60*60*1000, elapsed = Date.now()-new Date(updatedAt).getTime();
   const wait = Math.max(ONE_HOUR-elapsed, 60000);
@@ -500,7 +507,7 @@ function updateDatetime() {
   el.textContent = new Date().toLocaleString("en-GB", { day:"2-digit", month:"short", year:"numeric", hour:"2-digit", minute:"2-digit", timeZone:"UTC", timeZoneName:"short" });
 }
 
-// ── Data loading ──────────────────────────────────────────────────────────────
+// ── Data loading ─────────────────────────────────────────────────────────────
 const dataCache = {};
 async function loadConflict(key) {
   if (dataCache[key]) return dataCache[key];

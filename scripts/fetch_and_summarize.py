@@ -103,17 +103,19 @@ def is_real_alert(text: str) -> bool:
     return bool(_REAL_ALERT_RE.search(text))
 
 
-def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime], int | None]:
+def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime], list[int | None], int | None]:
     """
     Scrape messages from the last 24 hours of a public Telegram channel.
-    Returns (texts, timestamps, max_message_id) where max_message_id is the
-    highest post ID seen (used to build a direct link to the most recent post).
+    Returns (texts, timestamps, post_ids, max_message_id).
+    post_ids is parallel to texts — the Telegram post ID for each message,
+    enabling direct links to the specific post that was cited.
     """
     base_url = f"https://t.me/s/{channel}"
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
     seen: set[str] = set()
     all_texts: list[str] = []
     all_times: list[datetime] = []
+    all_ids: list[int | None] = []
     before_id: int | None = None
     max_id: int | None = None
 
@@ -135,10 +137,12 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
         any_within_24h = False
 
         for msg in msg_els:
+            current_mid: int | None = None
             data_post = msg.get("data-post", "")
             if "/" in data_post:
                 try:
                     mid = int(data_post.split("/")[-1])
+                    current_mid = mid
                     if oldest_id_on_page is None or mid < oldest_id_on_page:
                         oldest_id_on_page = mid
                     if max_id is None or mid > max_id:
@@ -170,6 +174,7 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
                 seen.add(txt)
                 all_texts.append(txt)
                 all_times.append(msg_time)
+                all_ids.append(current_mid)
 
         if not any_within_24h and page_num > 0:
             break
@@ -179,7 +184,7 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
         before_id = oldest_id_on_page
         time.sleep(0.9)
 
-    return all_texts, all_times, max_id
+    return all_texts, all_times, all_ids, max_id
 
 
 def bucket_into_24h_slots(timestamps: list[datetime | None]) -> list[int]:
@@ -360,7 +365,7 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
 
     prompt = f"""You are a senior military intelligence analyst producing a classified-style open-source intelligence brief for {conflict_name}.
 
-Analyze the following Telegram messages from conflict-monitoring channels (collected over the past 24 hours). Each message is prefixed with [channel_name] indicating its source.
+Analyze the following Telegram messages from conflict-monitoring channels (collected over the past 24 hours). Each message is prefixed with [channel_name] or [channel_name/postID] indicating its source.
 
 SOURCE MESSAGES:
 {combined}
@@ -368,9 +373,9 @@ SOURCE MESSAGES:
 INSTRUCTIONS:
 - Write each bullet point as 2-3 full sentences. Lead with the most specific fact (unit, location, number, weapon system), then provide context and significance.
 - Do NOT use vague language. Use exact place names, unit designations, weapon types, and figures wherever the sources support it.
-- At the end of each bullet point, cite the source channel(s) that reported the information in the format: (Source: @channel_name) — e.g. (Source: @DeepStateUA) or (Source: @eRadarrua, @UkraineNow). Only cite channels that actually provided that specific information.
+- At the end of each bullet point, cite the source(s). Messages are prefixed [channel/postID] or [channel]. Use format (Source: @channel/postID) when a post ID is present, or (Source: @channel) when not. Example: (Source: @DeepStateUA/12345) or (Source: @eRadarrua/67890, @UkraineNow). Only cite channels that actually provided that specific information.
 - Where multiple sources corroborate a fact, cite all of them. Where only one source reports something, note it is unconfirmed.
-- key_developments should be 7 concise actionable headlines ordered by operational significance, each ending with (Source: @channel).
+- key_developments should be 7 concise actionable headlines ordered by operational significance, each ending with (Source: @channel/postID) or (Source: @channel).
 - threat_assessment, regional_response, and intelligence_notes should be analytical prose paragraphs (not bullet points), 4-6 sentences each.
 - intensity: 1–10 (1 = minimal, 10 = all-out war with nuclear signaling)
 - sentiment: one of escalating | de-escalating | stable | volatile
@@ -433,31 +438,37 @@ def run():
         print(f"\n=== {conf['title']} ===", flush=True)
         per_channel_messages: dict[str, list[str]] = {}
         per_channel_timestamps: dict[str, list[datetime]] = {}
+        per_channel_message_ids: dict[str, list[int | None]] = {}
         per_channel_counts: dict[str, int] = {}
         max_ids: dict[str, int] = {}
 
         for ch in conf["channels"]:
             print(f"  Fetching 24 h from t.me/{ch} ...", file=sys.stderr)
-            msgs, times, max_id = fetch_channel_messages_24h(ch)
+            msgs, times, ids, max_id = fetch_channel_messages_24h(ch)
             per_channel_messages[ch] = msgs
             per_channel_timestamps[ch] = times
+            per_channel_message_ids[ch] = ids
             per_channel_counts[ch] = len(msgs)
             if max_id is not None:
                 max_ids[ch] = max_id
             print(f"    -> {len(msgs)} relevant messages in last 24 h", file=sys.stderr)
             time.sleep(1.5)
 
-        # Most recent post URL per channel (for clickable source tags in frontend)
+        # Most recent post URL per channel (fallback for source tags without a post ID)
         recent_post_urls = {
             ch: f"https://t.me/{ch}/{max_ids[ch]}"
             for ch in conf["channels"] if ch in max_ids
         }
 
-        # Build balanced, channel-tagged message list: up to 15 per channel, shuffled
+        # Build balanced, channel-tagged message list with post IDs: up to 15 per channel, shuffled
+        # Format: [channel/postID] text - so the AI can include post IDs in citations
         tagged: list[str] = []
         for ch in conf["channels"]:
-            for msg in per_channel_messages.get(ch, [])[:15]:
-                tagged.append(f"[{ch}] {msg}")
+            msgs = per_channel_messages.get(ch, [])[:15]
+            ids = per_channel_message_ids.get(ch, [])[:15]
+            for msg, mid in zip(msgs, ids):
+                prefix = f"{ch}/{mid}" if mid else ch
+                tagged.append(f"[{prefix}] {msg}")
         random.shuffle(tagged)
         all_messages = tagged
 
