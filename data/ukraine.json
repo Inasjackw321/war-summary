@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-14T15:38:34.864181+00:00",
-  "message_count": 335,
+  "updated_at": "2026-05-14T18:08:07.347920+00:00",
+  "message_count": 336,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -21,77 +21,170 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
-    0,
-    0,
+    2,
     6,
-    8,
-    10,
-    10,
+    9,
+    9,
     24,
-    6,
+    10,
     5,
-    7,
-    4,
+    5,
+    8,
+    3,
+    1,
     2,
     2,
     2,
     1,
+    1,
+    3,
+    0,
     2,
     2,
     3,
-    0,
-    0,
-    3
+    1
   ],
   "combined_activity_timeline": [
-    8,
-    8,
-    7,
-    13,
-    7,
-    13,
-    26,
-    23,
-    43,
-    48,
-    21,
-    21,
-    19,
-    15,
+    6,
     11,
     9,
+    19,
+    25,
+    24,
+    69,
+    22,
+    14,
+    29,
+    16,
+    10,
+    12,
+    4,
+    4,
+    7,
+    7,
     3,
-    5,
-    8,
-    5,
     7,
     2,
-    5,
-    7
+    8,
+    8,
+    9,
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 97,
-    "@kpszsu": 50,
-    "@mon1tor_ua": 132,
+    "@eRadarrua": 101,
+    "@kpszsu": 51,
+    "@mon1tor_ua": 123,
     "@Faytuks_Network": 10,
-    "@UkraineNow": 20,
-    "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 25
+    "@UkraineNow": 21,
+    "@DeepStateUA": 2,
+    "@ukr_leaks_eng": 28
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/91758",
-    "kpszsu": "https://t.me/kpszsu/61870",
+    "eRadarrua": "https://t.me/eRadarrua/91766",
+    "kpszsu": "https://t.me/kpszsu/61876",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66726",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/2725",
-    "UkraineNow": "https://t.me/UkraineNow/81195",
-    "DeepStateUA": "https://t.me/DeepStateUA/23502",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/2727",
+    "UkraineNow": "https://t.me/UkraineNow/81198",
+    "DeepStateUA": "https://t.me/DeepStateUA/23504",
     "WarMonitor": "https://t.me/WarMonitor/273",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30170"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30177"
   },
-  "summary": "{\n  \"summary\": \"Intense Russian air and missile strikes continued across central Ukraine, focusing on Kyiv and Odesa, with over 650 hostile UAVs and 41 missiles reported downed. Ukrainian forces reported multiple civilian casualties in Kyiv, Odesa, and the Zakarpattia region, while Russian claims of liberating villages in the DPR and LPR were unverified. Drone activity surged, with new Shahed and Gerbera swarms targeting rail infrastructure and energy sites. EU protection for Ukrainian refugees ",
-  "key_points": [],
-  "sentiment": "unknown",
-  "intensity": 5,
-  "sections": {}
+  "summary": "Russian forces launched a massive combined airstrike on Kyiv and surrounding regions, deploying over 600 Shahed drones and dozens of missiles, with Ukrainian air defenses claiming a high interception rate. Intense UAV activity was reported across multiple fronts, including Shahed attacks on Kharkiv, Zaporizhzhia, and Odesa, as well as new groups of fast‑reactive drones from the Black Sea and northern directions. Ukraine reported rising civilian casualties in Kyiv (up to 32 dead) and continued strikes on infrastructure in Chernihiv, Kremenchuk and Odesa. Diplomatic and aid news included EU extension of refugee protection to 2028 and a pending €6 bn EU drone procurement package.",
+  "key_points": [
+    "Russian combined missile and Shahed drone barrage on Kyiv, 56 missiles and 675 drones launched, 41 missiles and 652 drones intercepted (Source: @kpszsu/61846)",
+    "Ukrainian air defenses down 41 missiles and 652 UAVs, reporting 15 missile hits and 23 drone impacts across 24 locations (Source: @kpszsu/61846)",
+    "Significant civilian casualties in Kyiv: 32 dead, including a one‑month‑old infant, and 20 hospitalized (Source: @UkraineNow/81184)",
+    "New groups of fast‑reactive Shahed drones observed moving from the Black Sea toward Odesa and from the north toward Kyiv (Source: @kpszsu/61844, @kpszsu/61845)",
+    "EU to finalize a €6 bn drone purchase package for Ukraine; EU extends refugee protection until March 2028 (Source: @ukr_leaks_eng/30170, @UkraineNow/81185)",
+    "Russian Defense Ministry claims liberation of Nikolaevka village in DPR (Source: @ukr_leaks_eng/30163)",
+    "Russian Tu‑22M3 bombers relocated from Olenya to Dyagilevo airbase, likely for upcoming strikes (Source: @eRadarrua/91752)"
+  ],
+  "casualties_mentioned": "Kyiv: 32 dead (including 1 infant), 20 hospitalized; Darniy district: 12 dead, 2 children; Kharkiv: 7 injured, 2 dead; Odesa humanitarian mission: no casualties; total civilian deaths reported 44+",
+  "territorial": "Russian claim of taking Nikolaevka village in the Konstantinovsky direction of DPR; no other confirmed front‑line changes in the past 24 h",
+  "sentiment": "escalating",
+  "intensity": 8,
+  "sections": {
+    "executive_summary": "The past day saw the most intense coordinated air assault of the war, with Russia unleashing a massive wave of Shahed drones and missiles against Kyiv and other strategic targets, while Ukrainian air defenses achieved a high kill ratio. UAV incursions were reported across all sectors, indicating a broadened Russian drone deployment strategy. Civilian toll rose sharply in Kyiv and other cities, underscoring the humanitarian impact. Meanwhile, diplomatic activity focused on EU financial support and refugee policy, and Russia announced a tactical bomber relocation that may presage further long‑range strikes.",
+    "ukraine": {
+      "title": "Ukraine",
+      "subtitle": "Ukrainian defensive operations and strikes",
+      "points": [
+        "Ukrainian air defense units shot down 41 missiles and 652 Shahed‑type drones during the night of 13‑14 May, limiting the strike to 15 missile impacts and 23 drone hits across 24 locations (Source: @kpszsu/61846).",
+        "The State Emergency Service confirmed an increase of 12 civilian deaths in Kyiv, including two children, after the latest raid (Source: @eRadarrua/91764).",
+        "Ukrainian forces reported a successful strike on the Skyeton drone‑manufacturing office in Kyiv, destroying the facility (Source: @ukr_leaks_eng/30166).",
+        "Local volunteer groups in Zhytomyr warned of fraudulent fundraising operations, highlighting internal security challenges (Source: @UkraineNow/81191).",
+        "Ukrainian officials cited a rise in civilian casualties in Kharkiv after a Shahed hit damaged seven residential buildings and two dormitories, with 12 injured (Source: @UkraineNow/81187).",
+        "Ukrainian authorities announced a proposal to digitise military summons and institute a one‑month annual training for all citizens (Source: @ukr_leaks_eng/30157)."
+      ]
+    },
+    "russia": {
+      "title": "Russia",
+      "subtitle": "Russian military operations and strategic posture",
+      "points": [
+        "The Russian Defense Ministry announced the liberation of Nikolaevka village in the Konstantinovsky direction of the DPR (Source: @ukr_leaks_eng/30163).",
+        "Russian forces deployed three Tu‑22M3 strategic bombers from Olenya to Dyagilevo airbase, likely preparing for further long‑range strikes (Source: @eRadarrua/91752).",
+        "A Russian statement claimed the successful completion of a recent operation, accompanied by a fundraising request for the \"єРадар\" project (Source: @eRadarrua/91724).",
+        "Russian media reported the use of 300‑400 Shahed drones per day, indicating a high production and logistics capacity (Source: @UkraineNow/81189).",
+        "Russian air units conducted a combined missile and drone barrage involving 56 missiles (including X‑47, Iskander‑M, and Kh‑101) and 675 Shahed‑type UAVs (Source: @kpszsu/61846).",
+        "Russian forces reportedly increased drone‑operator personnel by 28 000, potentially reaching 168 000 by year‑end (Source: @UkraineNow/81189)."
+      ]
+    },
+    "eastern_front": {
+      "title": "Eastern Front",
+      "subtitle": "Donetsk & Luhansk combat operations",
+      "points": [
+        "Russian claim of taking Nikolaevka village in the Konstantinovsky direction of the DPR, suggesting incremental gains in the Donetsk sector (Source: @ukr_leaks_eng/30163).",
+        "No additional village‑level updates were provided by open sources in the last 24 h, indicating a relative pause in major offensives on the eastern front.",
+        "Ukrainian intelligence noted increased UAV surveillance over the front, but no confirmed strikes were reported.",
+        "Russian artillery and missile assets continue to target logistics hubs in the Donbas, though specific effects remain unverified.",
+        "ISW assessments were not referenced in the collected messages, limiting external validation of front‑line dynamics."
+      ]
+    },
+    "northern_front": {
+      "title": "Northern Front",
+      "subtitle": "Kharkiv region and Sumy border activity",
+      "points": [
+        "Shahed drones were reported over Kharkiv, striking residential buildings and dormitories, causing 12 injuries and damage to seven houses (Source: @UkraineNow/81187).",
+        "Ukrainian monitoring channels logged multiple Shahed sightings near Starokostiantyniv, Starýi Mерчик, and near the city of Zelenodolsk, indicating a spread of UAV activity (Source: @mon1tor_ua/66712, @eRadarrua/91754).",
+        "Fast‑reactive UAVs were observed flying past Sineľnikove toward Dnipro, suggesting cross‑border incursions from the north (Source: @kpszsu/61865).",
+        "Ukrainian forces reported a Shahed over Obolon heading toward Pochaïna/Kurenivka, prompting local air‑defence alerts (Source: @mon1tor_ua/66718).",
+        "No major ground engagements were reported in the Sumy area during the period."
+      ]
+    },
+    "southern_front": {
+      "title": "Southern Front",
+      "subtitle": "Zaporizhzhia & Kherson operations",
+      "points": [
+        "Shahed attacks hit a humanitarian UN vehicle in Khorosheve district of Kherson; no casualties were reported (Source: @UkraineNow/81192).",
+        "Multiple Shahed groups were observed moving from the Black Sea toward Odesa, with at least two drones passing near Ternevate toward Mykolaivka (Source: @eRadarrua/91766).",
+        "Ukrainian reports indicated damage to port infrastructure in Odesa after a wave of drone strikes, with two civilian injuries (Source: @UkraineNow/81182).",
+        "Russian UAV activity was noted over Zaporizhzhia, including two Shahed drones near Ternevate and one near Pavlograd (Source: @eRadarrua/91766, @kpszsu/61847).",
+        "Ukrainian air defenses engaged and downed several Shahed drones over the southern sector, though exact numbers were not disclosed."
+      ]
+    },
+    "air_war": {
+      "title": "Air War",
+      "subtitle": "Drone, missile and aviation operations",
+      "points": [
+        "A massive combined strike on 13‑14 May involved 56 missiles (including X‑47, Iskander‑M, Kh‑101) and 675 Shahed‑type UAVs; Ukrainian forces reported 41 missile and 652 UAV interceptions (Source: @kpszsu/61846).",
+        "New fast‑reactive Shahed groups were observed moving from the Black Sea toward Odesa and from northern routes toward Kyiv, indicating expanded launch corridors (Source: @kpszsu/61844, @kpszsu/61845).",
+        "Russian Tu‑22M3 bombers were relocated from Olenya to Dyagilevo, suggesting preparation for long‑range strikes (Source: @eRadarrua/91752).",
+        "Ukrainian radar and SAM units reported high‑altitude UAV activity over the Black Sea, with several Shahed drones intercepted near the coast (Source: @kpszsu/61871).",
+        "Electronic warfare chatter indicated increased Russian jamming of Ukrainian communications during the night of the large‑scale attack (unconfirmed, inferred from multiple channel reports).",
+        "Ukrainian forces claimed the downing of a Tu‑95MS bomber after it landed at Olenya, which then redeployed to the Far East (Source: @eRadarrua/91755)."
+      ]
+    },
+    "key_developments": [
+      "Massive Russian airstrike on Kyiv: 56 missiles, 675 Shahed drones; 41 missiles and 652 drones intercepted (Source: @kpszsu/61846)",
+      "Civilian death toll in Kyiv rises to 32, including an infant, with 20 hospitalized (Source: @UkraineNow/81184)",
+      "EU finalises €6 bn drone procurement package for Ukraine (Source: @ukr_leaks_eng/30170)",
+      "Russian Tu‑22M3 bombers relocated to Dyagilevo, indicating upcoming long‑range operations (Source: @eRadarrua/91752)",
+      "New fast‑reactive Shahed groups observed from Black Sea toward Odesa and from north toward Kyiv (Source: @kpszsu/61844, @kpszsu/61845)",
+      "Russian claim of liberating Nikolaevka village in DPR (Source: @ukr_leaks_eng/30163)",
+      "EU extends refugee protection for Ukrainians until March 2028 (Source: @UkraineNow/81185)"
+    ],
+    "threat_assessment": "Operational momentum remains with Russia, demonstrated by the unprecedented scale of the combined missile‑drone barrage on Kyiv and the redeployment of strategic bombers. Ukrainian air defenses are proving effective, achieving a high interception ratio, but civilian casualties continue to rise, indicating a persistent threat to population centers. The proliferation of fast‑reactive Shahed groups from multiple launch axes expands the threat envelope across all fronts, raising the risk of saturation attacks. Russian attrition appears sustainable given reported increases in drone‑operator personnel, while Ukrainian losses are mounting in the civilian sector. Overall breakthrough risk is MODERATE, with the most likely escalation being intensified aerial attacks rather than a large ground offensive.",
+    "regional_response": "The EU is moving to approve a €6 bn drone purchase package for Ukraine and has extended refugee protection to March 2028, reflecting heightened political support. The United States, via statements from Secretary of State Marco Rubio, continues to frame Ukrainian forces as the strongest in Europe, reinforcing NATO backing. No new major weapons deliveries were confirmed in the 24‑hour window, but the EU aid package signals forthcoming UAV capabilities for Kyiv. Diplomatic rhetoric remains supportive, while Russia's operational tempo suggests a focus on air‑dominance rather than immediate ground escalation.",
+    "intelligence_notes": "Open‑source UAV tracking shows a diversification of launch sites, with new groups emerging from the Black Sea, northern Ukraine, and the Crimean peninsula, indicating a broadened logistical network. The relocation of Tu‑22M3 bombers to Dyagilevo suggests a shift toward long‑range strike planning, possibly targeting critical infrastructure deeper in Ukraine. Electronic warfare activity appears heightened, with multiple channels noting increased jamming during the large‑scale night attack. Satellite imagery (not provided) would be needed to confirm the claimed capture of Nikolaevka and to assess damage to Kyiv's air‑defence sites. Russian recruitment of additional drone operators points to a sustained production line for Shahed‑type UAVs."
+  }
 }
