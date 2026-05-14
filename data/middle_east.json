@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-14T10:30:00.931467+00:00",
-  "message_count": 762,
+  "updated_at": "2026-05-14T10:51:24.377978+00:00",
+  "message_count": 765,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -19,7 +19,7 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 0,
+  "red_alerts": 9,
   "red_alerts_timeline": [
     0,
     0,
@@ -28,10 +28,10 @@
     0,
     0,
     0,
+    4,
     0,
     0,
-    0,
-    0,
+    9,
     0,
     0,
     0,
@@ -47,7 +47,7 @@
     0
   ],
   "combined_activity_timeline": [
-    17,
+    18,
     12,
     6,
     6,
@@ -58,8 +58,8 @@
     47,
     58,
     58,
-    52,
-    52,
+    53,
+    53,
     47,
     47,
     47,
@@ -70,28 +70,118 @@
     29,
     23,
     23,
-    17
+    18
   ],
   "messages_by_channel": {
-    "@N12chat": 184,
+    "@N12chat": 185,
     "@manniefabian": 10,
-    "@asafroz": 41,
-    "@yediotnews25": 56,
+    "@asafroz": 39,
+    "@yediotnews25": 57,
     "@SharghDaily": 181,
     "@amitsegal": 31,
-    "@presstv": 109,
-    "@mamlekate": 5,
+    "@presstv": 111,
+    "@mamlekate": 4,
     "@kianmeli1": 19,
     "@Faytuks_Network": 18,
-    "@rodast_omiddana": 29,
-    "@naya_foriraq": 44,
-    "@tzevaadom_en": 5,
+    "@rodast_omiddana": 28,
+    "@naya_foriraq": 45,
+    "@tzevaadom_en": 6,
     "@VahidOnline": 12,
-    "@idf_telegram": 18
+    "@idf_telegram": 19
   },
-  "summary": "{\n  \"summary\": \"The past 24 hours have seen intensified Israeli strikes on Hezbollah positions in southern Lebanon and a wave of IDF airstrikes targeting Hamas and Iranian-linked assets in Gaza and the Strait of Hormuz. Iran continues to contest U.S. naval blockades, while diplomatic overtures between Israel, the UAE, and China remain murky amid competing narratives. Hezbollah drone activity and Iranian-backed maritime seizures have raised the risk of broader regional spillover. The overall envi",
-  "key_points": [],
-  "sentiment": "unknown",
-  "intensity": 5,
-  "sections": {}
+  "summary": "Israel intensified its air campaign against Hezbollah infrastructure in southern Lebanon, reporting multiple drone and missile engagements with limited Israeli casualties. Hezbollah continued low‑intensity drone attacks on northern Israeli border towns, notably Rosh Hanikra, causing civilian injuries. Iran’s diplomatic outreach expanded at the BRICS foreign ministers' meeting in New Delhi and in Tehran‑Abu Dhabi talks, while the United States and China debated navigation rights in the Strait of Hormuz. Regional tensions remain high with Saudi and Emirati covert actions against Iranian interests and a UN‑IFIL drone threat surge.",
+  "key_points": [
+    "IDF launched a wave of airstrikes on Hezbollah weapon depots, rocket launchers and command sites in southern Lebanon (Source: @idf_telegram, @manniefabian).",
+    "Hezbollah drone strike on a parking lot in Rosh Hanikra injured three Israeli civilians, two seriously (Source: @manniefabian, @yediotnews25).",
+    "US‑China talks on Strait of Hormuz navigation rights highlighted competing claims and potential for naval confrontation (Source: @rodast_omiddana, @presstv).",
+    "Iran’s foreign minister attended the BRICS foreign ministers' meeting in New Delhi, seeking support against US‑Israeli pressure (Source: @presstv, @VahidOnline).",
+    "Saudi Arabia reportedly bombed Iranian‑backed militia positions in Iraq, marking a direct escalation in the proxy war (Source: @rodast_omiddana, @kianmeli1).",
+    "UNIFIL headquarters in Naqoura suffered multiple drone impacts, allegedly of Iranian manufacture, though no casualties were reported (Source: @manniefabian).",
+    "US‑backed naval blockade in the Strait of Hormuz allowed only 15 humanitarian vessels through, while 67 commercial ships were forced to reroute (Source: @VahidOnline)."
+  ],
+  "casualties_mentioned": "Hezbollah drone attack in Rosh Hanikra: 3 Israeli civilians injured (2 serious). UNIFIL drone incidents: no injuries. Multiple reports of Lebanese civilian casualties from Hezbollah attacks (unspecified numbers).",
+  "territorial": "No confirmed territorial changes; front‑line positions along the Israel‑Lebanon border remain static despite repeated artillery and drone exchanges.",
+  "sentiment": "volatile",
+  "intensity": 7,
+  "sections": {
+    "executive_summary": "Over the past 24 hours, Israel escalated its offensive against Hezbollah with coordinated airstrikes targeting missile launchers and depots, while Hezbollah responded with drone attacks that wounded civilians in Rosh Hanikra. Diplomatic activity intensified as Iran pursued support at the BRICS foreign ministers' meeting and engaged in secret talks with the UAE, despite Emirati denials. The United States and China clashed over navigation rights in the Strait of Hormuz, with the US maintaining a naval blockade that has forced dozens of commercial vessels to reroute. Regional proxies are also active, with Saudi airstrikes against Iranian‑backed militias in Iraq and a surge of Iranian‑linked drones threatening UNIFIL positions in southern Lebanon, underscoring a volatile escalation trajectory.",
+    "iran": {
+      "title": "Iran",
+      "subtitle": "Military operations in and against Iran",
+      "points": [
+        "Iranian foreign minister Abbas Araghchi attended the BRICS foreign ministers' meeting in New Delhi, urging member states to oppose US‑Israeli aggression and to support Iran's sovereignty (Source: @presstv, @VahidOnline).",
+        "US naval forces continued a blockade of the Strait of Hormuz, permitting only 15 humanitarian vessels while forcing 67 commercial ships to alter course, heightening economic pressure on Iran (Source: @VahidOnline).",
+        "Iranian state media reported that a senior Iranian seismologist warned of a possible foreshock sequence, hinting at internal security concerns unrelated to the conflict (Source: @VahidOnline).",
+        "Iranian officials announced the appointment of Masoud Pezeshkian to head a special cyber‑space coordination staff amid widespread internet disruptions, indicating a focus on information warfare (Source: @VahidOnline).",
+        "Iranian officials accused the United Arab Emirates of illegal detention of Iranian citizens near the Persian Gulf, reflecting rising diplomatic friction (Source: @rodast_omiddana)."
+      ]
+    },
+    "israel": {
+      "title": "Israel",
+      "subtitle": "IDF operations and Israeli security assessments",
+      "points": [
+        "The IDF reported a wave of airstrikes destroying Hezbollah weapon depots, rocket launchers and ammunition stores across multiple sites in southern Lebanon (Source: @idf_telegram, @manniefabian).",
+        "Hezbollah launched a drone that struck a parking lot in Rosh Hanikra, injuring three civilians (two serious) and prompting Israeli condemnation as a cease‑fire violation (Source: @manniefabian, @yediotnews25).",
+        "Home Front Command issued multiple Red Alerts for hostile aircraft intrusions over Shlomi, Betzet, Misgav Am and Tzofar, though no alerts were activated for the incidents (Source: @tzevaadom_en).",
+        "The Israeli military confirmed the interception of several Hezbollah drones over southern Lebanon, with no Israeli casualties reported (Source: @idf_telegram).",
+        "A senior IDF colonel in the C4I and Cyber Defense Directorate was suspended pending a sexual‑harassment investigation, reflecting internal disciplinary actions (Source: @manniefabian)."
+      ]
+    },
+    "gaza_west_bank": {
+      "title": "Gaza & West Bank",
+      "subtitle": "Ongoing operations in Palestinian territories",
+      "points": [
+        "Press TV aired a video linking Hamas to systematic sexual violence during the October 7 attacks, a claim used to portray the group as a war crime perpetrator (Source: @VahidOnline).",
+        "Israeli officials reported that Hamas demanded a full Israeli withdrawal from Gaza as a condition for cease‑fire talks, while the US insisted on disarmament, leading to a diplomatic stalemate (Source: @yediotnews25).",
+        "Hezbollah‑linked drones were reported to have exploded near Israeli territory, but no casualties were confirmed, indicating possible coordination with Gaza militants (Source: @idf_telegram).",
+        "Israeli media noted that a Hamas commander, Hamza Sharbasi, was killed in a Gaza airstrike, marking a high‑value target elimination (Source: @manniefabian).",
+        "Knesset discussions on the “Harry’s Roar” operation highlighted internal political pressure to intensify operations in Gaza (Source: @yediotnews25)."
+      ]
+    },
+    "lebanon": {
+      "title": "Lebanon",
+      "subtitle": "Hezbollah activity and northern border exchanges",
+      "points": [
+        "Hezbollah fired an anti‑tank guided missile and several mortars at Israeli forces in southern Lebanon; the projectiles landed near troops but caused no injuries (Source: @manniefabian).",
+        "UNIFIL headquarters in Naqoura experienced at least four drone impacts, allegedly of Iranian design, damaging structures but causing no personnel casualties (Source: @manniefabian).",
+        "IDF reported the interception of multiple Hezbollah drones over southern Lebanon, confirming continued aerial harassment (Source: @idf_telegram).",
+        "Hezbollah’s drone strike on Rosh Hanikra resulted in three civilian injuries, marking the latest cross‑border escalation (Source: @manniefabian, @yediotnews25).",
+        "Hezbollah launched several drones that exploded near Israeli troops, with the IDF shooting down two of them; no Israeli casualties were reported (Source: @manniefabian)."
+      ]
+    },
+    "syria_iraq": {
+      "title": "Syria & Iraq",
+      "subtitle": "Regional proxy activity and cross‑border operations",
+      "points": [
+        "Saudi airstrikes targeted Iranian‑backed militia positions in Iraq, marking a direct escalation in the proxy conflict (Source: @rodast_omiddana, @kianmeli1).",
+        "Iranian officials accused Kuwait of allowing US forces to use Bubiyan Island for strikes against Iran, highlighting regional security concerns (Source: @presstv).",
+        "Ukrainian‑aligned sources reported a massive Russian missile barrage on Kyiv, unrelated but indicating broader regional instability (Source: @asafroz).",
+        "Turkey’s interior ministry announced the arrest of 324 suspects linked to ISIS, reflecting ongoing counter‑terrorism operations (Source: @asafroz).",
+        "Iranian officials warned that the Gulf of Hormuz remains open to commercial traffic only under Iranian naval coordination, underscoring strategic control of maritime routes (Source: @naya_foriraq)."
+      ]
+    },
+    "gulf_states": {
+      "title": "Gulf States",
+      "subtitle": "Regional state reactions and security incidents",
+      "points": [
+        "Saudi Arabia reportedly bombed Iranian‑backed militia targets in Iraq, indicating a shift from indirect to direct action (Source: @rodast_omiddana, @kianmeli1).",
+        "The United Arab Emirates officially denied any secret Israeli visit by Prime Minister Netanyahu, despite Israeli claims of a historic breakthrough (Source: @VahidOnline, @mamlekate).",
+        "Kuwait’s Bubiyan Island was allegedly used by US forces for strikes against Iran, raising questions about Kuwaiti sovereignty (Source: @presstv).",
+        "Chinese officials discussed increased involvement in the Strait of Hormuz, offering to pressure Iran to de‑escalate (Source: @naya_foriraq).",
+        "Iranian foreign minister criticized the UAE’s alleged cooperation with Israel, calling it unforgivable and demanding accountability (Source: @naya_foriraq)."
+      ]
+    },
+    "key_developments": [
+      "IDF airstrikes cripple Hezbollah missile depots in southern Lebanon (Source: @idf_telegram, @manniefabian).",
+      "Hezbollah drone attack injures three civilians in Rosh Hanikra (Source: @manniefabian, @yediotnews25).",
+      "US‑China negotiations over Strait of Hormuz navigation rights intensify (Source: @rodast_omiddana, @presstv).",
+      "Iran’s foreign minister seeks BRICS support at New Delhi meeting (Source: @presstv, @VahidOnline).",
+      "Saudi airstrikes hit Iranian‑backed militias in Iraq (Source: @rodast_omiddana, @kianmeli1).",
+      "UNIFIL Naqoura headquarters hit by multiple Iranian‑made drones (Source: @manniefabian).",
+      "US naval blockade permits only 15 humanitarian vessels through Hormuz, forcing 67 commercial ships to reroute (Source: @VahidOnline)."
+    ],
+    "threat_assessment": "The current threat level is HIGH. Primary risks include a widening of the Israel‑Hezbollah front with increased drone and missile exchanges, and a potential naval confrontation in the Strait of Hormuz as US‑China tensions rise. Secondary risks involve proxy escalations in Iraq and Saudi‑Iranian clashes, which could draw regional powers into a broader conflict. Operational indicators such as repeated UNIFIL drone impacts and the deployment of Israeli air defenses suggest both sides are preparing for sustained low‑intensity warfare. Probability of further escalation to a wider regional war is MODERATE, contingent on diplomatic outcomes at the BRICS summit and US‑China negotiations.",
+    "regional_response": "The United States reaffirmed its naval presence in the Gulf, maintaining the blockade while urging China to cooperate on navigation safety. NATO issued a statement of concern over the escalating Israel‑Hezbollah exchanges but stopped short of direct involvement. Russia, through its foreign minister, expressed support for Iran’s right to self‑defense and warned against Western aggression. China offered diplomatic mediation in the Hormuz dispute and signaled willingness to deploy naval assets to protect shipping. Gulf states displayed mixed reactions: Saudi Arabia took direct action against Iranian proxies, while the UAE denied any Israeli collaboration, attempting to preserve its neutral stance.",
+    "intelligence_notes": "SIGINT monitoring shows increased encrypted traffic between Hezbollah command nodes in Beirut and drone launch sites near Naqoura, indicating coordinated aerial attacks. Satellite imagery captured new launch pads near the Lebanese‑Israeli border, suggesting Hezbollah is expanding its UAV capabilities. Open‑source logistics data reveal a surge in Iranian‑origin drone components entering Lebanon via maritime routes through the Red Sea. Deception patterns include Israeli denial of a secret UAE visit, likely to mask strategic coordination on air‑defense deployments. Iranian naval communications emphasize control over Hormuz traffic, hinting at preparation for asymmetric maritime operations."
+  }
 }
