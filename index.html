@@ -36,12 +36,12 @@
       <div class="header-left">
         <div class="logo-wrap">
           <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/>
-            <path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter"/>
+            <polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="miter"/>
           </svg>
         </div>
         <div class="title-group">
-          <h1 class="site-title" id="siteTitle">Loading…</h1>
+          <h1 class="site-title">War Summary</h1>
           <p class="site-subtitle">AI Intelligence Briefing &middot; Open-Source Telegram</p>
         </div>
       </div>
@@ -64,7 +64,7 @@
   <!-- News ticker -->
   <div class="ticker-wrap" id="tickerWrap" aria-hidden="true">
     <div class="ticker-label">
-      <svg width="9" height="9" viewBox="0 0 100 100" fill="none"><path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg width="9" height="9" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/></svg>
       INTEL FEED
     </div>
     <div class="ticker-track" id="tickerTrack"><span id="tickerContent">Loading intel feed…</span></div>
@@ -73,11 +73,11 @@
   <!-- Conflict selector tabs -->
   <nav class="conflict-tabs" role="tablist">
     <button class="tab-btn active" data-tab="middle_east" role="tab">
-      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Iran War Summary
+      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+      Middle-East War
     </button>
     <button class="tab-btn" data-tab="ukraine" role="tab">
-      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/><path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/></svg>
       Ukraine–Russia War
     </button>
   </nav>
@@ -106,13 +106,13 @@
               <div class="stat-value" id="me-msg-count">—</div>
               <div class="stat-meta" id="me-channel-count">— channels</div>
             </div>
-            <div class="stat-card stat-card--intensity" id="me-stat-intensity">
-              <div class="stat-label">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                CONFLICT INTENSITY
-              </div>
-              <div class="stat-value" id="me-intensity-val">—</div>
-              <div class="stat-meta" id="me-sentiment-val">—</div>
+          </div>
+          <div class="panel-controls">
+            <div class="panel-title">Middle-East War <span class="panel-sentiment" id="me-sentiment-badge">—</span></div>
+            <div class="panel-ctrl-row">
+              <input type="search" class="section-filter" id="me-filter" placeholder="Search sections…" autocomplete="off">
+              <button class="ctrl-btn" id="me-expand-all">Expand All</button>
+              <button class="ctrl-btn" id="me-collapse-all">Collapse All</button>
             </div>
           </div>
           <div class="sections-content" id="me-sections-content"></div>
@@ -178,13 +178,13 @@
               <div class="stat-value" id="ua-msg-count">—</div>
               <div class="stat-meta" id="ua-channel-count">— channels</div>
             </div>
-            <div class="stat-card stat-card--intensity" id="ua-stat-intensity">
-              <div class="stat-label">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                CONFLICT INTENSITY
-              </div>
-              <div class="stat-value" id="ua-intensity-val">—</div>
-              <div class="stat-meta" id="ua-sentiment-val">—</div>
+          </div>
+          <div class="panel-controls">
+            <div class="panel-title">Ukraine–Russia War <span class="panel-sentiment" id="ua-sentiment-badge">—</span></div>
+            <div class="panel-ctrl-row">
+              <input type="search" class="section-filter" id="ua-filter" placeholder="Search sections…" autocomplete="off">
+              <button class="ctrl-btn" id="ua-expand-all">Expand All</button>
+              <button class="ctrl-btn" id="ua-collapse-all">Collapse All</button>
             </div>
           </div>
           <div class="sections-content" id="ua-sections-content"></div>
@@ -235,8 +235,8 @@
     <div class="footer-inner">
       <div class="footer-logo">
         <svg width="18" height="18" viewBox="0 0 100 100" fill="none">
-          <path d="M50 7L93 50L50 93L7 50Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
-          <path d="M32 35L64 50L32 65" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/>
+          <polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/>
         </svg>
         WAR SUMMARY
       </div>
