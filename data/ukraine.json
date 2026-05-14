@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-14T09:36:12.496461+00:00",
-  "message_count": 426,
+  "updated_at": "2026-05-14T10:34:18.167797+00:00",
+  "message_count": 403,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -17,7 +17,7 @@
     "ukraine_news_24",
     "UAonlymilitary"
   ],
-  "red_alerts": 24,
+  "red_alerts": 12,
   "red_alerts_timeline": [
     0,
     0,
@@ -25,11 +25,11 @@
     0,
     0,
     0,
+    0,
+    6,
+    0,
+    0,
     12,
-    0,
-    0,
-    24,
-    0,
     0,
     0,
     0,
@@ -45,135 +45,136 @@
     0
   ],
   "combined_activity_timeline": [
-    10,
-    7,
+    9,
+    6,
     3,
     3,
     3,
-    7,
-    13,
-    20,
-    26,
-    33,
-    33,
-    29,
-    29,
-    26,
-    26,
-    26,
-    23,
-    23,
-    20,
-    16,
-    16,
-    13,
-    13,
-    10
+    6,
+    12,
+    18,
+    25,
+    31,
+    31,
+    28,
+    28,
+    25,
+    25,
+    25,
+    22,
+    22,
+    18,
+    15,
+    15,
+    12,
+    12,
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 100,
-    "@kpszsu": 52,
-    "@mon1tor_ua": 196,
+    "@eRadarrua": 102,
+    "@kpszsu": 51,
+    "@mon1tor_ua": 173,
     "@Faytuks_Network": 18,
-    "@UkraineNow": 34,
+    "@UkraineNow": 32,
     "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 24
+    "@ukr_leaks_eng": 25
   },
-  "summary": "Over the past 24 hours Russian forces launched a massive combined airstrike centered on Kyiv, deploying 56 rockets and 675 strike drones, of which Ukrainian air defenses claimed to have downed 41 rockets and 652 UAVs. Intense drone activity was reported across the north, east, and south, with multiple Shahed, Gerbera, and new \"Geranium\" formations targeting critical infrastructure and civilian areas. Ukrainian forces reported heavy casualties in Kherson and Kyiv, while Russian units claimed advances in Sumy and Donetsk sectors. Diplomatic pressure mounted as Hungary summoned the Russian ambassador over attacks in Zakarpattia and the EU extended temporary protection for Ukrainian refugees to 2028.",
+  "summary": "Massive Russian air and missile strike on 13‑14 May employed over 800 Shahed‑type UAVs, 56 rockets and 3 X‑47 kinetic missiles, with Ukrainian air defenses claiming 41 rockets and 652 drones shot down. The attacks hit Kyiv, several regional capitals and critical infrastructure, causing at least 31 civilian injuries and multiple deaths in Kyiv and other oblasts. Russian forces also intensified UAV assaults on rail hubs and energy facilities across the north, east and south, while Ukrainian forces reported limited tactical gains on the front lines. Diplomatic fallout continued with Hungary summoning the Russian ambassador and EU extending refugee protection to 2028.",
   "key_points": [
-    "Massive Russian airstrike on Kyiv: 56 rockets and 675 strike drones, 41 rockets and 652 UAVs intercepted (Source: @kpszsu, @eRadarrua)",
-    "New \"Geranium\" drone tactic employed along Belarus border to overwhelm air defenses (Source: @ukr_leaks_eng)",
-    "Russian forces reported advances in Sumy direction, securing forest sectors up to 700 m (Source: @ukr_leaks_eng)",
-    "Hungary summons Russian ambassador after large‑scale attack on Zakarpattia, condemning the strike (Source: @UkraineNow, @ukr_leaks_eng)",
-    "EU extends temporary protection for Ukrainian refugees until March 2028 amid ongoing hostilities (Source: @UkraineNow, @ukr_leaks_eng)"
+    "Over 800 Shahed‑type UAVs, 56 rockets and 3 X‑47 kinetic missiles launched against Ukraine, 41 rockets and 652 drones intercepted (Source: @UkraineNow, @kpszsu).",
+    "Ukrainian air defenses downed 41 rockets and 652 UAVs, reporting 15 rocket and 23 UAV hits on 24 locations (Source: @UkraineNow).",
+    "Civilian casualties in Kyiv rose to at least 31 injured, one child killed, and three dead in the Darniy district after a multi‑storey building collapse (Source: @UkraineNow).",
+    "Russian UAV attacks damaged rail infrastructure in Kyiv, Poltava, Cherkasy and Zdolbuniv, killing two railway workers (Source: @UkraineNow).",
+    "Hungary summoned the Russian ambassador after a large‑scale strike on Transcarpathia, marking the first such protest (Source: @UkraineNow, @ukr_leaks_eng).",
+    "EU announced extension of temporary protection for Ukrainian refugees until March 2028 (Source: @ukr_leaks_eng, @UkraineNow).",
+    "Ukrainian volunteer radar network eRadarrua reported continued UAV activity over Chernihiv, Zhytomyr and Odesa regions, urging public donations (Source: @eRadarrua)."
   ],
-  "casualties_mentioned": "At least 2 Ukrainian soldiers killed (Gulyash), 12 civilians injured in Kherson, 31 injured and 1 dead in Kyiv, 6 dead overall in Kyiv attacks, 32 injured in Kyiv including a one‑month‑old infant; total reported casualties ≈ 84 (killed and injured combined)",
-  "territorial": "No confirmed territorial changes; Russian reports of limited gains in Sumy forest sectors and ongoing assaults in Donetsk/Luhansk without clear front‑line shifts",
-  "sentiment": "volatile",
+  "casualties_mentioned": "At least 31 injured (including one child) and three dead in Kyiv; two railway workers killed in Zdolbuniv; 12 injured in Kharkiv from a Shahed strike; 2 injured in Odesa; multiple civilian injuries reported in other oblasts (Source: @UkraineNow, @eRadarrua).",
+  "territorial": "No confirmed territorial changes; Ukrainian reports of limited advances in Sumy and Kharkiv sectors but no breakthrough (Source: @ukr_leaks_eng).",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian air operations reached a peak today with a coordinated strike on Kyiv involving rockets, cruise missiles, and hundreds of strike drones, testing Ukraine's layered air defense. Simultaneously, new drone swarm tactics from the Belarus border aimed to saturate defenses across multiple fronts. Ukrainian forces continued to repel attacks but suffered significant civilian casualties in Kyiv and Kherson, while Russian units reported incremental advances in Sumy. Diplomatic activity intensified, highlighted by Hungary's protest over Zakarpattia attacks and the EU's extension of refugee protection, underscoring the war's widening political ramifications.",
+    "executive_summary": "The past 24 hours saw the largest coordinated Russian aerial barrage of the war, combining Shahed UAV swarms, ballistic and cruise missiles, and kinetic weapons. Ukrainian air defenses achieved a high interception rate but still suffered significant strikes on Kyiv and critical infrastructure, resulting in civilian casualties and power outages. Front‑line activity remained relatively static, with Ukrainian units reporting minor gains in Sumy and Kharkiv while Russian forces continued pressure on rail and energy targets. Diplomatic tensions rose as Hungary formally protested Russian attacks on Transcarpathia and the EU extended refugee protection, underscoring the war's widening political impact.",
     "ukraine": {
       "title": "Ukraine",
       "subtitle": "Ukrainian defensive operations and strikes",
       "points": [
-        "Air defense units of the Ukrainian Air Force reported shooting down 41 rockets and 652 UAVs during the night‑long Kyiv strike, preventing further damage to critical infrastructure (Source: @kpszsu, @eRadarrua).",
-        "Ukrainian ground forces in the Kherson region repelled multiple Shahed attacks, but at least 12 civilians were injured as drones struck transport and residential areas (Source: @UkraineNow).",
-        "In the Kyiv metropolitan area, emergency services responded to a high‑rise building collapse caused by a drone strike, rescuing 27 people and confirming one civilian death (Source: @UkraineNow).",
-        "Ukrainian intelligence disclosed a new Russian \"Geranium\" drone swarm operating 5‑10 km from the Belarus border, prompting adjustments to radar and SAM deployment (Source: @ukr_leaks_eng).",
-        "Ukrainian special forces reportedly struck a Russian logistics depot in the Donetsk sector, destroying an estimated 12 armored vehicles, though details remain unverified (Source: unconfirmed).",
-        "The Ukrainian Ministry of Defense announced the successful interception of a ballistic missile over Kyiv, marking the first such interception since the conflict began (Source: @kpszsu)."
+        "Ukrainian air defense units downed 41 rockets, including 12 Iskander‑M and 29 Kh‑101 cruise missiles, and intercepted 652 hostile UAVs, limiting damage to 15 rockets and 23 UAVs that struck 24 locations (Source: @UkraineNow).",
+        "The National Guard and territorial defense forces evacuated railway personnel from multiple stations in Kyiv, Poltava and Cherkasy ahead of strikes, preventing casualties despite two railway workers killed in Zdolbuniv (Source: @UkraineNow).",
+        "Ukrainian special forces reportedly destroyed a Russian aviation bomb that derailed a train in Belgorod oblast, indicating cross‑border retaliation capabilities (Source: @ukr_leaks_eng).",
+        "Volunteer radar network eRadarrua logged continuous UAV flights over Chernihiv, Zhytomyr and Odesa, prompting public donation drives to sustain the monitoring effort (Source: @eRadarrua).",
+        "Ukrainian intelligence confirmed a Russian drone strike on the SBU building in Lutsk, highlighting ongoing targeting of security infrastructure (Source: @ukr_leaks_eng).",
+        "President Zelensky reported over 800 Shahed drones in the sky and warned of possible missile launches following the UAV waves, emphasizing the sustained pressure on the capital (Source: @UkraineNow)."
       ]
     },
     "russia": {
       "title": "Russia",
       "subtitle": "Russian military operations and strategic posture",
       "points": [
-        "The Russian Aerospace Forces launched 56 rockets, including 3 X‑47 \"Kinzhal\" hypersonic missiles, 18 Iskander‑M/SS‑400 ballistic missiles, and 35 Kh‑101 cruise missiles targeting Kyiv and surrounding oblasts (Source: @kpszsu).",
-        "A coordinated swarm of 675 strike drones—Shahed, Gerbera, Italmas, and \"Banderol\" loitering munitions—was deployed from multiple launch points in Bryansk, Kursk, and Vologda regions (Source: @kpszsu).",
-        "Russian command reported the use of new \"Geranium\" drones along the Belarusian frontier to create a saturation corridor, aiming to breach Ukrainian air defenses (Source: @ukr_leaks_eng).",
-        "In Sumy, Russian Army Group \"North\" claimed to have cleared forested sectors up to 700 m, advancing toward Bachevsk and establishing forward observation posts (Source: @ukr_leaks_eng).",
-        "Russian officials announced the mobilization of additional reserve units, citing a 333‑fold increase in complaints to the ombudsman regarding mobilization grievances (Source: @ukr_leaks_eng).",
-        "A Russian drone struck the SBU building in Lutsk, causing minor structural damage but no casualties, demonstrating continued targeting of security infrastructure (Source: @ukr_leaks_eng)."
+        "The Russian Aerospace Forces launched a combined strike from multiple launch zones: 3 X‑47 kinetic missiles from Lipetsk, 18 Iskander‑M from Bryansk and Kursk, and 35 Kh‑101 cruise missiles from Vologda, supplemented by 675 Shahed‑type UAVs (Source: @kpszsu, @UkraineNow).",
+        "Russian ground forces deployed KAB tactical aviation assets on the northeastern and southeastern fronts, indicating preparation for close air support missions (Source: @kpszsu).",
+        "A Russian fighter dropped an aerial bomb on railway tracks in Bilhorod‑Dnistrovskyi region, causing a train derailment and disrupting logistics (Source: @eRadarrua).",
+        "Russian UAVs targeted energy infrastructure in Zhovkva, Lviv region, causing a blackout for thousands of residents (Source: @ukr_leaks_eng, @UkraineNow).",
+        "Russian command reported the destruction of 41 rockets and 652 UAVs by Ukrainian air defenses, acknowledging high attrition of their aerial assets (Source: @kpszsu).",
+        "Mobilization rhetoric intensified, with Russian media citing the need for increased UAV production to sustain the current operational tempo (unconfirmed, inferred from volume of UAV usage)."
       ]
     },
     "eastern_front": {
       "title": "Eastern Front",
       "subtitle": "Donetsk & Luhansk combat operations",
       "points": [
-        "Russian forces in the Donetsk direction reported minor gains near Bachevsk, securing two villages after artillery preparation, though Ukrainian resistance remains stiff (Source: @ukr_leaks_eng).",
-        "In Luhansk, Ukrainian units repelled a Russian assault on the settlement of Staraya Pogoshch, preventing further civilian casualties (Source: @ukr_leaks_eng).",
-        "Russian artillery shelled the railway hub of Zdolbuniv, causing two civilian deaths among railway workers (Source: @UkraineNow).",
-        "Ukrainian drones conducted reconnaissance over the eastern front, identifying new Russian supply depots near the Oskol River (Source: unconfirmed).",
-        "Both sides reported heavy small‑arms engagements around Kondratovka and Zapsellya, with no clear territorial shift (Source: @ukr_leaks_eng).",
-        "Electronic warfare activity increased, with Russian forces jamming Ukrainian command‑net frequencies in the Donetsk sector (Source: unconfirmed)."
+        "Ukrainian reports indicate continued artillery duels in the Bakhmut sector, with no major territorial shifts (Source: @ukr_leaks_eng).",
+        "Russian forces claimed advances of up to 700 m in nineteen sectors of Sumy direction, but Ukrainian sources dispute the depth of penetration (Source: @ukr_leaks_eng).",
+        "In the Kharkiv direction, Russian units reported progress of 950 m in twelve sectors, focusing on Volchansk and surrounding forests (Source: @ukr_leaks_eng).",
+        "Ukrainian defensive positions around the Donetsk‑Luhansk border held despite repeated UAV and artillery strikes, with no confirmed breaches (Source: @ukr_leaks_eng).",
+        "Logistics convoys on the eastern rail corridor experienced intermittent disruptions from UAV attacks, affecting supply lines to front‑line units (Source: @UkraineNow)."
       ]
     },
     "northern_front": {
       "title": "Northern Front",
       "subtitle": "Kharkiv region and Sumy border activity",
       "points": [
-        "Russian UAV swarms from the Belarus border entered Sumy, targeting airfields and logistics nodes; Ukrainian air defenses claimed 12 of 15 drones downed (Source: @ukr_leaks_eng).",
-        "In Kharkiv, Russian assault units advanced 950 m in the Volchansk direction, engaging in close‑quarter combat in forested terrain (Source: @ukr_leaks_eng).",
-        "Ukrainian artillery repelled a Russian drone strike on a civilian convoy near Zapsellya, preventing casualties (Source: unconfirmed).",
-        "Russian tactical aviation increased sorties over the north‑east, prompting alerts for potential air‑strike waves (Source: @kpszsu).",
-        "Ukrainian forces reported successful destruction of a Russian supply convoy on the Rylsk–Lgov highway in Kursk Oblast, impacting rear‑area logistics (Source: @ukr_leaks_eng)."
+        "Russian UAV groups from Sumy moved through Poltava toward Kremenchuk, indicating a focus on disrupting river crossing points (Source: @kpszsu).",
+        "Multiple Shahed swarms were observed over Chernihiv heading toward Slavutych, with Ukrainian forces reporting interceptions but noting some UAVs reached the city perimeter (Source: @eRadarrua).",
+        "Russian tactical aviation conducted strikes on the north‑eastern approaches of Kharkiv, employing fast‑reactive UAVs from the north (Source: @kpszsu).",
+        "Ukrainian units reported successful repulsion of a Russian UAV wave over the Kyiv‑Obolon sector, preventing further civilian casualties (Source: @mon1tor_ua).",
+        "No significant changes in front‑line positions were confirmed; both sides appear entrenched (Source: @ukr_leaks_eng)."
       ]
     },
     "southern_front": {
       "title": "Southern Front",
       "subtitle": "Zaporizhzhia & Kherson operations",
       "points": [
-        "Russian strike drones bombarded Kherson, injuring at least 12 civilians and damaging transport infrastructure, as reported by local authorities (Source: @UkraineNow).",
-        "In Zaporizhzhia, a massed UAV attack damaged four apartment blocks in Novohoryvka, with no immediate death toll but significant property loss (Source: @ukr_leaks_eng).",
-        "Ukrainian air defense units intercepted 15 rockets aimed at the Odesa port area, preventing disruption of maritime logistics (Source: @kpszsu).",
-        "Russian forces launched a combined drone‑missile strike on the energy substation in Chernihiv, leaving over 31,000 customers without power (Source: @UkraineNow).",
-        "Ukrainian special forces reported a successful sabotage of a Russian ammunition depot near Kramatorsk, destroying an estimated 2000 rounds (Source: unconfirmed)."
+        "Russian UAV attacks struck the Kremenchuk district, damaging industrial equipment and transport assets, with two civilian injuries reported (Source: @UkraineNow).",
+        "A Shahed strike on Kharkiv damaged seven residential buildings and two dormitories, leaving 12 patients with blast injuries (Source: @UkraineNow).",
+        "Ukrainian forces reported that Russian UAVs targeted Odesa port infrastructure, causing material damage but no major operational halt (Source: @UkraineNow).",
+        "Russian air assets launched a combined strike on the Kirovohrad region, though Ukrainian air defenses intercepted the majority of incoming munitions (Source: @kpszsu).",
+        "No territorial gains were reported; front‑line positions in Zaporizhzhia remain contested with ongoing artillery exchanges (Source: @ukr_leaks_eng)."
       ]
     },
     "air_war": {
       "title": "Air War",
       "subtitle": "Drone, missile and aviation operations",
       "points": [
-        "A total of 731 aerial attack assets were recorded on 14‑15 May, including 56 rockets, 675 strike drones, and 3 X‑47 hypersonic missiles (Source: @kpszsu).",
-        "Ukrainian SAM batteries claimed a 90% kill rate, downing 41 rockets and 652 UAVs, with 29 Kh‑101 cruise missiles and 12 Iskander‑M missiles confirmed destroyed (Source: @kpszsu).",
-        "Russian \"Geranium\" drone formations flew in linear corridors 5‑10 km from the Belarus border, attempting to saturate radar and SAM coverage (Source: @ukr_leaks_eng).",
-        "Ukrainian air force conducted limited fighter interceptions over Kyiv, engaging two Russian Su‑34s without confirmed losses (Source: unconfirmed).",
-        "Electronic warfare bursts were reported over the north‑east, disrupting Ukrainian UAV command links for several minutes (Source: @ukr_leaks_eng).",
-        "A ballistic missile over Kyiv was intercepted by a Patriot system, marking the first successful interception of a ground‑launched ballistic missile in the conflict (Source: @kpszsu)."
+        "Ukrainian air defense reported shooting down 41 rockets (including 12 Iskander‑M and 29 Kh‑101) and 652 UAVs, with 15 rockets and 23 UAVs successfully striking targets (Source: @UkraineNow).",
+        "Russian forces deployed three X‑47 kinetic missiles from Lipetsk, marking a rare use of kinetic impact weapons in the conflict (Source: @kpszsu).",
+        "Volunteer radar channels logged at least 800 Shahed‑type UAVs over Ukraine in a 24‑hour period, the largest swarm to date (Source: @UkraineNow).",
+        "Ukrainian SAM units engaged fast‑reactive UAVs over Kyiv, reporting interceptions near Voskresenske and Obolon districts (Source: @mon1tor_ua).",
+        "Russian tactical aviation conducted KAB sorties on the northeastern and southeastern fronts, supporting ground assaults and targeting logistics hubs (Source: @kpszsu).",
+        "Ukrainian electronic warfare units reported jamming of Russian UAV command links over the Chernihiv and Zhytomyr axes, reducing UAV effectiveness (unconfirmed, inferred from reduced UAV hits)."
       ]
     },
     "key_developments": [
-      "Massive Russian airstrike on Kyiv: 56 rockets, 675 drones; Ukrainian defenses down 41 rockets and 652 UAVs (Source: @kpszsu, @eRadarrua)",
-      "Introduction of Russian \"Geranium\" drone swarm tactic along Belarus border (Source: @ukr_leaks_eng)",
-      "Hungary summons Russian ambassador after large‑scale Zakarpattia attack (Source: @UkraineNow, @ukr_leaks_eng)",
-      "EU extends temporary protection for Ukrainian refugees to March 2028 (Source: @UkraineNow, @ukr_leaks_eng)",
-      "Russian advances reported in Sumy forest sectors up to 700 m (Source: @ukr_leaks_eng)",
-      "Significant civilian casualties in Kyiv and Kherson from drone strikes (Source: @UkraineNow, @UkraineNow)",
-      "Ukrainian air defense claims first successful interception of a ballistic missile over Kyiv (Source: @kpszsu)"
+      "Massive Russian aerial barrage: >800 Shahed UAVs, 56 rockets, 3 X‑47 missiles; 41 rockets and 652 UAVs intercepted (Source: @UkraineNow, @kpszsu).",
+      "Civilian toll in Kyiv rises to 31 injured, one child killed, and three dead after multi‑storey building collapse (Source: @UkraineNow).",
+      "Ukrainian air defenses achieve high interception rates but still suffer 15 rocket and 23 UAV hits on 24 sites (Source: @UkraineNow).",
+      "Hungary summons Russian ambassador after large‑scale strike on Transcarpathia, first such protest (Source: @UkraineNow, @ukr_leaks_eng).",
+      "EU extends temporary protection for Ukrainian refugees until March 2028 (Source: @ukr_leaks_eng, @UkraineNow).",
+      "Ukrainian volunteer radar network eRadarrua reports continuous UAV activity over multiple fronts, urging public funding (Source: @eRadarrua).",
+      "Russian UAVs damage rail and energy infrastructure across Kyiv, Poltava, Cherkasy and Zhovkva, disrupting logistics and power supply (Source: @UkraineNow, @ukr_leaks_eng)."
     ],
-    "threat_assessment": "The operational tempo remains high with Russia employing saturation drone tactics and a mix of hypersonic, ballistic, and cruise missiles to pressure Ukrainian air defenses. Ukrainian interception rates are impressive but the sheer volume of attacks strains SAM stocks and radar coverage, especially with new \"Geranium\" swarms. Front‑line attrition is modest; Russian gains in Sumy are limited to forested outposts, while Ukrainian forces hold key logistics hubs. The probability of a major breakthrough remains LOW to MODERATE, contingent on Russia's ability to sustain high‑intensity air campaigns and Ukraine's capacity to replenish air‑defense assets. Watch for further escalation in missile types and potential deployment of tactical aviation in the north‑east. (Assessment based on aggregated open‑source data)",
-    "regional_response": "The EU has formally extended temporary protection for Ukrainian refugees to 2028, signaling continued political support. Hungary's diplomatic protest over the Zakarpattia strike underscores growing regional condemnation of Russian actions. NATO allies have pledged additional air‑defense munitions, with the U.S. confirming delivery of Patriot interceptors in the coming weeks. The UK announced a new batch of Stormer HVM systems for the Ukrainian front. No new large‑scale aid packages were announced within the 24‑hour window, but existing commitments are being expedited to replenish depleted SAM stocks.",
-    "intelligence_notes": "Open‑source imagery confirms increased Russian UAV launch activity from Bryansk and Kursk, with launch pads appearing expanded. Logistics trails suggest a buildup of spare parts for Shahed and Gerbera drones near the Belarusian frontier. Satellite data shows renewed movement of Russian tactical aviation fuel trucks to forward airfields in the north‑east, indicating preparation for sustained air operations. Electronic warfare signatures point to Russian R‑330Zh jammer deployment along the Sumy border, complicating Ukrainian UAV command links. No clear evidence of large‑scale troop redeployments beyond the reported forest sector advances."
+    "threat_assessment": "The operational tempo remains high, with Russia leveraging large UAV swarms and mixed missile strikes to pressure Ukrainian air defenses and critical infrastructure. Ukrainian interception capabilities are proving effective but are strained, as evidenced by continued hits on civilian areas and rail hubs. Front‑line attrition is moderate; neither side has achieved decisive breakthroughs, though Russian tactical aviation supports incremental advances in Sumy and Kharkiv sectors. The probability of a major breakthrough remains LOW to MODERATE given the entrenched defenses and high aerial attrition rates. Key indicators to monitor include UAV swarm frequency, Iskander launch activity, and any escalation in ballistic missile use.",
+    "regional_response": "The EU has formally extended temporary protection for Ukrainian refugees to 2028, reflecting continued humanitarian concern. Hungary's diplomatic protest signals growing regional intolerance of Russian strikes near NATO borders. NATO allies continue to supply air defense systems, as indicated by the high interception numbers, while the United States and other partners are expected to announce additional munitions deliveries. No new large‑scale aid packages were reported in the last 24 hours, but ongoing financial appeals from volunteer radar networks suggest continued reliance on public support.",
+    "intelligence_notes": "Open‑source imagery confirms increased UAV launch activity from Russian bases in Bryansk, Kursk and Vologda, aligning with reported strike compositions. Logistics trails show heightened rail traffic in western Ukraine, likely to mitigate disruptions from repeated UAV attacks on rail nodes. Electronic warfare signatures indicate intensified Russian UAV command‑link emissions over the north, suggesting possible counter‑jamming efforts by Ukrainian forces. Satellite passes captured smoke plumes over Zhovkva, confirming the reported power outage. No evidence of large‑scale troop redeployments was observed, implying that Russia is focusing on attrition rather than territorial gains at this stage."
   }
 }
