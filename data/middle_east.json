@@ -1,6 +1,6 @@
 {
   "conflict": "Iran War Summary",
-  "updated_at": "2026-05-14T00:09:27.701188+00:00",
+  "updated_at": "2026-05-14T04:52:02.863321+00:00",
   "message_count": 120,
   "channels": [
     "N12chat",
@@ -19,13 +19,13 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 0,
+  "red_alerts": 2,
   "red_alerts_timeline": [
     0,
+    1,
     0,
     0,
-    0,
-    0,
+    2,
     0,
     0,
     0,
@@ -89,9 +89,77 @@
     "@VahidOnline": 8,
     "@idf_telegram": 8
   },
-  "summary": "{\n  \"summary\": \"Intensified hostilities continue on Israel's northern border with Hezbollah launching missiles and mortars, while IDF conducts airstrikes on Hezbollah sites and targets in Gaza. Diplomatic friction rises as reports emerge of Chinese firms discussing arms shipments to Iran and disputed claims of a secret Netanyahu visit to the UAE. Casualties are reported among civilians in Israel and Lebanese border areas, and a senior IDF officer has been suspended for sexual harassment.\",\n  \"ke",
-  "key_points": [],
-  "sentiment": "unknown",
-  "intensity": 5,
-  "sections": {}
+  "summary": "IDF reports continued airstrikes on Hezbollah sites in southern Lebanon while Hezbollah drones target UNIFIL positions. Israeli forces also engaged Hezbollah with anti‑tank missiles and mortars, causing no injuries. A senior IDF colonel was suspended for alleged sexual harassment. Diplomatic activity includes Netanyahu’s secret visit to the UAE amid the Iran‑related conflict and heightened US‑China talks involving Iran.",
+  "key_points": [
+    "IDF completed a wave of strikes on Hezbollah weapon depots and launchers in southern Lebanon",
+    "Hezbollah launched drones that struck UNIFIL headquarters and an anti‑tank missile and mortars at Israeli troops",
+    "A senior IDF colonel was suspended pending a sexual‑harassment investigation",
+    "Netanyahu allegedly met the UAE president covertly during the Iran war, prompting diplomatic statements",
+    "US‑China leaders met in Beijing, with Iran cited as a key agenda item"
+  ],
+  "casualties_mentioned": "Hezbollah drone attacks caused no injuries; IDF reports no injuries from recent missile and mortar fire; no civilian casualties reported in the cited operations.",
+  "territorial": "No territorial changes; front‑line activity remains along the Israel‑Lebanon border.",
+  "sentiment": "volatile",
+  "intensity": 7,
+  "sections": {
+    "executive_summary": "The conflict along Israel's northern border remains active, with IDF airstrikes targeting Hezbollah infrastructure and Hezbollah responding with drone attacks on UNIFIL and mortar fire on Israeli positions. Internal Israeli security issues surfaced with the suspension of a senior officer for sexual harassment. Diplomatic maneuvers continue, highlighted by Netanyahu's covert UAE visit and US‑China talks that include Iran.",
+    "iran": {
+      "title": "Iran",
+      "subtitle": "Military operations in and against Iran",
+      "points": [
+        "Iran is referenced as a discussion point in the US‑China meeting in Beijing, indicating its continued relevance to regional security calculations.",
+        "No direct Iranian military actions are reported in the supplied messages."
+      ]
+    },
+    "israel": {
+      "title": "Israel",
+      "subtitle": "IDF operations and Israeli security assessments",
+      "points": [
+        "The IDF completed airstrikes on Hezbollah depots, rocket launchers and related infrastructure in southern Lebanon.",
+        "A colonel in the IDF's C4I and Cyber Defense Directorate was suspended pending a sexual‑harassment investigation."
+      ]
+    },
+    "gaza_west_bank": {
+      "title": "Gaza & West Bank",
+      "subtitle": "Ongoing operations in Palestinian territories",
+      "points": [
+        "An IDF strike in Gaza killed Hamas commander Hamza Sharbasi and Azzam al‑Hayya, a member of Hamas' elite Nukhba force.",
+        "No new operational details from the West Bank are mentioned."
+      ]
+    },
+    "lebanon": {
+      "title": "Lebanon",
+      "subtitle": "Hezbollah activity and border incidents",
+      "points": [
+        "Hezbollah fired an anti‑tank guided missile and several mortars at Israeli troops; no injuries were reported.",
+        "Hezbollah‑operated drones struck UNIFIL headquarters multiple times, causing building damage but no casualties."
+      ]
+    },
+    "syria_iraq": {
+      "title": "Syria & Iraq",
+      "subtitle": "Regional proxy activity",
+      "points": [
+        "No specific Syrian or Iraqi operations are detailed in the messages.",
+        "The broader context of Iran‑related proxy activity remains implied but unelaborated."
+      ]
+    },
+    "gulf_states": {
+      "title": "Gulf States",
+      "subtitle": "Regional state reactions and incidents",
+      "points": [
+        "Prime Minister Benjamin Netanyahu reportedly visited the United Arab Emirates secretly, with Israeli officials claiming a historic breakthrough in relations.",
+        "The UAE foreign ministry officially denied any visit by the Israeli prime minister."
+      ]
+    },
+    "key_developments": [
+      "IDF airstrike wave on Hezbollah sites",
+      "Hezbollah drone attacks on UNIFIL headquarters",
+      "Suspension of senior IDF colonel for sexual harassment",
+      "Netanyahu's covert UAE visit amid Iran war",
+      "US‑China summit in Beijing discussing Iran"
+    ],
+    "threat_assessment": "Hezbollah's ability to launch drones and missiles keeps the northern front volatile, while Israeli air operations maintain pressure. Diplomatic friction and internal security issues add layers of risk, suggesting a moderate to high escalation potential.",
+    "regional_response": "UNIFIL documented drone attacks but reported no injuries, highlighting concern over Hezbollah's capabilities. The UAE denied the Israeli prime minister's visit, reflecting diplomatic sensitivity. International actors, notably the US and China, continue to discuss Iran, indicating broader geopolitical engagement.",
+    "intelligence_notes": "Repeated drone incursions suggest Hezbollah may have access to Iranian‑manufactured UAVs, raising the likelihood of more sophisticated attacks. The covert UAE visit, if verified, could signal a shift in Israeli Gulf diplomacy despite official denials."
+  }
 }

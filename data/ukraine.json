@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-14T00:10:58.438982+00:00",
+  "updated_at": "2026-05-14T04:53:36.340481+00:00",
   "message_count": 48,
   "channels": [
     "eRadarrua",
@@ -11,9 +11,13 @@
     "front_ukrainian",
     "DeepStateUA"
   ],
-  "red_alerts": 10,
+  "red_alerts": 9,
   "red_alerts_timeline": [
-    10,
+    0,
+    4,
+    0,
+    0,
+    9,
     0,
     0,
     0,
@@ -31,10 +35,6 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    5,
     0,
     0
   ],
@@ -72,35 +72,35 @@
     "@UkraineNow": 8,
     "@DeepStateUA": 8
   },
-  "summary": "Ukrainian forces are contending with a massive wave of Russian Shahed drone attacks across Kyiv, central, and northern regions, accompanied by missile and KAB launches. Casualties include two Ukrainian soldiers killed in a southern ambush and two civilians in a railway strike. No territorial gains or losses were reported, but the intensity of air attacks remains high. International commentary is mixed, with some diplomatic statements unrelated to the immediate combat situation.",
+  "summary": "Ukrainian forces continue to report widespread Shahed drone activity across multiple regions, with several large‑scale missile and drone strikes targeting Kyiv, Odesa and western oblasts. Russian air operations include cruise missile launches from strategic bombers and the use of reactive drones. International actors are voicing condemnation, while the United States confirmed a Pentagon delegation to study Ukrainian drone tactics. Civilian casualties are reported in several oblasts, including two railway workers killed in Zdolbuniv.",
   "key_points": [
-    "Widespread Shahed drone attacks targeting Kyiv suburbs, railway infrastructure and multiple oblasts",
-    "Russian missile and KAB launches reported in Sumy and other regions",
-    "Two Ukrainian soldiers killed in an ambush near Gulyaypilsk, two civilians killed in Zdolbuniv railway strike",
-    "No confirmed front‑line changes; Russian UAV groups reported moving toward Kyiv, Kharkiv and Kirovohrad directions",
-    "International reactions include statements from Hungary, the US Pentagon and regional diplomatic visits"
+    "Intense Shahed drone swarms detected over Kyiv, Kyiv suburbs and western regions",
+    "Russia launched cruise missiles (Iskander‑K, Kh‑101) from Tu‑95 and Tu‑160 bombers",
+    "Ukrainian President reports dozens of injuries and six civilian deaths",
+    "US Pentagon delegation to Ukraine to study drone warfare confirmed",
+    "Hungary protested Russian attacks on Zakarpattia, calling for condemnation"
   ],
-  "casualties_mentioned": "Two Ukrainian soldiers killed near Gulyaypilsk; two civilian railway workers killed in Zdolbuniv; multiple injuries reported in nationwide drone wave.",
-  "territorial": "No significant changes reported; Russian UAV groups are approaching Kyiv and other fronts but no ground advances confirmed.",
+  "casualties_mentioned": "Six civilians killed, dozens injured; two railway workers killed in Zdolbuniv; additional unnamed civilian casualties reported in multiple oblasts",
+  "territorial": "No significant territorial changes reported; front‑line movements limited to minor Russian advances near Pazenko, Kalenyky and Riznyky",
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "A coordinated Russian air campaign involving Shahed drones, missiles and KABs is striking across Kyiv, central and northern Ukraine, causing civilian and military casualties. Ukrainian forces report heavy defensive activity but no territorial shifts. Diplomatic signals show continued international attention, though some messages are unrelated propaganda.",
+    "executive_summary": "Ukrainian authorities report a surge of Shahed drone attacks across the capital region and western oblasts, coinciding with a large‑scale Russian missile strike involving cruise missiles from strategic bombers. Civilian casualties are rising, with six deaths confirmed and dozens injured. International response includes US military experts visiting Ukraine and diplomatic protests from Hungary. Front‑line positions remain largely static, though Russian forces have made limited gains near several villages.",
     "ukraine": {
       "title": "Ukraine",
       "subtitle": "Ukrainian defensive operations and strikes",
       "points": [
-        "Ukrainian air defenses are engaging multiple Shahed swarms over Kyiv, the left‑bank array, and suburbs such as Rusanyvka and Darniсka.",
-        "Ukrainian authorities report successful evacuations of railway personnel and limited infrastructure damage despite strikes on railway sites in Zdolbuniv.",
-        "President Zelensky highlighted the scale of the drone wave, noting over 800 drones launched in a single day and the possibility of accompanying missile launches."
+        "Ukrainian air defenses engaged multiple Shahed drones over Kyiv, Obolon, Boryspil and western oblasts, reporting several interceptions.",
+        "President Zelensky highlighted over 800 Shahed drones launched in a single day and warned of possible follow‑up missile strikes.",
+        "Ukrainian officials reported successful evacuations of railway personnel and limited infrastructure damage despite attacks on rail lines."
       ]
     },
     "russia": {
       "title": "Russia",
       "subtitle": "Russian military operations and posture",
       "points": [
-        "Russian forces are launching large‑scale Shahed drone attacks from multiple directions, including Dnipropetrovsk, Mykolaiv, and Chernihiv regions.",
-        "Missile and KAB launches were reported toward Sumy and other northern oblasts, indicating a combined‑arms approach."
+        "Russia employed Iskander‑K ground‑launched cruise missiles, Shahed drones, and Kh‑101 missiles launched from Tu‑95 and Tu‑160 bombers in coordinated strikes.",
+        "Russian forces reported minor tactical advances near the villages of Pazenko, Kalenyky and Riznyky."
       ]
     },
     "eastern_front": {
@@ -108,43 +108,43 @@
       "subtitle": "Donetsk & Luhansk combat operations",
       "points": [
         "No specific combat reports from Donetsk or Luhansk were included in the messages.",
-        "Russian UAV groups are noted moving northward from Dnipropetrovsk toward Kyiv, suggesting a shift of air assets away from the eastern front."
+        "Russian missile and drone activity focused primarily on central and western Ukraine rather than the eastern front."
       ]
     },
     "northern_front": {
       "title": "Northern Front",
       "subtitle": "Kharkiv region and Sumy border activity",
       "points": [
-        "Groups of hostile UAVs were reported crossing from Chernihiv toward the Kyiv area and from Dnipropetrovsk toward Poltava, indicating pressure on northern supply lines.",
-        "KAB launches were specifically mentioned for Sumy, highlighting heightened threat to the northern border."
+        "Reports of reactive Shahed drones moving northward toward Kyiv and the Chernihiv region, with some originating from Belarusian territory.",
+        "No explicit ground engagements or territorial shifts reported in Kharkiv or Sumy oblasts."
       ]
     },
     "southern_front": {
       "title": "Southern Front",
       "subtitle": "Zaporizhzhia & Kherson operations",
       "points": [
-        "A Russian ambush near Gulyaypilsk resulted in the death of two Ukrainian soldiers.",
-        "No direct drone or missile activity was reported for Zaporizhzhia or Kherson in the supplied messages."
+        "A Shahed drone was observed over the outskirts of Zaporizhzhia; no casualties reported.",
+        "No new major Russian offensives or territorial changes noted in Kherson or surrounding areas."
       ]
     },
     "air_war": {
       "title": "Air War",
       "subtitle": "Drone, missile and aviation operations",
       "points": [
-        "Multiple Shahed drone alerts (≈8) and missile alerts (≈2) were logged across Kyiv, central, and northern Ukraine.",
-        "A MiG‑31K fighter, capable of carrying the Kh-47M2 Kinzhal, was reported taking off from Savalyky airfield, indicating potential high‑speed strike capability.",
-        "Russian UAV groups are reported advancing from multiple oblasts toward Kyiv, increasing the density of air threats."
+        "High volume of Shahed drone flights detected across multiple regions, including reactive high‑speed variants (~400 km/h).",
+        "Russian air strike package included cruise missiles from strategic bombers and ground‑launched Iskander‑K missiles.",
+        "Ukrainian air defense systems reported multiple interceptions but also several penetrations over Kyiv and western oblasts."
       ]
     },
     "key_developments": [
-      "Massive Shahed drone wave over Kyiv and surrounding oblasts",
-      "Missile and KAB launches targeting Sumy region",
-      "Two Ukrainian soldiers killed in southern ambush",
-      "Two civilian railway workers killed in Zdolbuniv strike",
-      "MiG‑31K sortie suggesting possible Kinzhal deployment"
+      "Massive Shahed drone swarm over Kyiv and western Ukraine",
+      "Russian cruise missile launch from Tu‑95/Tu‑160 bombers",
+      "US Pentagon delegation to study Ukrainian drone tactics",
+      "Hungary formally protests Russian attacks on Zakarpattia",
+      "Six civilian deaths and dozens injured reported by Ukrainian officials"
     ],
-    "threat_assessment": "The threat level remains high with sustained drone and missile attacks, raising the risk of further civilian casualties and infrastructure damage. Ukrainian air defenses are under strain but continue to intercept many threats.",
-    "regional_response": "Hungary lodged a diplomatic protest over attacks in Zakarpattia, while the US Pentagon confirmed deployment of experts to study Ukrainian drone tactics. Other international statements appear largely unrelated to the immediate combat events.",
-    "intelligence_notes": "The concentration of Shahed attacks on Kyiv suburbs and critical infrastructure suggests a Russian intent to overwhelm air defenses and create psychological pressure. The appearance of a MiG‑31K indicates possible escalation to hypersonic strike capability."
+    "threat_assessment": "The threat level remains high with coordinated Russian missile and drone strikes causing civilian casualties and infrastructure strain. Ukrainian air defenses are under pressure but continue to intercept a significant portion of attacks.",
+    "regional_response": "The United States confirmed a military delegation to Ukraine, emphasizing interest in drone warfare lessons, while Hungary lodged a diplomatic protest over attacks on Zakarpattia. No major new sanctions or NATO actions were reported in the messages.",
+    "intelligence_notes": "Frequent mentions of Shahed drones originating from Belarusian airspace suggest continued cross‑border support for Russian operations. The use of strategic bombers indicates a shift toward longer‑range, high‑impact strikes, while Ukraine's focus on drone defense highlights evolving air‑war priorities."
   }
 }
