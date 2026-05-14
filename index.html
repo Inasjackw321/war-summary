@@ -37,7 +37,7 @@
         <div class="logo-wrap">
           <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter"/>
-            <polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="miter"/>
+            <polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="title-group">
@@ -64,7 +64,7 @@
   <!-- News ticker -->
   <div class="ticker-wrap" id="tickerWrap" aria-hidden="true">
     <div class="ticker-label">
-      <svg width="9" height="9" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+      <svg width="9" height="9" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
       INTEL FEED
     </div>
     <div class="ticker-track" id="tickerTrack"><span id="tickerContent">Loading intel feed…</span></div>
@@ -73,11 +73,11 @@
   <!-- Conflict selector tabs -->
   <nav class="conflict-tabs" role="tablist">
     <button class="tab-btn active" data-tab="middle_east" role="tab">
-      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
       Middle-East War
     </button>
     <button class="tab-btn" data-tab="ukraine" role="tab">
-      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+      <svg width="16" height="16" viewBox="0 0 100 100" fill="none"><polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/><polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
       Ukraine–Russia War
     </button>
   </nav>
@@ -98,13 +98,13 @@
               <div class="stat-value" id="me-red-alerts">—</div>
               <div class="stat-meta">Last 24 h &middot; @tzevaadom_en</div>
             </div>
-            <div class="stat-card" id="me-stat-messages">
+            <div class="stat-card" id="me-stat-messages" title="Click to view sources" role="button" tabindex="0">
               <div class="stat-label">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
                 MESSAGES ANALYSED
               </div>
               <div class="stat-value" id="me-msg-count">—</div>
-              <div class="stat-meta" id="me-channel-count">— channels</div>
+              <div class="stat-meta" id="me-channel-count">— channels &middot; click for sources</div>
             </div>
           </div>
           <div class="panel-controls">
@@ -165,18 +165,18 @@
             <div class="stat-card stat-card--alert" id="ua-stat-alerts">
               <div class="stat-label">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
-                AIR ALERTS (UA)
+                MISSILES/DRONES
               </div>
               <div class="stat-value" id="ua-red-alerts">—</div>
-              <div class="stat-meta">Last 24 h &middot; @eRadarrua</div>
+              <div class="stat-meta">Launched last 24 h &middot; @eRadarrua</div>
             </div>
-            <div class="stat-card" id="ua-stat-messages">
+            <div class="stat-card" id="ua-stat-messages" title="Click to view sources" role="button" tabindex="0">
               <div class="stat-label">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
                 MESSAGES ANALYSED
               </div>
               <div class="stat-value" id="ua-msg-count">—</div>
-              <div class="stat-meta" id="ua-channel-count">— channels</div>
+              <div class="stat-meta" id="ua-channel-count">— channels &middot; click for sources</div>
             </div>
           </div>
           <div class="panel-controls">
@@ -200,7 +200,7 @@
           <div class="sidebar-card chart-card">
             <div class="sidebar-card-title">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
-              AIR ALERT FREQUENCY &mdash; 24 H
+              MISSILE/DRONE FREQUENCY &mdash; 24 H
             </div>
             <div class="chart-container"><canvas id="ua-chart-alerts"></canvas></div>
           </div>
@@ -236,7 +236,7 @@
       <div class="footer-logo">
         <svg width="18" height="18" viewBox="0 0 100 100" fill="none">
           <polyline points="50,18 18,50 50,82" stroke="currentColor" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter"/>
-          <polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="miter"/>
+          <polyline points="68,0 50,18 82,50 50,82 32,100" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         WAR SUMMARY
       </div>
@@ -249,6 +249,23 @@
   <button class="scroll-top" id="scrollTop" aria-label="Back to top" title="Back to top">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
   </button>
+
+  <!-- Sources modal -->
+  <div class="sources-modal-backdrop" id="sourcesModalBackdrop" aria-hidden="true">
+    <div class="sources-modal" role="dialog" aria-modal="true" aria-labelledby="sourcesModalTitle">
+      <div class="sources-modal-header">
+        <div class="sources-modal-title" id="sourcesModalTitle">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          INTELLIGENCE SOURCES
+        </div>
+        <button class="sources-modal-close" id="sourcesModalClose" aria-label="Close">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <p class="sources-modal-subtitle">Open-source Telegram channels monitored in the last 24 hours</p>
+      <ul class="sources-modal-list" id="sourcesModalList"></ul>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
