@@ -506,8 +506,22 @@ def run() -> None:
             red_alerts_raw = missiles + drones
             print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
             update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
-            ua_alert_timestamps = [ts for ts in per_channel_timestamps.get(alert_ch, []) if ts is not None]
-            alert_timeline = bucket_into_24h_slots(ua_alert_timestamps) if ua_alert_timestamps else [0] * 24
+            # Count UAV events per eRadarrua post (each city direction = 1 event for accuracy)
+            ua_alert_events = []
+            ua_texts = per_channel_messages.get(alert_ch, [])
+            ua_times = per_channel_timestamps.get(alert_ch, [])
+            for text, ts in zip(ua_texts, ua_times):
+                if ts is None:
+                    continue
+                directions = len(re.findall(
+                    r'(?:UAV|drone|БПЛА|БпЛА)\w*\s+(?:on|to|near|over|in|heading|from)',
+                    text, re.IGNORECASE
+                ))
+                count = directions if directions > 0 else (
+                    1 if re.search(r'\bUAV\b|\bdrone\b|\bBPLA\b|\bБПЛА\b', text, re.IGNORECASE) else 0
+                )
+                ua_alert_events.extend([ts] * count)
+            alert_timeline = bucket_into_24h_slots(ua_alert_events) if ua_alert_events else [0] * 24
 
         output = {
             "conflict": conf["title"],

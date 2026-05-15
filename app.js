@@ -121,11 +121,16 @@ function renderAlertChart(id, timelineRaw) {
 
 function renderUkraineLaunchChart(id, timelineRaw, totalMissiles, totalDrones) {
   const canvas = document.getElementById(id); if (!canvas) return;
+  // Use scaled timeline (already proportional to drone count); halve for display
   const data = (timelineRaw||[]).map(v => Math.round((v || 0) / 2));
-  const total = (totalMissiles||0) + (totalDrones||0) || 1;
-  const mRatio = (totalMissiles||0) / total;
-  const missilesData = data.map(v => Math.round(v * mRatio));
-  const dronesData   = data.map((v, i) => v - missilesData[i]);
+  // Drones: proportional to timeline
+  const dronesData = data.slice();
+  // Missiles: distribute 1 per missile across the busiest hours so they're visible
+  const missilesData = new Array(24).fill(0);
+  if (totalMissiles > 0) {
+    const sorted = data.map((v,i) => [v,i]).sort((a,b) => b[0]-a[0]);
+    for (let i = 0; i < Math.min(totalMissiles, 24); i++) missilesData[sorted[i][1]]++;
+  }
   const cfg = { type:"bar", data: { labels: makeHourLabels(), datasets: [
     { label:"Missiles", data:missilesData, backgroundColor:"rgba(229,62,91,0.75)",  borderWidth:0, borderRadius:2, stack:"s" },
     { label:"Drones",   data:dronesData,   backgroundColor:"rgba(59,130,246,0.55)", borderWidth:0, borderRadius:2, stack:"s" },
@@ -515,8 +520,52 @@ function showToast(msg) {
 
 // ── Sources modal ─────────────────────────────────────────────────────────────
 const BIASED_SOURCES = new Set(["SharghDaily", "naya_foriraq", "presstv"]);
-const WARN_TIP = "source may provide inaccurate information, always double check sources and cross check reports";
-const WARN_ICON = `<span class="source-warn" data-tip="${WARN_TIP}" title="${WARN_TIP}"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`;
+const WARN_TIP = "This source may provide inaccurate or biased information. Always double-check and cross-reference reports with other sources.";
+
+// JS tooltip to avoid overflow-clipping inside the modal
+(function initSourceTooltip() {
+  const tip = document.createElement("div");
+  tip.className = "source-tooltip";
+  document.body.appendChild(tip);
+  let hideTimer;
+  document.addEventListener("mouseover", e => {
+    const w = e.target.closest(".source-warn");
+    if (!w) return;
+    clearTimeout(hideTimer);
+    tip.textContent = WARN_TIP;
+    tip.classList.add("visible");
+    const r = w.getBoundingClientRect();
+    tip.style.left = Math.min(r.left + r.width/2 - tip.offsetWidth/2, window.innerWidth - tip.offsetWidth - 8) + "px";
+    tip.style.top = (r.top + window.scrollY - tip.offsetHeight - 8) + "px";
+  });
+  document.addEventListener("mouseout", e => {
+    if (e.target.closest(".source-warn")) hideTimer = setTimeout(() => tip.classList.remove("visible"), 150);
+  });
+})();
+
+// Warning popup when clicking a biased source
+function showSourceWarningPopup(ch, url) {
+  const existing = document.getElementById("sourceWarnPopup");
+  if (existing) existing.remove();
+  const el = document.createElement("div");
+  el.id = "sourceWarnPopup";
+  el.className = "source-warn-popup";
+  el.innerHTML = `
+    <div class="source-warn-popup-inner">
+      <div class="source-warn-popup-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+      <div class="source-warn-popup-title">Source Advisory — @${ch}</div>
+      <div class="source-warn-popup-body">${WARN_TIP}</div>
+      <div class="source-warn-popup-actions">
+        <button class="source-warn-cancel">Cancel</button>
+        <a class="source-warn-continue" href="${url}" target="_blank" rel="noopener noreferrer">Continue to source</a>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.querySelector(".source-warn-cancel").addEventListener("click", () => el.remove());
+  el.addEventListener("click", e => { if (e.target === el) el.remove(); });
+}
+
+const WARN_ICON = `<span class="source-warn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`;
 
 const sourcesModal = (function () {
   const backdrop = document.getElementById("sourcesModalBackdrop");
@@ -528,9 +577,19 @@ const sourcesModal = (function () {
     if (!backdrop || !list) return;
     list.innerHTML = (channels || []).map(ch => {
       const cnt = (msgsByChannel || {})[`@${ch}`] || 0;
-      const warn = BIASED_SOURCES.has(ch) ? WARN_ICON : "";
-      return `<li><a href="https://t.me/${ch}" target="_blank" rel="noopener noreferrer">@${ch}${warn}${cnt ? `<span class="sources-modal-count">${cnt} msgs</span>` : ""}</a></li>`;
+      const isBiased = BIASED_SOURCES.has(ch);
+      const warn = isBiased ? WARN_ICON : "";
+      const url = `https://t.me/${ch}`;
+      const interceptAttr = isBiased ? ` data-biased="1" data-ch="${ch}" data-url="${url}"` : "";
+      return `<li class="source-item${isBiased?" source-item--biased":""}"><a href="${url}" target="_blank" rel="noopener noreferrer"${interceptAttr}>@${ch}${cnt ? `<span class="sources-modal-count">${cnt} msgs</span>` : ""}</a>${warn}</li>`;
     }).join("");
+    // Intercept clicks on biased source links
+    list.querySelectorAll("a[data-biased]").forEach(a => {
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        showSourceWarningPopup(a.dataset.ch, a.dataset.url);
+      });
+    });
     backdrop.setAttribute("aria-hidden", "false");
     backdrop.classList.add("open");
     isOpen = true;
