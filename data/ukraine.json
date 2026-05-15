@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-15T07:33:35.064823+00:00",
-  "message_count": 136,
+  "updated_at": "2026-05-15T09:30:22.430518+00:00",
+  "message_count": 168,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -19,8 +19,6 @@
   ],
   "red_alerts": 0,
   "red_alerts_timeline": [
-    3,
-    1,
     2,
     2,
     3,
@@ -36,161 +34,163 @@
     2,
     0,
     0,
-    2,
-    1,
+    0,
+    3,
+    7,
     8,
-    8,
-    0,
+    1,
     2,
-    0
+    0,
+    6,
+    8
   ],
   "combined_activity_timeline": [
-    4,
-    4,
-    8,
-    6,
-    7,
-    2,
-    4,
-    8,
-    10,
-    7,
     7,
     6,
-    2,
     8,
+    2,
+    2,
+    9,
+    11,
+    6,
+    8,
+    5,
     3,
+    7,
+    4,
     0,
     1,
-    3,
+    0,
+    7,
+    10,
+    10,
     5,
-    11,
     10,
-    4,
-    10,
-    6
+    5,
+    18,
+    24
   ],
   "messages_by_channel": {
-    "@eRadarrua": 49,
-    "@kpszsu": 29,
-    "@mon1tor_ua": 3,
+    "@eRadarrua": 59,
+    "@kpszsu": 36,
+    "@mon1tor_ua": 13,
     "@Faytuks_Network": 7,
-    "@UkraineNow": 20,
-    "@DeepStateUA": 3,
-    "@ukr_leaks_eng": 25
+    "@UkraineNow": 22,
+    "@DeepStateUA": 4,
+    "@ukr_leaks_eng": 27
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/91844",
-    "kpszsu": "https://t.me/kpszsu/61913",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66731",
+    "eRadarrua": "https://t.me/eRadarrua/91875",
+    "kpszsu": "https://t.me/kpszsu/61928",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66741",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2732",
-    "UkraineNow": "https://t.me/UkraineNow/81215",
-    "DeepStateUA": "https://t.me/DeepStateUA/23505",
+    "UkraineNow": "https://t.me/UkraineNow/81228",
+    "DeepStateUA": "https://t.me/DeepStateUA/23506",
     "WarMonitor": "https://t.me/WarMonitor/273",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30181"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30185"
   },
-  "summary": "Russia intensified its drone and missile campaign, launching over 140 Shahed‑type UAVs and multiple anti‑ship missiles across the north, east and south, while Ukraine reported heavy civilian casualties in Kyiv and increased air‑defence deliveries from the UK. Both sides claim high UAV kill counts, with Ukraine downing 154 drones on 13 May and Russia reporting 355 downed drones on 12 May. The conflict remains active with ongoing ground assaults and heightened diplomatic overtures.",
+  "summary": "U.S. officials publicly praised Ukraine's armed forces as the strongest in Europe while Russia endures heavy personnel losses, and intense drone activity continues across multiple fronts. A significant prisoner exchange returned 205 Ukrainian servicemen, and Western air‑defence aid is being accelerated after recent large‑scale Russian drone attacks. Ongoing aerial assaults, including a massive strike on Kyiv, keep the air war highly active.",
   "key_points": [
-    "Russia deployed 300‑400 Shahed drones daily, indicating robust production.",
-    "Ukraine downed 154 UAVs on 13 May, showing effective air defence.",
-    "Civilian deaths in Kyiv rose to 24, including children, after a missile strike.",
-    "UK to expedite air‑defence system deliveries following recent attacks.",
-    "Multiple UAV groups reported moving from the Black Sea toward Odesa and Mykolaiv.",
-    "US officials note both sides feel optimistic but stress need for mediation.",
-    "Russian forces claimed 355 drones shot down on 12 May, highlighting intense aerial combat."
+    "U.S. Secretary of State Marco Rubio calls Ukrainian army the strongest in Europe and cites Russian monthly losses of 15‑20k troops.",
+    "Ukraine completed a prisoner swap returning 205 servicemen, many held for four years.",
+    "Russia launched a massive coordinated drone and missile attack on Kyiv and other regions, with over 130 UAVs shot down.",
+    "Western air‑defence deliveries are being fast‑tracked after the 13‑14 May Russian drone barrage.",
+    "Numerous Shahed and other UAVs reported over the eastern, northern, and southern fronts, targeting both civilian and military sites.",
+    "SBS forces reported destroying a Russian Be‑200 amphibious aircraft, Ka‑27 helicopter, and multiple missile systems on 15 May.",
+    "Civil unrest in Odesa involving TCC employees and a blockade of a mobilized soldier’s vehicle was reported."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia escalated its UAV and missile offensive, launching over 140 Shahed drones and anti‑ship missiles across multiple fronts, while Ukraine suffered increased civilian casualties in Kyiv. Ukrainian air‑defence forces reported downing 154 drones on 13 May, demonstrating resilience. In response, the UK pledged accelerated delivery of air‑defence systems, and US officials highlighted a tentative diplomatic opening.",
+    "executive_summary": "U.S. officials have publicly declared Ukraine's armed forces the most powerful in Europe, underscoring Russia's heavy monthly personnel losses. Simultaneously, Russia executed a large‑scale drone and missile barrage across Kyiv and multiple fronts, prompting accelerated Western air‑defence aid. A major prisoner exchange returned 205 Ukrainian servicemen, highlighting ongoing diplomatic activity amid intense combat.",
     "ukraine": {
       "points": [
-        "Civilian death toll in Kyiv rose to 24, including three children, after a missile strike (Source: @UkraineNow/81202).",
-        "Ukrainian air‑defence shot down 1 anti‑ship missile and 130 Shahed‑type UAVs on 15 May (Source: @kpszsu/61910).",
-        "Ukrainian forces reported destroying 154 UAVs on 13 May across the western sector (Source: @kpszsu/61880).",
-        "UK announced expedited delivery of air‑defence systems following the 13‑14 May drone attacks (Source: @UkraineNow/81197).",
-        "US Secretary of State Marco Rubio described Ukrainian forces as the strongest in Europe (Source: @DeepStateUA/23504)."
+        "U.S. Secretary of State Marco Rubio praised the Ukrainian army as the strongest in Europe, attributing success to Western support and combat experience (Source: @DeepStateUA/23504).",
+        "A prisoner exchange returned 205 Ukrainian servicemen, including over 50 officers, after up to four years in captivity (Source: @DeepStateUA/23506).",
+        "Ukraine reports successful SBS strikes destroying a Russian Be‑200 amphibious aircraft, Ka‑27 helicopter, and several missile systems on 15 May (Source: @UkraineNow/81214).",
+        "British Defence Minister John Gillen pledged accelerated delivery of air‑defence systems after recent Russian drone attacks (Source: @UkraineNow/81197).",
+        "Ukrainian forces claim to have downed 130 hostile UAVs and intercepted multiple anti‑radar missiles during the 15 May night attack (Source: @kpszsu/61910)."
       ]
     },
     "russia": {
       "points": [
-        "Russia increased drone‑operator personnel by 28,000, aiming for 168,000 by year‑end (Source: @UkraineNow/81189).",
-        "Russian forces launched five H‑31P anti‑radar missiles and a H‑35 anti‑ship missile from the Black Sea on 15 May (Source: @kpszsu/61910).",
-        "Russia reported shooting down 355 drones on the night of 12 May (Source: @UkraineNow/81203).",
-        "Russian air‑defence claimed a successful strike on a multi‑storey building in Ryazan, killing three (Source: @UkraineNow/81203).",
-        "Russian officials highlighted optimism due to rising oil prices (Source: @ukr_leaks_eng/30172)."
+        "Russian monthly casualties are estimated at 15‑20,000 soldiers, five times Ukrainian losses, according to U.S. officials (Source: @DeepStateUA/23504).",
+        "Russia launched a coordinated strike with 5 X‑31P anti‑radar missiles, 1 anti‑ship missile, and 141 UAVs across several directions (Source: @kpszsu/61910).",
+        "SBS reported destroying a Russian Be‑200 amphibious aircraft, Ka‑27 helicopter, Tor and Pantsir‑S1 air‑defence systems, and a cargo aircraft on 15 May (Source: @eRadarrua/91847).",
+        "Russian tactical aviation activity increased on the north‑east and south‑east fronts, raising threat levels (Source: @kpszsu/61915).",
+        "Reports of ballistic missile launches (Iskander‑M/S‑300) from Kursk region were noted (Source: @mon1tor_ua/66727)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV groups reported moving from Sumy toward Chernihiv and from Kharkiv toward Velykyi Buruluk (Source: @kpszsu/61897).",
-        "Multiple Shahed and other UAVs launched from the Black Sea toward Odesa and Mykolaiv (Source: @kpszsu/61874, @kpszsu/61906).",
-        "Ukrainian forces downed 130 Shahed‑type UAVs across north, south and east (Source: @kpszsu/61910).",
-        "UAV activity noted over Kharkiv from north and east directions (Source: @kpszsu/61903).",
-        "UAV groups from the Black Sea heading toward southern Odesa region (Source: @kpszsu/61912)."
+        "Multiple Shahed UAVs reported over Kharkiv, Donetsk, and Zaporizhzhia regions, with several groups moving toward strategic towns (e.g., Shahed from Kharkiv to Skorohodove) (Source: @eRadarrua/91865).",
+        "Ukrainian radar detected UAV activity from the Black Sea heading toward Chornomorske (Source: @kpszsu/61919).",
+        "SBS claimed destruction of Russian air assets targeting eastern oblasts, including a Be‑200 and Ka‑27 (Source: @UkraineNow/81214).",
+        "Ukrainian forces reported a fast‑moving target on the east side of Kharkiv heading to Slobozhanske (Source: @kpszsu/61920).",
+        "UAV groups from Sumy moving toward Chernihiv and from Kursk/Belgorod into Sumy indicate cross‑border pressure (Source: @kpszsu/61895)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAV groups from Chernihiv and Sumy moving toward Kyiv and surrounding oblasts (Source: @kpszsu/61897, @kpszsu/61901).",
-        "UAVs detected heading from the Black Sea toward northern Odesa (Source: @kpszsu/61874).",
-        "UAVs reported over Kyiv from the north (Source: @kpszsu/61903).",
-        "Russian anti‑radar missiles launched from the Black Sea targeted northern sectors (Source: @kpszsu/61910).",
-        "UAV relay units observed near Desna northbound (Source: @eRadarrua/91826)."
+        "UAV groups observed moving along the Belarus border toward Kyiv direction from Chernihiv (Source: @kpszsu/61899).",
+        "Radar alerts of UAVs from the north of Chernihiv heading to Brovary (Source: @kpszsu/61921).",
+        "UAV activity reported near the border of Cherkasy and Kyiv, moving westward (Source: @kpszsu/61897).",
+        "Acoustic Shahed detections over Dnipro railway station (Source: @mon1tor_ua/66734).",
+        "Ballistic missile threat (Iskander‑M/S‑300) from Kursk noted, potentially affecting northern sectors (Source: @mon1tor_ua/66727)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian missile and UAV attack on Odesa caused building damage and two injuries (Source: @UkraineNow/81206).",
-        "UAV groups from the Black Sea directed toward Odesa and Mykolaiv (Source: @kpszsu/61906).",
-        "Shahed UAVs launched from the Black Sea toward southern Odesa and Rybakivka (Source: @mon1tor_ua/66729).",
-        "UAV strike on a suburban train in Zaporizhzhia injured two passengers (Source: @UkraineNow/81213).",
-        "UAV activity reported near Mykolaiv region (Source: @eRadarrua/91817)."
+        "Shahed UAVs launched from the Black Sea heading toward South/Rybakivka and Chornomorske (Source: @mon1tor_ua/66729, @kpszsu/61919).",
+        "Ukrainian forces reported a large UAV swarm over Odesa, prompting civilian shelter alerts (Source: @kpszsu/61922).",
+        "SBS reported hits on Russian assets in the Caspian region, possibly targeting Kalibr‑capable vessels (Source: @eRadarrua/91844).",
+        "Ukrainian air‑defence downed a single anti‑ship missile (X‑35) during the 15 May attack (Source: @kpszsu/61910).",
+        "Continued UAV activity over the southern oblasts, including Kherson and Mykolaiv, with multiple alerts from local monitors (Source: @kpszsu/61912)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine reported shooting down 1 H‑35 anti‑ship missile and 130 Shahed UAVs on 15 May (Source: @kpszsu/61910).",
-        "Russian forces claimed 355 drones downed on 12 May (Source: @UkraineNow/81203).",
-        "Ukrainian air‑defence units destroyed 154 UAVs on 13 May in the west (Source: @kpszsu/61880).",
-        "Multiple anti‑radar missiles (H‑31P) failed to reach targets (Source: @kpszsu/61910).",
-        "UAVs continue to operate over multiple regions, prompting mobile fire groups and radar units (Source: @kpszsu/61880)."
+        "Russia employed 5 X‑31P anti‑radar missiles, 1 X‑35 anti‑ship missile, and 141 UAVs in a coordinated night strike on 15 May (Source: @kpszsu/61910).",
+        "Ukrainian air‑defence shot down 130 hostile UAVs and intercepted the anti‑ship missile during the same attack (Source: @kpszsu/61910).",
+        "SBS claimed destruction of a Russian Be‑200 amphibious aircraft and Ka‑27 helicopter on 15 May (Source: @UkraineNow/81214).",
+        "Ukrainian forces reported increased tactical aviation activity on the north‑east and south‑east fronts (Source: @kpszsu/61915).",
+        "British and other Western partners are accelerating delivery of air‑defence systems after the recent large‑scale drone barrage (Source: @UkraineNow/81197)."
       ]
     },
     "key_developments": [
-      "Russia deployed 300‑400 Shahed drones daily, reflecting expanded production capacity (Source: @UkraineNow/81189).",
-      "Ukraine downed 154 UAVs on 13 May, showing effective air‑defence response (Source: @kpszsu/61880).",
-      "Civilian casualties in Kyiv rose to 24, including three children, after a missile strike (Source: @UkraineNow/81202).",
-      "UK will accelerate delivery of air‑defence systems following the 13‑14 May drone attacks (Source: @UkraineNow/81197).",
-      "Russian forces launched five H‑31P anti‑radar missiles and an H‑35 anti‑ship missile from the Black Sea on 15 May (Source: @kpszsu/61910).",
-      "Russia reported shooting down 355 drones on the night of 12 May, indicating intense aerial combat (Source: @UkraineNow/81203).",
-      "US officials note both sides feel optimistic but stress need for renewed diplomatic mediation (Source: @ukr_leaks_eng/30172)."
+      "U.S. Secretary of State Marco Rubio publicly declared Ukraine's armed forces the strongest in Europe, citing Russian monthly losses of 15‑20k troops (Source: @DeepStateUA/23504).",
+      "A prisoner exchange returned 205 Ukrainian servicemen, many after four years of captivity (Source: @DeepStateUA/23506).",
+      "Russia launched a massive coordinated drone and missile attack on Kyiv and other regions, with over 130 UAVs shot down (Source: @kpszsu/61910).",
+      "SBS forces destroyed a Russian Be‑200 amphibious aircraft, Ka‑27 helicopter, and multiple air‑defence systems on 15 May (Source: @UkraineNow/81214).",
+      "British Defence Minister John Gillen pledged accelerated delivery of air‑defence systems following the 13‑14 May Russian drone attacks (Source: @UkraineNow/81197).",
+      "Multiple Shahed UAV groups reported across eastern, northern, and southern fronts, targeting towns such as Skorohodove, Brovary, and Chornomorske (Sources: @eRadarrua/91865, @kpszsu/61899, @mon1tor_ua/66729).",
+      "Civil unrest in Odesa involving TCC employees blocking a mobilized soldier’s vehicle was reported (Source: @ukr_leaks_eng/30179)."
     ],
     "threat_assessment": {
       "points": [
-        "High volume of Shahed UAVs poses sustained threat to civilian infrastructure across multiple fronts.",
-        "Anti‑radar missile launches indicate Russian attempts to suppress Ukrainian air‑defence radars.",
-        "Continued missile strikes on Kyiv and Odesa raise the risk of further civilian casualties.",
-        "Ukrainian air‑defence successes suggest growing capability to mitigate UAV threats.",
-        "Potential escalation if Russia expands ballistic missile use from the south (Source: @kpszsu/61907)."
+        "Continued high‑intensity UAV and missile attacks indicate Russia is prioritizing saturation of Ukrainian air‑defences.",
+        "Ballistic missile threats (Iskander‑M/S‑300) from Kursk could strain northern air‑defence assets.",
+        "Western air‑defence aid acceleration may mitigate some of the UAV threat but logistics and integration remain challenges.",
+        "Russian personnel losses may affect morale but also drive increased reliance on long‑range strike assets.",
+        "Civilian unrest in occupied territories could complicate Russian control and logistics."
       ]
     },
     "regional_response": {
       "points": [
-        "UK pledged faster air‑defence deliveries, enhancing Ukrainian defensive posture.",
-        "US diplomatic statements signal willingness to mediate, though both sides remain optimistic about battlefield gains.",
-        "Local authorities in Kyiv intensify rescue and de‑brisage operations after missile impact.",
-        "Russian regional officials report successful defense of key fuel infrastructure in Ryazan.",
-        "Civilian alert systems activated in Odesa and Zaporizhzhia following UAV attacks."
+        "U.S. and allied officials are positioning themselves as mediators while emphasizing continued military support.",
+        "The EU is finalising a €6 bn drone procurement package for Ukraine (Source: @ukr_leaks_eng/30170).",
+        "IMF mission scheduled for June to review Ukraine's $8.1 bn loan programme, indicating continued financial backing (Source: @ukr_leaks_eng/30178).",
+        "British government fast‑tracking air‑defence deliveries after recent attacks (Source: @UkraineNow/81197).",
+        "Local Ukrainian authorities are issuing repeated shelter alerts as UAV activity persists across multiple oblasts."
       ]
     },
     "intelligence_notes": {
       "points": [
-        "Russian drone‑operator numbers rising to 168,000 by year‑end suggests scaling of UAV warfare.",
-        "UAV movement patterns show coordinated attacks from Black Sea toward southern coastal regions.",
-        "Multiple sources confirm high UAV kill counts on both sides, indicating a war of attrition in the air.",
-        "Russian anti‑radar missile failures may reflect improved Ukrainian electronic warfare.",
-        "Increased civilian casualties could influence international support and aid decisions."
+        "Ukrainian radar and acoustic networks remain effective, providing early warnings for Shahed UAVs over key infrastructure.",
+        "SBS operational capability to strike deep Russian targets, including air assets and missile systems, is evident.",
+        "Russian use of mixed UAV types (Shahed, Gerbera, Italmas, Parody) suggests diversification to overwhelm defenses.",
+        "Cross‑border UAV movements from Belarus and Russian regions indicate potential for coordinated multi‑axis pressure.",
+        "Information operations continue, with reports of fraudulent charitable schemes exploiting wartime solidarity (Source: @UkraineNow/81195)."
       ]
     }
   }
