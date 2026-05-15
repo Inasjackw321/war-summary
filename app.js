@@ -514,6 +514,10 @@ function showToast(msg) {
 }
 
 // ── Sources modal ─────────────────────────────────────────────────────────────
+const BIASED_SOURCES = new Set(["SharghDaily", "naya_foriraq", "presstv"]);
+const WARN_TIP = "source may provide inaccurate information, always double check sources and cross check reports";
+const WARN_ICON = `<span class="source-warn" data-tip="${WARN_TIP}" title="${WARN_TIP}"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`;
+
 const sourcesModal = (function () {
   const backdrop = document.getElementById("sourcesModalBackdrop");
   const closeBtn  = document.getElementById("sourcesModalClose");
@@ -524,7 +528,8 @@ const sourcesModal = (function () {
     if (!backdrop || !list) return;
     list.innerHTML = (channels || []).map(ch => {
       const cnt = (msgsByChannel || {})[`@${ch}`] || 0;
-      return `<li><a href="https://t.me/${ch}" target="_blank" rel="noopener noreferrer">@${ch}${cnt ? `<span class="sources-modal-count">${cnt} msgs</span>` : ""}</a></li>`;
+      const warn = BIASED_SOURCES.has(ch) ? WARN_ICON : "";
+      return `<li><a href="https://t.me/${ch}" target="_blank" rel="noopener noreferrer">@${ch}${warn}${cnt ? `<span class="sources-modal-count">${cnt} msgs</span>` : ""}</a></li>`;
     }).join("");
     backdrop.setAttribute("aria-hidden", "false");
     backdrop.classList.add("open");
