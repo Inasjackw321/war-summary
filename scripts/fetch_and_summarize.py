@@ -40,9 +40,7 @@ CONFLICTS = {
         "alert_channel": "eRadarrua",
         "channels": [
             "eRadarrua", "kpszsu", "mon1tor_ua", "Faytuks_Network",
-            "UkraineNow", "front_ukrainian", "DeepStateUA", "WarMonitor",
-            "ukr_leaks_eng", "RationalistUA", "ukrainewar_report",
-            "ukraine_news_24", "UAonlymilitary"
+            "UkraineNow", "DeepStateUA", "ukr_leaks_eng"
         ],
         "section_keys": [
             "executive_summary", "ukraine", "russia", "eastern_front",
@@ -266,42 +264,57 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
     return all_texts
 
 
+_WORD_NUMS = {
+    'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+    'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
+    'eleven': 11, 'twelve': 12, 'thirteen': 13, 'fourteen': 14, 'fifteen': 15,
+}
+
+def _to_int(s: str) -> int:
+    return _WORD_NUMS.get(s.lower(), int(s) if s.isdigit() else 0)
+
+
 def parse_missile_count(texts: list[str]) -> int:
-    """Extract missile count from kpszsu posts (dedicated function)."""
+    """Extract LAUNCHED missile count from kpszsu posts."""
     for text in texts:
-        m = re.search(r'(\d+)\s+MISSILES?\s+AND', text, re.IGNORECASE)
+        # English: sum all "five Kh-31P", "one Kh-35" style mentions (attack section)
+        kh_hits = re.findall(
+            r'(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d+)\s+Kh-\d+',
+            text, re.IGNORECASE
+        )
+        if kh_hits:
+            return sum(_to_int(h) for h in kh_hits)
+        # Digit pattern: "6 MISSILES AND" or "AND 6 MISSILES"
+        m = re.search(r'(\d+)\s+MISSILES?\s+AND|AND\s+(\d+)\s+MISSILES?', text, re.IGNORECASE)
         if m:
-            return int(m.group(1))
-        m = re.search(r'AND\s+(\d+)\s+MISSILES?', text, re.IGNORECASE)
-        if m:
-            return int(m.group(1))
+            return int(m.group(1) or m.group(2))
+        # Ukrainian total aerial means minus drone count
         m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
         if m_total:
             m_dr = re.search(r'(\d+)\s+(?:ворожих?\s+)?(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
             return int(m_total.group(1)) - (int(m_dr.group(1)) if m_dr else 0)
+        # Ukrainian: individual cruise/ballistic missiles
         hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
         if hits:
             return sum(int(x) for x in hits)
-        if re.search(r'(?:ЗБИТО|ПЕРЕХОПЛЕНО|знищено|SHOT)', text, re.IGNORECASE):
-            m = re.search(r'(\d{1,3})\s+(?:missile|ракет|rocket)', text, re.IGNORECASE)
-            if m:
-                return int(m.group(1))
     return 0
 
 
 def parse_drone_count(texts: list[str]) -> int:
-    """Extract drone/UAV count from kpszsu posts (dedicated function)."""
+    """Extract LAUNCHED drone/UAV count from kpszsu posts."""
     for text in texts:
-        m = re.search(r'(\d+)\s+(?:ENEMY\s+)?UAV', text, re.IGNORECASE)
+        # English: "141 attack UAVs" or "141 UAVs"
+        m = re.search(r'(\d{2,4})\s+(?:attack\s+|enemy\s+|combat\s+)?UAV', text, re.IGNORECASE)
         if m:
             return int(m.group(1))
+        # English: "141 Shahed" drones
+        m = re.search(r'(\d{2,4})\s+Shahed', text, re.IGNORECASE)
+        if m:
+            return int(m.group(1))
+        # Ukrainian
         m = re.search(r'(\d+)\s+(?:ворожих?\s+)?(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
         if m:
             return int(m.group(1))
-        if re.search(r'(?:ЗБИТО|ПЕРЕХОПЛЕНО|знищено|SHOT)', text, re.IGNORECASE):
-            m = re.search(r'(\d{2,4})\s+(?:UAV|БПЛА|БпЛА|дрон)', text, re.IGNORECASE)
-            if m:
-                return int(m.group(1))
     return 0
 
 

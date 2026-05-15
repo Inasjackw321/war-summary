@@ -121,7 +121,7 @@ function renderAlertChart(id, timelineRaw) {
 
 function renderUkraineLaunchChart(id, timelineRaw, totalMissiles, totalDrones) {
   const canvas = document.getElementById(id); if (!canvas) return;
-  const data = (timelineRaw||[]).map(v => v || 0);
+  const data = (timelineRaw||[]).map(v => Math.round((v || 0) / 2));
   const total = (totalMissiles||0) + (totalDrones||0) || 1;
   const mRatio = (totalMissiles||0) / total;
   const missilesData = data.map(v => Math.round(v * mRatio));
