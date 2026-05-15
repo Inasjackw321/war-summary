@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-15T17:50:50.143157+00:00",
-  "message_count": 197,
+  "updated_at": "2026-05-15T19:50:58.621483+00:00",
+  "message_count": 209,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 130,
   "red_alerts_timeline": [
-    3,
-    0,
     1,
     3,
     0,
@@ -36,11 +34,11 @@
     0,
     0,
     0,
-    0
+    0,
+    0,
+    2
   ],
   "combined_activity_timeline": [
-    8,
-    2,
     6,
     6,
     0,
@@ -53,8 +51,8 @@
     7,
     8,
     6,
-    28,
-    18,
+    29,
+    17,
     10,
     9,
     8,
@@ -62,96 +60,101 @@
     10,
     15,
     3,
-    11
+    11,
+    9,
+    13
   ],
   "messages_by_channel": {
-    "@eRadarrua": 65,
-    "@kpszsu": 43,
-    "@mon1tor_ua": 24,
+    "@eRadarrua": 71,
+    "@kpszsu": 45,
+    "@mon1tor_ua": 28,
     "@Faytuks_Network": 7,
     "@UkraineNow": 30,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 26
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/91932",
-    "kpszsu": "https://t.me/kpszsu/61957",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66753",
+    "eRadarrua": "https://t.me/eRadarrua/91947",
+    "kpszsu": "https://t.me/kpszsu/61968",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66757",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2736",
-    "UkraineNow": "https://t.me/UkraineNow/81244",
+    "UkraineNow": "https://t.me/UkraineNow/81247",
     "DeepStateUA": "https://t.me/DeepStateUA/23506",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30202"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30203"
   },
-  "summary": "Ukrainian forces welcomed 205 prisoners back in a new 1000‑on‑1000 exchange, while Russian Shahed and UAV attacks intensified over Kyiv, Odessa and the northern front, prompting heightened air‑defence alerts. Diplomatic activity surged with high‑profile US‑China visits and a 36‑nation agreement on a special tribunal for Russian aggression. Civilian security incidents, including a fatal police shooting in Khmelnytskyi, added to domestic tension.",
+  "summary": "Ukrainian forces reclaimed Odradne in Kharkiv region, while Russia intensified air and missile threats across multiple fronts, including new Western components in X-101 rockets striking Kyiv. Civil unrest grew in Odesa with clashes over mobilization, and diplomatic pressure mounted as the US and allies discuss war‑ending proposals. The overall situation remains volatile with heightened operational tempo on both sides.",
   "key_points": [
-    "205 Ukrainian POWs returned after a US‑mediated exchange.",
-    "Multiple Shahed and reactive UAV incursions reported over Kyiv, Odessa and northern regions.",
-    "36 countries and the EU approved a governing committee for a special tribunal on Russian aggression.",
-    "US President Trump visited China, meeting business leaders and discussing the war.",
-    "Fatal police shooting in Khmelnytskyi region escalated local security concerns.",
-    "Ukraine increased mobilization alert groups by 40% in Kyiv.",
-    "Finland temporarily halted Helsinki airport traffic due to stray drones."
+    "Ukrainian 129th Brigade retook Odradne, inflicting heavy losses on Russian forces.",
+    "Russian X‑101 missiles used in Kyiv attack contained Western micro‑chips, indicating foreign component supply.",
+    "Civilian‑military clash in Odesa as locals blocked a TCC vehicle, leading to arrests.",
+    "US‑backed prisoner exchange returned 205 Ukrainian POWs, including senior officers.",
+    "Increased mobilization alerts in Kyiv with a 40% rise in TCC alert groups.",
+    "Multiple Shahed‑type drone launches reported from Black Sea and Crimean areas.",
+    "Russia considering new ballistic missile launches from Kursk and Iskander‑M threats."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "The most operationally significant development is the surge in Russian Shahed and reactive UAV attacks over Kyiv and the northern front, forcing continuous air‑defence engagements. Simultaneously, Ukraine secured the return of 205 prisoners in a US‑facilitated 1000‑on‑1000 exchange, bolstering morale. Diplomatic momentum grew as 36 nations backed a special tribunal to prosecute Russian war crimes, while high‑level US‑China talks hinted at broader geopolitical shifts.",
+    "executive_summary": "Ukrainian 129th Brigade’s successful operation in Odradne marks the most significant tactical gain, restoring full control over the settlement. Russia escalated its air campaign, deploying X‑101 missiles with Western components against Kyiv and increasing Shahed drone activity across several fronts. Simultaneously, internal tensions rose in Odesa amid mobilization protests, while diplomatic channels saw a major US‑mediated POW exchange and discussions of war‑ending proposals.",
     "ukraine": {
       "points": [
-        "205 Ukrainian servicemen, including officers, were released after four years in Russian captivity (Source: @DeepStateUA/23506).",
-        "Kyiv increased mobilization alert groups by 40% to strengthen conscription efforts (Source: @UkraineNow/81233).",
-        "A man shot a police officer during a document check in Khmelnytskyi, highlighting internal security strains (Source: @UkraineNow/81237).",
-        "President Zelensky’s office warned of Russia’s nuclear strike capability, though no immediate signs were observed (Source: @ukr_leaks_eng/30196)."
+        "The 129th Separate Mechanized Brigade liberated Odradne, eliminating Russian presence and securing the surrounding area (Source: @DeepStateUA/23505).",
+        "Ukraine completed a large‑scale rescue operation in Kyiv after a missile strike destroyed an apartment block, rescuing survivors and assessing damage (Source: @UkraineNow/81207).",
+        "A prisoner exchange returned 205 Ukrainian servicemen, including officers captured during the Mariupol defense (Source: @DeepStateUA/23506).",
+        "Mobilization efforts intensified in Kyiv with a 40% increase in alert groups to boost recruitment (Source: @UkraineNow/81233).",
+        "Ukrainian forces reported multiple Shahed‑type drone launches from the Black Sea and Crimean regions, prompting air defense alerts (Source: @kpszsu/61963, @eRadarrua/91939)."
       ]
     },
     "russia": {
       "points": [
-        "Russian Shahed drones repeatedly entered Kyiv airspace, prompting alerts and civilian sheltering (Source: @mon1tor_ua/66747).",
-        "Additional Shahed attacks were reported over Odessa and the central‑west corridor (Source: @mon1tor_ua/66732).",
-        "Reactive UAVs were tracked moving from the north toward Kyiv and from the south toward Zaporizhzhia (Source: @kpszsu/61951, @kpszsu/61948).",
-        "Russia faces growing international legal pressure with a new special tribunal framework (Source: @UkraineNow/81234)."
+        "Russian X‑101 missiles that hit Kyiv contained micro‑chips from US, German, and Dutch firms, showing reliance on Western components (Source: @UkraineNow/81246).",
+        "Russia threatened ballistic missile launches (Iskander‑M/S‑300) from Kursk region (Source: @mon1tor_ua/66751).",
+        "Russian tactical aviation activity increased on NE and SE axes, raising risk to frontline areas (Source: @kpszsu/61943).",
+        "Reports of MiG‑31K fighter carrying Kinzhal hypersonic missile prompted nationwide air‑raid alerts (Source: @eRadarrua/91942).",
+        "Russia is seeking to draw Belarus deeper into the conflict, planning operations north and south of Belarus (Source: @UkraineNow/81238)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Fast‑moving target reported in eastern Kharkiv heading toward Slobozhanske (Source: @kpszsu/61920).",
-        "UAV activity noted from Bryansk toward Chernihiv, likely to continue toward Kyiv (Source: @eRadarrua/91902).",
-        "No direct combat reports, but heightened air‑defence posture suggests ongoing Russian strike attempts."
+        "Ukrainian forces cleared Russian units near Odradne, restoring control over the settlement (Source: @DeepStateUA/23505).",
+        "Russian tactical aviation reported over northeastern and southeastern directions, threatening Ukrainian positions (Source: @kpszsu/61943).",
+        "Shahed drone activity detected from the Black Sea heading toward Zaporizhzhia and Donetsk (Source: @kpszsu/61948)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple reactive UAVs launched from Chernihiv and Kyiv regions toward Brovary and Vyshorod (Source: @kpszsu/61934, @kpszsu/61929).",
-        "Threat of ballistic weapons from the north was flagged (Source: @kpszsu/61956).",
-        "Ukrainian radar channels continue to track inbound Shahed drones over the Dnipro region (Source: @mon1tor_ua/66735)."
+        "Multiple Shahed drone alerts over Kyiv and surrounding suburbs, including Irpin, Bucha, and Hostomel (Source: @mon1tor_ua/66747).",
+        "Threat of ballistic missile launches from Kursk region noted (Source: @mon1tor_ua/66751).",
+        "Russian tactical aviation activity reported in the north‑eastern sector (Source: @kpszsu/61943)."
       ]
     },
     "southern_front": {
       "points": [
-        "Shahed drone detected over Odessa, prompting civilian shelter alerts (Source: @mon1tor_ua/66732).",
-        "Russian strike on Zaporizhzhia industrial infrastructure caused one death and three injuries (Source: @UkraineNow/81231).",
-        "UAVs reported from the sea heading toward Odesa (Source: @eRadarrua/91852)."
+        "Shahed drones launched from the Black Sea towards South/Rybakivka area (Source: @mon1tor_ua/66729).",
+        "Ukrainian air defense engaged drones heading toward Mykolaiv and Odesa regions (Source: @kpszsu/61958).",
+        "Russian missile‑drone strikes planned against decision‑making centers across Ukraine (Source: @UkraineNow/81239)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air‑defence engaged numerous Shahed and reactive UAVs over Kyiv, Odessa and northern oblasts (Source: @mon1tor_ua/66747, @mon1tor_ua/66732).",
-        "Finland temporarily closed Helsinki airport after unidentified drones entered its airspace (Source: @Faytuks_Network/2732).",
-        "Ukrainian forces continue to deploy counter‑UAV measures, with radar alerts posted by multiple local channels."
+        "X‑101 missiles with Western components struck Kyiv, causing extensive civilian casualties (Source: @UkraineNow/81246).",
+        "Nationwide alert issued after Russian MiG‑31K launch carrying Kinzhal hypersonic missile (Source: @eRadarrua/91942).",
+        "Ukrainian air defense reported multiple Shahed‑136 drone launches from Primorsko-Akhtarsk and Kursk regions (Source: @eRadarrua/91939).",
+        "Russian tactical aviation increased activity on NE and SE fronts, heightening risk to frontline zones (Source: @kpszsu/61943)."
       ]
     },
     "key_developments": [
-      "Russian Shahed and reactive UAVs intensified attacks over Kyiv, forcing continuous air‑defence alerts (Source: @mon1tor_ua/66747).",
-      "Ukraine secured the return of 205 prisoners in a US‑mediated 1000‑on‑1000 exchange (Source: @DeepStateUA/23506).",
-      "36 countries and the EU approved a governing committee for a special tribunal on Russian war crimes (Source: @UkraineNow/81234).",
-      "President Trump visited China, meeting business leaders and discussing the Ukraine conflict (Source: @UkraineNow/81227).",
-      "Fatal police shooting in Khmelnytskyi region heightened domestic security concerns (Source: @UkraineNow/81237).",
-      "Finland halted Helsinki airport traffic for three hours due to stray drones, illustrating wider regional UAV threats (Source: @Faytuks_Network/2732).",
-      "Ukraine increased mobilization alert groups by 40% in Kyiv to boost conscription readiness (Source: @UkraineNow/81233)."
+      "Ukrainian 129th Brigade recaptured Odradne, eliminating Russian forces in the area (Source: @DeepStateUA/23505).",
+      "Russian X‑101 missiles used in Kyiv attack contained US, German and Dutch micro‑chips, indicating foreign component supply (Source: @UkraineNow/81246).",
+      "Civilian protest in Odesa blocked a TCC mobilization vehicle, leading to police arrests (Source: @ukr_leaks_eng/30179).",
+      "US‑mediated prisoner exchange returned 205 Ukrainian POWs, including senior officers (Source: @DeepStateUA/23506).",
+      "Kyiv increased mobilization alert groups by 40% to boost recruitment (Source: @UkraineNow/81233).",
+      "Multiple Shahed‑type drone launches detected from Black Sea and Crimean areas, prompting air defense alerts (Source: @kpszsu/61963).",
+      "Russia threatened Iskander‑M/S‑300 ballistic missile launches from Kursk region (Source: @mon1tor_ua/66751)."
     ],
-    "threat_assessment": "Russian UAV and missile activity remains the primary kinetic threat, especially over Kyiv and the southern coastal cities, indicating a sustained campaign to pressure Ukrainian air‑defence and civilian morale. The emergence of ballistic weapon warnings from the north and south adds a layer of strategic risk, while diplomatic and legal pressures on Russia are mounting but have yet to translate into a measurable reduction in hostilities.",
-    "regional_response": "Ukraine is reinforcing air‑defence networks and expanding mobilization alerts, while leveraging international diplomatic channels to secure legal mechanisms against Russian aggression. Neighboring states, exemplified by Finland's temporary airspace closure, are also adjusting air‑space security protocols in response to the UAV threat spillover.",
-    "intelligence_notes": "Open‑source radar feeds from local channels provide near‑real‑time UAV tracking, valuable for predictive modelling of attack vectors. The prisoner exchange demonstrates effective US mediation, suggesting potential for further confidence‑building measures. Monitoring diplomatic narratives around the special tribunal will be crucial for assessing future international pressure on Russia."
+    "threat_assessment": "Russia is escalating its long‑range strike capability, integrating Western‑sourced components into missile systems and threatening ballistic launches, while increasing Shahed drone activity across all fronts. Ukraine’s recent tactical gains, notably in Odradne, demonstrate effective counter‑offensives, but the heightened air threat and internal mobilization unrest could strain command and control.",
+    "regional_response": "Western partners continue to supply intelligence and facilitate high‑level diplomatic exchanges, as seen in the US‑backed POW swap and discussions of war‑ending proposals. Regional actors like Belarus are being pressured by Russia to expand the conflict, while Ukraine bolsters civil mobilization and local defense measures.",
+    "intelligence_notes": "Monitoring of Western component flow into Russian missile production is critical for future sanctions and interdiction. Increased Shahed drone launches from maritime corridors suggest a shift to sea‑based launch platforms, requiring enhanced naval‑air coordination. Civil unrest in mobilization zones may affect recruitment rates and require security reinforcement."
   },
   "missiles": 0,
   "drones": 130
