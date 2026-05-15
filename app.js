@@ -210,7 +210,7 @@ function highlightLabels(text) {
 function renderSourceTags(text) {
   // Matches: "(Source: @ch/123)", "(@ch)", "(ch/123)" — requires @ or /digits to avoid normal parens
   return text.replace(
-    /\((?:Source:\s*)?((?:@?[\w]+(?:\/\d+)?)(?:,\s*(?:@?[\w]+(?:\/\d+)?))*)/gi + "\\)",
+    /\((?:Source:\s*)?((?:@?[\w]+(?:\/\d+)?)(?:,\s*(?:@?[\w]+(?:\/\d+)?))*)\)/gi,
     (match, src) => {
       if (!src.includes('@') && !src.includes('/')) return match;
       const tags = src.split(',').map(s => s.trim()).filter(Boolean).map(s => {
