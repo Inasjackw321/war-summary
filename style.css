@@ -314,6 +314,8 @@ body {
 }
 .stat-card--alert .stat-value { color: var(--accent-red); }
 .stat-card--intensity .stat-value { color: var(--accent); font-size: 36px; }
+.stat-value--split { font-size: 32px; letter-spacing: -0.02em; }
+.stat-sep { color: var(--muted); font-weight: 400; }
 @keyframes countIn {
   from { opacity: 0; transform: scale(0.8) translateY(8px); }
   to   { opacity: 1; transform: scale(1) translateY(0); }
@@ -564,6 +566,7 @@ body {
 .chart-card { padding: 12px 14px; }
 .chart-container { height: 70px; position: relative; }
 .chart-container--tall { height: 120px; }
+.chart-container--channels { height: 175px; }
 .chart-card--tall { }
 
 /* ── Sections nav ── */

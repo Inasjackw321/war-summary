@@ -119,6 +119,27 @@ function renderAlertChart(id, timelineRaw) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
+function renderUkraineLaunchChart(id, timelineRaw, totalMissiles, totalDrones) {
+  const canvas = document.getElementById(id); if (!canvas) return;
+  const data = (timelineRaw||[]).map(v => v || 0);
+  const total = (totalMissiles||0) + (totalDrones||0) || 1;
+  const mRatio = (totalMissiles||0) / total;
+  const missilesData = data.map(v => Math.round(v * mRatio));
+  const dronesData   = data.map((v, i) => v - missilesData[i]);
+  const cfg = { type:"bar", data: { labels: makeHourLabels(), datasets: [
+    { label:"Missiles", data:missilesData, backgroundColor:"rgba(229,62,91,0.75)",  borderWidth:0, borderRadius:2, stack:"s" },
+    { label:"Drones",   data:dronesData,   backgroundColor:"rgba(59,130,246,0.55)", borderWidth:0, borderRadius:2, stack:"s" },
+  ]}, options: { ...CHART_DEFAULTS,
+    scales: { x:{ ...CHART_DEFAULTS.scales.x, stacked:true }, y:{ ...CHART_DEFAULTS.scales.y, stacked:true } },
+    plugins: { ...CHART_DEFAULTS.plugins,
+      legend: { display:true, labels:{ color:"#5a6a88", font:{family:"'JetBrains Mono', monospace", size:9}, boxWidth:10, padding:8 } },
+      tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks:{ label: c => `${c.dataset.label}: ${c.raw}` } },
+    },
+  }};
+  if (charts[id]) { charts[id].data = cfg.data; charts[id].update("active"); }
+  else charts[id] = new Chart(canvas, cfg);
+}
+
 function renderActivityChart(id, timeline) {
   const canvas = document.getElementById(id); if (!canvas) return;
   const data = timeline||[];
@@ -210,10 +231,10 @@ function highlightLabels(text) {
 function renderSourceTags(text) {
   // Matches: "(Source: @ch/123)", "(@ch)", "(ch/123)" — requires @ or /digits to avoid normal parens
   return text.replace(
-    /\((?:Source:\s*)?((?:@?[\w]+(?:\/\d+)?)(?:,\s*(?:@?[\w]+(?:\/\d+)?))*)\)/gi,
+    /\((?:Source:\s*)?((?:@?[\w]+(?:\/\d+)?)(?:[,;]\s*(?:@?[\w]+(?:\/\d+)?))*)\)/gi,
     (match, src) => {
       if (!src.includes('@') && !src.includes('/')) return match;
-      const tags = src.split(',').map(s => s.trim()).filter(Boolean).map(s => {
+      const tags = src.split(/[,;]/).map(s => s.trim()).filter(Boolean).map(s => {
         const raw = s.startsWith('@') ? s.slice(1) : s;
         const slash = raw.indexOf('/');
         let ch, url;
@@ -398,7 +419,7 @@ function populatePanel(prefix, data) {
 
   // Middle East: divide by 2. Ukraine: show missiles + drones as separate counters
   const alertCount = prefix === "middle_east" ? Math.ceil((data.red_alerts || 0) / 2) : (data.red_alerts || 0);
-  if (prefix === "ukraine" && data.missiles != null) {
+  if (prefix === "ukraine") {
     animateValue(`ua-missiles`, 0, data.missiles || 0, 800);
     animateValue(`ua-drones`, 0, data.drones || 0, 800);
   } else {
@@ -445,7 +466,12 @@ function populatePanel(prefix, data) {
   initSectionControls(sp);
   initSectionFilter(sp);
 
-  renderAlertChart(`${sp}-chart-alerts`,    data.red_alerts_timeline);
+  if (prefix === "ukraine") {
+    renderUkraineLaunchChart(`ua-chart-alerts`, data.red_alerts_timeline, data.missiles, data.drones);
+  } else {
+    const alertTimeline = (data.red_alerts_timeline || []).map(v => Math.round((v || 0) / 2));
+    renderAlertChart(`${sp}-chart-alerts`, alertTimeline);
+  }
   renderActivityChart(`${sp}-chart-activity`, data.combined_activity_timeline);
   renderChannelChart(`${sp}-chart-channels`,  data.messages_by_channel);
 
