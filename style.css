@@ -907,13 +907,16 @@ body {
 .source-warn {
   display: inline-flex;
   align-items: center;
-  margin-left: 6px;
+  margin-left: 4px;
   cursor: help;
   flex-shrink: 0;
   opacity: 0.85;
   transition: opacity 0.15s;
+  vertical-align: middle;
 }
 .source-warn:hover { opacity: 1; }
+.src-tag--biased { border-color: rgba(245,158,11,0.4) !important; color: #d4a847 !important; }
+.src-tag-warn { margin-left: 2px; }
 /* JS-driven tooltip */
 .source-tooltip {
   position: fixed;

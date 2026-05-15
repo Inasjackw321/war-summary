@@ -234,9 +234,9 @@ function highlightLabels(text) {
 }
 
 function renderSourceTags(text) {
-  // Matches: "(Source: @ch/123)", "(@ch)", "(ch/123)" — requires @ or /digits to avoid normal parens
+  // Matches: "(Source: @ch/123)", "(Source: @ch/123-456)", "(@ch)", "(ch/123)" — requires @ or /digits
   return text.replace(
-    /\((?:Source:\s*)?((?:@?[\w]+(?:\/\d+)?)(?:[,;]\s*(?:@?[\w]+(?:\/\d+)?))*)\)/gi,
+    /\((?:Source:\s*)?((?:@?[\w]+(?:\/[\d-]+)?)(?:[,;]\s*(?:@?[\w]+(?:\/[\d-]+)?))*)\)/gi,
     (match, src) => {
       if (!src.includes('@') && !src.includes('/')) return match;
       const tags = src.split(/[,;]/).map(s => s.trim()).filter(Boolean).map(s => {
@@ -245,13 +245,18 @@ function renderSourceTags(text) {
         let ch, url;
         if (slash !== -1) {
           ch = raw.slice(0, slash);
-          url = `https://t.me/${ch}/${raw.slice(slash + 1)}`;
+          // For ranges like 61900-61935, link to the first ID
+          const idPart = raw.slice(slash + 1).split('-')[0];
+          url = `https://t.me/${ch}/${idPart}`;
         } else {
           ch = raw;
           url = currentUrlMap[ch] || `https://t.me/${ch}`;
         }
-        return `<a class="src-tag" href="${url}" target="_blank" rel="noopener">@${ch}</a>`;
-      }).join(' ');
+        const warnHtml = BIASED_SOURCES.has(ch)
+          ? `<span class="source-warn src-tag-warn"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`
+          : '';
+        return `<a class="src-tag${BIASED_SOURCES.has(ch)?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${BIASED_SOURCES.has(ch)?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}`;
+      }).join('');
       return `<span class="src-tags">${tags}</span>`;
     }
   );
@@ -697,5 +702,11 @@ async function init() {
   if (history?.entries?.length) renderHistoryChart("ua-chart-history", history.entries);
   buildTicker([me, ua]);
 }
+
+// Global click handler for biased source tags in article content
+document.addEventListener("click", e => {
+  const a = e.target.closest("a.src-tag--biased");
+  if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); }
+});
 
 document.addEventListener("DOMContentLoaded", init);
