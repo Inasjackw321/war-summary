@@ -107,8 +107,6 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
     """
     Scrape messages from the last 24 hours of a public Telegram channel.
     Returns (texts, timestamps, post_ids, max_message_id).
-    post_ids is parallel to texts — the Telegram post ID for each message,
-    enabling direct links to the specific post that was cited.
     """
     base_url = f"https://t.me/s/{channel}"
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
@@ -206,40 +204,105 @@ def build_activity_timeline_synthetic(total_messages: int) -> list[int]:
     return [round(total_messages * w / total_w) for w in weights]
 
 
-def parse_kpszsu_attack_summary(texts: list[str], timestamps: list[datetime | None]) -> dict:
-    """
-    Scan kpszsu messages for the daily attack summary infographic post.
-    Parses the total missiles + drones launched (not just shot down).
-    """
-    for text, ts in zip(texts, timestamps):
-        # Ukrainian: "731 засіб/засобів/засоби повітряного нападу"
-        m = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
+def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
+    """Fetch all text from kpszsu without is_relevant() filter (daily summaries are short/numeric)."""
+    base_url = f"https://t.me/s/{channel}"
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=30)
+    all_texts: list[str] = []
+    before_id: int | None = None
+
+    for page_num in range(5):
+        url = base_url if before_id is None else f"{base_url}?before={before_id}"
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=18)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  [warn] kpszsu raw page {page_num}: {e}", file=sys.stderr)
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        msg_els = soup.select(".tgme_widget_message")
+        if not msg_els:
+            break
+
+        oldest_id: int | None = None
+        any_within_window = False
+
+        for msg in msg_els:
+            data_post = msg.get("data-post", "")
+            if "/" in data_post:
+                try:
+                    mid = int(data_post.split("/")[-1])
+                    if oldest_id is None or mid < oldest_id:
+                        oldest_id = mid
+                except ValueError:
+                    pass
+            time_el = msg.select_one("time[datetime]")
+            if time_el:
+                try:
+                    dt_str = time_el["datetime"].replace("Z", "+00:00")
+                    msg_time = datetime.fromisoformat(dt_str)
+                    if msg_time < cutoff:
+                        continue
+                    any_within_window = True
+                except Exception:
+                    pass
+            elif page_num > 0:
+                continue
+            txt_el = msg.select_one(".tgme_widget_message_text")
+            if txt_el:
+                txt = txt_el.get_text(separator=" ", strip=True)
+                if len(txt) > 5:
+                    all_texts.append(txt)
+
+        if not any_within_window and page_num > 0:
+            break
+        if oldest_id is None or oldest_id == before_id:
+            break
+        before_id = oldest_id
+        time.sleep(0.9)
+
+    print(f"  [kpszsu raw] {len(all_texts)} texts", file=sys.stderr)
+    return all_texts
+
+
+def parse_missile_count(texts: list[str]) -> int:
+    """Extract missile count from kpszsu posts (dedicated function)."""
+    for text in texts:
+        m = re.search(r'(\d+)\s+MISSILES?\s+AND', text, re.IGNORECASE)
         if m:
-            total = int(m.group(1))
-            m_drones = re.search(r'(\d+)\s+(?:ворожих?\s+)?(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
-            m_miss = re.search(r'(\d+)\s+(?:крилатих?\s+)?ракет\w*', text, re.IGNORECASE)
-            drones = int(m_drones.group(1)) if m_drones else 0
-            missiles = int(m_miss.group(1)) if m_miss else (total - drones)
-            return {"total": total, "missiles": missiles, "drones": drones, "ts": ts}
-        # English: "41 MISSILES AND 652 ENEMY UAVS" or "652 UAVs AND 41 MISSILES"
-        m2 = re.search(r'(\d+)\s+MISSILES?\s+AND\s+(\d+)\s+(?:ENEMY\s+)?UAV', text, re.IGNORECASE)
-        if m2:
-            missiles, drones = int(m2.group(1)), int(m2.group(2))
-            return {"total": missiles + drones, "missiles": missiles, "drones": drones, "ts": ts}
-        m3 = re.search(r'(\d+)\s+(?:ENEMY\s+)?UAV\w*\s+AND\s+(\d+)\s+MISSILES?', text, re.IGNORECASE)
-        if m3:
-            drones, missiles = int(m3.group(1)), int(m3.group(2))
-            return {"total": missiles + drones, "missiles": missiles, "drones": drones, "ts": ts}
-        # Broad: post with shot-down tally mentioning both drone and missile counts
-        if re.search(r'(?:SHOT|ЗБИТО|ПЕРЕХОПЛЕНО|знищено)', text, re.IGNORECASE):
-            md = re.search(r'(\d{2,4})\s+(?:UAV|БПЛА|БпЛА|дрон)', text, re.IGNORECASE)
-            mm = re.search(r'(\d{1,3})\s+(?:missile|ракет|rocket)', text, re.IGNORECASE)
-            if md or mm:
-                d = int(md.group(1)) if md else 0
-                mv = int(mm.group(1)) if mm else 0
-                if d + mv >= 10:
-                    return {"total": d + mv, "missiles": mv, "drones": d, "ts": ts}
-    return {"total": 0, "missiles": 0, "drones": 0, "ts": None}
+            return int(m.group(1))
+        m = re.search(r'AND\s+(\d+)\s+MISSILES?', text, re.IGNORECASE)
+        if m:
+            return int(m.group(1))
+        m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
+        if m_total:
+            m_dr = re.search(r'(\d+)\s+(?:ворожих?\s+)?(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
+            return int(m_total.group(1)) - (int(m_dr.group(1)) if m_dr else 0)
+        hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
+        if hits:
+            return sum(int(x) for x in hits)
+        if re.search(r'(?:ЗБИТО|ПЕРЕХОПЛЕНО|знищено|SHOT)', text, re.IGNORECASE):
+            m = re.search(r'(\d{1,3})\s+(?:missile|ракет|rocket)', text, re.IGNORECASE)
+            if m:
+                return int(m.group(1))
+    return 0
+
+
+def parse_drone_count(texts: list[str]) -> int:
+    """Extract drone/UAV count from kpszsu posts (dedicated function)."""
+    for text in texts:
+        m = re.search(r'(\d+)\s+(?:ENEMY\s+)?UAV', text, re.IGNORECASE)
+        if m:
+            return int(m.group(1))
+        m = re.search(r'(\d+)\s+(?:ворожих?\s+)?(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
+        if m:
+            return int(m.group(1))
+        if re.search(r'(?:ЗБИТО|ПЕРЕХОПЛЕНО|знищено|SHOT)', text, re.IGNORECASE):
+            m = re.search(r'(\d{2,4})\s+(?:UAV|БПЛА|БпЛА|дрон)', text, re.IGNORECASE)
+            if m:
+                return int(m.group(1))
+    return 0
 
 
 def update_ukraine_history(output_dir: Path, attack_data: dict) -> None:
@@ -291,7 +354,6 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
         }
 
     combined = "\n\n---\n\n".join(raw_messages)
-    is_ukraine = "Ukraine" in conflict_name or "Russia" in conflict_name
 
     section_instructions = []
     for key in section_keys:
@@ -303,6 +365,10 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
             section_instructions.append(
                 f'- {key}: list of exactly 7 concise, actionable intelligence headlines ordered by operational significance. '
                 f'Each must end with (Source: @channel/postID) or (Source: @channel) — only the specific channel that provided that information.'
+            )
+        elif key in ("threat_assessment", "regional_response", "intelligence_notes"):
+            section_instructions.append(
+                f'- {key}: string (2–4 sentences of analytical prose)'
             )
         else:
             section_instructions.append(
@@ -380,11 +446,12 @@ def run() -> None:
                 recent_post_urls[ch] = f"https://t.me/{ch}/{max_id}"
             print(f"    -> {len(msgs)} messages", file=sys.stderr)
 
-        # Build tagged messages with [channel/postID] prefixes for AI source attribution
+        # Ukraine gets higher per-channel limit for better AI coverage
+        per_ch_limit = 25 if key == "ukraine" else 15
         tagged: list[str] = []
         for ch in conf["channels"]:
-            msgs = per_channel_messages.get(ch, [])[:15]
-            ids = per_channel_message_ids.get(ch, [])[:15]
+            msgs = per_channel_messages.get(ch, [])[:per_ch_limit]
+            ids = per_channel_message_ids.get(ch, [])[:per_ch_limit]
             for msg, mid in zip(msgs, ids):
                 prefix = f"{ch}/{mid}" if mid else ch
                 tagged.append(f"[{prefix}] {msg}")
@@ -396,12 +463,10 @@ def run() -> None:
         print(f"  Generating AI summary...", file=sys.stderr)
 
         ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
-        # red_alerts is computed from structured data below, not from AI estimation
         ai_result.pop("red_alerts", None)
 
         msgs_by_channel = build_messages_by_channel(conf["channels"], per_channel_counts)
 
-        # Real activity timeline from all channel timestamps
         all_timestamps = [ts for ch in conf["channels"] for ts in per_channel_timestamps.get(ch, [])]
         if any(ts is not None for ts in all_timestamps):
             activity_timeline = bucket_into_24h_slots(all_timestamps)
@@ -411,7 +476,6 @@ def run() -> None:
         alert_ch = conf.get("alert_channel", "")
 
         if key == "middle_east":
-            # Filter tzevaadom_en posts to only genuine Red Alert activations
             alert_texts = per_channel_messages.get(alert_ch, [])
             alert_times = per_channel_timestamps.get(alert_ch, [])
             real_pairs = [
@@ -422,13 +486,13 @@ def run() -> None:
             alert_timeline = bucket_into_24h_slots(real_alert_timestamps) if real_alert_timestamps else [0] * 24
 
         else:  # ukraine
-            # Parse kpszsu daily summary infographic for total missiles + drones launched
-            kpszsu_msgs = per_channel_messages.get("kpszsu", [])
-            kpszsu_times = per_channel_timestamps.get("kpszsu", [])
-            attack_data = parse_kpszsu_attack_summary(kpszsu_msgs, kpszsu_times)
-            red_alerts_raw = attack_data["total"]
-            update_ukraine_history(output_dir, attack_data)
-            # eRadarrua air raid siren timestamps as proxy for attack timing on the 24h chart
+            # Fetch kpszsu without is_relevant() filter so short/numeric daily summaries are parsed
+            kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
+            missiles = parse_missile_count(kpszsu_raw)
+            drones = parse_drone_count(kpszsu_raw)
+            red_alerts_raw = missiles + drones
+            print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
+            update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
             ua_alert_timestamps = [ts for ts in per_channel_timestamps.get(alert_ch, []) if ts is not None]
             alert_timeline = bucket_into_24h_slots(ua_alert_timestamps) if ua_alert_timestamps else [0] * 24
 
@@ -444,6 +508,9 @@ def run() -> None:
             "recent_post_urls": recent_post_urls,
             **ai_result,
         }
+        if key == "ukraine":
+            output["missiles"] = missiles
+            output["drones"] = drones
 
         path = output_dir / f"{key}.json"
         path.write_text(json.dumps(output, indent=2, ensure_ascii=False))

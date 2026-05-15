@@ -208,22 +208,27 @@ function highlightLabels(text) {
 }
 
 function renderSourceTags(text) {
-  return text.replace(/\(Source:\s*(@[\w,\s@/\d]+)\)/gi, (_, src) => {
-    const tags = src.split(',').map(s => s.trim()).filter(Boolean).map(s => {
-      const raw = s.startsWith('@') ? s.slice(1) : s; // "channel/12345" or "channel"
-      const slash = raw.indexOf('/');
-      let ch, url;
-      if (slash !== -1) {
-        ch = raw.slice(0, slash);
-        url = `https://t.me/${ch}/${raw.slice(slash + 1)}`;
-      } else {
-        ch = raw;
-        url = currentUrlMap[ch] || `https://t.me/${ch}`;
-      }
-      return `<a class="src-tag" href="${url}" target="_blank" rel="noopener">@${ch}</a>`;
-    }).join(' ');
-    return `<span class="src-tags">${tags}</span>`;
-  });
+  // Matches: "(Source: @ch/123)", "(@ch)", "(ch/123)" — requires @ or /digits to avoid normal parens
+  return text.replace(
+    /\((?:Source:\s*)?((?:@?[\w]+(?:\/\d+)?)(?:,\s*(?:@?[\w]+(?:\/\d+)?))*)/gi + "\\)",
+    (match, src) => {
+      if (!src.includes('@') && !src.includes('/')) return match;
+      const tags = src.split(',').map(s => s.trim()).filter(Boolean).map(s => {
+        const raw = s.startsWith('@') ? s.slice(1) : s;
+        const slash = raw.indexOf('/');
+        let ch, url;
+        if (slash !== -1) {
+          ch = raw.slice(0, slash);
+          url = `https://t.me/${ch}/${raw.slice(slash + 1)}`;
+        } else {
+          ch = raw;
+          url = currentUrlMap[ch] || `https://t.me/${ch}`;
+        }
+        return `<a class="src-tag" href="${url}" target="_blank" rel="noopener">@${ch}</a>`;
+      }).join(' ');
+      return `<span class="src-tags">${tags}</span>`;
+    }
+  );
 }
 
 // ── Section block builder ─────────────────────────────────────────────────────
@@ -293,17 +298,19 @@ function buildSectionBlock(def, sectionsData, index) {
         </div>`).join("")
     }</div>`;
 
-  } else if (def.type === "prose-threat") {
-    const text = typeof raw === "string" ? raw : "";
-    body.innerHTML = `<p class="section-prose">${renderSourceTags(highlightLabels(text))}</p>`;
-
-  } else if (def.type === "prose-regional") {
-    const text = typeof raw === "string" ? raw : "";
-    body.innerHTML = `<p class="section-prose prose--regional">${renderSourceTags(text)}</p>`;
-
-  } else if (def.type === "prose-intel") {
-    const text = typeof raw === "string" ? raw : "";
-    body.innerHTML = `<p class="section-prose prose--intel">${renderSourceTags(highlightLabels(text))}</p>`;
+  } else if (def.type === "prose-threat" || def.type === "prose-regional" || def.type === "prose-intel") {
+    const cls = def.type === "prose-regional" ? " prose--regional" : def.type === "prose-intel" ? " prose--intel" : "";
+    const hl  = def.type === "prose-regional" ? (t => t) : highlightLabels;
+    if (typeof raw === "string" && raw) {
+      body.innerHTML = `<p class="section-prose${cls}">${renderSourceTags(hl(raw))}</p>`;
+    } else if (raw?.points?.length) {
+      body.innerHTML = `<div class="section-points">${
+        raw.points.map((pt, i) => `
+          <div class="section-point" style="animation-delay:${i*40}ms;--point-accent:${color}">
+            <div class="section-point-inner">${renderSourceTags(leadBold(pt))}</div>
+          </div>`).join("")
+      }</div>`;
+    }
   }
 
   // Toggle open/close on header click
@@ -389,9 +396,14 @@ function populatePanel(prefix, data) {
   // Update source-tag URL map so citations link to actual recent posts
   currentUrlMap = data.recent_post_urls || {};
 
-  // Red alerts: divide by 2 (rounded up) for Middle East; Ukraine uses raw kpszsu total
+  // Middle East: divide by 2. Ukraine: show missiles + drones as separate counters
   const alertCount = prefix === "middle_east" ? Math.ceil((data.red_alerts || 0) / 2) : (data.red_alerts || 0);
-  animateValue(`${sp}-red-alerts`, 0, alertCount, 800);
+  if (prefix === "ukraine" && data.missiles != null) {
+    animateValue(`ua-missiles`, 0, data.missiles || 0, 800);
+    animateValue(`ua-drones`, 0, data.drones || 0, 800);
+  } else {
+    animateValue(`${sp}-red-alerts`, 0, alertCount, 800);
+  }
 
   // Pulse alert card when count is non-zero
   const alertCard = document.getElementById(`${sp}-stat-alerts`);
@@ -445,7 +457,6 @@ function populatePanel(prefix, data) {
   }
 
   // Wire "MESSAGES ANALYSED" card → sources modal.
-  // Clone to clear stale listeners; animate msg-count AFTER replace so getElementById finds new node.
   const msgCard = document.getElementById(`${sp}-stat-messages`);
   if (msgCard) {
     const fresh = msgCard.cloneNode(true);
