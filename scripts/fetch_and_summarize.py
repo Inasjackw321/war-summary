@@ -212,18 +212,33 @@ def parse_kpszsu_attack_summary(texts: list[str], timestamps: list[datetime | No
     Parses the total missiles + drones launched (not just shot down).
     """
     for text, ts in zip(texts, timestamps):
-        # Ukrainian: "731 засіб повітряного нападу"
-        m = re.search(r'(\d{2,4})\s+засіб(?:ів)?\s+повітряного\s+нападу', text, re.IGNORECASE)
+        # Ukrainian: "731 засіб/засобів/засоби повітряного нападу"
+        m = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
         if m:
             total = int(m.group(1))
-            m_drones = re.search(r'(\d+)\s+(?:ворожих?\s+)?[Бб][Пп][Лл][Аа]', text)
+            m_drones = re.search(r'(\d+)\s+(?:ворожих?\s+)?(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
+            m_miss = re.search(r'(\d+)\s+(?:крилатих?\s+)?ракет\w*', text, re.IGNORECASE)
             drones = int(m_drones.group(1)) if m_drones else 0
-            return {"total": total, "missiles": total - drones, "drones": drones, "ts": ts}
-        # English summary: "41 MISSILES AND 652 ENEMY UAVS SHOTDOWN/SUPPRESSED"
+            missiles = int(m_miss.group(1)) if m_miss else (total - drones)
+            return {"total": total, "missiles": missiles, "drones": drones, "ts": ts}
+        # English: "41 MISSILES AND 652 ENEMY UAVS" or "652 UAVs AND 41 MISSILES"
         m2 = re.search(r'(\d+)\s+MISSILES?\s+AND\s+(\d+)\s+(?:ENEMY\s+)?UAV', text, re.IGNORECASE)
         if m2:
             missiles, drones = int(m2.group(1)), int(m2.group(2))
             return {"total": missiles + drones, "missiles": missiles, "drones": drones, "ts": ts}
+        m3 = re.search(r'(\d+)\s+(?:ENEMY\s+)?UAV\w*\s+AND\s+(\d+)\s+MISSILES?', text, re.IGNORECASE)
+        if m3:
+            drones, missiles = int(m3.group(1)), int(m3.group(2))
+            return {"total": missiles + drones, "missiles": missiles, "drones": drones, "ts": ts}
+        # Broad: post with shot-down tally mentioning both drone and missile counts
+        if re.search(r'(?:SHOT|ЗБИТО|ПЕРЕХОПЛЕНО|знищено)', text, re.IGNORECASE):
+            md = re.search(r'(\d{2,4})\s+(?:UAV|БПЛА|БпЛА|дрон)', text, re.IGNORECASE)
+            mm = re.search(r'(\d{1,3})\s+(?:missile|ракет|rocket)', text, re.IGNORECASE)
+            if md or mm:
+                d = int(md.group(1)) if md else 0
+                mv = int(mm.group(1)) if mm else 0
+                if d + mv >= 10:
+                    return {"total": d + mv, "missiles": mv, "drones": d, "ts": ts}
     return {"total": 0, "missiles": 0, "drones": 0, "ts": None}
 
 
@@ -278,190 +293,94 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
     combined = "\n\n---\n\n".join(raw_messages)
     is_ukraine = "Ukraine" in conflict_name or "Russia" in conflict_name
 
-    if is_ukraine:
-        sections_spec = """{
-  "executive_summary": "4-5 sentence strategic overview covering the most significant developments of the past 24 hours, overall operational tempo, and front-line trajectory",
-  "ukraine": {
-    "title": "Ukraine",
-    "subtitle": "Ukrainian defensive operations and strikes",
-    "points": [
-      "5-6 detailed bullets: each 2-3 sentences with specific unit names, locations, weapon systems, intercept/strike figures"
-    ]
-  },
-  "russia": {
-    "title": "Russia",
-    "subtitle": "Russian military operations and strategic posture",
-    "points": ["5-6 detailed bullets with specifics on weapons, tactics, claimed results, mobilization data"]
-  },
-  "eastern_front": {
-    "title": "Eastern Front",
-    "subtitle": "Donetsk & Luhansk combat operations",
-    "points": ["5-6 detailed bullets with village names, assault wave counts, vehicle losses, ISW assessments where available"]
-  },
-  "northern_front": {
-    "title": "Northern Front",
-    "subtitle": "Kharkiv region and Sumy border activity",
-    "points": ["4-5 detailed bullets"]
-  },
-  "southern_front": {
-    "title": "Southern Front",
-    "subtitle": "Zaporizhzhia & Kherson operations",
-    "points": ["4-5 detailed bullets"]
-  },
-  "air_war": {
-    "title": "Air War",
-    "subtitle": "Drone, missile and aviation operations",
-    "points": ["5-6 detailed bullets covering drone counts, intercept rates, SAM activations, aircraft claimed, EW incidents"]
-  },
-  "key_developments": ["7 concise one-line summaries of the most significant events, ordered by importance"],
-  "threat_assessment": "5-6 sentence deep assessment: operational momentum, attrition balance, critical terrain, probability of major breakthrough (label LOW/MODERATE/HIGH/CRITICAL), and key indicators to watch",
-  "regional_response": "4-5 sentences: specific aid packages approved, weapons delivered or announced, diplomatic positions, NATO/EU decisions, bilateral agreements",
-  "intelligence_notes": "4-5 sentences: order-of-battle observations, logistics patterns, electronic warfare activity, satellite imagery findings, strategic reserve movements, deception indicators"
-}"""
-    else:
-        sections_spec = """{
-  "executive_summary": "4-5 sentence strategic overview covering the most significant developments of the past 24 hours, overall escalation trajectory, and key actors involved",
-  "iran": {
-    "title": "Iran",
-    "subtitle": "Military operations in and against Iran",
-    "points": [
-      "First bullet: 2-3 sentences with specific details (unit names, locations, weapon types, casualty figures if known)",
-      "Second bullet: same level of detail",
-      "Third bullet: same",
-      "Fourth bullet: same",
-      "Fifth bullet: same — include at least 5 substantive points if the source material supports it"
-    ]
-  },
-  "israel": {
-    "title": "Israel",
-    "subtitle": "IDF operations and Israeli security assessments",
-    "points": ["5 detailed bullets as above"]
-  },
-  "gaza_west_bank": {
-    "title": "Gaza & West Bank",
-    "subtitle": "Ongoing operations in Palestinian territories",
-    "points": ["5 detailed bullets"]
-  },
-  "lebanon": {
-    "title": "Lebanon",
-    "subtitle": "Hezbollah activity and northern border exchanges",
-    "points": ["4-5 detailed bullets"]
-  },
-  "syria_iraq": {
-    "title": "Syria & Iraq",
-    "subtitle": "Regional proxy activity and cross-border operations",
-    "points": ["4-5 detailed bullets"]
-  },
-  "gulf_states": {
-    "title": "Gulf States",
-    "subtitle": "Regional state reactions and security incidents",
-    "points": ["4-5 detailed bullets"]
-  },
-  "key_developments": ["7 concise one-line summaries of the most significant events, ordered by importance"],
-  "threat_assessment": "5-6 sentence deep assessment: current threat level, primary/secondary risks, operational indicators, probability of escalation (label it LOW/MODERATE/HIGH/CRITICAL), and key variables to watch",
-  "regional_response": "4-5 sentences covering US, NATO, EU, Russia, China, and regional state positions; include specific policy decisions, diplomatic meetings, or military movements announced",
-  "intelligence_notes": "4-5 sentences of analytical intelligence observations: SIGINT patterns, imagery analysis, logistics movements, capability assessments, deception indicators, or strategic intentions inferred from open-source signals"
-}"""
+    section_instructions = []
+    for key in section_keys:
+        if key == "executive_summary":
+            section_instructions.append(
+                f'- {key}: 3-sentence executive brief. Start with the single most operationally significant development.'
+            )
+        elif key == "key_developments":
+            section_instructions.append(
+                f'- {key}: list of exactly 7 concise, actionable intelligence headlines ordered by operational significance. '
+                f'Each must end with (Source: @channel/postID) or (Source: @channel) — only the specific channel that provided that information.'
+            )
+        else:
+            section_instructions.append(
+                f'- {key}: object with "points" list (3–6 concise bullet points, each under 60 words)'
+            )
 
-    prompt = f"""You are a senior military intelligence analyst producing a classified-style open-source intelligence brief for {conflict_name}.
+    prompt = f"""You are an intelligence analyst producing structured conflict briefings.
+Analyse the following messages from {conflict_name} channels and extract structured intelligence.
 
-Analyze the following Telegram messages from conflict-monitoring channels (collected over the past 24 hours). Each message is prefixed with [channel_name] or [channel_name/postID] indicating its source.
+Messages are prefixed [channel/postID] or [channel]. When citing sources, use format (Source: @channel/postID) if a post ID is present, or (Source: @channel) otherwise.
+Only cite the specific channel(s) that actually provided each piece of information.
 
-SOURCE MESSAGES:
-{combined}
-
-INSTRUCTIONS:
-- Write each bullet point as 2-3 full sentences. Lead with the most specific fact (unit, location, number, weapon system), then provide context and significance.
-- Do NOT use vague language. Use exact place names, unit designations, weapon types, and figures wherever the sources support it.
-- At the end of each bullet point, cite the source(s). Messages are prefixed [channel/postID] or [channel]. Use format (Source: @channel/postID) when a post ID is present, or (Source: @channel) when not. Example: (Source: @DeepStateUA/12345) or (Source: @eRadarrua/67890, @UkraineNow). Only cite channels that actually provided that specific information.
-- Where multiple sources corroborate a fact, cite all of them. Where only one source reports something, note it is unconfirmed.
-- key_developments should be 7 concise actionable headlines ordered by operational significance, each ending with (Source: @channel/postID) or (Source: @channel).
-- threat_assessment, regional_response, and intelligence_notes should be analytical prose paragraphs (not bullet points), 4-6 sentences each.
-- intensity: 1–10 (1 = minimal, 10 = all-out war with nuclear signaling)
-- sentiment: one of escalating | de-escalating | stable | volatile
-
-Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
+Return ONLY valid JSON with this exact structure:
 {{
-  "summary": "4-5 sentence executive overview",
-  "key_points": ["Headline 1", "Headline 2", "Headline 3", "Headline 4", "Headline 5"],
-  "casualties_mentioned": "Specific casualty figures mentioned across all messages, or 'Not specified'",
-  "territorial": "Specific territorial changes or confirmed front-line movements, or 'No significant changes reported'",
-  "sentiment": "escalating|de-escalating|stable|volatile",
-  "intensity": 7,
-  "sections": {sections_spec}
-}}"""
+  "summary": "3-sentence executive summary",
+  "key_points": ["7 short bullet points for ticker"],
+  "sentiment": "one of: escalating|volatile|active|tense|stable|calm",
+  "intensity": <1-10>,
+  "sections": {{
+    {chr(10).join(section_instructions)}
+  }}
+}}
 
-    if not OPENROUTER_API_KEY:
-        print("  [error] OPENROUTER_API_KEY not set", file=sys.stderr)
-        return {"summary": "API key not configured.", "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
+For key_developments, each item in the list should be a complete sentence ending with its source citation.
 
-    raw_json = ""
-    last_error = None
+Messages (newest first, may include Hebrew/Arabic/Ukrainian/Russian):
+{combined[:14000]}
+
+Return only the JSON object, no other text."""
+
+    last_exc: Exception | None = None
     for model in MODELS:
         try:
-            print(f"  Trying model: {model}", file=sys.stderr)
-            raw_json = call_openrouter(prompt, model)
-            break
+            raw = call_openrouter(prompt, model)
+            raw = raw.strip()
+            if raw.startswith("```"):
+                raw = re.sub(r"^```[a-z]*\n?", "", raw)
+                raw = re.sub(r"\n?```$", "", raw)
+            result = json.loads(raw)
+            print(f"  [ok] model={model}", file=sys.stderr)
+            return result
         except Exception as e:
-            print(f"  [warn] {model} failed: {e}", file=sys.stderr)
-            last_error = e
-            time.sleep(3)
-
-    if not raw_json:
-        print(f"  [error] All models failed. Last: {last_error}", file=sys.stderr)
-        return {"summary": "Summary generation temporarily unavailable.", "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
-
-    raw_json = re.sub(r"^```[a-z]*\n?", "", raw_json.strip())
-    raw_json = re.sub(r"\n?```$", "", raw_json.strip())
-
-    try:
-        return json.loads(raw_json)
-    except json.JSONDecodeError:
-        match = re.search(r"\{[\s\S]+\}", raw_json)
-        if match:
-            try:
-                return json.loads(match.group())
-            except Exception:
-                pass
-        return {"summary": raw_json[:500], "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
+            last_exc = e
+            print(f"  [warn] model={model} failed: {e}", file=sys.stderr)
+            time.sleep(2)
+    print(f"  [error] all models failed: {last_exc}", file=sys.stderr)
+    return {"summary": "Summary unavailable.", "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
 
 
-def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> dict:
-    return {f"@{ch}": cnt for ch in channels if (cnt := counts.get(ch, 0)) > 0}
+def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> dict[str, int]:
+    return {f"@{ch}": counts.get(ch, 0) for ch in channels if counts.get(ch, 0) > 0}
 
 
-def run():
-    output_dir = Path(__file__).parent.parent / "data"
+def run() -> None:
+    output_dir = Path("data")
     output_dir.mkdir(exist_ok=True)
 
     for key, conf in CONFLICTS.items():
-        print(f"\n=== {conf['title']} ===", flush=True)
+        print(f"\n=== {conf['title']} ===", file=sys.stderr)
+
         per_channel_messages: dict[str, list[str]] = {}
         per_channel_timestamps: dict[str, list[datetime]] = {}
         per_channel_message_ids: dict[str, list[int | None]] = {}
         per_channel_counts: dict[str, int] = {}
-        max_ids: dict[str, int] = {}
+        recent_post_urls: dict[str, str] = {}
 
         for ch in conf["channels"]:
-            print(f"  Fetching 24 h from t.me/{ch} ...", file=sys.stderr)
+            print(f"  Fetching {ch}...", file=sys.stderr)
             msgs, times, ids, max_id = fetch_channel_messages_24h(ch)
             per_channel_messages[ch] = msgs
             per_channel_timestamps[ch] = times
             per_channel_message_ids[ch] = ids
             per_channel_counts[ch] = len(msgs)
-            if max_id is not None:
-                max_ids[ch] = max_id
-            print(f"    -> {len(msgs)} relevant messages in last 24 h", file=sys.stderr)
-            time.sleep(1.5)
+            if max_id:
+                recent_post_urls[ch] = f"https://t.me/{ch}/{max_id}"
+            print(f"    -> {len(msgs)} messages", file=sys.stderr)
 
-        # Most recent post URL per channel (fallback for source tags without a post ID)
-        recent_post_urls = {
-            ch: f"https://t.me/{ch}/{max_ids[ch]}"
-            for ch in conf["channels"] if ch in max_ids
-        }
-
-        # Build balanced, channel-tagged message list with post IDs: up to 15 per channel, shuffled
-        # Format: [channel/postID] text - so the AI can include post IDs in citations
+        # Build tagged messages with [channel/postID] prefixes for AI source attribution
         tagged: list[str] = []
         for ch in conf["channels"]:
             msgs = per_channel_messages.get(ch, [])[:15]

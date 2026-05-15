@@ -82,6 +82,20 @@ const SECTION_DEFS = {
 const charts = {};
 // Most-recent post URL per channel, set by populatePanel before rendering source tags
 let currentUrlMap = {};
+
+// ── Section icons ─────────────────────────────────────────────────────────────
+const SECTION_ICONS = {
+  "EX": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`,
+  "KD": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
+  "TA": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+  "RI": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>`,
+  "IN": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`,
+  "EF": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`,
+  "NF": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>`,
+  "SF": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>`,
+  "AW": `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>`,
+};
+
 const CHART_DEFAULTS = {
   responsive: true, maintainAspectRatio: false,
   animation: { duration: 900, easing: "easeOutQuart" },
@@ -233,7 +247,7 @@ function buildSectionBlock(def, sectionsData, index) {
   const subtitleHtml = (typeof raw === "object" && raw && raw.subtitle) ? `<div class="section-subtitle">${raw.subtitle}</div>` : "";
   const flagHtml = isEmoji
     ? `<span class="section-flag section-flag--emoji">${def.flag}</span>`
-    : `<span class="section-flag flag--${def.color}">${def.flag}</span>`;
+    : `<span class="section-flag section-flag--icon flag--${def.color}">${SECTION_ICONS[def.flag] || def.flag}</span>`;
 
   block.innerHTML = `
     <div class="section-header">
@@ -292,41 +306,43 @@ function buildSectionBlock(def, sectionsData, index) {
     body.innerHTML = `<p class="section-prose prose--intel">${renderSourceTags(highlightLabels(text))}</p>`;
   }
 
-  if (!isExec && !isKD) {
-    block.querySelector(".section-header").addEventListener("click", e => {
+  // Toggle open/close on header click
+  const header = block.querySelector(".section-header");
+  if (header && !isExec) {
+    header.addEventListener("click", e => {
       if (e.target.closest(".section-copy-btn")) return;
       block.classList.toggle("open");
     });
   }
 
+  // Copy section content
   const copyBtn = block.querySelector(".section-copy-btn");
   if (copyBtn) {
     copyBtn.addEventListener("click", e => {
       e.stopPropagation();
-      navigator.clipboard.writeText(`${def.label}\n\n${body.innerText||body.textContent}`).then(() => {
-        copyBtn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
+      const text = body.innerText || body.textContent || "";
+      navigator.clipboard?.writeText(text).then(() => {
+        copyBtn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>`;
         setTimeout(() => { copyBtn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`; }, 1800);
-      }).catch(() => {});
+      });
     });
   }
 
   return block;
 }
 
-function buildSectionsNav(prefix, defs) {
-  const nav = document.getElementById(`${prefix}-sections-nav`); if (!nav) return;
+// ── Sections nav builder ──────────────────────────────────────────────────────
+function buildSectionsNav(sp, defs) {
+  const nav = document.getElementById(`${sp}-sections-nav`); if (!nav) return;
   nav.innerHTML = "";
   defs.forEach(def => {
-    const color = SECTION_COLORS[def.color] || "#3b82f6";
-    const item = document.createElement("a");
-    item.className = "sections-nav-item"; item.dataset.section = def.key;
-    if (def.key === "executive_summary" || def.type === "keydevs") item.classList.add("active");
-    item.innerHTML = `<span class="nav-color-dot" style="background:${color};color:${color}"></span><span class="nav-label">${def.label}</span><span class="nav-status-dot"></span>`;
-    item.addEventListener("click", e => {
-      e.preventDefault();
-      const target = document.getElementById(`section-${def.key}`); if (!target) return;
-      if (!target.classList.contains("open") && !target.classList.contains("section-block--executive")) target.classList.add("open");
-      target.scrollIntoView({ behavior:"smooth", block:"start" });
+    const item = document.createElement("div");
+    item.className = "sections-nav-item";
+    item.dataset.section = def.key;
+    item.textContent = def.label;
+    item.addEventListener("click", () => {
+      const el = document.getElementById(`section-${def.key}`);
+      if (el) { el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.add("open"); }
     });
     nav.appendChild(item);
   });
@@ -373,18 +389,37 @@ function populatePanel(prefix, data) {
   // Update source-tag URL map so citations link to actual recent posts
   currentUrlMap = data.recent_post_urls || {};
 
-  animateValue(`${sp}-red-alerts`, 0, data.red_alerts || 0, 800);
-  animateValue(`${sp}-msg-count`,  0, data.message_count||0, 1000);
+  // Red alerts: divide by 2 (rounded up) for Middle East; Ukraine uses raw kpszsu total
+  const alertCount = prefix === "middle_east" ? Math.ceil((data.red_alerts || 0) / 2) : (data.red_alerts || 0);
+  animateValue(`${sp}-red-alerts`, 0, alertCount, 800);
+
+  // Pulse alert card when count is non-zero
+  const alertCard = document.getElementById(`${sp}-stat-alerts`);
+  if (alertCard) alertCard.classList.toggle("stat-card--pulsing", alertCount > 0);
 
   const chEl = document.getElementById(`${sp}-channel-count`);
   if (chEl) chEl.textContent = `${(data.channels||[]).length} channels`;
 
-  // Sentiment badge in panel controls
+  // Data freshness timestamp
+  const tsEl = document.getElementById(`${sp}-data-time`);
+  if (tsEl && data.updated_at) {
+    const d = new Date(data.updated_at);
+    tsEl.textContent = `${String(d.getUTCHours()).padStart(2,"0")}:${String(d.getUTCMinutes()).padStart(2,"0")} UTC`;
+  }
+
+  // Sentiment badge + threat level bar
   const sentBadge = document.getElementById(`${sp}-sentiment-badge`);
   if (sentBadge) {
     const sent = (data.sentiment || "unknown").toLowerCase();
     sentBadge.textContent = sent.toUpperCase();
     sentBadge.dataset.sentiment = sent;
+    const fill = document.getElementById(`${sp}-threat-fill`);
+    if (fill) {
+      const pct = { escalating:90, volatile:70, active:70, tense:60, stable:35, calm:20, neutral:50 }[sent] || 50;
+      const col = { escalating:"#e53e5b", volatile:"#f59e0b", active:"#f59e0b", tense:"#f59e0b", stable:"#10b981", calm:"#3b82f6", neutral:"#64748b" }[sent] || "#3b82f6";
+      fill.style.width = `${pct}%`;
+      fill.style.background = `linear-gradient(90deg, ${col}88, ${col})`;
+    }
   }
 
   const container = document.getElementById(`${sp}-sections-content`);
@@ -409,13 +444,15 @@ function populatePanel(prefix, data) {
       .join("");
   }
 
-  // Wire "MESSAGES ANALYSED" card → sources modal
+  // Wire "MESSAGES ANALYSED" card → sources modal.
+  // Clone to clear stale listeners; animate msg-count AFTER replace so getElementById finds new node.
   const msgCard = document.getElementById(`${sp}-stat-messages`);
   if (msgCard) {
     const fresh = msgCard.cloneNode(true);
     msgCard.parentNode.replaceChild(fresh, msgCard);
     fresh.addEventListener("click", () => sourcesModal.open(data.channels, data.messages_by_channel));
     fresh.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sourcesModal.open(data.channels, data.messages_by_channel); } });
+    animateValue(`${sp}-msg-count`, 0, data.message_count || 0, 1000);
   }
 }
 
