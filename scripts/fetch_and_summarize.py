@@ -50,6 +50,8 @@ CONFLICTS = {
     },
 }
 
+MEDIA_CHANNELS = {"Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu"}
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -80,6 +82,42 @@ _REAL_ALERT_RE = re.compile(
     r"air[\s-]raid\s+(?:warning|alert)|intrusion)",
     re.IGNORECASE,
 )
+
+
+def cleanup_old_media(media_dir: Path) -> None:
+    if not media_dir.exists():
+        return
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    for f in media_dir.iterdir():
+        if f.is_file():
+            mtime = datetime.fromtimestamp(f.stat().st_mtime, tz=timezone.utc)
+            if mtime < cutoff:
+                try:
+                    f.unlink()
+                    print(f"  [media] deleted: {f.name}", file=sys.stderr)
+                except Exception as e:
+                    print(f"  [media] delete failed {f.name}: {e}", file=sys.stderr)
+
+
+def download_media(url: str, dest: Path) -> bool:
+    try:
+        resp = requests.get(url, headers={**HEADERS, "Referer": "https://t.me/"}, timeout=20, stream=True)
+        resp.raise_for_status()
+        with open(dest, "wb") as fh:
+            for chunk in resp.iter_content(8192):
+                if chunk:
+                    fh.write(chunk)
+        print(f"  [media] saved: {dest.name}", file=sys.stderr)
+        return True
+    except Exception as e:
+        print(f"  [media] failed {dest.name}: {e}", file=sys.stderr)
+        return False
+
+
+def _cdn_url(photo_wrap) -> str | None:
+    style = photo_wrap.get("style", "") if photo_wrap else ""
+    m = re.search(r"background-image:url\('([^']+)'\)", style)
+    return m.group(1) if m else None
 
 
 def is_relevant(text: str) -> bool:
@@ -164,27 +202,25 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
 
             txt_el = msg.select_one(".tgme_widget_message_text")
             if not txt_el:
-                # Still capture photo-only posts for media collection
                 photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
                 if photo_wrap and current_mid and msg_time:
-                    all_images.append({
-                        "post_url": f"https://t.me/{channel}/{current_mid}",
-                        "post_id": current_mid,
-                        "channel": channel,
-                        "ts": msg_time.isoformat(),
-                    })
+                    entry: dict = {"post_url": f"https://t.me/{channel}/{current_mid}", "post_id": current_mid, "channel": channel, "ts": msg_time.isoformat()}
+                    if channel in MEDIA_CHANNELS:
+                        cdn = _cdn_url(photo_wrap)
+                        if cdn:
+                            entry["cdn_url"] = cdn
+                    all_images.append(entry)
                 continue
             txt = txt_el.get_text(separator=" ", strip=True)
 
-            # Capture any inline photo — extract CDN URL for server-side download
             photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
             if photo_wrap and current_mid and msg_time:
-                all_images.append({
-                    "post_url": f"https://t.me/{channel}/{current_mid}",
-                    "post_id": current_mid,
-                    "channel": channel,
-                    "ts": msg_time.isoformat() if msg_time else None,
-                })
+                entry = {"post_url": f"https://t.me/{channel}/{current_mid}", "post_id": current_mid, "channel": channel, "ts": msg_time.isoformat() if msg_time else None}
+                if channel in MEDIA_CHANNELS:
+                    cdn = _cdn_url(photo_wrap)
+                    if cdn:
+                        entry["cdn_url"] = cdn
+                all_images.append(entry)
 
             if txt and txt not in seen and is_relevant(txt):
                 seen.add(txt)
@@ -512,9 +548,32 @@ def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> di
     return {f"@{ch}": counts.get(ch, 0) for ch in channels if counts.get(ch, 0) > 0}
 
 
+def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]:
+    post_images: dict[str, str] = {}
+    for img in all_media:
+        cdn = img.get("cdn_url")
+        if not cdn:
+            continue
+        ch, pid = img["channel"], img["post_id"]
+        m = re.search(r'\.(\w{2,4})(?:\?|$)', cdn)
+        ext = m.group(1).lower() if m else "jpg"
+        local_name = f"{ch}_{pid}.{ext}"
+        dest = media_dir / local_name
+        key = f"{ch}/{pid}"
+        if dest.exists():
+            post_images[key] = f"data/media/{local_name}"
+        elif download_media(cdn, dest):
+            post_images[key] = f"data/media/{local_name}"
+    return post_images
+
+
 def run() -> None:
     output_dir = Path("data")
     output_dir.mkdir(exist_ok=True)
+    media_dir = output_dir / "media"
+    media_dir.mkdir(exist_ok=True)
+    cleanup_old_media(media_dir)
+
     for key, conf in CONFLICTS.items():
         print(f"\n=== {conf['title']} ===", file=sys.stderr)
 
@@ -623,7 +682,7 @@ def run() -> None:
             "messages_by_channel": msgs_by_channel,
             "recent_post_urls": recent_post_urls,
             "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
-            "post_images": {},
+            "post_images": _build_post_images(all_media, media_dir),
             **ai_result,
         }
         if key == "ukraine":

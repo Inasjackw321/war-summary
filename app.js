@@ -278,6 +278,33 @@ function renderSourceTags(text) {
   );
 }
 
+function extractImageKeys(rawText) {
+  const results = [];
+  const re = /\((?:Source:\s*)?@?([\w]+)\/([\d]+)/gi;
+  let m;
+  while ((m = re.exec(rawText)) !== null) {
+    const key = `${m[1]}/${m[2]}`;
+    const path = currentPostImages[key];
+    if (path) results.push({ path, ch: m[1], key });
+  }
+  return results;
+}
+
+function openLocalMediaLightbox(src) {
+  const existing = document.getElementById("mediaLightbox");
+  if (existing) existing.remove();
+  const lb = document.createElement("div");
+  lb.id = "mediaLightbox";
+  lb.className = "media-lightbox";
+  lb.innerHTML = `<div class="media-lightbox-inner">
+    <div class="media-lightbox-close">✕ Close</div>
+    <img src="${src}" alt="Post media">
+  </div>`;
+  document.body.appendChild(lb);
+  lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });
+  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
+}
+
 // ── Section block builder ─────────────────────────────────────────────────────
 function buildSectionBlock(def, sectionsData, index) {
   const raw    = sectionsData ? sectionsData[def.key] : null;
@@ -329,20 +356,36 @@ function buildSectionBlock(def, sectionsData, index) {
   } else if (def.type === "points") {
     const points = (typeof raw === "object" && raw && raw.points) ? raw.points : [];
     body.innerHTML = `<div class="section-points">${
-      points.map((pt, i) => `
-        <div class="section-point" style="animation-delay:${i*40}ms;--point-accent:${color}">
+      points.map((pt, i) => {
+        const imgs = extractImageKeys(pt);
+        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch}) =>
+          `<button class="src-img-btn" data-src="${path}">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            View media · @${ch}
+          </button>`).join("")}</div>` : "";
+        return `<div class="section-point" style="animation-delay:${i*40}ms;--point-accent:${color}">
           <div class="section-point-inner">${renderSourceTags(leadBold(pt))}</div>
-        </div>`).join("")
+          ${imgHtml}
+        </div>`;
+      }).join("")
     }</div>`;
 
   } else if (isKD) {
     const items = Array.isArray(raw) ? raw : [];
     body.innerHTML = `<div class="key-dev-list">${
-      items.map((item, i) => `
-        <div class="key-dev-item" style="animation-delay:${i*50}ms">
+      items.map((item, i) => {
+        const imgs = extractImageKeys(item);
+        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch}) =>
+          `<button class="src-img-btn" data-src="${path}">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            View media · @${ch}
+          </button>`).join("")}</div>` : "";
+        return `<div class="key-dev-item" style="animation-delay:${i*50}ms">
           <span class="key-dev-num">${i+1}</span>
           <span class="key-dev-text">${renderSourceTags(item)}</span>
-        </div>`).join("")
+          ${imgHtml}
+        </div>`;
+      }).join("")
     }</div>`;
 
   } else if (def.type === "prose-threat" || def.type === "prose-regional" || def.type === "prose-intel") {
@@ -723,10 +766,12 @@ async function init() {
   buildTicker([me, ua]);
 }
 
-// Global click handler for biased source tags in article content
+// Global click handlers
 document.addEventListener("click", e => {
   const a = e.target.closest("a.src-tag--biased");
-  if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); }
+  if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); return; }
+  const btn = e.target.closest(".src-img-btn");
+  if (btn) { e.stopPropagation(); openLocalMediaLightbox(btn.dataset.src); }
 });
 
 document.addEventListener("DOMContentLoaded", init);
