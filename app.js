@@ -182,16 +182,34 @@ function renderMediaGallery(id, cardId, media) {
   const items = (media || []).filter(m => MEDIA_CHANNELS.has(m.channel));
   if (!items.length) { card.classList.add("hidden"); return; }
   card.classList.remove("hidden");
-  el.innerHTML = items.slice(0, 8).map(m => {
-    const date = m.ts ? new Date(m.ts).toLocaleDateString("en-GB", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" }) : "";
-    return `<a class="media-thumb" href="${m.post_url}" data-posturl="${m.post_url}">
+  el.innerHTML = items.slice(0, 10).map(m => {
+    const key = `${m.channel}/${m.post_id}`;
+    const localPath = currentPostImages[key];
+    const date = m.ts ? new Date(m.ts).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" }) : "";
+    if (localPath) {
+      return `<div class="media-thumb media-thumb--img" data-posturl="${m.post_url}" data-src="${localPath}">
+        <img class="media-thumb-preview" src="${localPath}" alt="" loading="lazy">
+        <div class="media-thumb-meta">
+          <span class="media-thumb-ch">@${m.channel}</span>
+          <span class="media-thumb-date">${date}</span>
+        </div>
+        <svg class="media-thumb-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>`;
+    }
+    return `<div class="media-thumb" data-posturl="${m.post_url}">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--muted);flex-shrink:0"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
       <span class="media-thumb-ch">@${m.channel}</span>
       <span class="media-thumb-date">${date}</span>
       <svg class="media-thumb-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-    </a>`;
+    </div>`;
   }).join("");
-  el.querySelectorAll(".media-thumb").forEach(a => {
-    a.addEventListener("click", e => { e.preventDefault(); openTelegramLightbox(a.dataset.posturl); });
+  el.querySelectorAll(".media-thumb").forEach(thumb => {
+    thumb.addEventListener("click", e => {
+      e.preventDefault();
+      const src = thumb.dataset.src;
+      if (src) openLocalMediaLightbox(src, thumb.dataset.posturl);
+      else openTelegramLightbox(thumb.dataset.posturl);
+    });
   });
 }
 
@@ -285,19 +303,23 @@ function extractImageKeys(rawText) {
   while ((m = re.exec(rawText)) !== null) {
     const key = `${m[1]}/${m[2]}`;
     const path = currentPostImages[key];
-    if (path) results.push({ path, ch: m[1], key });
+    if (path) results.push({ path, ch: m[1], key, postUrl: `https://t.me/${m[1]}/${m[2]}` });
   }
   return results;
 }
 
-function openLocalMediaLightbox(src) {
+function openLocalMediaLightbox(src, postUrl) {
   const existing = document.getElementById("mediaLightbox");
   if (existing) existing.remove();
   const lb = document.createElement("div");
   lb.id = "mediaLightbox";
   lb.className = "media-lightbox";
-  lb.innerHTML = `<div class="media-lightbox-inner">
-    <div class="media-lightbox-close">✕ Close</div>
+  const linkHtml = postUrl ? `<a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open on Telegram ↗</a>` : "";
+  lb.innerHTML = `<div class="media-lightbox-inner media-lightbox-local">
+    <div class="media-lightbox-topbar">
+      ${linkHtml}
+      <div class="media-lightbox-close">✕</div>
+    </div>
     <img src="${src}" alt="Post media">
   </div>`;
   document.body.appendChild(lb);
@@ -358,10 +380,10 @@ function buildSectionBlock(def, sectionsData, index) {
     body.innerHTML = `<div class="section-points">${
       points.map((pt, i) => {
         const imgs = extractImageKeys(pt);
-        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch}) =>
-          `<button class="src-img-btn" data-src="${path}">
+        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch, postUrl}) =>
+          `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            View media · @${ch}
+            @${ch}
           </button>`).join("")}</div>` : "";
         return `<div class="section-point" style="animation-delay:${i*40}ms;--point-accent:${color}">
           <div class="section-point-inner">${renderSourceTags(leadBold(pt))}</div>
@@ -375,10 +397,10 @@ function buildSectionBlock(def, sectionsData, index) {
     body.innerHTML = `<div class="key-dev-list">${
       items.map((item, i) => {
         const imgs = extractImageKeys(item);
-        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch}) =>
-          `<button class="src-img-btn" data-src="${path}">
+        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch, postUrl}) =>
+          `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            View media · @${ch}
+            @${ch}
           </button>`).join("")}</div>` : "";
         return `<div class="key-dev-item" style="animation-delay:${i*50}ms">
           <span class="key-dev-num">${i+1}</span>
@@ -771,7 +793,7 @@ document.addEventListener("click", e => {
   const a = e.target.closest("a.src-tag--biased");
   if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); return; }
   const btn = e.target.closest(".src-img-btn");
-  if (btn) { e.stopPropagation(); openLocalMediaLightbox(btn.dataset.src); }
+  if (btn) { e.stopPropagation(); openLocalMediaLightbox(btn.dataset.src, btn.dataset.posturl); }
 });
 
 document.addEventListener("DOMContentLoaded", init);
