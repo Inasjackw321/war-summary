@@ -120,23 +120,26 @@ function renderAlertChart(id, timelineRaw) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
-function renderRecentAttacksChart(id, entries) {
+function renderTodayAttackChart(id, missiles, drones) {
   const canvas = document.getElementById(id); if (!canvas) return;
-  const recent = [...(entries||[])].sort((a,b) => a.date.localeCompare(b.date)).slice(-14);
-  if (!recent.length) return;
-  const labels   = recent.map(e => e.date.slice(5));
-  const missiles = recent.map(e => e.missiles || 0);
-  const drones   = recent.map(e => e.drones   || 0);
-  const cfg = { type:"bar", data: { labels, datasets: [
-    { label:"Missiles", data:missiles, backgroundColor:"rgba(229,62,91,0.75)",  borderWidth:0, borderRadius:2, stack:"s" },
-    { label:"Drones",   data:drones,   backgroundColor:"rgba(59,130,246,0.55)", borderWidth:0, borderRadius:2, stack:"s" },
-  ]}, options: { ...CHART_DEFAULTS,
-    scales: { x:{ ...CHART_DEFAULTS.scales.x, stacked:true }, y:{ ...CHART_DEFAULTS.scales.y, stacked:true } },
-    plugins: { ...CHART_DEFAULTS.plugins,
-      legend: { display:true, labels:{ color:"#5a6a88", font:{family:"'JetBrains Mono', monospace", size:9}, boxWidth:10, padding:8 } },
-      tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks:{ label: c => `${c.dataset.label}: ${c.raw}` } },
+  const cfg = {
+    type: "bar",
+    data: { labels: ["Missiles", "Drones"], datasets: [{
+      data: [missiles || 0, drones || 0],
+      backgroundColor: ["rgba(229,62,91,0.75)", "rgba(59,130,246,0.55)"],
+      borderWidth: 0, borderRadius: 4,
+    }]},
+    options: { ...CHART_DEFAULTS, indexAxis: "y",
+      plugins: { ...CHART_DEFAULTS.plugins,
+        legend: { display: false },
+        tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `${c.raw} launched` } },
+      },
+      scales: {
+        x: { ...CHART_DEFAULTS.scales.x, ticks: { ...CHART_DEFAULTS.scales.x.ticks, maxTicksLimit: 5 } },
+        y: { ...CHART_DEFAULTS.scales.y, grid: { display: false }, ticks: { color: "#a8b4cc", font: { family: "'JetBrains Mono', monospace", size: 10 } } },
+      },
     },
-  }};
+  };
   if (charts[id]) { charts[id].data = cfg.data; charts[id].update("active"); }
   else charts[id] = new Chart(canvas, cfg);
 }
@@ -149,27 +152,6 @@ function renderActivityChart(id, timeline) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
-function renderHistoryChart(id, entries) {
-  const canvas = document.getElementById(id); if (!canvas || !entries?.length) return;
-  const byMonth = {};
-  entries.forEach(e => { const m = e.date.slice(0, 7); byMonth[m] = (byMonth[m] || 0) + 1; });
-  const labels = Object.keys(byMonth).sort();
-  const counts = labels.map(l => byMonth[l]);
-  const cfg = {
-    type: "bar",
-    data: { labels, datasets: [
-      { label: "Reports", data: counts, backgroundColor: "rgba(59,130,246,0.55)", borderWidth: 0, borderRadius: 2 },
-    ]},
-    options: { ...CHART_DEFAULTS,
-      plugins: { ...CHART_DEFAULTS.plugins,
-        legend: { display: false },
-        tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `Reports: ${c.raw}` } },
-      },
-    },
-  };
-  if (charts[id]) { charts[id].data = cfg.data; charts[id].update("active"); }
-  else charts[id] = new Chart(canvas, cfg);
-}
 
 
 function renderChannelChart(id, msgsByChannel) {
@@ -471,7 +453,8 @@ function populatePanel(prefix, data) {
   initSectionFilter(sp);
 
   if (prefix === "ukraine") {
-    if (_ukraineHistory?.entries?.length) renderRecentAttacksChart(`ua-chart-alerts`, _ukraineHistory.entries);
+    renderTodayAttackChart(`ua-chart-alerts`, data.missiles, data.drones);
+    renderAlertChart(`ua-chart-history`, data.red_alerts_timeline);
   } else {
     const alertTimeline = (data.red_alerts_timeline || []).map(v => Math.round((v || 0) / 2));
     renderAlertChart(`${sp}-chart-alerts`, alertTimeline);
@@ -612,9 +595,6 @@ const sourcesModal = (function () {
   return { open, close };
 })();
 
-// ── Ukraine history (loaded once, used by recent-attacks chart) ───────────────
-let _ukraineHistory = null;
-
 // ── Auto-refresh ─────────────────────────────────────────────────────────────
 let _lastKnownUpdatedAt = null;
 function scheduleAutoRefresh(updatedAt) {
@@ -688,27 +668,16 @@ function updateHeaderForConflict(data) {
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
-async function loadUkraineHistory() {
-  try {
-    const resp = await fetch(`data/ukraine_history.json?t=${Date.now()}`);
-    if (!resp.ok) return null;
-    return await resp.json();
-  } catch { return null; }
-}
-
 async function init() {
   updateDatetime(); setInterval(updateDatetime, 30000);
   document.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => switchTab(btn.dataset.tab)));
 
-  const [me, ua, history] = await Promise.all([
+  const [me, ua] = await Promise.all([
     loadConflict("middle_east"),
     loadConflict("ukraine"),
-    loadUkraineHistory(),
   ]);
-  if (history?.entries?.length) _ukraineHistory = history;
   if (me) { populatePanel("middle_east", me); startCountdown(me.updated_at); scheduleAutoRefresh(me.updated_at); }
   if (ua) populatePanel("ukraine", ua);
-  if (_ukraineHistory?.entries?.length) renderHistoryChart("ua-chart-history", _ukraineHistory.entries);
   buildTicker([me, ua]);
 }
 
