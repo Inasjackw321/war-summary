@@ -222,14 +222,22 @@ def build_activity_timeline_synthetic(total_messages: int) -> list[int]:
     return [round(total_messages * w / total_w) for w in weights]
 
 
+_ATTACK_SUMMARY_RE = re.compile(
+    r'attacked\s+with|атакував|Shahed|Кh-\d+|Kh-\d+|Х-\d+|attack\s+UAV|ударни\w+\s+БпЛА'
+    r'|засобів\s+повітряного|MISSILE.{0,20}UAV|UAV.{0,20}MISSILE',
+    re.IGNORECASE,
+)
+
+
 def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
-    """Fetch all text from kpszsu without is_relevant() filter (daily summaries are short/numeric)."""
+    """Fetch kpszsu posts from last 72h, attack-summary texts sorted first."""
     base_url = f"https://t.me/s/{channel}"
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=30)
-    all_texts: list[str] = []
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=72)
+    attack_texts: list[str] = []   # posts that look like daily attack summaries
+    other_texts: list[str] = []
     before_id: int | None = None
 
-    for page_num in range(5):
+    for page_num in range(8):
         url = base_url if before_id is None else f"{base_url}?before={before_id}"
         try:
             resp = requests.get(url, headers=HEADERS, timeout=18)
@@ -270,8 +278,11 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
             txt_el = msg.select_one(".tgme_widget_message_text")
             if txt_el:
                 txt = txt_el.get_text(separator=" ", strip=True)
-                if len(txt) > 5:
-                    all_texts.append(txt)
+                if len(txt) > 10:
+                    if _ATTACK_SUMMARY_RE.search(txt):
+                        attack_texts.append(txt)
+                    else:
+                        other_texts.append(txt)
 
         if not any_within_window and page_num > 0:
             break
@@ -280,7 +291,9 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
         before_id = oldest_id
         time.sleep(0.9)
 
-    print(f"  [kpszsu raw] {len(all_texts)} texts", file=sys.stderr)
+    # Attack-summary posts first so parse functions find them before non-attack posts
+    all_texts = attack_texts + other_texts
+    print(f"  [kpszsu raw] {len(all_texts)} texts ({len(attack_texts)} attack summaries)", file=sys.stderr)
     return all_texts
 
 
@@ -319,25 +332,23 @@ _KH_RE = re.compile(
 
 
 def parse_missile_count(texts: list[str], drones: int = 0) -> int:
-    """Extract LAUNCHED missile count from kpszsu posts."""
+    """Extract LAUNCHED missile count from kpszsu posts. Scans all texts, takes first non-zero."""
     for text in texts:
         # Find the attack-narrative section starting from "атакував" or "attacked with"
-        # This skips the intercepted summary that often appears first in the post
         m_narr = re.search(r'(?:атакував\b|attacked\s+with\b).+', text, re.IGNORECASE | re.DOTALL)
         if m_narr:
             launch_text = m_narr.group(0)
-            # Stop before intercepted section within the narrative
             zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed)', launch_text, re.IGNORECASE)
             if zbito:
                 launch_text = launch_text[:zbito.start()]
         else:
-            # No "атакував" — filter out intercepted sentences instead
+            # Filter out intercepted sentences
             sentences = re.split(r'(?<=[.!?\n])\s+', text)
             launch_text = ' '.join(
                 s for s in sentences
                 if not re.search(r'збит|подавлен|shot\s*down|shotdown|suppressed|не збито', s, re.IGNORECASE)
             )
-        # Latin Kh- or Cyrillic Х- type missiles with word/digit number before
+        # Latin Kh- or Cyrillic Х- with word/digit number
         kh_hits = _KH_RE.findall(launch_text)
         if kh_hits:
             total = sum(_to_int(h) for h in kh_hits)
@@ -360,9 +371,9 @@ def parse_missile_count(texts: list[str], drones: int = 0) -> int:
 
 
 def parse_drone_count(texts: list[str], missiles: int = 0) -> int:
-    """Extract LAUNCHED drone/UAV count from kpszsu posts (not intercepted)."""
+    """Extract LAUNCHED drone/UAV count from kpszsu posts. Scans all texts, takes first non-zero."""
     for text in texts:
-        # English: "141 attack UAVs" (launched context)
+        # English: "141 attack UAVs"
         m = re.search(r'(\d{2,4})\s+(?:attack|combat)\s+UAV', text, re.IGNORECASE)
         if m:
             return int(m.group(1))
@@ -370,7 +381,7 @@ def parse_drone_count(texts: list[str], missiles: int = 0) -> int:
         m = re.search(r'(\d{2,4})\s+Shahed', text, re.IGNORECASE)
         if m:
             return int(m.group(1))
-        # Ukrainian: specifically "ударним БпЛА" = attack/launched UAVs (not "ворожих" = intercepted)
+        # Ukrainian: "141 ударним БпЛА" = attack/launched UAVs (NOT "ворожих" = intercepted)
         m = re.search(r'(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
         if m:
             return int(m.group(1))
