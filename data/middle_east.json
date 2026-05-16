@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-16T04:31:45.605407+00:00",
-  "message_count": 652,
+  "updated_at": "2026-05-16T04:48:58.657791+00:00",
+  "message_count": 650,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -30,8 +30,8 @@
     0,
     0,
     0,
-    0,
-    6,
+    1,
+    5,
     4,
     0,
     0,
@@ -41,45 +41,45 @@
     0,
     0,
     0,
-    1,
-    1,
+    2,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    19,
-    25,
-    36,
-    22,
-    35,
-    42,
-    51,
-    30,
-    40,
+    21,
+    33,
     31,
-    50,
-    49,
-    50,
-    45,
-    26,
-    35,
+    19,
+    38,
+    52,
+    39,
+    40,
+    32,
+    32,
+    53,
+    48,
+    52,
+    36,
+    32,
+    28,
+    8,
+    7,
+    8,
+    6,
     11,
-    7,
-    7,
-    7,
-    9,
-    5,
     2,
-    17
+    4,
+    18
   ],
   "messages_by_channel": {
     "@N12chat": 126,
     "@manniefabian": 13,
     "@asafroz": 20,
     "@yediotnews25": 32,
-    "@SharghDaily": 181,
+    "@SharghDaily": 180,
     "@amitsegal": 6,
-    "@presstv": 111,
+    "@presstv": 110,
     "@mamlekate": 2,
     "@kianmeli1": 10,
     "@Faytuks_Network": 8,
@@ -90,11 +90,11 @@
     "@idf_telegram": 21
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207454",
+    "N12chat": "https://t.me/N12chat/207455",
     "manniefabian": "https://t.me/manniefabian/58259",
     "asafroz": "https://t.me/asafroz/49240",
     "yediotnews25": "https://t.me/yediotnews25/129331",
-    "SharghDaily": "https://t.me/SharghDaily/160132",
+    "SharghDaily": "https://t.me/SharghDaily/160134",
     "amitsegal": "https://t.me/amitsegal/61133",
     "presstv": "https://t.me/presstv/190049",
     "mamlekate": "https://t.me/mamlekate/103528",
@@ -174,6 +174,18 @@
       "ts": "2026-05-15T20:52:14+00:00"
     },
     {
+      "post_url": "https://t.me/SharghDaily/160121",
+      "post_id": 160121,
+      "channel": "SharghDaily",
+      "ts": "2026-05-15T20:04:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/SharghDaily/160120",
+      "post_id": 160120,
+      "channel": "SharghDaily",
+      "ts": "2026-05-15T19:58:01+00:00"
+    },
+    {
       "post_url": "https://t.me/kianmeli1/87418",
       "post_id": 87418,
       "channel": "kianmeli1",
@@ -210,98 +222,86 @@
       "ts": "2026-05-15T19:38:21+00:00"
     },
     {
-      "post_url": "https://t.me/SharghDaily/160114",
-      "post_id": 160114,
-      "channel": "SharghDaily",
-      "ts": "2026-05-15T19:25:07+00:00"
-    },
-    {
       "post_url": "https://t.me/N12chat/207436",
       "post_id": 207436,
       "channel": "N12chat",
       "ts": "2026-05-15T19:19:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160113",
-      "post_id": 160113,
-      "channel": "SharghDaily",
-      "ts": "2026-05-15T19:15:02+00:00"
     }
   ],
   "post_images": {},
-  "summary": "Iran intensifies diplomatic pressure on Belarus to deport opposition students while U.S. and regional actors debate a Strait of Hormuz resolution. Hezbollah's rocket launcher near Kiryat Shmona was destroyed by the IDF, and Israel claims a successful airstrike on Hamas commander Ez al‑Din Haddad. Tensions remain high across multiple fronts.",
+  "summary": "Israel announced the targeted killing of Hamas military commander Azeddin Haddad in Gaza, while Hezbollah launched multiple explosive drones and rockets toward Israeli border communities in the Western Galilee. The U.S. FBI captured high‑value terrorist Mohamed Al‑Saadi, and Iranian‑linked diplomatic pressure on Belarusian dissidents intensified. Regional actors continue to maneuver, with the U.S. warning of further pressure on Iran and Russia supporting Pakistan’s north‑south corridor.",
   "key_points": [
-    "Iran pressures Belarus to deport Iranian opposition students, citing security threats.",
-    "U.S. draft resolution demanding Iran halt attacks in the Strait of Hormuz faces likely Russian and Chinese veto.",
-    "IDF destroys a Hezbollah rocket launcher in Zebdine, preventing attacks on Kiryat Shmona.",
-    "Israel reports airstrike killing Hamas military commander Ez al‑Din Haddad.",
-    "Multiple hostile aircraft intrusions reported along Israel’s northern border and Golan Heights.",
-    "Trump hints at a possible fourth U.S. military operation against Iran, claiming 75% of objectives are complete.",
-    "U.S. CIA chief visits Cuba amid fuel shortages and civil unrest."
+    "Israel claims airstrike killed Hamas commander Azeddin Haddad in Gaza.",
+    "Hezbollah deployed explosive drones and rockets near the Israeli‑Lebanon border, triggering sirens in Western Galilee.",
+    "U.S. FBI arrested terrorist operative Mohamed Al‑Saadi, labeling him a global terror threat.",
+    "Iranian embassy in Minsk pressured Belarus to deport Iranian‑opposed students and residents.",
+    "Trump announced a pending second U.S. military operation against Iran, citing 75% of objectives already achieved.",
+    "Russia welcomed Pakistan’s north‑south corridor project despite regional conflicts.",
+    "Civil defense in Gaza fought a fire in a residential building hit by Israeli bombing in Al‑Rimal."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Iran’s diplomatic campaign to force the deportation of opposition students from Belarus marks a new escalation in its external pressure tactics. Simultaneously, a U.S.-backed draft UN resolution targeting Iran’s Strait of Hormuz activities is poised for a Russian‑China veto, underscoring great‑power friction. On the ground, Israel’s IDF neutralized a Hezbollah rocket launcher in Zebdine and claimed a successful strike on Hamas commander Ez al‑Din Haddad, highlighting continued low‑intensity conflict along its northern and Gaza fronts.",
+    "executive_summary": "Israel’s confirmed strike that eliminated Hamas commander Azeddin Haddad marks the most operationally significant development, potentially disrupting Hamas’ command structure in Gaza. Simultaneously, Hezbollah’s drone and rocket barrage along the Lebanese border heightened Israeli alert levels and demonstrated Lebanon‑based proxy aggression. U.S. counter‑terrorism actions, including the capture of Mohamed Al‑Saadi, indicate continued pressure on transnational jihadist networks.",
     "iran": {
       "points": [
-        "The Iranian embassy in Minsk sent a formal note to Belarusian authorities labeling resident Iranian students and expatriates opposed to Tehran as \"dangerous\" and demanding their immediate deportation to Iran for detention (Source: @mamlekate/103527).",
-        "Belarusian officials, fearing diplomatic fallout, have begun processing deportations, with at least two individuals—Khatereh Khodadadi and Dr. Sepehr Farshadi—held in solitary confinement for up to two weeks pending transfer (Source: @mamlekate/103527).",
-        "Iranian Foreign Minister Abbas Araghchi publicly warned that rising U.S. energy prices could trigger broader economic pain, linking it to potential Iranian retaliation in the Strait of Hormuz (Source: @VahidOnline/75493).",
-        "China’s UN ambassador criticized the U.S./Bahrain draft resolution on the Strait, calling its timing and content unsuitable and predicting a Russian‑Chinese veto (Source: @VahidOnline/75492)."
+        "Iranian ambassador in Minsk, Alireza Sanaei, sent multiple diplomatic notes to Belarusian authorities demanding the deportation and arrest of Iranian‑opposed students, including Dr. Sepahr Farshadi, who has been held in solitary confinement for two weeks (Source: @mamlekate).",
+        "Trump publicly stated that the United States has completed roughly 75% of its planned military objectives against Iran and hinted at a forthcoming “clean‑up” operation, citing a one‑month cease‑fire that was imposed at the request of other nations (Source: @kianmeli1).",
+        "Russia’s Deputy Prime Minister Alexei Overchuk expressed support for Pakistan’s north‑south corridor linking to Iran, noting ongoing negotiations despite regional conflicts, signaling Moscow’s willingness to facilitate Iranian trade routes (Source: @sharghdaily).",
+        "U.S. officials claimed Iran’s naval and air forces have been severely degraded, asserting that Iran no longer possesses functional navy or air capabilities, a claim used to justify continued pressure (Source: @VahidOnline)."
       ]
     },
     "israel": {
       "points": [
-        "The IDF reported the destruction of a Hezbollah rocket launcher in the Lebanese town of Zebdine, which had been used to fire a barrage toward Kiryat Shmona; intercepted rockets caused no casualties (Source: @manniefabian/58247).",
-        "Israeli Defense Minister Yoav Gallant announced that an airstrike successfully targeted Hamas military commander Ez al‑Din Haddad, a senior leader of the Qassam Brigades, in Gaza (Source: @VahidOnline/75488).",
-        "Multiple hostile aircraft intrusions were logged on 15‑16 May 2026 near Misgav Am, Kiryat Shmona, Betzet Beach, and the northern Golan, prompting red‑alert status but no public warnings issued (Source: @tzevaadom_en/67170, @tzevaadom_en/67191, @tzevaadom_en/67221).",
-        "Israel’s Chief of Staff emphasized disciplined, mission‑ready forces during a surprise exercise, reflecting heightened readiness on the eastern front (Source: @idf_telegram/23670)."
+        "The Israeli Defense Forces announced the successful airstrike that killed Hamas military commander Azeddin Haddad in Gaza, describing it as a precision operation against the leader of the Qassam Brigades (Source: @kianmeli1).",
+        "Hezbollah launched several explosive drones and rockets toward Israeli territory near the Lebanon border, triggering sirens in Western Galilee communities but causing no casualties, according to the IDF (Source: @manniefabian).",
+        "IDF alerts reported hostile aircraft intrusions over the Menachem, Shomera, and Zarit‑Tzofar sectors on 15 May, prompting Red Alert status and rapid response protocols (Source: @tzevaadom_en).",
+        "The Israeli Chief of Staff issued directives during a surprise readiness exercise emphasizing disciplined, combat‑ready forces and highlighted lessons learned from the 7 October war (Source: @idf_telegram).",
+        "The Gaza civil defense reported fighting a fire inside a residential building bombed in Al‑Rimal, indicating ongoing collateral damage from Israeli strikes (Source: @PressTV).",
+        "The Israeli Ministry of Defense confirmed that early‑morning family events in the Sha’ar HaNegev regional council were cancelled due to a recent target‑elimination attempt in the Gaza Strip (Source: @N12chat)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "Civil defense crews in Gaza are battling a blaze inside a residential building in the Al‑Rimal neighborhood after an Israeli airstrike, with firefighters reporting ongoing containment efforts (Source: @presstv/190043).",
-        "A Gaza apartment attacked in the Rimal district remains ablaze, with local media showing extensive damage and smoke (Source: @yediotnews25/129323).",
-        "Israeli officials claim the successful neutralization of Hamas commander Ez al‑Din Haddad, suggesting a potential short‑term degradation of Hamas command capabilities (Source: @VahidOnline/75488).",
-        "No new large‑scale ground operations were reported, but Israeli statements continue to stress readiness for rapid escalation if needed (Source: @idf_telegram/23666)."
+        "Civil defense teams in Gaza’s Al‑Rimal neighborhood worked to extinguish a blaze in a residential building hit by Israeli bombing, highlighting the humanitarian toll of ongoing strikes (Source: @PressTV).",
+        "Israeli statements claim the killing of Hamas commander Azeddin Haddad occurred in Gaza, suggesting a possible disruption of Hamas’ operational leadership in the Strip (Source: @kianmeli1).",
+        "No new reports of large‑scale clashes in the West Bank were identified in the provided messages.",
+        "Israeli military alerts over the past 24 hours focused on aerial incursions and border skirmishes rather than internal West Bank operations."
       ]
     },
     "lebanon": {
       "points": [
-        "Hezbollah’s rocket launcher in Zebdine was destroyed by Israeli forces, halting a planned barrage toward Kiryat Shmona; the strike also damaged several buildings used by the group (Source: @manniefabian/58247).",
-        "Lebanese sources reported Israeli air activity over southern Lebanon, with the IDF confirming a “suspicious aerial target” was engaged without public alerts (Source: @idf_telegram/23661).",
-        "Lebanese Prime Minister spokesperson Spiro Lypkin announced a 45‑day extension of the U.S.‑brokered ceasefire, linking it to a forthcoming security corridor to be discussed at the Pentagon on 29 May (Source: @N12chat/207435).",
-        "Hezbollah commander Muhammad Baqir Saad al‑Saadi, an Iraqi national, was reportedly captured and transferred to the United States, indicating possible U.S. pressure on the group (Source: @SharghDaily/160127)."
+        "Hezbollah deployed explosive drones and rockets toward Israeli communities near the Lebanese border, with the IDF reporting intercepted drones and a failed surface‑to‑air missile attempt (Source: @manniefabian).",
+        "Israeli forces reported casualties among Lebanese civilians in a recent IDF operation in southern Lebanon, though exact numbers were not disclosed (Source: @N12chat).",
+        "Hezbollah’s continued use of unmanned aerial systems and mortars indicates an escalation of low‑intensity proxy warfare along the northern front.",
+        "No direct Israeli ground incursions into Lebanese territory were reported in the latest messages."
       ]
     },
     "syria_iraq": {
       "points": [
-        "Iraqi sources reported a drone attack on separatist group headquarters in Iraqi Kurdistan, suggesting heightened intra‑Iraqi militia activity (Source: @SharghDaily/160124).",
-        "U.S. officials confirmed the capture and extradition of Hezbollah operative Muhammad Baqir Saad al‑Saadi, an Iraqi citizen, to the United States (Source: @SharghDaily/160127).",
-        "No direct Syrian developments were noted in the collected messages, but regional actors continue to monitor cross‑border militia movements (implicit from Iraqi drone strike report).",
-        "Iranian officials discussed the “enriched material” issue with Americans, hinting at nuclear‑related negotiations that could affect Syrian proxy dynamics (Source: @yediotnews25/129312)."
+        "No explicit operational updates from Syria or Iraq appeared in the collected posts.",
+        "Russian comments on the Pakistan north‑south corridor referenced ongoing negotiations despite “conflicts in the region, including Iran,” implying awareness of broader instability affecting Syria and Iraq (Source: @sharghdaily).",
+        "U.S. FBI’s capture of Mohamed Al‑Saadi, a high‑value terror operative, may have implications for networks operating in Syria and Iraq, though specifics were not provided."
       ]
     },
     "gulf_states": {
       "points": [
-        "UAE plans a new oil pipeline bypassing the Strait of Hormuz, slated to become operational next year, potentially reducing Gulf reliance on the chokepoint (Source: @asafroz/49225).",
-        "German economic ministry warned that Middle‑East conflicts will negatively impact the German economy in Q2, reflecting broader Gulf‑Europe interdependence (Source: @SharghDaily/160122).",
-        "Trump’s statements about a possible fourth U.S. operation against Iran referenced a “one‑month ceasefire” that was allegedly at the behest of other nations, hinting at Gulf diplomatic involvement (Source: @kianmeli1/87416).",
-        "No direct Gulf‑state military actions were reported, but economic and diplomatic moves indicate heightened concern over Strait security."
+        "The United Arab Emirates’ foreign ministry responded to reports of Iranian actions, stating that all measures taken were to protect its sovereignty (Source: @N12chat).",
+        "Russia’s endorsement of Pakistan’s corridor project may affect Gulf‑state trade routes and strategic calculations in the Persian Gulf.",
+        "No direct military incidents involving Gulf states were reported in the current dataset."
       ]
     },
     "key_developments": [
-      "Iran’s embassy in Minsk formally demanded the deportation of opposition students from Belarus, labeling them security threats (Source: @mamlekate/103527).",
-      "A U.S.–draft UN resolution calling on Iran to cease attacks in the Strait of Hormuz is expected to be vetoed by Russia and China (Source: @VahidOnline/75492).",
-      "IDF destroyed a Hezbollah rocket launcher in Zebdine, preventing a barrage aimed at Kiryat Shmona (Source: @manniefabian/58247).",
-      "Israel announced an airstrike that killed Hamas military commander Ez al‑Din Haddad in Gaza (Source: @VahidOnline/75488).",
-      "Multiple hostile aircraft intrusions triggered red alerts along Israel’s northern border and Golan Heights on 15‑16 May 2026 (Source: @tzevaadom_en/67170, @tzevaadom_en/67191, @tzevaadom_en/67221).",
-      "UAE plans a new oil pipeline bypassing the Strait of Hormuz, set to start operations in 2027 (Source: @asafroz/49225).",
-      "U.S. CIA Director John Ratcliffe visited Cuba amid fuel shortages and civil unrest, signaling heightened U.S. focus on the Caribbean (Source: @asafroz/49224)."
+      "Israel’s airstrike eliminated Hamas military commander Azeddin Haddad in Gaza, potentially disrupting the Qassam Brigades’ command structure (Source: @kianmeli1).",
+      "Hezbollah launched multiple explosive drones and rockets toward Israeli border towns in the Western Galilee, prompting sirens but causing no fatalities (Source: @manniefabian).",
+      "The U.S. FBI captured high‑value terrorist Mohamed Al‑Saadi, labeling him a global terror threat (Source: @naya_foriraq).",
+      "Iranian diplomatic pressure in Minsk led Belarus to consider deporting Iranian‑opposed students and residents, including Dr. Sepahr Farshadi (Source: @mamlekate).",
+      "Trump announced a pending second U.S. military operation against Iran, claiming 75% of objectives already achieved (Source: @kianmeli1).",
+      "Russia welcomed Pakistan’s north‑south corridor initiative, indicating continued strategic cooperation despite regional conflicts (Source: @sharghdaily).",
+      "Civil defense in Gaza fought a fire in a residential building bombed in Al‑Rimal, underscoring ongoing civilian harm from Israeli strikes (Source: @PressTV)."
     ],
-    "threat_assessment": "Iran is leveraging diplomatic channels to suppress dissent abroad while simultaneously facing a coordinated international push to curb its maritime aggression in the Strait of Hormuz. Hezbollah’s continued rocket capabilities are being degraded by Israeli strikes, yet the group retains cross‑border launch sites. U.S. rhetoric about a fourth operation against Iran suggests a possible escalation, but the lack of concrete action keeps the threat at a high‑risk, low‑intensity level.",
-    "regional_response": "Gulf states, notably the UAE, are seeking infrastructure solutions to mitigate Strait vulnerabilities, while European economies brace for spillover effects. Russia and China’s likely veto of the UN resolution underscores their strategic shield for Iran. Israel’s heightened alert posture and proactive strikes indicate a readiness to counter Hezbollah and Hamas threats, supported by U.S. diplomatic engagement in the region.",
-    "intelligence_notes": "Monitoring should focus on any shift in Belarusian policy regarding Iranian dissidents, as forced deportations could lead to arrests in Iran. The fate of the U.S. draft resolution will influence Iran’s naval posture; a veto may embolden Tehran. Continued Israeli surveillance of Lebanese airspace and rapid response capabilities will be critical to countering Hezbollah’s adaptive tactics."
+    "threat_assessment": "Hezbollah’s drone and rocket attacks demonstrate a growing low‑intensity threat along Israel’s northern frontier, while the targeted killing of Hamas commander Azeddin Haddad may temporarily degrade Hamas operational capacity in Gaza. U.S. counter‑terrorism actions, exemplified by the capture of Mohamed Al‑Saadi, indicate sustained pressure on transnational jihadist networks. Iranian diplomatic coercion in Belarus reflects Tehran’s broader strategy to suppress dissent abroad, potentially fueling anti‑Iran sentiment in Europe.",
+    "regional_response": "Israel is intensifying its readiness posture, as shown by repeated alerts and surprise exercises, to counter both Hamas and Hezbollah threats. Gulf states, notably the UAE, are publicly asserting sovereignty in response to Iranian actions, while Russia’s support for Pakistan’s corridor suggests a willingness to deepen ties that could circumvent Western sanctions on Iran. The United States continues to leverage both diplomatic pressure and kinetic operations to contain Iranian influence and terrorist networks.",
+    "intelligence_notes": "Monitoring of Hezbollah UAV deployments should focus on launch sites in southern Lebanon and potential supply lines from Iran. Further verification of Hamas command disruptions is needed to assess impact on Gaza‑based operations. The FBI’s arrest of Al‑Saadi may yield actionable intelligence on terror cells operating in Syria and Iraq. Iranian diplomatic activities in Eastern Europe warrant close watch for spillover effects on diaspora communities and potential retaliatory actions."
   }
 }

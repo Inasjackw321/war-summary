@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-16T04:34:22.401272+00:00",
-  "message_count": 224,
+  "updated_at": "2026-05-16T04:51:59.233584+00:00",
+  "message_count": 223,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -16,8 +16,7 @@
     0,
     11,
     0,
-    33,
-    22,
+    54,
     0,
     0,
     22,
@@ -27,45 +26,46 @@
     0,
     0,
     0,
-    11,
-    11,
+    0,
+    22,
     0,
     0,
     0,
     0,
     22,
+    0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    4,
-    9,
-    6,
-    16,
-    26,
-    13,
+    7,
     8,
+    6,
+    29,
+    18,
+    9,
+    9,
+    8,
+    13,
+    10,
+    15,
+    3,
+    11,
     9,
     15,
-    9,
-    14,
-    5,
-    9,
-    9,
-    13,
-    8,
-    8,
-    12,
-    5,
-    6,
-    12,
     3,
-    1,
-    3
+    10,
+    12,
+    5,
+    9,
+    7,
+    3,
+    3,
+    1
   ],
   "messages_by_channel": {
-    "@eRadarrua": 68,
+    "@eRadarrua": 67,
     "@kpszsu": 61,
     "@mon1tor_ua": 29,
     "@Faytuks_Network": 8,
@@ -205,98 +205,98 @@
     }
   ],
   "post_images": {},
-  "summary": "Ukrainian forces report multiple incursions of Russian Shahed drones and strike‑UAVs across central and eastern oblasts, while Russia prepares a new wave of missile‑drone strikes targeting decision‑making centers. A significant prisoner‑exchange returned 205 Ukrainian servicemen, and Russia is reportedly mobilising MiG‑31K fighters equipped with Kinzhal hypersonic missiles. International diplomatic activity continues with EU‑backed war‑crimes tribunal preparations and increased Western financial support.",
+  "summary": "Ukraine reports a surge in Russian Shahed drone activity across multiple fronts, while both sides continue prisoner exchanges and civilian incidents. Russian threats of Iskander-M ballistic launches and MiG‑31K sorties heighten air‑defence alerts. Kyiv’s mobilization drive expands TCC staffing and prompts new security measures amid rising internal tensions.",
   "key_points": [
-    "Shahed and strike‑UAV activity intensifies across Cherkasy, Odesa, Sumy and Donetsk regions.",
-    "MiG‑31K fighters with Kinzhal missiles launched from Savasianka airfield.",
-    "Russia plans new missile‑drone attacks on Ukrainian decision‑making hubs.",
-    "205 Ukrainian POWs returned in the latest exchange; 41 Russian dead transferred.",
-    "EU and 36 nations approve a special tribunal to prosecute Russian aggression.",
-    "IMF mission to review Ukraine's $8.1 bn loan program scheduled for June.",
-    "Civil unrest in Odesa over mobilisation‑related TCC vehicle blockade."
+    "Russian Shahed‑type UAV swarms detected moving westward from Sumy toward Lebedyn‑Trostyanets‑Hadiach corridor.",
+    "Ukraine exchanged 41 Russian fighter bodies for 526 Ukrainian soldiers; earlier POW swap returned 205 soldiers each side.",
+    "Lithuanian president vows to shoot down any unauthorized drone; Finland suspended Helsinki airport traffic after UAV incursion.",
+    "High‑alert warnings issued for possible Iskander‑M ballistic missile launches from Bryansk region.",
+    "MiG‑31K equipped with X‑47M2 Kinzhal aeroballistic missiles reported over Russian airspace, prompting nationwide alert.",
+    "TCC employee numbers in Kyiv rose 40% following Zelensky’s mobilization call; salary hikes for troops remain unfunded.",
+    "Multiple civilian attacks: fatal shooting of police in Khmelnytskyi and Hmelnytskyi, and a deadly traffic collision in Dnipro."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian radar networks have logged a surge of Russian Shahed drones and strike‑UAV groups moving southwest across Cherkasy, Odesa and Donetsk, threatening civilian and military infrastructure. Concurrently, Russia has deployed MiG‑31K interceptors armed with Kinzhal hypersonic missiles from Savasianka, signalling a potential escalation in air‑strike capability. Diplomatic and humanitarian developments include a prisoner exchange of 205 Ukrainian soldiers and the EU‑backed establishment of a special war‑crimes tribunal.",
+    "executive_summary": "A coordinated wave of Russian Shahed UAVs is striking Ukrainian positions across the eastern, northern and southern fronts, stretching air‑defence resources. Simultaneously, Russia threatens Iskander‑M ballistic launches from Bryansk and MiG‑31K sorties, prompting nationwide alerts. Ukraine’s internal mobilization accelerates, with TCC staffing up 40% in Kyiv, while prisoner exchanges continue amid rising civilian casualties.",
     "ukraine": {
       "points": [
-        "Shahed drones were observed near Dnipro railway facilities, with four units passing north of Zolotonosha in Cherkasy, heading south‑west (Source: @mon1tor_ua/66762).",
-        "A Shahed group entered Odesa region, targeting the town of Izmail; residents were urged to seek shelters (Source: @kpszsu/61995).",
-        "Ukrainian forces reported a Shahed strike near the village of Zguriivka in Kyiv oblast, moving toward Brovary (Source: @kpszsu/62002).",
-        "In Sumy oblast, multiple UAV groups were detected moving westward from Sumy city toward Poltava, indicating a coordinated strike pattern (Source: @kpszsu/61981).",
-        "A Shahed drone approached Kyiv from the north, heading toward the Vinogradar district and Minsk area, prompting heightened alerts (Source: @mon1tor_ua/66749).",
-        "Ukrainian air defenses engaged a Shahed over Dnipro railway station, with acoustic detection confirming the hit (Source: @mon1tor_ua/66734).",
-        "Ukrainian authorities confirmed the return of 205 POWs, including personnel from all major service branches, after the first phase of the 1000‑on‑1000 exchange (Source: @DeepStateUA/23506)."
+        "TCC staffing in Kyiv increased by 40% after Zelensky’s mobilization order, according to Deputy Head Kravchenko, indicating a rapid expansion of conscription infrastructure (Source: @ukr_leaks_eng/30197).",
+        "Salary increases for Ukrainian military personnel were omitted from the latest budget amendments, suggesting funding constraints for troop welfare (Source: @ukr_leaks_eng/30195).",
+        "A man opened fire on police during an identity check in Khmelnytskyi region, killing one officer and wounding another, prompting an interception operation (Source: @ukr_leaks_eng/30199).",
+        "In Dnipro, a ZAZ driver lost control, collided with a Jaguar on the opposite lane, killing a woman and injuring multiple drivers; the incident damaged a public transport stop (Source: @UkraineNow/81245).",
+        "Ukrainian forces liberated Odradne in Kharkiv region, reporting significant Russian losses and re‑establishing full control of the settlement (Source: @DeepStateUA/23505).",
+        "Ukrainian authorities cancelled border crossing restrictions for all women, regardless of official position, expanding civilian movement (Source: @UkraineNow/81240).",
+        "Zelensky warned that Russia is targeting Ukrainian decision‑making centres, citing intelligence on planned strikes against dozens of political and military sites (Source: @ukr_leaks_eng/30198)."
       ]
     },
     "russia": {
       "points": [
-        "Russia launched MiG‑31K fighters from Savasianka airfield, each capable of carrying the hypersonic Kinzhal (H‑47M2) missile, a system noted for low interception rates (Source: @mon1tor_ua/66757).",
-        "Russian forces announced a new missile‑drone campaign aimed at Ukrainian \"centers of decision‑making,\" targeting roughly two dozen political and military sites (Source: @UkraineNow/81239).",
-        "A Russian Shahed group entered Donetsk oblast near Sloviansk, heading toward Pavlohrad, indicating a push into the eastern front (Source: @kpszsu/62080).",
-        "Russian air‑defence reported a nationwide alert after the launch of a MiG‑31K equipped with Kinzhal missiles (Source: @eRadarrua/91942).",
-        "Russian forces claimed the destruction of a Ukrainian Be‑200 amphibious aircraft and a Ka‑27 helicopter in the Sea of Azov region (Source: @UkraineNow/81214).",
-        "Russian intelligence warned of possible ballistic missile use on the northern front (Source: @kpszsu/61956).",
-        "Russia exchanged 41 of its fallen fighters for 526 Ukrainian bodies, reflecting ongoing POW negotiations (Source: @ukr_leaks_eng/30187)."
+        "Russia announced a high threat of Iskander‑M ballistic missile launches from Bryansk oblast, urging heightened civil defence readiness (Source: @mon1tor_ua/66745).",
+        "A nationwide alert was issued after a Russian MiG‑31K equipped with the X‑47M2 Kinzhal aeroballistic missile took off, raising concerns of long‑range strikes (Source: @eRadarrua/91942).",
+        "Russian forces exchanged 41 fallen fighters for 526 Ukrainian bodies, indicating a large‑scale repatriation effort (Source: @ukr_leaks_eng/30187).",
+        "Lithuanian President Nausėda demanded immediate shoot‑down of any unauthorized drones, reflecting regional escalation over UAV incursions (Source: @ukr_leaks_eng/30180).",
+        "Finland temporarily halted Helsinki airport traffic for three hours after unmanned aerial vehicles entered its airspace, with Hornet fighters scrambled (Source: @Faytuks_Network/2732).",
+        "Russian officials claim US‑backed proposals were conveyed to Putin for a war‑ending deal, a narrative echoed by Lavrov (Source: @ukr_leaks_eng/30192).",
+        "Russia reportedly prepared to strike “decision‑making centres” across Ukraine, targeting roughly two dozen political and military installations (Source: @ukr_leaks_eng/30198)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Shahed groups were sighted over Donetsk region near Sloviansk, moving southeast toward Pavlohrad, suggesting pressure on the eastern supply lines (Source: @kpszsu/62080).",
-        "Ukrainian radar logged a Shahed swarm near the town of Zolotonosha in Cherkasy, heading toward the Dnipro River, potentially to disrupt logistics (Source: @mon1tor_ua/66762).",
-        "A Shahed drone was reported over the Kharkiv‑Luhansk border area, indicating continued cross‑border UAV activity (Source: @kpszsu/61989).",
-        "Russian forces claimed a successful strike on a Ukrainian train near Zaporizhzhia, causing civilian injuries (Source: @UkraineNow/81213).",
-        "Ukrainian units reported a Shahed attack near the village of Zguriivka, Kyiv oblast, threatening the Brovary corridor (Source: @kpszsu/62002).",
-        "Russian artillery fire hit the Ryazan oil refinery, a strategic target in the western sector of the eastern front (Source: @UkraineNow/81247).",
-        "Ukrainian forces observed a new UAV group entering Sumy oblast from the west, moving toward Poltava, potentially to support eastern operations (Source: @kpszsu/61981)."
+        "Shahed UAV groups from Sumy moved westward through Lebedyn‑Trostyanets‑Hadiach corridor, threatening supply lines in the east (Source: @kpszsu/61979).",
+        "Multiple Shahed clusters reported in Poltava, Sumy, and Kharkiv regions, with 3‑5 UAVs per group engaging Ukrainian air‑defences (Source: @eRadarrua/91978, @eRadarrua/91973).",
+        "Ukrainian forces reported a new Shahed swarm from Nova Kakhovka heading north, indicating possible redeployment from the south (Source: @kpszsu/61987).",
+        "A Shahed‑type UAV was observed over Barvinkove in Kharkiv, launched from Donetsk, highlighting cross‑front UAV logistics (Source: @eRadarrua/91986).",
+        "Ukrainian troops engaged a Shahed over Boryspil, confirming continued eastern UAV pressure near the capital’s outskirts (Source: @mon1tor_ua/66732).",
+        "Russian air‑defence reported a MiG‑31K sortie over the eastern sector, raising the risk of high‑speed missile strikes (Source: @eRadarrua/91942).",
+        "Ukrainian artillery claimed destruction of a Russian UAV cluster near the Donetsk‑Luhansk border, reducing immediate threat to frontline positions (Source: @DeepStateUA/23505)."
       ]
     },
     "northern_front": {
       "points": [
-        "A Shahed drone was detected over Chernihiv oblast near Varva, heading toward Poltava, indicating north‑south UAV penetration (Source: @kpszsu/61997).",
-        "Russian ballistic missile threat warnings were issued for the northern sector, though no launch was confirmed (Source: @kpszsu/61956).",
-        "MiG‑31K fighters equipped with Kinzhal missiles were launched from Savasianka, a northern‑located airfield, raising the threat to Kyiv and surrounding areas (Source: @mon1tor_ua/66757).",
-        "Ukrainian radar reported a Shahed over the Kyiv region heading toward the Vinogradar district, prompting city‑wide alerts (Source: @mon1tor_ua/66749).",
-        "A Shahed was observed near the village of Zguriivka, moving toward Brovary, suggesting a possible strike corridor toward the capital (Source: @kpszsu/62002).",
-        "Ukrainian forces reported acoustic detection of a Shahed over Dnipro railway, a key northern logistics hub (Source: @mon1tor_ua/66734).",
-        "Russian air‑defence announced a nationwide alert after Kinzhal‑capable MiG‑31K launch, affecting northern air‑space monitoring (Source: @eRadarrua/91942)."
+        "Ukrainian radar detected a group of Shahed UAVs entering Chernihiv region, heading southwest toward Pryluky (Source: @kpszsu/62009).",
+        "A new Shahed swarm was reported over Kyiv’s Obolon and Podil districts, prompting emergency air‑defence alerts (Source: @mon1tor_ua/66748).",
+        "Ukrainian forces observed a Shahed crossing the Lipki‑Klov‑Center corridor, indicating a northern approach toward the capital (Source: @mon1tor_ua/66736).",
+        "A Shahed‑type UAV was sighted near Vynohradar, Minsk district, prompting civilian shelter orders (Source: @mon1tor_ua/66750).",
+        "Russian threat of Iskander‑M launches from Bryansk heightened northern air‑defence posturing (Source: @mon1tor_ua/66745).",
+        "Ukrainian troops reported a Shahed over Velyka Dymerka, forcing temporary withdrawal of forward positions (Source: @mon1tor_ua/66753).",
+        "Finnish Hornet fighters scrambled to monitor UAV activity between Helsinki and Porvoo, reflecting broader northern NATO vigilance (Source: @Faytuks_Network/2732)."
       ]
     },
     "southern_front": {
       "points": [
-        "Shahed groups entered Odesa region targeting Izmail, prompting civilian shelter orders (Source: @kpszsu/61995).",
-        "Ukrainian forces reported a Shahed near the town of Zolotonosha moving southwest, potentially threatening the southern Dnipro corridor (Source: @mon1tor_ua/66762).",
-        "Russian forces claimed destruction of a Be‑200 amphibious aircraft and a Ka‑27 helicopter in the Sea of Azov, indicating intensified naval‑air activity (Source: @UkraineNow/81214).",
-        "A Shahed strike hit near the village of Zguriivka in Kyiv oblast, with the flight path directed toward Brovary, a gateway to southern supply routes (Source: @kpszsu/62002).",
-        "Ukrainian radar logged a Shahed over the Kherson‑Mykolaiv border area, suggesting pressure on the southern front (Source: @kpszsu/61994).",
-        "Russian missile components identified in Kyiv attacks were traced to Western manufacturers, highlighting supply‑chain vulnerabilities (Source: @UkraineNow/81246).",
-        "Ukrainian forces reported a Shahed over the Dnipro railway station, a critical southern logistics hub (Source: @mon1tor_ua/66734)."
+        "Shahed groups from Odesa region moved southwest past Svitohirsk, threatening coastal logistics (Source: @kpszsu/61994).",
+        "Ukrainian forces reported a Shahed swarm near Izmail, prompting civilian shelter alerts (Source: @kpszsu/61995).",
+        "A cluster of 20‑30 UAVs launched from the Black Sea’s aquatorium headed toward Odesa oblast, indicating a large‑scale southern aerial offensive (Source: @mon1tor_ua/66760).",
+        "Russian UAVs were observed over Kherson, moving northward toward Nikopol, suggesting a shift in southern pressure points (Source: @eRadarrua/91988).",
+        "Ukrainian air‑defence engaged a Shahed over the Zaporizhzhia rail line, causing minor injuries to two passengers (Source: @UkraineNow/81213).",
+        "Russian forces claimed a successful strike on a Ukrainian command post in the south, though unverified (Source: @ukr_leaks_eng/30202).",
+        "Ukrainian special forces reported destroying a Russian UAV launch site near the Dnipro River delta (Source: @DeepStateUA/23505)."
       ]
     },
     "air_war": {
       "points": [
-        "MiG‑31K fighters equipped with Kinzhal hypersonic missiles launched from Savasianka, a platform capable of striking deep into Ukrainian territory (Source: @mon1tor_ua/66757).",
-        "Ukrainian radar detected multiple Shahed drone swarms across central and southern Ukraine, with at least four groups moving toward Kyiv, Odesa and Donetsk (Source: @mon1tor_ua/66762, @kpszsu/61995).",
-        "Russian air‑defence announced a nationwide alert after the Kinzhal‑capable MiG‑31K launch, indicating heightened air‑space tension (Source: @eRadarrua/91942).",
-        "Ukrainian forces reported acoustic detection of a Shahed over Dnipro railway, confirming active UAV engagement (Source: @mon1tor_ua/66734).",
-        "Russian forces claimed the downing of a Ukrainian Be‑200 amphibious aircraft and a Ka‑27 helicopter in the Sea of Azov (Source: @UkraineNow/81214).",
-        "Ukraine reported a Shahed approaching Kyiv from the north toward Vinogradar district, prompting city‑wide alerts (Source: @mon1tor_ua/66749).",
-        "Russian missile components recovered from Kyiv attacks were traced to Western manufacturers, suggesting continued external supply to Russian missile programs (Source: @UkraineNow/81246)."
+        "Finland suspended Helsinki airport traffic for three hours after UAV incursions; Hornet fighters were scrambled (Source: @Faytuks_Network/2732).",
+        "Lithuania announced a shoot‑down policy for any unauthorized drones, reflecting heightened Baltic air‑defence posture (Source: @ukr_leaks_eng/30180).",
+        "Russia’s MiG‑31K equipped with Kinzhal aeroballistic missiles took off, prompting a nationwide alert across Ukraine (Source: @eRadarrua/91942).",
+        "Ukrainian air‑defence units reported multiple Shahed interceptions over Kyiv, Poltava, and Kharkiv, with engagements ranging from 3‑7 UAVs per sortie (Source: @eRadarrua/91978, @kpszsu/61979).",
+        "SBS forces claimed destruction of a Russian Be‑200 amphibious aircraft and a Ka‑27 helicopter in the Black Sea, alongside multiple ground‑based air‑defence hits (Source: @UkraineNow/81214).",
+        "Ukrainian radar logged a new wave of Shahed‑136 launches from Primorsko‑Ahtarska and Kursk regions, though numbers remain low (Source: @eRadarrua/91939).",
+        "Ukrainian forces reported a successful shoot‑down of a Shahed over Boryspil, preventing potential damage to critical infrastructure (Source: @mon1tor_ua/66732)."
       ]
     },
     "key_developments": [
-      "MiG‑31K fighters armed with Kinzhal hypersonic missiles launched from Savasianka airfield, expanding Russia's long‑range strike capability (Source: @mon1tor_ua/66757).",
-      "Russian Shahed drone groups penetrated central Ukraine, with four units passing north of Zolotonosha heading southwest, threatening logistics corridors (Source: @mon1tor_ua/66762).",
-      "A new Russian missile‑drone campaign targets Ukrainian decision‑making centers, focusing on roughly two dozen political and military sites (Source: @UkraineNow/81239).",
-      "205 Ukrainian POWs returned in the latest exchange, while Russia repatriated 41 of its dead, reflecting ongoing negotiation dynamics (Source: @DeepStateUA/23506).",
-      "EU and 36 nations approved a special tribunal to prosecute Russian aggression, marking a significant legal escalation (Source: @UkraineNow/81247).",
-      "Russia announced a nationwide alert after launching Kinzhal‑capable MiG‑31K, indicating heightened air‑defence readiness across Ukraine (Source: @eRadarrua/91942).",
-      "Shahed drones were observed over Odesa region near Izmail, prompting civilian shelter orders and highlighting southern front pressure (Source: @kpszsu/61995)."
+      "Russian Shahed UAV groups from Sumy are advancing westward toward Lebedyn‑Trostyanets‑Hadiach, threatening supply routes and stretching Ukrainian air‑defences (Source: @kpszsu/61979).",
+      "Lithuania’s president declared all unauthorized drones will be shot down, raising the risk of rapid engagement for any UAV over Baltic airspace (Source: @ukr_leaks_eng/30180).",
+      "High‑alert warning issued for potential Iskander‑M ballistic missile launches from Bryansk oblast, prompting civil‑defence shelters in western Ukraine (Source: @mon1tor_ua/66745).",
+      "MiG‑31K equipped with Kinzhal aeroballistic missiles took off, triggering a nationwide alert and indicating possible long‑range strike capability (Source: @eRadarrua/91942).",
+      "Ukraine’s TCC workforce in Kyiv grew 40% after Zelensky’s mobilization call, reflecting accelerated conscription and administrative expansion (Source: @ukr_leaks_eng/30197).",
+      "Prisoner exchange: Russia will receive 41 fallen fighters while returning 526 Ukrainian bodies, highlighting ongoing humanitarian negotiations (Source: @ukr_leaks_eng/30187).",
+      "SBS reported destroying a Russian Be‑200 amphibious aircraft, a Ka‑27 helicopter, and multiple ground‑based air‑defence systems across the Black Sea and southern fronts (Source: @UkraineNow/81214)."
     ],
-    "threat_assessment": "Russian UAV and missile activity is intensifying across multiple fronts, with Shahed swarms threatening both civilian infrastructure and supply lines in central, southern, and northern Ukraine. The deployment of MiG‑31K fighters carrying Kinzhal hypersonic missiles represents a significant escalation in strike depth, potentially overwhelming existing air‑defence systems. Continued Russian focus on Ukrainian decision‑making hubs suggests a strategic attempt to disrupt command and control, while diplomatic efforts such as the EU‑backed tribunal may increase political pressure on Moscow.",
-    "regional_response": "Ukraine is reinforcing air‑defence alerts in Kyiv, Odesa and Donetsk, reallocating mobile radar units to track low‑altitude Shahed incursions. Western partners are reviewing the $8.1 bn IMF loan framework and supplying advanced air‑defence components, as evidenced by the identification of Western microchips in captured missiles. Regional authorities are coordinating civilian evacuations and shelter protocols amid the heightened drone threat.",
-    "intelligence_notes": "Open‑source monitoring indicates a pattern of coordinated UAV groups moving from Russian‑held territories into Ukrainian rear areas, likely to test air‑defence gaps before larger missile strikes. The Kinzhal‑capable MiG‑31K launch suggests Russia may be preparing a limited series of high‑value strikes, possibly targeting command nodes identified in the recent Russian threat brief. Continued diplomatic activity, including the prisoner exchange and tribunal formation, may be leveraged by both sides to gain operational concessions."
+    "threat_assessment": "Russian UAV activity, especially Shahed swarms, is intensifying across all fronts, stretching Ukraine’s layered air‑defence network and threatening logistics corridors. The announced Iskander‑M and Kinzhal capabilities raise the spectre of high‑precision, long‑range strikes on command centres and critical infrastructure. Ukraine’s internal mobilization surge and the expansion of TCC staffing suggest a broadening of the manpower base, yet funding gaps for troop salaries could affect morale and retention.",
+    "regional_response": "Baltic states are hardening air‑space rules, with Lithuania adopting a shoot‑down policy and Finland conducting temporary airport closures. NATO allies are likely to increase radar and interceptor deployments in the region. Within Ukraine, civil‑defence alerts have been issued nationwide, and local authorities are reinforcing shelters, especially in the north and west, to counter potential ballistic missile threats.",
+    "intelligence_notes": "Monitoring of UAV launch sites in Russian‑occupied territories should focus on Sumy, Donetsk, and Kherson regions, where new clusters have been reported. Satellite and SIGINT assets must prioritize Bryansk oblast for Iskander‑M activity and track MiG‑31K flight paths. Continued HUMINT collection on TCC expansion could reveal mobilization bottlenecks and potential corruption risks."
   },
   "missiles": 6,
   "drones": 141
