@@ -629,6 +629,7 @@ def run() -> None:
         if key == "ukraine":
             output["missiles"] = missiles
             output["drones"] = drones
+            output["kpszsu_timeline"] = bucket_into_24h_slots(per_channel_timestamps.get("kpszsu", []))
 
         path = output_dir / f"{key}.json"
         path.write_text(json.dumps(output, indent=2, ensure_ascii=False))

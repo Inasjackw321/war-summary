@@ -454,7 +454,7 @@ function populatePanel(prefix, data) {
 
   if (prefix === "ukraine") {
     renderTodayAttackChart(`ua-chart-alerts`, data.missiles, data.drones);
-    renderAlertChart(`ua-chart-history`, data.red_alerts_timeline);
+    renderAlertChart(`ua-chart-history`, data.kpszsu_timeline || []);
   } else {
     const alertTimeline = (data.red_alerts_timeline || []).map(v => Math.round((v || 0) / 2));
     renderAlertChart(`${sp}-chart-alerts`, alertTimeline);
