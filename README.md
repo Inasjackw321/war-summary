@@ -1,2 +1,2 @@
 # war-summary
-Summaries all current global conflicts in an interactive format
+Collects public information, creates detailed and interactive summaries for the ongoing wars in the Middle-East and Ukraine
