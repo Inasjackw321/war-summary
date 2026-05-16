@@ -280,6 +280,25 @@ function openLocalMediaLightbox(src, postUrl) {
   document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
 }
 
+function imgButtonHtml(path, ch, postUrl) {
+  const icon = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>`;
+  return path
+    ? `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">${icon} @${ch}</button>`
+    : `<a class="src-img-btn src-img-btn--tg" href="${postUrl}" target="_blank" rel="noopener">${icon} @${ch} ↗</a>`;
+}
+
+// Returns filtered imgs (deduped within section, capped), mutates seenKeys + counter
+function filterImgs(candidates, seenKeys, counter, MAX) {
+  const out = [];
+  for (const img of candidates) {
+    if (counter.n >= MAX || seenKeys.has(img.key)) continue;
+    seenKeys.add(img.key);
+    counter.n++;
+    out.push(img);
+  }
+  return out;
+}
+
 // ── Section block builder ─────────────────────────────────────────────────────
 function buildSectionBlock(def, sectionsData, index) {
   const raw    = sectionsData ? sectionsData[def.key] : null;
@@ -330,20 +349,13 @@ function buildSectionBlock(def, sectionsData, index) {
 
   } else if (def.type === "points") {
     const points = (typeof raw === "object" && raw && raw.points) ? raw.points : [];
+    const seenImgKeys = new Set(); const imgCounter = { n: 0 };
     body.innerHTML = `<div class="section-points">${
       points.map((pt, i) => {
-        const imgs = extractImageKeys(pt);
-        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch, postUrl}) =>
-          path
-            ? `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-                @${ch}
-               </button>`
-            : `<a class="src-img-btn src-img-btn--tg" href="${postUrl}" target="_blank" rel="noopener">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-                @${ch} ↗
-               </a>`
-        ).join("")}</div>` : "";
+        const imgs = filterImgs(extractImageKeys(pt), seenImgKeys, imgCounter, 3);
+        const imgHtml = imgs.length
+          ? `<div class="section-point-imgs">${imgs.map(({path,ch,postUrl}) => imgButtonHtml(path,ch,postUrl)).join("")}</div>`
+          : "";
         return `<div class="section-point" style="animation-delay:${i*40}ms;--point-accent:${color}">
           <div class="section-point-inner">${renderSourceTags(leadBold(pt))}</div>
           ${imgHtml}
@@ -353,20 +365,13 @@ function buildSectionBlock(def, sectionsData, index) {
 
   } else if (isKD) {
     const items = Array.isArray(raw) ? raw : [];
+    const seenImgKeys = new Set(); const imgCounter = { n: 0 };
     body.innerHTML = `<div class="key-dev-list">${
       items.map((item, i) => {
-        const imgs = extractImageKeys(item);
-        const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch, postUrl}) =>
-          path
-            ? `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-                @${ch}
-               </button>`
-            : `<a class="src-img-btn src-img-btn--tg" href="${postUrl}" target="_blank" rel="noopener">
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-                @${ch} ↗
-               </a>`
-        ).join("")}</div>` : "";
+        const imgs = filterImgs(extractImageKeys(item), seenImgKeys, imgCounter, 3);
+        const imgHtml = imgs.length
+          ? `<div class="section-point-imgs">${imgs.map(({path,ch,postUrl}) => imgButtonHtml(path,ch,postUrl)).join("")}</div>`
+          : "";
         return `<div class="key-dev-item" style="animation-delay:${i*50}ms">
           <span class="key-dev-num">${i+1}</span>
           <span class="key-dev-text">${renderSourceTags(item)}</span>
