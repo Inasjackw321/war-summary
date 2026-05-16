@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-16T03:30:34.245730+00:00",
-  "message_count": 231,
+  "updated_at": "2026-05-16T03:45:52.059688+00:00",
+  "message_count": 229,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,78 +11,84 @@
     "DeepStateUA",
     "ukr_leaks_eng"
   ],
-  "red_alerts": 0,
+  "red_alerts": 147,
   "red_alerts_timeline": [
-    1,
+    10,
     0,
-    1,
+    10,
     0,
-    3,
-    2,
+    30,
+    20,
     0,
-    0,
-    2,
-    1,
-    0,
+    10,
+    20,
     0,
     0,
     0,
     0,
-    1,
-    1,
+    0,
+    0,
+    20,
     0,
     0,
     0,
     0,
-    2,
+    10,
+    10,
     0,
     0
   ],
   "combined_activity_timeline": [
-    9,
-    5,
-    9,
-    5,
-    17,
-    24,
-    14,
     7,
-    11,
-    14,
+    6,
     9,
+    6,
+    20,
+    26,
+    7,
+    10,
+    9,
+    13,
+    11,
+    15,
+    3,
+    10,
+    8,
     14,
     6,
-    8,
-    9,
-    14,
+    10,
+    12,
+    5,
     7,
     9,
-    12,
     3,
-    8,
-    11,
-    4,
-    1
+    3
   ],
   "messages_by_channel": {
-    "@eRadarrua": 75,
-    "@kpszsu": 62,
+    "@eRadarrua": 71,
+    "@kpszsu": 63,
     "@mon1tor_ua": 29,
-    "@Faytuks_Network": 7,
+    "@Faytuks_Network": 8,
     "@UkraineNow": 30,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 26
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/91996",
-    "kpszsu": "https://t.me/kpszsu/62010",
+    "kpszsu": "https://t.me/kpszsu/62012",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66762",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/2738",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/2739",
     "UkraineNow": "https://t.me/UkraineNow/81247",
     "DeepStateUA": "https://t.me/DeepStateUA/23506",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30203"
   },
   "media": [
+    {
+      "post_url": "https://t.me/Faytuks_Network/2739",
+      "post_id": 2739,
+      "channel": "Faytuks_Network",
+      "ts": "2026-05-16T03:36:06+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/91984",
       "post_id": 91984,
@@ -199,81 +205,87 @@
     }
   ],
   "post_images": {},
-  "summary": "Ukrainian forces report multiple UAV incursions across several fronts, with notable strikes near Kharkiv airport and in the Odesa region, while Russian air assets suffered losses including a Be-200 amphibious aircraft. Civil unrest tied to the Territorial Defense Command (TCC) continues in Odesa and Kyiv, and a high‑profile Israeli strike eliminated Hamas commander Izz al‑Din al‑Haddad. The overall situation remains volatile with active engagements on multiple fronts.",
+  "summary": "Ukraine and Russia exchanged large numbers of bodies, highlighting ongoing humanitarian negotiations, while Russian long‑range missile strikes with Western components continue to hit Kyiv. Ukrainian forces reported a notable liberation of Odradne in Kharkiv region and multiple UAV swarm movements across the front lines. The threat of Iskander‑M ballistic missiles from Bryansk and intensified UAV activity over southern and eastern axes keep the air war highly volatile.",
   "key_points": [
-    "Ukrainian UAV groups operating from the Black Sea are targeting Odesa and Mykolaiv regions.",
-    "A strike by a Russian UAV hit a passenger train in Zaporizhzhia, wounding two civilians.",
-    "Israeli forces killed Hamas military chief Izz al‑Din al‑Haddad in Gaza.",
-    "Russian Be‑200 amphibious aircraft and a Ka‑27 helicopter were destroyed by SBS forces.",
-    "Civil clashes erupted in Odesa over TCC vehicle movements, involving ~30 civilians.",
-    "Ukrainian forces reclaimed Odradne in Kharkiv Oblast, eliminating Russian presence.",
-    "Ukrainian TCC staffing in Kyiv rose 40% following Zelensky’s mobilization call."
+    "Large prisoner‑of‑war body exchange (41 Russian, 526 Ukrainian) (Source: @ukr_leaks_eng/30187)",
+    "Ukraine liberated Odradne, Kharkiv region, inflicting heavy Russian losses (Source: @DeepStateUA/23505)",
+    "Russian X‑101 cruise missiles used in Kyiv attack contained US, German, Dutch components (Source: @UkraineNow/81246)",
+    "UAV swarms from the Black Sea moving toward Odesa‑Mykolaiv axis (Source: @kpszsu/61988)",
+    "Ukrainian train hit by UAV near Zaporizhzhia, two civilian injuries (Source: @UkraineNow/81213)",
+    "Iskander‑M ballistic missile launch threat from Bryansk region (Source: @mon1tor_ua/66745)",
+    "Russian attack on Ryazan oil refinery causing civilian casualties (Source: @ukr_leaks_eng/30185)"
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian UAV activity intensified, with strike groups from the Black Sea and Donetsk region targeting Odesa, Kharkiv airport, and southern front positions, while Russian air assets suffered notable losses including a Be‑200 amphibious aircraft. Civil unrest linked to the Territorial Defense Command flared in Odesa and Kyiv, complicating internal security. An Israeli precision strike eliminated Hamas commander Izz al‑Din al‑Haddad, underscoring broader regional escalation.",
+    "executive_summary": "The most operationally significant development is the large‑scale exchange of bodies—41 Russian fighters for 526 Ukrainian soldiers—indicating a rare diplomatic opening amid intense fighting. Ukrainian forces achieved a tactical victory by recapturing Odradne in Kharkiv region, while Russia continues to employ advanced X‑101 cruise missiles with Western components against Kyiv. Simultaneously, a surge in UAV swarm activity across multiple fronts and the looming Iskander‑M threat from Bryansk heighten the risk of rapid escalation.",
     "ukraine": {
       "points": [
-        "Ukrainian UAVs launched from the Black Sea attacked Odesa and Mykolaiv regions, with 20‑30 Shahed drones reported over the Black Sea heading toward Odesa (Source: @mon1tor_ua/66760).",
-        "A Ukrainian strike group of UAVs operated near Kharkiv airport, indicating a focus on disrupting airfield operations (Source: @kpszsu/61974).",
-        "Ukrainian forces recaptured the village of Odradne in Kharkiv Oblast, eliminating Russian elements and restoring full control (Source: @DeepStateUA/23505).",
-        "Ukrainian Territorial Defense Command (TCC) personnel in Kyiv increased by 40% after Zelensky's mobilization directive, reflecting a surge in internal security forces (Source: @ukr_leaks_eng/30197)."
+        "Ukrainian troops of the 129th Mechanized Brigade liberated the village of Odradne in Kharkiv region, clearing nearby settlements and inflicting significant Russian casualties, consolidating control of the area (Source: @DeepStateUA/23505).",
+        "President Zelensky announced the return of 205 Ukrainian POWs from the first 1,000‑on‑1,000 exchange, including veterans from Mariupol, Azovstal, Donetsk, Luhansk, Kharkiv, Kherson, Zaporizhzhia, Sumy and Kyiv directions (Source: @UkraineNow/81216).",
+        "Ukrainian forces reported a UAV strike on a commuter train in Zaporizhzhia region, causing shrapnel injuries to two passengers and prompting evacuation procedures (Source: @UkraineNow/81213).",
+        "Multiple Ukrainian UAV groups were observed moving westward from Sumy toward Lebedyn‑Trostyanets‑Hadiach corridor, indicating preparation for strikes on Russian rear areas (Source: @kpszsu/61979).",
+        "Ukrainian air defenses reported a MiG‑31K launch carrying an X‑47M2 Kinzhal aerobalistic missile, prompting nationwide alarm (Source: @eRadarrua/91942)."
       ]
     },
     "russia": {
       "points": [
-        "Russian Be‑200 amphibious aircraft was destroyed by SBS forces, along with a Ka‑27 helicopter in Yeysk, indicating effective Ukrainian anti‑air operations (Source: @UkraineNow/81214).",
-        "Russian UAVs conducted a strike on a residential building in Ryazan, causing three deaths and twelve injuries (Source: @ukr_leaks_eng/30185).",
-        "Russian forces reported continued skirmishes in the Sumy direction, advancing up to 1,100 meters in the Volchansk sector (Source: @ukr_leaks_eng/30185).",
-        "A Russian UAV was shot down over Rylsk in Kursk region, highlighting heightened air defense activity (Source: @ukr_leaks_eng/30185)."
+        "Russia conducted a body exchange, taking 41 of its fallen fighters while handing over 526 Ukrainian corpses, reflecting coordination at high command levels (Source: @ukr_leaks_eng/30187).",
+        "Russian X‑101 cruise missiles that struck Kyiv contained micro‑chips from Texas Instruments, AMD, Kyocera AVX, Harting Technology, and Nexperia, all manufactured in Q2 2026, showing deep Western supply‑chain penetration (Source: @UkraineNow/81246).",
+        "A Russian attack on the Ryazan oil refinery resulted in two deaths and twelve injuries, with additional missile strikes reported in Belgorod, Taganrog, and Tula regions (Source: @ukr_leaks_eng/30185).",
+        "Russian forces launched Iskander‑M ballistic missiles from Bryansk region, posing a high‑threat trajectory toward central Ukraine (Source: @mon1tor_ua/66745).",
+        "Russian UAV activity intensified in the southern front, with groups from the Black Sea heading toward Odesa‑Zatoka and Vylkove, and additional swarms moving toward Mykolaiv (Source: @kpszsu/61988, @kpszsu/61985)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAV groups from Donetsk region flew southwest past Sviatohirsk, suggesting pressure on Russian rear areas (Source: @kpszsu/61994).",
-        "Russian assault units of the 'North' Army Group advanced up to 1.1 km in the Volchansk sector of Kharkiv region, encountering fierce resistance (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian UAVs targeted a passenger train in Zaporizhzhia, causing two civilian injuries and prompting evacuation (Source: @UkraineNow/81213).",
-        "Russian forces reported ongoing forest combat near Bachivsk and Shostka in Sumy, indicating a contested eastern line (Source: @ukr_leaks_eng/30185)."
+        "Ukrainian reports indicate ongoing skirmishes in Sumy direction at Kontradovka, Zapselye, and forested areas near Bachivsk, with Russian assault troops advancing up to 1.1 km in eleven sectors (Source: @ukr_leaks_eng/30185).",
+        "Multiple Shahed‑type UAVs were logged over Sumy, Kharkiv, and Chernihiv regions, with groups of 2‑5 drones operating simultaneously (Source: @eRadarrua/91957, @eRadarrua/91970).",
+        "Russian forces reported UAV attacks on the Zaporizhzhia Nuclear Power Plant perimeter, injuring two plant employees 100 m from the site (Source: @ukr_leaks_eng/30185).",
+        "Ukrainian UAV groups from the Black Sea were observed heading toward Odesa and Mykolaiv, suggesting a shift of pressure to the southern flank of the eastern front (Source: @kpszsu/61988).",
+        "Russian artillery and drone strikes continued in the Dnipropetrovsk region, targeting settlements such as Alexandrovgrad and Lesnoe (Source: @ukr_leaks_eng/30185)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs were observed near Chernihiv, moving from Varva toward Poltava, indicating north‑southern axis activity (Source: @kpszsu/61997).",
-        "New UAV groups from Belgorod entered Sumy Oblast, expanding the northern aerial threat (Source: @kpszsu/61978).",
-        "Ukrainian forces reported a UAV group near Zhytomyr heading toward Vinnytsia, showing north‑west pressure (Source: @kpszsu/62007).",
-        "Ukrainian radar reports indicated Shahed activity over Poltava and Sumy regions, with multiple groups engaged (Source: @eRadarrua/91969, @eRadarrua/91978)."
+        "Ukrainian UAV groups were reported over northern Kharkiv region, indicating reconnaissance or strike missions near the front line (Source: @kpszsu/61982).",
+        "Monitored radar alerts show UAVs approaching the left bank of the Dnipro near Zolotonosha and moving northward through Cherkasy, threatening logistics corridors (Source: @mon1tor_ua/66762).",
+        "Russian Iskander‑M missiles launched from Bryansk pose a direct threat to northern Ukrainian cities, including Kyiv and Chernihiv (Source: @mon1tor_ua/66745).",
+        "Ukrainian forces observed a swarm of 20‑30 UAVs from the Black Sea heading toward Odesa, potentially transiting northern routes over the Dnipro delta (Source: @mon1tor_ua/66760).",
+        "Ukrainian radar reported a Shahed swarm over Poltava and Cherkasy regions, suggesting expanded northern UAV activity (Source: @eRadarrua/91984)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian UAV groups from the Black Sea moved toward Odesa and Mykolaiv, with 20‑30 drones reported (Source: @mon1tor_ua/66760).",
-        "A new UAV group from Nova Kakhovka headed north, potentially targeting Kherson or Mykolaiv (Source: @kpszsu/61987).",
-        "UAVs from the Black Sea approached Odesa/Mikolaiv corridor, heading toward Chornomorsk‑Zatoka and Vylkove (Source: @kpszsu/61988).",
-        "Ukrainian SBS claimed 55 fire engagements against 23 Russian targets across Taganrog, Yeysk, and Crimea, indicating broad southern strike capability (Source: @UkraineNow/81214)."
+        "UAV groups from the Black Sea moved toward Odesa‑Zatoka and Vylkove, with additional swarms heading toward Mykolaiv, indicating heightened pressure on the southern maritime corridor (Source: @kpszsu/61988, @kpszsu/61985).",
+        "Russian UAV attacks injured a civilian woman in Brilevka, Aleshkinsky district, Kherson region, demonstrating continued targeting of civilian infrastructure (Source: @ukr_leaks_eng/30185).",
+        "Ukrainian forces reported a UAV strike on a train near Zaporizhzhia, causing civilian injuries and prompting evacuation (Source: @UkraineNow/81213).",
+        "Russian missile strikes hit the Ryazan refinery and multiple locations in Belgorod and Taganrog, showing a pattern of deep‑strike capability affecting southern logistics (Source: @ukr_leaks_eng/30185).",
+        "Ukrainian air defense detected increased drone traffic over the lower sky of the Zaporozhye front, especially around Primorsky and Stepnogorsk (Source: @ukr_leaks_eng/30185)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian forces shot down multiple UAVs over Moscow and Rostov, with over 40 destroyed in Rostov alone (Source: @ukr_leaks_eng/30185).",
-        "Russian Be‑200 amphibious aircraft and Ka‑27 helicopter were destroyed by Ukrainian SBS units (Source: @UkraineNow/81214).",
-        "Ukrainian UAVs conducted a strike on the Zaporozhye Nuclear Power Plant perimeter, injuring two civilians 100 m from the site (Source: @ukr_leaks_eng/30185).",
-        "Russian air defenses downed a UAV over Rylsk, Kursk, preventing potential casualties (Source: @ukr_leaks_eng/30185)."
+        "Russian X‑101 cruise missiles with Western micro‑chips struck Kyiv, confirming advanced long‑range strike capability (Source: @UkraineNow/81246).",
+        "Ukrainian air defenses reported a MiG‑31K launch carrying an X‑47M2 Kinzhal, prompting a nationwide alert (Source: @eRadarrua/91942).",
+        "Over 40 Ukrainian UAVs were shot down in the Rostov region, while multiple UAVs were downed over Moscow, Rylsk, and other Russian cities, indicating intensified aerial contest (Source: @ukr_leaks_eng/30185).",
+        "Ukrainian UAV swarms were observed moving from Sumy westward toward Lebedyn‑Trostyanets‑Hadiach, and from the Black Sea toward Odesa, showing coordinated offensive air operations (Source: @kpszsu/61979, @kpszsu/61988).",
+        "Russian air defenses intercepted Shahed drones over multiple oblasts, including Dnipropetrovsk, Zaporizhzhia, and Kharkiv, reflecting persistent low‑altitude threats (Source: @eRadarrua/91957, @eRadarrua/91970)."
       ]
     },
     "key_developments": [
-      "Ukrainian UAV groups from the Black Sea launched 20‑30 Shahed drones toward Odesa and Mykolaiv, intensifying southern aerial pressure (Source: @mon1tor_ua/66760).",
-      "Russian Be‑200 amphibious aircraft and a Ka‑27 helicopter were destroyed by SBS forces, marking a significant loss of Russian air capability (Source: @UkraineNow/81214).",
-      "Israeli forces killed Hamas military chief Izz al‑Din al‑Haddad in a targeted strike in Gaza, indicating escalation beyond the Ukraine theater (Source: @Faytuks_Network/2736).",
-      "Ukrainian forces recaptured Odradne in Kharkiv Oblast, eliminating Russian presence and restoring control (Source: @DeepStateUA/23505).",
-      "A Russian UAV strike on a passenger train in Zaporizhzhia wounded two civilians and forced evacuation, showing continued Russian targeting of transport infrastructure (Source: @UkraineNow/81213).",
-      "Civil unrest erupted in Odesa as ~30 civilians blocked a TCC vehicle, leading to police intervention and arrests (Source: @ukr_leaks_eng/30179).",
-      "Ukrainian TCC staffing in Kyiv rose 40% following Zelensky’s mobilization call, reflecting increased internal security mobilization (Source: @ukr_leaks_eng/30197)."
+      "Ukraine and Russia exchanged bodies, with Russia taking 41 of its fallen fighters and Ukraine receiving 526 of its dead, marking a significant humanitarian negotiation (Source: @ukr_leaks_eng/30187).",
+      "Ukrainian 129th Mechanized Brigade recaptured Odradne in Kharkiv region, eliminating Russian forces and restoring full control of the settlement (Source: @DeepStateUA/23505).",
+      "Russian X‑101 cruise missiles that struck Kyiv contained US, German, and Dutch micro‑chips manufactured in Q2 2026, highlighting deep Western component penetration (Source: @UkraineNow/81246).",
+      "Ukrainian forces reported a UAV strike on a commuter train near Zaporizhzhia, injuring two civilians and prompting emergency evacuations (Source: @UkraineNow/81213).",
+      "Russia launched Iskander‑M ballistic missiles from Bryansk, creating a high‑threat trajectory toward central Ukraine (Source: @mon1tor_ua/66745).",
+      "UAV swarms from the Black Sea moved toward Odesa‑Zatoka and Vylkove, increasing pressure on the southern maritime front (Source: @kpszsu/61988).",
+      "Russian attack on the Ryazan oil refinery caused civilian casualties and demonstrated continued deep‑strike capability against Russian infrastructure (Source: @ukr_leaks_eng/30185)."
     ],
-    "threat_assessment": "Ukrainian UAV activity is expanding across multiple axes, threatening Russian logistics and rear areas, while Russian air assets suffer notable attrition, reducing their operational depth. Russian ground forces continue incremental advances in the east but face stiff resistance, especially around Kharkiv and Sumy. The emergence of civilian unrest linked to the TCC could strain Ukrainian internal stability, complicating force allocation.",
-    "regional_response": "Western partners are likely to increase UAV counter‑measure support to Ukraine, given the demonstrated effectiveness of Ukrainian drone strikes. Russia may prioritize rebuilding its air capabilities and reinforce air defenses around key logistics hubs. Israel's targeted strike against Hamas may prompt broader regional security recalibrations, potentially affecting Russian strategic calculations.",
-    "intelligence_notes": "Monitoring of UAV launch points in the Black Sea and Donetsk regions is critical for predicting upcoming strike corridors. The loss of Russian Be‑200 and Ka‑27 assets suggests vulnerabilities in maritime air operations that can be exploited. Civilian confrontations with TCC personnel in Odesa and Kyiv warrant close observation for potential escalation of internal dissent."
+    "threat_assessment": "Russian long‑range strike assets, notably X‑101 cruise missiles with Western components and Iskander‑M ballistic missiles, pose a heightened strategic threat to Ukrainian command centers and critical infrastructure. UAV swarm activity across all fronts, especially from the Black Sea toward the south and from Sumy westward, increases the risk of rapid, low‑altitude attacks on logistics and civilian targets. Ukrainian counter‑offensives, such as the recapture of Odradne, demonstrate resilience but face escalating aerial pressure and sophisticated missile threats.",
+    "regional_response": "Western partners are monitoring the exchange of bodies as a potential confidence‑building measure, while sanctions concerns over grain shipments highlight ongoing economic dimensions. Ukrainian authorities are reinforcing air defense networks, particularly around Kyiv and the southern corridor, and reallocating mobile radar assets to track UAV swarms. Russian command appears to be leveraging advanced missile technology to offset Ukrainian gains, suggesting a possible shift toward longer‑range precision strikes.",
+    "intelligence_notes": "The presence of US and European micro‑chips in Russian missiles indicates continued illicit supply‑chain exploitation, warranting tighter export controls. Increased UAV activity from the Black Sea suggests a logistical hub supporting southern operations, possibly linked to Russian naval bases. The successful prisoner‑of‑war exchange may open channels for further diplomatic engagement, but simultaneous escalation in missile and UAV attacks underscores a dual‑track strategy by Russia to maintain pressure while exploring negotiation avenues."
   },
-  "missiles": 0,
-  "drones": 0
+  "missiles": 6,
+  "drones": 141
 }
