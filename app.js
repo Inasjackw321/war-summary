@@ -205,15 +205,37 @@ function renderMediaGallery(id, media) {
   });
 }
 
+function openTelegramLightbox(postUrl) {
+  const existing = document.getElementById("mediaLightbox");
+  if (existing) existing.remove();
+  // Extract channel/id from https://t.me/channel/123
+  const m = postUrl.match(/t\.me\/([^/]+)\/(\d+)/);
+  const lb = document.createElement("div");
+  lb.id = "mediaLightbox";
+  lb.className = "media-lightbox";
+  if (m) {
+    lb.innerHTML = `<div class="media-lightbox-inner media-lightbox-embed">
+      <div class="media-lightbox-close">✕ Close</div>
+      <iframe src="https://t.me/${m[1]}/${m[2]}?embed=1&mode=tme" frameborder="0" scrolling="no" allowtransparency="true" style="width:100%;min-height:360px;border-radius:8px;background:transparent;"></iframe>
+      <a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a>
+    </div>`;
+  } else {
+    lb.innerHTML = `<div class="media-lightbox-inner"><a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a></div>`;
+  }
+  document.body.appendChild(lb);
+  lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });
+  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
+}
+
 function openMediaLightbox(src, caption) {
   const existing = document.getElementById("mediaLightbox");
   if (existing) existing.remove();
   const lb = document.createElement("div");
   lb.id = "mediaLightbox";
   lb.className = "media-lightbox";
-  lb.innerHTML = `<div class="media-lightbox-inner"><img src="${src}" alt="${caption}"><div class="media-lightbox-caption">${caption}</div></div>`;
+  lb.innerHTML = `<div class="media-lightbox-inner"><img src="${src}" alt="${caption}"><div class="media-lightbox-caption">${caption}</div><div class="media-lightbox-close">✕ Close</div></div>`;
   document.body.appendChild(lb);
-  lb.addEventListener("click", () => lb.remove());
+  lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });
   document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
 }
 
@@ -294,7 +316,7 @@ function renderSourceTags(text) {
         const postKey = slash !== -1 ? `${ch}/${raw.slice(slash + 1).split('-')[0]}` : null;
         const imgPostUrl = postKey ? currentPostImages[postKey] : null;
         const imgHtml = imgPostUrl
-          ? `<a class="src-tag-img" href="${imgPostUrl}" target="_blank" rel="noopener" title="View photo">📷</a>`
+          ? `<button class="src-tag-img" data-post-url="${imgPostUrl}" title="View photo" aria-label="View photo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/></svg></button>`
           : '';
         return `<a class="src-tag${biased?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${biased?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}${imgHtml}`;
       }).join('');
@@ -584,7 +606,7 @@ const WARN_TIP = "This source may provide inaccurate or biased information. Alwa
     tip.classList.add("visible");
     const r = w.getBoundingClientRect();
     tip.style.left = Math.min(r.left + r.width/2 - tip.offsetWidth/2, window.innerWidth - tip.offsetWidth - 8) + "px";
-    tip.style.top = (r.top + window.scrollY - tip.offsetHeight - 8) + "px";
+    tip.style.top = (r.top - tip.offsetHeight - 8) + "px";
   });
   document.addEventListener("mouseout", e => {
     if (e.target.closest(".source-warn")) hideTimer = setTimeout(() => tip.classList.remove("visible"), 150);
@@ -758,7 +780,9 @@ async function init() {
 // Global click handler for biased source tags in article content
 document.addEventListener("click", e => {
   const a = e.target.closest("a.src-tag--biased");
-  if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); }
+  if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); return; }
+  const btn = e.target.closest("button.src-tag-img");
+  if (btn) { e.preventDefault(); openTelegramLightbox(btn.dataset.postUrl); }
 });
 
 document.addEventListener("DOMContentLoaded", init);

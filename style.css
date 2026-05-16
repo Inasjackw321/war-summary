@@ -320,7 +320,7 @@ body {
 .split-drones { color: var(--accent); }
 .meta-missiles { color: rgba(229,62,91,0.75); }
 .meta-drones { color: rgba(59,130,246,0.75); }
-.tab-flags { font-size: 13px; letter-spacing: -1px; }
+.tab-flags { font-size: 13px; letter-spacing: -1px; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla", sans-serif; }
 @keyframes countIn {
   from { opacity: 0; transform: scale(0.8) translateY(8px); }
   to   { opacity: 1; transform: scale(1) translateY(0); }
@@ -917,6 +917,14 @@ body {
 .source-warn:hover { opacity: 1; }
 .src-tag--biased { border-color: rgba(245,158,11,0.4) !important; color: #d4a847 !important; }
 .src-tag-warn { margin-left: 2px; }
+.src-tag-img {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: rgba(59,130,246,0.12); border: 1px solid rgba(59,130,246,0.3);
+  border-radius: 4px; padding: 2px 5px; margin-left: 3px; cursor: pointer;
+  color: var(--accent); vertical-align: middle; line-height: 1;
+  transition: background 0.15s, border-color 0.15s;
+}
+.src-tag-img:hover { background: rgba(59,130,246,0.25); border-color: rgba(59,130,246,0.6); }
 /* JS-driven tooltip */
 .source-tooltip {
   position: fixed;
@@ -1004,11 +1012,24 @@ body {
 .media-lightbox {
   position: fixed; inset: 0; z-index: 10000;
   background: rgba(0,0,0,0.88); display: flex;
-  align-items: center; justify-content: center; cursor: zoom-out;
+  align-items: center; justify-content: center; cursor: default;
   animation: fadeIn 0.15s ease;
 }
-.media-lightbox-inner { max-width: 90vw; max-height: 90vh; text-align: center; }
-.media-lightbox-inner img { max-width: 100%; max-height: 85vh; border-radius: 6px; display: block; }
+.media-lightbox-inner { max-width: min(520px, 96vw); max-height: 90vh; text-align: center; width: 100%; }
+.media-lightbox-inner img { max-width: 100%; max-height: 80vh; border-radius: 6px; display: block; margin: 0 auto; }
+.media-lightbox-embed { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+.media-lightbox-embed iframe { width: 100%; min-height: 380px; border-radius: 8px; }
+.media-lightbox-close {
+  display: inline-block; color: var(--muted); font-size: 11px; font-family: 'JetBrains Mono', monospace;
+  cursor: pointer; padding: 4px 10px; border-radius: 4px; background: rgba(255,255,255,0.07);
+  margin-bottom: 4px; align-self: flex-end;
+}
+.media-lightbox-close:hover { color: var(--fg); background: rgba(255,255,255,0.12); }
+.media-lightbox-open-link {
+  color: var(--accent); font-size: 11px; font-family: 'JetBrains Mono', monospace;
+  text-decoration: none; margin-top: 4px;
+}
+.media-lightbox-open-link:hover { text-decoration: underline; }
 .media-lightbox-caption {
   color: var(--muted); font-size: 10px; font-family: 'JetBrains Mono', monospace;
   margin-top: 8px;
