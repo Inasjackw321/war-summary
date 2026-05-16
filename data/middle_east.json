@@ -1,6 +1,6 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-16T13:28:37.648165+00:00",
+  "updated_at": "2026-05-16T13:52:31.950232+00:00",
   "message_count": 612,
   "channels": [
     "N12chat",
@@ -21,8 +21,8 @@
   ],
   "red_alerts": 18,
   "red_alerts_timeline": [
-    0,
-    6,
+    1,
+    5,
     4,
     0,
     0,
@@ -32,11 +32,6 @@
     0,
     0,
     0,
-    1,
-    1,
-    0,
-    0,
-    0,
     2,
     0,
     0,
@@ -44,36 +39,41 @@
     1,
     1,
     0,
-    2
+    0,
+    0,
+    2,
+    0,
+    2,
+    0
   ],
   "combined_activity_timeline": [
-    30,
-    49,
-    48,
+    29,
+    54,
+    47,
     52,
-    45,
-    26,
-    36,
-    10,
-    8,
-    7,
-    7,
-    7,
-    7,
-    2,
-    16,
-    19,
-    27,
-    19,
-    22,
-    36,
-    45,
     37,
+    32,
+    24,
+    7,
+    9,
+    6,
+    6,
+    11,
+    3,
+    6,
+    21,
+    21,
+    25,
+    15,
+    32,
+    33,
+    49,
+    32,
     27,
-    29
+    33
   ],
   "messages_by_channel": {
-    "@N12chat": 112,
+    "@N12chat": 108,
     "@manniefabian": 15,
     "@asafroz": 20,
     "@yediotnews25": 16,
@@ -84,34 +84,58 @@
     "@kianmeli1": 19,
     "@Faytuks_Network": 6,
     "@rodast_omiddana": 39,
-    "@naya_foriraq": 41,
+    "@naya_foriraq": 42,
     "@tzevaadom_en": 18,
-    "@VahidOnline": 12,
+    "@VahidOnline": 15,
     "@idf_telegram": 19
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207495",
-    "manniefabian": "https://t.me/manniefabian/58266",
-    "asafroz": "https://t.me/asafroz/49252",
+    "N12chat": "https://t.me/N12chat/207496",
+    "manniefabian": "https://t.me/manniefabian/58267",
+    "asafroz": "https://t.me/asafroz/49255",
     "yediotnews25": "https://t.me/yediotnews25/129335",
-    "SharghDaily": "https://t.me/SharghDaily/160237",
+    "SharghDaily": "https://t.me/SharghDaily/160242",
     "amitsegal": "https://t.me/amitsegal/61133",
-    "presstv": "https://t.me/presstv/190100",
+    "presstv": "https://t.me/presstv/190103",
     "mamlekate": "https://t.me/mamlekate/103540",
     "kianmeli1": "https://t.me/kianmeli1/87435",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2742",
     "rodast_omiddana": "https://t.me/rodast_omiddana/71418",
-    "naya_foriraq": "https://t.me/naya_foriraq/75494",
+    "naya_foriraq": "https://t.me/naya_foriraq/75495",
     "tzevaadom_en": "https://t.me/tzevaadom_en/67232",
-    "VahidOnline": "https://t.me/VahidOnline/75494",
-    "idf_telegram": "https://t.me/idf_telegram/23688"
+    "VahidOnline": "https://t.me/VahidOnline/75500",
+    "idf_telegram": "https://t.me/idf_telegram/23689"
   },
   "media": [
+    {
+      "post_url": "https://t.me/SharghDaily/160241",
+      "post_id": 160241,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T13:44:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/naya_foriraq/75495",
+      "post_id": 75495,
+      "channel": "naya_foriraq",
+      "ts": "2026-05-16T13:43:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/SharghDaily/160240",
+      "post_id": 160240,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T13:39:59+00:00"
+    },
     {
       "post_url": "https://t.me/N12chat/207495",
       "post_id": 207495,
       "channel": "N12chat",
       "ts": "2026-05-16T13:16:16+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190099",
+      "post_id": 190099,
+      "channel": "presstv",
+      "ts": "2026-05-16T13:03:55+00:00"
     },
     {
       "post_url": "https://t.me/naya_foriraq/75491",
@@ -126,10 +150,22 @@
       "ts": "2026-05-16T12:39:52+00:00"
     },
     {
+      "post_url": "https://t.me/SharghDaily/160226",
+      "post_id": 160226,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T12:32:01+00:00"
+    },
+    {
       "post_url": "https://t.me/SharghDaily/160225",
       "post_id": 160225,
       "channel": "SharghDaily",
       "ts": "2026-05-16T12:27:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190094",
+      "post_id": 190094,
+      "channel": "presstv",
+      "ts": "2026-05-16T12:25:43+00:00"
     },
     {
       "post_url": "https://t.me/presstv/190093",
@@ -138,34 +174,10 @@
       "ts": "2026-05-16T12:23:00+00:00"
     },
     {
-      "post_url": "https://t.me/SharghDaily/160222",
-      "post_id": 160222,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T12:12:09+00:00"
-    },
-    {
       "post_url": "https://t.me/presstv/190092",
       "post_id": 190092,
       "channel": "presstv",
       "ts": "2026-05-16T12:10:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160220",
-      "post_id": 160220,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T12:01:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160219",
-      "post_id": 160219,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T11:56:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160218",
-      "post_id": 160218,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T11:46:02+00:00"
     },
     {
       "post_url": "https://t.me/N12chat/207487",
@@ -180,28 +192,22 @@
       "ts": "2026-05-16T11:30:59+00:00"
     },
     {
-      "post_url": "https://t.me/presstv/190083",
-      "post_id": 190083,
-      "channel": "presstv",
-      "ts": "2026-05-16T11:14:20+00:00"
-    },
-    {
       "post_url": "https://t.me/asafroz/49248",
       "post_id": 49248,
       "channel": "asafroz",
       "ts": "2026-05-16T11:06:50+00:00"
     },
     {
-      "post_url": "https://t.me/presstv/190081",
-      "post_id": 190081,
-      "channel": "presstv",
-      "ts": "2026-05-16T10:55:05+00:00"
-    },
-    {
       "post_url": "https://t.me/N12chat/207482",
       "post_id": 207482,
       "channel": "N12chat",
       "ts": "2026-05-16T10:51:27+00:00"
+    },
+    {
+      "post_url": "https://t.me/SharghDaily/160205",
+      "post_id": 160205,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T10:46:01+00:00"
     },
     {
       "post_url": "https://t.me/rodast_omiddana/71407",
@@ -220,13 +226,6 @@
       "post_id": 75485,
       "channel": "naya_foriraq",
       "ts": "2026-05-16T10:21:09+00:00"
-    },
-    {
-      "post_url": "https://t.me/Faytuks_Network/2740",
-      "post_id": 2740,
-      "channel": "Faytuks_Network",
-      "ts": "2026-05-16T10:19:02+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/cTCrcVC7BQrLO4STTRCHMVh2r-QsBcKJWyPvF0Wcb2j3HCxULMKgfRXyURDAGYl5yAtFTHxvwRmMdTzYM-tkW66eubSQmtfJXY0iaSYo2_8VYlvr8-2SX6rLPmZldiYFl1NWGFzRLw3z3HS0fd8Q7YTJLX-jSX_hAMKIWO0v1QQLHHk8L08SQR98LG2LRyapTCb52hNyt4ySeAbh0qwA4XdchdsFOv_c_CpSf6LRI1FEfGBUoU9CbD2Ybud2C_K4YKIBS3ek8p0ZJYawLmkD9DVkwoBTXT0WlMwrQ1MY8vbc7Y4RvATo0LHjFadZpRD9-00gqcrPq2lNaOTOqh1aVQ.jpg"
     }
   ],
   "post_images": {
@@ -234,87 +233,83 @@
     "Faytuks_Network/2736": "data/media/Faytuks_Network_2736.jpg",
     "Faytuks_Network/2739": "data/media/Faytuks_Network_2739.jpg",
     "Faytuks_Network/2740": "data/media/Faytuks_Network_2740.jpg",
-    "VahidOnline/75478": "data/media/VahidOnline_75478.jpg",
     "VahidOnline/75479": "data/media/VahidOnline_75479.jpg",
     "VahidOnline/75484": "data/media/VahidOnline_75484.jpg",
     "VahidOnline/75485": "data/media/VahidOnline_75485.jpg",
     "VahidOnline/75487": "data/media/VahidOnline_75487.jpg",
-    "idf_telegram/23682": "data/media/idf_telegram_23682.jpg",
-    "idf_telegram/23668": "data/media/idf_telegram_23668.jpg"
+    "VahidOnline/75488": "data/media/VahidOnline_75488.jpg",
+    "idf_telegram/23682": "data/media/idf_telegram_23682.jpg"
   },
-  "summary": "Hezbollah intensified aerial attacks on northern Israel, prompting multiple interceptions and a failed ground‑to‑air missile launch, while Israel imposed a closed military zone along the Rosh Hanikra coastal strip. Iran announced a new traffic‑control mechanism for the Strait of Hormuz, drawing diplomatic pushback from the US, UK and Germany. Parallel US actions targeted senior Hezbollah operatives in Iraq and Hamas commanders in Gaza, underscoring a widening regional security contest.",
+  "summary": "Israel intensified air operations, killing Hamas commander Izz al‑Din al‑Haddad and striking Hezbollah assets in southern Lebanon, while Iran faces internal security pressures with military units occupying schools and diplomatic friction over the Strait of Hormuz. Hezbollah launched drones and rockets toward Israeli positions, prompting multiple red‑alert sirens along the northern border. Regional actors, notably Pakistan and the United States, are maneuvering diplomatically and militarily, with Trump hinting at a possible new strike on Iran and a Qatari‑flagged gas tanker arriving via the Hormuz corridor.",
   "key_points": [
-    "Hezbollah launched several drones and missiles toward northern Israel; one drone intercepted, others fell in open areas (Source: @manniefabian/58266).",
-    "IDF reported a failed ground‑to‑air missile launch against Israeli aircraft operating over southern Lebanon (Source: @idf_telegram/23672).",
-    "Israel declared a closed military zone from Rosh Hanikra to Akziv, banning civilian entry (Source: @idf_telegram/23676).",
-    "Iran’s parliamentary security chief unveiled a forthcoming Strait of Hormuz traffic‑control system favoring cooperating vessels (Source: @Faytuks_Network/2742).",
-    "The US arrested senior Hezbollah commander Muhammad al‑Saadi in Iraq, charging him with multiple European attacks (Source: @asafroz/49245).",
-    "Israeli airstrikes eliminated senior Hamas figures Izz al‑Din Haddad and two operatives in Gaza (Source: @manniefabian/58258, @manniefabian/58260).",
-    "France positioned the carrier Charles de Gaulle in the Strait of Hormuz to protect shipping amid rising tensions (Source: @kianmeli1/87422)."
+    "IDF airstrike eliminated Hamas military wing commander Izz al‑Din al‑Haddad in Gaza.",
+    "Hezbollah launched drones, rockets and mortars at Israeli forces in southern Lebanon; several drones were intercepted.",
+    "Red‑alert sirens were triggered in Metula and Sdeh Meron due to hostile aircraft intrusions.",
+    "Iranian forces and security agencies have taken over several Tehran schools, halting in‑person classes.",
+    "Iran’s UN envoy blamed war initiators for the escalating Hormuz crisis, warning of broader economic fallout.",
+    "Pakistan is actively mediating between Iran and the United States, seeking flexibility in negotiations.",
+    "Trump signaled a forthcoming military decision against Iran within 24 hours, citing ongoing operations."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Hezbollah’s renewed drone and missile barrage against northern Israel, including a failed ground‑to‑air missile attempt, has escalated the front in southern Lebanon, prompting Israel to seal the Rosh Hanikra coastal strip. Iran’s announcement of a new Strait of Hormuz traffic‑control regime has drawn sharp diplomatic criticism from the US, UK and Germany, raising the risk of broader maritime confrontation. Concurrently, the US has moved against senior Hezbollah operatives in Iraq and Israel has intensified targeted killings of Hamas leadership in Gaza, indicating a multi‑theater escalation.",
+    "executive_summary": "Israel’s latest airstrike eliminated Hamas commander Izz al‑Din al‑Haddad and intensified attacks on Hezbollah infrastructure in southern Lebanon, marking a significant escalation. Concurrently, Iran confronts internal security challenges as military units occupy Tehran schools and faces diplomatic pressure over the Strait of Hormuz. Regional dynamics are heating up with Pakistan’s mediation efforts and U.S. President Trump hinting at a new strike on Iran.",
     "iran": {
       "points": [
-        "Iran’s parliamentary National Security Committee chief disclosed a forthcoming mechanism to regulate ship traffic through the Strait of Hormuz, offering preferential routes and fees only to commercial vessels and states cooperating with Tehran (Source: @Faytuks_Network/2742).",
-        "PressTV reported that the same official, Ebrahim Azizi, said the mechanism will be unveiled soon, signaling Tehran’s intent to formalize control over Hormuz maritime flows (Source: @presstv/190092).",
-        "A US‑backed draft UN resolution, criticized by China and Russia, demands Iran cease attacks and mining in the Strait, reflecting heightened diplomatic pressure on Tehran (Source: @VahidOnline/75492).",
-        "German Chancellor Olaf Scholz, in a phone call with US President Trump, urged Iran to reopen the Strait and halt nuclear advancements, indicating coordinated Western diplomatic pressure (Source: @VahidOnline/75484)."
+        "Iranian security forces and the governorate have moved into several Tehran schools, preventing any in‑person classes from resuming until evacuations are completed (Source: @mamlekate/103530).",
+        "Iran’s UN ambassador placed primary responsibility for the heightened tension in the Strait of Hormuz on the initiators of the war against Iran and their regional allies (Source: @PressTV/190093).",
+        "Pakistani officials are actively mediating between Tehran and Washington, urging both sides to adopt a more flexible stance in negotiations (Source: @sharghdaily/160228).",
+        "A Qatari‑flagged gas tanker, the third in recent weeks, docked at Karachi port after transiting the Hormuz Strait, indicating continued maritime traffic despite tensions (Source: @naya_foriraq/75481)."
       ]
     },
     "israel": {
       "points": [
-        "Hezbollah launched multiple drones from Lebanon toward the Galilee Panhandle; one was intercepted by Israeli air defenses while the others detonated in open areas with no casualties reported (Source: @manniefabian/58266).",
-        "A separate Hezbollah drone triggered sirens in the Mount Meron area; the incident concluded without injuries (Source: @manniefabian/58260).",
-        "The IDF reported a failed attempt by Hezbollah to fire a small ground‑to‑air missile at Israeli aircraft operating over southern Lebanon (Source: @idf_telegram/23672).",
-        "Israel imposed a closed military zone covering the Rosh Hanikra coastal strip to Akziv, prohibiting civilian access and reinforcing defensive posture along the Lebanese border (Source: @idf_telegram/23676).",
-        "Israeli airstrikes in Gaza eliminated senior Hamas commander Izz al‑Din Haddad in Rimal, a residential district, after weeks of surveillance (Source: @manniefabian/58258)."
+        "The IDF confirmed the killing of Hamas military wing commander Izz al‑Din al‑Haddad in a targeted airstrike in Gaza, noting only two senior Oct. 7 leaders remain (Source: @Faytuks_Network/2740).",
+        "Israel launched a wave of airstrikes on Hezbollah infrastructure in southern Lebanon, reporting multiple drone interceptions and surface‑to‑air missile failures (Source: @manniefabian/58253).",
+        "Red‑alert sirens were activated at the Sdeh Meron School/Tzofar line and in Metula after hostile aircraft intrusions, with the Israeli Air Force tracking several hostile UAVs (Source: @tzevaadom_en/67224; @tzevaadom_en/67201).",
+        "The IDF imposed a closed‑military‑zone order covering the coastal strip of Rosh HaNikra and Akziv, restricting civilian access and reinforcing border defenses (Source: @idf_telegram/23676).",
+        "Israeli Chief of Staff instructed southern command to prepare for possible Hamas retaliation following the Haddad strike (Source: @N12chat/207480)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "IDF confirmed the killing of two Hamas terrorists, Khamer Iyad Muhammad Al‑Matouq and Khaled Muhammad Salem Jouda, in separate strikes in northern Gaza over the past two weeks (Source: @manniefabian/58266).",
-        "A third Hamas operative, Abdel Rahman Mahmoud Jumaa Shafi of the Bureij Battalion, was killed in a central Gaza strike on Wednesday (Source: @manniefabian/58266).",
-        "The senior Hamas leader Izz al‑Din Haddad, responsible for the October 7 onslaught, was targeted and killed in an airstrike on a residential building in Gaza City’s Rimal neighborhood (Source: @manniefabian/58258).",
-        "Reports indicate that a fire continues to burn in a Gaza apartment that was hit during earlier fighting, highlighting ongoing humanitarian damage (Source: @yediotnews25/129326)."
+        "Thousands of mourners attended the funeral procession for Hamas Qassam Brigades commander Izz al‑Din al‑Haddad in Gaza City, underscoring his symbolic importance (Source: @PressTV/190095).",
+        "Three civilians were killed near Al‑Yarmouk stadium in Gaza following a vehicle‑borne attack, highlighting ongoing low‑intensity violence (Source: @yediotnews25/129327).",
+        "Israeli statements emphasized continued operations against all individuals involved in the Oct. 7 attacks, signaling a broader campaign beyond the Haddad target (Source: @Faytuks_Network/2736)."
       ]
     },
     "lebanon": {
       "points": [
-        "Hezbollah launched several hostile drones and mortar shells toward Israeli positions in the Galilee region; one drone was intercepted, others fell in open terrain (Source: @manniefabian/58266).",
-        "An attempted missile launch from Hezbollah targeting Israeli aircraft over southern Lebanon failed to achieve a hit (Source: @idf_telegram/23672).",
-        "Israeli forces reported multiple Hezbollah‑fired explosive drones and grenades landing near IDF units operating in southern Lebanon, though no alerts were issued per policy (Source: @idf_telegram/23672).",
-        "Hezbollah’s aerial activity also triggered alarms in the Mount Meron area, with the incident declared concluded without injuries (Source: @manniefabian/58260)."
+        "Hezbollah launched several drones, rockets and mortars at Israeli troops in southern Lebanon; Israeli air defenses intercepted multiple UAVs, and a surface‑to‑air missile launch failed (Source: @manniefabian/58253).",
+        "Metula border community experienced sirens after a “suspicious aerial target” was detected, linked to Hezbollah drone activity (Source: @manniefabian/58265).",
+        "Israeli forces reported hostile aircraft incursions over the Magav and Mishgav areas, though no public alerts were issued per policy (Source: @idf_telegram/23672)."
       ]
     },
     "syria_iraq": {
       "points": [
-        "US authorities arrested senior Hezbollah operative Muhammad al‑Saadi in Iraq, charging him with planning at least 18 terrorist attacks across Europe, the US and Canada since February (Source: @asafroz/49245).",
-        "The US‑backed draft UN resolution targeting Iran’s activities in the Strait of Hormuz reflects broader concerns about Iranian influence extending into Iraq and Syria (Source: @VahidOnline/75492).",
-        "No direct Syrian operations were reported in the provided messages, but the regional context suggests heightened vigilance over Iranian‑backed militias operating in both countries."
+        "Iraq’s new prime minister, Ali Al‑Zaydi, officially took office, pledging economic reforms and anti‑corruption measures, potentially stabilizing Baghdad’s internal security environment (Source: @SharghDaily/160225).",
+        "A senior Iranian Revolutionary Guard representative in Iraqi Kurdistan warned of a decisive final blow against “the enemy’s decay,” indicating possible proxy activity in the region (Source: @kianmeli1/87434).",
+        "Hezbollah operatives reportedly infiltrated the Iraqi city of Al‑Kadhimiya, with a martyr of the group buried there, reflecting cross‑border militant presence (Source: @naya_foriraq/75491)."
       ]
     },
     "gulf_states": {
       "points": [
-        "France deployed the carrier Charles de Gaulle to the Strait of Hormuz to safeguard maritime traffic amid escalating tensions involving Iran (Source: @kianmeli1/87422).",
-        "The United Kingdom announced an £18 billion security funding package in response to political instability, indicating increased defense spending in the region (Source: @asafroz/49242).",
-        "Germany’s Chancellor expressed a willingness to negotiate with Iran to reopen the Strait of Hormuz, aligning with US diplomatic efforts (Source: @VahidOnline/75484).",
-        "The US‑UK‑Bahrain draft resolution demanding Iran cease mining and attacks in the Strait faced likely vetoes from Russia and China, underscoring Gulf‑wide diplomatic friction (Source: @VahidOnline/75492)."
+        "German Chancellor Friedrich Merz discussed with U.S. President Trump the necessity of reopening the Strait of Hormuz and preventing Iran’s nuclear advancement, suggesting coordinated Western pressure (Source: @VahidOnline).",
+        "British Prime Minister Keir Starmer announced an additional £18 billion security package in response to political instability in London, indicating heightened defense spending in the region (Source: @asafroz/49242).",
+        "Four Typhoon fighter jets were dispatched to Qatar within weeks of the war’s onset to bolster regional air defense capabilities (Source: @kianmeli1/87428)."
       ]
     },
     "key_developments": [
-      "Hezbollah launched multiple drones and missiles toward northern Israel, with one drone intercepted and others falling in open areas, raising the risk of broader aerial engagements (Source: @manniefabian/58266).",
-      "Israel sealed a closed military zone from Rosh Hanikra to Akziv, prohibiting civilian entry and reinforcing border defenses (Source: @idf_telegram/23676).",
-      "Iran announced a new Strait of Hormuz traffic‑control mechanism that will prioritize cooperating vessels, potentially reshaping maritime logistics in the region (Source: @Faytuks_Network/2742).",
-      "The United States arrested senior Hezbollah commander Muhammad al‑Saadi in Iraq, charging him with a series of terrorist plots across Europe and North America (Source: @asafroz/49245).",
-      "Israeli airstrikes eliminated senior Hamas leader Izz al‑Din Haddad in Gaza’s Rimal district, marking a significant blow to Hamas command structures (Source: @manniefabian/58258).",
-      "France positioned the carrier Charles de Gaulle in the Strait of Hormuz to protect shipping amid rising Iran‑related tensions (Source: @kianmeli1/87422).",
-      "Germany’s Chancellor Olaf Scholz and US President Trump agreed that Iran must immediately reopen the Strait of Hormuz and halt nuclear advancements, reflecting coordinated Western diplomatic pressure (Source: @VahidOnline/75484)."
+      "Israel’s airstrike eliminated Hamas commander Izz al‑Din al‑Haddad in Gaza, reducing senior Oct. 7 leadership to two remaining figures (Source: @Faytuks_Network/2740).",
+      "Hezbollah launched drones, rockets and mortars at Israeli positions in southern Lebanon, with Israeli air defenses intercepting multiple UAVs (Source: @manniefabian/58253).",
+      "Red‑alert sirens were triggered in Metula and Sdeh Meron after hostile aircraft intrusions, indicating increased aerial threats along Israel’s northern border (Source: @tzevaadom_en/67224; @tzevaadom_en/67201).",
+      "Iranian security forces have occupied several Tehran schools, halting normal education and reflecting internal security tightening (Source: @mamlekate/103530).",
+      "Iran’s UN envoy blamed war initiators for the escalating Hormuz crisis, warning of broader global economic impacts (Source: @PressTV/190093).",
+      "Pakistan is actively mediating between Iran and the United States, seeking flexible diplomatic outcomes (Source: @sharghdaily/160228).",
+      "U.S. President Trump signaled a forthcoming military decision against Iran within 24 hours, citing ongoing operations and a potential “clean‑up” phase (Source: @kianmeli1/87416)."
     ],
-    "threat_assessment": "Hezbollah’s renewed drone and missile attacks on northern Israel, coupled with a failed ground‑to‑air missile launch, indicate an escalation of the southern Lebanon front and a potential shift toward more sophisticated aerial warfare. Iran’s move to institutionalize control over Strait of Hormuz traffic could translate into de‑facto maritime leverage, threatening commercial navigation and inviting naval confrontations. Simultaneously, US actions against senior Hezbollah operatives in Iraq and Israeli strikes on Hamas leadership demonstrate a multi‑theater approach that may provoke retaliatory attacks across the region.",
-    "regional_response": "Israel responded by tightening border security, imposing a closed military zone, and enhancing air‑defense readiness, while the United States pursued legal actions against Hezbollah figures and supported diplomatic pressure on Iran. European powers, notably Germany and the United Kingdom, signaled increased defense spending and diplomatic outreach to mitigate Iranian maritime threats. France’s naval deployment underscores a willingness among Gulf‑adjacent NATO members to project power in the Hormuz corridor.",
-    "intelligence_notes": "Monitoring of Hezbollah drone launch sites in southern Lebanon is critical, as pattern analysis suggests a possible increase in frequency and payload sophistication. Iran’s forthcoming Hormuz traffic system should be tracked for implementation timelines and fee structures, which may affect regional shipping routes. The arrest of a senior Hezbollah operative in Iraq highlights the network’s cross‑border capabilities, warranting heightened surveillance of militia movements in Iraq and Syria. Continued Israeli airstrikes on Hamas leadership are likely to trigger retaliatory rocket fire from Gaza, necessitating readiness on the southern front."
+    "threat_assessment": "The operational environment is rapidly deteriorating as Israel escalates strikes against Hamas and Hezbollah, while Iran tightens internal security and faces external diplomatic pressure over the Hormuz Strait. Hezbollah’s drone and rocket attacks raise the risk of broader cross‑border engagements, and Iran’s occupation of civilian infrastructure signals a willingness to prioritize security over public services. U.S. rhetoric suggests a possible new kinetic option against Iran, which could trigger a wider regional confrontation.",
+    "regional_response": "Pakistan’s diplomatic outreach aims to de‑escalate Iran‑U.S. tensions, while Germany and the UK are coordinating with Washington on security measures in the Gulf and broader Europe. Gulf states are bolstering air defenses, exemplified by Qatar receiving Typhoon fighters, and diplomatic talks focus on reopening the Strait of Hormuz. Israeli public alerts and border closures reflect heightened vigilance against Hezbollah incursions.",
+    "intelligence_notes": "Monitoring of Iranian military deployments in Tehran schools should be intensified for potential spill‑over into civilian unrest. Continued surveillance of Hezbollah UAV activity is critical, given recent successful interceptions and failed missile attempts. U.S. statements about imminent action against Iran warrant close watch on logistics and force posturing in the Persian Gulf, especially concerning maritime traffic like the Qatari gas tanker."
   }
 }
