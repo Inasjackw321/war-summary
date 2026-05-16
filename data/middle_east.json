@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-16T11:58:57.376536+00:00",
-  "message_count": 627,
+  "updated_at": "2026-05-16T13:09:05.739730+00:00",
+  "message_count": 611,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -19,13 +19,12 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 16,
+  "red_alerts": 18,
   "red_alerts_timeline": [
     0,
-    0,
-    3,
+    5,
     4,
-    3,
+    1,
     0,
     0,
     0,
@@ -44,69 +43,118 @@
     0,
     0,
     2,
-    0
+    0,
+    2
   ],
   "combined_activity_timeline": [
-    44,
-    29,
-    35,
-    54,
+    30,
     43,
-    53,
+    49,
+    45,
+    48,
     36,
     39,
-    17,
+    11,
     7,
+    11,
+    5,
+    6,
     10,
-    4,
-    6,
-    12,
-    2,
-    6,
+    3,
+    8,
+    21,
+    25,
     22,
-    24,
-    22,
-    16,
-    34,
-    37,
-    41,
-    32
+    17,
+    33,
+    39,
+    43,
+    30,
+    29
   ],
   "messages_by_channel": {
-    "@N12chat": 116,
-    "@manniefabian": 14,
+    "@N12chat": 112,
+    "@manniefabian": 13,
     "@asafroz": 20,
     "@yediotnews25": 16,
-    "@SharghDaily": 188,
+    "@SharghDaily": 185,
     "@amitsegal": 1,
-    "@presstv": 103,
-    "@mamlekate": 11,
+    "@presstv": 101,
+    "@mamlekate": 9,
     "@kianmeli1": 19,
     "@Faytuks_Network": 6,
-    "@rodast_omiddana": 43,
-    "@naya_foriraq": 43,
-    "@tzevaadom_en": 16,
+    "@rodast_omiddana": 40,
+    "@naya_foriraq": 41,
+    "@tzevaadom_en": 18,
     "@VahidOnline": 12,
-    "@idf_telegram": 19
+    "@idf_telegram": 18
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207488",
+    "N12chat": "https://t.me/N12chat/207494",
     "manniefabian": "https://t.me/manniefabian/58264",
     "asafroz": "https://t.me/asafroz/49252",
-    "yediotnews25": "https://t.me/yediotnews25/129334",
-    "SharghDaily": "https://t.me/SharghDaily/160219",
+    "yediotnews25": "https://t.me/yediotnews25/129335",
+    "SharghDaily": "https://t.me/SharghDaily/160232",
     "amitsegal": "https://t.me/amitsegal/61133",
-    "presstv": "https://t.me/presstv/190090",
+    "presstv": "https://t.me/presstv/190099",
     "mamlekate": "https://t.me/mamlekate/103540",
     "kianmeli1": "https://t.me/kianmeli1/87435",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2742",
-    "rodast_omiddana": "https://t.me/rodast_omiddana/71415",
-    "naya_foriraq": "https://t.me/naya_foriraq/75488",
-    "tzevaadom_en": "https://t.me/tzevaadom_en/67229",
+    "rodast_omiddana": "https://t.me/rodast_omiddana/71418",
+    "naya_foriraq": "https://t.me/naya_foriraq/75491",
+    "tzevaadom_en": "https://t.me/tzevaadom_en/67232",
     "VahidOnline": "https://t.me/VahidOnline/75494",
-    "idf_telegram": "https://t.me/idf_telegram/23685"
+    "idf_telegram": "https://t.me/idf_telegram/23687"
   },
   "media": [
+    {
+      "post_url": "https://t.me/naya_foriraq/75491",
+      "post_id": 75491,
+      "channel": "naya_foriraq",
+      "ts": "2026-05-16T12:59:50+00:00"
+    },
+    {
+      "post_url": "https://t.me/N12chat/207491",
+      "post_id": 207491,
+      "channel": "N12chat",
+      "ts": "2026-05-16T12:39:52+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190093",
+      "post_id": 190093,
+      "channel": "presstv",
+      "ts": "2026-05-16T12:23:00+00:00"
+    },
+    {
+      "post_url": "https://t.me/SharghDaily/160222",
+      "post_id": 160222,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T12:12:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190092",
+      "post_id": 190092,
+      "channel": "presstv",
+      "ts": "2026-05-16T12:10:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/SharghDaily/160220",
+      "post_id": 160220,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T12:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/SharghDaily/160219",
+      "post_id": 160219,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T11:56:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/SharghDaily/160218",
+      "post_id": 160218,
+      "channel": "SharghDaily",
+      "ts": "2026-05-16T11:46:02+00:00"
+    },
     {
       "post_url": "https://t.me/N12chat/207487",
       "post_id": 207487,
@@ -120,10 +168,16 @@
       "ts": "2026-05-16T11:33:01+00:00"
     },
     {
-      "post_url": "https://t.me/SharghDaily/160210",
-      "post_id": 160210,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T11:08:50+00:00"
+      "post_url": "https://t.me/presstv/190088",
+      "post_id": 190088,
+      "channel": "presstv",
+      "ts": "2026-05-16T11:30:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190083",
+      "post_id": 190083,
+      "channel": "presstv",
+      "ts": "2026-05-16T11:14:20+00:00"
     },
     {
       "post_url": "https://t.me/asafroz/49248",
@@ -144,34 +198,16 @@
       "ts": "2026-05-16T10:51:27+00:00"
     },
     {
-      "post_url": "https://t.me/SharghDaily/160205",
-      "post_id": 160205,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T10:46:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190078",
-      "post_id": 190078,
-      "channel": "presstv",
-      "ts": "2026-05-16T10:34:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160201",
-      "post_id": 160201,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T10:27:01+00:00"
+      "post_url": "https://t.me/rodast_omiddana/71407",
+      "post_id": 71407,
+      "channel": "rodast_omiddana",
+      "ts": "2026-05-16T10:26:46+00:00"
     },
     {
       "post_url": "https://t.me/kianmeli1/87435",
       "post_id": 87435,
       "channel": "kianmeli1",
       "ts": "2026-05-16T10:24:14+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160200",
-      "post_id": 160200,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T10:22:01+00:00"
     },
     {
       "post_url": "https://t.me/naya_foriraq/75485",
@@ -191,43 +227,6 @@
       "post_id": 87430,
       "channel": "kianmeli1",
       "ts": "2026-05-16T10:18:45+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190076",
-      "post_id": 190076,
-      "channel": "presstv",
-      "ts": "2026-05-16T10:17:37+00:00"
-    },
-    {
-      "post_url": "https://t.me/naya_foriraq/75484",
-      "post_id": 75484,
-      "channel": "naya_foriraq",
-      "ts": "2026-05-16T10:02:10+00:00"
-    },
-    {
-      "post_url": "https://t.me/naya_foriraq/75482",
-      "post_id": 75482,
-      "channel": "naya_foriraq",
-      "ts": "2026-05-16T09:56:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190073",
-      "post_id": 190073,
-      "channel": "presstv",
-      "ts": "2026-05-16T09:56:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/idf_telegram/23682",
-      "post_id": 23682,
-      "channel": "idf_telegram",
-      "ts": "2026-05-16T09:54:24+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/btU5UuimviswyJXAjNbM2LObSyL94yKzWRoYQDM1BzuDTop3lgwjYQRS-Na3rlbZ1MBROWkXmv80lZtVMOUptMNhI2SjeoJo8uJtFbdHmob3EcXs5XP1WUmKhuNbYL_sic-IbWgzaiF5WT8X5dMYVNN9NmzDOvZk2J-YRaohW1RNgQ22J4qKFc3ePATqfH1SR8ta6w8JmqTH6bwGggMDHhH--14R3hOcK4ubkWXgrhuZz3CMb1G2ZTanxUyl7Hsb3GUWTNlTle28kciQA023voccNe7VAux6t2ce4TItfowEyNZMIzN2Af27CrFGHDzj9_3_cxXPkR0ZDkqzqzPyeA.jpg"
-    },
-    {
-      "post_url": "https://t.me/rodast_omiddana/71406",
-      "post_id": 71406,
-      "channel": "rodast_omiddana",
-      "ts": "2026-05-16T09:54:07+00:00"
     }
   ],
   "post_images": {
@@ -235,78 +234,84 @@
     "Faytuks_Network/2736": "data/media/Faytuks_Network_2736.jpg",
     "Faytuks_Network/2739": "data/media/Faytuks_Network_2739.jpg",
     "Faytuks_Network/2740": "data/media/Faytuks_Network_2740.jpg",
+    "VahidOnline/75478": "data/media/VahidOnline_75478.jpg",
+    "VahidOnline/75479": "data/media/VahidOnline_75479.jpg",
+    "VahidOnline/75484": "data/media/VahidOnline_75484.jpg",
+    "VahidOnline/75485": "data/media/VahidOnline_75485.jpg",
+    "VahidOnline/75487": "data/media/VahidOnline_75487.jpg",
     "idf_telegram/23668": "data/media/idf_telegram_23668.jpg",
     "idf_telegram/23682": "data/media/idf_telegram_23682.jpg"
   },
-  "summary": "Israel completed a large‑scale “Sulfur and Fire” drill on its Jordanian border and intercepted a Hezbollah rocket, while a precision strike in Gaza killed Hamas military chief Izz al‑Din al‑Haddad. The United States is reportedly preparing a new operation against Iran, and the UK has dispatched Typhoon fighters to Qatar. Iran faces a daily gasoline shortfall of at least 20 million litres, heightening domestic pressure.",
+  "summary": "Hezbollah intensified cross‑border attacks from Lebanon into northern Israel, while Israel confirmed the killing of Hamas commander Izz al‑Din al‑Haddad in Gaza. The United States and Israel are reportedly preparing a new military campaign against Iran, with possible special‑operations deployments. Regional actors, including Iran and Gulf states, are escalating rhetoric and maneuvering around the Strait of Hormuz.",
   "key_points": [
-    "IDF’s “Sulfur and Fire” drill tested rapid deployment of 96th and 80th divisions on the Jordanian border.",
-    "Hezbollah rocket targeting Israeli troops in southern Lebanon was intercepted.",
-    "Israeli airstrike in Gaza’s Rimal district killed Hamas military chief Izz al‑Din al‑Haddad.",
-    "US officials are planning a possible new operation against Iran, including special‑forces uranium extraction.",
-    "UK announced deployment of four Typhoon fighters to Qatar to bolster regional air presence.",
-    "Iran reports a daily gasoline deficit of 20 million L, with production capped at 115 million L.",
-    "US‑Lebanon cease‑fire extended by 45 days, easing immediate border tensions."
+    "Hezbollah launched multiple drones, rockets and mortars at Israeli positions in southern Lebanon, with at least one drone intercepted (manniefabian/58253).",
+    "Israel’s IDF carried out an airstrike that killed Hamas Qassam Brigades commander Izz al‑Din al‑Haddad in Gaza (Faytuks_Network/2740).",
+    "U.S. and Israeli officials are conducting intensive preparations for a possible renewed strike campaign against Iran within days (asafroz/49241).",
+    "Iran announced a new professional mechanism to manage traffic through the Strait of Hormuz, limiting access to vessels cooperating with Iran (naya_foriraq/75485).",
+    "U.S. Pentagon reportedly readies a new war‑fighting package for the Gulf, with a possible $18 billion security boost from the UK (asafroz/49242).",
+    "Multiple hostile aircraft intrusions were reported across Israel’s northern border, triggering red alerts at several locations (tzevaadom_en/67218).",
+    "Iranian media aired a dramatized video claiming Iranian F‑5 jets struck a fortified U.S. base in Kuwait (presstv/190089)."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Israel’s extensive “Sulfur and Fire” drill on the Jordanian frontier demonstrated rapid mobilization of reserve forces and multi‑domain coordination, underscoring heightened readiness after the Oct 7 lessons. Simultaneously, a precision strike in Gaza eliminated Hamas military chief Izz al‑Din al‑Haddad, marking a significant degradation of Hamas command. The United States is reportedly finalising a new operation against Iran, while the UK has moved four Typhoon fighters to Qatar, indicating expanding external involvement in the theater.",
+    "executive_summary": "Hezbollah’s renewed drone and rocket barrage from Lebanon into Israel’s Galilee region marks the most immediate operational escalation. Israel responded with a high‑profile airstrike that eliminated Hamas commander Izz al‑Din al‑Haddad in Gaza, underscoring its continued offensive tempo. Simultaneously, U.S. and Israeli planners are finalising a new campaign against Iran, potentially involving special‑operations forces and expanded air strikes.",
     "iran": {
       "points": [
-        "Iran’s Energy Committee disclosed a daily gasoline shortfall of at least 20 million litres, with production limited to 110‑115 million L against a consumption of 130‑135 million L, raising risk of civil unrest (Source: @VahidOnline).",
-        "Former US officials claim the US is preparing a new operation against Iran, possibly involving special‑forces extraction of high‑enriched uranium, requiring thousands of support personnel (Source: @kianmeli1).",
-        "Iranian officials warned that U.S. sanctions and a U.S.‑led naval blockade could soon halt oil pumping, exacerbating the fuel crisis (Source: @VahidOnline).",
-        "Iran’s senior military leadership in Kurdistan announced a final push to exploit perceived enemy weakness, hinting at possible escalatory actions (Source: @kianmeli1)."
+        "Iranian officials announced a new traffic‑management system for the Strait of Hormuz, restricting passage to vessels aligned with Tehran and planning to collect fees, effectively tightening control over a key maritime chokepoint (naya_foriraq/75485).",
+        "A PressTV video claimed Iranian F‑5 fighter jets executed a sophisticated strike on a heavily fortified U.S. base in Kuwait, suggesting a propaganda effort to showcase Iranian air capability (presstv/190089).",
+        "U.S. and Israeli sources report intensive preparations for a renewed military operation against Iran, including possible deployment of the U.S. 82nd Airborne Division and special‑operations forces to target underground nuclear facilities (asafroz/49241).",
+        "Iranian media reported that a senior adviser to Supreme Leader Khamenei criticized the UAE and Kuwait for allegedly offering land to Palestinian and Iranian forces, reflecting heightened regional rhetoric (kianmeli1/87429)."
       ]
     },
     "israel": {
       "points": [
-        "The IDF completed the “Sulfur and Fire” drill on the Jordanian border, involving the 96th and 80th divisions, special forces, fighter jets and helicopters, with 100 % reserve mobilization in the 96th Division (Source: @manniefabian/58251).",
-        "Hezbollah fired a rocket at Israeli troops in southern Lebanon; the Israeli air defence intercepted it minutes later (Source: @manniefabian/58250).",
-        "An Israeli airstrike in Gaza’s Rimal neighbourhood hit a residential building and killed Hamas military chief Izz al‑Din al‑Haddad, confirmed by multiple sources (Source: @manniefabian/58256, @Faytuks_Network/2736).",
-        "Home Front Command reported multiple Red Alerts along the northern confrontation line (Metulla) and at Sdeh Meron, but all incidents were resolved without casualties (Source: @tzevaadom_en).",
-        "US‑Lebanon cease‑fire was extended by 45 days, reducing immediate border pressure (Source: @asafroz/49236)."
+        "The IDF confirmed the killing of Hamas Qassam Brigades commander Izz al‑Din al‑Haddad in a Gaza airstrike, with three Israeli fighter jets dropping 13 bombs (Faytuks_Network/2740; tzevaadom_en/67259).",
+        "Israeli forces reported multiple hostile aircraft intrusions across the northern frontier, triggering red alerts at Metulla, Kfar Giladi, Kiryat Shmona and other sites (tzevaadom_en/67218).",
+        "The IDF announced strikes on Hezbollah infrastructure in southern Lebanon, indicating a broadened campaign against Iranian‑backed militias (idf_telegram/23681).",
+        "Hezbollah launched several drones, rockets and mortars at Israeli troops in southern Lebanon; Israel intercepted at least one drone and reported a failed surface‑to‑air missile attempt (manniefabian/58253)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "Israeli strike in Gaza’s Rimal neighbourhood killed Izz al‑Din al‑Haddad, a senior Hamas military figure, and damaged a residential building (Source: @manniefabian/58256).",
-        "Yedioth reports a targeted car bomb in the Al‑Wahda neighbourhood of Gaza, resulting in three fatalities near Al‑Yarmouk stadium (Source: @yediotnews25/129327).",
-        "Another report from Yedioth notes a successful strike on a vehicle in the Rimal district, confirming ongoing precision operations (Source: @yediotnews25/129324).",
-        "Palestinian media announced the funeral of Hamas leader Izz al‑Din al‑Haddad, indicating potential rallying effects among militants (Source: @manniefabian/58262)."
+        "Thousands of mourners attended the funeral procession for Hamas commander Izz al‑Din al‑Haddad in Gaza City, reflecting the group's continued mobilization despite leadership losses (presstv/190095; manniefabian/58252).",
+        "The IDF confirmed that only two senior Hamas military leaders remain after the death of al‑Haddad, highlighting a potential leadership vacuum (Faytuks_Network/2740).",
+        "Israeli Home Front Command reported the end of a security incident at Misgav Am Tzofar on 16 May, indicating localized alerts but no major casualties (tzevaadom_en/67229).",
+        "Hezbollah claimed to have targeted Israeli army positions in the Lebanese towns of Al‑Adisa and Bayda with rockets and missiles on 14 May, suggesting coordination with Gaza‑based operations (naya_foriraq/75490)."
       ]
     },
     "lebanon": {
       "points": [
-        "Hezbollah launched a rocket at Israeli forces in southern Lebanon; Israeli air defence intercepted it, preventing casualties (Source: @manniefabian/58250).",
-        "US‑Lebanon cease‑fire extension by 45 days aims to stabilize the northern front (Source: @asafroz/49236).",
-        "No further large‑scale hostilities reported from Lebanon in the latest feed, suggesting a temporary lull."
+        "Hezbollah launched several drones from Lebanon into northern Israel, with one intercepted and others exploding in open areas, causing no injuries (manniefabian/58252).",
+        "Additional Hezbollah attacks included rockets and mortars aimed at Israeli troops in southern Lebanon, with Israeli air defenses intercepting multiple drones (manniefabian/58253).",
+        "Hezbollah attempted to shoot down an Israeli Air Force drone over southern Lebanon; the surface‑to‑air missile failed (manniefabian/58253).",
+        "Israeli officials confirmed ongoing strikes against Hezbollah infrastructure in multiple locations across southern Lebanon (idf_telegram/23681)."
       ]
     },
     "syria_iraq": {
       "points": [
-        "No direct operational reports from Syria or Iraq appear in the provided messages; intelligence focus remains on Iran, Israel, Gaza, and Lebanon."
+        "Ukrainian forces reportedly struck the Nevinnomyssk fertilizer and chemicals plant in Russia’s Stavropol region, a strategic target producing explosives precursors (asafroz/49246).",
+        "No direct Syrian or Iraqi incidents were reported in the collected messages; however, regional tension may affect both theatres given the broader Iran‑U.S. escalation."
       ]
     },
     "gulf_states": {
       "points": [
-        "UK announced deployment of four Typhoon fighters to Qatar to reinforce regional air defence amid rising tensions (Source: @kianmeli1/87428).",
-        "US‑UK discussions on increased security funding in Britain (£18 bn) reflect broader Western concern over Middle‑East instability (Source: @asafroz/49242).",
-        "Press TV commentary links US aggression toward Iran to increased Chinese leverage, indicating Gulf states may face shifting power dynamics (Source: @presstv/190083)."
+        "The UK Prime Minister is preparing an £18 billion security package amid political turmoil in London, potentially bolstering Gulf defense cooperation (asafroz/49242).",
+        "Iran’s UN envoy warned that the responsibility for the Hormuz situation lies with war initiators, hinting at possible diplomatic pushback against Gulf states supporting U.S. actions (presstv/190093).",
+        "A Chinese UN representative criticized a U.S.–Bahrain draft resolution on the Strait of Hormuz, indicating broader geopolitical contestation involving Gulf security (VahidOnline/75492)."
       ]
     },
     "key_developments": [
-      "Israel’s “Sulfur and Fire” drill on the Jordanian border mobilized 100 % of the 96th Division’s reservists and tested rapid air‑ground strikes, showing heightened readiness (Source: @manniefabian/58251).",
-      "Hezbollah’s rocket launch at Israeli troops in southern Lebanon was intercepted by Israeli air defence, preventing casualties (Source: @manniefabian/58250).",
-      "An Israeli airstrike in Gaza’s Rimal neighbourhood killed Hamas military chief Izz al‑Din al‑Haddad, a key architect of the Oct 7 attack (Source: @manniefabian/58256).",
-      "The United States is reportedly preparing a new operation against Iran, including possible special‑forces extraction of high‑enriched uranium (Source: @kianmeli1).",
-      "Iran reports a daily gasoline deficit of at least 20 million litres, with production unable to meet consumption, risking domestic unrest (Source: @VahidOnline).",
-      "The United Kingdom has dispatched four Typhoon fighter jets to Qatar to bolster regional air defence amid escalating tensions (Source: @kianmeli1/87428).",
-      "The US‑Lebanon cease‑fire was extended by 45 days, temporarily easing the northern front (Source: @asafroz/49236)."
+      "Hezbollah launched multiple drones, rockets and mortars at Israeli positions in southern Lebanon, with at least one drone intercepted by Israeli air defenses (manniefabian/58253).",
+      "Israel’s IDF carried out an airstrike that killed Hamas Qassam Brigades commander Izz al‑Din al‑Haddad in Gaza, using three fighter jets that dropped 13 bombs (Faytuks_Network/2740).",
+      "U.S. and Israeli officials are preparing a renewed military campaign against Iran, potentially involving the 82nd Airborne Division and special‑operations forces targeting underground nuclear sites (asafroz/49241).",
+      "Iran announced a new professional mechanism to control traffic through the Strait of Hormuz, limiting passage to vessels cooperating with Tehran and planning to collect fees (naya_foriraq/75485).",
+      "Multiple hostile aircraft intrusions were reported across Israel’s northern border, triggering red alerts at Metulla, Kfar Giladi, Kiryat Shmona and other locations (tzevaadom_en/67218).",
+      "PressTV aired a dramatized video claiming Iranian F‑5 jets struck a fortified U.S. base in Kuwait, reflecting heightened Iranian propaganda (presstv/190089).",
+      "The UK Prime Minister is set to announce an £18 billion security boost, potentially enhancing Gulf defense cooperation amid rising regional tensions (asafroz/49242)."
     ],
-    "threat_assessment": "Israel is reinforcing its eastern and northern fronts through large‑scale drills and rapid interception capabilities, while simultaneously degrading Hamas command structures in Gaza. Iran faces internal pressure from a severe fuel shortage and external pressure from a potential US operation, raising the risk of broader escalation. Hezbollah’s limited rocket activity suggests a restrained but still active threat to Israel’s northern border.",
-    "regional_response": "Western allies are increasing military support, exemplified by the UK’s Typhoon deployment to Qatar and Britain’s announced £18 bn security boost, indicating a collective effort to contain the conflict. Iran’s internal fuel crisis may force the regime to adopt a more aggressive posture to divert attention, while the US appears to be calibrating a new covert operation against Iranian nuclear assets. Regional actors such as Lebanon and Qatar are positioning themselves as buffers, seeking to limit spill‑over.",
-    "intelligence_notes": "Monitoring of Iranian fuel logistics is critical, as shortages could trigger civil unrest or prompt the regime to leverage proxy forces. The success of the Israeli strike on al‑Haddad may provoke retaliatory attacks from Hamas, requiring heightened alert in Gaza‑adjacent Israeli districts. The US’s contemplated operation against Iran, if executed, could involve high‑risk special‑forces missions, demanding close watch on intelligence sharing and regional troop movements."
+    "threat_assessment": "Hezbollah’s escalating drone and rocket attacks from Lebanon increase the risk of a broader Israel‑Iran proxy conflict, while Israel’s targeted killing of a senior Hamas commander demonstrates its willingness to intensify strikes in Gaza. U.S. and Israeli preparations for a new campaign against Iran could trigger a rapid escalation, especially if special‑operations forces are deployed to Iranian nuclear sites. Iran’s move to tighten control over the Strait of Hormuz adds a maritime flashpoint that could disrupt global oil flows and invite retaliatory actions from Gulf allies.",
+    "regional_response": "Gulf states are likely to bolster their air defence and naval capabilities in anticipation of heightened Iranian pressure on the Hormuz corridor, while the UK’s proposed security package suggests increased Western support. Iran’s diplomatic push at the UN and criticism of U.S.–Bahrain resolutions indicate an effort to rally regional allies and counter Western narratives. Hezbollah’s actions may draw further Israeli retaliation, potentially expanding the front lines into southern Lebanon.",
+    "intelligence_notes": "Monitoring of Iranian traffic‑management implementation in the Strait of Hormuz is critical for assessing potential disruptions to commercial shipping. Continued surveillance of Hezbollah drone launches and Israeli interception capabilities will inform the likelihood of escalation on the Israel‑Lebanon border. Tracking U.S. special‑operations deployment indicators, such as movement of the 82nd Airborne Division, will provide early warning of a possible pre‑emptive strike on Iranian nuclear facilities."
   }
 }
