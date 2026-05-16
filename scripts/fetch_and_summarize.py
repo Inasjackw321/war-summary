@@ -321,9 +321,22 @@ _KH_RE = re.compile(
 def parse_missile_count(texts: list[str], drones: int = 0) -> int:
     """Extract LAUNCHED missile count from kpszsu posts."""
     for text in texts:
-        # Only search the launch-description portion (before "збито" intercepted section)
-        zbito = re.search(r'(?:ZBITO|ЗБИТ|збит|Збит)', text)
-        launch_text = text[:zbito.start()] if zbito else text
+        # Find the attack-narrative section starting from "атакував" or "attacked with"
+        # This skips the intercepted summary that often appears first in the post
+        m_narr = re.search(r'(?:атакував\b|attacked\s+with\b).+', text, re.IGNORECASE | re.DOTALL)
+        if m_narr:
+            launch_text = m_narr.group(0)
+            # Stop before intercepted section within the narrative
+            zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed)', launch_text, re.IGNORECASE)
+            if zbito:
+                launch_text = launch_text[:zbito.start()]
+        else:
+            # No "атакував" — filter out intercepted sentences instead
+            sentences = re.split(r'(?<=[.!?\n])\s+', text)
+            launch_text = ' '.join(
+                s for s in sentences
+                if not re.search(r'збит|подавлен|shot\s*down|shotdown|suppressed|не збито', s, re.IGNORECASE)
+            )
         # Latin Kh- or Cyrillic Х- type missiles with word/digit number before
         kh_hits = _KH_RE.findall(launch_text)
         if kh_hits:
