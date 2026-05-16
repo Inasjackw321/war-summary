@@ -40,7 +40,7 @@ CONFLICTS = {
         "alert_channel": "eRadarrua",
         "channels": [
             "eRadarrua", "kpszsu", "mon1tor_ua", "Faytuks_Network",
-            "UkraineNow", "DeepStateUA", "ukr_leaks_eng"
+            "UkraineNow", "DeepStateUA", "ukr_leaks_eng", "tass_agency"
         ],
         "section_keys": [
             "executive_summary", "ukraine", "russia", "eastern_front",

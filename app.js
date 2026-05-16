@@ -206,7 +206,7 @@ function highlightLabels(text) {
 }
 
 // Defined here so renderSourceTags can reference it
-const BIASED_SOURCES_LOWER = new Set(["sharghDaily", "naya_foriraq", "presstv"].map(s => s.toLowerCase()));
+const BIASED_SOURCES_LOWER = new Set(["sharghDaily", "naya_foriraq", "presstv", "tass_agency"].map(s => s.toLowerCase()));
 function isBiasedSource(ch) { return BIASED_SOURCES_LOWER.has(ch.toLowerCase()); }
 
 function renderSourceTags(text) {
@@ -243,10 +243,13 @@ function renderSourceTags(text) {
 
 function extractImageKeys(rawText) {
   const results = [];
+  const seen = new Set();
   const re = /\((?:Source:\s*)?@?([\w]+)\/([\d]+)/gi;
   let m;
   while ((m = re.exec(rawText)) !== null) {
     const key = `${m[1]}/${m[2]}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
     const entry = currentAllMedia[key];
     if (entry) results.push({
       path: entry.localPath,
