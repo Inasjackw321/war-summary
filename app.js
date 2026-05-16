@@ -82,7 +82,8 @@ const SECTION_DEFS = {
 const charts = {};
 // Most-recent post URL per channel, set by populatePanel before rendering source tags
 let currentUrlMap = {};
-let currentPostImages = {};  // {channel/postId: telegramPostUrl}
+let currentPostImages = {};
+let currentAllMedia = {};   // {channel/postId: {localPath, postUrl}}
 
 // ── Section icons ─────────────────────────────────────────────────────────────
 const SECTION_ICONS = {
@@ -156,62 +157,6 @@ function renderActivityChart(id, timeline) {
 
 const MEDIA_CHANNELS = new Set(["Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu"]);
 
-function openTelegramLightbox(postUrl) {
-  const existing = document.getElementById("mediaLightbox");
-  if (existing) existing.remove();
-  const lb = document.createElement("div");
-  lb.id = "mediaLightbox";
-  lb.className = "media-lightbox";
-  const m = postUrl.match(/t\.me\/([^/]+)\/(\d+)/);
-  lb.innerHTML = m
-    ? `<div class="media-lightbox-inner media-lightbox-embed">
-        <div class="media-lightbox-close">✕ Close</div>
-        <iframe src="https://t.me/${m[1]}/${m[2]}?embed=1&mode=tme" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-        <a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a>
-      </div>`
-    : `<div class="media-lightbox-inner"><a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a></div>`;
-  document.body.appendChild(lb);
-  lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });
-  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
-}
-
-function renderMediaGallery(id, cardId, media) {
-  const el = document.getElementById(id);
-  const card = document.getElementById(cardId);
-  if (!el || !card) return;
-  const items = (media || []).filter(m => MEDIA_CHANNELS.has(m.channel));
-  if (!items.length) { card.classList.add("hidden"); return; }
-  card.classList.remove("hidden");
-  el.innerHTML = items.slice(0, 10).map(m => {
-    const key = `${m.channel}/${m.post_id}`;
-    const localPath = currentPostImages[key];
-    const date = m.ts ? new Date(m.ts).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" }) : "";
-    if (localPath) {
-      return `<div class="media-thumb media-thumb--img" data-posturl="${m.post_url}" data-src="${localPath}">
-        <img class="media-thumb-preview" src="${localPath}" alt="" loading="lazy">
-        <div class="media-thumb-meta">
-          <span class="media-thumb-ch">@${m.channel}</span>
-          <span class="media-thumb-date">${date}</span>
-        </div>
-        <svg class="media-thumb-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-      </div>`;
-    }
-    return `<div class="media-thumb" data-posturl="${m.post_url}">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--muted);flex-shrink:0"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-      <span class="media-thumb-ch">@${m.channel}</span>
-      <span class="media-thumb-date">${date}</span>
-      <svg class="media-thumb-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-    </div>`;
-  }).join("");
-  el.querySelectorAll(".media-thumb").forEach(thumb => {
-    thumb.addEventListener("click", e => {
-      e.preventDefault();
-      const src = thumb.dataset.src;
-      if (src) openLocalMediaLightbox(src, thumb.dataset.posturl);
-      else openTelegramLightbox(thumb.dataset.posturl);
-    });
-  });
-}
 
 function renderChannelChart(id, msgsByChannel) {
   const canvas = document.getElementById(id); if (!canvas||!msgsByChannel) return;
@@ -302,8 +247,13 @@ function extractImageKeys(rawText) {
   let m;
   while ((m = re.exec(rawText)) !== null) {
     const key = `${m[1]}/${m[2]}`;
-    const path = currentPostImages[key];
-    if (path) results.push({ path, ch: m[1], key, postUrl: `https://t.me/${m[1]}/${m[2]}` });
+    const entry = currentAllMedia[key];
+    if (entry) results.push({
+      path: entry.localPath,
+      ch: m[1],
+      key,
+      postUrl: entry.postUrl || `https://t.me/${m[1]}/${m[2]}`,
+    });
   }
   return results;
 }
@@ -381,10 +331,16 @@ function buildSectionBlock(def, sectionsData, index) {
       points.map((pt, i) => {
         const imgs = extractImageKeys(pt);
         const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch, postUrl}) =>
-          `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            @${ch}
-          </button>`).join("")}</div>` : "";
+          path
+            ? `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                @${ch}
+               </button>`
+            : `<a class="src-img-btn src-img-btn--tg" href="${postUrl}" target="_blank" rel="noopener">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                @${ch} ↗
+               </a>`
+        ).join("")}</div>` : "";
         return `<div class="section-point" style="animation-delay:${i*40}ms;--point-accent:${color}">
           <div class="section-point-inner">${renderSourceTags(leadBold(pt))}</div>
           ${imgHtml}
@@ -398,10 +354,16 @@ function buildSectionBlock(def, sectionsData, index) {
       items.map((item, i) => {
         const imgs = extractImageKeys(item);
         const imgHtml = imgs.length ? `<div class="section-point-imgs">${imgs.map(({path, ch, postUrl}) =>
-          `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            @${ch}
-          </button>`).join("")}</div>` : "";
+          path
+            ? `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                @${ch}
+               </button>`
+            : `<a class="src-img-btn src-img-btn--tg" href="${postUrl}" target="_blank" rel="noopener">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                @${ch} ↗
+               </a>`
+        ).join("")}</div>` : "";
         return `<div class="key-dev-item" style="animation-delay:${i*50}ms">
           <span class="key-dev-num">${i+1}</span>
           <span class="key-dev-text">${renderSourceTags(item)}</span>
@@ -508,6 +470,15 @@ function populatePanel(prefix, data) {
   // Update source-tag URL map so citations link to actual recent posts
   currentUrlMap = data.recent_post_urls || {};
   currentPostImages = data.post_images || {};
+  // Build combined media lookup: Telegram URL + local path (if downloaded)
+  currentAllMedia = {};
+  (data.media || []).filter(m => MEDIA_CHANNELS.has(m.channel)).forEach(m => {
+    const key = `${m.channel}/${m.post_id}`;
+    currentAllMedia[key] = { localPath: currentPostImages[key] || null, postUrl: m.post_url };
+  });
+  Object.entries(currentPostImages).forEach(([key, path]) => {
+    if (!currentAllMedia[key]) currentAllMedia[key] = { localPath: path, postUrl: null };
+  });
 
   // Middle East: divide by 2. Ukraine: show missiles + drones as separate counters
   const alertCount = prefix === "middle_east" ? Math.ceil((data.red_alerts || 0) / 2) : (data.red_alerts || 0);
@@ -567,7 +538,6 @@ function populatePanel(prefix, data) {
   }
   renderActivityChart(`${sp}-chart-activity`, data.combined_activity_timeline);
   renderChannelChart(`${sp}-chart-channels`,  data.messages_by_channel);
-  renderMediaGallery(`${sp}-media-gallery`, `${sp}-media-card`, data.media);
 
   const sourcesList = document.getElementById(`${sp}-sources-list`);
   if (sourcesList) {
