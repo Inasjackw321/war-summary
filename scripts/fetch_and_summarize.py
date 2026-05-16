@@ -285,35 +285,61 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
 
 
 _WORD_NUMS = {
+    # English
     'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
     'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
     'eleven': 11, 'twelve': 12, 'thirteen': 13, 'fourteen': 14, 'fifteen': 15,
+    # Ukrainian nominative/accusative/instrumental forms of 1–10
+    'одна': 1, 'один': 1, 'одну': 1, 'одним': 1, 'одного': 1, 'однієї': 1, 'однією': 1,
+    'два': 2, 'двох': 2, 'двома': 2,
+    'три': 3, 'трьох': 3, 'трьома': 3,
+    'чотири': 4, 'чотирьох': 4, 'чотирма': 4,
+    "п'ять": 5, "п'ятьох": 5, "п'ятьма": 5, "п'яти": 5,
+    'шість': 6, 'шістьох': 6, 'шістьма': 6, 'шести': 6,
+    'сім': 7, 'семи': 7, 'сімома': 7,
+    'вісім': 8, 'восьми': 8, 'вісьмома': 8,
+    "дев'ять": 9, "дев'яти": 9, "дев'ятьма": 9,
+    'десять': 10, 'десяти': 10, 'десятьма': 10,
 }
 
 def _to_int(s: str) -> int:
     return _WORD_NUMS.get(s.lower(), int(s) if s.isdigit() else 0)
 
 
-def parse_missile_count(texts: list[str]) -> int:
+_KH_WORD_PREFIX = (
+    r'одн\w+|дво\w*|трьо\w+|чотир\w+|п\'ят\w+|шіст\w+|сімо\w+|вісь\w+|дев\'ят\w+|десят\w+'
+    r'|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve'
+    r'|\d+'
+)
+# Matches "five Kh-31P" or "п'ятьма ... Х-31П" (0-2 adjective words allowed between numeral and Х-)
+_KH_RE = re.compile(
+    rf'({_KH_WORD_PREFIX})\s+(?:\w+\s+){{0,2}}(?:Kh|Х)-\d+',
+    re.IGNORECASE | re.UNICODE,
+)
+
+
+def parse_missile_count(texts: list[str], drones: int = 0) -> int:
     """Extract LAUNCHED missile count from kpszsu posts."""
     for text in texts:
-        # English: sum all "five Kh-31P", "one Kh-35" style mentions (attack section)
-        kh_hits = re.findall(
-            r'(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d+)\s+Kh-\d+',
-            text, re.IGNORECASE
-        )
+        # Only search the launch-description portion (before "збито" intercepted section)
+        zbito = re.search(r'(?:ZBITO|ЗБИТ|збит|Збит)', text)
+        launch_text = text[:zbito.start()] if zbito else text
+        # Latin Kh- or Cyrillic Х- type missiles with word/digit number before
+        kh_hits = _KH_RE.findall(launch_text)
         if kh_hits:
-            return sum(_to_int(h) for h in kh_hits)
-        # Digit pattern: "6 MISSILES AND" or "AND 6 MISSILES"
-        m = re.search(r'(\d+)\s+MISSILES?\s+AND|AND\s+(\d+)\s+MISSILES?', text, re.IGNORECASE)
-        if m:
-            return int(m.group(1) or m.group(2))
-        # Ukrainian total aerial means minus drone count
+            total = sum(_to_int(h) for h in kh_hits)
+            if total > 0:
+                return total
+        # Total aerial means minus launched drones
         m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
         if m_total:
-            m_dr = re.search(r'(\d+)\s+(?:ворожих?\s+)?(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
-            return int(m_total.group(1)) - (int(m_dr.group(1)) if m_dr else 0)
-        # Ukrainian: individual cruise/ballistic missiles
+            total = int(m_total.group(1))
+            if drones > 0:
+                return max(0, total - drones)
+            m_dr = re.search(r'(\d{2,4})\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа])', text)
+            if m_dr:
+                return max(0, total - int(m_dr.group(1)))
+        # Ukrainian: cruise/ballistic missile count
         hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
         if hits:
             return sum(int(x) for x in hits)
@@ -530,8 +556,12 @@ def run() -> None:
         else:  # ukraine
             # Fetch kpszsu without is_relevant() filter so short/numeric daily summaries are parsed
             kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
-            missiles = parse_missile_count(kpszsu_raw)
-            drones = parse_drone_count(kpszsu_raw, missiles=missiles)
+            drones = parse_drone_count(kpszsu_raw, missiles=0)
+            missiles = parse_missile_count(kpszsu_raw, drones=drones)
+            # If missile Kh-parse found nothing but total-means path also failed,
+            # recompute drones using the now-known missile count for accuracy
+            if missiles > 0 and drones == 0:
+                drones = parse_drone_count(kpszsu_raw, missiles=missiles)
             red_alerts_raw = missiles + drones
             print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
             update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
