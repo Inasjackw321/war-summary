@@ -84,6 +84,21 @@ _REAL_ALERT_RE = re.compile(
 )
 
 
+def _fetch_url(url: str, retries: int = 3) -> "requests.Response | None":
+    """GET with exponential-backoff retries."""
+    for attempt in range(retries):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=20)
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+            else:
+                print(f"  [warn] fetch failed ({url}): {e}", file=sys.stderr)
+    return None
+
+
 def cleanup_old_media(media_dir: Path) -> None:
     if not media_dir.exists():
         return
@@ -156,13 +171,9 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
 
     for page_num in range(12):
         url = base_url if before_id is None else f"{base_url}?before={before_id}"
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=18)
-            resp.raise_for_status()
-        except Exception as e:
-            print(f"  [warn] {channel} page {page_num}: {e}", file=sys.stderr)
+        resp = _fetch_url(url)
+        if resp is None:
             break
-
         soup = BeautifulSoup(resp.text, "html.parser")
         msg_els = soup.select(".tgme_widget_message")
         if not msg_els:
@@ -275,13 +286,9 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
 
     for page_num in range(8):
         url = base_url if before_id is None else f"{base_url}?before={before_id}"
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=18)
-            resp.raise_for_status()
-        except Exception as e:
-            print(f"  [warn] kpszsu raw page {page_num}: {e}", file=sys.stderr)
+        resp = _fetch_url(url)
+        if resp is None:
             break
-
         soup = BeautifulSoup(resp.text, "html.parser")
         msg_els = soup.select(".tgme_widget_message")
         if not msg_els:
@@ -368,38 +375,39 @@ _KH_RE = re.compile(
 
 
 def parse_missile_count(texts: list[str], drones: int = 0) -> int:
-    """Extract LAUNCHED missile count from kpszsu posts. Scans all texts, takes first non-zero."""
+    """Extract LAUNCHED missile count from kpszsu posts.
+    Once an authoritative launch narrative is found in a text, that text is
+    committed to — no fallthrough to older posts."""
     for text in texts:
-        # Find the attack-narrative section starting from "атакував" or "attacked with"
         m_narr = re.search(r'(?:атакував\b|attacked\s+with\b).+', text, re.IGNORECASE | re.DOTALL)
         if m_narr:
+            # Authoritative launch narrative — commit to this text entirely
             launch_text = m_narr.group(0)
             zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed)', launch_text, re.IGNORECASE)
             if zbito:
                 launch_text = launch_text[:zbito.start()]
-        else:
-            # Filter out intercepted sentences
-            sentences = re.split(r'(?<=[.!?\n])\s+', text)
-            launch_text = ' '.join(
-                s for s in sentences
-                if not re.search(r'збит|подавлен|shot\s*down|shotdown|suppressed|не збито', s, re.IGNORECASE)
-            )
-        # Latin Kh- or Cyrillic Х- with word/digit number
-        kh_hits = _KH_RE.findall(launch_text)
-        if kh_hits:
-            total = sum(_to_int(h) for h in kh_hits)
-            if total > 0:
-                return total
-        # Total aerial means minus launched drones
-        m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
-        if m_total:
-            total = int(m_total.group(1))
-            if drones > 0:
-                return max(0, total - drones)
-            m_dr = re.search(r'(\d{2,4})\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа])', text)
-            if m_dr:
-                return max(0, total - int(m_dr.group(1)))
-        # Ukrainian: cruise/ballistic missile count
+            # Kh- / Х- missiles
+            kh_hits = _KH_RE.findall(launch_text)
+            if kh_hits:
+                total = sum(_to_int(h) for h in kh_hits)
+                if total > 0:
+                    return total
+            # Total aerial means minus drones (both in image header and text)
+            m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
+            if m_total:
+                total = int(m_total.group(1))
+                if drones > 0:
+                    return max(0, total - drones)
+                m_dr = re.search(r'(\d{2,4})\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа])', text)
+                if m_dr:
+                    return max(0, total - int(m_dr.group(1)))
+            # Explicit cruise/ballistic count in same text
+            hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
+            if hits:
+                return sum(int(x) for x in hits)
+            # Launch narrative present but no missiles found — today had no missiles
+            return 0
+        # No launch narrative — only try explicit missile patterns
         hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
         if hits:
             return sum(int(x) for x in hits)
