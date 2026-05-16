@@ -205,22 +205,28 @@ function renderMediaGallery(id, media) {
   });
 }
 
-function openTelegramLightbox(postUrl) {
+function openTelegramLightbox(src) {
   const existing = document.getElementById("mediaLightbox");
   if (existing) existing.remove();
-  // Extract channel/id from https://t.me/channel/123
-  const m = postUrl.match(/t\.me\/([^/]+)\/(\d+)/);
   const lb = document.createElement("div");
   lb.id = "mediaLightbox";
   lb.className = "media-lightbox";
-  if (m) {
-    lb.innerHTML = `<div class="media-lightbox-inner media-lightbox-embed">
+  if (src.startsWith("data/media/")) {
+    // Local downloaded image — show directly
+    lb.innerHTML = `<div class="media-lightbox-inner">
       <div class="media-lightbox-close">✕ Close</div>
-      <iframe src="https://t.me/${m[1]}/${m[2]}?embed=1&mode=tme" frameborder="0" scrolling="no" allowtransparency="true" style="width:100%;min-height:360px;border-radius:8px;background:transparent;"></iframe>
-      <a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a>
+      <img src="${src}" alt="Post image">
     </div>`;
   } else {
-    lb.innerHTML = `<div class="media-lightbox-inner"><a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a></div>`;
+    // Fallback: embed Telegram post iframe
+    const m = src.match(/t\.me\/([^/]+)\/(\d+)/);
+    lb.innerHTML = m
+      ? `<div class="media-lightbox-inner media-lightbox-embed">
+          <div class="media-lightbox-close">✕ Close</div>
+          <iframe src="https://t.me/${m[1]}/${m[2]}?embed=1&mode=tme" frameborder="0" scrolling="no" allowtransparency="true" style="width:100%;min-height:360px;border-radius:8px;background:transparent;"></iframe>
+          <a class="media-lightbox-open-link" href="${src}" target="_blank" rel="noopener">Open in Telegram ↗</a>
+        </div>`
+      : `<div class="media-lightbox-inner"><a class="media-lightbox-open-link" href="${src}" target="_blank" rel="noopener">Open in Telegram ↗</a></div>`;
   }
   document.body.appendChild(lb);
   lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });

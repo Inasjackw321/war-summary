@@ -4,6 +4,7 @@ import json
 import time
 import re
 import sys
+import shutil
 import random
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -101,6 +102,33 @@ def is_real_alert(text: str) -> bool:
     return bool(_REAL_ALERT_RE.search(text))
 
 
+def _extract_cdn_url(photo_wrap) -> str | None:
+    """Extract the background-image CDN URL from a tgme_widget_message_photo_wrap element."""
+    style = photo_wrap.get("style", "")
+    m = re.search(r"background-image:url\('([^']+)'\)", style)
+    if m:
+        return m.group(1)
+    # Fallback: unquoted form
+    m2 = re.search(r'background-image:url\("([^"]+)"\)', style)
+    return m2.group(1) if m2 else None
+
+
+def _download_image(cdn_url: str, dest: Path) -> bool:
+    """Download a Telegram CDN image server-side (no referrer restriction) and save to dest."""
+    try:
+        resp = requests.get(cdn_url, headers={
+            "User-Agent": HEADERS["User-Agent"],
+            "Referer": "https://t.me/",
+        }, timeout=15)
+        ct = resp.headers.get("content-type", "")
+        if resp.ok and ("image" in ct or resp.content[:4] in (b"\xff\xd8\xff\xe0", b"\xff\xd8\xff\xe1", b"\x89PNG", b"RIFF", b"WEBP")):
+            dest.write_bytes(resp.content)
+            return True
+    except Exception as e:
+        print(f"    Image download failed ({cdn_url}): {e}", file=sys.stderr)
+    return False
+
+
 def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime], list[int | None], int | None, list[dict]]:
     """
     Scrape messages from the last 24 hours of a public Telegram channel.
@@ -167,7 +195,9 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
                 # Still capture photo-only posts for media collection
                 photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
                 if photo_wrap and current_mid and msg_time:
+                    cdn = _extract_cdn_url(photo_wrap)
                     all_images.append({
+                        "cdn_url": cdn,
                         "post_url": f"https://t.me/{channel}/{current_mid}",
                         "post_id": current_mid,
                         "channel": channel,
@@ -176,10 +206,12 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
                 continue
             txt = txt_el.get_text(separator=" ", strip=True)
 
-            # Capture any inline photo — store post URL (CDN URLs block direct embedding)
+            # Capture any inline photo — extract CDN URL for server-side download
             photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
             if photo_wrap and current_mid and msg_time:
+                cdn = _extract_cdn_url(photo_wrap)
                 all_images.append({
+                    "cdn_url": cdn,
                     "post_url": f"https://t.me/{channel}/{current_mid}",
                     "post_id": current_mid,
                     "channel": channel,
@@ -461,6 +493,11 @@ def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> di
 def run() -> None:
     output_dir = Path("data")
     output_dir.mkdir(exist_ok=True)
+    media_dir = output_dir / "media"
+    # Wipe previous images so stale files don't accumulate
+    if media_dir.exists():
+        shutil.rmtree(media_dir)
+    media_dir.mkdir()
 
     for key, conf in CONFLICTS.items():
         print(f"\n=== {conf['title']} ===", file=sys.stderr)
@@ -484,6 +521,22 @@ def run() -> None:
             for img in images[:5]:  # cap per channel
                 all_media.append({**img, "channel": ch})
             print(f"    -> {len(msgs)} messages, {len(images)} images", file=sys.stderr)
+
+        # Download images server-side and store local paths
+        for m in all_media:
+            cdn = m.get("cdn_url")
+            if not cdn:
+                continue
+            ext = ".jpg"
+            if "webp" in cdn.lower():
+                ext = ".webp"
+            elif ".png" in cdn.lower():
+                ext = ".png"
+            fname = f"{m['channel']}_{m['post_id']}{ext}"
+            dest = media_dir / fname
+            if _download_image(cdn, dest):
+                m["local_path"] = f"data/media/{fname}"
+                print(f"    Downloaded image: {fname}", file=sys.stderr)
 
         # Ukraine gets higher per-channel limit for better AI coverage
         per_ch_limit = 25 if key == "ukraine" else 15
@@ -566,7 +619,10 @@ def run() -> None:
             "messages_by_channel": msgs_by_channel,
             "recent_post_urls": recent_post_urls,
             "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
-            "post_images": {f"{m['channel']}/{m['post_id']}": m["post_url"] for m in all_media if m.get("channel") and m.get("post_id")},
+            "post_images": {
+                f"{m['channel']}/{m['post_id']}": m.get("local_path") or m["post_url"]
+                for m in all_media if m.get("channel") and m.get("post_id")
+            },
             **ai_result,
         }
         if key == "ukraine":
