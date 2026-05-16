@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-16T03:19:05.545209+00:00",
+  "updated_at": "2026-05-16T03:30:34.245730+00:00",
   "message_count": 231,
   "channels": [
     "eRadarrua",
@@ -11,62 +11,62 @@
     "DeepStateUA",
     "ukr_leaks_eng"
   ],
-  "red_alerts": 141,
+  "red_alerts": 0,
   "red_alerts_timeline": [
-    10,
+    1,
     0,
-    10,
+    1,
     0,
-    30,
-    20,
-    0,
-    0,
-    20,
-    10,
+    3,
+    2,
     0,
     0,
-    0,
-    0,
-    0,
-    10,
-    10,
+    2,
+    1,
     0,
     0,
     0,
     0,
-    20,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
     0,
     0
   ],
   "combined_activity_timeline": [
-    10,
-    6,
-    6,
-    8,
-    12,
-    27,
-    16,
-    6,
-    11,
-    11,
-    10,
-    10,
-    13,
-    7,
     9,
-    8,
+    5,
+    9,
+    5,
+    17,
+    24,
     14,
     7,
     11,
+    14,
+    9,
+    14,
     6,
+    8,
+    9,
+    14,
     7,
+    9,
     12,
     3,
+    8,
+    11,
+    4,
     1
   ],
   "messages_by_channel": {
-    "@eRadarrua": 76,
-    "@kpszsu": 61,
+    "@eRadarrua": 75,
+    "@kpszsu": 62,
     "@mon1tor_ua": 29,
     "@Faytuks_Network": 7,
     "@UkraineNow": 30,
@@ -75,7 +75,7 @@
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/91996",
-    "kpszsu": "https://t.me/kpszsu/62008",
+    "kpszsu": "https://t.me/kpszsu/62010",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66762",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2738",
     "UkraineNow": "https://t.me/UkraineNow/81247",
@@ -199,99 +199,81 @@
     }
   ],
   "post_images": {},
-  "summary": "Ukrainian forces reported extensive UAV activity across multiple fronts, including significant strikes on Russian infrastructure such as the Ryazan oil refinery and attacks near the Zaporizhzhia nuclear plant, while Russia intensified drone and missile attacks on Kyiv and other Ukrainian cities. A major prisoner‑of‑war exchange returned 205 Ukrainian servicemen, and Russia announced plans to target Ukrainian decision‑making centers. Regional diplomatic activity continued, with IMF officials set to review Ukraine's loan program and heightened drone alerts in the Baltics and Finland.",
+  "summary": "Ukrainian forces report multiple UAV incursions across several fronts, with notable strikes near Kharkiv airport and in the Odesa region, while Russian air assets suffered losses including a Be-200 amphibious aircraft. Civil unrest tied to the Territorial Defense Command (TCC) continues in Odesa and Kyiv, and a high‑profile Israeli strike eliminated Hamas commander Izz al‑Din al‑Haddad. The overall situation remains volatile with active engagements on multiple fronts.",
   "key_points": [
-    "Ukrainian UAVs struck Ryazan refinery and damaged residential buildings in Belgorod region.",
-    "Over 40 Russian UAVs were downed in the Rostov region; multiple UAVs intercepted over Moscow and Tula.",
-    "Ukrainian forces advanced up to 1.1 km in eleven sectors around Volchansk, Kharkiv region.",
-    "Russia prepared a new strike campaign against Ukrainian political and military decision‑making centers.",
-    "205 Ukrainian POWs were repatriated in the latest exchange, many former defenders of Mariupol.",
-    "Finland and Lithuania issued emergency drone alerts, scrambling fighters and ordering any intruding UAVs shot down.",
-    "Western analysis linked components of Russian X‑101 missiles used on Kyiv to Western suppliers."
+    "Ukrainian UAV groups operating from the Black Sea are targeting Odesa and Mykolaiv regions.",
+    "A strike by a Russian UAV hit a passenger train in Zaporizhzhia, wounding two civilians.",
+    "Israeli forces killed Hamas military chief Izz al‑Din al‑Haddad in Gaza.",
+    "Russian Be‑200 amphibious aircraft and a Ka‑27 helicopter were destroyed by SBS forces.",
+    "Civil clashes erupted in Odesa over TCC vehicle movements, involving ~30 civilians.",
+    "Ukrainian forces reclaimed Odradne in Kharkiv Oblast, eliminating Russian presence.",
+    "Ukrainian TCC staffing in Kyiv rose 40% following Zelensky’s mobilization call."
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian UAV operations have escalated, achieving notable strikes on Russian infrastructure such as the Ryazan oil refinery and targeting the Zaporizhzhia nuclear plant perimeter, while Russia responded with mass UAV interceptions and intensified missile attacks on Kyiv. Simultaneously, a large POW exchange returned 205 Ukrainian servicemen, and Russian leadership announced plans to hit Ukrainian decision‑making centers, indicating a shift toward high‑value targeting. Regional airspace security concerns rose sharply, with Finland and Lithuania issuing emergency drone alerts and scrambling fighters.",
+    "executive_summary": "Ukrainian UAV activity intensified, with strike groups from the Black Sea and Donetsk region targeting Odesa, Kharkiv airport, and southern front positions, while Russian air assets suffered notable losses including a Be‑200 amphibious aircraft. Civil unrest linked to the Territorial Defense Command flared in Odesa and Kyiv, complicating internal security. An Israeli precision strike eliminated Hamas commander Izz al‑Din al‑Haddad, underscoring broader regional escalation.",
     "ukraine": {
       "points": [
-        "Ukrainian forces reported a successful strike on the Ryazan oil refinery, causing damage to two multi‑story residential buildings, killing three civilians and injuring twelve, including children; evacuation and demolition of the structures began (Source: @ukr_leaks_eng/30185).",
-        "In the Kharkiv region, the North Army Group advanced up to 1,100 meters in eleven sectors around Volchansk, engaging in fierce forest combat along the Volchya River and in Chaikovka and Volokhovka (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian UAVs attacked the Zaporizhzhia Nuclear Power Plant area, injuring two plant employees 100 m from the perimeter, and also struck Kamyanka‑Dneprovskaya and Energodar (Source: @ukr_leaks_eng/30185).",
-        "A prisoner‑of‑war exchange returned 205 Ukrainian servicemen, including navy, ground, airborne and National Guard personnel, many of whom endured four years of captivity after the defense of Mariupol (Source: @DeepStateUA/23506).",
-        "Ukrainian artillery struck Kamyanka‑Dneprovskaya and Energodar from the AFU side, supporting the Zaporizhzhia front operations (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian forces reported continued skirmishes in Sumy (Shostka, Kontradovka, Zapselye) and tactical advances in Krasnopol district near Ryasnoe (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian authorities arrested a man who poured an unidentified dirty liquid on Lviv Mayor Sadovyi, indicating heightened security concerns in western cities (Source: @ukr_leaks_eng/30190)."
+        "Ukrainian UAVs launched from the Black Sea attacked Odesa and Mykolaiv regions, with 20‑30 Shahed drones reported over the Black Sea heading toward Odesa (Source: @mon1tor_ua/66760).",
+        "A Ukrainian strike group of UAVs operated near Kharkiv airport, indicating a focus on disrupting airfield operations (Source: @kpszsu/61974).",
+        "Ukrainian forces recaptured the village of Odradne in Kharkiv Oblast, eliminating Russian elements and restoring full control (Source: @DeepStateUA/23505).",
+        "Ukrainian Territorial Defense Command (TCC) personnel in Kyiv increased by 40% after Zelensky's mobilization directive, reflecting a surge in internal security forces (Source: @ukr_leaks_eng/30197)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces shot down multiple UAVs over the Rostov region (over 40), Tula (nine), and near Moscow, indicating robust air‑defence activity (Source: @ukr_leaks_eng/30185).",
-        "Russia reported missile strikes on Ukrainian Chernigov, Dnipropetrovsk, Sumy, Odesa, and Zaporizhzhia regions, continuing pressure on multiple fronts (Source: @ukr_leaks_eng/30185).",
-        "Russian officials announced preparation for a new strike campaign targeting nearly two dozen Ukrainian political and military decision‑making centers (Source: @ukr_leaks_eng/30198).",
-        "A Russian MiG‑31K equipped with an X‑47M2 Kinzhal was detected nationwide, prompting a national alert due to its aeroballistic capabilities (Source: @eRadarrua/91942).",
-        "Russian air‑defence downed a Ukrainian drone over Rylsk in Kursk region, preventing potential casualties near a school (Source: @ukr_leaks_eng/30185).",
-        "Russian forces reported destroying transport assets in Kherson as part of the Dnieper Army Group's counter‑operations (Source: @ukr_leaks_eng/30185).",
-        "Russian missile components used in attacks on Kyiv were traced to Western suppliers, highlighting supply‑chain vulnerabilities (Source: @UkraineNow/81246)."
+        "Russian Be‑200 amphibious aircraft was destroyed by SBS forces, along with a Ka‑27 helicopter in Yeysk, indicating effective Ukrainian anti‑air operations (Source: @UkraineNow/81214).",
+        "Russian UAVs conducted a strike on a residential building in Ryazan, causing three deaths and twelve injuries (Source: @ukr_leaks_eng/30185).",
+        "Russian forces reported continued skirmishes in the Sumy direction, advancing up to 1,100 meters in the Volchansk sector (Source: @ukr_leaks_eng/30185).",
+        "A Russian UAV was shot down over Rylsk in Kursk region, highlighting heightened air defense activity (Source: @ukr_leaks_eng/30185)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian assault troops of the North Army Group continued forest clearing in Shostka district, Sumy, advancing toward Bachivsk, while skirmishes persisted in Kontradovka and Zapselye (Source: @ukr_leaks_eng/30185).",
-        "In the Dnipropetrovsk region, the East Army Group penetrated northwest of Alexandrovgrad, fighting across the Volchya River toward Lesnoe (Source: @ukr_leaks_eng/30185).",
-        "Zaporozhzhia front saw intense drone activity; Ukrainian UAVs attacked the nuclear plant perimeter and artillery struck Kamyanka‑Dneprovskaya and Energodar (Source: @ukr_leaks_eng/30185).",
-        "Russian strikes hit Sumy, Dnipropetrovsk, and Zaporizhzhia regions, indicating coordinated pressure across the eastern axis (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian UAV groups reported over the Donetsk region (2 groups) and Kharkiv region (3 groups) conducting operations (Source: @eRadarrua/91970).",
-        "Additional UAV activity reported in Dnipropetrovsk (2 groups) and Donetsk (5 groups) on 15 May (Source: @eRadarrua/91976).",
-        "Ukrainian forces claimed destruction of Russian transport in Kherson, supporting eastern flank logistics (Source: @ukr_leaks_eng/30185)."
+        "Ukrainian UAV groups from Donetsk region flew southwest past Sviatohirsk, suggesting pressure on Russian rear areas (Source: @kpszsu/61994).",
+        "Russian assault units of the 'North' Army Group advanced up to 1.1 km in the Volchansk sector of Kharkiv region, encountering fierce resistance (Source: @ukr_leaks_eng/30185).",
+        "Ukrainian UAVs targeted a passenger train in Zaporizhzhia, causing two civilian injuries and prompting evacuation (Source: @UkraineNow/81213).",
+        "Russian forces reported ongoing forest combat near Bachivsk and Shostka in Sumy, indicating a contested eastern line (Source: @ukr_leaks_eng/30185)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs were observed over the Kyiv area with no incidents reported, indicating a cleared airspace (Source: @mon1tor_ua/66744).",
-        "Russian missile attacks on Kyiv resulted in 24 fatalities, including three children, and 48 injured, with extensive building damage (Source: @UkraineNow/81207).",
-        "Finland issued a general emergency alert for the Uusimaa region after drones entered its airspace; Hornet fighters were scrambled between Helsinki and Porvoo (Source: @Faytuks_Network/2732).",
-        "Lithuania's president demanded immediate shoot‑down of any drone entering its airspace, reflecting heightened Baltic vigilance (Source: @ukr_leaks_eng/30180).",
-        "Ukrainian forces reported a UAV attack on a woman in Brilevka, Kherson region, showing cross‑border UAV reach (Source: @ukr_leaks_eng/30185).",
-        "Russian forces downed a Ukrainian drone over Rylsk, Kursk, preventing potential casualties near a school (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian police intervened in a civilian incident involving a man defending a bus passenger in Kyiv, indicating internal security pressures (Source: @ukr_leaks_eng/30181)."
+        "Ukrainian UAVs were observed near Chernihiv, moving from Varva toward Poltava, indicating north‑southern axis activity (Source: @kpszsu/61997).",
+        "New UAV groups from Belgorod entered Sumy Oblast, expanding the northern aerial threat (Source: @kpszsu/61978).",
+        "Ukrainian forces reported a UAV group near Zhytomyr heading toward Vinnytsia, showing north‑west pressure (Source: @kpszsu/62007).",
+        "Ukrainian radar reports indicated Shahed activity over Poltava and Sumy regions, with multiple groups engaged (Source: @eRadarrua/91969, @eRadarrua/91978)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian UAVs attacked the Ryazan refinery and residential areas in Belgorod, causing civilian casualties (Source: @ukr_leaks_eng/30185).",
-        "In the Rostov region, over 40 UAVs were destroyed, and attacks were reported on Taganrog and 11 districts of the region (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian UAV groups reported activity near Nova Kahovka heading north, and in Odesa region near Izmail, prompting civilian shelter alerts (Source: @kpszsu/61987, @kpszsu/61995).",
-        "Ukrainian forces reported a UAV attack in Kherson's Brilevka settlement, injuring a woman (Source: @ukr_leaks_eng/30185).",
-        "Russian forces increased pressure on Novodmitrovka from the flank, citing battles in Gory and Santurivka (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian UAVs from Kherson passed near Verkhnii Rohachyk heading toward Nikopol, indicating south‑to‑north strike vectors (Source: @eRadarrua/91988).",
-        "Russian air‑defence downed multiple UAVs over the Tula region, maintaining defensive depth (Source: @ukr_leaks_eng/30185)."
+        "Ukrainian UAV groups from the Black Sea moved toward Odesa and Mykolaiv, with 20‑30 drones reported (Source: @mon1tor_ua/66760).",
+        "A new UAV group from Nova Kakhovka headed north, potentially targeting Kherson or Mykolaiv (Source: @kpszsu/61987).",
+        "UAVs from the Black Sea approached Odesa/Mikolaiv corridor, heading toward Chornomorsk‑Zatoka and Vylkove (Source: @kpszsu/61988).",
+        "Ukrainian SBS claimed 55 fire engagements against 23 Russian targets across Taganrog, Yeysk, and Crimea, indicating broad southern strike capability (Source: @UkraineNow/81214)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian UAVs successfully struck Ryazan refinery and damaged residential structures in Belgorod, demonstrating deep‑strike capability (Source: @ukr_leaks_eng/30185).",
-        "Russian air‑defence shot down over 40 UAVs in Rostov, nine in Tula, and additional drones over Moscow and Kursk, showing high interception rates (Source: @ukr_leaks_eng/30185).",
-        "Ukrainian UAVs attacked the Zaporizhzhia Nuclear Power Plant perimeter, injuring two plant employees (Source: @ukr_leaks_eng/30185).",
-        "Russian MiG‑31K equipped with X‑47M2 Kinzhal was detected nationwide, prompting a national alert (Source: @eRadarrua/91942).",
-        "Finnish Hornet fighters were scrambled to monitor drone activity between Helsinki and Porvoo after a general emergency alert (Source: @Faytuks_Network/2732).",
-        "Lithuania announced a shoot‑down policy for any drone entering its airspace, reflecting heightened Baltic air‑defence posture (Source: @ukr_leaks_eng/30180).",
-        "Ukrainian artillery supported air‑defence by striking Kamyanka‑Dneprovskaya and Energodar, complementing UAV operations (Source: @ukr_leaks_eng/30185)."
+        "Ukrainian forces shot down multiple UAVs over Moscow and Rostov, with over 40 destroyed in Rostov alone (Source: @ukr_leaks_eng/30185).",
+        "Russian Be‑200 amphibious aircraft and Ka‑27 helicopter were destroyed by Ukrainian SBS units (Source: @UkraineNow/81214).",
+        "Ukrainian UAVs conducted a strike on the Zaporozhye Nuclear Power Plant perimeter, injuring two civilians 100 m from the site (Source: @ukr_leaks_eng/30185).",
+        "Russian air defenses downed a UAV over Rylsk, Kursk, preventing potential casualties (Source: @ukr_leaks_eng/30185)."
       ]
     },
     "key_developments": [
-      "Ukrainian UAVs struck the Ryazan oil refinery, killing three civilians and injuring twelve, prompting evacuation of damaged residential buildings (Source: @ukr_leaks_eng/30185).",
-      "Over 40 Russian UAVs were downed in the Rostov region, with additional interceptions over Moscow, Tula and Kursk, indicating intensified aerial contest (Source: @ukr_leaks_eng/30185).",
-      "Ukrainian forces advanced up to 1,100 m in eleven sectors around Volchansk, Kharkiv region, engaging in forest combat along the Volchya River (Source: @ukr_leaks_eng/30185).",
-      "Russia announced plans to strike nearly two dozen Ukrainian political and military decision‑making centers, signaling a shift to high‑value targeting (Source: @ukr_leaks_eng/30198).",
-      "A prisoner‑of‑war exchange returned 205 Ukrainian servicemen, many former defenders of Mariupol, after four years of captivity (Source: @DeepStateUA/23506).",
-      "Finland issued an emergency drone alert, scrambling Hornet fighters between Helsinki and Porvoo after unmanned aircraft entered its airspace (Source: @Faytuks_Network/2732).",
-      "Western components were identified in X‑101 missiles used in the Kyiv attack, linking Russian munitions to Western supply chains (Source: @UkraineNow/81246)."
+      "Ukrainian UAV groups from the Black Sea launched 20‑30 Shahed drones toward Odesa and Mykolaiv, intensifying southern aerial pressure (Source: @mon1tor_ua/66760).",
+      "Russian Be‑200 amphibious aircraft and a Ka‑27 helicopter were destroyed by SBS forces, marking a significant loss of Russian air capability (Source: @UkraineNow/81214).",
+      "Israeli forces killed Hamas military chief Izz al‑Din al‑Haddad in a targeted strike in Gaza, indicating escalation beyond the Ukraine theater (Source: @Faytuks_Network/2736).",
+      "Ukrainian forces recaptured Odradne in Kharkiv Oblast, eliminating Russian presence and restoring control (Source: @DeepStateUA/23505).",
+      "A Russian UAV strike on a passenger train in Zaporizhzhia wounded two civilians and forced evacuation, showing continued Russian targeting of transport infrastructure (Source: @UkraineNow/81213).",
+      "Civil unrest erupted in Odesa as ~30 civilians blocked a TCC vehicle, leading to police intervention and arrests (Source: @ukr_leaks_eng/30179).",
+      "Ukrainian TCC staffing in Kyiv rose 40% following Zelensky’s mobilization call, reflecting increased internal security mobilization (Source: @ukr_leaks_eng/30197)."
     ],
-    "threat_assessment": "Ukrainian UAV capabilities have expanded, enabling deep strikes on Russian infrastructure and high‑value targets such as the Ryazan refinery and Zaporizhzhia nuclear plant perimeter. Russia counters with dense air‑defence networks, downing large numbers of drones, while also preparing precision strikes on Ukrainian decision‑making hubs, raising the risk of escalatory targeting of command centres. The proliferation of drone activity across the Baltic states and Finland underscores a widening aerial threat envelope that could strain regional air‑defence resources.",
-    "regional_response": "Baltic and Nordic states have heightened air‑space security, with Lithuania adopting a shoot‑down policy for any intruding UAV and Finland conducting a three‑hour airport shutdown and scrambling fighters. The IMF mission scheduled for June reflects continued Western financial support for Ukraine, while diplomatic efforts to coordinate a joint Gulf response to Iran have stalled, indicating limited regional focus on the Ukraine conflict. NATO allies continue to provide air‑defence assets and intelligence, as evidenced by the detection of Western components in Russian missiles.",
-    "intelligence_notes": "Open‑source monitoring of UAV traffic reveals coordinated Ukrainian strike patterns targeting Russian logistical nodes and critical infrastructure, suggesting improved command‑and‑control integration. Russian air‑defence success rates remain high, but the emergence of MiG‑31K/Kinzhal platforms introduces a new strategic strike capability that could threaten deep‑strike assets. The prisoner‑of‑war exchange indicates ongoing diplomatic channels for humanitarian issues, while the detection of Western micro‑electronics in Russian missiles may provide leverage for sanctions or export controls."
+    "threat_assessment": "Ukrainian UAV activity is expanding across multiple axes, threatening Russian logistics and rear areas, while Russian air assets suffer notable attrition, reducing their operational depth. Russian ground forces continue incremental advances in the east but face stiff resistance, especially around Kharkiv and Sumy. The emergence of civilian unrest linked to the TCC could strain Ukrainian internal stability, complicating force allocation.",
+    "regional_response": "Western partners are likely to increase UAV counter‑measure support to Ukraine, given the demonstrated effectiveness of Ukrainian drone strikes. Russia may prioritize rebuilding its air capabilities and reinforce air defenses around key logistics hubs. Israel's targeted strike against Hamas may prompt broader regional security recalibrations, potentially affecting Russian strategic calculations.",
+    "intelligence_notes": "Monitoring of UAV launch points in the Black Sea and Donetsk regions is critical for predicting upcoming strike corridors. The loss of Russian Be‑200 and Ka‑27 assets suggests vulnerabilities in maritime air operations that can be exploited. Civilian confrontations with TCC personnel in Odesa and Kyiv warrant close observation for potential escalation of internal dissent."
   },
   "missiles": 0,
-  "drones": 141
+  "drones": 0
 }
