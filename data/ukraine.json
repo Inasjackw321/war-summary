@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-16T10:49:14.053513+00:00",
+  "updated_at": "2026-05-16T11:13:21.315628+00:00",
   "message_count": 187,
   "channels": [
     "eRadarrua",
@@ -26,61 +26,61 @@
     0,
     0,
     0,
-    27,
-    27,
+    53,
     0,
     0,
     0,
-    27,
-    27,
+    0,
+    53,
+    0,
     0,
     0,
     53,
     0
   ],
   "combined_activity_timeline": [
-    9,
-    8,
-    13,
-    10,
-    15,
-    3,
-    10,
-    8,
-    13,
-    6,
     10,
     12,
+    10,
+    10,
+    13,
+    4,
+    9,
+    8,
+    16,
     5,
-    7,
-    9,
-    2,
-    3,
-    2,
+    13,
     6,
+    5,
     12,
-    8,
-    3,
+    4,
+    1,
+    5,
+    2,
+    10,
+    9,
+    7,
+    2,
     6,
-    4
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 60,
-    "@kpszsu": 53,
+    "@eRadarrua": 61,
+    "@kpszsu": 52,
     "@mon1tor_ua": 16,
-    "@Faytuks_Network": 7,
+    "@Faytuks_Network": 6,
     "@UkraineNow": 27,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 23
+    "@ukr_leaks_eng": 24
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92019",
+    "eRadarrua": "https://t.me/eRadarrua/92022",
     "kpszsu": "https://t.me/kpszsu/62034",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66763",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/2740",
-    "UkraineNow": "https://t.me/UkraineNow/81258",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/2742",
+    "UkraineNow": "https://t.me/UkraineNow/81259",
     "DeepStateUA": "https://t.me/DeepStateUA/23507",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30212"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30213"
   },
   "media": [
     {
@@ -109,6 +109,12 @@
       "ts": "2026-05-16T09:11:29+00:00"
     },
     {
+      "post_url": "https://t.me/ukr_leaks_eng/30207",
+      "post_id": 30207,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-05-16T08:04:02+00:00"
+    },
+    {
       "post_url": "https://t.me/eRadarrua/92007",
       "post_id": 92007,
       "channel": "eRadarrua",
@@ -132,6 +138,12 @@
       "post_id": 92005,
       "channel": "eRadarrua",
       "ts": "2026-05-16T06:09:06+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81250",
+      "post_id": 81250,
+      "channel": "UkraineNow",
+      "ts": "2026-05-16T05:51:56+00:00"
     },
     {
       "post_url": "https://t.me/UkraineNow/81248",
@@ -194,18 +206,6 @@
       "post_id": 30196,
       "channel": "ukr_leaks_eng",
       "ts": "2026-05-15T14:44:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81239",
-      "post_id": 81239,
-      "channel": "UkraineNow",
-      "ts": "2026-05-15T13:46:06+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30193",
-      "post_id": 30193,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-05-15T13:32:57+00:00"
     }
   ],
   "post_images": {
@@ -214,111 +214,105 @@
     "Faytuks_Network/2739": "data/media/Faytuks_Network_2739.jpg",
     "Faytuks_Network/2740": "data/media/Faytuks_Network_2740.jpg"
   },
-  "summary": "Ukrainian Shahed and UAV attacks intensified across central and northern oblasts, while Russia warned of Iskander-M launches from Bryansk and conducted a strike on a Russian chemical plant in Stavropol. Russian UAV groups from the Black Sea are massing for attacks on Odesa and Mykolaiv, and a high‑altitude UAV was observed over Cherkasy. Both sides report heightened air‑defence alerts in Kyiv and increased civilian casualties from stray incidents.",
+  "summary": "Ukrainian forces report intensified UAV and missile attacks across multiple fronts, while Russian forces claim defensive successes and continue targeting infrastructure in occupied territories. Both sides are escalating drone warfare, with notable strikes on the Crimean Bridge, Odessa's Izmail, and southern Odesa region. Civilian casualties and infrastructure damage are rising, and political rhetoric hints at broader strategic targeting of decision‑making centers.",
   "key_points": [
-    "Ukrainian Shahed swarms hit Zaporizhzhia, Kharkiv, Poltava, Sumy, Chernihiv and Kyiv suburbs.",
-    "Russia threatens Iskander‑M ballistic missile launches from Bryansk region.",
-    "Black Sea UAV formations (20‑30 units) moving toward Odesa, Mykolaiv and Chornomorsk.",
-    "High‑altitude UAV (>9 km) detected over Cherkasy region.",
-    "Russian strike damaged the Azot chemical plant in Stavropol, a key munitions producer.",
-    "Civilian incidents in Kyiv (traffic crash) and Khmelnytskyi (police shooting) raise domestic tension.",
-    "Ukrainian leadership warns Russia is seeking to target Kyiv’s command structure."
+    "Ukrainian UAV losses: 138 drones downed over Russian regions, including Stavropol and Rostov (kpszsu/62002).",
+    "Russian drone attacks hit Izmail (Odessa), Kharkiv, Poltava, and Kryvyi Rih, causing civilian injuries (kpszsu/62002).",
+    "Massive UAV swarm from the Black Sea targeted Odesa region; 20‑30 drones reported (mon1tor_ua/66760).",
+    "Crimean Bridge blocked by high‑density drone activity; Russian claim of defensive fire (kpszsu/62002).",
+    "Multiple Shahed missile strikes reported in Kharkiv, Sumy, Poltava, and Chernihiv oblasts (eRadarrua posts).",
+    "Russian tactical aviation activity heightened in the north‑east direction, warning of imminent strikes (kpszsu/62028).",
+    "Civilian casualties rise from drone strikes in Kherson and Odesa, including a fatal hit on a residential building (UkraineNow/81248)."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian Shahed and UAV attacks surged across central Ukraine, striking multiple oblasts and prompting repeated air‑raid alerts in Kyiv, while Russia announced a potential Iskander‑M launch from Bryansk and struck the Azot chemical plant in Stavropol, indicating an escalation in both conventional and strategic threats.",
+    "executive_summary": "Ukrainian forces suffered heavy UAV losses while launching extensive drone and Shahed missile attacks on Russian‑held territories, notably striking the Crimean Bridge and multiple urban centers in the south. Russian forces responded with intensified tactical aviation alerts in the north‑east and continued drone strikes on Ukrainian civilian infrastructure, raising the risk of broader escalation. Civilian casualties are mounting across Kherson, Odesa, and other regions, underscoring the growing humanitarian impact of the aerial campaign.",
     "ukraine": {
       "points": [
-        "Shahed drones (1‑6 groups) were reported over Zaporizhzhia, Kharkiv, Poltava, Sumy, Chernihiv and Kyiv suburbs, with four Shaheds passing near Zolotonosha in Cherkasy and a reactive Shahed heading toward Irpin, Bucha, Hostomel and Vyshhorod (Source: @mon1tor_ua/66747).",
-        "Ukrainian UAVs from the Black Sea are massing, with 20‑30 strike drones heading toward Odesa‑Zatoka and Vilkove, and additional groups moving westward from Sumy toward Lebedyn‑Trostianets‑Hadiach (Source: @kpszsu/61979).",
-        "A high‑altitude UAV (>9 km) was tracked over Cherkasy, on a course toward Kam'yanka, indicating possible reconnaissance or long‑range strike capability (Source: @eRadarrua/92002).",
-        "Ukrainian forces reported a Shahed swarm of seven drones from Sumy entering Chernihiv’s Pryluky district, and three Shaheds from Poltava heading to Cherkasy’s Zolotonosha area (Source: @mon1tor_ua/66761).",
-        "Ukrainian air‑defence in Kyiv issued multiple alerts, including a red alert at 10:47 on 16 May 2026 (Source: @eRadarrua/92010)."
+        "Ukrainian air defenses shot down 138 UAVs over Russian regions, including Stavropol, Rostov, and near Moscow, indicating a high‑intensity aerial offensive (kpszsu/62002).",
+        "Ukrainian forces reported Shahed missile launches: 9 groups in Sumy, 5 in Kharkiv, and multiple clusters in Poltava and Chernihiv oblasts, targeting both military and civilian sites (eRadarrua/91967, eRadarrua/91984, eRadarrua/92020).",
+        "A Ukrainian UAV strike attempted on the Azot plant near Nevinnomyssk in Stavropol was repelled, showing Russian defensive capability (kpszsu/62002).",
+        "Ukrainian pilots proposed a language‑policy moratorium, reflecting internal morale issues within the 5th Air Assault Brigade (ukr_leaks_eng/30194)."
       ]
     },
     "russia": {
       "points": [
-        "Russia warned of imminent Iskander‑M ballistic missile launches from Bryansk oblast, raising the threat level for northern Ukraine (Source: @mon1tor_ua/66745).",
-        "A Russian strike hit the Azot chemical plant in Stavropol Krai, causing explosions at a major munitions producer that manufactures up to 1.4 Mt of nitrate and 1 Mt of ammonia annually (Source: @UkraineNow/81249).",
-        "Russian forces reported a Shahed group of 2‑3 drones over Donetsk and Kharkiv oblasts, indicating continued use of Iranian‑supplied loitering munitions (Source: @eRadarrua/91970).",
-        "Russian intelligence claims they are actively seeking Ukrainian leadership locations for targeted strikes (Source: @ukr_leaks_eng/30202).",
-        "Russian ballistic missile threat is complemented by increased deployment of UAVs from the Black Sea, with new groups heading toward Odesa and Mykolaiv (Source: @kpszsu/61985)."
+        "Russian forces claimed successful defense of the Crimean Bridge, reporting blockage of Ukrainian drone traffic and downing of multiple UAVs (kpszsu/62002).",
+        "Russian tactical aviation warned of imminent strikes in the north‑east sector, suggesting preparation for offensive air operations (kpszsu/62028).",
+        "Russian reports of ballistic missile threat from the north indicate possible escalation of long‑range strikes (kpszsu/62029).",
+        "Russian authorities in Izmail (Odessa region) faced a civilian confrontation with TCC officials, highlighting tension in occupied areas (ukr_leaks_eng/30213)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Shahed attacks were logged in Kharkiv oblast, including a strike that damaged three metro exits and ground‑transport stops in Shevchenkivskyi district, injuring one civilian (Source: @UkraineNow/81253).",
-        "Ukrainian UAVs from Sumy moved westward toward Lebedyn‑Trostianets‑Hadiach, potentially targeting Russian supply lines in the east (Source: @kpszsu/61979).",
-        "A Shahed swarm of six drones was observed over Donetsk region, suggesting continued Russian‑backed air activity in contested eastern zones (Source: @eRadarrua/91970).",
-        "Ukrainian forces reported a Shahed group of 1‑3 drones over Poltava heading to Cherkasy’s Zolotonosha district, indicating cross‑front coordination (Source: @mon1tor_ua/66761).",
-        "Russian UAV activity over Dnipropetrovsk region included a Shahed passing near Slobozhanske from the north (Source: @eRadarrua/92015)."
+        "Ukrainian forces reported Shahed missile activity in Sumy (Shostka district) and ongoing forest combat near Bachevsk, with Russian mortar and UAV redeployments deeper into Ukrainian territory (kpszsu/62002).",
+        "Heavy drone activity reported near the border of Donetsk, with groups heading toward Pavlograd from Sloviansk, indicating pressure on eastern supply lines (kpszsu/61980).",
+        "Ukrainian UAVs attempted attacks on the Azot plant in Stavropol, a strategic industrial target, but were repelled (kpszsu/62002).",
+        "Russian artillery and drone exchanges continued around Kupyansk, maintaining a gray zone with no decisive changes (kpszsu/62002)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple Shahed drones (4‑7) were tracked moving northward through Cherkasy toward Zolotonosha, indicating pressure on the central‑northern axis (Source: @mon1tor_ua/66762).",
-        "Ukrainian UAV groups from the Black Sea are heading north toward the Kyiv region, with a reported 20‑30‑drone formation targeting Odesa but potentially transiting northern airspace (Source: @mon1tor_ua/66760).",
-        "Russian Iskander‑M launch threat from Bryansk raises the risk of long‑range strikes on northern Ukrainian cities (Source: @mon1tor_ua/66745).",
-        "A high‑altitude UAV (>9 km) was observed over Cherkasy, suggesting reconnaissance over the northern front (Source: @eRadarrua/92002).",
-        "Ukrainian Shahed activity included 7 drones from Sumy heading to Chernihiv’s Pryluky district, stressing northern defenses (Source: @mon1tor_ua/66761)."
+        "Russian tactical aviation activity heightened in the north‑east direction, warning of possible strikes on frontline oblasts (kpszsu/62028).",
+        "Ukrainian UAVs were downed over Bryansk, Belgorod, and Voronezh regions, with civilian injuries reported in Solova village (kpszsu/62002).",
+        "Drone attacks on Russian cities of Taganrog and Kamensk‑Shakhtinsky resulted in multiple UAV destructions, showing sustained Ukrainian pressure (kpszsu/62002).",
+        "A group of strike UAVs entered Kyiv region near Zghurivka, heading toward Brovary, indicating continued threats to the capital (kpszsu/62002)."
       ]
     },
     "southern_front": {
       "points": [
-        "Black Sea UAV formations (20‑30 units) are moving toward Odesa, Mykolaiv, Chornomorsk and the Zatoka area, indicating a buildup for southern offensive operations (Source: @kpszsu/61985).",
-        "Ukrainian Shahed drones were reported over Kherson and Zaporizhzhia, with a group of 2‑3 drones passing near Verkhnia Rohachyk en route to Nikopol (Source: @eRadarrua/91988).",
-        "Ukrainian UAVs from the Black Sea were also observed heading toward the Odesa‑Zatoka corridor and Vilkove, suggesting coordinated strikes on port infrastructure (Source: @kpszsu/61988).",
-        "Russian forces claimed a Shahed strike in the Dnipropetrovsk region near Slobozhanske, indicating southern pressure (Source: @eRadarrua/92015).",
-        "Ukrainian drone activity over the southern front included a Shahed group of 3 drones targeting Izmail in Odesa oblast (Source: @mon1tor_ua/66761)."
+        "A swarm of 20‑30 UAVs launched from the Black Sea targeted Odesa region, with reported hits on residential buildings and port infrastructure, causing civilian casualties (mon1tor_ua/66760, UkraineNow/81248).",
+        "Russian forces attacked Izmail, Kharkiv, Poltava, and Kryvyi Rih, resulting in civilian injuries and property damage (kpszsu/62002).",
+        "Ukrainian Shahed missile groups reported in Kharkiv and Sumy oblasts, threatening both military positions and civilian areas (eRadarrua/91967, eRadarrua/92020).",
+        "Ukrainian forces noted a missile strike on a five‑storey residential block in Odesa, causing fire and injuries (UkraineNow/81248)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian Shahed swarms caused multiple air‑raid alerts in Kyiv, including a red alert at 10:47 on 16 May 2026 (Source: @eRadarrua/92010).",
-        "Russian Iskander‑M ballistic missile threat from Bryansk raises the risk of high‑speed, long‑range strikes on Ukrainian air‑defence zones (Source: @mon1tor_ua/66745).",
-        "Ukrainian UAV groups from the Black Sea (20‑30 units) are massing for coordinated attacks on Odesa and Mykolaiv, potentially overwhelming local air‑defence (Source: @mon1tor_ua/66760).",
-        "High‑altitude UAV (>9 km) observed over Cherkasy suggests advanced reconnaissance or strike capability beyond typical Shahed range (Source: @eRadarrua/92002).",
-        "Russian strike on the Azot plant in Stavropol indicates use of air assets against strategic industrial targets deep inside Russian territory (Source: @UkraineNow/81249)."
+        "Ukrainian air defenses downed 138 UAVs across Russian territory, highlighting a high‑intensity drone war (kpszsu/62002).",
+        "Russian tactical aviation warned of imminent strikes in the north‑east, suggesting preparation for offensive air operations (kpszsu/62028).",
+        "Multiple UAV groups reported crossing from the Black Sea toward Odesa, with some carrying containerized c‑bombs, raising the risk of unconventional payloads (eRadarrua/92005).",
+        "Ukrainian UAVs attempted attacks on strategic Russian industrial sites, such as the Azot plant, but were repelled (kpszsu/62002)."
       ]
     },
     "key_developments": [
-      "Ukrainian Shahed swarms struck Zaporizhzhia, Kharkiv, Poltava, Sumy, Chernihiv and Kyiv suburbs, prompting repeated air‑raid alerts (Source: @mon1tor_ua/66747).",
-      "Russia warned of imminent Iskander‑M ballistic missile launches from Bryansk, raising strategic strike risk (Source: @mon1tor_ua/66745).",
-      "Black Sea UAV formations of 20‑30 drones are massing for attacks on Odesa, Mykolaiv and Chornomorsk, indicating a coordinated southern offensive (Source: @kpszsu/61985).",
-      "A high‑altitude UAV (>9 km) was tracked over Cherkasy, suggesting advanced reconnaissance capabilities (Source: @eRadarrua/92002).",
-      "Russian air strike damaged the Azot chemical plant in Stavropol, a key munitions producer, highlighting deep‑strike capability (Source: @UkraineNow/81249).",
-      "Seven Shahed drones from Sumy entered Chernihiv’s Pryluky district, stressing northern air‑defence (Source: @mon1tor_ua/66761).",
-      "Ukrainian forces reported a reactive Shahed heading toward Irpin, Bucha, Hostomel and Vyshhorod, triggering a capital‑wide alert (Source: @mon1tor_ua/66747)."
+      "Ukrainian air defenses shot down 138 UAVs over Russian regions, including Stavropol and Rostov, indicating a large‑scale aerial offensive (Source: @kpszsu/62002).",
+      "Russian tactical aviation issued alerts for north‑east front attacks, suggesting imminent air strikes in that sector (Source: @kpszsu/62028).",
+      "A swarm of 20‑30 UAVs launched from the Black Sea struck Odesa region, damaging residential buildings and port facilities, with two civilian fatalities (Source: @mon1tor_ua/66760).",
+      "Crimean Bridge was blocked by dense Ukrainian drone activity, prompting Russian defensive fire and highlighting its strategic vulnerability (Source: @kpszsu/62002).",
+      "Shahed missile clusters hit Kharkiv, Sumy, Poltava, and Chernihiv oblasts, targeting both military and civilian infrastructure (Source: @eRadarrua/91967).",
+      "Russian forces reported ballistic missile threat from the north, indicating possible escalation to long‑range strikes (Source: @kpszsu/62029).",
+      "Civilian casualties rose in Kherson and Odesa after drone strikes on residential structures, underscoring the humanitarian impact of the aerial campaign (Source: @UkraineNow/81248)."
     ],
-    "threat_assessment": "Ukrainian loitering‑munitions activity remains high, with Shahed swarms targeting multiple central and northern oblasts, stretching Kyiv's air‑defence. Russia's announced Iskander‑M capability from Bryansk adds a strategic ballistic threat, while its ability to strike deep within its own territory, as seen at the Azot plant, demonstrates operational flexibility. The buildup of Black Sea UAV formations suggests a forthcoming concentrated southern offensive that could overwhelm regional air‑defences.",
-    "regional_response": "Ukraine is reinforcing air‑defence alerts in Kyiv and increasing mobilisation communication, while local authorities in Odesa and Mykolaiv are likely preparing civil‑defence measures for the incoming UAV wave. Russian regional commands are likely heightening readiness in Bryansk and Stavropol to support potential missile launches and protect critical industrial sites. Neighboring NATO states are monitoring the increased UAV traffic, especially after reports of Ukrainian drones crossing into Baltic airspace.",
-    "intelligence_notes": "Open‑source monitoring continues to reveal frequent Shahed deployments across a wide geographic area, indicating a decentralized launch capability. The Iskander‑M threat, though not yet realized, requires immediate integration of missile‑defence assets in northern Ukraine. The high‑altitude UAV over Cherkasy may represent a new reconnaissance platform that could feed targeting data for both sides. Russian strikes on its own strategic assets suggest a willingness to accept collateral damage to demonstrate deterrence."
+    "threat_assessment": "The conflict is entering a heightened aerial phase, with both sides deploying large numbers of UAVs and missiles. Ukrainian forces are intensifying strikes on Russian logistical hubs and the Crimean Bridge, while Russia is bolstering air defenses and warning of ballistic missile use from the north. The proliferation of container‑laden strike drones raises the risk of unconventional munitions over civilian areas, increasing both tactical and strategic threats.",
+    "regional_response": "Western allies continue to monitor the surge in drone activity, with NATO channels relaying Russian drone raid reports despite Ukraine's limited warnings to Baltic members. Russia's simplified citizenship law for Transnistria residents may aim to solidify its foothold in the region, while Ukraine's increased TCC staffing reflects a push for broader mobilization. Diplomatic rhetoric from the US and Israel indicates external focus on broader geopolitical implications.",
+    "intelligence_notes": "Ukrainian UAV losses suggest a need to reassess air‑defense allocations, especially against high‑altitude threats reported over the Black Sea. Russian ballistic missile threats from the north could target critical infrastructure in Kyiv and the north‑east, requiring reinforced early‑warning systems. The use of containerized explosive payloads by strike drones necessitates civilian awareness campaigns to mitigate post‑strike hazards."
   },
   "missiles": 0,
   "drones": 294,
   "kpszsu_timeline": [
-    2,
-    2,
+    1,
     5,
     2,
     3,
+    2,
     0,
     1,
     2,
-    2,
-    5,
+    6,
     3,
-    4,
-    4,
     5,
+    1,
     4,
+    6,
+    2,
+    0,
+    3,
     0,
     2,
-    1,
-    1,
     2,
-    3,
+    2,
     0,
     0,
     0
