@@ -120,21 +120,16 @@ function renderAlertChart(id, timelineRaw) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
-function renderUkraineLaunchChart(id, timelineRaw, totalMissiles, totalDrones) {
+function renderRecentAttacksChart(id, entries) {
   const canvas = document.getElementById(id); if (!canvas) return;
-  // Timeline is already scaled to actual drone count — use directly
-  const data = (timelineRaw||[]).map(v => v || 0);
-  // Drones: proportional to timeline
-  const dronesData = data.slice();
-  // Missiles: distribute 1 per missile across the busiest hours so they're visible
-  const missilesData = new Array(24).fill(0);
-  if (totalMissiles > 0) {
-    const sorted = data.map((v,i) => [v,i]).sort((a,b) => b[0]-a[0]);
-    for (let i = 0; i < Math.min(totalMissiles, 24); i++) missilesData[sorted[i][1]]++;
-  }
-  const cfg = { type:"bar", data: { labels: makeHourLabels(), datasets: [
-    { label:"Missiles", data:missilesData, backgroundColor:"rgba(229,62,91,0.75)",  borderWidth:0, borderRadius:2, stack:"s" },
-    { label:"Drones",   data:dronesData,   backgroundColor:"rgba(59,130,246,0.55)", borderWidth:0, borderRadius:2, stack:"s" },
+  const recent = [...(entries||[])].sort((a,b) => a.date.localeCompare(b.date)).slice(-14);
+  if (!recent.length) return;
+  const labels   = recent.map(e => e.date.slice(5));
+  const missiles = recent.map(e => e.missiles || 0);
+  const drones   = recent.map(e => e.drones   || 0);
+  const cfg = { type:"bar", data: { labels, datasets: [
+    { label:"Missiles", data:missiles, backgroundColor:"rgba(229,62,91,0.75)",  borderWidth:0, borderRadius:2, stack:"s" },
+    { label:"Drones",   data:drones,   backgroundColor:"rgba(59,130,246,0.55)", borderWidth:0, borderRadius:2, stack:"s" },
   ]}, options: { ...CHART_DEFAULTS,
     scales: { x:{ ...CHART_DEFAULTS.scales.x, stacked:true }, y:{ ...CHART_DEFAULTS.scales.y, stacked:true } },
     plugins: { ...CHART_DEFAULTS.plugins,
@@ -157,29 +152,18 @@ function renderActivityChart(id, timeline) {
 function renderHistoryChart(id, entries) {
   const canvas = document.getElementById(id); if (!canvas || !entries?.length) return;
   const byMonth = {};
-  entries.forEach(e => {
-    const m = e.date.slice(0, 7);
-    if (!byMonth[m]) byMonth[m] = { missiles: 0, drones: 0 };
-    byMonth[m].missiles += e.missiles || 0;
-    byMonth[m].drones   += e.drones   || 0;
-  });
-  const labels  = Object.keys(byMonth).sort();
-  const missiles = labels.map(l => byMonth[l].missiles);
-  const drones   = labels.map(l => byMonth[l].drones);
+  entries.forEach(e => { const m = e.date.slice(0, 7); byMonth[m] = (byMonth[m] || 0) + 1; });
+  const labels = Object.keys(byMonth).sort();
+  const counts = labels.map(l => byMonth[l]);
   const cfg = {
     type: "bar",
     data: { labels, datasets: [
-      { label: "Missiles", data: missiles, backgroundColor: "rgba(229,62,91,0.75)",  borderWidth: 0, borderRadius: 2, stack: "s" },
-      { label: "Drones",   data: drones,   backgroundColor: "rgba(59,130,246,0.55)", borderWidth: 0, borderRadius: 2, stack: "s" },
+      { label: "Reports", data: counts, backgroundColor: "rgba(59,130,246,0.55)", borderWidth: 0, borderRadius: 2 },
     ]},
     options: { ...CHART_DEFAULTS,
-      scales: {
-        x: { ...CHART_DEFAULTS.scales.x, stacked: true },
-        y: { ...CHART_DEFAULTS.scales.y, stacked: true },
-      },
       plugins: { ...CHART_DEFAULTS.plugins,
-        legend: { display: true, labels: { color: "#5a6a88", font: { family: "'JetBrains Mono', monospace", size: 9 }, boxWidth: 10, padding: 8 } },
-        tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `${c.dataset.label}: ${c.raw.toLocaleString()}` } },
+        legend: { display: false },
+        tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `Reports: ${c.raw}` } },
       },
     },
   };
@@ -187,63 +171,6 @@ function renderHistoryChart(id, entries) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
-function renderMediaGallery(id, media) {
-  const el = document.getElementById(id); if (!el) return;
-  const items = (media||[]).filter(m => m.url);
-  if (!items.length) { el.closest(".sidebar-card")?.classList.add("hidden"); return; }
-  el.closest(".sidebar-card")?.classList.remove("hidden");
-  el.innerHTML = items.map(m => `
-    <a class="media-thumb" href="${m.url}" target="_blank" rel="noopener" title="@${m.channel || ''} · Click to view">
-      <img src="${m.url}" loading="lazy" alt="Media from @${m.channel || ''}">
-      <span class="media-thumb-ch">@${m.channel || ''}</span>
-    </a>`).join('');
-  el.querySelectorAll(".media-thumb").forEach(a => {
-    a.addEventListener("click", e => {
-      e.preventDefault();
-      openMediaLightbox(a.querySelector("img").src, a.title);
-    });
-  });
-}
-
-function openTelegramLightbox(src) {
-  const existing = document.getElementById("mediaLightbox");
-  if (existing) existing.remove();
-  const lb = document.createElement("div");
-  lb.id = "mediaLightbox";
-  lb.className = "media-lightbox";
-  if (src.startsWith("data/media/")) {
-    // Local downloaded image — show directly
-    lb.innerHTML = `<div class="media-lightbox-inner">
-      <div class="media-lightbox-close">✕ Close</div>
-      <img src="${src}" alt="Post image">
-    </div>`;
-  } else {
-    // Fallback: embed Telegram post iframe
-    const m = src.match(/t\.me\/([^/]+)\/(\d+)/);
-    lb.innerHTML = m
-      ? `<div class="media-lightbox-inner media-lightbox-embed">
-          <div class="media-lightbox-close">✕ Close</div>
-          <iframe src="https://t.me/${m[1]}/${m[2]}?embed=1&mode=tme" frameborder="0" scrolling="no" allowtransparency="true" style="width:100%;min-height:360px;border-radius:8px;background:transparent;"></iframe>
-          <a class="media-lightbox-open-link" href="${src}" target="_blank" rel="noopener">Open in Telegram ↗</a>
-        </div>`
-      : `<div class="media-lightbox-inner"><a class="media-lightbox-open-link" href="${src}" target="_blank" rel="noopener">Open in Telegram ↗</a></div>`;
-  }
-  document.body.appendChild(lb);
-  lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });
-  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
-}
-
-function openMediaLightbox(src, caption) {
-  const existing = document.getElementById("mediaLightbox");
-  if (existing) existing.remove();
-  const lb = document.createElement("div");
-  lb.id = "mediaLightbox";
-  lb.className = "media-lightbox";
-  lb.innerHTML = `<div class="media-lightbox-inner"><img src="${src}" alt="${caption}"><div class="media-lightbox-caption">${caption}</div><div class="media-lightbox-close">✕ Close</div></div>`;
-  document.body.appendChild(lb);
-  lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });
-  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
-}
 
 function renderChannelChart(id, msgsByChannel) {
   const canvas = document.getElementById(id); if (!canvas||!msgsByChannel) return;
@@ -544,14 +471,13 @@ function populatePanel(prefix, data) {
   initSectionFilter(sp);
 
   if (prefix === "ukraine") {
-    renderUkraineLaunchChart(`ua-chart-alerts`, data.red_alerts_timeline, data.missiles, data.drones);
+    if (_ukraineHistory?.entries?.length) renderRecentAttacksChart(`ua-chart-alerts`, _ukraineHistory.entries);
   } else {
     const alertTimeline = (data.red_alerts_timeline || []).map(v => Math.round((v || 0) / 2));
     renderAlertChart(`${sp}-chart-alerts`, alertTimeline);
   }
   renderActivityChart(`${sp}-chart-activity`, data.combined_activity_timeline);
   renderChannelChart(`${sp}-chart-channels`,  data.messages_by_channel);
-  renderMediaGallery(`${sp}-media-gallery`, data.media);
 
   const sourcesList = document.getElementById(`${sp}-sources-list`);
   if (sourcesList) {
@@ -686,6 +612,9 @@ const sourcesModal = (function () {
   return { open, close };
 })();
 
+// ── Ukraine history (loaded once, used by recent-attacks chart) ───────────────
+let _ukraineHistory = null;
+
 // ── Auto-refresh ─────────────────────────────────────────────────────────────
 let _lastKnownUpdatedAt = null;
 function scheduleAutoRefresh(updatedAt) {
@@ -776,9 +705,10 @@ async function init() {
     loadConflict("ukraine"),
     loadUkraineHistory(),
   ]);
+  if (history?.entries?.length) _ukraineHistory = history;
   if (me) { populatePanel("middle_east", me); startCountdown(me.updated_at); scheduleAutoRefresh(me.updated_at); }
   if (ua) populatePanel("ukraine", ua);
-  if (history?.entries?.length) renderHistoryChart("ua-chart-history", history.entries);
+  if (_ukraineHistory?.entries?.length) renderHistoryChart("ua-chart-history", _ukraineHistory.entries);
   buildTicker([me, ua]);
 }
 
