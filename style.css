@@ -990,19 +990,26 @@ body {
   font-size: 9px; color: var(--muted); font-family: 'JetBrains Mono', monospace;
   margin-top: 5px; line-height: 1.4; opacity: 0.7;
 }
-/* Media gallery */
+/* Media buttons inside section points */
 .section-point-imgs {
-  display: flex; gap: 6px; flex-wrap: wrap;
-  margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.05);
+  display: flex; gap: 4px; flex-wrap: wrap;
+  padding: 5px 12px 7px;
 }
 .src-img-btn {
-  display: inline-flex; align-items: center; gap: 5px;
-  background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.25);
-  color: var(--accent); font-size: 9px; font-family: 'JetBrains Mono', monospace;
-  padding: 3px 8px; border-radius: 3px; cursor: pointer;
-  transition: background 0.15s, border-color 0.15s; white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 4px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-left: 2px solid var(--point-accent, var(--accent));
+  color: var(--muted); font-size: 9px; font-family: 'JetBrains Mono', monospace;
+  padding: 2px 7px 2px 5px; border-radius: 0 3px 3px 0; cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s; white-space: nowrap;
 }
-.src-img-btn:hover { background: rgba(59,130,246,0.2); border-color: rgba(59,130,246,0.55); color: #93c5fd; }
+.src-img-btn:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.15);
+  border-left-color: var(--point-accent, var(--accent));
+  color: var(--text);
+}
 .src-img-btn--tg { text-decoration: none; }
 
 /* Lightbox */

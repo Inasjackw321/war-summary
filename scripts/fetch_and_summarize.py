@@ -50,7 +50,7 @@ CONFLICTS = {
     },
 }
 
-MEDIA_CHANNELS = {"Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu"}
+MEDIA_CHANNELS = {"Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu", "eRadarrua", "VahidOnline"}
 
 HEADERS = {
     "User-Agent": (

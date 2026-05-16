@@ -155,7 +155,7 @@ function renderActivityChart(id, timeline) {
 
 
 
-const MEDIA_CHANNELS = new Set(["Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu"]);
+const MEDIA_CHANNELS = new Set(["Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu", "eRadarrua", "VahidOnline"]);
 
 
 function renderChannelChart(id, msgsByChannel) {
@@ -674,39 +674,67 @@ const sourcesModal = (function () {
 
 // ── Auto-refresh ─────────────────────────────────────────────────────────────
 let _lastKnownUpdatedAt = null;
+let _autoRefreshInterval = null;
+
+async function checkForRefresh() {
+  try {
+    const r = await fetch("data/middle_east.json?_=" + Date.now());
+    if (!r.ok) return false;
+    const fresh = await r.json();
+    if (fresh.updated_at && fresh.updated_at !== _lastKnownUpdatedAt) {
+      _lastKnownUpdatedAt = fresh.updated_at;
+      delete dataCache["middle_east"]; delete dataCache["ukraine"];
+      const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
+      if (me) { populatePanel("middle_east", me); buildTicker([me, ua]); }
+      if (ua) populatePanel("ukraine", ua);
+      if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
+      showToast("Data refreshed");
+      return true;
+    }
+    return false;
+  } catch (e) { console.warn("Auto-refresh check failed:", e); return false; }
+}
+
 function scheduleAutoRefresh(updatedAt) {
   if (!_lastKnownUpdatedAt) _lastKnownUpdatedAt = updatedAt;
-  if (_autoRefreshInterval) return; // already running
-  _autoRefreshInterval = setInterval(async () => {
-    try {
-      // Fetch fresh data without cache to check updated_at
-      const r = await fetch("data/middle_east.json?_=" + Date.now());
-      if (!r.ok) return;
-      const fresh = await r.json();
-      if (fresh.updated_at && fresh.updated_at !== _lastKnownUpdatedAt) {
-        _lastKnownUpdatedAt = fresh.updated_at;
-        delete dataCache["middle_east"]; delete dataCache["ukraine"];
-        const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
-        if (me) { populatePanel("middle_east", me); buildTicker([me, ua]); }
-        if (ua) populatePanel("ukraine", ua);
-        if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
-        showToast("Data refreshed");
-      }
-    } catch (e) { console.warn("Auto-refresh check failed:", e); }
-  }, 5 * 60 * 1000); // poll every 5 minutes
+  if (_autoRefreshInterval) return;
+  _autoRefreshInterval = setInterval(checkForRefresh, 5 * 60 * 1000);
 }
-let _autoRefreshInterval = null;
 
 // ── Countdown ─────────────────────────────────────────────────────────────────
 function startCountdown(updatedAt) {
-  const ONE_HOUR = 60*60*1000, updated = new Date(updatedAt).getTime();
+  const ONE_HOUR = 60 * 60 * 1000;
+  const updated = new Date(updatedAt).getTime();
+  let overduePolling = false;
+
   function tick() {
-    const remaining = ONE_HOUR-(Date.now()-updated);
-    if (remaining <= 0) { document.getElementById("countdown").textContent = "now"; return; }
-    const m = Math.floor((remaining%3600000)/60000), s = Math.floor((remaining%60000)/1000);
+    const remaining = ONE_HOUR - (Date.now() - updated);
+    if (remaining <= 0) {
+      document.getElementById("countdown").textContent = "now";
+      if (!overduePolling) {
+        overduePolling = true;
+        // Switch to fast 60s polling until new data arrives
+        clearInterval(_autoRefreshInterval);
+        _autoRefreshInterval = null;
+        checkForRefresh();
+        _autoRefreshInterval = setInterval(async () => {
+          const didUpdate = await checkForRefresh();
+          if (didUpdate) {
+            // New data found — revert to slow 5-min polling
+            clearInterval(_autoRefreshInterval);
+            _autoRefreshInterval = setInterval(checkForRefresh, 5 * 60 * 1000);
+            overduePolling = false;
+          }
+        }, 60 * 1000);
+      }
+      return;
+    }
+    const m = Math.floor((remaining % 3600000) / 60000);
+    const s = Math.floor((remaining % 60000) / 1000);
     document.getElementById("countdown").textContent = `${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`;
   }
-  tick(); setInterval(tick, 1000);
+  tick();
+  setInterval(tick, 1000);
 }
 
 // ── Header datetime ───────────────────────────────────────────────────────────
