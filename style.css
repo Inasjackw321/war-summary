@@ -321,6 +321,7 @@ body {
 .meta-missiles { color: rgba(229,62,91,0.75); }
 .meta-drones { color: rgba(59,130,246,0.75); }
 .tab-flags { font-size: 13px; letter-spacing: -1px; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla", sans-serif; }
+.tab-flags img.emoji { height: 1.1em; width: 1.1em; vertical-align: -0.15em; display: inline; margin: 0 1px; }
 @keyframes countIn {
   from { opacity: 0; transform: scale(0.8) translateY(8px); }
   to   { opacity: 1; transform: scale(1) translateY(0); }

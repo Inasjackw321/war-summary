@@ -321,10 +321,7 @@ function renderSourceTags(text) {
         // Check if this specific post has an associated image
         const postKey = slash !== -1 ? `${ch}/${raw.slice(slash + 1).split('-')[0]}` : null;
         const imgPostUrl = postKey ? currentPostImages[postKey] : null;
-        const imgHtml = imgPostUrl
-          ? `<button class="src-tag-img" data-post-url="${imgPostUrl}" title="View photo" aria-label="View photo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/></svg></button>`
-          : '';
-        return `<a class="src-tag${biased?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${biased?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}${imgHtml}`;
+        return `<a class="src-tag${biased?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${biased?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}`;
       }).join('');
       return `<span class="src-tags">${tags}</span>`;
     }
@@ -572,6 +569,8 @@ function populatePanel(prefix, data) {
     fresh.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sourcesModal.open(data.channels, data.messages_by_channel); } });
     animateValue(`${sp}-msg-count`, 0, data.message_count || 0, 1000);
   }
+  // Re-run twemoji on newly injected content so flag emojis render as images
+  if (typeof twemoji !== "undefined") twemoji.parse(document.body, { folder: "svg", ext: ".svg" });
 }
 
 // ── Animated counter ──────────────────────────────────────────────────────────
@@ -786,9 +785,7 @@ async function init() {
 // Global click handler for biased source tags in article content
 document.addEventListener("click", e => {
   const a = e.target.closest("a.src-tag--biased");
-  if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); return; }
-  const btn = e.target.closest("button.src-tag-img");
-  if (btn) { e.preventDefault(); openTelegramLightbox(btn.dataset.postUrl); }
+  if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); }
 });
 
 document.addEventListener("DOMContentLoaded", init);
