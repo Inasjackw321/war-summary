@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-16T01:35:42.163251+00:00",
-  "message_count": 668,
+  "updated_at": "2026-05-16T01:52:19.140726+00:00",
+  "message_count": 666,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -33,8 +33,8 @@
     0,
     0,
     0,
-    0,
-    6,
+    1,
+    5,
     4,
     0,
     0,
@@ -47,30 +47,30 @@
     2
   ],
   "combined_activity_timeline": [
-    7,
+    5,
     10,
-    24,
-    19,
-    27,
-    34,
-    24,
-    38,
-    40,
-    47,
+    28,
+    20,
+    35,
+    30,
+    16,
+    41,
+    51,
+    39,
+    41,
     33,
-    38,
-    31,
+    30,
     54,
-    48,
-    52,
-    40,
-    29,
-    33,
+    47,
+    53,
+    37,
+    31,
+    26,
+    7,
     9,
-    7,
-    7,
-    8,
-    9
+    6,
+    6,
+    11
   ],
   "messages_by_channel": {
     "@N12chat": 130,
@@ -79,18 +79,18 @@
     "@yediotnews25": 33,
     "@SharghDaily": 184,
     "@amitsegal": 7,
-    "@presstv": 115,
+    "@presstv": 113,
     "@mamlekate": 2,
     "@kianmeli1": 10,
-    "@Faytuks_Network": 8,
+    "@Faytuks_Network": 7,
     "@rodast_omiddana": 43,
     "@naya_foriraq": 53,
     "@tzevaadom_en": 16,
     "@VahidOnline": 10,
-    "@idf_telegram": 23
+    "@idf_telegram": 24
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207451",
+    "N12chat": "https://t.me/N12chat/207452",
     "manniefabian": "https://t.me/manniefabian/58259",
     "asafroz": "https://t.me/asafroz/49238",
     "yediotnews25": "https://t.me/yediotnews25/129331",
@@ -104,209 +104,259 @@
     "naya_foriraq": "https://t.me/naya_foriraq/75475",
     "tzevaadom_en": "https://t.me/tzevaadom_en/67223",
     "VahidOnline": "https://t.me/VahidOnline/75491",
-    "idf_telegram": "https://t.me/idf_telegram/23677"
+    "idf_telegram": "https://t.me/idf_telegram/23678"
   },
   "media": [
     {
-      "url": "https://cdn4.telesco.pe/file/pcaFfXdvgE6Suok48Uv9tq3jOp_ZROggDFbzt7xywQ7pHsMxAD1kdrbd3NwLwVxLVkWvdH740Hg1RkTBm_Gcq0u0Z-gMkRS66uQw8pTo5C_sccZMy2L9yZMAKkZfPOvBgyXg-29hFeOr78Q8pIVzdqxJxZO_ZAonBMOAkk70gSPEgXkq42hk8PTBBzoGt85ATjm2B4E-84YMcBHYU8eTulN4Ab783fJ-E1_jKoShtFxDfVV6hIB3tPjpTGxX3RScFrow6-Ui_wlq0IX1PqsYKUzDFNZK8G53ryGBIY0us7_ij91LbPZhspYuJEyz6Zv94uc8RdZxw6rMFXnU6iozzQ.jpg",
+      "post_url": "https://t.me/N12chat/207451",
       "post_id": 207451,
-      "ts": "2026-05-16T01:26:10+00:00",
-      "channel": "N12chat"
+      "channel": "N12chat",
+      "ts": "2026-05-16T01:26:10+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/rnD24Dob4yM7Cd6_2mucihTuqJ7OZJ3apkRnLrrbBzOWOtJ4FvdCLI02W9QVkoc0NetKDruap9xxD8lCkq6U9Ni0Za-t622hA4jMHifNPa1wm7qhiA1l987Xg5j9biqCWJjgB1xTNBFX64fm25Te4aKkuOOYWaxmHejbHxOKYOO2pJh-QbhSha5L5HBe49BG5HYwQTuh2i1AfpEF7yBgUiZEFIGsjHoY_M2mvNRNfEbW5wJTvtRuHVPepTdwTKYyZPTS0HbOheVXzpy9DugexjnGiaYn_lL-erCMtY_1AFBhC7cI5r3bLvtZH4cqySKcoJD0mWRXphy0H5dq-uWPKg.jpg",
+      "post_url": "https://t.me/rodast_omiddana/71396",
       "post_id": 71396,
-      "ts": "2026-05-16T01:05:33+00:00",
-      "channel": "rodast_omiddana"
+      "channel": "rodast_omiddana",
+      "ts": "2026-05-16T01:05:33+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/R7bcL864-MBuk1MpFd_wAGxEqyxcdDLly4_RAl-XI_ZWXZUZ5w73wzo7oF2nDKMI1O__36a72bQDVpZ1ILNmHgHK3jBHmCKQb74nDmywKViV9Vrw8Q6AxL_YCyXh7-VIuJmCjmSCvfnbmZO2a278ca--1jqzp6r_YofRaHFEInmBrEveN8VZ_1a7DMkJj9IynohjX4VNvexBi2sMzBwKTC5JGmbu4f7YGKiPF5kthi2Oi31fJyEjciI2gk2IkJUvnYjyq7E5HPjbftXc-EiySO7fPHxcwKYTwvJT-LuOVSPB_RZfMjAqlFGuZZDDHmhOvIkDDXti1J8Bxkfs599KWw.jpg",
+      "post_url": "https://t.me/rodast_omiddana/71391",
       "post_id": 71391,
-      "ts": "2026-05-15T23:48:27+00:00",
-      "channel": "rodast_omiddana"
+      "channel": "rodast_omiddana",
+      "ts": "2026-05-15T23:48:27+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/IhFLyWc_qtY8S0kZSX3JZXodQV7OBuMKnYt2-svshVK3Y-erLlkg7od4GlQECQ7PbcXbdWXDzSPaTmOH-rd1HKjzP1KUNP1oY7Rlr6z2LefURvrzqWbJ_WBGV-7Voni4D5hrJv6s2pxRARGkaMXQTyMd1upIo-yAe-1i1PV59k932dI9qzj_FzR05815ozPDmGu1xJqZEGRNKJs1RNbJk-rABSvU99f3ftMSeRlRIUK6rgW6S6uIwLh7uqp0ZSrV_spjPd2FbJKkWeCSbDAan_M1ASnDnlpU3VUF2WRi4RCk3oGEse7DFKilSvAjFviFujdCZeO2wNvLvCn5lxK1xQ.jpg",
+      "post_url": "https://t.me/N12chat/207449",
       "post_id": 207449,
-      "ts": "2026-05-15T23:01:19+00:00",
-      "channel": "N12chat"
+      "channel": "N12chat",
+      "ts": "2026-05-15T23:01:19+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/fKagVZwbPRmZwT9KWznllQpPhgYWDsrvWettDoMU0RHUSciCoTxXXs98XhMk_y4_QaNhK2iUU0X1pV4owwynHhL3Qk-kqpGXaZZicr1I57vunv_1CRutxxcF17Gl6GOmI-ah4JnoMoq-1xs5YiXc5a7c69AcXK5xpu-Kvex-lrjJwn41UZW14IKvOFGUA05UJfOGNB2MbkTuFQcIxPUvBrpC_NbHmLdhI9OULSdSPtUuEQs2UWduV2gOsAQdZ28r1udLKnMMA7-sK91B5kunbac8J8AS-Wxv789cN4PpH1J3JO2O21Zybb6GVCchGWltba3qQBXKsrt_SdSwsYA7_g.jpg",
+      "post_url": "https://t.me/presstv/190032",
       "post_id": 190032,
-      "ts": "2026-05-15T21:22:15+00:00",
-      "channel": "presstv"
+      "channel": "presstv",
+      "ts": "2026-05-15T21:22:15+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/WlpHwFLb3DgF9BhIoxjWj02xalEuzN3_Ajn01CHfLxK2l7WJnHLGwav5DXB9c90tfXMWN7s0pTSPQXpLqAeAEScryKXQMHasOlxG6H-135LZsqYGeZKNOW8mZjd2zjzxoT1OSHa5n3lPrt9eYzA50atnxc8woqrsk1ohxWr4OWAr8udeUJja3rBaalTPt5qw-BD7L9_nieHPgS7cEv8nTEWhicotMAko3eJJpqq4EYVHL9ro1rZbKnG7CIF8y-ZPmIvuxXTuovz13wQaaJa6Klg2IZZf2gIRLNRDUTIdONRQ7ww4LamhQL6oOGPKXhOJM7fSEf4bHGX8IZryHAG2ug.jpg",
+      "post_url": "https://t.me/presstv/190030",
       "post_id": 190030,
-      "ts": "2026-05-15T20:52:14+00:00",
-      "channel": "presstv"
+      "channel": "presstv",
+      "ts": "2026-05-15T20:52:14+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/ZJBS-MRU2B7SOMmVQ4EgI5lFOGOcdCuxFN3Kai38_NiR85OmVQUG62WEaoSdWNP2BJqzamCgwT2FBAEE7OX74W703uM-zfeIPCMlWsRLd2ZXDncVJ6db8lAjuiCLwhSIAL1BfJCuOLpqx7vvkm-_YallSE4NmbvuxQF_Bka9DSw8qBcR28HHGC-95EZkqr70cNgO7DUG7zrb1PfwdE3SkqRjrJzbD5_HnGxZlghyKIzAlqyJdqnZsDpPInIsPmhDQe4PsMEZ45Mf27DdNR9tEyscm05b53oE1HnBqny0N1vWgWfpWlPvpmjzFxiLyybsaayoZeZoqA_ACWnvF0JfWQ.jpg",
+      "post_url": "https://t.me/presstv/190028",
       "post_id": 190028,
-      "ts": "2026-05-15T20:12:34+00:00",
-      "channel": "presstv"
+      "channel": "presstv",
+      "ts": "2026-05-15T20:12:34+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/OV6pN-ZiK-miJeR_5PZIQphOiNfBgTJaEpxgU9kCeplmqunkI6QfMXsOFFyoKn9N2nCEpJ8CxrzofneQsH_tCRmGN206cCNvLDeVcSOjDK2VLoppn2BMosc5cNrh6fLvHneaSpHpJ56Kincfa0qgFBhzWeT00s5Hhei2CszA6DbJo06XqeYipy8Mg6CifKc4jjN240V0d7Z8aHLcRZkp1zhRsiOBfUjJECi84ZTKOE8UuWwfnbu-V9sYxEr0PMp245sXfyNnoXBsPhsrQe7gJ4tKteqchDY1mL5D-Q51hfnCApr8qTi_qGu0BRzCYQFZ2npD0qmNyhP_GoPKMgT7ug.jpg",
+      "post_url": "https://t.me/presstv/190024",
       "post_id": 190024,
-      "ts": "2026-05-15T20:08:03+00:00",
-      "channel": "presstv"
+      "channel": "presstv",
+      "ts": "2026-05-15T20:08:03+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/D7V-zGOKVDtUs0a0NCPJU9CWLmZq56_0q7gd0m8hVIwEL_1coBW3gkj24hvda2qi4Fjbup1eX_ZU14paP6BKR3emQoFInZ_sqfNr1m-3w8ev9EXv0elevjl0BAT9QmclVrMYA0FgdsRQe_3vkPGodyTSjy7hzXbFQCx8EU9xavrZXM99GujNs9SeqGzgmOnJxahgGNb4IO0aQv2rRskkY7uEECceWDDVcLsxWb7FQxHLxijJMR6LKjYwXpl_Ke9J8cyRX9IjszYJ38ip5p2kZylA98xHBP5ThniHfx_tnQdnig2BihV080d7OeiR9OPmu_CslepAoKpuaVkJdYWRIg.jpg",
+      "post_url": "https://t.me/presstv/190023",
       "post_id": 190023,
-      "ts": "2026-05-15T19:58:24+00:00",
-      "channel": "presstv"
+      "channel": "presstv",
+      "ts": "2026-05-15T19:58:24+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/OJOYmtijC8aIW2vD4jbUutP47MohQmKOm6fM2VFZxyQTjI1NZXG0UmpAIcvhFJF6A0XI2trFgHEYbMsBY0KoQ2HkkvZNckgod8MrIOViezOJ4ve2GC79qPnzMV0PvQ7bc0EpEKaAFbE8Hef35TPKY9xv2w3o9X9hh_qJA9A6Wk9NQMoGsTDILkq9Hg3VmXeoZn6r5HbahMDibexdJuYQPsuiN-ebPguHQJRb6p9LMMIvvGqEL9dC2Sx7u2oWbVRQKNGM1Wt3YovcUPmo7ZPecvJ5OLgpDPzg1oJYp-5sqCIpESanN96yMDbS77mxGNk98mIuV-HuRJyLzdDYckgseg.jpg",
+      "post_url": "https://t.me/kianmeli1/87418",
       "post_id": 87418,
-      "ts": "2026-05-15T19:56:35+00:00",
-      "channel": "kianmeli1"
+      "channel": "kianmeli1",
+      "ts": "2026-05-15T19:56:35+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/TZ1-Si_miPEDKvVGhFm_QbquEdN6ecFx4VEkpn7zIG0Rd6A6LgP2JmrnMTRIYBhc4DK33i5RFnuUU9ys6o_Yab5uNjG4Ke09aTUJS0oVC1LslzPnFfqelO_L8rPaa6HeEWIAEk4EeYWC_Y6Yrf50JlV8LfYmmEI55y0EreIxyKJZd6L96vyGyGr82myIpnuCp_BTNvgyLzrsSToC5K_6tidFw3Xgii7tFJ8h3KxRTfYA3LLiqXg8lNBYwkddviApmPp2mipl76MadxJu54PTQkrcUyVITmmA80pq_jlplSzKXQwNo6mt6UWhKO72Gg4AcUyLuDyWQHTGFzDXnZCIFw.jpg",
+      "post_url": "https://t.me/naya_foriraq/75467",
       "post_id": 75467,
-      "ts": "2026-05-15T19:55:48+00:00",
-      "channel": "naya_foriraq"
+      "channel": "naya_foriraq",
+      "ts": "2026-05-15T19:55:48+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/h1n0SSGEN_YJv4QCZz65zn4Dz9XGc_ooQ9q2eTEAlIOFV2LriZDurX992ZARzbfWlZ-Yvdx5_kkICDscf29O6HEdZxq0TueTXxRcjVuJFzkiI4cwYPlZVHUgIDLGu_gIIGqUxcplbHxMCJg90HZp_GGLyFscII962tQx_fctwyN8Wjg3df-lT6FPhh3BleMV69kojNhLTsrnIokXIB51d5jW9Zudw-E8HAfY19JWPUxKbND7hcrSkLebYSp88B1YoJKn7ilU8AWhSxAi2C_4Cc_9jbFbKsMLgkv_62L5cq92zUSZtZItNK8eb-g1VTigz1COnbOGajOjlhIvNZuniQ.jpg",
+      "post_url": "https://t.me/kianmeli1/87417",
       "post_id": 87417,
-      "ts": "2026-05-15T19:39:56+00:00",
-      "channel": "kianmeli1"
+      "channel": "kianmeli1",
+      "ts": "2026-05-15T19:39:56+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/K9wa-BHU0-L3yaI4vqRrMOH3tyJf5GvkWJdh6gtan07vH6A_lxs1FZhP-df7TwC5hd9MBD-07C-AyTtPkKGtaubwYneOA2Vsmw4fUpzhxBnpFTSRZsQnVHsNrYGxnkQ-z7OqhOVmUH0eftZG2nioFJY2yazUrEVgUWNV8vIMVD6e1SY2rhrqCWKGgzaa4MZJJ6isDj5w0lshW90mbXfv_7q5emO-OrxWCetnwplM9ApuH7Bnk0Mu7BnG1R32WgLTNKyMQk94iMss8E0p9-q6kJLgzhgM8koKIscADjhYpbaYrymocD1nMsRq0XjRWEvgoUyGJisBBU5-4N0q2zZlmg.jpg",
+      "post_url": "https://t.me/SharghDaily/160114",
       "post_id": 160114,
-      "ts": "2026-05-15T19:25:07+00:00",
-      "channel": "SharghDaily"
+      "channel": "SharghDaily",
+      "ts": "2026-05-15T19:25:07+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/jYKwONOp73MSC1yr0L1ET0iAd71TXDk0SoYcFjvw4yXcqtAk_iRMRePcZnkC2AdPXA16Ca4rkDxwKpYpeXfNk8OqE4wiLo7fZ02B4fS1gOa3i4IsZbonLPs2uJqepmmv6IJQRNqmkfqTkMsrEc02SSaKRlHMI37neCAaY_SHtHCXVuSNqhNDIegMTHt3KoUONDImRo1vzRz4n1agnspOgYCo7PefroFp0Pgg98a3ccLR2pBfJdXyaffNJXYXfvDKzoDMKxXX8ZqszSd599rKHTa-i4p4EqAIiqVR3Kpdd-6pwTqTSctAbpG110hYlRPZqYNWDlvEySBvWZ5H4hPemQ.jpg",
+      "post_url": "https://t.me/N12chat/207436",
       "post_id": 207436,
-      "ts": "2026-05-15T19:19:12+00:00",
-      "channel": "N12chat"
+      "channel": "N12chat",
+      "ts": "2026-05-15T19:19:12+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/h0rHAHyhOXbcvdzNS_81c-9XbAcuEHTdXr7fJvPj_AtHh2zuW3w2rfCKObQZizjNWXM3B9uX3htYbdFdELllZEIdyM9oAikXdUW0785Rsr9XxPiPUIPT3vjQXnGacQtgSkEp-6rplSqUUNKEW0uPcXru_nQPaRLFSeLs_5TckaLBWXGR_3ZgrSUzph4bD-tqi0B_Xu-QH3ZOp3bDsu9B5xaBGxCwVfzcfTYSHPtE1vfB-j8W9CCVhZkXLQJ1l_nfyAuJGml1JRR3phLhi1S3vXw7-tNTVqwAQhsKh_QdcgmFsLFoV85Z8fILHpm0t_eVYUBGZh8qRY1DlU3cOp03iw.jpg",
+      "post_url": "https://t.me/SharghDaily/160113",
       "post_id": 160113,
-      "ts": "2026-05-15T19:15:02+00:00",
-      "channel": "SharghDaily"
+      "channel": "SharghDaily",
+      "ts": "2026-05-15T19:15:02+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/N1fY0YJkqDPTjjBXMSfdyVT4hSEKgpHk3TGPEitfhpgE5AXu4To-pvbP4o5k1Zs8SvZul908KH1q-GbclVnaF0etMF-YXtm8vJ-nFlFAANq8qtTtKofqP2gaX9K_1T_U2JDkxcswk0RQOpzvv6T9Ka0wDy35jGC1_v0zGpzfri3isBovhxLIcQYBp6QBwzmrFNaTMuA80VWDRIl_LZfycBQ8M25D-AifZOj7G5DtcKA1kir1tgSycEWni1DCuNRfSbEAsIu_3cQNgsN_OGeIb-WOVI6riW1W9azjUMGPlFnFdLzPBbuePY1ya4QvC7dKwo6f73QIj2DeGi3dsIrVIQ.jpg",
+      "post_url": "https://t.me/SharghDaily/160112",
       "post_id": 160112,
-      "ts": "2026-05-15T19:10:39+00:00",
-      "channel": "SharghDaily"
+      "channel": "SharghDaily",
+      "ts": "2026-05-15T19:10:39+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/nRG0UahaH5HbQFTHkHHNrayPAS-qiRsWrCYQrlPEdV1Gq08lz80nZFIil3Ar7ufuoYY3_pX8poC7HAnb2jgHjJr5VKJdNyYzmH2n-eBzNk6EweIdUSTZtdKf9Hr4pPDJwC3cUr-jao28TBBYxe0vNRQzajJ0GqrZH75SYa6IrFTN6w18zDzB8bLo-Vvk5wRo9Fanz3oyGLlE1nec0cD73b5rLjOrrAgjEbQlhKZnEnkfcG48WKXNnhdmu-nFN_0ecBeQFnpZMIgBh_aAvCqdHQcieYqOpSSkGYtYLTD1vuitm7VQZ47fqG4oyGNuEmW9yDsL-CpEy4gwdsXBTB9dEQ.jpg",
+      "post_url": "https://t.me/SharghDaily/160110",
       "post_id": 160110,
-      "ts": "2026-05-15T18:59:01+00:00",
-      "channel": "SharghDaily"
+      "channel": "SharghDaily",
+      "ts": "2026-05-15T18:59:01+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/ES3BmBy_-6Sy7IAj1sNL6sggu0CCH9q2uvnXVKtq5GfvgJgmF5HpTlVwnqKpprsOaldhTK-SYJWJgQuNzfZzPpkBXVOb_566GyC3ziqkuW7mZXVlMs5mAT_FPk6udPNw-peFOhI73T8XVaCT5rbvbCdyTbQQZis6T7rMSAsUEkvViiKytp2PUZPuaHeSyr8MLTB282DLc35DUMNcYW7DnpjkPV-ZeTn18wk00leUXsWO_gS37Cy4PJrr8UFkI_HaarA4RWzHlvRy2Jloa5fccb2Q3BsV3OlfaAbYfPE1AEstoCKLQOaMrduagnfxUhSEQaaGBZ8bCx2cE96NpF6iYQ.jpg",
+      "post_url": "https://t.me/SharghDaily/160109",
       "post_id": 160109,
-      "ts": "2026-05-15T18:54:01+00:00",
-      "channel": "SharghDaily"
+      "channel": "SharghDaily",
+      "ts": "2026-05-15T18:54:01+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/NIqWnIaDnL-DkHf6HbcPm2wyfQKzMZEgMyuPEGvsht_VOEULHwUa2g3AtGsAHDln4Rr40ybJKNw7wkjlVoJHaSwaobHZckIhqsPdxUAmdTFIrExLk5YXod-Ekjy3cNsOvD0YK7VouKzD7_yRYFiVty5UaEH3jdvYxSob3zVQMPY6J3G4yN7sfpbaEC4fPpUBCA-X0zif_TsRvW0Op7wJtfYOwJhD0skVM6Fvt2IDpGvC41uA8U5APC-76sUYlRi6w4hOa_Vm2KiNBbo6iZBy66oZXuiBIUp3ny-Z7HQGgvAVaI-AckGjL_tl5KSS_5Qg2_E79XP7iepszFpkapboZw.jpg",
+      "post_url": "https://t.me/asafroz/49238",
       "post_id": 49238,
-      "ts": "2026-05-15T18:46:34+00:00",
-      "channel": "asafroz"
+      "channel": "asafroz",
+      "ts": "2026-05-15T18:46:34+00:00"
     },
     {
-      "url": "https://cdn4.telesco.pe/file/TAbW5KAfR4GHc6S7We5cS3SAOByWx6QNfBeHvfBYIjGsEZdQ2o0Ptr3uyT5QoHzK2aRcW4gaw97wWmWAdtdDrbi-QctLeJGq3eNrsOOM9R3EbEHihTfH735VxI913LpU8SsJUqiSq8s3z8zEFRmtJt3bdHNmhZgJAeqH9fMcZRI2BdoqhfYkxOA6dtJRqQntTRyXkraxzc-B1bs8bl4IU4-JsyhJaSIOUisDwzEU41UR82ajwhskBOxN_w15_-_LdOsG5bC3nt15u8AtAd-8svOJlEJV56swc9W9cProIowQoiiPLg9TAz5tlVP296RCWrFn34AtwY1QebHoHGNmUw.jpg",
+      "post_url": "https://t.me/rodast_omiddana/71385",
       "post_id": 71385,
-      "ts": "2026-05-15T17:58:11+00:00",
-      "channel": "rodast_omiddana"
+      "channel": "rodast_omiddana",
+      "ts": "2026-05-15T17:58:11+00:00"
     }
   ],
-  "summary": "Israel launched a precision airstrike in Gaza that killed Hamas military chief Izz al‑Din al‑Haddad, prompting heightened alerts along Israel’s northern border as Hezbollah fired rockets and drones toward IDF positions in southern Lebanon. Simultaneously, the United Arab Emirates intensified diplomatic pressure on Gulf states to join a coordinated response against Iran, but met resistance, underscoring regional fissures. U.S. intelligence warnings of Iranian‑linked cyber‑attacks on fuel‑tank reading devices and statements from Trump about potential “clean‑up” of Iran’s regime further elevate the risk of broader escalation.",
+  "post_images": {
+    "N12chat/207436": "https://t.me/N12chat/207436",
+    "N12chat/207449": "https://t.me/N12chat/207449",
+    "N12chat/207451": "https://t.me/N12chat/207451",
+    "N12chat/207418": "https://t.me/N12chat/207418",
+    "N12chat/207420": "https://t.me/N12chat/207420",
+    "manniefabian/58244": "https://t.me/manniefabian/58244",
+    "manniefabian/58246": "https://t.me/manniefabian/58246",
+    "asafroz/49238": "https://t.me/asafroz/49238",
+    "yediotnews25/129314": "https://t.me/yediotnews25/129314",
+    "yediotnews25/129315": "https://t.me/yediotnews25/129315",
+    "yediotnews25/129318": "https://t.me/yediotnews25/129318",
+    "yediotnews25/129319": "https://t.me/yediotnews25/129319",
+    "yediotnews25/129322": "https://t.me/yediotnews25/129322",
+    "SharghDaily/160109": "https://t.me/SharghDaily/160109",
+    "SharghDaily/160110": "https://t.me/SharghDaily/160110",
+    "SharghDaily/160112": "https://t.me/SharghDaily/160112",
+    "SharghDaily/160113": "https://t.me/SharghDaily/160113",
+    "SharghDaily/160114": "https://t.me/SharghDaily/160114",
+    "amitsegal/61126": "https://t.me/amitsegal/61126",
+    "amitsegal/61131": "https://t.me/amitsegal/61131",
+    "amitsegal/61132": "https://t.me/amitsegal/61132",
+    "presstv/190023": "https://t.me/presstv/190023",
+    "presstv/190024": "https://t.me/presstv/190024",
+    "presstv/190028": "https://t.me/presstv/190028",
+    "presstv/190030": "https://t.me/presstv/190030",
+    "presstv/190032": "https://t.me/presstv/190032",
+    "mamlekate/103527": "https://t.me/mamlekate/103527",
+    "kianmeli1/87417": "https://t.me/kianmeli1/87417",
+    "kianmeli1/87418": "https://t.me/kianmeli1/87418",
+    "Faytuks_Network/2733": "https://t.me/Faytuks_Network/2733",
+    "Faytuks_Network/2736": "https://t.me/Faytuks_Network/2736",
+    "rodast_omiddana/71381": "https://t.me/rodast_omiddana/71381",
+    "rodast_omiddana/71382": "https://t.me/rodast_omiddana/71382",
+    "rodast_omiddana/71385": "https://t.me/rodast_omiddana/71385",
+    "rodast_omiddana/71391": "https://t.me/rodast_omiddana/71391",
+    "rodast_omiddana/71396": "https://t.me/rodast_omiddana/71396",
+    "naya_foriraq/75457": "https://t.me/naya_foriraq/75457",
+    "naya_foriraq/75467": "https://t.me/naya_foriraq/75467",
+    "naya_foriraq/75442": "https://t.me/naya_foriraq/75442",
+    "naya_foriraq/75445": "https://t.me/naya_foriraq/75445",
+    "naya_foriraq/75447": "https://t.me/naya_foriraq/75447",
+    "tzevaadom_en/67171": "https://t.me/tzevaadom_en/67171",
+    "tzevaadom_en/67178": "https://t.me/tzevaadom_en/67178",
+    "tzevaadom_en/67192": "https://t.me/tzevaadom_en/67192",
+    "tzevaadom_en/67196": "https://t.me/tzevaadom_en/67196",
+    "tzevaadom_en/67203": "https://t.me/tzevaadom_en/67203",
+    "VahidOnline/75471": "https://t.me/VahidOnline/75471",
+    "VahidOnline/75477": "https://t.me/VahidOnline/75477",
+    "VahidOnline/75478": "https://t.me/VahidOnline/75478",
+    "VahidOnline/75479": "https://t.me/VahidOnline/75479",
+    "VahidOnline/75484": "https://t.me/VahidOnline/75484",
+    "idf_telegram/23660": "https://t.me/idf_telegram/23660",
+    "idf_telegram/23668": "https://t.me/idf_telegram/23668",
+    "idf_telegram/23658": "https://t.me/idf_telegram/23658"
+  },
+  "summary": "The IDF intensified its campaign against Hezbollah in southern Lebanon, destroying launchers in Zebdine and reporting over 440 targets hit and 220 militants killed. Simultaneously, hostile aircraft incursions were logged along Israel's northern border, while Israel claimed a high‑profile strike on Hamas commander Aziz al‑Haddad in Gaza. Regional diplomatic friction grew as the UAE accelerated a new oil pipeline project and faced division within BRICS over the Iran‑Israel conflict.",
   "key_points": [
-    "Israel’s airstrike eliminated Hamas commander Izz al‑Din al‑Haddad in Gaza.",
-    "Hezbollah launched rockets, mortar shells and UAVs toward IDF forces in southern Lebanon.",
-    "U.S. officials reported Iranian‑linked cyber intrusions targeting U.S. fuel‑tank reading devices.",
-    "UAE attempted to rally Gulf states for a joint anti‑Iran operation; Saudi and Qatar declined.",
-    "Trump warned of possible “clean‑up” actions against Iran’s leadership.",
-    "German Chancellor urged Iran to reopen the Strait of Hormuz and halt nuclear ambitions.",
-    "IDF conducted a large‑scale drill on the Jordanian border, testing rapid troop mobilization."
+    "IDF destroyed a Hezbollah rocket launcher in Zebdine and hit multiple militia buildings (idf_telegram/23659).",
+    "Over 440 Hezbollah targets were struck and more than 220 fighters killed in southern Lebanon (idf_telegram/23673).",
+    "Multiple hostile aircraft intrusions were recorded near Betzet, Rosh HaNikra, Nahariya and the Golan (tzevaadom_en/67195, tzevaadom_en/67221).",
+    "Israel said it killed Hamas military wing commander Aziz al‑Haddad in Gaza (rodast_omiddana/71385).",
+    "UAE announced acceleration of a new west‑to‑east oil pipeline to double export capacity by 2027 (VahidOnline/75477).",
+    "BRICS foreign ministers failed to issue a joint statement due to Iran‑UAE tensions over the war (VahidOnline/75478).",
+    "US arrested Iraqi Hezbollah commander Muhammad Baqir al‑Saadi and filed terrorism charges (naya_foriraq/75468)."
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Israel’s targeted strike that killed Hamas military chief Izz al‑Din al‑Haddad marks the most operationally significant development, as it demonstrates Israel’s continued precision campaign in Gaza. Concurrently, Hezbollah’s rocket, mortar and UAV attacks on IDF positions in southern Lebanon have triggered multiple alerts, raising the threat of a northern front. Diplomatic friction escalates with the UAE’s failed push for a Gulf‑wide anti‑Iran coalition and U.S. warnings of Iranian‑linked cyber attacks, indicating a widening regional conflict.",
+    "executive_summary": "The IDF’s large‑scale strikes in southern Lebanon, destroying a Hezbollah launcher in Zebdine and reporting more than 440 targets hit and 220 militants killed, mark the most operationally significant development. Concurrently, Israel logged a series of hostile aircraft incursions along its northern frontier, underscoring heightened aerial tension. Diplomatic strain widened as the UAE pushed a new oil pipeline project while BRICS members clashed over Iran‑related positions.",
     "iran": {
       "points": [
-        "Iran‑linked hackers are suspected of compromising fuel‑tank reading devices at U.S. gasoline stations, according to a report from an Iraqi‑focused outlet (Source: @naya_foriraq/75466).",
-        "Former IRGC commander Mohsen Rezaei criticized U.S. reliance on China for crisis mediation, highlighting Iran’s strategic pivot away from Washington (Source: @presstv/190037).",
-        "German Chancellor Friedrich Merz publicly urged Iran to reopen the Strait of Hormuz and halt nuclear progress during a phone call with President Trump (Source: @VahidOnline/75484).",
-        "Trump warned that the U.S. might need to conduct a “clean‑up” of Iran’s regime leaders after a brief cease‑fire, indicating possible future kinetic action (Source: @rodast_omiddana/71380).",
-        "Iran’s foreign ministry issued a statement on “Day of Infamy,” underscoring its propaganda campaign amid regional tensions (Source: @SharghDaily/160117)."
+        "Iran’s foreign minister posted a message on X directed at U.S. politicians, indicating Tehran’s intent to influence international opinion (presstv/190032).",
+        "U.S. sources reported the arrest of Iraqi Hezbollah commander Muhammad Baqir al‑Saadi, a figure linked to Iranian‑backed militia operations (naya_foriraq/75468).",
+        "UAE officials accused Iran of participating in the U.S.–Israel war against Tehran, heightening regional rhetoric (VahidOnline/75478).",
+        "Former U.S. State Department official Richard Hasp noted that negotiations with Iran remain distant, citing the Strait of Hormuz as leverage (SharghDaily/160116)."
       ]
     },
     "israel": {
       "points": [
-        "Prime Minister Netanyahu and Defense Minister Israel Katz announced a successful airstrike in Gaza that eliminated Hamas military chief Izz al‑Din al‑Haddad, a key architect of the Oct. 7 attack (Source: @Faytuks_Network/2736).",
-        "The IDF reported that Hezbollah fired hostile aircraft, rockets, mortar shells and explosive drones toward Israeli forces operating in southern Lebanon, with several incidents recorded on 15 May (Source: @idf_telegram/23672).",
-        "IDF spokesperson confirmed activation of alerts for hostile aircraft intrusions over the northern Israeli settlement of Even Menachem and the border area of Misgav Am, though no casualties were reported (Source: @idf_telegram/23662, @idf_telegram/23669).",
-        "An IDF soldier, Staff Sgt. Negev Dagan (20), was killed by Hezbollah mortar fire in southern Lebanon, highlighting the lethal nature of the northern front (Source: @manniefabian/58244).",
-        "The IDF completed a rapid “Sulfur and Fire” drill on the Jordanian border, involving the 96th and 80th divisions, special forces, and extensive air‑ground coordination, achieving 100% reserve mobilization (Source: @manniefabian/58251)."
+        "The IDF announced the destruction of a Hezbollah rocket launcher in Zebdine, halting a barrage aimed at Kiryat Shmona; rockets were intercepted with no casualties (idf_telegram/23659, manniefabian/58247).",
+        "In the past week the IDF reported striking over 440 Hezbollah sites and eliminating more than 220 militants in southern Lebanon, including ammunition depots and drone launch stations (idf_telegram/23673).",
+        "Multiple hostile aircraft intrusions were recorded on 15‑16 May across Betzet Beach, Rosh HaNikra, Nahariya, and the northern Golan, prompting rapid air defense alerts (tzevaadom_en/67195, tzevaadom_en/67221).",
+        "Israel claimed a precision strike killed Hamas military commander Aziz al‑Haddad in Gaza, marking a rare high‑profile elimination of a senior militant leader (rodast_omiddana/71385)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "Following the strike on Izz al‑Din al‑Haddad, Israeli forces intensified air operations over Gaza, targeting Hamas military infrastructure and command nodes (Source: @Faytuks_Network/2736).",
-        "Israeli officials reported the release of a hostage, Liri Albag, after a family briefing on the Haddad strike, indicating possible leverage gains (Source: @manniefabian/58257).",
-        "A Hamas commander, Az‑Din Haddad, was publicly identified as a senior leader of the Qassam Brigades, confirming his high‑value status (Source: @VahidOnline/75488).",
-        "Israeli Home Front Command declared the end of an incident at Massad, Eilabun Tzofar on 15 May, suggesting localized security alerts in the north (Source: @tzevaadom_en/67160).",
-        "Hezbollah’s cross‑border attacks prompted the IDF to raise alerts in northern Israeli towns, affecting civilian movement near the Lebanese frontier (Source: @idf_telegram/23672)."
+        "Hamas and Islamic Jihad reaffirmed their commitment to armed resistance on the Nakba anniversary, urging the international community to halt what they call Israeli “terrorism” (presstv/190030).",
+        "Israeli forces reported a successful operation in Gaza that eliminated Hamas commander Aziz al‑Haddad, suggesting intensified targeting of senior militants (rodast_omiddana/71385).",
+        "A video from yediotnews25 shows damage to a residential building in the Rimal neighborhood of Gaza, indicating ongoing urban combat (yediotnews25/129323).",
+        "No new casualty figures were provided, but the IDF’s claim of no injuries from intercepted rockets suggests limited civilian impact from that specific barrage (idf_telegram/23659)."
       ]
     },
     "lebanon": {
       "points": [
-        "Hezbollah launched multiple hostile UAVs, rockets and mortar shells toward IDF positions in southern Lebanon, with at least three separate incidents recorded on 15 May (Source: @idf_telegram/23672).",
-        "An IDF soldier, Negev Dagan, was killed by Hezbollah mortar fire, marking a rare fatality on the Lebanese front (Source: @manniefabian/58244).",
-        "IDF announced airstrikes on Hezbollah infrastructure around Tyre, accompanied by evacuation warnings for nearby villages (Source: @manniefabian/58249).",
-        "Israeli alerts were activated for hostile aircraft over the Israeli‑Lebanese border zones of Even Menachem and Misgav Am, reflecting heightened vigilance (Source: @idf_telegram/23662, @idf_telegram/23669).",
-        "A report from an Iraqi source claimed a “targeting operation” against an Israeli engineering vehicle in the Lebanese town of Bayda on 11 May, indicating covert cross‑border engagements (Source: @naya_foriraq/75462)."
+        "Hezbollah fired rockets toward Kiryat Shmona from a launcher in Zebdine; the launcher was destroyed by the IDF, and several militia‑used buildings were demolished (idf_telegram/23659).",
+        "The IDF reported over 440 strikes on Hezbollah infrastructure in southern Lebanon, including ammunition depots, anti‑tank missile stores, and a drone launch site, with more than 220 fighters killed (idf_telegram/23673).",
+        "Air defense intercepted multiple hostile aircraft over northern Israeli territory, a direct response to Hezbollah’s cross‑border aerial activity (tzevaadom_en/67195).",
+        "Hezbollah’s continued rocket fire prompted the IDF to fire surface‑to‑air missiles, intercepting at least one hostile aircraft and downing others over open ground (idf_telegram/23671)."
       ]
     },
     "syria_iraq": {
       "points": [
-        "Russian forces reportedly downed 355 Ukrainian drones overnight, reflecting ongoing aerial contest in the broader theater (Source: @asafroz/49221).",
-        "Iraqi citizen Mohammed Baqir Al‑Sadi was arrested by the FBI, described as a high‑value global terrorism target, highlighting U.S. counter‑terrorism activity in Iraq (Source: @naya_foriraq/75468, @naya_foriraq/75467).",
-        "Iranian authorities seized 20 illegal cryptocurrency mining rigs in Qom, indicating internal security operations against illicit finance (Source: @SharghDaily/160121).",
-        "U.S. officials warned of Iranian‑linked cyber intrusions on U.S. fuel‑tank reading devices, suggesting a broader Iranian cyber‑espionage campaign (Source: @naya_foriraq/75466).",
-        "A Bloomberg report noted the UAE’s plan to build a new oil pipeline bypassing the Hormuz Strait, reflecting strategic infrastructure shifts in the Persian Gulf (Source: @asafroz/49225)."
+        "U.S. authorities arrested Iraqi Hezbollah commander Muhammad Baqir al‑Saadi and filed terrorism charges for planning at least 18 attacks in Europe, the U.S., and Canada (naya_foriraq/75468).",
+        "Reports indicate U.S. officials discarded Chinese‑origin equipment as a precaution against espionage, reflecting broader security concerns in the region (rodast_omiddana/71382).",
+        "No direct Syrian operations were mentioned, but the arrest underscores ongoing U.S. counter‑terrorism pressure on Iran‑aligned militias operating from Iraq.",
+        "Iranian‑backed groups remain active, with Hezbollah’s cross‑border attacks prompting Israeli retaliation, indirectly affecting Syrian border dynamics."
       ]
     },
     "gulf_states": {
       "points": [
-        "The UAE attempted to persuade Saudi Arabia, Qatar and other Gulf leaders to launch a joint military response against Iran, but the Gulf states declined, stating the conflict was not theirs (Source: @asafroz/49228).",
-        "UAE President Mohamed bin Zayed’s diplomatic outreach to Gulf leaders during the war was rebuffed, contributing to a perceived shift toward closer UAE‑Israel ties and the UAE’s exit from OPEC (Source: @asafroz/49228).",
-        "UAE plans a new oil pipeline to circumvent the Hormuz Strait, slated to become operational next year, indicating a strategic move to reduce reliance on vulnerable maritime routes (Source: @asafroz/49225).",
-        "German Chancellor Friedrich Merz discussed with President Trump the need to keep the Strait of Hormuz open and prevent Iran’s nuclear advancement, reflecting European involvement in Gulf security (Source: @VahidOnline/75484).",
-        "UAE’s diplomatic push was reported by Bloomberg as unsuccessful, highlighting intra‑Gulf disagreements over Iran policy (Source: @Faytuks_Network/2734)."
+        "The UAE announced acceleration of a new west‑to‑east oil pipeline, aiming to double export capacity to 2.8 million barrels per day by 2027, enhancing its ability to bypass the Strait of Hormuz (VahidOnline/75477).",
+        "During a BRICS foreign ministers’ meeting, the UAE accused Iran of joining the U.S.–Israel war, while Iran demanded condemnation of U.S. and Israeli attacks, revealing deep diplomatic rifts (VahidOnline/75478).",
+        "UAE President Mohamed bin Zayed reportedly tried to persuade Gulf leaders, including Saudi Crown Prince Mohammed bin Salman, to jointly attack Iran; the proposal was rejected, highlighting intra‑Gulf disagreement (asafroz/49228).",
+        "U.S. statements about discarding Chinese equipment and heightened vigilance around Iranian nuclear sites suggest Gulf states are monitoring great‑power competition in the region."
       ]
     },
     "key_developments": [
-      "Israel’s airstrike in Gaza eliminated Hamas military chief Izz al‑Din al‑Haddad, a senior architect of the Oct. 7 attack (Source: @Faytuks_Network/2736).",
-      "Hezbollah fired rockets, mortars and hostile UAVs toward IDF positions in southern Lebanon, prompting multiple alerts on 15 May (Source: @idf_telegram/23672).",
-      "UAE’s diplomatic effort to secure a joint Gulf‑wide anti‑Iran operation failed as Saudi Arabia and Qatar declined participation (Source: @asafroz/49228).",
-      "Iran‑linked cyber actors are suspected of compromising U.S. fuel‑tank reading devices at gasoline stations (Source: @naya_foriraq/75466).",
-      "German Chancellor Friedrich Merz urged Iran to reopen the Strait of Hormuz and halt nuclear progress during a call with President Trump (Source: @VahidOnline/75484).",
-      "IDF completed a rapid “Sulfur and Fire” drill on the Jordanian border, achieving 100% reserve mobilization for the 96th Division’s volunteer brigades (Source: @manniefabian/58251).",
-      "U.S. FBI arrested Iraqi high‑value target Mohammed Baqir Al‑Sadi, citing his involvement in global terrorism networks (Source: @naya_foriraq/75468)."
+      "The IDF destroyed a Hezbollah rocket launcher in Zebdine and hit multiple militia facilities, halting a barrage aimed at Kiryat Shmona (Source: @idf_telegram/23659).",
+      "Over 440 Hezbollah targets were struck and more than 220 militants killed in southern Lebanon during a week‑long campaign (Source: @idf_telegram/23673).",
+      "Multiple hostile aircraft incursions were logged near Betzet, Rosh HaNikra, Nahariya and the northern Golan, prompting rapid air‑defense alerts (Source: @tzevaadom_en/67195).",
+      "Israel claimed a precision strike eliminated Hamas military commander Aziz al‑Haddad in Gaza, marking a high‑profile militant kill (Source: @rodast_omiddana/71385).",
+      "The UAE accelerated a new west‑to‑east oil pipeline project to double export capacity by 2027, enhancing its strategic leverage over the Strait of Hormuz (Source: @VahidOnline/75477).",
+      "BRICS foreign ministers failed to issue a joint statement due to Iran‑UAE tensions, with the UAE accusing Tehran of joining the U.S.–Israel war (Source: @VahidOnline/75478).",
+      "U.S. forces arrested Iraqi Hezbollah commander Muhammad Baqir al‑Saadi and filed terrorism charges for a series of attacks across Europe and North America (Source: @naya_foriraq/75468)."
     ],
-    "threat_assessment": "The elimination of Hamas commander Izz al‑Din al‑Haddad intensifies Israel’s campaign in Gaza while provoking retaliatory strikes from Hezbollah, raising the risk of a two‑front conflict for Israel. Iranian cyber operations against U.S. infrastructure and diplomatic pressure on Gulf states suggest Tehran is seeking asymmetric leverage despite regional isolation. The UAE’s failed push for a coordinated Gulf response underscores divergent national calculations, potentially limiting collective deterrence against Iran.",
-    "regional_response": "Gulf states, led by Saudi Arabia and Qatar, have rejected the UAE’s call for a joint anti‑Iran operation, signaling a reluctance to broaden the conflict. European actors, notably Germany, are engaging diplomatically to keep strategic waterways open and curb Iran’s nuclear ambitions. The United States is signaling both cyber‑defensive vigilance and rhetorical readiness for kinetic options, while Trump’s public statements hint at possible future pressure on Iran’s leadership.",
-    "intelligence_notes": "Monitoring of Hezbollah’s cross‑border attacks should focus on UAV and rocket launch sites near Tyre and the Lebanese‑Israeli frontier. Iranian cyber activity targeting U.S. fuel infrastructure warrants heightened network monitoring and attribution efforts. The UAE’s new oil pipeline project may alter regional energy logistics, requiring assessment of its security implications. Continued diplomatic overtures by the UAE could evolve into covert coordination with Israel, affecting future threat calculations."
+    "threat_assessment": "Hezbollah’s sustained rocket fire and the documented hostile aircraft incursions indicate a persistent low‑to‑moderate aerial threat to northern Israel, while the IDF’s high‑intensity strikes suggest a shift toward degrading the militia’s launch capabilities. In Gaza, the elimination of a senior Hamas commander may disrupt command structures but could provoke retaliatory attacks. Regional diplomatic fissures, especially between the UAE and Iran, raise the risk of broader Gulf involvement, while U.S. counter‑terrorism actions in Iraq demonstrate continued pressure on Iran‑aligned networks.",
+    "regional_response": "Israel is escalating kinetic operations against Hezbollah and Hamas, leveraging air defense and precision strikes to neutralize threats. The UAE is pursuing strategic energy projects and diplomatic pressure to isolate Iran, despite intra‑Gulf disagreement. The United States is intensifying law‑enforcement actions against militia leadership in Iraq and tightening security protocols against foreign espionage equipment. Meanwhile, BRICS members remain divided, reflecting a fragmented international stance on the conflict.",
+    "intelligence_notes": "Future IDF operations are likely to focus on remaining Hezbollah launch sites and ammunition depots in southern Lebanon, with potential for increased aerial engagements. Monitoring of UAE pipeline construction will be critical for assessing shifts in oil flow that could affect Iran’s revenue. The arrest of an Iraqi Hezbollah commander may disrupt cross‑border planning but could trigger retaliatory plots. Diplomatic rifts within BRICS and the Gulf suggest the conflict could expand beyond the immediate Israel‑Palestine theater if external actors choose to intervene."
   }
 }
