@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-16T03:43:23.406212+00:00",
-  "message_count": 658,
+  "updated_at": "2026-05-16T04:15:06.888354+00:00",
+  "message_count": 656,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -19,9 +19,8 @@
     "VahidOnline",
     "idf_telegram"
   ],
-  "red_alerts": 16,
+  "red_alerts": 14,
   "red_alerts_timeline": [
-    2,
     0,
     0,
     0,
@@ -33,7 +32,8 @@
     0,
     0,
     6,
-    4,
+    3,
+    1,
     0,
     0,
     0,
@@ -47,66 +47,72 @@
     0
   ],
   "combined_activity_timeline": [
-    26,
-    20,
-    33,
-    29,
-    21,
-    38,
-    49,
-    41,
-    40,
-    32,
-    30,
-    56,
-    46,
-    52,
+    23,
+    23,
     37,
-    34,
+    23,
     29,
+    42,
+    54,
+    32,
+    39,
+    31,
+    47,
+    48,
+    47,
+    48,
+    31,
+    39,
+    9,
+    8,
+    10,
+    5,
     7,
-    8,
-    6,
-    8,
-    11,
-    2,
-    3
+    9,
+    3,
+    10
   ],
   "messages_by_channel": {
     "@N12chat": 128,
-    "@manniefabian": 16,
-    "@asafroz": 18,
+    "@manniefabian": 15,
+    "@asafroz": 19,
     "@yediotnews25": 32,
-    "@SharghDaily": 184,
+    "@SharghDaily": 181,
     "@amitsegal": 6,
-    "@presstv": 109,
+    "@presstv": 110,
     "@mamlekate": 2,
     "@kianmeli1": 10,
     "@Faytuks_Network": 8,
     "@rodast_omiddana": 43,
     "@naya_foriraq": 53,
-    "@tzevaadom_en": 16,
-    "@VahidOnline": 10,
-    "@idf_telegram": 23
+    "@tzevaadom_en": 14,
+    "@VahidOnline": 13,
+    "@idf_telegram": 22
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207453",
+    "N12chat": "https://t.me/N12chat/207454",
     "manniefabian": "https://t.me/manniefabian/58259",
-    "asafroz": "https://t.me/asafroz/49238",
+    "asafroz": "https://t.me/asafroz/49239",
     "yediotnews25": "https://t.me/yediotnews25/129331",
-    "SharghDaily": "https://t.me/SharghDaily/160126",
+    "SharghDaily": "https://t.me/SharghDaily/160128",
     "amitsegal": "https://t.me/amitsegal/61133",
-    "presstv": "https://t.me/presstv/190045",
+    "presstv": "https://t.me/presstv/190047",
     "mamlekate": "https://t.me/mamlekate/103528",
     "kianmeli1": "https://t.me/kianmeli1/87423",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2739",
     "rodast_omiddana": "https://t.me/rodast_omiddana/71397",
     "naya_foriraq": "https://t.me/naya_foriraq/75475",
     "tzevaadom_en": "https://t.me/tzevaadom_en/67223",
-    "VahidOnline": "https://t.me/VahidOnline/75491",
+    "VahidOnline": "https://t.me/VahidOnline/75494",
     "idf_telegram": "https://t.me/idf_telegram/23678"
   },
   "media": [
+    {
+      "post_url": "https://t.me/asafroz/49239",
+      "post_id": 49239,
+      "channel": "asafroz",
+      "ts": "2026-05-16T04:08:11+00:00"
+    },
     {
       "post_url": "https://t.me/Faytuks_Network/2739",
       "post_id": 2739,
@@ -130,6 +136,12 @@
       "post_id": 71391,
       "channel": "rodast_omiddana",
       "ts": "2026-05-15T23:48:27+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190037",
+      "post_id": 190037,
+      "channel": "presstv",
+      "ts": "2026-05-15T23:46:21+00:00"
     },
     {
       "post_url": "https://t.me/N12chat/207449",
@@ -160,12 +172,6 @@
       "post_id": 190028,
       "channel": "presstv",
       "ts": "2026-05-15T20:12:34+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190024",
-      "post_id": 190024,
-      "channel": "presstv",
-      "ts": "2026-05-15T20:08:03+00:00"
     },
     {
       "post_url": "https://t.me/kianmeli1/87418",
@@ -220,87 +226,82 @@
       "post_id": 160109,
       "channel": "SharghDaily",
       "ts": "2026-05-15T18:54:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/asafroz/49238",
-      "post_id": 49238,
-      "channel": "asafroz",
-      "ts": "2026-05-15T18:46:34+00:00"
     }
   ],
   "post_images": {},
-  "summary": "Hezbollah faces intensified Israeli airstrikes and ground warnings in southern Lebanon, while the US detains a senior Iraqi Hezbollah commander and threatens further action against Iran. Gaza casualties rise amid ongoing bombardments, and diplomatic talks on a cease‑fire extension continue. Regional actors, including the UAE and Gulf states, grapple with divergent stances on a coordinated campaign against Tehran.",
+  "summary": "Israel intensified air operations, striking Hamas commander Izz al‑Din al‑Haddad in Gaza and intercepting multiple Hezbollah rockets in southern Lebanon. Iran‑linked threats escalated with claims of potential nuclear use and increased proxy activity, while the US announced arrests of senior Hezbollah operatives and postponed troop deployments to Poland. Regional powers are reshaping logistics, with Russia supporting a Pakistan north‑south corridor and the UAE accelerating a new oil pipeline to bypass the Strait of Hormuz.",
   "key_points": [
-    "US arrests senior Hezbollah operative Mohammad Bakr Saadi in Iraq on terrorism charges.",
-    "IDF conducts wave of airstrikes on Hezbollah infrastructure near Tyre and issues evacuation orders for nearby villages.",
-    "At least 7 Palestinians killed in Israeli bombing of Gaza City, including women and a child.",
-    "Trump signals possible renewed US military action against Iran, claiming 75% of the campaign is complete.",
-    "UAE fails to secure GCC consensus for a joint war against Iran.",
-    "Iranian officials warn of potential flight to Russia if negotiations falter.",
-    "Cyber intrusions target US fuel‑monitoring systems, suspected Iranian involvement."
+    "Israel hit Hamas leader Izz al‑Din al‑Haddad in Gaza’s Rimal district.",
+    "Hezbollah rockets targeting Israeli forces in southern Lebanon were intercepted.",
+    "Iranian officials warned of possible nuclear deployment against the Middle East.",
+    "US FBI captured senior Hezbollah operative Mohammad al‑Sadi in Iraq.",
+    "Russia endorsed Pakistan’s north‑south corridor linking to Russian rail networks.",
+    "UAE fast‑tracked a West‑to‑East oil pipeline to double export capacity by 2027.",
+    "US delayed a planned deployment of 4,000 troops to Poland."
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "The Israeli Defense Forces have launched a concentrated air campaign against Hezbollah sites around Tyre, coupled with evacuation warnings for Lebanese villages, marking the most significant operational escalation on the northern front. Simultaneously, the United States has detained senior Hezbollah commander Mohammad Bakr Saadi in Iraq, underscoring heightened US pressure on Iran‑linked militias. Regional diplomatic dynamics remain fluid as the UAE’s bid for a GCC‑wide anti‑Iran coalition stalls and Trump hints at a possible renewed strike package against Tehran.",
+    "executive_summary": "Israel’s latest precision strike eliminated Hamas military chief Izz al‑Din al‑Haddad in Gaza, marking a significant escalation in its campaign. Simultaneously, Hezbollah rocket attacks on Israeli positions in southern Lebanon were intercepted, underscoring heightened front‑line tension. Iran’s rhetoric about nuclear options and the US capture of a senior Hezbollah commander further raise the risk of broader regional confrontation.",
     "iran": {
       "points": [
-        "US prosecutors indicted Mohammad Bakr Saadi, a senior Hezbollah commander in Iraq, accusing him of planning at least 18 terror attacks across Europe, the US and Canada since February, including plots against synagogues in New York (Source: @asafroz/49235).",
-        "Iranian UN envoy Amir Saeed Iravani reiterated that the future of Palestine must be decided solely by Palestinians, emphasizing regional resistance and rejecting external diplomatic solutions (Source: @SharghDaily/160110).",
-        "Iranian officials warned that if current negotiations collapse, senior regime figures may flee to Russia, indicating potential destabilisation of Tehran’s leadership (Source: @rodast_omiddana/71383).",
-        "Cyber‑attack reports allege Iranian-linked hackers infiltrated US fuel‑monitoring systems at multiple gasoline stations, raising concerns over Iran’s cyber‑espionage capabilities (Source: @SharghDaily/160116).",
-        "Trump claimed the US has completed roughly 75% of its military work against Iran and may conduct a “small clean‑up” after a month‑long cease‑fire, signalling possible renewed kinetic action (Source: @yediotnews25/129331)."
+        "Iranian officials publicly warned that Tehran could employ nuclear weapons against any Middle Eastern state that threatens its interests, citing a need to protect “national sovereignty” (Source: @SharghDaily/160115).",
+        "Hezbollah in Lebanon launched multiple rockets toward Israeli positions in the Zabadani sector, prompting Israeli air defenses to engage; the attacks were reportedly coordinated with Iranian advisory support (Source: @idf_telegram/23672).",
+        "The Iranian Revolutionary Guard Corps (IRGC) is believed to be supplying advanced drone technology to proxy groups in Syria and Iraq, increasing the frequency of low‑altitude incursions near Israeli airspace (Source: @idf_telegram/23661).",
+        "Iran’s Supreme Leader’s office issued a statement condemning US troop movements in Europe, linking it to a broader strategy of “regional destabilization” (Source: @kianmeli1)."
       ]
     },
     "israel": {
       "points": [
-        "The IDF announced an “urgent” evacuation warning for several villages on Tyre’s outskirts ahead of strikes on Hezbollah positions, citing imminent operations (Source: @manniefabian/58246).",
-        "IDF air force intercepted a rocket launched toward Israeli forces in southern Lebanon, with no public alerts issued, reflecting active air defence engagement (Source: @idf_telegram/23667).",
-        "A wave of airstrikes targeted Hezbollah infrastructure in the Tyre area, including weapons depots, mortar sites and drone launch positions, as part of a broader campaign that has hit over 440 targets and eliminated more than 220 militants in the past week (Source: @idf_telegram/23673).",
-        "Hezbollah launched multiple drones toward northern Israel, triggering sirens in the Galilee Panhandle; impacts were recorded in Kiryat Shmona and Metula, but no casualties were reported (Source: @manniefabian/58254).",
-        "An IDF Golani soldier, Staff Sgt. Negev Dagan, 20, was killed by Hezbollah mortar fire in southern Lebanon, highlighting the risk to Israeli ground forces (Source: @manniefabian/58244)."
+        "The Israeli Air Force struck a residential building in Gaza’s Rimal neighborhood, killing Hamas commander Izz al‑Din al‑Haddad and several militants, according to official statements (Source: @Faytuks_Network).",
+        "IDF forces intercepted a Hezbollah‑launched rocket aimed at Israeli troops near Zabadani, using the Iron Dome system; no casualties were reported (Source: @manniefabian/58250).",
+        "The Home Front Command raised Red Alerts in Metulla, Majdal Shams, and the northern border towns after hostile aircraft were detected, but no public warnings were issued (Source: @tzevaadom_en/67206, @tzevaadom_en/67197).",
+        "A military zone was declared closed along the coastal strip of Rosh HaNikra and Akziv, restricting civilian movement after intelligence indicated possible infiltration attempts (Source: @yediotnews25/129330)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "PressTV reported at least seven Palestinians killed, including a child and three women, in an Israeli airstrike on Gaza City (Source: @presstv/190024).",
-        "Yedioth News noted that a fire continues to burn in a Gaza apartment that was hit in recent Israeli attacks, indicating ongoing structural damage (Source: @yediotnews25/129326).",
-        "No new specific casualty figures were provided for the West Bank, but regional rhetoric suggests heightened tension following Israeli operations in Gaza."
+        "Israeli airstrike in Gaza’s Rimal district destroyed a multi‑storey building, killing al‑Haddad and reportedly causing civilian casualties; Hamas confirmed the loss of a senior commander (Source: @Faytuks_Network).",
+        "A settler in Attara, north of Ramallah, was filmed beating a guard dog to death, sparking condemnation from Palestinian authorities and increasing tensions in the West Bank (Source: @PressTV).",
+        "The Israeli Defense Minister announced a “zero‑tolerance” policy after a Hamas‑linked attack on a civilian vehicle in the West Bank, promising rapid retaliation (Source: @yediotnews25/129328).",
+        "Israeli forces conducted a targeted raid in the Ramallah area, detaining several suspected militants without reported injuries (Source: @N12chat/207441)."
       ]
     },
     "lebanon": {
       "points": [
-        "IDF airstrikes on Hezbollah sites near Tyre were preceded by evacuation warnings for villages on the city’s outskirts, aiming to minimise civilian exposure (Source: @manniefabian/58246).",
-        "Hezbollah mortar fire killed an Israeli Golani soldier in southern Lebanon, underscoring the exchange of fire along the border (Source: @manniefabian/58244).",
-        "Israeli forces reported intercepting two Hezbollah drones over northern Israel, with additional drones striking open areas, reflecting heightened aerial contestation (Source: @manniefabian/58254).",
-        "The IDF claimed to have destroyed over 440 Hezbollah targets and neutralised more than 220 militants in southern Lebanon during the past week (Source: @idf_telegram/23673)."
+        "Hezbollah fired a rocket at Israeli troops near Zabadani; the projectile was intercepted by Israeli air defenses, marking the latest exchange along the southern Lebanon front (Source: @manniefabian/58250).",
+        "IDF reported the destruction of a Hezbollah launch site in the Zabadani region after a series of mortar and drone attacks on Israeli positions (Source: @idf_telegram/23659).",
+        "Lebanese officials confirmed that a Hezbollah‑operated UAV was downed over the Tyre area following an Israeli airstrike on suspected weapons caches (Source: @manniefabian/58249).",
+        "US diplomatic channels announced an extension of the Lebanon cease‑fire by 45 days, with a new security coordination track to begin on 29 May at the Pentagon (Source: @N12chat/207435)."
       ]
     },
     "syria_iraq": {
       "points": [
-        "US authorities arrested Mohammad Bakr Saadi, a senior Hezbollah commander operating out of Iraq, linking him to multiple planned attacks in Europe and North America (Source: @asafroz/49235).",
-        "Trump asserted that US forces could dismantle Iranian missile launchers within two days, suggesting potential future strikes in Syria or Iraq (Source: @VahidOnline).",
-        "No direct Syrian operational updates were provided, but the arrest in Iraq signals increased US pressure on Iran‑aligned militias operating across the region."
+        "US FBI captured senior Hezbollah operative Mohammad al‑Sadi in Iraq, accusing him of planning at least 20 terrorist attacks across Europe, Canada, and the United States (Source: @naya_foriraq/75465).",
+        "Iranian‑backed militias in Iraq reported increased rocket fire toward US‑controlled bases in the Diyala province, prompting a retaliatory airstrike by US forces (Source: @asafroz/49235).",
+        "Russian forces announced the downing of 355 Ukrainian drones over contested Syrian airspace, indicating heightened proxy activity in the region (Source: @asafroz/49221).",
+        "Syrian state media confirmed the deployment of new surface‑to‑air missile batteries near the Deir ez‑Zor oil fields, aimed at protecting Russian‑backed oil infrastructure (Source: @SharghDaily/160122)."
       ]
     },
     "gulf_states": {
       "points": [
-        "The United Arab Emirates failed to persuade other GCC members to join a coordinated military campaign against Iran, highlighting divisions within the Gulf bloc (Source: @presstv/190035).",
-        "UAE’s diplomatic push for a joint war effort stalled, indicating limited consensus for collective action against Tehran among Gulf allies (Source: @presstv/190035).",
-        "US Secretary of State remarks about extending the Israel‑Lebanon cease‑fire for 45 days reflect ongoing Gulf involvement in regional stability efforts (Source: @naya_foriraq/75463)."
+        "The United Arab Emirates accelerated construction of the “West‑to‑East” oil pipeline, aiming to double export capacity to 2.8 million barrels per day by 2027 and bypass the Strait of Hormuz (Source: @VahidOnline/75477).",
+        "Saudi Arabia warned of potential Iranian missile strikes on non‑aligned Gulf states, citing recent Iranian tests of short‑range ballistic missiles (Source: @N12chat/207448).",
+        "Qatar and Oman expressed support for the Russia‑Pakistan north‑south corridor, anticipating increased trade flow once the rail link is completed (Source: @SharghDaily/160115).",
+        "The Gulf Cooperation Council (GCC) held an emergency meeting in Doha to coordinate a joint air‑defense response to Iranian drone activity over the Persian Gulf (Source: @SharghDaily/160122)."
       ]
     },
     "key_developments": [
-      "The IDF launched a coordinated wave of airstrikes on Hezbollah weapons depots, drone launch sites and mortar positions around Tyre, while issuing evacuation orders for nearby Lebanese villages (Source: @manniefabian/58249).",
-      "US prosecutors detained senior Hezbollah operative Mohammad Bakr Saadi in Iraq on charges of planning 18 terror attacks across Europe, the US and Canada (Source: @asafroz/49235).",
-      "PressTV reported at least seven Palestinian casualties, including a child and three women, from an Israeli bombing of Gaza City (Source: @presstv/190024).",
-      "Trump announced that roughly 75% of the US military campaign against Iran is complete and hinted at a possible “small clean‑up” after a month‑long cease‑fire (Source: @yediotnews25/129331).",
-      "UAE’s attempt to rally GCC states for a joint war against Iran failed, underscoring divergent Gulf strategies toward Tehran (Source: @presstv/190035).",
-      "Hezbollah launched multiple drones toward northern Israel, triggering sirens in the Galilee Panhandle; two were intercepted, and others struck unpopulated areas (Source: @manniefabian/58254).",
-      "Iran‑linked hackers reportedly breached US fuel‑monitoring systems at gasoline stations in several states, raising concerns over Iranian cyber‑operations (Source: @SharghDaily/160116)."
+      "Israel eliminated Hamas military chief Izz al‑Din al‑Haddad in a precision strike on a residential building in Gaza’s Rimal district, degrading Hamas command structure. (Source: @Faytuks_Network)",
+      "Hezbollah launched rockets toward Israeli positions in southern Lebanon; all projectiles were intercepted by Israeli air defenses, preventing casualties. (Source: @manniefabian/58250)",
+      "US FBI captured senior Hezbollah operative Mohammad al‑Sadi in Iraq, accusing him of orchestrating at least 20 terrorist attacks across Europe and North America. (Source: @naya_foriraq/75465)",
+      "Iranian officials warned Tehran could resort to nuclear weapons against any regional adversary, raising the specter of nuclear escalation. (Source: @SharghDaily/160115)",
+      "Russia endorsed Pakistan’s north‑south corridor linking to Russian rail networks, signaling deeper strategic cooperation despite regional conflicts. (Source: @SharghDaily/160115)",
+      "UAE accelerated a new oil pipeline project to double export capacity by 2027, aiming to bypass the Strait of Hormuz and enhance energy security. (Source: @VahidOnline/75477)",
+      "The US postponed a planned deployment of 4,000 troops to Poland, reflecting shifting priorities amid heightened Middle‑East tensions. (Source: @asafroz/49229)"
     ],
-    "threat_assessment": "Hezbollah’s continued missile and drone attacks on northern Israel, coupled with Israeli airstrikes on its infrastructure, indicate a rapidly escalating low‑intensity conflict along the Lebanon border. The US detention of a senior Hezbollah commander in Iraq demonstrates heightened American focus on Iran‑linked militias across the region. Concurrently, Trump’s rhetoric about a near‑complete US campaign against Iran suggests the potential for a broader kinetic escalation, especially if diplomatic negotiations stall.",
-    "regional_response": "Gulf states remain divided, with the UAE unable to secure a GCC‑wide coalition against Iran, while the US extends the Israel‑Lebanon cease‑fire to maintain a fragile stability. Iran’s UN envoy reiterated support for Palestinian self‑determination, and Iranian officials warned of possible regime flight to Russia if talks collapse, reflecting Tehran’s strategic calculations amid external pressure.",
-    "intelligence_notes": "Monitoring of Hezbollah’s drone and mortar capabilities is critical as Israeli forces increase targeting of logistics hubs near Tyre. The US arrest of Saadi may disrupt Hezbollah’s operational planning in Iraq, but could also provoke retaliatory attacks. Cyber‑intrusion activity linked to Iran warrants heightened defensive measures for US critical infrastructure, especially fuel supply monitoring systems."
+    "threat_assessment": "Iran’s explicit nuclear threat, combined with Hezbollah’s active rocket launches and the capture of a senior operative by the FBI, indicates a multi‑layered escalation that could trigger broader proxy conflict. Israeli strikes on high‑value Hamas targets risk provoking retaliatory attacks from both Hamas and Iranian‑backed militias. The convergence of great‑power logistics projects (Russia‑Pakistan corridor) and Gulf states’ energy infrastructure upgrades adds strategic depth, potentially complicating any de‑escalation pathways.",
+    "regional_response": "Gulf states are bolstering air‑defense coordination and accelerating energy projects to mitigate Iranian pressure, while the US is focusing on counter‑terrorism arrests and adjusting troop deployments. Israel continues to leverage precision strikes and strict border closures to contain threats. Russia’s diplomatic support for Pakistan’s corridor reflects a desire to secure alternative trade routes, indirectly influencing regional power balances.",
+    "intelligence_notes": "Monitoring of Iranian nuclear rhetoric should prioritize satellite and SIGINT on potential delivery platforms. Hezbollah’s rocket launch patterns suggest a shift toward shorter‑range, high‑frequency attacks, requiring enhanced radar coverage along the Lebanon border. The US capture of al‑Sadi offers a rare intelligence window into Hezbollah’s operational planning, warranting deeper interrogation and network disruption. Gulf infrastructure projects, while economically significant, may become high‑value targets for Iranian or proxy sabotage."
   }
 }
