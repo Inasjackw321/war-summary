@@ -154,6 +154,47 @@ function renderActivityChart(id, timeline) {
 
 
 
+const MEDIA_CHANNELS = new Set(["Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu"]);
+
+function openTelegramLightbox(postUrl) {
+  const existing = document.getElementById("mediaLightbox");
+  if (existing) existing.remove();
+  const lb = document.createElement("div");
+  lb.id = "mediaLightbox";
+  lb.className = "media-lightbox";
+  const m = postUrl.match(/t\.me\/([^/]+)\/(\d+)/);
+  lb.innerHTML = m
+    ? `<div class="media-lightbox-inner media-lightbox-embed">
+        <div class="media-lightbox-close">✕ Close</div>
+        <iframe src="https://t.me/${m[1]}/${m[2]}?embed=1&mode=tme" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+        <a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a>
+      </div>`
+    : `<div class="media-lightbox-inner"><a class="media-lightbox-open-link" href="${postUrl}" target="_blank" rel="noopener">Open in Telegram ↗</a></div>`;
+  document.body.appendChild(lb);
+  lb.addEventListener("click", e => { if (e.target === lb || e.target.closest(".media-lightbox-close")) lb.remove(); });
+  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
+}
+
+function renderMediaGallery(id, cardId, media) {
+  const el = document.getElementById(id);
+  const card = document.getElementById(cardId);
+  if (!el || !card) return;
+  const items = (media || []).filter(m => MEDIA_CHANNELS.has(m.channel));
+  if (!items.length) { card.classList.add("hidden"); return; }
+  card.classList.remove("hidden");
+  el.innerHTML = items.slice(0, 8).map(m => {
+    const date = m.ts ? new Date(m.ts).toLocaleDateString("en-GB", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" }) : "";
+    return `<a class="media-thumb" href="${m.post_url}" data-posturl="${m.post_url}">
+      <span class="media-thumb-ch">@${m.channel}</span>
+      <span class="media-thumb-date">${date}</span>
+      <svg class="media-thumb-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>`;
+  }).join("");
+  el.querySelectorAll(".media-thumb").forEach(a => {
+    a.addEventListener("click", e => { e.preventDefault(); openTelegramLightbox(a.dataset.posturl); });
+  });
+}
+
 function renderChannelChart(id, msgsByChannel) {
   const canvas = document.getElementById(id); if (!canvas||!msgsByChannel) return;
   const entries = Object.entries(msgsByChannel).sort((a,b)=>b[1]-a[1]).slice(0,10);
@@ -461,6 +502,7 @@ function populatePanel(prefix, data) {
   }
   renderActivityChart(`${sp}-chart-activity`, data.combined_activity_timeline);
   renderChannelChart(`${sp}-chart-channels`,  data.messages_by_channel);
+  renderMediaGallery(`${sp}-media-gallery`, `${sp}-media-card`, data.media);
 
   const sourcesList = document.getElementById(`${sp}-sources-list`);
   if (sourcesList) {
