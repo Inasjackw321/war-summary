@@ -82,6 +82,7 @@ const SECTION_DEFS = {
 const charts = {};
 // Most-recent post URL per channel, set by populatePanel before rendering source tags
 let currentUrlMap = {};
+let currentPostImages = {};  // {channel/postId: telegramPostUrl}
 
 // ── Section icons ─────────────────────────────────────────────────────────────
 const SECTION_ICONS = {
@@ -289,7 +290,13 @@ function renderSourceTags(text) {
         const warnHtml = biased
           ? `<span class="source-warn src-tag-warn"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`
           : '';
-        return `<a class="src-tag${biased?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${biased?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}`;
+        // Check if this specific post has an associated image
+        const postKey = slash !== -1 ? `${ch}/${raw.slice(slash + 1).split('-')[0]}` : null;
+        const imgPostUrl = postKey ? currentPostImages[postKey] : null;
+        const imgHtml = imgPostUrl
+          ? `<a class="src-tag-img" href="${imgPostUrl}" target="_blank" rel="noopener" title="View photo">📷</a>`
+          : '';
+        return `<a class="src-tag${biased?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${biased?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}${imgHtml}`;
       }).join('');
       return `<span class="src-tags">${tags}</span>`;
     }
@@ -460,6 +467,7 @@ function populatePanel(prefix, data) {
 
   // Update source-tag URL map so citations link to actual recent posts
   currentUrlMap = data.recent_post_urls || {};
+  currentPostImages = data.post_images || {};
 
   // Middle East: divide by 2. Ukraine: show missiles + drones as separate counters
   const alertCount = prefix === "middle_east" ? Math.ceil((data.red_alerts || 0) / 2) : (data.red_alerts || 0);
@@ -652,20 +660,29 @@ const sourcesModal = (function () {
 })();
 
 // ── Auto-refresh ─────────────────────────────────────────────────────────────
+let _lastKnownUpdatedAt = null;
 function scheduleAutoRefresh(updatedAt) {
-  const ONE_HOUR = 60*60*1000, elapsed = Date.now()-new Date(updatedAt).getTime();
-  const wait = Math.max(ONE_HOUR-elapsed, 60000);
-  setTimeout(async () => {
+  if (!_lastKnownUpdatedAt) _lastKnownUpdatedAt = updatedAt;
+  if (_autoRefreshInterval) return; // already running
+  _autoRefreshInterval = setInterval(async () => {
     try {
-      delete dataCache["middle_east"]; delete dataCache["ukraine"];
-      const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
-      if (me) { populatePanel("middle_east", me); buildTicker([me, ua]); }
-      if (ua) populatePanel("ukraine", ua);
-      if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
-      showToast("Data refreshed"); scheduleAutoRefresh(new Date().toISOString());
-    } catch (e) { console.warn("Auto-refresh failed:", e); scheduleAutoRefresh(new Date().toISOString()); }
-  }, wait);
+      // Fetch fresh data without cache to check updated_at
+      const r = await fetch("data/middle_east.json?_=" + Date.now());
+      if (!r.ok) return;
+      const fresh = await r.json();
+      if (fresh.updated_at && fresh.updated_at !== _lastKnownUpdatedAt) {
+        _lastKnownUpdatedAt = fresh.updated_at;
+        delete dataCache["middle_east"]; delete dataCache["ukraine"];
+        const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
+        if (me) { populatePanel("middle_east", me); buildTicker([me, ua]); }
+        if (ua) populatePanel("ukraine", ua);
+        if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
+        showToast("Data refreshed");
+      }
+    } catch (e) { console.warn("Auto-refresh check failed:", e); }
+  }, 5 * 60 * 1000); // poll every 5 minutes
 }
+let _autoRefreshInterval = null;
 
 // ── Countdown ─────────────────────────────────────────────────────────────────
 function startCountdown(updatedAt) {

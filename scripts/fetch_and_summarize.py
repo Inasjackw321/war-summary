@@ -167,20 +167,24 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
                 # Still capture photo-only posts for media collection
                 photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
                 if photo_wrap and current_mid and msg_time:
-                    style = photo_wrap.get("style", "")
-                    m_img = re.search(r"background-image:url\(['\"]?([^'\")\s]+)['\"]?\)", style)
-                    if m_img:
-                        all_images.append({"url": m_img.group(1), "post_id": current_mid, "ts": msg_time.isoformat()})
+                    all_images.append({
+                        "post_url": f"https://t.me/{channel}/{current_mid}",
+                        "post_id": current_mid,
+                        "channel": channel,
+                        "ts": msg_time.isoformat(),
+                    })
                 continue
             txt = txt_el.get_text(separator=" ", strip=True)
 
-            # Capture any inline photo
+            # Capture any inline photo — store post URL (CDN URLs block direct embedding)
             photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
-            if photo_wrap and current_mid:
-                style = photo_wrap.get("style", "")
-                m_img = re.search(r"background-image:url\(['\"]?([^'\")\s]+)['\"]?\)", style)
-                if m_img:
-                    all_images.append({"url": m_img.group(1), "post_id": current_mid, "ts": msg_time.isoformat() if msg_time else None})
+            if photo_wrap and current_mid and msg_time:
+                all_images.append({
+                    "post_url": f"https://t.me/{channel}/{current_mid}",
+                    "post_id": current_mid,
+                    "channel": channel,
+                    "ts": msg_time.isoformat() if msg_time else None,
+                })
 
             if txt and txt not in seen and is_relevant(txt):
                 seen.add(txt)
@@ -543,7 +547,13 @@ def run() -> None:
                     1 if re.search(r'\bUAV\b|\bdrone\b|\bBPLA\b|\bБПЛА\b', text, re.IGNORECASE) else 0
                 )
                 ua_alert_events.extend([ts] * count)
-            alert_timeline = bucket_into_24h_slots(ua_alert_events) if ua_alert_events else [0] * 24
+            raw_timeline = bucket_into_24h_slots(ua_alert_events) if ua_alert_events else [0] * 24
+            # Scale timeline so it reflects actual drone count (distribution proxy)
+            tl_sum = sum(raw_timeline) or 1
+            if drones > 0:
+                alert_timeline = [round(v * drones / tl_sum) for v in raw_timeline]
+            else:
+                alert_timeline = raw_timeline
 
         output = {
             "conflict": conf["title"],
@@ -556,6 +566,7 @@ def run() -> None:
             "messages_by_channel": msgs_by_channel,
             "recent_post_urls": recent_post_urls,
             "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
+            "post_images": {f"{m['channel']}/{m['post_id']}": m["post_url"] for m in all_media if m.get("channel") and m.get("post_id")},
             **ai_result,
         }
         if key == "ukraine":
