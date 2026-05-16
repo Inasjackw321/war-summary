@@ -101,10 +101,10 @@ def is_real_alert(text: str) -> bool:
     return bool(_REAL_ALERT_RE.search(text))
 
 
-def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime], list[int | None], int | None]:
+def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime], list[int | None], int | None, list[dict]]:
     """
     Scrape messages from the last 24 hours of a public Telegram channel.
-    Returns (texts, timestamps, post_ids, max_message_id).
+    Returns (texts, timestamps, post_ids, max_message_id, images).
     """
     base_url = f"https://t.me/s/{channel}"
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
@@ -112,6 +112,7 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
     all_texts: list[str] = []
     all_times: list[datetime] = []
     all_ids: list[int | None] = []
+    all_images: list[dict] = []
     before_id: int | None = None
     max_id: int | None = None
 
@@ -163,8 +164,23 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
 
             txt_el = msg.select_one(".tgme_widget_message_text")
             if not txt_el:
+                # Still capture photo-only posts for media collection
+                photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
+                if photo_wrap and current_mid and msg_time:
+                    style = photo_wrap.get("style", "")
+                    m_img = re.search(r"background-image:url\(['\"]?([^'\")\s]+)['\"]?\)", style)
+                    if m_img:
+                        all_images.append({"url": m_img.group(1), "post_id": current_mid, "ts": msg_time.isoformat()})
                 continue
             txt = txt_el.get_text(separator=" ", strip=True)
+
+            # Capture any inline photo
+            photo_wrap = msg.select_one("a.tgme_widget_message_photo_wrap")
+            if photo_wrap and current_mid:
+                style = photo_wrap.get("style", "")
+                m_img = re.search(r"background-image:url\(['\"]?([^'\")\s]+)['\"]?\)", style)
+                if m_img:
+                    all_images.append({"url": m_img.group(1), "post_id": current_mid, "ts": msg_time.isoformat() if msg_time else None})
 
             if txt and txt not in seen and is_relevant(txt):
                 seen.add(txt)
@@ -180,7 +196,7 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
         before_id = oldest_id_on_page
         time.sleep(0.9)
 
-    return all_texts, all_times, all_ids, max_id
+    return all_texts, all_times, all_ids, max_id, all_images
 
 
 def bucket_into_24h_slots(timestamps: list[datetime | None]) -> list[int]:
@@ -376,16 +392,19 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
             )
         elif key == "key_developments":
             section_instructions.append(
-                f'- {key}: list of exactly 7 concise, actionable intelligence headlines ordered by operational significance. '
-                f'Each must end with (Source: @channel/postID) or (Source: @channel) — only the specific channel that provided that information.'
+                f'- {key}: list of exactly 7 detailed, actionable intelligence items ordered by operational significance. '
+                f'Each item must be 30-60 words, include specific locations, unit types, distances or quantities where known, '
+                f'and end with (Source: @channel/postID) or (Source: @channel).'
             )
         elif key in ("threat_assessment", "regional_response", "intelligence_notes"):
             section_instructions.append(
-                f'- {key}: string (2–4 sentences of analytical prose)'
+                f'- {key}: string (3–5 sentences of analytical prose with specific details, named actors, and operational implications)'
             )
         else:
             section_instructions.append(
-                f'- {key}: object with "points" list (3–6 concise bullet points, each under 60 words)'
+                f'- {key}: object with "points" list (4–7 detailed bullet points, each 40–90 words. '
+                f'Include specific locations, distances, unit types, weapon systems, casualty figures, or quantities where known. '
+                f'Do not pad with vague language — cite specific operational facts.)'
             )
 
     prompt = f"""You are an intelligence analyst producing structured conflict briefings.
@@ -447,17 +466,20 @@ def run() -> None:
         per_channel_message_ids: dict[str, list[int | None]] = {}
         per_channel_counts: dict[str, int] = {}
         recent_post_urls: dict[str, str] = {}
+        all_media: list[dict] = []
 
         for ch in conf["channels"]:
             print(f"  Fetching {ch}...", file=sys.stderr)
-            msgs, times, ids, max_id = fetch_channel_messages_24h(ch)
+            msgs, times, ids, max_id, images = fetch_channel_messages_24h(ch)
             per_channel_messages[ch] = msgs
             per_channel_timestamps[ch] = times
             per_channel_message_ids[ch] = ids
             per_channel_counts[ch] = len(msgs)
             if max_id:
                 recent_post_urls[ch] = f"https://t.me/{ch}/{max_id}"
-            print(f"    -> {len(msgs)} messages", file=sys.stderr)
+            for img in images[:5]:  # cap per channel
+                all_media.append({**img, "channel": ch})
+            print(f"    -> {len(msgs)} messages, {len(images)} images", file=sys.stderr)
 
         # Ukraine gets higher per-channel limit for better AI coverage
         per_ch_limit = 25 if key == "ukraine" else 15
@@ -533,6 +555,7 @@ def run() -> None:
             "combined_activity_timeline": activity_timeline,
             "messages_by_channel": msgs_by_channel,
             "recent_post_urls": recent_post_urls,
+            "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
             **ai_result,
         }
         if key == "ukraine":

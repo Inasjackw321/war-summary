@@ -121,8 +121,8 @@ function renderAlertChart(id, timelineRaw) {
 
 function renderUkraineLaunchChart(id, timelineRaw, totalMissiles, totalDrones) {
   const canvas = document.getElementById(id); if (!canvas) return;
-  // Use scaled timeline (already proportional to drone count); halve for display
-  const data = (timelineRaw||[]).map(v => Math.round((v || 0) / 2));
+  // Timeline is already scaled to actual drone count — use directly
+  const data = (timelineRaw||[]).map(v => v || 0);
   // Drones: proportional to timeline
   const dronesData = data.slice();
   // Missiles: distribute 1 per missile across the busiest hours so they're visible
@@ -186,6 +186,36 @@ function renderHistoryChart(id, entries) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
+function renderMediaGallery(id, media) {
+  const el = document.getElementById(id); if (!el) return;
+  const items = (media||[]).filter(m => m.url);
+  if (!items.length) { el.closest(".sidebar-card")?.classList.add("hidden"); return; }
+  el.closest(".sidebar-card")?.classList.remove("hidden");
+  el.innerHTML = items.map(m => `
+    <a class="media-thumb" href="${m.url}" target="_blank" rel="noopener" title="@${m.channel || ''} · Click to view">
+      <img src="${m.url}" loading="lazy" alt="Media from @${m.channel || ''}">
+      <span class="media-thumb-ch">@${m.channel || ''}</span>
+    </a>`).join('');
+  el.querySelectorAll(".media-thumb").forEach(a => {
+    a.addEventListener("click", e => {
+      e.preventDefault();
+      openMediaLightbox(a.querySelector("img").src, a.title);
+    });
+  });
+}
+
+function openMediaLightbox(src, caption) {
+  const existing = document.getElementById("mediaLightbox");
+  if (existing) existing.remove();
+  const lb = document.createElement("div");
+  lb.id = "mediaLightbox";
+  lb.className = "media-lightbox";
+  lb.innerHTML = `<div class="media-lightbox-inner"><img src="${src}" alt="${caption}"><div class="media-lightbox-caption">${caption}</div></div>`;
+  document.body.appendChild(lb);
+  lb.addEventListener("click", () => lb.remove());
+  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
+}
+
 function renderChannelChart(id, msgsByChannel) {
   const canvas = document.getElementById(id); if (!canvas||!msgsByChannel) return;
   const entries = Object.entries(msgsByChannel).sort((a,b)=>b[1]-a[1]).slice(0,10);
@@ -233,6 +263,10 @@ function highlightLabels(text) {
     .replace(/\b(CONFIRMED|UNCONFIRMED|DEVELOPING|BREAKING)\b/g, '<strong>$1</strong>');
 }
 
+// Defined here so renderSourceTags can reference it
+const BIASED_SOURCES_LOWER = new Set(["sharghDaily", "naya_foriraq", "presstv"].map(s => s.toLowerCase()));
+function isBiasedSource(ch) { return BIASED_SOURCES_LOWER.has(ch.toLowerCase()); }
+
 function renderSourceTags(text) {
   // Matches: "(Source: @ch/123)", "(Source: @ch/123-456)", "(@ch)", "(ch/123)" — requires @ or /digits
   return text.replace(
@@ -245,17 +279,17 @@ function renderSourceTags(text) {
         let ch, url;
         if (slash !== -1) {
           ch = raw.slice(0, slash);
-          // For ranges like 61900-61935, link to the first ID
           const idPart = raw.slice(slash + 1).split('-')[0];
           url = `https://t.me/${ch}/${idPart}`;
         } else {
           ch = raw;
           url = currentUrlMap[ch] || `https://t.me/${ch}`;
         }
-        const warnHtml = BIASED_SOURCES.has(ch)
-          ? `<span class="source-warn src-tag-warn"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`
+        const biased = isBiasedSource(ch);
+        const warnHtml = biased
+          ? `<span class="source-warn src-tag-warn"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`
           : '';
-        return `<a class="src-tag${BIASED_SOURCES.has(ch)?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${BIASED_SOURCES.has(ch)?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}`;
+        return `<a class="src-tag${biased?' src-tag--biased':''}" href="${url}" target="_blank" rel="noopener"${biased?` data-biased="1" data-ch="${ch}" data-url="${url}"`:''}> @${ch}</a>${warnHtml}`;
       }).join('');
       return `<span class="src-tags">${tags}</span>`;
     }
@@ -484,6 +518,7 @@ function populatePanel(prefix, data) {
   }
   renderActivityChart(`${sp}-chart-activity`, data.combined_activity_timeline);
   renderChannelChart(`${sp}-chart-channels`,  data.messages_by_channel);
+  renderMediaGallery(`${sp}-media-gallery`, data.media);
 
   const sourcesList = document.getElementById(`${sp}-sources-list`);
   if (sourcesList) {
@@ -524,7 +559,7 @@ function showToast(msg) {
 }
 
 // ── Sources modal ─────────────────────────────────────────────────────────────
-const BIASED_SOURCES = new Set(["SharghDaily", "naya_foriraq", "presstv"]);
+// isBiasedSource() defined earlier alongside renderSourceTags
 const WARN_TIP = "This source may provide inaccurate or biased information. Always double-check and cross-reference reports with other sources.";
 
 // JS tooltip to avoid overflow-clipping inside the modal
@@ -582,7 +617,7 @@ const sourcesModal = (function () {
     if (!backdrop || !list) return;
     list.innerHTML = (channels || []).map(ch => {
       const cnt = (msgsByChannel || {})[`@${ch}`] || 0;
-      const isBiased = BIASED_SOURCES.has(ch);
+      const isBiased = isBiasedSource(ch);
       const warn = isBiased ? WARN_ICON : "";
       const url = `https://t.me/${ch}`;
       const interceptAttr = isBiased ? ` data-biased="1" data-ch="${ch}" data-url="${url}"` : "";
