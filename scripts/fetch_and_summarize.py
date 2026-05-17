@@ -43,7 +43,7 @@ CONFLICTS = {
         "title": "Ukraine-Russia War",
         "alert_channel": "eRadarrua",
         "channels": [
-            "eRadarrua", "kpszsu", "mon1tor_ua", "Faytuks_Network",
+            "eRadarrua", "kpszsu", "mon1tor_ua",
             "UkraineNow", "DeepStateUA", "ukr_leaks_eng", "tass_agency"
         ],
         "section_keys": [
@@ -542,6 +542,8 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
 
     prompt = f"""You are an intelligence analyst producing structured conflict briefings.
 Analyse the following messages from {conflict_name} channels and extract structured intelligence.
+
+STRICT RELEVANCE RULE: Only include information that is directly relevant to the {conflict_name}. Discard any messages about unrelated conflicts, regions, or off-topic events. If a message is about a different war or region, ignore it completely.
 
 Messages are prefixed [channel/postID] or [channel]. When citing sources, use format (Source: @channel/postID) if a post ID is present, or (Source: @channel) otherwise.
 Only cite the specific channel(s) that actually provided each piece of information.
