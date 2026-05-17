@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-17T00:04:14.878544+00:00",
-  "message_count": 600,
+  "updated_at": "2026-05-17T02:14:06.942291+00:00",
+  "message_count": 801,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -17,12 +17,13 @@
     "naya_foriraq",
     "tzevaadom_en",
     "VahidOnline",
-    "idf_telegram"
+    "idf_telegram",
+    "lelotsenzura",
+    "rasedal3ado138e",
+    "shin_persian"
   ],
-  "red_alerts": 13,
+  "red_alerts": 11,
   "red_alerts_timeline": [
-    0,
-    2,
     0,
     0,
     0,
@@ -38,6 +39,8 @@
     0,
     2,
     3,
+    0,
+    0,
     0,
     0,
     0,
@@ -47,71 +50,119 @@
     0
   ],
   "combined_activity_timeline": [
-    5,
-    12,
     3,
-    6,
-    21,
-    24,
-    22,
-    17,
-    34,
-    38,
-    41,
-    34,
-    28,
-    36,
-    33,
-    33,
-    40,
-    36,
-    34,
-    30,
-    31,
     9,
+    21,
+    29,
     19,
-    13
+    20,
+    32,
+    40,
+    44,
+    30,
+    32,
+    43,
+    38,
+    61,
+    60,
+    56,
+    49,
+    57,
+    60,
+    30,
+    38,
+    14,
+    9,
+    7
   ],
   "messages_by_channel": {
-    "@N12chat": 111,
+    "@N12chat": 110,
     "@manniefabian": 11,
     "@asafroz": 19,
     "@yediotnews25": 16,
     "@SharghDaily": 165,
     "@amitsegal": 5,
-    "@presstv": 106,
+    "@presstv": 108,
     "@mamlekate": 9,
     "@kianmeli1": 14,
     "@Faytuks_Network": 14,
-    "@rodast_omiddana": 43,
-    "@naya_foriraq": 44,
-    "@tzevaadom_en": 13,
+    "@rodast_omiddana": 39,
+    "@naya_foriraq": 45,
+    "@tzevaadom_en": 11,
     "@VahidOnline": 9,
-    "@idf_telegram": 21
+    "@idf_telegram": 19,
+    "@lelotsenzura": 39,
+    "@rasedal3ado138e": 150,
+    "@shin_persian": 18
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207566",
+    "N12chat": "https://t.me/N12chat/207568",
     "manniefabian": "https://t.me/manniefabian/58271",
     "asafroz": "https://t.me/asafroz/49266",
     "yediotnews25": "https://t.me/yediotnews25/129351",
     "SharghDaily": "https://t.me/SharghDaily/160297",
     "amitsegal": "https://t.me/amitsegal/61142",
-    "presstv": "https://t.me/presstv/190162",
+    "presstv": "https://t.me/presstv/190169",
     "mamlekate": "https://t.me/mamlekate/103540",
     "kianmeli1": "https://t.me/kianmeli1/87440",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2756",
-    "rodast_omiddana": "https://t.me/rodast_omiddana/71443",
-    "naya_foriraq": "https://t.me/naya_foriraq/75530",
+    "rodast_omiddana": "https://t.me/rodast_omiddana/71445",
+    "naya_foriraq": "https://t.me/naya_foriraq/75531",
     "tzevaadom_en": "https://t.me/tzevaadom_en/67246",
     "VahidOnline": "https://t.me/VahidOnline/75507",
-    "idf_telegram": "https://t.me/idf_telegram/23697"
+    "idf_telegram": "https://t.me/idf_telegram/23697",
+    "lelotsenzura": "https://t.me/lelotsenzura/91908",
+    "rasedal3ado138e": "https://t.me/rasedal3ado138e/357708",
+    "shin_persian": "https://t.me/shin_persian/6044"
   },
   "media": [
+    {
+      "post_url": "https://t.me/rodast_omiddana/71443",
+      "post_id": 71443,
+      "channel": "rodast_omiddana",
+      "ts": "2026-05-16T23:36:42+00:00"
+    },
     {
       "post_url": "https://t.me/rodast_omiddana/71442",
       "post_id": 71442,
       "channel": "rodast_omiddana",
       "ts": "2026-05-16T23:30:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/lelotsenzura/91902",
+      "post_id": 91902,
+      "channel": "lelotsenzura",
+      "ts": "2026-05-16T23:05:23+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190159",
+      "post_id": 190159,
+      "channel": "presstv",
+      "ts": "2026-05-16T23:03:55+00:00"
+    },
+    {
+      "post_url": "https://t.me/rasedal3ado138e/357701",
+      "post_id": 357701,
+      "channel": "rasedal3ado138e",
+      "ts": "2026-05-16T23:01:49+00:00"
+    },
+    {
+      "post_url": "https://t.me/rasedal3ado138e/357697",
+      "post_id": 357697,
+      "channel": "rasedal3ado138e",
+      "ts": "2026-05-16T22:38:12+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190157",
+      "post_id": 190157,
+      "channel": "presstv",
+      "ts": "2026-05-16T22:33:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/rasedal3ado138e/357691",
+      "post_id": 357691,
+      "channel": "rasedal3ado138e",
+      "ts": "2026-05-16T22:22:09+00:00"
     },
     {
       "post_url": "https://t.me/rodast_omiddana/71433",
@@ -126,6 +177,18 @@
       "ts": "2026-05-16T22:00:04+00:00"
     },
     {
+      "post_url": "https://t.me/rasedal3ado138e/357676",
+      "post_id": 357676,
+      "channel": "rasedal3ado138e",
+      "ts": "2026-05-16T21:41:16+00:00"
+    },
+    {
+      "post_url": "https://t.me/rasedal3ado138e/357674",
+      "post_id": 357674,
+      "channel": "rasedal3ado138e",
+      "ts": "2026-05-16T21:39:57+00:00"
+    },
+    {
       "post_url": "https://t.me/presstv/190152",
       "post_id": 190152,
       "channel": "presstv",
@@ -136,6 +199,18 @@
       "post_id": 75528,
       "channel": "naya_foriraq",
       "ts": "2026-05-16T21:08:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/lelotsenzura/91898",
+      "post_id": 91898,
+      "channel": "lelotsenzura",
+      "ts": "2026-05-16T21:03:54+00:00"
+    },
+    {
+      "post_url": "https://t.me/lelotsenzura/91897",
+      "post_id": 91897,
+      "channel": "lelotsenzura",
+      "ts": "2026-05-16T21:02:46+00:00"
     },
     {
       "post_url": "https://t.me/presstv/190150",
@@ -161,72 +236,6 @@
       "channel": "Faytuks_Network",
       "ts": "2026-05-16T20:41:44+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/g7k2Io9E4Nzd5J5WarbPqHX8GDWmyF-ZWaimwVJ_RNtCa20WKN5-dAoiSaplO4FYiMOi99YLub6B_c2urQj6ZY7gYm11sJt28wTY6o64iyVGsDIzvJBPhsT_uFiQYYKUJItwKuXdunESky-LyP7bhu6fuhxzOy4gnDkvu9yN8FbD0U7HvBwbuCg3z2Gt4rWr7yHufm00gUikgkFFfhQ8XK2Wne-EltyVW3MePOHM3NR00CQQQ2UTQV36e_4WpuA3FcLtRq7DVmVnf7mQlgn1Uwq5Kj80XVdo7mtfhwU_pOcIvbnlpm3tP_aBQGKGDz1GMcFCTlbtBLXRseok3es7kg.jpg"
-    },
-    {
-      "post_url": "https://t.me/N12chat/207552",
-      "post_id": 207552,
-      "channel": "N12chat",
-      "ts": "2026-05-16T20:23:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/kianmeli1/87437",
-      "post_id": 87437,
-      "channel": "kianmeli1",
-      "ts": "2026-05-16T20:15:20+00:00"
-    },
-    {
-      "post_url": "https://t.me/kianmeli1/87436",
-      "post_id": 87436,
-      "channel": "kianmeli1",
-      "ts": "2026-05-16T20:13:13+00:00"
-    },
-    {
-      "post_url": "https://t.me/naya_foriraq/75523",
-      "post_id": 75523,
-      "channel": "naya_foriraq",
-      "ts": "2026-05-16T20:08:28+00:00"
-    },
-    {
-      "post_url": "https://t.me/naya_foriraq/75520",
-      "post_id": 75520,
-      "channel": "naya_foriraq",
-      "ts": "2026-05-16T19:59:15+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160290",
-      "post_id": 160290,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T19:47:10+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190144",
-      "post_id": 190144,
-      "channel": "presstv",
-      "ts": "2026-05-16T19:40:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160289",
-      "post_id": 160289,
-      "channel": "SharghDaily",
-      "ts": "2026-05-16T19:35:54+00:00"
-    },
-    {
-      "post_url": "https://t.me/amitsegal/61142",
-      "post_id": 61142,
-      "channel": "amitsegal",
-      "ts": "2026-05-16T19:32:35+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190143",
-      "post_id": 190143,
-      "channel": "presstv",
-      "ts": "2026-05-16T19:30:31+00:00"
-    },
-    {
-      "post_url": "https://t.me/naya_foriraq/75515",
-      "post_id": 75515,
-      "channel": "naya_foriraq",
-      "ts": "2026-05-16T19:19:38+00:00"
     }
   ],
   "post_images": {
@@ -242,77 +251,77 @@
     "VahidOnline/75501": "data/media/VahidOnline_75501.jpg",
     "idf_telegram/23682": "data/media/idf_telegram_23682.jpg"
   },
-  "summary": "IDF confirmed the killing of Hamas military wing commander Izz al‑Din al‑Haddad in Gaza and reported multiple strikes on Hezbollah assets in southern Lebanon, while U.S. officials discussed renewed plans for offensive operations against Iran. Iranian media highlighted Chinese reluctance to oppose U.S. action and warned of broader regional fallout. Tensions remain high across multiple fronts with frequent false alarms and isolated incidents.",
+  "summary": "An Israeli UAV struck a vehicle on Nassr Street in western Gaza while a massive explosion ripped through the Tomer rocket‑propulsion plant near Beit Shemesh, producing a mushroom cloud. Simultaneously, Israeli air‑defence alerts reported hostile aircraft near the northern border and the IDF confirmed a false alarm over the southern sector. Regional actors, including the US, UK and Iran, are ramping up naval patrols and rhetoric, raising the risk of broader escalation.",
   "key_points": [
-    "Hamas military wing commander Izz al‑Din al‑Haddad killed in Gaza airstrike",
-    "IDF reports 100 Hezbollah targets hit in southern Lebanon over the weekend",
-    "U.S. and Israel preparing possible new war operation against Iran, including special‑forces options",
-    "Chinese officials express no opposition to U.S. attacks on Iran, citing strategic miscalculation",
-    "Multiple false rocket alerts in Israeli border areas (Majdal Shams, Metula, Miron)",
-    "Hezbollah rockets fired from southern Lebanon, intercepted with no Israeli casualties",
-    "Iranian state media warns Gulf states of oil‑price shock benefits to the U.S. and Russia"
+    "Israeli UAV hit a vehicle on Nassr Street, western Gaza (Shin_Persian/6033).",
+    "Large explosion at Tomer rocket‑propulsion facility near Beit Shemesh, creating a mushroom cloud (PressTV/190151; Faytuks_Network/2754).",
+    "IDF issued alerts for hostile aircraft over Meron and later declared a false alarm over the southern sector (idf_telegram/23679; idf_telegram/23685).",
+    "US Navy and RAF deployed a total of five P‑8A Poseidon maritime patrol aircraft in the North Atlantic (Shin_Persian/6038; Shin_Persian/6039).",
+    "Trump warned of imminent attacks on Iran and boasted capability to destroy Iranian power infrastructure in days (Kianmeli1/87425; VahidOnline/75507).",
+    "Iran‑linked Hezbollah commander arrested in Turkey and transferred to the US (asafroz/49258).",
+    "Oil market analysis shows US and Russia benefiting from the Iran‑related oil shock, while Gulf exporters face mixed impacts (SharghDaily/160279)."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "The most operationally significant development is the IDF’s confirmed killing of Hamas military wing commander Izz al‑Din al‑Haddad in Gaza, signaling a focused decapitation campaign against Hamas leadership. Simultaneously, Israel intensified its campaign in southern Lebanon, striking roughly 100 Hezbollah positions and seizing weapons caches, while U.S. officials signaled renewed planning for a possible offensive against Iran. Regional actors, including China and Gulf states, are reacting to the heightened risk of a broader Iran‑Israel‑U.S. confrontation.",
+    "executive_summary": "An Israeli UAV strike in western Gaza and a massive blast at the Tomer rocket‑propulsion plant near Beit Shemesh represent the most operationally significant developments, indicating heightened kinetic activity on multiple fronts. Concurrently, the IDF’s rapid alerts for hostile aircraft over the north and a later false alarm in the south show heightened air‑space tension. US and UK maritime patrol deployments and Trump’s aggressive rhetoric toward Iran further raise the risk of regional escalation.",
     "iran": {
       "points": [
-        "Former US Defense Ministry deputy said China is not opposing a US attack on Iran, viewing it as a strategic mistake that would not achieve its goals (Source: @SharghDaily/160288).",
-        "Iranian state media analysis notes that the U.S. and Russia are benefiting from the oil shock, with the U.S. increasing exports and Russia raising prices, while Gulf exporters suffer (Source: @SharghDaily/160279).",
-        "Trump statements claim Iran’s navy and air force are destroyed, that its nuclear program is crippled, and that a possible U.S.‑Iran cease‑fire is under discussion, reflecting high‑level U.S. rhetoric (Source: @VahidOnline).",
-        "Iranian TV program showed masked individuals teaching AK‑47 use and firing at an Emirati flag, indicating domestic militia mobilization and propaganda (Source: @VahidOnline)."
+        "Hezbollah senior commander Muhammad Bakr Daoud al‑Saadi, a key figure in Iraqi Hezbollah, was arrested in Turkey and handed to the United States, suggesting intensified US pressure on Iran‑linked militias (asafroz/49258).",
+        "Trump publicly warned that the US could dismantle Iran’s power grid within two days, signaling a possible pre‑emptive strike doctrine (kianmeli1/87425).",
+        "US media report that the Pentagon is preparing a new, unnamed operation against Iran, potentially involving special‑operations forces from the 82nd Airborne and high‑yield bunker‑busting munitions (asafroz/49241).",
+        "Iran’s control of the Strait of Hormuz remains a strategic chokepoint; a sign posted prohibiting US troops and dogs near the strait underscores heightened Iranian vigilance (presstv/190160)."
       ]
     },
     "israel": {
       "points": [
-        "IDF confirmed the death of Hamas commander Izz al‑Din al‑Haddad in a Gaza airstrike, noting only two senior Oct. 7 leaders remain (Source: @Faytuks_Network/2740).",
-        "IDF reported killing two Hamas operatives who infiltrated Israel after the Oct. 7 massacre, using precise airstrikes in northern Gaza (Source: @idf_telegram/23688).",
-        "IDF said its 91st Division eliminated Hezbollah militants who launched rockets from southern Lebanon; a weapons cache with rifles, helmets and mortars was also seized (Source: @idf_telegram/23689).",
-        "Over the weekend, the IDF struck approximately 100 Hezbollah targets across southern Lebanon, including observation posts and ammunition depots (Source: @idf_telegram/23692).",
-        "Multiple false rocket alerts were issued in the Majdal Shams, Metula, and Miron areas, later identified as misidentifications (Source: @idf_telegram/23678, @idf_telegram/23685, @idf_telegram/23679).",
-        "Hostile aircraft intrusions were logged over the northern Golan and the Israel‑Lebanon confrontation line, prompting red alerts but no confirmed engagements (Source: @tzevaadom_en/67221, @tzevaadom_en/67244)."
+        "An Israeli UAV targeted a vehicle on Nassr Street in western Gaza, confirming continued IAF kinetic operations inside the Strip (shin_persian/6033).",
+        "A massive explosion at the state‑owned Tomer rocket‑propulsion facility near Beit Shemesh produced a mushroom cloud; the plant manufactures engines for Arrow‑2/3 missiles and other strategic rockets (pressstv/190151; faytuks_network/2754).",
+        "IDF reported hostile aircraft intrusions over Meron at 18:44 and over Shlomi, Hanita, Betzet, and Metzuba at 19:50‑19:52, prompting Red Alerts across northern border zones (idf_telegram/23679; tzevaadom_en/67244).",
+        "A subsequent alert over the southern sector (Marhav Mishgav) was later identified as a false alarm, reflecting heightened alertness but also potential sensor fatigue (idf_telegram/23685).",
+        "US and UK P‑8A Poseidon maritime patrol aircraft (2 RAF, 3 US) are operating in the North Atlantic, reportedly tracking a submarine, indicating expanded maritime surveillance amid regional tensions (shin_persian/6038; shin_persian/6039)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "IDF confirmed the elimination of two Hamas infiltrators who attempted attacks in Israel after the Oct. 7 massacre, indicating ongoing low‑level infiltration attempts from Gaza (Source: @idf_telegram/23688).",
-        "The IDF statement noted that precise munitions were used to limit civilian casualties during strikes on Hamas operatives in northern Gaza (Source: @idf_telegram/23688).",
-        "No new large‑scale operations were reported in the West Bank; the focus remains on Gaza and the Lebanon front (implicit from lack of reports)."
+        "The IAF UAV strike on a vehicle in Nassr Street, western Gaza, marks the latest direct kinetic action within the Strip, though casualty figures were not disclosed (shin_persian/6033).",
+        "No new reports of West Bank incidents were found in the supplied messages; the focus remains on Gaza and northern border alerts.",
+        "Israeli air‑defence alerts over Meron and northern border zones could affect West Bank airspace, increasing the risk of inadvertent engagements.",
+        "Hezbollah‑linked commander arrest in Turkey may influence militia activity in the West Bank, though no direct link was reported."
       ]
     },
     "lebanon": {
       "points": [
-        "IDF’s 91st Division neutralized Hezbollah militants who fired rockets toward Israeli forces in southern Lebanon; the rockets landed in open areas with no Israeli casualties (Source: @idf_telegram/23689).",
-        "A weapons cache containing rifles, magazines, vests, helmets, and mortars was discovered in southern Lebanon by Israeli engineering unit Yiftah 679 (Source: @idf_telegram/23689).",
-        "Over the weekend, the IDF conducted about 100 strikes on Hezbollah positions across southern Lebanon, targeting observation posts, ammunition depots, and command structures (Source: @idf_telegram/23692).",
-        "A senior Israeli officer, Sgt. Maor Israel Rakanati, was killed in combat in southern Lebanon, underscoring the intensity of ground engagements (Source: @yediotnews25/129344)."
+        "No explicit Lebanese events were reported in the current feed; however, the heightened Israeli alerts over northern border towns (Betzet, Rosh HaNikra, Shlomi) suggest increased surveillance near the Lebanese frontier.",
+        "US and UK maritime patrols in the Atlantic may be part of broader NATO/Western pressure that could affect Lebanese Hezbollah logistics.",
+        "Trump’s statements about destroying Iranian infrastructure could indirectly impact Lebanese Hezbollah, which relies on Iranian support."
       ]
     },
     "syria_iraq": {
       "points": [
-        "Russian media reported an explosion at a fuel station unrelated to Ukrainian drone attacks, suggesting possible sabotage or accidental blast (Source: @asafroz/49251).",
-        "No direct Syrian or Iraqi operational updates were present in the feed; focus remains on Israel‑Lebanon and Iran‑US dynamics."
+        "PressTV reported Israeli ground incursions into Syria’s Quneitra province, indicating renewed Israeli activity near the Golan Heights (pressstv/190159).",
+        "Hezbollah commander arrested in Turkey (asafroz/49258) was a senior figure in Iraqi Hezbollah, suggesting possible disruption of Iran‑backed militia networks in Iraq.",
+        "No direct Syrian or Iraqi battlefield updates were present beyond the Quneitra raid and the Hezbollah arrest."
       ]
     },
     "gulf_states": {
       "points": [
-        "U.S. officials are encouraging the UAE to take a more active role in a potential Iran war, including the possible seizure of a Gulf island (Source: @Faytuks_Network/2743).",
-        "Iranian analysis notes that Saudi Arabia and the UAE have mitigated some oil‑price shock through pipeline investments, but overall Gulf exporters face reduced revenues (Source: @SharghDaily/160279).",
-        "Trump claimed that Iranian oil tankers have been allowed to move with U.S. permission, indicating a limited de‑escalation in maritime pressure (Source: @VahidOnline)."
+        "SharghDaily analysis notes that the US and Russia are benefiting from the Iran‑related oil shock, while Gulf exporters like Saudi Arabia and the UAE face mixed outcomes due to pipeline investments (sharghdaily/160279).",
+        "A video of a sign off the Strait of Hormuz prohibiting US troops and dogs highlights Gulf concerns over US naval presence (presstv/190160).",
+        "Trump’s aggressive rhetoric about destroying Iranian power infrastructure may embolden Gulf states to align more closely with US pressure on Tehran."
       ]
     },
     "key_developments": [
-      "IDF confirmed the killing of Hamas military wing commander Izz al‑Din al‑Haddad in a Gaza airstrike, reducing Hamas senior leadership (Source: @Faytuks_Network/2740).",
-      "Israel reported striking roughly 100 Hezbollah targets in southern Lebanon over the weekend, including weapons caches and observation posts (Source: @idf_telegram/23692).",
-      "U.S. and Israeli officials are preparing a possible new offensive against Iran, with options ranging from intensified air strikes to special‑forces extraction of enriched uranium (Source: @kianmeli1/87424).",
-      "Former US Defense deputy said China opposes US attacks on Iran, viewing them as a strategic error, indicating limited Chinese deterrence (Source: @SharghDaily/160288).",
-      "Hezbollah launched rockets from southern Lebanon toward Israeli forces; IDF intercepted them and later destroyed the launch sites with no Israeli casualties (Source: @idf_telegram/23689).",
-      "Multiple false rocket alerts were issued in Israeli border areas (Majdal Shams, Metula, Miron) and later dismissed as misidentifications (Source: @idf_telegram/23678, @idf_telegram/23685, @idf_telegram/23679).",
-      "U.S. officials are urging the UAE to consider seizing a Gulf island from Iran, expanding the conflict’s maritime dimension (Source: @Faytuks_Network/2743)."
+      "An Israeli UAV struck a vehicle on Nassr Street in western Gaza, confirming active IAF operations inside the Strip (Source: @shin_persian/6033).",
+      "A massive explosion at the Tomer rocket‑propulsion plant near Beit Shemesh generated a mushroom cloud, potentially impacting Israel’s missile‑engine production capabilities (Source: @pressstv/190151).",
+      "IDF issued hostile‑aircraft alerts over Meron and northern border towns (Betzet, Shlomi, Hanita) between 18:44 and 19:52, indicating heightened air‑space tension (Source: @idf_telegram/23679; @tzevaadom_en/67244).",
+      "A later alert over the southern sector (Marhav Mishgav) was identified as a false alarm, showing rapid verification processes within the IDF (Source: @idf_telegram/23685).",
+      "US Navy and RAF deployed five P‑8A Poseidon maritime patrol aircraft in the North Atlantic, reporting a submarine contact and expanding anti‑submarine operations (Source: @shin_persian/6038).",
+      "Former Hezbollah commander Muhammad Bakr Daoud al‑Saadi was arrested in Turkey and transferred to the United States, reflecting intensified US action against Iran‑linked militias (Source: @asafroz/49258).",
+      "President Trump warned that the US could destroy Iran’s power infrastructure within two days and hinted at imminent attacks on Iran, raising the risk of a broader confrontation (Source: @kianmeli1/87425)."
     ],
-    "threat_assessment": "The elimination of Hamas commander Izz al‑Din al‑Haddad signals a focused Israeli decapitation strategy, but Hamas retains operational capacity. Hezbollah’s continued rocket fire and the discovery of extensive weapons caches in southern Lebanon indicate a sustained low‑intensity threat to Israel's northern border. Meanwhile, U.S. and Israeli planning for a possible offensive against Iran, coupled with Chinese ambivalence, raises the risk of a broader regional escalation that could draw Gulf states into direct confrontation.",
-    "regional_response": "Iranian media portrays U.S. action as a strategic misstep and highlights Chinese non‑intervention, while emphasizing the economic benefits to the U.S. and Russia from oil price spikes. Gulf states, particularly the UAE, are being courted by Washington for deeper involvement, including potential island seizures, reflecting a shift toward a more active coalition against Tehran. Domestic Iranian propaganda shows increased militia training, suggesting preparation for internal unrest or proxy escalation.",
-    "intelligence_notes": "Monitoring of Hezbollah logistics in southern Lebanon should focus on newly identified weapons caches and launch sites for pre‑emptive strikes. The U.S.–Israel joint planning against Iran warrants close observation of special‑forces deployment indicators and potential covert operations targeting enriched uranium facilities. Chinese diplomatic signals must be tracked for any shift that could alter the strategic calculus of U.S. action. Gulf maritime activity, especially around disputed islands, should be surveilled for signs of escalation."
+    "threat_assessment": "The convergence of kinetic strikes in Gaza, a high‑profile explosion at a key Israeli missile‑engine facility, and multiple hostile‑aircraft alerts signals a rapid escalation in both ground and air domains. US and UK maritime patrols suggest a widening anti‑submarine focus that could intersect with Iranian naval activities in the Strait of Hormuz. Trump’s explicit threats toward Iran, coupled with the arrest of a senior Hezbollah figure, indicate a possible shift toward direct action against Iranian proxies, raising the probability of a wider regional conflict within weeks.",
+    "regional_response": "Israel is maintaining a high alert posture, employing UAV strikes and rapid air‑defence alerts while investigating the Tomer blast. The United States is augmenting maritime surveillance with P‑8A Poseidons and signaling readiness for special‑operations strikes against Iranian targets. Gulf states are watching US moves closely, balancing oil market gains against security concerns over increased US naval presence near the Strait of Hormuz. Iran is likely to respond to both the Hezbollah arrest and Trump’s rhetoric with asymmetric attacks, potentially via proxy groups in Lebanon, Syria and Iraq.",
+    "intelligence_notes": "Monitoring of the Tomer facility’s reconstruction will be critical to assess Israel’s missile‑engine production recovery. Further UAV or missile activity over Gaza should be correlated with ground casualty reports to gauge escalation intensity. The false alarm in the south underscores the need for improved sensor validation to avoid misallocation of forces. US‑UK P‑8A deployments may provide early warning of Iranian submarine movements, informing naval posture in the Eastern Mediterranean and the Gulf. Finally, any sudden shift in Hezbollah operational tempo in Iraq or Lebanon should be linked to the recent commander’s arrest."
   }
 }
