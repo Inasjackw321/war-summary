@@ -653,9 +653,16 @@ function populatePanel(prefix, data) {
 
   const sourcesList = document.getElementById(`${sp}-sources-list`);
   if (sourcesList) {
-    sourcesList.innerHTML = (data.channels||[])
-      .map(ch => `<li><a href="https://t.me/${ch}" target="_blank" rel="noopener noreferrer">@${ch}</a></li>`)
-      .join("");
+    sourcesList.innerHTML = (data.channels||[]).map(ch => {
+      const isBiased = isBiasedSource(ch);
+      const url = `https://t.me/${ch}`;
+      const warn = isBiased ? WARN_ICON : "";
+      const interceptAttr = isBiased ? ` data-biased="1" data-ch="${ch}" data-url="${url}"` : "";
+      return `<li class="${isBiased?"source-item--biased":""}"><a href="${url}" target="_blank" rel="noopener noreferrer"${interceptAttr}>@${ch}</a>${warn}</li>`;
+    }).join("");
+    sourcesList.querySelectorAll("a[data-biased]").forEach(a => {
+      a.addEventListener("click", e => { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); });
+    });
   }
 
   // Wire "MESSAGES ANALYSED" card → sources modal.
