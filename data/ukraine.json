@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-17T13:50:27.408286+00:00",
-  "message_count": 273,
+  "updated_at": "2026-05-17T14:12:42.968509+00:00",
+  "message_count": 280,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,74 +13,74 @@
   ],
   "red_alerts": 287,
   "red_alerts_timeline": [
-    14,
+    13,
     0,
     0,
-    14,
-    27,
-    41,
-    41,
-    41,
-    41,
-    0,
-    0,
-    0,
-    0,
-    27,
-    0,
-    0,
-    14,
+    26,
+    26,
+    26,
+    78,
+    13,
+    26,
     0,
     0,
     0,
-    14,
+    0,
+    26,
     0,
     0,
-    14
+    13,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    26
   ],
   "combined_activity_timeline": [
-    18,
-    12,
-    14,
-    9,
-    15,
-    18,
     19,
-    12,
-    12,
-    6,
-    8,
-    2,
-    4,
-    10,
-    9,
-    8,
-    10,
-    16,
-    12,
-    12,
-    16,
     14,
+    13,
+    10,
+    11,
+    20,
+    19,
+    10,
     9,
-    8
+    8,
+    6,
+    2,
+    7,
+    11,
+    9,
+    7,
+    12,
+    16,
+    8,
+    13,
+    23,
+    8,
+    7,
+    17
   ],
   "messages_by_channel": {
-    "@eRadarrua": 94,
-    "@kpszsu": 46,
-    "@mon1tor_ua": 20,
-    "@UkraineNow": 11,
+    "@eRadarrua": 95,
+    "@kpszsu": 48,
+    "@mon1tor_ua": 22,
+    "@UkraineNow": 12,
     "@DeepStateUA": 4,
-    "@ukr_leaks_eng": 16,
-    "@tass_agency": 82
+    "@ukr_leaks_eng": 15,
+    "@tass_agency": 84
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92227",
-    "kpszsu": "https://t.me/kpszsu/62115",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66783",
-    "UkraineNow": "https://t.me/UkraineNow/81275",
+    "eRadarrua": "https://t.me/eRadarrua/92233",
+    "kpszsu": "https://t.me/kpszsu/62121",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66785",
+    "UkraineNow": "https://t.me/UkraineNow/81276",
     "DeepStateUA": "https://t.me/DeepStateUA/23512",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30232",
-    "tass_agency": "https://t.me/tass_agency/376252"
+    "tass_agency": "https://t.me/tass_agency/376255"
   },
   "media": [
     {
@@ -218,113 +218,125 @@
     "eRadarrua/92227": "data/media/eRadarrua_92227.jpg",
     "kpszsu/62080": "data/media/kpszsu_62080.jpg"
   },
-  "summary": "Ukrainian UAV attacks intensified across multiple fronts, striking Russian industrial targets in Moscow region and causing casualties, while Russian air defenses report high numbers of downed Ukrainian drones. Both sides report heavy UAV usage, with Russia claiming record‑high night attacks and Ukraine noting large-scale drone launches from the rear. Casualties and infrastructure damage continue to rise, highlighting an escalating aerial contest.",
+  "summary": "Massive UAV activity continues on both sides, with Russia reporting the downing of over 1,000 Ukrainian drones and Ukraine confirming numerous Shahed and UAV strikes across multiple oblasts. Russian air defenses also intercepted a long‑range Flamingo cruise missile and a Neptune‑MD missile, while Ukrainian forces reported attacks on Russian industrial targets. Frontline dynamics remain fluid, with frequent cross‑border UAV incursions and localized artillery engagements.",
   "key_points": [
-    "Ukrainian UAVs hit Moscow region facilities including Angstrom microelectronics plant and oil depots.",
-    "Russia downed over 1,000 Ukrainian drones and multiple guided bombs in a single day.",
-    "Russian forces reported 20 Shahed drones over Solone heading toward Dnipro.",
-    "Ukrainian forces claim FPV drone company “Nemets” destroying positions in Zaporizhzhia.",
-    "Heavy UAV activity reported on northern fronts: Chernihiv, Kyiv, and Kharkiv regions.",
-    "Russian navy destroyed six Ukrainian unmanned surface vessels.",
-    "President Zelensky noted over 3,170 strike drones, 1,300 KABs and 74 missiles launched by Russia this week."
+    "Russia downed 1,054 Ukrainian UAVs in a single day, highlighting intense aerial contest.",
+    "Ukrainian Shahed drones were observed over Chernihiv, Poltava, Kyiv, and Kharkiv regions, targeting both military and civilian sites.",
+    "Russian PVO intercepted a long‑range Flamingo cruise missile and a Neptune‑MD missile, indicating high‑value strike attempts.",
+    "Ukrainian forces reported UAV groups heading toward the Dnipro/Kamianets area and multiple Shahed attacks on southern oblasts.",
+    "SBU‑Alpha special operations struck Russian VPK facilities, including the Angstrom semiconductor plant and oil pumping stations.",
+    "Russian air defense claimed 556 Ukrainian UAVs shot down over Russian territory overnight.",
+    "Both sides reported casualties and infrastructure damage from UAV debris in Moscow region and Sevastopol."
   ],
-  "sentiment": "escalating",
-  "intensity": 8,
+  "sentiment": "active",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian UAV strikes on strategic Russian industrial sites in the Moscow region mark the most significant operational development, demonstrating deep‑reach capabilities. Russian air defenses reported record‑high interceptions, downing over 1,000 drones and numerous guided munitions in a single day. Both sides continue massive UAV deployments, driving heightened aerial combat and civilian casualties.",
+    "executive_summary": "Russia’s air defense reported downing over 1,000 Ukrainian UAVs in a single day, including a Flamingo cruise missile and a Neptune‑MD missile, underscoring a peak in aerial contest. Ukrainian Shahed and UAV attacks continued across Chernihiv, Poltava, Kyiv, Kharkiv, and southern regions, striking both military and civilian targets. Special operations by Ukrainian intelligence hit key Russian VPK and oil infrastructure, while both sides sustain casualties and infrastructure damage from UAV debris.",
     "ukraine": {
       "points": [
-        "Ukrainian drones attacked the Angstrom microelectronics plant and two oil‑refining facilities in the Moscow region, targeting sanctioned defense‑related production (Source: @UkraineNow/81271).",
-        "FPV operators from the “Nemets” reconnaissance company reported destroying enemy positions and personnel in the Zaporizhzhia sector (Source: @ukr_leaks_eng/30224).",
-        "Ukrainian forces claimed three Shahed drones over Solone moving toward Dnipro, indicating pressure on critical water‑way infrastructure (Source: @mon1tor_ua/66769).",
-        "Multiple UAV groups were observed crossing northern frontlines: Chernihiv to Snovsk/Nizhyn, Kyiv to Pripyat, and Kharkiv to the west, suggesting coordinated deep‑strike missions (Source: @kpszsu/62101, @kpszsu/62079).",
-        "Ukrainian air defense reported neutralising 279 of 287 Russian drones overnight, with eight strike UAVs hitting seven locations across Dnipro, Zaporizhzhia, and Kharkiv (Source: @UkraineNow/81267)."
+        "Shahed drones launched from Chernihiv oblast struck Lublin district in Poltava, Bakhmach/Konotop, and a Shahed hovered over Vyshhorod district of Kyiv region, indicating coordinated attacks on rear areas (Source: @mon1tor_ua/66765).",
+        "Ukrainian UAVs were reported heading north from Kyiv oblast toward Pripyat and from northern Chernihiv toward Holmy, suggesting attempts to penetrate deep into Russian‑occupied territory (Source: @kpszsu/62095).",
+        "A group of UAVs moved toward the Dnipro/Kamianets direction, potentially targeting logistics hubs in central Ukraine (Source: @kpszsu/62114).",
+        "Ukrainian forces reported a Shahed strike on the Dnipro area, with two Shahed drones observed (Source: @mon1tor_ua/66782).",
+        "Ukrainian intelligence claimed FPV drone operators from the \"Nemets\" reconnaissance company destroyed enemy positions in the Zaporozhye sector (Source: @ukr_leaks_eng/30224).",
+        "Ukrainian pilots are undergoing helicopter instructor training in the UK under Operation Interstorm, enhancing future rotary‑wing capabilities (Source: @DeepStateUA/23510).",
+        "Ukrainian forces reported a reconnaissance UAV over Sumy oblast heading toward Chernihiv's Pryluky district (Source: @mon1tor_ua/66765)."
       ]
     },
     "russia": {
       "points": [
-        "Russian air defenses shot down 1,054 Ukrainian drones, eight guided aviation bombs and intercepted a long‑range Flamingo cruise missile and a Neptune‑MD missile (Source: @tass_agency/376237).",
-        "The Russian Navy’s Black Sea Fleet destroyed six Ukrainian unmanned surface vessels, reducing Kyiv’s maritime strike capability (Source: @tass_agency/376237).",
-        "Russia reported a night‑time UAV attack on its territory as the largest this year, with over 1,000 drones intercepted (Source: @tass_agency/376238).",
-        "Three Shahed drones were observed over the TETs‑6 area in Troieshchyna, indicating continued Russian UAV deployment near Kyiv (Source: @mon1tor_ua/66780).",
-        "Russian forces claimed over 1,100 Ukrainian personnel killed across all fronts in the past 24 hours (Source: @tass_agency/376237)."
+        "Russian air defense shot down 1,054 Ukrainian UAVs in 24 hours, including 8 guided aviation bombs, reflecting a high‑intensity UAV campaign (Source: @tass_agency/376237).",
+        "The Russian PVO intercepted a long‑range Flamingo cruise missile and a Neptune‑MD missile, preventing potential strikes on strategic assets (Source: @tass_agency/376237).",
+        "Russia reported downing 556 Ukrainian UAVs overnight across its regions, according to the Ministry of Defense (Source: @tass_agency/376220).",
+        "SBU‑Alpha special operations hit the Angstrom semiconductor plant, Moscow oil refinery, and two oil‑pumping stations, degrading Russian VPK and energy capacity (Source: @DeepStateUA/23512).",
+        "A UAV incident over Latvia triggered NATO fighter patrols, indicating the cross‑border reach of the conflict (Source: @tass_agency/376236).",
+        "Russian forces claimed over 1,100 Ukrainian casualties across all fronts in a single day, suggesting heavy attrition (Source: @tass_agency/376237).",
+        "A UAV strike in the Moscow region caused civilian casualties in Khimki and Mytishchi, highlighting the threat to Russian heartland (Source: @tass_agency/376247)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAVs were sighted heading east from Kharkiv toward Zmiiv and further west, suggesting pressure on Russian supply lines in the Donetsk sector (Source: @kpszsu/62111).",
-        "Shahed drones were reported over the Solone area moving toward Dnipro, targeting the strategic river crossing in the east (Source: @mon1tor_ua/66769).",
-        "Ukrainian FPV drones destroyed enemy positions in Zaporizhzhia, a key eastern industrial region (Source: @ukr_leaks_eng/30224).",
-        "Russian reports indicate 20 Shahed drones passed near Solone, highlighting intensified aerial activity in the eastern axis (Source: @mon1tor_ua/66769).",
-        "Ukrainian UAV groups were observed moving from Dnipropetrovsk toward Kryvyi Rih, indicating reconnaissance or strike missions in the central‑eastern sector (Source: @kpszsu/62079)."
+        "Ukrainian Shahed drones were observed over the Kharkiv region heading west toward Poltava, indicating pressure on the eastern flank (Source: @kpszsu/62062).",
+        "Ukrainian UAV activity reported near Dnipro and Pavlograd, suggesting attempts to disrupt supply lines in the eastern theater (Source: @kpszsu/62097).",
+        "Russian reports of massive UAV launches toward Moscow and Sevastopol included over 120 UAVs intercepted near Moscow, showing extended reach (Source: @ukr_leaks_eng/30225).",
+        "Ukrainian forces noted UAV groups moving toward the Dnipro/Kamianets axis, potentially targeting eastern logistical nodes (Source: @kpszsu/62114).",
+        "Russian air defense claimed downing 8 guided aviation bombs, likely over the eastern front, reflecting intensified aerial combat (Source: @tass_agency/376237).",
+        "Ukrainian reconnaissance drones from the \"Nemets\" company reported destroying enemy positions in Zaporozhye, a key eastern sector (Source: @ukr_leaks_eng/30224).",
+        "Ukrainian Shahed attacks on the Sumy region (1 Shahed) and Chernihiv (multiple) indicate ongoing pressure on the northern part of the eastern front (Source: @mon1tor_ua/66765)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple UAV groups were reported over Chernihiv heading toward Snovsk, Nizhyn, and Kozelits, indicating sustained pressure on northern supply routes (Source: @kpszsu/62101).",
-        "Ukrainian drones were seen over northern Kyiv heading toward Pripyat, suggesting deep‑strike capability toward the Belarusian border (Source: @kpszsu/62095).",
-        "A Shahed drone was observed over Borispil moving toward Kyiv, though it later disappeared, reflecting ongoing threats to the capital’s airspace (Source: @mon1tor_ua/66768).",
-        "Russian air defenses downed a large number of Ukrainian drones, including 1,054 in a single day, reflecting heightened aerial contest over the north (Source: @tass_agency/376237).",
-        "Ukrainian UAVs were reported over the north‑west of Kharkiv moving south‑west, indicating cross‑front coordination (Source: @kpszsu/62056)."
+        "Ukrainian UAVs were reported over northern Kyiv oblast heading toward Pripyat, suggesting attempts to strike deep into Russian‑occupied territory (Source: @kpszsu/62095).",
+        "Shahed drones launched from Chernihiv oblast were observed over Lublin district in Poltava and over the north of Kyiv, indicating cross‑border attacks (Source: @mon1tor_ua/66765).",
+        "Ukrainian UAV activity noted near the border of Chernihiv and Kharkiv, with Shahed attacks on the north of Nizhyn and Koriyivka (Source: @eRadarrua/92199).",
+        "Russian air defense reported downing 556 Ukrainian UAVs overnight across its territory, many likely originating from the northern Ukrainian front (Source: @tass_agency/376220).",
+        "Ukrainian reconnaissance UAVs observed over Sumy heading toward Chernihiv's Pryluky district, indicating north‑eastern pressure (Source: @mon1tor_ua/66765).",
+        "Ukrainian Shahed attacks on the Kyiv region included a Shahed circling over Vyshhorod district, highlighting threats to the capital’s outskirts (Source: @mon1tor_ua/66765).",
+        "Russian PVO intercepted a Flamingo cruise missile, possibly launched from the north, underscoring heightened threat perception (Source: @tass_agency/376237)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian UAVs were reported heading from Mykolaiv toward Ochakiv, Berezanka, and Komyshuvak, targeting southern coastal positions (Source: @kpszsu/62083).",
-        "Shahed drones were observed over the Dnipro area, with two reported on 2 May, threatening critical river infrastructure (Source: @mon1tor_ua/66782).",
-        "Russian reports claim six unmanned surface vessels were destroyed by the Black Sea Fleet, reducing Ukrainian maritime pressure in the south (Source: @tass_agency/376237).",
-        "Ukrainian forces reported 20 Shahed drones over Solone heading toward Dnipro, a key southern logistical hub (Source: @mon1tor_ua/66769).",
-        "Ukrainian UAV activity was noted over the southern front from the Black Sea toward Tuzla, indicating possible maritime strike attempts (Source: @kpszsu/62099)."
+        "Ukrainian Shahed drones were reported over Dnipro, Solone, and further toward the Dnipro River, indicating pressure on southern logistics corridors (Source: @mon1tor_ua/66770).",
+        "Ukrainian UAVs were observed over the Dnipro area, with two Shahed drones confirmed (Source: @mon1tor_ua/66782).",
+        "Ukrainian forces reported a Shahed strike on the Cherkasy region (Smyla) and another from Kirovohrad heading to Cherkasy (Source: @mon1tor_ua/66765).",
+        "Russian Black Sea Fleet destroyed six Ukrainian unmanned surface vessels, reflecting naval contest in the southern theater (Source: @tass_agency/376237).",
+        "Ukrainian UAV activity noted near the Zaporizhzhia sector, targeting repair teams, headquarters, and fuel trucks (Source: @ukr_leaks_eng/30225).",
+        "Ukrainian Shahed attacks on the Mykolaiv region heading toward Odesa’s Berezivka district were reported (Source: @mon1tor_ua/66765).",
+        "Russian air defense claimed downing 1,054 Ukrainian UAVs, many likely operating over the southern front to strike energy and transport infrastructure (Source: @tass_agency/376237)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air defenses reported shooting down 1,054 Ukrainian drones and eight guided bombs in a single day, highlighting intense aerial engagements (Source: @tass_agency/376237).",
-        "Ukrainian forces claimed to have downed 279 of 287 Russian drones overnight, with eight strike UAVs hitting seven locations (Source: @UkraineNow/81267).",
-        "TASS reported the night‑time Ukrainian UAV attack on Russian territory as the largest this year, with over 1,000 drones intercepted (Source: @tass_agency/376238).",
-        "President Zelensky noted that Russia launched more than 3,170 strike drones, 1,300 KABs and 74 missiles in the past week, indicating a massive aerial sortie (Source: @UkraineNow/81272).",
-        "Ukrainian FPV drone operators are actively destroying enemy positions, showing the growing role of low‑cost, high‑impact UAVs on the battlefield (Source: @ukr_leaks_eng/30224)."
+        "Russian PVO downed 1,054 Ukrainian UAVs and intercepted a Flamingo cruise missile and a Neptune‑MD missile, showing robust air defense performance (Source: @tass_agency/376237).",
+        "Russia reported shooting down 556 Ukrainian UAVs overnight across its territory, indicating sustained Ukrainian aerial pressure (Source: @tass_agency/376220).",
+        "Ukrainian Shahed and UAV incursions were reported over Moscow region, Khimki, and Mytishchi, causing civilian casualties (Source: @tass_agency/376247).",
+        "Ukrainian forces claimed to have destroyed over 120 UAVs in a massive attack on Moscow and Sevastopol, with 12 injuries near the Moscow refinery (Source: @ukr_leaks_eng/30225).",
+        "Ukrainian FPV drone operators from the \"Nemets\" company reported destroying enemy positions in Zaporozhye, highlighting the growing role of low‑cost drones (Source: @ukr_leaks_eng/30224).",
+        "Russian Black Sea Fleet eliminated six Ukrainian unmanned surface boats, extending the UAV contest to maritime domains (Source: @tass_agency/376237).",
+        "Ukrainian UAV groups were observed moving toward Dnipro/Kamianets and across multiple oblasts, indicating coordinated aerial operations (Source: @kpszsu/62114)."
       ]
     },
     "key_developments": [
-      "Ukrainian UAVs struck the Angstrom microelectronics plant and two oil facilities in the Moscow region, targeting sanctioned defense production (Source: @UkraineNow/81271).",
-      "Russian air defenses downed 1,054 Ukrainian drones and intercepted a Flamingo cruise missile and a Neptune‑MD missile in a single day (Source: @tass_agency/376237).",
-      "Over 3,170 Ukrainian‑targeted strike drones, 1,300 KABs and 74 missiles were launched by Russia this week, causing 52 civilian deaths and 346 injuries (Source: @UkraineNow/81272).",
-      "Shahed drones were observed over Solone moving toward Dnipro, indicating a focused effort on critical river infrastructure (Source: @mon1tor_ua/66769).",
-      "Ukrainian FPV drone unit “Nemets” reported destroying enemy positions in Zaporizhzhia, showing effective low‑altitude strike capability (Source: @ukr_leaks_eng/30224).",
-      "Russian Navy’s Black Sea Fleet destroyed six Ukrainian unmanned surface vessels, reducing Kyiv’s maritime strike options (Source: @tass_agency/376237).",
-      "Ukrainian UAV groups were sighted crossing northern frontlines toward Snovsk, Nizhyn, and Kyiv, indicating coordinated deep‑strike missions (Source: @kpszsu/62101)."
+      "Russia’s air defense downed 1,054 Ukrainian UAVs and intercepted a Flamingo cruise missile and a Neptune‑MD missile, demonstrating heightened aerial contest (Source: @tass_agency/376237).",
+      "Ukrainian Shahed drones launched from Chernihiv struck Lublin district in Poltava, Bakhmach/Konotop, and hovered over Vyshhorod, indicating coordinated rear‑area attacks (Source: @mon1tor_ua/66765).",
+      "SBU‑Alpha special operations hit the Angstrom semiconductor plant, Moscow oil refinery, and two oil‑pumping stations, degrading Russian VPK and energy capacity (Source: @DeepStateUA/23512).",
+      "Russia reported downing 556 Ukrainian UAVs overnight across its regions, reflecting massive Ukrainian UAV sortie rates (Source: @tass_agency/376220).",
+      "Ukrainian UAV groups moved toward the Dnipro/Kamianets axis, targeting central logistics hubs (Source: @kpszsu/62114).",
+      "Russian Black Sea Fleet destroyed six Ukrainian unmanned surface vessels, extending the UAV contest to the maritime domain (Source: @tass_agency/376237).",
+      "Ukrainian FPV drones from the \"Nemets\" reconnaissance company destroyed enemy positions in the Zaporozhye sector, showing effective low‑cost drone tactics (Source: @ukr_leaks_eng/30224)."
     ],
-    "threat_assessment": "Ukrainian UAV operations have achieved deep penetration into Russian territory, striking high‑value industrial targets and threatening logistics hubs, while Russian air defenses have adapted, achieving record interception rates. Russia continues to rely on massed Shahed drone swarms and long‑range missiles, sustaining pressure on Ukrainian rear areas. The escalating UAV contest raises the risk of civilian casualties and infrastructure degradation on both sides, with autonomous drone technologies likely to increase in prevalence.",
-    "regional_response": "Russian authorities have intensified air defense deployments around Moscow and the southern regions, citing the highest night‑time UAV attack counts this year. Ukrainian leadership emphasizes continued drone procurement, supported by upcoming EU funds earmarked for UAV acquisition. Both sides are mobilising additional electronic warfare assets to counter the growing autonomous drone threat.",
-    "intelligence_notes": "Monitoring of UAV flight paths shows a pattern of north‑south corridors through Chernihiv, Kharkiv, and Dnipropetrovsk, suggesting coordinated strike planning. Russian claims of high interception numbers may be inflated; independent verification is limited. The reported damage to Russian defense‑related facilities could impact missile production timelines, while continued Shahed swarms strain Ukrainian air defense resources, necessitating prioritisation of high‑value targets."
+    "threat_assessment": "Ukrainian UAV and Shahed activity remains pervasive across all fronts, targeting logistical nodes, civilian infrastructure, and rear areas, while Russian air defenses have scaled up interception capabilities, downing over a thousand drones and intercepting high‑value missiles. Russian special operations against Ukrainian VPK and energy assets indicate a continued focus on degrading Ukraine's warfighting capacity. The proliferation of autonomous and long‑range UAVs on both sides raises the risk of deeper penetrations and higher civilian casualties, especially in densely populated regions such as Moscow and Kyiv.",
+    "regional_response": "Western partners continue to provide air‑defense systems and training, exemplified by Ukrainian helicopter instructor courses in the UK, while Russia emphasizes its missile interception successes to bolster domestic morale. Regional actors, including NATO, have responded to UAV incursions beyond national borders, as seen in the Latvian airspace incident, reflecting broader security concerns. Diplomatic overtures from China and the United States signal a parallel push for political resolution, though operational intensity on the ground remains high.",
+    "intelligence_notes": "The surge in UAV sorties suggests both sides are leveraging cheap, expendable platforms to achieve strategic effects, with Ukraine focusing on deep strikes and Russia on defensive saturation. The reported damage to Russian semiconductor and oil facilities could have medium‑term impacts on Russian military production and fuel logistics. Continued reports of civilian casualties from UAV debris in Russian territory underscore the conflict's expanding geographic footprint and the need for enhanced early‑warning and civil defense measures."
   },
   "missiles": 0,
   "drones": 287,
   "kpszsu_timeline": [
-    4,
-    2,
-    2,
-    1,
-    1,
     3,
-    2,
-    0,
+    3,
     1,
-    4,
-    2,
     1,
     0,
+    4,
+    1,
+    1,
+    1,
+    4,
+    1,
+    1,
     0,
+    1,
     2,
     1,
-    3,
     2,
     4,
+    2,
     1,
-    4,
-    3,
+    6,
     2,
-    1
+    1,
+    4
   ]
 }
