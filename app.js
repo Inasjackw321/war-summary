@@ -78,6 +78,91 @@ const SECTION_DEFS = {
   ],
 };
 
+// ── Section geo (time + weather) ──────────────────────────────────────────────
+const SECTION_GEO = {
+  iran:          { city: "Tehran",       lat: 35.69,  lon: 51.39,  tz: "Asia/Tehran"    },
+  israel:        { city: "Tel Aviv",     lat: 32.08,  lon: 34.78,  tz: "Asia/Jerusalem" },
+  gaza_west_bank:{ city: "Gaza",         lat: 31.52,  lon: 34.45,  tz: "Asia/Jerusalem" },
+  lebanon:       { city: "Beirut",       lat: 33.89,  lon: 35.50,  tz: "Asia/Beirut"    },
+  syria_iraq:    { city: "Damascus",     lat: 33.51,  lon: 36.29,  tz: "Asia/Damascus"  },
+  gulf_states:   { city: "Dubai",        lat: 25.20,  lon: 55.27,  tz: "Asia/Dubai"     },
+  ukraine:       { city: "Kyiv",         lat: 50.45,  lon: 30.52,  tz: "Europe/Kiev"    },
+  russia:        { city: "Moscow",       lat: 55.75,  lon: 37.62,  tz: "Europe/Moscow"  },
+  eastern_front: { city: "Donetsk",      lat: 48.02,  lon: 37.80,  tz: "Europe/Kiev"    },
+  northern_front:{ city: "Chernihiv",    lat: 51.50,  lon: 31.30,  tz: "Europe/Kiev"    },
+  southern_front:{ city: "Zaporizhzhia", lat: 47.84,  lon: 35.14,  tz: "Europe/Kiev"    },
+  air_war:       { city: "Kyiv",         lat: 50.45,  lon: 30.52,  tz: "Europe/Kiev"    },
+};
+
+const _weatherCache = {};   // key → { temp, code, fetchedAt }
+
+function _wmoEmoji(code) {
+  if (code === 0)           return "☀️";
+  if (code <= 2)            return "🌤️";
+  if (code === 3)           return "☁️";
+  if (code <= 48)           return "🌫️";
+  if (code <= 55)           return "🌦️";
+  if (code <= 65)           return "🌧️";
+  if (code <= 75)           return "🌨️";
+  if (code <= 82)           return "🌧️";
+  return "⛈️";
+}
+
+function _localTime(tz) {
+  return new Intl.DateTimeFormat("en-GB", {
+    hour: "2-digit", minute: "2-digit", timeZone: tz,
+  }).format(new Date());
+}
+
+async function fetchSectionWeather(key) {
+  const geo = SECTION_GEO[key];
+  if (!geo) return null;
+  const cached = _weatherCache[key];
+  if (cached && Date.now() - cached.fetchedAt < 30 * 60 * 1000) return cached;
+  try {
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${geo.lat}&longitude=${geo.lon}&current=temperature_2m,weather_code&timezone=auto&forecast_days=1`;
+    const r = await fetch(url);
+    if (!r.ok) return null;
+    const d = await r.json();
+    const result = {
+      temp: Math.round(d.current.temperature_2m),
+      code: d.current.weather_code,
+      fetchedAt: Date.now(),
+    };
+    _weatherCache[key] = result;
+    return result;
+  } catch { return null; }
+}
+
+function updateGeoBar(key) {
+  const bar = document.getElementById(`geobar-${key}`);
+  if (!bar) return;
+  const geo = SECTION_GEO[key];
+  if (!geo) return;
+  const timeEl = bar.querySelector(".sgb-time");
+  if (timeEl) timeEl.textContent = _localTime(geo.tz);
+}
+
+// Called once per panel load; fetches weather + sets up per-minute time refresh
+async function initGeoBar(key) {
+  const bar = document.getElementById(`geobar-${key}`);
+  if (!bar) return;
+  const geo = SECTION_GEO[key];
+  if (!geo) return;
+
+  // Render time immediately (no fetch needed)
+  bar.querySelector(".sgb-time").textContent = _localTime(geo.tz);
+  bar.querySelector(".sgb-city").textContent = geo.city;
+
+  // Fetch weather async
+  const w = await fetchSectionWeather(key);
+  if (w) {
+    bar.querySelector(".sgb-temp").textContent = `${w.temp}°C`;
+    bar.querySelector(".sgb-icon").textContent = _wmoEmoji(w.code);
+  }
+  bar.classList.remove("sgb--loading");
+}
+
 // ── Charts registry ───────────────────────────────────────────────────────────
 const charts = {};
 // Most-recent post URL per channel, set by populatePanel before rendering source tags
@@ -326,6 +411,17 @@ function buildSectionBlock(def, sectionsData, index) {
     ? `<span class="section-flag section-flag--emoji">${def.flag}</span>`
     : `<span class="section-flag section-flag--icon flag--${def.color}">${SECTION_ICONS[def.flag] || def.flag}</span>`;
 
+  const hasGeo = !!SECTION_GEO[def.key];
+  const geoBarHtml = hasGeo ? `
+    <div class="section-geo-bar sgb--loading" id="geobar-${def.key}">
+      <span class="sgb-icon">—</span>
+      <span class="sgb-temp"></span>
+      <span class="sgb-sep">·</span>
+      <span class="sgb-city"></span>
+      <span class="sgb-sep">·</span>
+      <span class="sgb-time"></span> <span class="sgb-label">local</span>
+    </div>` : "";
+
   block.innerHTML = `
     <div class="section-header">
       ${flagHtml}
@@ -342,6 +438,7 @@ function buildSectionBlock(def, sectionsData, index) {
         <polyline points="9 18 15 12 9 6"/>
       </svg>
     </div>
+    ${geoBarHtml}
     <div class="section-body"></div>
   `;
 
@@ -533,7 +630,10 @@ function populatePanel(prefix, data) {
   const container = document.getElementById(`${sp}-sections-content`);
   if (container) {
     container.innerHTML = "";
-    defs.forEach((def, i) => container.appendChild(buildSectionBlock(def, data.sections||{}, i)));
+    defs.forEach((def, i) => {
+      container.appendChild(buildSectionBlock(def, data.sections||{}, i));
+      if (SECTION_GEO[def.key]) initGeoBar(def.key);
+    });
   }
 
   buildSectionsNav(sp, defs);
@@ -796,6 +896,11 @@ async function init() {
   if (me) { populatePanel("middle_east", me); startCountdown(me.updated_at); scheduleAutoRefresh(me.updated_at); }
   if (ua) populatePanel("ukraine", ua);
   buildTicker([me, ua]);
+
+  // Refresh geo-bar times every minute (no network call needed)
+  setInterval(() => {
+    Object.keys(SECTION_GEO).forEach(key => updateGeoBar(key));
+  }, 60 * 1000);
 }
 
 // Global click handlers

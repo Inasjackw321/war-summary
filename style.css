@@ -428,6 +428,24 @@ body {
 }
 .section-block--executive .section-chevron { display: none; }
 
+/* Geo bar (time + weather) */
+.section-geo-bar {
+  display: flex; align-items: center; gap: 6px;
+  padding: 4px 14px;
+  font-size: 9px; font-family: 'JetBrains Mono', monospace;
+  color: var(--muted);
+  background: rgba(255,255,255,0.012);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  transition: opacity 0.3s;
+}
+.section-geo-bar.sgb--loading { opacity: 0.4; }
+.sgb-icon { font-size: 11px; line-height: 1; }
+.sgb-temp { color: var(--text2); font-weight: 600; }
+.sgb-city { color: var(--text2); }
+.sgb-time { color: var(--text2); letter-spacing: 0.03em; }
+.sgb-sep  { color: rgba(255,255,255,0.15); }
+.sgb-label { color: var(--muted); opacity: 0.7; }
+
 /* Executive summary box */
 .section-summary-text {
   font-size: 14px;
