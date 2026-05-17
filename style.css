@@ -611,29 +611,32 @@ body {
 .sections-nav-item:hover { color: var(--text2); background: rgba(255,255,255,0.04); }
 .sections-nav-item.active { color: var(--accent); background: rgba(59,130,246,0.08); }
 
-/* ── Sources list ── */
+/* ── Sources list (sidebar) ── */
 .sources-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 2px;
-}
-.sources-list li {
-  display: flex;
-  align-items: center;
+  gap: 1px;
 }
 .sources-list li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-size: 10px;
   font-family: 'JetBrains Mono', monospace;
   color: var(--accent);
   text-decoration: none;
-  flex: 1;
-  padding: 3px 4px;
+  padding: 3px 6px;
   border-radius: 3px;
   transition: background var(--transition), color var(--transition);
 }
 .sources-list li a:hover { background: rgba(59,130,246,0.08); color: var(--text); }
-.sources-list .source-warn { display: flex; align-items: center; padding-right: 4px; }
+.src-list-item--biased a {
+  background: rgba(245,158,11,0.04);
+  border-radius: 3px;
+}
+.src-list-item--biased a:hover { background: rgba(245,158,11,0.1); }
+.src-list-warn { display: inline-flex; align-items: center; margin-left: auto; opacity: 0.85; }
 
 /* ── Source tags in content ── */
 .src-tags { display: inline-flex; flex-wrap: wrap; gap: 3px; margin-left: 2px; }
@@ -910,7 +913,7 @@ body {
 .sources-modal-list li a {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 6px;
   font-size: 11px;
   font-family: 'JetBrains Mono', monospace;
   color: var(--accent);
@@ -919,15 +922,17 @@ body {
   border-radius: var(--radius-sm);
   transition: background var(--transition), color var(--transition);
 }
-.sources-modal-list li a:hover { background: rgba(59,130,246,0.1); color: var(--text); }
+.sources-modal-list li a:hover { background: rgba(59,130,246,0.08); color: var(--text); }
 .sources-modal-count {
-  font-size: 9px;
-  color: var(--muted);
+  font-size: 9px; color: var(--muted);
   font-family: 'JetBrains Mono', monospace;
-  margin-left: 8px;
+  margin-left: auto;
 }
-.source-item { display: flex; align-items: center; }
-.source-item--biased > a { flex: 1; }
+.src-modal-item--biased a {
+  background: rgba(245,158,11,0.04);
+}
+.src-modal-item--biased a:hover { background: rgba(245,158,11,0.09); }
+.src-modal-warn { display: inline-flex; align-items: center; opacity: 0.85; flex-shrink: 0; }
 .source-warn {
   display: inline-flex;
   align-items: center;
