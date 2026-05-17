@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-17T22:41:15.246617+00:00",
-  "message_count": 301,
+  "updated_at": "2026-05-17T23:04:21.622376+00:00",
+  "message_count": 302,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -17,8 +17,8 @@
     0,
     0,
     0,
-    11,
-    11,
+    22,
+    0,
     0,
     11,
     0,
@@ -30,57 +30,57 @@
     11,
     22,
     11,
-    11,
+    22,
     33,
-    11,
     22,
+    11,
     44,
     66,
-    11
+    0
   ],
   "combined_activity_timeline": [
-    4,
-    8,
-    4,
-    3,
+    6,
     9,
-    9,
-    8,
-    9,
-    16,
-    14,
+    1,
+    6,
     12,
-    16,
-    15,
     8,
     8,
-    23,
-    14,
     9,
-    26,
+    19,
+    7,
+    13,
+    22,
+    10,
+    8,
+    13,
+    19,
+    13,
+    18,
+    22,
     16,
-    25,
-    14,
-    14,
-    15
+    20,
+    13,
+    19,
+    11
   ],
   "messages_by_channel": {
-    "@eRadarrua": 106,
+    "@eRadarrua": 105,
     "@kpszsu": 48,
-    "@mon1tor_ua": 27,
+    "@mon1tor_ua": 28,
     "@UkraineNow": 15,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 14,
-    "@tass_agency": 89
+    "@tass_agency": 90
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/92357",
-    "kpszsu": "https://t.me/kpszsu/62152",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66800",
+    "kpszsu": "https://t.me/kpszsu/62153",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66801",
     "UkraineNow": "https://t.me/UkraineNow/81283",
     "DeepStateUA": "https://t.me/DeepStateUA/23513",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30236",
-    "tass_agency": "https://t.me/tass_agency/376288"
+    "tass_agency": "https://t.me/tass_agency/376290"
   },
   "media": [
     {
@@ -218,113 +218,107 @@
     "eRadarrua/92326": "data/media/eRadarrua_92326.jpg",
     "kpszsu/62080": "data/media/kpszsu_62080.jpg"
   },
-  "summary": "Ukrainian forces conducted a large‑scale drone strike on the Moscow region, hitting the Angstrem semiconductor plant, oil facilities and the Belbek airfield in Crimea. Russian‑linked missile and Shahed attacks continue across multiple fronts, with notable concentrations on Dnipro, Kherson and Zaporizhzhia. Air and missile threats, including possible Iskander‑M launches, keep the overall situation volatile.",
+  "summary": "Ukrainian air defenses are confronting a surge of Russian Shahed and UAV attacks across multiple fronts, with concentrated strikes on Dnipro, Kharkiv, and Zaporizhzhia. Russian forces are also mass‑launching UAVs toward deep targets, including Moscow and Sevastopol, while Ukraine reports limited ground gains and ongoing economic strain in frontline territories. Both sides claim high UAV loss rates, indicating an increasingly intense aerial contest.",
   "key_points": [
-    "Ukrainian drones struck Angstrem plant and oil stations in Moscow region.",
-    "Belbek airfield in Crimea damaged by Ukrainian special operations.",
-    "Over 3,170 attack drones, 1,300 KAB missiles and 74 rockets launched by Russia this week.",
-    "Shahed attacks reported on Dnipro, Kherson, Zaporizhzhia and Sumy regions.",
-    "Russian tactical aviation activity increased on NE and SE axes.",
-    "Potential Iskander‑M ballistic missile launch warned from Krasnodar Krai.",
-    "Casualties: 3 Russians killed, at least 16 injured in Moscow‑region strike."
+    "Ukrainian air defense shot down dozens of Shahed drones over Dnipro and surrounding regions.",
+    "Russian UAV mass‑launches targeted deep Russian territory, including Moscow and Sevastopol.",
+    "Significant Shahed concentrations reported in Zaporizhzhia, Kharkiv, and the Dnipro corridor.",
+    "Ukrainian FPV drone units are actively destroying Russian positions in the Zaporozhye sector.",
+    "Russian attacks caused civilian casualties and infrastructure damage in Dnipro and Zaporizhzhia.",
+    "Economic disruption: over 50% of enterprises in frontline zones are non‑operational, with up to 100,000 jobs lost.",
+    "EU loan tranche will fund Ukrainian drone procurement, with funds expected mid‑June."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian forces executed the war’s largest drone raid on the Moscow region, damaging the Angstrem semiconductor plant, multiple oil facilities and the Belbek airfield in Crimea, killing three Russians and injuring at least 16. Russia responded with a high volume of Shahed drones and KAB missiles across the Dnipro, Kherson and Zaporizhzhia axes, while warning of possible Iskander‑M launches from Krasnodar. The combined air‑ground activity keeps the frontlines highly volatile.",
+    "executive_summary": "A massive wave of Russian Shahed and UAV attacks overwhelmed Ukrainian air defenses, especially over Dnipro, Kharkiv, and Zaporizhzhia, with dozens intercepted but several causing fires and casualties. Russia simultaneously launched record‑size UAV raids deep into its own territory, striking near Moscow and Sevastopol, highlighting a broadened aerial contest. Ukraine’s frontline economy is collapsing, while EU financing promises new drone deliveries in the coming weeks.",
     "ukraine": {
       "points": [
-        "Ukrainian special operations, coordinated with the Alpha Center, hit the Angstrem semiconductor plant in the Moscow region, a key supplier for Russian defense electronics (Source: @UkraineNow/81280).",
-        "Drone strikes damaged two oil‑pumping stations – Sonyechnogorskaya and Volodarskoye – and the Moscow refinery, disrupting fuel logistics (Source: @UkraineNow/81280).",
-        "Belbek airfield in occupied Crimea suffered infrastructure damage, reducing Russian air‑operational capacity in the Black Sea region (Source: @DeepStateUA/23512).",
-        "Ukrainian forces reported multiple UAV groups targeting Dnipro from the north, east and south, indicating coordinated multi‑directional pressure (Source: @kpszsu/62141).",
-        "Ukrainian intelligence noted increased tactical aviation threats on the north‑east and south‑east fronts, suggesting preparation for deeper strikes (Source: @kpszsu/62133)."
+        "Ukrainian forces reported FPV drone operators from the \"Nemets\" reconnaissance company destroying enemy positions and personnel in the Zaporozhye sector, indicating active use of small‑UAV tactics (Source: @ukr_leaks_eng/30224).",
+        "President Zelensky highlighted Ukrainian strikes on Moscow region, noting distances over 500 km and the largest concentration of Russian air defenses there, underscoring Ukraine's long‑range strike capability (Source: @UkraineNow/81273).",
+        "Economic impact: Deputy Prime Minister Kuleba said more than 50 % of enterprises in frontline territories are non‑operational, with up to 100,000 jobs lost (Source: @ukr_leaks_eng/30229).",
+        "Ukrainian air defense claimed to have downed 279 of 287 Russian drones in a single night, with eight strike drones hitting seven locations across Dnipro, Zaporizhzhia, and Kharkiv, causing three injuries and multiple fires (Source: @UkraineNow/81267)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched over 3,170 attack drones, more than 1,300 KAB cruise missiles and 74 ballistic rockets across Ukraine in the past week, indicating sustained offensive pressure (Source: @UkraineNow/81277).",
-        "Shahed loitering munitions struck Dnipro (9 from Kherson, 3 from Zaporizhzhia), Kharkiv, Sumy and other oblasts, causing civilian casualties and infrastructure damage (Source: @mon1tor_ua/66791).",
-        "A Shahed impact in Enerhodar caused property damage but no injuries, showing the spread of attacks into the south (Source: @tass_agency/376280).",
-        "Russian tactical aviation activity intensified on the north‑east and south‑east axes, increasing the threat to frontline settlements (Source: @kpszsu/62133).",
-        "Russian authorities warned of a possible Iskander‑M ballistic missile launch from Krasnodar Krai, heightening strategic risk (Source: @mon1tor_ua/66799)."
+        "Russian sources reported a massive UAV wave toward Moscow, with more than 120 UAVs shot down in the capital and 12 injuries near the Moscow refinery (Source: @ukr_leaks_eng/30225).",
+        "Russia warned of possible Iskander‑M ballistic missile launches from Krasnodar Krai, indicating escalation of long‑range strike options (Source: @mon1tor_ua/66799).",
+        "TASS noted that all districts of Kherson region are partially or fully without power, reflecting the impact of Ukrainian attacks on Russian‑occupied infrastructure (Source: @tass_agency/376282).",
+        "Russian air defense reportedly intercepted Shahed attacks over Dnipro, but several drones penetrated, causing fires and civilian injuries (Source: @UkraineNow/81267)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Shahed attacks from Sumy targeted Chernihiv region (2 missiles) and from Kharkiv hit Dnipro district, indicating cross‑border UAV penetration (Source: @mon1tor_ua/66791).",
-        "Ukrainian UAV groups reported over the Donetsk area, with 11 drones from Donetsk heading toward Synelnykove, showing intra‑regional contest (Source: @eRadarrua/92322).",
-        "Russian tactical aviation activity noted on the north‑east direction, threatening front‑line towns in Kharkiv and Sumy (Source: @kpszsu/62133).",
-        "Multiple Shahed clusters reported in Zaporizhzhia (5) and Kherson (9) aimed at Dnipro, reflecting coordinated eastern‑southern pressure (Source: @mon1tor_ua/66791).",
-        "Ukrainian UAVs observed heading from Poltava and Dnipropetrovsk toward the right bank of the Dnipro, suggesting attempts to interdict supply lines (Source: @eRadarrua/92335)."
+        "Shahed swarms were reported over Dnipro from the south, with 20 drones on 20 May and additional 10‑plus groups later, some heading toward Kremenchuk and Poltava (Source: @mon1tor_ua/66798, @mon1tor_ua/66796).",
+        "Ukrainian reports of UAV groups from Donetsk moving toward Synelnykove and from Zaporizhzhia heading north to Dnipro, indicating coordinated east‑west drone corridors (Source: @eRadarrua/92322).",
+        "Multiple Shahed groups were observed in Zaporizhzhia and Kharkiv, including 7 Shaheds over Kharkiv heading toward Dnipropetrovsk (Source: @mon1tor_ua/66796).",
+        "Ukrainian forces noted a new wave of Shahed attacks on Dnipro from the southwest, with groups also targeting Kropyvnytskyi and Konotop (Source: @kpszsu/62126)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs detected over Zhytomyr heading to Ovruch and over Chernihiv heading to Chernihiv, Slavutych and Pryluky, indicating reconnaissance and strike missions near the front (Source: @kpszsu/62141).",
-        "New UAV groups reported from the north of Kyiv region targeting Prypiat, showing pressure on the Chernobyl exclusion zone (Source: @kpszsu/62095).",
-        "Ukrainian drones observed over Sumy heading to Sumy and Chernihiv, maintaining pressure on Russian‑held positions (Source: @kpszsu/62143).",
-        "Russian tactical aviation activity on the north‑east axis increases risk to frontline settlements in Chernihiv and Sumy (Source: @kpszsu/62133).",
-        "Ukrainian UAVs reported over Kyiv region near Vyshhorod, suggesting potential targeting of logistics hubs (Source: @mon1tor_ua/66791)."
+        "Ukrainian radar detected two guided Shaheds circling the Borispil Airport area, posing a direct threat to the capital's main airfield (Source: @mon1tor_ua/66778).",
+        "Groups of UAVs from Chernihiv heading south into Kyiv region were reported, suggesting pressure on northern supply lines (Source: @kpszsu/62117).",
+        "Shahed activity was noted over the Velyka Dymerka area, with drones moving toward the north‑eastern outskirts of Kyiv (Source: @eRadarrua/92337).",
+        "Ukrainian posts indicated UAV groups from the north targeting the Gontcharivske area of Chernihiv, potentially to disrupt logistics (Source: @kpszsu/62129)."
       ]
     },
     "southern_front": {
       "points": [
-        "Shahed attacks on Dnipro from Kherson (9) and Zaporizhzhia (3) caused civilian casualties and infrastructure damage (Source: @mon1tor_ua/66791).",
-        "One Shahed hit Kremenchuk from Dnipropetrovsk, extending the threat to central Ukraine (Source: @mon1tor_ua/66788).",
-        "Ukrainian UAV groups reported over Dnipro from the south‑west and south‑east, indicating attempts to contest river crossings (Source: @kpszsu/62126).",
-        "Russian missile and drone activity continued over Kherson and Zaporizhzhia, with multiple Shahed clusters reported (Source: @mon1tor_ua/66791).",
-        "Ukrainian forces reported UAV activity near the right bank of the Dnipro, targeting supply routes near Lykhovka and Pavlish (Source: @eRadarrua/92335)."
+        "A large Shahed swarm of 20 drones struck Odessa, marking a significant southern coastal attack (Source: @mon1tor_ua/66798).",
+        "Ukrainian sources reported UAV groups from Kherson moving toward Nikopol and Dnipro, indicating pressure on the southern front (Source: @kpszsu/62129).",
+        "Shahed attacks were observed over Kremenchuk from Dnipropetrovsk direction, threatening the strategic industrial hub (Source: @mon1tor_ua/66788).",
+        "Ukrainian forces reported a Shahed strike on Brovary, a town east of Kyiv, highlighting the spread of southern‑origin drones into central zones (Source: @mon1tor_ua/66784)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian special operations damaged the Belbek airfield in Crimea, reducing Russian air‑base capability (Source: @DeepStateUA/23512).",
-        "Russian tactical aviation increased on north‑east and south‑east fronts, raising the risk of air strikes on Ukrainian positions (Source: @kpszsu/62133).",
-        "Potential Iskander‑M ballistic missile launch warned from Krasnodar Krai, indicating escalation of long‑range strike capability (Source: @mon1tor_ua/66799).",
-        "Ukrainian UAVs operating from multiple directions (north, east, south) suggest a broadened aerial reconnaissance and strike network (Source: @kpszsu/62141).",
-        "Russian air defenses reported engagement of multiple Shahed loitering munitions across Dnipro, Kherson and Zaporizhzhia, showing high air‑defence activity (Source: @mon1tor_ua/66791)."
+        "Ukrainian air defenses claimed a 97 % interception rate (279/287) of Russian drones in one night, yet multiple Shaheds still penetrated, causing fires in Dnipro and Zaporizhzhia (Source: @UkraineNow/81267).",
+        "Russia reported a record‑size UAV launch toward Moscow and Sevastopol, with over 120 UAVs engaged, indicating a shift to deep‑strike aerial tactics (Source: @ukr_leaks_eng/30225).",
+        "TASS reported a Ukrainian drone detonated on a residential parking lot in Enerhodar, causing property damage but no casualties, showing the reach of Ukrainian UAVs into occupied territories (Source: @tass_agency/376280).",
+        "Multiple Shahed and UAV groups were tracked moving across the Dnipro corridor from south, north, and southwest, suggesting coordinated multi‑axis aerial pressure (Source: @kpszsu/62144, @kpszsu/62152)."
       ]
     },
     "key_developments": [
-      "Ukrainian drones struck the Angstrem semiconductor plant, two oil‑pumping stations and a refinery in the Moscow region, killing three Russians and injuring at least 16 (Source: @UkraineNow/81280).",
-      "Belbek airfield in occupied Crimea was damaged by Ukrainian special operations, degrading Russian air‑operational capacity (Source: @DeepStateUA/23512).",
-      "Russia launched over 3,170 attack drones, 1,300 KAB missiles and 74 rockets across Ukraine in the past week, maintaining high offensive pressure (Source: @UkraineNow/81277).",
-      "Shahed loitering munitions hit Dnipro (9 from Kherson, 3 from Zaporizhzhia) and other oblasts, causing civilian casualties and infrastructure damage (Source: @mon1tor_ua/66791).",
-      "Russian tactical aviation activity increased on the north‑east and south‑east axes, threatening frontline settlements in Kharkiv, Sumy and the Donbas (Source: @kpszsu/62133).",
-      "Ukrainian UAV groups reported multiple inbound flights toward Dnipro, Prypiat and Kyiv regions, indicating coordinated multi‑directional operations (Source: @kpszsu/62141).",
-      "A possible Iskander‑M ballistic missile launch was warned from Krasnodar Krai, raising strategic escalation risk (Source: @mon1tor_ua/66799)."
+      "Ukrainian air defense intercepted 279 of 287 Russian drones in a single night, yet several Shaheds caused fires and injuries in Dnipro and Zaporizhzhia (Source: @UkraineNow/81267).",
+      "Russia launched a record UAV wave toward Moscow, with over 120 drones engaged and 12 injuries near the Moscow refinery (Source: @ukr_leaks_eng/30225).",
+      "A swarm of 20 Shahed drones struck Odessa, marking a major southern coastal attack (Source: @mon1tor_ua/66798).",
+      "Two guided Shaheds were observed circling Borispil Airport, threatening Kyiv's main air hub (Source: @mon1tor_ua/66778).",
+      "FPV drone operators from the \"Nemets\" unit destroyed Russian positions in the Zaporozhye sector (Source: @ukr_leaks_eng/30224).",
+      "Deputy Prime Minister Kuleba reported over 50 % of frontline enterprises are non‑operational, with up to 100,000 jobs lost (Source: @ukr_leaks_eng/30229).",
+      "EU loan tranche will fund Ukrainian drone purchases, with funds expected mid‑June, enhancing Ukraine's UAV capabilities (Source: @ukr_leaks_eng/30223)."
     ],
-    "threat_assessment": "Ukrainian strike capabilities have expanded to deep‑strike UAV operations against high‑value Russian industrial and military targets, while Russia continues to rely on massed drone and missile barrages to pressure Ukrainian rear areas. The emergence of potential Iskander‑M launches adds a strategic ballistic threat, and increased Russian tactical aviation heightens the risk of air strikes on front‑line positions. Both sides are intensifying aerial contestation, suggesting a protracted, high‑intensity conflict with elevated civilian risk.",
-    "regional_response": "Western intelligence outlets have highlighted the significance of the Moscow‑region strike, indicating possible escalation in Kyiv's offensive posture. Russian officials, however, have downplayed the impact while emphasizing continued missile and drone offensives across multiple fronts. Neighboring states remain on alert, with NATO monitoring the increased use of long‑range weapons and potential ballistic missile launches.",
-    "intelligence_notes": "Ukrainian coordination with the Alpha Center suggests a growing capability for precision strikes on strategic Russian infrastructure. Russian reliance on Shahed loitering munitions continues to strain Ukrainian air‑defence resources, especially in the Dnipro corridor. The reported Iskander‑M threat underscores the need for enhanced early‑warning and missile‑defence readiness in southern Ukraine."
+    "threat_assessment": "Russian UAV and Shahed activity has intensified across all fronts, with deep strikes on Moscow and Sevastopol indicating a strategic escalation beyond frontline targets. Ukraine's air defenses are absorbing high volumes of attacks but continue to suffer penetrations that cause civilian casualties and infrastructure damage. The sustained drone barrage, combined with economic attrition in frontline zones, suggests Russia aims to pressure both military and civilian resilience, while Ukraine's growing drone procurement may offset some of this pressure in the medium term.",
+    "regional_response": "Western partners are preparing to deliver a €3.2 billion EU loan tranche, earmarked for drone procurement, to bolster Ukrainian air defense and strike capabilities. Russia's threat of Iskander‑M missile launches from Krasnodar reflects a willingness to expand the range of its retaliatory options. Neighboring states remain on alert as UAV incursions threaten critical infrastructure, prompting heightened air defense postures in Ukraine and increased diplomatic warnings from NATO.",
+    "intelligence_notes": "The pattern of coordinated multi‑direction UAV launches suggests a Russian doctrine of saturating Ukrainian air defenses while probing gaps for deeper strikes. Ukrainian FPV drone operations demonstrate effective low‑altitude harassment of Russian positions, potentially shaping future asymmetric tactics. Economic data from frontline territories underscores a deteriorating civilian support base, which could affect recruitment and logistics for Ukrainian forces. Monitoring of EU funding timelines is critical, as the arrival of new drones may shift the operational balance in the coming weeks."
   },
   "missiles": 0,
   "drones": 287,
   "kpszsu_timeline": [
+    3,
+    2,
+    1,
+    0,
+    1,
+    1,
+    2,
     2,
     4,
-    1,
-    0,
-    0,
     2,
     1,
-    2,
+    5,
     3,
+    1,
+    3,
+    0,
+    0,
+    2,
     5,
     1,
-    3,
-    3,
     2,
+    3,
     1,
-    2,
-    0,
-    1,
-    3,
-    3,
-    3,
-    3,
-    0,
-    3
+    2
   ]
 }
