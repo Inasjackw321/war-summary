@@ -28,7 +28,8 @@ CONFLICTS = {
             "SharghDaily", "amitsegal", "presstv", "mamlekate",
             "kianmeli1", "Faytuks_Network", "rodast_omiddana",
             "naya_foriraq", "tzevaadom_en", "VahidOnline", "idf_telegram",
-            "lelotsenzura", "rasedal3ado138e", "shin_persian"
+            "lelotsenzura", "rasedal3ado138e", "shin_persian",
+            "almogboker78", "New_security8200", "inon_yttach"
         ],
         "section_keys": [
             "executive_summary", "iran", "israel", "gaza_west_bank",
@@ -51,7 +52,7 @@ CONFLICTS = {
     },
 }
 
-MEDIA_CHANNELS = {"Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu", "eRadarrua", "VahidOnline"}
+MEDIA_CHANNELS = {"Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu", "eRadarrua", "VahidOnline", "amitsegal"}
 
 HEADERS = {
     "User-Agent": (

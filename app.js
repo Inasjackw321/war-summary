@@ -155,7 +155,7 @@ function renderActivityChart(id, timeline) {
 
 
 
-const MEDIA_CHANNELS = new Set(["Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu", "eRadarrua", "VahidOnline"]);
+const MEDIA_CHANNELS = new Set(["Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu", "eRadarrua", "VahidOnline", "amitsegal"]);
 
 
 function renderChannelChart(id, msgsByChannel) {
