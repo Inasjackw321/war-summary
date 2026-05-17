@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-16T23:00:34.885332+00:00",
-  "message_count": 586,
+  "updated_at": "2026-05-17T00:04:14.878544+00:00",
+  "message_count": 600,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -22,7 +22,6 @@
   "red_alerts": 13,
   "red_alerts_timeline": [
     0,
-    0,
     2,
     0,
     0,
@@ -38,8 +37,9 @@
     0,
     0,
     2,
-    2,
-    1,
+    3,
+    0,
+    0,
     0,
     0,
     0,
@@ -47,60 +47,60 @@
     0
   ],
   "combined_activity_timeline": [
-    4,
-    6,
+    5,
     12,
     3,
-    5,
+    6,
     21,
     24,
     22,
-    16,
+    17,
     34,
-    37,
-    43,
-    32,
-    29,
+    38,
+    41,
+    34,
+    28,
     36,
-    34,
     33,
+    33,
+    40,
     36,
-    39,
-    36,
-    29,
-    32,
+    34,
+    30,
+    31,
     9,
-    14
+    19,
+    13
   ],
   "messages_by_channel": {
-    "@N12chat": 109,
+    "@N12chat": 111,
     "@manniefabian": 11,
-    "@asafroz": 18,
-    "@yediotnews25": 15,
+    "@asafroz": 19,
+    "@yediotnews25": 16,
     "@SharghDaily": 165,
     "@amitsegal": 5,
-    "@presstv": 105,
+    "@presstv": 106,
     "@mamlekate": 9,
-    "@kianmeli1": 12,
-    "@Faytuks_Network": 12,
-    "@rodast_omiddana": 38,
+    "@kianmeli1": 14,
+    "@Faytuks_Network": 14,
+    "@rodast_omiddana": 43,
     "@naya_foriraq": 44,
     "@tzevaadom_en": 13,
     "@VahidOnline": 9,
     "@idf_telegram": 21
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207563",
+    "N12chat": "https://t.me/N12chat/207566",
     "manniefabian": "https://t.me/manniefabian/58271",
-    "asafroz": "https://t.me/asafroz/49265",
-    "yediotnews25": "https://t.me/yediotnews25/129350",
+    "asafroz": "https://t.me/asafroz/49266",
+    "yediotnews25": "https://t.me/yediotnews25/129351",
     "SharghDaily": "https://t.me/SharghDaily/160297",
     "amitsegal": "https://t.me/amitsegal/61142",
-    "presstv": "https://t.me/presstv/190158",
+    "presstv": "https://t.me/presstv/190162",
     "mamlekate": "https://t.me/mamlekate/103540",
-    "kianmeli1": "https://t.me/kianmeli1/87438",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/2754",
-    "rodast_omiddana": "https://t.me/rodast_omiddana/71437",
+    "kianmeli1": "https://t.me/kianmeli1/87440",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/2756",
+    "rodast_omiddana": "https://t.me/rodast_omiddana/71443",
     "naya_foriraq": "https://t.me/naya_foriraq/75530",
     "tzevaadom_en": "https://t.me/tzevaadom_en/67246",
     "VahidOnline": "https://t.me/VahidOnline/75507",
@@ -108,10 +108,22 @@
   },
   "media": [
     {
+      "post_url": "https://t.me/rodast_omiddana/71442",
+      "post_id": 71442,
+      "channel": "rodast_omiddana",
+      "ts": "2026-05-16T23:30:48+00:00"
+    },
+    {
       "post_url": "https://t.me/rodast_omiddana/71433",
       "post_id": 71433,
       "channel": "rodast_omiddana",
       "ts": "2026-05-16T22:19:13+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190155",
+      "post_id": 190155,
+      "channel": "presstv",
+      "ts": "2026-05-16T22:00:04+00:00"
     },
     {
       "post_url": "https://t.me/presstv/190152",
@@ -193,12 +205,6 @@
       "ts": "2026-05-16T19:40:01+00:00"
     },
     {
-      "post_url": "https://t.me/N12chat/207546",
-      "post_id": 207546,
-      "channel": "N12chat",
-      "ts": "2026-05-16T19:37:18+00:00"
-    },
-    {
       "post_url": "https://t.me/SharghDaily/160289",
       "post_id": 160289,
       "channel": "SharghDaily",
@@ -221,12 +227,6 @@
       "post_id": 75515,
       "channel": "naya_foriraq",
       "ts": "2026-05-16T19:19:38+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190140",
-      "post_id": 190140,
-      "channel": "presstv",
-      "ts": "2026-05-16T19:00:29+00:00"
     }
   ],
   "post_images": {
@@ -242,78 +242,77 @@
     "VahidOnline/75501": "data/media/VahidOnline_75501.jpg",
     "idf_telegram/23682": "data/media/idf_telegram_23682.jpg"
   },
-  "summary": "A series of large explosions in the western Jerusalem area and a hostile aircraft intrusion near Metula have heightened alert levels across Israel's northern border. Hezbollah intensified its drone and mortar attacks in southern Lebanon, prompting the IDF to conduct over 100 airstrikes on Hezbollah infrastructure. Regional diplomatic chatter shows Iran’s hardline rhetoric and Pakistan‑Iran mediation, while the United States and Gulf states remain preoccupied with broader strategic concerns.",
+  "summary": "IDF confirmed the killing of Hamas military wing commander Izz al‑Din al‑Haddad in Gaza and reported multiple strikes on Hezbollah assets in southern Lebanon, while U.S. officials discussed renewed plans for offensive operations against Iran. Iranian media highlighted Chinese reluctance to oppose U.S. action and warned of broader regional fallout. Tensions remain high across multiple fronts with frequent false alarms and isolated incidents.",
   "key_points": [
-    "Explosion in western Jerusalem and Beit Shemesh area reported by naya_foriraq (large blast, possible sensitive target).",
-    "Hostile aircraft intrusion detected at Sdeh Meron School and Metula, red alerts issued by Home Front Command.",
-    "Hezbollah drone attack killed IDF Captain Maoz Recanati in southern Lebanon; another drone intercepted over Metula.",
-    "IDF launched ~100 airstrikes on Hezbollah sites across southern Lebanon, including Tyre and surveillance posts.",
-    "110 Lebanese paramedics killed in 163 Israeli strikes since March 2, according to MSF.",
-    "Iranian officials warn of “maximum reciprocal pressure” if war escalates, citing a 40‑day war plan.",
-    "Pakistan‑Iran high‑level talks continue on mediation efforts, while Trump’s China visit yields no Iran‑related gains."
+    "Hamas military wing commander Izz al‑Din al‑Haddad killed in Gaza airstrike",
+    "IDF reports 100 Hezbollah targets hit in southern Lebanon over the weekend",
+    "U.S. and Israel preparing possible new war operation against Iran, including special‑forces options",
+    "Chinese officials express no opposition to U.S. attacks on Iran, citing strategic miscalculation",
+    "Multiple false rocket alerts in Israeli border areas (Majdal Shams, Metula, Miron)",
+    "Hezbollah rockets fired from southern Lebanon, intercepted with no Israeli casualties",
+    "Iranian state media warns Gulf states of oil‑price shock benefits to the U.S. and Russia"
   ],
-  "sentiment": "escalating",
+  "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "The most operationally significant development is the surge in cross‑border hostilities: Hezbollah drone strikes killed an IDF officer and triggered a massive Israeli air campaign targeting over 100 Hezbollah sites in southern Lebanon. Simultaneously, large explosions in the western Jerusalem area and hostile aircraft intrusions near Metula have forced Israel to maintain red alerts along its northern frontier. Regional diplomatic activity, including Iran’s hardline warnings and ongoing Pakistan‑Iran mediation, underscores a widening strategic volatility.",
+    "executive_summary": "The most operationally significant development is the IDF’s confirmed killing of Hamas military wing commander Izz al‑Din al‑Haddad in Gaza, signaling a focused decapitation campaign against Hamas leadership. Simultaneously, Israel intensified its campaign in southern Lebanon, striking roughly 100 Hezbollah positions and seizing weapons caches, while U.S. officials signaled renewed planning for a possible offensive against Iran. Regional actors, including China and Gulf states, are reacting to the heightened risk of a broader Iran‑Israel‑U.S. confrontation.",
     "iran": {
       "points": [
-        "Iranian media quoted a senior security source stating that a comprehensive “instant response plan” has been issued to all operational units, promising a swift, layered retaliation to any U.S. action (Source: @kianmeli1/87426).",
-        "Iran’s Speaker of Parliament Mohammad Bagher Ghalibaf proclaimed a 70‑day resistance, framing Iran’s role as pivotal in a new global order (Source: @presstv/190144).",
-        "Iranian officials warned that a failure to reach a nuclear agreement would usher in a “very hard period” for Tehran, reflecting heightened diplomatic pressure (Source: @SharghDaily/160278).",
-        "Iran’s Deputy Foreign Minister Kazem Gharibabadi criticized U.S. human‑rights policy, linking it to Israel, and warned of increased regional tensions (Source: @presstv/190152)."
+        "Former US Defense Ministry deputy said China is not opposing a US attack on Iran, viewing it as a strategic mistake that would not achieve its goals (Source: @SharghDaily/160288).",
+        "Iranian state media analysis notes that the U.S. and Russia are benefiting from the oil shock, with the U.S. increasing exports and Russia raising prices, while Gulf exporters suffer (Source: @SharghDaily/160279).",
+        "Trump statements claim Iran’s navy and air force are destroyed, that its nuclear program is crippled, and that a possible U.S.‑Iran cease‑fire is under discussion, reflecting high‑level U.S. rhetoric (Source: @VahidOnline).",
+        "Iranian TV program showed masked individuals teaching AK‑47 use and firing at an Emirati flag, indicating domestic militia mobilization and propaganda (Source: @VahidOnline)."
       ]
     },
     "israel": {
       "points": [
-        "Home Front Command issued red alerts after hostile aircraft were detected over Sdeh Meron School and Metula, with the incidents ending by 20:02 local time (Source: @tzevaadom_en/67224, @tzevaadom_en/67246).",
-        "IDF spokesperson confirmed that earlier alerts over the Misgav region were false alarms, indicating heightened but controlled threat perception (Source: @idf_telegram/23685).",
-        "An IDF officer, Capt. Maoz Israel Recanati (24), was killed by a Hezbollah explosive drone in southern Lebanon, marking the seventh Israeli fatality since the ceasefire (Source: @manniefabian/58270).",
-        "The IDF reported striking roughly 100 Hezbollah targets, including surveillance posts and weapon depots across southern Lebanon, with no Israeli casualties reported in the latest wave (Source: @manniefabian/58268).",
-        "Israeli forces eliminated Hamas commander Ezadain al‑Haddad, a key figure in the Oct 7 massacre, in Gaza (Source: @amitsegal/61134)."
+        "IDF confirmed the death of Hamas commander Izz al‑Din al‑Haddad in a Gaza airstrike, noting only two senior Oct. 7 leaders remain (Source: @Faytuks_Network/2740).",
+        "IDF reported killing two Hamas operatives who infiltrated Israel after the Oct. 7 massacre, using precise airstrikes in northern Gaza (Source: @idf_telegram/23688).",
+        "IDF said its 91st Division eliminated Hezbollah militants who launched rockets from southern Lebanon; a weapons cache with rifles, helmets and mortars was also seized (Source: @idf_telegram/23689).",
+        "Over the weekend, the IDF struck approximately 100 Hezbollah targets across southern Lebanon, including observation posts and ammunition depots (Source: @idf_telegram/23692).",
+        "Multiple false rocket alerts were issued in the Majdal Shams, Metula, and Miron areas, later identified as misidentifications (Source: @idf_telegram/23678, @idf_telegram/23685, @idf_telegram/23679).",
+        "Hostile aircraft intrusions were logged over the northern Golan and the Israel‑Lebanon confrontation line, prompting red alerts but no confirmed engagements (Source: @tzevaadom_en/67221, @tzevaadom_en/67244)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "Large explosion observed in the Beit Shemesh area of western Jerusalem, possibly at a sensitive facility, according to naya_foriraq (Source: @naya_foriraq/75518).",
-        "Israeli settler filmed beating a guard dog outside a Palestinian home in Attara, north of Ramallah, highlighting ongoing settler‑Palestinian tensions (Source: @presstv/190150).",
-        "Two senior Hamas operatives, Khamer Iyad Muhammad Al‑Matouq and Khaled Muhammad Salem Jouda, were killed in recent IDF strikes in northern Gaza (Source: @manniefabian/58266).",
-        "Another Hamas Bureij Battalion member, Abdel Rahman Mahmoud Jumaa Shafi, was eliminated in central Gaza, reducing immediate threat to Israeli forces (Source: @manniefabian/58266)."
+        "IDF confirmed the elimination of two Hamas infiltrators who attempted attacks in Israel after the Oct. 7 massacre, indicating ongoing low‑level infiltration attempts from Gaza (Source: @idf_telegram/23688).",
+        "The IDF statement noted that precise munitions were used to limit civilian casualties during strikes on Hamas operatives in northern Gaza (Source: @idf_telegram/23688).",
+        "No new large‑scale operations were reported in the West Bank; the focus remains on Gaza and the Lebanon front (implicit from lack of reports)."
       ]
     },
     "lebanon": {
       "points": [
-        "Hezbollah launched a drone attack on an Israeli Humvee in southern Lebanon, demonstrating continued low‑intensity warfare (Source: @presstv/190142).",
-        "A Hezbollah explosive drone killed IDF Captain Maoz Recanati in southern Lebanon, the seventh Israeli combat death since the ceasefire (Source: @manniefabian/58270).",
-        "IDF airstrikes over the weekend hit approximately 100 Hezbollah sites, including surveillance posts and weapon depots, especially around Tyre (Source: @manniefabian/58268).",
-        "Hezbollah fired multiple drones and mortars at Israeli troops in southern Lebanon, though no Israeli injuries were reported in the latest attacks (Source: @manniefabian/58268).",
-        "A senior Hezbollah commander, Maaz Israel Recanati, was reported killed, indicating a possible degradation of Hezbollah’s command structure (Source: @manniefabian/58270)."
+        "IDF’s 91st Division neutralized Hezbollah militants who fired rockets toward Israeli forces in southern Lebanon; the rockets landed in open areas with no Israeli casualties (Source: @idf_telegram/23689).",
+        "A weapons cache containing rifles, magazines, vests, helmets, and mortars was discovered in southern Lebanon by Israeli engineering unit Yiftah 679 (Source: @idf_telegram/23689).",
+        "Over the weekend, the IDF conducted about 100 strikes on Hezbollah positions across southern Lebanon, targeting observation posts, ammunition depots, and command structures (Source: @idf_telegram/23692).",
+        "A senior Israeli officer, Sgt. Maor Israel Rakanati, was killed in combat in southern Lebanon, underscoring the intensity of ground engagements (Source: @yediotnews25/129344)."
       ]
     },
     "syria_iraq": {
       "points": [
-        "No direct operational reports from Syria or Iraq were present in the supplied messages; however, Iranian rhetoric about a “40‑day war” and “maximum reciprocal pressure” suggests potential future engagements in the Syrian‑Iraqi theater (Source: @kianmeli1/87426).",
-        "Iranian officials warned that any U.S. action would meet an “instant, extensive, multi‑layered” response, implying possible proxy activity in Syria/Iraq (Source: @kianmeli1/87426)."
+        "Russian media reported an explosion at a fuel station unrelated to Ukrainian drone attacks, suggesting possible sabotage or accidental blast (Source: @asafroz/49251).",
+        "No direct Syrian or Iraqi operational updates were present in the feed; focus remains on Israel‑Lebanon and Iran‑US dynamics."
       ]
     },
     "gulf_states": {
       "points": [
-        "PressTV reported that the UAE’s air defense performed “excellent” during attacks, reflecting Gulf states’ involvement in regional air security (Source: @rodast_omiddana/71426).",
-        "A televised program in Iran featured a presenter firing at the UAE flag, indicating heightened anti‑UAE sentiment and potential propaganda targeting Gulf states (Source: @VahidOnline/75499).",
-        "Trump’s China visit produced no strategic gains against Iran, suggesting limited Gulf‑related diplomatic leverage for the United States (Source: @presstv/190155)."
+        "U.S. officials are encouraging the UAE to take a more active role in a potential Iran war, including the possible seizure of a Gulf island (Source: @Faytuks_Network/2743).",
+        "Iranian analysis notes that Saudi Arabia and the UAE have mitigated some oil‑price shock through pipeline investments, but overall Gulf exporters face reduced revenues (Source: @SharghDaily/160279).",
+        "Trump claimed that Iranian oil tankers have been allowed to move with U.S. permission, indicating a limited de‑escalation in maritime pressure (Source: @VahidOnline)."
       ]
     },
     "key_developments": [
-      "Hezbollah drone strike killed IDF Captain Maoz Recanati in southern Lebanon, prompting a massive Israeli air response (Source: @manniefabian/58270).",
-      "Israel conducted approximately 100 airstrikes on Hezbollah infrastructure across southern Lebanon, targeting surveillance posts and weapon depots (Source: @manniefabian/58268).",
-      "Large explosions reported in western Jerusalem and Beit Shemesh suggest a possible strike on a sensitive facility (Source: @naya_foriraq/75518).",
-      "Hostile aircraft intrusion detected over Sdeh Meron School and Metula, leading to red alerts and subsequent clearance (Source: @tzevaadom_en/67224).",
-      "110 Lebanese paramedics killed in 163 Israeli attacks since March 2, according to MSF, indicating a severe humanitarian impact (Source: @presstv/190140).",
-      "Iranian security officials warned of an “instant, extensive, multi‑layered” response to any U.S. action, hinting at broader regional escalation (Source: @kianmeli1/87426).",
-      "Pakistan‑Iran high‑level talks continue on mediation efforts, reflecting diplomatic attempts to curb the widening conflict (Source: @SharghDaily/160284)."
+      "IDF confirmed the killing of Hamas military wing commander Izz al‑Din al‑Haddad in a Gaza airstrike, reducing Hamas senior leadership (Source: @Faytuks_Network/2740).",
+      "Israel reported striking roughly 100 Hezbollah targets in southern Lebanon over the weekend, including weapons caches and observation posts (Source: @idf_telegram/23692).",
+      "U.S. and Israeli officials are preparing a possible new offensive against Iran, with options ranging from intensified air strikes to special‑forces extraction of enriched uranium (Source: @kianmeli1/87424).",
+      "Former US Defense deputy said China opposes US attacks on Iran, viewing them as a strategic error, indicating limited Chinese deterrence (Source: @SharghDaily/160288).",
+      "Hezbollah launched rockets from southern Lebanon toward Israeli forces; IDF intercepted them and later destroyed the launch sites with no Israeli casualties (Source: @idf_telegram/23689).",
+      "Multiple false rocket alerts were issued in Israeli border areas (Majdal Shams, Metula, Miron) and later dismissed as misidentifications (Source: @idf_telegram/23678, @idf_telegram/23685, @idf_telegram/23679).",
+      "U.S. officials are urging the UAE to consider seizing a Gulf island from Iran, expanding the conflict’s maritime dimension (Source: @Faytuks_Network/2743)."
     ],
-    "threat_assessment": "Hezbollah’s renewed drone and mortar attacks, coupled with the killing of an IDF officer, signal an escalation of low‑intensity warfare along Israel's northern border, likely prompting further Israeli air campaigns. Simultaneously, large explosions in the Jerusalem area raise concerns about potential sabotage of critical infrastructure, increasing domestic security pressures. Iranian hardline rhetoric and the prospect of a 40‑day war plan suggest the possibility of proxy engagements extending into Syria and Iraq, while Gulf states remain cautiously involved in air‑defense coordination.",
-    "regional_response": "Iran’s leadership is issuing explicit warnings of swift, layered retaliation to any U.S. or Israeli actions, indicating a readiness to expand the conflict regionally. Pakistan’s diplomatic outreach to Tehran aims to mediate and possibly de‑escalate, though its impact remains limited. Gulf states, notably the UAE, have showcased air‑defense capabilities, but domestic propaganda in Iran reflects growing anti‑Gulf sentiment, potentially complicating coalition dynamics.",
-    "intelligence_notes": "Monitoring of hostile aircraft incursions should focus on radar signatures and potential UAV usage near the Metula corridor. Hezbollah’s drone capabilities appear to be improving, warranting enhanced air‑defense readiness in border communities. The unexplained large explosions in Jerusalem warrant forensic investigation to determine whether they target critical energy or communications infrastructure. Iranian rhetoric about a “maximum reciprocal pressure” plan suggests preparation for coordinated proxy actions, necessitating vigilance on Syrian and Iraqi fronts."
+    "threat_assessment": "The elimination of Hamas commander Izz al‑Din al‑Haddad signals a focused Israeli decapitation strategy, but Hamas retains operational capacity. Hezbollah’s continued rocket fire and the discovery of extensive weapons caches in southern Lebanon indicate a sustained low‑intensity threat to Israel's northern border. Meanwhile, U.S. and Israeli planning for a possible offensive against Iran, coupled with Chinese ambivalence, raises the risk of a broader regional escalation that could draw Gulf states into direct confrontation.",
+    "regional_response": "Iranian media portrays U.S. action as a strategic misstep and highlights Chinese non‑intervention, while emphasizing the economic benefits to the U.S. and Russia from oil price spikes. Gulf states, particularly the UAE, are being courted by Washington for deeper involvement, including potential island seizures, reflecting a shift toward a more active coalition against Tehran. Domestic Iranian propaganda shows increased militia training, suggesting preparation for internal unrest or proxy escalation.",
+    "intelligence_notes": "Monitoring of Hezbollah logistics in southern Lebanon should focus on newly identified weapons caches and launch sites for pre‑emptive strikes. The U.S.–Israel joint planning against Iran warrants close observation of special‑forces deployment indicators and potential covert operations targeting enriched uranium facilities. Chinese diplomatic signals must be tracked for any shift that could alter the strategic calculus of U.S. action. Gulf maritime activity, especially around disputed islands, should be surveilled for signs of escalation."
   }
 }

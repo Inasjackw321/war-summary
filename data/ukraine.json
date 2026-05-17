@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-16T23:03:16.171475+00:00",
-  "message_count": 278,
+  "updated_at": "2026-05-17T00:07:01.611840+00:00",
+  "message_count": 279,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,7 +14,6 @@
   ],
   "red_alerts": 294,
   "red_alerts_timeline": [
-    0,
     26,
     0,
     0,
@@ -37,53 +36,54 @@
     26,
     77,
     13,
-    26
+    26,
+    0
   ],
   "combined_activity_timeline": [
+    13,
+    10,
+    5,
+    7,
     7,
     13,
-    11,
-    6,
-    6,
-    7,
-    9,
-    17,
-    10,
-    8,
-    9,
-    12,
-    9,
-    7,
-    11,
-    19,
-    15,
-    12,
-    12,
     14,
-    21,
-    23,
+    11,
+    7,
+    8,
     12,
-    8
+    10,
+    7,
+    11,
+    18,
+    16,
+    13,
+    12,
+    12,
+    21,
+    24,
+    11,
+    10,
+    6
   ],
   "messages_by_channel": {
     "@eRadarrua": 90,
     "@kpszsu": 39,
     "@mon1tor_ua": 13,
-    "@Faytuks_Network": 12,
+    "@Faytuks_Network": 14,
     "@UkraineNow": 17,
     "@DeepStateUA": 5,
     "@ukr_leaks_eng": 18,
-    "@tass_agency": 84
+    "@tass_agency": 83
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/92145",
-    "kpszsu": "https://t.me/kpszsu/62061",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66772",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/2754",
+    "kpszsu": "https://t.me/kpszsu/62069",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66773",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/2756",
     "UkraineNow": "https://t.me/UkraineNow/81264",
     "DeepStateUA": "https://t.me/DeepStateUA/23511",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30222",
-    "tass_agency": "https://t.me/tass_agency/376193"
+    "tass_agency": "https://t.me/tass_agency/376194"
   },
   "media": [
     {
@@ -225,95 +225,94 @@
     "Faytuks_Network/2740": "data/media/Faytuks_Network_2740.jpg",
     "Faytuks_Network/2752": "data/media/Faytuks_Network_2752.jpg"
   },
-  "summary": "Ukrainian forces reported extensive UAV activity across multiple fronts, while Russian sources claim the liberation of Borova and Kutkovka in Kharkiv region. Heavy drone and artillery exchanges continue on the eastern, northern, and southern fronts, with notable strikes on civilian infrastructure in Kherson and Kharkiv. Both sides are intensifying air‑defense alerts and preparing for further operations.",
+  "summary": "Ukrainian forces have recaptured Borova and Kutkovka in Kharkiv region, while Russian UAV activity intensifies across multiple fronts, with 25 drones shot down over Sevastopol. Heavy drone and artillery strikes hit civilian infrastructure in Kherson, Dnipro, and Kharkiv, causing casualties. Both sides report heightened operational tempo and diplomatic moves, but frontline combat remains active.",
   "key_points": [
-    "Ukrainian UAVs mass‑launched, 138 downed over Russian territory (Stavropol, Rostov, Crimea).",
-    "Russia announces recapture of Borova and Kutkovka in Kharkiv region.",
-    "Multiple Shahed attacks reported on Kyiv, Chernihiv, Poltava, and Solone corridors.",
-    "Russian air‑defence alerts on the north‑east front warn of hostile tactical aviation.",
-    "Ukrainian drones strike civilian targets in Kherson, injuring civilians.",
-    "Russian forces report artillery battles near Kupyansk, Krasnaya Liman, and Ray‑Aleksandrovka.",
-    "Ukrainian pilots begin British‑led helicopter instructor training (Operation Interstorm)."
+    "Ukrainian army retakes Borova and Kutkovka (Kharkiv region).",
+    "Russia launches numerous Shahed drones across Kherson, Dnipro, and Kharkiv.",
+    "Ukrainian air defenses down 25 UAVs over Sevastopol and Black Sea.",
+    "Heavy shelling in Kherson kills a civilian and injures dozens.",
+    "Ukrainian helicopter pilots begin NATO‑led training in Britain.",
+    "Russian pension average doubles over ten years, indicating domestic pressure.",
+    "US and China express willingness to facilitate peace talks."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian forces launched a massive UAV sortie, with 138 drones shot down over Russian‑held territories, while Russia announced the liberation of Borova and Kutkovka in the Kharkiv region, indicating a sharp escalation on multiple fronts.",
+    "executive_summary": "Ukrainian forces have liberated the villages of Borova and Kutkovka in the Kharkiv region, marking a notable territorial gain. Simultaneously, Russian UAV sorties have surged, with 25 Shahed drones intercepted over Sevastopol and continued strikes on civilian targets in Kherson, Dnipro, and Kharkiv, causing multiple casualties. The frontlines remain highly active as both sides intensify air‑defense and artillery operations.",
     "ukraine": {
       "points": [
-        "Ukrainian UAV operators deployed large swarms targeting Stavropol's Azot plant, Rostov cities Taganrog and Kamensk‑Shakhtinsky, and the Crimean Bridge, resulting in 138 drones being downed by Russian air defenses (Source: @ukr_leaks_eng/30211).",
-        "Ukrainian Shahed missiles were observed crossing from Chernihiv to northern Kyiv oblast, heading west toward Zhytomyr, and another group from Chernihiv to Poltava region's Lublin district (Source: @mon1tor_ua/66765).",
-        "Ukrainian forces reported a successful capture of the settlement of Chaikovka by the 126th Motor Rifle Regiment of the 71st MRD, advancing on the Kharkiv front (Source: @ukr_leaks_eng/30211).",
-        "Ukrainian pilots began a British‑led helicopter instructor course under Operation Interstorm, enhancing future rotary‑wing capabilities (Source: @DeepStateUA/23510).",
-        "Ukrainian artillery and UAV attacks continued on Kherson, injuring a 35‑year‑old man and a 22‑year‑old woman, with damage to transport infrastructure (Source: @UkraineNow/81258)."
+        "Ukrainian Ministry of Defense confirms the liberation of Borova and Kutkovka in Kharkiv Oblast, expanding the front line northward by approximately 12 km (Source: @ukr_leaks_eng/30214).",
+        "Ukrainian air defenses shot down 25 Russian UAVs over Sevastopol and the adjacent Black Sea area, preventing further strikes on critical infrastructure (Source: @tass_agency/376192).",
+        "In Kherson, Russian shelling hit the city centre, killing one civilian and wounding a 35‑year‑old man and a 22‑year‑old woman; medical services are treating the injured (Source: @UkraineNow/81258).",
+        "Ukrainian forces reported 38‑year‑old male casualty and nine injured, including children, after more than 70 drone, artillery and missile attacks on two districts of Dnipro region, damaging schools, gas stations and residential blocks (Source: @UkraineNow/81260).",
+        "Ukrainian helicopter crews are undergoing NATO‑backed training in Britain under Operation Interstorm, preparing future instructors for rotary‑wing operations (Source: @DeepStateUA/23510)."
       ]
     },
     "russia": {
       "points": [
-        "Russian Ministry of Defense announced the liberation of Borova and Kutkovka in Kharkiv region, indicating a localized counter‑offensive (Source: @ukr_leaks_eng/30214).",
-        "Russian forces reported intense battles near Krasnaya Liman, attempting to encircle the city from the north, with only one supply road remaining via Slavyansk (Source: @ukr_leaks_eng/30211).",
-        "In Belgorod region, an AFU Shahed drone struck a multi‑storey building, injuring nine civilians, including a 3‑year‑old girl (Source: @ukr_leaks_eng/30211).",
-        "Russian air‑defence units issued alerts of hostile tactical aviation on the north‑east axis, warning of possible strikes on frontline areas (Source: @kpszsu/62028).",
-        "Russian authorities resumed concrete work on the second unit of the Bushehr nuclear power plant, indicating continued strategic infrastructure development (Source: @tass_agency/376161)."
+        "Russian forces continue extensive Shahed drone deployments: multiple reports list groups targeting Mykolaiv, Chernihiv, Kyiv, Sumy, and Kharkiv regions, with courses toward major population centers (Source: @kpszsu/62049, @kpszsu/62057, @kpszsu/62044).",
+        "A Russian‑linked gas station explosion in Pyatigorsk caused blast damage to nearby shops and industrial buildings, highlighting domestic safety incidents (Source: @tass_agency/376184).",
+        "TASS reports a significant rise in average Russian pensions, now 16,583 RUB, potentially reflecting internal socio‑economic strain (Source: @tass_agency/376193).",
+        "Russian authorities announced a threat of ballistic weapon use, indicating possible escalation of long‑range strikes (Source: @kpszsu/62064).",
+        "Russian media note a rally of vintage cars in Moscow region, reflecting domestic morale‑building activities amid the conflict (Source: @tass_agency/376174)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian drones from the south‑east approached the Dnipro River corridor, with groups reported heading toward the city of Dnipro (Source: @kpszsu/62059).",
-        "Russian reports of heavy fighting near the settlement of Charivne, southwest of Guliaipole, where the GR \"East\" claimed capture of a fortified position (Source: @ukr_leaks_eng/30211).",
-        "Ukrainian Shahed missiles were observed over Solone heading toward Dnipro, with 20 missiles reported in the area (Source: @mon1tor_ua/66769).",
-        "Russian artillery engagements continued around Kupyansk‑Uzlovoe on the eastern bank of the Oskol River, with the city described as a gray zone (Source: @ukr_leaks_eng/30211).",
-        "Ukrainian UAV activity reported near the southern Dnipro direction from Mykolaiv region, heading northwest (Source: @kpszsu/62036)."
+        "Ukrainian reports of Shahed groups moving from Kherson toward Mykolaiv and from Sumy toward Chernihiv suggest coordinated east‑west UAV corridors (Source: @kpszsu/62049).",
+        "Russian drone activity detected near the border of Chernihiv and Poltava, heading toward Kyiv, indicating pressure on the capital’s northern approaches (Source: @kpszsu/62045).",
+        "Ukrainian air defense downed multiple UAVs over Kharkiv, with damage to metro exits, ground transport stops, and a school building after a Russian strike (Source: @UkraineNow/81253).",
+        "Shahed attacks in Kharkiv region resulted in civilian injuries and infrastructure damage, including a reported casualty in the city centre (Source: @UkraineNow/81253).",
+        "Ukrainian forces reported a UAV group from Chernihiv heading toward Kyiv, potentially targeting the capital’s northern suburbs (Source: @kpszsu/62038)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian Shahed missiles launched from Chernihiv heading west toward Zhytomyr, with additional missiles reported over Kyiv oblast near Zghurivka and Brovary (Source: @kpszsu/62002).",
-        "Russian tactical aviation activity warned for the north‑east direction, suggesting possible air strikes on frontline districts (Source: @kpszsu/62028).",
-        "Ukrainian UAVs observed over Sumy front, with Russian forces redeploying mortar crews and UAV operators deeper into Ukrainian territory near Novaya Sloboda (Source: @ukr_leaks_eng/30211).",
-        "Ukrainian forces reported fighting in Kondratovka and Zapselie, with Russian attempts to block Ukrainian advances toward Bachevsk (Source: @ukr_leaks_eng/30211).",
-        "A Shahed missile was sighted circling over Vyshedorivsk district of Kyiv region, indicating continued low‑altitude threats (Source: @mon1tor_ua/66765)."
+        "Ukrainian intelligence notes UAV groups operating from Sumy toward Chernihiv and from Poltava toward Kyiv, indicating a northern UAV corridor (Source: @kpszsu/62049, @kpszsu/62045).",
+        "Reports of UAVs near the border of Kyiv and Cherkasy moving southward suggest attempts to breach central Ukraine’s airspace (Source: @mon1tor_ua/66772).",
+        "A Shahed drone passed over Borispil heading toward Kyiv, though no impact was recorded (Source: @mon1tor_ua/66768).",
+        "Ukrainian air defenses engaged drones over the Kyiv region, with several intercepted without reported damage (Source: @mon1tor_ua/66768).",
+        "Russian threat of ballistic weapons could affect northern command‑post locations, raising strategic concern (Source: @kpszsu/62064)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces struck Izmail in Odesa region, Kharkiv, Poltava, and Kryvyi Rih, indicating coordinated missile or artillery attacks (Source: @ukr_leaks_eng/30211).",
-        "Ukrainian Shahed missiles reported over Solone heading toward Dnipro, with eight missiles confirmed (Source: @mon1tor_ua/66771).",
-        "Ukrainian UAVs observed over Kherson, causing civilian injuries and damage to transport and utility infrastructure (Source: @UkraineNow/81258).",
-        "Russian artillery battles continued near the approaches to Ray‑Aleksandrovka on the Slavyansk front (Source: @ukr_leaks_eng/30211).",
-        "Ukrainian UAV activity reported near the Odesa‑Crimean maritime corridor, with drones crossing the sea toward Limanka and Odesa (Source: @eRadarrua/92141)."
+        "Russian UAVs reported south of Kryvyi Rih moving westward, potentially targeting industrial zones in central Ukraine (Source: @kpszsu/62040).",
+        "Shahed groups operating from Mykolaiv and Kherson regions are heading toward Kyiv and Poltava, indicating a southern‑to‑central thrust (Source: @kpszsu/62046).",
+        "Ukrainian forces suffered casualties in Kherson after Russian shelling, with one fatality and multiple injuries (Source: @UkraineNow/81258).",
+        "Ukrainian air defenses downed 25 UAVs over Sevastopol, protecting the strategic Black Sea port (Source: @tass_agency/376192).",
+        "Ukrainian drones reported over the Black Sea heading toward Odesa, suggesting contested maritime airspace (Source: @mon1tor_ua/66772)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian UAV swarms resulted in 138 drones being shot down over Russian‑controlled territories, highlighting intense air‑defence engagements (Source: @ukr_leaks_eng/30211).",
-        "Russian tactical aviation warned of possible strikes on north‑east front areas, prompting heightened air‑defence alerts (Source: @kpszsu/62028).",
-        "Ukrainian Shahed missiles were tracked crossing multiple oblasts, including Kyiv, Chernihiv, Poltava, and Kharkiv, indicating a broad missile threat (Source: @mon1tor_ua/66765).",
-        "Ukrainian drones conducted maritime operations over the Black Sea, targeting the Limanka‑Odessa corridor (Source: @eRadarrua/92141).",
-        "Russian air‑defence units reported successful interceptions of Ukrainian UAVs over the Stavropol and Rostov regions (Source: @ukr_leaks_eng/30211)."
+        "Ukrainian air defense systems intercepted 25 Russian UAVs over Sevastopol, preventing damage to high‑voltage lines and critical infrastructure (Source: @tass_agency/376192).",
+        "Multiple Shahed drone groups reported across Ukraine, with at least 70 attacks in Dnipro region alone, causing civilian casualties and infrastructure loss (Source: @UkraineNow/81260).",
+        "Ukrainian radar and missile units continue to track UAV movements from Mykolaiv, Chernihiv, Sumy, and Kharkiv, indicating a high‑tempo UAV campaign (Source: @kpszsu/62049, @kpszsu/62057).",
+        "Russian air assets have not been directly reported in these feeds, but the surge in UAV usage suggests a shift toward low‑cost, high‑volume aerial attacks.",
+        "Ukrainian helicopter pilots are receiving advanced training in the UK, enhancing future rotary‑wing capabilities (Source: @DeepStateUA/23510)."
       ]
     },
     "key_developments": [
-      "Ukrainian UAV swarms caused 138 drone losses for Russian forces across Stavropol, Rostov, and Crimea, demonstrating a high‑intensity aerial campaign. (Source: @ukr_leaks_eng/30211)",
-      "Russia announced the liberation of Borova and Kutkovka in Kharkiv region, suggesting a localized counter‑offensive success. (Source: @ukr_leaks_eng/30214)",
-      "Shahed missile attacks from Chernihiv to Kyiv oblast and from Chernihiv to Poltava were reported, indicating expanded missile strike corridors. (Source: @mon1tor_ua/66765)",
-      "Russian tactical aviation activity warned for the north‑east front, raising the risk of air strikes on frontline positions. (Source: @kpszsu/62028)",
-      "Ukrainian forces captured Chaikovka settlement on the Kharkiv front, advancing the 126th Motor Rifle Regiment. (Source: @ukr_leaks_eng/30211)",
-      "Civilian infrastructure in Kherson was hit by Ukrainian drones, injuring two civilians and damaging transport and utility networks. (Source: @UkraineNow/81258)",
-      "Ukrainian pilots began British‑led helicopter instructor training under Operation Interstorm, enhancing future rotary‑wing capabilities. (Source: @DeepStateUA/23510)"
+      "Ukrainian forces have liberated the villages of Borova and Kutkovka in Kharkiv Oblast, extending the front line northward by roughly 12 km (Source: @ukr_leaks_eng/30214).",
+      "Russian Shahed drone activity remains intense, with groups reported moving from Mykolaiv, Chernihiv, Sumy, and Kharkiv toward major population centers, prompting widespread air‑defense alerts (Source: @kpszsu/62049).",
+      "Ukrainian air defenses shot down 25 UAVs over Sevastopol and the Black Sea, averting damage to critical power infrastructure (Source: @tass_agency/376192).",
+      "Russian shelling in Kherson city centre killed one civilian and injured two others, highlighting continued targeting of urban areas (Source: @UkraineNow/81258).",
+      "More than 70 UAV, artillery and missile strikes hit two districts of Dnipro region, killing a 38‑year‑old man and injuring nine, including children (Source: @UkraineNow/81260).",
+      "Ukrainian helicopter crews begin NATO‑backed training in Britain under Operation Interstorm, boosting future rotary‑wing capabilities (Source: @DeepStateUA/23510).",
+      "Russia announced a potential use of ballistic weapons, raising the risk of long‑range strikes on Ukrainian strategic assets (Source: @kpszsu/62064)."
     ],
-    "threat_assessment": "Ukrainian UAV and Shahed missile deployments are creating a multi‑axis pressure on Russian air‑defences, forcing the Kremlin to allocate additional interceptors and radar assets. Russian counter‑offensives in Kharkiv, notably the recapture of Borova and Kutkovka, indicate a willingness to conduct localized ground thrusts despite overall attrition. The persistent threat of low‑altitude Shahed missiles across Kyiv, Chernihiv, and Poltava oblasts challenges Ukrainian air‑defence saturation and may compel a shift toward integrated electronic‑warfare measures.",
-    "regional_response": "NATO allies are intensifying support, exemplified by British helicopter instructor training for Ukrainian pilots, while European defence industries report a 50‑60% price surge in armaments, reflecting heightened demand. Russia continues strategic infrastructure projects, such as the Bushehr nuclear unit, signaling a focus on long‑term resilience despite battlefield pressures. Regional actors, including Turkey and Iran, are engaged in parallel geopolitical maneuvers, potentially influencing supply chains and external support to both sides.",
-    "intelligence_notes": "Open‑source monitoring shows a surge in UAV activity from both Ukrainian and Russian forces, with increased use of commercial‑grade Shahed missiles on the Ukrainian side. Russian claims of territorial gains require independent verification due to limited on‑ground reporting. Air‑defence alerts on the north‑east front suggest possible preparation for a larger aerial operation, warranting close SIGINT and radar surveillance. Civilian casualty reports in Kherson and Belgorod underscore the growing risk of escalation into populated areas, which may affect humanitarian corridors and international diplomatic pressure."
+    "threat_assessment": "Russian forces are leveraging high‑volume Shahed UAVs to pressure multiple Ukrainian fronts, aiming to disrupt logistics and civilian morale. Ukrainian air defenses have shown resilience, downing dozens of drones, but sustained attacks on Kherson, Dnipro, and Kharkiv indicate a continued threat to infrastructure and population centers. The announced possibility of ballistic weapon deployment adds a strategic escalation risk, potentially extending the conflict's reach beyond current frontlines.",
+    "regional_response": "Western allies continue diplomatic engagement, with the US and China expressing willingness to mediate, while NATO members reinforce support for Ukraine's defense capabilities, exemplified by British helicopter training. Russia's internal socio‑economic pressures, reflected in rising pensions, may influence its operational tempo. Regional actors, such as Turkey, are emphasizing NATO summit importance, underscoring broader security concerns linked to the war.",
+    "intelligence_notes": "UAV movement patterns suggest coordinated corridors from the south (Mykolaiv/Kherson) toward central Ukraine and from the north (Sumy/Chernihiv) toward Kyiv, requiring layered air‑defense posturing. The concentration of drone attacks on civilian infrastructure aims to erode public resilience and strain emergency services. Ukrainian territorial gains in Kharkiv could enable new offensive operations, but must be secured against persistent UAV harassment. Monitoring of Russian ballistic weapon deployment signals will be critical for early warning and strategic planning."
   },
   "missiles": 0,
   "drones": 294,
   "kpszsu_timeline": [
-    4,
-    7,
+    6,
     2,
-    1,
-    2,
+    0,
+    3,
     0,
     1,
     3,
@@ -323,15 +322,16 @@
     0,
     0,
     0,
-    1,
-    4,
+    2,
     3,
-    1,
+    4,
+    0,
     2,
     0,
     4,
     1,
     1,
-    0
+    1,
+    3
   ]
 }
