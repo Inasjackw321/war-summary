@@ -5,6 +5,7 @@ import time
 import re
 import sys
 import random
+import traceback
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -622,125 +623,142 @@ def run() -> None:
     media_dir.mkdir(exist_ok=True)
     cleanup_old_media(media_dir)
 
+    failed_conflicts = []
     for key, conf in CONFLICTS.items():
         print(f"\n=== {conf['title']} ===", file=sys.stderr)
+        try:
+            _process_conflict(key, conf, output_dir, media_dir)
+        except Exception as exc:
+            print(f"  ERROR processing {key}: {exc}", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+            failed_conflicts.append(key)
 
-        per_channel_messages: dict[str, list[str]] = {}
-        per_channel_timestamps: dict[str, list[datetime]] = {}
-        per_channel_message_ids: dict[str, list[int | None]] = {}
-        per_channel_counts: dict[str, int] = {}
-        recent_post_urls: dict[str, str] = {}
-        all_media: list[dict] = []
+    if failed_conflicts:
+        print(f"\nFailed conflicts: {failed_conflicts}", file=sys.stderr)
+        if len(failed_conflicts) == len(CONFLICTS):
+            sys.exit(1)  # All failed — hard fail so workflow retries
+        print("Partial success — committing available data.", file=sys.stderr)
 
-        for ch in conf["channels"]:
-            print(f"  Fetching {ch}...", file=sys.stderr)
-            msgs, times, ids, max_id, images = fetch_channel_messages_24h(ch)
-            per_channel_messages[ch] = msgs
-            per_channel_timestamps[ch] = times
-            per_channel_message_ids[ch] = ids
-            per_channel_counts[ch] = len(msgs)
-            if max_id:
-                recent_post_urls[ch] = f"https://t.me/{ch}/{max_id}"
-            for img in images[:5]:  # cap per channel
-                all_media.append({**img, "channel": ch})
-            print(f"    -> {len(msgs)} messages, {len(images)} images", file=sys.stderr)
+    print("\nDone.", flush=True)
 
-        # Ukraine gets higher per-channel limit for better AI coverage
-        per_ch_limit = 25 if key == "ukraine" else 15
-        tagged: list[str] = []
-        for ch in conf["channels"]:
-            msgs = per_channel_messages.get(ch, [])[:per_ch_limit]
-            ids = per_channel_message_ids.get(ch, [])[:per_ch_limit]
-            for msg, mid in zip(msgs, ids):
-                prefix = f"{ch}/{mid}" if mid else ch
-                tagged.append(f"[{prefix}] {msg}")
-        random.shuffle(tagged)
-        all_messages = tagged
 
-        total_count = sum(per_channel_counts.values())
-        print(f"  Total messages collected: {total_count} ({len(all_messages)} sent to AI)", file=sys.stderr)
-        print(f"  Generating AI summary...", file=sys.stderr)
+def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -> None:
+    per_channel_messages: dict[str, list[str]] = {}
+    per_channel_timestamps: dict[str, list[datetime]] = {}
+    per_channel_message_ids: dict[str, list[int | None]] = {}
+    per_channel_counts: dict[str, int] = {}
+    recent_post_urls: dict[str, str] = {}
+    all_media: list[dict] = []
 
-        ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
-        ai_result.pop("red_alerts", None)
+    for ch in conf["channels"]:
+        print(f"  Fetching {ch}...", file=sys.stderr)
+        msgs, times, ids, max_id, images = fetch_channel_messages_24h(ch)
+        per_channel_messages[ch] = msgs
+        per_channel_timestamps[ch] = times
+        per_channel_message_ids[ch] = ids
+        per_channel_counts[ch] = len(msgs)
+        if max_id:
+            recent_post_urls[ch] = f"https://t.me/{ch}/{max_id}"
+        for img in images[:5]:  # cap per channel
+            all_media.append({**img, "channel": ch})
+        print(f"    -> {len(msgs)} messages, {len(images)} images", file=sys.stderr)
 
-        msgs_by_channel = build_messages_by_channel(conf["channels"], per_channel_counts)
+    # Ukraine gets higher per-channel limit for better AI coverage
+    per_ch_limit = 25 if key == "ukraine" else 15
+    tagged: list[str] = []
+    for ch in conf["channels"]:
+        msgs = per_channel_messages.get(ch, [])[:per_ch_limit]
+        ids = per_channel_message_ids.get(ch, [])[:per_ch_limit]
+        for msg, mid in zip(msgs, ids):
+            prefix = f"{ch}/{mid}" if mid else ch
+            tagged.append(f"[{prefix}] {msg}")
+    random.shuffle(tagged)
+    all_messages = tagged
 
-        all_timestamps = [ts for ch in conf["channels"] for ts in per_channel_timestamps.get(ch, [])]
-        if any(ts is not None for ts in all_timestamps):
-            activity_timeline = bucket_into_24h_slots(all_timestamps)
+    total_count = sum(per_channel_counts.values())
+    print(f"  Total messages collected: {total_count} ({len(all_messages)} sent to AI)", file=sys.stderr)
+    print(f"  Generating AI summary...", file=sys.stderr)
+
+    ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
+    ai_result.pop("red_alerts", None)
+
+    msgs_by_channel = build_messages_by_channel(conf["channels"], per_channel_counts)
+
+    all_timestamps = [ts for ch in conf["channels"] for ts in per_channel_timestamps.get(ch, [])]
+    if any(ts is not None for ts in all_timestamps):
+        activity_timeline = bucket_into_24h_slots(all_timestamps)
+    else:
+        activity_timeline = build_activity_timeline_synthetic(total_count)
+
+    alert_ch = conf.get("alert_channel", "")
+
+    if key == "middle_east":
+        alert_texts = per_channel_messages.get(alert_ch, [])
+        alert_times = per_channel_timestamps.get(alert_ch, [])
+        real_pairs = [
+            (t, ts) for t, ts in zip(alert_texts, alert_times) if is_real_alert(t)
+        ]
+        red_alerts_raw = len(real_pairs)
+        real_alert_timestamps = [ts for _, ts in real_pairs if ts is not None]
+        alert_timeline = bucket_into_24h_slots(real_alert_timestamps) if real_alert_timestamps else [0] * 24
+
+    else:  # ukraine
+        # Fetch kpszsu without is_relevant() filter so short/numeric daily summaries are parsed
+        kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
+        drones = parse_drone_count(kpszsu_raw, missiles=0)
+        missiles = parse_missile_count(kpszsu_raw, drones=drones)
+        # If missile Kh-parse found nothing but total-means path also failed,
+        # recompute drones using the now-known missile count for accuracy
+        if missiles > 0 and drones == 0:
+            drones = parse_drone_count(kpszsu_raw, missiles=missiles)
+        red_alerts_raw = missiles + drones
+        print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
+        update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
+        # Count UAV events per eRadarrua post (each city direction = 1 event for accuracy)
+        ua_alert_events = []
+        ua_texts = per_channel_messages.get(alert_ch, [])
+        ua_times = per_channel_timestamps.get(alert_ch, [])
+        for text, ts in zip(ua_texts, ua_times):
+            if ts is None:
+                continue
+            directions = len(re.findall(
+                r'(?:UAV|drone|БПЛА|БпЛА)\w*\s+(?:on|to|near|over|in|heading|from)',
+                text, re.IGNORECASE
+            ))
+            count = directions if directions > 0 else (
+                1 if re.search(r'\bUAV\b|\bdrone\b|\bBPLA\b|\bБПЛА\b', text, re.IGNORECASE) else 0
+            )
+            ua_alert_events.extend([ts] * count)
+        raw_timeline = bucket_into_24h_slots(ua_alert_events) if ua_alert_events else [0] * 24
+        # Scale timeline so it reflects actual drone count (distribution proxy)
+        tl_sum = sum(raw_timeline) or 1
+        if drones > 0:
+            alert_timeline = [round(v * drones / tl_sum) for v in raw_timeline]
         else:
-            activity_timeline = build_activity_timeline_synthetic(total_count)
+            alert_timeline = raw_timeline
 
-        alert_ch = conf.get("alert_channel", "")
+    output = {
+        "conflict": conf["title"],
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "message_count": total_count,
+        "channels": conf["channels"],
+        "red_alerts": red_alerts_raw,
+        "red_alerts_timeline": alert_timeline,
+        "combined_activity_timeline": activity_timeline,
+        "messages_by_channel": msgs_by_channel,
+        "recent_post_urls": recent_post_urls,
+        "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
+        "post_images": _build_post_images(all_media, media_dir),
+        **ai_result,
+    }
+    if key == "ukraine":
+        output["missiles"] = missiles
+        output["drones"] = drones
+        output["kpszsu_timeline"] = bucket_into_24h_slots(per_channel_timestamps.get("kpszsu", []))
 
-        if key == "middle_east":
-            alert_texts = per_channel_messages.get(alert_ch, [])
-            alert_times = per_channel_timestamps.get(alert_ch, [])
-            real_pairs = [
-                (t, ts) for t, ts in zip(alert_texts, alert_times) if is_real_alert(t)
-            ]
-            red_alerts_raw = len(real_pairs)
-            real_alert_timestamps = [ts for _, ts in real_pairs if ts is not None]
-            alert_timeline = bucket_into_24h_slots(real_alert_timestamps) if real_alert_timestamps else [0] * 24
-
-        else:  # ukraine
-            # Fetch kpszsu without is_relevant() filter so short/numeric daily summaries are parsed
-            kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
-            drones = parse_drone_count(kpszsu_raw, missiles=0)
-            missiles = parse_missile_count(kpszsu_raw, drones=drones)
-            # If missile Kh-parse found nothing but total-means path also failed,
-            # recompute drones using the now-known missile count for accuracy
-            if missiles > 0 and drones == 0:
-                drones = parse_drone_count(kpszsu_raw, missiles=missiles)
-            red_alerts_raw = missiles + drones
-            print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
-            update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
-            # Count UAV events per eRadarrua post (each city direction = 1 event for accuracy)
-            ua_alert_events = []
-            ua_texts = per_channel_messages.get(alert_ch, [])
-            ua_times = per_channel_timestamps.get(alert_ch, [])
-            for text, ts in zip(ua_texts, ua_times):
-                if ts is None:
-                    continue
-                directions = len(re.findall(
-                    r'(?:UAV|drone|БПЛА|БпЛА)\w*\s+(?:on|to|near|over|in|heading|from)',
-                    text, re.IGNORECASE
-                ))
-                count = directions if directions > 0 else (
-                    1 if re.search(r'\bUAV\b|\bdrone\b|\bBPLA\b|\bБПЛА\b', text, re.IGNORECASE) else 0
-                )
-                ua_alert_events.extend([ts] * count)
-            raw_timeline = bucket_into_24h_slots(ua_alert_events) if ua_alert_events else [0] * 24
-            # Scale timeline so it reflects actual drone count (distribution proxy)
-            tl_sum = sum(raw_timeline) or 1
-            if drones > 0:
-                alert_timeline = [round(v * drones / tl_sum) for v in raw_timeline]
-            else:
-                alert_timeline = raw_timeline
-
-        output = {
-            "conflict": conf["title"],
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-            "message_count": total_count,
-            "channels": conf["channels"],
-            "red_alerts": red_alerts_raw,
-            "red_alerts_timeline": alert_timeline,
-            "combined_activity_timeline": activity_timeline,
-            "messages_by_channel": msgs_by_channel,
-            "recent_post_urls": recent_post_urls,
-            "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
-            "post_images": _build_post_images(all_media, media_dir),
-            **ai_result,
-        }
-        if key == "ukraine":
-            output["missiles"] = missiles
-            output["drones"] = drones
-            output["kpszsu_timeline"] = bucket_into_24h_slots(per_channel_timestamps.get("kpszsu", []))
-
-        path = output_dir / f"{key}.json"
-        path.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-        print(f"  Saved -> {path}", flush=True)
+    path = output_dir / f"{key}.json"
+    path.write_text(json.dumps(output, indent=2, ensure_ascii=False))
+    print(f"  Saved -> {path}", flush=True)
 
     print("\nDone.", flush=True)
 
