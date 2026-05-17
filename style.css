@@ -146,6 +146,11 @@ body {
   font-family: 'JetBrains Mono', monospace;
 }
 .header-countdown b { color: var(--text2); }
+.cd-checking {
+  color: var(--accent-ora);
+  animation: cdPulse 1.4s ease-in-out infinite;
+}
+@keyframes cdPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
 
 /* ── Warning bar ── */
 .warning-bar {

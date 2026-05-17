@@ -828,21 +828,20 @@ function startCountdown(updatedAt) {
   const ONE_HOUR = 60 * 60 * 1000;
   const updated = new Date(updatedAt).getTime();
   let overduePolling = false;
+  const cdEl = () => document.getElementById("countdown");
 
   function tick() {
     const remaining = ONE_HOUR - (Date.now() - updated);
     if (remaining <= 0) {
-      document.getElementById("countdown").textContent = "now";
       if (!overduePolling) {
         overduePolling = true;
-        // Switch to fast 60s polling until new data arrives
+        cdEl().innerHTML = `<span class="cd-checking">checking…</span>`;
         clearInterval(_autoRefreshInterval);
         _autoRefreshInterval = null;
         checkForRefresh();
         _autoRefreshInterval = setInterval(async () => {
           const didUpdate = await checkForRefresh();
           if (didUpdate) {
-            // New data found — revert to slow 5-min polling
             clearInterval(_autoRefreshInterval);
             _autoRefreshInterval = setInterval(checkForRefresh, 5 * 60 * 1000);
             overduePolling = false;
@@ -853,7 +852,7 @@ function startCountdown(updatedAt) {
     }
     const m = Math.floor((remaining % 3600000) / 60000);
     const s = Math.floor((remaining % 60000) / 1000);
-    document.getElementById("countdown").textContent = `${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`;
+    cdEl().textContent = `${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`;
   }
   tick();
   setInterval(tick, 1000);
