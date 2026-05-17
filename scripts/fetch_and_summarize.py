@@ -102,19 +102,46 @@ def _fetch_url(url: str, retries: int = 3) -> "requests.Response | None":
     return None
 
 
+_TS_INDEX = "data/media/.timestamps.json"
+
+
+def _load_ts_index(media_dir: Path) -> dict[str, float]:
+    path = media_dir / ".timestamps.json"
+    if path.exists():
+        try:
+            return json.loads(path.read_text())
+        except Exception:
+            pass
+    return {}
+
+
+def _save_ts_index(media_dir: Path, index: dict[str, float]) -> None:
+    (media_dir / ".timestamps.json").write_text(json.dumps(index, indent=2))
+
+
 def cleanup_old_media(media_dir: Path) -> None:
     if not media_dir.exists():
         return
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
-    for f in media_dir.iterdir():
-        if f.is_file():
-            mtime = datetime.fromtimestamp(f.stat().st_mtime, tz=timezone.utc)
-            if mtime < cutoff:
-                try:
-                    f.unlink()
-                    print(f"  [media] deleted: {f.name}", file=sys.stderr)
-                except Exception as e:
-                    print(f"  [media] delete failed {f.name}: {e}", file=sys.stderr)
+    index = _load_ts_index(media_dir)
+    cutoff = datetime.now(timezone.utc).timestamp() - 24 * 3600
+    changed = False
+    for fname in list(index.keys()):
+        if index[fname] < cutoff:
+            dest = media_dir / fname
+            try:
+                dest.unlink(missing_ok=True)
+                print(f"  [media] deleted: {fname}", file=sys.stderr)
+            except Exception as e:
+                print(f"  [media] delete failed {fname}: {e}", file=sys.stderr)
+            del index[fname]
+            changed = True
+    # Also remove index entries whose files no longer exist
+    for fname in list(index.keys()):
+        if not (media_dir / fname).exists():
+            del index[fname]
+            changed = True
+    if changed:
+        _save_ts_index(media_dir, index)
 
 
 def download_media(url: str, dest: Path) -> bool:
@@ -561,6 +588,9 @@ def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> di
 
 def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]:
     post_images: dict[str, str] = {}
+    index = _load_ts_index(media_dir)
+    now_ts = datetime.now(timezone.utc).timestamp()
+    changed = False
     for img in all_media:
         cdn = img.get("cdn_url")
         if not cdn:
@@ -573,8 +603,15 @@ def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]
         key = f"{ch}/{pid}"
         if dest.exists():
             post_images[key] = f"data/media/{local_name}"
+            if local_name not in index:
+                index[local_name] = now_ts
+                changed = True
         elif download_media(cdn, dest):
             post_images[key] = f"data/media/{local_name}"
+            index[local_name] = now_ts
+            changed = True
+    if changed:
+        _save_ts_index(media_dir, index)
     return post_images
 
 
