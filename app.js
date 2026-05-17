@@ -328,60 +328,41 @@ function renderSourceTags(text) {
 
 // Build a lowercase → canonical key map once per panel population, cleared in populatePanel
 let _mediaKeysByLower = {};   // lowercase key → canonical key
-let _mediaKeysByChannel = {}; // channelLower → [canonical keys sorted newest-first]
 
 function _rebuildMediaIndex() {
   _mediaKeysByLower = {};
-  _mediaKeysByChannel = {};
   for (const k of Object.keys(currentAllMedia)) {
     _mediaKeysByLower[k.toLowerCase()] = k;
-    const ch = k.split('/')[0].toLowerCase();
-    (_mediaKeysByChannel[ch] = _mediaKeysByChannel[ch] || []).push(k);
-  }
-  // Sort each channel's keys newest-first (highest post_id first)
-  for (const ch of Object.keys(_mediaKeysByChannel)) {
-    _mediaKeysByChannel[ch].sort((a, b) => (parseInt(b.split('/')[1]) || 0) - (parseInt(a.split('/')[1]) || 0));
   }
 }
 
 function extractImageKeys(rawText) {
   const results = [];
-  const seen = new Set();
+  const seenKeys  = new Set();
+  const seenPaths = new Set();
 
-  // 1. Exact or case-insensitive channel/postId citations: (Source: @channel/postId)
+  // Match (Source: @channel/postId) citations — exact first, then case-insensitive fallback
   const re = /\((?:Source:\s*)?@?([\w]+)\/([\d]+)/gi;
   let m;
   while ((m = re.exec(rawText)) !== null) {
     const chRaw = m[1], pid = m[2];
     const keyExact = `${chRaw}/${pid}`;
-    const keyLower = keyExact.toLowerCase();
-    const canonKey = currentAllMedia[keyExact] ? keyExact : (_mediaKeysByLower[keyLower] || null);
-    if (!canonKey || seen.has(canonKey)) continue;
-    seen.add(canonKey);
+    const canonKey = currentAllMedia[keyExact]
+      ? keyExact
+      : (_mediaKeysByLower[keyExact.toLowerCase()] || null);
+    if (!canonKey || seenKeys.has(canonKey)) continue;
     const entry = currentAllMedia[canonKey];
-    if (entry) results.push({
+    if (!entry) continue;
+    // Dedup by file path too — aliases may point to the same image
+    if (entry.localPath && seenPaths.has(entry.localPath)) continue;
+    seenKeys.add(canonKey);
+    if (entry.localPath) seenPaths.add(entry.localPath);
+    results.push({
       path: entry.localPath,
       ch: canonKey.split('/')[0],
       key: canonKey,
       postUrl: entry.postUrl || `https://t.me/${chRaw}/${pid}`,
     });
-  }
-
-  // 2. Channel-only @mention fallback: @channel without a matching postId
-  //    Pick the most recent unused downloaded image from that channel.
-  const chanRe = /@([\w]+)/gi;
-  while ((m = chanRe.exec(rawText)) !== null) {
-    const ch = m[1];
-    if (!MEDIA_CHANNELS.has(ch)) continue;
-    const candidates = _mediaKeysByChannel[ch.toLowerCase()] || [];
-    for (const k of candidates) {
-      if (seen.has(k)) continue;
-      const entry = currentAllMedia[k];
-      if (!entry || !entry.localPath) continue;
-      seen.add(k);
-      results.push({ path: entry.localPath, ch: k.split('/')[0], key: k, postUrl: entry.postUrl || `https://t.me/${k}` });
-      break;
-    }
   }
 
   return results;
