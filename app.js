@@ -280,11 +280,15 @@ function openLocalMediaLightbox(src, postUrl) {
   document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", h); } });
 }
 
-function imgButtonHtml(path, ch, postUrl) {
-  const icon = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>`;
-  return path
-    ? `<button class="src-img-btn" data-src="${path}" data-posturl="${postUrl}">${icon} @${ch}</button>`
-    : `<a class="src-img-btn src-img-btn--tg" href="${postUrl}" target="_blank" rel="noopener">${icon} @${ch} ↗</a>`;
+function imgMediaHtml(path, ch, postUrl) {
+  if (path) {
+    return `<figure class="spm-thumb" data-src="${path}" data-posturl="${postUrl}">
+      <img src="${path}" alt="" loading="lazy">
+      <figcaption>@${ch}</figcaption>
+    </figure>`;
+  }
+  const icon = `<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>`;
+  return `<a class="spm-tg-link" href="${postUrl}" target="_blank" rel="noopener">${icon} @${ch} ↗</a>`;
 }
 
 // Returns filtered imgs (deduped within section, capped), mutates seenKeys + counter
@@ -353,12 +357,12 @@ function buildSectionBlock(def, sectionsData, index) {
     body.innerHTML = `<div class="section-points">${
       points.map((pt, i) => {
         const imgs = filterImgs(extractImageKeys(pt), seenImgKeys, imgCounter, 3);
-        const imgHtml = imgs.length
-          ? `<div class="section-point-imgs">${imgs.map(({path,ch,postUrl}) => imgButtonHtml(path,ch,postUrl)).join("")}</div>`
+        const mediaHtml = imgs.length
+          ? `<div class="section-point-media">${imgs.map(({path,ch,postUrl}) => imgMediaHtml(path,ch,postUrl)).join("")}</div>`
           : "";
         return `<div class="section-point" style="animation-delay:${i*40}ms;--point-accent:${color}">
           <div class="section-point-inner">${renderSourceTags(leadBold(pt))}</div>
-          ${imgHtml}
+          ${mediaHtml}
         </div>`;
       }).join("")
     }</div>`;
@@ -369,13 +373,13 @@ function buildSectionBlock(def, sectionsData, index) {
     body.innerHTML = `<div class="key-dev-list">${
       items.map((item, i) => {
         const imgs = filterImgs(extractImageKeys(item), seenImgKeys, imgCounter, 3);
-        const imgHtml = imgs.length
-          ? `<div class="section-point-imgs">${imgs.map(({path,ch,postUrl}) => imgButtonHtml(path,ch,postUrl)).join("")}</div>`
+        const mediaHtml = imgs.length
+          ? `<div class="section-point-media">${imgs.map(({path,ch,postUrl}) => imgMediaHtml(path,ch,postUrl)).join("")}</div>`
           : "";
         return `<div class="key-dev-item" style="animation-delay:${i*50}ms">
           <span class="key-dev-num">${i+1}</span>
           <span class="key-dev-text">${renderSourceTags(item)}</span>
-          ${imgHtml}
+          ${mediaHtml}
         </div>`;
       }).join("")
     }</div>`;
@@ -798,8 +802,8 @@ async function init() {
 document.addEventListener("click", e => {
   const a = e.target.closest("a.src-tag--biased");
   if (a) { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); return; }
-  const btn = e.target.closest(".src-img-btn");
-  if (btn) { e.stopPropagation(); openLocalMediaLightbox(btn.dataset.src, btn.dataset.posturl); }
+  const thumb = e.target.closest(".spm-thumb");
+  if (thumb) { e.stopPropagation(); openLocalMediaLightbox(thumb.dataset.src, thumb.dataset.posturl); }
 });
 
 document.addEventListener("DOMContentLoaded", init);
