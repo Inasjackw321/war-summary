@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-17T02:36:56.033436+00:00",
-  "message_count": 864,
+  "updated_at": "2026-05-17T02:54:06.209205+00:00",
+  "message_count": 909,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -23,25 +23,27 @@
     "shin_persian",
     "almogboker78",
     "New_security8200",
-    "inon_yttach"
+    "inon_yttach",
+    "redlinkleb",
+    "pkpoi"
   ],
   "red_alerts": 11,
   "red_alerts_timeline": [
     0,
     0,
-    0,
     2,
     0,
     0,
     0,
-    2,
-    0,
     0,
     2,
     0,
-    0,
     2,
+    0,
+    0,
+    1,
     3,
+    1,
     0,
     0,
     0,
@@ -53,27 +55,27 @@
     0
   ],
   "combined_activity_timeline": [
-    3,
-    16,
-    22,
-    31,
-    22,
+    6,
+    20,
     27,
-    41,
+    28,
+    16,
+    40,
+    45,
     59,
-    39,
-    23,
     38,
-    50,
-    44,
+    33,
+    45,
+    45,
+    55,
+    66,
+    76,
     61,
-    73,
-    68,
-    39,
-    80,
+    46,
+    77,
     41,
-    29,
-    34,
+    33,
+    27,
     8,
     9,
     7
@@ -99,7 +101,9 @@
     "@shin_persian": 18,
     "@almogboker78": 11,
     "@New_security8200": 39,
-    "@inon_yttach": 10
+    "@inon_yttach": 10,
+    "@redlinkleb": 40,
+    "@pkpoi": 5
   },
   "recent_post_urls": {
     "N12chat": "https://t.me/N12chat/207569",
@@ -122,7 +126,9 @@
     "shin_persian": "https://t.me/shin_persian/6044",
     "almogboker78": "https://t.me/almogboker78/17020",
     "New_security8200": "https://t.me/New_security8200/199281",
-    "inon_yttach": "https://t.me/inon_yttach/8109"
+    "inon_yttach": "https://t.me/inon_yttach/8109",
+    "redlinkleb": "https://t.me/redlinkleb/14107",
+    "pkpoi": "https://t.me/pkpoi/142082"
   },
   "media": [
     {
@@ -199,10 +205,40 @@
       "ts": "2026-05-16T22:19:13+00:00"
     },
     {
+      "post_url": "https://t.me/redlinkleb/14094",
+      "post_id": 14094,
+      "channel": "redlinkleb",
+      "ts": "2026-05-16T22:05:53+00:00"
+    },
+    {
       "post_url": "https://t.me/presstv/190155",
       "post_id": 190155,
       "channel": "presstv",
       "ts": "2026-05-16T22:00:04+00:00"
+    },
+    {
+      "post_url": "https://t.me/redlinkleb/14091",
+      "post_id": 14091,
+      "channel": "redlinkleb",
+      "ts": "2026-05-16T21:54:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/redlinkleb/14090",
+      "post_id": 14090,
+      "channel": "redlinkleb",
+      "ts": "2026-05-16T21:54:15+00:00"
+    },
+    {
+      "post_url": "https://t.me/redlinkleb/14089",
+      "post_id": 14089,
+      "channel": "redlinkleb",
+      "ts": "2026-05-16T21:53:47+00:00"
+    },
+    {
+      "post_url": "https://t.me/redlinkleb/14088",
+      "post_id": 14088,
+      "channel": "redlinkleb",
+      "ts": "2026-05-16T21:53:42+00:00"
     },
     {
       "post_url": "https://t.me/rasedal3ado138e/357676",
@@ -215,36 +251,6 @@
       "post_id": 357674,
       "channel": "rasedal3ado138e",
       "ts": "2026-05-16T21:39:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190152",
-      "post_id": 190152,
-      "channel": "presstv",
-      "ts": "2026-05-16T21:31:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/naya_foriraq/75528",
-      "post_id": 75528,
-      "channel": "naya_foriraq",
-      "ts": "2026-05-16T21:08:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/lelotsenzura/91898",
-      "post_id": 91898,
-      "channel": "lelotsenzura",
-      "ts": "2026-05-16T21:03:54+00:00"
-    },
-    {
-      "post_url": "https://t.me/lelotsenzura/91897",
-      "post_id": 91897,
-      "channel": "lelotsenzura",
-      "ts": "2026-05-16T21:02:46+00:00"
-    },
-    {
-      "post_url": "https://t.me/N12chat/207555",
-      "post_id": 207555,
-      "channel": "N12chat",
-      "ts": "2026-05-16T20:51:26+00:00"
     }
   ],
   "post_images": {
@@ -264,81 +270,73 @@
     "VahidOnline/75501": "data/media/VahidOnline_75501.jpg",
     "idf_telegram/23682": "data/media/idf_telegram_23682.jpg"
   },
-  "summary": "Israel intensified strikes on Hezbollah infrastructure in southern Lebanon while eliminating senior Hamas figures in Gaza, including the commander of the military wing. Iran faced a major fire at the Maragheh oil refinery and displayed anti‑U.S. signage at the Strait of Hormuz, amid rising rhetoric about U.S. economic pressure. The United States and regional partners, notably the UAE, are being urged to deepen involvement in a potential broader Iran conflict.",
+  "summary": "Israel intercepted a Hezbollah drone near Metula and confirmed the killing of Hamas military commander Izz al‑Din al‑Haddad in Gaza, while the IDF ramped up strikes on Hezbollah infrastructure in southern Lebanon. Iran hosted Pakistan’s interior minister in Tehran and saw nationwide rallies supporting its armed forces. The UK dispatched four Typhoon fighters to Qatar, and the US carrier strike group returned after an 11‑month deployment.",
   "key_points": [
-    "Israel killed senior Hamas commander Azad al‑Haddad in Gaza.",
-    "Hezbollah drone strike killed IDF Captain Maoz Recanati in southern Lebanon.",
-    "IDF reported over 100 Hezbollah targets hit in southern Lebanon this weekend.",
-    "A fire erupted at the Maragheh oil refinery in north‑west Iran.",
-    "Anti‑U.S. signage installed at the Strait of Hormuz warns \"Entry of American soldiers and dogs prohibited\".",
-    "U.S. carrier group Gerald Ford returned to the U.S. after an 11‑month deployment.",
-    "U.S. officials are encouraging the UAE to take a more active role against Iran."
+    "Hezbollah drone intercepted near Metula, triggering border sirens.",
+    "IDF killed Hamas military wing commander Izz al‑Din al‑Haddad in Gaza.",
+    "Israel announced new strikes on Hezbollah sites in southern Lebanon.",
+    "Iran’s interior minister welcomed Pakistan’s counterpart in Tehran.",
+    "UK sent four Typhoon jets to Qatar to boost regional air presence.",
+    "US Gerald Ford carrier group returned to the United States.",
+    "Iranian streets saw nightly rallies supporting the armed forces."
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Israel’s latest operations have eliminated senior Hamas leadership in Gaza and struck over 100 Hezbollah positions in southern Lebanon, marking the most significant tactical gain this week. Iran suffered a major industrial fire at the Maragheh oil refinery and displayed overt anti‑U.S. messaging at the Strait of Hormuz, underscoring heightened domestic pressure. The United States is positioning its carrier strike group for redeployment while urging regional allies, especially the UAE, to deepen involvement in a prospective Iran‑centric conflict.",
+    "executive_summary": "Israel’s interception of a Hezbollah drone near Metula and the confirmed killing of Hamas commander Izz al‑Din al‑Haddad mark the most operationally significant developments, indicating heightened cross‑border activity and a deepening Israeli strike campaign. Simultaneously, Iran intensified diplomatic outreach by hosting Pakistan’s interior minister and staging nationwide rallies, while regional powers such as the UK and the US reinforced their military footprints with Typhoon deployments to Qatar and the return of the Gerald Ford carrier group. These moves collectively raise the risk of broader escalation across multiple fronts.",
     "iran": {
       "points": [
-        "A fire broke out at the Maragheh oil refinery in north‑west Iran, threatening a key fuel processing facility and prompting emergency response measures (Source: @asafroz/49256).",
-        "A sign erected off the coast of the Strait of Hormuz explicitly prohibits \"Entry of American soldiers and dogs,\" signaling heightened anti‑U.S. sentiment at a strategic chokepoint (Source: @presstv/190160).",
-        "Iran’s Interior Minister Eskandar Momeni welcomed Pakistani Interior Minister Mohsin Naqvi in Tehran, indicating ongoing diplomatic engagement with regional partners (Source: @presstv/190162).",
-        "Iranian officials warned that rising U.S. energy prices could trigger broader economic fallout, linking American mortgage rates to potential domestic unrest (Source: @VahidOnline/75493).",
-        "U.S. media reports suggest the United States is preparing for possible renewed hostilities against Iran, including special‑operations plans to extract enriched uranium (Source: @kianmeli1/87424)."
+        "Iran’s Interior Minister Eskandar Momeni welcomed Pakistani Interior Minister Mohsin Naqvi in Tehran, signaling closer security cooperation between Tehran and Islamabad (Source: @presstv/190162).",
+        "Nightly nationwide rallies were held in Shahrekord and Mashhad, with thousands demonstrating support for the Islamic Republic and its armed forces (Source: @presstv/190158; @presstv/190165).",
+        "Iranian state media reported that the Deputy Foreign Minister Kazem Gharibabadi condemned U.S. sanctions on a UN special rapporteur, framing it as evidence of U.S. double standards on human rights (Source: @presstv/190152).",
+        "A Shargh Daily analysis noted a diplomatic stalemate with the United States over enriched uranium stockpiles, while former U.S. President Trump claimed Iran promised fissile material delivery, which Tehran denied (Source: @SharghDaily/160280)."
       ]
     },
     "israel": {
       "points": [
-        "The IDF announced the elimination of two Hamas operatives, Hamaar Iad Mahmoud Al‑Matok and Khaled Muhammad Salem Guda, who had attempted attacks in northern Gaza (Source: @idf_telegram/23688).",
-        "Senior Hamas commander Azad al‑Haddad, head of the military wing responsible for the October 7 massacre, was killed in an Israeli operation (Source: @almogboker78/17009).",
-        "Captain Maoz Israel Recanati, 24, a Golani Brigade platoon commander, was killed by a Hezbollah explosive drone in southern Lebanon, marking the seventh Israeli fatality since the cease‑fire (Source: @manniefabian/58270).",
-        "The IDF reported striking approximately 100 Hezbollah observation posts, weapons depots, and infrastructure sites across southern Lebanon over the past weekend (Source: @New_security8200/199260).",
-        "Israeli forces intercepted two hostile aircraft over the Sdeh Meron school area, preventing potential attacks on ground troops (Source: @New_security8200/199275).",
-        "An explosion in Beit Shemesh was described as a \"controlled blast\" at a government security plant, with no civilian casualties reported (Source: @yediotnews25/129350)."
+        "The Israeli military intercepted an apparent Hezbollah drone launched from Lebanon, triggering sirens in the border town of Metula (Source: @manniefabian/58265).",
+        "IDF spokesperson announced renewed strikes on Hezbollah infrastructure across multiple locations in southern Lebanon (Source: @almogboker78/17007).",
+        "The IDF confirmed the airstrike that killed Hamas military wing commander Izz al‑Din al‑Haddad in Gaza, leaving only two senior Oct. 7 leaders alive (Source: @Faytuks_Network/2740; @inon_yttach/8098).",
+        "Chief of Staff briefed that the elimination of al‑Haddad was a major operational success involving the Southern Command, intelligence, air force, and special forces, and pledged continued pursuit of remaining Hamas leaders (Source: @almogboker78/17012).",
+        "Home Front Command reported the end of a Red Alert incident affecting Hanita, Betzet, Metzuba, Shlomi, and Tzofar on 16 May (Source: @tzevaadom_en/67246)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "Israeli forces eliminated Hamas commander Azad al‑Haddad, a key planner of the October 7 attacks, in a targeted strike within Gaza (Source: @almogboker78/17009).",
-        "The IDF confirmed the killing of three Hamas militants who had infiltrated Israeli territory after the October 7 assault, using precision air‑to‑ground munitions to minimize civilian harm (Source: @idf_telegram/23688).",
-        "Israeli military statements emphasized ongoing operations to neutralize remaining Hamas leadership and prevent further infiltration attempts from Gaza (Source: @idf_telegram/23683).",
-        "No new incidents were reported in the West Bank during the collection period, suggesting a temporary lull in overt hostilities there."
+        "Israeli airstrike in Gaza killed Hamas commander Izz al‑Din al‑Haddad, a key figure in the Oct. 7 massacre (Source: @Faytuks_Network/2740).",
+        "IDF statements indicated ongoing operations targeting Hamas military infrastructure throughout Gaza following the commander’s death (Source: @almogboker78/17012).",
+        "No specific West Bank incidents were reported in the supplied feed, indicating a relative lull compared with Gaza and border areas."
       ]
     },
     "lebanon": {
       "points": [
-        "Hezbollah launched an explosive drone attack that killed IDF Captain Maoz Recanati in southern Lebanon, the seventh Israeli combat death since the cease‑fire (Source: @manniefabian/58270).",
-        "Hezbollah fired rockets and mortar shells toward Israeli positions in the south, with several projectiles landing near troops but causing no casualties (Source: @New_security8200/199260).",
-        "Israeli air and artillery strikes hit Hezbollah observation posts, weapons caches, and a key logistics hub in the Chetou area, part of a broader campaign against the group (Source: @New_security8200/199260).",
-        "A report from an Iraqi‑based source claimed a Lebanese soldier was killed and others wounded in a separate skirmish in southern Lebanon (Source: @naya_foriraq/75514).",
-        "The IDF’s Home Front Command declared a Red Alert at Sdeh Meron School after a hostile aircraft intrusion, highlighting the proximity of aerial threats to civilian infrastructure (Source: @tzevaadom_en/67226)."
+        "Hezbollah launched a drone that was shot down by Israeli air defenses near Metula, highlighting active Lebanese‑Israeli hostilities (Source: @manniefabian/58265).",
+        "Israel announced strikes on Hezbollah facilities in several southern Lebanese zones, though exact coordinates were not disclosed (Source: @almogboker78/17007).",
+        "No further Lebanese ground movements or casualties were detailed in the current set of messages."
       ]
     },
     "syria_iraq": {
       "points": [
-        "No direct combat events were reported from Syria or Iraq in the current feed; however, U.S. maritime patrol aircraft (P‑8A Poseidon) were noted operating in the North Atlantic, indicating broader NATO‑US surveillance activities (Source: @shin_persian/6039).",
-        "Iranian state media aired a program where a presenter fired a real weapon at the UAE flag, reflecting internal propaganda aimed at preparing the populace for potential conflict (Source: @VahidOnline/75499)."
+        "No direct operational reports from Syria or Iraq appeared in the provided messages; the focus remained on Israel‑Lebanon, Gaza, and broader regional diplomatic activity."
       ]
     },
     "gulf_states": {
       "points": [
-        "U.S. officials are urging the United Arab Emirates to take a more active role in any future Iran conflict, including the possible seizure of a Gulf island under Tehran’s control (Source: @Faytuks_Network/2743).",
-        "A sign at the Strait of Hormuz explicitly bans American soldiers and dogs, a symbolic gesture that could affect Gulf maritime security dynamics (Source: @presstv/190160).",
-        "Iranian media broadcast a segment where a presenter shot at the UAE flag, suggesting heightened anti‑UAE sentiment within Iran (Source: @VahidOnline/75499).",
-        "U.S. carrier strike group Gerald Ford completed an 11‑month deployment and returned to the United States, potentially freeing naval assets for redeployment to the Gulf (Source: @asafroz/49260)."
+        "The UK announced the deployment of four Typhoon fighter jets to Qatar to strengthen the Gulf’s air defense posture (Source: @kianmeli1/87428).",
+        "No specific Gulf‑state military actions were reported beyond the UK deployment; Iranian internal rallies and diplomatic outreach were the primary Gulf‑related narratives."
       ]
     },
     "key_developments": [
-      "Israel eliminated senior Hamas commander Azad al‑Haddad in Gaza, a key architect of the October 7 massacre (Source: @almogboker78/17009).",
-      "Hezbollah’s explosive drone attack killed IDF Captain Maoz Recanati in southern Lebanon, marking the seventh Israeli combat fatality since the cease‑fire (Source: @manniefabian/58270).",
-      "The IDF struck over 100 Hezbollah targets, including observation posts and weapons depots, across southern Lebanon this weekend (Source: @New_security8200/199260).",
-      "A fire erupted at the Maragheh oil refinery in north‑west Iran, threatening a major fuel processing hub (Source: @asafroz/49256).",
-      "Anti‑U.S. signage at the Strait of Hormuz warns \"Entry of American soldiers and dogs prohibited,\" reflecting heightened Iranian hostility (Source: @presstv/190160).",
-      "U.S. officials are urging the UAE to deepen involvement against Iran, potentially seizing a Tehran‑controlled Gulf island (Source: @Faytuks_Network/2743).",
-      "The U.S. carrier strike group Gerald Ford returned to the United States after an 11‑month deployment, freeing naval assets for possible redeployment to the Middle East (Source: @asafroz/49260)."
+      "Israel intercepted a Hezbollah‑launched drone near Metula, activating border sirens and confirming cross‑border aerial threats (Source: @manniefabian/58265).",
+      "IDF airstrike eliminated Hamas military commander Izz al‑Din al‑Haddad in Gaza, reducing senior Oct. 7 leadership to two survivors (Source: @Faytuks_Network/2740).",
+      "Israel announced a new wave of strikes on Hezbollah infrastructure in southern Lebanon, indicating escalation on the northern front (Source: @almogboker78/17007).",
+      "Iran’s interior minister hosted Pakistan’s interior minister in Tehran, suggesting deepening security cooperation (Source: @presstv/190162).",
+      "Nightly nationwide rallies in Shahrekord and Mashhad displayed mass civilian support for Iran’s armed forces (Source: @presstv/190158; @presstv/190165).",
+      "The United Kingdom dispatched four Typhoon fighter jets to Qatar to bolster regional air defense capabilities (Source: @kianmeli1/87428).",
+      "The US Gerald Ford carrier strike group returned to the United States after an 11‑month deployment, signaling a shift in US naval posture (Source: @asafroz/49260)."
     ],
-    "threat_assessment": "Hezbollah continues to employ low‑altitude drones and rocket fire against Israeli forces in southern Lebanon, while Israel’s intensified air and artillery campaign is degrading the group’s command‑and‑control infrastructure. In Gaza, the elimination of senior Hamas leadership may disrupt operational planning but could provoke retaliatory attacks. Iran’s internal unrest, highlighted by the Maragheh refinery fire and anti‑U.S. symbolism at the Strait of Hormuz, suggests a volatile domestic environment that could spill over into regional escalation, especially if U.S. and UAE involvement deepens.",
-    "regional_response": "The United States is positioning its naval assets for rapid redeployment and encouraging Gulf allies, particularly the UAE, to take a more assertive stance against Iran, signaling a potential expansion of the conflict. Iran’s diplomatic outreach to Pakistan and its internal propaganda campaigns indicate a dual strategy of external alignment and domestic mobilization. Israel’s coordinated strikes across Gaza and Lebanon demonstrate a willingness to apply pressure on multiple fronts, while neighboring states monitor the heightened risk of spillover.",
-    "intelligence_notes": "Monitoring of Hezbollah drone capabilities and rocket launch sites in southern Lebanon should be prioritized, as recent attacks have proven lethal to Israeli personnel. Iranian oil infrastructure, especially the Maragheh refinery, warrants close surveillance for potential sabotage or escalation. The U.S. push for UAE involvement may lead to joint operations in the Gulf, requiring updated rules of engagement for maritime and aerial assets. Continued assessment of Hamas command disruptions will inform predictions of Gaza‑based retaliation patterns."
+    "threat_assessment": "Hezbollah’s drone launch and Israel’s retaliatory strikes suggest a rising low‑intensity conflict along the northern border, while the elimination of Hamas commander Izz al‑Din al‑Haddad indicates intensified Israeli air operations in Gaza. Iran’s diplomatic outreach to Pakistan and domestic rallies reflect a consolidation of regional alliances and internal legitimacy, potentially enabling Tehran to support proxy activities. The presence of UK Typhoons in Qatar and the US carrier group’s redeployment highlight great‑power engagement, raising the risk of broader escalation if proxy confrontations intensify.",
+    "regional_response": "Israel is escalating its northern and southern fronts, targeting both Hezbollah and Hamas leadership. Iran is leveraging diplomatic ties with Pakistan and mass mobilization to project strength and deter external pressure. The UK’s fighter deployment to Qatar and the US carrier’s return demonstrate allied readiness to counter Iranian influence, while regional actors such as Qatar may serve as staging grounds for coalition air assets.",
+    "intelligence_notes": "Monitoring of Hezbollah UAV activity near the Israeli border should be intensified, with particular attention to launch sites in southern Lebanon. Continued surveillance of Hamas command networks in Gaza is warranted after the high‑value target removal. Iranian security cooperation with Pakistan may translate into increased logistical support for proxy groups; SIGINT on cross‑border movements is recommended. The UK Typhoon presence in Qatar provides a rapid‑response capability that could be leveraged for coalition air operations against Iranian‑aligned forces."
   }
 }
