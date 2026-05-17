@@ -618,17 +618,22 @@ body {
   flex-direction: column;
   gap: 2px;
 }
+.sources-list li {
+  display: flex;
+  align-items: center;
+}
 .sources-list li a {
   font-size: 10px;
   font-family: 'JetBrains Mono', monospace;
   color: var(--accent);
   text-decoration: none;
-  display: block;
+  flex: 1;
   padding: 3px 4px;
   border-radius: 3px;
   transition: background var(--transition), color var(--transition);
 }
 .sources-list li a:hover { background: rgba(59,130,246,0.08); color: var(--text); }
+.sources-list .source-warn { display: flex; align-items: center; padding-right: 4px; }
 
 /* ── Source tags in content ── */
 .src-tags { display: inline-flex; flex-wrap: wrap; gap: 3px; margin-left: 2px; }
