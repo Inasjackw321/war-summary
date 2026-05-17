@@ -206,7 +206,7 @@ function highlightLabels(text) {
 }
 
 // Defined here so renderSourceTags can reference it
-const BIASED_SOURCES_LOWER = new Set(["sharghDaily", "naya_foriraq", "presstv", "tass_agency"].map(s => s.toLowerCase()));
+const BIASED_SOURCES_LOWER = new Set(["sharghDaily", "naya_foriraq", "presstv", "tass_agency", "rasedal3ado138e"].map(s => s.toLowerCase()));
 function isBiasedSource(ch) { return BIASED_SOURCES_LOWER.has(ch.toLowerCase()); }
 
 function renderSourceTags(text) {
