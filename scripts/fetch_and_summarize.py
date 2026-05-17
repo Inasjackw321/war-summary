@@ -145,10 +145,16 @@ def cleanup_old_media(media_dir: Path) -> None:
         _save_ts_index(media_dir, index)
 
 
+_IMAGE_CONTENT_TYPES = {"image/jpeg", "image/png", "image/webp", "image/gif"}
+
 def download_media(url: str, dest: Path) -> bool:
     try:
         resp = requests.get(url, headers={**HEADERS, "Referer": "https://t.me/"}, timeout=20, stream=True)
         resp.raise_for_status()
+        ct = resp.headers.get("Content-Type", "").split(";")[0].strip().lower()
+        if ct and ct not in _IMAGE_CONTENT_TYPES:
+            print(f"  [media] skipped (not image, ct={ct}): {dest.name}", file=sys.stderr)
+            return False
         with open(dest, "wb") as fh:
             for chunk in resp.iter_content(8192):
                 if chunk:
@@ -589,11 +595,7 @@ def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> di
     return {f"@{ch}": counts.get(ch, 0) for ch in channels if counts.get(ch, 0) > 0}
 
 
-def _build_post_images(
-    all_media: list[dict],
-    media_dir: Path,
-    text_ids_by_channel: dict[str, list[int]] | None = None,
-) -> dict[str, str]:
+def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]:
     post_images: dict[str, str] = {}
     index = _load_ts_index(media_dir)
     now_ts = datetime.now(timezone.utc).timestamp()
@@ -609,25 +611,15 @@ def _build_post_images(
         dest = media_dir / local_name
         key = f"{ch}/{pid}"
         path_str = f"data/media/{local_name}"
-        downloaded = False
         if dest.exists():
             post_images[key] = path_str
             if local_name not in index:
                 index[local_name] = now_ts
                 changed = True
-            downloaded = True
         elif download_media(cdn, dest):
             post_images[key] = path_str
             index[local_name] = now_ts
             changed = True
-            downloaded = True
-        # Alias nearby text-post IDs → same image so AI citations match
-        if downloaded and text_ids_by_channel and ch in text_ids_by_channel:
-            for tid in text_ids_by_channel[ch]:
-                if tid != pid and abs(tid - pid) <= 6:
-                    alias = f"{ch}/{tid}"
-                    if alias not in post_images:
-                        post_images[alias] = path_str
     if changed:
         _save_ts_index(media_dir, index)
     return post_images
@@ -765,14 +757,7 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
         "messages_by_channel": msgs_by_channel,
         "recent_post_urls": recent_post_urls,
         "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
-        "post_images": _build_post_images(
-            all_media,
-            media_dir,
-            text_ids_by_channel={
-                ch: [i for i in per_channel_message_ids.get(ch, []) if i is not None]
-                for ch in conf["channels"]
-            },
-        ),
+        "post_images": _build_post_images(all_media, media_dir),
         **ai_result,
     }
     if key == "ukraine":
