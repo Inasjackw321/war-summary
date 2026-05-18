@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-18T21:01:13.833006+00:00",
-  "message_count": 335,
+  "updated_at": "2026-05-18T21:25:41.896725+00:00",
+  "message_count": 332,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,64 +14,64 @@
   "red_alerts": 546,
   "red_alerts_timeline": [
     77,
-    0,
+    13,
+    89,
     51,
-    102,
+    0,
+    13,
+    38,
+    13,
+    26,
+    13,
+    26,
+    26,
+    0,
+    26,
+    26,
+    0,
+    26,
+    0,
+    0,
     0,
     0,
     38,
     13,
-    38,
-    0,
-    26,
-    26,
-    13,
-    26,
-    0,
-    26,
-    26,
-    0,
-    0,
-    0,
-    0,
-    26,
-    26,
     13
   ],
   "combined_activity_timeline": [
-    19,
+    20,
+    9,
+    33,
     12,
-    24,
-    22,
     4,
-    5,
-    14,
     8,
-    19,
+    13,
+    9,
+    20,
     17,
-    13,
-    23,
-    13,
-    12,
+    16,
+    20,
+    10,
     11,
-    14,
-    21,
-    14,
-    12,
-    17,
+    18,
+    16,
+    13,
+    16,
+    16,
+    11,
+    7,
     9,
-    9,
-    9,
-    14
+    15,
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 93,
-    "@kpszsu": 28,
-    "@mon1tor_ua": 30,
+    "@eRadarrua": 91,
+    "@kpszsu": 27,
+    "@mon1tor_ua": 29,
     "@UkraineNow": 19,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 134
+    "@tass_agency": 135
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/92521",
@@ -80,7 +80,7 @@
     "UkraineNow": "https://t.me/UkraineNow/81302",
     "DeepStateUA": "https://t.me/DeepStateUA/23516",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30264",
-    "tass_agency": "https://t.me/tass_agency/376431"
+    "tass_agency": "https://t.me/tass_agency/376434"
   },
   "media": [
     {
@@ -104,6 +104,12 @@
       "channel": "eRadarrua",
       "ts": "2026-05-18T20:31:15+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/ZML5yfqTsgkc4lGiwA5283MDESMW_RydFufyu6ep2WPLxzDMiQ6ypwxDTF_ZHOizr7x75SJBbWBPd3hDM46jsZv6dvTOp67yCB6u_cHBEj87cfLVxuTaNZHlYYnduanJ2HHXCBNVhgtYiys-FOgMGk2wYwJ3j5jiJKTEAq-c6VQ96kOESj6D4f-NJzTsdvcI_J6s2kRvZ1DRf5eEiIkgEJ6-oqw6UqhhWm-WGPsiBvnnOJcCmTj5MrQsOKjdBT2j59fEy1YdJT_89VzTu56OPZSVSie4x2j3xwLhnCaieJ_x0-FQNQZhhzK_SGbd5QGZMyhpSbUMiAuePd-VvD-X-g.jpg"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/376424",
+      "post_id": 376424,
+      "channel": "tass_agency",
+      "ts": "2026-05-18T19:07:20+00:00"
     },
     {
       "post_url": "https://t.me/tass_agency/376423",
@@ -144,12 +150,6 @@
       "post_id": 376416,
       "channel": "tass_agency",
       "ts": "2026-05-18T17:03:11+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/376412",
-      "post_id": 376412,
-      "channel": "tass_agency",
-      "ts": "2026-05-18T16:09:01+00:00"
     },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30257",
@@ -225,106 +225,106 @@
     "kpszsu/62173": "data/media/kpszsu_62173.jpg",
     "kpszsu/62172": "data/media/kpszsu_62173.jpg"
   },
-  "summary": "Ukraine reported a massive combined airstrike on May 18, with over 500 Shahed drones and 22 missiles targeting Dnipro, Dnipropetrovsk, Odesa, Chernihiv, and Zaporizhzhia, while Russian forces continued UAV raids across northern and central regions. Ukrainian officials highlighted ongoing civilian casualties from Russian missile strikes, notably in Dnipro, and warned of Russian tactical aviation activity in the northeast. Diplomatic chatter indicated no imminent peace negotiations and continued Russian strategic intent in the Donbas.",
+  "summary": "Russia launched a massive combined airstrike on 18 May, deploying 14 Iskander-M ballistic missiles, 8 Iskander-K cruise missiles and 524 Shahed‑type UAVs across Dnipro, Dnipropetrovsk, Odesa, Chernihiv and Zaporizhzhia, with Ukrainian air defenses claiming 507 interceptions. Concurrently, multiple UAV groups were reported moving from various Ukrainian regions toward frontline cities, indicating heightened drone activity on both fronts. Casualties include 18 civilians injured in Dnipro from a nighttime missile strike and ongoing civilian stress and medical attacks.",
   "key_points": [
-    "Massive Russian airstrike on May 18 involved 524 Shahed drones and 22 missiles across multiple fronts.",
-    "Ukrainian air defenses downed 503 drones and 4 missiles during the same attack.",
-    "Russian tactical aviation activity increased in the north‑east and east, threatening frontline areas.",
-    "Civilian casualties rose after a Russian missile hit a residential block in Dnipro, killing 18, including children.",
-    "Ukrainian forces reported Shahed drone incursions over Chernihiv, Kharkiv, and near Kyiv regions.",
-    "Ukraine's defense minister noted Western missiles are being expended on cheap drones, stressing supply challenges.",
-    "Intelligence assessments say Russia remains committed to seizing all of Donbas with no sign of de‑escalation."
+    "Massive Russian airstrike on 18 May with 22 missiles and 524 Shahed‑type UAVs across multiple regions.",
+    "Ukrainian air defenses report 507 enemy aerial targets shot down, including 4 missiles and 503 UAVs.",
+    "Multiple UAV groups reported moving from Kherson, Dnipropetrovsk, Poltava, Sumy, Chernihiv and the Black Sea toward frontline cities.",
+    "Night missile attack on Dnipro killed 0 but injured 18 civilians, including children.",
+    "Russian tactical aviation activity heightened in north‑east and east directions.",
+    "Ukrainian anti‑drone road defenses doubled construction speed, now covering over 1,170 km of logistics routes.",
+    "US sanctions exemption for Russian oil extended for 30 days, affecting Russia’s war finance."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "The most operationally significant development is the massive combined Russian airstrike on May 18, deploying over 500 Shahed drones and multiple Iskander missiles against Dnipro, Dnipropetrovsk, Odesa, Chernihiv, and Zaporizhzhia, overwhelming Ukrainian air defenses. Ukrainian forces shot down 503 drones and 4 missiles but still suffered heavy civilian casualties, including 18 deaths in Dnipro. Russian tactical aviation activity remains high in the north‑east, indicating continued pressure on multiple fronts.",
+    "executive_summary": "Russia executed a large‑scale combined missile and UAV strike on 18 May targeting Dnipro, Dnipropetrovsk, Odesa, Chernihiv and Zaporizhzhia, with Ukrainian forces reporting 507 aerial interceptions. Simultaneously, numerous Ukrainian UAV groups are repositioning toward frontline axes, reflecting intensified drone warfare on both sides. Civilian impact includes 18 injuries in Dnipro and continued stress on medical services.",
     "ukraine": {
       "points": [
-        "Ukrainian air defense units intercepted 503 Shahed drones and 4 Iskander missiles during the May 18 combined strike, preventing further damage to critical infrastructure in Dnipro and surrounding oblasts (Source: @kpszsu/62173).",
-        "A Russian missile strike on a residential block in Dnipro killed 18 civilians, including a 2‑year‑old girl and a 10‑year‑old boy, highlighting the ongoing threat to urban centers (Source: @UkraineNow/81285).",
-        "Ukrainian radar reports multiple Shahed incursions over Chernihiv, Kharkiv, and the Kyiv region, with groups of drones heading toward strategic rail and power facilities (Source: @mon1tor_ua/66802, @mon1tor_ua/66823).",
-        "Ukrainian officials warned that Western high‑cost missiles are being expended on cheap Russian drones, stressing supply constraints for air defense (Source: @UkraineNow/81291).",
-        "Ukrainian intelligence assessments note that frontline advances of 200 m per week are being achieved despite dense drone and artillery fire, emphasizing the need for rapid maneuver (Source: @ukr_leaks_eng/30247)."
+        "Ukrainian anti‑drone road defenses have been accelerated to 8.5 km per day, now protecting over 1,170 km of logistical routes and rebuilding 60 km of roads in five oblasts, enhancing supply line resilience (Source: @DeepStateUA/23516).",
+        "Ukrainian air defense units reported shooting down 503 enemy UAVs and 4 missiles during the 18 May combined strike, preventing further damage in Dnipro and surrounding oblasts (Source: @kpszsu/62173).",
+        "Ukrainian forces observed multiple UAV groups moving from Kherson toward Kryvyi Rih, from Dnipropetrovsk south toward Dnipro, and from Poltava toward Myrhorod, indicating coordinated reconnaissance and strike preparation (Source: @kpszsu/62171).",
+        "A nighttime missile attack on Dnipro injured 18 civilians, including a 2‑year‑old girl and a 10‑year‑old boy, highlighting ongoing risk to urban populations (Source: @UkraineNow/81285).",
+        "Ukrainian medical personnel faced over 3,000 attacks, resulting in 239 deaths and 991 injuries, underscoring the war's impact on health services (Source: @UkraineNow/81289)."
       ]
     },
     "russia": {
       "points": [
-        "Russia launched a coordinated air assault on May 18, employing 14 Iskander‑M/S‑400 ballistic missiles from Rostov and Crimea, 8 Iskander‑K cruise missiles, and 524 Shahed‑type UAVs from multiple launch points including Bryansk and Kursk (Source: @kpszsu/62173).",
-        "Russian tactical aviation increased activity over the north‑east and east, with reports of fighter sorties threatening frontline positions in Chernihiv and Kharkiv oblasts (Source: @kpszsu/62194).",
-        "Russian forces continued UAV raids from the Black Sea toward Odesa, using a new group of sea‑based drones (Source: @kpszsu/62178).",
-        "Russian propaganda outlets reported no signals of upcoming peace negotiations, reinforcing Moscow's strategic resolve in the Donbas (Source: @tass_agency/376395).",
-        "Russian forces reportedly moved some units from the core of Mariupol to peripheral locations such as pension houses and seaside resorts to avoid Ukrainian strikes (Source: @UkraineNow/81296)."
+        "Russia launched 14 Iskander‑M ballistic missiles (from Rostov region and Crimea) and 8 Iskander‑K cruise missiles (from Crimea) as part of the 18 May strike, targeting Dnipro, Dnipropetrovsk, Odesa, Chernihiv and Zaporizhzhia (Source: @kpszsu/62173).",
+        "A total of 524 Shahed‑type UAVs, plus Herbera, Italmas and “Parody” imitators, were launched from multiple Russian regions including Bryansk, Kursk, Orel, Millerovo and occupied Donetsk, striking 34 locations (Source: @kpszsu/62173).",
+        "Russian tactical aviation activity was reported as heightened on north‑east and east axes, increasing the threat of air‑to‑ground attacks on frontline oblasts (Source: @kpszsu/62194).",
+        "Russia extended its use of ballistic weapons in the south, with a specific threat notice about possible ballistic strikes (Source: @kpszsu/62190).",
+        "Russian forces reportedly attacked a Chinese merchant vessel in Ukrainian waters at night, an unusual maritime aggression with no casualties (Source: @UkraineNow/81288)."
       ]
     },
     "eastern_front": {
       "points": [
-        "The May 18 strike heavily targeted Dnipro and Dnipropetrovsk, with Shahed drones and Iskander missiles striking industrial zones and transport hubs (Source: @kpszsu/62173).",
-        "Ukrainian defenses reported 7 Shahed drones over Dnipro on a separate alert, indicating continued pressure on the city (Source: @mon1tor_ua/66816).",
-        "Russian UAV groups from the Black Sea moved toward Odesa, threatening the southern port and adjacent coastal infrastructure (Source: @kpszsu/62178).",
-        "Ukrainian radar detected Shahed activity over Chernihiv heading toward Kyiv, suggesting a potential corridor for deeper strikes (Source: @mon1tor_ua/66802).",
-        "Russian artillery and drone attacks were also reported in Zaporizhzhia, adding to the multi‑axis pressure on the eastern front (Source: @kpszsu/62173)."
+        "Ukrainian UAV groups from Kharkiv moved toward Dnipro, while a separate group from Donetsk headed toward Dnipro, indicating pressure on the eastern axis (Source: @kpszsu/62171).",
+        "Multiple Shahed attacks were reported on Dnipro (7 UAVs) and on the surrounding Dnipropetrovsk region, including 15 UAVs from Kharkiv to Dnipropetrovsk (Source: @mon1tor_ua/66797).",
+        "Ukrainian anti‑drone road defenses have been reinforced along the eastern supply routes, covering over 1,170 km, to protect logistics against FPV‑drone attacks (Source: @DeepStateUA/23516).",
+        "Russian missile and UAV strikes on Dnipro and Dnipropetrovsk caused civilian injuries and infrastructure damage, confirming continued high‑intensity operations on the eastern front (Source: @UkraineNow/81285).",
+        "Ukrainian forces reported 2 Shahed UAVs over Kharkiv region, with additional UAVs near Bogoduhiv and Opishnia, suggesting ongoing aerial pressure (Source: @eRadarrua/92494)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple Shahed alerts were posted for Chernihiv, including a drone heading toward the central railway station and a TPP (Source: @mon1tor_ua/66822, @mon1tor_ua/66823).",
-        "Ukrainian sources reported a reactive Shahed approaching from the north over Chernihiv, indicating Russian air activity from Belarusian border areas (Source: @mon1tor_ua/66821).",
-        "Russian tactical aviation activity was noted in the north‑east, with threats of air‑to‑ground strikes on frontline positions (Source: @kpszsu/62194).",
-        "Ukrainian radar logged a Shahed over Brovary/Tribushev, a suburb of Kyiv, suggesting attempts to probe the capital's air defenses (Source: @mon1tor_ua/66826).",
-        "Groups of UAVs were observed moving from Sumy and Kharkiv toward the Kyiv direction, increasing pressure on the northern approaches (Source: @kpszsu/62171)."
+        "Ukrainian UAV groups from Chernihiv moved along the Belarus border toward Kyiv region, indicating reconnaissance activity on the northern front (Source: @kpszsu/62171).",
+        "Reports of 7 Shahed UAVs targeting Kyiv and 1 UAV over Brovary/Tribushev highlight continued aerial threats to the capital area (Source: @mon1tor_ua/66826).",
+        "Ukrainian anti‑drone radar detected 1 UAV over Obukhiv/Ukrainka, reflecting persistent low‑altitude incursions near Kyiv (Source: @mon1tor_ua/66803).",
+        "A reactive UAV was observed in the Chernobyl exclusion zone, suggesting Russian probing of the northern border region (Source: @eRadarrua/92444).",
+        "Russian tactical aviation activity was noted on north‑east and east directions, increasing risk for northern frontline units (Source: @kpszsu/62194)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian UAV groups from the Black Sea are targeting Odesa, moving southeastward toward the city (Source: @kpszsu/62178).",
-        "Ukrainian reports indicated Shahed activity over the southern Dnipropetrovsk region, near Zaledonols'k, threatening energy facilities (Source: @eRadarrua/92462).",
-        "Russian missile strikes on residential areas in Dnipro caused civilian casualties, highlighting the vulnerability of southern urban centers (Source: @UkraineNow/81285).",
-        "Ukrainian forces observed UAVs from Sumy heading toward Lebedyn in the south, indicating cross‑regional drone operations (Source: @eRadarrua/92494).",
-        "Russian forces reportedly repositioned units from central Mariupol to peripheral seaside locations to avoid Ukrainian strikes (Source: @UkraineNow/81296)."
+        "Ukrainian UAV groups from the Black Sea moved toward Odesa, indicating potential offensive or reconnaissance missions on the southern front (Source: @kpszsu/62165).",
+        "Multiple Shahed attacks were reported in the south, including 10 UAVs south of Kremenchuk heading toward Cherkasy and 15 UAVs from Kharkiv to Dnipropetrovsk, affecting southern logistics (Source: @mon1tor_ua/66797).",
+        "Russian missile launches from Crimea targeted Odesa and Zaporizhzhia during the 18 May strike, expanding the southern pressure axis (Source: @kpszsu/62173).",
+        "Ukrainian anti‑drone road defenses have been expanded in Zaporizhzhia and Kharkiv directions, protecting supply routes in the south (Source: @DeepStateUA/23516).",
+        "A Russian naval‑linked incident involved a Chinese merchant ship in Ukrainian waters, reflecting heightened southern maritime tension (Source: @UkraineNow/81288)."
       ]
     },
     "air_war": {
       "points": [
-        "During the May 18 combined attack, Ukrainian air defenses shot down 503 Shahed drones and 4 Iskander missiles, demonstrating high interception rates but also heavy strain on air defense assets (Source: @kpszsu/62173).",
-        "Russian tactical aviation increased sorties over the north‑east and east, with reports of fighter aircraft threatening frontline positions (Source: @kpszsu/62194).",
-        "Ukrainian radar logged multiple Shahed incursions over Chernihiv, Kharkiv, and Kyiv oblasts, indicating a broad UAV campaign across the country (Source: @mon1tor_ua/66802).",
-        "Ukrainian officials warned that Western missile supplies are being depleted by the need to intercept cheap Russian drones, highlighting logistical challenges (Source: @UkraineNow/81291).",
-        "Russian air assets also launched Iskander‑M ballistic missiles from Rostov and Crimea, expanding the strike envelope beyond UAVs (Source: @kpszsu/62173)."
+        "Ukrainian air defenses claimed 507 aerial interceptions on 18 May, including 4 missiles and 503 UAVs, demonstrating high‑intensity air defense activity (Source: @kpszsu/62173).",
+        "Russian air operations included tactical aviation activity on north‑east and east axes, increasing the threat of air‑to‑ground strikes (Source: @kpszsu/62194).",
+        "Ukrainian radar networks reported multiple Shahed UAV concentrations: 7 over Dnipro, 15 from Kharkiv to Dnipropetrovsk, and 10 south of Kremenchuk, indicating dense UAV traffic (Source: @mon1tor_ua/66797).",
+        "Ukrainian anti‑drone measures on front‑line roads have doubled construction speed, now covering over 1,170 km, to mitigate low‑altitude UAV threats (Source: @DeepStateUA/23516).",
+        "Russian use of ballistic missiles (Iskander‑M and Iskander‑K) from Rostov and Crimea marks a significant escalation in long‑range strike capability (Source: @kpszsu/62173)."
       ]
     },
     "key_developments": [
-      "Russia executed a massive combined airstrike on May 18, deploying 524 Shahed drones and 22 missiles across Dnipro, Dnipropetrovsk, Odesa, Chernihiv, and Zaporizhzhia, overwhelming Ukrainian air defenses (Source: @kpszsu/62173).",
-      "Ukrainian air defenses intercepted 503 drones and 4 missiles during the same attack, preventing further damage but indicating high attrition of air defense resources (Source: @kpszsu/62173).",
-      "A Russian missile strike on a residential block in Dnipro killed 18 civilians, including children, underscoring the ongoing threat to urban populations (Source: @UkraineNow/81285).",
-      "Russian tactical aviation activity intensified in the north‑east and east, with fighter sorties threatening frontline positions in Chernihiv and Kharkiv (Source: @kpszsu/62194).",
-      "Ukrainian officials warned that Western high‑cost missiles are being expended on cheap Russian drones, raising concerns about long‑term supply sustainability (Source: @UkraineNow/81291).",
-      "Ukrainian radar reported multiple Shahed incursions over Chernihiv, Kharkiv, and Kyiv regions, indicating a broad UAV campaign targeting critical infrastructure (Source: @mon1tor_ua/66802).",
-      "Intelligence assessments confirm Russia remains committed to seizing the entire Donbas, with no indication of de‑escalation or upcoming negotiations (Source: @ukr_leaks_eng/30252)."
+      "Russia launched 14 Iskander‑M ballistic missiles and 8 Iskander‑K cruise missiles from Rostov and Crimea, striking Dnipro, Dnipropetrovsk, Odesa, Chernihiv and Zaporizhzhia (Source: @kpszsu/62173).",
+      "Ukrainian air defenses reported shooting down 503 enemy UAVs and 4 missiles, totaling 507 aerial interceptions during the 18 May combined attack (Source: @kpszsu/62173).",
+      "Multiple Ukrainian UAV groups moved from Kherson, Dnipropetrovsk, Poltava, Sumy, Chernihiv and the Black Sea toward frontline cities, indicating coordinated drone operations (Source: @kpszsu/62171).",
+      "A nighttime missile strike on Dnipro injured 18 civilians, including children, highlighting ongoing urban vulnerability (Source: @UkraineNow/81285).",
+      "Russian tactical aviation activity increased on north‑east and east fronts, raising the risk of air‑to‑ground attacks (Source: @kpszsu/62194).",
+      "Ukrainian anti‑drone road defenses have been accelerated to protect over 1,170 km of logistics routes, doubling construction speed (Source: @DeepStateUA/23516).",
+      "US extended a sanctions exemption for Russian oil for 30 days, providing Russia with continued revenue for war financing (Source: @UkraineNow/81298)."
     ],
-    "threat_assessment": "Russia continues to leverage large‑scale UAV and missile barrages to strain Ukraine's air defense, focusing on industrial hubs and civilian centers. Tactical aviation activity in the north‑east adds a layer of direct air threat to frontline units. Ukraine's ability to intercept the majority of drones demonstrates resilience, but the high expenditure of Western missiles on cheap Shahed drones threatens long‑term sustainment of air defense capabilities.",
-    "regional_response": "Western partners are maintaining military aid but face criticism over the high cost of missile usage against low‑cost drones, prompting calls for more affordable air‑defense solutions. Russia's diplomatic statements deny any imminent peace talks, reinforcing its strategic resolve. Regional actors, including neighboring NATO states, are monitoring the increased Russian aerial activity for potential spillover risks.",
-    "intelligence_notes": "Ukrainian frontline units are adapting by advancing 200 m per week despite dense enemy fire, emphasizing the importance of rapid maneuver. Russian UAV groups are operating from multiple directions, including the Black Sea and Belarusian border, indicating a coordinated multi‑axis approach. Continued monitoring of Russian missile launch sites in Rostov and Crimea is essential for early warning and targeting."
+    "threat_assessment": "Russian forces are intensifying long‑range strike capabilities with Iskander missiles and massed Shahed UAVs, targeting critical infrastructure across multiple fronts. Ukrainian air defenses are proving effective but face saturation, while the proliferation of UAV groups on both sides suggests a shift toward persistent low‑altitude warfare. Civilian areas remain vulnerable, as evidenced by recent missile injuries in Dnipro, and the expansion of anti‑drone road defenses indicates a strategic focus on protecting supply lines.",
+    "regional_response": "Western partners continue financial support, yet the US sanctions exemption for Russian oil may blunt economic pressure on Moscow. NATO allies are monitoring increased Russian aggression, including the unusual attack on a Chinese vessel in Ukrainian waters. Ukraine is bolstering anti‑drone infrastructure and maintaining high‑tempo air defense operations to mitigate the heightened aerial threat.",
+    "intelligence_notes": "The concentration of UAV launches from occupied territories and Russian regions suggests coordinated strike planning, likely aimed at overwhelming Ukrainian air defenses. The reported movement of Ukrainian UAV groups toward frontline cities may serve both reconnaissance and offensive roles, potentially preparing for localized counter‑offensives. Continued civilian casualties and stress on medical services underscore the need for humanitarian corridors and protection measures."
   },
   "missiles": 22,
   "drones": 524,
   "kpszsu_timeline": [
-    2,
-    2,
     3,
-    2,
-    2,
+    1,
+    3,
+    3,
+    0,
     1,
     2,
-    0,
+    1,
     3,
-    3,
+    2,
     0,
     0,
     0,
     0,
-    0,
-    3,
+    2,
+    1,
     0,
     0,
     1,
