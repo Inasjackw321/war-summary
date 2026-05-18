@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-17T23:39:43.643984+00:00",
-  "message_count": 1064,
+  "updated_at": "2026-05-18T00:08:43.118751+00:00",
+  "message_count": 1063,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -32,17 +32,17 @@
     0,
     0,
     0,
-    0,
     2,
     0,
     0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
     2,
     0,
-    0,
-    0,
-    0,
-    0,
-    2,
     0,
     0,
     0,
@@ -55,50 +55,50 @@
     0
   ],
   "combined_activity_timeline": [
-    6,
-    9,
+    8,
     7,
     8,
-    23,
-    26,
-    34,
-    46,
-    52,
-    53,
-    83,
-    72,
-    78,
-    79,
-    66,
-    49,
-    55,
-    65,
-    71,
-    45,
-    48,
+    16,
+    25,
+    27,
     44,
-    23,
-    20
+    47,
+    57,
+    65,
+    77,
+    78,
+    75,
+    78,
+    45,
+    58,
+    69,
+    55,
+    57,
+    53,
+    51,
+    28,
+    24,
+    11
   ],
   "messages_by_channel": {
-    "@N12chat": 204,
+    "@N12chat": 205,
     "@manniefabian": 7,
     "@asafroz": 28,
     "@yediotnews25": 51,
     "@SharghDaily": 178,
     "@amitsegal": 26,
-    "@presstv": 101,
+    "@presstv": 102,
     "@mamlekate": 9,
-    "@kianmeli1": 20,
+    "@kianmeli1": 18,
     "@Faytuks_Network": 13,
-    "@rodast_omiddana": 42,
+    "@rodast_omiddana": 41,
     "@naya_foriraq": 48,
     "@tzevaadom_en": 6,
     "@VahidOnline": 11,
     "@idf_telegram": 15,
-    "@lelotsenzura": 26,
+    "@lelotsenzura": 27,
     "@rasedal3ado138e": 126,
-    "@shin_persian": 12,
+    "@shin_persian": 11,
     "@almogboker78": 5,
     "@New_security8200": 44,
     "@inon_yttach": 27,
@@ -106,13 +106,13 @@
     "@pkpoi": 10
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/207774",
+    "N12chat": "https://t.me/N12chat/207775",
     "manniefabian": "https://t.me/manniefabian/58281",
     "asafroz": "https://t.me/asafroz/49303",
     "yediotnews25": "https://t.me/yediotnews25/129404",
     "SharghDaily": "https://t.me/SharghDaily/160482",
     "amitsegal": "https://t.me/amitsegal/61173",
-    "presstv": "https://t.me/presstv/190301",
+    "presstv": "https://t.me/presstv/190303",
     "mamlekate": "https://t.me/mamlekate/103549",
     "kianmeli1": "https://t.me/kianmeli1/87458",
     "Faytuks_Network": "https://t.me/Faytuks_Network/2773",
@@ -121,7 +121,7 @@
     "tzevaadom_en": "https://t.me/tzevaadom_en/67255",
     "VahidOnline": "https://t.me/VahidOnline/75524",
     "idf_telegram": "https://t.me/idf_telegram/23713",
-    "lelotsenzura": "https://t.me/lelotsenzura/91933",
+    "lelotsenzura": "https://t.me/lelotsenzura/91935",
     "rasedal3ado138e": "https://t.me/rasedal3ado138e/358086",
     "shin_persian": "https://t.me/shin_persian/6055",
     "almogboker78": "https://t.me/almogboker78/17026",
@@ -131,6 +131,18 @@
     "pkpoi": "https://t.me/pkpoi/142094"
   },
   "media": [
+    {
+      "post_url": "https://t.me/lelotsenzura/91935",
+      "post_id": 91935,
+      "channel": "lelotsenzura",
+      "ts": "2026-05-17T23:48:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190302",
+      "post_id": 190302,
+      "channel": "presstv",
+      "ts": "2026-05-17T23:45:19+00:00"
+    },
     {
       "post_url": "https://t.me/lelotsenzura/91933",
       "post_id": 91933,
@@ -238,18 +250,6 @@
       "post_id": 14389,
       "channel": "redlinkleb",
       "ts": "2026-05-17T20:36:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/lelotsenzura/91927",
-      "post_id": 91927,
-      "channel": "lelotsenzura",
-      "ts": "2026-05-17T20:36:26+00:00"
-    },
-    {
-      "post_url": "https://t.me/naya_foriraq/75590",
-      "post_id": 75590,
-      "channel": "naya_foriraq",
-      "ts": "2026-05-17T20:31:19+00:00"
     }
   ],
   "post_images": {
@@ -268,73 +268,94 @@
     "VahidOnline/75512": "data/media/VahidOnline_75512.jpg",
     "VahidOnline/75513": "data/media/VahidOnline_75513.jpg"
   },
-  "summary": "Israel is ramping up drone‑defense initiatives while coordinating closely with the United States amid heightened Iranian threats, including a UAV strike on the UAE's Barakah nuclear plant. Hezbollah continues to launch rockets, drones and mortars at Israeli forces in southern Lebanon, prompting repeated IDF alerts but causing limited casualties. Diplomatic friction rises as Netanyahu and Trump discuss joint actions against Iran, and the UAE reports multiple UAV incursions from the west.",
+  "summary": "Israel’s IDF eliminated a senior Hamas operational commander in the Gaza Strip and intercepted multiple UAV threats in southern Lebanon, while Hezbollah launched drone attacks on Israeli forces. Iran‑linked oil tankers evaded U.S. blockades and Saudi Arabia reported drone interceptions near its borders. Regional tensions remain high with cross‑border incidents and recruitment challenges affecting Israeli force readiness.",
   "key_points": [
-    "Israel prepares for all scenarios against Iran, with Netanyahu confirming a call with Trump and a no‑budget‑limit drone‑counter program.",
-    "UAE air defenses intercepted three Iranian‑linked UAVs; two were shot down and one struck a generator near the Barakah nuclear facility.",
-    "Hezbollah fired rockets, explosive drones and mortars at Israeli positions in southern Lebanon, causing no Israeli fatalities but prompting alerts.",
-    "IDF reported several injuries among soldiers in southern Lebanon after explosive‑laden UAVs struck their positions.",
-    "Hezbollah declared Lebanon‑Israel talks at a dead end as Israeli strikes continue in eastern and southern Lebanon.",
-    "Israeli forces seized ten Israeli civilians who crossed into Syria and returned them to Israeli police.",
-    "Iran announced it will sue the United States and Israel for alleged attacks on its cultural heritage sites."
+    "IDF killed Hamas operational commander in Gaza (Baroud) via precise airstrike.",
+    "Hezbollah used drones to strike Israeli troop carrier in southern Lebanon.",
+    "Saudi defense forces intercepted three hostile drones entering from Iraq.",
+    "Iranian oil tankers employed deceptive tactics to break U.S. naval blockades.",
+    "Israel reports severe manpower shortfall, with up to 12,000 conscripts missing.",
+    "U.S. C‑17 strategic airlifters are redeploying from the Middle East to Europe.",
+    "Iraqi resistance monitors Iranian border and threatens to target U.S. bases if Iran is attacked."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Israel has accelerated its drone‑defense program and is in direct talks with the United States as Tehran escalates UAV attacks, including a strike on the UAE's Barakah nuclear plant. Hezbollah’s renewed rocket and drone barrage in southern Lebanon has kept the front line active, though Israeli casualties remain limited. Diplomatic tensions rise with coordinated Israeli‑U.S. pressure on Iran and the UAE reporting multiple UAV incursions.",
+    "executive_summary": "The IDF’s targeted killing of a senior Hamas operative in Gaza marks the most significant operational development, demonstrating Israel’s continued precision strike capability. Simultaneously, Hezbollah’s drone attack on an Israeli troop carrier in southern Lebanon escalated the northern front, prompting Israeli air defenses to intercept additional UAV threats. Regional actors, including Iran and Saudi Arabia, are intensifying maritime and aerial maneuvers, underscoring a broadening conflict scope.",
     "iran": {
       "points": [
-        "An Iranian‑linked UAV struck near the generator of the Barakah nuclear power plant in Abu Dhabi, causing a localized fire but no casualties, according to UAE media (Source: @pkpoi/142086).",
-        "UAE air defenses engaged three UAVs that entered from the western border; two were shot down while the third caused the generator incident (Source: @shin_persian/6048).",
-        "Iran announced plans to sue the United States and Israel for alleged attacks on dozens of its cultural heritage sites during recent joint aggression (Source: @PressTV/190291).",
-        "UAE officials linked the Barakah drone attack to a broader retaliatory campaign following a joint U.S.–Israeli strike on Iranian territory (Source: @VahidOnline/75511)."
+        "Three Iranian oil tankers evaded the U.S. naval blockade using distinct tactics—one disabled its AIS, another raised a Russian flag, and the third navigated via Oman's coastal corridor—highlighting Tehran’s adaptive maritime strategy. (Source: @sharghdaily)",
+        "Saudi Arabia reported the interception and destruction of three hostile drones that entered its airspace from Iraq, indicating heightened Iranian‑aligned UAV activity near the Gulf. (Source: @VahidOnline)",
+        "Iraqi resistance sources warned they are prepared for ground combat if Iran is attacked, monitoring the Iran‑Iraq border and threatening attacks on U.S. bases in Iraq, reflecting a proxy dimension to any escalation. (Source: @rasedal3ado138e/358083)",
+        "Israeli officials discussed coordination with the United States and China to counter Iranian influence, with Prime Minister Netanyahu receiving briefings from former U.S. President Trump on joint actions against Tehran. (Source: @yediotnews25/129389)"
       ]
     },
     "israel": {
       "points": [
-        "Prime Minister Netanyahu told reporters Israel is prepared for “every scenario” regarding Iran and will speak with President Trump later in the day (Source: @Faytuks_Network/2769).",
-        "Netanyahu announced a no‑budget‑limit task force to develop counter‑drone solutions, including fiber‑optic‑guided UAVs (Source: @Faytuks_Network/2766).",
-        "The IDF reported that Hezbollah launched rockets, explosive drones and mortar shells at Israeli forces in southern Lebanon; none caused Israeli fatalities (Source: @New_security8200/199325).",
-        "IDF alerts indicated multiple UAV penetrations over the Mishgav Am and Menara‑Meraglia areas, with one suspicious aerial target intercepted without casualties (Source: @idf_telegram/23701, @idf_telegram/23706).",
-        "Israeli soldiers suffered injuries in southern Lebanon after an explosive‑laden UAV struck a convoy, resulting in one severe and several moderate injuries (Source: @idf_telegram/23705)."
+        "IDF announced the elimination of a senior Hamas operational commander, ‘Baroud’, in the Gaza Strip via a precise aerial strike, citing minimal civilian risk through targeted munitions. (Source: @idf_telegram/23709)",
+        "Israeli air defenses intercepted a UAV threat over southern Lebanon, reporting that no alerts were issued to the public, suggesting successful engagement without civilian impact. (Source: @idf_telegram/23706)",
+        "Home Front Command issued a Red Alert for multiple northern settlements (Even Menachem, Zarit, Shomera, Shtula, Tzofar) after an incident that was later resolved, indicating ongoing border volatility. (Source: @tzevaadom_en/67255)",
+        "The Israeli Defense Forces reported a severe manpower gap, lacking approximately 12,000 conscripts, with 6,000–7,500 combat‑ready soldiers missing, complicating operational sustainability. (Source: @yediotnews25/129392)",
+        "A drone attack by Hezbollah targeted an Israeli troop carrier in southern Lebanon, with video evidence released by PressTV, confirming Hezbollah’s capability to strike moving ground assets. (Source: @presstv/190285)",
+        "Israeli forces detained ten Israeli civilians who attempted to cross into Syria, returning them to Israeli jurisdiction and emphasizing strict border enforcement. (Source: @New_security8200/199338)",
+        "The Israeli Air Force reported an emergency UAV landing in the West Bank due to technical failure; no casualties were reported, but the incident underscores operational risks in occupied territories. (Source: @idf_telegram/23702)"
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "Residents of Israeli‑Gaza border communities report children staying indoors during school breaks due to fear of explosive drones (Source: @almogboker78/17026).",
-        "Unidentified vessels were observed near the Gaza maritime zone, with Israeli naval units preparing to interdict them (Source: @N12chat/207767)."
+        "IDF’s targeted killing of Hamas commander ‘Baroud’ in Gaza was accompanied by claims of using precise munitions to limit civilian casualties, reflecting ongoing high‑intensity operations in the Strip. (Source: @idf_telegram/23709)",
+        "Israeli Home Front Command listed multiple northern Israeli settlements under Red Alert after an incident, indicating spill‑over security concerns from Gaza‑adjacent areas. (Source: @tzevaadom_en/67255)",
+        "An Israeli UAV experienced a technical malfunction and performed an emergency landing in the West Bank; the aircraft was secured without injury, highlighting operational hazards in contested airspace. (Source: @idf_telegram/23702)",
+        "Israeli forces reported the identification and neutralization of armed militants near the “yellow line” in Gaza by combat teams 188 and the Kfir Brigade, showing continued low‑level engagements. (Source: @idf_telegram/23703)",
+        "PressTV reported Israeli airstrikes killing four additional Palestinians in Gaza, indicating a recent escalation in lethal force. (Source: @presstv/190294)",
+        "Hezbollah’s drone strike on an Israeli troop carrier in southern Lebanon raises concerns of coordinated attacks that could affect Gaza‑border dynamics. (Source: @presstv/190285)",
+        "Israeli Home Front Command’s public alert system remains active, with updated civil defense guidelines for residents near the Gaza border, including limited outdoor exposure times. (Source: @amitsegal/61169)"
       ]
     },
     "lebanon": {
       "points": [
-        "Hezbollah fired several rockets and explosive drones at Israeli troops in southern Lebanon overnight; projectiles landed near forces but caused no injuries (Source: @manniefabian).",
-        "Hezbollah warned that Lebanon‑Israel negotiations have reached a dead end as Israeli airstrikes continue in eastern and southern Lebanon, resulting in civilian casualties (Source: @PressTV/190296).",
-        "IDF reported no casualties from recent Hezbollah rocket and drone attacks, though alerts were activated in border communities such as Misgav Am (Source: @New_security8200/199325)."
+        "Hezbollah released footage of a drone attack on an Israeli troop carrier in southern Lebanon, confirming the use of UAVs against ground forces. (Source: @presstv/190285)",
+        "IDF reported that Hezbollah launched rockets toward Israeli positions in southern Lebanon; however, no public alerts were issued, suggesting successful interception. (Source: @idf_telegram/23706)",
+        "A ceasefire violation was cited by Lebanese resistance, claiming Israeli attacks on civilian homes in southern Lebanon, prompting a series of ten military statements from Hezbollah. (Source: @rasedal3ado138e/358058)",
+        "Israeli forces identified and eliminated a Hamas operational commander in Gaza, potentially reducing cross‑border support for Hezbollah militants. (Source: @idf_telegram/23709)",
+        "Saudi Arabia’s defense ministry noted the interception of three hostile drones entering from Iraq, a development that could affect Lebanese airspace given regional UAV traffic. (Source: @VahidOnline)",
+        "Israeli Home Front Command issued Red Alerts for multiple northern settlements after a security incident, reflecting heightened tension along the Lebanon border. (Source: @tzevaadom_en/67255)",
+        "Hezbollah’s statement warned of continued resistance against any Israeli incursion, emphasizing readiness to defend Lebanese territory. (Source: @rasedal3ado138e/358058)"
       ]
     },
     "syria_iraq": {
       "points": [
-        "Israeli forces intercepted a group of ten Israeli civilians who illegally crossed into Syrian territory; they were returned to Israeli police (Source: @N12chat/207769)."
+        "Iraqi resistance sources indicated they are prepared for ground combat if Iran is attacked, monitoring the Iran‑Iraq border and threatening attacks on U.S. bases, suggesting a potential new front. (Source: @rasedal3ado138e/358083)",
+        "PressTV reported the Yemeni Armed Forces shot down an American MQ‑9 drone in Marib governorate, highlighting U.S. UAV vulnerability in the broader region. (Source: @presstv/190293)",
+        "Shin Persian posted jet activity over Nineveh, Iraq, indicating increased aerial operations near contested zones. (Source: @shin_persian/6054)",
+        "Saudi defense officials announced the interception and destruction of three drones that entered Saudi airspace from Iraq, underscoring cross‑border UAV threats. (Source: @VahidOnline)",
+        "U.S. C‑17 strategic airlifters are departing the Middle East for Europe, reflecting a possible redeployment of American airlift capacity from the region. (Source: @kianmeli1/87445)",
+        "Iraq’s prime minister ordered customs to facilitate Iranian goods transit, effectively turning Iraq into a conduit for Iranian trade amid sanctions. (Source: @presstv/190286)",
+        "A Turkish flotilla of 53 vessels organized by IHH is preparing to breach the Gaza maritime blockade, potentially involving Syrian coastal waters. (Source: @New_security8200/199334)"
       ]
     },
     "gulf_states": {
       "points": [
-        "UAE air defenses engaged three UAVs entering from the west; two were destroyed and one caused a fire at the Barakah nuclear plant’s generator (Source: @shin_persian/6048, @pkpoi/142086).",
-        "Abu Dhabi’s media reported a fire at the Barakah nuclear facility following a drone strike, but the incident did not compromise site safety (Source: @VahidOnline/75511).",
-        "The UAE is being positioned as a primary target for Iranian retaliation after a recent U.S.–Israel strike on Iranian assets (Source: @VahidOnline/75511)."
+        "Saudi Arabia’s Ministry of Defense reported intercepting three hostile drones that entered its airspace from Iraq, with two destroyed and one damaging a generator near a nuclear power plant in Raqqa. (Source: @yediotnews25/129385)",
+        "Saudi officials warned they reserve the right to respond to any violations of sovereignty, indicating readiness for further military action if drone incursions continue. (Source: @VahidOnline)",
+        "Iranian oil tankers successfully evaded U.S. blockades using deceptive measures, potentially delivering oil to Gulf ports and affecting regional energy markets. (Source: @sharghdaily)",
+        "UAE officials confirmed three UAVs were launched toward its territory; two were intercepted, and one struck a generator near a nuclear facility, highlighting vulnerability of critical infrastructure. (Source: @yediotnews25/129385)",
+        "Turkey’s planned maritime operation involving 53 vessels aims to breach the Gaza blockade, which could involve Gulf naval forces in a broader confrontation. (Source: @New_security8200/199334)",
+        "Saudi defense spokesperson Turki Al‑Malki announced the destruction of three drones over Saudi airspace on May 17, 2026, underscoring active air defense posture. (Source: @shin_persian/6053)",
+        "U.S. strategic airlift assets (C‑17) are relocating from the Middle East to Europe, potentially reducing rapid deployment capability for Gulf coalition operations. (Source: @kianmeli1/87445)"
       ]
     },
     "key_developments": [
-      "Israel’s Netanyahu confirmed a phone call with U.S. President Trump to coordinate joint actions against Iran, emphasizing preparedness for all scenarios (Source: @Faytuks_Network/2769).",
-      "UAE air defenses intercepted three UAVs from the west; two were shot down and one struck a generator near the Barakah nuclear plant, igniting a fire but causing no casualties (Source: @shin_persian/6048).",
-      "Hezbollah launched rockets, explosive drones and mortars at Israeli positions in southern Lebanon, with projectiles landing near troops but no fatalities reported (Source: @New_security8200/199325).",
-      "IDF reported injuries to Israeli soldiers in southern Lebanon after an explosive‑laden UAV hit a convoy, resulting in one severe and several moderate wounds (Source: @idf_telegram/23705).",
-      "Iran announced plans to sue the United States and Israel for alleged attacks on its cultural heritage sites during recent joint aggression (Source: @PressTV/190291).",
-      "Hezbollah declared Lebanon‑Israel talks at a dead end as Israeli airstrikes continue in eastern and southern Lebanon, causing civilian casualties (Source: @PressTV/190296).",
-      "Israeli forces seized ten Israeli civilians who crossed into Syrian territory and returned them to Israeli police, highlighting border security concerns (Source: @N12chat/207769)."
+      "IDF eliminated senior Hamas operational commander ‘Baroud’ in Gaza via a precision airstrike, reducing Hamas command capability. (Source: @idf_telegram/23709)",
+      "Hezbollah launched a drone attack on an Israeli troop carrier in southern Lebanon, demonstrating its UAV strike capacity. (Source: @presstv/190285)",
+      "Saudi defense forces intercepted three hostile drones entering from Iraq, destroying two and mitigating a strike on a generator near a nuclear plant. (Source: @yediotnews25/129385)",
+      "Three Iranian oil tankers broke U.S. naval blockades using AIS shutdown, a Russian flag, and Omani coastal routing, sustaining Iran’s oil export flow. (Source: @sharghdaily)",
+      "Israel reports a manpower shortfall of up to 12,000 conscripts, with 6,000‑7,500 combat‑ready soldiers missing, impacting operational sustainability. (Source: @yediotnews25/129392)",
+      "Iraqi resistance warned of readiness for ground combat if Iran is attacked and pledged to target U.S. bases, indicating a possible new front. (Source: @rasedal3ado138e/358083)",
+      "U.S. C‑17 strategic airlifters are redeploying from the Middle East to Europe, potentially reducing rapid logistical support for regional operations. (Source: @kianmeli1/87445)"
     ],
-    "threat_assessment": "Iranian UAV activity has expanded, directly targeting critical infrastructure in the UAE and signaling a willingness to strike beyond its borders. Hezbollah’s sustained rocket and drone campaign keeps the southern Lebanon front volatile, though Israeli defensive measures have limited casualties. Coordinated Israeli‑U.S. pressure on Tehran, combined with Israel’s accelerated drone‑counter programs, raises the risk of a broader escalation across the region.",
-    "regional_response": "The United Arab Emirates is bolstering its air defense posture after multiple UAV incursions and the Barakah incident, while publicly linking the attacks to recent U.S.–Israeli strikes on Iran. Israel continues to issue alerts and mobilize forces along the Lebanese frontier, maintaining a high state of readiness. Iran’s legal retaliation against the U.S. and Israel over cultural site attacks adds a diplomatic dimension to the kinetic conflict.",
-    "intelligence_notes": "Monitoring of UAV flight paths from Iran toward Gulf states should be intensified, with particular focus on western approaches to the UAE. Hezbollah’s use of explosive drones suggests a shift toward more sophisticated munitions, requiring updated counter‑UAV assets along the Lebanon border. Israeli‑U.S. coordination signals potential for pre‑emptive strikes, making real‑time intelligence sharing critical to anticipate rapid escalation."
+    "threat_assessment": "The operational environment remains highly volatile, with Israel conducting targeted killings in Gaza while facing coordinated UAV attacks from Hezbollah in southern Lebanon. Iran’s adaptive maritime tactics and drone deployments threaten Gulf security, and Iraqi resistance groups signal willingness to open a new front against Iranian or U.S. forces. Manpower shortages within the IDF could constrain Israel’s ability to sustain prolonged high‑intensity operations, while regional powers bolster air defenses, raising the risk of miscalculation.",
+    "regional_response": "Saudi Arabia and the UAE have demonstrated active air defense responses, intercepting hostile drones and warning of retaliation, indicating heightened vigilance against Iranian‑aligned threats. Turkey’s planned maritime flotilla to breach the Gaza blockade suggests a willingness to challenge Israeli naval control, potentially drawing in Gulf navies. Iraqi authorities, under pressure from both Tehran and Washington, are balancing facilitation of Iranian trade with security concerns, while U.S. force posture appears to be shifting with the redeployment of strategic airlift assets.",
+    "intelligence_notes": "Monitoring of UAV traffic across Iraq‑Saudi and Iraq‑Iran borders is critical, as drone incursions have already impacted critical infrastructure. The IDF’s manpower gap warrants close observation of recruitment policies and potential reliance on reserve or foreign volunteer forces. Iran’s use of deceptive maritime tactics may evolve, requiring enhanced maritime domain awareness. Coordination between Hezbollah and Hamas could increase multi‑theater pressure on Israel, necessitating integrated air and ground defense readiness across the northern and southern fronts."
   }
 }
