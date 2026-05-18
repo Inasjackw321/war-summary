@@ -1,78 +1,81 @@
 # Discord Bot Setup
 
-Reads the hourly-updated JSON summaries directly from GitHub and posts them on command.
-Hosted on **Fly.io** free tier — always-on, no credit card charges.
+Reads the hourly-updated summaries from GitHub and posts them automatically to configured channels.
+Each conflict (Middle East / Ukraine-Russia) gets its own dedicated Discord channel.
 
 ---
 
 ## 1 — Create the Discord Application
 
-1. Go to https://discord.com/developers/applications → **New Application**
-2. Name it (e.g. "War Summary") → Create
-3. Left sidebar → **Bot** → **Add Bot**
-4. Under **Token** → **Reset Token** → copy it (you'll need this)
-5. Under **Privileged Gateway Intents**, enable **Message Content Intent** (needed for `!summary` prefix)
-6. Left sidebar → **OAuth2 → URL Generator**
+1. Go to https://discord.com/developers/applications → **New Application** (or open an existing one)
+2. Left sidebar → **Bot** → **Reset Token** → copy the token
+3. Scroll down, enable **Message Content Intent** → Save
+4. Left sidebar → **OAuth2 → URL Generator**
    - Scopes: `bot`, `applications.commands`
    - Bot Permissions: `Send Messages`, `Embed Links`, `Read Message History`
-   - Copy the generated URL → open it → invite the bot to your server
+   - Copy the URL → open it in browser → select your server → Authorize
 
 ---
 
-## 2 — Get the channel ID (optional — restricts the command to one channel)
-
-In Discord: **Settings → Advanced → Developer Mode ON**  
-Right-click the channel you want → **Copy Channel ID**
-
----
-
-## 3 — Deploy to Fly.io
+## 2 — Deploy to Fly.io (free, always-on)
 
 ```bash
 # Install flyctl
 curl -L https://fly.io/install.sh | sh
 
-# Sign up / log in (free, credit card for verification only)
+# Sign up / log in
 fly auth signup        # or: fly auth login
 
 # From the discord_bot/ directory:
 cd discord_bot
 
-# Launch (only first time — creates the app on Fly)
+# First time only — create the app and volume
 fly launch --name war-summary-bot --region iad --no-deploy
+fly volume create war_summary_data --region iad --size 1
 
-# Set secrets
+# Set your bot token
 fly secrets set DISCORD_TOKEN=your_token_here
-fly secrets set ALLOWED_CHANNEL_ID=your_channel_id_here   # optional
 
 # Deploy
 fly deploy
 ```
 
-After deploy, the bot starts immediately and runs 24/7 for free.
+---
+
+## 3 — Configure channels inside Discord
+
+Once the bot is in your server, use these **admin-only** slash commands to assign channels:
+
+```
+/warsummary setup conflict:Middle East    channel:#middle-east-intel
+/warsummary setup conflict:Ukraine-Russia channel:#ukraine-intel
+```
+
+The bot will immediately start auto-posting new summaries to those channels every hour when data updates.
+
+**Other admin commands:**
+```
+/warsummary status          — show current channel assignments
+/warsummary remove          — unassign a conflict from its channel
+```
 
 ---
 
-## 4 — Commands
+## 4 — Getting a summary on demand
 
-| Command | What it does |
-|---|---|
-| `/summary` | Both conflict summaries |
-| `/summary Middle East` | Middle East only |
-| `/summary Ukraine-Russia` | Ukraine-Russia only |
-| `!summary` | Same as above (prefix version) |
-| `!summary middleeast` | Middle East only |
-| `!summary ukraine` | Ukraine-Russia only |
-
-Slash commands take up to 1 hour to register globally after the first deploy.
-Use `!summary` immediately if needed.
+In any configured channel:
+```
+!summary              — posts the latest summary for that channel's conflict
+/warsummary summary   — same, as a slash command
+```
 
 ---
 
-## 5 — Updating / redeploying
+## How it works
 
-The bot reads data live from GitHub on every command — no redeployment needed when summaries update.
-To update the bot code itself: edit `bot.py` then `fly deploy`.
+- The bot checks for new data every 5 minutes
+- When the hourly scraper updates the GitHub JSON, the bot detects the new `updated_at` timestamp and auto-posts to the configured channels
+- Channel assignments are saved to a persistent volume (`/data/config.json`) — survives restarts and redeployments
 
 ## Viewing logs
 

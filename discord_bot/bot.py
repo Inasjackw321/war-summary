@@ -1,118 +1,219 @@
 import os
+import json
 import aiohttp
 import discord
 from discord import app_commands
-from discord.ext import commands
+from discord.ext import commands, tasks
 from datetime import datetime, timezone
+from pathlib import Path
 
-DISCORD_TOKEN     = os.environ["DISCORD_TOKEN"]
-ALLOWED_CHANNEL   = int(os.environ.get("ALLOWED_CHANNEL_ID", "0"))  # 0 = any channel
+DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
+CONFIG_PATH   = Path(os.environ.get("CONFIG_PATH", "/data/config.json"))
 
 DATA_URLS = {
     "middle_east": "https://raw.githubusercontent.com/inasjackw321/war-summary/main/data/middle_east.json",
     "ukraine":     "https://raw.githubusercontent.com/inasjackw321/war-summary/main/data/ukraine.json",
 }
+CONFLICT_META = {
+    "middle_east": ("🌍  Middle East — Intelligence Brief",    0xf59e0b),
+    "ukraine":     ("🇺🇦  Ukraine-Russia — Intelligence Brief", 0x3b82f6),
+}
 
-intents = discord.Intents.default()
-bot = commands.Bot(command_prefix="!", intents=intents)
+# ── Persistent config ─────────────────────────────────────────────────────────
+# Structure: { "guild_id": { "middle_east": channel_id, "ukraine": channel_id } }
+_cfg: dict = {}
+_last_seen: dict = {}   # { conflict: updated_at string } — tracks what was last auto-posted
 
+def _load():
+    global _cfg
+    CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    if CONFIG_PATH.exists():
+        try:
+            _cfg = json.loads(CONFIG_PATH.read_text())
+        except Exception:
+            _cfg = {}
 
-async def fetch_conflict(conflict: str) -> dict:
-    url = DATA_URLS.get(conflict)
-    if not url:
-        return {}
+def _save():
+    CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CONFIG_PATH.write_text(json.dumps(_cfg, indent=2))
+
+def _set_channel(guild_id: int, conflict: str, channel_id: int):
+    key = str(guild_id)
+    _cfg.setdefault(key, {})[conflict] = channel_id
+    _save()
+
+def _remove_channel(guild_id: int, conflict: str):
+    key = str(guild_id)
+    _cfg.get(key, {}).pop(conflict, None)
+    _save()
+
+def _conflict_for_channel(guild_id: int, channel_id: int) -> str | None:
+    """Return the conflict key if this channel is configured, else None."""
+    for conflict, ch_id in _cfg.get(str(guild_id), {}).items():
+        if ch_id == channel_id:
+            return conflict
+    return None
+
+# ── Data helpers ──────────────────────────────────────────────────────────────
+async def _fetch(conflict: str) -> dict:
     try:
         async with aiohttp.ClientSession() as s:
-            async with s.get(url, timeout=aiohttp.ClientTimeout(total=10)) as r:
+            async with s.get(DATA_URLS[conflict], timeout=aiohttp.ClientTimeout(total=10)) as r:
                 if r.status == 200:
                     return await r.json(content_type=None)
     except Exception as e:
-        print(f"[bot] fetch failed for {conflict}: {e}")
+        print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-
-def build_embed(data: dict, title: str, color: int) -> discord.Embed:
-    summary = data.get("summary", "No summary available.")
-    updated = data.get("updated_at", "")
-
+def _embed(data: dict, conflict: str) -> discord.Embed:
+    title, color = CONFLICT_META[conflict]
+    summary  = data.get("summary", "No summary available.")
+    updated  = data.get("updated_at", "")
     ts = None
     if updated:
         try:
             ts = datetime.fromisoformat(updated.replace("Z", "+00:00"))
         except ValueError:
             pass
-
-    embed = discord.Embed(title=title, description=summary, color=color, timestamp=ts or datetime.now(timezone.utc))
-
-    key_points = data.get("key_points") or []
-    if key_points:
-        text = "\n".join(f"• {p}" for p in key_points[:7])
-        if len(text) > 1024:
-            text = text[:1020] + "…"
-        embed.add_field(name="Key Points", value=text, inline=False)
-
-    channels = data.get("channels") or []
-    embed.set_footer(text=f"{len(channels)} sources monitored · Last updated")
+    embed = discord.Embed(title=title, description=summary, color=color,
+                          timestamp=ts or datetime.now(timezone.utc))
+    points = data.get("key_points") or []
+    if points:
+        text = "\n".join(f"• {p}" for p in points[:7])
+        embed.add_field(name="Key Points", value=text[:1024], inline=False)
+    n = len(data.get("channels") or [])
+    embed.set_footer(text=f"{n} sources monitored · Last updated")
     return embed
 
+# ── Bot setup ─────────────────────────────────────────────────────────────────
+intents = discord.Intents.default()
+bot = commands.Bot(command_prefix="!", intents=intents)
+grp = app_commands.Group(name="warsummary", description="War Summary bot — configure and query conflict summaries")
 
-def _wrong_channel(channel_id: int) -> bool:
-    return bool(ALLOWED_CHANNEL) and channel_id != ALLOWED_CHANNEL
-
-
-# ── Slash command ─────────────────────────────────────────────────────────────
-@bot.tree.command(name="summary", description="Show the latest conflict intelligence summary")
-@app_commands.describe(conflict="Which conflict to show (default: both)")
+# ── /warsummary setup ─────────────────────────────────────────────────────────
+@grp.command(name="setup", description="Assign a channel to a conflict — bot will post updates there automatically")
+@app_commands.describe(
+    conflict="Which conflict to assign",
+    channel="Channel that will receive summaries for this conflict",
+)
 @app_commands.choices(conflict=[
-    app_commands.Choice(name="Middle East",    value="middleeast"),
+    app_commands.Choice(name="Middle East",    value="middle_east"),
     app_commands.Choice(name="Ukraine-Russia", value="ukraine"),
-    app_commands.Choice(name="Both",           value="both"),
 ])
-async def slash_summary(interaction: discord.Interaction, conflict: str = "both"):
-    if _wrong_channel(interaction.channel_id):
+@app_commands.default_permissions(administrator=True)
+async def cmd_setup(interaction: discord.Interaction, conflict: str, channel: discord.TextChannel):
+    _set_channel(interaction.guild_id, conflict, channel.id)
+    label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
+    await interaction.response.send_message(
+        f"✅ **{label}** is now assigned to {channel.mention}.\n"
+        f"New summaries will be posted there automatically every hour.\n"
+        f"Use `!summary` or `/warsummary summary` in that channel to pull the latest now.",
+        ephemeral=True,
+    )
+
+# ── /warsummary remove ────────────────────────────────────────────────────────
+@grp.command(name="remove", description="Remove the conflict assignment for a channel")
+@app_commands.describe(conflict="Which conflict assignment to remove")
+@app_commands.choices(conflict=[
+    app_commands.Choice(name="Middle East",    value="middle_east"),
+    app_commands.Choice(name="Ukraine-Russia", value="ukraine"),
+])
+@app_commands.default_permissions(administrator=True)
+async def cmd_remove(interaction: discord.Interaction, conflict: str):
+    _remove_channel(interaction.guild_id, conflict)
+    label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
+    await interaction.response.send_message(f"🗑 **{label}** channel assignment removed.", ephemeral=True)
+
+# ── /warsummary status ────────────────────────────────────────────────────────
+@grp.command(name="status", description="Show current channel assignments for this server")
+@app_commands.default_permissions(administrator=True)
+async def cmd_status(interaction: discord.Interaction):
+    guild_cfg = _cfg.get(str(interaction.guild_id), {})
+    if not guild_cfg:
         await interaction.response.send_message(
-            "This command can only be used in the designated summary channel.", ephemeral=True
+            "No channels configured yet. Use `/warsummary setup` to assign channels.", ephemeral=True
         )
         return
+    lines = []
+    for conflict, ch_id in guild_cfg.items():
+        icon = "🌍" if conflict == "middle_east" else "🇺🇦"
+        label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
+        lines.append(f"{icon} **{label}** → <#{ch_id}>")
+    await interaction.response.send_message("\n".join(lines), ephemeral=True)
 
-    await interaction.response.defer()
-    embeds = await _collect_embeds(conflict)
-    if embeds:
-        await interaction.followup.send(embeds=embeds[:2])
-    else:
-        await interaction.followup.send("⚠ Failed to fetch summary data. Try again in a moment.")
-
-
-# ── Prefix command (!summary) ─────────────────────────────────────────────────
-@bot.command(name="summary")
-async def prefix_summary(ctx: commands.Context, conflict: str = "both"):
-    if _wrong_channel(ctx.channel.id):
+# ── /warsummary summary ───────────────────────────────────────────────────────
+@grp.command(name="summary", description="Post the latest summary for this channel's assigned conflict")
+async def cmd_summary(interaction: discord.Interaction):
+    conflict = _conflict_for_channel(interaction.guild_id, interaction.channel_id)
+    if not conflict:
+        await interaction.response.send_message(
+            "This channel isn't assigned to a conflict. Ask an admin to run `/warsummary setup`.",
+            ephemeral=True,
+        )
         return
-    embeds = await _collect_embeds(conflict.lower())
-    if embeds:
-        await ctx.send(embeds=embeds[:2])
+    await interaction.response.defer()
+    data = await _fetch(conflict)
+    if data:
+        await interaction.followup.send(embed=_embed(data, conflict))
     else:
-        await ctx.send("⚠ Failed to fetch summary data.")
+        await interaction.followup.send("⚠ Failed to fetch data — try again in a moment.")
 
+bot.tree.add_command(grp)
 
-async def _collect_embeds(conflict: str) -> list[discord.Embed]:
-    embeds = []
-    if conflict in ("middleeast", "both"):
-        data = await fetch_conflict("middle_east")
+# ── !summary prefix command ───────────────────────────────────────────────────
+@bot.command(name="summary")
+async def prefix_summary(ctx: commands.Context):
+    if not ctx.guild:
+        return
+    conflict = _conflict_for_channel(ctx.guild.id, ctx.channel.id)
+    if not conflict:
+        return  # silently ignore unassigned channels
+    data = await _fetch(conflict)
+    if data:
+        await ctx.send(embed=_embed(data, conflict))
+    else:
+        await ctx.send("⚠ Failed to fetch data.")
+
+# ── Hourly auto-post (polls every 5 min, posts only when updated_at changes) ──
+@tasks.loop(minutes=5)
+async def _auto_post():
+    for conflict in DATA_URLS:
+        data = await _fetch(conflict)
+        if not data:
+            continue
+        updated = data.get("updated_at", "")
+        if not updated or updated == _last_seen.get(conflict):
+            continue
+        _last_seen[conflict] = updated
+        embed = _embed(data, conflict)
+        for guild_id_str, guild_cfg in _cfg.items():
+            ch_id = guild_cfg.get(conflict)
+            if not ch_id:
+                continue
+            ch = bot.get_channel(ch_id)
+            if ch:
+                try:
+                    await ch.send(embed=embed)
+                    print(f"[bot] auto-posted {conflict} to #{ch.name}")
+                except Exception as e:
+                    print(f"[bot] auto-post failed to {ch_id}: {e}")
+
+@_auto_post.before_loop
+async def _before_auto_post():
+    await bot.wait_until_ready()
+    # Pre-populate last_seen so we don't post old data immediately on startup
+    for conflict in DATA_URLS:
+        data = await _fetch(conflict)
         if data:
-            embeds.append(build_embed(data, "🌍  Middle East — Intelligence Brief", 0xf59e0b))
-    if conflict in ("ukraine", "both"):
-        data = await fetch_conflict("ukraine")
-        if data:
-            embeds.append(build_embed(data, "🇺🇦  Ukraine-Russia — Intelligence Brief", 0x3b82f6))
-    return embeds
+            _last_seen[conflict] = data.get("updated_at", "")
 
-
+# ── Startup ───────────────────────────────────────────────────────────────────
 @bot.event
 async def on_ready():
-    print(f"[bot] Logged in as {bot.user} (id={bot.user.id})")
+    _load()
     await bot.tree.sync()
-    print("[bot] Slash commands synced globally")
-
+    _auto_post.start()
+    print(f"[bot] Ready — logged in as {bot.user}")
+    print(f"[bot] Loaded config: {_cfg}")
 
 bot.run(DISCORD_TOKEN)

@@ -6,12 +6,16 @@ primary_region = "iad"
   dockerfile = "Dockerfile"
 
 [env]
-  # DISCORD_TOKEN and ALLOWED_CHANNEL_ID are set via:  fly secrets set DISCORD_TOKEN=...
+  CONFIG_PATH = "/data/config.json"
+
+# Persistent volume — stores channel config across restarts/deploys (free, up to 3 GB)
+[[mounts]]
+  source      = "war_summary_data"
+  destination = "/data"
 
 [[vm]]
   size   = "shared-cpu-1x"
   memory = "256mb"
 
-# No HTTP services — this is a pure Discord gateway bot
 [deploy]
   strategy = "immediate"
