@@ -284,6 +284,20 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
         before_id = oldest_id_on_page
         time.sleep(0.9)
 
+    # Tag photo posts that are directly adjacent (±1 ID) to a text post.
+    # When the AI cites the text post ID, the alias in _build_post_images will
+    # find the photo from the neighbouring message in the same story group.
+    if channel in MEDIA_CHANNELS:
+        text_id_set = {i for i in all_ids if i is not None}
+        for img in all_images:
+            pid = img.get("post_id")
+            if pid is None:
+                continue
+            for adj in (pid - 1, pid + 1):
+                if adj in text_id_set:
+                    img["companion_text_id"] = adj
+                    break
+
     return all_texts, all_times, all_ids, max_id, all_images
 
 
@@ -620,6 +634,13 @@ def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]
             post_images[key] = path_str
             index[local_name] = now_ts
             changed = True
+        # Create alias for the adjacent text post so AI citations resolve to this photo
+        if key in post_images:
+            companion = img.get("companion_text_id")
+            if companion:
+                ckey = f"{ch}/{companion}"
+                if ckey not in post_images:
+                    post_images[ckey] = path_str
     if changed:
         _save_ts_index(media_dir, index)
     return post_images

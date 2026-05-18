@@ -821,6 +821,21 @@ const sourcesModal = (function () {
 let _lastKnownUpdatedAt = null;
 let _autoRefreshInterval = null;
 
+function _snapshotItems(sp) {
+  const texts = new Set();
+  document.querySelectorAll(`#${sp}-sections-content .section-point, #${sp}-sections-content .key-dev-item`).forEach(el => {
+    texts.add(el.textContent.replace(/\s+/g, " ").trim().slice(0, 100));
+  });
+  return texts;
+}
+
+function _animateNewItems(sp, prev) {
+  document.querySelectorAll(`#${sp}-sections-content .section-point, #${sp}-sections-content .key-dev-item`).forEach(el => {
+    const t = el.textContent.replace(/\s+/g, " ").trim().slice(0, 100);
+    if (!prev.has(t)) el.classList.add("item--just-added");
+  });
+}
+
 async function checkForRefresh() {
   try {
     const r = await fetch("data/middle_east.json?_=" + Date.now());
@@ -828,11 +843,21 @@ async function checkForRefresh() {
     const fresh = await r.json();
     if (fresh.updated_at && fresh.updated_at !== _lastKnownUpdatedAt) {
       _lastKnownUpdatedAt = fresh.updated_at;
+
+      const scrollY = window.scrollY;
+      const prevMe = _snapshotItems("me");
+      const prevUa = _snapshotItems("ua");
+
       delete dataCache["middle_east"]; delete dataCache["ukraine"];
       const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
       if (me) { populatePanel("middle_east", me); buildTicker([me, ua]); }
       if (ua) populatePanel("ukraine", ua);
       if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
+
+      window.scrollTo({ top: scrollY, behavior: "instant" });
+      _animateNewItems("me", prevMe);
+      _animateNewItems("ua", prevUa);
+
       showToast("Data refreshed");
       return true;
     }
