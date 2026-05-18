@@ -59,24 +59,9 @@ async def _fetch(conflict: str) -> dict:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-def _intensity_bar(intensity: int) -> str:
-    filled = round(intensity / 10 * 8)
-    return "█" * filled + "░" * (8 - filled)
-
-SENTIMENT_ICON = {
-    "volatile":  "🔴",
-    "tense":     "🟠",
-    "escalating":"🟠",
-    "stable":    "🟡",
-    "calm":      "🟢",
-}
-
 def _embed(data: dict, conflict: str) -> discord.Embed:
     label, icon, color = CONFLICT_META[conflict]
-    summary   = data.get("summary", "No summary available.")
-    updated   = data.get("updated_at", "")
-    intensity = data.get("intensity", 0)
-    sentiment = data.get("sentiment", "")
+    updated = data.get("updated_at", "")
     ts = None
     if updated:
         try:
@@ -84,18 +69,14 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         except ValueError:
             pass
 
-    title = f"{icon}  {label} — Intelligence Brief"
-    if intensity:
-        s_icon = SENTIMENT_ICON.get(sentiment, "⚪")
-        title += f"  {s_icon} {_intensity_bar(intensity)}"
-
-    embed = discord.Embed(title=title, description=summary, color=color,
+    title = f"{icon}  {label} — Latest Updates"
+    embed = discord.Embed(title=title, color=color,
                           timestamp=ts or datetime.now(timezone.utc))
 
     points = data.get("key_points") or []
     if points:
-        text = "\n".join(f"▸ {p}" for p in points[:7])
-        embed.add_field(name="Key Developments", value=text[:1024], inline=False)
+        text = "\n".join(f"▸ {p}" for p in points[:10])
+        embed.add_field(name="​", value=text[:1024], inline=False)
 
     urls: dict = data.get("recent_post_urls") or {}
     if urls:
