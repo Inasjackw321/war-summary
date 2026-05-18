@@ -87,6 +87,7 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
 
 # ── Bot setup ─────────────────────────────────────────────────────────────────
 intents = discord.Intents.default()
+intents.message_content = True  # required for prefix commands in discord.py 2.x
 bot = commands.Bot(command_prefix="!", intents=intents)
 grp = app_commands.Group(name="warsummary", description="War Summary bot — configure and query conflict summaries")
 
@@ -212,7 +213,8 @@ async def _before_auto_post():
 async def on_ready():
     _load()
     await bot.tree.sync()
-    _auto_post.start()
+    if not _auto_post.is_running():
+        _auto_post.start()
     print(f"[bot] Ready — logged in as {bot.user}")
     print(f"[bot] Loaded config: {_cfg}")
 
