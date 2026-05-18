@@ -1,0 +1,17 @@
+# Fly.io config — free shared-cpu-1x (256 MB) always-on instance
+app            = "war-summary-bot"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  # DISCORD_TOKEN and ALLOWED_CHANNEL_ID are set via:  fly secrets set DISCORD_TOKEN=...
+
+[[vm]]
+  size   = "shared-cpu-1x"
+  memory = "256mb"
+
+# No HTTP services — this is a pure Discord gateway bot
+[deploy]
+  strategy = "immediate"
