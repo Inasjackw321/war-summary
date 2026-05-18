@@ -1,6 +1,6 @@
 # Fly.io config — free shared-cpu-1x (256 MB) always-on instance
 app            = "war-summary-bot"
-primary_region = "iad"
+primary_region = "ord"
 
 [build]
   dockerfile = "Dockerfile"
