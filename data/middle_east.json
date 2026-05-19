@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-05-18T23:14:20.042060+00:00",
-  "message_count": 1139,
+  "updated_at": "2026-05-19T01:34:35.214689+00:00",
+  "message_count": 1141,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -39,11 +39,11 @@
     0,
     0,
     0,
-    0,
-    0,
+    2,
     2,
     0,
-    2,
+    0,
+    0,
     0,
     0,
     0,
@@ -55,30 +55,30 @@
     0
   ],
   "combined_activity_timeline": [
-    10,
-    6,
     4,
-    6,
-    6,
-    20,
-    41,
-    42,
+    7,
+    10,
+    23,
+    46,
+    45,
     65,
-    55,
-    62,
-    70,
-    91,
-    76,
-    78,
+    52,
+    64,
+    72,
+    100,
     73,
-    63,
+    80,
+    69,
     51,
-    66,
-    89,
-    70,
-    59,
+    56,
+    68,
+    94,
+    71,
+    43,
+    10,
     19,
-    17
+    15,
+    4
   ],
   "messages_by_channel": {
     "@N12chat": 233,
@@ -87,17 +87,17 @@
     "@yediotnews25": 58,
     "@SharghDaily": 184,
     "@amitsegal": 25,
-    "@presstv": 105,
+    "@presstv": 103,
     "@mamlekate": 6,
     "@kianmeli1": 15,
-    "@Faytuks_Network": 22,
-    "@rodast_omiddana": 43,
+    "@Faytuks_Network": 23,
+    "@rodast_omiddana": 47,
     "@naya_foriraq": 48,
     "@tzevaadom_en": 4,
     "@VahidOnline": 18,
     "@idf_telegram": 13,
-    "@lelotsenzura": 23,
-    "@rasedal3ado138e": 153,
+    "@lelotsenzura": 21,
+    "@rasedal3ado138e": 154,
     "@shin_persian": 17,
     "@almogboker78": 11,
     "@New_security8200": 47,
@@ -106,36 +106,60 @@
     "@pkpoi": 11
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/208028",
+    "N12chat": "https://t.me/N12chat/208030",
     "manniefabian": "https://t.me/manniefabian/58291",
     "asafroz": "https://t.me/asafroz/49342",
     "yediotnews25": "https://t.me/yediotnews25/129465",
     "SharghDaily": "https://t.me/SharghDaily/160676",
     "amitsegal": "https://t.me/amitsegal/61205",
-    "presstv": "https://t.me/presstv/190426",
+    "presstv": "https://t.me/presstv/190435",
     "mamlekate": "https://t.me/mamlekate/103555",
     "kianmeli1": "https://t.me/kianmeli1/87474",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/2798",
-    "rodast_omiddana": "https://t.me/rodast_omiddana/71535",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/2799",
+    "rodast_omiddana": "https://t.me/rodast_omiddana/71543",
     "naya_foriraq": "https://t.me/naya_foriraq/75651",
     "tzevaadom_en": "https://t.me/tzevaadom_en/67267",
     "VahidOnline": "https://t.me/VahidOnline/75546",
     "idf_telegram": "https://t.me/idf_telegram/23734",
-    "lelotsenzura": "https://t.me/lelotsenzura/91960",
-    "rasedal3ado138e": "https://t.me/rasedal3ado138e/358360",
+    "lelotsenzura": "https://t.me/lelotsenzura/91962",
+    "rasedal3ado138e": "https://t.me/rasedal3ado138e/358367",
     "shin_persian": "https://t.me/shin_persian/6078",
     "almogboker78": "https://t.me/almogboker78/17042",
     "New_security8200": "https://t.me/New_security8200/199401",
     "inon_yttach": "https://t.me/inon_yttach/8164",
-    "redlinkleb": "https://t.me/redlinkleb/14561",
+    "redlinkleb": "https://t.me/redlinkleb/14562",
     "pkpoi": "https://t.me/pkpoi/142111"
   },
   "media": [
+    {
+      "post_url": "https://t.me/presstv/190426",
+      "post_id": 190426,
+      "channel": "presstv",
+      "ts": "2026-05-18T23:00:14+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190425",
+      "post_id": 190425,
+      "channel": "presstv",
+      "ts": "2026-05-18T22:52:33+00:00"
+    },
+    {
+      "post_url": "https://t.me/rodast_omiddana/71531",
+      "post_id": 71531,
+      "channel": "rodast_omiddana",
+      "ts": "2026-05-18T22:46:42+00:00"
+    },
     {
       "post_url": "https://t.me/lelotsenzura/91960",
       "post_id": 91960,
       "channel": "lelotsenzura",
       "ts": "2026-05-18T22:41:47+00:00"
+    },
+    {
+      "post_url": "https://t.me/presstv/190421",
+      "post_id": 190421,
+      "channel": "presstv",
+      "ts": "2026-05-18T22:14:39+00:00"
     },
     {
       "post_url": "https://t.me/presstv/190417",
@@ -154,12 +178,6 @@
       "post_id": 358354,
       "channel": "rasedal3ado138e",
       "ts": "2026-05-18T21:12:37+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190414",
-      "post_id": 190414,
-      "channel": "presstv",
-      "ts": "2026-05-18T20:58:06+00:00"
     },
     {
       "post_url": "https://t.me/rasedal3ado138e/358348",
@@ -204,12 +222,6 @@
       "ts": "2026-05-18T20:25:52+00:00"
     },
     {
-      "post_url": "https://t.me/presstv/190411",
-      "post_id": 190411,
-      "channel": "presstv",
-      "ts": "2026-05-18T20:25:17+00:00"
-    },
-    {
       "post_url": "https://t.me/N12chat/208014",
       "post_id": 208014,
       "channel": "N12chat",
@@ -238,18 +250,6 @@
       "post_id": 358333,
       "channel": "rasedal3ado138e",
       "ts": "2026-05-18T20:03:15+00:00"
-    },
-    {
-      "post_url": "https://t.me/presstv/190409",
-      "post_id": 190409,
-      "channel": "presstv",
-      "ts": "2026-05-18T20:02:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/SharghDaily/160666",
-      "post_id": 160666,
-      "channel": "SharghDaily",
-      "ts": "2026-05-18T19:44:15+00:00"
     }
   ],
   "post_images": {
@@ -283,78 +283,76 @@
     "idf_telegram/23732": "data/media/idf_telegram_23732.jpg",
     "idf_telegram/23733": "data/media/idf_telegram_23733.jpg"
   },
-  "summary": "Israel’s military posture intensified with a helicopter landing near the Knesset and IDF alerts in northern towns, while Tehran activated air defenses in Isfahan and issued stark warnings amid U.S. plans for a possible strike. Parallelly, clashes erupted on the Syrian‑Daraa front and a Lebanese missile strike targeted an aircraft in the western Bekaa. Diplomatic deadlock persists as the U.S. rejects Iran’s latest peace overture, prompting heightened regional volatility.",
+  "summary": "The IDF intensified strikes on Hezbollah infrastructure in southern Lebanon, while Iran activated air defenses in Isfahan and on Kish Island amid rumors of a postponed U.S. attack. Hezbollah launched multiple rocket and missile attacks on Israeli positions and settlements. Diplomatic chatter suggests a U.S. strike on Iran is delayed but remains imminent.",
   "key_points": [
-    "Israeli helicopter touched down near the Knesset, signaling possible rapid‑response deployment.",
-    "Iran activated air‑defense systems in Isfahan and warned of stronger retaliation against U.S. actions.",
-    "IDF killed a Hamas operative planning imminent attacks in Gaza’s southern sector.",
-    "U.S. officials confirmed planning for a multi‑day strike on Iranian sites if diplomatic talks fail.",
-    "Lebanese missile intercepted an aircraft over western Bekaa, raising Hezbollah‑Israel tension.",
-    "Clashes reported between Israeli forces and militants in the Yarmouk basin, Daraa province.",
-    "Israeli Navy began intercepting a 57‑vessel activist flotilla heading toward Gaza."
+    "IDF hit over 30 Hezbollah targets in southern Lebanon, including weapon depots and observation posts.",
+    "Hezbollah fired dozens of rockets, some reaching Israeli territory, and engaged Israeli forces with anti‑aircraft missiles.",
+    "Iran activated its air defense systems in Isfahan and on Kish Island in the Persian Gulf.",
+    "U.S. officials reportedly postponed a planned strike on Iran at the request of Gulf allies, but preparations continue.",
+    "Hezbollah claimed to have downed an Israeli aircraft over the western Lebanese Bekaa with a surface‑to‑air missile.",
+    "Israeli settlers set fire to Palestinian farmland near Ramallah, escalating tensions in the West Bank.",
+    "Yemen’s Ansarullah called for regional sanctions against perceived aggressors, reflecting broader anti‑U.S. sentiment."
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Israel’s deployment of a helicopter near the Knesset and heightened alerts in Metula and Kiryat Shmona mark the most operationally significant development, indicating preparation for renewed hostilities. Iran responded by activating air‑defense assets in Isfahan and issuing stern warnings of a stronger response to any U.S. or Israeli misstep. Simultaneously, U.S. planners are finalizing a multi‑day strike option on Iranian targets, while clashes on the Syrian‑Daraa front and a missile strike in western Lebanon further expand the conflict’s geographic scope.",
+    "executive_summary": "The IDF’s large‑scale air campaign against Hezbollah in southern Lebanon marks the most operationally significant development, targeting over 30 militant sites. Simultaneously, Iran has placed air defense units on high alert in Isfahan and Kish Island, responding to intelligence of a possible U.S. strike that Gulf states have asked to delay. Hezbollah continues to launch rockets and anti‑aircraft missiles, while Israeli settlers’ arson in the West Bank adds another flashpoint.",
     "iran": {
       "points": [
-        "Iranian air‑defense systems were activated in the city of Isfahan, suggesting readiness to counter potential aerial incursions (Source: @rasedal3ado138e/358343).",
-        "A senior Iranian commander warned that any further mistakes by adversaries would be met with “much stronger” force, emphasizing heightened readiness (Source: @rasedal3ado138e/358354).",
-        "Iran rejected a new U.S. peace proposal, labeling it insufficient and warning that negotiations could resume “through bombs” if Tehran’s demands are not met (Source: @VahidOnline/75541).",
-        "U.S. officials disclosed plans for a multi‑day strike on Iranian sites, describing it as a question of “when,” not “if,” indicating imminent kinetic action (Source: @Faytuks_Network/2788).",
-        "President Trump publicly threatened Iran with a “full‑scale attack” if a satisfactory deal is not reached, heightening diplomatic pressure (Source: @kianmeli1/87465)."
+        "Iranian air defense systems were activated in the city of Isfahan, indicating heightened readiness against potential aerial threats (Source: @naya_foriraq/75648).",
+        "The Iranian Revolutionary Guard reported the deployment of surface‑to‑air missile batteries on Kish Island in the Persian Gulf, enhancing coverage of a key maritime chokepoint (Source: @New_security8200/199389).",
+        "Iranian officials cited internal military consensus that a U.S. naval blockade could trigger a direct military response, reflecting a shift toward more aggressive posturing (Source: @kianmeli1/87471).",
+        "U.S. plans for a large‑scale strike on Iran were reportedly postponed at the behest of Qatar, Saudi Arabia, the UAE, and Bahrain, but U.S. forces remain on standby for rapid execution (Source: @naya_foriraq/75641)."
       ]
     },
     "israel": {
       "points": [
-        "An Israeli army helicopter landed near the Knesset, a rare move that could facilitate rapid command‑and‑control or evacuation of senior officials (Source: @rasedal3ado138e/358347).",
-        "The IDF announced the targeted killing of a Hamas operative who was planning imminent aerial attacks against Israeli forces in the Gaza Strip (Source: @idf_telegram/23716).",
-        "Israeli military and U.S. officials warned that the most significant preparation for renewed combat since the ceasefire could materialize within the week (Source: @inon_yttach/8154).",
-        "Alerts were issued in the northern towns of Metula and Kiryat Shmona as part of a security sweep following unidentified threats (Source: @idf_telegram/23719).",
-        "The Israeli Navy began intercepting a 57‑vessel activist flotilla bound for Gaza, aiming to enforce the naval blockade (Source: @manniefabian/58285).",
-        "Israel struck a senior Islamic Jihad commander, A.L. Mahmoud Abd al‑Halim, in the Baalbek region of Lebanon, targeting cross‑border terrorist coordination (Source: @almogboker78/17032)."
+        "The IDF reported striking more than 30 Hezbollah infrastructure targets in southern Lebanon, including weapons depots, surveillance posts, and command buildings, with several militants killed (Source: @idf_telegram/23715).",
+        "Hezbollah launched a coordinated barrage of rockets from the western Bekaa, with at least two rockets crossing into Israeli territory; one was intercepted and another exploded in an open area (Source: @almogboker78/17036).",
+        "An Israeli aircraft was reportedly engaged by a surface‑to‑air missile over western Lebanon, according to Hezbollah claims (Source: @naya_foriraq/75632).",
+        "Israeli settlers set fire to Palestinian farmland in Al‑Mughayyir, northeast of Ramallah, heightening civilian tensions (Source: @presstv/190430).",
+        "A joint IDF‑Israel Police exercise began in Eilat, involving heightened security movements, indicating preparation for potential escalation (Source: @New_security8200/199390)."
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "IDF forces eliminated a Hamas operative planning immediate aerial attacks from Gaza, indicating ongoing pre‑emptive counter‑terror operations (Source: @idf_telegram/23716).",
-        "No new large‑scale ground operations were reported in the West Bank during the period, but heightened security alerts suggest potential spill‑over (Source: @inon_yttach/8154).",
-        "Israeli naval interdiction of the activist flotilla underscores continued enforcement of the Gaza maritime blockade (Source: @manniefabian/58285)."
+        "Israeli settlers torched farmland near Ramallah, an act condemned by Palestinian authorities and likely to provoke retaliatory attacks (Source: @presstv/190430).",
+        "Medical teams in Israel treated multiple civilian casualties from rocket impacts in the Upper Galilee, though no fatalities were reported (Source: @almogboker78/17036).",
+        "No new large‑scale ground operations were reported in Gaza during the latest 24‑hour period.",
+        "Security forces continue to enforce curfews and checkpoints in the West Bank amid rising settler‑Palestinian clashes."
       ]
     },
     "lebanon": {
       "points": [
-        "A missile was launched against a warplane in western Lebanon’s Bekaa Valley, reflecting escalating air‑defense confrontations (Source: @naya_foriraq/75632).",
-        "Israeli airstrike killed A.L. Mahmoud Abd al‑Halim, a commander of the Palestinian Islamic Jihad in Baalbek, who had been coordinating attacks with Hezbollah (Source: @almogboker78/17032).",
-        "Hezbollah‑linked militants engaged Israeli forces in the Yarmouk basin of Daraa, Syria, indicating cross‑border militant activity (Source: @naya_foriraq/75647)."
+        "Hezbollah announced 14 separate military statements on 18 May, detailing attacks on Israeli Iron Dome sites, convoys, communication nodes, and a D9 bulldozer, using both rockets and anti‑aircraft missiles (Source: @rasedal3ado138e/358351).",
+        "IDF airstrikes targeted Hezbollah positions in the villages of Rshaf, Deir Sirian, and Maron Ras, employing precision munitions and reporting confirmed hits on enemy vehicles (Source: @New_security8200/199394).",
+        "Hezbollah claimed to have downed an Israeli warplane over the western Lebanese sector with a surface‑to‑air missile (Source: @naya_foriraq/75632).",
+        "Israeli forces reported the elimination of Wael Mahmoud Abdul‑Halim, a commander of Islamic Jihad in the Bekaa, during a night operation near Baalbek (Source: @kianmeli1/87459)."
       ]
     },
     "syria_iraq": {
       "points": [
-        "Clashes erupted between Israeli forces and militants in the Yarmouk basin of Daraa province, Syria, resulting in unspecified casualties (Source: @naya_foriraq/75647).",
-        "No direct Iraqi incidents were reported in the collected messages.",
-        "Iran’s activation of air defenses in Isfahan may affect regional air‑space dynamics over Iraq and Syria (Source: @rasedal3ado138e/358343)."
+        "No direct operational reports from Syria or Iraq were present in the filtered messages; all relevant intelligence pertains to Iran, Israel, Lebanon, Gaza, and Gulf states."
       ]
     },
     "gulf_states": {
       "points": [
-        "Brent crude rose 1.2% to over $111 per barrel, and West Texas Intermediate to $108, driven by heightened geopolitical tension in the Gulf (Source: @VahidOnline/75527).",
-        "U.S. naval presence around the Strait of Hormuz remains robust as part of the ongoing maritime pressure on Iran (inferred from multiple U.S. strike planning reports).",
-        "Iran’s threat of stronger retaliation raises concerns for Gulf‑state security and oil export routes."
+        "Qatar, Saudi Arabia, and the UAE reportedly asked the United States to postpone a planned strike on Iran, citing ongoing negotiations (Source: @naya_foriraq/75641).",
+        "U.S. sanctions waiver for Russian oil was renewed, citing Iran’s control over the Strait of Hormuz, which affects global oil flows (Source: @presstv/190416).",
+        "Yemen’s Ansarullah movement called for economic and political sanctions against perceived aggressors, reflecting broader regional opposition to U.S. and Israeli actions (Source: @presstv/190420)."
       ]
     },
     "key_developments": [
-      "An Israeli army helicopter landed near the Knesset, indicating a rapid‑response posture for potential escalation (Source: @rasedal3ado138e/358347).",
-      "Iran activated air‑defense systems in Isfahan, signaling heightened readiness against possible Israeli or U.S. air operations (Source: @rasedal3ado138e/358343).",
-      "The IDF killed a Hamas operative planning immediate attacks in Gaza, demonstrating ongoing pre‑emptive counter‑terror actions (Source: @idf_telegram/23716).",
-      "U.S. officials confirmed a multi‑day strike plan on Iranian targets if diplomatic talks stall, marking a concrete escalation step (Source: @Faytuks_Network/2788).",
-      "Israel intercepted a 57‑vessel activist flotilla heading for Gaza, reinforcing the naval blockade (Source: @manniefabian/58285).",
-      "A missile strike hit a warplane over western Lebanon’s Bekaa, raising the risk of broader Israel‑Hezbollah air confrontations (Source: @naya_foriraq/75632).",
-      "Clashes erupted in the Yarmouk basin of Daraa, Syria, between Israeli forces and militants, expanding the conflict’s front lines (Source: @naya_foriraq/75647)."
+      "The IDF conducted precision strikes on over 30 Hezbollah facilities in southern Lebanon, destroying weapon caches and killing several militants (Source: @idf_telegram/23715).",
+      "Hezbollah launched a coordinated missile and rocket barrage, hitting Israeli territory and targeting an Iron Dome battery in the Galilee (Source: @rasedal3ado138e/358351).",
+      "Iran activated air defense systems in Isfahan, signaling heightened readiness against potential U.S. air operations (Source: @naya_foriraq/75648).",
+      "U.S. officials postponed a planned large‑scale strike on Iran at the request of Qatar, Saudi Arabia, and the UAE, but forces remain on standby (Source: @naya_foriraq/75641).",
+      "Hezbollah claimed to have downed an Israeli aircraft over western Lebanon with a surface‑to‑air missile (Source: @naya_foriraq/75632).",
+      "Israeli settlers set fire to Palestinian farmland near Ramallah, escalating West Bank tensions (Source: @presstv/190430).",
+      "Iran deployed additional surface‑to‑air missile batteries on Kish Island, enhancing protection of the Persian Gulf shipping lanes (Source: @New_security8200/199389)."
     ],
-    "threat_assessment": "The convergence of Israeli tactical deployments, Iranian air‑defense activation, and imminent U.S. strike planning creates a multi‑layered threat environment. Iran’s explicit warnings and readiness to respond with stronger force raise the risk of a broader regional confrontation, especially if a U.S. strike is executed. Simultaneous flare‑ups in Lebanon and Syria could draw Hezbollah and other proxy forces into direct clashes with Israeli forces, potentially expanding the battlefield beyond the Gaza strip.",
-    "regional_response": "Gulf states are monitoring oil market volatility and reinforcing naval patrols in the Strait of Hormuz, while diplomatic channels remain strained as the U.S. rejects Iran’s latest proposal. Israel is bolstering northern border alerts and preparing for possible retaliatory strikes, whereas Iran is signaling both defensive and offensive postures. International actors, including the EU and UN, are urging restraint but have limited leverage amid the rapid escalation.",
-    "intelligence_notes": "Open‑source monitoring should prioritize satellite imagery of Isfahan’s air‑defense sites and Israeli northern border movements. Signals intelligence on U.S. NSC meetings regarding Iran will clarify the timing of any kinetic action. Tracking maritime traffic near Cyprus will aid in forecasting the activist flotilla’s trajectory and potential interception points. Finally, real‑time reporting from the Daraa/Yarmouk area is essential to assess the scale of cross‑border engagements."
+    "threat_assessment": "The operational environment is rapidly deteriorating as Israel intensifies its campaign against Hezbollah, which in turn escalates missile attacks on Israeli territory. Iran’s activation of air defenses and the reported readiness of U.S. forces for a postponed strike create a multi‑front risk of broader confrontation. Coordination among Gulf states to delay U.S. action may temporarily reduce direct conflict with Iran but does not eliminate the underlying strategic tension.",
+    "regional_response": "Gulf allies have leveraged diplomatic channels to delay U.S. strikes on Iran, reflecting a preference for negotiated settlements over direct military escalation. Hezbollah’s extensive barrage demonstrates its capacity to sustain high‑tempo operations against Israel, while Israeli settlements’ aggressive actions in the West Bank risk provoking further Palestinian unrest. Iran’s defensive posturing indicates a willingness to confront any aerial incursion, potentially drawing regional powers into a wider clash.",
+    "intelligence_notes": "Monitoring of Iranian air defense deployments on Kish Island and in major cities should be intensified to anticipate possible engagement zones. Hezbollah’s use of coordinated missile salvos and anti‑aircraft assets suggests a shift toward more sophisticated combined‑arms tactics. U.S. strategic communications hint at a pending decision point; any movement toward a strike on Iran could trigger immediate retaliatory actions across the theater."
   }
 }
