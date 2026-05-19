@@ -571,7 +571,9 @@ Only cite the specific channel(s) that actually provided each piece of informati
 Return ONLY valid JSON with this exact structure:
 {{
   "summary": "3-sentence executive summary",
-  "key_points": ["7 short bullet points for ticker"],
+  "key_points": [
+    "8 most operationally significant developments — each exactly 15-25 words, must include specific locations/numbers/weapon systems where known, no vague filler, ordered by operational importance"
+  ],
   "sentiment": "one of: escalating|volatile|active|tense|stable|calm",
   "intensity": <1-10>,
   "sections": {{
@@ -603,6 +605,22 @@ Return only the JSON object, no other text."""
             time.sleep(2)
     print(f"  [error] all models failed: {last_exc}", file=sys.stderr)
     return {"summary": "Summary unavailable.", "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
+
+
+def _extract_cited_channels(ai_result: dict) -> set[str]:
+    """Return set of channel names that the AI actually cited in its output."""
+    parts: list[str] = []
+    parts.extend(ai_result.get("key_points", []))
+    parts.append(ai_result.get("summary", ""))
+    for v in ai_result.get("sections", {}).values():
+        if isinstance(v, str):
+            parts.append(v)
+        elif isinstance(v, dict):
+            parts.extend(v.get("points", []))
+        elif isinstance(v, list):
+            parts.extend(str(x) for x in v)
+    combined = " ".join(parts)
+    return {m for m in re.findall(r'@(\w+)', combined)}
 
 
 def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> dict[str, int]:
@@ -712,6 +730,9 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
     ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
     ai_result.pop("red_alerts", None)
 
+    cited = _extract_cited_channels(ai_result)
+    cited_post_urls = {ch: url for ch, url in recent_post_urls.items() if ch in cited}
+
     msgs_by_channel = build_messages_by_channel(conf["channels"], per_channel_counts)
 
     all_timestamps = [ts for ch in conf["channels"] for ts in per_channel_timestamps.get(ch, [])]
@@ -777,6 +798,7 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
         "combined_activity_timeline": activity_timeline,
         "messages_by_channel": msgs_by_channel,
         "recent_post_urls": recent_post_urls,
+        "cited_post_urls": cited_post_urls,
         "media": sorted(all_media, key=lambda x: x.get("ts") or "", reverse=True)[:20],
         "post_images": _build_post_images(all_media, media_dir),
         **ai_result,
