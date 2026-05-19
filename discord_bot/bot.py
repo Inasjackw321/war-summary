@@ -3,7 +3,6 @@ import json
 import re
 import asyncio
 import aiohttp
-from aiohttp import web as aiohttp_web
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -61,13 +60,6 @@ async def _fetch(conflict: str) -> dict:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-async def _start_health_server():
-    app = aiohttp_web.Application()
-    app.router.add_get("/", lambda r: aiohttp_web.Response(text="ok"))
-    runner = aiohttp_web.AppRunner(app)
-    await runner.setup()
-    await aiohttp_web.TCPSite(runner, "0.0.0.0", 8080).start()
-    print("[bot] Health check server listening on :8080")
 
 _SENTIMENT_EMOJI = {
     "escalating": "🔴",
@@ -257,7 +249,6 @@ async def on_ready():
     print(f"[bot] Loaded config: {_cfg}")
 
 async def main():
-    await _start_health_server()
     async with bot:
         await bot.start(DISCORD_TOKEN)
 
