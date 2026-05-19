@@ -1,7 +1,7 @@
 import os
 import json
 import re
-import aiohttp
+from aiohttp import web as aiohttp_web
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -50,6 +50,7 @@ def _conflict_for_channel(guild_id: int, channel_id: int) -> str | None:
     return None
 
 async def _fetch(conflict: str) -> dict:
+    import aiohttp
     try:
         async with aiohttp.ClientSession() as s:
             async with s.get(DATA_URLS[conflict], timeout=aiohttp.ClientTimeout(total=10)) as r:
@@ -58,6 +59,14 @@ async def _fetch(conflict: str) -> dict:
     except Exception as e:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
+
+async def _start_health_server():
+    app = aiohttp_web.Application()
+    app.router.add_get("/", lambda r: aiohttp_web.Response(text="ok"))
+    runner = aiohttp_web.AppRunner(app)
+    await runner.setup()
+    await aiohttp_web.TCPSite(runner, "0.0.0.0", 8080).start()
+    print("[bot] Health check server listening on :8080")
 
 _SENTIMENT_EMOJI = {
     "escalating": "🔴",
@@ -243,6 +252,7 @@ async def prefix_summary(ctx: commands.Context):
 async def on_ready():
     _load()
     await bot.tree.sync()
+    await _start_health_server()
     print(f"[bot] Ready — logged in as {bot.user}")
     print(f"[bot] Loaded config: {_cfg}")
 
