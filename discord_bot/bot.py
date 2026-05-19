@@ -1,5 +1,6 @@
 import os
 import json
+import re
 import aiohttp
 import discord
 from discord import app_commands
@@ -67,6 +68,8 @@ _SENTIMENT_EMOJI = {
     "calm":       "🔵",
 }
 
+_SOURCE_RE = re.compile(r'\s*\(Source:[^)]+\)', re.IGNORECASE)
+
 def _intensity_color(intensity: int) -> int:
     if intensity >= 8:
         return 0xef4444
@@ -96,17 +99,43 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
 
     embed = discord.Embed(
         title=f"{icon}  {label} — Latest Updates",
-        description=exec_summary[:4096] or None,
+        description=f"*{exec_summary}*" if exec_summary else None,
         color=color,
         timestamp=ts or datetime.now(timezone.utc),
     )
 
+    # Conflict-specific stats block
+    if conflict == "ukraine":
+        missiles = data.get("missiles") or 0
+        drones = data.get("drones") or 0
+        if missiles or drones:
+            parts = []
+            if missiles:
+                parts.append(f"🚀 **{missiles}** missiles launched")
+            if drones:
+                parts.append(f"🛸 **{drones}** Shahed/UAVs launched")
+            embed.add_field(name="Last 24h — Attack Overview", value="\n".join(parts), inline=False)
+    elif conflict == "middle_east":
+        red_alerts = data.get("red_alerts") or 0
+        if red_alerts:
+            embed.add_field(name="🚨 Red Alert Activations", value=f"**{red_alerts}** alerts in the last 24h", inline=False)
+
+    # Key points — strip inline (Source: ...) citations so bullets stay clean
     points = data.get("key_points") or []
     if points:
         nums = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"]
-        lines = [f"{nums[i] if i < len(nums) else f'{i+1}.'} {p}" for i, p in enumerate(points[:10])]
-        embed.add_field(name="Key Developments", value="\n".join(lines)[:1024], inline=False)
+        lines = []
+        total = 0
+        for i, p in enumerate(points[:10]):
+            clean = _SOURCE_RE.sub("", p).strip()
+            line = f"{nums[i] if i < len(nums) else f'{i+1}.'} {clean}"
+            if total + len(line) + 1 > 1020:
+                break
+            lines.append(line)
+            total += len(line) + 1
+        embed.add_field(name="Key Developments", value="\n".join(lines), inline=False)
 
+    # Clickable source links (cited channels only)
     urls: dict = data.get("cited_post_urls") or data.get("recent_post_urls") or {}
     if urls:
         links = "  ·  ".join(f"[{ch}]({url})" for ch, url in list(urls.items())[:8])
