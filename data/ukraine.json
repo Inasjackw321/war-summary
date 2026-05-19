@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-19T01:35:30.456633+00:00",
-  "message_count": 303,
+  "updated_at": "2026-05-19T04:13:15.678215+00:00",
+  "message_count": 299,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,73 +14,73 @@
   "red_alerts": 546,
   "red_alerts_timeline": [
     0,
-    19,
-    56,
-    19,
-    37,
-    19,
-    37,
-    37,
-    37,
+    60,
     0,
-    37,
-    19,
-    19,
+    40,
+    40,
+    20,
+    40,
+    20,
+    20,
+    40,
     0,
     0,
     0,
     0,
-    56,
-    19,
-    19,
-    37,
-    19,
+    40,
+    40,
+    20,
+    40,
+    20,
     0,
-    37
+    0,
+    60,
+    20,
+    0
   ],
   "combined_activity_timeline": [
-    4,
-    8,
-    13,
-    11,
-    20,
-    16,
-    17,
-    20,
-    11,
-    9,
-    17,
-    17,
-    12,
-    16,
-    16,
-    11,
     6,
+    22,
+    15,
+    15,
+    22,
+    11,
+    11,
+    15,
+    20,
+    10,
+    16,
+    17,
+    12,
+    7,
     9,
+    10,
     14,
+    11,
     12,
     10,
-    13,
-    10,
-    10
+    4,
+    14,
+    9,
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 61,
-    "@kpszsu": 25,
+    "@eRadarrua": 58,
+    "@kpszsu": 23,
     "@mon1tor_ua": 16,
     "@UkraineNow": 19,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 151
+    "@tass_agency": 152
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92529",
-    "kpszsu": "https://t.me/kpszsu/62222",
+    "eRadarrua": "https://t.me/eRadarrua/92533",
+    "kpszsu": "https://t.me/kpszsu/62227",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66834",
     "UkraineNow": "https://t.me/UkraineNow/81302",
     "DeepStateUA": "https://t.me/DeepStateUA/23516",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30264",
-    "tass_agency": "https://t.me/tass_agency/376463"
+    "tass_agency": "https://t.me/tass_agency/376478"
   },
   "media": [
     {
@@ -88,18 +88,6 @@
       "post_id": 376442,
       "channel": "tass_agency",
       "ts": "2026-05-18T22:38:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/376437",
-      "post_id": 376437,
-      "channel": "tass_agency",
-      "ts": "2026-05-18T21:44:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/376434",
-      "post_id": 376434,
-      "channel": "tass_agency",
-      "ts": "2026-05-18T21:15:21+00:00"
     },
     {
       "post_url": "https://t.me/eRadarrua/92520",
@@ -130,6 +118,12 @@
       "ts": "2026-05-18T19:07:20+00:00"
     },
     {
+      "post_url": "https://t.me/tass_agency/376423",
+      "post_id": 376423,
+      "channel": "tass_agency",
+      "ts": "2026-05-18T18:46:01+00:00"
+    },
+    {
       "post_url": "https://t.me/eRadarrua/92487",
       "post_id": 92487,
       "channel": "eRadarrua",
@@ -138,10 +132,16 @@
       "companion_text_id": 92486
     },
     {
-      "post_url": "https://t.me/tass_agency/376411",
-      "post_id": 376411,
+      "post_url": "https://t.me/tass_agency/376420",
+      "post_id": 376420,
       "channel": "tass_agency",
-      "ts": "2026-05-18T15:58:01+00:00"
+      "ts": "2026-05-18T18:01:04+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/376419",
+      "post_id": 376419,
+      "channel": "tass_agency",
+      "ts": "2026-05-18T17:36:01+00:00"
     },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30257",
@@ -226,26 +226,99 @@
     "kpszsu/62173": "data/media/kpszsu_62173.jpg",
     "kpszsu/62172": "data/media/kpszsu_62173.jpg"
   },
-  "summary": "Summary unavailable.",
-  "key_points": [],
-  "sentiment": "unknown",
-  "intensity": 5,
-  "sections": {},
+  "summary": "Ukraine faced a massive combined airstrike on 18 May, with 22 Iskander‑K missiles and 524 Shahed‑type UAVs targeting Dnipro, Dnipropetrovsk, Odesa, Chernihiv and Zaporizhzhia, of which Ukrainian air defenses downed 4 missiles and 503 UAVs. Russian forces reported extensive UAV losses (108) and continued strikes on Odessa, Kryvyi Rih, Dnipro and other cities, while also claiming captures and infrastructure attacks in Kharkiv and Belgorod regions. Ukraine announced the fielding of its first domestically‑produced guided aerial bomb, enhancing its strike capability.",
+  "key_points": [
+    "Massive Russian UAV and missile barrage on 18 May, 22 Iskander‑K missiles and 524 Shahed‑type UAVs.",
+    "Ukrainian air defenses downed 4 missiles and 503 UAVs, plus 108 drones reported shot down by Russian MoD.",
+    "Russian strikes hit Odessa, Kryvyi Rih, Dnipro, Starokostiantyniv, Rivne, Kirovohrad and Kremenchuk.",
+    "Ukrainian forces reported UAV activity in Black Sea, Chernihiv, Sumy, Kharkiv, Kharkiv, and Odesa oblasts.",
+    "Russia claimed capture of Borovaya village in Kharkiv region and damage to a dam near Konstantinovka.",
+    "Belgorod villages Otradnoe and Nezhegol hit by Ukrainian FPV drones, causing civilian injuries and a fatality.",
+    "Ukraine unveiled its first indigenous guided aerial bomb (250 kg warhead) ready for combat use."
+  ],
+  "sentiment": "escalating",
+  "intensity": 8,
+  "sections": {
+    "executive_summary": "On 18 May Russia launched a coordinated strike employing 22 Iskander‑K ballistic missiles and over 500 Shahed‑type UAVs across Dnipro, Odesa, Chernihiv and Zaporizhzhia, overwhelming Ukrainian air defenses which managed to down 4 missiles and 503 UAVs. Simultaneously, Russian forces continued high‑tempo operations, reporting 108 downed drones, strikes on multiple Ukrainian cities, and the capture of Borovaya village, while Ukraine announced a new domestically‑produced guided aerial bomb to bolster its offensive capability.",
+    "ukraine": {
+      "points": [
+        "Ukrainian air defense units intercepted 4 Iskander‑K missiles launched from Crimea and Rostov region, preventing further damage in Dnipro and surrounding areas (Source: @kpszsu/62173).",
+        "Ukrainian forces reported multiple UAV sightings: a group over the Black Sea heading south of Odesa (Source: @kpszsu/62212); Shahed and Gerbera drones near Chernihiv, Sumy (Shostka), and Kharkiv oblasts (Source: @kpszsu/62194, @kpszsu/62215, @kpszsu/62224).",
+        "In the Sumy direction, Ukrainian assault groups of the North Army Corps engaged Russian combat groups near Shostka, capturing four soldiers of the 101st Territorial Defense Brigade (Source: @ukr_leaks_eng/30241).",
+        "Ukrainian troops repelled a UAV attack on the Belgorod border village of Otradnoe, where a civilian suffered head and leg injuries (Source: @ukr_leaks_eng/30241).",
+        "Ukraine announced the deployment of its first domestically‑designed guided aerial bomb with a 250 kg warhead, capable of striking fortified targets up to tens of kilometres (Source: @DeepStateUA/23515)."
+      ]
+    },
+    "russia": {
+      "points": [
+        "The Russian Ministry of Defense reported shooting down 108 enemy drones across the day of 18 May, indicating intense aerial contest (Source: @ukr_leaks_eng/30241).",
+        "Russian forces launched 22 Iskander‑K missiles and 524 Shahed‑type UAVs from launch sites in Bryansk, Kursk, Oryol, Millerovo, Donetsk‑controlled territories and Crimea, targeting Dnipro, Odesa, Chernihiv and Zaporizhzhia (Source: @kpszsu/62173).",
+        "Russian troops claimed the capture of the village of Borovaya on the left bank of the Oskol River in Kharkiv region, aiming to close a large pocket (Source: @ukr_leaks_eng/30241).",
+        "In Belgorod oblast, Ukrainian FPV drones struck a car in Otradnoe (causing head injury) and a cargo truck in Nezhegol, killing the driver (Source: @ukr_leaks_eng/30241).",
+        "Russian forces bombed a dam northwest of Konstantinovka, intending to flood the area and hinder Ukrainian logistics (Source: @ukr_leaks_eng/30241)."
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Ukrainian UAV groups were observed over the Black Sea heading toward southern Odesa, suggesting reconnaissance or strike preparation (Source: @kpszsu/62212).",
+        "In the Sumy direction, Ukrainian assault groups advanced up to 150 m near the village of Granovo and engaged Russian forces in forested areas of Volchansk district (Source: @ukr_leaks_eng/30241).",
+        "Russian strikes hit Dnipro and Dnipropetrovsk regions, with multiple missile and UAV impacts recorded across 34 locations (Source: @kpszsu/62173).",
+        "Ukrainian forces reported UAV activity near Kharkiv villages Zapselye and Kondratovka, indicating ongoing contest for airspace (Source: @ukr_leaks_eng/30241).",
+        "Russian artillery and UAV attacks continued in the Kharkiv region, with reports of skirmishes near Ray‑Aleksandrovka and Budarki (Source: @ukr_leaks_eng/30241)."
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Ukrainian UAV sightings were reported in Chernihiv oblast, including a radar‑detected object over the city (Source: @mon1tor_ua/66824).",
+        "Russian air activity warnings were issued for the north‑east and east sectors, indicating possible tactical aviation operations (Source: @kpszsu/62194).",
+        "Ukrainian forces claimed destruction of several Russian combat groups in the Shostka district of Sumy, capturing four enemy soldiers (Source: @ukr_leaks_eng/30241).",
+        "Ukrainian radar detected a Shahed UAV over Brovary heading toward Troieshchyna, highlighting continued low‑altitude threats near Kyiv (Source: @mon1tor_ua/66827).",
+        "Ukrainian air defense reported downing of 503 UAVs across the northern theater as part of the 18 May combined attack (Source: @kpszsu/62173)."
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Russian missile and UAV strikes targeted Odesa, Kryvyi Rih, Dnipro, Starokostiantyniv, Rivne, Kirovohrad and Kremenchuk, causing infrastructure damage (Source: @ukr_leaks_eng/30241).",
+        "Ukrainian UAV activity was reported in Odesa region, including groups between Kazanka and Kryvyi Rih and near Apostolove (Source: @eRadarrua/92531).",
+        "Russian forces claimed attacks on Ukrainian energy infrastructure in Zaporizhzhia and Kherson, though no territorial changes were noted (Source: @ukr_leaks_eng/30241).",
+        "Ukrainian defense reported a Shahed UAV over Chernihiv, indicating the southern front’s extended reach (Source: @mon1tor_ua/66824).",
+        "Ukrainian forces continued to intercept UAVs over the Black Sea corridor, protecting southern supply routes (Source: @kpszsu/62212)."
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Ukrainian air defenses downed 4 Iskander‑K missiles and 503 Shahed‑type UAVs during the 18 May barrage, demonstrating high‑capacity SAM performance (Source: @kpszsu/62173).",
+        "Russian MoD reported shooting down 108 enemy drones throughout the day, reflecting intense aerial contest (Source: @ukr_leaks_eng/30241).",
+        "Ukrainian tactical aviation activity was warned in the north‑east and east sectors, suggesting possible strike missions (Source: @kpszsu/62194).",
+        "Russian forces claimed destruction of a Ukrainian SAU “Gvozdika” and BTR on the Dobropillia direction (Source: @tass_agency/376465).",
+        "Ukrainian forces deployed a new 250 kg guided aerial bomb, expanding strike options beyond imported systems (Source: @DeepStateUA/23515)."
+      ]
+    },
+    "key_developments": [
+      "Russia launched 22 Iskander‑K ballistic missiles and 524 Shahed‑type UAVs against Dnipro, Odesa, Chernihiv and Zaporizhzhia, overwhelming Ukrainian air defenses (Source: @kpszsu/62173).",
+      "Ukrainian air defenses intercepted 4 missiles and shot down 503 UAVs during the same attack, limiting damage (Source: @kpszsu/62173).",
+      "The Russian Ministry of Defense reported downing 108 Ukrainian drones on 18 May, indicating high aerial activity (Source: @ukr_leaks_eng/30241).",
+      "Russian forces claimed capture of Borovaya village on the Oskol River, aiming to close a large pocket in Kharkiv region (Source: @ukr_leaks_eng/30241).",
+      "Ukrainian UAV groups were observed over the Black Sea heading south of Odesa, suggesting reconnaissance or strike preparation (Source: @kpszsu/62212).",
+      "Ukrainian forces reported destroying several Russian combat groups in Shostka district, capturing four enemy soldiers (Source: @ukr_leaks_eng/30241).",
+      "Ukraine unveiled its first domestically‑produced guided aerial bomb (250 kg warhead) ready for combat deployment (Source: @DeepStateUA/23515)."
+    ],
+    "threat_assessment": "Russia continues to employ high‑volume missile and UAV salvos, leveraging Iskander‑K and Shahed platforms to strain Ukrainian air defenses across multiple fronts. Ukrainian SAM and anti‑UAV systems have shown resilience, downing the majority of incoming threats, but the sheer volume indicates a sustained Russian intent to degrade command, control and logistics. The introduction of Ukraine's indigenous guided bomb adds a new precision strike capability that could challenge Russian rear‑area assets and complicate their operational planning.",
+    "regional_response": "Western partners are likely to increase air‑defense aid, focusing on longer‑range interceptors to counter ballistic missile threats. NATO states may accelerate delivery of advanced SAM systems and electronic warfare suites to bolster Ukrainian resilience. Russia may seek to augment its UAV production and diversify launch sites to sustain pressure, while also exploiting captured territories for logistical depth.",
+    "intelligence_notes": "Monitoring of launch sites in Crimea and Rostov oblast remains critical for early warning of Iskander strikes. UAV flight paths over the Black Sea suggest potential targeting of maritime supply lines; maritime domain awareness should be heightened. The operational debut of Ukraine's guided bomb warrants close observation for deployment patterns and target selection, as it may shift the balance in contested rear‑area engagements."
+  },
   "missiles": 22,
   "drones": 524,
   "kpszsu_timeline": [
-    1,
-    1,
-    1,
-    1,
-    3,
+    0,
+    4,
     2,
     0,
     0,
     0,
     0,
-    2,
     1,
+    2,
     0,
     0,
     1,
@@ -253,10 +326,13 @@
     0,
     1,
     3,
+    0,
+    2,
+    4,
     1,
     1,
-    5,
     1,
+    0,
     0
   ]
 }
