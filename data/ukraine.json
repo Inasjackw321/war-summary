@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-20T20:42:24.812751+00:00",
+  "updated_at": "2026-05-20T21:11:27.145880+00:00",
   "message_count": 350,
   "channels": [
     "eRadarrua",
@@ -23,7 +23,7 @@
     0,
     0,
     0,
-    0,
+    1,
     1,
     0,
     1,
@@ -39,56 +39,70 @@
     0
   ],
   "combined_activity_timeline": [
-    11,
-    21,
-    6,
-    4,
-    6,
-    4,
-    5,
-    10,
-    12,
-    18,
-    22,
-    24,
-    19,
-    22,
+    13,
     17,
+    4,
+    6,
+    6,
+    1,
+    8,
+    13,
+    13,
+    20,
+    24,
     21,
-    28,
-    22,
     19,
-    12,
+    22,
+    18,
+    25,
+    27,
+    21,
     16,
     13,
-    8,
-    8
+    14,
+    10,
+    9,
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 69,
+    "@eRadarrua": 70,
     "@kpszsu": 41,
     "@mon1tor_ua": 24,
     "@UkraineNow": 21,
     "@DeepStateUA": 5,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 165
+    "@tass_agency": 164
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92796",
+    "eRadarrua": "https://t.me/eRadarrua/92799",
     "kpszsu": "https://t.me/kpszsu/62341",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66866",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66877",
     "UkraineNow": "https://t.me/UkraineNow/81357",
     "DeepStateUA": "https://t.me/DeepStateUA/23526",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30322",
-    "tass_agency": "https://t.me/tass_agency/376794"
+    "tass_agency": "https://t.me/tass_agency/376795"
   },
   "cited_post_urls": {
+    "eRadarrua": "https://t.me/eRadarrua/92799",
     "kpszsu": "https://t.me/kpszsu/62341",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66866",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66877",
     "UkraineNow": "https://t.me/UkraineNow/81357",
-    "DeepStateUA": "https://t.me/DeepStateUA/23526"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30322",
+    "tass_agency": "https://t.me/tass_agency/376795"
   },
   "media": [
+    {
+      "post_url": "https://t.me/mon1tor_ua/66866",
+      "post_id": 66866,
+      "channel": "mon1tor_ua",
+      "ts": "2026-05-20T20:29:47+00:00"
+    },
+    {
+      "post_url": "https://t.me/mon1tor_ua/66865",
+      "post_id": 66865,
+      "channel": "mon1tor_ua",
+      "ts": "2026-05-20T20:21:18+00:00"
+    },
     {
       "post_url": "https://t.me/mon1tor_ua/66861",
       "post_id": 66861,
@@ -108,16 +122,17 @@
       "ts": "2026-05-20T19:57:07+00:00"
     },
     {
-      "post_url": "https://t.me/mon1tor_ua/66857",
-      "post_id": 66857,
-      "channel": "mon1tor_ua",
-      "ts": "2026-05-20T19:52:18+00:00"
-    },
-    {
       "post_url": "https://t.me/DeepStateUA/23526",
       "post_id": 23526,
       "channel": "DeepStateUA",
       "ts": "2026-05-20T19:48:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/92784",
+      "post_id": 92784,
+      "channel": "eRadarrua",
+      "ts": "2026-05-20T19:27:52+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/VmfxRwKn-iG4v1z_WbBq6WD2DJmM-wDP2WKh9OfzPyRrxcx09HTIYz0PdzjQ14dRpOOvIXysZ7ftw4AyjpSZYeSTXt8xHzEt00z8R_jrKYHseX8TG3OEnEp7H3qmSpH6Gm2QpZOg7_f_0y-ZWBYFqAVa3gIebSs9CqFb2tACGh_4MjRqavqON9q4ThxertTHCTigqRUuopcGWfoTFQy_p26bm4GxBfb_EuQvs5RVqr8OMfzV5O8BN6mpu-2ZJGC0GAwCPqEvNG31-vzP07VR8GZ5EeMhFTmrkyKAkB8CGkIudMyr0rg4ptIavWXpN-eg9QDpT-V2o3_KsGCFcdm3VA.jpg"
     },
     {
       "post_url": "https://t.me/eRadarrua/92782",
@@ -148,22 +163,6 @@
       "post_id": 376787,
       "channel": "tass_agency",
       "ts": "2026-05-20T17:49:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/92778",
-      "post_id": 92778,
-      "channel": "eRadarrua",
-      "ts": "2026-05-20T17:48:54+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/oxoDdoTM-RJnaZyz3KIzxUsGJ3PkIXlmPvoKbngzjzyiUOwr66Bz6zshVzvE8uRPzdL6kOmaIiLNcIOkV3U06d3_AW4f4wXc1XADSdJEksQoP1vtMrGemKPexgLutO-bibAzPiRfvIPJArs_5wggKHNj0a0nPHKFOTdntQbdyy7XCvzfoPxYgssihJYzaQlNinpO-F4_t0tJ5Ce0DcT_DxxvcdaA84K2jRGmIQKX3ZlmiZ6p6hw6lvC6UJTxOOaR1Crx9AbOsmDQwDZRoK4L7gaQqQ6Qpw6Sn_wLicNPnb24cqj9z-5iTUhr2ZpTeynK6hBhwNyN8eCPON_4QjGZyA.jpg",
-      "companion_text_id": 92777
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/92777",
-      "post_id": 92777,
-      "channel": "eRadarrua",
-      "ts": "2026-05-20T17:47:42+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/lKqj6W13q8fOXEdl5ONnAU2tO5Yi0Jaj4bWhfErP-qcvoiQFh0wcXbEjPYDJ-wr2Ko6eymNIOkR7ThJnpG5jUcCo6wUQfB5RxfwBxwxN-fpuHCzVmm3FYGHJbHr0HpC1NtA3MPS8BnzwsHSE8s_qxaDNvyj8bmHkwTI7inmX-AW5kEpwjzF-U-04tgF7RFZ_jKxKX_DRWsB9L6GZLDhTdaECvA1-N61827PSekTp0Xrnu53cN4xV7ULhrrBT3aLUtd3mvT8gOKufcMJ--PIuwZzHanKXhV4g6OTGMZec_6xWE2Tb0t8v1KUtMAfxQOPFFpnmaHmhRw1LFueLvkifSA.jpg",
-      "companion_text_id": 92776
     },
     {
       "post_url": "https://t.me/tass_agency/376784",
@@ -202,6 +201,14 @@
       "ts": "2026-05-20T16:02:46+00:00"
     },
     {
+      "post_url": "https://t.me/eRadarrua/92760",
+      "post_id": 92760,
+      "channel": "eRadarrua",
+      "ts": "2026-05-20T15:38:52+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/mkdSDuvFR7CY9GQGTxbbs8IiVybpkabIcn56xg-_pCN2M_Ruk3sr-k_9ltccMxhzjB9VP-MsNpiXJlFAcb2Osf6zLwd1R6Xh3C6DLJpfAbUorwDDmz3QkxAi2A8hCm6xHmLn-_gFfMgDcgsIhGTn2ihIdj4UG_WOIRrIaUtXoZPGckekw7WvDCGw3wmFT0ORkjdCLMZO99KegAiYYVCIs5w4dSkk6myMEfoqd9K8XK9xSRx218Qf8jqAY9bX___otI3AMu6ES9d3jUcYPCVbsAk4O9tnKm0ubG4R3QUBQBjrQIRbcA1Sg1a1eWUbQQHhNRpNIrYEGSdDvrPb2yxbHg.jpg",
+      "companion_text_id": 92761
+    },
+    {
       "post_url": "https://t.me/DeepStateUA/23523",
       "post_id": 23523,
       "channel": "DeepStateUA",
@@ -213,111 +220,124 @@
       "channel": "kpszsu",
       "ts": "2026-05-20T14:27:02+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/pXI40anqYJgDBVl2gZJECqWIzWdFEUy3dThMWlkm0DXTCTLvizKXeBP9Iie24pS0hV5Txdc-7-jWWmH8BLvY87O4afkemqqtFJMMMdJcH43YOV7Z4x6wxS_gvhaCnE3T1833ZjWcaxJ9mp1eMfeNPJDv5cfm_BOp1-I2c6wQfI_QoEOAknpfF565aKtV3DxOGrb0iJAckyATYU5mP2D8uiUSqh5WKYq04XJEGspzvDLDN-ALAgUl_BC4TQCZc4IMLN6xjKYhfcQWsoYHcGV26oBwrEWiqXrSWx1NGITlqWhHnujuqVbgOLBomvLEMvAFcKZqofz87POsv2NrBZi8RQ.jpg"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30316",
-      "post_id": 30316,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-05-20T14:24:57+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/92777": "data/media/eRadarrua_92777.jpg",
-    "eRadarrua/92776": "data/media/eRadarrua_92777.jpg",
-    "eRadarrua/92778": "data/media/eRadarrua_92778.jpg",
     "eRadarrua/92779": "data/media/eRadarrua_92779.jpg",
+    "eRadarrua/92778": "data/media/eRadarrua_92779.jpg",
     "eRadarrua/92781": "data/media/eRadarrua_92781.jpg",
     "eRadarrua/92782": "data/media/eRadarrua_92782.jpg",
+    "eRadarrua/92784": "data/media/eRadarrua_92784.jpg",
+    "eRadarrua/92760": "data/media/eRadarrua_92760.jpg",
+    "eRadarrua/92761": "data/media/eRadarrua_92760.jpg",
     "kpszsu/62328": "data/media/kpszsu_62328.jpg",
     "kpszsu/62285": "data/media/kpszsu_62285.jpg"
   },
-  "summary": "Ukrainian forces report multiple Shahed drone attacks across the front, with 75 drones downed on May 20, while Russian tactical aviation continues strikes in Sumy and the south. Ukrainian special forces claim a successful clearance operation in Stepanivka, consolidating control on the Zaporizhzhia front. Russian oil infrastructure in the Nizhny Novgorod region suffered a repeat drone strike, highlighting ongoing strategic targeting of energy assets.",
+  "summary": "Ukrainian forces have intensified Shahed drone attacks across multiple fronts, striking Odessa, Kherson, and central regions, while Russian air defenses report high drone interception rates. Major oil refineries in central Russia, including Kirishi, have been halted following Ukrainian strikes, reducing Russian fuel output by roughly a quarter. Russian military statements highlight heightened nuclear readiness and continued training with Iskander missiles, underscoring a broader escalation.",
   "key_points": [
-    "Ukrainian air defenses shot down 75 Shahed, Gerbera, and Iltamass drones across east, north and south on 20 May, confirming high‑intensity UAV attacks (kpszsu/62328).",
-    "Russian tactical aviation launched repeated guided bomb strikes on Sumy region, indicating sustained pressure on northern supply lines (kpszsu/62335).",
-    "Ukrainian special forces cleared Stepanivka on the Zaporizhzhia front, eliminating entrenched Russian units and improving sector stability (DeepStateUA/23525).",
-    "A repeat drone attack hit the Lukoil refinery in Nizhny Novgorod region, causing explosions and fire, underscoring vulnerability of Russian fuel production (UkraineNow/81329).",
-    "Multiple Shahed drones reported inbound to key cities: 21 targeting Odesa, 6 from Kherson to Mykolaiv, and several heading toward Kropyvnytskyi, Kryvyi Rih, and Zhytomyr (mon1tor_ua/66843, mon1tor_ua/66844, mon1tor_ua/66853).",
-    "Ukrainian radar reports a ballistic Iskander‑M launch threat from Taganrog, Rostov region, raising concerns of long‑range strike capability (mon1tor_ua/66839).",
-    "Ukrainian reconnaissance notes Shahed movement from Sumy toward Baturyn and from Kharkiv toward Karavan, indicating possible targeting of logistics hubs (eRadarrua/92782, kpszsu/62326).",
-    "No aerial threat reported over Kyiv for the night, suggesting a temporary lull in capital‑area attacks (mon1tor_ua/66858)."
+    "Ukrainian Shahed drones attacked Odessa (21 missiles) and Kherson-Mykolaiv corridor (6 missiles) within minutes, prompting intensive air‑defence alerts.",
+    "Russian‑controlled oil refineries in Moscow, Ryazan, Yaroslavl, Nizhny Novgorod and Kirishi (halted since May 5) lost over 83 million tonnes annual capacity.",
+    "Russian Defence Ministry announced forces achieving highest combat readiness for nuclear weapons and Iskander missile drills.",
+    "Multiple UAV groups reported over Chernihiv, Kyiv, Vinnytsia and Kharkiv regions, moving toward Zhytomyr, Kropyvnytskyi and Barvinkove.",
+    "Shahed missiles launched from the north targeted Kremenchuk and Cherkasy districts, while one struck near Kryvyi Rih.",
+    "Russian air‑defence claimed downing 651 enemy drones, including attacks on Nevinnomyssk refinery and industrial zones in Stavropol.",
+    "Ukrainian forces advanced up to 600 m on the Sumy front in 19 sectors, clearing basements in Zapsselie.",
+    "Belarus‑border offensive preparations noted by Zelensky, citing Russian plans for a northern Ukraine thrust from Chernigov‑Kiev direction."
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian air defenses downed 75 hostile drones on 20 May, reflecting intense UAV activity across multiple fronts. Ukrainian special forces secured Stepanivka on the Zaporizhzhia front, weakening Russian footholds. Russian energy infrastructure faced a repeat drone strike in Nizhny Novgorod, highlighting ongoing strategic targeting.",
+    "executive_summary": "Ukrainian Shahed drone swarms struck Odessa (21 missiles) and the Kherson‑Mikolaiv corridor (6 missiles), overwhelming local air‑defences. Simultaneously, Ukrainian strikes have forced the shutdown of major Russian oil refineries, cutting roughly 25‑30% of fuel output. Russian military communications stress heightened nuclear readiness and Iskander missile training, indicating a broader escalation across multiple fronts.",
     "ukraine": {
       "points": [
-        "Ukrainian anti‑air units engaged and destroyed 75 Shahed, Gerbera, Iltamass and imitation drones across eastern, northern and southern sectors on 20 May, confirming high‑intensity UAV attacks (kpszsu/62328).",
-        "Special forces of the Main Intelligence Directorate (GUR) conducted a clearance operation in Stepanivka, Zaporizhzhia front, eliminating entrenched Russian fighters and stabilizing the area (DeepStateUA/23525).",
-        "Ukrainian radar reported inbound Shahed drones: 21 targeting Odesa, 6 from Kherson heading to Mykolaiv, and additional units moving toward Kropyvnytskyi, Kryvyi Rih, and Zhytomyr, prompting local alerts (mon1tor_ua/66843, mon1tor_ua/66844, mon1tor_ua/66853).",
-        "No aerial threats were detected over Kyiv for the night, indicating a temporary lull in capital‑area attacks (mon1tor_ua/66858).",
-        "Ukrainian reconnaissance noted a Shahed heading from Sumy toward Baturyn and another from Kharkiv toward Karavan, suggesting potential strikes on logistics nodes (eRadarrua/92782, kpszsu/62326)."
+        "Shahed drones launched 21 missiles at Odessa, causing multiple explosions and prompting emergency air‑defence activation; civilian casualties unconfirmed (Source: @mon1tor_ua/66843).",
+        "Six Shahed missiles fired from the south targeted the Kherson‑Mikolaiv axis, with one striking near Kremenchuk and another heading toward Cherkasy (Source: @mon1tor_ua/66844).",
+        "Ukrainian UAV groups reported over Chernihiv (near Rypky, Borzna, Bakhmach) and Kyiv regions, moving southward toward Zhytomyr, indicating coordinated reconnaissance and strike capability (Source: @eRadarrua/92742).",
+        "On the Sumy direction, Ukrainian assault units of the North Army Group advanced up to 600 m in nineteen sectors, clearing basements in Zapsselie (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian forces reported a 600‑meter gain on the East‑Zaporizhia front, aiming to liberate Verkhnya Tersa, Vozdvizhevka and Komsomolskoe (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian drones targeted the industrial zone of Nevinnomyssk in Stavropol, while Russian reports claim 651 enemy drones were downed overall (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian UAVs observed over central Kharkiv moving toward Barvinkove, and over southern Kharkiv heading to Karavan, indicating pressure on logistics corridors (Source: @kpszsu/62326).",
+        "Ukrainian intelligence highlighted Russian plans for a northern offensive from Belarus toward Chernigov‑Kiev, warning of potential escalation (Source: @ukr_leaks_eng/30315)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation conducted repeated guided‑bomb sorties on Sumy region, sustaining pressure on Ukrainian northern supply routes (kpszsu/62335).",
-        "A repeat drone strike hit the Lukoil refinery in Nizhny Novgorod region, causing explosions and fire, demonstrating vulnerability of Russian fuel production (UkraineNow/81329).",
-        "Russian forces faced increased Ukrainian drone activity, with multiple Shahed units reported heading toward key Ukrainian cities, potentially stretching Russian air‑defence resources (kpszsu/62328).",
-        "Russian ballistic missile threat from Taganrog (Iskander‑M) was reported, indicating possible long‑range strike planning against Ukrainian targets (mon1tor_ua/66839).",
-        "Russian logistics suffered setbacks as major Russian refineries in central Russia reported shutdowns after Ukrainian attacks, reducing fuel output by roughly 30% of national capacity (UkraineNow/81355)."
+        "Russian Defence Ministry announced forces achieving the highest level of combat readiness for nuclear weapons and ongoing Iskander missile drills (Source: @tass_agency/376783).",
+        "Russian air‑defence forces reported shooting down 651 enemy drones, including attacks on the Nevinnomyssk refinery and multiple districts in Leningrad, Tula and Belgorod regions (Source: @ukr_leaks_eng/30306).",
+        "Russian oil sector suffered major setbacks as refineries in Moscow, Ryazan, Yaroslavl, Nizhny Novgorod and Kirishi were halted, removing over 83 million tonnes of capacity (Source: @UkraineNow/81355).",
+        "Russian forces claimed to have repelled a Shahed attack on the industrial zone of Nevinnomyssk, preventing damage to critical infrastructure (Source: @ukr_leaks_eng/30306).",
+        "In the Kupyansk direction, Russian troops continued offensive actions on the east bank of the Oskol River, attempting to break Ukrainian defenses (Source: @ukr_leaks_eng/30306).",
+        "Russian units reported using heavy firepower to disrupt Ukrainian logistics in the Dobropillia sector, with ongoing battles for Vasilevka and Mirnye (Source: @ukr_leaks_eng/30306).",
+        "Russian reports indicated a drone strike on a truck in Belgorod’s Chapayevsky‑Khotmyzhsk highway, causing a civilian injury (Source: @ukr_leaks_eng/30306).",
+        "Russian military statements referenced preparation of special ammunition for Iskander systems, suggesting an emphasis on precision strike capability (Source: @tass_agency/376783)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces downed 75 drones over the eastern sector, including Shahed and Gerbera types, confirming intense aerial contest (kpszsu/62328).",
-        "Russian tactical bombers launched guided‑bomb attacks on Sumy, targeting Ukrainian positions and infrastructure (kpszsu/62335).",
-        "Shahed drones were observed moving from Sumy toward Baturyn and from Kharkiv toward Karavan, indicating potential strike vectors on eastern supply lines (eRadarrua/92782, kpszsu/62326).",
-        "Ukrainian radar reported a Shahed heading toward Kropyvnytskyi from the south, suggesting cross‑front UAV penetration (mon1tor_ua/66853).",
-        "No significant air threats were reported over Kyiv, implying a shift of Russian aerial focus toward eastern hotspots (mon1tor_ua/66858)."
+        "Ukrainian UAVs observed over eastern Dnipropetrovsk heading toward Chaplyne, indicating reconnaissance ahead of possible ground action (Source: @kpszsu/62323).",
+        "Shahed missiles launched from the north impacted Kremenchuk and Cherkasy districts, with one missile heading toward the Kharkiv region (Source: @mon1tor_ua/66844).",
+        "Ukrainian forces reported a 600‑meter advance on the Sumy front, clearing basements in Zapsselie and pressuring Russian positions (Source: @ukr_leaks_eng/30306).",
+        "Russian reports of heavy artillery use near the Oskol River east of Kupyansk suggest continued offensive pressure on Ukrainian lines (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian drones targeted the industrial zone of Nevinnomyssk in the Stavropol region, a strategic logistics hub for Russian forces (Source: @ukr_leaks_eng/30306).",
+        "Russian air‑defence claimed downing multiple drones over the Leningrad and Tula regions, indicating widespread aerial activity (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian UAVs reported over central Kharkiv moving toward Barvinkove, potentially supporting upcoming offensives (Source: @kpszsu/62326).",
+        "Russian forces reported using special ammunition for Iskander missiles, possibly targeting Ukrainian command posts in the east (Source: @tass_agency/376783)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian radar tracked Shahed drones from Sumy heading toward Baturyn, and from Chernihiv region moving toward Batyryn, indicating northern UAV pressure (eRadarrua/92782).",
-        "Russian tactical aviation continued guided‑bomb strikes in Sumy, maintaining pressure on Ukrainian northern defenses (kpszsu/62335).",
-        "Ukrainian forces reported Shahed movement from Chernihiv toward Holmy, and from Kharkiv toward Barvinkove, showing dispersed northern UAV activity (kpszsu/62283, kpszsu/62326).",
-        "A Shahed was observed heading toward Kremenchuk from the north, potentially targeting central logistics hubs (mon1tor_ua/66844).",
-        "No aerial threats over Kyiv for the night suggest a temporary reduction in northern air attacks (mon1tor_ua/66858)."
+        "Ukrainian UAV groups reported over Chernihiv (Rypky, Borzna, Bakhmach) and Kyiv regions, moving south toward Zhytomyr, indicating pressure on the northern axis (Source: @eRadarrua/92742).",
+        "Shahed missile launched from the north headed toward Kremenchuk, with another targeting the Cherkasy district, showing Russian use of long‑range drones in the north (Source: @mon1tor_ua/66844).",
+        "Zelensky warned of Russian plans for a northern offensive from Belarus toward Chernigov‑Kiev, highlighting potential escalation (Source: @ukr_leaks_eng/30315).",
+        "Ukrainian forces reported a 600‑meter gain on the Sumy front, a key northern sector, clearing entrenched positions (Source: @ukr_leaks_eng/30306).",
+        "Russian air‑defence claimed downing drones over the Belgorod region, close to the Ukrainian border, indicating heightened aerial activity (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian UAVs observed near the northern border of Kharkiv moving toward Barvinkove, suggesting preparation for cross‑border strikes (Source: @kpszsu/62326).",
+        "Russian nuclear readiness statements may affect northern strategic calculations, especially with Belarusian staging areas (Source: @tass_agency/376783).",
+        "Ukrainian drone activity over the Chernihiv‑Kiev corridor could disrupt Russian logistics from Belarus (Source: @eRadarrua/92742)."
       ]
     },
     "southern_front": {
       "points": [
-        "Shahed swarms were reported over Odesa (21 drones) and Mykolaiv region (6 drones), raising immediate threat to southern ports and infrastructure (mon1tor_ua/66843, mon1tor_ua/66844).",
-        "Ukrainian radar noted Shahed heading toward Kryvyi Rih and Zhytomyr from the south, indicating southern penetration toward central Ukraine (mon1tor_ua/66853).",
-        "Russian tactical aviation conducted guided‑bomb strikes in the south, though specific locations were not detailed, suggesting ongoing pressure on Ukrainian positions (kpszsu/62335).",
-        "Ukrainian forces reported a Shahed heading from Kherson toward Mykolaiv, highlighting cross‑border UAV threats (mon1tor_ua/66844).",
-        "No immediate aerial threats over Kyiv suggest Russian focus shifted to southern fronts (mon1tor_ua/66858)."
+        "Six Shahed missiles launched from the south struck the Kherson‑Mikolaiv corridor, with one missile reported near Kremenchuk (Source: @mon1tor_ua/66844).",
+        "Ukrainian UAVs reported over Vinnytsia (Kryzhopil, Shargorod) and Vinnytsia‑adjacent areas, indicating reconnaissance for southern operations (Source: @eRadarrua/92742).",
+        "Russian forces continued offensive actions on the east bank of the Oskol River near Kupyansk, attempting to break Ukrainian defenses (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian attacks on the industrial zone of Nevinnomyssk in Stavropol suggest a southern thrust toward Russian logistical hubs (Source: @ukr_leaks_eng/30306).",
+        "Russian air‑defence reported downing drones over the Belgorod region, close to the southern front, indicating cross‑border aerial threats (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian forces reported advancing on the East‑Zaporizhia front, aiming to capture Verkhnya Tersa and Vozdvizhevka (Source: @ukr_leaks_eng/30306).",
+        "Shahed missile activity near Kropyvnytskyi heading toward Mykolaiv region shows Russian targeting of southern logistics corridors (Source: @mon1tor_ua/66853).",
+        "Ukrainian UAVs observed over southern Kharkiv moving toward Barvinkove, supporting southern pressure (Source: @kpszsu/62326)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defenses shot down 75 hostile drones of various types on 20 May, reflecting intense UAV activity across the theater (kpszsu/62328).",
-        "Russian tactical aviation launched repeated guided‑bomb attacks on Sumy, indicating sustained aerial pressure in the north (kpszsu/62335).",
-        "Multiple Shahed drones were reported inbound to Odesa, Mykolaiv, Kryvyi Rih, Zhytomyr, and Kropyvnytskyi, stretching Ukrainian air‑defence resources (mon1tor_ua/66843, mon1tor_ua/66844, mon1tor_ua/66853).",
-        "A ballistic Iskander‑M launch threat from Taganrog was flagged, suggesting potential long‑range strike capability against Ukrainian targets (mon1tor_ua/66839).",
-        "No aerial threats were detected over Kyiv for the night, indicating a temporary lull in capital‑area air attacks (mon1tor_ua/66858)."
+        "Russian air‑defence claimed 651 enemy drones shot down, including attacks on Nevinnomyssk refinery and multiple districts in Leningrad, Tula and Belgorod (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian Shahed swarms hit Odessa (21 missiles) and Kherson‑Mikolaiv corridor (6 missiles), overwhelming local air‑defence systems (Source: @mon1tor_ua/66843, @mon1tor_ua/66844).",
+        "Ukrainian UAVs reported over central and eastern Ukraine, moving toward strategic targets such as Barvinkove, Karavan and Chaplyne (Source: @kpszsu/62326, @kpszsu/62323).",
+        "Russian forces conducted Iskander missile drills and prepared special ammunition, indicating a focus on precision strike capability (Source: @tass_agency/376783).",
+        "Ukrainian drones attacked the industrial zone of Nevinnomyssk, prompting Russian air‑defence response (Source: @ukr_leaks_eng/30306).",
+        "Shahed missiles launched from the north targeted Kremenchuk and Cherkasy, demonstrating extended-range UAV threat (Source: @mon1tor_ua/66844).",
+        "Russian air‑defence downed drones over the Belgorod highway, preventing damage to civilian transport (Source: @ukr_leaks_eng/30306).",
+        "Ukrainian UAV sightings over Chernihiv, Kyiv and Vinnytsia suggest coordinated aerial surveillance across multiple fronts (Source: @eRadarrua/92742)."
       ]
     },
     "key_developments": [
-      "Ukrainian air defenses downed 75 Shahed, Gerbera and Iltamass drones across east, north and south on 20 May, confirming high‑intensity UAV attacks (Source: @kpszsu/62328).",
-      "Russian tactical aviation conducted repeated guided‑bomb strikes on Sumy region, maintaining pressure on Ukrainian northern logistics (Source: @kpszsu/62335).",
-      "Ukrainian special forces cleared Stepanivka on the Zaporizhzhia front, eliminating entrenched Russian units and improving sector control (Source: @DeepStateUA/23525).",
-      "A repeat drone strike hit the Lukoil refinery in Nizhny Novgorod region, causing explosions and fire, highlighting vulnerability of Russian energy assets (Source: @UkraineNow/81329).",
-      "Shahed swarms of 21 drones targeted Odesa and 6 drones targeted Mykolaiv, raising immediate threat to southern ports and infrastructure (Source: @mon1tor_ua/66843, @mon1tor_ua/66844).",
-      "Ballistic Iskander‑M launch threat reported from Taganrog, Rostov region, indicating potential long‑range strike capability against Ukrainian targets (Source: @mon1tor_ua/66839).",
-      "Ukrainian radar reported no aerial threats over Kyiv for the night, suggesting a temporary lull in capital‑area attacks (Source: @mon1tor_ua/66858)."
+      "Ukrainian Shahed drones launched 21 missiles at Odessa, causing multiple explosions and triggering intensive air‑defence alerts. (Source: @mon1tor_ua/66843)",
+      "Six Shahed missiles struck the Kherson‑Mikolaiv corridor, with one missile reported near Kremenchuk, indicating expanded southern UAV operations. (Source: @mon1tor_ua/66844)",
+      "Ukrainian strikes forced shutdown of major Russian refineries in Moscow, Ryazan, Yaroslavl, Nizhny Novgorod and Kirishi, cutting over 83 million tonnes of capacity. (Source: @UkraineNow/81355)",
+      "Russian Defence Ministry announced forces achieving highest combat readiness for nuclear weapons and ongoing Iskander missile drills. (Source: @tass_agency/376783)",
+      "Russian air‑defence reported downing 651 enemy drones, including attacks on Nevinnomyssk refinery and districts in Leningrad, Tula and Belgorod. (Source: @ukr_leaks_eng/30306)",
+      "Ukrainian forces advanced up to 600 m on the Sumy front in nineteen sectors, clearing basements in Zapsselie. (Source: @ukr_leaks_eng/30306)",
+      "Zelensky warned of Russian plans for a northern offensive from Belarus toward Chernigov‑Kiev, highlighting potential escalation. (Source: @ukr_leaks_eng/30315)"
     ],
-    "threat_assessment": "Ukrainian air defenses are currently absorbing a high volume of Shahed and other UAV attacks, yet maintaining a strong kill rate. Russian tactical aviation persists with guided‑bomb strikes in the north, while the threat of Iskander‑M ballistic missiles adds a long‑range dimension. The repeat drone strike on a major Russian refinery underscores the continued strategic targeting of energy infrastructure, potentially degrading Russian war‑fighting sustainment.",
-    "regional_response": "Ukraine is reinforcing air‑defence assets around key southern ports and central logistics hubs, while special forces are consolidating gains on the Zaporizhzhia front. Russian forces appear to be reallocating aerial assets toward the north and south, possibly to compensate for losses in the central theater. International observers note the strategic impact of refinery attacks on Russian fuel supplies, which may affect Moscow's operational tempo.",
-    "intelligence_notes": "Continued monitoring of Shahed launch vectors is essential, as they demonstrate flexible targeting across multiple fronts. The effectiveness of Ukrainian anti‑air systems against diverse UAV types suggests a maturing defensive capability. Russian guided‑bomb operations in Sumy indicate a focus on disrupting supply lines, while the Iskander‑M threat requires heightened early‑warning readiness. Energy infrastructure attacks remain a high‑value Ukrainian strategy to erode Russian war capacity."
+    "threat_assessment": "Ukrainian UAV and Shahed activity has expanded across the southern, eastern and northern fronts, targeting critical infrastructure and logistics nodes, while Russian air‑defences claim high interception rates. The shutdown of key Russian refineries reduces fuel availability for Russian forces, potentially limiting operational tempo. Russian nuclear readiness statements and Iskander drills signal a willingness to elevate strategic deterrence, increasing the risk of broader escalation.",
+    "regional_response": "Western partners are likely to increase logistical and intelligence support to sustain Ukrainian UAV operations, while Russia may accelerate deployment of advanced air‑defence systems to protect industrial hubs. Neighboring Belarus could become a staging ground for a northern offensive, prompting NATO to reinforce eastern flank readiness. Regional actors such as Turkey and Iran may adjust their drone export policies in response to heightened demand and usage.",
+    "intelligence_notes": "Continued monitoring of Shahed launch vectors is essential to predict future strike corridors, especially from the north toward central Ukraine. Satellite imagery should verify the operational status of the halted Russian refineries to assess long‑term impact on fuel logistics. Tracking Russian Iskander drill locations will help gauge potential strike capabilities against Ukrainian command centres."
   },
   "missiles": 0,
   "drones": 6,
   "kpszsu_timeline": [
-    2,
     3,
+    2,
     1,
     0,
     0,
@@ -325,20 +345,20 @@
     0,
     1,
     1,
-    1,
-    3,
-    3,
-    2,
     3,
     3,
     1,
     3,
-    5,
+    3,
+    2,
+    3,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
     1,
-    2,
-    2,
-    2,
-    2,
     0
   ]
 }
