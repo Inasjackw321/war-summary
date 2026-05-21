@@ -720,6 +720,27 @@ body {
   font-size: 10px;
   color: #3d4a5c;
 }
+.footer-discord-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid #2a3040;
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #4a5568;
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.footer-discord-btn:hover {
+  color: #7289da;
+  border-color: #7289da44;
+  background: #7289da0d;
+}
 
 /* ── Scroll-to-top button ── */
 .scroll-top {

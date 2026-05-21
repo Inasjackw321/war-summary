@@ -601,14 +601,16 @@ function populatePanel(prefix, data) {
   // Update source-tag URL map so citations link to actual recent posts
   currentUrlMap = data.recent_post_urls || {};
   currentPostImages = data.post_images || {};
-  // Build combined media lookup: Telegram URL + local path (if downloaded)
+  // Only show images for posts with locally downloaded files — avoids showing the wrong image
+  // on a message when data.media contains unrelated posts from the same channel.
   currentAllMedia = {};
-  (data.media || []).filter(m => MEDIA_CHANNELS.has(m.channel)).forEach(m => {
-    const key = `${m.channel}/${m.post_id}`;
-    currentAllMedia[key] = { localPath: currentPostImages[key] || null, postUrl: m.post_url };
-  });
   Object.entries(currentPostImages).forEach(([key, path]) => {
-    if (!currentAllMedia[key]) currentAllMedia[key] = { localPath: path, postUrl: null };
+    currentAllMedia[key] = { localPath: path, postUrl: null };
+  });
+  // Enrich with Telegram post URLs from media metadata where available
+  (data.media || []).forEach(m => {
+    const key = `${m.channel}/${m.post_id}`;
+    if (currentAllMedia[key]) currentAllMedia[key].postUrl = m.post_url;
   });
   _rebuildMediaIndex();
 
