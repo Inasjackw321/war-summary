@@ -970,7 +970,7 @@ document.addEventListener("click", e => {
   if (thumb) { e.stopPropagation(); openLocalMediaLightbox(thumb.dataset.src, thumb.dataset.posturl); }
 });
 
-// ── Footer popups (built dynamically to avoid hidden-element rendering issues) ─
+// ── Footer popups ─────────────────────────────────────────────────────────────
 function _openPillPopup(innerHTML, wide) {
   const existing = document.getElementById("_pillPopup");
   if (existing) existing.remove();
@@ -982,7 +982,7 @@ function _openPillPopup(innerHTML, wide) {
   document.body.appendChild(el);
   const close = () => el.remove();
   el.addEventListener("click", e => { if (e.target === el) close(); });
-  el.querySelector(".pp-close").addEventListener("click", close);
+  el.querySelector(".pp-close")?.addEventListener("click", close);
   document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", h); } });
 }
 function _openPillPopupWide(innerHTML) { _openPillPopup(innerHTML, true); }
@@ -990,9 +990,9 @@ function _openPillPopupWide(innerHTML) { _openPillPopup(innerHTML, true); }
 const _CLOSE_BTN = `<button class="pp-close" aria-label="Close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;border-radius:4px;line-height:1;font-size:18px;transition:color .15s;" onmouseover="this.style.color='#dde4f0'" onmouseout="this.style.color='#3d4a5c'">✕</button>`;
 const _CHECK = (c) => `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
 
-(function initFooterPopups() {
-  const discordBtn = document.getElementById("discordBotBtn");
-  const supportBtn = document.getElementById("supportBtn");
+function initFooterPopups() {
+  const discordBtn   = document.getElementById("discordBotBtn");
+  const supportBtn   = document.getElementById("supportBtn");
 
   if (discordBtn) discordBtn.addEventListener("click", () => _openPillPopup(`
     ${_CLOSE_BTN}
@@ -1084,6 +1084,6 @@ const _CHECK = (c) => `<svg width="11" height="11" viewBox="0 0 24 24" fill="non
       Follow @Kaldockhi
     </a>
   `));
-})();
+}
 
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); });
