@@ -971,19 +971,21 @@ document.addEventListener("click", e => {
 });
 
 // ── Footer popups (built dynamically to avoid hidden-element rendering issues) ─
-function _openPillPopup(innerHTML) {
+function _openPillPopup(innerHTML, wide) {
   const existing = document.getElementById("_pillPopup");
   if (existing) existing.remove();
   const el = document.createElement("div");
   el.id = "_pillPopup";
   el.style.cssText = "position:fixed;inset:0;z-index:1000;background:rgba(5,8,14,0.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;";
-  el.innerHTML = `<div style="position:relative;background:#0f1219;border:1px solid #252e3d;border-radius:14px;padding:30px 26px 24px;max-width:340px;width:calc(100% - 40px);text-align:center;box-shadow:0 24px 64px rgba(0,0,0,0.6);">${innerHTML}</div>`;
+  const maxW = wide ? "520px" : "340px";
+  el.innerHTML = `<div style="position:relative;background:#0f1219;border:1px solid #252e3d;border-radius:14px;padding:28px 24px 22px;max-width:${maxW};width:calc(100% - 40px);text-align:center;box-shadow:0 24px 64px rgba(0,0,0,0.6);">${innerHTML}</div>`;
   document.body.appendChild(el);
   const close = () => el.remove();
   el.addEventListener("click", e => { if (e.target === el) close(); });
   el.querySelector(".pp-close").addEventListener("click", close);
   document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", h); } });
 }
+function _openPillPopupWide(innerHTML) { _openPillPopup(innerHTML, true); }
 
 const _CLOSE_BTN = `<button class="pp-close" aria-label="Close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;border-radius:4px;line-height:1;font-size:18px;transition:color .15s;" onmouseover="this.style.color='#dde4f0'" onmouseout="this.style.color='#3d4a5c'">✕</button>`;
 const _CHECK = (c) => `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
@@ -1004,6 +1006,70 @@ const _CHECK = (c) => `<svg width="11" height="11" viewBox="0 0 24 24" fill="non
       <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} Inline source links to cited Telegram posts</li>
       <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} Assign any channel per conflict</li>
     </ul>
+  `));
+
+  const allSourcesBtn = document.getElementById("allSourcesBtn");
+  if (allSourcesBtn) allSourcesBtn.addEventListener("click", () => {
+    const WARN_SVG = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5" style="flex-shrink:0"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`;
+    const conflicts = [
+      { key: "middle_east", label: "🌍 Middle East" },
+      { key: "ukraine",     label: "🇺🇦 Ukraine–Russia" },
+    ];
+    let sectionsHtml = "";
+    let anyData = false;
+    conflicts.forEach(({ key, label }) => {
+      const d = dataCache[key];
+      if (!d || !d.channels || !d.channels.length) return;
+      anyData = true;
+      const items = d.channels.map(ch => {
+        const biased = isBiasedSource(ch);
+        const cnt = (d.messages_by_channel || {})[`@${ch}`] || 0;
+        const cntHtml = cnt ? `<span style="margin-left:auto;font-size:9px;color:#3d4a5c;">${cnt}</span>` : "";
+        const warnHtml = biased ? `<span style="margin-left:4px;display:inline-flex;align-items:center;gap:3px;font-size:9px;color:#f59e0b;">${WARN_SVG} biased</span>` : "";
+        return `<li style="display:flex;align-items:center;gap:6px;padding:4px 0;border-bottom:1px solid #1a2030;">
+          <a href="https://t.me/${ch}" target="_blank" rel="noopener" style="color:${biased?"#f59e0b":"#a8b4cc"};font-size:11px;font-family:'JetBrains Mono',monospace;text-decoration:none;">@${ch}</a>
+          ${warnHtml}${cntHtml}
+        </li>`;
+      }).join("");
+      sectionsHtml += `<div style="margin-bottom:16px;">
+        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#5a6a88;font-family:'JetBrains Mono',monospace;margin-bottom:6px;text-transform:uppercase;">${label}</div>
+        <ul style="list-style:none;padding:0;margin:0;">${items}</ul>
+      </div>`;
+    });
+    if (!anyData) sectionsHtml = `<p style="font-size:12px;color:#5a6a88;text-align:center;">Loading data…</p>`;
+    _openPillPopupWide(`
+      ${_CLOSE_BTN}
+      <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:4px;">Intelligence Sources</div>
+      <p style="font-size:11px;color:#5a6a88;margin-bottom:14px;">Public Telegram channels monitored in the last 24 hours. ${WARN_SVG} <span style="font-size:10px;color:#f59e0b;">Yellow = known bias</span></p>
+      <div style="max-height:55vh;overflow-y:auto;padding-right:4px;">${sectionsHtml}</div>
+    `);
+  });
+
+  const dataPolicyBtn = document.getElementById("dataPolicyBtn");
+  if (dataPolicyBtn) dataPolicyBtn.addEventListener("click", () => _openPillPopup(`
+    ${_CLOSE_BTN}
+    <div style="width:44px;height:44px;border-radius:50%;background:#3b82f618;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+    </div>
+    <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:14px;">Data Policy</div>
+    <div style="text-align:left;display:flex;flex-direction:column;gap:12px;font-size:11px;color:#5a6a88;line-height:1.65;">
+      <div>
+        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">WHERE THE DATA COMES FROM</div>
+        War Summary monitors publicly available posts from Telegram channels covering the Middle East and Ukraine–Russia conflicts. No private messages or accounts are accessed.
+      </div>
+      <div>
+        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">HOW IT IS PROCESSED</div>
+        Raw posts are collected every hour and passed to an AI language model (via OpenRouter) which produces structured summaries, key developments, and threat assessments. The AI output is not manually reviewed before publishing.
+      </div>
+      <div>
+        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">SOURCE RELIABILITY</div>
+        Some monitored channels have known political biases or have published inaccurate information. These are flagged with a warning icon throughout the site. Always cross-reference with official sources.
+      </div>
+      <div>
+        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">YOUR DATA</div>
+        This site collects no personal data, uses no cookies, and has no user accounts. The site is hosted on GitHub Pages. No analytics or tracking scripts are loaded.
+      </div>
+    </div>
   `));
 
   if (supportBtn) supportBtn.addEventListener("click", () => _openPillPopup(`
