@@ -5,7 +5,7 @@ import asyncio
 import aiohttp
 import discord
 from discord import app_commands
-from discord.ext import commands
+from discord.ext import commands, tasks
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -20,6 +20,9 @@ CONFLICT_META = {
     "middle_east": ("Middle East", "🌍", 0xf59e0b),
     "ukraine":     ("Ukraine-Russia", "🇺🇦", 0x3b82f6),
 }
+
+# Channels filtered out of the bot's Sources display only
+_BOT_EXCLUDED_SOURCES = {"presstv", "rasedal3ado138e", "SharghDaily", "naya_foriraq"}
 
 _cfg: dict = {}
 
@@ -60,7 +63,6 @@ async def _fetch(conflict: str) -> dict:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-
 _SENTIMENT_EMOJI = {
     "escalating": "🔴",
     "volatile":   "🟠",
@@ -70,7 +72,7 @@ _SENTIMENT_EMOJI = {
     "calm":       "🔵",
 }
 
-_SOURCE_RE = re.compile(r'\s*\(Source:[^)]+\)', re.IGNORECASE)
+_SOURCE_RE = re.compile(r'\s*\([^)]*?(?:source|@)[^)]*\)', re.IGNORECASE)
 
 def _intensity_color(intensity: int) -> int:
     if intensity >= 8:
@@ -106,7 +108,7 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         timestamp=ts or datetime.now(timezone.utc),
     )
 
-    # Conflict-specific stats block
+    # Conflict-specific stats
     if conflict == "ukraine":
         missiles = data.get("missiles") or 0
         drones = data.get("drones") or 0
@@ -122,7 +124,7 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         if red_alerts:
             embed.add_field(name="🚨 Red Alert Activations", value=f"**{red_alerts}** alerts in the last 24h", inline=False)
 
-    # Key points — strip inline (Source: ...) citations so bullets stay clean
+    # Key points — strip inline source citations
     points = data.get("key_points") or []
     if points:
         nums = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"]
@@ -137,10 +139,11 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
             total += len(line) + 1
         embed.add_field(name="Key Developments", value="\n".join(lines), inline=False)
 
-    # Clickable source links (cited channels only)
+    # Sources — exclude filtered channels
     urls: dict = data.get("cited_post_urls") or data.get("recent_post_urls") or {}
-    if urls:
-        links = "  ·  ".join(f"[{ch}]({url})" for ch, url in list(urls.items())[:8])
+    filtered = {ch: url for ch, url in urls.items() if ch not in _BOT_EXCLUDED_SOURCES}
+    if filtered:
+        links = "  ·  ".join(f"[{ch}]({url})" for ch, url in list(filtered.items())[:8])
         embed.add_field(name="Sources", value=links, inline=False)
 
     bar = "█" * intensity + "░" * (10 - intensity)
@@ -152,9 +155,9 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
-grp = app_commands.Group(name="warsummary", description="War Summary bot — configure conflict summary channels")
+grp = app_commands.Group(name="warsummary", description="War Summary bot")
 
-# ── /summary (top-level, works in any configured channel) ─────────────────────
+# ── /summary ──────────────────────────────────────────────────────────────────
 @bot.tree.command(name="summary", description="Post the latest intelligence brief for this channel")
 async def slash_summary(interaction: discord.Interaction):
     if not interaction.guild:
@@ -175,11 +178,8 @@ async def slash_summary(interaction: discord.Interaction):
         await interaction.followup.send("⚠ Failed to fetch data — try again in a moment.")
 
 # ── /warsummary setup ──────────────────────────────────────────────────────────
-@grp.command(name="setup", description="Assign a conflict to a channel — use /summary there to pull the latest brief")
-@app_commands.describe(
-    conflict="Which conflict to assign",
-    channel="Channel where /summary will work",
-)
+@grp.command(name="setup", description="Assign a conflict to a channel")
+@app_commands.describe(conflict="Which conflict to assign", channel="Channel to post updates in")
 @app_commands.choices(conflict=[
     app_commands.Choice(name="Middle East",    value="middle_east"),
     app_commands.Choice(name="Ukraine-Russia", value="ukraine"),
@@ -190,7 +190,7 @@ async def cmd_setup(interaction: discord.Interaction, conflict: str, channel: di
     label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
     await interaction.response.send_message(
         f"✅ **{label}** → {channel.mention}\n"
-        f"Use `/summary` in that channel to pull the latest brief.",
+        f"Updates will be posted every 3 hours. Use `/summary` to pull the latest now.",
         ephemeral=True,
     )
 
@@ -240,11 +240,37 @@ async def prefix_summary(ctx: commands.Context):
     else:
         await ctx.send("⚠ Failed to fetch data.")
 
+# ── Auto-post every 3 hours ────────────────────────────────────────────────────
+@tasks.loop(hours=3)
+async def _auto_post():
+    for conflict in DATA_URLS:
+        data = await _fetch(conflict)
+        if not data:
+            continue
+        embed = _embed(data, conflict)
+        for guild_id_str, guild_cfg in _cfg.items():
+            ch_id = guild_cfg.get(conflict)
+            if not ch_id:
+                continue
+            ch = bot.get_channel(ch_id)
+            if ch:
+                try:
+                    await ch.send(embed=embed)
+                    print(f"[bot] auto-posted {conflict} to #{ch.name}")
+                except Exception as e:
+                    print(f"[bot] auto-post failed to {ch_id}: {e}")
+
+@_auto_post.before_loop
+async def _before_auto_post():
+    await bot.wait_until_ready()
+
 # ── Startup ────────────────────────────────────────────────────────────────────
 @bot.event
 async def on_ready():
     _load()
     await bot.tree.sync()
+    if not _auto_post.is_running():
+        _auto_post.start()
     print(f"[bot] Ready — logged in as {bot.user}")
     print(f"[bot] Loaded config: {_cfg}")
 
