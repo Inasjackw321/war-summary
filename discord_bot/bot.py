@@ -63,28 +63,10 @@ async def _fetch(conflict: str) -> dict:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-_SENTIMENT_EMOJI = {
-    "escalating": "🔴",
-    "volatile":   "🟠",
-    "active":     "🟡",
-    "tense":      "🟡",
-    "stable":     "🟢",
-    "calm":       "🔵",
-}
-
 _SOURCE_RE = re.compile(r'\s*\([^)]*?(?:source|@)[^)]*\)', re.IGNORECASE)
 
-def _intensity_color(intensity: int) -> int:
-    if intensity >= 8:
-        return 0xef4444
-    if intensity >= 6:
-        return 0xf97316
-    if intensity >= 4:
-        return 0xeab308
-    return 0x22c55e
-
 def _embed(data: dict, conflict: str) -> discord.Embed:
-    label, icon, base_color = CONFLICT_META[conflict]
+    label, icon, color = CONFLICT_META[conflict]
 
     updated = data.get("updated_at", "")
     ts = None
@@ -94,35 +76,15 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         except ValueError:
             pass
 
-    intensity = int(data.get("intensity") or 5)
-    sentiment = (data.get("sentiment") or "").lower()
-    sent_emoji = _SENTIMENT_EMOJI.get(sentiment, "⚪")
-    color = _intensity_color(intensity)
-
     exec_summary = (data.get("sections") or {}).get("executive_summary") or data.get("summary") or ""
 
     embed = discord.Embed(
         title=f"{icon}  {label} — Latest Updates",
+        url="https://warsummary.live",
         description=f"*{exec_summary}*" if exec_summary else None,
         color=color,
         timestamp=ts or datetime.now(timezone.utc),
     )
-
-    # Conflict-specific stats
-    if conflict == "ukraine":
-        missiles = data.get("missiles") or 0
-        drones = data.get("drones") or 0
-        if missiles or drones:
-            parts = []
-            if missiles:
-                parts.append(f"🚀 **{missiles}** missiles launched")
-            if drones:
-                parts.append(f"🛸 **{drones}** Shahed/UAVs launched")
-            embed.add_field(name="Last 24h — Attack Overview", value="\n".join(parts), inline=False)
-    elif conflict == "middle_east":
-        red_alerts = data.get("red_alerts") or 0
-        if red_alerts:
-            embed.add_field(name="🚨 Red Alert Activations", value=f"**{red_alerts}** alerts in the last 24h", inline=False)
 
     # Key points — strip inline source citations
     points = data.get("key_points") or []
@@ -139,16 +101,15 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
             total += len(line) + 1
         embed.add_field(name="Key Developments", value="\n".join(lines), inline=False)
 
-    # Sources — exclude filtered channels
+    # Sources — clickable links to actual posts, excluding filtered channels
     urls: dict = data.get("cited_post_urls") or data.get("recent_post_urls") or {}
     filtered = {ch: url for ch, url in urls.items() if ch not in _BOT_EXCLUDED_SOURCES}
     if filtered:
         links = "  ·  ".join(f"[{ch}]({url})" for ch, url in list(filtered.items())[:8])
         embed.add_field(name="Sources", value=links, inline=False)
 
-    bar = "█" * intensity + "░" * (10 - intensity)
     n = len(data.get("channels") or [])
-    embed.set_footer(text=f"{sent_emoji} {sentiment.capitalize()}  ·  [{bar}]  ·  {n} channels  ·  Updated")
+    embed.set_footer(text=f"{n} channels monitored  ·  Updated")
     return embed
 
 # ── Bot setup ──────────────────────────────────────────────────────────────────
