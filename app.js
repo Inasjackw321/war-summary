@@ -970,4 +970,18 @@ document.addEventListener("click", e => {
   if (thumb) { e.stopPropagation(); openLocalMediaLightbox(thumb.dataset.src, thumb.dataset.posturl); }
 });
 
+// ── Discord bot popup ──────────────────────────────────────────────────────────
+(function initDiscordPopup() {
+  const backdrop = document.getElementById("discordPopupBackdrop");
+  const closeBtn = document.getElementById("discordPopupClose");
+  const openBtn  = document.getElementById("discordBotBtn");
+  if (!backdrop) return;
+  function open()  { backdrop.classList.add("open"); backdrop.setAttribute("aria-hidden","false"); }
+  function close() { backdrop.classList.remove("open"); backdrop.setAttribute("aria-hidden","true"); }
+  if (openBtn)  openBtn.addEventListener("click", open);
+  if (closeBtn) closeBtn.addEventListener("click", close);
+  backdrop.addEventListener("click", e => { if (e.target === backdrop) close(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && backdrop.classList.contains("open")) close(); });
+})();
+
 document.addEventListener("DOMContentLoaded", init);

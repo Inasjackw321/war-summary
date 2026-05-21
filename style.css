@@ -728,18 +728,103 @@ body {
   padding: 5px 12px;
   border-radius: 6px;
   border: 1px solid #2a3040;
+  background: transparent;
+  cursor: pointer;
   font-size: 10px;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   letter-spacing: 0.05em;
   color: #4a5568;
-  text-decoration: none;
   transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
 .footer-discord-btn:hover {
   color: #7289da;
   border-color: #7289da44;
   background: #7289da0d;
+}
+
+/* ── Discord info popup ── */
+.discord-popup-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(5,8,14,0.75);
+  backdrop-filter: blur(4px);
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+.discord-popup-backdrop.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.discord-popup {
+  position: relative;
+  background: var(--surface, #0f1219);
+  border: 1px solid #2a3040;
+  border-radius: 12px;
+  padding: 28px 28px 24px;
+  max-width: 360px;
+  width: 90%;
+  text-align: center;
+}
+.discord-popup-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--muted, #5a6a88);
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+.discord-popup-close:hover { color: var(--text, #dde4f0); }
+.discord-popup-icon {
+  margin-bottom: 12px;
+}
+.discord-popup-title {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.04em;
+  color: var(--text, #dde4f0);
+  margin-bottom: 10px;
+}
+.discord-popup-body {
+  font-size: 12px;
+  color: var(--muted, #5a6a88);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.discord-popup-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+.discord-popup-features li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #8899aa;
+}
+.discord-popup-features code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  background: #1a2030;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #a8b4cc;
 }
 
 /* ── Scroll-to-top button ── */
