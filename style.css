@@ -1126,9 +1126,14 @@ body {
 .source-tooltip.visible { opacity: 1; }
 /* Click-intercept warning popup */
 /* ── Custom scrollbars ── */
+.sources-modal,
+#_pp * {
+  scrollbar-width: thin;
+  scrollbar-color: #1e2836 transparent;
+}
 .sources-modal::-webkit-scrollbar,
 #_pp *::-webkit-scrollbar {
-  width: 4px;
+  width: 3px;
 }
 .sources-modal::-webkit-scrollbar-track,
 #_pp *::-webkit-scrollbar-track {
@@ -1136,13 +1141,58 @@ body {
 }
 .sources-modal::-webkit-scrollbar-thumb,
 #_pp *::-webkit-scrollbar-thumb {
-  background: #252e3d;
+  background: #1e2836;
   border-radius: 99px;
+  transition: background 0.2s;
 }
 .sources-modal::-webkit-scrollbar-thumb:hover,
 #_pp *::-webkit-scrollbar-thumb:hover {
-  background: #3a4a60;
+  background: #2d3f52;
 }
+
+/* ── Source advisory popup ── */
+.source-warn-popup {
+  position: fixed; inset: 0; z-index: 10000;
+  background: rgba(5,8,14,0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex; align-items: center; justify-content: center;
+  animation: fadeIn 0.15s ease;
+}
+.source-warn-popup-inner {
+  background: var(--bg2);
+  border: 1px solid rgba(245,158,11,0.25);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  max-width: 340px;
+  width: 92vw;
+}
+.source-warn-popup-icon { margin-bottom: 10px; }
+.source-warn-popup-title {
+  font-size: 12px; font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: #f59e0b; margin-bottom: 8px; letter-spacing: 0.05em;
+}
+.source-warn-popup-body {
+  font-size: 11px; color: var(--text2); line-height: 1.6; margin-bottom: 16px;
+  font-family: 'JetBrains Mono', monospace;
+}
+.source-warn-popup-actions { display: flex; gap: 8px; justify-content: flex-end; }
+.source-warn-cancel {
+  background: transparent; border: 1px solid var(--border2);
+  color: var(--muted); font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; padding: 6px 12px; border-radius: var(--radius-sm); cursor: pointer;
+  transition: background var(--transition);
+}
+.source-warn-cancel:hover { background: rgba(255,255,255,0.05); color: var(--text); }
+.source-warn-continue {
+  background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.35);
+  color: #f59e0b; font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; padding: 6px 12px; border-radius: var(--radius-sm);
+  text-decoration: none; cursor: pointer;
+  transition: background var(--transition);
+}
+.source-warn-continue:hover { background: rgba(245,158,11,0.22); }
 /* Chart disclaimer */
 .chart-disclaimer {
   font-size: 9px; color: var(--muted); font-family: 'JetBrains Mono', monospace;
