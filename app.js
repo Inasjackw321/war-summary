@@ -971,119 +971,147 @@ document.addEventListener("click", e => {
 });
 
 // ── Footer popups ─────────────────────────────────────────────────────────────
-function _openPillPopup(innerHTML, wide) {
-  const existing = document.getElementById("_pillPopup");
-  if (existing) existing.remove();
-  const el = document.createElement("div");
-  el.id = "_pillPopup";
-  el.style.cssText = "position:fixed;inset:0;z-index:1000;background:rgba(5,8,14,0.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;";
-  const maxW = wide ? "520px" : "340px";
-  el.innerHTML = `<div style="position:relative;background:#0f1219;border:1px solid #252e3d;border-radius:14px;padding:28px 24px 22px;max-width:${maxW};width:calc(100% - 40px);text-align:center;box-shadow:0 24px 64px rgba(0,0,0,0.6);">${innerHTML}</div>`;
-  document.body.appendChild(el);
-  const close = () => el.remove();
-  el.addEventListener("click", e => { if (e.target === el) close(); });
-  el.querySelector(".pp-close")?.addEventListener("click", close);
-  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", h); } });
-}
-function _openPillPopupWide(innerHTML) { _openPillPopup(innerHTML, true); }
+function _openPillPopup(innerHtml, wide) {
+  const old = document.getElementById("_pp");
+  if (old) old.remove();
 
-const _CLOSE_BTN = `<button class="pp-close" aria-label="Close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;border-radius:4px;line-height:1;font-size:18px;transition:color .15s;" onmouseover="this.style.color='#dde4f0'" onmouseout="this.style.color='#3d4a5c'">✕</button>`;
-const _CHECK = (c) => `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
+  // Inject keyframes once
+  if (!document.getElementById("_ppStyle")) {
+    const s = document.createElement("style");
+    s.id = "_ppStyle";
+    s.textContent = `
+      @keyframes _ppBackdrop { from { opacity:0 } to { opacity:1 } }
+      @keyframes _ppPanel    { from { opacity:0; transform:scale(.93) translateY(10px) } to { opacity:1; transform:none } }
+    `;
+    document.head.appendChild(s);
+  }
+
+  const backdrop = document.createElement("div");
+  backdrop.id = "_pp";
+  backdrop.style.cssText = [
+    "position:fixed;inset:0;z-index:2000",
+    "background:rgba(5,8,14,.82)",
+    "backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)",
+    "display:flex;align-items:center;justify-content:center",
+    "animation:_ppBackdrop .18s ease",
+  ].join(";");
+
+  const maxW = wide ? "520px" : "360px";
+  const panel = document.createElement("div");
+  panel.style.cssText = [
+    "position:relative",
+    "background:#0f1219",
+    "border:1px solid #252e3d",
+    "border-radius:14px",
+    "padding:30px 26px 24px",
+    "max-width:" + maxW,
+    "width:calc(100% - 40px)",
+    "text-align:center",
+    "box-shadow:0 24px 64px rgba(0,0,0,.65)",
+    "animation:_ppPanel .22s cubic-bezier(.4,0,.2,1)",
+  ].join(";");
+  panel.innerHTML = innerHtml;
+  backdrop.appendChild(panel);
+  document.body.appendChild(backdrop);
+
+  const close = () => {
+    backdrop.style.animation = "_ppBackdrop .15s ease reverse forwards";
+    panel.style.animation    = "_ppPanel .15s cubic-bezier(.4,0,.2,1) reverse forwards";
+    setTimeout(() => backdrop.remove(), 150);
+  };
+  backdrop.addEventListener("click", e => { if (e.target === backdrop) close(); });
+  panel.querySelector(".pp-close")?.addEventListener("click", close);
+  document.addEventListener("keydown", function h(e) {
+    if (e.key === "Escape") { close(); document.removeEventListener("keydown", h); }
+  });
+}
+
+function _buildSourcesHtml() {
+  const warnSvg = '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>';
+  const groups = [
+    { key: "middle_east", label: "Middle East" },
+    { key: "ukraine",     label: "Ukraine-Russia" },
+  ];
+  let body = "";
+  let found = false;
+  for (const g of groups) {
+    const d = dataCache[g.key];
+    if (!d || !Array.isArray(d.channels) || !d.channels.length) continue;
+    found = true;
+    const rows = d.channels.map(ch => {
+      const biased = isBiasedSource(String(ch));
+      const cnt    = ((d.messages_by_channel || {})["@" + ch]) || 0;
+      const color  = biased ? "#f59e0b" : "#a8b4cc";
+      const warn   = biased ? ('<span style="display:inline-flex;align-items:center;gap:3px;font-size:9px;color:#f59e0b;margin-left:4px;">' + warnSvg + " biased</span>") : "";
+      const count  = cnt ? ('<span style="margin-left:auto;font-size:9px;color:#3d4a5c;padding-left:8px;">' + cnt + "</span>") : "";
+      return '<li style="display:flex;align-items:center;gap:0;padding:4px 0;border-bottom:1px solid #1a2030;">'
+        + '<a href="https://t.me/' + ch + '" target="_blank" rel="noopener" style="color:' + color + ';font-size:11px;font-family:\'JetBrains Mono\',monospace;text-decoration:none;">@' + ch + "</a>"
+        + warn + count + "</li>";
+    }).join("");
+    body += '<div style="margin-bottom:18px;">'
+      + '<div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#5a6a88;font-family:\'JetBrains Mono\',monospace;margin-bottom:6px;">' + g.label.toUpperCase() + "</div>"
+      + '<ul style="list-style:none;padding:0;margin:0;">' + rows + "</ul>"
+      + "</div>";
+  }
+  if (!found) body = '<p style="font-size:12px;color:#5a6a88;">Data still loading — try again in a moment.</p>';
+  return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
+    + '<div style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:6px;">Intelligence Sources</div>'
+    + '<p style="font-size:11px;color:#5a6a88;margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:5px;">'
+    + 'Monitored Telegram channels &nbsp;' + warnSvg + '<span style="font-size:10px;color:#f59e0b;">= known bias</span></p>'
+    + '<div style="max-height:55vh;overflow-y:auto;">' + body + "</div>";
+}
+
+function _buildDataPolicyHtml() {
+  const section = (title, text) =>
+    '<div><div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:\'JetBrains Mono\',monospace;margin-bottom:4px;">' + title + "</div>" + text + "</div>";
+  return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
+    + '<div style="width:44px;height:44px;border-radius:50%;background:#3b82f618;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">'
+    + '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>'
+    + '<div style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:14px;">Data Policy</div>'
+    + '<div style="text-align:left;display:flex;flex-direction:column;gap:12px;font-size:11px;color:#5a6a88;line-height:1.65;">'
+    + section("WHERE THE DATA COMES FROM", "War Summary monitors publicly available posts from Telegram channels covering active conflicts. No private messages or accounts are accessed.")
+    + section("HOW IT IS PROCESSED", "Posts are collected hourly and sent to an AI language model (via OpenRouter) which produces structured summaries and threat assessments. Output is not manually reviewed before publishing.")
+    + section("SOURCE RELIABILITY", "Some channels have known political biases or have published inaccurate reports. These are flagged with a warning icon. Always cross-reference with official sources.")
+    + section("YOUR DATA", "This site collects no personal data, sets no cookies, and has no user accounts. Hosted on GitHub Pages. No analytics or tracking scripts are loaded.")
+    + "</div>";
+}
+
+function _buildDiscordHtml() {
+  const check = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#7289da" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>';
+  return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
+    + '<div style="width:48px;height:48px;border-radius:50%;background:#7289da18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">'
+    + '<svg width="26" height="26" viewBox="0 0 24 24" fill="#7289da"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03z"/></svg></div>'
+    + '<div style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:10px;">War Summary on Discord</div>'
+    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:16px;">Get the latest intelligence briefs directly in your Discord server, sourced from open Telegram channels.</p>'
+    + '<ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;text-align:left;">'
+    + '<li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">' + check + ' On-demand summaries with <code style="font-family:\'JetBrains Mono\',monospace;font-size:10px;background:#1a2030;padding:1px 5px;border-radius:3px;color:#a8b4cc;">/summary</code></li>'
+    + '<li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">' + check + ' Inline source links to cited Telegram posts</li>'
+    + '<li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">' + check + ' Assign any channel per conflict</li>'
+    + "</ul>";
+}
+
+function _buildSupportHtml() {
+  return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
+    + '<div style="width:48px;height:48px;border-radius:50%;background:#e53e5b18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">'
+    + '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#e53e5b" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div>'
+    + '<div style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:10px;">Support Us</div>'
+    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:18px;">No donations needed. The best way to support War Summary is to follow the project on X.</p>'
+    + '<a href="https://x.com/Kaldockhi" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:20px;background:#1a1f2a;border:1px solid #2a3040;color:#a8b4cc;font-size:12px;font-family:\'JetBrains Mono\',monospace;font-weight:600;text-decoration:none;">'
+    + '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.261 5.632 5.903-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>'
+    + "Follow @Kaldockhi</a>";
+}
 
 function initFooterPopups() {
-  const discordBtn   = document.getElementById("discordBotBtn");
-  const supportBtn   = document.getElementById("supportBtn");
-
-  if (discordBtn) discordBtn.addEventListener("click", () => _openPillPopup(`
-    ${_CLOSE_BTN}
-    <div style="width:48px;height:48px;border-radius:50%;background:#7289da18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="#7289da"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03z"/></svg>
-    </div>
-    <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:10px;">War Summary on Discord</div>
-    <p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:16px;">Get the latest intelligence briefs directly in your Discord server. The War Summary bot delivers AI-generated updates for the Middle East and Ukraine–Russia conflicts, sourced from open Telegram channels.</p>
-    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px;text-align:left;">
-      <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} On-demand summaries with <code style="font-family:'JetBrains Mono',monospace;font-size:10px;background:#1a2030;padding:1px 5px;border-radius:3px;color:#a8b4cc;">/summary</code></li>
-      <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} Inline source links to cited Telegram posts</li>
-      <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} Assign any channel per conflict</li>
-    </ul>
-  `));
-
-  const allSourcesBtn = document.getElementById("allSourcesBtn");
-  if (allSourcesBtn) allSourcesBtn.addEventListener("click", () => {
-    const WARN_SVG = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5" style="flex-shrink:0"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`;
-    const conflicts = [
-      { key: "middle_east", label: "🌍 Middle East" },
-      { key: "ukraine",     label: "🇺🇦 Ukraine–Russia" },
-    ];
-    let sectionsHtml = "";
-    let anyData = false;
-    conflicts.forEach(({ key, label }) => {
-      const d = dataCache[key];
-      if (!d || !d.channels || !d.channels.length) return;
-      anyData = true;
-      const items = d.channels.map(ch => {
-        const biased = isBiasedSource(ch);
-        const cnt = (d.messages_by_channel || {})[`@${ch}`] || 0;
-        const cntHtml = cnt ? `<span style="margin-left:auto;font-size:9px;color:#3d4a5c;">${cnt}</span>` : "";
-        const warnHtml = biased ? `<span style="margin-left:4px;display:inline-flex;align-items:center;gap:3px;font-size:9px;color:#f59e0b;">${WARN_SVG} biased</span>` : "";
-        return `<li style="display:flex;align-items:center;gap:6px;padding:4px 0;border-bottom:1px solid #1a2030;">
-          <a href="https://t.me/${ch}" target="_blank" rel="noopener" style="color:${biased?"#f59e0b":"#a8b4cc"};font-size:11px;font-family:'JetBrains Mono',monospace;text-decoration:none;">@${ch}</a>
-          ${warnHtml}${cntHtml}
-        </li>`;
-      }).join("");
-      sectionsHtml += `<div style="margin-bottom:16px;">
-        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#5a6a88;font-family:'JetBrains Mono',monospace;margin-bottom:6px;text-transform:uppercase;">${label}</div>
-        <ul style="list-style:none;padding:0;margin:0;">${items}</ul>
-      </div>`;
-    });
-    if (!anyData) sectionsHtml = `<p style="font-size:12px;color:#5a6a88;text-align:center;">Loading data…</p>`;
-    _openPillPopupWide(`
-      ${_CLOSE_BTN}
-      <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:4px;">Intelligence Sources</div>
-      <p style="font-size:11px;color:#5a6a88;margin-bottom:14px;">Public Telegram channels monitored in the last 24 hours. ${WARN_SVG} <span style="font-size:10px;color:#f59e0b;">Yellow = known bias</span></p>
-      <div style="max-height:55vh;overflow-y:auto;padding-right:4px;">${sectionsHtml}</div>
-    `);
-  });
-
-  const dataPolicyBtn = document.getElementById("dataPolicyBtn");
-  if (dataPolicyBtn) dataPolicyBtn.addEventListener("click", () => _openPillPopup(`
-    ${_CLOSE_BTN}
-    <div style="width:44px;height:44px;border-radius:50%;background:#3b82f618;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-    </div>
-    <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:14px;">Data Policy</div>
-    <div style="text-align:left;display:flex;flex-direction:column;gap:12px;font-size:11px;color:#5a6a88;line-height:1.65;">
-      <div>
-        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">WHERE THE DATA COMES FROM</div>
-        War Summary monitors publicly available posts from Telegram channels covering the Middle East and Ukraine–Russia conflicts. No private messages or accounts are accessed.
-      </div>
-      <div>
-        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">HOW IT IS PROCESSED</div>
-        Raw posts are collected every hour and passed to an AI language model (via OpenRouter) which produces structured summaries, key developments, and threat assessments. The AI output is not manually reviewed before publishing.
-      </div>
-      <div>
-        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">SOURCE RELIABILITY</div>
-        Some monitored channels have known political biases or have published inaccurate information. These are flagged with a warning icon throughout the site. Always cross-reference with official sources.
-      </div>
-      <div>
-        <div style="font-size:10px;font-weight:700;letter-spacing:.06em;color:#3b82f6;font-family:'JetBrains Mono',monospace;margin-bottom:4px;">YOUR DATA</div>
-        This site collects no personal data, uses no cookies, and has no user accounts. The site is hosted on GitHub Pages. No analytics or tracking scripts are loaded.
-      </div>
-    </div>
-  `));
-
-  if (supportBtn) supportBtn.addEventListener("click", () => _openPillPopup(`
-    ${_CLOSE_BTN}
-    <div style="width:48px;height:48px;border-radius:50%;background:#e53e5b18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#e53e5b" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
-    </div>
-    <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:10px;">Support Us</div>
-    <p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:18px;">No donations needed — the best way to support War Summary is to follow the project on X.</p>
-    <a href="https://x.com/Kaldockhi" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:20px;background:#1a1f2a;border:1px solid #2a3040;color:#a8b4cc;font-size:12px;font-family:'JetBrains Mono',monospace;font-weight:600;text-decoration:none;">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.261 5.632 5.903-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-      Follow @Kaldockhi
-    </a>
-  `));
+  const ids = {
+    discordBotBtn: () => _openPillPopup(_buildDiscordHtml()),
+    allSourcesBtn: () => _openPillPopup(_buildSourcesHtml(), true),
+    dataPolicyBtn: () => _openPillPopup(_buildDataPolicyHtml()),
+    supportBtn:    () => _openPillPopup(_buildSupportHtml()),
+  };
+  for (const [id, handler] of Object.entries(ids)) {
+    const btn = document.getElementById(id);
+    if (btn) btn.addEventListener("click", handler);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); });
