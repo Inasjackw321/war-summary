@@ -607,8 +607,8 @@ Return only the JSON object, no other text."""
     return {"summary": "Summary unavailable.", "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
 
 
-def _extract_cited_channels(ai_result: dict) -> set[str]:
-    """Return set of channel names that the AI actually cited in its output."""
+def _extract_cited_posts(ai_result: dict, valid_channels: set[str]) -> dict[str, str]:
+    """Return {channel: url} linking to the specific post ID the AI cited, falling back to channel root."""
     parts: list[str] = []
     parts.extend(ai_result.get("key_points", []))
     parts.append(ai_result.get("summary", ""))
@@ -620,7 +620,13 @@ def _extract_cited_channels(ai_result: dict) -> set[str]:
         elif isinstance(v, list):
             parts.extend(str(x) for x in v)
     combined = " ".join(parts)
-    return {m for m in re.findall(r'@(\w+)', combined)}
+    cited: dict[str, str] = {}
+    for m in re.finditer(r'@(\w+)(?:/(\d+))?', combined):
+        ch, post_id = m.group(1), m.group(2)
+        if ch not in valid_channels or ch in cited:
+            continue
+        cited[ch] = f"https://t.me/{ch}/{post_id}" if post_id else f"https://t.me/{ch}"
+    return cited
 
 
 def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> dict[str, int]:
@@ -730,8 +736,7 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
     ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
     ai_result.pop("red_alerts", None)
 
-    cited = _extract_cited_channels(ai_result)
-    cited_post_urls = {ch: url for ch, url in recent_post_urls.items() if ch in cited}
+    cited_post_urls = _extract_cited_posts(ai_result, set(conf["channels"]))
 
     msgs_by_channel = build_messages_by_channel(conf["channels"], per_channel_counts)
 

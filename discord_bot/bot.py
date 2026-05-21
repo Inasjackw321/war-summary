@@ -5,7 +5,7 @@ import asyncio
 import aiohttp
 import discord
 from discord import app_commands
-from discord.ext import commands, tasks
+from discord.ext import commands
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -151,7 +151,7 @@ async def cmd_setup(interaction: discord.Interaction, conflict: str, channel: di
     label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
     await interaction.response.send_message(
         f"✅ **{label}** → {channel.mention}\n"
-        f"Updates will be posted every 3 hours. Use `/summary` to pull the latest now.",
+        f"Use `/summary` in that channel to pull the latest brief.",
         ephemeral=True,
     )
 
@@ -201,37 +201,11 @@ async def prefix_summary(ctx: commands.Context):
     else:
         await ctx.send("⚠ Failed to fetch data.")
 
-# ── Auto-post every 3 hours ────────────────────────────────────────────────────
-@tasks.loop(hours=3)
-async def _auto_post():
-    for conflict in DATA_URLS:
-        data = await _fetch(conflict)
-        if not data:
-            continue
-        embed = _embed(data, conflict)
-        for guild_id_str, guild_cfg in _cfg.items():
-            ch_id = guild_cfg.get(conflict)
-            if not ch_id:
-                continue
-            ch = bot.get_channel(ch_id)
-            if ch:
-                try:
-                    await ch.send(embed=embed)
-                    print(f"[bot] auto-posted {conflict} to #{ch.name}")
-                except Exception as e:
-                    print(f"[bot] auto-post failed to {ch_id}: {e}")
-
-@_auto_post.before_loop
-async def _before_auto_post():
-    await bot.wait_until_ready()
-
 # ── Startup ────────────────────────────────────────────────────────────────────
 @bot.event
 async def on_ready():
     _load()
     await bot.tree.sync()
-    if not _auto_post.is_running():
-        _auto_post.start()
     print(f"[bot] Ready — logged in as {bot.user}")
     print(f"[bot] Loaded config: {_cfg}")
 
