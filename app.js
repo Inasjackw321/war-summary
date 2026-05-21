@@ -982,11 +982,6 @@ function _openPillPopup(innerHtml, wide) {
     s.textContent = `
       @keyframes _ppBackdrop { from { opacity:0 } to { opacity:1 } }
       @keyframes _ppPanel    { from { opacity:0; transform:scale(.93) translateY(10px) } to { opacity:1; transform:none } }
-      .pp-ch { display:flex; align-items:center; border-radius:6px; overflow:hidden; }
-      .pp-ch a { display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; padding:7px 10px; text-decoration:none; font-size:11.5px; font-family:'JetBrains Mono',monospace; color:#8899bb; transition:background .1s, color .1s; }
-      .pp-ch a:hover { background:#161d2a; color:#c8d4e8; }
-      .pp-ch.biased a { color:#c89030; }
-      .pp-ch.biased a:hover { background:#1e1808; color:#f59e0b; }
     `;
     document.head.appendChild(s);
   }
@@ -1031,48 +1026,6 @@ function _openPillPopup(innerHtml, wide) {
   });
 }
 
-function _buildSourcesHtml() {
-  const warnIcon = '<svg width="9" height="9" viewBox="0 0 24 24" fill="#f59e0b"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>';
-  const extIcon  = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="opacity:.35"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>';
-  const groups = [
-    { key: "middle_east", label: "Middle East", flag: "🌍" },
-    { key: "ukraine",     label: "Ukraine–Russia", flag: "🇺🇦" },
-  ];
-  let body = "";
-  let found = false;
-  for (const g of groups) {
-    const d = dataCache[g.key];
-    if (!d || !Array.isArray(d.channels) || !d.channels.length) continue;
-    found = true;
-    // Sort: unbiased first, biased at bottom
-    const sorted = [...d.channels].sort((a, b) => {
-      const ab = isBiasedSource(String(a)), bb = isBiasedSource(String(b));
-      return ab === bb ? 0 : ab ? 1 : -1;
-    });
-    const rows = sorted.map(ch => {
-      const biased = isBiasedSource(String(ch));
-      const cnt    = ((d.messages_by_channel || {})["@" + ch]) || 0;
-      const right  = '<span style="display:flex;align-items:center;gap:6px;flex-shrink:0;">'
-        + (cnt ? '<span style="font-size:9px;color:#3a4a5c;">' + cnt + '</span>' : '')
-        + (biased ? '<span style="display:inline-flex;align-items:center;gap:2px;font-size:9px;color:#b07020;">' + warnIcon + ' bias</span>' : '')
-        + extIcon + '</span>';
-      return '<li class="pp-ch' + (biased ? ' biased' : '') + '">'
-        + '<a href="https://t.me/' + ch + '" target="_blank" rel="noopener">'
-        + '<span>@' + ch + '</span>' + right
-        + '</a></li>';
-    }).join('');
-    const divider = body ? '<div style="height:1px;background:#141c28;margin:4px 0 10px;"></div>' : '';
-    body += divider
-      + '<div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#3a4a5c;font-family:\'JetBrains Mono\',monospace;padding:0 10px 6px;text-transform:uppercase;">'
-      + g.flag + '&nbsp; ' + g.label + '</div>'
-      + '<ul style="list-style:none;padding:0;margin:0 0 4px;">' + rows + '</ul>';
-  }
-  if (!found) body = '<p style="font-size:12px;color:#5a6a88;padding:16px 0;text-align:center;">Data still loading — try again in a moment.</p>';
-  return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
-    + '<div style="font-size:13px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:3px;">Intelligence Sources</div>'
-    + '<p style="font-size:10px;color:#3a4a5c;margin-bottom:14px;">Open-source Telegram channels monitored in the last 24 h</p>'
-    + '<div style="max-height:60vh;overflow-y:auto;margin:0 -10px;padding:0 4px;">' + body + '</div>';
-}
 
 function _buildDataPolicyHtml() {
   const section = (title, text) =>
@@ -1117,7 +1070,21 @@ function _buildSupportHtml() {
 function initFooterPopups() {
   const ids = {
     discordBotBtn: () => _openPillPopup(_buildDiscordHtml()),
-    allSourcesBtn: () => _openPillPopup(_buildSourcesHtml(), true),
+    allSourcesBtn: () => {
+      const allChannels = [];
+      const allMsgs = {};
+      const seen = new Set();
+      ["middle_east", "ukraine"].forEach(key => {
+        const d = dataCache[key];
+        if (!d) return;
+        (d.channels || []).forEach(ch => { if (!seen.has(ch)) { seen.add(ch); allChannels.push(ch); } });
+        Object.assign(allMsgs, d.messages_by_channel || {});
+      });
+      // Update modal subtitle to reflect combined view, then open
+      const sub = document.getElementById("sourcesModalTitle");
+      if (sub) sub.textContent = "INTELLIGENCE SOURCES";
+      sourcesModal.open(allChannels, allMsgs);
+    },
     dataPolicyBtn: () => _openPillPopup(_buildDataPolicyHtml()),
     supportBtn:    () => _openPillPopup(_buildSupportHtml()),
   };
