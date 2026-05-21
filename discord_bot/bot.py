@@ -63,7 +63,7 @@ async def _fetch(conflict: str) -> dict:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-_CITATION_RE = re.compile(r'\(Source:\s*@(\w+)(?:/(\d+))?\)\s*$', re.IGNORECASE)
+_CITATION_RE = re.compile(r'\(Source:\s*@(\w+)(?:/(\d+))?\)\.?\s*$', re.IGNORECASE)
 _SOURCE_RE   = re.compile(r'\s*\([^)]*?(?:source|@)[^)]*\)', re.IGNORECASE)
 
 def _embed(data: dict, conflict: str) -> discord.Embed:
