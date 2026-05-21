@@ -982,12 +982,11 @@ function _openPillPopup(innerHtml, wide) {
     s.textContent = `
       @keyframes _ppBackdrop { from { opacity:0 } to { opacity:1 } }
       @keyframes _ppPanel    { from { opacity:0; transform:scale(.93) translateY(10px) } to { opacity:1; transform:none } }
-      .pp-src-row { display:flex;align-items:center;gap:0;padding:0;border-radius:7px;transition:background .12s; }
-      .pp-src-row:hover { background:#1a2030; }
-      .pp-src-row a { display:flex;align-items:center;gap:8px;width:100%;padding:7px 9px;text-decoration:none;color:#a8b4cc;font-size:11px;font-family:'JetBrains Mono',monospace; }
-      .pp-src-row a:hover { color:#dde4f0; }
-      .pp-src-row.biased a { color:#f59e0b; }
-      .pp-src-row.biased a:hover { color:#fbbf24; }
+      .pp-ch { display:flex; align-items:center; border-radius:6px; overflow:hidden; }
+      .pp-ch a { display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; padding:7px 10px; text-decoration:none; font-size:11.5px; font-family:'JetBrains Mono',monospace; color:#8899bb; transition:background .1s, color .1s; }
+      .pp-ch a:hover { background:#161d2a; color:#c8d4e8; }
+      .pp-ch.biased a { color:#c89030; }
+      .pp-ch.biased a:hover { background:#1e1808; color:#f59e0b; }
     `;
     document.head.appendChild(s);
   }
@@ -1033,8 +1032,8 @@ function _openPillPopup(innerHtml, wide) {
 }
 
 function _buildSourcesHtml() {
-  const warnSvg = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>';
-  const tgSvg  = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" opacity=".4"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>';
+  const warnIcon = '<svg width="9" height="9" viewBox="0 0 24 24" fill="#f59e0b"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>';
+  const extIcon  = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="opacity:.35"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>';
   const groups = [
     { key: "middle_east", label: "Middle East", flag: "🌍" },
     { key: "ukraine",     label: "Ukraine–Russia", flag: "🇺🇦" },
@@ -1045,34 +1044,34 @@ function _buildSourcesHtml() {
     const d = dataCache[g.key];
     if (!d || !Array.isArray(d.channels) || !d.channels.length) continue;
     found = true;
-    const rows = d.channels.map(ch => {
+    // Sort: unbiased first, biased at bottom
+    const sorted = [...d.channels].sort((a, b) => {
+      const ab = isBiasedSource(String(a)), bb = isBiasedSource(String(b));
+      return ab === bb ? 0 : ab ? 1 : -1;
+    });
+    const rows = sorted.map(ch => {
       const biased = isBiasedSource(String(ch));
       const cnt    = ((d.messages_by_channel || {})["@" + ch]) || 0;
-      const warn   = biased
-        ? ('<span style="display:inline-flex;align-items:center;gap:3px;font-size:9px;color:#f59e0b;">' + warnSvg + " biased</span>")
-        : "";
-      const count  = cnt
-        ? ('<span style="font-size:9px;color:#3d4a5c;font-family:\'JetBrains Mono\',monospace;">' + cnt + " msgs</span>")
-        : "";
-      return '<li class="pp-src-row' + (biased ? " biased" : "") + '">'
+      const right  = '<span style="display:flex;align-items:center;gap:6px;flex-shrink:0;">'
+        + (cnt ? '<span style="font-size:9px;color:#3a4a5c;">' + cnt + '</span>' : '')
+        + (biased ? '<span style="display:inline-flex;align-items:center;gap:2px;font-size:9px;color:#b07020;">' + warnIcon + ' bias</span>' : '')
+        + extIcon + '</span>';
+      return '<li class="pp-ch' + (biased ? ' biased' : '') + '">'
         + '<a href="https://t.me/' + ch + '" target="_blank" rel="noopener">'
-        + '<span style="flex:1;display:flex;align-items:center;gap:6px;">@' + ch + warn + '</span>'
-        + '<span style="display:flex;align-items:center;gap:5px;">' + count + tgSvg + "</span>"
-        + "</a></li>";
-    }).join("");
-    body += '<div style="margin-bottom:10px;">'
-      + '<div style="font-size:10px;font-weight:700;letter-spacing:.05em;color:#3d4a5c;font-family:\'JetBrains Mono\',monospace;padding:6px 9px 5px;display:flex;align-items:center;gap:5px;">'
-      + g.flag + " " + g.label.toUpperCase()
-      + "</div>"
-      + '<ul style="list-style:none;padding:0;margin:0;">' + rows + "</ul>"
-      + "</div>";
+        + '<span>@' + ch + '</span>' + right
+        + '</a></li>';
+    }).join('');
+    const divider = body ? '<div style="height:1px;background:#141c28;margin:4px 0 10px;"></div>' : '';
+    body += divider
+      + '<div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#3a4a5c;font-family:\'JetBrains Mono\',monospace;padding:0 10px 6px;text-transform:uppercase;">'
+      + g.flag + '&nbsp; ' + g.label + '</div>'
+      + '<ul style="list-style:none;padding:0;margin:0 0 4px;">' + rows + '</ul>';
   }
-  if (!found) body = '<p style="font-size:12px;color:#5a6a88;padding:16px 0;">Data still loading — try again in a moment.</p>';
+  if (!found) body = '<p style="font-size:12px;color:#5a6a88;padding:16px 0;text-align:center;">Data still loading — try again in a moment.</p>';
   return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
-    + '<div style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:4px;">Intelligence Sources</div>'
-    + '<p style="font-size:11px;color:#4a5568;margin-bottom:12px;display:flex;align-items:center;justify-content:center;gap:4px;">'
-    + 'Open-source Telegram channels &nbsp;&middot;&nbsp; ' + warnSvg + ' <span style="font-size:10px;color:#f59e0b;">= flagged for bias</span></p>'
-    + '<div style="max-height:58vh;overflow-y:auto;margin:0 -6px;">' + body + "</div>";
+    + '<div style="font-size:13px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:3px;">Intelligence Sources</div>'
+    + '<p style="font-size:10px;color:#3a4a5c;margin-bottom:14px;">Open-source Telegram channels monitored in the last 24 h</p>'
+    + '<div style="max-height:60vh;overflow-y:auto;margin:0 -10px;padding:0 4px;">' + body + '</div>';
 }
 
 function _buildDataPolicyHtml() {
@@ -1086,7 +1085,7 @@ function _buildDataPolicyHtml() {
     + section("WHERE THE DATA COMES FROM", "War Summary monitors publicly available posts from Telegram channels covering active conflicts. No private messages or accounts are accessed.")
     + section("HOW IT IS PROCESSED", "Posts are collected hourly and sent to an AI language model (via OpenRouter) which produces structured summaries and threat assessments. Output is not manually reviewed before publishing.")
     + section("SOURCE RELIABILITY", "Some channels have known political biases or have published inaccurate reports. These are flagged with a warning icon. Always cross-reference with official sources.")
-    + section("YOUR DATA", "This site collects no personal data, sets no cookies, and has no user accounts. No analytics or tracking scripts are loaded.")
+    + section("YOUR DATA", "This site collects no personal data, uses no cookies, and has no user accounts. No analytics or third-party tracking scripts are loaded.")
     + "</div>";
 }
 
