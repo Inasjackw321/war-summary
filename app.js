@@ -410,6 +410,17 @@ function filterImgs(candidates, seenKeys, counter, MAX) {
   return out;
 }
 
+// Strict relevance gate: only show images when exactly one unique channel is
+// cited in the text (single-source attribution). Multi-source bullets cannot
+// reliably map an image to the described event.
+function relevantImgs(rawText, seenKeys, counter) {
+  const candidates = extractImageKeys(rawText);
+  if (!candidates.length) return [];
+  const uniqueChannels = new Set(candidates.map(c => c.ch));
+  if (uniqueChannels.size !== 1) return [];
+  return filterImgs(candidates, seenKeys, counter, 1);
+}
+
 // ── Section block builder ─────────────────────────────────────────────────────
 function buildSectionBlock(def, sectionsData, index) {
   const raw    = sectionsData ? sectionsData[def.key] : null;
@@ -475,7 +486,7 @@ function buildSectionBlock(def, sectionsData, index) {
     const seenImgKeys = new Set(); const imgCounter = { n: 0 };
     body.innerHTML = `<div class="section-points">${
       points.map((pt, i) => {
-        const imgs = filterImgs(extractImageKeys(pt), seenImgKeys, imgCounter, 3);
+        const imgs = relevantImgs(pt, seenImgKeys, imgCounter);
         const mediaHtml = imgs.length
           ? `<div class="section-point-media">${imgs.map(({path,ch,postUrl}) => imgMediaHtml(path,ch,postUrl)).join("")}</div>`
           : "";
@@ -491,7 +502,7 @@ function buildSectionBlock(def, sectionsData, index) {
     const seenImgKeys = new Set(); const imgCounter = { n: 0 };
     body.innerHTML = `<div class="key-dev-list">${
       items.map((item, i) => {
-        const imgs = filterImgs(extractImageKeys(item), seenImgKeys, imgCounter, 3);
+        const imgs = relevantImgs(item, seenImgKeys, imgCounter);
         const mediaHtml = imgs.length
           ? `<div class="section-point-media">${imgs.map(({path,ch,postUrl}) => imgMediaHtml(path,ch,postUrl)).join("")}</div>`
           : "";
