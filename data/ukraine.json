@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-21T01:39:08.287283+00:00",
-  "message_count": 337,
+  "updated_at": "2026-05-21T04:22:17.540404+00:00",
+  "message_count": 343,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -16,12 +16,12 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    1,
+    2,
     0,
     1,
+    1,
+    0,
+    0,
     0,
     0,
     0,
@@ -39,58 +39,62 @@
     0
   ],
   "combined_activity_timeline": [
-    5,
-    4,
-    9,
     12,
-    19,
-    21,
-    24,
-    20,
-    22,
+    14,
+    18,
+    29,
     17,
+    24,
+    19,
+    17,
+    26,
+    25,
     21,
-    28,
-    20,
-    20,
-    14,
+    16,
+    12,
     15,
-    14,
     8,
-    8,
-    8,
-    6,
-    10,
+    12,
+    7,
     5,
-    7
+    7,
+    9,
+    6,
+    8,
+    8,
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 62,
-    "@kpszsu": 38,
+    "@eRadarrua": 63,
+    "@kpszsu": 42,
     "@mon1tor_ua": 26,
     "@UkraineNow": 21,
     "@DeepStateUA": 5,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 160
+    "@tass_agency": 161
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92806",
-    "kpszsu": "https://t.me/kpszsu/62346",
+    "eRadarrua": "https://t.me/eRadarrua/92808",
+    "kpszsu": "https://t.me/kpszsu/62354",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66884",
     "UkraineNow": "https://t.me/UkraineNow/81357",
     "DeepStateUA": "https://t.me/DeepStateUA/23526",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30322",
-    "tass_agency": "https://t.me/tass_agency/376812"
+    "tass_agency": "https://t.me/tass_agency/376827"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92806",
-    "kpszsu": "https://t.me/kpszsu/62346",
+    "kpszsu": "https://t.me/kpszsu/62354",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66884",
     "UkraineNow": "https://t.me/UkraineNow/81357",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30322",
-    "tass_agency": "https://t.me/tass_agency/376812"
+    "tass_agency": "https://t.me/tass_agency/376827"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/376817",
+      "post_id": 376817,
+      "channel": "tass_agency",
+      "ts": "2026-05-21T02:36:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/376810",
       "post_id": 376810,
@@ -102,12 +106,6 @@
       "post_id": 376808,
       "channel": "tass_agency",
       "ts": "2026-05-21T00:47:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/376800",
-      "post_id": 376800,
-      "channel": "tass_agency",
-      "ts": "2026-05-20T22:56:03+00:00"
     },
     {
       "post_url": "https://t.me/eRadarrua/92803",
@@ -124,12 +122,6 @@
       "ts": "2026-05-20T22:22:00+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/efx3g3odE3gMLk4FXiHHL2_ZuZySj3XcZ7kF1SeHgBMdbTx_LAZjlH9W8NixG6asrg1125kTBaYdobfhIzK80fURRaV-_rK_vO9S5OpKdAGrHbdISXZVumUPOXyRpWJJ2Acr8qAX3gP65Euu765uVC23sPMY-HBVutqCA15CtSOdj-vxHcvzcyvAR64Ui4vJrce6pAzNAu2r1Bsqi_cNWriiN_EhLK0NriAmonGS-wtH-i9F-RMTcFw2q2mdzq0ebHu6n7LNnUytW7ku-F9iTYXp5-JpDko85-UNEziQeDfvzeEYMGJRCdxdJ06MZtqobJoxjUbsPOT9JcnRZWWaEg.jpg",
       "companion_text_id": 92801
-    },
-    {
-      "post_url": "https://t.me/tass_agency/376798",
-      "post_id": 376798,
-      "channel": "tass_agency",
-      "ts": "2026-05-20T22:14:23+00:00"
     },
     {
       "post_url": "https://t.me/eRadarrua/92801",
@@ -191,10 +183,16 @@
       "cdn_url": "https://cdn4.telesco.pe/file/VmfxRwKn-iG4v1z_WbBq6WD2DJmM-wDP2WKh9OfzPyRrxcx09HTIYz0PdzjQ14dRpOOvIXysZ7ftw4AyjpSZYeSTXt8xHzEt00z8R_jrKYHseX8TG3OEnEp7H3qmSpH6Gm2QpZOg7_f_0y-ZWBYFqAVa3gIebSs9CqFb2tACGh_4MjRqavqON9q4ThxertTHCTigqRUuopcGWfoTFQy_p26bm4GxBfb_EuQvs5RVqr8OMfzV5O8BN6mpu-2ZJGC0GAwCPqEvNG31-vzP07VR8GZ5EeMhFTmrkyKAkB8CGkIudMyr0rg4ptIavWXpN-eg9QDpT-V2o3_KsGCFcdm3VA.jpg"
     },
     {
-      "post_url": "https://t.me/tass_agency/376793",
-      "post_id": 376793,
+      "post_url": "https://t.me/tass_agency/376791",
+      "post_id": 376791,
       "channel": "tass_agency",
-      "ts": "2026-05-20T18:46:52+00:00"
+      "ts": "2026-05-20T18:21:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/376790",
+      "post_id": 376790,
+      "channel": "tass_agency",
+      "ts": "2026-05-20T18:00:52+00:00"
     },
     {
       "post_url": "https://t.me/DeepStateUA/23525",
@@ -232,120 +230,117 @@
     "kpszsu/62328": "data/media/kpszsu_62328.jpg",
     "kpszsu/62285": "data/media/kpszsu_62285.jpg"
   },
-  "summary": "Ukrainian Shahed drones continue striking multiple regional targets, while Russian tactical aviation threatens southeastern fronts. Drone attacks have hit a Russian refinery in the Nizhny Novgorod region. Both sides report heightened UAV activity across several oblasts, indicating escalating low‑altitude warfare.",
+  "summary": "Ukrainian air defenses shot down 75 Shahed and other UAVs across multiple fronts on May 20, while Russian tactical aviation intensified attacks in the south‑east. Significant strikes hit the Russian Nizhny Novgorod refinery and the Konotop area in Sumy, causing casualties and infrastructure damage. UAV activity remains high in Kharkiv, Chernihiv, and Zaporizhzhia regions, prompting continued alert levels.",
   "key_points": [
-    "Shahed drones hit Kropyvnytskyi, Khmelnytskyi, and Mykolaiv regions, targeting infrastructure and civilian areas (Source: @mon1tor_ua/66852).",
-    "Russian tactical aviation warned of imminent strikes on southeastern Ukrainian frontlines (Source: @kpszsu/62336).",
-    "Ukrainian UAVs reported approaching Krzyhopil in Vinnytsia and Zmiiv in Kharkiv (Source: @kpszsu/62316, @kpszsu/62324).",
-    "Multiple UAV incursions detected over Dnipro, Kryvyi Rih, Sumy, and Mykolaiv from various directions (Source: @kpszsu/62346, @kpszsu/62344).",
-    "Russian refinery in Nizhny Novgorod region attacked by drones, causing repeated damage (Source: @UkraineNow/81357).",
-    "Polish Ministry of Defense cited a Ukrainian UAV breach into Estonian airspace, shot down by NATO fighters (Source: @ukr_leaks_eng/30314).",
-    "Ukrainian 59th Separate Unmanned Systems Assault Brigade recruiting for drone operations (Source: @ukr_leaks_eng/30321).",
-    "Russian propaganda claims Ukraine plans attacks from Latvian territory, denied by Ukrainian officials (Source: @UkraineNow/81346)."
+    "Ukrainian forces downed 75 Shahed, Gerbera, and Iltamass UAVs across east, north and south fronts on 20 May, confirming six hit UAVs (Source: @kpszsu/62328).",
+    "Russian tactical aviation increased strikes on the south‑eastern front, threatening frontline oblasts (Source: @kpszsu/62336).",
+    "Russian drone attacks damaged the Nizhny Novgorod refinery, marking a repeat strike on a major oil processing plant (Source: @UkraineNow/81357).",
+    "Russian missile and UAV strike on Konotop, Sumy region destroyed a driveway, injured at least six civilians and triggered evacuations (Source: @UkraineNow/81344).",
+    "Shahed UAVs detected heading toward Karavan in central Kharkiv and Barvinkove in southern Kharkiv (Source: @kpszsu/62326).",
+    "Multiple Shahed clusters reported over Chernihiv, Zhytomyr and Zaporizhzhia, with trajectories toward Chudniv, Lyubar, and Nikopol (Source: @kpszsu/62322, @kpszsu/62330).",
+    "Ukrainian forces reported two Shahed drones over Chernivtsi, prompting local air‑defence alerts (Source: @mon1tor_ua/66846).",
+    "Russian forces launched guided aerial bombs on Donetsk and Zaporizhzhia regions, indicating use of precision munitions (Source: @kpszsu/62351, @kpszsu/62347)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Shahed drone strikes across Kropyvnytskyi, Khmelnytskyi, and Mykolaiv mark the most operationally significant development, highlighting Ukraine's intensified low‑altitude offensive. Russian tactical aviation has issued warnings of imminent southeastern strikes, increasing the risk of conventional air attacks. Drone attacks on a Russian refinery in the Nizhny Novgorod region demonstrate the conflict’s expanding reach beyond frontlines.",
+    "executive_summary": "Ukrainian air defenses downed 75 hostile UAVs on 20 May, while Russian tactical aviation intensified strikes in the south‑east. Major infrastructure was hit, including a repeat drone attack on the Nizhny Novgorod refinery and a damaging strike on Konotop, Sumy. UAV activity remains widespread across Kharkiv, Chernihiv, Zaporizhzhia and other fronts, sustaining high alert levels.",
     "ukraine": {
       "points": [
-        "The 59th Separate Unmanned Systems Assault Brigade is actively recruiting personnel for drone operations, indicating a scaling of UAV capabilities (Source: @ukr_leaks_eng/30321).",
-        "Ukrainian Shahed drones were reported over Kropyvnytskyi, Khmelnytskyi, and Mykolaiv, targeting both military and civilian infrastructure, suggesting coordinated strike patterns (Source: @mon1tor_ua/66852).",
-        "UAV groups were observed heading toward Krzyhopil in Vinnytsia and Zmiiv in Kharkiv, potentially preparing for reconnaissance or strike missions (Source: @kpszsu/62316, @kpszsu/62324).",
-        "Multiple UAV incursions were logged over Dnipro, Kryvyi Rih, Sumy, and Mykolaiv from east, north, and west vectors, reflecting a broadening operational envelope (Source: @kpszsu/62346, @kpszsu/62344).",
-        "Ukrainian forces reported a UAV breach into Estonian airspace, later shot down by NATO fighters, prompting diplomatic warnings from Poland (Source: @ukr_leaks_eng/30314).",
-        "A Ukrainian drone was sighted over the border area between Kirovohrad and Odesa, heading toward Vinnytsia, indicating cross‑regional strike planning (Source: @kpszsu/62310).",
-        "Ukrainian propaganda claims plans for attacks from Latvian territory, though no official confirmation exists, reflecting information‑war tactics (Source: @UkraineNow/81346).",
-        "Ukrainian command highlighted the need for precise targeting to avoid NATO security concerns, underscoring operational discipline (Source: @ukr_leaks_eng/30314)."
+        "Ukrainian anti‑air units engaged 84 Shahed‑type UAVs on 20 May, confirming 75 shot down and six UAVs successfully intercepted across eastern, northern and southern sectors, demonstrating robust layered air defence (Source: @kpszsu/62328).",
+        "Ukrainian forces reported two Shahed drones over Chernivtsi, prompting local air‑defence activation and civilian alerts (Source: @mon1tor_ua/66846).",
+        "Ukrainian troops observed Shahed UAVs heading toward Karavan (central Kharkiv) and Barvinkove (southern Kharkiv), indicating continued targeting of logistics routes (Source: @kpszsu/62326).",
+        "Ukrainian reports indicated Shahed UAVs over Zaporizhzhia heading to Nikopol, suggesting attempts to disrupt river crossing points (Source: @kpszsu/62330).",
+        "Ukrainian forces noted UAV trajectories over Chernihiv heading to Chudniv and Lyubar, highlighting pressure on northern supply lines (Source: @kpszsu/62322).",
+        "Ukrainian units employed Hornet‑type UAVs for fire‑control in rear areas, expanding ISR and strike capabilities (Source: @tass_agency/376824).",
+        "Ukrainian air‑defence units maintained high readiness in Kharkiv, Chernihiv and Zaporizhzhia, with multiple radar alerts and engagement reports throughout the day (Source: @kpszsu/62336).",
+        "Ukrainian command continued to coordinate civilian donation drives to sustain defence operations, reflecting domestic support for ongoing military efforts (Source: @mon1tor_ua/66875)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation issued alerts of imminent strike capability on southeastern Ukrainian directions, warning of possible air‑to‑ground attacks (Source: @kpszsu/62336).",
-        "Repeated drone attacks struck a Russian oil refinery in the Nizhny Novgorod region, causing operational disruptions (Source: @UkraineNow/81357).",
-        "Russian officials denied a fabricated “agents of the Kremlin” story in Armenia, illustrating ongoing information operations (Source: @tass_agency/376796).",
-        "Russia announced five possible northern expansion scenarios, prompting Ukrainian defensive preparations (Source: @UkraineNow/81347).",
-        "Russian media reported that Ukraine plans attacks from Latvian territory, a claim used to justify heightened security measures (Source: @UkraineNow/81346).",
-        "Russian authorities highlighted the use of prohibited ammunition by Ukrainian forces in Donbas before the invasion, a narrative aimed at delegitimizing Kyiv (Source: @tass_agency/376803).",
-        "Russian diplomatic channels refuted claims of Kremlin agents in Armenia, reinforcing their stance against external interference (Source: @tass_agency/376796).",
-        "Russian tactical aviation conducted repeated guided bomb releases over Sumy region, indicating active air‑strike campaigns (Source: @kpszsu/62335)."
+        "Russian tactical aviation conducted intensified sorties on the south‑eastern front, threatening frontline oblasts with air‑to‑ground strikes (Source: @kpszsu/62336).",
+        "Russian forces launched guided aerial bombs on Donetsk and Zaporizhzhia, indicating deployment of precision munitions against Ukrainian positions (Source: @kpszsu/62351).",
+        "A second drone strike hit the Nizhny Novgorod refinery, disrupting Russian fuel production and marking a pattern of targeting energy infrastructure (Source: @UkraineNow/81357).",
+        "Russian missile and UAV attack on Konotop, Sumy region destroyed a driveway, injured at least six civilians and forced evacuations (Source: @UkraineNow/81344).",
+        "Russian forces employed Shahed UAVs over multiple Ukrainian regions, including Kharkiv, Chernihiv and Zaporizhzhia, aiming to degrade air‑defence and logistics (Source: @kpszsu/62328).",
+        "Russian aerial units reported UAV launches from the Belgorod‑Shebekino area, causing three civilian injuries in the Shebekinsky district (Source: @tass_agency/376821).",
+        "Russian command considered additional attacks from Belarus and Bryansk region, suggesting potential escalation vectors (Source: @UkraineNow/81357).",
+        "Russian forces continued to use Shahed clusters in coordinated waves, reflecting a sustained UAV campaign across the frontlines (Source: @kpszsu/62328)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAVs approached Zmiiv in Kharkiv, suggesting reconnaissance or strike intent on eastern supply lines (Source: @kpszsu/62324).",
-        "Russian tactical aviation warned of imminent strikes on southeastern fronts, directly affecting eastern operational zones (Source: @kpszsu/62336).",
-        "Guided bomb releases by Russian aircraft were reported over Sumy, indicating active eastern air‑strike operations (Source: @kpszsu/62335).",
-        "UAV activity detected over Sumy from the north, heading toward Królevets, potentially targeting logistics hubs (Source: @kpszsu/62337).",
-        "Ukrainian Shahed drones struck Mykolaiv and Khmelnytskyi, extending eastern pressure towards central Ukraine (Source: @mon1tor_ua/66852).",
-        "Russian forces reportedly used prohibited ammunition in Donbas prior to the invasion, reflecting ongoing eastern conflict narratives (Source: @tass_agency/376803).",
-        "Ukrainian forces reported UAV incursions over Dnipro from the north, threatening eastern river crossing points (Source: @kpszsu/62344).",
-        "Russian tactical aviation activity increased over the southeastern direction, potentially supporting eastern ground offensives (Source: @kpszsu/62336)."
+        "Ukrainian air‑defence downed 75 Shahed UAVs across the eastern front on 20 May, confirming six UAVs penetrated but were neutralised (Source: @kpszsu/62328).",
+        "Russian missile and UAV strikes hit Konotop in Sumy, causing civilian casualties and infrastructure damage, highlighting pressure on eastern supply routes (Source: @UkraineNow/81344).",
+        "Shahed UAVs were observed heading toward Barvinkove in southern Kharkiv, threatening rear‑area logistics (Source: @kpszsu/62326).",
+        "Ukrainian forces reported UAV activity over Chernihiv heading to Chudniv and Lyubar, indicating Russian attempts to interdict northern corridors (Source: @kpszsu/62322).",
+        "Russian tactical aviation increased sortie rates in the east, targeting Ukrainian positions and command posts (Source: @kpszsu/62336).",
+        "Ukrainian Hornet UAVs provided fire‑control support in eastern rear areas, enhancing situational awareness (Source: @tass_agency/376824).",
+        "Multiple Shahed clusters were intercepted over the eastern front, demonstrating high UAV traffic density (Source: @kpszsu/62328).",
+        "Ukrainian units maintained radar vigilance in Kharkiv, reporting Shahed trajectories toward Karavan (Source: @kpszsu/62326)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs were observed over Kryvyi Rih from the east, indicating north‑central strike capability (Source: @kpszsu/62344).",
-        "Russian tactical aviation warned of possible strikes on southeastern fronts, but also discussed northern expansion scenarios (Source: @UkraineNow/81347).",
-        "UAV activity reported over Sumy from the north, heading toward Królevets, highlighting northern reconnaissance (Source: @kpszsu/62337).",
-        "Russian forces discussed five northern expansion scenarios, prompting Ukrainian defensive measures (Source: @UkraineNow/81347).",
-        "Ukrainian Shahed drones struck Kropyvnytskyi, a central‑northern city, expanding the conflict’s reach (Source: @mon1tor_ua/66852).",
-        "Ukrainian UAVs detected over Dnipro from the north, potentially targeting northern supply routes (Source: @kpszsu/62344).",
-        "Russian tactical aviation’s threat to southeastern fronts may shift resources away from the north, affecting front‑line balance (Source: @kpszsu/62336).",
-        "Ukrainian forces reported UAVs near the border of Kirovohrad and Odesa, moving northward toward Vinnytsia (Source: @kpszsu/62310)."
+        "Shahed UAVs were detected over Chernihiv heading toward Chudniv and Lyubar, prompting air‑defence alerts (Source: @kpszsu/62322).",
+        "Ukrainian forces reported UAVs over Zhytomyr heading to Chudniv and Lyubar, indicating Russian pressure on northern transport hubs (Source: @kpszsu/62322).",
+        "Russian tactical aviation sorties increased over the north‑east, with reports of UAV activity near the Belarusian border (Source: @kpszsu/62336).",
+        "Ukrainian air‑defence units engaged multiple UAVs over the northern front, confirming several interceptions (Source: @kpszsu/62328).",
+        "Russian guided aerial bomb releases were reported in Donetsk, affecting northern sectors of the front (Source: @kpszsu/62351).",
+        "Ukrainian Hornet UAVs operated for reconnaissance over northern oblasts, supporting artillery coordination (Source: @tass_agency/376824).",
+        "Civilian alerts issued in northern oblasts due to increased UAV overflights, emphasizing heightened threat perception (Source: @kpszsu/62336).",
+        "Ukrainian forces continued to monitor Shahed trajectories toward Karavan, a key logistics node in central Kharkiv (Source: @kpszsu/62326)."
       ]
     },
     "southern_front": {
       "points": [
-        "Shahed drones were reported over Mykolaiv and Khmelnytskyi, targeting southern infrastructure (Source: @mon1tor_ua/66852).",
-        "Ukrainian UAVs approached Mykolaiv from the east and Nikopol from the west, indicating southern pressure (Source: @kpszsu/62346).",
-        "Russian tactical aviation warned of imminent strikes on southeastern directions, directly threatening southern Ukrainian positions (Source: @kpszsu/62336).",
-        "UAV activity detected over Dnipro from the north, affecting southern supply corridors (Source: @kpszsu/62344).",
-        "Ukrainian Shahed attacks on Kropyvnytskyi and Mykolaiv suggest coordinated southern strike patterns (Source: @mon1tor_ua/66852).",
-        "Russian air‑strike operations over Sumy may divert assets from southern fronts (Source: @kpszsu/62335).",
-        "Ukrainian UAVs reported near Kherson region, indicating potential southern expansion of drone operations (Source: @eRadarrua/92781).",
-        "Russian refinery attack in Nizhny Novgorod demonstrates Moscow’s vulnerability to southern‑origin drone strikes (Source: @UkraineNow/81357)."
+        "Russian tactical aviation intensified strikes on the south‑eastern front, targeting frontline settlements and infrastructure (Source: @kpszsu/62336).",
+        "Shahed UAVs were observed heading toward Barvinkove in southern Kharkiv, indicating attempts to disrupt supply lines (Source: @kpszsu/62326).",
+        "Ukrainian forces reported UAV activity over Zaporizhzhia heading to Nikopol, threatening river crossing points (Source: @kpszsu/62330).",
+        "Russian guided aerial bomb releases targeted Donetsk and Zaporizhzhia, showing use of precision munitions in the south (Source: @kpszsu/62347).",
+        "Ukrainian air‑defence engaged multiple UAVs over southern oblasts, confirming several shoot‑downs (Source: @kpszsu/62328).",
+        "Russian missile attacks on southern logistics hubs caused civilian injuries and infrastructure damage (Source: @UkraineNow/81357).",
+        "Ukrainian Hornet UAVs provided fire‑control support in southern rear areas, enhancing artillery effectiveness (Source: @tass_agency/376824).",
+        "Civilian alerts issued in southern Kharkiv and Zaporizhzhia due to increased UAV activity (Source: @kpszsu/62336)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation issued warnings of imminent southeastern strikes, suggesting increased air‑to‑ground activity (Source: @kpszsu/62336).",
-        "Guided bomb releases by Russian aircraft over Sumy indicate active use of precision munitions (Source: @kpszsu/62335).",
-        "Ukrainian Shahed drones have struck multiple Ukrainian cities, demonstrating effective low‑altitude air‑defeat capabilities (Source: @mon1tor_ua/66852).",
-        "Ukrainian UAVs reported over Dnipro, Kryvyi Rih, and Sumy from various vectors, showing broad air‑space penetration (Source: @kpszsu/62346, @kpszsu/62344).",
-        "Drone attack on Russian Nizhny Novgorod refinery highlights cross‑border UAV strike capability (Source: @UkraineNow/81357).",
-        "Polish‑reported Ukrainian UAV breach into Estonian airspace, shot down by NATO, underscores NATO‑Ukrainian air coordination challenges (Source: @ukr_leaks_eng/30314).",
-        "Russian tactical aviation’s increased activity may strain Ukrainian air‑defence resources across multiple fronts (Source: @kpszsu/62336).",
-        "Ukrainian Shahed attacks on Mykolaiv and Khmelnytskyi suggest a shift toward targeting southern logistical hubs (Source: @mon1tor_ua/66852)."
+        "Ukrainian air‑defence shot down 75 Shahed, Gerbera and Iltamass UAVs on 20 May, confirming six UAVs penetrated but were neutralised (Source: @kpszsu/62328).",
+        "Russian tactical aviation increased sortie rates on the south‑eastern front, employing both fixed‑wing strike aircraft and UAVs (Source: @kpszsu/62336).",
+        "Russian forces launched guided aerial bombs on Donetsk and Zaporizhzhia, indicating use of precision strike capabilities (Source: @kpszsu/62351).",
+        "Ukrainian Hornet UAVs were employed for fire‑control in rear areas, expanding ISR and strike capacity (Source: @tass_agency/376824).",
+        "Ukrainian radar detected Shahed trajectories toward Karavan (central Kharkiv) and Barvinkove (southern Kharkiv), prompting defensive engagements (Source: @kpszsu/62326).",
+        "Russian UAV attacks on Nizhny Novgorod refinery and Konotop illustrate the expanding role of drones in strategic targeting (Source: @UkraineNow/81357, @UkraineNow/81344).",
+        "Multiple civilian injury reports from Russian UAV and missile strikes underscore the ongoing threat to non‑military populations (Source: @tass_agency/376821, @UkraineNow/81344).",
+        "Ukrainian forces maintained high alert across all fronts, with continuous radar monitoring and rapid interception of hostile UAVs (Source: @kpszsu/62336)."
       ]
     },
     "key_developments": [
-      "Shahed drones struck Kropyvnytskyi, Khmelnytskyi, and Mykolaiv, targeting infrastructure and civilian areas (Source: @mon1tor_ua/66852).",
-      "Russian tactical aviation warned of imminent southeastern strikes, raising the risk of conventional air attacks (Source: @kpszsu/62336).",
-      "Drone attacks repeatedly damaged a Russian refinery in the Nizhny Novgorod region, disrupting fuel production (Source: @UkraineNow/81357).",
-      "Ukrainian UAVs approached Krzyhopil (Vinnytsia) and Zmiiv (Kharkiv), indicating coordinated strike preparation (Source: @kpszsu/62316, @kpszsu/62324).",
-      "Multiple UAV incursions over Dnipro, Kryvyi Rih, Sumy, and Mykolaiv from varied directions expanded the UAV operational envelope (Source: @kpszsu/62346, @kpszsu/62344).",
-      "Polish Ministry of Defense cited a Ukrainian UAV breach into Estonian airspace, shot down by NATO fighters, prompting diplomatic alerts (Source: @ukr_leaks_eng/30314).",
-      "Russian forces discussed five northern expansion scenarios, prompting Ukrainian defensive planning (Source: @UkraineNow/81347)."
+      "Ukrainian air‑defence downed 75 Shahed and other UAVs on 20 May, confirming six hit UAVs across multiple fronts (Source: @kpszsu/62328).",
+      "Russian tactical aviation intensified strikes on the south‑eastern front, increasing pressure on frontline oblasts (Source: @kpszsu/62336).",
+      "A second drone attack struck the Nizhny Novgorod refinery, disrupting Russian fuel production (Source: @UkraineNow/81357).",
+      "Russian missile and UAV strike on Konotop, Sumy region injured at least six civilians and damaged infrastructure (Source: @UkraineNow/81344).",
+      "Shahed UAVs were observed heading toward Karavan (central Kharkiv) and Barvinkove (southern Kharkiv), targeting logistics routes (Source: @kpszsu/62326).",
+      "Russian guided aerial bombs were deployed on Donetsk and Zaporizhzhia, indicating use of precision munitions (Source: @kpszsu/62351).",
+      "Ukrainian Hornet UAVs provided fire‑control in rear areas, enhancing artillery coordination (Source: @tass_agency/376824)."
     ],
-    "threat_assessment": "Ukrainian Shahed drone operations are increasingly targeting strategic cities across central and southern Ukraine, complicating Russian defensive postures. Russian tactical aviation’s threat of southeastern strikes, coupled with guided bomb deployments over Sumy, indicates a potential escalation to higher‑intensity air warfare. The cross‑border drone strike on a Russian refinery demonstrates both sides' expanding UAV reach, raising the risk of further strategic infrastructure attacks.",
-    "regional_response": "NATO allies, notably Poland, have heightened air‑space vigilance after a Ukrainian UAV entered Estonian airspace, reflecting broader alliance concerns over UAV proliferation. Ukrainian leadership emphasizes precise targeting to avoid NATO incidents, while Russian propaganda leverages claims of Ukrainian attacks from Latvia to justify defensive measures. Both sides are adjusting force deployments in response to the evolving UAV threat.",
-    "intelligence_notes": "Continuous monitoring of UAV flight paths is essential, as patterns show multi‑directional incursions targeting logistics hubs. Russian tactical aviation alerts suggest possible preparation for larger air‑strike campaigns, warranting reinforcement of Ukrainian air‑defence assets in the southeast. The successful drone strike on a Russian refinery underscores the need for enhanced counter‑UAV measures beyond the frontlines."
+    "threat_assessment": "Russian forces are escalating UAV and precision‑bomb attacks across all fronts, focusing on logistics hubs in Kharkiv, Chernihiv and Zaporizhzhia while striking strategic Russian infrastructure such as the Nizhny Novgorod refinery. Ukrainian air‑defence remains effective, intercepting the majority of hostile drones, but the high volume of Shahed sorties sustains pressure on civilian populations. Continued Russian tactical aviation sorties on the south‑east suggest a concerted effort to degrade Ukrainian rear areas and supply lines.",
+    "regional_response": "Ukrainian command has heightened alert levels and redeployed mobile air‑defence units to intercept Shahed clusters, especially around Kharkiv and Chernihiv. Civil authorities issued evacuation orders in Konotop and reinforced shelters in affected oblasts. International partners continue to monitor the escalation, with NATO providing additional air‑defence ammunition to sustain Ukrainian interception capabilities.",
+    "intelligence_notes": "Open‑source monitoring indicates a coordinated Russian UAV campaign timed with diplomatic engagements in China, possibly to test Western resolve. The repeat targeting of the Nizhny Novgorod refinery aligns with a broader strategy to pressure Russian energy exports. Ukrainian Hornet UAV deployment suggests a shift toward integrated ISR‑strike operations, enhancing battlefield awareness despite the high UAV threat environment."
   },
   "missiles": 0,
   "drones": 6,
   "kpszsu_timeline": [
-    0,
-    0,
     1,
-    0,
-    2,
+    1,
     2,
     4,
+    0,
+    5,
     2,
-    3,
-    2,
-    2,
+    1,
     3,
     5,
     1,
@@ -353,11 +348,14 @@
     2,
     2,
     2,
+    1,
     0,
     0,
     0,
-    0,
+    1,
+    1,
     2,
-    1
+    1,
+    3
   ]
 }
