@@ -970,18 +970,22 @@ document.addEventListener("click", e => {
   if (thumb) { e.stopPropagation(); openLocalMediaLightbox(thumb.dataset.src, thumb.dataset.posturl); }
 });
 
-// ── Discord bot popup ──────────────────────────────────────────────────────────
-(function initDiscordPopup() {
-  const backdrop = document.getElementById("discordPopupBackdrop");
-  const closeBtn = document.getElementById("discordPopupClose");
-  const openBtn  = document.getElementById("discordBotBtn");
-  if (!backdrop) return;
-  function open()  { backdrop.classList.add("open"); backdrop.setAttribute("aria-hidden","false"); }
-  function close() { backdrop.classList.remove("open"); backdrop.setAttribute("aria-hidden","true"); }
-  if (openBtn)  openBtn.addEventListener("click", open);
-  if (closeBtn) closeBtn.addEventListener("click", close);
-  backdrop.addEventListener("click", e => { if (e.target === backdrop) close(); });
-  document.addEventListener("keydown", e => { if (e.key === "Escape" && backdrop.classList.contains("open")) close(); });
+// ── Footer popups ──────────────────────────────────────────────────────────────
+(function initFooterPopups() {
+  function makePopup(backdropId, openBtnId, closeBtnId) {
+    const backdrop = document.getElementById(backdropId);
+    const openBtn  = document.getElementById(openBtnId);
+    const closeBtn = document.getElementById(closeBtnId);
+    if (!backdrop) return;
+    const close = () => backdrop.classList.remove("open");
+    const open  = () => backdrop.classList.add("open");
+    if (openBtn)  openBtn.addEventListener("click", open);
+    if (closeBtn) closeBtn.addEventListener("click", close);
+    backdrop.addEventListener("click", e => { if (e.target === backdrop) close(); });
+    document.addEventListener("keydown", e => { if (e.key === "Escape" && backdrop.classList.contains("open")) close(); });
+  }
+  makePopup("discordPopupBackdrop", "discordBotBtn",  "discordPopupClose");
+  makePopup("supportPopupBackdrop",  "supportBtn",     "supportPopupClose");
 })();
 
 document.addEventListener("DOMContentLoaded", init);

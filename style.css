@@ -720,14 +720,21 @@ body {
   font-size: 10px;
   color: #3d4a5c;
 }
-.footer-discord-btn {
+/* ── Footer pill buttons ── */
+.footer-btns {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+.footer-pill-btn {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  margin-top: 6px;
-  padding: 5px 12px;
-  border-radius: 6px;
-  border: 1px solid #2a3040;
+  padding: 5px 13px;
+  border-radius: 20px;
+  border: 1px solid #252e3d;
   background: transparent;
   cursor: pointer;
   font-size: 10px;
@@ -737,94 +744,120 @@ body {
   color: #4a5568;
   transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
-.footer-discord-btn:hover {
-  color: #7289da;
-  border-color: #7289da44;
-  background: #7289da0d;
+.footer-pill-btn:hover {
+  color: #8899bb;
+  border-color: #3a4a60;
+  background: #ffffff08;
 }
 
-/* ── Discord info popup ── */
-.discord-popup-backdrop {
+/* ── Shared popup backdrop + panel ── */
+.pill-popup-backdrop {
+  display: none;
   position: fixed;
   inset: 0;
-  background: rgba(5,8,14,0.75);
-  backdrop-filter: blur(4px);
-  z-index: 500;
-  display: flex;
+  background: rgba(5,8,14,0.8);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 600;
   align-items: center;
   justify-content: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s;
 }
-.discord-popup-backdrop.open {
-  opacity: 1;
-  pointer-events: all;
+.pill-popup-backdrop.open {
+  display: flex;
 }
-.discord-popup {
+.pill-popup {
   position: relative;
-  background: var(--surface, #0f1219);
-  border: 1px solid #2a3040;
-  border-radius: 12px;
-  padding: 28px 28px 24px;
-  max-width: 360px;
-  width: 90%;
+  background: #0f1219;
+  border: 1px solid #252e3d;
+  border-radius: 14px;
+  padding: 30px 26px 24px;
+  max-width: 340px;
+  width: calc(100% - 40px);
   text-align: center;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.6);
 }
-.discord-popup-close {
+.pill-popup-close {
   position: absolute;
   top: 12px;
   right: 12px;
   background: none;
   border: none;
-  color: var(--muted, #5a6a88);
+  color: #3d4a5c;
   cursor: pointer;
   padding: 4px;
-  line-height: 1;
   border-radius: 4px;
+  line-height: 1;
   transition: color 0.15s;
 }
-.discord-popup-close:hover { color: var(--text, #dde4f0); }
-.discord-popup-icon {
-  margin-bottom: 12px;
+.pill-popup-close:hover { color: #dde4f0; }
+.pill-popup-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
 }
-.discord-popup-title {
+.pill-popup-icon--discord { background: #7289da18; }
+.pill-popup-icon--support { background: #e53e5b18; }
+.pill-popup-title {
   font-size: 14px;
   font-weight: 700;
   font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.04em;
-  color: var(--text, #dde4f0);
+  color: #dde4f0;
   margin-bottom: 10px;
 }
-.discord-popup-body {
+.pill-popup-body {
   font-size: 12px;
-  color: var(--muted, #5a6a88);
-  line-height: 1.6;
-  margin-bottom: 14px;
+  color: #5a6a88;
+  line-height: 1.65;
+  margin-bottom: 16px;
 }
-.discord-popup-features {
+.pill-popup-list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 7px;
   text-align: left;
 }
-.discord-popup-features li {
+.pill-popup-list li {
   display: flex;
   align-items: center;
   gap: 7px;
   font-size: 11px;
-  color: #8899aa;
+  color: #7a8a9a;
 }
-.discord-popup-features code {
+.pill-popup-list code {
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
   background: #1a2030;
   padding: 1px 5px;
   border-radius: 3px;
   color: #a8b4cc;
+}
+.pill-popup-follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: #1a1f2a;
+  border: 1px solid #2a3040;
+  color: #a8b4cc;
+  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.pill-popup-follow-btn:hover {
+  background: #252e3d;
+  border-color: #3a4a60;
+  color: #dde4f0;
 }
 
 /* ── Scroll-to-top button ── */
