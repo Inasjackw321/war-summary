@@ -572,7 +572,7 @@ Return ONLY valid JSON with this exact structure:
 {{
   "summary": "3-sentence executive summary",
   "key_points": [
-    "8 most operationally significant developments — each exactly 15-25 words, must include specific locations/numbers/weapon systems where known, no vague filler, ordered by operational importance"
+    "8 most operationally significant developments. Each item: 15-25 words of factual content, then (Source: @channel/postID). Use the exact channel name and post ID from the message prefix. No vague filler. Ordered by operational importance."
   ],
   "sentiment": "one of: escalating|volatile|active|tense|stable|calm",
   "intensity": <1-10>,
