@@ -751,24 +751,18 @@ const WARN_TIP = "This source may provide inaccurate or biased information. Alwa
 
 // Warning popup when clicking a biased source
 function showSourceWarningPopup(ch, url) {
-  const existing = document.getElementById("sourceWarnPopup");
-  if (existing) existing.remove();
-  const el = document.createElement("div");
-  el.id = "sourceWarnPopup";
-  el.className = "source-warn-popup";
-  el.innerHTML = `
-    <div class="source-warn-popup-inner">
-      <div class="source-warn-popup-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
-      <div class="source-warn-popup-title">Source Advisory — @${ch}</div>
-      <div class="source-warn-popup-body">${WARN_TIP}</div>
-      <div class="source-warn-popup-actions">
-        <button class="source-warn-cancel">Cancel</button>
-        <a class="source-warn-continue" href="${url}" target="_blank" rel="noopener noreferrer">Continue to source</a>
-      </div>
-    </div>`;
-  document.body.appendChild(el);
-  el.querySelector(".source-warn-cancel").addEventListener("click", () => el.remove());
-  el.addEventListener("click", e => { if (e.target === el) el.remove(); });
+  _openPillPopup(
+    '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
+    + '<div style="width:44px;height:44px;border-radius:50%;background:rgba(245,158,11,.12);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">'
+    + '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>'
+    + '<div style="font-size:11px;font-weight:700;font-family:\'JetBrains Mono\',monospace;letter-spacing:.06em;color:#f59e0b;margin-bottom:6px;">SOURCE ADVISORY</div>'
+    + '<div style="font-size:13px;font-weight:600;color:#dde4f0;margin-bottom:10px;">@' + ch + '</div>'
+    + '<p style="font-size:11px;color:#5a6a88;line-height:1.65;margin-bottom:20px;">' + WARN_TIP + '</p>'
+    + '<div style="display:flex;gap:8px;justify-content:center;">'
+    + '<button class="pp-close" style="background:transparent;border:1px solid #252e3d;color:#5a6a88;font-family:\'JetBrains Mono\',monospace;font-size:10px;padding:7px 16px;border-radius:6px;cursor:pointer;">Cancel</button>'
+    + '<a href="' + url + '" target="_blank" rel="noopener noreferrer" style="background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#f59e0b;font-family:\'JetBrains Mono\',monospace;font-size:10px;padding:7px 16px;border-radius:6px;text-decoration:none;">Continue to source</a>'
+    + '</div>'
+  );
 }
 
 const WARN_ICON = `<span class="source-warn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`;
