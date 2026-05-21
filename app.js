@@ -970,22 +970,54 @@ document.addEventListener("click", e => {
   if (thumb) { e.stopPropagation(); openLocalMediaLightbox(thumb.dataset.src, thumb.dataset.posturl); }
 });
 
-// ── Footer popups ──────────────────────────────────────────────────────────────
+// ── Footer popups (built dynamically to avoid hidden-element rendering issues) ─
+function _openPillPopup(innerHTML) {
+  const existing = document.getElementById("_pillPopup");
+  if (existing) existing.remove();
+  const el = document.createElement("div");
+  el.id = "_pillPopup";
+  el.style.cssText = "position:fixed;inset:0;z-index:1000;background:rgba(5,8,14,0.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;";
+  el.innerHTML = `<div style="position:relative;background:#0f1219;border:1px solid #252e3d;border-radius:14px;padding:30px 26px 24px;max-width:340px;width:calc(100% - 40px);text-align:center;box-shadow:0 24px 64px rgba(0,0,0,0.6);">${innerHTML}</div>`;
+  document.body.appendChild(el);
+  const close = () => el.remove();
+  el.addEventListener("click", e => { if (e.target === el) close(); });
+  el.querySelector(".pp-close").addEventListener("click", close);
+  document.addEventListener("keydown", function h(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", h); } });
+}
+
+const _CLOSE_BTN = `<button class="pp-close" aria-label="Close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;border-radius:4px;line-height:1;font-size:18px;transition:color .15s;" onmouseover="this.style.color='#dde4f0'" onmouseout="this.style.color='#3d4a5c'">✕</button>`;
+const _CHECK = (c) => `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
+
 (function initFooterPopups() {
-  function makePopup(backdropId, openBtnId, closeBtnId) {
-    const backdrop = document.getElementById(backdropId);
-    const openBtn  = document.getElementById(openBtnId);
-    const closeBtn = document.getElementById(closeBtnId);
-    if (!backdrop) return;
-    const close = () => backdrop.classList.remove("open");
-    const open  = () => backdrop.classList.add("open");
-    if (openBtn)  openBtn.addEventListener("click", open);
-    if (closeBtn) closeBtn.addEventListener("click", close);
-    backdrop.addEventListener("click", e => { if (e.target === backdrop) close(); });
-    document.addEventListener("keydown", e => { if (e.key === "Escape" && backdrop.classList.contains("open")) close(); });
-  }
-  makePopup("discordPopupBackdrop", "discordBotBtn",  "discordPopupClose");
-  makePopup("supportPopupBackdrop",  "supportBtn",     "supportPopupClose");
+  const discordBtn = document.getElementById("discordBotBtn");
+  const supportBtn = document.getElementById("supportBtn");
+
+  if (discordBtn) discordBtn.addEventListener("click", () => _openPillPopup(`
+    ${_CLOSE_BTN}
+    <div style="width:48px;height:48px;border-radius:50%;background:#7289da18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="#7289da"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03z"/></svg>
+    </div>
+    <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:10px;">War Summary on Discord</div>
+    <p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:16px;">Get the latest intelligence briefs directly in your Discord server. The War Summary bot delivers AI-generated updates for the Middle East and Ukraine–Russia conflicts, sourced from open Telegram channels.</p>
+    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px;text-align:left;">
+      <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} On-demand summaries with <code style="font-family:'JetBrains Mono',monospace;font-size:10px;background:#1a2030;padding:1px 5px;border-radius:3px;color:#a8b4cc;">/summary</code></li>
+      <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} Inline source links to cited Telegram posts</li>
+      <li style="display:flex;align-items:center;gap:7px;font-size:11px;color:#7a8a9a;">${_CHECK("#7289da")} Assign any channel per conflict</li>
+    </ul>
+  `));
+
+  if (supportBtn) supportBtn.addEventListener("click", () => _openPillPopup(`
+    ${_CLOSE_BTN}
+    <div style="width:48px;height:48px;border-radius:50%;background:#e53e5b18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#e53e5b" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+    </div>
+    <div style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;color:#dde4f0;margin-bottom:10px;">Support Us</div>
+    <p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:18px;">No donations needed — the best way to support War Summary is to follow the project on X.</p>
+    <a href="https://x.com/Kaldockhi" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:20px;background:#1a1f2a;border:1px solid #2a3040;color:#a8b4cc;font-size:12px;font-family:'JetBrains Mono',monospace;font-weight:600;text-decoration:none;">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.261 5.632 5.903-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      Follow @Kaldockhi
+    </a>
+  `));
 })();
 
 document.addEventListener("DOMContentLoaded", init);
