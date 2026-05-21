@@ -87,25 +87,28 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         timestamp=ts or datetime.now(timezone.utc),
     )
 
-    # Key points — extract citation, render as hyperlink next to each bullet
-    points = data.get("key_points") or []
+    # Use key_developments (reliably cited) falling back to key_points
+    sections = data.get("sections") or {}
+    key_devs = sections.get("key_developments") or []
+    points = key_devs if isinstance(key_devs, list) and key_devs else (data.get("key_points") or [])
+
     if points:
         nums = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"]
         lines = []
         total = 0
         for i, p in enumerate(points[:10]):
-            m = _CITATION_RE.search(p)
+            m = _CITATION_RE.search(str(p))
             if m:
                 ch, post_id = m.group(1), m.group(2)
                 if ch not in _BOT_EXCLUDED_SOURCES:
                     url = f"https://t.me/{ch}/{post_id}" if post_id else f"https://t.me/{ch}"
-                    clean = _CITATION_RE.sub("", p).strip()
+                    clean = _CITATION_RE.sub("", str(p)).strip()
                     line = f"{nums[i] if i < len(nums) else f'{i+1}.'} [{clean}]({url})"
                 else:
-                    clean = _CITATION_RE.sub("", p).strip()
+                    clean = _CITATION_RE.sub("", str(p)).strip()
                     line = f"{nums[i] if i < len(nums) else f'{i+1}.'} {clean}"
             else:
-                clean = _SOURCE_RE.sub("", p).strip()
+                clean = _SOURCE_RE.sub("", str(p)).strip()
                 line = f"{nums[i] if i < len(nums) else f'{i+1}.'} {clean}"
             if total + len(line) + 1 > 1020:
                 break
