@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-22T17:19:58.420139+00:00",
-  "message_count": 244,
+  "updated_at": "2026-05-22T19:20:24.956984+00:00",
+  "message_count": 242,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,20 +13,18 @@
   ],
   "red_alerts": 124,
   "red_alerts_timeline": [
-    8,
-    17,
     0,
-    17,
-    8,
+    18,
+    9,
     0,
     0,
-    41,
+    44,
     0,
-    17,
+    18,
     0,
     0,
     0,
-    8,
+    9,
     0,
     0,
     0,
@@ -34,21 +32,21 @@
     0,
     0,
     0,
-    8,
+    9,
     0,
-    0
+    0,
+    0,
+    18
   ],
   "combined_activity_timeline": [
-    8,
+    7,
     8,
     6,
-    8,
+    3,
+    6,
+    16,
     5,
-    5,
-    5,
-    15,
-    5,
-    9,
+    7,
     5,
     8,
     13,
@@ -56,41 +54,69 @@
     14,
     10,
     12,
-    6,
-    12,
+    7,
     11,
-    20,
+    13,
+    18,
     18,
     13,
-    8
+    8,
+    9,
+    5
   ],
   "messages_by_channel": {
     "@eRadarrua": 40,
-    "@kpszsu": 33,
-    "@mon1tor_ua": 4,
-    "@UkraineNow": 17,
+    "@kpszsu": 32,
+    "@mon1tor_ua": 3,
+    "@UkraineNow": 15,
     "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 22,
+    "@ukr_leaks_eng": 24,
     "@tass_agency": 126
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92980",
-    "kpszsu": "https://t.me/kpszsu/62447",
+    "eRadarrua": "https://t.me/eRadarrua/92992",
+    "kpszsu": "https://t.me/kpszsu/62452",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66899",
     "UkraineNow": "https://t.me/UkraineNow/81390",
-    "DeepStateUA": "https://t.me/DeepStateUA/23529",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30371",
-    "tass_agency": "https://t.me/tass_agency/377112"
+    "DeepStateUA": "https://t.me/DeepStateUA/23530",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30373",
+    "tass_agency": "https://t.me/tass_agency/377120"
   },
   "cited_post_urls": {
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30359",
+    "eRadarrua": "https://t.me/eRadarrua/92987",
+    "kpszsu": "https://t.me/kpszsu/62417",
     "UkraineNow": "https://t.me/UkraineNow/81380",
-    "kpszsu": "https://t.me/kpszsu/62438",
-    "tass_agency": "https://t.me/tass_agency/377090",
-    "eRadarrua": "https://t.me/eRadarrua/92924",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66897"
+    "tass_agency": "https://t.me/tass_agency/377088",
+    "DeepStateUA": "https://t.me/DeepStateUA/23529"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/377117",
+      "post_id": 377117,
+      "channel": "tass_agency",
+      "ts": "2026-05-22T18:00:19+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/92982",
+      "post_id": 92982,
+      "channel": "eRadarrua",
+      "ts": "2026-05-22T17:48:53+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Yt1RrySX3uNAzbZLPYwavBoqbGE7nRRofKC9lpvuiT_ZZ_pxeePBO3ore_wFEuwfnNumjo2ozI6IhYe1j4AQmkXWNWX61g2iRgTSFUaZuRJvYzrrjev8mqhBJCYGtP2gIdM9zBD4TD1evbz8Td1ZHSFt8QWo32VOLYEu-K8azMks1weynXR-keeVi68SNEUe9h73VzXN5yJZC8jBHKi9jhhJt4FD_SsZyUth78lStYVf_BdRvN97h--u7516YVpBvx0D0CEzFDd__vKCNojV0mYUmiNkucvXcjKbUoF4-h7dKhxgx-KRTP75kxz_WXR5PZTYGL3_uzfboxmfttGaIQ.jpg",
+      "companion_text_id": 92983
+    },
+    {
+      "post_url": "https://t.me/DeepStateUA/23530",
+      "post_id": 23530,
+      "channel": "DeepStateUA",
+      "ts": "2026-05-22T17:34:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/377113",
+      "post_id": 377113,
+      "channel": "tass_agency",
+      "ts": "2026-05-22T17:26:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/377112",
       "post_id": 377112,
@@ -104,32 +130,40 @@
       "ts": "2026-05-22T17:14:52+00:00"
     },
     {
+      "post_url": "https://t.me/eRadarrua/92980",
+      "post_id": 92980,
+      "channel": "eRadarrua",
+      "ts": "2026-05-22T17:11:20+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/q3zdqA0mlRpZwDf3QwuXb_DZK_5kyVlZit4FKFIbUjjmCwTmTD5DvQJvt_5wB7O55gNfGc4xIYP4ZTCVbjdIG6MRZH2uKp6FMlruy0xKp_HFwCo43JFKnWEX8UXTvhW_Rp-2TAmzhed0_K6GneyCh6vSKmps0btT8A2ocfZ6bIcim856MNzkaFqUf9xRdb5PjEAtkteyaxhjnyR9itbSz7Y9WZYWJHHi5EIZvGcbEYCM6D12qQA4YGu1jCccFDkEwH9_CR7Fly6tuARHry4nhlgGeggOle5xI2OZyVgdQTI34JhM8_5qzOG8_TmdJXki5ZjE-Tvbmr7jyQbnqbiwYg.jpg"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/92977",
+      "post_id": 92977,
+      "channel": "eRadarrua",
+      "ts": "2026-05-22T16:17:15+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/KCxsl4BhnZ7lBTPOqeEane7salJ9zdPe4X3HtKB8O5LkERepXYH2to8DLgnUzQlpBpBIXSQyDi9z6RhvG3sGaWqzjWAKPrNp2WB85VlwN_S-OhDFY6gGDYV74FtKF99aWkRBKQOYkbsimfOCGViwCmoO8Wre9c6UaUOw1dq6uAjvt3ErW5a9f6Ak6mO7XFKF6r8UugMKEWR469__q_1fGNh2qf2qyIPJkfcb16-n3wHwnlXw6GDb3l9XMP0MTnJAXx01coX7-9KWuDZdEz48qwm7yxJKvWodRALj958wDWCsJn8Im8nEMtL9xiDNLainKxQakeKSI29BbXZ1dIX0LA.jpg"
+    },
+    {
       "post_url": "https://t.me/tass_agency/377102",
       "post_id": 377102,
       "channel": "tass_agency",
       "ts": "2026-05-22T15:56:03+00:00"
     },
     {
-      "post_url": "https://t.me/eRadarrua/92971",
-      "post_id": 92971,
+      "post_url": "https://t.me/eRadarrua/92975",
+      "post_id": 92975,
       "channel": "eRadarrua",
-      "ts": "2026-05-22T15:31:28+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/oaiy62IUGGto3pv-CxY24FSomoBilo9-EcwQsxv4xK6I2LqcxKCoy_oSL9D-5hC11NfaRNtycOIE1S4EjYNpEb3e8ht01_ktCA2pkhh-HCDxoIXdeX2fISBEP-TObc0oZ4ysrnFW3JaU-AIKt0Ee8ThcsX7aht489UM-V7oPPAruj1Xyce5CqdSRTqib6_TjVMhdBRbmMIpbMpmE0nqYfKwR_wBsDaFlIkaDT17P3BCgac_LxKtE58c9CQv2WqUc6bhosZbwFBK9JdODlYeOyEIpGyJQwemhipx9RAxLsIVVXQMfOodl56DWnvm0l1yV9oiO8RjEhKLOQ8paGTRlRg.jpg",
-      "companion_text_id": 92970
+      "ts": "2026-05-22T15:46:30+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/eE_IrZFLPHu3rRk_SLrB6G_7c4xesduZ1Xaq85KZtZwDwSCQC-dGCGgOpy4TJkSUC2Yg7zJCHs63-O-9mVFMu2S4hQ3DxHOvQQrG4Kyv7MuNc1PMaQVKIEq_ypoGnRkhs7ePxwxsdZK81MbywVMRY55g8NNsEKYI6P4zpAjLz9S3t-tkzYblq2q03cpLDwvyY-mEtW6pD_sFg8RjGXw6TT588t2XEBSlvdZOKzrNQiL8DtsKOqJg5M9ofL8VLLDVuulsikG4gLUYfpBOW6-dPwmsR5-LTdsOI1oHAAmioSp6VB-2tJ1Rkp7bJbvPwm1R59Vi_7vm374iGMgYgjdVxw.jpg",
+      "companion_text_id": 92974
     },
     {
-      "post_url": "https://t.me/tass_agency/377099",
-      "post_id": 377099,
-      "channel": "tass_agency",
-      "ts": "2026-05-22T15:10:40+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/92966",
-      "post_id": 92966,
+      "post_url": "https://t.me/eRadarrua/92973",
+      "post_id": 92973,
       "channel": "eRadarrua",
-      "ts": "2026-05-22T14:14:46+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/wBdim3lXkE_R9h2ck2a5vrO_F4CTZaAqCucFl0SGu2Ij9jkA1TK8erkUeZfYqudiuDOGxSm7lDNg5jPotajovjbabJR05iAP9WpBjcGs_GYpF8PDJq6M09_ArXp0liStXHV9G8iMyb_KpAQ0OBkEVttZnJ1ca61CeM3BGJJLzRBNKOqtildtyOaE-CeQST7cX_FjNUh0FPp7MDtCnknUB4AFaoqVI7URGENNxWIMn7cKxjZDS1VA6xK4Ad7HRyGbl1NC9fJ55_GyFOtk5uecvAy8oMkUoXznCRNWgiV6ngMhhjz4nzFMc3Yzp_Z3PX4GY2RAq2z-qR6Ws6ibM35HYQ.jpg",
-      "companion_text_id": 92965
+      "ts": "2026-05-22T15:39:22+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/KfRDaBlEY7IaMWDE7H4GsG9VLUWINU6WQ3whtuDaaX47p-cgHblTySNtUM3bXhLTlB8P3RLX64bSOCCUKJYzpf-oVUOKlNo5FriQZPh0zUmTwA1D4s80J_QQByNPrzaUppy9gp20N2cx5Hh56tdToyTZZndqr11ApyXkf3yEl9bE-9T-AVKEOPPeRI8Bu2b-cwslhGkwTrITVe_OdJRa4rUZp6I6F6hcAegyaxE7g803X_Zq70rornUiNhivMHNfHZggGMqIorDr_VK9fV8Tg3g9Yt1SW4OxmCdKyQjqN2UNwBdIXcBcSFtr47bWWxuVtBPU2J7SUEgQfW96flsKVw.jpg",
+      "companion_text_id": 92972
     },
     {
       "post_url": "https://t.me/tass_agency/377081",
@@ -138,33 +172,16 @@
       "ts": "2026-05-22T14:14:03+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/377080",
-      "post_id": 377080,
-      "channel": "tass_agency",
-      "ts": "2026-05-22T14:11:39+00:00"
+      "post_url": "https://t.me/UkraineNow/81382",
+      "post_id": 81382,
+      "channel": "UkraineNow",
+      "ts": "2026-05-22T12:23:11+00:00"
     },
     {
-      "post_url": "https://t.me/eRadarrua/92965",
-      "post_id": 92965,
-      "channel": "eRadarrua",
-      "ts": "2026-05-22T14:06:09+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/JwEkFuJVzhzMD1_YexiBvOeRKXcLSgmMbiwvSDEC4Unualisj-Jz63a7p1u_vTCulb_-Qa8-DzaqSlpVRoKnu0t_3gycPZHXKiWTSQgQZgN2IlVG2KC4qFYc-saF4uecJHWE5LN9Q2AjFRqSwXuVoy59X7MDtOMgEc0cfrSEpXUXQxuQF6u4E970_N6THlk7fIxX3juEcvuszRnQT-MHR1FPnIj5eINm5tuFmk36YMA1B-1QnfuixCgkZ3bcQVZzyVejotxx4MCWVmbJU3615lJ-Oh7uKxXa2VP_bp5wd1KeZRQP1Fwn2-8wADfOcmi6UVZCUvEZj0U6OVZkoEHAug.jpg",
-      "companion_text_id": 92964
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/92964",
-      "post_id": 92964,
-      "channel": "eRadarrua",
-      "ts": "2026-05-22T14:04:34+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/RdUZnF0_Y7tTsrKdkIBmdI-o2v5xk-tJ9LaiitD_DaXfvVf8wusruGH_9vvT5TaBHed1Jnb0bn_RRt8euGdgjuQowXz3AZfjxqVh-DhLHtlqx1p__z0jnl60lSXVLQKGmLXdEwbK3nwEV8HAQbdmvAdcyR90Q86LvzeVUhDbnRXHkBAWZlBWMOiQqaliuw7Qx7vOQKrrC25VX2TSilKDVt0A1veOeVfuF7S_Y_1r0kOMIAOFEFzTy9ZcD4k1NCnkWzAhEnVOjalBWOxTyP_3ulu6f3dcElbUE8y58tiWtRHbjCT4KHakr4230SbrZ0KPUKKvPFSgIdp5uwo-M40ytQ.jpg",
-      "companion_text_id": 92965
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/92960",
-      "post_id": 92960,
-      "channel": "eRadarrua",
-      "ts": "2026-05-22T13:59:29+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/tv2PVb-KSno5wG2n4-raMpM8T1YwMPsqPccTQ9_AzMnOmQPFdr9BTwAXt4vlUcZLVTBrwET_MBH58YMQ5jIqnL0Cy67-f9kUu2_fbLHamYeuyAlU9FfDYv3JhvIoeBaVR5jlmRrb1qgfljxTUVCmxLSvODxgsVjTX6PMgRIxAEKSRu978eXcsJ2rAbYMJKlYY5Tx6lmh4jCYx5VxhmZRgPew6_GZCXOvbNfTvn9fec5MnIOTgmeGXuX6FMLHPZAmMHVkjZKCjIx0Nmk7vNQOzEXMbi4Y2iilsyvxT4epQadozXcXyl1b71prlvvo51V_0Hex7Pr0ZvssNdIS0Vw90g.jpg"
+      "post_url": "https://t.me/ukr_leaks_eng/30362",
+      "post_id": 30362,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-05-22T12:01:14+00:00"
     },
     {
       "post_url": "https://t.me/UkraineNow/81380",
@@ -201,124 +218,104 @@
       "post_id": 30354,
       "channel": "ukr_leaks_eng",
       "ts": "2026-05-22T07:34:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30352",
-      "post_id": 30352,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-05-22T06:31:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81377",
-      "post_id": 81377,
-      "channel": "UkraineNow",
-      "ts": "2026-05-22T05:26:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/kpszsu/62415",
-      "post_id": 62415,
-      "channel": "kpszsu",
-      "ts": "2026-05-22T05:10:35+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/DE3uR1g22Dek15XXI4C7W-JgKh3txN6tIbRioaIVOmNud68qX8QRU_RvZjC-POr3GkylTtn3xjjt9EzCnWm-e0q2mjec4xtm20vsbhztBse3tgW9CXe8rgDVXR8F86TZIjFoOrcKWVeGjoT0yIU5kj-XtqswuII2wvtVMiwuLUIjW8TarABFfdXQ0C5BpdjZtd05DPwvT5omArgy33U8zNyEXvvf750MeQ-6fDl1FCgerFgixl7cASrXue4jPhW1QD6frCWJ77mDd4Vs5jRsIO6MHpPmztYZvDX2AH-db1OfDkS5oFFr4DkrId3_fQZ4vBwFVgRzgym0d-7C1aAc-Q.jpg"
     }
   ],
   "post_images": {
-    "eRadarrua/92960": "data/media/eRadarrua_92960.jpg",
-    "eRadarrua/92964": "data/media/eRadarrua_92964.jpg",
-    "eRadarrua/92965": "data/media/eRadarrua_92965.jpg",
-    "eRadarrua/92966": "data/media/eRadarrua_92966.jpg",
-    "eRadarrua/92971": "data/media/eRadarrua_92971.jpg",
-    "eRadarrua/92970": "data/media/eRadarrua_92971.jpg",
+    "eRadarrua/92973": "data/media/eRadarrua_92973.jpg",
+    "eRadarrua/92972": "data/media/eRadarrua_92973.jpg",
+    "eRadarrua/92975": "data/media/eRadarrua_92975.jpg",
+    "eRadarrua/92974": "data/media/eRadarrua_92975.jpg",
+    "eRadarrua/92977": "data/media/eRadarrua_92977.jpg",
+    "eRadarrua/92980": "data/media/eRadarrua_92980.jpg",
+    "eRadarrua/92982": "data/media/eRadarrua_92982.jpg",
+    "eRadarrua/92983": "data/media/eRadarrua_92982.jpg",
     "kpszsu/62415": "data/media/kpszsu_62415.jpg"
   },
-  "summary": "Russian forces announced the liberation of Verkhnya Tersa in Zaporizhzhia, while Ukraine reported intensified UAV activity across multiple fronts and a major civilian evacuation effort near Oleshok. Heavy attacks on Starobilsk, including a college strike, have raised casualty figures and prompted diplomatic protests. Both sides continue to mobilize resources, with Ukraine calling for increased chemical‑weapon protection and Russia accusing NATO involvement.",
+  "summary": "Ukrainian forces reported recapturing Verkhnya Tersa in Zaporizhzhia, while Russian and Ukrainian sides exchanged heavy UAV activity across multiple fronts, including Shahed‑136 strikes from Primorsko‑Ahtarska and Millerovo. Both sides cited the use of chemical agents and ballistic missile threats, heightening operational risk. Political rhetoric intensified after a deadly strike on a college dormitory in Starobilsk, prompting Russian calls for a military response.",
   "key_points": [
-    "Russian Defense Ministry confirmed the capture of Verkhnya Tersa village in Zaporizhzhia region, expanding the front line westward (Source: @ukr_leaks_eng/30359).",
-    "Ukrainian authorities reported over 13,300 chemical‑weapon incidents along the front, urging G7 partners for enhanced protection (Source: @UkraineNow/81380).",
-    "Multiple UAV sightings reported: fast‑moving targets near Krivoy Rog heading north, and several BPLAs operating from Sumy toward Chernihiv and Poltava (Source: @kpszsu/62438, @kpszsu/62445).",
-    "Ukraine negotiated evacuation of approximately 6,000 civilians, including 200 children, from Oleshok and surrounding villages, awaiting a ceasefire agreement (Source: @UkraineNow/81381).",
-    "Starobilsk college strike resulted in at least six civilian deaths, with Russian officials blaming NATO support for the attack (Source: @tass_agency/377090).",
-    "Ukrainian forces claimed liberation of villages in Kharkiv region, pushing Russian units toward the border (Source: @UkraineNow/81376).",
-    "Russian President Putin dismissed claims that Starobilsk UAV strike was caused by Ukrainian air defenses or electronic warfare (Source: @tass_agency/377091).",
-    "Ukrainian intelligence noted systematic Russian use of 695 torture methods on POWs, highlighting ongoing war crimes (Source: @UkraineNow/81384)."
+    "Ukrainian forces liberated the village of Verkhnya Tersa in Zaporizhzhia region, expanding front‑line control (Source: @ukr_leaks_eng/30359).",
+    "Multiple Shahed‑136 type strike UAVs launched from Primorsko‑Ahtarska and Millerovo districts targeting Ukrainian positions (Source: @eRadarrua/92987).",
+    "Ukrainian intelligence reported a ballistic missile threat, indicating possible deployment of long‑range systems (Source: @kpszsu/62417).",
+    "Russian President Putin labeled the Starobilsk college dormitory strike a terrorist act and ordered a military response (Source: @ukr_leaks_eng/30369).",
+    "Ukrainian officials claimed systematic use of chemical agents along the front, reporting over 13,300 incidents (Source: @UkraineNow/81380).",
+    "FPV drone strike in Marhanets (Dnipropetrovsk region) injured 13 civilians, damaging a service vehicle (Source: @UkraineNow/81386).",
+    "Ukrainian UAV sightings continued across Kharkiv, Sumy, Poltava, and Donetsk, indicating persistent aerial reconnaissance and strike activity (Source: @kpszsu/62422).",
+    "Russian Defense Ministry reported receiving reports from LNR, MoD, MChS, and FSB on the Starobilsk attack, suggesting coordinated intelligence assessment (Source: @tass_agency/377088)."
   ],
-  "sentiment": "volatile",
-  "intensity": 7,
+  "sentiment": "escalating",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces captured Verkhnya Tersa, extending their control in Zaporizhzhia. Ukraine reported a surge in UAV activity across Sumy, Poltava, and Kharkiv, alongside a large civilian evacuation near Oleshok. Both sides accuse each other of escalatory attacks, with Starobilsk college strike raising civilian casualty concerns.",
+    "executive_summary": "Ukrainian forces recaptured Verkhnya Tersa, extending control in Zaporizhzhia. UAV activity surged, with Shahed‑136 strikes from Russian‑held territories and widespread UAV reconnaissance across multiple fronts. Chemical weapon usage reports and the Starobilsk dormitory attack intensified political and military rhetoric, raising escalation risk.",
     "ukraine": {
       "points": [
-        "Ukraine’s Ministry of Defense reported over 13,300 chemical‑weapon incidents along the front, describing systematic use of hazardous munitions and requesting urgent G7 assistance for protective equipment and decontamination (Source: @UkraineNow/81380).",
-        "The Ukrainian Ombudsman confirmed technical agreement on evacuating roughly 6,000 civilians, including 200 children, from Oleshok and nearby villages, pending a Russian‑initiated ceasefire (Source: @UkraineNow/81381).",
-        "Ukrainian forces announced the liberation of several villages in Kharkiv Oblast, pushing Russian units toward the Russian border and reducing enemy footholds (Source: @UkraineNow/81376).",
-        "Ukrainian intelligence highlighted the systematic use of 695 torture methods on captured Russian personnel, documenting ongoing war‑crime violations (Source: @UkraineNow/81384).",
-        "Ukrainian officials warned of intensified UAV attacks, citing multiple sightings of fast‑moving drones targeting infrastructure in Dnipropetrovsk, Kharkiv, and Sumy regions (Source: @kpszsu/62438, @kpszsu/62445)."
+        "Ukrainian troops announced the liberation of Verkhnya Tersa village in Zaporizhzhia, pushing the front line several kilometres westward and securing a strategic road junction (Source: @ukr_leaks_eng/30359).",
+        "The Ukrainian Defense Ministry confirmed the deployment of HAWK anti‑aircraft missile systems, with a $108 million U.S. sale, to bolster air defence against Shahed UAVs (Source: @ukr_leaks_eng/30358).",
+        "In Marhanets, Dnipropetrovsk region, an FPV drone struck near a service vehicle, wounding 13 civilians and damaging windows, highlighting the threat to civilian infrastructure (Source: @UkraineNow/81386).",
+        "Ukrainian engineers continued constructing field fortifications in Donetsk and Dnipropetrovsk, reinforcing positions after recent Russian assaults on northern Kharkiv, Sumy, and Dnipropetrovsk (Source: @DeepStateUA/23529).",
+        "Ukrainian officials reported over 13,300 chemical‑weapon incidents along the front, urging G7 partners for enhanced protective equipment and response capabilities (Source: @UkraineNow/81380)."
       ]
     },
     "russia": {
       "points": [
-        "The Russian Defense Ministry announced the liberation of Verkhnya Tersa village in Zaporizhzhia, extending the front line westward and securing a strategic transport route (Source: @ukr_leaks_eng/30359).",
-        "President Putin rejected Ukrainian claims that the Starobilsk college UAV strike resulted from Russian air defenses or electronic warfare, attributing it to NATO involvement (Source: @tass_agency/377091).",
-        "Russian officials reported that the Starobilsk college attack caused six civilian deaths, emphasizing the need for stronger anti‑drone measures (Source: @tass_agency/377090).",
-        "The Kremlin claimed NATO assistance in Ukrainian strikes, including the Starobilsk attack, as part of a broader information campaign (Source: @tass_agency/377080).",
-        "Russia called an emergency UN Security Council meeting following the Starobilsk dormitory strike, seeking international condemnation of Ukrainian actions (Source: @tass_agency/377073)."
+        "President Vladimir Putin condemned the Starobilsk college dormitory strike as a terrorist act and instructed the Ministry of Defence to prepare a military response (Source: @ukr_leaks_eng/30369).",
+        "Russian officials announced the preparation of a formal response to the Starobilsk attack, citing reports from LNR, MoD, MChS, and FSB (Source: @tass_agency/377088).",
+        "A ballistic missile threat was highlighted by Russian‑aligned channel, suggesting possible deployment of long‑range strike capabilities (Source: @kpszsu/62417).",
+        "Russian forces reported continued UAV activity over Kherson, Dnipropetrovsk, Kharkiv, and Sumy, indicating sustained aerial reconnaissance and strike missions (Source: @kpszsu/62422).",
+        "Russian media cited a claim that chemical agents are being used systematically by Ukrainian forces, though no independent verification was provided (Source: @UkraineNow/81380)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAVs were observed moving north from Krivoy Rog toward Sumy, indicating increased aerial pressure on Russian positions in the east (Source: @kpszsu/62438).",
-        "Multiple reports of reactive UAVs operating between Olishivka and Nizhyn suggest coordinated strike corridors targeting supply lines (Source: @eRadarrua/92924).",
-        "Ukrainian forces claimed successful strikes on Russian command posts in occupied Kherson, disrupting enemy coordination (Source: @UkraineNow/81376).",
-        "Russian air defenses reported heightened activity over Donetsk, intercepting several Ukrainian drones launched from the east (Source: @kpszsu/62443).",
-        "Ukrainian intelligence noted increased chemical‑weapon incidents in the eastern sector, with alleged use of hazardous agents near frontline villages (Source: @UkraineNow/81380)."
+        "Ukrainian UAVs were observed over Sumy heading west toward Poltava, indicating reconnaissance over the eastern axis (Source: @kpszsu/62442).",
+        "Shahed‑136 launch sites identified in Primorsko‑Ahtarska and Millerovo districts targeted eastern Ukrainian positions, increasing pressure on frontline defenses (Source: @eRadarrua/92987).",
+        "Ukrainian forces reported a UAV strike near Vylnohirske in Dnipropetrovsk, suggesting continued contest over supply routes (Source: @eRadarrua/92970).",
+        "Russian reports indicated a UAV hit near Starobilsk, with claims of civilian casualties, fueling further escalation (Source: @tass_agency/377095).",
+        "Ukrainian engineers fortified positions in Donetsk after recent Russian aerial bombardments, aiming to blunt further advances (Source: @DeepStateUA/23529)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs detected north and south of Lebedyn in Sumy Oblast, heading west, indicating pressure on Russian supply routes in the north (Source: @kpszsu/62442).",
-        "A UAV was reported near Romny, Sumy, moving toward Chernihiv, suggesting a north‑west penetration attempt (Source: @kpszsu/62445).",
-        "Russian reports of a UAV strike on a dormitory in Starobilsk prompted a claim of six civilian deaths, highlighting northern vulnerability (Source: @tass_agency/377090).",
-        "Ukrainian forces reported a UAV over Poltava heading toward Zavodske, indicating cross‑regional reconnaissance (Source: @kpszsu/62446).",
-        "A single Shahed missile was logged over Priluki, Chernihiv region, confirming continued missile threats from the north (Source: @mon1tor_ua/66897)."
+        "UAVs detected north of Lebedyn, Sumy, moving westward, potentially targeting logistics hubs (Source: @kpszsu/62442).",
+        "Multiple UAV sightings near Konotop and Chernihiv, including four Shahed‑type drones over the Black Sea near the Zatoka area (Source: @eRadarrua/92986).",
+        "Ukrainian reports of UAVs near Nizhyn heading toward Kyiv, indicating possible reconnaissance on the capital approach routes (Source: @eRadarrua/92928).",
+        "Russian statements referenced a UAV strike on a civilian vehicle in Bryansk region, highlighting cross‑border aerial activity (Source: @tass_agency/377109).",
+        "Ukrainian forces observed UAVs over Poltava heading south toward Dykanka, suggesting coordination across the northern‑central axis (Source: @eRadarrua/92971)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian UAVs observed over Myrhorod from the east, suggesting pressure on Russian positions in Poltava and adjacent southern zones (Source: @kpszsu/62408).",
-        "Fast‑moving targets reported in southern Kharkiv heading toward Poltava, indicating possible strike formations (Source: @kpszsu/62429).",
-        "Ukrainian forces claimed attacks on Russian‑occupied villages in Kharkiv, pushing enemy units toward the border (Source: @UkraineNow/81376).",
-        "Ukrainian reports of UAV activity over Mykolaiv from the south point to ongoing maritime‑linked aerial operations (Source: @kpszsu/62434).",
-        "Russian claims of liberating Verkhnya Tersa in Zaporizhzhia may affect southern supply lines and logistics (Source: @ukr_leaks_eng/30359)."
+        "UAV activity reported in Kherson region, with Russian tactical aviation launching guided aerial bombs over Donetsk, indicating intensified southern air operations (Source: @kpszsu/62425).",
+        "Ukrainian FPV drone strike in Marhanets (Dnipropetrovsk) caused civilian injuries, reflecting the threat to southern industrial zones (Source: @UkraineNow/81386).",
+        "Ukrainian engineers continued fortification work in Dnipropetrovsk and Donetsk, focusing on southern supply corridors (Source: @DeepStateUA/23529).",
+        "Russian ballistic missile threat noted, potentially affecting southern strategic targets such as oil refineries (Source: @kpszsu/62417).",
+        "Ukrainian reports of UAVs near Pavlohrad in Dnipropetrovsk, heading northwest, suggesting surveillance of southern logistics routes (Source: @kpszsu/62431)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian UAV activity surged, with multiple sightings across Sumy, Poltava, Kharkiv, and Dnipropetrovsk, indicating expanded aerial reconnaissance and strike capabilities (Source: @kpszsu/62422).",
-        "Russian forces reported launching guided aviation bombs over Kharkiv, suggesting intensified use of precision air strikes (Source: @kpszsu/62437).",
-        "Ukrainian claims of shooting down a Shahed missile over Priluki highlight ongoing missile defense engagements in the north (Source: @mon1tor_ua/66897).",
-        "Russian President Putin cited NATO involvement in Ukrainian UAV attacks, framing the air war as part of a broader external support effort (Source: @tass_agency/377080).",
-        "Ukrainian forces reported a UAV strike on a college in Starobilsk, resulting in civilian casualties and prompting Russian diplomatic protests (Source: @tass_agency/377090)."
+        "Shahed‑136 UAVs launched from Russian‑held territories increased pressure on Ukrainian air defences across multiple fronts (Source: @eRadarrua/92987).",
+        "Ukrainian HAWK missile system acquisition approved by the U.S., enhancing medium‑range air defence capability (Source: @ukr_leaks_eng/30358).",
+        "Russian tactical aviation conducted guided aerial bomb drops over Donetsk, indicating continued use of precision strike assets (Source: @kpszsu/62425).",
+        "UAV sightings across Kharkiv, Sumy, Poltava, and Donetsk suggest a high tempo of aerial reconnaissance and strike missions by both sides (Source: @kpszsu/62422).",
+        "Reports of a ballistic missile threat raise concerns of long‑range air‑defence strain on Ukrainian forces (Source: @kpszsu/62417)."
       ]
     },
     "key_developments": [
-      "Russian Defense Ministry announced the liberation of Verkhnya Tersa village in Zaporizhzhia, extending Russian control westward (Source: @ukr_leaks_eng/30359).",
-      "Ukraine reported over 13,300 chemical‑weapon incidents along the front, urging G7 assistance for protective measures (Source: @UkraineNow/81380).",
-      "Starobilsk college strike killed six civilians, with Russia blaming NATO support for the UAV attack (Source: @tass_agency/377090).",
-      "Ukrainian authorities finalized technical arrangements to evacuate approximately 6,000 civilians from Oleshok and nearby settlements (Source: @UkraineNow/81381).",
-      "Multiple UAV sightings across Sumy, Poltava, and Kharkiv indicate heightened Ukrainian aerial operations targeting Russian positions (Source: @kpszsu/62438, @kpszsu/62445).",
-      "Ukrainian forces claimed liberation of several villages in Kharkiv, pushing Russian units toward the border (Source: @UkraineNow/81376).",
-      "President Putin dismissed claims that Ukrainian air defenses caused the Starobilsk UAV strike, attributing it to NATO involvement (Source: @tass_agency/377091).",
-      "Ukraine documented systematic use of 695 torture methods on Russian POWs, highlighting ongoing war‑crime violations (Source: @UkraineNow/81384)."
+      "Ukrainian forces captured Verkhnya Tersa in Zaporizhzhia, extending control over a strategic road junction (Source: @ukr_leaks_eng/30359).",
+      "Shahed‑136 UAVs were launched from Primorsko‑Ahtarska and Millerovo, targeting Ukrainian positions across the front (Source: @eRadarrua/92987).",
+      "President Putin labeled the Starobilsk dormitory strike a terrorist act and ordered a military response (Source: @ukr_leaks_eng/30369).",
+      "Ukrainian officials reported over 13,300 chemical‑weapon incidents along the front, indicating systematic use (Source: @UkraineNow/81380).",
+      "A ballistic missile threat was highlighted, suggesting possible deployment of long‑range strike systems (Source: @kpszsu/62417).",
+      "FPV drone strike in Marhanets injured 13 civilians, demonstrating the danger to industrial areas (Source: @UkraineNow/81386).",
+      "Ukrainian HAWK air‑defence system sale approved by the United States, enhancing medium‑range coverage (Source: @ukr_leaks_eng/30358)."
     ],
-    "threat_assessment": "The front lines remain fluid, with Russia consolidating gains in Zaporizhzhia while Ukraine intensifies UAV and artillery strikes across multiple axes. Chemical‑weapon usage reports suggest a dangerous escalation in munition types, potentially complicating decontamination and medical response. Civilian evacuation efforts near Oleshok indicate a growing humanitarian dimension, while both sides continue to leverage propaganda, accusing each other of external support and war crimes.",
-    "regional_response": "Western partners are likely to increase protective equipment supplies in response to Ukraine's chemical‑weapon claims, while Russia may seek further diplomatic backing by framing Ukrainian attacks as NATO‑driven. The UN Security Council is expected to convene on the Starobilsk incident, potentially influencing international pressure on Ukraine. Regional actors such as Belarus and Hungary have issued statements, reflecting the broader geopolitical stakes surrounding the conflict.",
-    "intelligence_notes": "UAV activity spikes across Sumy, Poltava, and Kharkiv suggest coordinated strike packages aimed at disrupting Russian logistics. The reported liberation of Verkhnya Tersa may open new supply routes for Russian forces, requiring monitoring of subsequent movements. Chemical‑weapon incident reports need verification but warrant heightened CBRN readiness. Continued civilian evacuation plans underscore the importance of securing ceasefire corridors and protecting non‑combatants."
+    "threat_assessment": "Ukrainian forces are gaining localized ground, exemplified by the recapture of Verkhnya Tersa, but face intensified aerial threats from Shahed UAVs and potential ballistic missile strikes. Russian political rhetoric and promises of retaliation after the Starobilsk dormitory attack raise the risk of escalatory operations. The reported systematic use of chemical agents adds a hazardous dimension to frontline engagements, complicating protection and medical response.",
+    "regional_response": "Western partners are reinforcing air‑defence capabilities, highlighted by the U.S. approval of HAWK systems, while diplomatic channels remain focused on humanitarian corridors, such as the planned evacuation of 6,000 civilians near Olenek. Russian statements suggest a hardening of stance, potentially leading to increased kinetic responses. Regional actors, including Belarus and China, are deepening military ties with Russia, influencing the broader strategic environment.",
+    "intelligence_notes": "UAV traffic remains dense across all fronts, with notable concentrations near strategic logistics hubs in Poltava, Sumy, and Kherson. Chemical‑weapon incident reports require verification but indicate a possible shift in Russian tactics. The ballistic missile threat, though unconfirmed, should prompt heightened alert for long‑range air‑defence assets. Monitoring of Shahed launch sites in occupied territories is critical for pre‑emptive counter‑UAV operations."
   },
   "missiles": 0,
   "drones": 124,
   "kpszsu_timeline": [
-    0,
-    2,
     0,
     0,
     0,
@@ -339,6 +336,8 @@
     1,
     4,
     4,
+    0,
+    1,
     0,
     1
   ]
