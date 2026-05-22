@@ -21,10 +21,12 @@ CONFLICT_META = {
     "ukraine":     ("Ukraine-Russia", "🇺🇦", 0x3b82f6),
 }
 
-# Channels filtered out of the bot's Sources display only
-_BOT_EXCLUDED_SOURCES = {"presstv", "rasedal3ado138e", "SharghDaily", "naya_foriraq"}
+# Sources known to be heavily biased or state-controlled
+_EXCLUDED_SOURCES = {"presstv", "rasedal3ado138e", "SharghDaily", "naya_foriraq"}
+_EXCLUDED_LOWER   = {s.lower() for s in _EXCLUDED_SOURCES}
 
 _cfg: dict = {}
+_session: aiohttp.ClientSession | None = None
 
 def _load():
     global _cfg
@@ -53,18 +55,44 @@ def _conflict_for_channel(guild_id: int, channel_id: int) -> str | None:
             return conflict
     return None
 
+async def _get_session() -> aiohttp.ClientSession:
+    global _session
+    if _session is None or _session.closed:
+        _session = aiohttp.ClientSession()
+    return _session
+
 async def _fetch(conflict: str) -> dict:
     try:
-        async with aiohttp.ClientSession() as s:
-            async with s.get(DATA_URLS[conflict], timeout=aiohttp.ClientTimeout(total=10)) as r:
-                if r.status == 200:
-                    return await r.json(content_type=None)
+        s = await _get_session()
+        async with s.get(DATA_URLS[conflict], timeout=aiohttp.ClientTimeout(total=10)) as r:
+            if r.status == 200:
+                return await r.json(content_type=None)
     except Exception as e:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-_CITATION_RE = re.compile(r'\(Source:\s*@(\w+)(?:/(\d+))?\)\.?\s*$', re.IGNORECASE)
+# Matches any inline citation: (Source: @channel/123) or (@channel/123)
+_CITE_ANY_RE = re.compile(r'\((?:Source:\s*)?@?(\w+)/(\d+)\)\.?\s*', re.IGNORECASE)
+# Matches trailing citation at end of string (for link extraction)
+_CITATION_RE = re.compile(r'\((?:Source:\s*)?@?(\w+)/(\d+)\)\.?\s*$', re.IGNORECASE)
 _SOURCE_RE   = re.compile(r'\s*\([^)]*?(?:source|@)[^)]*\)', re.IGNORECASE)
+
+def _cited_sources(text: str) -> set[str]:
+    return {m.group(1).lower() for m in _CITE_ANY_RE.finditer(text)}
+
+def _filter_points(points: list) -> list:
+    """Remove points sourced solely from excluded channels, and drop near-empty points."""
+    out = []
+    for p in points:
+        cited = _cited_sources(str(p))
+        # Drop if every cited source is excluded (pure propaganda/biased sourcing)
+        if cited and cited.issubset(_EXCLUDED_LOWER):
+            continue
+        # Drop if stripping citations leaves almost nothing
+        if len(_SOURCE_RE.sub("", str(p)).strip()) < 25:
+            continue
+        out.append(p)
+    return out
 
 def _embed(data: dict, conflict: str) -> discord.Embed:
     label, icon, color = CONFLICT_META[conflict]
@@ -89,29 +117,29 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         timestamp=ts or datetime.now(timezone.utc),
     )
 
-    # Use key_developments (reliably cited) falling back to key_points
     sections = data.get("sections") or {}
     key_devs = sections.get("key_developments") or []
-    points = key_devs if isinstance(key_devs, list) and key_devs else (data.get("key_points") or [])
+    raw_points = key_devs if isinstance(key_devs, list) and key_devs else (data.get("key_points") or [])
+    points = _filter_points(raw_points)
 
     if points:
         nums = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"]
         lines = []
         total = 0
         for i, p in enumerate(points[:10]):
+            num = nums[i] if i < len(nums) else f"{i+1}."
             m = _CITATION_RE.search(str(p))
             if m:
                 ch, post_id = m.group(1), m.group(2)
-                if ch not in _BOT_EXCLUDED_SOURCES:
-                    url = f"https://t.me/{ch}/{post_id}" if post_id else f"https://t.me/{ch}"
-                    clean = _CITATION_RE.sub("", str(p)).strip()
-                    line = f"{nums[i] if i < len(nums) else f'{i+1}.'} [{clean}]({url})"
+                clean = _CITATION_RE.sub("", str(p)).strip()
+                if ch.lower() not in _EXCLUDED_LOWER:
+                    url = f"https://t.me/{ch}/{post_id}"
+                    line = f"{num} [{clean}]({url})"
                 else:
-                    clean = _CITATION_RE.sub("", str(p)).strip()
-                    line = f"{nums[i] if i < len(nums) else f'{i+1}.'} {clean}"
+                    line = f"{num} {clean}"
             else:
                 clean = _SOURCE_RE.sub("", str(p)).strip()
-                line = f"{nums[i] if i < len(nums) else f'{i+1}.'} {clean}"
+                line = f"{num} {clean}"
             if total + len(line) + 1 > 1020:
                 break
             lines.append(line)
@@ -220,7 +248,11 @@ async def on_ready():
     print(f"[bot] Loaded config: {_cfg}")
 
 async def main():
-    async with bot:
-        await bot.start(DISCORD_TOKEN)
+    try:
+        async with bot:
+            await bot.start(DISCORD_TOKEN)
+    finally:
+        if _session and not _session.closed:
+            await _session.close()
 
 asyncio.run(main())
