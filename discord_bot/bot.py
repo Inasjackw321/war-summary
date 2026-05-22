@@ -150,6 +150,15 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
     embed.set_footer(text=f"{n} channels monitored  ·  AI-generated  ·  Verify before sharing")
     return embed
 
+OPERATOR_ROLE = "War Summary Operator"
+
+def _is_operator(interaction: discord.Interaction) -> bool:
+    if not interaction.guild:
+        return False
+    if interaction.guild.owner_id == interaction.user.id:
+        return True
+    return any(r.name == OPERATOR_ROLE for r in interaction.user.roles)
+
 # ── Bot setup ──────────────────────────────────────────────────────────────────
 intents = discord.Intents.default()
 intents.message_content = True
@@ -183,8 +192,12 @@ async def slash_summary(interaction: discord.Interaction):
     app_commands.Choice(name="Middle East",    value="middle_east"),
     app_commands.Choice(name="Ukraine-Russia", value="ukraine"),
 ])
-@app_commands.default_permissions(administrator=True)
 async def cmd_setup(interaction: discord.Interaction, conflict: str, channel: discord.TextChannel):
+    if not _is_operator(interaction):
+        await interaction.response.send_message(
+            f"❌ You need the **{OPERATOR_ROLE}** role or be the server owner.", ephemeral=True
+        )
+        return
     _set_channel(interaction.guild_id, conflict, channel.id)
     label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
     await interaction.response.send_message(
@@ -200,16 +213,24 @@ async def cmd_setup(interaction: discord.Interaction, conflict: str, channel: di
     app_commands.Choice(name="Middle East",    value="middle_east"),
     app_commands.Choice(name="Ukraine-Russia", value="ukraine"),
 ])
-@app_commands.default_permissions(administrator=True)
 async def cmd_remove(interaction: discord.Interaction, conflict: str):
+    if not _is_operator(interaction):
+        await interaction.response.send_message(
+            f"❌ You need the **{OPERATOR_ROLE}** role or be the server owner.", ephemeral=True
+        )
+        return
     _remove_channel(interaction.guild_id, conflict)
     label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
     await interaction.response.send_message(f"🗑 **{label}** channel assignment removed.", ephemeral=True)
 
 # ── /warsummary status ─────────────────────────────────────────────────────────
 @grp.command(name="status", description="Show current channel assignments for this server")
-@app_commands.default_permissions(administrator=True)
 async def cmd_status(interaction: discord.Interaction):
+    if not _is_operator(interaction):
+        await interaction.response.send_message(
+            f"❌ You need the **{OPERATOR_ROLE}** role or be the server owner.", ephemeral=True
+        )
+        return
     guild_cfg = _cfg.get(str(interaction.guild_id), {})
     if not guild_cfg:
         await interaction.response.send_message(
