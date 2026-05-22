@@ -78,11 +78,13 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
             pass
 
     exec_summary = (data.get("sections") or {}).get("executive_summary") or data.get("summary") or ""
+    disclaimer = "*⚠ AI-generated from open-source Telegram channels. May be incomplete or inaccurate — always verify with primary sources before sharing.*"
+    desc = f"*{exec_summary}*\n\n{disclaimer}" if exec_summary else disclaimer
 
     embed = discord.Embed(
         title=f"{icon}  {label} — Latest Updates",
         url="https://warsummary.live",
-        description=f"*{exec_summary}*" if exec_summary else None,
+        description=desc,
         color=color,
         timestamp=ts or datetime.now(timezone.utc),
     )
@@ -117,7 +119,7 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         embed.add_field(name="Key Developments", value="\n".join(lines), inline=False)
 
     n = len(data.get("channels") or [])
-    embed.set_footer(text=f"{n} channels monitored  ·  Updated")
+    embed.set_footer(text=f"{n} channels monitored  ·  AI-generated  ·  Verify before sharing")
     return embed
 
 # ── Bot setup ──────────────────────────────────────────────────────────────────
