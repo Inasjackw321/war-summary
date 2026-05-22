@@ -41,17 +41,44 @@ def _save():
     CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
     CONFIG_PATH.write_text(json.dumps(_cfg, indent=2))
 
-def _set_channel(guild_id: int, conflict: str, channel_id: int):
-    _cfg.setdefault(str(guild_id), {})[conflict] = channel_id
-    _save()
+MAX_CHANNELS_PER_CONFLICT = 3
 
-def _remove_channel(guild_id: int, conflict: str):
-    _cfg.get(str(guild_id), {}).pop(conflict, None)
+def _get_channels(guild_id: int, conflict: str) -> list[int]:
+    """Return list of channel IDs for a conflict, migrating legacy int format."""
+    val = _cfg.get(str(guild_id), {}).get(conflict)
+    if val is None:
+        return []
+    if isinstance(val, int):
+        return [val]
+    return list(val)
+
+def _set_channel(guild_id: int, conflict: str, channel_id: int) -> str:
+    """Add channel to conflict. Returns 'added', 'exists', or 'full'."""
+    guild = _cfg.setdefault(str(guild_id), {})
+    channels = _get_channels(guild_id, conflict)
+    if channel_id in channels:
+        return "exists"
+    if len(channels) >= MAX_CHANNELS_PER_CONFLICT:
+        return "full"
+    channels.append(channel_id)
+    guild[conflict] = channels
+    _save()
+    return "added"
+
+def _remove_channel(guild_id: int, conflict: str, channel_id: int):
+    channels = _get_channels(guild_id, conflict)
+    if channel_id in channels:
+        channels.remove(channel_id)
+    guild = _cfg.get(str(guild_id), {})
+    if channels:
+        guild[conflict] = channels
+    else:
+        guild.pop(conflict, None)
     _save()
 
 def _conflict_for_channel(guild_id: int, channel_id: int) -> str | None:
-    for conflict, ch_id in _cfg.get(str(guild_id), {}).items():
-        if ch_id == channel_id:
+    for conflict in _cfg.get(str(guild_id), {}):
+        if channel_id in _get_channels(guild_id, conflict):
             return conflict
     return None
 
@@ -186,7 +213,7 @@ async def slash_summary(interaction: discord.Interaction):
         await interaction.followup.send("⚠ Failed to fetch data — try again in a moment.")
 
 # ── /warsummary setup ──────────────────────────────────────────────────────────
-@grp.command(name="setup", description="Assign a conflict to a channel")
+@grp.command(name="setup", description="Assign a conflict to a channel (up to 3 channels per conflict)")
 @app_commands.describe(conflict="Which conflict to assign", channel="Channel to post updates in")
 @app_commands.choices(conflict=[
     app_commands.Choice(name="Middle East",    value="middle_east"),
@@ -198,30 +225,43 @@ async def cmd_setup(interaction: discord.Interaction, conflict: str, channel: di
             f"❌ You need the **{OPERATOR_ROLE}** role or be the server owner.", ephemeral=True
         )
         return
-    _set_channel(interaction.guild_id, conflict, channel.id)
+    result = _set_channel(interaction.guild_id, conflict, channel.id)
     label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
-    await interaction.response.send_message(
-        f"✅ **{label}** → {channel.mention}\n"
-        f"Use `/summary` in that channel to pull the latest brief.",
-        ephemeral=True,
-    )
+    count = len(_get_channels(interaction.guild_id, conflict))
+    if result == "exists":
+        await interaction.response.send_message(
+            f"ℹ {channel.mention} is already assigned to **{label}**.", ephemeral=True
+        )
+    elif result == "full":
+        await interaction.response.send_message(
+            f"❌ **{label}** already has {MAX_CHANNELS_PER_CONFLICT} channels assigned. Remove one first with `/warsummary remove`.",
+            ephemeral=True,
+        )
+    else:
+        await interaction.response.send_message(
+            f"✅ **{label}** → {channel.mention} ({count}/{MAX_CHANNELS_PER_CONFLICT} channels)\n"
+            f"Use `/summary` in that channel to pull the latest brief.",
+            ephemeral=True,
+        )
 
 # ── /warsummary remove ─────────────────────────────────────────────────────────
-@grp.command(name="remove", description="Remove the conflict assignment for a channel")
-@app_commands.describe(conflict="Which conflict assignment to remove")
+@grp.command(name="remove", description="Remove a channel from a conflict assignment")
+@app_commands.describe(conflict="Which conflict", channel="Channel to remove")
 @app_commands.choices(conflict=[
     app_commands.Choice(name="Middle East",    value="middle_east"),
     app_commands.Choice(name="Ukraine-Russia", value="ukraine"),
 ])
-async def cmd_remove(interaction: discord.Interaction, conflict: str):
+async def cmd_remove(interaction: discord.Interaction, conflict: str, channel: discord.TextChannel):
     if not _is_operator(interaction):
         await interaction.response.send_message(
             f"❌ You need the **{OPERATOR_ROLE}** role or be the server owner.", ephemeral=True
         )
         return
-    _remove_channel(interaction.guild_id, conflict)
+    _remove_channel(interaction.guild_id, conflict, channel.id)
     label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
-    await interaction.response.send_message(f"🗑 **{label}** channel assignment removed.", ephemeral=True)
+    await interaction.response.send_message(
+        f"🗑 {channel.mention} removed from **{label}**.", ephemeral=True
+    )
 
 # ── /warsummary status ─────────────────────────────────────────────────────────
 @grp.command(name="status", description="Show current channel assignments for this server")
@@ -238,10 +278,12 @@ async def cmd_status(interaction: discord.Interaction):
         )
         return
     lines = []
-    for conflict, ch_id in guild_cfg.items():
+    for conflict, _ in guild_cfg.items():
         icon = "🌍" if conflict == "middle_east" else "🇺🇦"
         label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
-        lines.append(f"{icon} **{label}** → <#{ch_id}>")
+        channels = _get_channels(interaction.guild_id, conflict)
+        mentions = " ".join(f"<#{ch}>" for ch in channels)
+        lines.append(f"{icon} **{label}** ({len(channels)}/{MAX_CHANNELS_PER_CONFLICT}) → {mentions}")
     await interaction.response.send_message("\n".join(lines), ephemeral=True)
 
 bot.tree.add_command(grp)
