@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-22T11:56:05.227034+00:00",
-  "message_count": 269,
+  "updated_at": "2026-05-22T14:01:56.490154+00:00",
+  "message_count": 259,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,25 +13,25 @@
   ],
   "red_alerts": 124,
   "red_alerts_timeline": [
-    7,
     0,
-    7,
-    13,
+    15,
     0,
-    13,
+    15,
     7,
     7,
+    15,
     7,
-    13,
     0,
     0,
-    33,
+    36,
     0,
-    13,
+    15,
     0,
     0,
     0,
     7,
+    0,
+    0,
     0,
     0,
     0,
@@ -39,54 +39,72 @@
     0
   ],
   "combined_activity_timeline": [
-    13,
-    22,
-    30,
-    20,
+    25,
+    19,
+    11,
     10,
-    8,
-    9,
+    7,
     7,
     8,
-    9,
+    8,
     3,
     2,
-    16,
-    7,
+    18,
+    5,
     10,
     4,
-    6,
+    7,
     10,
     16,
     17,
     12,
-    12,
-    9,
-    8
+    11,
+    10,
+    10,
+    15,
+    9
   ],
   "messages_by_channel": {
     "@eRadarrua": 44,
     "@kpszsu": 28,
-    "@mon1tor_ua": 11,
-    "@UkraineNow": 13,
+    "@mon1tor_ua": 12,
+    "@UkraineNow": 17,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 25,
-    "@tass_agency": 147
+    "@ukr_leaks_eng": 26,
+    "@tass_agency": 131
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/92956",
-    "kpszsu": "https://t.me/kpszsu/62434",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66897",
-    "UkraineNow": "https://t.me/UkraineNow/81379",
+    "eRadarrua": "https://t.me/eRadarrua/92958",
+    "kpszsu": "https://t.me/kpszsu/62439",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66899",
+    "UkraineNow": "https://t.me/UkraineNow/81385",
     "DeepStateUA": "https://t.me/DeepStateUA/23528",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30361",
-    "tass_agency": "https://t.me/tass_agency/377066"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30367",
+    "tass_agency": "https://t.me/tass_agency/377078"
   },
   "cited_post_urls": {
     "kpszsu": "https://t.me/kpszsu/62415",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30353"
+    "tass_agency": "https://t.me/tass_agency/377047",
+    "UkraineNow": "https://t.me/UkraineNow/81369",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66894",
+    "DeepStateUA": "https://t.me/DeepStateUA/23528",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30344"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/377071",
+      "post_id": 377071,
+      "channel": "tass_agency",
+      "ts": "2026-05-22T12:44:25+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/92957",
+      "post_id": 92957,
+      "channel": "eRadarrua",
+      "ts": "2026-05-22T12:03:52+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/ulgYkq8aIfi5ubKrJcdY3aujprAaFxvaDoyW8vZTB-qcwMI2lC16sn7gWCYsMgUBamR1oATDfVv2K-oiN8ufv9eJV8rYGi9wnDBcyDL2KanJb7IBFhVTbQ8AZjIm4R2uALMYVW58FzhhMh9eIXyDcLVXES1Ui8I9qxkh9hv9lK5Tq_dprUSXfd88loNh8bFcyueiiPlJ0Y8tCWWQrITO_oulqoW_-glOQIjhTdQyV3twBwqY7txOYfUExHg2P8KnZN7iQiMZWPudYtGGoIDUdfFcUkmJzH6DydEJbaGhjByJnXxuGOaP2J94MBBmWolyBtd0lolMRRlRgaNP5devEg.jpg",
+      "companion_text_id": 92958
+    },
     {
       "post_url": "https://t.me/tass_agency/377064",
       "post_id": 377064,
@@ -106,10 +124,22 @@
       "ts": "2026-05-22T10:38:01+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/377048",
-      "post_id": 377048,
+      "post_url": "https://t.me/ukr_leaks_eng/30358",
+      "post_id": 30358,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-05-22T09:46:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30357",
+      "post_id": 30357,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-05-22T09:15:19+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/377044",
+      "post_id": 377044,
       "channel": "tass_agency",
-      "ts": "2026-05-22T09:15:39+00:00"
+      "ts": "2026-05-22T09:00:14+00:00"
     },
     {
       "post_url": "https://t.me/eRadarrua/92941",
@@ -132,12 +162,6 @@
       "post_id": 30354,
       "channel": "ukr_leaks_eng",
       "ts": "2026-05-22T07:34:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/377028",
-      "post_id": 377028,
-      "channel": "tass_agency",
-      "ts": "2026-05-22T07:03:01+00:00"
     },
     {
       "post_url": "https://t.me/eRadarrua/92938",
@@ -167,6 +191,12 @@
       "cdn_url": "https://cdn4.telesco.pe/file/hpYGBvxQd6BnmtpFh5l2aD7J66M7BkNzltGv_-zTfZshVVVEr-iRb_YxShwVy2SOyxBlyfbTHDZN9n7gvi7T_jXHd13kX-KURPk6R3bN4KfOJM4u-l0pie03Ju1yfjJJP8pRgSm7LYyJGWt0tltEOUwz6Y6rzVuRgXcW75wNJa7pNG8loO32imwq28EpBcySUNq3mkARoqj2QGt1Orb0xeA3i97qlUUiz22HYpvjMCfEu8MvmV-4YP3pZITlsrOR-Kol3foq04-yRZMnjD5IPScoH0G5J8vqIHGPOVrQ7vA3cZDI_ew1mvtV9dcAok0KlzfidKr1IDRw5qi-Ed1IDw.jpg"
     },
     {
+      "post_url": "https://t.me/UkraineNow/81377",
+      "post_id": 81377,
+      "channel": "UkraineNow",
+      "ts": "2026-05-22T05:26:05+00:00"
+    },
+    {
       "post_url": "https://t.me/kpszsu/62415",
       "post_id": 62415,
       "channel": "kpszsu",
@@ -174,12 +204,10 @@
       "cdn_url": "https://cdn4.telesco.pe/file/DE3uR1g22Dek15XXI4C7W-JgKh3txN6tIbRioaIVOmNud68qX8QRU_RvZjC-POr3GkylTtn3xjjt9EzCnWm-e0q2mjec4xtm20vsbhztBse3tgW9CXe8rgDVXR8F86TZIjFoOrcKWVeGjoT0yIU5kj-XtqswuII2wvtVMiwuLUIjW8TarABFfdXQ0C5BpdjZtd05DPwvT5omArgy33U8zNyEXvvf750MeQ-6fDl1FCgerFgixl7cASrXue4jPhW1QD6frCWJ77mDd4Vs5jRsIO6MHpPmztYZvDX2AH-db1OfDkS5oFFr4DkrId3_fQZ4vBwFVgRzgym0d-7C1aAc-Q.jpg"
     },
     {
-      "post_url": "https://t.me/eRadarrua/92897",
-      "post_id": 92897,
-      "channel": "eRadarrua",
-      "ts": "2026-05-21T19:11:56+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/BS46v6z9x5DUoPLwRUZlOavg-rBW9_QTuVlIij46CXLCuGD43yrMAIV_H1DjCgfuxSnf21cCuqPRYZEjj_e6jdtV7k_4jN05k2F_vBj9jRQaY0-pZgJqdZJ40pkUKKHLRyTBIvISM9vA8RDSXV_YsLuPgomrFsWN6b7CEG61eC2Pmu4xSc5zkLX2iy9ZCRmYbYdMBZYt_DvWBkuccLaZAm7y99t-WKFC6thZ1Mffy3hggn0PTpgTSWQtn7WtAuDUCRsiyZ9FQhnaBUUeHMu4Y6waKhkC4EIphb6o6AfEAUigwCO2-4acbxmRPqqvhmbUPVZxF09iRM3r0H9W03605Q.jpg",
-      "companion_text_id": 92896
+      "post_url": "https://t.me/UkraineNow/81376",
+      "post_id": 81376,
+      "channel": "UkraineNow",
+      "ts": "2026-05-21T19:35:53+00:00"
     },
     {
       "post_url": "https://t.me/DeepStateUA/23528",
@@ -192,147 +220,109 @@
       "post_id": 81374,
       "channel": "UkraineNow",
       "ts": "2026-05-21T17:56:51+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30345",
-      "post_id": 30345,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-05-21T16:03:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81372",
-      "post_id": 81372,
-      "channel": "UkraineNow",
-      "ts": "2026-05-21T15:42:52+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30342",
-      "post_id": 30342,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-05-21T15:03:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81371",
-      "post_id": 81371,
-      "channel": "UkraineNow",
-      "ts": "2026-05-21T15:02:39+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/92938": "data/media/eRadarrua_92938.jpg",
-    "eRadarrua/92939": "data/media/eRadarrua_92938.jpg",
     "eRadarrua/92940": "data/media/eRadarrua_92940.jpg",
+    "eRadarrua/92939": "data/media/eRadarrua_92940.jpg",
     "eRadarrua/92941": "data/media/eRadarrua_92941.jpg",
+    "eRadarrua/92957": "data/media/eRadarrua_92957.jpg",
+    "eRadarrua/92958": "data/media/eRadarrua_92957.jpg",
     "eRadarrua/92935": "data/media/eRadarrua_92935.jpg",
-    "eRadarrua/92897": "data/media/eRadarrua_92897.jpg",
-    "eRadarrua/92896": "data/media/eRadarrua_92897.jpg",
+    "eRadarrua/92938": "data/media/eRadarrua_92938.jpg",
     "kpszsu/62415": "data/media/kpszsu_62415.jpg"
   },
-  "summary": "Ukrainian air defenses shot down 115 hostile UAVs, including Shahed, Gerbera and Iltamys models, across the north, south and east. Tactical Russian aviation conducted guided bomb strikes in Donetsk and Zaporizhzhia regions, while Ukrainian ground forces reported advances in Kharkiv and heavy fighting in Dobropillya. Civilian infrastructure suffered multiple drone attacks in Belgorod and Kharkiv oblasts, causing injuries and property damage.",
+  "summary": "Russian forces launched a massive Shahed drone barrage of 124 UAVs on 22‑23 May, striking multiple sectors in the east and south. Russia also announced the recapture of Verkhnyaya Tersa in Zaporizhzhia, extending its foothold in the region. Ukrainian civilian infrastructure suffered notable damage, including a college attack in Starobelsk with 39 casualties and a missile strike in Dnipro wounding five.",
   "key_points": [
-    "Ukrainian air defenses downed 115 hostile UAVs, including Shahed, Gerbera and Iltamys types, across multiple fronts, with seven strike hits recorded at five locations (Source: @kpszsu/62415).",
-    "Russian tactical aviation launched guided aviation bomb strikes on Donetsk and Zaporizhzhia regions (Source: @kpszsu/62425, @kpszsu/62428).",
-    "Ukrainian assault units of the 82nd Motor Rifle Regiment broke resistance and expelled the 120th Territorial Defense Brigade from Shesterovka, liberating the settlement (Source: @ukr_leaks_eng/30353).",
-    "Heavy fighting continued in the Dobropillya direction as Russian forces advanced toward Shevchenko, Rodynske and Novoaleksandrovka (Source: @ukr_leaks_eng/30353).",
-    "In Belgorod Oblast, an FPV drone detonated in Novaya Tavolzhanka wounding a civilian; additional drone strikes wounded civilians in Shebekino and near Krasivo (Source: @ukr_leaks_eng/30353).",
-    "Multiple UAVs were shot down near Moscow, with up to 10 destroyed in Tula Oblast and six in Kaluga, causing damage to civilian structures (Source: @ukr_leaks_eng/30353).",
-    "Ukrainian forces reported small‑arms battles and basement clearing in Zapsellya, Kondratovka, Ivolzhanske and surrounding areas of the Sumy direction (Source: @ukr_leaks_eng/30353).",
-    "Civilian casualties reported in Kherson Oblast: two wounded and one killed by Ukrainian strikes, with shelling covering the region's depth (Source: @ukr_leaks_eng/30353)."
+    "124 Shahed and other UAVs attacked Ukrainian positions from multiple directions, including Kursk, Shatalovo, and Orel, on the night of 21‑22 May (Source: @kpszsu/62415).",
+    "Russian Ministry of Defense reported the liberation of Verkhnyaya Tersa in Zaporizhzhia Oblast (Source: @tass_agency/377047).",
+    "Ukrainian attack on Starobelsk college (LNR) collapsed the building, killing 4 and injuring 39 total (Source: @tass_agency/377041).",
+    "Five civilians injured in Dnipro after a Russian strike damaged two high‑rise buildings (Source: @UkraineNow/81369).",
+    "US approved a $108 million sale of Hawk air‑defence systems to Ukraine (Source: @UkraineNow/81377).",
+    "Ukrainian FPV drone units continue operating despite funding shortfalls, seeking small public donations (Source: @mon1tor_ua/66894).",
+    "Multiple UAV sightings reported across central Ukraine: Shahed‑type drones over Sumy‑Poltava corridor, Kremenchuk, Myrhorod, and Mykolaiv (Source: @kpszsu/62412, @kpszsu/62408, @kpszsu/62434).",
+    "Russian tactical aviation deployed guided aerial bombs over Kharkiv and Zaporizhzhia regions (Source: @kpszsu/62437)."
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian air defenses achieved a major success, downing 115 hostile UAVs across the country, while Russian tactical aviation intensified guided bomb strikes in Donetsk and Zaporizhzhia. Ukrainian ground units made notable gains in Kharkiv, pushing out Ukrainian Territorial Defense elements, even as heavy fighting persisted in Dobropillya and surrounding sectors. Civilian areas in Belgorod and Kharkiv oblasts suffered multiple drone attacks, resulting in injuries and property damage.",
+    "executive_summary": "A coordinated Russian UAV barrage of 124 Shahed drones struck eastern and southern fronts on 22‑23 May, causing widespread disruption. Russia announced the recapture of Verkhnyaya Tersa, consolidating its position in Zaporizhzhia. Ukraine suffered significant civilian casualties, notably at a Starobelsk college (39 injured) and in Dnipro (five wounded).",
     "ukraine": {
       "points": [
-        "Ukrainian forces of the 82nd Motor Rifle Regiment, 69th MRD and 6th Army expelled the 120th Territorial Defense Brigade from Shesterovka, liberating the settlement and continuing small‑arms engagements in Ohrimovka and Volchansk forest (Source: @ukr_leaks_eng/30353).",
-        "In the Sumy direction, Ukrainian assault units advanced on twenty sectors up to 450 m, clearing basements in Zapsellya and Kondratovka and engaging in small‑arms battles in Ivolzhanske (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian units reported ongoing heavy fighting in Dobropillya, pushing Russian forces toward Shevchenko, Rodynske and Novoaleksandrovka, while also contesting Vasylevka and Myrne (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian air defense units, supported by radar and mobile fire groups, intercepted 115 hostile UAVs, including Shahed, Gerbera and Iltamys, across northern, southern and eastern sectors (Source: @kpszsu/62415).",
-        "Ukrainian forces conducted basement clearing operations in Zapsellya and Kondratovka, indicating a focus on eliminating entrenched enemy positions (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian artillery and electronic warfare units engaged enemy UAVs launched from Bryansk, Kursk, Shatalovo, Oryol, and other directions, maintaining airspace denial (Source: @kpszsu/62415).",
-        "Ukrainian defensive measures intensified in northern oblasts, with SBU and other units implementing heightened security protocols (Source: @ukr_leaks_eng/30376)."
+        "Five civilians, aged 34‑78, were injured and four hospitalized after a Russian missile hit two high‑rise buildings in Dnipro, highlighting ongoing urban targeting (Source: @UkraineNow/81369).",
+        "Ukrainian FPV drone units continue combat operations despite limited funding, soliciting public donations of 5‑10 UAH per person to sustain drone procurement (Source: @mon1tor_ua/66894).",
+        "Ukrainian forces reported multiple Shahed‑type UAV incursions over central regions: Sumy‑Poltava corridor, Kremenchuk from the southeast, and Mykolaiv from the south, indicating expanded enemy air‑space penetration (Source: @kpszsu/62412, @kpszsu/62408, @kpszsu/62434).",
+        "Ukrainian air‑defence received a $108 million Hawk system package from the United States, enhancing medium‑range coverage against low‑altitude threats (Source: @UkraineNow/81377).",
+        "Ukrainian military competitions for UAV operators in Truskavets showcased new tactics and rewarded top FPV crews, reflecting ongoing skill development (Source: @DeepStateUA/23528)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation deployed guided aviation bombs on Donetsk and Zaporizhzhia, targeting front‑line areas and infrastructure (Source: @kpszsu/62425, @kpszsu/62428).",
-        "Russian forces in Belgorod Oblast used FPV drones, causing civilian injuries in Novaya Tavolzhanka, Shebekino and near Krasivo (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian reports indicate Russian UAV attacks near Moscow, with up to 10 Shahed drones downed in Tula and six in Kaluga, causing damage to an educational facility and an apartment building (Source: @ukr_leaks_eng/30353).",
-        "Russian units in the Kharkiv direction suffered losses, with the 120th Territorial Defense Brigade forced to retreat from Shesterovka (Source: @ukr_leaks_eng/30353).",
-        "Russian forces continued to target civilian heavy trucks within range in Belgorod, indicating a systematic interdiction campaign (Source: @ukr_leaks_eng/30353).",
-        "In the Kherson region, Russian‑controlled areas experienced Ukrainian strikes that wounded two civilians and killed one, reflecting ongoing contestation (Source: @ukr_leaks_eng/30353).",
-        "Russian air defense engaged multiple UAV swarms launched from multiple oblasts, indicating a broad, coordinated aerial offensive (Source: @kpszsu/62415)."
+        "The Russian Ministry of Defence confirmed the liberation of Verkhnyaya Tersa in Zaporizhzhia Oblast, expanding Russian control along the southern front (Source: @tass_agency/377047).",
+        "A massive UAV strike involving 124 Shahed, Gerbera, Italmas, and imitation drones was launched from multiple directions, targeting Ukrainian positions across the east and south (Source: @kpszsu/62415).",
+        "Russian tactical aviation deployed guided aerial bombs on Kharkiv and Zaporizhzhia regions, indicating intensified use of precision strike assets (Source: @kpszsu/62437).",
+        "Russian forces continue to employ Shahed‑type drones from bases in Kursk, Shatalovo, Orel, and other western districts, demonstrating deep‑strike capability (Source: @kpszsu/62415).",
+        "Russian propaganda highlighted alleged torture of Ukrainian POWs, though no direct operational impact was reported (Source: @UkraineNow/81384)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported small‑arms battles and basement clearing in Zapsellya and Kondratovka (Sumy direction), advancing up to 450 m on twenty sectors (Source: @ukr_leaks_eng/30353).",
-        "Heavy fighting persisted in Dobropillya, with Russian advances toward Shevchenko, Rodynske and Novoaleksandrovka, and contested villages Vasylevka and Myrne (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian assault units in the Kharkiv direction liberated Shesterovka and continued engagements in Ohrimovka and Volchansk forest (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian reports indicated ongoing combat in Konstantinovka, with heavy fire on enemy fortifications but no decisive shift (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian forces noted increased focus on Prymorske, Stepnogorsk and Malaya Tokmachka in Zaporozhye front, with power outages suggesting successful strikes (Source: @ukr_leaks_eng/30353).",
-        "Russian tactical bombings targeted Donetsk and Zaporizhzhia, affecting eastern operational depth (Source: @kpszsu/62425, @kpszsu/62428).",
-        "Ukrainian units reported continued small‑arms engagements in Ivolzhanske and surrounding areas (Source: @ukr_leaks_eng/30353)."
+        "Shahed UAVs attacked from Kursk, Shatalovo, and Orel, striking eastern Ukrainian positions and causing disruptions to command‑and‑control networks (Source: @kpszsu/62415).",
+        "Ukrainian reports of UAV activity over Sumy heading toward Poltava suggest Russian reconnaissance and strike intent in the northeastern axis (Source: @kpszsu/62401).",
+        "The Starobelsk college attack in LNR resulted in 39 casualties, underscoring the vulnerability of civilian infrastructure in the contested eastern zone (Source: @tass_agency/377041).",
+        "Ukrainian forces engaged Russian UAVs over Kharkiv, with tactical aviation responding with guided bombs to suppress enemy air activity (Source: @kpszsu/62437).",
+        "Ukrainian FPV drone units continue low‑cost operations in the east, seeking public micro‑donations to sustain sorties (Source: @mon1tor_ua/66894)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian air defenses downed numerous hostile UAVs launched from Kursk, Shatalovo, Oryol, Bryansk and other northern locations (Source: @kpszsu/62415).",
-        "Ukrainian security agencies increased protective measures in northern oblasts, reflecting heightened threat perception (Source: @ukr_leaks_eng/30376).",
-        "UAV attacks near Moscow resulted in 10 drones destroyed in Tula and six in Kaluga, with civilian infrastructure damage (Source: @ukr_leaks_eng/30353).",
-        "Russian UAVs were reported over Bryansk, with three civilian casualties in Unecha and a wounded civilian in Belaya Beryozka (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian forces reported successful interception of UAVs over the north, maintaining air superiority (Source: @kpszsu/62415).",
-        "Russian air defense engaged multiple UAV swarms, indicating a coordinated northern aerial offensive (Source: @kpszsu/62415).",
-        "Ukrainian units continued to monitor and respond to UAV activity along the northern front, with mobile fire groups active (Source: @kpszsu/62415)."
+        "Ukrainian authorities reported increased UAV sightings from Sumy toward Poltava, indicating potential Russian pressure on the northern‑central axis (Source: @kpszsu/62401).",
+        "No major ground engagements were reported, but Russian statements about Belarusian‑Russian exercises raise concerns of future northern escalation (Source: @ukr_leaks_eng/30344).",
+        "Ukrainian border security measures were heightened in the north following disinformation about Belarusian troop buildup (Source: @ukr_leaks_eng/30344).",
+        "Ukrainian air‑defence upgrades, including the Hawk system, aim to counter low‑altitude threats along the northern frontier (Source: @UkraineNow/81377).",
+        "Russian UAVs launched from western districts continue to probe northern Ukrainian airspace, though no significant damage reported (Source: @kpszsu/62415)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces reported civilian casualties in Kherson Oblast: two wounded and one killed by Ukrainian strikes, indicating ongoing combat across the region's depth (Source: @ukr_leaks_eng/30353).",
-        "Russian FPV drone attacks wounded civilians in Belgorod Oblast villages Novaya Tavolzhanka and Shebekino, and near Krasivo (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian air defense intercepted UAVs over southern sectors, contributing to the total of 115 downed drones (Source: @kpszsu/62415).",
-        "Russian tactical bombings in Zaporizhzhia targeted southern operational areas, affecting logistics and civilian infrastructure (Source: @kpszsu/62428).",
-        "Ukrainian reports indicated continued small‑arms battles and clearing operations in southern villages of the Zaporozhye front (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian forces claimed to have struck a Russian command post in occupied Kherson region (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian defensive measures intensified in southern oblasts following increased drone activity (Source: @ukr_leaks_eng/30353)."
+        "Ukrainian reports of Shahed‑type drones approaching Kremenchuk from the southeast highlight ongoing pressure on the southern central corridor (Source: @kpszsu/62412).",
+        "Russian tactical aviation deployed guided aerial bombs over Zaporizhzhia, targeting infrastructure and troop concentrations (Source: @kpszsu/62437).",
+        "The recapture of Verkhnyaya Tersa strengthens Russian foothold near the southern front, potentially threatening nearby supply routes (Source: @tass_agency/377047).",
+        "Ukrainian civilian casualties in Dnipro from a missile strike underscore the vulnerability of southern urban centers (Source: @UkraineNow/81369).",
+        "Ukrainian UAV units continue low‑cost FPV operations in the south, seeking public micro‑donations for sustainment (Source: @mon1tor_ua/66894)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defenses shot down 115 hostile UAVs, including Shahed, Gerbera and Iltamys, across north, south and east, with seven strike hits recorded at five locations (Source: @kpszsu/62415).",
-        "Russian tactical aviation conducted guided bomb strikes on Donetsk and Zaporizhzhia, employing precision munitions against front‑line targets (Source: @kpszsu/62425, @kpszsu/62428).",
-        "UAV attacks near Moscow resulted in 10 drones downed in Tula and six in Kaluga, causing damage to civilian structures (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian forces reported multiple UAV sightings and interceptions over Kharkiv, Belgorod and other border oblasts, indicating a high‑tempo aerial contest (Source: @ukr_leaks_eng/30353).",
-        "Russian FPV drone usage in Belgorod caused civilian injuries, showing diversification of aerial attack methods (Source: @ukr_leaks_eng/30353).",
-        "Ukrainian air defense integrated radar, electronic warfare and mobile fire groups to counter UAV swarms from multiple directions (Source: @kpszsu/62415).",
-        "Continued UAV activity over northern oblasts prompted heightened security protocols by SBU and other agencies (Source: @ukr_leaks_eng/30376)."
+        "A coordinated wave of 124 Shahed and other UAVs struck Ukrainian positions across multiple fronts, representing the largest single UAV barrage reported this month (Source: @kpszsu/62415).",
+        "Russian tactical aviation employed guided aerial bombs over Kharkiv and Zaporizhzhia, indicating a shift toward precision strike tactics (Source: @kpszsu/62437).",
+        "Ukrainian air‑defence received a $108 million Hawk system package from the United States, enhancing medium‑range coverage against low‑altitude threats (Source: @UkraineNow/81377).",
+        "Ukrainian FPV drone units remain active despite funding constraints, relying on micro‑donations to maintain sortie rates (Source: @mon1tor_ua/66894).",
+        "Multiple UAV sightings across central Ukraine (Sumy‑Poltava, Kremenchuk, Mykolaiv) suggest expanded Russian aerial reconnaissance and strike envelope (Source: @kpszsu/62412, @kpszsu/62408, @kpszsu/62434)."
       ]
     },
     "key_developments": [
-      "Ukrainian air defenses downed 115 hostile UAVs, including Shahed, Gerbera and Iltamys, across multiple fronts, with seven strike hits recorded at five locations (Source: @kpszsu/62415).",
-      "Russian tactical aviation launched guided aviation bomb strikes on Donetsk, intensifying the aerial campaign in the eastern theater (Source: @kpszsu/62425).",
-      "Ukrainian assault units of the 82nd Motor Rifle Regiment expelled the 120th Territorial Defense Brigade from Shesterovka, liberating the settlement (Source: @ukr_leaks_eng/30353).",
-      "Heavy fighting continued in Dobropillya as Russian forces advanced toward Shevchenko, Rodynske and Novoaleksandrovka (Source: @ukr_leaks_eng/30353).",
-      "FPV drone attacks in Belgorod Oblast wounded civilians in Novaya Tavolzhanka and Shebekino, highlighting cross‑border drone threats (Source: @ukr_leaks_eng/30353).",
-      "UAV attacks near Moscow resulted in 10 drones destroyed in Tula and six in Kaluga, causing damage to an educational facility and an apartment building (Source: @ukr_leaks_eng/30353).",
-      "Civilian casualties in Kherson Oblast: two wounded and one killed by Ukrainian strikes, indicating deep‑penetration combat (Source: @ukr_leaks_eng/30353)."
+      "Russia launched a massive Shahed UAV barrage of 124 drones from Kursk, Shatalovo, Orel and other directions, striking eastern and southern Ukrainian positions on 22‑23 May (Source: @kpszsu/62415).",
+      "The Russian Ministry of Defence announced the liberation of Verkhnyaya Tersa in Zaporizhzhia Oblast, extending Russian control in the south (Source: @tass_agency/377047).",
+      "A Ukrainian strike on a college in Starobelsk (LNR) collapsed the building, killing four and injuring 39 civilians (Source: @tass_agency/377041).",
+      "Five civilians were injured in Dnipro after a Russian missile hit two high‑rise buildings, highlighting continued urban targeting (Source: @UkraineNow/81369).",
+      "The United States approved a $108 million sale of Hawk air‑defence systems to Ukraine, bolstering its low‑altitude defense capability (Source: @UkraineNow/81377).",
+      "Ukrainian FPV drone units continue combat operations despite limited funding, soliciting public micro‑donations to sustain drone sorties (Source: @mon1tor_ua/66894).",
+      "Russian tactical aviation deployed guided aerial bombs over Kharkiv and Zaporizhzhia, indicating intensified precision strike use (Source: @kpszsu/62437)."
     ],
-    "threat_assessment": "Russian forces are escalating aerial pressure through guided bombings and increased FPV drone usage, targeting both military and civilian sites in Donetsk, Zaporizhzhia and border oblasts. Ukrainian air defenses have demonstrated resilience, intercepting a large volume of hostile UAVs, but the persistent UAV threat from northern launch points remains a critical vulnerability. Ground combat remains intense in the eastern and southern sectors, with Ukrainian advances offset by Russian counter‑offensives and heavy fighting around key logistics nodes.",
-    "regional_response": "Ukraine is bolstering air defense integration, deploying radar, electronic warfare and mobile fire groups to counter UAV swarms, while also reinforcing ground operations in Kharkiv and Dobropillya. Russian command appears to be leveraging tactical aviation and drone strikes to pressure front‑line positions and civilian infrastructure, especially in border regions like Belgorod. Internationally, the United States approved a $108 million Hawk air‑defense system sale, aiming to enhance Ukrainian airspace protection.",
-    "intelligence_notes": "Continued monitoring of UAV launch corridors from Kursk, Bryansk, Oryol and Tula is essential for early warning. The effectiveness of Ukrainian air defenses against Shahed‑type drones suggests potential for further integration of Western air‑defense assets. Russian guided bomb deployments in Donetsk and Zaporizhzhia indicate a focus on disrupting Ukrainian logistics and command nodes, warranting increased reconnaissance and counter‑strike planning."
+    "threat_assessment": "Russian forces are escalating aerial pressure through large‑scale UAV barrages and precision bombings, targeting both military and civilian infrastructure across the eastern and southern fronts. The recapture of Verkhnyaya Tersa strengthens Russian footholds near key supply routes, while continued UAV incursions in central Ukraine expand the threat envelope. Ukrainian air‑defence improvements, such as the Hawk system, may mitigate low‑altitude attacks but will be tested against the high volume of incoming drones.",
+    "regional_response": "Ukraine is bolstering its air‑defence capabilities with Western aid, notably the US Hawk system, while relying on domestic FPV drone units funded by public donations to maintain operational tempo. Internationally, the US is increasing military support, whereas Russian propaganda seeks to amplify alleged Ukrainian aggression. Civilian resilience remains strained as urban centers like Dnipro endure repeated strikes.",
+    "intelligence_notes": "Monitoring of UAV launch sites in western Russian districts is critical, as the recent 124‑drone barrage demonstrated coordinated long‑range strike capability. The newly secured Verkhnyaya Tersa should be observed for potential logistics hubs supporting further southern offensives. Ukrainian FPV drone activity, though low‑cost, provides valuable reconnaissance and should be integrated into broader ISR networks."
   },
   "missiles": 0,
   "drones": 124,
   "kpszsu_timeline": [
     1,
-    3,
-    1,
     0,
     0,
     0,
-    1,
-    1,
+    2,
+    0,
     0,
     0,
     1,
@@ -347,7 +337,9 @@
     5,
     1,
     1,
+    2,
     1,
-    2
+    1,
+    3
   ]
 }
