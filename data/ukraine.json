@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-22T21:01:19.114775+00:00",
-  "message_count": 250,
+  "updated_at": "2026-05-22T21:24:53.500948+00:00",
+  "message_count": 252,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,56 +13,56 @@
   ],
   "red_alerts": 124,
   "red_alerts_timeline": [
-    10,
-    0,
-    0,
-    48,
-    0,
-    19,
-    0,
     0,
     0,
     10,
+    41,
     0,
-    0,
-    0,
-    0,
-    0,
+    21,
     0,
     0,
     0,
     10,
     0,
     0,
-    19,
     0,
-    10
+    0,
+    0,
+    0,
+    0,
+    10,
+    0,
+    0,
+    10,
+    10,
+    10,
+    0
   ],
   "combined_activity_timeline": [
-    7,
     4,
-    2,
-    17,
+    4,
+    9,
+    12,
     5,
+    8,
+    5,
+    8,
+    14,
+    20,
+    13,
     10,
-    5,
+    13,
+    6,
+    12,
+    13,
+    20,
+    17,
+    11,
     7,
     10,
-    15,
-    18,
-    12,
-    11,
-    10,
-    8,
-    16,
-    10,
-    24,
-    15,
-    5,
-    13,
-    3,
+    6,
     14,
-    9
+    10
   ],
   "messages_by_channel": {
     "@eRadarrua": 47,
@@ -71,30 +71,51 @@
     "@UkraineNow": 15,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 126
+    "@tass_agency": 128
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/93012",
+    "eRadarrua": "https://t.me/eRadarrua/93014",
     "kpszsu": "https://t.me/kpszsu/62454",
     "mon1tor_ua": "https://t.me/mon1tor_ua/66899",
     "UkraineNow": "https://t.me/UkraineNow/81391",
     "DeepStateUA": "https://t.me/DeepStateUA/23530",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30373",
-    "tass_agency": "https://t.me/tass_agency/377129"
+    "tass_agency": "https://t.me/tass_agency/377133"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/62428",
-    "tass_agency": "https://t.me/tass_agency/377090",
-    "UkraineNow": "https://t.me/UkraineNow/81388",
-    "eRadarrua": "https://t.me/eRadarrua/92986",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30358"
+    "kpszsu": "https://t.me/kpszsu/62415",
+    "UkraineNow": "https://t.me/UkraineNow/81386",
+    "eRadarrua": "https://t.me/eRadarrua/93006",
+    "DeepStateUA": "https://t.me/DeepStateUA/23529"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/377129",
+      "post_id": 377129,
+      "channel": "tass_agency",
+      "ts": "2026-05-22T20:50:57+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/377127",
       "post_id": 377127,
       "channel": "tass_agency",
       "ts": "2026-05-22T20:31:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/93010",
+      "post_id": 93010,
+      "channel": "eRadarrua",
+      "ts": "2026-05-22T20:25:52+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/ivAEOHttRwltZ6KE2AgMjbtUDbKJobjyodFvTDu99mwryYmbj86pCDK9BE_rZRT5Dwk97oZ-eu3rsBAP6ui3SC0X8D647yJzaCR1iDJHJjhbnWdo-0I6LUbaGxrDKuV1zDzqirqZC7EBXLfOZdkAesr2zgAPhdlSIAqkxoVB7lBfEM0vwHvyMQTad0FrubHsz5R7g0Rd5tgRr4gZcEDceM9ati7CqpbaZvCGb23cybwPixmZ5XM_TGpT0Zl_WXvrTgUVONg8OFvowPTK6cAKK1TlZB9drvaYfvZwo4AH23ymAbjTwkmiIRgdKiHiAMalfIbZpYE2ZwFvXtj_0WoLZQ.jpg",
+      "companion_text_id": 93009
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/93008",
+      "post_id": 93008,
+      "channel": "eRadarrua",
+      "ts": "2026-05-22T20:20:29+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/otXblATrVSKafCrblAJkIECq9R2V37q3Tv5zYPtcDPcXEC2cRftDVqNJrbd2VZsb-Twe93XAydmmzAad1FdmP1gHGOvyHi9BVGWCkAOhs4MGJAebIRBvJV5LfAHWau-T3T8sSfOJVAZ519rpca31OsvgCOArTNK8T3w6MvWJx8ji9fPGSh5KzYrDXWtG0cRIxeugvgWNqldk0YzNYjbZNBBFUE1U-XfX2kBIZCJ1eibl96UYk6f-4dSaR_Yfb6IB5lqO6zR43bdDDHy3wKKQLijhDJ5ILC_Vsi_zyr-1X0jxrnWonvNMm-P6C4J2WivWeeYiBtFzlz7ALxH-jL1IdA.jpg",
+      "companion_text_id": 93009
     },
     {
       "post_url": "https://t.me/eRadarrua/93005",
@@ -127,22 +148,6 @@
       "companion_text_id": 92994
     },
     {
-      "post_url": "https://t.me/eRadarrua/92994",
-      "post_id": 92994,
-      "channel": "eRadarrua",
-      "ts": "2026-05-22T19:21:55+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/JBfvmD1AnA8UEhpu4GeUm-Y-aBL_4zkFSC5q7a900GyKRZPG256yB9DnAcavsVZ7z8FEUnti3oAPrpGIj9Q34Gp4xl7ZUSApoqw1BxJvpKZzYu6bQLY2yAtumjx9tuKB7JPZ2S8J_d2mADgVbg5BexiT-k58RAtneNVh5STNax0Ec6RnzcpqW05AGF-IarDSQCuX9ZJXyp8SZ8ZeBAt7yhdCiTTneOek5I2Phc6bwAe99WWav8GM62OswXc9iu06dOmJKaCP79vFjlx4qbpjc0tSG9zvNl8AJwlt_9vAyxuWILUUHyuQMeaoJap47Ut4ysVJwW_A3iMrvu8clYhyQQ.jpg",
-      "companion_text_id": 92993
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/92993",
-      "post_id": 92993,
-      "channel": "eRadarrua",
-      "ts": "2026-05-22T19:19:43+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/cJhBCv4T9TsC2iy0h6ihvCcxaZjIFMZq9QVsnuVP0ACUoIcN9_lZ2X4KHC0Vxu31d6C7lnl2eJfO64qix2vG5Va6qUO69uQaZIg7N-ufrrdIFA-dfw7I4SBDRgiEOqXfsYyIjmohjUvGTxYzOpssB1Dl5Mb3WI0h-Yjc8KAdsYYDtJKC9Iod-lC7xn27owUUL6T_FO23A9GhsqrV4pphLQG2LOoIhXL7y7n6p3uED6rB3IFuWsNKNosrJmSlBmf6CrMOG_FHLA6i6CFHqcKXDfLPAn3oMXjL-bXXtJ4guhpg6BLjwotGlvKEYVxTvrMUsHYD9tlnUQCRYRAhONAtOQ.jpg",
-      "companion_text_id": 92994
-    },
-    {
       "post_url": "https://t.me/tass_agency/377117",
       "post_id": 377117,
       "channel": "tass_agency",
@@ -155,22 +160,16 @@
       "ts": "2026-05-22T17:34:48+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/377113",
-      "post_id": 377113,
-      "channel": "tass_agency",
-      "ts": "2026-05-22T17:26:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/377112",
-      "post_id": 377112,
-      "channel": "tass_agency",
-      "ts": "2026-05-22T17:16:01+00:00"
-    },
-    {
       "post_url": "https://t.me/DeepStateUA/23529",
       "post_id": 23529,
       "channel": "DeepStateUA",
       "ts": "2026-05-22T17:14:52+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/377099",
+      "post_id": 377099,
+      "channel": "tass_agency",
+      "ts": "2026-05-22T15:10:40+00:00"
     },
     {
       "post_url": "https://t.me/UkraineNow/81383",
@@ -222,128 +221,118 @@
     }
   ],
   "post_images": {
-    "eRadarrua/92993": "data/media/eRadarrua_92993.jpg",
-    "eRadarrua/92994": "data/media/eRadarrua_92994.jpg",
     "eRadarrua/92995": "data/media/eRadarrua_92995.jpg",
+    "eRadarrua/92994": "data/media/eRadarrua_92995.jpg",
     "eRadarrua/93004": "data/media/eRadarrua_93004.jpg",
     "eRadarrua/93003": "data/media/eRadarrua_93004.jpg",
     "eRadarrua/93005": "data/media/eRadarrua_93005.jpg",
+    "eRadarrua/93008": "data/media/eRadarrua_93008.jpg",
+    "eRadarrua/93009": "data/media/eRadarrua_93008.jpg",
+    "eRadarrua/93010": "data/media/eRadarrua_93010.jpg",
     "kpszsu/62415": "data/media/kpszsu_62415.jpg"
   },
-  "summary": "Russian forces intensified drone and guided‑bomb strikes on Starobilsk, causing at least six civilian deaths and prompting a Kremlin response. Ukrainian units continued widespread UAV attacks across Donetsk, Zaporizhzhia, Kharkiv, Dnipropetrovsk and other regions, inflicting infrastructure damage and civilian casualties. The United States approved a major HAWK air‑defence sale to Ukraine, while Russian leadership publicly vowed retaliation and highlighted the Starobilsk incident.",
+  "summary": "Ukrainian air defenses downed 115 of 124 Shahed‑type UAVs during a massive night raid, while Russian forces continued guided‑bomb strikes on Donetsk and eastern Dnipropetrovsk. UAV activity intensified across the north‑east, with multiple Shahed drones moving toward Chernihiv, Poltava and the Black Sea. Ground attacks persisted, highlighted by a Russian FPV‑drone strike on Marhanets and Ukrainian UAV raids on Novorossisk.",
   "key_points": [
-    "Russian guided‑bomb launches targeted Donetsk and Zaporizhzhia regions, employing tactical aviation bombs (Source: @kpszsu/62428).",
-    "Multiple waves of Russian UAVs struck the Starobilsk college, killing six civilians and prompting Putin to order a defence ministry response (Source: @tass_agency/377090, @tass_agency/377094).",
-    "Ukrainian UAV attacks hit at least 40 times across four Dnipropetrovsk districts, damaging a college, commercial centre and causing 16 injuries (Source: @UkraineNow/81388).",
-    "Ukrainian forces reported UAV activity in Kharkiv, Kherson, Dnipropetrovsk and Sumy, including a drone over the Black Sea near the Bay of Azov (Source: @eRadarrua/92986, @kpszsu/62422).",
-    "US approved sale of HAWK anti‑aircraft missile system equipment to Ukraine worth nearly $108 million (Source: @ukr_leaks_eng/30358).",
-    "Russian officials claimed Ukrainian drone strike on Starobilsk college was a deliberate terrorist act, rejecting any air‑defence or electronic warfare explanation (Source: @tass_agency/377091).",
-    "Ukrainian UAVs engaged targets in Novorossisk and other locations in the south (Source: @eRadarrua/93006).",
-    "Russian statements warned of possible ballistic missile use, heightening regional tension (Source: @kpszsu/62417)."
+    "Ukrainian air defenses shot down 115 of 124 Shahed, Gerbera, Italmas and imitation drones launched from Kursk, Shatalovo, Orel, Bryansk, Millerovo, Primorsko‑Akhtarsk, Gvardeyskoye and Crimea; 7 strike hits recorded on five locations (Source: @kpszsu/62415).",
+    "Russian tactical aviation released guided aerial bombs on Donetsk and east Dnipropetrovsk, and on eastern Zaporizhzhia toward southern Dnipropetrovsk (Source: @kpszsu/62443).",
+    "Multiple Shahed UAVs reported over Sumy moving west toward Chernihiv, over Poltava heading to the city, and over the Black Sea toward Tatarbunary (Source: @kpszsu/62453).",
+    "A Russian FPV drone struck near a service vehicle in Marhanets, injuring 13 civilians with moderate wounds (Source: @UkraineNow/81386).",
+    "Ukrainian UAVs conducted a strike on Novorossisk, indicating expanded southern‑front air operations (Source: @eRadarrua/93006).",
+    "A Russian Orlan‑10 reconnaissance UAV operated over the Black Sea opposite Zatoka, monitoring maritime traffic (Source: @eRadarrua/92986).",
+    "A reactive missile was observed near Ponornytsia, heading toward Koryukivka, suggesting artillery‑rocket activity on the northern front (Source: @eRadarrua/92997).",
+    "Ukrainian forces continued building engineer‑fortified positions in Dnipropetrovsk and Donetsk regions to strengthen static defence (Source: @DeepStateUA/23529)."
   ],
-  "sentiment": "escalating",
+  "sentiment": "active",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian guided‑bomb and UAV strikes on Starobilsk have killed six civilians, prompting a Kremlin directive for a response. Ukrainian forces continue extensive UAV operations across multiple fronts, causing infrastructure damage and civilian injuries. The United States' HAWK air‑defence sale bolsters Ukraine's capability amid rising threats of Russian ballistic missile use.",
+    "executive_summary": "Ukrainian air defenses downed 115 of 124 Shahed‑type UAVs during a massive night raid, while Russian forces continued guided‑bomb strikes on Donetsk and eastern Dnipropetrovsk. UAV activity intensified across the north‑east, with multiple Shahed drones moving toward Chernihiv, Poltava and the Black Sea. Ground attacks persisted, highlighted by a Russian FPV‑drone strike on Marhanets and Ukrainian UAV raids on Novorossisk.",
     "ukraine": {
       "points": [
-        "Ukrainian UAVs attacked four districts of Dnipropetrovsk Oblast nearly 40 times, damaging a college, a five‑storey building, a shopping‑entertainment centre and an administrative building, wounding 16 civilians, five of whom were hospitalised (Source: @UkraineNow/81388).",
-        "UAVs were reported over the Black Sea opposite the Azov Bay, indicating expanded reconnaissance reach (Source: @eRadarrua/92986).",
-        "Ukrainian drones struck Novorossisk, expanding the southern front's aerial activity (Source: @eRadarrua/93006).",
-        "Multiple UAV sightings across Kharkiv, Kherson, Dnipropetrovsk and Sumy suggest coordinated multi‑regional strike capability (Source: @kpszsu/62422).",
-        "Ukrainian forces reported a UAV hit near a service vehicle in Marhanets, injuring 13 workers with moderate injuries (Source: @UkraineNow/81386).",
-        "Ukrainian UAVs engaged targets in the north, including a reactive UAV heading toward Korikivka from Ponornytsia (Source: @eRadarrua/92996).",
-        "Ukrainian intelligence noted no large‑scale Belarusian mobilisation, but warned of continued border mining and fortification (Source: @eRadarrua/92960)."
+        "Ukrainian air defence units, including aviation, SAM brigades, REB and mobile fire groups, intercepted 115 hostile UAVs (Shahed, Gerbera, Italmas, imitation types) across the north, south and east, preventing further damage (Source: @kpszsu/62415).",
+        "Ukrainian engineers are constructing fortified positions in Dnipropetrovsk and Donetsk, building on lessons from Avdiivka and earlier battles to improve static defence (Source: @DeepStateUA/23529).",
+        "Ukrainian UAVs successfully struck Novorossisk, extending offensive air operations into the southern front and targeting Russian logistics (Source: @eRadarrua/93006).",
+        "Ukrainian forces reported a reactive missile launch near Ponornytsia, heading toward Koryukivka, indicating active counter‑rocket measures on the northern axis (Source: @eRadarrua/92997)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation released guided‑bombs on Donetsk and Zaporizhzhia, including eastward strikes toward southern Dnipropetrovsk (Source: @kpszsu/62428, @kpszsu/62439).",
-        "Three waves of Russian UAVs targeted the Starobilsk college, resulting in six civilian deaths; Putin ordered the defence ministry to draft a response (Source: @tass_agency/377090, @tass_agency/377094).",
-        "Russian officials dismissed any air‑defence or electronic warfare involvement in the Starobilsk drone strike, labeling it a terrorist act (Source: @tass_agency/377091).",
-        "A Russian threat of ballistic missile deployment was publicly announced, raising escalation risk (Source: @kpszsu/62417).",
-        "Russian propaganda claimed the Starobilsk attack was intentional, using it to portray Kyiv as extremist (Source: @tass_agency/377093).",
-        "Russian statements highlighted the need to prepare a response to the Starobilsk strike, indicating possible retaliatory operations (Source: @tass_agency/377094).",
-        "Russian forces reported UAV activity over the Black Sea region, suggesting surveillance of maritime approaches (Source: @eRadarrua/92986)."
+        "Russian tactical aviation deployed guided aerial bombs on Donetsk and eastern Dnipropetrovsk, as well as on eastern Zaporizhzhia toward southern Dnipropetrovsk, aiming to disrupt Ukrainian rear areas (Source: @kpszsu/62443).",
+        "A Russian FPV drone attack near Marhanets damaged a service vehicle and injured 13 civilians, showing continued use of low‑cost loitering munitions against infrastructure (Source: @UkraineNow/81386).",
+        "Russian Shahed‑type UAVs launched from multiple western Russian regions (Kursk, Shatalovo, Orel, Bryansk, Millerovo, Primorsko‑Akhtarsk, Gvardeyskoye, Crimea) targeted Ukrainian territory, reflecting a broad launch envelope (Source: @kpszsu/62415).",
+        "A Russian Orlan‑10 reconnaissance UAV operated over the Black Sea opposite Zatoka, likely monitoring Ukrainian naval movements (Source: @eRadarrua/92986)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAVs conducted strikes in Donetsk Oblast, with multiple reports of guided‑bomb launches by Russian aviation (Source: @kpszsu/62428).",
-        "Russian UAV waves over Starobilsk (Luhansk‑controlled) indicate eastern front pressure (Source: @tass_agency/377092).",
-        "Ukrainian drone activity reported near Kropyvnytskyi from Sumy direction, suggesting cross‑front mobility (Source: @kpszsu/62445).",
-        "Ukrainian UAVs engaged targets in the east of Kharkiv region, including near Kirovohrad heading toward Kropyvnytskyi (Source: @kpszsu/62420).",
-        "Russian guided‑bomb launches towards eastern Zaporizhzhia and southern Dnipropetrovsk show continued eastern offensive air support (Source: @kpszsu/62439)."
+        "UAVs from Sumy moved westward toward Chernihiv, increasing pressure on the northern‑eastern axis and threatening logistics corridors (Source: @kpszsu/62453).",
+        "Shahed drones were observed heading eastward over Dnipropetrovsk toward Pavlograd, indicating a focus on the eastern industrial belt (Source: @kpszsu/62431).",
+        "Russian guided‑bomb strikes on Donetsk and east Dnipropetrovsk aim to degrade Ukrainian command and supply nodes in the eastern sector (Source: @kpszsu/62443).",
+        "Ukrainian fortified engineering works in Donetsk and Dnipropetrovsk enhance defensive depth against further Russian offensives (Source: @DeepStateUA/23529)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs reported in Chernihiv region, including reactive UAVs moving toward Korikivka (Source: @eRadarrua/92996).",
-        "Ukrainian drone sightings in Sumy and near Romny indicate northern operational activity (Source: @eRadarrua/93003).",
-        "Russian UAV activity not reported in the north, but Ukrainian reconnaissance suggests heightened vigilance (Source: @eRadarrua/92960).",
-        "Ukrainian UAVs observed over the Black Sea near the Azov Bay, potentially monitoring northern maritime routes (Source: @eRadarrua/92986).",
-        "No major Russian offensive movements reported on the northern front in the current set of messages."
+        "Shahed UAVs launched from Russian western regions penetrated northern Ukraine, prompting extensive air‑defence engagements (Source: @kpszsu/62415).",
+        "UAV activity over Shostka prompted civilian shelter alerts, reflecting ongoing aerial threat in the north (Source: @kpszsu/62419).",
+        "Reactive missile near Ponornytsia heading to Koryukivka shows active artillery exchanges on the northern front (Source: @eRadarrua/92997).",
+        "UAVs from Sumy moving toward Chernihiv increase pressure on the northern supply routes (Source: @kpszsu/62453)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian UAV strike in Marhanets (Dnipropetrovsk) injured 13 industrial workers (Source: @UkraineNow/81386).",
-        "Ukrainian drones reported over Kherson and southern Dnipropetrovsk, indicating active southern front operations (Source: @kpszsu/62422).",
-        "Russian guided‑bomb launches in Zaporizhzhia directed toward southern Dnipropetrovsk (Source: @kpszsu/62439).",
-        "Ukrainian UAVs engaged targets in Novorossisk, expanding southern aerial pressure (Source: @eRadarrua/93006).",
-        "Ukrainian drone activity reported near Kropyvnytskyi from Sumy direction, affecting central‑southern logistics (Source: @kpszsu/62445)."
+        "Ukrainian UAV strike on Novorossisk demonstrates expanded southern‑front air operations against Russian‑held territories (Source: @eRadarrua/93006).",
+        "Russian FPV‑drone attack on Marhanets caused civilian casualties, highlighting persistent low‑altitude threats in the southern industrial zone (Source: @UkraineNow/81386).",
+        "Guided‑bomb releases toward eastern Zaporizhzhia and southern Dnipropetrovsk target key logistics hubs in the south (Source: @kpszsu/62439).",
+        "Orlan‑10 UAV over the Black Sea near Zatoka monitors maritime traffic, potentially supporting southern‑front naval operations (Source: @eRadarrua/92986)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation deployed guided‑bombs on Donetsk, Zaporizhzhia and Kharkiv, showing continued air‑strike capability (Source: @kpszsu/62428, @kpszsu/62437).",
-        "Ukrainian UAV operations intensified, with over 40 attacks in Dnipropetrovsk alone, causing civilian casualties and infrastructure damage (Source: @UkraineNow/81388).",
-        "Multiple Russian UAV waves targeted Starobilsk college, resulting in six civilian deaths and prompting Kremlin retaliation plans (Source: @tass_agency/377090, @tass_agency/377092).",
-        "Ukrainian UAVs were observed over the Black Sea near the Azov Bay, expanding maritime air surveillance (Source: @eRadarrua/92986).",
-        "US approval of HAWK air‑defence system equipment enhances Ukraine's ability to counter Russian aerial threats (Source: @ukr_leaks_eng/30358).",
-        "Russian threat of ballistic missile use adds a new dimension to the air‑war dynamics (Source: @kpszsu/62417).",
-        "Ukrainian UAVs engaged targets in Novorossisk, indicating southern air‑strike reach (Source: @eRadarrua/93006)."
+        "Ukrainian air defence shot down 115 of 124 hostile UAVs during a coordinated night raid, with engagements across north, south and east (Source: @kpszsu/62415).",
+        "Russian Shahed, Gerbera and Italmas UAVs launched from at least eight Russian locations, indicating a wide‑area launch strategy (Source: @kpszsu/62415).",
+        "Ukrainian UAVs operating over Sumy, Poltava and the Black Sea show expanding Ukrainian aerial reconnaissance and strike capabilities (Source: @kpszsu/62453).",
+        "Russian Orlan‑10 reconnaissance UAV activity over the Black Sea suggests continued aerial ISR on maritime approaches (Source: @eRadarrua/92986)."
       ]
     },
     "key_developments": [
-      "Russian guided‑bomb strikes hit Donetsk and Zaporizhzhia, employing tactical aviation munitions and expanding air‑strike pressure (Source: @kpszsu/62428).",
-      "Three coordinated Russian UAV waves attacked the Starobilsk college, killing six civilians and prompting a Kremlin directive for a response (Source: @tass_agency/377090).",
-      "Ukrainian UAVs conducted nearly 40 attacks across four Dnipropetrovsk districts, damaging key infrastructure and wounding 16 civilians (Source: @UkraineNow/81388).",
-      "The United States approved a $108 million HAWK air‑defence system sale to Ukraine, strengthening its anti‑air capabilities (Source: @ukr_leaks_eng/30358).",
-      "Russian officials dismissed any air‑defence or electronic warfare involvement in the Starobilsk drone strike, labeling it a terrorist act (Source: @tass_agency/377091).",
-      "Ukrainian drones were observed over the Black Sea near the Azov Bay, indicating expanded maritime reconnaissance (Source: @eRadarrua/92986).",
-      "Russia publicly warned of possible ballistic missile deployment, raising escalation risk on the front lines (Source: @kpszsu/62417)."
+      "Ukrainian air defence downed 115 of 124 Shahed‑type UAVs launched from Kursk, Shatalovo, Orel, Bryansk, Millerovo, Primorsko‑Akhtarsk, Gvardeyskoye and Crimea, with seven strike impacts recorded on five locations (Source: @kpszsu/62415).",
+      "Russian tactical aviation released guided aerial bombs on Donetsk and east Dnipropetrovsk, and on eastern Zaporizhzhia toward southern Dnipropetrovsk, targeting command and logistics nodes (Source: @kpszsu/62443).",
+      "Multiple Shahed UAVs were reported moving from Sumy toward Chernihiv, from Poltava toward the city, and over the Black Sea toward Tatarbunary, indicating a broadening of the UAV threat corridor (Source: @kpszsu/62453).",
+      "A Russian FPV drone struck near a service vehicle in Marhanets, injuring 13 civilians with moderate wounds, highlighting the continued use of loitering munitions against civilian infrastructure (Source: @UkraineNow/81386).",
+      "Ukrainian UAVs conducted a strike on Novorossisk, extending offensive air operations into the southern front and targeting Russian supply lines (Source: @eRadarrua/93006).",
+      "A Russian Orlan‑10 reconnaissance UAV operated over the Black Sea opposite Zatoka, likely monitoring Ukrainian naval movements (Source: @eRadarrua/92986).",
+      "A reactive missile was observed near Ponornytsia, heading toward Koryukivka, suggesting active artillery‑rocket engagements on the northern front (Source: @eRadarrua/92997)."
     ],
-    "threat_assessment": "Russian air operations, including guided‑bombs and coordinated UAV attacks on civilian targets like Starobilsk, demonstrate a willingness to intensify strikes and provoke retaliation. Ukrainian UAV activity remains high across multiple fronts, causing significant infrastructure damage and civilian casualties, while the forthcoming HAWK system may mitigate some aerial threats. The announced Russian ballistic missile threat further escalates the risk of a broader strike campaign, potentially targeting strategic Ukrainian assets.",
-    "regional_response": "Western allies, exemplified by the US HAWK sale, are bolstering Ukraine's air‑defence posture, while Russian rhetoric signals preparation for retaliatory measures. Ukrainian regional authorities report increased civilian injuries and infrastructure loss, prompting local emergency responses and heightened alert levels. No significant Belarusian or NATO direct military involvement is reported, but diplomatic condemnation of attacks on civilians continues.",
-    "intelligence_notes": "Monitoring of Russian UAV wave patterns over Starobilsk suggests a possible shift toward repeated precision strikes on urban centres. Ukrainian UAV sortie density in Dnipropetrovsk and southern regions indicates improved operational reach and logistics. The pending HAWK deployment should be tracked for integration timelines, as it may alter the air‑defence balance. Russian ballistic missile threat warrants heightened early‑warning readiness across strategic sites."
+    "threat_assessment": "Russian forces are employing a diversified UAV and guided‑bomb campaign, launching from multiple western Russian bases to pressure Ukrainian airspace across all fronts. Ukrainian air defences have shown resilience, intercepting the majority of incoming drones, yet the sheer volume indicates a sustained Russian aerial threat. Concurrently, low‑cost loitering munitions and reconnaissance UAVs are being used to target civilian infrastructure and gather maritime intelligence, complicating Ukraine's defensive posture.",
+    "regional_response": "Ukraine is reinforcing northern and eastern sectors with fortified engineering works and increased air‑defence deployments, while expanding UAV strike capabilities into the southern theater. International partners continue to supply air‑defence systems, enabling the high interception rate observed. Russian reliance on a broad launch footprint suggests attempts to overwhelm Ukrainian defenses, prompting Kyiv to prioritize layered air‑defence integration across all axes.",
+    "intelligence_notes": "The concentration of UAV launch sites in western Russia points to a logistical hub network that can be targeted for disruption. The emergence of Ukrainian UAV strikes on Novorossisk indicates a shift toward deeper penetration missions, requiring enhanced Russian air‑defence coverage in occupied territories. Continued FPV‑drone attacks on civilian sites underscore the need for improved low‑altitude detection and rapid response capabilities."
   },
   "missiles": 0,
   "drones": 124,
   "kpszsu_timeline": [
     0,
     1,
-    0,
+    2,
     4,
-    2,
     0,
     0,
-    1,
+    0,
     2,
-    1,
-    5,
-    1,
-    1,
     2,
-    1,
-    1,
     3,
-    4,
-    1,
-    1,
-    0,
-    0,
     2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    4,
+    4,
+    0,
+    1,
+    0,
+    1,
+    1,
     0
   ]
 }
