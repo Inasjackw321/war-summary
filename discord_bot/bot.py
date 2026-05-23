@@ -141,23 +141,18 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         color=color,
         timestamp=ts or datetime.now(timezone.utc),
     )
-    embed.set_author(name="⚡ War Summary  ·  Live Intelligence Brief", url="https://warsummary.live")
-
-    # Stats inline — shown before key developments
+    # Stats — shown before key developments
     if conflict == "middle_east":
         alerts = data.get("red_alerts")
         if alerts is not None:
-            embed.add_field(name="🚨 Red Alerts", value=f"**{round(alerts / 2)}**\ntoday · Israel", inline=True)
+            embed.add_field(name="🚨 Red Alerts · Israel", value=f"**{round(alerts / 2)}** today", inline=False)
     elif conflict == "ukraine":
         missiles = data.get("missiles")
         drones   = data.get("drones")
         if missiles is not None:
-            embed.add_field(name="🚀 Missiles", value=f"**{missiles}**\nlaunched · 24h", inline=True)
+            embed.add_field(name="🚀 Missiles", value=f"**{missiles}** launched · 24h", inline=True)
         if drones is not None:
-            embed.add_field(name="🛸 Drones", value=f"**{drones}**\nlaunched · 24h", inline=True)
-
-    # Spacer to push key developments onto its own row
-    embed.add_field(name="​", value="​", inline=False)
+            embed.add_field(name="🛸 Drones", value=f"**{drones}** launched · 24h", inline=True)
 
     sections = data.get("sections") or {}
     key_devs = sections.get("key_developments") or []
