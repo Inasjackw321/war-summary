@@ -13,8 +13,8 @@ DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
 CONFIG_PATH   = Path(os.environ.get("CONFIG_PATH", "/data/config.json"))
 
 DATA_URLS = {
-    "middle_east": "https://raw.githubusercontent.com/inasjackw321/war-summary/main/data/middle_east.json",
-    "ukraine":     "https://raw.githubusercontent.com/inasjackw321/war-summary/main/data/ukraine.json",
+    "middle_east": "https://warsummary.live/data/middle_east.json",
+    "ukraine":     "https://warsummary.live/data/ukraine.json",
 }
 CONFLICT_META = {
     "middle_east": ("Middle East", "🌍", 0xf59e0b),
