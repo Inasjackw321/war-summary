@@ -177,7 +177,7 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
     if conflict == "middle_east":
         alerts = data.get("red_alerts")
         if alerts is not None:
-            embed.add_field(name="🚨 Red Alerts (Israel)", value=str(alerts), inline=True)
+            embed.add_field(name="🚨 Red Alerts (Israel)", value=str(round(alerts / 2)), inline=True)
     elif conflict == "ukraine":
         missiles = data.get("missiles")
         drones   = data.get("drones")
