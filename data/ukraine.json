@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-23T21:34:12.379494+00:00",
-  "message_count": 349,
+  "updated_at": "2026-05-23T22:34:49.899718+00:00",
+  "message_count": 405,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,43 +15,42 @@
   "red_alerts_timeline": [
     0,
     0,
+    0,
+    4,
     4,
     9,
-    0,
-    9,
-    9,
-    4,
-    9,
-    13,
-    4,
-    4,
-    0,
-    0,
-    4,
-    0,
-    0,
-    0,
-    13,
     4,
     9,
     13,
     4,
+    4,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    13,
+    4,
+    9,
+    13,
+    4,
+    13,
     9
   ],
   "combined_activity_timeline": [
     5,
-    5,
-    6,
-    15,
+    4,
+    11,
+    10,
     12,
-    12,
-    23,
+    22,
     18,
     19,
     17,
-    10,
-    18,
-    14,
+    13,
+    16,
+    13,
     6,
     10,
     7,
@@ -59,37 +58,44 @@
     6,
     13,
     16,
-    18,
+    19,
     31,
-    37,
-    23
+    35,
+    30,
+    64
   ],
   "messages_by_channel": {
-    "@eRadarrua": 116,
-    "@kpszsu": 63,
-    "@mon1tor_ua": 51,
+    "@eRadarrua": 122,
+    "@kpszsu": 70,
+    "@mon1tor_ua": 96,
     "@UkraineNow": 16,
     "@ukr_leaks_eng": 11,
-    "@tass_agency": 92
+    "@tass_agency": 90
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/93230",
-    "kpszsu": "https://t.me/kpszsu/62554",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66957",
+    "eRadarrua": "https://t.me/eRadarrua/93277",
+    "kpszsu": "https://t.me/kpszsu/62568",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67016",
     "UkraineNow": "https://t.me/UkraineNow/81408",
     "DeepStateUA": "https://t.me/DeepStateUA/23530",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30385",
-    "tass_agency": "https://t.me/tass_agency/377254"
+    "tass_agency": "https://t.me/tass_agency/377256"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81403",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/66945",
-    "kpszsu": "https://t.me/kpszsu/62522",
-    "tass_agency": "https://t.me/tass_agency/377250",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30377",
-    "eRadarrua": "https://t.me/eRadarrua/93223"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/66978",
+    "UkraineNow": "https://t.me/UkraineNow/81392",
+    "tass_agency": "https://t.me/tass_agency/377219",
+    "eRadarrua": "https://t.me/eRadarrua/93240",
+    "kpszsu": "https://t.me/kpszsu/62534",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30377"
   },
   "media": [
+    {
+      "post_url": "https://t.me/mon1tor_ua/66962",
+      "post_id": 66962,
+      "channel": "mon1tor_ua",
+      "ts": "2026-05-23T21:33:46+00:00"
+    },
     {
       "post_url": "https://t.me/mon1tor_ua/66957",
       "post_id": 66957,
@@ -135,14 +141,6 @@
       "companion_text_id": 93224
     },
     {
-      "post_url": "https://t.me/eRadarrua/93217",
-      "post_id": 93217,
-      "channel": "eRadarrua",
-      "ts": "2026-05-23T20:17:22+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/o941M52W1zoRNgZgWNfszBZAlFqec3agZofROzS7q2qiufSM9WRMhg0on9w_1YOiOr6643i_xou776247sSfBaIFJsQj1GSlrxk0NLj_tzCtpqO8j4Agb2bBiFSah2rwaqRAvfQp0Olmh_EqIgrZJAnt5koo2SrC8-9zVeijFQt2-yfvTNNMKaquq8IuvPQaqPh68Hc1PzzZw291VI0bfB-2FYCTRlMIG9uRlVXRqRKnk3KsM4canPSMwyRoRDmXHhmc_DBm9tgBdFKDPyjaBucDjX5Tv4E9cntKndp-JwAUHWYZOWLFtB98MtISV9Yr_vVcakvTlc4NkX5xkii1mw.jpg",
-      "companion_text_id": 93218
-    },
-    {
       "post_url": "https://t.me/mon1tor_ua/66947",
       "post_id": 66947,
       "channel": "mon1tor_ua",
@@ -153,6 +151,14 @@
       "post_id": 66944,
       "channel": "mon1tor_ua",
       "ts": "2026-05-23T19:47:21+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/93204",
+      "post_id": 93204,
+      "channel": "eRadarrua",
+      "ts": "2026-05-23T19:39:31+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/BcBlEd-ACXa644AvlleOZPspB4RBEjHmSIIhpXZuZRZWRQvbtfqeKE2vHHN8fFVP9zCnm8QGxGy7qtDR9bP2M69lcpm5W7eSmfWrKt4SAOXsqCiEUa1_VwEaNpu4Ghk9R27MaXJuJWUK4foi2fU3M6P8FroGcz3UzrKgrmIE3_UtLFTDQ5DlbVW19rZvC4Pe9M9CfwIuSIx6D6XD6gGDKsgociXZlDx9jrPSwXt2TebsLbxa-naJYcIxW2dAzQ9fYTiITbrs6ELRQth3G5_Oh-3QAjIQx5p4IjG55oOxY0SMtDAvPFbOeaMF0pEQiXSaw2_r6lN1vCqsV6iy_A54VA.jpg",
+      "companion_text_id": 93205
     },
     {
       "post_url": "https://t.me/mon1tor_ua/66939",
@@ -203,12 +209,6 @@
       "ts": "2026-05-23T11:02:02+00:00"
     },
     {
-      "post_url": "https://t.me/mon1tor_ua/66918",
-      "post_id": 66918,
-      "channel": "mon1tor_ua",
-      "ts": "2026-05-23T10:54:29+00:00"
-    },
-    {
       "post_url": "https://t.me/ukr_leaks_eng/30379",
       "post_id": 30379,
       "channel": "ukr_leaks_eng",
@@ -222,115 +222,126 @@
     }
   ],
   "post_images": {
-    "eRadarrua/93217": "data/media/eRadarrua_93217.jpg",
-    "eRadarrua/93218": "data/media/eRadarrua_93217.jpg",
     "eRadarrua/93225": "data/media/eRadarrua_93225.jpg",
     "eRadarrua/93224": "data/media/eRadarrua_93225.jpg",
     "eRadarrua/93226": "data/media/eRadarrua_93226.jpg",
     "eRadarrua/93227": "data/media/eRadarrua_93227.jpg",
     "eRadarrua/93229": "data/media/eRadarrua_93229.jpg",
     "eRadarrua/93228": "data/media/eRadarrua_93229.jpg",
+    "eRadarrua/93204": "data/media/eRadarrua_93204.jpg",
+    "eRadarrua/93205": "data/media/eRadarrua_93204.jpg",
     "kpszsu/62474": "data/media/kpszsu_62474.jpg",
     "kpszsu/62475": "data/media/kpszsu_62474.jpg"
   },
-  "summary": "Ukrainian forces struck multiple high‑value Russian logistics sites, including the Sheshharysh oil terminal, the Grousova refinery, and a shadow‑fleet tanker, while Russia reportedly prepares a new “Orjeshnik” missile strike. Drone activity remains intense across all fronts, with numerous Shahed attacks on Kyiv, Kharkiv, and southern regions. Both sides continue to exchange artillery and UAV strikes, keeping the conflict at a high operational tempo.",
+  "summary": "Russian forces intensified missile and UAV activity targeting Kyiv and frontline regions, while Ukrainian attacks struck oil infrastructure in Novorossisk and multiple oil‑gas facilities in Kharkiv and Poltava. Heavy casualties were reported after a Ukrainian strike on a college in Starobelsk, LNR, with 18 dead. Both sides continue to mobilize air defenses and prepare for potential large‑scale combined strikes.",
   "key_points": [
-    "Ukrainian drones hit the Sheshharysh oil terminal (75 Mt/yr capacity) and Grousova refinery, igniting fires and disrupting Russian fuel supply (Source: @UkraineNow/81403).",
-    "President Zelensky warned of possible Russian \"Orjeshnik\" missile attacks, citing intelligence from US and European partners (Source: @UkraineNow/81406).",
-    "Multiple Shahed attacks reported: 24 Shaheds from Kharkiv/Dnipropetrovsk to Poltava, 5 Shaheds from Kherson toward Mykolaiv, and 2 Shaheds over Kyiv region (Source: @mon1tor_ua/66945).",
-    "Russian Tu‑95MS bombers (at least four) launched from Olenya airfield, indicating renewed strategic bomber operations (Source: @mon1tor_ua/66955).",
-    "Ukrainian UAV groups operating from Kherson, Donetsk, and Zaporizhzhia targeting Mykolaiv, Kharkiv, and Sumy directions (Source: @kpszsu/62522).",
-    "Russian forces attacked a college in Starobelsk, LNR, killing 21 civilians, prompting a Kremlin‑ordered counter‑strike (Source: @tass_agency/377250).",
-    "Ukrainian drones struck a Russian chemical plant “Metafrax Chemicals” near Perm, halting production of aerospace and missile components (Source: @UkraineNow/81400).",
-    "Ukrainian forces reported a successful strike on a shadow‑fleet tanker CHRYSALIS in the Black Sea (Source: @UkraineNow/81403)."
+    "Two Iskander‑M ballistic missiles launched from Bryansk region toward Kyiv, prompting air‑raid alerts (Source: @mon1tor_ua/66978).",
+    "Ukrainian UAV swarm attacked Novorossisk oil terminal \"Gryushovaya\", igniting fires at a major Caucasus oil depot (Source: @UkraineNow/81392).",
+    "Russian strike on Starobelsk college killed 18 civilians, with LNR authorities listing 17 dead and 43 wounded (Source: @tass_agency/377219).",
+    "Ukrainian forces reported using three Kinzhal aero‑ballistic missiles against Khmelnytskyi region targets (Source: @eRadarrua/93240).",
+    "Massive Russian attacks on oil‑gas facilities in Kharkiv and Poltava regions caused severe equipment damage and large fires, personnel evacuated (Source: @UkraineNow/81405).",
+    "Ukrainian drone attacks on the Russian‑occupied port of Novorossisk and on the oil terminal in the Black Sea region increased pressure on Russian logistics (Source: @UkraineNow/81392).",
+    "Ukrainian intelligence warned of a possible combined strike on Kyiv involving the \"Oreshnik\" weapon system, prompting heightened civil defense (Source: @UkraineNow/81406).",
+    "Russian tactical aviation launched guided aviation bombs on Zaporizhzhia and Donetsk regions, indicating escalation of air‑strike intensity (Source: @kpszsu/62534)."
   ],
-  "sentiment": "escalating",
+  "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian UAV strikes crippled key Russian fuel infrastructure, hitting the Sheshharysh terminal and Grousova refinery, while Russia readies a possible \"Orjeshnik\" missile attack on Kyiv. Shahed missile barrages intensified across the north and south, with dozens targeting civilian and military sites. Strategic bomber activity resumed with Tu‑95MS launches, underscoring heightened Russian air operations.",
+    "executive_summary": "Two Iskander‑M missiles were launched from Bryansk toward Kyiv, heightening the threat to the capital. Ukrainian forces struck a major oil terminal in Novorossisk and multiple oil‑gas sites in Kharkiv and Poltava, causing extensive fires. A Ukrainian strike on a college in Starobelsk resulted in 18 civilian deaths, underscoring the conflict’s growing civilian toll.",
     "ukraine": {
       "points": [
-        "Ukrainian drones inflicted fires at the Sheshharysh oil terminal (capacity 75 Mt/yr) and the Grousova refinery, disrupting fuel flow to Russian forces (Source: @UkraineNow/81403).",
-        "A Ukrainian UAV strike halted production at the Metafrax Chemicals plant near Perm, a key supplier of aerospace and missile components for Russia (Source: @UkraineNow/81400).",
-        "Ukrainian forces reported a successful hit on the shadow‑fleet tanker CHRYSALIS in the Black Sea, reducing Russia's maritime logistics (Source: @UkraineNow/81403).",
-        "Multiple UAV groups from Kherson, Donetsk, and Zaporizhzhia moved toward Mykolaiv, Kharkiv, and Sumy, indicating coordinated deep‑strike capability (Source: @kpszsu/62522).",
-        "Ukrainian intelligence, corroborated by US/EU partners, warned of a potential Russian \"Orjeshnik\" missile strike, prompting heightened civil defense alerts (Source: @UkraineNow/81406)."
+        "Ukrainian UAVs attacked the Gryushovaya oil terminal in Novorossisk, igniting a fire at one of the largest Caucasus oil depots and disrupting Russian fuel logistics (Source: @UkraineNow/81392).",
+        "Ukrainian forces employed three Kinzhal aero‑ballistic missiles against targets in Khmelnytskyi region, indicating use of high‑speed precision weapons (Source: @eRadarrua/93240).",
+        "Ukrainian intelligence reported preparations for a combined strike on Kyiv involving the \"Oreshnik\" system, prompting heightened civil defense alerts (Source: @UkraineNow/81406).",
+        "Ukrainian drone attacks targeted oil‑gas facilities in Kharkiv and Poltava, causing severe equipment damage, large fires, and evacuation of personnel (Source: @UkraineNow/81405).",
+        "Ukrainian tactical aviation deployed guided aviation bombs on Zaporizhzhia and Donetsk regions, increasing air‑strike pressure on Russian‑held territories (Source: @kpszsu/62534).",
+        "Ukrainian forces reported a UAV group moving from Sumy toward Shostka, indicating continued reconnaissance and strike activity in the north (Source: @kpszsu/62537).",
+        "Ukrainian BPLA activity was observed over Kyiv, with multiple reports of ballistic missile interceptions and UAV flights near the capital (Source: @mon1tor_ua/67000, @mon1tor_ua/66997)."
       ]
     },
     "russia": {
       "points": [
-        "Russia prepared at least four Tu‑95MS strategic bombers for launch from Olenya airfield, signaling renewed long‑range bombing capability (Source: @mon1tor_ua/66955).",
-        "Russian forces conducted a strike on a college in Starobelsk, LNR, resulting in 21 civilian deaths, intensifying local hostilities (Source: @tass_agency/377250).",
-        "Russian air defenses engaged numerous Ukrainian UAVs across the front, with reports of downed drones in Kaluga, Rostov, and other regions (Source: @ukr_leaks_eng/30377).",
-        "Russian shadow‑fleet assets, including the frigate Admiral Essen and missile boat Novorossiysk, were reported damaged by Ukrainian drones (Source: @UkraineNow/81403).",
-        "Continued Russian artillery and missile fire on Ukrainian cities, including reported combined‑weapon attacks on Kyiv, kept civilian casualties high (Source: @UkraineNow/81406)."
+        "Two Iskander‑M ballistic missiles launched from Bryansk region toward Kyiv, triggering air‑raid warnings and potential civilian casualties (Source: @mon1tor_ua/66978).",
+        "Russian forces used three Kinzhal aero‑ballistic missiles against Khmelnytskyi region, demonstrating continued deployment of hypersonic weapons (Source: @eRadarrua/93240).",
+        "Russian tactical aviation conducted guided bomb strikes on Zaporizhzhia and Donetsk, aiming to degrade Ukrainian defensive positions (Source: @kpszsu/62534).",
+        "Russian naval vessel ZAID transported over 35,000 tonnes of seized Ukrainian grain from occupied Crimea to Turkish ports, highlighting ongoing economic warfare (Source: @UkraineNow/81397).",
+        "Russian forces reported a high‑threat alert for ballistic missile launches toward Kyiv, indicating preparation for further long‑range strikes (Source: @mon1tor_ua/66978).",
+        "Russian air defenses engaged multiple UAVs over Kyiv, reporting interceptions of ballistic missiles and Shahed drones (Source: @mon1tor_ua/67000, @mon1tor_ua/67014).",
+        "Russian media released footage of the aftermath of the Ukrainian strike on Starobelsk college, emphasizing civilian impact (Source: @tass_agency/377240)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAV groups from Donetsk moved toward Kharkiv and Dnipropetrovsk, targeting logistics nodes (Source: @kpszsu/62522).",
-        "Shahed missiles (7 units) crossed the Kharkiv‑Poltava border heading toward Sumy, threatening supply lines (Source: @mon1tor_ua/66945).",
-        "Ukrainian forces reported a UAV strike on a Russian B‑V aircraft in Poltava and Dnipropetrovsk regions during the night (Source: @ukr_leaks_eng/30377).",
-        "Russian assault aircraft advanced up to 800 m on multiple sectors of the Sumy front, indicating ongoing ground engagements (Source: @ukr_leaks_eng/30377).",
-        "Ukrainian UAVs reported over the Sumy area targeting Shostka from the north (Source: @kpszsu/62537)."
+        "Ukrainian UAVs reported over Sumy region heading toward Shostka, suggesting reconnaissance and potential strike preparation (Source: @kpszsu/62537).",
+        "Russian tactical bombings targeted Zaporizhzhia and Donetsk, intensifying the eastern front air campaign (Source: @kpszsu/62534).",
+        "Ukrainian forces claimed hits on Russian BVs in Poltava and Dnipropetrovsk regions during night operations (Source: @ukr_leaks_eng/30377).",
+        "Russian assault aircraft advanced up to 800 m on multiple sectors of the Sumy front, indicating localized ground pressure (Source: @ukr_leaks_eng/30377).",
+        "Ukrainian UAV activity observed near Kharkiv, with attacks on oil‑gas infrastructure causing significant damage (Source: @UkraineNow/81405).",
+        "Russian forces reported continued artillery and missile strikes on the Starobelsk college area, resulting in high civilian casualties (Source: @tass_agency/377219).",
+        "Ukrainian BPLA flights reported over Kharkiv region, supporting attacks on energy facilities (Source: @UkraineNow/81405)."
       ]
     },
     "northern_front": {
       "points": [
-        "Two Shahed missiles (Bandar‑L/ Geranium‑5) flew from Chernihiv to Kyiv region (Vyshhorod and Brovary districts) (Source: @mon1tor_ua/66945).",
-        "Additional Shahed attacks (2 units) over Kyiv region prompted civil defense alerts (Source: @UkraineNow/81406).",
-        "Ukrainian UAVs reported near Chernihiv (Makoshyne) traveling at >650 km/h, likely Geranium‑5 type (Source: @eRadarrua/93223).",
-        "Russian air defenses downed UAVs over Kaluga districts Maloyaroslavets, Borovsk, and Tarus (Source: @ukr_leaks_eng/30377).",
-        "Ukrainian UAV group from Kherson attempted to cross into Mykolaiv but was intercepted, indicating strong northern air defense (Source: @eRadarrua/93214)."
+        "Ukrainian UAVs observed moving from Chernihiv region past the Desna River toward Kyiv, indicating north‑south reconnaissance routes (Source: @kpszsu/62568).",
+        "Russian Iskander‑M missiles launched from Bryansk toward Kyiv, crossing the northern front and threatening the capital (Source: @mon1tor_ua/66978).",
+        "Ukrainian BPLA reported near Kyiv, with multiple ballistic missile interceptions reported (Source: @mon1tor_ua/67000).",
+        "Russian tactical aviation conducted guided bomb strikes in the north, though specific targets were not disclosed (Source: @kpszsu/62534).",
+        "Ukrainian UAV group observed over Sumy heading toward Shostka, suggesting north‑eastern pressure (Source: @kpszsu/62537).",
+        "Russian forces reported increased air‑defense activity over Kyiv, intercepting Shahed drones from the north (Source: @mon1tor_ua/67014).",
+        "Ukrainian intelligence warned of a potential combined strike on Kyiv, heightening northern alert levels (Source: @UkraineNow/81406)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian drones ignited fires at the Grousova oil terminal in Novorossiysk, a major Black Sea fuel hub (Source: @UkraineNow/81403).",
-        "Shahed missiles (5 units) from Kherson headed toward Mykolaiv, increasing pressure on southern logistics (Source: @mon1tor_ua/66945).",
-        "Ukrainian UAVs struck a shadow‑fleet tanker CHRYSALIS in the Black Sea, reducing Russian maritime capability (Source: @UkraineNow/81403).",
-        "Russian attacks damaged 8 staff buses at the ZAES transport workshop in Enerhodar, showing continued targeting of energy infrastructure (Source: @tass_agency/377230).",
-        "Ukrainian forces reported UAV attacks on the Grousova oil terminal, a 1.2 Mt storage facility, causing significant fire damage (Source: @UkraineNow/81392)."
+        "Ukrainian drones attacked oil‑gas facilities in Kharkiv and Poltava, causing major fires and equipment damage (Source: @UkraineNow/81405).",
+        "Russian naval vessel ZAID moved seized Ukrainian grain from occupied Crimea to Turkish ports, affecting southern logistics (Source: @UkraineNow/81397).",
+        "Ukrainian UAV activity reported over the southern Poltava region heading toward Kremenchuk, indicating strike preparation (Source: @kpszsu/62540).",
+        "Russian tactical bombings targeted Zaporizhzhia, a key southern industrial area, with guided aviation bombs (Source: @kpszsu/62534).",
+        "Ukrainian forces reported hits on Russian BVs in the Dnipropetrovsk region, affecting southern supply lines (Source: @ukr_leaks_eng/30377).",
+        "Russian air defenses engaged multiple Shahed drones over southern fronts, including Kharkiv (Source: @mon1tor_ua/67014).",
+        "Ukrainian UAVs observed near the Black Sea oil terminal in Novorossisk, threatening southern maritime infrastructure (Source: @UkraineNow/81392)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian UAVs successfully hit multiple high‑value Russian naval assets, including frigate Admiral Essen and missile boat Novorossiysk (Source: @UkraineNow/81403).",
-        "Russian Tu‑95MS strategic bombers launched from Olenya, indicating renewed long‑range strike capability (Source: @mon1tor_ua/66955).",
-        "Ukrainian drones downed Russian B‑V aircraft in Poltava and Dnipropetrovsk regions during night operations (Source: @ukr_leaks_eng/30377).",
-        "Russian air defenses shot down UAVs over Kaluga, Rostov, and other regions, reflecting high‑intensity air contest (Source: @ukr_leaks_eng/30377).",
-        "Ukrainian UAV groups operated from multiple occupied territories, targeting logistics hubs across the front lines (Source: @kpszsu/62522)."
+        "Two Iskander‑M ballistic missiles launched from Bryansk toward Kyiv, testing Ukrainian air‑defense capabilities (Source: @mon1tor_ua/66978).",
+        "Ukrainian UAV swarm attacked the Gryushovaya oil terminal in Novorossisk, causing a major fire and disrupting Russian fuel supplies (Source: @UkraineNow/81392).",
+        "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia and Donetsk, intensifying the aerial strike campaign (Source: @kpszsu/62534).",
+        "Ukrainian forces used three Kinzhal aero‑ballistic missiles against Khmelnytskyi targets, demonstrating high‑speed strike capability (Source: @eRadarrua/93240).",
+        "Multiple Shahed drone incursions reported over Kyiv and Kharkiv, with Ukrainian air defenses intercepting several (Source: @mon1tor_ua/67014, @mon1tor_ua/67000).",
+        "Ukrainian UAVs observed over Sumy and Chernihiv regions, supporting reconnaissance and strike missions (Source: @kpszsu/62568, @kpszsu/62537).",
+        "Russian air defenses engaged UAVs over the southern front, defending oil‑gas facilities in Kharkiv (Source: @mon1tor_ua/67014)."
       ]
     },
     "key_developments": [
-      "Ukrainian drones ignited fires at the Sheshharysh oil terminal (75 Mt/yr capacity) and Grousova refinery, disrupting Russian fuel logistics (Source: @UkraineNow/81403).",
-      "President Zelensky warned of a possible Russian \"Orjeshnik\" missile strike on Kyiv, based on US/EU intelligence (Source: @UkraineNow/81406).",
-      "Russian Tu‑95MS strategic bombers (minimum four) launched from Olenya, indicating renewed long‑range bombing capability (Source: @mon1tor_ua/66955).",
-      "Shahed missile barrages intensified: 24 Shaheds from Kharkiv/Dnipropetrovsk to Poltava, 5 from Kherson to Mykolaiv, and multiple attacks over Kyiv (Source: @mon1tor_ua/66945).",
-      "Ukrainian UAVs struck the shadow‑fleet tanker CHRYSALIS in the Black Sea, reducing Russian maritime logistics (Source: @UkraineNow/81403).",
-      "Russian attack on a college in Starobelsk, LNR killed 21 civilians, prompting a Kremlin counter‑strike (Source: @tass_agency/377250).",
-      "Ukrainian drones halted production at the Metafrax Chemicals plant near Perm, a key supplier of aerospace and missile components for Russia (Source: @UkraineNow/81400)."
+      "Two Iskander‑M ballistic missiles were launched from Bryansk region toward Kyiv, prompting air‑raid alerts and testing Ukrainian air defenses (Source: @mon1tor_ua/66978).",
+      "Ukrainian UAV swarm struck the Gryushovaya oil terminal in Novorossisk, igniting a fire at a major Caucasus oil depot and disrupting Russian fuel logistics (Source: @UkraineNow/81392).",
+      "A Ukrainian strike on the Starobelsk college in LNR killed 18 civilians, with LNR authorities confirming 17 dead and 43 wounded (Source: @tass_agency/377219).",
+      "Russian forces employed three Kinzhal aero‑ballistic missiles against targets in Khmelnytskyi region, indicating continued use of hypersonic weapons (Source: @eRadarrua/93240).",
+      "Massive Russian attacks on oil‑gas facilities in Kharkiv and Poltava caused severe equipment damage, large fires, and forced personnel evacuations (Source: @UkraineNow/81405).",
+      "Ukrainian intelligence warned of a possible combined strike on Kyiv involving the \"Oreshnik\" weapon system, leading to heightened civil defense measures (Source: @UkraineNow/81406).",
+      "Russian tactical aviation launched guided aviation bombs on Zaporizhzhia and Donetsk, escalating the air‑strike intensity on Ukrainian‑held territories (Source: @kpszsu/62534)."
     ],
-    "threat_assessment": "Russian preparations for a novel \"Orjeshnik\" missile strike, combined with renewed Tu‑95MS bomber sorties, suggest an escalation toward long‑range precision attacks on Ukrainian urban centers. Ukraine's aggressive UAV campaign continues to degrade Russian logistics, especially fuel and maritime assets, but the high volume of Shahed missiles threatens both military and civilian infrastructure across the north and south. Both sides are sustaining high operational tempos, increasing the risk of broader escalation and civilian casualties.",
-    "regional_response": "Western partners have intensified intelligence sharing, as evidenced by Zelensky's citation of US/EU data on the \"Orjeshnik\" threat, while also supporting Ukraine's air defense upgrades. Russia, facing mounting logistical losses, appears to rely on strategic bombers and missile strikes to compensate, maintaining pressure on critical Ukrainian infrastructure. Local authorities in Kyiv and southern regions have heightened civil defense alerts, reflecting the growing threat to civilian populations.",
-    "intelligence_notes": "Continued monitoring of Shahed launch sites in Chernihiv, Kharkiv, and Kherson is essential, given their frequent cross‑border trajectories. UAV activity from occupied territories indicates a coordinated command structure capable of deep strikes; SIGINT should focus on command‑and‑control nodes in Donetsk and Zaporizhzhia. The reported Russian bomber deployments from Olenya warrant satellite surveillance to assess sortie rates and potential target lists."
+    "threat_assessment": "Russian long‑range missile launches and hypersonic strikes demonstrate a sustained capability to threaten Kyiv and key infrastructure, while Ukrainian UAV and missile operations are targeting critical Russian logistics and energy assets. The high‑profile civilian casualties in Starobelsk may fuel further retaliatory actions. Both sides are escalating air‑defense engagements, indicating a near‑term increase in aerial combat intensity.",
+    "regional_response": "Ukraine is reinforcing air‑defense networks around Kyiv and mobilizing civil protection, while seeking additional NATO support for missile interception. Russia is intensifying its missile launch posture from western regions and employing guided bombs to pressure Ukrainian frontlines. International observers note the risk of broader escalation as both parties target economic and energy infrastructure.",
+    "intelligence_notes": "UAV flight paths suggest coordinated reconnaissance over northern and eastern approaches to Kyiv, possibly preceding larger strike waves. The use of Kinzhal missiles by Ukraine indicates access to advanced weaponry, likely supplied by Western partners. Russian grain shipments via the ZAID vessel highlight ongoing economic warfare and attempts to circumvent sanctions."
   },
   "missiles": 0,
   "drones": 124,
   "kpszsu_timeline": [
     1,
     1,
-    1,
-    1,
     2,
+    1,
     0,
     1,
     3,
     5,
     3,
-    3,
-    3,
-    1,
+    5,
+    2,
+    0,
     1,
     2,
     0,
@@ -339,8 +350,9 @@
     1,
     2,
     3,
-    9,
-    13,
-    5
+    10,
+    11,
+    7,
+    7
   ]
 }
