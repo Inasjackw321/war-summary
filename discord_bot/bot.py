@@ -173,6 +173,22 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
             total += len(line) + 1
         embed.add_field(name="Key Developments", value="\n".join(lines), inline=False)
 
+    # Conflict-specific stats
+    if conflict == "middle_east":
+        alerts = data.get("red_alerts")
+        if alerts is not None:
+            embed.add_field(name="🚨 Red Alerts (Israel)", value=str(alerts), inline=True)
+    elif conflict == "ukraine":
+        missiles = data.get("missiles")
+        drones   = data.get("drones")
+        stats = []
+        if missiles is not None:
+            stats.append(f"🚀 **{missiles}** missiles")
+        if drones is not None:
+            stats.append(f"🛸 **{drones}** drones")
+        if stats:
+            embed.add_field(name="Russian Launches (24h)", value="\n".join(stats), inline=True)
+
     n = len(data.get("channels") or [])
     embed.set_footer(text=f"{n} channels monitored  ·  AI-generated  ·  Verify before sharing")
     return embed
