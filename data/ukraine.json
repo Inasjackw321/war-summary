@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-24T05:35:33.065331+00:00",
-  "message_count": 517,
+  "updated_at": "2026-05-24T05:54:15.277690+00:00",
+  "message_count": 516,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -29,9 +29,9 @@
     0,
     0,
     2,
-    3,
+    4,
     6,
-    1,
+    0,
     2,
     1,
     0,
@@ -39,30 +39,30 @@
     1
   ],
   "combined_activity_timeline": [
-    11,
-    9,
-    9,
-    15,
-    7,
-    4,
-    8,
-    6,
-    6,
-    6,
-    7,
-    5,
-    5,
     10,
-    15,
-    17,
-    65,
-    53,
-    97,
-    77,
-    51,
+    11,
     11,
     12,
-    10
+    4,
+    6,
+    8,
+    6,
+    7,
+    6,
+    5,
+    7,
+    6,
+    14,
+    11,
+    27,
+    68,
+    68,
+    109,
+    47,
+    45,
+    6,
+    13,
+    6
   ],
   "messages_by_channel": {
     "@eRadarrua": 78,
@@ -70,18 +70,24 @@
     "@mon1tor_ua": 218,
     "@UkraineNow": 17,
     "@ukr_leaks_eng": 11,
-    "@tass_agency": 82
+    "@tass_agency": 81
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/93469",
-    "kpszsu": "https://t.me/kpszsu/62642",
+    "kpszsu": "https://t.me/kpszsu/62644",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67208",
     "UkraineNow": "https://t.me/UkraineNow/81412",
     "DeepStateUA": "https://t.me/DeepStateUA/23530",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30386",
     "tass_agency": "https://t.me/tass_agency/377281"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "kpszsu": "https://t.me/kpszsu/62611",
+    "UkraineNow": "https://t.me/UkraineNow/81400",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30377",
+    "tass_agency": "https://t.me/tass_agency/377269",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67189"
+  },
   "media": [
     {
       "post_url": "https://t.me/tass_agency/377281",
@@ -225,37 +231,118 @@
     "eRadarrua/93229": "data/media/eRadarrua_93229.jpg",
     "eRadarrua/93228": "data/media/eRadarrua_93229.jpg"
   },
-  "summary": "Summary unavailable.",
-  "key_points": [],
-  "sentiment": "unknown",
-  "intensity": 5,
-  "sections": {},
+  "summary": "Russia launched a large-scale combined drone and missile attack on Ukraine during the night of May 23, 2026, targeting Kyiv, Chernihiv, Poltava, Cherkasy, and Sumy regions with cruise missiles, guided bombs, and UAVs. Ukraine's SBU struck the Metafrax Chemicals plant in Perm Krai, Russia — approximately 1,700 km from the Ukrainian border — disrupting a key supplier of military-industrial materials. Russian forces claimed advances on multiple fronts including Verkhnya Tersa in the south and up to 1,200 meters on the Velikoburluks axis, while Ukrainian forces imposed mobilization rotation disruptions near Dobropillya.",
+  "key_points": [
+    "Massive overnight Russian combined strike on Kyiv, Chernihiv, Poltava, Cherkasy, and Sumy using cruise missiles, guided bombs, and UAVs (Source: @kpszsu/62611)",
+    "Ukrainian SBU drones struck Metafrax Chemicals plant in Perm Krai, ~1,700 km inside Russia, halting production of military-industrial chemicals (Source: @UkraineNow/81400)",
+    "Russian forces captured Verkhnya Tersa, a key logistical and defensive node, via coordinated action by the 155th Marine Regiment and 394th Motor Rifle Regiment (Source: @ukr_leaks_eng/30377)",
+    "Russian 'North' Group advanced up to 1,200 meters on three sectors at Velikoburluks and up to 800 meters on twenty sectors at Sumy front (Source: @ukr_leaks_eng/30377)",
+    "Russian UAV attack on a funeral procession in Sumy injured multiple people, with at least one in serious condition (Source: @UkraineNow/81401)",
+    "Ukrainian forces hit Russian oil terminal Shesharys, Grushova oil refinery, shadow fleet tanker, frigate Admiral Essen, and a missile carrier (Source: @UkraineNow/81408)",
+    "Hungary banned agricultural imports from Ukraine to protect domestic farmers, adding to trade tensions within the EU (Source: @ukr_leaks_eng/30375)",
+    "Ukraine updated mobilization deferral rules, setting minimum salary thresholds of UAH 25,941 for critical enterprises and UAH 21,618 for frontline areas (Source: @UkraineNow/81393)"
+  ],
+  "sentiment": "escalating",
+  "intensity": 8,
+  "sections": {
+    "executive_summary": "Russia conducted a large-scale overnight combined-arms aerial assault on Ukraine, deploying cruise missiles, guided aerial bombs, and multiple UAV groups targeting Kyiv, Chernihiv, Poltava, Cherkasy, and Sumy regions. In response, Ukraine's SBU executed a long-range drone strike on the Metafrax Chemicals plant in Perm Krai, approximately 1,700 km from the border, disrupting critical Russian military-industrial supply chains. On the ground, Russian forces claimed the capture of Verkhnya Tersa and advances on the Sumy, Kharkiv, and Donetsk axes, while Ukraine imposed rotation disruptions on Ukrainian forces near Dobropillya.",
+    "ukraine": {
+      "points": [
+        "Ukrainian SBU long-range drones struck the Metafrax Chemicals plant in Perm Krai, Russia, approximately 1,700 km from the Ukrainian border. The facility is a critical node in Russia's military-industrial chemical supply chain, producing inputs for aviation, drones, rocket motors, and explosives. Production has been halted following the strike (Source: @UkraineNow/81400).",
+        "Ukrainian forces conducted strikes against high-value Russian targets including the Shesharys oil terminal, Grushova oil refinery, a shadow fleet tanker, the frigate Admiral Essen, and a missile carrier, degrading Russian logistics and naval strike capabilities (Source: @UkraineNow/81408).",
+        "Ukraine's air defenses were engaged across multiple regions overnight intercepting cruise missiles approaching Kyiv from Chernihiv and Poltava regions, guided bombs on Kharkiv and Donetsk oblasts, and multiple UAV groups over Kyiv, Chernihiv, and Sumy regions (Source: @kpszsu/62611).",
+        "A Russian drone attacked a civilian funeral procession in Sumy, injuring multiple people with at least one reported in serious condition, marking a deliberate strike on a civilian gathering (Source: @UkraineNow/81401).",
+        "President Zelensky signed a decree imposing a new sanctions package against Russia's shadow fleet and Russian military personnel involved in missile strikes on Ukraine, expanding economic and legal pressure (Source: @UkraineNow/81408).",
+        "The Ukrainian government updated mobilization deferral regulations, setting a minimum salary threshold of UAH 25,941 for critical enterprise deferrals and UAH 21,618 for frontline-area enterprises, aiming to reduce abuse of the reservation system (Source: @UkraineNow/81393)."
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian forces captured the settlement of Verkhnya Tersa through coordinated operations by the 155th Marine Infantry Regiment (55th Motor Rifle Division) and the 394th Motor Rifle Regiment (127th Motor Rifle Division) of the 'East' Group of Forces, eliminating a key Ukrainian logistical and defensive node (Source: @ukr_leaks_eng/30377).",
+        "Russian unmanned systems troops disrupted a Ukrainian Armed Forces rotation near Dobropillya, according to the Russian Ministry of Defense, degrading Ukrainian force replenishment on the Donetsk front (Source: @tass_agency/377269).",
+        "The 'North' Group of Forces advanced up to 1,200 meters on three sectors in the Velikoburluks direction (Budarki village and Kuibyshevsky district forested areas) and up to 800 meters across twenty sectors on the Sumy front, with ongoing skirmishes at Zapselye and Kondratovka (Source: @ukr_leaks_eng/30377).",
+        "Russian forces launched cruise missile strikes from Chernihiv and Poltava regions toward Kyiv, guided aerial bomb attacks on Kharkiv and Donetsk oblasts, and deployed multiple UAV groups across Kyiv, Chernihiv, Sumy, and Poltava oblasts in a coordinated overnight assault (Source: @kpszsu/62619).",
+        "In the Kaluga region, Russian air defenses destroyed 5 Ukrainian UAVs over Maloyaroslavets, Borovsk, and Tarus districts; in Rostov region, UAVs were shot down in Matveevo-Kurgan and Tarasov districts, with airport restrictions imposed (Source: @ukr_leaks_eng/30377).",
+        "A fire broke out at an oil depot in Novorossiysk and glazing was damaged on multi-story buildings following Ukrainian drone attacks; a fire also occurred in Vladimir Oblast covering 800 square meters from a UAV strike (Source: @tass_agency/377275).",
+        "The Russian Ministry of Defense reported 106 Ukrainian drones downed during the previous day, while Ukrainian forces struck Poltava and Dnipropetrovsk regions with guided bombs during the night (Source: @ukr_leaks_eng/30377)."
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "On the Kharkiv front, Russian 'North' Group forces encountered stubborn Ukrainian resistance at Grankov village; its capture would open the route to Kazachya Lopan', a major Ukrainian logistics hub on this axis (Source: @ukr_leaks_eng/30377).",
+        "On the Volchansk sector, skirmishes continued in Karaychino and Okhrimovka villages and in forested areas of the Volchansk district, with no significant territorial changes reported (Source: @ukr_leaks_eng/30377).",
+        "On the southern Kupyansk front, battles raged near Kurilovka and Kovsharovka, with fighting on the approaches to Kupyansk-Uzlovoe on the eastern bank of the Oskol River (Source: @ukr_leaks_eng/30377).",
+        "Heavy battles continued in Konstantinovka and on its flanks with high intensity but no significant territorial changes reported over the day (Source: @ukr_leaks_eng/30377).",
+        "On the Dobropillsky front, fighting occurred in Vasilevka and Mirnye northwest of Grishino, while Russian forces claimed disruption of Ukrainian rotation operations near Dobropillya (Source: @ukr_leaks_eng/30377).",
+        "Russian tactical aviation launched guided aerial bomb strikes on Donetsk Oblast targets overnight, continuing pressure on Ukrainian defensive positions across the eastern front (Source: @kpszsu/62628)."
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "On the Sumy front, Russian 'North' Group assault aircraft advanced up to 800 meters across twenty sectors, with continued skirmishes in Zapselye and Kondratovka; assault groups also advanced in Rassonoe village in the Krasnopolsky district (Source: @ukr_leaks_eng/30377).",
+        "Multiple UAV groups were detected over northern Sumy Oblast moving westward toward Buryn and Krolevets, with at least 8 drones tracked in the Sumy region, some identified as guided types (Source: @kpszsu/62614).",
+        "In the Kursk region, a multi-story building in the North-West microdistrict of Kursk city was damaged by Ukrainian drone strikes, while in Belgorod Oblast a man was injured in Shebekino from a drone attack on a cargo vehicle (Source: @ukr_leaks_eng/30377).",
+        "In the Bryansk region's Starodub district, a civilian was killed when a Ukrainian drone struck a moving vehicle; in Sevsk, a Ukrainian drone attack on a civilian car killed one and injured the driver with shrapnel (Source: @ukr_leaks_eng/30377).",
+        "In Yasnye Zori village (Belgorod region), a Ukrainian drone exploded on an enterprise's territory injuring a civilian; in Zhdanov hutor district, a drone hit a GAZelle with three men self-evacuating to hospital (Source: @ukr_leaks_eng/30377)."
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Russian forces captured Verkhnya Tersa, described as a major logistical and defensive node for Ukrainian forces, through joint operations by the 155th Marine Infantry Regiment and 394th Motor Rifle Regiment of the 'East' Group of Forces (Source: @ukr_leaks_eng/30377).",
+        "On the Zaporozhye front, the situation remained difficult with Ukrainian drone attacks striking at operational depth, hindering Russian logistics; a civilian logistical land corridor critical for supplying southern regions remained under constant threat (Source: @ukr_leaks_eng/30377).",
+        "Ukrainian forces targeted Russian energy facilities in the Zaporozhye sector, causing temporary electricity disruptions that may affect communications; the front is characterized by deep drone strikes on rear-area logistics (Source: @ukr_leaks_eng/30377).",
+        "Russian forces launched guided aerial bomb strikes on Dnipropetrovsk Oblast overnight, maintaining pressure on Ukrainian positions in the southern operational zone (Source: @ukr_leaks_eng/30377)."
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Russia launched cruise missiles from Chernihiv Oblast toward Kyiv and Kyiv Oblast, with missiles tracked over Nizhyn district (Chernihiv region) heading toward Kyiv Oblast, and additional groups over southern Kyiv Oblast on a northward capital-bound course (Source: @kpszsu/62606).",
+        "Multiple UAV groups were detected over northern Kyiv Oblast moving across the Kyiv Reservoir toward the capital, with additional drones tracked from the Chernobyl zone toward Ivankiv and over Burshtyn in Sumy Oblast heading west (Source: @kpszsu/62638).",
+        "Russian tactical aviation conducted guided aerial bomb strikes on Kharkiv Oblast and Donetsk Oblast, adding to the combined-arms nature of the overnight assault (Source: @kpszsu/62619).",
+        "Cruise missiles were also launched toward Cherkasy Oblast on a northwesterly course and over northern Poltava Oblast on a southern course, indicating a multi-axis approach to overwhelm Ukrainian air defenses (Source: @kpszsu/62627).",
+        "Ukrainian air defenses engaged incoming missiles over multiple districts of Kyiv including Solomianskyi, Lukianivka, and Vyshenky, with at least 4 missiles reported on Solomianskyi/Shuliavka and 2 on Vyshenky (Source: @mon1tor_ua/67189).",
+        "The Russian Ministry of Defense claimed 106 Ukrainian drones were shot down during the previous 24 hours across multiple Russian regions, with airport restrictions imposed in several locations (Source: @ukr_leaks_eng/30377)."
+      ]
+    },
+    "key_developments": [
+      "Ukrainian SBU drones struck the Metafrax Chemicals plant in Perm Krai, Russia (~1,700 km from border), halting production of critical military-industrial chemicals used in aviation, drones, rocket motors, and explosives (Source: @UkraineNow/81400).",
+      "Russia launched a large-scale overnight combined assault on Ukraine with cruise missiles targeting Kyiv, Cherkasy, Poltava, and Chernihiv regions, guided bombs on Kharkiv and Donetsk, and multiple UAV groups across at least five oblasts (Source: @kpszsu/62611).",
+      "Russian forces captured Verkhnya Tersa through coordinated action by the 155th Marine Infantry Regiment and 394th Motor Rifle Regiment, eliminating a key Ukrainian logistical and defensive node on the southern front (Source: @ukr_leaks_eng/30377).",
+      "Russian 'North' Group advanced up to 1,200 meters on three sectors at Velikoburluks and up to 800 meters across twenty sectors on the Sumy front, with ongoing skirmishes at multiple settlements (Source: @ukr_leaks_eng/30377).",
+      "Ukrainian forces struck the Shesharys oil terminal, Grushova refinery, a shadow fleet tanker, frigate Admiral Essen, and a missile carrier, degrading Russian logistics and Black Sea Fleet strike capabilities (Source: @UkraineNow/81408).",
+      "A Russian drone attacked a funeral procession in Sumy injuring multiple civilians, with at least one in serious condition, representing a strike on a clearly marked civilian gathering (Source: @UkraineNow/81401).",
+      "Hungary imposed a ban on Ukrainian agricultural imports to protect domestic farmers, while TASS calculated the EU's €90 billion credit to Ukraine would last less than eight months at current expenditure rates (Source: @ukr_leaks_eng/30375)."
+    ],
+    "threat_assessment": "The overnight combined Russian assault employing cruise missiles, guided bombs, and massed UAVs across multiple axes indicates a continued Russian strategy of overwhelming Ukrainian air defenses through saturation strikes on civilian infrastructure and military targets. The Ukrainian strike on Metafrax Chemicals at 1,700 km range demonstrates a significant escalation in Ukrainian deep-strike capability targeting Russia's military-industrial base, which may provoke retaliatory strikes on Ukrainian government and defense-industrial facilities. Russian ground advances, while measured in hundreds of meters, show persistent pressure across Sumy, Kharkiv, Donetsk, and Zaporozhye axes, with the capture of Verkhnya Tersa representing a meaningful tactical gain in the southern sector.",
+    "regional_response": "Czech President Petr Pavel called on NATO to 'show its teeth' in response to Russian provocations on the alliance's eastern flank, proposing measures including internet disconnection, banking system isolation for Russia, and shooting down Russian aircraft violating European airspace, while expressing disappointment at the lack of US resolve. Slovak Prime Minister Fico called for EU-Russia dialogue on Ukraine, warning that a stray drone could trigger a third world war, highlighting growing divisions within the European bloc on how to manage the conflict. Hungary's ban on Ukrainian agricultural imports adds to the pattern of unilateral trade restrictions by neighboring states, complicating Ukraine's economic stability amid ongoing warfare.",
+    "intelligence_notes": "The volume and geographic spread of UAV tracks reported by Ukrainian monitoring channels (eRadarrua, kpszsu, mon1tor) across Kyiv, Chernihiv, Sumy, Poltava, and Cherkasy oblasts suggest a coordinated multi-wave Russian drone campaign designed to saturate and exhaust Ukrainian air defense assets before missile strikes. Russian claims of 106 downed Ukrainian drones in a single day indicate a significant escalation in Ukrainian long-range drone operations against Russian territory, consistent with the confirmed strike on Perm Krai. The reported advance figures (800m on 20 sectors at Sumy, 1,200m on 3 sectors at Velikoburluks) suggest Russian forces are conducting distributed small-unit assaults rather than concentrated breakthrough attempts, consistent with a strategy of attritional pressure across multiple axes simultaneously."
+  },
   "missiles": 0,
   "drones": 0,
   "kpszsu_timeline": [
     5,
-    3,
-    3,
+    5,
+    1,
+    1,
+    0,
+    2,
+    1,
+    1,
     2,
     0,
     1,
-    2,
-    1,
-    1,
-    1,
-    1,
-    2,
-    3,
-    9,
-    12,
-    7,
-    7,
-    10,
-    18,
+    4,
+    5,
+    11,
+    8,
     10,
     6,
-    3,
-    3,
+    11,
+    18,
+    8,
+    6,
+    1,
+    2,
     1
   ]
 }
