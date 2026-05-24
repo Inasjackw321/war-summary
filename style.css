@@ -1308,32 +1308,64 @@ body {
 .stat-card--pulsing { animation: alert-pulse 2.8s ease-in-out infinite; }
 
 /* ── Threat level bar ── */
+@keyframes threat-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 currentColor; opacity: 1; }
+  50%       { box-shadow: 0 0 6px 2px currentColor; opacity: 0.85; }
+}
 .threat-level-bar-wrap {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 6px 0 10px;
+  padding: 6px 0 4px;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 2px;
+  margin-bottom: 0;
 }
 .threat-level-bar {
   flex: 1;
-  height: 3px;
-  background: rgba(255,255,255,0.06);
+  height: 5px;
+  background: rgba(255,255,255,0.05);
   border-radius: 99px;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
 }
+.threat-level-ticks {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  pointer-events: none;
+}
+.threat-level-ticks span {
+  flex: 1;
+  border-right: 1px solid rgba(255,255,255,0.07);
+}
+.threat-level-ticks span:last-child { border-right: none; }
 .threat-level-fill {
   height: 100%;
   width: 0;
   border-radius: 99px;
-  transition: width 1s cubic-bezier(0.4,0,0.2,1), background 0.8s ease;
+  transition: width 1.2s cubic-bezier(0.4,0,0.2,1), background 0.8s ease, box-shadow 0.8s ease;
+  position: relative;
 }
-.threat-level-caption {
+.threat-level-fill[data-threat="escalating"],
+.threat-level-fill[data-threat="volatile"] {
+  animation: threat-pulse 2s ease-in-out infinite;
+}
+.threat-level-label {
   font-size: 9px;
   font-family: 'JetBrains Mono', monospace;
-  color: var(--muted);
+  font-weight: 700;
   letter-spacing: 0.1em;
   white-space: nowrap;
   flex-shrink: 0;
+  transition: color 0.8s ease;
+}
+.threat-level-caption {
+  display: block;
+  font-size: 9px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2px;
 }

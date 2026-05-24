@@ -230,6 +230,35 @@ function renderTodayAttackChart(id, missiles, drones) {
   else charts[id] = new Chart(canvas, cfg);
 }
 
+function renderCombinedAlertChart(id, timeline, missiles, drones) {
+  const canvas = document.getElementById(id); if (!canvas) return;
+  const total = (missiles || 0) + (drones || 0);
+  const mRatio = total ? (missiles || 0) / total : 0.25;
+  const dRatio = total ? (drones  || 0) / total : 0.75;
+  const raw = (timeline || []).map(v => v || 0);
+  const cfg = {
+    type: "bar",
+    data: {
+      labels: makeHourLabels(),
+      datasets: [
+        { label: "Missiles", data: raw.map(v => +(v * mRatio).toFixed(1)), backgroundColor: "rgba(229,62,91,0.8)",  borderWidth: 0, borderRadius: 0, stack: "a" },
+        { label: "Drones",   data: raw.map(v => +(v * dRatio).toFixed(1)), backgroundColor: "rgba(59,130,246,0.6)", borderWidth: 0, borderRadius: 2, stack: "a" },
+      ]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      plugins: {
+        ...CHART_DEFAULTS.plugins,
+        legend: { display: true, labels: { color: "#4a5568", font: { family: "'JetBrains Mono',monospace", size: 9 }, boxWidth: 8, padding: 10 } },
+        tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `${c.dataset.label}: ${c.raw}` } },
+      },
+      scales: { ...CHART_DEFAULTS.scales },
+    },
+  };
+  if (charts[id]) { charts[id].data = cfg.data; charts[id].update("active"); }
+  else charts[id] = new Chart(canvas, cfg);
+}
+
 function renderActivityChart(id, timeline) {
   const canvas = document.getElementById(id); if (!canvas) return;
   const data = timeline||[];
@@ -656,10 +685,14 @@ function populatePanel(prefix, data) {
     sentBadge.dataset.sentiment = sent;
     const fill = document.getElementById(`${sp}-threat-fill`);
     if (fill) {
-      const pct = { escalating:90, volatile:70, active:70, tense:60, stable:35, calm:20, neutral:50 }[sent] || 50;
+      const pct = { escalating:95, volatile:78, active:72, tense:58, stable:32, calm:18, neutral:48 }[sent] || 48;
       const col = { escalating:"#e53e5b", volatile:"#f59e0b", active:"#f59e0b", tense:"#f59e0b", stable:"#10b981", calm:"#3b82f6", neutral:"#64748b" }[sent] || "#3b82f6";
+      const levelText = { escalating:"CRITICAL", volatile:"HIGH", active:"HIGH", tense:"ELEVATED", stable:"MODERATE", calm:"LOW", neutral:"MODERATE" }[sent] || "UNKNOWN";
       fill.style.width = `${pct}%`;
-      fill.style.background = `linear-gradient(90deg, ${col}88, ${col})`;
+      fill.style.background = `linear-gradient(90deg, ${col}55, ${col})`;
+      fill.dataset.threat = sent;
+      const label = document.getElementById(`${sp}-threat-label`);
+      if (label) { label.textContent = levelText; label.style.color = col; }
     }
   }
 
@@ -679,7 +712,7 @@ function populatePanel(prefix, data) {
 
   if (prefix === "ukraine") {
     renderTodayAttackChart(`ua-chart-alerts`, data.missiles, data.drones);
-    renderAlertChart(`ua-chart-history`, data.kpszsu_timeline || []);
+    renderCombinedAlertChart(`ua-chart-history`, data.kpszsu_timeline || [], data.missiles, data.drones);
   } else {
     const alertTimeline = (data.red_alerts_timeline || []).map(v => Math.round((v || 0) / 2));
     renderAlertChart(`${sp}-chart-alerts`, alertTimeline);
