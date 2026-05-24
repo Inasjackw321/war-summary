@@ -9,8 +9,11 @@ from discord.ext import commands
 from datetime import datetime, timezone
 from pathlib import Path
 
-DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
-CONFIG_PATH   = Path(os.environ.get("CONFIG_PATH", "/data/config.json"))
+DISCORD_TOKEN  = os.environ["DISCORD_TOKEN"]
+CONFIG_PATH    = Path(os.environ.get("CONFIG_PATH", "/data/config.json"))
+UPSTASH_URL    = os.environ.get("UPSTASH_REDIS_REST_URL", "")
+UPSTASH_TOKEN  = os.environ.get("UPSTASH_REDIS_REST_TOKEN", "")
+_UPSTASH_KEY   = "warsummary:guild_config"
 
 DATA_URLS = {
     "middle_east": "https://warsummary.live/data/middle_east.json",
@@ -28,18 +31,55 @@ _EXCLUDED_LOWER   = {s.lower() for s in _EXCLUDED_SOURCES}
 _cfg: dict = {}
 _session: aiohttp.ClientSession | None = None
 
-def _load():
+async def _load():
     global _cfg
+    if UPSTASH_URL and UPSTASH_TOKEN:
+        try:
+            s = await _get_session()
+            async with s.post(
+                UPSTASH_URL,
+                headers={"Authorization": f"Bearer {UPSTASH_TOKEN}"},
+                json=["GET", _UPSTASH_KEY],
+            ) as r:
+                if r.status == 200:
+                    data = await r.json()
+                    if data.get("result"):
+                        _cfg = json.loads(data["result"])
+                        print(f"[config] loaded from upstash: {len(_cfg)} guilds")
+                        return
+        except Exception as e:
+            print(f"[config] upstash load error: {e}")
     CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
     if CONFIG_PATH.exists():
         try:
             _cfg = json.loads(CONFIG_PATH.read_text())
+            print(f"[config] loaded from file: {len(_cfg)} guilds")
         except Exception:
             _cfg = {}
 
 def _save():
-    CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    CONFIG_PATH.write_text(json.dumps(_cfg, indent=2))
+    try:
+        CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        CONFIG_PATH.write_text(json.dumps(_cfg, indent=2))
+    except Exception:
+        pass
+
+async def _push_config():
+    """Persist config to Upstash after every change."""
+    _save()
+    if not (UPSTASH_URL and UPSTASH_TOKEN):
+        return
+    try:
+        s = await _get_session()
+        async with s.post(
+            UPSTASH_URL,
+            headers={"Authorization": f"Bearer {UPSTASH_TOKEN}"},
+            json=["SET", _UPSTASH_KEY, json.dumps(_cfg)],
+        ) as r:
+            if r.status != 200:
+                print(f"[config] upstash push failed: {r.status}")
+    except Exception as e:
+        print(f"[config] upstash push error: {e}")
 
 MAX_CHANNELS_PER_CONFLICT = 3
 
@@ -62,7 +102,6 @@ def _set_channel(guild_id: int, conflict: str, channel_id: int) -> str:
         return "full"
     channels.append(channel_id)
     guild[conflict] = channels
-    _save()
     return "added"
 
 def _remove_channel(guild_id: int, conflict: str, channel_id: int):
@@ -74,7 +113,6 @@ def _remove_channel(guild_id: int, conflict: str, channel_id: int):
         guild[conflict] = channels
     else:
         guild.pop(conflict, None)
-    _save()
 
 def _conflict_for_channel(guild_id: int, channel_id: int) -> str | None:
     for conflict in _cfg.get(str(guild_id), {}):
@@ -248,6 +286,7 @@ async def cmd_setup(interaction: discord.Interaction, conflict: str, channel: di
             ephemeral=True,
         )
     else:
+        await _push_config()
         await interaction.response.send_message(
             f"✅ **{label}** → {channel.mention} ({count}/{MAX_CHANNELS_PER_CONFLICT} channels)\n"
             f"Use `/summary` in that channel to pull the latest brief.",
@@ -268,6 +307,7 @@ async def cmd_remove(interaction: discord.Interaction, conflict: str, channel: d
         )
         return
     _remove_channel(interaction.guild_id, conflict, channel.id)
+    await _push_config()
     label = "Middle East" if conflict == "middle_east" else "Ukraine-Russia"
     await interaction.response.send_message(
         f"🗑 {channel.mention} removed from **{label}**.", ephemeral=True
@@ -315,7 +355,7 @@ async def prefix_summary(ctx: commands.Context):
 # ── Startup ────────────────────────────────────────────────────────────────────
 @bot.event
 async def on_ready():
-    _load()
+    await _load()
     await bot.tree.sync()
     print(f"[bot] Ready — logged in as {bot.user}")
     print(f"[bot] Loaded config: {_cfg}")
