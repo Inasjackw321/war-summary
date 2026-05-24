@@ -15,8 +15,6 @@ from bs4 import BeautifulSoup
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
 MODELS = [
-    "google/gemma-4-31b-it:free",
-    "google/gemma-4-26b-a4b-it:free",
     "openai/gpt-oss-120b:free",
     "openrouter/owl-alpha",
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -106,46 +104,20 @@ def _fetch_url(url: str, retries: int = 3) -> "requests.Response | None":
     return None
 
 
-_TS_INDEX = "data/media/.timestamps.json"
-
-
-def _load_ts_index(media_dir: Path) -> dict[str, float]:
-    path = media_dir / ".timestamps.json"
-    if path.exists():
-        try:
-            return json.loads(path.read_text())
-        except Exception:
-            pass
-    return {}
-
-
-def _save_ts_index(media_dir: Path, index: dict[str, float]) -> None:
-    (media_dir / ".timestamps.json").write_text(json.dumps(index, indent=2))
-
-
-def cleanup_old_media(media_dir: Path) -> None:
+def cleanup_unreferenced_media(media_dir: Path, referenced_paths: set[str]) -> None:
+    """Delete any image file in media_dir not in referenced_paths."""
     if not media_dir.exists():
         return
-    index = _load_ts_index(media_dir)
-    cutoff = datetime.now(timezone.utc).timestamp() - 24 * 3600
-    changed = False
-    for fname in list(index.keys()):
-        if index[fname] < cutoff:
-            dest = media_dir / fname
+    for f in media_dir.iterdir():
+        if f.name.startswith(".") or f.suffix.lower() not in {".jpg", ".jpeg", ".png", ".webp", ".gif"}:
+            continue
+        rel = f"data/media/{f.name}"
+        if rel not in referenced_paths:
             try:
-                dest.unlink(missing_ok=True)
-                print(f"  [media] deleted: {fname}", file=sys.stderr)
+                f.unlink()
+                print(f"  [media] deleted unreferenced: {f.name}", file=sys.stderr)
             except Exception as e:
-                print(f"  [media] delete failed {fname}: {e}", file=sys.stderr)
-            del index[fname]
-            changed = True
-    # Also remove index entries whose files no longer exist
-    for fname in list(index.keys()):
-        if not (media_dir / fname).exists():
-            del index[fname]
-            changed = True
-    if changed:
-        _save_ts_index(media_dir, index)
+                print(f"  [media] delete failed {f.name}: {e}", file=sys.stderr)
 
 
 _IMAGE_CONTENT_TYPES = {"image/jpeg", "image/png", "image/webp", "image/gif"}
@@ -641,9 +613,6 @@ def build_messages_by_channel(channels: list[str], counts: dict[str, int]) -> di
 
 def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]:
     post_images: dict[str, str] = {}
-    index = _load_ts_index(media_dir)
-    now_ts = datetime.now(timezone.utc).timestamp()
-    changed = False
     for img in all_media:
         cdn = img.get("cdn_url")
         if not cdn:
@@ -655,15 +624,8 @@ def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]
         dest = media_dir / local_name
         key = f"{ch}/{pid}"
         path_str = f"data/media/{local_name}"
-        if dest.exists():
+        if dest.exists() or download_media(cdn, dest):
             post_images[key] = path_str
-            if local_name not in index:
-                index[local_name] = now_ts
-                changed = True
-        elif download_media(cdn, dest):
-            post_images[key] = path_str
-            index[local_name] = now_ts
-            changed = True
         # Create alias for the adjacent text post so AI citations resolve to this photo
         if key in post_images:
             companion = img.get("companion_text_id")
@@ -671,8 +633,6 @@ def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]
                 ckey = f"{ch}/{companion}"
                 if ckey not in post_images:
                     post_images[ckey] = path_str
-    if changed:
-        _save_ts_index(media_dir, index)
     return post_images
 
 
@@ -681,7 +641,6 @@ def run() -> None:
     output_dir.mkdir(exist_ok=True)
     media_dir = output_dir / "media"
     media_dir.mkdir(exist_ok=True)
-    cleanup_old_media(media_dir)
 
     failed_conflicts = []
     conflict_keys = list(CONFLICTS.keys())
@@ -697,6 +656,17 @@ def run() -> None:
         if i < len(conflict_keys) - 1:
             print("  Pausing 90s before next conflict to avoid rate limits...", file=sys.stderr)
             time.sleep(90)
+
+    # Delete media files no longer referenced by any conflict's current output
+    referenced: set[str] = set()
+    for key in conflict_keys:
+        json_path = output_dir / f"{key}.json"
+        try:
+            d = json.loads(json_path.read_text())
+            referenced.update(d.get("post_images", {}).values())
+        except Exception:
+            pass
+    cleanup_unreferenced_media(media_dir, referenced)
 
     if failed_conflicts:
         print(f"\nFailed conflicts: {failed_conflicts}", file=sys.stderr)
