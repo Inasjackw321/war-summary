@@ -296,8 +296,8 @@ def build_activity_timeline_synthetic(total_messages: int) -> list[int]:
 
 
 _ATTACK_SUMMARY_RE = re.compile(
-    r'attacked\s+with|атакував|Shahed|Кh-\d+|Kh-\d+|Х-\d+|attack\s+UAV|ударни\w+\s+БпЛА'
-    r'|засобів\s+повітряного|MISSILE.{0,20}UAV|UAV.{0,20}MISSILE',
+    r'attacked\s+with|атакув\w+|Shahed|Кh-\d+|Kh-\d+|Х-\d+|attack\s+UAV|ударни\w+\s+БпЛА'
+    r'|засобів\s+повітряного|MISSILE.{0,20}UAV|UAV.{0,20}MISSILE|air\s+attack\s+vehicles?',
     re.IGNORECASE,
 )
 
@@ -405,29 +405,46 @@ def parse_missile_count(texts: list[str], drones: int = 0) -> int:
     Once an authoritative launch narrative is found in a text, that text is
     committed to — no fallthrough to older posts."""
     for text in texts:
-        m_narr = re.search(r'(?:атакував\b|attacked\s+with\b).+', text, re.IGNORECASE | re.DOTALL)
+        # Match Ukrainian (атакувала/атакував/атакували) and English launch narratives
+        m_narr = re.search(
+            r'(?:атакув\w+|attacked\s+with\b|launched.{0,40}(?:missile|UAV|drone|strike|aerial)).+',
+            text, re.IGNORECASE | re.DOTALL,
+        )
         if m_narr:
             # Authoritative launch narrative — commit to this text entirely
             launch_text = m_narr.group(0)
-            zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed)', launch_text, re.IGNORECASE)
+            zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed|ЗБИТО)', launch_text, re.IGNORECASE)
             if zbito:
                 launch_text = launch_text[:zbito.start()]
-            # Kh- / Х- missiles
+
+            # When drone count is already known, "total aerial means − drones" gives the
+            # complete missile figure (includes ballistics, cruise, Kh-types, etc.).
+            # Check this BEFORE the Kh-specific enumeration which only catches a subset.
+            m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
+            if m_total and drones > 0:
+                return max(0, int(m_total.group(1)) - drones)
+            m_en_total = re.search(r'(\d{2,4})\s+air\s+attack\s+vehicles?\b', text, re.IGNORECASE)
+            if m_en_total and drones > 0:
+                return max(0, int(m_en_total.group(1)) - drones)
+
+            # Kh- / Х- specific missile type enumeration (fallback when no total + drone count)
             kh_hits = _KH_RE.findall(launch_text)
             if kh_hits:
                 total = sum(_to_int(h) for h in kh_hits)
                 if total > 0:
                     return total
-            # Total aerial means minus drones (both in image header and text)
-            m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
+
+            # Ukrainian: total aerial means minus UAVs found in text
             if m_total:
                 total = int(m_total.group(1))
-                if drones > 0:
-                    return max(0, total - drones)
                 m_dr = re.search(r'(\d{2,4})\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа])', text)
                 if m_dr:
                     return max(0, total - int(m_dr.group(1)))
-            # Explicit cruise/ballistic count in same text
+            # English explicit: "- 90 missiles" bullet
+            m_en = re.search(r'[-–]\s*(\d{1,3})\s+missiles?\b', text, re.IGNORECASE)
+            if m_en:
+                return int(m_en.group(1))
+            # Ukrainian explicit cruise/ballistic counts
             hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
             if hits:
                 return sum(int(x) for x in hits)
@@ -443,19 +460,26 @@ def parse_missile_count(texts: list[str], drones: int = 0) -> int:
 def parse_drone_count(texts: list[str], missiles: int = 0) -> int:
     """Extract LAUNCHED drone/UAV count from kpszsu posts. Scans all texts, takes first non-zero."""
     for text in texts:
-        # English: "141 attack UAVs"
-        m = re.search(r'(\d{2,4})\s+(?:attack|combat)\s+UAV', text, re.IGNORECASE)
+        # English: "600 attack/strike/combat UAVs"
+        m = re.search(r'(\d{2,4})\s+(?:attack|strike|combat)\s+UAVs?\b', text, re.IGNORECASE)
         if m:
             return int(m.group(1))
         # English: "141 Shahed" drones
         m = re.search(r'(\d{2,4})\s+Shahed', text, re.IGNORECASE)
         if m:
             return int(m.group(1))
-        # Ukrainian: "141 ударним БпЛА" = attack/launched UAVs (NOT "ворожих" = intercepted)
+        # Ukrainian: "600 ударних БпЛА/дронів" = launched (NOT "ворожих" = intercepted)
         m = re.search(r'(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
         if m:
             return int(m.group(1))
-        # Ukrainian fallback: total aerial means ("N засобів повітряного нападу") minus missiles
+        # English: "690 air attack vehicles … 600 UAVs" — extract UAV sub-count
+        m_en = re.search(
+            r'air\s+attack\s+vehicles?.{0,200}[-–,]\s*(\d{2,4})\s+UAVs?\b',
+            text, re.IGNORECASE | re.DOTALL,
+        )
+        if m_en:
+            return int(m_en.group(1))
+        # Ukrainian fallback: total aerial means minus missiles
         m = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
         if m:
             return max(0, int(m.group(1)) - missiles)
