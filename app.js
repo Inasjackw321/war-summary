@@ -295,11 +295,18 @@ function initScrollSpy(prefix) {
 // ── News ticker ───────────────────────────────────────────────────────────────
 function buildTicker(datasets) {
   const items = [];
-  datasets.forEach(d => { if (!d) return; const name = d.conflict ? d.conflict.toUpperCase() : ""; (d.key_points||[]).forEach(p => items.push(`${name}: ${p}`)); });
+  datasets.forEach(d => {
+    if (!d) return;
+    const name = d.conflict ? d.conflict.toUpperCase() : "";
+    (d.key_points||[]).forEach(p => {
+      items.push(`<span class="ticker-conflict">${name}:</span> ${renderSourceTags(p)}`);
+    });
+  });
   if (!items.length) return;
   const el = document.getElementById("tickerContent"); if (!el) return;
-  const text = items.join("  ·  ");
-  el.textContent = text + "   ◈   " + text;
+  const sep = '  <span class="ticker-sep" aria-hidden="true">·</span>  ';
+  const html = items.join(sep);
+  el.innerHTML = html + '  <span class="ticker-sep" aria-hidden="true">◈</span>  ' + html;
   el.style.animation = "none"; el.offsetHeight;
   const dur = Math.max(200, items.length * 22);
   el.style.animation = `ticker-run ${dur}s linear infinite`;

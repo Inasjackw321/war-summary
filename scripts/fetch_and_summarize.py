@@ -740,14 +740,23 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
         alert_timeline = bucket_into_24h_slots(real_alert_timestamps) if real_alert_timestamps else [0] * 24
 
     else:  # ukraine
-        # Fetch kpszsu without is_relevant() filter so short/numeric daily summaries are parsed
-        kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
-        drones = parse_drone_count(kpszsu_raw, missiles=0)
-        missiles = parse_missile_count(kpszsu_raw, drones=drones)
-        # If missile Kh-parse found nothing but total-means path also failed,
-        # recompute drones using the now-known missile count for accuracy
+        # Try parsing from already-fetched kpszsu messages first (avoids a second HTTP round-trip
+        # that is often rate-limited right after the main channel scrape).
+        kpszsu_fetched = per_channel_messages.get("kpszsu", [])
+        drones = parse_drone_count(kpszsu_fetched, missiles=0)
+        missiles = parse_missile_count(kpszsu_fetched, drones=drones)
         if missiles > 0 and drones == 0:
-            drones = parse_drone_count(kpszsu_raw, missiles=missiles)
+            drones = parse_drone_count(kpszsu_fetched, missiles=missiles)
+
+        # If still 0/0, fall back to a dedicated kpszsu fetch that bypasses is_relevant()
+        # so short/numeric daily attack summaries are not filtered out.
+        if missiles == 0 and drones == 0:
+            print("  [kpszsu] no data from cached messages — doing dedicated fetch", file=sys.stderr)
+            kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
+            drones = parse_drone_count(kpszsu_raw, missiles=0)
+            missiles = parse_missile_count(kpszsu_raw, drones=drones)
+            if missiles > 0 and drones == 0:
+                drones = parse_drone_count(kpszsu_raw, missiles=missiles)
         red_alerts_raw = missiles + drones
         print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
         update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})

@@ -210,6 +210,16 @@ body {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
+.ticker-wrap:hover #tickerContent { animation-play-state: paused; cursor: default; }
+.ticker-conflict { color: var(--text3); }
+.ticker-sep { color: var(--text3); opacity: 0.5; }
+#tickerContent .src-tag {
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0 1px;
+  border-radius: 2px;
+}
+#tickerContent .src-tag:hover { text-decoration: underline; }
 
 /* ── Tabs ── */
 .conflict-tabs {
