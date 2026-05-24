@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-24T11:57:47.404686+00:00",
-  "message_count": 511,
+  "updated_at": "2026-05-24T12:12:29.700455+00:00",
+  "message_count": 510,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -25,12 +25,12 @@
     0,
     188,
     188,
-    0,
-    112,
-    0,
+    75,
+    38,
     0,
     0,
     38,
+    0,
     75,
     0,
     0,
@@ -40,35 +40,35 @@
   ],
   "combined_activity_timeline": [
     9,
-    6,
+    4,
     7,
     4,
     5,
     7,
+    8,
+    15,
+    11,
+    31,
+    60,
+    103,
+    86,
+    50,
+    20,
     7,
-    14,
-    12,
-    19,
-    67,
-    73,
-    104,
-    48,
-    40,
-    6,
-    13,
+    15,
     6,
     17,
+    8,
     11,
-    10,
+    9,
     8,
-    8,
-    10
+    8
   ],
   "messages_by_channel": {
     "@eRadarrua": 79,
     "@kpszsu": 102,
     "@mon1tor_ua": 218,
-    "@UkraineNow": 20,
+    "@UkraineNow": 19,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 11,
     "@tass_agency": 80
@@ -79,14 +79,16 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/67208",
     "UkraineNow": "https://t.me/UkraineNow/81429",
     "DeepStateUA": "https://t.me/DeepStateUA/23531",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30392",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30394",
     "tass_agency": "https://t.me/tass_agency/377316"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/62647",
-    "UkraineNow": "https://t.me/UkraineNow/81409",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67199",
-    "tass_agency": "https://t.me/tass_agency/377305"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30392",
+    "eRadarrua": "https://t.me/eRadarrua/93477",
+    "UkraineNow": "https://t.me/UkraineNow/81420",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67196",
+    "kpszsu": "https://t.me/kpszsu/62624",
+    "tass_agency": "https://t.me/tass_agency/377298"
   },
   "media": [
     {
@@ -237,115 +239,105 @@
     "kpszsu/62647": "data/media/kpszsu_62647.jpg",
     "kpszsu/62645": "data/media/kpszsu_62647.jpg"
   },
-  "summary": "Russia launched a massive combined strike on 24‑25 May employing Iskander, Kinzhal, Zircon, cruise missiles and hundreds of Shahed drones, heavily targeting Kyiv and other regions. Ukraine reported significant civilian casualties in Kyiv and Bila Tserkva, while also striking Russian oil infrastructure in the Black Sea region. Preparations for a new \"Oreshnik\" hypersonic missile attack are underway, heightening the risk of further high‑value strikes.",
+  "summary": "Russia launched a massive strike on Kyiv using over 50 missiles and 700 drones, causing widespread damage across the capital. Simultaneously, Russian Orekh missiles hit the garage cooperative in Bila Tserkva and a water‑aeration station, threatening Kyiv's water supply. Ukrainian forces reported significant civilian casualties in Cherkasy region and continued attacks on Russian rear targets, including oil‑gas infrastructure in Krasnodar and Crimea.",
   "key_points": [
-    "Russia deployed 55 missiles and 549 drones, including Iskander, Kinzhal, Zircon and Shahed UAVs, in a coordinated strike on Ukraine (Source: @kpszsu/62647).",
-    "Kyiv suffered over 40 hit locations, one civilian death and 21 injuries, with metro and residential damage (Source: @UkraineNow/81409).",
-    "Ukrainian forces struck the Russian Tamanneftegaz terminal in the Black Sea, damaging a key oil export hub (Source: @UkraineNow/81420).",
-    "Russia prepared to use the new hypersonic \"Oreshnik\" missile against Ukrainian targets, cited by President Zelensky (Source: @UkraineNow/81406).",
-    "An \"Oreshnik\" missile hit a garage cooperative in Bila Tserkva, causing structural damage (Source: @UkraineNow/81413).",
-    "A cruise missile flew over Nizhyn district heading toward Kyiv, indicating continued long‑range missile threats (Source: @mon1tor_ua/67199).",
-    "UAVs were observed over the Kyiv reservoir moving toward the capital, posing immediate air‑defence challenges (Source: @kpszsu/62641).",
-    "A Russian drone strike hit the Albanian embassy residential complex, raising diplomatic security concerns (Source: @UkraineNow/81428)."
+    "Russia deployed more than 50 missiles and 700 drones against Kyiv, striking over 40 sites and injuring dozens (Source: @ukr_leaks_eng/30392).",
+    "Orekh missile struck a garage cooperative in Bila Tserkva, reportedly destroying a NATO‑linked headquarters apartment (Source: @eRadarrua/93477).",
+    "Ukrainian UAVs hit the Tamannyeftgaz terminal in Krasnodar, damaging a key oil export facility handling up to 20 Mt/year (Source: @UkraineNow/81420).",
+    "Cherkasy region suffered a Russian UAV attack injuring 11 people, including two children, and causing fires in a multi‑storey residential building (Source: @UkraineNow/81412).",
+    "Russian forces relocated a Bastion coastal missile system to Kursk region, enabling potential Oniks and Zircon strikes from the north (Source: @eRadarrua/93475).",
+    "Three Shahed loitering munitions launched from Sumy targeted Lublin district in Poltava region (Source: @mon1tor_ua/67196).",
+    "Russian tactical aviation released guided aviation bombs over Donetsk and Zaporizhzhia regions (Source: @kpszsu/62624, @kpszsu/62631).",
+    "Ukrainian forces reported the destruction of a water‑aeration station critical to Kyiv's water supply (Source: @eRadarrua/93493)."
   ],
-  "sentiment": "volatile",
-  "intensity": 8,
+  "sentiment": "escalating",
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russia unleashed a massive combined missile and drone barrage, including Iskander, Kinzhal, Zircon and hundreds of Shahed UAVs, heavily striking Kyiv and causing civilian casualties. Ukraine responded with a strike on the Russian Tamanneftegaz oil terminal, while preparing for possible \"Oreshnik\" hypersonic attacks. Diplomatic sites and critical infrastructure remain under heightened threat across multiple fronts.",
+    "executive_summary": "Russia unleashed a massive missile and drone barrage on Kyiv, striking over 40 locations and causing extensive civilian casualties. Concurrently, Orekh missiles hit Bila Tserkva and a vital water‑aeration facility, threatening Kyiv's water supply. Ukrainian forces continued deep strikes on Russian rear infrastructure, including a key oil‑gas terminal in Krasnodar.",
     "ukraine": {
       "points": [
-        "Ukrainian air defences downed 55 missiles and 549 hostile UAVs during the 24‑25 May combined attack, preventing further damage to key cities (Source: @kpszsu/62647).",
-        "In Kyiv, over 40 locations were hit, resulting in one civilian death, 21 injuries, and damage to the Lukianivska metro station and residential blocks (Source: @UkraineNow/81409).",
-        "Ukrainian forces struck the Russian Tamanneftegaz terminal in the Black Sea region, damaging a major oil‑export facility that handles up to 20 Mt annually (Source: @UkraineNow/81420).",
-        "Ukrainian intelligence reported preparations for a Russian \"Oreshnik\" hypersonic strike, prompting heightened civil‑defence alerts (Source: @UkraineNow/81406).",
-        "A cruise missile over Nizhyn district was tracked heading toward Kyiv, indicating continued long‑range missile threats (Source: @mon1tor_ua/67199).",
-        "UAVs were observed over the Kyiv water reservoir moving toward the capital, forcing rapid mobilisation of SAM units (Source: @kpszsu/62641).",
-        "A Russian drone strike damaged the residential complex housing the Albanian ambassador, raising diplomatic security concerns (Source: @UkraineNow/81428)."
+        "Cherkasy region was hit by a Russian UAV, injuring 11 civilians (including two children) and igniting fires from the 5th to 9th floors of a residential block; total casualties reported 83 since the start of the day (Source: @UkraineNow/81412).",
+        "Ukrainian forces struck the Tamannyeftgaz terminal in Krasnodar, damaging a loading dock of a facility that moves up to 20 Mt of oil annually and also hit ammunition depots in Crimea and a UAV command post in Donetsk (Source: @UkraineNow/81420).",
+        "Ukrainian drones attacked Russian rear areas, including an oil depot in Novorossiysk and logistics nodes in Poltava and Kharkiv, destroying multiple UAV production sites (Source: @ukr_leaks_eng/30390).",
+        "Ukrainian artillery reportedly repelled a major attack, with limited rest for commanders, indicating high operational tempo on the front (Source: @mon1tor_ua/67194)."
       ]
     },
     "russia": {
       "points": [
-        "Russia launched 55 missiles, including 11 Iskander‑M/С‑400 and 44 cruise missiles (X‑101/Iskander‑K/Caliber), from launch sites in Astrakhan, Bryansk, Crimea and the Black Sea (Source: @kpszsu/62647).",
-        "Two aerobalistic Kinzhal missiles were fired from Lipetsk region, targeting Ukrainian command‑and‑control nodes (Source: @kpszsu/62647).",
-        "Three Zircon anti‑ship missiles were launched from Crimea and Kursk region, aimed at Ukrainian coastal assets (Source: @kpszsu/62647).",
-        "Approximately 600 Shahed‑type loitering munitions were released from multiple Russian oblasts, creating dense UAV swarms over Kyiv and eastern regions (Source: @kpszsu/62647).",
-        "Guided aerial bombs were dropped on Kharkiv and Donetsk oblasts, indicating intensified tactical air strikes (Source: @kpszsu/62619).",
-        "Russia claimed the \"Oreshnik\" hypersonic missile was used against Bila Tserkva, though details remain sparse (Source: @UkraineNow/81413).",
-        "Russian forces reported no planned strikes on Ukrainian civilian infrastructure in the latest statements, contradicting observed attacks (Source: @tass_agency/377305)."
+        "Russia employed a combined Orekh, Iskander, Kinjal and Zircon missile salvo against Ukrainian command structures, claiming retaliation for alleged Ukrainian attacks on Russian civilian sites (Source: @tass_agency/377298).",
+        "A Bastion coastal missile complex with four launchers was moved to Kursk region, enabling potential Oniks and Zircon strikes from the north (Source: @eRadarrua/93475).",
+        "Russian tactical aviation launched guided aviation bombs over Donetsk and Zaporizhzhia, indicating intensified air‑ground coordination (Source: @kpszsu/62624, @kpszsu/62631).",
+        "Three Shahed loitering munitions were launched from Sumy toward Lublin district, Poltava, demonstrating continued use of Iranian‑supplied drones (Source: @mon1tor_ua/67196)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Shahed UAVs were reported over Sumy north‑west, heading toward Romny, indicating pressure on supply routes (Source: @kpszsu/62636).",
-        "UAVs from Chernihiv region moved toward Kyiv and Ivankiv, threatening northern approaches (Source: @kpszsu/62650).",
-        "Russian missile launches from Volgograd and Kursk regions targeted eastern Ukrainian command posts, using X‑101 cruise missiles (Source: @kpszsu/62647).",
-        "Guided aerial bomb strikes hit Kharkiv and Donetsk oblasts, causing infrastructure damage (Source: @kpszsu/62619).",
-        "Ukrainian forces reported successful interception of multiple drones over the eastern front, limiting enemy reconnaissance (Source: @kpszsu/62647)."
+        "Ukrainian forces liberated Volokhovka and Shesterek in Kharkiv region and advanced 800‑1200 m on 20 sectors in Sumy, showing limited but tangible gains (Source: @ukr_leaks_eng/30390).",
+        "Russian forces reported a successful Orekh strike on Bila Tserkva, a strategic location east of Kyiv, damaging civilian infrastructure (Source: @eRadarrua/93477).",
+        "Ukrainian UAVs targeted a training building and dormitory in Starobelsk, LNR, causing over 35 teen injuries and 21 deaths, highlighting intense combat in the contested east (Source: @ukr_leaks_eng/30390).",
+        "Guided aviation bomb attacks continued over Donetsk, indicating persistent Russian air support for ground operations (Source: @kpszsu/62624)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs detected over the Kyiv water reservoir moving southward, prompting SAM activation (Source: @kpszsu/62641).",
-        "Cruise missile over Nizhyn district headed for Kyiv, suggesting a northern trajectory for long‑range strikes (Source: @mon1tor_ua/67199).",
-        "Russian launch sites in Bryansk fired Iskander missiles toward northern Ukrainian targets (Source: @kpszsu/62647).",
-        "Ukrainian air defence reported downing of several Shahed drones over Poltava and Cherkasy regions, protecting northern supply lines (Source: @kpszsu/62647).",
-        "UAV activity observed over Chernihiv heading to Ivankiv, indicating continued pressure on the northern corridor (Source: @kpszsu/62650)."
+        "A group of UAVs was observed over northern Kyiv region moving toward the Kyiv reservoir, suggesting reconnaissance or strike intent (Source: @kpszsu/62638).",
+        "Reactive Shahed launched from Chernihiv towards Ivanivka in Kyiv region, indicating north‑south UAV penetration (Source: @kpszsu/62650).",
+        "Two rockets were reported heading toward Holosiiv district in Kyiv, raising concerns of direct strikes on the capital's southern districts (Source: @mon1tor_ua/67173).",
+        "A Russian UAV was reported over Kyiv at 07:46, prompting an air‑raid alert (Source: @eRadarrua/93468)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian strike on the Tamanneftegaz terminal in the Black Sea disrupted Russian oil export capacity (Source: @UkraineNow/81420).",
-        "Russian missile launches from Crimea targeted southern Ukrainian coastal installations with Zircon missiles (Source: @kpszsu/62647).",
-        "UAV swarms from the Black Sea region were intercepted over Odesa, limiting Russian reconnaissance (Source: @kpszsu/62647).",
-        "Russian forces reported no civilian infrastructure strikes in the south, despite ongoing missile activity (Source: @tass_agency/377305).",
-        "Ukrainian units reported increased artillery engagements near the front line in Kherson, aiming to degrade Russian logistics (Source: @kpszsu/62653)."
+        "Ukrainian forces hit a water‑aeration station critical for Kyiv's water supply, potentially compromising civilian resilience (Source: @eRadarrua/93493).",
+        "Russian missile attacks targeted residential buildings in Kharkiv and Zaporizhzhia, causing fires and civilian casualties (implied from multiple reports).",
+        "Ukrainian drones struck logistics hubs in the Zaporozhye region, disrupting Russian fuel supplies (Source: @ukr_leaks_eng/30390).",
+        "Russian air defenses engaged multiple UAV swarms over the southern oblasts, indicating high aerial activity (inferred from overall strike volume)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine's air defence shot down 55 missiles and 549 UAVs in a single day, the highest recorded tally (Source: @kpszsu/62647).",
-        "Shahed loitering munitions were the predominant UAV type, with over 600 launched from multiple Russian oblasts (Source: @kpszsu/62647).",
-        "Russian aerobalistic Kinzhal missiles were used for the first time against Ukrainian command sites (Source: @kpszsu/62647).",
-        "Ukrainian forces employed guided aerial bombs on Kharkiv and Donetsk, indicating expanded use of precision air‑to‑ground weapons (Source: @kpszsu/62619).",
-        "UAVs over Kyiv reservoir and Nizhyn district highlight persistent low‑altitude threats requiring layered defence (Source: @kpszsu/62641, @mon1tor_ua/67199)."
+        "Over 700 Russian drones participated in the Kyiv strike, overwhelming Ukrainian air defenses and causing widespread damage (Source: @ukr_leaks_eng/30392).",
+        "Ukrainian UAVs shot down 4,184 Russian drones between 16‑22 May, demonstrating effective air‑defense and offensive UAV capability (Source: @ukr_leaks_eng/30390).",
+        "Russian Shahed loitering munitions were launched from multiple directions, including Sumy, Chernihiv, and Poltava, showing diversified UAV launch points (Source: @mon1tor_ua/67196, @kpszsu/62650, @kpszsu/62617).",
+        "Guided aviation bombs were deployed by Russian tactical aviation over Donetsk and Zaporizhzhia, indicating a shift toward precision strike tactics (Source: @kpszsu/62624, @kpszsu/62631)."
       ]
     },
     "key_developments": [
-      "Russia executed a massive combined strike using 55 missiles—including Iskander, Kinzhal and Zircon—and 600 Shahed drones, overwhelming Ukrainian air defences (Source: @kpszsu/62647).",
-      "Ukrainian air defences intercepted 55 missiles and 549 UAVs, marking the highest single‑day interception count (Source: @kpszsu/62647).",
-      "Kyiv suffered over 40 hit locations, one civilian death and 21 injuries, with damage to metro infrastructure (Source: @UkraineNow/81409).",
-      "Ukrainian forces struck the Russian Tamanneftegaz oil terminal in the Black Sea, disrupting a key export hub (Source: @UkraineNow/81420).",
-      "President Zelensky warned of imminent Russian \"Oreshnik\" hypersonic missile preparations, raising strategic alarm (Source: @UkraineNow/81406).",
-      "An \"Oreshnik\" missile hit a garage cooperative in Bila Tserkva, confirming use of the new weapon (Source: @UkraineNow/81413).",
-      "A cruise missile over Nizhyn district headed toward Kyiv, indicating continued long‑range missile threats (Source: @mon1tor_ua/67199)."
+      "Russia launched a massive coordinated strike on Kyiv with over 50 missiles and 700 drones, hitting more than 40 sites and causing dozens of civilian injuries (Source: @ukr_leaks_eng/30392).",
+      "An Orekh missile hit a garage cooperative in Bila Tserkva, reportedly destroying a NATO‑linked headquarters apartment (Source: @eRadarrua/93477).",
+      "Ukrainian forces damaged the Tamannyeftgaz oil terminal in Krasnodar, a key export hub handling up to 20 Mt of oil annually (Source: @UkraineNow/81420).",
+      "Cherkasy region suffered a Russian UAV attack injuring 11 civilians, including two children, and igniting multi‑storey residential fires (Source: @UkraineNow/81412).",
+      "Russia relocated a Bastion coastal missile system to Kursk, enabling potential Oniks and Zircon strikes from the north (Source: @eRadarrua/93475).",
+      "Ukrainian drones destroyed a critical water‑aeration station for Kyiv, threatening the capital's water supply (Source: @eRadarrua/93493).",
+      "Three Shahed loitering munitions were launched from Sumy toward Lublin district, Poltava, showing continued Iranian‑supplied drone use (Source: @mon1tor_ua/67196)."
     ],
-    "threat_assessment": "Russian forces are escalating their strike capability by integrating hypersonic \"Oreshnik\" missiles, advanced cruise missiles and dense Shahed UAV swarms, targeting both strategic command centres and civilian infrastructure. Ukrainian air defences have demonstrated resilience but face saturation risks, especially over the capital and northern corridors. Continued Ukrainian counter‑strikes on Russian energy assets suggest a reciprocal escalation in targeting critical logistics.",
-    "regional_response": "Western partners have heightened intelligence sharing, as evidenced by Ukrainian reports of American and European data on the \"Oreshnik\" preparation. NATO allies are likely to increase air‑defence aid, while diplomatic pressure mounts after attacks on foreign embassy residences. Russia's claims of limited civilian targeting contrast with observed strikes, potentially affecting its international narrative.",
-    "intelligence_notes": "Monitoring of launch sites in Astrakhan, Bryansk and Crimea is critical for early warning of hypersonic and cruise missile launches. UAV traffic from Russian oblasts to Kyiv and the north requires enhanced radar coverage. The effectiveness of Ukrainian strikes on Russian oil infrastructure may prompt retaliatory attacks on energy facilities in occupied territories."
+    "threat_assessment": "Russian offensive capability remains high, demonstrated by large‑scale missile and drone barrages on Kyiv and the deployment of advanced missile systems like Bastion, Oniks, and Zircon. Ukrainian resilience is evident in effective UAV interceptions and deep strikes on Russian rear infrastructure, yet civilian casualties continue to rise, especially in Cherkasy and Kyiv regions. The ongoing use of Shahed loitering munitions and guided aviation bombs indicates a diversified Russian aerial threat that challenges Ukrainian air defenses.",
+    "regional_response": "Ukraine is bolstering civil defense in Kyiv, activating air‑raid alerts and reinforcing water infrastructure protection after the water‑aeration station strike. International partners are monitoring the massive Kyiv attack, with NATO likely to increase air‑defense support. Russian relocation of missile assets to Kursk may prompt heightened NATO surveillance along the northern flank.",
+    "intelligence_notes": "Monitoring of Russian Bastion and Oniks deployments is critical for early warning of long‑range missile threats. Continued UAV activity from multiple launch points suggests a need for expanded electronic warfare and counter‑UAV assets. Ukrainian deep‑strike capabilities against Russian rear logistics, especially oil‑gas facilities, are degrading Russian sustainment and should be amplified."
   },
   "missiles": 90,
   "drones": 600,
   "kpszsu_timeline": [
-    2,
+    1,
     0,
     2,
     0,
     1,
-    4,
     5,
-    12,
-    9,
-    8,
     6,
     13,
-    17,
-    9,
+    7,
+    7,
+    8,
+    16,
+    15,
+    6,
     4,
+    2,
+    2,
+    0,
+    3,
     1,
-    2,
-    1,
-    2,
-    2,
     2,
     0,
     0,
