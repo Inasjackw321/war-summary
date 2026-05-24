@@ -865,8 +865,9 @@ const sourcesModal = (function () {
 })();
 
 // ── Auto-refresh ─────────────────────────────────────────────────────────────
-let _lastKnownUpdatedAt = null;
-let _autoRefreshInterval = null;
+let _lastKnownUpdatedAt   = null;
+let _lastKnownUaUpdatedAt = null;
+let _autoRefreshInterval  = null;
 
 function _snapshotItems(sp) {
   const texts = new Set();
@@ -885,30 +886,42 @@ function _animateNewItems(sp, prev) {
 
 async function checkForRefresh() {
   try {
-    const r = await fetch("data/middle_east.json?_=" + Date.now());
-    if (!r.ok) return false;
-    const fresh = await r.json();
-    if (fresh.updated_at && fresh.updated_at !== _lastKnownUpdatedAt) {
-      _lastKnownUpdatedAt = fresh.updated_at;
+    const ts = Date.now();
+    const [rMe, rUa] = await Promise.all([
+      fetch("data/middle_east.json?_=" + ts),
+      fetch("data/ukraine.json?_="     + ts),
+    ]);
+    if (!rMe.ok && !rUa.ok) return false;
 
-      const scrollY = window.scrollY;
-      const prevMe = _snapshotItems("me");
-      const prevUa = _snapshotItems("ua");
+    const [freshMe, freshUa] = await Promise.all([
+      rMe.ok ? rMe.json() : Promise.resolve(null),
+      rUa.ok ? rUa.json() : Promise.resolve(null),
+    ]);
 
-      delete dataCache["middle_east"]; delete dataCache["ukraine"];
-      const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
-      if (me) { populatePanel("middle_east", me); buildTicker([me, ua]); }
-      if (ua) populatePanel("ukraine", ua);
-      if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
+    const meChanged = freshMe && freshMe.updated_at && freshMe.updated_at !== _lastKnownUpdatedAt;
+    const uaChanged = freshUa && freshUa.updated_at && freshUa.updated_at !== _lastKnownUaUpdatedAt;
 
-      window.scrollTo({ top: scrollY, behavior: "instant" });
-      _animateNewItems("me", prevMe);
-      _animateNewItems("ua", prevUa);
+    if (!meChanged && !uaChanged) return false;
 
-      showToast("Data refreshed");
-      return true;
-    }
-    return false;
+    const scrollY = window.scrollY;
+    const prevMe  = _snapshotItems("me");
+    const prevUa  = _snapshotItems("ua");
+
+    if (meChanged) { _lastKnownUpdatedAt   = freshMe.updated_at; delete dataCache["middle_east"]; }
+    if (uaChanged) { _lastKnownUaUpdatedAt = freshUa.updated_at; delete dataCache["ukraine"]; }
+
+    const [me, ua] = await Promise.all([loadConflict("middle_east"), loadConflict("ukraine")]);
+    if (me && meChanged) { populatePanel("middle_east", me); }
+    if (ua && uaChanged) { populatePanel("ukraine", ua); }
+    if (me || ua) buildTicker([me || dataCache["middle_east"], ua || dataCache["ukraine"]]);
+    if (me) updateHeaderForConflict(activeTab === "ukraine" ? ua : me);
+
+    window.scrollTo({ top: scrollY, behavior: "instant" });
+    if (meChanged) _animateNewItems("me", prevMe);
+    if (uaChanged) _animateNewItems("ua", prevUa);
+
+    showToast("Data refreshed");
+    return true;
   } catch (e) { console.warn("Auto-refresh check failed:", e); return false; }
 }
 
@@ -998,7 +1011,7 @@ async function init() {
     loadConflict("ukraine"),
   ]);
   if (me) { populatePanel("middle_east", me); startCountdown(me.updated_at); scheduleAutoRefresh(me.updated_at); }
-  if (ua) populatePanel("ukraine", ua);
+  if (ua) { populatePanel("ukraine", ua); if (ua.updated_at) _lastKnownUaUpdatedAt = ua.updated_at; }
   buildTicker([me, ua]);
 
   // Refresh geo-bar times every minute (no network call needed)
