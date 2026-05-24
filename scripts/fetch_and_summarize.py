@@ -268,7 +268,7 @@ def fetch_channel_messages_24h(channel: str) -> tuple[list[str], list[datetime],
             pid = img.get("post_id")
             if pid is None:
                 continue
-            for adj in (pid - 1, pid + 1):
+            for adj in (pid - 1, pid + 1, pid - 2, pid + 2):
                 if adj in text_id_set:
                     img["companion_text_id"] = adj
                     break
@@ -303,10 +303,10 @@ _ATTACK_SUMMARY_RE = re.compile(
 
 
 def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
-    """Fetch kpszsu posts from last 72h, attack-summary texts sorted first."""
+    """Fetch kpszsu posts from last 72h, attack-summary texts sorted newest-first."""
     base_url = f"https://t.me/s/{channel}"
     cutoff = datetime.now(timezone.utc) - timedelta(hours=72)
-    attack_texts: list[str] = []   # posts that look like daily attack summaries
+    attack_entries: list[tuple[int, str]] = []   # (post_id, text) for attack summaries
     other_texts: list[str] = []
     before_id: int | None = None
 
@@ -324,6 +324,7 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
         any_within_window = False
 
         for msg in msg_els:
+            mid: int | None = None
             data_post = msg.get("data-post", "")
             if "/" in data_post:
                 try:
@@ -349,7 +350,7 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
                 txt = txt_el.get_text(separator=" ", strip=True)
                 if len(txt) > 10:
                     if _ATTACK_SUMMARY_RE.search(txt):
-                        attack_texts.append(txt)
+                        attack_entries.append((mid or 0, txt))
                     else:
                         other_texts.append(txt)
 
@@ -359,6 +360,10 @@ def fetch_kpszsu_all_texts(channel: str = "kpszsu") -> list[str]:
             break
         before_id = oldest_id
         time.sleep(0.9)
+
+    # Sort attack summaries newest-first by post ID so today's summary is parsed before older ones
+    attack_entries.sort(key=lambda x: x[0], reverse=True)
+    attack_texts = [text for _, text in attack_entries]
 
     # Attack-summary posts first so parse functions find them before non-attack posts
     all_texts = attack_texts + other_texts
@@ -718,7 +723,7 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
         per_channel_counts[ch] = len(msgs)
         if max_id:
             recent_post_urls[ch] = f"https://t.me/{ch}/{max_id}"
-        for img in images[:5]:  # cap per channel
+        for img in images[:15]:  # cap per channel
             all_media.append({**img, "channel": ch})
         print(f"    -> {len(msgs)} messages, {len(images)} images", file=sys.stderr)
 
@@ -764,23 +769,14 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
         alert_timeline = bucket_into_24h_slots(real_alert_timestamps) if real_alert_timestamps else [0] * 24
 
     else:  # ukraine
-        # Try parsing from already-fetched kpszsu messages first (avoids a second HTTP round-trip
-        # that is often rate-limited right after the main channel scrape).
-        kpszsu_fetched = per_channel_messages.get("kpszsu", [])
-        drones = parse_drone_count(kpszsu_fetched, missiles=0)
-        missiles = parse_missile_count(kpszsu_fetched, drones=drones)
+        # Always use dedicated fetch so attack summaries are sorted newest-first (by post ID)
+        # and is_relevant() filtering doesn't drop short numeric daily summaries.
+        print("  [kpszsu] doing dedicated fetch for missile/drone counts", file=sys.stderr)
+        kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
+        drones = parse_drone_count(kpszsu_raw, missiles=0)
+        missiles = parse_missile_count(kpszsu_raw, drones=drones)
         if missiles > 0 and drones == 0:
-            drones = parse_drone_count(kpszsu_fetched, missiles=missiles)
-
-        # If still 0/0, fall back to a dedicated kpszsu fetch that bypasses is_relevant()
-        # so short/numeric daily attack summaries are not filtered out.
-        if missiles == 0 and drones == 0:
-            print("  [kpszsu] no data from cached messages — doing dedicated fetch", file=sys.stderr)
-            kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
-            drones = parse_drone_count(kpszsu_raw, missiles=0)
-            missiles = parse_missile_count(kpszsu_raw, drones=drones)
-            if missiles > 0 and drones == 0:
-                drones = parse_drone_count(kpszsu_raw, missiles=missiles)
+            drones = parse_drone_count(kpszsu_raw, missiles=missiles)
         red_alerts_raw = missiles + drones
         print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
         update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
