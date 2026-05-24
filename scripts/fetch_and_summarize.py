@@ -520,7 +520,7 @@ def call_openrouter(prompt: str, model: str) -> str:
         "temperature": 0.2,
         "max_tokens": 6000,
     }
-    resp = requests.post(url, json=body, headers=headers, timeout=120)
+    resp = requests.post(url, json=body, headers=headers, timeout=180)
     resp.raise_for_status()
     return resp.json()["choices"][0]["message"]["content"].strip()
 
@@ -589,7 +589,7 @@ Messages (newest first, may include Hebrew/Arabic/Ukrainian/Russian):
 Return only the JSON object, no other text."""
 
     last_exc: Exception | None = None
-    for model in MODELS:
+    for i, model in enumerate(MODELS):
         try:
             raw = call_openrouter(prompt, model)
             raw = raw.strip()
@@ -597,12 +597,15 @@ Return only the JSON object, no other text."""
                 raw = re.sub(r"^```[a-z]*\n?", "", raw)
                 raw = re.sub(r"\n?```$", "", raw)
             result = json.loads(raw)
+            if not result.get("sections"):
+                raise ValueError("AI returned empty sections")
             print(f"  [ok] model={model}", file=sys.stderr)
             return result
         except Exception as e:
             last_exc = e
-            print(f"  [warn] model={model} failed: {e}", file=sys.stderr)
-            time.sleep(2)
+            wait = 20 * (i + 1)  # 20s, 40s, 60s between model attempts
+            print(f"  [warn] model={model} failed: {e} — waiting {wait}s before next model", file=sys.stderr)
+            time.sleep(wait)
     print(f"  [error] all models failed: {last_exc}", file=sys.stderr)
     return {"summary": "Summary unavailable.", "key_points": [], "sentiment": "unknown", "intensity": 5, "sections": {}}
 
@@ -678,7 +681,9 @@ def run() -> None:
     cleanup_old_media(media_dir)
 
     failed_conflicts = []
-    for key, conf in CONFLICTS.items():
+    conflict_keys = list(CONFLICTS.keys())
+    for i, key in enumerate(conflict_keys):
+        conf = CONFLICTS[key]
         print(f"\n=== {conf['title']} ===", file=sys.stderr)
         try:
             _process_conflict(key, conf, output_dir, media_dir)
@@ -686,6 +691,9 @@ def run() -> None:
             print(f"  ERROR processing {key}: {exc}", file=sys.stderr)
             traceback.print_exc(file=sys.stderr)
             failed_conflicts.append(key)
+        if i < len(conflict_keys) - 1:
+            print("  Pausing 90s before next conflict to avoid rate limits...", file=sys.stderr)
+            time.sleep(90)
 
     if failed_conflicts:
         print(f"\nFailed conflicts: {failed_conflicts}", file=sys.stderr)
