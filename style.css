@@ -749,6 +749,25 @@ body {
   border-color: #3a4a60;
   background: #ffffff08;
 }
+.footer-pill-btn--pluto {
+  color: #7c3aed;
+  border-color: #7c3aed40;
+}
+.footer-pill-btn--pluto:hover {
+  color: #9f6eff;
+  border-color: #7c3aed80;
+  background: #7c3aed0d;
+}
+.footer-pill-beta {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #7c3aed;
+  background: #7c3aed1a;
+  border: 1px solid #7c3aed40;
+  padding: 1px 5px;
+  border-radius: 99px;
+}
 
 /* ── Shared popup backdrop + panel ── */
 .pill-popup-backdrop {

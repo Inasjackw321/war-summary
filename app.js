@@ -1079,6 +1079,20 @@ function _buildSupportHtml() {
     + "Follow @Kaldockhi</a>";
 }
 
+function _buildPlutoHtml() {
+  return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
+    + '<div style="width:48px;height:48px;border-radius:50%;background:#7c3aed18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">'
+    + '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg></div>'
+    + '<div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:10px;">'
+    + '<span style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;">Pluto</span>'
+    + '<span style="font-size:9px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#7c3aed;background:#7c3aed1a;border:1px solid #7c3aed40;padding:2px 7px;border-radius:99px;letter-spacing:0.08em;">BETA</span>'
+    + '</div>'
+    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:16px;">Pluto is a source and information verification tool for War Summary. Cross-reference claims, trace citations, and assess the reliability of reported events.</p>'
+    + '<div style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:20px;background:#7c3aed12;border:1px solid #7c3aed30;color:#7c3aed;font-size:12px;font-family:\'JetBrains Mono\',monospace;font-weight:600;">'
+    + '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>'
+    + 'Coming Soon</div>';
+}
+
 function initFooterPopups() {
   const ids = {
     discordBotBtn: () => _openPillPopup(_buildDiscordHtml()),
@@ -1099,6 +1113,7 @@ function initFooterPopups() {
     },
     dataPolicyBtn: () => _openPillPopup(_buildDataPolicyHtml()),
     supportBtn:    () => _openPillPopup(_buildSupportHtml()),
+    plutoBtn:      () => _openPillPopup(_buildPlutoHtml()),
   };
   for (const [id, handler] of Object.entries(ids)) {
     const btn = document.getElementById(id);
