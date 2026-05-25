@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-25T05:13:15.303918+00:00",
-  "message_count": 212,
+  "updated_at": "2026-05-25T06:12:53.266838+00:00",
+  "message_count": 218,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,9 +11,8 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 690,
+  "red_alerts": 262,
   "red_alerts_timeline": [
-    0,
     33,
     0,
     0,
@@ -36,13 +35,13 @@
     16,
     0,
     0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    6,
     18,
-    8,
-    10,
+    7,
+    11,
     8,
     6,
     8,
@@ -52,8 +51,8 @@
     9,
     14,
     12,
-    11,
-    9,
+    10,
+    10,
     9,
     10,
     6,
@@ -62,41 +61,63 @@
     3,
     4,
     12,
-    9
+    10,
+    11
   ],
   "messages_by_channel": {
-    "@eRadarrua": 48,
-    "@kpszsu": 32,
+    "@eRadarrua": 49,
+    "@kpszsu": 34,
     "@mon1tor_ua": 8,
-    "@UkraineNow": 22,
+    "@UkraineNow": 23,
     "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 12,
-    "@tass_agency": 88
+    "@ukr_leaks_eng": 13,
+    "@tass_agency": 89
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/93584",
-    "kpszsu": "https://t.me/kpszsu/62715",
+    "eRadarrua": "https://t.me/eRadarrua/93589",
+    "kpszsu": "https://t.me/kpszsu/62718",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67218",
-    "UkraineNow": "https://t.me/UkraineNow/81439",
+    "UkraineNow": "https://t.me/UkraineNow/81441",
     "DeepStateUA": "https://t.me/DeepStateUA/23532",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30399",
-    "tass_agency": "https://t.me/tass_agency/377407"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30401",
+    "tass_agency": "https://t.me/tass_agency/377410"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81416",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30396",
-    "kpszsu": "https://t.me/kpszsu/62657",
-    "eRadarrua": "https://t.me/eRadarrua/93559",
-    "tass_agency": "https://t.me/tass_agency/377407"
+    "kpszsu": "https://t.me/kpszsu/62715",
+    "UkraineNow": "https://t.me/UkraineNow/81420",
+    "eRadarrua": "https://t.me/eRadarrua/93571",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67215",
+    "tass_agency": "https://t.me/tass_agency/377409"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/93588",
+      "post_id": 93588,
+      "channel": "eRadarrua",
+      "ts": "2026-05-25T05:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/L8EVaalVVYhM6-VnIGGC5xyo1hN65VwewKa1uM3os68xfOpWd1Typfi3Nlko8bG25g04HtlhXMXsHixN0nEBOL33fvcxrPzJ6hmpoDDb_pxyaak8Jv9-zI7qLfIlnLzKIC-GKYTVMbI-6Fimp_6qguvrtQQdMMuYudyRnfeyEjddrGk0Y09MSegLaX3RIWKaR6Wi4Z9oD8uZAuwrtIt4IKMQpw0D4bMkTyclNa_uc3qwwPdn_I0PIiECjPr_fgEIKUHr_7jO43jbYtCYQOWTuXY8DRjbUeVJOMlZXnwDs_hck2KmZ4Hvy67XcX2tU8jHOLas5j8XqfPaHDf8fFROzA.jpg",
+      "companion_text_id": 93587
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81441",
+      "post_id": 81441,
+      "channel": "UkraineNow",
+      "ts": "2026-05-25T05:45:05+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81440",
+      "post_id": 81440,
+      "channel": "UkraineNow",
+      "ts": "2026-05-25T05:27:06+00:00"
+    },
     {
       "post_url": "https://t.me/kpszsu/62715",
       "post_id": 62715,
       "channel": "kpszsu",
       "ts": "2026-05-25T05:08:18+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/YvO2yN4wPvYomndUBZRsO0GFxsou5iRFGHSmLkkqzMg3aDk87cjp9xY0l_ZjhbNZ_1iZy7ekB21ksodlGmgINdA5lR7z0Yc6Hk5sGaWXDjQAWErhh-G_lAbdNitscVRUjHuAmtuhlL7YpOPzuAbOxDrETSg1FmsnE9yrr3fS0irgIbplqHhNzWvVUf6ntskIZHMoV5ywnxxfjsk0V67nF8Yfopxgf55xOO0u5Xyo7YkRYpyvUrc9f99zOMzDRYYWbLuoYhKmR6c9ySfZfoyfdJvlIOvfpohGwhl6nGZxTeUWJ6ENGRrhX0hBCszP4JVXpvlUEoyKF9XwZjPIWeGEGg.jpg",
-      "companion_text_id": 62713
+      "companion_text_id": 62716
     },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30399",
@@ -203,144 +224,142 @@
       "ts": "2026-05-24T19:31:33+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/bfuw2w_G16zsv1NseD145I_besfq8uXd7XusQpWYO7v0NuS4xcm4d-_rmGQ6_3O3I_MyC8TOjOg7zMz1cjTI_XdHg3cDOKuWu_CTasMtaTkKY7enCBV1r0QiXtY4yUK4Q0rPcU4rtT48Giq-81kmCXJzytdl3TYwJgYCbo3bw5oehW-1dbOyFhub6kclv_jeyQgk8toerWqrZsryn4p0G4jzsu_RfBGQ_52nLaWICUBDkf3Br5pWiYpCHKhz1kgtchtdn9qkN78wLEJDpwxHKsPuV-BtIx1ID7dIkQHlO7aIvwZuayQCwWtH6FhDbIGbQ3NJC9G78oIeBt3YrjaemQ.jpg",
       "companion_text_id": 93533
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/93532",
-      "post_id": 93532,
-      "channel": "eRadarrua",
-      "ts": "2026-05-24T19:18:33+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/I_F-bYA7E7B6Atb2DSohEuWLi_hZAgIrSkl8OenS9DpXsUZ7CvPZhYDj2RlgMwyCbjGYcYL_J4OLgQ_aJdw0KXMURvAKqRrIsoj7kw3srNLwILJ1lnv6DRaJGWf7s2Cp-i2VTVq2W9lKQrH_-X7lcIJqa3cvzIuqJcYJtsi2zEJQjhYU6TbvtEMj_AWtuZfN0emFJws9Y6YJk-U7CiNY9DSNjnFpvfh18kS8Yk-1ZhBxitwJ95mvTi_uG0hDmnKzqyIY1aYBb7NWbfMK0iZe58LjuU9qQvnWEgRc3QWX_E6_bxhW2U1GcbK6PlpwPpnwlZ5YeokwOxAdureIAzXR0Q.jpg",
-      "companion_text_id": 93533
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/93525",
-      "post_id": 93525,
-      "channel": "eRadarrua",
-      "ts": "2026-05-24T18:47:17+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/eDOTLU9bv0dnKV1h_wDz_LZZkbtAlqeDoDeicNMsubDjApWcBvqG0OZnp-xj018E5mbSO1LgSrF3Sx5pKEzNeFCopSh2Nx_vbOA6KkEF-HeSHWGV9CJIpMFXsk_TWX77wPFwWAWE2aBPaO8Cw4G2kd-67ib4QVlaPfIOS06RpWzF9eYHtHuKwMthb0S5YbzWSv2ifQwioslENngTKBeLJx63cj4K3rrwJw1bjMZQ5DNiWMWuTA2NYznPkzZ42UXaRdywVhvsFm_Mp0mBIF3E0P_zcsbHj2i-Rqi5ud7Xx_ShCq7Q6UvjxT2DRbxQyGXZ1h-M7rvlkZoBCl0tsfhCaQ.jpg",
-      "companion_text_id": 93524
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/67214",
-      "post_id": 67214,
-      "channel": "mon1tor_ua",
-      "ts": "2026-05-24T18:36:39+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/93545": "data/media/eRadarrua_93545.jpg",
-    "eRadarrua/93548": "data/media/eRadarrua_93548.jpg",
+    "eRadarrua/93588": "data/media/eRadarrua_93588.jpg",
+    "eRadarrua/93587": "data/media/eRadarrua_93588.jpg",
     "eRadarrua/93554": "data/media/eRadarrua_93554.jpg",
     "eRadarrua/93553": "data/media/eRadarrua_93554.jpg",
     "eRadarrua/93557": "data/media/eRadarrua_93557.jpg",
     "eRadarrua/93558": "data/media/eRadarrua_93558.jpg",
-    "eRadarrua/93525": "data/media/eRadarrua_93525.jpg",
-    "eRadarrua/93524": "data/media/eRadarrua_93525.jpg",
     "eRadarrua/93532": "data/media/eRadarrua_93532.jpg",
     "eRadarrua/93533": "data/media/eRadarrua_93532.jpg",
     "eRadarrua/93535": "data/media/eRadarrua_93535.jpg",
-    "eRadarrua/93505": "data/media/eRadarrua_93505.jpg",
-    "eRadarrua/93504": "data/media/eRadarrua_93505.jpg",
+    "eRadarrua/93545": "data/media/eRadarrua_93545.jpg",
+    "eRadarrua/93548": "data/media/eRadarrua_93548.jpg",
     "eRadarrua/93509": "data/media/eRadarrua_93509.jpg",
     "eRadarrua/93507": "data/media/eRadarrua_93509.jpg",
     "eRadarrua/93517": "data/media/eRadarrua_93517.jpg",
     "eRadarrua/93516": "data/media/eRadarrua_93517.jpg",
+    "eRadarrua/93525": "data/media/eRadarrua_93525.jpg",
+    "eRadarrua/93524": "data/media/eRadarrua_93525.jpg",
     "eRadarrua/93490": "data/media/eRadarrua_93490.jpg",
     "eRadarrua/93489": "data/media/eRadarrua_93490.jpg",
     "eRadarrua/93491": "data/media/eRadarrua_93491.jpg",
     "eRadarrua/93492": "data/media/eRadarrua_93491.jpg",
     "eRadarrua/93494": "data/media/eRadarrua_93494.jpg",
     "eRadarrua/93493": "data/media/eRadarrua_93494.jpg",
-    "eRadarrua/93470": "data/media/eRadarrua_93470.jpg",
-    "eRadarrua/93471": "data/media/eRadarrua_93470.jpg",
+    "eRadarrua/93505": "data/media/eRadarrua_93505.jpg",
+    "eRadarrua/93504": "data/media/eRadarrua_93505.jpg",
     "kpszsu/62715": "data/media/kpszsu_62715.jpg",
-    "kpszsu/62713": "data/media/kpszsu_62715.jpg",
+    "kpszsu/62716": "data/media/kpszsu_62715.jpg",
     "kpszsu/62647": "data/media/kpszsu_62647.jpg",
     "kpszsu/62645": "data/media/kpszsu_62647.jpg"
   },
-  "summary": "Ukrainian air defenses reported downing 604 hostile targets overnight, including 55 missiles and 549 UAVs. Russia struck the strategic Tamanneftegaz oil terminal in the Krasnodar region and hit Bila Tserkva with an Oreshnik missile. Kyiv suffered its deadliest night since 2022 with 81 casualties, intensifying the volatile front.",
+  "summary": "Russia launched an Oreshnik (potentially nuclear-capable) strike on Bila Tserkva overnight, while Ukraine reported a massive Shahed drone wave with 246 UAVs shot down across the front. Ukrainian forces hit the Russian Tamanneftegaz oil terminal in the Krasnodar region and a weapons depot in Crimea, demonstrating deep‑strike capability. UAV activity remains high, with multiple groups targeting northern, eastern and southern axes, and Russian tactical aviation is active on the eastern front.",
   "key_points": [
-    "Ukrainian air defence neutralised 604 enemy assets (55 missiles, 549 UAVs) overnight, citing multiple missile types and 11 Iskander interceptions (Source: @UkraineNow/81416).",
-    "Ukrainian forces damaged the Tamanneftegaz terminal in Russia’s Krasnodar region, impairing a facility handling up to 20 Mt of oil annually (Source: @UkraineNow/81420).",
-    "A Russian Oreshnik missile struck Bila Tserkva, damaging a garage cooperative and nearby industrial buildings (Source: @ukr_leaks_eng/30396).",
-    "Kyiv recorded 81 injured, including three children, after a massive missile and drone barrage affecting metro and shopping centres (Source: @UkraineNow/81432).",
-    "Russia launched a medium‑range ballistic missile from Kapustin Yar, alongside two Kinzhal hypersonic missiles and three Zircon anti‑ship missiles (Source: @UkraineNow/81416).",
-    "Numerous UAV groups reported across northern and central oblasts: Chernihiv (multiple swarms towards Nizhyn), Kharkiv (towards Izium), and from the Black Sea towards Mykolaiv (Source: @kpszsu/62657, @eRadarrua/93559).",
-    "Russian officials warned of possible ballistic weapon use from the north‑east and south‑west fronts (Source: @kpszsu/62677, @kpszsu/62685).",
-    "Russian defence ministry claimed 173 Ukrainian UAVs were shot down over Russian territory during the night (Source: @tass_agency/377407)."
+    "Russia employed an Oreshnik missile against Bila Tserkva, Kyiv region, causing civilian damage (Source: @ukr_leaks_eng/30396).",
+    "Ukrainian air defence downed 246 hostile Shahed, Gerbera and Iltamass drones during a coordinated night attack across north, south and east (Source: @kpszsu/62715).",
+    "Ukrainian forces struck the Tamanneftegaz oil terminal in Russia's Krasnodar region, damaging a key export facility (Source: @UkraineNow/81420).",
+    "Multiple UAV groups reported heading toward Chernihiv, Sumy, Kharkiv, Zaporizhzhia and Mykolaiv regions, indicating broad offensive pressure (Source: @eRadarrua/93571, @kpszsu/62690).",
+    "Russian tactical aviation activity increased on the eastern front, with threats to near‑front areas (Source: @kpszsu/62702).",
+    "A ballistic missile threat was noted from the north‑east, raising concerns of longer‑range strikes (Source: @kpszsu/62679).",
+    "No significant Russian troop movements detected along the Belarusian border, though pressure on Belarus is reported (Source: @UkraineNow/81435).",
+    "Russian forces used a FAB munition on a multi‑storey building in Druzhkivka, Donetsk region, killing a 70‑year‑old woman and injuring several others (Source: @UkraineNow/81440)."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian air defences reported downing 604 hostile targets overnight, marking a significant defensive success. Russia struck the strategic Tamanneftegaz oil terminal and hit Bila Tserkva with an Oreshnik missile, demonstrating continued deep‑strike capability. Kyiv suffered its deadliest night since 2022 with 81 casualties, underscoring the conflict’s escalating intensity.",
+    "executive_summary": "Russia employed an Oreshnik strike on Bila Tserkva, prompting civilian casualties and heightened alarm. Ukraine’s air defence successfully intercepted 246 hostile drones in a coordinated night barrage, while Ukrainian forces hit the Russian Tamanneftegaz oil terminal and a Crimea weapons depot, showing deep‑strike reach. UAV and tactical aviation activity remains intense across multiple fronts, sustaining a volatile operational environment.",
     "ukraine": {
       "points": [
-        "Air defence units intercepted 55 missiles—including 1 medium‑range ballistic from Kapustin Yar, 2 Kinzhal hypersonics, 3 Zircon anti‑ship, 30 Iskander‑M, 54 cruise missiles, and 600 Shahed‑type drones—plus 11 Iskander missiles, showcasing layered protection (Source: @UkraineNow/81416).",
-        "Ukrainian strike on the Tamanneftegaz terminal in Krasnodar damaged a key oil‑loading facility and a nearby ammunition depot in Crimea, potentially reducing Russia’s oil export capacity of up to 20 Mt per year (Source: @UkraineNow/81420).",
-        "Kyiv’s night attack injured 81 people, with three children, damaging the Lukianivska metro station and the Kvadrat shopping centre; 31 victims remain hospitalized (Source: @UkraineNow/81432).",
-        "An Oreshnik missile hit Bila Tserkva, destroying a garage cooperative and damaging industrial structures; local authorities reported material losses but no confirmed fatalities (Source: @ukr_leaks_eng/30396).",
-        "Ukrainian forces reported successful targeting of Russian UAV command posts in Donetsk and Russian‑occupied territories, degrading enemy reconnaissance (Source: @UkraineNow/81420)."
+        "Ukrainian air defence reported shooting down 246 Shahed, Gerbera and Iltamass drones during a night‑long assault, with 10 direct hits on enemy positions across nine locations (Source: @kpszsu/62715).",
+        "Ukrainian special forces struck the Tamanneftegaz oil terminal in Russia’s Krasnodar region, damaging a key oil‑export stand capable of handling up to 20 million tonnes annually (Source: @UkraineNow/81420).",
+        "A Ukrainian UAV group targeted the Rybakivka/Okhaki area in Mykolaiv region from the sea, indicating maritime launch capability (Source: @eRadarrua/93553).",
+        "Ukrainian forces hit a weapons depot in Bilolutsk, Luhansk region, and multiple UAV command posts in Donetsk, degrading Russian rear‑area logistics (Source: @UkraineNow/81420).",
+        "Ukrainian intelligence noted 21‑42 Shahed groups launching within an hour, prompting heightened civil defence alerts (Source: @mon1tor_ua/67215).",
+        "Ukrainian officials confirmed damage to President Zelensky’s residence and a businessman’s apartment during the night attack on Kyiv (Source: @ukr_leaks_eng/30398).",
+        "Ukrainian border guards reported no Russian troop movements near the Belarusian frontier, though Russian pressure on Belarus persists (Source: @UkraineNow/81435).",
+        "Ukrainian forces continue to intercept Russian UAVs over Chernihiv, Sumy and Kharkiv, maintaining air‑space security (Source: @kpszsu/62690)."
       ]
     },
     "russia": {
       "points": [
-        "Russia launched a medium‑range ballistic missile from Kapustin Yar, accompanied by two Kinzhal hypersonic missiles and three Zircon anti‑ship missiles, indicating a diversified missile sortie (Source: @UkraineNow/81416).",
-        "Russian defence ministry announced the downing of 173 Ukrainian UAVs over Russian regions during the same night, reflecting heightened air‑defence activity (Source: @tass_agency/377407).",
-        "Nine districts of Kherson region lost power after Ukrainian attacks, suggesting successful strikes on regional electricity infrastructure (Source: @tass_agency/377401).",
-        "A UAV attack in Kalininsky district of Gorlovka injured five civilians, showing continued Russian‑controlled area vulnerability (Source: @tass_agency/377404).",
-        "Russian officials warned of potential ballistic weapon deployment from the north‑east and south‑west fronts, signaling readiness to expand strike zones (Source: @kpszsu/62677, @kpszsu/62685)."
+        "Russia launched an Oreshnik missile strike on Bila Tserkva, Kyiv region, causing civilian casualties and infrastructure damage (Source: @ukr_leaks_eng/30396).",
+        "Russian tactical aviation increased activity on the eastern front, with threats to near‑front zones reported (Source: @kpszsu/62702).",
+        "A ballistic missile threat was flagged from the north‑east, suggesting possible long‑range strikes (Source: @kpszsu/62679).",
+        "Russian forces used a FAB munition on a multi‑storey building in Druzhkivka, Donetsk region, killing a 70‑year‑old woman and injuring several civilians (Source: @UkraineNow/81440).",
+        "Russian UAV units received satellite‑link upgrades for the Vostok grouping, enhancing command‑and‑control (Source: @tass_agency/377409).",
+        "Russian forces reported no significant equipment movements near the Belarusian border, despite political pressure (Source: @UkraineNow/81435).",
+        "Russian air defence intercepted multiple Ukrainian UAVs over Chernihiv and Sumy, indicating continued defensive operations (Source: @kpszsu/62690).",
+        "Russian forces suffered casualties from Ukrainian drone strikes on logistics hubs in Crimea and the Donetsk region (Source: @UkraineNow/81420)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV swarms reported near Donetsk region, targeting Ukrainian command posts and logistics hubs, with multiple Shahed‑type drones observed (Source: @UkraineNow/81420).",
-        "Russian artillery and missile fire continued in the Luhansk area, though specific numbers were not disclosed, maintaining pressure on Ukrainian positions.",
-        "Ukrainian forces reported successful interception of several Russian UAVs over the eastern front, limiting enemy reconnaissance (Source: @UkraineNow/81416).",
-        "Civilian casualties in the eastern front remained low compared to other sectors, indicating effective Ukrainian air‑defence coverage."
+        "Ukrainian UAVs targeted Kramatorsk and Sloviansk in Donetsk, aiming at logistics and command nodes (Source: @kpszsu/62693).",
+        "Ukrainian forces reported UAV groups heading toward Pavlograd, Kirovohrad and nearby Zolotopol, indicating pressure on the Dnipropetrovsk axis (Source: @eRadarrua/93571).",
+        "Russian tactical aviation activity intensified east of Kharkiv, with threats to frontline positions (Source: @kpszsu/62702).",
+        "Ukrainian air defence downed numerous Shahed drones over the eastern sector, with 10 direct strikes recorded on enemy positions (Source: @kpszsu/62715).",
+        "Ukrainian UAVs launched from the sea toward Rybakivka/Okhaki in Mykolaiv, threatening Russian rear‑area assets (Source: @eRadarrua/93553).",
+        "Russian forces reported UAV command post hits in Donetsk, degrading their eastern UAV coordination (Source: @UkraineNow/81420).",
+        "Ukrainian intelligence noted multiple Shahed launch groups (21‑42) operating near the eastern front, prompting heightened alerts (Source: @mon1tor_ua/67215).",
+        "Russian ballistic missile threat from the north‑east could affect eastern Ukrainian cities (Source: @kpszsu/62679)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple UAV groups detected in Chernihiv oblast, moving towards Nizhyn and Slavutych, suggesting preparatory reconnaissance for ground operations (Source: @kpszsu/62657, @eRadarrua/93559).",
-        "Ukrainian radar reported UAV activity from the Black Sea heading towards Mykolaiv, indicating cross‑regional threat vectors (Source: @kpszsu/62657).",
-        "Russian ballistic threat warnings issued for the north‑east, potentially targeting Kyiv and surrounding oblasts (Source: @kpszsu/62677).",
-        "Ukrainian air‑defence units on the northern front reported several successful engagements of incoming drones, maintaining air superiority."
+        "Ukrainian UAV groups reported near Chernihiv, Snovsk, Bahmach and Nizhyn, moving southward toward central Ukraine (Source: @kpszsu/62690, @kpszsu/62707).",
+        "Ukrainian forces observed UAV activity over Sums’ Konoтop and Kirikivka, indicating pressure on northern Sumy oblast (Source: @eRadarrua/93571).",
+        "Russian ballistic missile threat from the north‑east raises risk to Kyiv and surrounding northern regions (Source: @kpszsu/62679).",
+        "Ukrainian air defence intercepted UAVs over Chernihiv and surrounding districts, maintaining airspace integrity (Source: @kpszsu/62690).",
+        "Ukrainian reconnaissance reported UAV sightings near Slavutych, moving southward (Source: @eRadarrua/93577).",
+        "Russian satellite‑linked UAV command upgrades for Vostok may enhance northern UAV operations (Source: @tass_agency/377409).",
+        "No significant Russian troop movements detected along the Belarusian border, though political pressure persists (Source: @UkraineNow/81435).",
+        "Ukrainian forces reported a UAV strike near the northern town of Sviatohirsk, targeting logistics (Source: @eRadarrua/93580)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian strike on the Tamanneftegaz terminal in Krasnodar disrupted a key oil export node, affecting up to 20 Mt of oil throughput annually (Source: @UkraineNow/81420).",
-        "UAV sorties from the Black Sea targeted Mykolaiv and surrounding coastal installations, reflecting Russian maritime pressure (Source: @kpszsu/62657).",
-        "Russian missile launches from the south, including Kinzhal and Zircon, aimed at Ukrainian infrastructure in the Kherson and Zaporizhzhia regions (Source: @UkraineNow/81416).",
-        "Power outages reported in nine Kherson districts after Ukrainian attacks, indicating successful strikes on Russian‑occupied utilities (Source: @tass_agency/377401)."
+        "Ukrainian UAVs launched from the sea toward Rybakivka/Okhaki in Mykolaiv, indicating maritime strike capability (Source: @eRadarrua/93553).",
+        "Ukrainian forces reported new UAV groups from the TOT of Kherson moving into Mykolaiv region (Source: @eRadarrua/93551).",
+        "Ukrainian strike hit a weapons depot in Bilolutsk, Crimea, degrading Russian ammunition stocks (Source: @UkraineNow/81420).",
+        "Russian FAB munition used on a multi‑storey building in Druzhkivka, Donetsk, causing civilian casualties (Source: @UkraineNow/81440).",
+        "Ukrainian UAV activity reported near Pavlograd and nearby Zaporizhzhia areas, pressuring southern logistics (Source: @kpszsu/62690).",
+        "Ukrainian air defence downed multiple Shahed drones over southern sectors during the night wave (Source: @kpszsu/62715).",
+        "Russian tactical aviation threats noted for southern front, potentially targeting Ukrainian rear areas (Source: @kpszsu/62702).",
+        "Ukrainian forces reported UAV sightings near the southern city of Kherson, indicating ongoing reconnaissance (Source: @eRadarrua/93571)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine’s air‑defence shot down 604 hostile assets (55 missiles, 549 UAVs) including 11 Iskander missiles, 44 cruise missiles, and 600 Shahed‑type drones (Source: @UkraineNow/81416).",
-        "Russia claimed the destruction of 173 Ukrainian UAVs over its territory, reflecting intense aerial contest (Source: @tass_agency/377407).",
-        "Russian missile sortie featured a mix of ballistic, hypersonic, and cruise missiles, demonstrating a multi‑layered strike capability (Source: @UkraineNow/81416).",
-        "UAV activity surged across multiple fronts, with groups reported in Chernihiv, Kharkiv, Sumy, and from the Black Sea, complicating Ukrainian air‑defence allocation (Source: @kpszsu/62657, @eRadarrua/93559).",
-        "Ukrainian forces reported successful targeting of Russian UAV command posts in occupied Donetsk, degrading enemy ISR (Source: @UkraineNow/81420)."
+        "Ukrainian air defence shot down 246 hostile Shahed, Gerbera and Iltamass drones in a coordinated night attack across the country (Source: @kpszsu/62715).",
+        "Russian tactical aviation increased activity on the eastern front, posing a heightened threat to Ukrainian positions (Source: @kpszsu/62702).",
+        "Ukrainian UAVs conducted maritime launches against Rybakivka/Okhaki in Mykolaiv, demonstrating sea‑based strike capability (Source: @eRadarrua/93553).",
+        "Russian Oreshnik missile strike on Bila Tserkva represents a possible nuclear‑capable weapon use, escalating air‑space risk (Source: @ukr_leaks_eng/30396).",
+        "Ukrainian forces struck the Tamanneftegaz oil terminal in Russia’s Krasnodar region, showing long‑range strike reach (Source: @UkraineNow/81420).",
+        "Multiple UAV groups reported heading toward Chernihiv, Sumy, Kharkiv and southern oblasts, indicating broad aerial pressure (Source: @eRadarrua/93571, @kpszsu/62690).",
+        "Russian satellite‑linked UAV command upgrades for Vostok enhance their operational coordination (Source: @tass_agency/377409).",
+        "Ukrainian air defence intercepted UAVs over Kyiv, including strikes that damaged President Zelensky’s residence (Source: @ukr_leaks_eng/30398)."
       ]
     },
     "key_developments": [
-      "Ukrainian air defences downed 604 hostile targets overnight, including 55 missiles and 549 UAVs, marking a major defensive success (Source: @UkraineNow/81416).",
-      "A Ukrainian strike damaged the Tamanneftegaz oil terminal in Russia’s Krasnodar region, potentially reducing Russia’s oil export capacity (Source: @UkraineNow/81420).",
-      "Kyiv suffered 81 injuries, including three children, after a massive missile and drone barrage, the deadliest night in the capital since 2022 (Source: @UkraineNow/81432).",
-      "Russia employed an Oreshnik missile against Bila Tserkva, damaging civilian infrastructure and highlighting continued deep‑strike capability (Source: @ukr_leaks_eng/30396).",
-      "Russia launched a medium‑range ballistic missile from Kapustin Yar together with Kinzhal and Zircon missiles, showing a diversified missile sortie (Source: @UkraineNow/81416).",
-      "Numerous UAV groups were reported across northern and central oblasts, including Chernihiv, Kharkiv, Sumy, and from the Black Sea towards Mykolaiv, indicating expanded swarm activity (Source: @kpszsu/62657, @eRadarrua/93559).",
-      "Russian officials warned of possible ballistic weapon use from the north‑east and south‑west fronts, suggesting preparation for broader strike zones (Source: @kpszsu/62677, @kpszsu/62685)."
+      "Russia launched an Oreshnik missile strike on Bila Tserkva, Kyiv region, causing civilian casualties and infrastructure damage (Source: @ukr_leaks_eng/30396).",
+      "Ukrainian air defence downed 246 hostile Shahed, Gerbera and Iltamass drones during a coordinated night attack across north, south and east (Source: @kpszsu/62715).",
+      "Ukrainian forces struck the Tamanneftegaz oil terminal in Russia's Krasnodar region, damaging a key export facility (Source: @UkraineNow/81420).",
+      "Multiple UAV groups were reported heading toward Chernihiv, Sumy, Kharkiv, Pavlograd and Mykolaiv, indicating widespread aerial pressure (Source: @eRadarrua/93571, @kpszsu/62690).",
+      "Russian tactical aviation activity increased on the eastern front, posing heightened threat to Ukrainian positions (Source: @kpszsu/62702).",
+      "A ballistic missile threat was noted from the north‑east, raising concerns of long‑range strikes on Ukrainian territory (Source: @kpszsu/62679).",
+      "Ukrainian strike hit a weapons depot in Bilolutsk, Crimea, degrading Russian ammunition stocks (Source: @UkraineNow/81420)."
     ],
-    "threat_assessment": "Russia continues to leverage a mixed missile arsenal, including ballistic, hypersonic, and cruise missiles, to strike deep targets such as oil infrastructure and Ukrainian cities. Ukrainian air‑defence remains effective, intercepting the majority of incoming threats, yet the persistent UAV swarms across multiple fronts strain detection and response capacities. The escalation of ballistic threats from both north‑east and south‑west fronts indicates Russia may broaden its strike envelope, posing heightened risk to critical infrastructure and civilian populations.",
-    "regional_response": "Ukraine is intensifying its air‑defence posture and reallocating assets to counter the surge in UAV swarms, while also conducting retaliatory strikes on strategic Russian logistics nodes. International partners are monitoring the increased use of advanced Russian missiles, potentially prompting additional air‑defence aid. Regional authorities in occupied territories report infrastructure damage and power outages, reflecting the conflict's spillover effects on civilian services.",
-    "intelligence_notes": "Open‑source UAV tracking shows coordinated group movements from the Black Sea towards Mykolaiv and from northern oblasts towards key logistical corridors, suggesting preparatory reconnaissance for ground offensives. The successful Ukrainian strike on the Tamanneftegaz terminal demonstrates capability to target high‑value assets deep within Russian territory, likely to influence future targeting priorities. Continued Russian warnings of ballistic weapon deployment underscore a strategic intent to expand strike capabilities beyond current frontlines."
+    "threat_assessment": "Russia is escalating its strike capabilities, employing the Oreshnik system and threatening ballistic attacks from the north‑east, while intensifying UAV and tactical aviation operations across all fronts. Ukraine counters with robust air defence, demonstrated by downing over 240 hostile drones, and conducts deep‑strike operations against Russian logistical nodes, including the Tamanneftegaz terminal and Crimea depots. The high density of UAV activity and the introduction of maritime launch platforms suggest a broadened operational envelope for both sides, maintaining a volatile balance.",
+    "regional_response": "Western allies are condemning the use of Oreshnik and urging restraint, while Ukraine seeks increased air‑defence aid to counter the surge in hostile UAVs. Russia continues to reinforce its satellite‑linked UAV command structures and signals readiness to employ longer‑range ballistic assets, prompting neighboring states to heighten alert levels. The lack of Russian troop movements near the Belarusian border indicates a focus on remote strike capabilities rather than conventional ground offensives.",
+    "intelligence_notes": "Open‑source monitoring shows a pattern of coordinated UAV swarms targeting both northern and southern axes, likely aimed at overwhelming Ukrainian air‑defence networks. The maritime UAV launch from the Black Sea into Mykolaiv suggests a new operational vector that could bypass land‑based air‑defence zones. Russian satellite‑link upgrades for UAV groups may improve strike coordination, while Ukraine's successful deep‑strike missions indicate growing long‑range strike proficiency."
   },
-  "missiles": 428,
+  "missiles": 0,
   "drones": 262,
   "kpszsu_timeline": [
-    0,
     4,
     0,
     2,
@@ -353,8 +372,8 @@
     1,
     4,
     1,
-    3,
     2,
+    3,
     1,
     2,
     0,
@@ -363,6 +382,7 @@
     1,
     1,
     2,
-    2
+    3,
+    1
   ]
 }
