@@ -620,11 +620,155 @@ function initSectionControls(sp) {
   });
 }
 
+// ── Graph modal ───────────────────────────────────────────────────────────────
+const graphCharts = {};
+
+function _last7Days() {
+  const today = new Date();
+  return Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate() - (6 - i)));
+    return d.toISOString().split("T")[0];
+  });
+}
+
+async function openGraphModal() {
+  const backdrop = document.getElementById("graphModalBackdrop");
+  if (!backdrop) return;
+  backdrop.setAttribute("aria-hidden", "false");
+  backdrop.classList.add("open");
+  document.body.style.overflow = "hidden";
+  await _renderGraphCharts();
+}
+
+function closeGraphModal() {
+  const backdrop = document.getElementById("graphModalBackdrop");
+  if (!backdrop) return;
+  backdrop.setAttribute("aria-hidden", "true");
+  backdrop.classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+async function _renderGraphCharts() {
+  const days = _last7Days();
+  const dayLabels = days.map(d => {
+    const [, m, dd] = d.split("-");
+    return `${m}/${dd}`;
+  });
+
+  const [ukHist, meHist] = await Promise.all([
+    fetch("data/ukraine_history.json").then(r => r.ok ? r.json() : { entries: [] }).catch(() => ({ entries: [] })),
+    fetch("data/middle_east_history.json").then(r => r.ok ? r.json() : { entries: [] }).catch(() => ({ entries: [] })),
+  ]);
+
+  const ukByDate = Object.fromEntries((ukHist.entries || []).map(e => [e.date, e]));
+  const meByDate = Object.fromEntries((meHist.entries || []).map(e => [e.date, e]));
+
+  const missiles = days.map(d => ukByDate[d]?.missiles ?? 0);
+  const drones   = days.map(d => ukByDate[d]?.drones   ?? 0);
+  const alerts   = days.map(d => meByDate[d]?.red_alerts ?? 0);
+
+  const hasUkData = missiles.some(v => v > 0) || drones.some(v => v > 0);
+  const hasMeData = alerts.some(v => v > 0);
+
+  function _showEmpty(canvasId, msg) {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    const wrap = canvas.parentElement;
+    canvas.style.display = "none";
+    if (!wrap.querySelector(".graph-empty")) {
+      const el = document.createElement("div");
+      el.className = "graph-empty";
+      el.textContent = msg;
+      wrap.appendChild(el);
+    }
+  }
+
+  // Ukraine chart
+  const ukCanvas = document.getElementById("gm-ukraine-chart");
+  if (ukCanvas) {
+    if (!hasUkData) {
+      _showEmpty("gm-ukraine-chart", "No data yet — check back after the next update");
+    } else {
+      ukCanvas.style.display = "";
+      ukCanvas.parentElement.querySelector(".graph-empty")?.remove();
+      if (graphCharts.ukraine) { graphCharts.ukraine.destroy(); delete graphCharts.ukraine; }
+      graphCharts.ukraine = new Chart(ukCanvas, {
+        type: "bar",
+        data: {
+          labels: dayLabels,
+          datasets: [
+            { label: "Missiles", data: missiles, backgroundColor: "rgba(229,62,91,0.75)", borderRadius: 3, stack: "a" },
+            { label: "Drones",   data: drones,   backgroundColor: "rgba(59,130,246,0.6)",  borderRadius: 3, stack: "a" },
+          ],
+        },
+        options: {
+          ...CHART_DEFAULTS,
+          plugins: {
+            ...CHART_DEFAULTS.plugins,
+            legend: { display: true, labels: { color: "#5a6a88", font: { family: "'JetBrains Mono',monospace", size: 9 }, boxWidth: 8, padding: 12 } },
+            tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `${c.dataset.label}: ${c.raw}` } },
+          },
+          scales: { ...CHART_DEFAULTS.scales },
+        },
+      });
+    }
+  }
+
+  // Middle East / Israel chart
+  const meCanvas = document.getElementById("gm-israel-chart");
+  if (meCanvas) {
+    if (!hasMeData) {
+      _showEmpty("gm-israel-chart", "No data yet — check back after the next update");
+    } else {
+      meCanvas.style.display = "";
+      meCanvas.parentElement.querySelector(".graph-empty")?.remove();
+      if (graphCharts.middle_east) { graphCharts.middle_east.destroy(); delete graphCharts.middle_east; }
+      graphCharts.middle_east = new Chart(meCanvas, {
+        type: "bar",
+        data: {
+          labels: dayLabels,
+          datasets: [
+            { label: "Red Alerts", data: alerts, backgroundColor: "rgba(229,62,91,0.7)", borderRadius: 3 },
+          ],
+        },
+        options: {
+          ...CHART_DEFAULTS,
+          plugins: {
+            ...CHART_DEFAULTS.plugins,
+            legend: { display: false },
+            tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `Red Alerts: ${c.raw}` } },
+          },
+          scales: { ...CHART_DEFAULTS.scales },
+        },
+      });
+    }
+  }
+}
+
+function initGraphModal() {
+  const close = document.getElementById("graphModalClose");
+  const backdrop = document.getElementById("graphModalBackdrop");
+  if (close)    close.addEventListener("click", closeGraphModal);
+  if (backdrop) backdrop.addEventListener("click", e => { if (e.target === backdrop) closeGraphModal(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && backdrop?.classList.contains("open")) closeGraphModal(); });
+
+  // Graph buttons in each panel ctrl-row
+  ["me-graph-btn", "ua-graph-btn"].forEach(id => {
+    const btn = document.getElementById(id);
+    if (btn) btn.addEventListener("click", openGraphModal);
+  });
+}
+
 function initSectionFilter(sp) {
   const input = document.getElementById(`${sp}-filter`); if (!input) return;
   const prefix = sp === "me" ? "middle_east" : "ukraine";
   input.addEventListener("input", () => {
     const q = input.value.toLowerCase().trim();
+    if (q === "/graph") {
+      input.value = "";
+      openGraphModal();
+      return;
+    }
     document.querySelectorAll(`#panel-${prefix} .section-point`).forEach(pt => {
       const visible = !q || pt.textContent.toLowerCase().includes(q);
       pt.style.display = visible ? "" : "none";
@@ -1174,4 +1318,4 @@ function initFooterPopups() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); });
+document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); initGraphModal(); });

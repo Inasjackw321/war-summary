@@ -495,23 +495,18 @@ def parse_drone_count(texts: list[str], missiles: int = 0) -> int:
     return d
 
 
-def update_ukraine_history(output_dir: Path, attack_data: dict) -> None:
-    """Append today's kpszsu attack summary to the running history file."""
-    path = output_dir / "ukraine_history.json"
+def update_conflict_history(output_dir: Path, conflict_key: str, data: dict) -> None:
+    """Append today's data to a conflict's history file. Keeps last 90 days."""
+    path = output_dir / f"{conflict_key}_history.json"
     try:
         hist = json.loads(path.read_text()) if path.exists() else {"entries": []}
     except Exception:
         hist = {"entries": []}
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     hist["entries"] = [e for e in hist["entries"] if e["date"] != today]
-    if attack_data["total"] > 0:
-        hist["entries"].append({
-            "date": today,
-            "total": attack_data["total"],
-            "missiles": attack_data["missiles"],
-            "drones": attack_data["drones"],
-        })
+    hist["entries"].append({"date": today, **data})
     hist["entries"].sort(key=lambda e: e["date"])
+    hist["entries"] = hist["entries"][-90:]
     path.write_text(json.dumps(hist, indent=2, ensure_ascii=False))
 
 
@@ -773,6 +768,7 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
             (t, ts) for t, ts in zip(alert_texts, alert_times) if is_real_alert(t)
         ]
         red_alerts_raw = len(real_pairs)
+        update_conflict_history(output_dir, "middle_east", {"red_alerts": red_alerts_raw})
         real_alert_timestamps = [ts for _, ts in real_pairs if ts is not None]
         alert_timeline = bucket_into_24h_slots(real_alert_timestamps) if real_alert_timestamps else [0] * 24
 
@@ -786,7 +782,7 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
         missiles, drones = parse_attack_counts(kpszsu_raw)
         red_alerts_raw = missiles + drones
         print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
-        update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
+        update_conflict_history(output_dir, "ukraine", {"total": red_alerts_raw, "missiles": missiles, "drones": drones})
         # Count UAV events per eRadarrua post (each city direction = 1 event for accuracy)
         ua_alert_events = []
         ua_texts = per_channel_messages.get(alert_ch, [])
