@@ -363,41 +363,25 @@ async def slash_summary(interaction: discord.Interaction):
         await interaction.followup.send("⚠ Failed to fetch data — try again in a moment.")
 
 # ── /graph ────────────────────────────────────────────────────────────────────
-@bot.tree.command(name="graph", description="Show a 7-day history chart for a conflict")
-@app_commands.describe(conflict="Which conflict to chart (defaults to this channel's assigned conflict)")
-@app_commands.choices(conflict=[
-    app_commands.Choice(name="Middle East",    value="middle_east"),
-    app_commands.Choice(name="Ukraine-Russia", value="ukraine"),
-])
-async def slash_graph(interaction: discord.Interaction, conflict: str | None = None):
+@bot.tree.command(name="graph", description="Show a 7-day history chart for this channel's conflict")
+async def slash_graph(interaction: discord.Interaction):
     if not interaction.guild:
         await interaction.response.send_message("This command only works in a server.", ephemeral=True)
         return
-
-    # Resolve conflict from channel config when not specified
-    if conflict is None:
-        conflict = _conflict_for_channel(interaction.guild_id, interaction.channel_id)
+    conflict = _conflict_for_channel(interaction.guild_id, interaction.channel_id)
     if not conflict:
         await interaction.response.send_message(
-            "Specify a conflict: `/graph Middle East` or `/graph Ukraine-Russia`\n"
-            "Or assign this channel first with `/warsummary setup`.",
+            "This channel isn't assigned to a conflict. Ask an admin to run `/warsummary setup`.",
             ephemeral=True,
         )
         return
-
     await interaction.response.defer()
     hist = await _fetch_history(conflict)
-
-    has_data = bool((hist.get("entries") or []))
-    if not has_data:
-        await interaction.followup.send(
-            "📊 No history data yet — check back after the next hourly update."
-        )
+    if not (hist.get("entries") or []):
+        await interaction.followup.send("📊 No history data yet — check back after the next hourly update.")
         return
-
     label, icon, color = CONFLICT_META[conflict]
     buf = await asyncio.get_event_loop().run_in_executor(None, _render_graph, conflict, hist)
-
     embed = discord.Embed(
         title=f"{icon}  {label} — 7-Day History",
         url="https://warsummary.live",
@@ -406,7 +390,6 @@ async def slash_graph(interaction: discord.Interaction, conflict: str | None = N
     )
     embed.set_image(url="attachment://graph.png")
     embed.set_footer(text="warsummary.live · Updated hourly")
-
     await interaction.followup.send(embed=embed, file=discord.File(buf, filename="graph.png"))
 
 # ── /warsummary setup ──────────────────────────────────────────────────────────
@@ -503,19 +486,12 @@ async def prefix_summary(ctx: commands.Context):
 
 # ── !graph prefix command ──────────────────────────────────────────────────────
 @bot.command(name="graph")
-async def prefix_graph(ctx: commands.Context, *, country: str = ""):
+async def prefix_graph(ctx: commands.Context):
     if not ctx.guild:
         return
-    conflict = None
-    c = country.lower().strip()
-    if "ukraine" in c or "russia" in c:
-        conflict = "ukraine"
-    elif "middle" in c or "east" in c or "israel" in c or "iran" in c:
-        conflict = "middle_east"
-    else:
-        conflict = _conflict_for_channel(ctx.guild.id, ctx.channel.id)
+    conflict = _conflict_for_channel(ctx.guild.id, ctx.channel.id)
     if not conflict:
-        await ctx.send("Usage: `!graph ukraine` or `!graph middle east`")
+        await ctx.send("This channel isn't assigned to a conflict. Ask an admin to run `/warsummary setup`.")
         return
     hist = await _fetch_history(conflict)
     if not (hist.get("entries") or []):
