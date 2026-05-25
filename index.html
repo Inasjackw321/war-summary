@@ -199,10 +199,6 @@
             <div class="panel-title">Ukraine–Russia War <span class="panel-sentiment" id="ua-sentiment-badge">—</span></div>
             <div class="panel-ctrl-row">
               <input type="search" class="section-filter" id="ua-filter" placeholder="Search sections…" autocomplete="off">
-              <button class="ctrl-btn ctrl-btn--graph" id="ua-graph-btn" title="Show 7-day history charts">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                Graph
-              </button>
               <button class="ctrl-btn" id="ua-expand-all">Expand All</button>
               <button class="ctrl-btn" id="ua-collapse-all">Collapse All</button>
             </div>
@@ -244,6 +240,13 @@
               DRONE &amp; MISSILE FREQUENCY &mdash; 24 H
             </div>
             <div class="chart-container chart-container--tall"><canvas id="ua-chart-history"></canvas></div>
+          </div>
+          <div class="sidebar-card chart-card chart-card--tall">
+            <div class="sidebar-card-title">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              7-DAY ATTACK HISTORY
+            </div>
+            <div class="chart-container chart-container--tall"><canvas id="ua-chart-7day"></canvas></div>
           </div>
           <div class="sidebar-card">
             <div class="sidebar-card-title">
@@ -298,29 +301,6 @@
   <button class="scroll-top" id="scrollTop" aria-label="Back to top" title="Back to top">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
   </button>
-
-  <!-- Graph modal -->
-  <div class="graph-modal-backdrop" id="graphModalBackdrop" aria-hidden="true">
-    <div class="graph-modal" role="dialog" aria-modal="true" aria-labelledby="graphModalTitle">
-      <div class="graph-modal-header">
-        <div class="graph-modal-title" id="graphModalTitle">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-          7-DAY HISTORICAL DATA
-        </div>
-        <button class="graph-modal-close" id="graphModalClose" aria-label="Close">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-        </button>
-      </div>
-      <div class="graph-modal-body graph-modal-body--single">
-        <div class="graph-section">
-          <div class="graph-section-title">
-            <span class="tab-flags">🇺🇦🇷🇺</span> Ukraine — Missiles &amp; Drones (Last 7 Days)
-          </div>
-          <div class="graph-chart-wrap"><canvas id="gm-ukraine-chart"></canvas></div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Sources modal -->
   <div class="sources-modal-backdrop" id="sourcesModalBackdrop" aria-hidden="true">

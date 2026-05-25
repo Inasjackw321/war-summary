@@ -503,6 +503,11 @@ function buildSectionBlock(def, sectionsData, index) {
           <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
         </svg>
       </button>
+      <button class="section-pdf-btn" title="Download as PDF bulletin" aria-label="Download PDF">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+      </button>
       <svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
         <polyline points="9 18 15 12 9 6"/>
       </svg>
@@ -570,6 +575,7 @@ function buildSectionBlock(def, sectionsData, index) {
   if (header && !isExec) {
     header.addEventListener("click", e => {
       if (e.target.closest(".section-copy-btn")) return;
+      if (e.target.closest(".section-pdf-btn")) return;
       block.classList.toggle("open");
     });
   }
@@ -584,6 +590,15 @@ function buildSectionBlock(def, sectionsData, index) {
         copyBtn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>`;
         setTimeout(() => { copyBtn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`; }, 1800);
       });
+    });
+  }
+
+  // PDF download bulletin
+  const pdfBtn = block.querySelector(".section-pdf-btn");
+  if (pdfBtn) {
+    pdfBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      downloadSectionPDF(def, sectionsData);
     });
   }
 
@@ -621,94 +636,150 @@ function initSectionControls(sp) {
 }
 
 // ── Graph modal ───────────────────────────────────────────────────────────────
-const graphCharts = {};
-
-function _last7Days() {
+// ── 7-day history chart (Ukraine sidebar) ────────────────────────────────────
+function render7DayChart(id, hist) {
+  const canvas = document.getElementById(id); if (!canvas) return;
   const today = new Date();
-  return Array.from({ length: 7 }, (_, i) => {
+  const days = Array.from({ length: 7 }, (_, i) => {
     const d = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate() - (6 - i)));
     return d.toISOString().split("T")[0];
   });
-}
-
-async function openGraphModal() {
-  const backdrop = document.getElementById("graphModalBackdrop");
-  if (!backdrop) return;
-  backdrop.setAttribute("aria-hidden", "false");
-  backdrop.classList.add("open");
-  document.body.style.overflow = "hidden";
-  await _renderGraphCharts();
-}
-
-function closeGraphModal() {
-  const backdrop = document.getElementById("graphModalBackdrop");
-  if (!backdrop) return;
-  backdrop.setAttribute("aria-hidden", "true");
-  backdrop.classList.remove("open");
-  document.body.style.overflow = "";
-}
-
-async function _renderGraphCharts() {
-  const days = _last7Days();
-  const dayLabels = days.map(d => { const [, m, dd] = d.split("-"); return `${m}/${dd}`; });
-
-  const ukHist = await fetch("data/ukraine_history.json")
-    .then(r => r.ok ? r.json() : { entries: [] }).catch(() => ({ entries: [] }));
-
-  const ukByDate = Object.fromEntries((ukHist.entries || []).map(e => [e.date, e]));
-  const missiles = days.map(d => ukByDate[d]?.missiles ?? 0);
-  const drones   = days.map(d => ukByDate[d]?.drones   ?? 0);
-  const hasData  = missiles.some(v => v > 0) || drones.some(v => v > 0);
-
-  const ukCanvas = document.getElementById("gm-ukraine-chart");
-  if (!ukCanvas) return;
-
-  if (!hasData) {
-    ukCanvas.style.display = "none";
-    const wrap = ukCanvas.parentElement;
-    if (!wrap.querySelector(".graph-empty")) {
-      const el = document.createElement("div");
-      el.className = "graph-empty";
-      el.textContent = "No data yet — check back after the next update";
-      wrap.appendChild(el);
-    }
-    return;
-  }
-
-  ukCanvas.style.display = "";
-  ukCanvas.parentElement.querySelector(".graph-empty")?.remove();
-  if (graphCharts.ukraine) { graphCharts.ukraine.destroy(); delete graphCharts.ukraine; }
-  graphCharts.ukraine = new Chart(ukCanvas, {
+  const labels = days.map(d => d.slice(5));
+  const byDate = Object.fromEntries((hist.entries || []).map(e => [e.date, e]));
+  const missiles = days.map(d => byDate[d]?.missiles ?? 0);
+  const drones   = days.map(d => byDate[d]?.drones   ?? 0);
+  const cfg = {
     type: "bar",
     data: {
-      labels: dayLabels,
+      labels,
       datasets: [
-        { label: "Missiles", data: missiles, backgroundColor: "rgba(229,62,91,0.75)", borderRadius: 3, stack: "a" },
-        { label: "Drones",   data: drones,   backgroundColor: "rgba(59,130,246,0.6)",  borderRadius: 3, stack: "a" },
+        { label: "Missiles", data: missiles, backgroundColor: "rgba(229,62,91,0.8)",  borderRadius: 2, stack: "a" },
+        { label: "Drones",   data: drones,   backgroundColor: "rgba(59,130,246,0.65)", borderRadius: 2, stack: "a" },
       ],
     },
     options: {
       ...CHART_DEFAULTS,
       plugins: {
         ...CHART_DEFAULTS.plugins,
-        legend: { display: true, labels: { color: "#5a6a88", font: { family: "'JetBrains Mono',monospace", size: 9 }, boxWidth: 8, padding: 12 } },
+        legend: { display: true, labels: { color: "#4a5568", font: { family: "'JetBrains Mono',monospace", size: 9 }, boxWidth: 8, padding: 10 } },
         tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `${c.dataset.label}: ${c.raw}` } },
       },
       scales: { ...CHART_DEFAULTS.scales },
     },
-  });
+  };
+  if (charts[id]) { charts[id].data = cfg.data; charts[id].update("active"); }
+  else charts[id] = new Chart(canvas, cfg);
 }
 
-function initGraphModal() {
-  const close = document.getElementById("graphModalClose");
-  const backdrop = document.getElementById("graphModalBackdrop");
-  if (close)    close.addEventListener("click", closeGraphModal);
-  if (backdrop) backdrop.addEventListener("click", e => { if (e.target === backdrop) closeGraphModal(); });
-  document.addEventListener("keydown", e => { if (e.key === "Escape" && backdrop?.classList.contains("open")) closeGraphModal(); });
+// ── PDF bulletin download ─────────────────────────────────────────────────────
+let currentConflictData = {};
 
-  // Graph button — Ukraine panel only
-  const btn = document.getElementById("ua-graph-btn");
-  if (btn) btn.addEventListener("click", openGraphModal);
+function _pdfCleanText(text) {
+  return text.replace(/\s*\((?:Source:\s*)?@?[\w]+(?:\/[\d-]+)?\)/gi, "").trim();
+}
+
+function _pdfSourceLine(text) {
+  const sources = [];
+  const re = /\((?:Source:\s*)?@?([\w]+)(?:\/([\d]+))?\)/gi;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    const ch = m[1], id = m[2];
+    sources.push(id ? `@${ch} → t.me/${ch}/${id}` : `@${ch}`);
+  }
+  return sources.length ? `Source: ${sources.join(", ")}` : "";
+}
+
+function _pdfImagePath(text) {
+  const pi = currentConflictData.post_images || {};
+  const re = /\((?:Source:\s*)?@?([\w]+)\/([\d]+)\)/gi;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    const key = `${m[1]}/${m[2]}`;
+    if (pi[key]) return pi[key];
+  }
+  return null;
+}
+
+function downloadSectionPDF(def, sectionsData) {
+  const raw = sectionsData ? sectionsData[def.key] : null;
+  const conflict  = currentConflictData.conflict  || "Intelligence Brief";
+  const updatedAt = currentConflictData.updated_at || new Date().toISOString();
+  const dateStr   = new Date(updatedAt).toUTCString().replace("GMT", "UTC");
+  const base      = window.location.origin + "/";
+
+  const COLORS = { red:"#e53e5b", blue:"#3b82f6", green:"#10b981", orange:"#f59e0b", teal:"#06b6d4", yellow:"#eab308", purple:"#8b5cf6", gray:"#64748b" };
+  const accent = COLORS[def.color] || "#3b82f6";
+
+  function pointHtml(text, num) {
+    const clean  = _pdfCleanText(text);
+    const src    = _pdfSourceLine(text);
+    const img    = _pdfImagePath(text);
+    const imgTag = img ? `<img class="pt-img" src="${base}${img}" alt="">` : "";
+    const srcTag = src ? `<div class="pt-src">${src}</div>` : "";
+    return `<div class="pt">
+      <div class="pt-num">${num}</div>
+      <div class="pt-body"><div class="pt-text">${clean}</div>${srcTag}${imgTag}</div>
+    </div>`;
+  }
+
+  let bodyHtml = "";
+  if (def.type === "prose" || def.type === "prose-threat" || def.type === "prose-regional" || def.type === "prose-intel") {
+    const text = typeof raw === "string" ? raw : (raw?.points || []).join("\n\n");
+    bodyHtml = `<p class="prose">${_pdfCleanText(text)}</p>`;
+  } else if (def.type === "points") {
+    (raw?.points || []).forEach((p, i) => { bodyHtml += pointHtml(p, i + 1); });
+  } else if (def.type === "keydevs") {
+    const nums = ["①","②","③","④","⑤","⑥","⑦","⑧","⑨","⑩"];
+    (Array.isArray(raw) ? raw : []).forEach((p, i) => { bodyHtml += pointHtml(p, nums[i] || (i + 1)); });
+  }
+  if (!bodyHtml) bodyHtml = `<p class="prose" style="color:#9ca3af;font-style:italic;">No content available.</p>`;
+
+  const sectionLabel = `${def.flag.length > 2 ? def.flag + " " : ""}${def.label}`;
+
+  const html = `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>${conflict} — ${def.label}</title>
+<base href="${base}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',Arial,sans-serif;background:#fff;color:#1a202c;font-size:13px;line-height:1.6;}
+.hdr{background:#0a0c12;padding:22px 32px 18px;display:flex;justify-content:space-between;align-items:flex-start;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.hdr-l .brand{font-size:10px;font-weight:700;letter-spacing:.12em;color:#e53e5b;font-family:'JetBrains Mono',monospace;margin-bottom:6px;display:flex;align-items:center;gap:6px;}
+.brand-dot{width:5px;height:5px;border-radius:50%;background:#e53e5b;display:inline-block;}
+.hdr-l .conflict{font-size:21px;font-weight:800;color:#fff;line-height:1.2;}
+.hdr-r{text-align:right;font-family:'JetBrains Mono',monospace;font-size:10px;color:#5a6a88;line-height:1.9;}
+.hdr-r .date{color:#a8b4cc;font-size:11px;}
+.banner{background:${accent};color:#fff;padding:9px 32px;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.body{padding:22px 32px;}
+.prose{font-size:13px;line-height:1.9;color:#2d3748;padding:16px 18px;background:#f7f8fc;border-left:3px solid ${accent};border-radius:0 5px 5px 0;}
+.pt{display:flex;gap:14px;padding:12px 14px;margin-bottom:9px;background:#f7f8fc;border-left:3px solid ${accent};border-radius:0 5px 5px 0;page-break-inside:avoid;}
+.pt-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:${accent};min-width:20px;flex-shrink:0;padding-top:1px;}
+.pt-body{flex:1;}
+.pt-text{color:#2d3748;line-height:1.72;}
+.pt-src{margin-top:4px;font-family:'JetBrains Mono',monospace;font-size:9px;color:#718096;}
+.pt-img{margin-top:10px;max-width:100%;max-height:200px;object-fit:cover;border-radius:4px;display:block;}
+.ftr{margin-top:20px;padding:13px 32px;border-top:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;font-size:10px;color:#a0aec0;font-family:'JetBrains Mono',monospace;}
+.ftr-brand{color:#718096;font-weight:600;}
+@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
+</style></head><body>
+<div class="hdr">
+  <div class="hdr-l">
+    <div class="brand"><span class="brand-dot"></span>WAR SUMMARY · INTELLIGENCE BULLETIN</div>
+    <div class="conflict">${conflict}</div>
+  </div>
+  <div class="hdr-r"><div class="date">${dateStr}</div><div>AI-Generated · Open Source</div><div>warsummary.live</div></div>
+</div>
+<div class="banner">${sectionLabel}</div>
+<div class="body">${bodyHtml}</div>
+<div class="ftr"><div class="ftr-brand">WAR SUMMARY</div><div>⚠ AI-generated · Always verify through official sources</div><div>warsummary.live</div></div>
+<script>window.onload=()=>{setTimeout(()=>window.print(),400);}<\/script>
+</body></html>`;
+
+  const win = window.open("", "_blank");
+  if (!win) return;
+  win.document.write(html);
+  win.document.close();
 }
 
 function initSectionFilter(sp) {
@@ -716,11 +787,6 @@ function initSectionFilter(sp) {
   const prefix = sp === "me" ? "middle_east" : "ukraine";
   input.addEventListener("input", () => {
     const q = input.value.toLowerCase().trim();
-    if (q === "/graph" && sp === "ua") {
-      input.value = "";
-      openGraphModal();
-      return;
-    }
     document.querySelectorAll(`#panel-${prefix} .section-point`).forEach(pt => {
       const visible = !q || pt.textContent.toLowerCase().includes(q);
       pt.style.display = visible ? "" : "none";
@@ -740,6 +806,8 @@ function initSectionFilter(sp) {
 function populatePanel(prefix, data) {
   const sp   = prefix === "middle_east" ? "me" : "ua";
   const defs = SECTION_DEFS[prefix];
+
+  currentConflictData = data;
 
   // Update source-tag URL map so citations link to actual recent posts
   currentUrlMap = data.recent_post_urls || {};
@@ -816,6 +884,10 @@ function populatePanel(prefix, data) {
   if (prefix === "ukraine") {
     renderTodayAttackChart(`ua-chart-alerts`, data.missiles, data.drones);
     renderCombinedAlertChart(`ua-chart-history`, data.kpszsu_timeline || [], data.missiles, data.drones);
+    fetch("data/ukraine_history.json")
+      .then(r => r.ok ? r.json() : { entries: [] })
+      .catch(() => ({ entries: [] }))
+      .then(hist => render7DayChart("ua-chart-7day", hist));
   } else {
     const alertTimeline = (data.red_alerts_timeline || []).map(v => Math.round((v || 0) / 2));
     renderAlertChart(`${sp}-chart-alerts`, alertTimeline);
@@ -1270,4 +1342,4 @@ function initFooterPopups() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); initGraphModal(); });
+document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); });

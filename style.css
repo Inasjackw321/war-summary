@@ -1005,6 +1005,23 @@ body {
 .section-header:hover .section-copy-btn { opacity: 1; }
 .section-copy-btn:hover { color: var(--accent); background: rgba(59,130,246,0.1); }
 
+.section-pdf-btn {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition), color var(--transition), background var(--transition);
+  flex-shrink: 0;
+}
+.section-header:hover .section-pdf-btn { opacity: 1; }
+.section-pdf-btn:hover { color: #10b981; background: rgba(16,185,129,0.1); }
+
 /* ── Refresh toast ── */
 .refresh-toast {
   position: fixed;
