@@ -363,15 +363,15 @@ async def slash_summary(interaction: discord.Interaction):
         await interaction.followup.send("⚠ Failed to fetch data — try again in a moment.")
 
 # ── /graph ────────────────────────────────────────────────────────────────────
-@bot.tree.command(name="graph", description="Show a 7-day history chart for this channel's conflict")
+@bot.tree.command(name="graph", description="Show a 7-day missiles & drones chart (Ukraine channels only)")
 async def slash_graph(interaction: discord.Interaction):
     if not interaction.guild:
         await interaction.response.send_message("This command only works in a server.", ephemeral=True)
         return
     conflict = _conflict_for_channel(interaction.guild_id, interaction.channel_id)
-    if not conflict:
+    if conflict != "ukraine":
         await interaction.response.send_message(
-            "This channel isn't assigned to a conflict. Ask an admin to run `/warsummary setup`.",
+            "📊 `/graph` is only available in Ukraine-assigned channels.",
             ephemeral=True,
         )
         return
@@ -490,8 +490,8 @@ async def prefix_graph(ctx: commands.Context):
     if not ctx.guild:
         return
     conflict = _conflict_for_channel(ctx.guild.id, ctx.channel.id)
-    if not conflict:
-        await ctx.send("This channel isn't assigned to a conflict. Ask an admin to run `/warsummary setup`.")
+    if conflict != "ukraine":
+        await ctx.send("📊 `!graph` is only available in Ukraine-assigned channels.")
         return
     hist = await _fetch_history(conflict)
     if not (hist.get("entries") or []):

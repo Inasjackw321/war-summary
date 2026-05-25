@@ -119,10 +119,6 @@
             <div class="panel-title">Middle-East War <span class="panel-sentiment" id="me-sentiment-badge">—</span></div>
             <div class="panel-ctrl-row">
               <input type="search" class="section-filter" id="me-filter" placeholder="Search sections…" autocomplete="off">
-              <button class="ctrl-btn ctrl-btn--graph" id="me-graph-btn" title="Show 7-day history charts">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                Graph
-              </button>
               <button class="ctrl-btn" id="me-expand-all">Expand All</button>
               <button class="ctrl-btn" id="me-collapse-all">Collapse All</button>
             </div>
@@ -315,18 +311,12 @@
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
-      <div class="graph-modal-body">
+      <div class="graph-modal-body graph-modal-body--single">
         <div class="graph-section">
           <div class="graph-section-title">
             <span class="tab-flags">🇺🇦🇷🇺</span> Ukraine — Missiles &amp; Drones (Last 7 Days)
           </div>
           <div class="graph-chart-wrap"><canvas id="gm-ukraine-chart"></canvas></div>
-        </div>
-        <div class="graph-section">
-          <div class="graph-section-title">
-            <span class="tab-flags">🇮🇱</span> Israel — Red Alerts (Last 7 Days)
-          </div>
-          <div class="graph-chart-wrap"><canvas id="gm-israel-chart"></canvas></div>
         </div>
       </div>
     </div>

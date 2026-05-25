@@ -1458,13 +1458,11 @@ body {
 .graph-modal-close:hover { background: rgba(255,255,255,0.06); color: var(--text); }
 .graph-modal-body {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   padding: 20px;
 }
-@media (max-width: 640px) {
-  .graph-modal-body { grid-template-columns: 1fr; }
-}
+.graph-modal { max-width: 560px; }
 .graph-section {
   display: flex;
   flex-direction: column;
