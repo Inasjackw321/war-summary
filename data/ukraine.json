@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-25T12:45:14.954203+00:00",
-  "message_count": 263,
+  "updated_at": "2026-05-25T12:56:48.399751+00:00",
+  "message_count": 260,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -20,9 +20,9 @@
     16,
     16,
     16,
-    33,
+    49,
     66,
-    16,
+    0,
     16,
     0,
     16,
@@ -40,38 +40,38 @@
   ],
   "combined_activity_timeline": [
     10,
-    12,
+    10,
     9,
     12,
     14,
-    10,
     13,
-    5,
+    9,
+    7,
     10,
-    8,
-    5,
+    7,
     6,
     4,
+    4,
     2,
-    7,
-    9,
     10,
+    7,
     13,
-    18,
-    17,
-    18,
-    22,
+    12,
+    19,
+    15,
+    24,
     16,
-    12
+    16,
+    11
   ],
   "messages_by_channel": {
     "@eRadarrua": 49,
-    "@kpszsu": 44,
+    "@kpszsu": 43,
     "@mon1tor_ua": 8,
-    "@UkraineNow": 22,
+    "@UkraineNow": 21,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 19,
-    "@tass_agency": 118
+    "@tass_agency": 117
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/93618",
@@ -80,15 +80,14 @@
     "UkraineNow": "https://t.me/UkraineNow/81452",
     "DeepStateUA": "https://t.me/DeepStateUA/23534",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30414",
-    "tass_agency": "https://t.me/tass_agency/377473"
+    "tass_agency": "https://t.me/tass_agency/377474"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/93614",
-    "kpszsu": "https://t.me/kpszsu/62726",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67218",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30408",
-    "UkraineNow": "https://t.me/UkraineNow/81449",
-    "tass_agency": "https://t.me/tass_agency/377464"
+    "kpszsu": "https://t.me/kpszsu/62716",
+    "UkraineNow": "https://t.me/UkraineNow/81440",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30404",
+    "eRadarrua": "https://t.me/eRadarrua/93559",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67215"
   },
   "media": [
     {
@@ -245,105 +244,111 @@
     "kpszsu/62715": "data/media/kpszsu_62715.jpg",
     "kpszsu/62716": "data/media/kpszsu_62715.jpg"
   },
-  "summary": "Russia launched a mid‑range ballistic missile \"Oreshnyk\" that struck the Russian‑occupied area near Avdiivka. Ukrainian forces continue to report numerous UAV movements across northern, eastern and southern fronts. Both sides experience ongoing air‑defence alerts and drone attacks.",
+  "summary": "Ukrainian forces continue to report numerous UAV sightings and attacks across multiple oblasts, while Russian sources claim ongoing missile and drone strikes on Ukrainian cities. Both sides report casualties and infrastructure damage, with notable incidents in Kyiv, Donetsk, and Zaporizhzhia regions. Diplomatic signals include a reported call between Belarusian and French leaders and statements on mobilization changes.",
   "key_points": [
-    "Russia used a mid‑range ballistic missile \"Oreshnyk\" on territory temporarily controlled by Russia near Avdiivka (Source: @eRadarrua/93614).",
-    "Multiple UAVs were observed over northern Kyiv region heading toward the capital, including over the Kyiv water reservoir (Source: @kpszsu/62726).",
-    "Groups of Shahed drones were reported launched from Chernihiv region toward Kyiv's Vyshorod district (Source: @mon1tor_ua/67218).",
-    "Ukrainian defense minister advisor hinted at significant changes to mobilization policy (Source: @ukr_leaks_eng/30408).",
-    "A night‑time attack damaged the apartments of President Zelensky and businessman Timur Mindich on 9A Grushevsky Street in Kyiv (Source: @ukr_leaks_eng/30398).",
-    "Ukrainian troops in Mala Tokmachka, Zaporizhzhia region, celebrated a record of holding the line for over 1500 days (Source: @UkraineNow/81449).",
-    "Russian tactical aviation launched guided aerial bombs on Zaporizhzhia and Donetsk regions (Source: @kpszsu/62724)."
+    "Ukrainian UAVs reported near Obukhiv in Kyiv region and Dikan'ka in Poltava region (Source: @kpszsu/62716).",
+    "Russian tactical aviation launched guided aerial bombs on Sumy region (Source: @kpszsu/62736).",
+    "Russian missile attacks damaged a multi‑storey building in Druzhkivka, Donetsk, killing a 70‑year‑old woman and injuring five others (Source: @UkraineNow/81440).",
+    "Ukrainian forces claim record defence of Mala Tokmachka, Zaporizhzhia, for over 1500 days (Source: @UkraineNow/81449).",
+    "Russian air defense repelled a massive UAV attack near Yaroslavl, with civilian injuries reported (Source: @ukr_leaks_eng/30404).",
+    "Russian forces reported advancing up to 900 m on twenty‑one sectors of the Sumy front (Source: @ukr_leaks_eng/30404).",
+    "Belarusian leader reportedly spoke with French President Macron, the first such call since 2022 (Source: @UkraineNow/81436)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russia employed a mid‑range ballistic missile \"Oreshnyk\" striking near Avdiivka, marking a notable escalation. Ukrainian forces reported extensive UAV activity across multiple fronts, including attacks on Kyiv and southern regions. Both sides continue to experience high‑intensity air‑defence alerts and drone strikes.",
+    "executive_summary": "Ukrainian UAV activity is widespread, with sightings in Kyiv, Poltava, and across the north‑east, while Russian tactical aviation employed guided bombs in Sumy. Both sides report civilian casualties from missile and drone strikes, notably in Donetsk and Kyiv. Diplomatic activity includes a reported Belarus‑France phone call, suggesting potential shifts in external engagement.",
     "ukraine": {
       "points": [
-        "Ukrainian defense minister advisor Sternenko announced upcoming significant changes to mobilization, though details were not provided, indicating potential shifts in manpower policy (Source: @ukr_leaks_eng/30408).",
-        "Ukrainian troops in the village of Mala Tokmachka, Zaporizhzhia oblast, have maintained the front line for over 1500 days, earning a record in the Book of Records of Ukraine (Source: @UkraineNow/81449).",
-        "A nighttime missile attack damaged the apartments of President Zelensky and businessman Timur Mindich at 9A Grushevsky Street in Kyiv (Source: @ukr_leaks_eng/30398).",
-        "Ukrainian MP Aleksey Goncharenko called for an end to the war following the overnight attack on Kyiv, emphasizing civilian suffering (Source: @ukr_leaks_eng/30395)."
+        "Ukrainian reconnaissance UAVs were observed near Obukhiv in Kyiv region and Dikan'ka in Poltava region, indicating continued aerial surveillance over contested areas (Source: @kpszsu/62716).",
+        "Ukrainian forces in Mala Tokmachka, Zaporizhzhia oblast, celebrated a national record for holding the front line for over 1500 days despite ongoing Russian attacks (Source: @UkraineNow/81449).",
+        "Ukrainian troops reported a UAV group of ten units along the Dnipro corridor reaching Lyubech from Snovsk, highlighting coordinated drone operations in the north‑east (Source: @eRadarrua/93559).",
+        "Ukrainian defense in Kyiv reported an air‑raid alert ending at 11:07 on 25 May 2026, showing active air‑defence measures (Source: @eRadarrua/93602).",
+        "Ukrainian officials noted an increase in UAV attacks along the logistics corridor in the rear of Zaporozhye region, prompting public safety advisories (Source: @ukr_leaks_eng/30404)."
       ]
     },
     "russia": {
       "points": [
-        "Russia launched a mid‑range ballistic missile \"Oreshnyk\" that struck the temporarily Russian‑controlled area near Avdiivka (Source: @eRadarrua/93614).",
-        "Russian tactical aviation deployed guided aerial bombs on Zaporizhzhia and Donetsk regions, indicating intensified air‑strike operations (Source: @kpszsu/62724).",
-        "Russia appointed Vitaly Shulika as Deputy Defense Minister, suggesting possible changes in defence leadership (Source: @tass_agency/377464).",
-        "Russian officials reiterated the country's openness to constructive global economic interaction, reflecting diplomatic messaging amid conflict (Source: @tass_agency/377436)."
+        "Russian tactical aviation launched guided aerial bombs on Sumy region, indicating escalation of air‑strike capabilities (Source: @kpszsu/62736).",
+        "Russian missile strikes on a multi‑storey building in Druzhkivka, Donetsk region caused one death and multiple injuries, demonstrating continued targeting of civilian infrastructure (Source: @UkraineNow/81440).",
+        "Russian forces reported advancing up to 900 meters on twenty‑one sectors of the Sumy front, showing limited ground gains (Source: @ukr_leaks_eng/30404).",
+        "Russian air defence repelled a massive Ukrainian UAV attack near Yaroslavl, with civilian injuries and traffic disruptions reported (Source: @ukr_leaks_eng/30404).",
+        "Russian officials, including Maria Zakharova, warned of continued strikes on Kyiv and issued a special warning to foreign diplomats in the capital (Source: @UkraineNow/81451)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV groups were observed moving from Kharkiv region toward Izium and Balaklia on the eastern front (Source: @kpszsu/62738).",
-        "Shahed drone launches from Chernihiv region were reported heading toward Kyiv's Vyshorod district, affecting eastern approaches to the capital (Source: @mon1tor_ua/67218).",
-        "Ukrainian reconnaissance UAVs were spotted over the Black Sea area near Sumy and Kharkiv, indicating surveillance activity on the eastern maritime flank (Source: @eRadarrua/93613).",
-        "A civilian in Kharkiv assisted TCC employees in mobilizing a young man who refused to show documents, reflecting local security dynamics (Source: @ukr_leaks_eng/30400)."
+        "Ukrainian UAVs observed moving southward past Slavutych in Chernihiv region, indicating activity near the eastern front line (Source: @kpszsu/62707).",
+        "A group of ten UAVs was reported along the Dnipro corridor from Snovsk, with the first reaching Lyubech, suggesting coordinated aerial reconnaissance in the east (Source: @eRadarrua/93559).",
+        "Russian reports state their assault units advanced up to 1,100 meters on nine sectors of the Volchansk sector on the Kharkiv front, reflecting eastward pressure (Source: @ukr_leaks_eng/30404).",
+        "Ukrainian forces attacked the villages of Kister and Zapesechye in Bryansk region with a drone, indicating cross‑border UAV operations (Source: @ukr_leaks_eng/30404).",
+        "Russian forces claim ongoing skirmishes in Zapselye, Ivolzhansk, and Kondratovka on the Sumy front, with limited territorial changes (Source: @ukr_leaks_eng/30404)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs were observed over northern Kyiv region, flying over the Kyiv water reservoir toward the capital (Source: @kpszsu/62726).",
-        "Multiple UAV groups were reported in Chernihiv region heading southwest, south, and toward Nizhyn, indicating active aerial reconnaissance (Source: @kpszsu/62710, @kpszsu/62717, @kpszsu/62711).",
-        "Shahed drone launches from Chernihiv region targeted Kyiv's Vyshorod district, heightening northern air threat (Source: @mon1tor_ua/67218).",
-        "UAV activity was noted near the city of Obukhiv from the north, suggesting potential threats to Kyiv's southern approaches (Source: @kpszsu/62729)."
+        "Ukrainian UAVs reported near the north of Kyiv region, flying over the Kyiv reservoir toward the capital (Source: @kpszsu/62726).",
+        "Ukrainian reconnaissance UAVs observed near Obukhiv and Dikan'ka, indicating surveillance of northern approaches (Source: @kpszsu/62716).",
+        "Russian air defence intercepted a massive UAV attack near Yaroslavl, with civilian injuries, showing northern air‑space activity (Source: @ukr_leaks_eng/30404).",
+        "Ukrainian UAVs spotted near the Ukrainian River (Ukrainka) north of Kyiv, suggesting monitoring of northern waterways (Source: @kpszsu/62729).",
+        "Russian forces reported advancing up to 900 meters on the Sumy front, which lies in the northern sector of the conflict (Source: @ukr_leaks_eng/30404)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces reported a FAB (cluster bomb) strike on a multi‑storey building in Druzhkivka, Donetsk, causing civilian casualties including a 70‑year‑old woman (Source: @UkraineNow/81440).",
-        "Guided aerial bombs were launched by Russian tactical aviation on Zaporizhzhia oblast, indicating intensified southern offensive air operations (Source: @kpszsu/62724).",
-        "UAV sightings over Mykolaiv region included locations Luperove, Snihurivka, and a polygon, showing continued aerial activity in the south (Source: @eRadarrua/93575).",
-        "A missile strike in the Sumy region was reported as a reactive system moving toward Ladan, reflecting cross‑regional missile deployments (Source: @eRadarrua/93618)."
+        "Russian missile strike on a multi‑storey building in Druzhkivka, Donetsk region caused civilian casualties (Source: @UkraineNow/81440).",
+        "Ukrainian forces reported a record defence of Mala Tokmachka in Zaporizhzhia oblast, holding the line for over 1500 days (Source: @UkraineNow/81449).",
+        "Russian attacks damaged 14 multi‑storey buildings, an educational institution, and administrative structures in Kramatorsk, with at least two injured (Source: @UkraineNow/81444).",
+        "Ukrainian air defence reported repelling UAV attacks that left nine districts in Kherson region without power (Source: @ukr_leaks_eng/30404).",
+        "Russian forces claimed use of guided aerial bombs in Sumy, a southern‑eastern oblast, indicating expanded strike reach (Source: @kpszsu/62736)."
       ]
     },
     "air_war": {
       "points": [
-        "Air‑raid alert sounded in Kyiv at 10:50 on 25 May 2026, indicating ongoing aerial threat (Source: @eRadarrua/93595).",
-        "Shahed drone launches from Chernihiv region targeted Kyiv's Vyshorod district, part of a broader swarm of unmanned attacks (Source: @mon1tor_ua/67218).",
-        "Russian tactical aviation employed guided aerial bombs on Zaporizhzhia and Donetsk, showing use of precision strike capabilities (Source: @kpszsu/62724).",
-        "Ukraine reported a GPS jamming incident affecting the British Defence Minister's aircraft near the Russian border, highlighting electronic warfare threats (Source: @UkraineNow/81442)."
+        "Russian tactical aviation employed guided aerial bombs on Sumy region, marking a notable use of precision munitions (Source: @kpszsu/62736).",
+        "Ukrainian UAV activity was reported across multiple oblasts, including Kyiv, Poltava, Chernihiv, and the Black Sea, showing extensive aerial reconnaissance (Source: @kpszsu/62716, @kpszsu/62707, @kpszsu/62738, @kpszsu/62737).",
+        "Russian air defence repelled a massive Ukrainian UAV attack near Yaroslavl, causing civilian injury and traffic disruption (Source: @ukr_leaks_eng/30404).",
+        "Ukrainian forces launched a drone strike on villages Kister and Zapesechye in Bryansk region, indicating cross‑border UAV offensive capability (Source: @ukr_leaks_eng/30404).",
+        "Reports of 21 groups of Shahed drones launched within an hour suggest a high‑intensity drone barrage against Ukrainian targets (Source: @mon1tor_ua/67215)."
       ]
     },
     "key_developments": [
-      "Russia launched a mid‑range ballistic missile \"Oreshnyk\" that struck the temporarily Russian‑controlled area near Avdiivka (Source: @eRadarrua/93614).",
-      "Multiple Shahed drones were launched from Chernihiv region toward Kyiv's Vyshorod district, increasing the northern aerial threat (Source: @mon1tor_ua/67218).",
-      "Ukrainian forces in Mala Tokmachka, Zaporizhzhia, have held the line for over 1500 days, marking a significant defensive achievement (Source: @UkraineNow/81449).",
-      "Russian tactical aviation deployed guided aerial bombs on Zaporizhzhia and Donetsk regions, indicating intensified air‑strike operations (Source: @kpszsu/62724).",
-      "Ukrainian defense minister advisor Sternenko announced upcoming major changes to mobilization policy (Source: @ukr_leaks_eng/30408).",
-      "A night‑time missile attack damaged the apartments of President Zelensky and businessman Timur Mindich on 9A Grushevsky Street in Kyiv (Source: @ukr_leaks_eng/30398).",
-      "Air‑raid alert sounded in Kyiv at 10:50 on 25 May 2026, reflecting continued air‑defence alerts (Source: @eRadarrua/93595)."
+      "Ukrainian reconnaissance UAVs were observed near Obukhiv in Kyiv region and Dikan'ka in Poltava region, indicating continued aerial surveillance over contested areas (Source: @kpszsu/62716).",
+      "Russian tactical aviation launched guided aerial bombs on Sumy region, marking an escalation in precision strike usage (Source: @kpszsu/62736).",
+      "Russian missile strikes on a multi‑storey building in Druzhkivka, Donetsk region caused one death and multiple injuries, highlighting ongoing civilian targeting (Source: @UkraineNow/81440).",
+      "Ukrainian forces celebrated a record defence of Mala Tokmachka, Zaporizhzhia oblast, holding the front line for over 1500 days despite continuous attacks (Source: @UkraineNow/81449).",
+      "Russian air defence repelled a massive Ukrainian UAV attack near Yaroslavl, resulting in civilian injuries and traffic disruptions (Source: @ukr_leaks_eng/30404).",
+      "Russian forces reported advancing up to 900 meters on twenty‑one sectors of the Sumy front, indicating limited ground gains (Source: @ukr_leaks_eng/30404).",
+      "Belarusian leader reportedly held a phone call with French President Macron, the first such conversation since 2022, suggesting potential diplomatic shifts (Source: @UkraineNow/81436)."
     ],
-    "threat_assessment": "Russian missile use and guided bomb deployments demonstrate a shift toward higher‑precision, longer‑range strikes, especially near Avdiivka and southern fronts. Ukrainian UAV activity across northern and eastern sectors indicates sustained reconnaissance and potential strike capabilities, while Shahed drone swarms pose a persistent low‑altitude threat to Kyiv. Electronic warfare, exemplified by GPS jamming of a British aircraft, adds a complex layer to the air conflict, challenging both sides' situational awareness.",
-    "regional_response": "Ukraine continues to reinforce defensive positions, highlighted by the record‑holding defense in Mala Tokmachka and ongoing mobilization reforms. International actors, such as the European Commission, have pledged additional air‑defence assistance, reflecting heightened support amid escalating aerial threats. Russian leadership changes and diplomatic statements suggest an intent to sustain military pressure while managing domestic and international perceptions.",
-    "intelligence_notes": "Monitoring of UAV trajectories in the north and east remains critical for early warning of potential strikes on key infrastructure. The deployment of the \"Oreshnyk\" missile indicates Russia's capability to field mid‑range ballistic systems, requiring updated threat models. Shahed drone launch patterns from Chernihiv warrant intensified air‑defence readiness around Kyiv. Continued observation of electronic warfare incidents is essential to protect command and control assets."
+    "threat_assessment": "Ukrainian UAV operations are extensive, covering northern, eastern, and southern fronts, providing real‑time intelligence and strike capability. Russian forces are employing guided aerial bombs and advancing modestly on the Sumy front, while continuing missile strikes on civilian infrastructure in Donetsk and Zaporizhzhia. The high volume of Shahed drone launches indicates a sustained aerial threat to Ukrainian air defences.",
+    "regional_response": "Western officials, including EU Commission President von der Leyen, pledged additional air‑defence assistance, reflecting continued international support for Ukraine's aerial resilience. Belarusian diplomatic engagement with France may signal a shift in regional dynamics, though Russian statements affirm ongoing strikes on Kyiv and warnings to foreign diplomats. Ukrainian authorities report increased civilian casualties and infrastructure damage, prompting local emergency responses.",
+    "intelligence_notes": "Monitoring of UAV flight paths near strategic locations such as Obukhiv, the Kyiv reservoir, and the Black Sea is critical for early warning. Russian use of guided bombs in Sumy suggests a focus on precision strikes against Ukrainian positions. The reported 21 Shahed drone groups within an hour represent a surge in low‑cost drone attacks, requiring heightened air‑defence readiness. Diplomatic signals from Belarus and France warrant close observation for potential changes in external support or pressure on Russia."
   },
   "missiles": 0,
   "drones": 262,
   "kpszsu_timeline": [
-    1,
+    0,
     1,
     0,
-    3,
-    2,
+    4,
+    1,
     4,
     2,
+    1,
+    2,
     0,
     2,
-    1,
-    1,
-    3,
-    1,
-    1,
-    0,
-    3,
     2,
-    2,
-    6,
+    1,
+    1,
+    1,
     2,
     3,
+    3,
+    5,
+    2,
+    2,
     0,
     3,
     1
