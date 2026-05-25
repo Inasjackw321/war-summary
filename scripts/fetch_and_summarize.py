@@ -571,16 +571,20 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
     prompt = f"""You are an intelligence analyst producing structured conflict briefings.
 Analyse the following messages from {conflict_name} channels and extract structured intelligence.
 
-STRICT RELEVANCE RULE: Only include information that is directly relevant to the {conflict_name}. Discard any messages about unrelated conflicts, regions, or off-topic events. If a message is about a different war or region, ignore it completely.
+STRICT GROUNDING RULES — read carefully before writing anything:
+1. Every claim, location, unit, number, or event you write MUST be directly stated in the source messages. Do not infer, extrapolate, or add context from your training data.
+2. If a message is vague or lacks details, write vaguely. Never invent specifics (distances, casualty figures, unit names, weapon types) that are not explicitly stated in the messages.
+3. If you cannot find 7 key_developments or all section points from the actual messages, write fewer — do not pad with plausible-sounding inventions.
+4. STRICT RELEVANCE: Only include information about {conflict_name}. Discard messages about other conflicts, regions, or off-topic events.
+5. Source citations: use the EXACT channel and post ID from the message prefix [channel/postID]. Never cite a post you did not use.
 
-Messages are prefixed [channel/postID] or [channel]. When citing sources, use format (Source: @channel/postID) if a post ID is present, or (Source: @channel) otherwise.
-Only cite the specific channel(s) that actually provided each piece of information.
+Messages are prefixed [channel/postID] or [channel]. Cite as (Source: @channel/postID) or (Source: @channel).
 
 Return ONLY valid JSON with this exact structure:
 {{
-  "summary": "3-sentence executive summary",
+  "summary": "3-sentence executive summary using only facts from the messages",
   "key_points": [
-    "8 most operationally significant developments. Each item: 15-25 words of factual content, then (Source: @channel/postID). Use the exact channel name and post ID from the message prefix. No vague filler. Ordered by operational importance."
+    "Up to 8 most significant developments, each 15-25 words of facts FROM the messages, then (Source: @channel/postID). No invented details. Ordered by operational importance."
   ],
   "sentiment": "one of: escalating|volatile|active|tense|stable|calm",
   "intensity": <1-10>,
@@ -589,7 +593,7 @@ Return ONLY valid JSON with this exact structure:
   }}
 }}
 
-For key_developments, each item in the list should be a complete sentence ending with its source citation.
+For key_developments, each item must be a complete sentence ending with its source citation, using only information explicitly present in the cited message.
 
 Messages (newest first, may include Hebrew/Arabic/Ukrainian/Russian):
 {combined[:14000]}
