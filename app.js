@@ -503,7 +503,7 @@ function buildSectionBlock(def, sectionsData, index) {
           <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
         </svg>
       </button>
-      <button class="section-pdf-btn" title="Download as PDF bulletin" aria-label="Download PDF">
+      <button class="section-pdf-btn" title="Download as image" aria-label="Download image">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
         </svg>
@@ -598,7 +598,7 @@ function buildSectionBlock(def, sectionsData, index) {
   if (pdfBtn) {
     pdfBtn.addEventListener("click", e => {
       e.stopPropagation();
-      downloadSectionPDF(def, sectionsData);
+      downloadSectionImage(def, sectionsData);
     });
   }
 
@@ -700,83 +700,105 @@ function _pdfImagePath(text) {
   return null;
 }
 
-function downloadSectionPDF(def, sectionsData) {
+function downloadSectionImage(def, sectionsData) {
   const raw = sectionsData ? sectionsData[def.key] : null;
   const conflict  = currentConflictData.conflict  || "Intelligence Brief";
   const updatedAt = currentConflictData.updated_at || new Date().toISOString();
-  const dateStr   = new Date(updatedAt).toUTCString().replace("GMT", "UTC");
+  const dateStr   = new Date(updatedAt).toUTCString().replace("GMT", "UTC").slice(0, 22) + " UTC";
 
   const COLORS = { red:"#e53e5b", blue:"#3b82f6", green:"#10b981", orange:"#f59e0b", teal:"#06b6d4", yellow:"#eab308", purple:"#8b5cf6", gray:"#64748b" };
   const ac = COLORS[def.color] || "#3b82f6";
 
-  const S = {
-    wrap:   `font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.6;color:#1a202c;background:#fff;width:794px;`,
-    hdr:    `background:#0a0c12;padding:22px 32px 18px;display:flex;justify-content:space-between;align-items:flex-start;`,
-    brand:  `font-size:10px;font-weight:700;letter-spacing:.12em;color:#e53e5b;margin-bottom:6px;`,
-    conf:   `font-size:21px;font-weight:800;color:#fff;line-height:1.2;`,
-    hdrR:   `text-align:right;font-size:10px;color:#5a6a88;line-height:1.9;`,
-    date:   `color:#a8b4cc;font-size:11px;`,
-    banner: `background:${ac};color:#fff;padding:9px 32px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;`,
-    body:   `padding:22px 32px;`,
-    prose:  `font-size:13px;line-height:1.9;color:#2d3748;padding:16px 18px;background:#f7f8fc;border-left:3px solid ${ac};border-radius:0 5px 5px 0;`,
-    pt:     `display:flex;gap:14px;padding:12px 14px;margin-bottom:9px;background:#f7f8fc;border-left:3px solid ${ac};border-radius:0 5px 5px 0;`,
-    ptNum:  `font-size:11px;font-weight:700;color:${ac};min-width:20px;flex-shrink:0;padding-top:1px;`,
-    ptBod:  `flex:1;`,
-    ptTxt:  `color:#2d3748;line-height:1.72;`,
-    ptSrc:  `margin-top:4px;font-size:9px;color:#718096;`,
-    ptImg:  `margin-top:10px;max-width:100%;max-height:200px;object-fit:cover;border-radius:4px;display:block;`,
-    ftr:    `margin-top:20px;padding:13px 32px;border-top:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;font-size:10px;color:#a0aec0;`,
-  };
+  // Hex → rgb components for rgba() usage
+  function hexRgb(h) {
+    const x = parseInt(h.slice(1), 16);
+    return `${(x>>16)&255},${(x>>8)&255},${x&255}`;
+  }
+  const acRgb = hexRgb(ac);
 
   function pointHtml(text, num) {
     const clean = _pdfCleanText(text);
     const src   = _pdfSourceLine(text);
     const img   = _pdfImagePath(text);
-    const srcTag = src ? `<div style="${S.ptSrc}">${src}</div>` : "";
-    const imgTag = img ? `<img style="${S.ptImg}" src="${img}" alt="" crossorigin="anonymous">` : "";
-    return `<div style="${S.pt}"><div style="${S.ptNum}">${num}</div><div style="${S.ptBod}"><div style="${S.ptTxt}">${clean}</div>${srcTag}${imgTag}</div></div>`;
+    const srcTag = src
+      ? `<div style="margin-top:5px;font-size:10px;font-family:monospace;color:#4a5568;letter-spacing:.03em;">${src}</div>`
+      : "";
+    const imgTag = img
+      ? `<img style="margin-top:10px;max-width:100%;max-height:180px;object-fit:cover;border-radius:6px;display:block;" src="${img}" crossorigin="anonymous">`
+      : "";
+    return `
+    <div style="display:flex;gap:14px;padding:13px 16px;margin-bottom:8px;background:rgba(255,255,255,0.04);border-left:3px solid ${ac};border-radius:0 8px 8px 0;">
+      <div style="min-width:26px;height:26px;border-radius:6px;background:rgba(${acRgb},0.15);border:1px solid rgba(${acRgb},0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+        <span style="font-size:10px;font-weight:800;color:${ac};font-family:monospace;">${num}</span>
+      </div>
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:13px;color:#dce3ef;line-height:1.65;">${clean}</div>
+        ${srcTag}${imgTag}
+      </div>
+    </div>`;
   }
 
   let bodyHtml = "";
   if (def.type === "prose" || def.type === "prose-threat" || def.type === "prose-regional" || def.type === "prose-intel") {
     const text = typeof raw === "string" ? raw : (raw?.points || []).join("\n\n");
-    bodyHtml = `<p style="${S.prose}">${_pdfCleanText(text)}</p>`;
+    bodyHtml = `<div style="font-size:13px;color:#c4ccd8;line-height:1.85;padding:16px 20px;background:rgba(255,255,255,0.04);border-left:3px solid ${ac};border-radius:0 8px 8px 0;">${_pdfCleanText(text)}</div>`;
   } else if (def.type === "points") {
     (raw?.points || []).forEach((p, i) => { bodyHtml += pointHtml(p, i + 1); });
   } else if (def.type === "keydevs") {
     (Array.isArray(raw) ? raw : []).forEach((p, i) => { bodyHtml += pointHtml(p, i + 1); });
   }
-  if (!bodyHtml) bodyHtml = `<p style="${S.prose}color:#9ca3af;font-style:italic;">No content available.</p>`;
+  if (!bodyHtml) bodyHtml = `<div style="font-size:13px;color:#4a5568;font-style:italic;padding:16px 20px;">No content available.</div>`;
 
   const sectionLabel = `${def.flag.length > 2 ? def.flag + " " : ""}${def.label}`;
 
   const wrapper = document.createElement("div");
   wrapper.style.cssText = "position:fixed;left:-9999px;top:0;";
-  wrapper.innerHTML = `<div style="${S.wrap}">
-  <div style="${S.hdr}">
-    <div>
-      <div style="${S.brand}">&#9679; WAR SUMMARY &middot; INTELLIGENCE BULLETIN</div>
-      <div style="${S.conf}">${conflict}</div>
+  wrapper.innerHTML = `
+<div style="width:900px;background:#0a0c12;font-family:system-ui,-apple-system,Arial,sans-serif;">
+
+  <!-- header -->
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:20px 32px;border-bottom:1px solid rgba(255,255,255,0.07);">
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="width:8px;height:8px;border-radius:50%;background:#e53e5b;"></div>
+      <span style="font-size:11px;font-weight:800;letter-spacing:.2em;color:#e53e5b;text-transform:uppercase;">WAR SUMMARY</span>
+      <span style="font-size:11px;color:#1e2530;margin:0 2px;">|</span>
+      <span style="font-size:11px;color:#3d4a5c;text-transform:uppercase;letter-spacing:.12em;">Intelligence Bulletin</span>
     </div>
-    <div style="${S.hdrR}"><div style="${S.date}">${dateStr}</div><div>AI-Generated &middot; Open Source</div><div>warsummary.live</div></div>
+    <div style="text-align:right;">
+      <div style="font-size:10px;color:#4a5568;letter-spacing:.04em;">${dateStr}</div>
+      <div style="font-size:10px;color:#2d3748;margin-top:2px;letter-spacing:.04em;">warsummary.live</div>
+    </div>
   </div>
-  <div style="${S.banner}">${sectionLabel}</div>
-  <div style="${S.body}">${bodyHtml}</div>
-  <div style="${S.ftr}"><span style="color:#718096;font-weight:600;">WAR SUMMARY</span><span>AI-generated &middot; Always verify through official sources</span><span>warsummary.live</span></div>
+
+  <!-- section banner -->
+  <div style="background:linear-gradient(90deg,${ac},rgba(${acRgb},0.7));padding:15px 32px;display:flex;align-items:center;justify-content:space-between;">
+    <span style="font-size:14px;font-weight:800;letter-spacing:.1em;color:#fff;text-transform:uppercase;">${sectionLabel}</span>
+    <span style="font-size:10px;font-weight:700;color:rgba(255,255,255,0.6);letter-spacing:.15em;text-transform:uppercase;">${conflict}</span>
+  </div>
+
+  <!-- content -->
+  <div style="padding:20px 28px 24px;">${bodyHtml}</div>
+
+  <!-- footer -->
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 32px;border-top:1px solid rgba(255,255,255,0.06);">
+    <span style="font-size:10px;color:#2d3748;letter-spacing:.06em;text-transform:uppercase;">AI-Generated &middot; Open Source Intelligence</span>
+    <span style="font-size:11px;font-weight:800;letter-spacing:.14em;color:${ac};text-transform:uppercase;">warsummary.live</span>
+  </div>
+
 </div>`;
 
   document.body.appendChild(wrapper);
   const el = wrapper.firstElementChild;
-  const filename = `war-summary-${def.key}-${new Date().toISOString().split("T")[0]}.pdf`;
+  const filename = `war-summary-${def.key}-${new Date().toISOString().split("T")[0]}.png`;
 
-  html2pdf().set({
-    margin: 0,
-    filename,
-    image: { type: "jpeg", quality: 0.95 },
-    html2canvas: { scale: 2, useCORS: true, logging: false, backgroundColor: "#fff" },
-    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-    pagebreak: { mode: ["css", "legacy"] },
-  }).from(el).save().finally(() => wrapper.remove());
+  html2canvas(el, { scale: 2, useCORS: true, logging: false, backgroundColor: "#0a0c12" })
+    .then(canvas => {
+      const a = document.createElement("a");
+      a.download = filename;
+      a.href = canvas.toDataURL("image/png");
+      a.click();
+    })
+    .finally(() => wrapper.remove());
 }
 
 function initSectionFilter(sp) {
