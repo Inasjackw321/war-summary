@@ -705,81 +705,78 @@ function downloadSectionPDF(def, sectionsData) {
   const conflict  = currentConflictData.conflict  || "Intelligence Brief";
   const updatedAt = currentConflictData.updated_at || new Date().toISOString();
   const dateStr   = new Date(updatedAt).toUTCString().replace("GMT", "UTC");
-  const base      = window.location.origin + "/";
 
   const COLORS = { red:"#e53e5b", blue:"#3b82f6", green:"#10b981", orange:"#f59e0b", teal:"#06b6d4", yellow:"#eab308", purple:"#8b5cf6", gray:"#64748b" };
-  const accent = COLORS[def.color] || "#3b82f6";
+  const ac = COLORS[def.color] || "#3b82f6";
+
+  const S = {
+    wrap:   `font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.6;color:#1a202c;background:#fff;width:794px;`,
+    hdr:    `background:#0a0c12;padding:22px 32px 18px;display:flex;justify-content:space-between;align-items:flex-start;`,
+    brand:  `font-size:10px;font-weight:700;letter-spacing:.12em;color:#e53e5b;margin-bottom:6px;`,
+    conf:   `font-size:21px;font-weight:800;color:#fff;line-height:1.2;`,
+    hdrR:   `text-align:right;font-size:10px;color:#5a6a88;line-height:1.9;`,
+    date:   `color:#a8b4cc;font-size:11px;`,
+    banner: `background:${ac};color:#fff;padding:9px 32px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;`,
+    body:   `padding:22px 32px;`,
+    prose:  `font-size:13px;line-height:1.9;color:#2d3748;padding:16px 18px;background:#f7f8fc;border-left:3px solid ${ac};border-radius:0 5px 5px 0;`,
+    pt:     `display:flex;gap:14px;padding:12px 14px;margin-bottom:9px;background:#f7f8fc;border-left:3px solid ${ac};border-radius:0 5px 5px 0;`,
+    ptNum:  `font-size:11px;font-weight:700;color:${ac};min-width:20px;flex-shrink:0;padding-top:1px;`,
+    ptBod:  `flex:1;`,
+    ptTxt:  `color:#2d3748;line-height:1.72;`,
+    ptSrc:  `margin-top:4px;font-size:9px;color:#718096;`,
+    ptImg:  `margin-top:10px;max-width:100%;max-height:200px;object-fit:cover;border-radius:4px;display:block;`,
+    ftr:    `margin-top:20px;padding:13px 32px;border-top:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;font-size:10px;color:#a0aec0;`,
+  };
 
   function pointHtml(text, num) {
-    const clean  = _pdfCleanText(text);
-    const src    = _pdfSourceLine(text);
-    const img    = _pdfImagePath(text);
-    const imgTag = img ? `<img class="pt-img" src="${base}${img}" alt="">` : "";
-    const srcTag = src ? `<div class="pt-src">${src}</div>` : "";
-    return `<div class="pt">
-      <div class="pt-num">${num}</div>
-      <div class="pt-body"><div class="pt-text">${clean}</div>${srcTag}${imgTag}</div>
-    </div>`;
+    const clean = _pdfCleanText(text);
+    const src   = _pdfSourceLine(text);
+    const img   = _pdfImagePath(text);
+    const srcTag = src ? `<div style="${S.ptSrc}">${src}</div>` : "";
+    const imgTag = img ? `<img style="${S.ptImg}" src="${img}" alt="" crossorigin="anonymous">` : "";
+    return `<div style="${S.pt}"><div style="${S.ptNum}">${num}</div><div style="${S.ptBod}"><div style="${S.ptTxt}">${clean}</div>${srcTag}${imgTag}</div></div>`;
   }
 
   let bodyHtml = "";
   if (def.type === "prose" || def.type === "prose-threat" || def.type === "prose-regional" || def.type === "prose-intel") {
     const text = typeof raw === "string" ? raw : (raw?.points || []).join("\n\n");
-    bodyHtml = `<p class="prose">${_pdfCleanText(text)}</p>`;
+    bodyHtml = `<p style="${S.prose}">${_pdfCleanText(text)}</p>`;
   } else if (def.type === "points") {
     (raw?.points || []).forEach((p, i) => { bodyHtml += pointHtml(p, i + 1); });
   } else if (def.type === "keydevs") {
-    const nums = ["①","②","③","④","⑤","⑥","⑦","⑧","⑨","⑩"];
-    (Array.isArray(raw) ? raw : []).forEach((p, i) => { bodyHtml += pointHtml(p, nums[i] || (i + 1)); });
+    (Array.isArray(raw) ? raw : []).forEach((p, i) => { bodyHtml += pointHtml(p, i + 1); });
   }
-  if (!bodyHtml) bodyHtml = `<p class="prose" style="color:#9ca3af;font-style:italic;">No content available.</p>`;
+  if (!bodyHtml) bodyHtml = `<p style="${S.prose}color:#9ca3af;font-style:italic;">No content available.</p>`;
 
   const sectionLabel = `${def.flag.length > 2 ? def.flag + " " : ""}${def.label}`;
 
-  const html = `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
-<title>${conflict} — ${def.label}</title>
-<base href="${base}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<style>
-*{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:'Inter',Arial,sans-serif;background:#fff;color:#1a202c;font-size:13px;line-height:1.6;}
-.hdr{background:#0a0c12;padding:22px 32px 18px;display:flex;justify-content:space-between;align-items:flex-start;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
-.hdr-l .brand{font-size:10px;font-weight:700;letter-spacing:.12em;color:#e53e5b;font-family:'JetBrains Mono',monospace;margin-bottom:6px;display:flex;align-items:center;gap:6px;}
-.brand-dot{width:5px;height:5px;border-radius:50%;background:#e53e5b;display:inline-block;}
-.hdr-l .conflict{font-size:21px;font-weight:800;color:#fff;line-height:1.2;}
-.hdr-r{text-align:right;font-family:'JetBrains Mono',monospace;font-size:10px;color:#5a6a88;line-height:1.9;}
-.hdr-r .date{color:#a8b4cc;font-size:11px;}
-.banner{background:${accent};color:#fff;padding:9px 32px;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
-.body{padding:22px 32px;}
-.prose{font-size:13px;line-height:1.9;color:#2d3748;padding:16px 18px;background:#f7f8fc;border-left:3px solid ${accent};border-radius:0 5px 5px 0;}
-.pt{display:flex;gap:14px;padding:12px 14px;margin-bottom:9px;background:#f7f8fc;border-left:3px solid ${accent};border-radius:0 5px 5px 0;page-break-inside:avoid;}
-.pt-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:${accent};min-width:20px;flex-shrink:0;padding-top:1px;}
-.pt-body{flex:1;}
-.pt-text{color:#2d3748;line-height:1.72;}
-.pt-src{margin-top:4px;font-family:'JetBrains Mono',monospace;font-size:9px;color:#718096;}
-.pt-img{margin-top:10px;max-width:100%;max-height:200px;object-fit:cover;border-radius:4px;display:block;}
-.ftr{margin-top:20px;padding:13px 32px;border-top:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;font-size:10px;color:#a0aec0;font-family:'JetBrains Mono',monospace;}
-.ftr-brand{color:#718096;font-weight:600;}
-@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
-</style></head><body>
-<div class="hdr">
-  <div class="hdr-l">
-    <div class="brand"><span class="brand-dot"></span>WAR SUMMARY · INTELLIGENCE BULLETIN</div>
-    <div class="conflict">${conflict}</div>
+  const wrapper = document.createElement("div");
+  wrapper.style.cssText = "position:fixed;left:-9999px;top:0;";
+  wrapper.innerHTML = `<div style="${S.wrap}">
+  <div style="${S.hdr}">
+    <div>
+      <div style="${S.brand}">&#9679; WAR SUMMARY &middot; INTELLIGENCE BULLETIN</div>
+      <div style="${S.conf}">${conflict}</div>
+    </div>
+    <div style="${S.hdrR}"><div style="${S.date}">${dateStr}</div><div>AI-Generated &middot; Open Source</div><div>warsummary.live</div></div>
   </div>
-  <div class="hdr-r"><div class="date">${dateStr}</div><div>AI-Generated · Open Source</div><div>warsummary.live</div></div>
-</div>
-<div class="banner">${sectionLabel}</div>
-<div class="body">${bodyHtml}</div>
-<div class="ftr"><div class="ftr-brand">WAR SUMMARY</div><div>⚠ AI-generated · Always verify through official sources</div><div>warsummary.live</div></div>
-<script>window.onload=()=>{setTimeout(()=>window.print(),400);}<\/script>
-</body></html>`;
+  <div style="${S.banner}">${sectionLabel}</div>
+  <div style="${S.body}">${bodyHtml}</div>
+  <div style="${S.ftr}"><span style="color:#718096;font-weight:600;">WAR SUMMARY</span><span>AI-generated &middot; Always verify through official sources</span><span>warsummary.live</span></div>
+</div>`;
 
-  const win = window.open("", "_blank");
-  if (!win) return;
-  win.document.write(html);
-  win.document.close();
+  document.body.appendChild(wrapper);
+  const el = wrapper.firstElementChild;
+  const filename = `war-summary-${def.key}-${new Date().toISOString().split("T")[0]}.pdf`;
+
+  html2pdf().set({
+    margin: 0,
+    filename,
+    image: { type: "jpeg", quality: 0.95 },
+    html2canvas: { scale: 2, useCORS: true, logging: false, backgroundColor: "#fff" },
+    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+    pagebreak: { mode: ["css", "legacy"] },
+  }).from(el).save().finally(() => wrapper.remove());
 }
 
 function initSectionFilter(sp) {
