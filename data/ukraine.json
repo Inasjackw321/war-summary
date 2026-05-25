@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-25T13:11:12.191017+00:00",
-  "message_count": 260,
+  "updated_at": "2026-05-25T13:40:40.772469+00:00",
+  "message_count": 261,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,23 +15,23 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
     33,
-    33,
-    0,
     16,
-    66,
-    49,
-    0,
     16,
-    0,
+    16,
+    16,
+    82,
+    16,
     16,
     0,
+    16,
+    0,
     0,
     0,
     0,
     0,
     16,
+    0,
     0,
     16,
     0,
@@ -39,30 +39,30 @@
     0
   ],
   "combined_activity_timeline": [
-    10,
     11,
     9,
-    13,
-    13,
     10,
-    10,
+    16,
     9,
-    9,
+    14,
     5,
+    10,
     7,
-    3,
+    7,
+    6,
     4,
-    3,
-    12,
-    9,
-    12,
+    0,
+    7,
     11,
-    23,
-    12,
-    25,
-    18,
+    10,
+    13,
+    15,
+    20,
+    16,
+    24,
+    16,
     11,
-    11
+    9
   ],
   "messages_by_channel": {
     "@eRadarrua": 49,
@@ -70,7 +70,7 @@
     "@mon1tor_ua": 8,
     "@UkraineNow": 21,
     "@DeepStateUA": 3,
-    "@ukr_leaks_eng": 19,
+    "@ukr_leaks_eng": 20,
     "@tass_agency": 117
   },
   "recent_post_urls": {
@@ -79,15 +79,30 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/67222",
     "UkraineNow": "https://t.me/UkraineNow/81452",
     "DeepStateUA": "https://t.me/DeepStateUA/23534",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30415",
-    "tass_agency": "https://t.me/tass_agency/377475"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30416",
+    "tass_agency": "https://t.me/tass_agency/377480"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81449",
-    "eRadarrua": "https://t.me/eRadarrua/93606",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30404"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30415",
+    "UkraineNow": "https://t.me/UkraineNow/81439",
+    "tass_agency": "https://t.me/tass_agency/377478",
+    "eRadarrua": "https://t.me/eRadarrua/93593",
+    "kpszsu": "https://t.me/kpszsu/62738",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67218"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30416",
+      "post_id": 30416,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-05-25T13:31:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/377477",
+      "post_id": 377477,
+      "channel": "tass_agency",
+      "ts": "2026-05-25T13:20:52+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30415",
       "post_id": 30415,
@@ -201,18 +216,6 @@
       "post_id": 377439,
       "channel": "tass_agency",
       "ts": "2026-05-25T09:41:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81447",
-      "post_id": 81447,
-      "channel": "UkraineNow",
-      "ts": "2026-05-25T09:34:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/377436",
-      "post_id": 377436,
-      "channel": "tass_agency",
-      "ts": "2026-05-25T09:23:58+00:00"
     }
   ],
   "post_images": {
@@ -242,107 +245,113 @@
     "kpszsu/62715": "data/media/kpszsu_62715.jpg",
     "kpszsu/62716": "data/media/kpszsu_62715.jpg"
   },
-  "summary": "Ukrainian forces celebrated a 1,500‑day defense record at Mala Tokmachka, while Russian forces reported mixed results from recent missile and drone strikes, including a mid‑range Oreshnik missile hitting Bilіa Tserkva and another striking an area near Avdiivka. Both sides claim limited territorial gains on multiple fronts, with Russian assault units advancing up to 900 m on the Sumy front and Ukrainian UAV attacks disrupting power in Kherson. Civilian casualties continue to rise, notably 81 injured in a night raid on Kyiv.",
+  "summary": "Russian forces reported liberating Dobropasovo in Dnipropetrovsk region. Ukraine experienced a mass nighttime missile attack on Kyiv and surrounding areas, causing over 100 injuries and four deaths. Both sides continue aerial operations, including drone flights and missile launches across multiple fronts.",
   "key_points": [
-    "Ukrainian 118th separate mechanized brigade entered the Ukrainian record book for defending Mala Tokmachka for over 1,500 days (Source: @UkraineNow/81449).",
-    "Two Oreshnik mid‑range ballistic missiles were launched; one struck Bilіa Tserkva in Ukraine, the other hit a Russian‑controlled area near Avdiivka or Yasynuvata (Source: @eRadarrua/93606).",
-    "Russian assault units of the \"North\" Army Group advanced up to 900 m on twenty‑one sectors of the Sumy front (Source: @ukr_leaks_eng/30404).",
-    "Ukrainian UAV attacks caused complete power loss in nine districts of Kherson region (Source: @ukr_leaks_eng/30404).",
-    "A night Russian strike on Kyiv resulted in 81 injured, including three children, and damage to the Lukianivska metro station and a shopping centre (Source: @UkraineNow/81432).",
-    "Russian air defence repelled a massive Ukrainian UAV attack near Yaroslavl, with a civilian woman injured (Source: @ukr_leaks_eng/30404).",
-    "Drone attacks in Belgorod region injured civilians in Shebekino and killed a man in Grayvoron (Source: @ukr_leaks_eng/30404)."
+    "Russian troops liberated the village of Dobropasovo near Pokrovskoe in Dnipropetrovsk region (Source: @ukr_leaks_eng/30415).",
+    "A mass nighttime attack on Ukraine injured over 100 people and killed four, targeting Kyiv and Kyiv region (Source: @UkraineNow/81439).",
+    "Russian forces struck Bila Tserkva with a medium‑range \"Oreshnik\" ballistic missile (Source: @UkraineNow/81439).",
+    "Ukrainian SBU successfully attacked a Russian fuel‑pump station supplying Moscow airports (Source: @UkraineNow/81439).",
+    "Russian Ministry of Defense advised foreigners to leave Kyiv and warned residents against approaching military and administrative sites (Source: @tass_agency/377478).",
+    "Multiple Russian‑controlled UAVs reported operating over Dnipropetrovsk, Kharkiv, Sumy, and Kyiv regions, including a reconnaissance UAV over the Black Sea (Source: @eRadarrua/93593, @eRadarrua/93613).",
+    "Russian officials publicly declared intent to continue strikes on Kyiv, legitimising further attacks (Source: @UkraineNow/81451)."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian forces marked a 1,500‑day defense record at Mala Tokmachka, while Russia reported mixed outcomes from recent missile and drone operations, including an Oreshnik strike on Bilіa Tserkva and another near Avdiivka. Both sides claim limited advances, with Russian units moving up to 900 m on the Sumy front and Ukrainian UAVs disrupting power in Kherson. Civilian casualties rose sharply after a night raid on Kyiv, highlighting ongoing high‑intensity conflict.",
+    "executive_summary": "Russian forces liberated Dobropasovo in Dnipropetrovsk region, marking a territorial gain. Ukraine suffered a large‑scale nighttime missile barrage on Kyiv, with over 100 injured and four fatalities. Both sides maintain intensive aerial activity, including UAV flights and ballistic missile launches across several fronts.",
     "ukraine": {
       "points": [
-        "The 118th separate mechanized brigade was entered into the Ukrainian record book for maintaining control of the front line at Mala Tokmachka for more than 1,500 days, underscoring sustained defensive capability in Zaporizhzhia (Source: @UkraineNow/81449).",
-        "Ukrainian UAV operations caused a total blackout across nine districts of the Kherson region, indicating effective targeting of energy infrastructure (Source: @ukr_leaks_eng/30404).",
-        "Ukrainian forces reported continued skirmishes and limited advances on the Sumy front, with assault units moving up to 900 m on twenty‑one sectors, reflecting incremental pressure on Russian positions (Source: @ukr_leaks_eng/30404).",
-        "Ukrainian air defence successfully intercepted a large Ukrainian UAV swarm near Yaroslavl, preventing further damage, though a civilian woman was injured in the incident (Source: @ukr_leaks_eng/30404)."
+        "Ukrainian authorities reported a massive nighttime missile attack that injured more than 100 civilians and killed four, with Kyiv and Kyiv oblast identified as primary targets (Source: @UkraineNow/81439).",
+        "The Ukrainian Security Service (SBU) carried out a successful strike on a Russian fuel‑pump station that supplies Moscow’s airports, disrupting logistics (Source: @UkraineNow/81439).",
+        "Ukrainian MP Aleksey Goncharenko disclosed damage to the apartments of President Zelensky and businessman Timur Mindich at 9A Grushevsky Street during the Kyiv attack (Source: @ukr_leaks_eng/30398).",
+        "Ukrainian defense advisor Sergey Beskrestnov confirmed Russian strikes on the Ukrainian Ground Forces command building and the Lukyanovka (Artem) missile‑production plant (Source: @ukr_leaks_eng/30410).",
+        "Ukrainian forces maintained control of the village of Mala Tokmachka in Zaporizhzhia region for over 1,500 days despite continuous Russian assaults (Source: @UkraineNow/81449)."
       ]
     },
     "russia": {
       "points": [
-        "Two Oreshnik ballistic missiles were launched; one struck Bilіa Tserkva in Ukraine, while the second hit a Russian‑controlled area near Avdiivka or Yasynuvata, with speculation it may have impacted Russian forces (Source: @eRadarrua/93606).",
-        "Russian air defence and electronic warfare forces repelled a massive Ukrainian UAV attack on the approach to Yaroslavl, demonstrating continued air‑defence activity (Source: @ukr_leaks_eng/30404).",
-        "Drone attacks in Belgorod region resulted in civilian injuries: an FPV drone injured a man in Shebekino and a separate drone strike killed a man in Grayvoron (Source: @ukr_leaks_eng/30404).",
-        "Russian assault units of the \"North\" Army Group reported advances of up to 1,100 m on the Volchansk sector of the Kharkiv front, indicating localized offensive momentum (Source: @ukr_leaks_eng/30404)."
+        "The Russian Ministry of Defense announced the liberation of Dobropasovo village near Pokrovskoe in Dnipropetrovsk region (Source: @ukr_leaks_eng/30415).",
+        "Russian officials warned foreign nationals to leave Kyiv promptly and cautioned residents against approaching military or administrative infrastructure (Source: @tass_agency/377478).",
+        "Russia’s defence ministry confirmed the use of the medium‑range \"Oreshnik\" ballistic missile against Ukrainian targets, including Bila Tserkva, and cited additional strikes with Iskander, Kinjal and Zircon missiles (Source: @UkraineNow/81431).",
+        "Russian spokesperson indicated that attacks on Kyiv would continue and were being carried out in response to Ukrainian actions (Source: @UkraineNow/81451).",
+        "A Russian‑controlled UAV was observed maneuvering from Bogdanivka toward the Dnipro/Solone area in Dnipropetrovsk region (Source: @eRadarrua/93563)."
       ]
     },
     "eastern_front": {
       "points": [
-        "On the Sumy front, Russian \"North\" Army Group units advanced up to 900 m on twenty‑one sectors, with ongoing skirmishes in Zapselye, Ivolzhansk, and Kondratovka (Source: @ukr_leaks_eng/30404).",
-        "In the Dnipropetrovsk region, the \"East\" Army Group advanced northwest of Alexandrovgrad, engaging in forested combat near the Volchya River toward Lesnoye (Source: @ukr_leaks_eng/30404).",
-        "Russian forces reported progress on the East‑Zaporozhye front near Vozdvyzhevka and Komsomolskoe, using aviation, artillery, and UAVs to break Ukrainian defenses (Source: @ukr_leaks_eng/30404).",
-        "Ukrainian UAV attacks caused power outages in nine Kherson districts, affecting logistics and command‑and‑control on the southern‑eastern axis (Source: @ukr_leaks_eng/30404)."
+        "UAV groups were reported heading toward Izium and Balaklia in eastern Kharkiv region (Source: @kpszsu/62738).",
+        "A UAV flight from Kharkiv was directed northward across Poltava region, passing near Kotelva, heading southwest (Source: @kpszsu/62711).",
+        "Russian tactical aviation launched guided aerial bombs over Kharkiv region (Source: @kpszsu/62725).",
+        "Another guided bomb sortie was reported over Sumy region (Source: @kpszsu/62736).",
+        "UAV activity was noted over the Dnipro‑Petrovsk area heading toward Vasylivka (Source: @kpszsu/62722)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian \"North\" Army Group advanced up to 1,100 m on the Volchansk sector of the Kharkiv front, with skirmishes in Karaichnoe and Okhrimovka (Source: @ukr_leaks_eng/30404).",
-        "Skirmishes continued on the Sumy front in villages such as Zapselye, Ivolzhansk, and Kondratovka, with Russian units holding positions after limited advances (Source: @ukr_leaks_eng/30404).",
-        "Ukrainian UAV activity was reported near Yaroslavl, prompting Russian air‑defence response and a civilian injury (Source: @ukr_leaks_eng/30404).",
-        "Russian forces noted an unsuccessful Ukrainian counter‑attack across the Seversky Donets River at Izbitskoe (Source: @ukr_leaks_eng/30404)."
+        "Nine Shahed drones were reported moving from Chernihiv region toward Kyiv region, specifically Vyshedor district (Source: @mon1tor_ua/67218).",
+        "UAVs were observed over Chernihiv city and heading toward Nizhyn and Sosnytsia (Source: @eRadarrua/93578).",
+        "A UAV flight from Chernihiv passed near Slavutych heading south (Source: @kpszsu/62707).",
+        "UAVs were seen over the Kyiv reservoir at an altitude of 9,000 m, likely for reconnaissance (Source: @eRadarrua/93593).",
+        "A UAV group was reported over Kyiv, approaching from the north near Obukhiv (Source: @kpszsu/62729)."
       ]
     },
     "southern_front": {
       "points": [
-        "A night Russian missile strike on Kyiv injured 81 people, including three children, and damaged the Lukianivska metro station and a shopping centre (Source: @UkraineNow/81432).",
-        "Russian forces reported a strike on Pavlograd, damaging a multi‑storey building and wounding three men aged 18, 43, and 45 (Source: @UkraineNow/81443).",
-        "Ukrainian UAV attacks caused widespread power loss in Kherson, affecting nine districts and likely hampering Russian logistical operations (Source: @ukr_leaks_eng/30404).",
-        "Russian reports indicated missile attacks on Belgorod and its district, damaging energy infrastructure and causing civilian casualties (Source: @ukr_leaks_eng/30404)."
+        "UAVs were observed moving from the Black Sea toward Odesa region (Source: @kpszsu/62742).",
+        "A Russian‑controlled UAV was reported over Mykolaiv region near Luperove and Snihurivka, heading to a training ground (Source: @eRadarrua/93575).",
+        "UAV activity was noted over Mykolaiv region near the Black Sea (Source: @eRadarrua/93613).",
+        "A Russian‑controlled UAV was seen over the Dnipro‑Petrovsk area heading toward Pavlograd (Source: @kpszsu/62723).",
+        "A UAV was reported over Mykolaiv region near the water reservoir (Source: @eRadarrua/93593)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air defence repelled a massive Ukrainian UAV swarm near Yaroslavl, with a civilian woman injured during the engagement (Source: @ukr_leaks_eng/30404).",
-        "Ukrainian UAV operations caused complete power loss in nine Kherson districts, demonstrating effective aerial strike capability (Source: @ukr_leaks_eng/30404).",
-        "Russian forces employed aviation, artillery, and attack UAVs to support assaults on the East‑Zaporozhye front, aiding breakthroughs near Vozdvyzhevka (Source: @ukr_leaks_eng/30404).",
-        "Drone attacks in Belgorod region resulted in civilian injuries in Shebekino and a fatality in Grayvoron, highlighting ongoing low‑altitude air threats (Source: @ukr_leaks_eng/30404)."
+        "Russian tactical aviation conducted guided bomb strikes on Kharkiv and Sumy regions (Source: @kpszsu/62725, @kpszsu/62736).",
+        "Ukrainian forces reported a missile strike on the Ukrainian Ground Forces command building and the Lukyanovka plant (Source: @ukr_leaks_eng/30410).",
+        "Multiple UAV flights were documented across the front lines, including reconnaissance over the Black Sea and various oblasts (Source: @eRadarrua/93613, @eRadarrua/93593).",
+        "Russian officials announced the use of the \"Oreshnik\" ballistic missile against Bila Tserkva and other targets (Source: @UkraineNow/81431).",
+        "A threat of ballistic weapon use from the south was announced by Russian sources (Source: @kpszsu/62685)."
       ]
     },
     "key_developments": [
-      "Ukrainian 118th separate mechanized brigade entered the Ukrainian record book for defending Mala Tokmachka for over 1,500 days (Source: @UkraineNow/81449).",
-      "Two Oreshnik ballistic missiles were launched; one hit Bilіa Tserkva in Ukraine, the other struck a Russian‑controlled area near Avdiivka or Yasynuvata (Source: @eRadarrua/93606).",
-      "Russian \"North\" Army Group advanced up to 900 m on twenty‑one sectors of the Sumy front (Source: @ukr_leaks_eng/30404).",
-      "Ukrainian UAV attacks caused a total power outage in nine districts of Kherson region (Source: @ukr_leaks_eng/30404).",
-      "A night Russian strike on Kyiv injured 81 people, including three children, and damaged the Lukianivska metro station (Source: @UkraineNow/81432).",
-      "Russian air defence repelled a massive Ukrainian UAV attack near Yaroslavl, injuring a civilian woman (Source: @ukr_leaks_eng/30404).",
-      "Drone attacks in Belgorod region injured civilians in Shebekino and killed a man in Grayvoron (Source: @ukr_leaks_eng/30404)."
+      "Russian forces liberated Dobropasovo near Pokrovskoe in Dnipropetrovsk region, expanding their control (Source: @ukr_leaks_eng/30415).",
+      "A large‑scale nighttime missile attack on Kyiv and Kyiv oblast injured over 100 civilians and killed four, marking a significant escalation (Source: @UkraineNow/81439).",
+      "Russia employed the medium‑range \"Oreshnik\" ballistic missile against Bila Tserkva, demonstrating continued use of strategic weapons (Source: @UkraineNow/81439).",
+      "Ukrainian SBU successfully struck a Russian fuel‑pump station that supplies Moscow airports, disrupting enemy logistics (Source: @UkraineNow/81439).",
+      "Multiple Russian‑controlled UAVs were observed operating over Dnipropetrovsk, Kharkiv, Sumy, and Kyiv regions, indicating expanded drone activity (Source: @eRadarrua/93593, @eRadarrua/93613).",
+      "Russian defence ministry advised foreigners to leave Kyiv and warned residents against approaching military sites, reflecting heightened security concerns (Source: @tass_agency/377478).",
+      "Russian officials publicly declared intent to continue strikes on Kyiv, legitimising further attacks on the capital (Source: @UkraineNow/81451)."
     ],
-    "threat_assessment": "Both sides are sustaining high‑intensity operations across multiple fronts, with Ukraine leveraging UAVs to disrupt Russian logistics and power grids, while Russia continues to employ ballistic missiles and air‑defence systems to counter Ukrainian aerial threats. The mixed success of Oreshnik missile strikes suggests limited precision, but the potential for collateral damage remains. Civilian casualty rates are rising, particularly in urban centers like Kyiv, indicating an escalation in strike density and potential for broader humanitarian impact.",
-    "regional_response": "Local authorities in Kyiv are managing increased civilian injuries and infrastructure repairs, while Ukrainian border services report no significant troop movements near the Belarusian frontier, though they note heightened Russian pressure on Belarus. Russian regional commands emphasize defensive successes against UAV swarms, aiming to maintain control over contested border zones.",
-    "intelligence_notes": "Monitoring of UAV flight paths shows a pattern of targeting energy infrastructure in southern Ukraine, warranting enhanced air‑defence allocation. The dual Oreshnik missile launches highlight a need for improved missile detection and attribution capabilities, especially in contested Donetsk areas. Russian advances of under 1 km on the Sumy and Kharkiv fronts suggest limited but ongoing offensive pressure, requiring continued reconnaissance and artillery support for Ukrainian defensive lines."
+    "threat_assessment": "Russian forces are consolidating gains in the Dnipropetrovsk region while intensifying missile strikes on strategic Ukrainian targets, including Kyiv and Bila Tserkva. Ukrainian defensive actions, such as the SBU fuel‑pump attack, show capability to disrupt Russian logistics. The proliferation of UAV operations across multiple fronts increases the risk of rapid, low‑altitude attacks and reconnaissance, complicating air defence planning.",
+    "regional_response": "Ukraine has mobilised emergency services and reinforced civil defence in Kyiv following the mass missile barrage, while diplomatic channels highlight continued Western support for air‑defence enhancements. Russian statements urging foreign evacuation from Kyiv may aim to pressure international presence and limit diplomatic activity in the capital. Neighboring states remain vigilant, with no reported cross‑border troop movements at this time.",
+    "intelligence_notes": "Open‑source monitoring confirms increased UAV traffic from Russian‑held areas toward Ukrainian frontlines, suggesting a coordinated drone campaign. The use of the \"Oreshnik\" missile indicates Russia's willingness to employ medium‑range ballistic assets despite international scrutiny. Continued propaganda from Russian officials about ongoing attacks serves both domestic and strategic messaging purposes."
   },
   "missiles": 0,
   "drones": 262,
   "kpszsu_timeline": [
     1,
     0,
-    1,
-    4,
-    1,
+    2,
+    3,
     3,
     2,
     1,
+    1,
     2,
+    1,
+    3,
+    1,
+    0,
+    1,
+    3,
+    2,
+    2,
+    5,
+    3,
+    3,
     0,
     3,
     1,
-    1,
-    1,
-    2,
-    2,
-    2,
-    3,
-    6,
-    2,
-    1,
-    2,
-    1,
-    1
+    0
   ]
 }
