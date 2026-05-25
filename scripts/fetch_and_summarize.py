@@ -405,89 +405,94 @@ _KH_RE = re.compile(
 )
 
 
-def parse_missile_count(texts: list[str], drones: int = 0) -> int:
-    """Extract LAUNCHED missile count from kpszsu posts."""
-    # Best formula: (total aerial means) - drones. Scan ALL texts first so a brief
-    # "launch narrative" post with only Kh types doesn't shadow the full summary.
-    if drones > 0:
-        for text in texts:
-            m = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
-            if m:
-                return max(0, int(m.group(1)) - drones)
-            m = re.search(r'(\d{2,4})\s+air\s+attack\s+vehicles?\b', text, re.IGNORECASE)
-            if m:
-                return max(0, int(m.group(1)) - drones)
-
-    # Fallback: scan texts with a launch narrative for explicit counts
-    for text in texts:
-        m_narr = re.search(
-            r'(?:атакув\w+|attacked\s+with\b|launched.{0,40}(?:missile|UAV|drone|strike|aerial)).+',
-            text, re.IGNORECASE | re.DOTALL,
-        )
-        if m_narr:
-            launch_text = m_narr.group(0)
-            zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed|ЗБИТО)', launch_text, re.IGNORECASE)
-            if zbito:
-                launch_text = launch_text[:zbito.start()]
-
-            # Ukrainian: total - UAVs listed in the same text
-            m_total = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
-            if m_total:
-                total = int(m_total.group(1))
-                m_dr = re.search(r'(\d{2,4})\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа])', text)
-                if m_dr:
-                    return max(0, total - int(m_dr.group(1)))
-            # English explicit: "- 90 missiles" bullet
-            m_en = re.search(r'[-–]\s*(\d{1,3})\s+missiles?\b', text, re.IGNORECASE)
-            if m_en:
-                return int(m_en.group(1))
-            # Kh- / Х- specific missile type enumeration
-            kh_hits = _KH_RE.findall(launch_text)
-            if kh_hits:
-                total = sum(_to_int(h) for h in kh_hits)
-                if total > 0:
-                    return total
-            # Ukrainian explicit cruise/ballistic counts
-            hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
-            if hits:
-                return sum(int(x) for x in hits)
-            return 0
-
-    # Last resort: bare ballistic/cruise patterns with no launch narrative
-    for text in texts:
-        hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
-        if hits:
-            return sum(int(x) for x in hits)
+def _extract_drones_from_text(text: str) -> int:
+    """Extract drone count from a single text. Returns 0 if not found."""
+    m = re.search(r'(\d{2,4})\s+(?:attack|strike|combat)\s+UAVs?\b', text, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+    m = re.search(r'(\d{2,4})\s+Shahed', text, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+    m = re.search(r'(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
+    if m:
+        return int(m.group(1))
+    m = re.search(r'air\s+attack\s+vehicles?.{0,200}[-–,]\s*(\d{2,4})\s+UAVs?\b', text, re.IGNORECASE | re.DOTALL)
+    if m:
+        return int(m.group(1))
     return 0
+
+
+def _extract_missiles_from_text(text: str) -> int:
+    """Extract missile count from a single text via explicit patterns. Returns 0 if not found."""
+    m = re.search(r'[-–]\s*(\d{1,3})\s+missiles?\b', text, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+    # Kh-type enumeration in launch portion (before any shoot-down text)
+    launch_m = re.search(
+        r'(?:атакув\w+|attacked\s+with\b|launched.{0,40}(?:missile|UAV|drone|strike|aerial)).+',
+        text, re.IGNORECASE | re.DOTALL,
+    )
+    if launch_m:
+        launch_text = launch_m.group(0)
+        zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed|ЗБИТО)', launch_text, re.IGNORECASE)
+        if zbito:
+            launch_text = launch_text[:zbito.start()]
+        kh_hits = _KH_RE.findall(launch_text)
+        if kh_hits:
+            total = sum(_to_int(h) for h in kh_hits)
+            if total > 0:
+                return total
+    hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
+    if hits:
+        return sum(int(x) for x in hits)
+    return 0
+
+
+def parse_attack_counts(texts: list[str]) -> tuple[int, int]:
+    """Return (missiles, drones) from the most recent attack summary in texts.
+
+    All numbers come from the SAME text to avoid mixing totals across different attacks.
+    texts must be sorted newest-first (highest post_id first).
+    """
+    for text in texts:
+        if not _ATTACK_SUMMARY_RE.search(text):
+            continue
+
+        # Total aerial means in this text
+        m_total_uk = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
+        m_total_en = re.search(r'(\d{2,4})\s+air\s+attack\s+vehicles?\b', text, re.IGNORECASE)
+        total_m = m_total_uk or m_total_en
+        total = int(total_m.group(1)) if total_m else 0
+
+        drones = _extract_drones_from_text(text)
+        missiles = _extract_missiles_from_text(text)
+
+        if total > 0:
+            if drones > 0 and missiles == 0:
+                missiles = max(0, total - drones)
+            elif missiles > 0 and drones == 0:
+                drones = max(0, total - missiles)
+            elif drones == 0 and missiles == 0:
+                # Can't split total without a breakdown — skip this text
+                continue
+            return missiles, drones
+
+        if drones > 0 or missiles > 0:
+            # No total available — trust the explicit counts found
+            return missiles, drones
+
+    return 0, 0
+
+
+# Keep thin wrappers for any other call sites (not used by _process_conflict any more)
+def parse_missile_count(texts: list[str], drones: int = 0) -> int:
+    m, _ = parse_attack_counts(texts)
+    return m
 
 
 def parse_drone_count(texts: list[str], missiles: int = 0) -> int:
-    """Extract LAUNCHED drone/UAV count from kpszsu posts. Scans all texts, takes first non-zero."""
-    for text in texts:
-        # English: "600 attack/strike/combat UAVs"
-        m = re.search(r'(\d{2,4})\s+(?:attack|strike|combat)\s+UAVs?\b', text, re.IGNORECASE)
-        if m:
-            return int(m.group(1))
-        # English: "141 Shahed" drones
-        m = re.search(r'(\d{2,4})\s+Shahed', text, re.IGNORECASE)
-        if m:
-            return int(m.group(1))
-        # Ukrainian: "600 ударних БпЛА/дронів" = launched (NOT "ворожих" = intercepted)
-        m = re.search(r'(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
-        if m:
-            return int(m.group(1))
-        # English: "690 air attack vehicles … 600 UAVs" — extract UAV sub-count
-        m_en = re.search(
-            r'air\s+attack\s+vehicles?.{0,200}[-–,]\s*(\d{2,4})\s+UAVs?\b',
-            text, re.IGNORECASE | re.DOTALL,
-        )
-        if m_en:
-            return int(m_en.group(1))
-        # Ukrainian fallback: total aerial means minus missiles
-        m = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
-        if m:
-            return max(0, int(m.group(1)) - missiles)
-    return 0
+    _, d = parse_attack_counts(texts)
+    return d
 
 
 def update_ukraine_history(output_dir: Path, attack_data: dict) -> None:
@@ -770,12 +775,11 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
     else:  # ukraine
         # Always use dedicated fetch so attack summaries are sorted newest-first (by post ID)
         # and is_relevant() filtering doesn't drop short numeric daily summaries.
+        # parse_attack_counts extracts both numbers from the SAME text to avoid mixing
+        # totals from different attacks (e.g. yesterday's 690 total - today's 262 drones).
         print("  [kpszsu] doing dedicated fetch for missile/drone counts", file=sys.stderr)
         kpszsu_raw = fetch_kpszsu_all_texts("kpszsu")
-        drones = parse_drone_count(kpszsu_raw, missiles=0)
-        missiles = parse_missile_count(kpszsu_raw, drones=drones)
-        if missiles > 0 and drones == 0:
-            drones = parse_drone_count(kpszsu_raw, missiles=missiles)
+        missiles, drones = parse_attack_counts(kpszsu_raw)
         red_alerts_raw = missiles + drones
         print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
         update_ukraine_history(output_dir, {"total": red_alerts_raw, "missiles": missiles, "drones": drones, "ts": None})
