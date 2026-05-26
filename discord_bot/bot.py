@@ -34,9 +34,15 @@ CONFLICT_META = {
     "ukraine":     ("Ukraine-Russia", "🇺🇦", 0x3b82f6),
 }
 
-# Sources known to be heavily biased or state-controlled
-_EXCLUDED_SOURCES = {"presstv", "rasedal3ado138e", "SharghDaily", "naya_foriraq"}
+# Sources known to be heavily biased or state-controlled (excluded globally)
+_EXCLUDED_SOURCES = {"presstv", "rasedal3ado138e", "SharghDaily"}
 _EXCLUDED_LOWER   = {s.lower() for s in _EXCLUDED_SOURCES}
+
+# For Middle East summaries only show points sourced from this approved list
+_ME_ALLOWED = {
+    "faytuks_network", "naya_foriraq", "n12chat", "shin_persian",
+    "idf_telegram", "manniefabian", "tzevaadom_en", "amitsegal", "redlinkleb",
+}
 
 _cfg: dict = {}
 _session: aiohttp.ClientSession | None = None
@@ -310,10 +316,15 @@ def _collect_points(data: dict, conflict: str) -> list[str]:
             sig = clean[:60].lower()
             if sig in seen or len(clean) < 25:
                 continue
-            # Drop points sourced only from excluded channels
             cited = _cited_sources(str(p))
-            if cited and cited.issubset(_EXCLUDED_LOWER):
-                continue
+            # For Middle East: only include points with at least one approved source
+            if conflict == "middle_east":
+                if not cited or not cited.intersection(_ME_ALLOWED):
+                    continue
+            else:
+                # Globally: drop points sourced only from excluded channels
+                if cited and cited.issubset(_EXCLUDED_LOWER):
+                    continue
             seen.add(sig)
             points.append(str(p))
 
