@@ -624,9 +624,10 @@ function initSectionControls(sp) {
 // ── 7-day history chart (Ukraine sidebar) ────────────────────────────────────
 function render7DayChart(id, hist) {
   const canvas = document.getElementById(id); if (!canvas) return;
-  const today = new Date();
+  // Dates bucketed in Kyiv time (UTC+3) to match kpszsu report schedule
+  const kyivNow = new Date(Date.now() + 3 * 60 * 60 * 1000);
   const days = Array.from({ length: 7 }, (_, i) => {
-    const d = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate() - (6 - i)));
+    const d = new Date(Date.UTC(kyivNow.getUTCFullYear(), kyivNow.getUTCMonth(), kyivNow.getUTCDate() - (6 - i)));
     return d.toISOString().split("T")[0];
   });
   const labels = days.map(d => d.slice(5));

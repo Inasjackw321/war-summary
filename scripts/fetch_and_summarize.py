@@ -502,7 +502,10 @@ def update_conflict_history(output_dir: Path, conflict_key: str, data: dict) -> 
         hist = json.loads(path.read_text()) if path.exists() else {"entries": []}
     except Exception:
         hist = {"entries": []}
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # Use Kyiv time (UTC+3) — kpszsu reports publish in the morning local time,
+    # so the "day" of an attack matches what Ukrainians see on their calendar.
+    KYIV_TZ = timezone(timedelta(hours=3))
+    today = datetime.now(KYIV_TZ).strftime("%Y-%m-%d")
     hist["entries"] = [e for e in hist["entries"] if e["date"] != today]
     hist["entries"].append({"date": today, **data})
     hist["entries"].sort(key=lambda e: e["date"])
