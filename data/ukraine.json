@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-25T23:48:28.430608+00:00",
-  "message_count": 278,
+  "updated_at": "2026-05-26T00:18:30.256333+00:00",
+  "message_count": 282,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -22,74 +22,80 @@
     0,
     15,
     0,
-    0,
     15,
     0,
     0,
     0,
-    15,
     0,
-    44,
+    15,
+    15,
+    29,
     44,
     29,
     0,
-    15,
-    44,
     29,
+    58,
+    0,
     0
   ],
   "combined_activity_timeline": [
     4,
-    4,
     2,
-    8,
-    8,
-    13,
-    10,
-    19,
-    16,
-    20,
-    21,
-    15,
+    5,
+    11,
+    9,
     12,
-    10,
-    15,
-    14,
-    19,
+    11,
+    22,
     13,
+    26,
+    17,
+    11,
+    11,
+    11,
+    16,
+    14,
+    20,
     15,
     9,
+    11,
     9,
-    9,
+    7,
     6,
-    6
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 56,
+    "@eRadarrua": 57,
     "@kpszsu": 35,
     "@mon1tor_ua": 1,
     "@UkraineNow": 23,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 133
+    "@tass_agency": 136
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/93691",
-    "kpszsu": "https://t.me/kpszsu/62766",
+    "eRadarrua": "https://t.me/eRadarrua/93692",
+    "kpszsu": "https://t.me/kpszsu/62768",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67225",
     "UkraineNow": "https://t.me/UkraineNow/81463",
     "DeepStateUA": "https://t.me/DeepStateUA/23535",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30426",
-    "tass_agency": "https://t.me/tass_agency/377532"
+    "tass_agency": "https://t.me/tass_agency/377535"
   },
   "cited_post_urls": {
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30415",
     "UkraineNow": "https://t.me/UkraineNow/81449",
-    "kpszsu": "https://t.me/kpszsu/62707",
-    "tass_agency": "https://t.me/tass_agency/377493",
-    "eRadarrua": "https://t.me/eRadarrua/93685"
+    "eRadarrua": "https://t.me/eRadarrua/93625",
+    "kpszsu": "https://t.me/kpszsu/62758",
+    "tass_agency": "https://t.me/tass_agency/377500"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/377535",
+      "post_id": 377535,
+      "channel": "tass_agency",
+      "ts": "2026-05-26T00:10:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/377532",
       "post_id": 377532,
@@ -221,12 +227,6 @@
       "post_id": 81458,
       "channel": "UkraineNow",
       "ts": "2026-05-25T16:57:50+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81457",
-      "post_id": 81457,
-      "channel": "UkraineNow",
-      "ts": "2026-05-25T16:49:42+00:00"
     }
   ],
   "post_images": {
@@ -260,107 +260,125 @@
     "kpszsu/62715": "data/media/kpszsu_62715.jpg",
     "kpszsu/62716": "data/media/kpszsu_62715.jpg"
   },
-  "summary": "Russian forces reported liberating Dobropasovo in Dnipropetrovsk region and intensified strikes on Kyiv facilities. Ukrainian forces continue defending front‑line villages, notably Mala Tokmachka, marking a record‑long hold. Civilian casualties from recent Russian attacks in Kyiv and Kharkiv regions remain high.",
+  "summary": "Russian forces reported liberating Dobropasovo in Dnepropetrovsk region. Ukraine’s ground forces command building and the Lukyanovka plant were struck by Russian attacks. Multiple UAV and missile attacks continue across several fronts, with heightened threat warnings for Kyiv.",
   "key_points": [
-    "Russian Ministry of Defense claims liberation of Dobropasovo near Pokrovskoe, Dnipropetrovsk region (Source: @ukr_leaks_eng/30415).",
-    "Ukrainian forces in Mala Tokmachka, Zaporizhzhia region, have held the line for over 1500 days, recognized by the 118th Separate Mechanized Brigade (Source: @UkraineNow/81449).",
-    "Russian air strikes on a residential building in Kyiv's Shevchenkivskyi district killed 2 civilians, injured 92 (including 3 children), and damaged a five‑storey block (Source: @UkraineNow/81458).",
-    "A Russian missile attack on Derhachi (Kharkiv region) wounded 19 people, killed a 68‑year‑old man, and damaged a civilian enterprise (Source: @UkraineNow/81448).",
-    "Ukrainian officials report an 18‑year‑old detained near a Ministry of Defence site for allegedly mapping Russian strike locations during the May 24 mass attack on Kyiv (Source: @UkraineNow/81454).",
-    "Multiple UAV sightings reported across northern and eastern oblasts, including a group heading south from Chernihiv past Slavutych and UAVs moving northwest over Dnipropetrovsk (Source: @kpszsu/62707, @kpszsu/62760).",
-    "Russian Defense Ministry announces sequential strikes on Ukrainian defense industry enterprises in Kyiv (Source: @tass_agency/377493)."
+    "Russian troops have liberated the village of Dobropasovo near Pokrovskoe in Dnepropetrovsk region (Source: @ukr_leaks_eng/30415).",
+    "Russian forces struck the Ukrainian Ground Forces command building and the Lukyanovka plant, previously damaged (Source: @ukr_leaks_eng/30410).",
+    "Ukrainian forces in the village of Mala Tokmachka, Zaporizhzhia region, have held the line for over 1500 days, recognized by a national record (Source: @UkraineNow/81449).",
+    "Russian missile strikes hit Derhachi, causing 19 casualties and one death, and damaged a civilian enterprise (Source: @UkraineNow/81448).",
+    "Russian forces dropped five FAB-250 bombs on Kramatorsk, injuring at least two and damaging multiple buildings (Source: @UkraineNow/81444).",
+    "Ukrainian intelligence warned of a high threat of a mass missile attack on Kyiv and Kyiv region within three days, listing possible missile types (Source: @eRadarrua/93625).",
+    "A threat of ballistic weapon use from the south was announced then later withdrawn (Source: @kpszsu/62758, @kpszsu/62735)."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces claim to have liberated Dobropasovo in Dnipropetrovsk region and are conducting sequential strikes on Kyiv defense‑industry targets. Ukrainian defenders maintain a record‑long hold on Mala Tokmachka despite ongoing artillery and UAV activity across multiple fronts. Civilian casualties continue to rise from Russian missile and bomb attacks in Kyiv and Kharkiv regions.",
+    "executive_summary": "Russian forces have taken Dobropasovo in Dnepropetrovsk, while Ukrainian command facilities and industrial sites have been struck. UAV and missile attacks persist across multiple fronts, with a warned mass strike risk on Kyiv. Ukrainian defenders continue to hold key positions such as Mala Tokmachka.",
     "ukraine": {
       "points": [
-        "Ukrainian troops of the 118th Separate Mechanized Brigade have defended the village of Mala Tokmachka in Zaporizhzhia region for more than 1500 days, marking one of the longest‑held front‑line positions (Source: @UkraineNow/81449).",
-        "In Kyiv's Shevchenkivskyi district, a Russian strike on a residential building resulted in 2 civilian deaths, 92 injuries (including three children), and the destruction of a five‑storey block; 13 people were rescued and 320 sought psychological aid (Source: @UkraineNow/81458).",
-        "An 18‑year‑old was detained near a Ministry of Defence facility in Kyiv after authorities found communications indicating he was mapping Russian strike movements during the May 24 mass attack (Source: @UkraineNow/81454).",
-        "Ukrainian authorities report 19 casualties in Derhachi, Kharkiv region, after a Russian missile hit a civilian enterprise, killing a 68‑year‑old man and wounding 18 others (Source: @UkraineNow/81448)."
+        "Ukrainian Ground Forces command building was hit by Russian forces, though the facility had not been used since the war began, according to Defense Minister advisor Sergey Beskrestnov (Source: @ukr_leaks_eng/30410).",
+        "The Lukyanovka plant, previously damaged, was also struck, likely referring to the Artem missile‑production plant (Source: @ukr_leaks_eng/30410).",
+        "Ukrainian troops defending the village of Mala Tokmachka in Zaporizhzhia have maintained the line for over 1500 days, earning a national record (Source: @UkraineNow/81449).",
+        "In Derhachi, a Russian rocket attack injured 19 civilians, killed a 68‑year‑old man, and damaged a civilian enterprise (Source: @UkraineNow/81448).",
+        "In Kramatorsk, Russian forces dropped five FAB‑250 bombs, causing injuries and damage to residential and administrative buildings (Source: @UkraineNow/81444).",
+        "Ukrainian air defenses intercepted 246 hostile UAVs, including Shahed, Gerbera, and Iltamass types, across the country on 25 May (Source: @kpszsu/62715).",
+        "Ukrainian intelligence warned of a high probability of a mass missile strike on Kyiv within three days, listing specific missile systems that could be used (Source: @eRadarrua/93625)."
       ]
     },
     "russia": {
       "points": [
-        "The Russian Ministry of Defense announced the liberation of the village of Dobropasovo near Pokrovskoe in Dnipropetrovsk region (Source: @ukr_leaks_eng/30415).",
-        "Russian Aerospace Forces are conducting sequential strikes on Ukrainian defense‑industry facilities in Kyiv, as stated by the Russian Foreign Ministry (Source: @tass_agency/377493).",
-        "Russian officials reported that Bulgaria supplied large amounts of weapons to Ukraine, describing it as a major mistake (Source: @tass_agency/377523).",
-        "Russian Foreign Ministry indicated plans to file a complaint at the International Court of Justice regarding alleged persecution of ethnic Russians in the Baltic states (Source: @UkraineNow/81453)."
+        "Russian Ministry of Defense announced the liberation of Dobropasovo village near Pokrovskoe in Dnepropetrovsk region (Source: @ukr_leaks_eng/30415).",
+        "Russian forces conducted guided aviation bomb releases over Dnepropetrovsk region (Source: @kpszsu/62732).",
+        "A threat of ballistic weapon use from the south was announced (Source: @kpszsu/62758).",
+        "The same threat was later declared cancelled (Source: @kpszsu/62735).",
+        "Two Tu‑95MS aircraft were relocated from Olenya airfield to the Far East (Source: @eRadarrua/93655).",
+        "Russian officials cited a planned provocation involving the Czech‑detained Metropolitan Ilarion (Source: @tass_agency/377500).",
+        "Russia claimed a downed gas tanker “Arktik Metagaz” was damaged near Malta, accusing Ukraine (Source: @UkraineNow/81452)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV groups were observed moving southeast toward Izium and Balakliia in eastern Kharkiv region (Source: @kpszsu/62738).",
-        "Guided aviation bombs were launched by hostile tactical aviation targeting Sumy region (Source: @kpszsu/62736).",
-        "A UAV group operated in the western part of Kharkiv oblast, passing near Kovyiaky and Sharivka, heading southwest (Source: @kpszsu/62755).",
-        "Multiple UAV sightings reported in Sumy oblast, including locations Yampil, Trostyanets, and Lebedyn (Source: @eRadarrua/93685)."
+        "UAV activity reported over Kharkiv, Sumy, and Poltava directions, including groups heading toward Kovyagi, Sharivka, and Romny (Source: @kpszsu/62755, @kpszsu/62746).",
+        "Russian guided aviation bomb releases targeted Dnepropetrovsk region (Source: @kpszsu/62732).",
+        "Ukrainian forces reported high‑speed reactive UAVs (>500 km/h) over Kyiv region (Source: @eRadarrua/93689).",
+        "Multiple UAV groups were observed moving from Kharkiv toward Donetsk, Balakliia, and other points (Source: @kpszsu/62763).",
+        "UAVs were sighted moving from the Black Sea toward Odesa direction (Source: @kpszsu/62742).",
+        "UAVs were reported heading from Sumy toward Romny at speeds over 600 km/h (Source: @eRadarrua/93628).",
+        "UAVs were observed over Zaporizhzhia moving toward Dnipropetrovsk (Source: @kpszsu/62761)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs were sighted in Chernihiv region passing near Slavutych, heading south (Source: @kpszsu/62707).",
-        "A UAV group moved northward from Kharkiv region, passing Kotelva, heading southwest (Source: @kpszsu/62711).",
-        "UAV activity reported in Poltava region moving toward Dykanka and Opishnya (Source: @eRadarrua/93629).",
-        "UAVs detected in Poltava region heading toward Zaturyne, Sosnivka, Vorizhba, and Krolevech in Sumy, and toward Krasnokutsk in Kharkiv (Source: @eRadarrua/93661)."
+        "UAVs detected over Chernihiv region near Horodnya from the north (Source: @eRadarrua/93676).",
+        "UAVs observed over Sumy heading toward Lipova Dolyna en route to Poltava (Source: @kpszsu/62750).",
+        "UAVs reported from Kharkiv heading north toward Poltava, passing Kotelva (Source: @kpszsu/62711).",
+        "UAV activity noted over Kyiv region with high‑speed reactive drones (Source: @eRadarrua/93689).",
+        "UAVs were seen moving from Kharkiv toward the north‑west direction (Source: @kpszsu/62755).",
+        "UAVs reported over Sumy heading toward Nizy (Source: @kpszsu/62763).",
+        "UAVs observed from Kharkiv heading toward the city itself (Source: @kpszsu/62755)."
       ]
     },
     "southern_front": {
       "points": [
-        "UAVs observed over Kherson region moving northwest (Source: @kpszsu/62766).",
-        "UAVs reported in southern‑west Sumy region heading toward Romny (Source: @kpszsu/62746).",
-        "UAV activity noted in Chernihiv region over Ripky (Source: @eRadarrua/93685).",
-        "UAVs detected in the Black Sea near Odesa region, described as hostile reconnaissance UAVs (Source: @kpszsu/62737)."
+        "Russian missile strikes hit Derhachi in Kharkiv region, causing civilian casualties (Source: @UkraineNow/81448).",
+        "Five FAB‑250 bombs were dropped on Kramatorsk, injuring civilians and damaging buildings (Source: @UkraineNow/81444).",
+        "UAVs were reported moving from the Black Sea toward Odesa direction (Source: @kpszsu/62742).",
+        "UAVs observed over Zaporizhzhia moving toward Dnipropetrovsk (Source: @kpszsu/62761).",
+        "UAVs reported in the southern direction over Sumy toward Romny (Source: @kpszsu/62746).",
+        "UAVs were sighted heading from Kharkiv toward Balakliia and other southern points (Source: @eRadarrua/93681).",
+        "A threat of ballistic weapons from the south was announced then withdrawn (Source: @kpszsu/62758, @kpszsu/62735)."
       ]
     },
     "air_war": {
       "points": [
-        "Two Tu‑95MS strategic bombers were reported relocating from Olenya airfield to the Far East (Source: @eRadarrua/93655).",
-        "Temporary flight restrictions were imposed at Kaliningrad airport (Source: @tass_agency/377515).",
-        "Russian officials announced systematic strikes on Kyiv facilities used by Ukrainian forces (Source: @tass_agency/377493).",
-        "Ukrainian officials cited upcoming additional assistance to strengthen air defence systems from the European Commission (Source: @ukr_leaks_eng/30412)."
+        "Ukrainian air defenses shot down or suppressed 246 hostile UAVs of various types on 25 May (Source: @kpszsu/62715).",
+        "Russian guided aviation bomb releases were conducted over Dnepropetrovsk region (Source: @kpszsu/62732).",
+        "Two Tu‑95MS strategic bombers relocated from Olenya to the Far East (Source: @eRadarrua/93655).",
+        "Ukrainian intelligence warned of possible use of X‑22/32, X‑101, Iskander‑M, Zircon, Kalibr, Kinzhal, and limited UAV attacks on Kyiv (Source: @eRadarrua/93625).",
+        "Ukrainian Patriot‑equivalent systems are claimed to be able to intercept Russian ballistic missiles by year‑end (Source: @ukr_leaks_eng/30419).",
+        "Russian forces used FAB‑250 bombs on Kramatorsk (Source: @UkraineNow/81444).",
+        "Ukrainian forces reported high‑speed reactive UAVs (>500 km/h) over Kyiv region (Source: @eRadarrua/93689)."
       ]
     },
     "key_developments": [
-      "Russian Ministry of Defense claims the village of Dobropasovo near Pokrovskoe in Dnipropetrovsk region has been liberated (Source: @ukr_leaks_eng/30415).",
-      "Ukrainian 118th Separate Mechanized Brigade records a record‑long defense of Mala Tokmachka, holding the line for over 1500 days (Source: @UkraineNow/81449).",
-      "A Russian missile strike on a residential building in Kyiv's Shevchenkivskyi district killed 2 civilians and injured 92, including three children (Source: @UkraineNow/81458).",
-      "Russian forces conducted a missile attack on Derhachi, Kharkiv region, causing 19 casualties and killing a 68‑year‑old man (Source: @UkraineNow/81448).",
-      "Ukrainian authorities detained an 18‑year‑old near a Ministry of Defence site for allegedly mapping Russian strike locations during the May 24 mass attack on Kyiv (Source: @UkraineNow/81454).",
-      "Multiple UAV groups were observed across northern and eastern fronts, including movements toward Izium, Balakliia, and Sumy, indicating sustained aerial reconnaissance activity (Source: @kpszsu/62738, @kpszsu/62755).",
-      "Russian Ministry of Defence announced sequential strikes on Ukrainian defense‑industry enterprises in Kyiv (Source: @tass_agency/377493)."
+      "Russian troops have liberated the village of Dobropasovo near Pokrovskoe in Dnepropetrovsk region (Source: @ukr_leaks_eng/30415).",
+      "Russian forces struck the Ukrainian Ground Forces command building and the Lukyanovka plant, which had previously been damaged (Source: @ukr_leaks_eng/30410).",
+      "Ukrainian defenders in Mala Tokmachka, Zaporizhzhia region, have maintained the front for over 1500 days, earning a national record (Source: @UkraineNow/81449).",
+      "Russian missile strikes on Derhachi caused 19 civilian injuries and one death, damaging a civilian enterprise (Source: @UkraineNow/81448).",
+      "Five FAB‑250 bombs were dropped on Kramatorsk, injuring civilians and damaging residential and administrative structures (Source: @UkraineNow/81444).",
+      "Ukrainian intelligence warned of a high threat of a mass missile attack on Kyiv within three days, listing specific missile systems that could be used (Source: @eRadarrua/93625).",
+      "A threat of ballistic weapon use from the south was announced and subsequently withdrawn (Source: @kpszsu/62758, @kpszsu/62735)."
     ],
-    "threat_assessment": "Russian operational tempo remains high, with claims of territorial gains in the east and intensified air strikes on Kyiv's infrastructure. UAV proliferation across multiple fronts suggests enhanced Russian reconnaissance and targeting capabilities, complicating Ukrainian defensive operations. Civilian casualty rates are rising due to repeated missile and bomb attacks on populated areas, indicating a continued threat to non‑military targets.",
-    "regional_response": "Ukraine is reinforcing front‑line units, highlighted by the record defense at Mala Tokmachka, while also tightening security around key ministries in Kyiv following the detention of a civilian collaborator. International partners, including the EU, have pledged further air‑defence aid, though specific delivery timelines remain unspecified. Russian diplomatic channels are pursuing legal actions against Baltic states, reflecting a broader strategy to pressure Ukraine's allies.",
-    "intelligence_notes": "UAV flight paths provide actionable intelligence on Russian targeting priorities, especially around logistics hubs in Sumy and Kharkiv. The reported liberation of Dobropasovo may indicate a localized offensive but requires verification. Increased civilian targeting in Kyiv suggests a possible shift toward psychological and infrastructural pressure. Monitoring of Russian legal and diplomatic maneuvers could reveal future escalation vectors."
+    "threat_assessment": "Russian forces are advancing on the eastern front, exemplified by the liberation of Dobropasovo, while intensifying strikes on Ukrainian command and industrial targets. Ukraine faces a multi‑layered aerial threat, with high‑speed UAVs and potential mass missile attacks on Kyiv, though the ballistic threat has been temporarily withdrawn. Continued UAV activity across northern and southern fronts complicates air defense allocations and strains Ukrainian response capabilities.",
+    "regional_response": "Ukraine is reinforcing defenses on critical fronts, highlighted by the record‑holding defense of Mala Tokmachka and extensive UAV interceptions. International partners, including the European Commission, have pledged additional air‑defense assistance, while Russian diplomatic actions focus on propaganda and provocation narratives. Civilian casualties from missile strikes in Derhachi and Kramatorsk underscore the need for heightened protection of populated areas.",
+    "intelligence_notes": "Ukrainian intelligence has identified specific missile types that could be employed in a forthcoming Kyiv strike, enabling pre‑emptive alerting of air defense units. UAV movement patterns indicate coordinated Russian reconnaissance and strike missions across multiple axes, requiring adaptive counter‑UAV measures. The temporary suspension of ballistic weapon threats suggests possible Russian operational recalibration or diplomatic signaling."
   },
   "missiles": 0,
   "drones": 262,
   "kpszsu_timeline": [
+    1,
+    1,
+    1,
     2,
-    1,
-    1,
-    0,
     3,
-    2,
+    1,
     3,
     5,
+    3,
+    1,
     2,
-    3,
-    0,
-    3,
+    1,
     1,
     0,
     1,
     0,
     1,
     0,
+    2,
+    2,
     1,
-    3,
+    1,
     0,
-    1,
-    1,
-    0
+    2
   ]
 }
