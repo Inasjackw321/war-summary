@@ -3,7 +3,8 @@ name: Update Conflict Summaries
 on:
   schedule:
     - cron: "0 * * * *"    # every hour, on the hour
-    - cron: "30 * * * *"   # fallback: every hour at :30 — skipped if data is fresh
+    - cron: "20 * * * *"   # :20 safety net
+    - cron: "45 * * * *"   # :45 safety net
   workflow_dispatch:        # allow manual trigger
 
 permissions:
@@ -12,7 +13,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
@@ -34,23 +35,72 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Skip if data is fresh (non-:00 runs only)
+        id: freshness
+        run: |
+          python - <<'EOF'
+          import json, os
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+
+          # Only skip on safety-net runs (:20 and :45), not on the top-of-hour run
+          minute = datetime.now(timezone.utc).minute
+          if minute == 0:
+              print("Top-of-hour run — always proceed")
+              skip = "false"
+          else:
+              threshold = timedelta(minutes=50)
+              now = datetime.now(timezone.utc)
+              skip = "true"
+              for f in ["data/ukraine.json", "data/middle_east.json"]:
+                  p = Path(f)
+                  if not p.exists():
+                      skip = "false"; break
+                  try:
+                      d = json.loads(p.read_text())
+                      ts = datetime.fromisoformat(d.get("updated_at", "").replace("Z", "+00:00"))
+                      if now - ts > threshold:
+                          skip = "false"; break
+                  except Exception:
+                      skip = "false"; break
+              print(f"Safety-net run at :{minute} — data fresh enough, skip={skip}" if skip == "true" else f"Safety-net run at :{minute} — data stale, proceeding")
+
+          out = os.environ.get("GITHUB_OUTPUT", "")
+          if out:
+              with open(out, "a") as fh:
+                  fh.write(f"skip={skip}\n")
+          EOF
+
       - name: Fetch & summarize (attempt 1)
         id: scrape1
+        if: steps.freshness.outputs.skip != 'true'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/fetch_and_summarize.py
         continue-on-error: true
 
-      - name: Fetch & summarize (retry)
-        if: steps.scrape1.outcome == 'failure'
+      - name: Fetch & summarize (retry 2)
+        id: scrape2
+        if: steps.freshness.outputs.skip != 'true' && steps.scrape1.outcome == 'failure'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          echo "First attempt failed, retrying after 30s..."
+          echo "Attempt 1 failed — waiting 30s before retry..."
           sleep 30
+          python scripts/fetch_and_summarize.py
+        continue-on-error: true
+
+      - name: Fetch & summarize (retry 3)
+        if: steps.freshness.outputs.skip != 'true' && steps.scrape1.outcome == 'failure' && steps.scrape2.outcome == 'failure'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          echo "Attempt 2 failed — waiting 60s before final retry..."
+          sleep 60
           python scripts/fetch_and_summarize.py
 
       - name: Commit and push updated data
+        if: steps.freshness.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -58,16 +108,16 @@ jobs:
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: update conflict data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
 
-          # Push with retry — re-fetch and rebase on each attempt to handle concurrent runs
-          for attempt in 1 2 3 4; do
+          for attempt in 1 2 3 4 5; do
             git fetch origin main
             git rebase origin/main
             if git push -u origin main; then
               echo "Push succeeded on attempt $attempt"
               exit 0
             fi
-            echo "Push failed (attempt $attempt), retrying..."
-            sleep $((attempt * 5))
+            backoff=$((attempt * 10))
+            echo "Push failed (attempt $attempt), retrying in ${backoff}s..."
+            sleep $backoff
           done
           echo "All push attempts failed"
           exit 1

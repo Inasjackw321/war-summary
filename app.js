@@ -330,6 +330,9 @@ function highlightLabels(text) {
 const BIASED_SOURCES_LOWER = new Set(["sharghDaily", "naya_foriraq", "presstv", "tass_agency", "rasedal3ado138e"].map(s => s.toLowerCase()));
 function isBiasedSource(ch) { return BIASED_SOURCES_LOWER.has(ch.toLowerCase()); }
 
+const TRUSTED_SOURCES_LOWER = new Set(["faytuks_network", "idf_telegram", "kpszsu", "shin_persian"].map(s => s.toLowerCase()));
+function isTrustedSource(ch) { return TRUSTED_SOURCES_LOWER.has(ch.toLowerCase()); }
+
 function renderSourceTags(text) {
   // Matches: "(Source: @ch/123)", "(Source: @ch/123-456)", "(@ch)", "(ch/123)" — requires @ or /digits
   return text.replace(
@@ -348,9 +351,12 @@ function renderSourceTags(text) {
           ch = raw;
           url = currentUrlMap[ch] || `https://t.me/${ch}`;
         }
-        const biased = isBiasedSource(ch);
+        const biased  = isBiasedSource(ch);
+        const trusted = isTrustedSource(ch);
         const warnHtml = biased
           ? `<span class="source-warn src-tag-warn"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>`
+          : trusted
+          ? `<span class="source-trusted src-tag-trusted"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>`
           : '';
         // Check if this specific post has an associated image
         const postKey = slash !== -1 ? `${ch}/${raw.slice(slash + 1).split('-')[0]}` : null;
@@ -774,13 +780,17 @@ function populatePanel(prefix, data) {
 
   const sourcesList = document.getElementById(`${sp}-sources-list`);
   if (sourcesList) {
-    const warnSvg = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`;
+    const warnSvg    = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`;
+    const trustSvg   = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
     sourcesList.innerHTML = (data.channels||[]).map(ch => {
-      const isBiased = isBiasedSource(ch);
+      const isBiased  = isBiasedSource(ch);
+      const isTrusted = isTrustedSource(ch);
       const url = `https://t.me/${ch}`;
       const interceptAttr = isBiased ? ` data-biased="1" data-ch="${ch}" data-url="${url}"` : "";
-      const warnHtml = isBiased ? `<span class="src-list-warn">${warnSvg}</span>` : "";
-      return `<li class="${isBiased?"src-list-item--biased":""}"><a href="${url}" target="_blank" rel="noopener noreferrer"${interceptAttr}>@${ch}${warnHtml}</a></li>`;
+      const badgeHtml = isBiased  ? `<span class="src-list-warn">${warnSvg}</span>`
+                      : isTrusted ? `<span class="src-list-trust">${trustSvg}</span>`
+                      : "";
+      return `<li class="${isBiased?"src-list-item--biased":""}"><a href="${url}" target="_blank" rel="noopener noreferrer"${interceptAttr}>@${ch}${badgeHtml}</a></li>`;
     }).join("");
     sourcesList.querySelectorAll("a[data-biased]").forEach(a => {
       a.addEventListener("click", e => { e.preventDefault(); showSourceWarningPopup(a.dataset.ch, a.dataset.url); });
@@ -878,15 +888,19 @@ const sourcesModal = (function () {
 
   function open(channels, msgsByChannel) {
     if (!backdrop || !list) return;
-    const warnSvg = `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`;
+    const warnSvg  = `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`;
+    const trustSvg = `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
     list.innerHTML = (channels || []).map(ch => {
-      const cnt = (msgsByChannel || {})[`@${ch}`] || 0;
-      const isBiased = isBiasedSource(ch);
+      const cnt       = (msgsByChannel || {})[`@${ch}`] || 0;
+      const isBiased  = isBiasedSource(ch);
+      const isTrusted = isTrustedSource(ch);
       const url = `https://t.me/${ch}`;
       const interceptAttr = isBiased ? ` data-biased="1" data-ch="${ch}" data-url="${url}"` : "";
-      const warnHtml = isBiased ? `<span class="src-modal-warn">${warnSvg}</span>` : "";
+      const badgeHtml = isBiased  ? `<span class="src-modal-warn">${warnSvg}</span>`
+                      : isTrusted ? `<span class="src-modal-trust">${trustSvg}</span>`
+                      : "";
       const cntHtml = cnt ? `<span class="sources-modal-count">${cnt} msgs</span>` : "";
-      return `<li class="${isBiased?"src-modal-item--biased":""}"><a href="${url}" target="_blank" rel="noopener noreferrer"${interceptAttr}>@${ch}${cntHtml}${warnHtml}</a></li>`;
+      return `<li class="${isBiased?"src-modal-item--biased":""}"><a href="${url}" target="_blank" rel="noopener noreferrer"${interceptAttr}>@${ch}${cntHtml}${badgeHtml}</a></li>`;
     }).join("");
     // Intercept clicks on biased source links
     list.querySelectorAll("a[data-biased]").forEach(a => {

@@ -276,7 +276,6 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
 
     embed = discord.Embed(
         title=f"{icon}  {label} — Latest Updates",
-        url="https://warsummary.live",
         description=f"*{exec_summary}*" if exec_summary else None,
         color=color,
         timestamp=ts or datetime.now(timezone.utc),
@@ -384,7 +383,6 @@ async def slash_graph(interaction: discord.Interaction):
     buf = await asyncio.get_event_loop().run_in_executor(None, _render_graph, conflict, hist)
     embed = discord.Embed(
         title=f"{icon}  {label} — 7-Day History",
-        url="https://warsummary.live",
         color=color,
         timestamp=datetime.now(timezone.utc),
     )
@@ -501,7 +499,6 @@ async def prefix_graph(ctx: commands.Context):
     buf = await asyncio.get_event_loop().run_in_executor(None, _render_graph, conflict, hist)
     embed = discord.Embed(
         title=f"{icon}  {label} — 7-Day History",
-        url="https://warsummary.live",
         color=color,
         timestamp=datetime.now(timezone.utc),
     )
