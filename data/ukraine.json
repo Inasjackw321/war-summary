@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-26T07:11:59.404946+00:00",
-  "message_count": 304,
+  "updated_at": "2026-05-26T08:10:25.857299+00:00",
+  "message_count": 313,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 122,
   "red_alerts_timeline": [
-    5,
     0,
     5,
     0,
@@ -22,26 +21,26 @@
     0,
     5,
     5,
-    10,
-    15,
-    10,
+    9,
+    14,
+    9,
     0,
-    10,
-    20,
-    0,
-    0,
+    9,
+    18,
     0,
     0,
-    10,
-    15,
+    0,
+    0,
+    5,
+    18,
     5,
     5,
-    5
+    5,
+    14
   ],
   "combined_activity_timeline": [
-    19,
-    12,
-    25,
+    13,
+    26,
     17,
     11,
     11,
@@ -49,10 +48,10 @@
     16,
     15,
     18,
-    14,
-    11,
+    15,
     10,
-    9,
+    8,
+    10,
     7,
     6,
     9,
@@ -61,35 +60,72 @@
     11,
     13,
     12,
-    16,
-    17
+    15,
+    18,
+    26
   ],
   "messages_by_channel": {
-    "@eRadarrua": 65,
-    "@kpszsu": 43,
+    "@eRadarrua": 67,
+    "@kpszsu": 52,
     "@mon1tor_ua": 1,
-    "@UkraineNow": 24,
+    "@UkraineNow": 23,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 142
+    "@tass_agency": 141
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/93718",
-    "kpszsu": "https://t.me/kpszsu/62802",
+    "eRadarrua": "https://t.me/eRadarrua/93726",
+    "kpszsu": "https://t.me/kpszsu/62813",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67225",
-    "UkraineNow": "https://t.me/UkraineNow/81466",
+    "UkraineNow": "https://t.me/UkraineNow/81467",
     "DeepStateUA": "https://t.me/DeepStateUA/23535",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30430",
-    "tass_agency": "https://t.me/tass_agency/377573"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30432",
+    "tass_agency": "https://t.me/tass_agency/377581"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/62792",
-    "UkraineNow": "https://t.me/UkraineNow/81462",
-    "tass_agency": "https://t.me/tass_agency/377537",
-    "eRadarrua": "https://t.me/eRadarrua/93714",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30430"
+    "kpszsu": "https://t.me/kpszsu/62777",
+    "eRadarrua": "https://t.me/eRadarrua/93716",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30415",
+    "UkraineNow": "https://t.me/UkraineNow/81457"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/93726",
+      "post_id": 93726,
+      "channel": "eRadarrua",
+      "ts": "2026-05-26T08:01:41+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/VfFqIPnZCd8k9ejSzT3HQ_cScL2X-u_X0oeCF05tIO_YsWW754Hyl6sx65mGo87s1ypeRN2gPuGQrNvf7MH5jyIoAxZrSTTD5dogl11t16_oaMMH34uVYAfaf-JQhKtw89_x7Db-okpOrnghWVe3rmnpxVJ8vqljT-vkn3Sm-DwSRWgcXRJqAX82LTuNgYv9BwBPm-w0mikAIczkteK0KUf119TNja9pAcvxiizDfDNemEca5hup8P004MyJaAinB_3X8rdkxQgdeNlWEXMfxPeE3HCoQCrPTy19dtJjI4L69qIZelBbn3g4yvrqPg40UqItqLxwm8_iDT-KTZOyjA.jpg"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30432",
+      "post_id": 30432,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-05-26T07:54:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/377579",
+      "post_id": 377579,
+      "channel": "tass_agency",
+      "ts": "2026-05-26T07:52:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/377578",
+      "post_id": 377578,
+      "channel": "tass_agency",
+      "ts": "2026-05-26T07:44:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/377576",
+      "post_id": 377576,
+      "channel": "tass_agency",
+      "ts": "2026-05-26T07:26:34+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30431",
+      "post_id": 30431,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-05-26T07:25:07+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/93717",
       "post_id": 93717,
@@ -133,6 +169,12 @@
       "ts": "2026-05-26T05:30:35+00:00"
     },
     {
+      "post_url": "https://t.me/UkraineNow/81465",
+      "post_id": 81465,
+      "channel": "UkraineNow",
+      "ts": "2026-05-26T05:22:59+00:00"
+    },
+    {
       "post_url": "https://t.me/UkraineNow/81464",
       "post_id": 81464,
       "channel": "UkraineNow",
@@ -173,54 +215,6 @@
       "post_id": 377538,
       "channel": "tass_agency",
       "ts": "2026-05-26T00:44:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/377535",
-      "post_id": 377535,
-      "channel": "tass_agency",
-      "ts": "2026-05-26T00:10:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/377532",
-      "post_id": 377532,
-      "channel": "tass_agency",
-      "ts": "2026-05-25T23:42:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/377526",
-      "post_id": 377526,
-      "channel": "tass_agency",
-      "ts": "2026-05-25T22:44:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/93684",
-      "post_id": 93684,
-      "channel": "eRadarrua",
-      "ts": "2026-05-25T21:39:16+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/ZtN4UMbTpFiuFqJRN6lRmAZGRB-cYPXPwQ5PYvY10_j7UPzxfrkR9VpePctFoypwlxk3WmQB-ezYkaAJAcIinChP7ebShR-TG7WpLt9khwzvcBg9DLC3zkkM9Q3_qQ4ah44HLb3HvNTA9xlm9yXaGPAilLb8f0otxBm_InFBf9VveOXlBwaJ4h2REeLv_RDDsjnMuLWhTCxi6YPW0GgmEjPPX-0UrtefNNV9_5iJ4o4Yrg5TuF0Hl8FtfJQr9UDmlKbLzQ3H5a9PLUUtalZjqIaRcUCmVS-S8gYSjgNIxmZXuxljpiRTsg3D8Vt6a6KLFOq84_u1vRav5GBb8LzqEg.jpg",
-      "companion_text_id": 93683
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/93681",
-      "post_id": 93681,
-      "channel": "eRadarrua",
-      "ts": "2026-05-25T21:07:26+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/bu-iaYbs97Ra31umF9PP0OKXpOjqOHYkIJLK8pXxCwxDQNBl2RzpGw6g7SJr6IR5vNLcMagjfjfQGwaIWpeLHu9kQCC36jOcfIRGe9TaMGBFC96cykeM8_4pbahc2ZTJltpi7QRjnRh28FYBaMcgkSHl9dDjhMPYehH0txeFmKUocTKPteyCCOBqHSlNHrNxHgB8KysuIOfdZP_X-cItP73o11ubvjDB2cT4cUl4X-Erau21xABeC_oAwCv9Q9-xpBcys6ugPK7bPL4Sfxp87PYbxSQGE4iRCzSOISkj3K-gJY66vvDHl29guiXEU_tKh6xGMsfER8A3pQLHCWHgmg.jpg",
-      "companion_text_id": 93680
-    },
-    {
-      "post_url": "https://t.me/tass_agency/377521",
-      "post_id": 377521,
-      "channel": "tass_agency",
-      "ts": "2026-05-25T21:03:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/93679",
-      "post_id": 93679,
-      "channel": "eRadarrua",
-      "ts": "2026-05-25T20:45:31+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/XUKL_ftvxra_Luct-5B2IKI94La69rEsgx4RWXyz7jUysuVh7PnuZv8-KZiWS0HAIw94bGnX2XH4AhlHZP6y9PGuO4FXSGuV8IVt6PV0lTKfXMlRE4-BZs3Wqq_DyIVJW58kUvJEQ5rRFJIHZtmLGqbg5V3NaqGEJx1QBTPCNsU1Btb-ePzC-2O_2HjIiQfVUkumfKmCBBm0mlaUdZ60y9s8VzqU96F7V2LGzZAVU9Wv9VB9s2gRqpGpbrxSWSsFQvRKUSQl6ZzKfFKqMfRq30j6pZZGIq8xVGWbyJDroUkHel4444Ew49jyyI0ckEPjxHk59WVWzP3XzhEWYjJfJw.jpg",
-      "companion_text_id": 93680
     }
   ],
   "post_images": {
@@ -228,119 +222,113 @@
     "eRadarrua/93712": "data/media/eRadarrua_93711.jpg",
     "eRadarrua/93717": "data/media/eRadarrua_93717.jpg",
     "eRadarrua/93716": "data/media/eRadarrua_93717.jpg",
+    "eRadarrua/93726": "data/media/eRadarrua_93726.jpg",
+    "eRadarrua/93664": "data/media/eRadarrua_93664.jpg",
+    "eRadarrua/93663": "data/media/eRadarrua_93664.jpg",
+    "eRadarrua/93674": "data/media/eRadarrua_93674.jpg",
+    "eRadarrua/93676": "data/media/eRadarrua_93674.jpg",
     "eRadarrua/93679": "data/media/eRadarrua_93679.jpg",
     "eRadarrua/93680": "data/media/eRadarrua_93679.jpg",
     "eRadarrua/93681": "data/media/eRadarrua_93681.jpg",
     "eRadarrua/93684": "data/media/eRadarrua_93684.jpg",
     "eRadarrua/93683": "data/media/eRadarrua_93684.jpg",
-    "eRadarrua/93661": "data/media/eRadarrua_93661.jpg",
-    "eRadarrua/93662": "data/media/eRadarrua_93661.jpg",
-    "eRadarrua/93664": "data/media/eRadarrua_93664.jpg",
-    "eRadarrua/93663": "data/media/eRadarrua_93664.jpg",
-    "eRadarrua/93674": "data/media/eRadarrua_93674.jpg",
-    "eRadarrua/93676": "data/media/eRadarrua_93674.jpg",
-    "eRadarrua/93639": "data/media/eRadarrua_93639.jpg",
-    "eRadarrua/93638": "data/media/eRadarrua_93639.jpg",
     "eRadarrua/93645": "data/media/eRadarrua_93645.jpg",
     "eRadarrua/93644": "data/media/eRadarrua_93645.jpg",
-    "eRadarrua/93619": "data/media/eRadarrua_93619.jpg",
-    "eRadarrua/93618": "data/media/eRadarrua_93619.jpg",
-    "eRadarrua/93620": "data/media/eRadarrua_93620.jpg",
-    "eRadarrua/93621": "data/media/eRadarrua_93621.jpg",
-    "eRadarrua/93623": "data/media/eRadarrua_93623.jpg",
-    "eRadarrua/93622": "data/media/eRadarrua_93623.jpg",
+    "eRadarrua/93661": "data/media/eRadarrua_93661.jpg",
+    "eRadarrua/93662": "data/media/eRadarrua_93661.jpg",
     "eRadarrua/93624": "data/media/eRadarrua_93624.jpg",
     "eRadarrua/93625": "data/media/eRadarrua_93624.jpg",
+    "eRadarrua/93629": "data/media/eRadarrua_93629.jpg",
+    "eRadarrua/93628": "data/media/eRadarrua_93629.jpg",
+    "eRadarrua/93636": "data/media/eRadarrua_93636.jpg",
+    "eRadarrua/93637": "data/media/eRadarrua_93636.jpg",
+    "eRadarrua/93639": "data/media/eRadarrua_93639.jpg",
+    "eRadarrua/93638": "data/media/eRadarrua_93639.jpg",
+    "eRadarrua/93614": "data/media/eRadarrua_93614.jpg",
+    "eRadarrua/93613": "data/media/eRadarrua_93614.jpg",
     "kpszsu/62792": "data/media/kpszsu_62792.jpg",
     "kpszsu/62791": "data/media/kpszsu_62792.jpg"
   },
-  "summary": "Russia launched Iskander-M ballistic missiles and extensive UAV raids on 26 May, prompting Ukrainian air defenses to down 111 hostile drones. Russian officials announced systematic strikes on Kyiv, while Ukrainian forces reported civilian casualties in Kramatorsk and a tactical setback in Vozdvizhevkа, Zaporizhzhia. Recruitment of foreign fighters by Russia continues, with significant casualties reported.",
+  "summary": "Russian tactical aviation has launched guided bombs on Zaporizhzhia, Donetsk, and Dnipropetrovsk regions, while a Tu-22M3 bomber was relocated from Olenya to Dygilevo. Reactive and cruise UAV activity is reported across Chernihiv, Zhytomyr, and Poltava oblasts, and Russian forces claim to have liberated the village of Dobropasovo in Dnipropetrovsk. Ukrainian forces continue to hold the front at Mala Tokmachka for over 1500 days despite ongoing attacks.",
   "key_points": [
-    "Russia fired two Iskander‑M ballistic missiles from Rostov region and Crimea on the night of 26 May, targeting Ukrainian territory (Source: @kpszsu/62792).",
-    "Ukrainian air defence reported shooting down 111 hostile UAVs of Shahed, Gerbera, Italmas and other types across the north, south and east (Source: @kpszsu/62792).",
-    "Russian Foreign Ministry announced systematic bombing of Kyiv objects, claiming they serve Ukrainian forces (Source: @UkraineNow/81462).",
-    "Five civilians were injured after two aerial bombs struck the centre of Kramatorsk, damaging multi‑storey buildings and vehicles (Source: @UkraineNow/81457).",
-    "Guided aviation bombs were launched by Russian tactical aviation on the northern Kharkiv region (Source: @kpszsu/62802).",
-    "Ukrainian forces were reported to have been practically driven out of Vozdvizhevkа in Zaporizhzhia (Source: @tass_agency/377537).",
-    "Russia has recruited over 28 000 foreign citizens for its army, with at least 5 000 of them killed in the war (Source: @UkraineNow/81455)."
+    "Russian tactical aviation deployed guided bombs on Zaporizhzhia, Donetsk, and Dnipropetrovsk regions, indicating intensified air strikes (Source: @kpszsu/62777).",
+    "A Tu-22M3 bomber was transferred from the Olenya airfield to the Dygilevo airfield, suggesting repositioning of strategic assets (Source: @eRadarrua/93716).",
+    "Reactive UAVs traveling over 500 km/h were observed in Chernihiv and other northern regions, highlighting increased high‑speed drone threats (Source: @eRadarrua/93689).",
+    "Russian forces announced the liberation of Dobropasovo village near Pokrovskoe in Dnipropetrovsk region (Source: @ukr_leaks_eng/30415).",
+    "Two Russian air‑dropped bombs struck Kramatorsk city centre, injuring at least five civilians and damaging multi‑storey buildings (Source: @UkraineNow/81457).",
+    "Ukrainian defenders of Mala Tokmachka in Zaporizhzhia region have maintained the line for over 1500 days, setting a national record (Source: @UkraineNow/81449).",
+    "Russian Foreign Ministry warned foreigners to leave Kyiv and announced strikes against Ukrainian defense industry facilities (Source: @ukr_leaks_eng/30420)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russia launched two Iskander‑M missiles and a massive UAV wave on 26 May, prompting Ukrainian air defenses to down 111 drones. Russian officials declared systematic strikes on Kyiv, while Ukrainian forces suffered civilian casualties in Kramatorsk and a setback in Vozdvizhevkа, Zaporizhzhia. Recruitment of foreign fighters by Russia continues, with thousands killed.",
+    "executive_summary": "Russian tactical aviation deployed guided bombs on Zaporizhzhia, Donetsk, and Dnipropetrovsk, while a Tu-22M3 bomber was relocated to Dygilevo. High‑speed reactive UAVs are active across northern oblasts, and Russian forces claim to have liberated Dobropasovo. Ukrainian forces continue a prolonged defence at Mala Tokmachka despite sustained attacks.",
     "ukraine": {
       "points": [
-        "Ukrainian air defence units, supported by aviation, anti‑aircraft missile troops, electronic warfare units and mobile fire groups, intercepted 111 hostile UAVs of Shahed, Gerbera, Italmas and other types across the north, south and east of the country on the night of 26 May (Source: @kpszsu/62792).",
-        "Ukrainian forces reported civilian injuries in Kramatorsk after two aerial bombs struck the city centre, damaging multiple high‑rise buildings and vehicles, with five civilians wounded (Source: @UkraineNow/81457).",
-        "Ukrainian troops were said to have been practically driven out of the settlement of Vozdvizhevkа in Zaporizhzhia, indicating a local tactical loss (Source: @tass_agency/377537).",
-        "Ukrainian reconnaissance reported reactive UAV activity over Chernihiv, Kyiv, and Zhytomyr regions, with several UAVs heading toward strategic points such as the Kyiv reservoir and water‑storage facilities (Source: @eRadarrua/93714; @kpszsu/62786).",
-        "Ukrainian command noted stabilization of the front lines, with President Zelensky stating that defensive results are better than earlier in the year (Source: @UkraineNow/81459)."
+        "Ukrainian defenders of the village Mala Tokmachka in Zaporizhzhia region have held the front line for more than 1500 days, earning a place in the national record book (Source: @UkraineNow/81449).",
+        "Two Russian air‑dropped bombs struck the centre of Kramatorsk, causing at least five civilian injuries and damage to multi‑storey buildings, with rescue operations ongoing (Source: @UkraineNow/81457).",
+        "Ukrainian officials reported that reactive UAVs traveling over 500 km/h were observed in Chernihiv and surrounding areas, indicating a heightened drone threat (Source: @eRadarrua/93689).",
+        "Ukrainian Defense Ministry advisors noted that Russian forces struck the Ukrainian Ground Forces command building and the Lukyanovka/Artem missile plant, though the command building had not been used since the war began (Source: @ukr_leaks_eng/30410)."
       ]
     },
     "russia": {
       "points": [
-        "The Russian Ministry of Foreign Affairs, via Lavrov, announced that Russia is commencing systematic strikes on objects in Kyiv that allegedly serve the Ukrainian Armed Forces (Source: @UkraineNow/81462).",
-        "Russian officials publicly affirmed that attacks on Kyiv will continue, framing them as responses to Ukrainian actions (Source: @UkraineNow/81451).",
-        "Russia has recruited more than 28 000 foreign nationals for its armed forces, with at least 5 000 of those fighters killed in combat (Source: @UkraineNow/81455).",
-        "Russian tactical aviation deployed guided aviation bombs on the northern Kharkiv region, indicating an escalation of aerial strike capabilities (Source: @kpszsu/62802).",
-        "Two Iskander‑M ballistic missiles were launched from the Rostov region and Crimea against Ukrainian targets on the night of 26 May (Source: @kpszsu/62792)."
+        "Russian tactical aviation launched guided bombs on Zaporizhzhia, Donetsk, and Dnipropetrovsk regions, as reported by multiple channel posts (Source: @kpszsu/62777, @kpszsu/62797, @kpszsu/62782).",
+        "A Tu-22M3 strategic bomber was relocated from the Olenya airfield to the Dygilevo airfield, moving closer to Ukraine's border (Source: @eRadarrua/93716).",
+        "The Russian Ministry of Foreign Affairs warned foreign nationals to leave Kyiv and announced consistent strikes against Ukrainian defense industry facilities and command posts (Source: @ukr_leaks_eng/30420).",
+        "Russian state media reported the liberation of the village Dobropasovo near Pokrovskoe in Dnipropetrovsk region (Source: @ukr_leaks_eng/30415)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported a strike on Kramatorsk, a city in the Donetsk region, with two aerial bombs causing civilian injuries and damage to multi‑storey structures (Source: @UkraineNow/81457).",
-        "Ukrainian reconnaissance noted a reactive UAV heading from Sumy towards the settlement of Putiivl/Buryn, indicating potential reconnaissance or strike activity in the eastern sector (Source: @eRadarrua/93691).",
-        "Ukrainian reports indicated that UAVs from the north (Shahed, Gerbera, Italmas) struck 11 locations across the east, with debris falling on three sites (Source: @kpszsu/62792).",
-        "Ukrainian forces announced the liberation of Dobropasovo near Pokrovskoe in the Dnipropetrovsk region, a peripheral area of the eastern front (Source: @ukr_leaks_eng/30430).",
-        "Russian forces claimed advances of up to 900 m on several sectors of the Kharkiv front, including villages such as Grano and Volchansk (Source: @ukr_leaks_eng/30430)."
+        "Guided bomb attacks were reported on Donetsk and Dnipropetrovsk oblasts, indicating intensified Russian air operations on the eastern front (Source: @kpszsu/62777, @kpszsu/62797).",
+        "Ukrainian ground forces reported damage to the Lukyanovka/Artem missile plant in the east, hit by Russian strikes (Source: @ukr_leaks_eng/30410).",
+        "Reactive UAV activity was noted near Snovsk and other eastern locations, with some drones heading south‑east (Source: @eRadarrua/93693).",
+        "Russian forces claim to have liberated Dobropasovo village in Dnipropetrovsk, a strategic point on the eastern front (Source: @ukr_leaks_eng/30415)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian air defence downed numerous hostile UAVs originating from directions including Orël, Kursk, Bryansk, Millerovo, Primorsko‑Akhtarsk, and the Crimean peninsula, reflecting a broad northern threat axis (Source: @kpszsu/62792).",
-        "UAVs were observed heading from Chernihiv toward Kyiv reservoir and from Bryansk toward northern Chernihiv, indicating cross‑border aerial incursions from Russian territory (Source: @eRadarrua/93683; @eRadarrua/93689).",
-        "A UAV from Chernihiv was reported heading toward Barishivka in Kyiv region from the north (Source: @kpszsu/62791).",
-        "Ukrainian reconnaissance noted reactive UAV activity over the Kyiv region, with speeds exceeding 500 km/h, raising alarm in local districts (Source: @eRadarrua/93689).",
-        "UAVs were tracked moving from Zhytomyr toward Korosten and from Poltava region toward Kyiv, suggesting coordinated aerial pressure on the northern axis (Source: @kpszsu/62791)."
+        "High‑speed reactive UAVs (>500 km/h) were observed over Chernihiv, indicating increased aerial threats in the north (Source: @eRadarrua/93689).",
+        "Multiple UAV sightings reported in Chernihiv oblast, including routes toward Novhorod‑Siverskyi, Ripky, and Snovsk (Source: @kpszsu/62808, @eRadarrua/93714).",
+        "A reactive UAV was reported near Losynivka in Chernihiv, adding to the northern drone activity (Source: @eRadarrua/93718).",
+        "Guided bomb launches by Russian tactical aviation were also reported targeting the northern Zaporizhzhia area (Source: @kpszsu/62777)."
       ]
     },
     "southern_front": {
       "points": [
-        "A UAV from the south was reported heading toward Mykolaiv region, indicating Russian aerial activity on the southern front (Source: @kpszsu/62793).",
-        "Ukrainian forces reported attempts to expand control in the Zaporozhye front, particularly around Primorsk and Stepnogorsk, with ongoing engagements near Engergodar (Source: @ukr_leaks_eng/30430).",
-        "Russian missile strikes in Belgorod region caused widespread outages for over 35 000 residents, highlighting cross‑border effects on southern Russian territories (Source: @ukr_leaks_eng/30430).",
-        "Ukrainian logistics convoys in the southern land corridor through Zaporozhye were targeted, with heavy trucks and military‑like vehicles under attack (Source: @ukr_leaks_eng/30430).",
-        "Ukrainian reconnaissance noted UAV activity over the Dnipropetrovsk region, with groups moving west and northwest, potentially supporting southern operations (Source: @kpszsu/62791)."
+        "Ukrainian forces continue to defend Mala Tokmachka in Zaporizhzhia region, holding the line for over 1500 days (Source: @UkraineNow/81449).",
+        "Russian guided bomb attacks were reported on Zaporizhzhia oblast, affecting southern front positions (Source: @kpszsu/62777).",
+        "Ukrainian officials noted that Russian strikes targeted decision‑making centers and command posts across Ukraine, including southern regions (Source: @ukr_leaks_eng/30420).",
+        "No specific casualty figures were provided for southern front engagements in the source messages."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defence reported shooting down 111 hostile UAVs of Shahed, Gerbera, Italmas and other types across the country on the night of 26 May (Source: @kpszsu/62792).",
-        "Two Iskander‑M ballistic missiles were launched from Russian‑controlled Rostov region and Crimea, marking a high‑value missile strike against Ukraine (Source: @kpszsu/62792).",
-        "Russian tactical aviation employed guided aviation bombs on the northern Kharkiv region, indicating use of precision strike munitions (Source: @kpszsu/62802).",
-        "UAVs from multiple Russian directions (Orël, Kursk, Bryansk, Millerovo, Primorsko‑Akhtarsk, Crimea) conducted coordinated attacks, with 9 strike UAVs and missiles hitting 11 locations (Source: @kpszsu/62792).",
-        "Ukrainian forces reported new groups of hostile UAVs entering Ukrainian airspace after the initial wave, suggesting a sustained aerial campaign (Source: @kpszsu/62792)."
+        "Russian tactical aviation deployed guided bombs on multiple fronts, including Zaporizhzhia, Donetsk, and Dnipropetrovsk (Source: @kpszsu/62777, @kpszsu/62797, @kpszsu/62782).",
+        "Two air‑dropped bombs struck Kramatorsk city centre, causing civilian injuries and property damage (Source: @UkraineNow/81457).",
+        "High‑speed reactive UAVs (>500 km/h) were observed over Chernihiv and other northern oblasts, indicating a surge in drone activity (Source: @eRadarrua/93689).",
+        "A Tu-22M3 bomber was relocated from Olenya to Dygilevo, suggesting repositioning of strategic air assets (Source: @eRadarrua/93716)."
       ]
     },
     "key_developments": [
-      "Russia launched two Iskander‑M ballistic missiles from Rostov region and Crimea on the night of 26 May, targeting Ukrainian territory (Source: @kpszsu/62792).",
-      "Ukrainian air defence shot down 111 hostile UAVs of Shahed, Gerbera, Italmas and other types across the north, south and east (Source: @kpszsu/62792).",
-      "The Russian Foreign Ministry announced systematic bombing of Kyiv objects, claiming they serve Ukrainian forces (Source: @UkraineNow/81462).",
-      "Five civilians were injured after two aerial bombs struck the centre of Kramatorsk, damaging multi‑storey buildings and vehicles (Source: @UkraineNow/81457).",
-      "Guided aviation bombs were released by Russian tactical aviation on the northern Kharkiv region (Source: @kpszsu/62802).",
-      "Ukrainian forces were reported to have been practically driven out of Vozdvizhevkа in Zaporizhzhia (Source: @tass_agency/377537).",
-      "Russia has recruited over 28 000 foreign citizens for its army, with at least 5 000 of them killed in the war (Source: @UkraineNow/81455)."
+      "Russian tactical aviation launched guided bombs on Zaporizhzhia, Donetsk, and Dnipropetrovsk regions, intensifying air strikes (Source: @kpszsu/62777).",
+      "A Tu-22M3 strategic bomber was moved from Olenya to Dygilevo, positioning it closer to the Ukrainian border (Source: @eRadarrua/93716).",
+      "High‑speed reactive UAVs traveling over 500 km/h were observed in Chernihiv and surrounding northern areas, raising drone threat levels (Source: @eRadarrua/93689).",
+      "Russian forces announced the liberation of Dobropasovo village near Pokrovskoe in Dnipropetrovsk region (Source: @ukr_leaks_eng/30415).",
+      "Two Russian air‑dropped bombs hit Kramatorsk city centre, injuring at least five civilians and damaging buildings (Source: @UkraineNow/81457).",
+      "Ukrainian defenders have held the front at Mala Tokmachka in Zaporizhzhia for over 1500 days, setting a national defence record (Source: @UkraineNow/81449).",
+      "The Russian Foreign Ministry warned foreigners to leave Kyiv and announced strikes against Ukrainian defense industry facilities and command posts (Source: @ukr_leaks_eng/30420)."
     ],
-    "threat_assessment": "Russian aerial and missile operations have intensified, with coordinated UAV swarms and Iskander‑M strikes targeting strategic locations across Ukraine, especially Kyiv and the northern front. Ukrainian air defenses have demonstrated resilience, downing a large number of drones, but the continued use of guided bombs and ballistic missiles poses a high threat to both military and civilian infrastructure. The reported loss of Ukrainian positions in Vozdvizhevkа suggests potential vulnerabilities on the southern front that could be exploited further.",
-    "regional_response": "Ukrainian authorities have heightened alerts in the Kyiv region, deploying additional air‑defence assets and mobilising local security forces in response to the surge of high‑speed UAVs. Regional administrations in the east and south are coordinating civilian protection measures, including evacuation protocols for areas like Kramatorsk and Zaporozhye. International partners are monitoring the escalation, with diplomatic statements from Russia indicating a willingness to sustain strikes on Kyiv.",
-    "intelligence_notes": "The diversity of UAV launch points—from Russian oblasts such as Bryansk and Kursk to occupied Crimea—indicates a broadened launch infrastructure that complicates attribution and interception. The use of Iskander‑M missiles alongside UAV swarms suggests a combined‑arms approach aimed at overwhelming Ukrainian air defenses. Recruitment of foreign fighters by Russia, coupled with reported casualties, may affect morale and operational effectiveness on the Russian side."
+    "threat_assessment": "Russian air operations are escalating, with guided bomb deployments across multiple fronts and the repositioning of a Tu-22M3 strategic bomber, indicating a focus on deep‑strike capabilities. High‑speed reactive UAVs are proliferating in northern oblasts, posing a growing threat to ground forces and infrastructure. Ukrainian defensive resilience remains notable, especially at Mala Tokmachka, but sustained aerial pressure could strain command and logistics.",
+    "regional_response": "Ukrainian authorities are reinforcing air defence and ground positions in response to increased bombings and UAV activity, particularly in the north and east. Civilian emergency services are active in Kramatorsk, handling casualties and damage. International observers note continued Russian rhetoric targeting Kyiv's leadership and industrial sites, potentially influencing diplomatic engagements.",
+    "intelligence_notes": "Monitoring of Tu-22M3 movements suggests possible future long‑range strike missions; satellite and SIGINT assets should prioritize tracking flight paths from Dygilevo. UAV sightings across Chernihiv, Zhytomyr, and Poltava oblasts require enhanced electronic warfare and counter‑drone measures. The claim of Dobropasovo's liberation should be corroborated with on‑ground reconnaissance to assess actual control."
   },
   "missiles": 0,
   "drones": 122,
   "kpszsu_timeline": [
-    2,
-    2,
     1,
+    2,
     1,
     1,
     1,
@@ -361,6 +349,7 @@
     2,
     4,
     2,
-    7
+    7,
+    10
   ]
 }
