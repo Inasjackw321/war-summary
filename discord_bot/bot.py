@@ -261,6 +261,65 @@ def _render_graph(conflict: str, hist: dict) -> io.BytesIO:
     return buf
 
 
+def _clean_point(text: str) -> str:
+    """Strip all source citations from a point."""
+    return _CITE_ANY_RE.sub("", _SOURCE_RE.sub("", str(text))).strip()
+
+def _point_with_link(text: str) -> str:
+    """Return point text; appends a Telegram link if a trailing citation exists."""
+    m = _CITATION_RE.search(str(text))
+    clean = _clean_point(text)
+    if m:
+        ch, post_id = m.group(1), m.group(2)
+        if ch.lower() not in _EXCLUDED_LOWER:
+            return f"{clean} [(src)](https://t.me/{ch}/{post_id})"
+    return clean
+
+def _collect_points(data: dict, conflict: str) -> list[str]:
+    """
+    Gather the most important points across all sections.
+    Priority order: key_developments first, then major conflict sections.
+    """
+    sections = data.get("sections") or {}
+
+    # Section priority — key devs first, then front-line / main sections
+    if conflict == "ukraine":
+        priority = [
+            "key_developments",
+            "eastern_front", "northern_front", "southern_front",
+            "air_war", "ukraine", "russia",
+        ]
+    else:  # middle_east
+        priority = [
+            "key_developments",
+            "israel", "gaza_west_bank", "iran",
+            "lebanon", "syria_iraq",
+        ]
+
+    seen: set[str] = set()
+    points: list[str] = []
+
+    for key in priority:
+        raw = sections.get(key)
+        if not raw:
+            continue
+        items = raw if isinstance(raw, list) else (raw.get("points") or [])
+        for p in items:
+            clean = _clean_point(p)
+            # Deduplicate by first 60 chars of cleaned text
+            sig = clean[:60].lower()
+            if sig in seen or len(clean) < 25:
+                continue
+            # Drop points sourced only from excluded channels
+            cited = _cited_sources(str(p))
+            if cited and cited.issubset(_EXCLUDED_LOWER):
+                continue
+            seen.add(sig)
+            points.append(str(p))
+
+    return points
+
+
 def _embed(data: dict, conflict: str) -> discord.Embed:
     label, icon, color = CONFLICT_META[conflict]
 
@@ -293,34 +352,28 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         if drones is not None:
             embed.add_field(name="🛸 Drones", value=f"**{drones}** launched · 24h", inline=True)
 
-    sections = data.get("sections") or {}
-    key_devs = sections.get("key_developments") or []
-    raw_points = key_devs if isinstance(key_devs, list) and key_devs else (data.get("key_points") or [])
-    points = _filter_points(raw_points)
+    all_points = _collect_points(data, conflict)
 
-    if points:
-        nums = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"]
-        lines = []
-        total = 0
-        for i, p in enumerate(points[:10]):
-            num = nums[i] if i < len(nums) else f"{i+1}."
-            m = _CITATION_RE.search(str(p))
-            if m:
-                ch, post_id = m.group(1), m.group(2)
-                clean = _CITATION_RE.sub("", str(p)).strip()
-                if ch.lower() not in _EXCLUDED_LOWER:
-                    url = f"https://t.me/{ch}/{post_id}"
-                    line = f"{num} [{clean}]({url})"
-                else:
-                    line = f"{num} {clean}"
-            else:
-                clean = _SOURCE_RE.sub("", str(p)).strip()
-                line = f"{num} {clean}"
-            if total + len(line) + 1 > 1020:
-                break
-            lines.append(line)
-            total += len(line) + 1
-        embed.add_field(name="📋  Key Developments", value="\n".join(lines), inline=False)
+    if all_points:
+        nums = ["①","②","③","④","⑤","⑥","⑦","⑧","⑨","⑩","⑪","⑫","⑬","⑭","⑮"]
+        # Pack as many points as fit into Discord's 1024-char field limit.
+        # Spill into a second field if needed (up to 15 total).
+        fields: list[list[str]] = [[]]
+        field_len = 0
+        for i, p in enumerate(all_points[:15]):
+            num  = nums[i] if i < len(nums) else f"{i+1}."
+            line = f"{num} {_point_with_link(p)}"
+            if field_len + len(line) + 1 > 1020:
+                if len(fields) >= 2:
+                    break
+                fields.append([])
+                field_len = 0
+            fields[-1].append(line)
+            field_len += len(line) + 1
+
+        embed.add_field(name="📋  Key Developments", value="\n".join(fields[0]), inline=False)
+        if len(fields) > 1 and fields[1]:
+            embed.add_field(name="📋  (continued)", value="\n".join(fields[1]), inline=False)
 
     n = len(data.get("channels") or [])
     embed.set_footer(text=f"⚠ AI-generated · {n} channels monitored · Verify before sharing")
