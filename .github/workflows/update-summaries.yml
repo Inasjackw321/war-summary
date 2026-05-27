@@ -35,18 +35,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Skip if data is fresh (non-:00 runs only)
+      - name: Skip if data is fresh (safety-net cron runs only)
         id: freshness
+        env:
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           python - <<'EOF'
           import json, os
           from pathlib import Path
           from datetime import datetime, timezone, timedelta
 
-          # Only skip on safety-net runs (:20 and :45), not on the top-of-hour run
+          # Always run on manual dispatch or top-of-hour cron; only skip on safety-net runs
+          event = os.environ.get("EVENT_NAME", "")
           minute = datetime.now(timezone.utc).minute
-          if minute == 0:
-              print("Top-of-hour run — always proceed")
+          if event == "workflow_dispatch" or minute == 0:
+              print(f"Always-run trigger ({event or 'cron :00'}) — proceeding")
               skip = "false"
           else:
               threshold = timedelta(minutes=50)
@@ -63,7 +66,7 @@ jobs:
                           skip = "false"; break
                   except Exception:
                       skip = "false"; break
-              print(f"Safety-net run at :{minute} — data fresh enough, skip={skip}" if skip == "true" else f"Safety-net run at :{minute} — data stale, proceeding")
+              print(f"Safety-net run at :{minute} — {'skipping (data fresh)' if skip == 'true' else 'proceeding (data stale)'}")
 
           out = os.environ.get("GITHUB_OUTPUT", "")
           if out:
