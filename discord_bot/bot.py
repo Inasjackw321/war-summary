@@ -152,9 +152,10 @@ async def _fetch(conflict: str) -> dict:
         print(f"[bot] fetch error ({conflict}): {e}")
     return {}
 
-# Matches any inline citation: (Source: @channel/123) or (@channel/123)
-_CITE_ANY_RE = re.compile(r'\((?:Source:\s*)?@?(\w+)/(\d+)\)\.?\s*', re.IGNORECASE)
-# Matches trailing citation at end of string (for link extraction)
+# Matches any inline citation: (Source: @channel/123), (Source: @channel), (@channel/123)
+# Requires @ so generic parenthetical words like "(Gaza)" aren't caught
+_CITE_ANY_RE = re.compile(r'\((?:Source:\s*)?@(\w+)(?:/(\d+))?\)\.?\s*', re.IGNORECASE)
+# Matches trailing citation with post ID at end of string (for link generation)
 _CITATION_RE = re.compile(r'\((?:Source:\s*)?@?(\w+)/(\d+)\)\.?\s*$', re.IGNORECASE)
 _SOURCE_RE   = re.compile(r'\s*\([^)]*?(?:source|@)[^)]*\)', re.IGNORECASE)
 
@@ -271,10 +272,17 @@ def _clean_point(text: str) -> str:
     """Strip all source citations from a point."""
     return _CITE_ANY_RE.sub("", _SOURCE_RE.sub("", str(text))).strip()
 
+def _truncate(text: str, max_words: int = 22) -> str:
+    """Trim to max_words words for concise Discord display."""
+    words = text.split()
+    if len(words) <= max_words:
+        return text
+    return " ".join(words[:max_words]).rstrip(",.;:") + "…"
+
 def _point_with_link(text: str) -> str:
-    """Return point text; appends a Telegram link if a trailing citation exists."""
+    """Return truncated point text with a Telegram source link if available."""
     m = _CITATION_RE.search(str(text))
-    clean = _clean_point(text)
+    clean = _truncate(_clean_point(text))
     if m:
         ch, post_id = m.group(1), m.group(2)
         if ch.lower() not in _EXCLUDED_LOWER:
