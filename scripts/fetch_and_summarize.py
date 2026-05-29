@@ -407,13 +407,23 @@ _KH_RE = re.compile(
 
 def _extract_drones_from_text(text: str) -> int:
     """Extract drone count from a single text. Returns 0 if not found."""
-    m = re.search(r'(\d{2,4})\s+(?:attack|strike|combat)\s+UAVs?\b', text, re.IGNORECASE)
-    if m:
-        return int(m.group(1))
+    # Shahed count is the most reliable — always refers to the launch, never shoot-down stats
     m = re.search(r'(\d{2,4})\s+Shahed', text, re.IGNORECASE)
     if m:
         return int(m.group(1))
-    m = re.search(r'(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', text)
+
+    # For all other patterns, restrict to the launch portion (before any shoot-down language)
+    # to avoid picking up impact/recorded counts like "14 strike UAVs were recorded"
+    launch_m = re.search(r'(?:атакув\w+|attacked\s+with\b).+', text, re.IGNORECASE | re.DOTALL)
+    search_text = launch_m.group(0) if launch_m else text
+    zbito = re.search(r'(?:збит|подавлен|shot\s*down|suppressed|ЗБИТО)', search_text, re.IGNORECASE)
+    if zbito:
+        search_text = search_text[:zbito.start()]
+
+    m = re.search(r'(\d{2,4})\s+(?:attack|strike|combat)\s+UAVs?\b', search_text, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+    m = re.search(r'(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', search_text)
     if m:
         return int(m.group(1))
     m = re.search(r'air\s+attack\s+vehicles?.{0,200}[-–,]\s*(\d{2,4})\s+UAVs?\b', text, re.IGNORECASE | re.DOTALL)
@@ -424,32 +434,47 @@ def _extract_drones_from_text(text: str) -> int:
 
 def _extract_missiles_from_text(text: str) -> int:
     """Extract missile count from a single text via explicit patterns. Returns 0 if not found."""
+    # Explicit list bullet: "- 5 missiles"
     m = re.search(r'[-–]\s*(\d{1,3})\s+missiles?\b', text, re.IGNORECASE)
     if m:
         return int(m.group(1))
-    # Kh-type enumeration in launch portion (before any shoot-down text)
+
+    # Isolate the launch portion (before any shoot-down language) to avoid
+    # counting shoot-down figures. Allow words between "attacked" and "with".
     launch_m = re.search(
-        r'(?:атакув\w+|attacked\s+with\b|launched.{0,40}(?:missile|UAV|drone|strike|aerial)).+',
+        r'(?:атакув\w+|attacked\b.{0,40}with\b|launched\b.{0,40}(?:missile|UAV|drone|strike|aerial)).+',
         text, re.IGNORECASE | re.DOTALL,
     )
+    launch_text = text  # fallback to full text
     if launch_m:
         launch_text = launch_m.group(0)
         zbito = re.search(r'(?:збит|подавлен|shot\s*down|shotdown|suppressed|ЗБИТО)', launch_text, re.IGNORECASE)
         if zbito:
             launch_text = launch_text[:zbito.start()]
-        kh_hits = _KH_RE.findall(launch_text)
-        if kh_hits:
-            total = sum(_to_int(h) for h in kh_hits)
-            if total > 0:
-                return total
+
+    # Kh-/Х- type enumeration (e.g. "five Kh-101", "41 Х-101")
+    kh_hits = _KH_RE.findall(launch_text)
+    if kh_hits:
+        total = sum(_to_int(h) for h in kh_hits)
+        if total > 0:
+            return total
+
+    # Plain English count: "90 cruise missiles" / "5 ballistic missiles".
+    # Negative lookbehind (?<![-/\d]) guards against model numbers like "S-400", "Kh-101".
+    m = re.search(r'(?<![-/\d])(\d{1,3})\s+(?:cruise|ballistic)\s+missiles?', launch_text, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+
+    # Ukrainian: "90 крилатих ракет", "5 балістичних ракет"
     hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
     if hits:
         return sum(int(x) for x in hits)
-    # Single missile named without a leading numeral: "an Iskander-M/S-400 ballistic missile",
-    # "a Kh-101 cruise missile" — the article "a/an" implies exactly one.
+
+    # Single missile described with article: "an Iskander-M/S-400", "a Kh-101 cruise missile"
+    # Only fire when the number is in the article itself, not a model suffix.
     if re.search(r'\ban?\s+(?:Iskander[\w/.-]*|Kh-\d+|Х-\d+|X-\d+)', text, re.IGNORECASE):
         return 1
-    if re.search(r'\ban?\s+(?:ballistic|cruise)\s+missile', text, re.IGNORECASE):
+    if re.search(r'\ban?\s+(?:ballistic|cruise)\s+missile\b', text, re.IGNORECASE):
         return 1
     return 0
 
