@@ -445,6 +445,12 @@ def _extract_missiles_from_text(text: str) -> int:
     hits = re.findall(r'(\d+)\s+(?:крилатих?|балістичних?)\s*ракет\w*', text, re.IGNORECASE)
     if hits:
         return sum(int(x) for x in hits)
+    # Single missile named without a leading numeral: "an Iskander-M/S-400 ballistic missile",
+    # "a Kh-101 cruise missile" — the article "a/an" implies exactly one.
+    if re.search(r'\ban?\s+(?:Iskander[\w/.-]*|Kh-\d+|Х-\d+|X-\d+)', text, re.IGNORECASE):
+        return 1
+    if re.search(r'\ban?\s+(?:ballistic|cruise)\s+missile', text, re.IGNORECASE):
+        return 1
     return 0
 
 

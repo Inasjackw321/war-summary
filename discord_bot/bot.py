@@ -235,12 +235,19 @@ def _render_graph(conflict: str, hist: dict) -> io.BytesIO:
         ax.set_title("Ukraine · Missiles & Drones Launched — Last 7 Days",
                      color=TEXT, fontsize=11, pad=10, fontweight="semibold")
 
-        # Value labels on top of stacked bars
+        # Value labels: missile count inside red segment, drone count on top
         for i, (m, d) in enumerate(zip(missiles, drones)):
             total = m + d
-            if total:
-                ax.text(i, total + 1, str(total), ha="center", va="bottom",
-                        color=TEXT, fontsize=8, fontweight="bold")
+            if not total:
+                continue
+            # Drone label on top of the full bar
+            ax.text(i, total + 2, str(d) if d else "", ha="center", va="bottom",
+                    color=BLUE, fontsize=7.5, fontweight="bold")
+            # Missile label inside/above the red segment (only when non-zero)
+            if m:
+                mid = m / 2
+                ax.text(i, mid, str(m), ha="center", va="center",
+                        color="#fff", fontsize=7, fontweight="bold")
 
     else:  # middle_east
         alerts = [by_date.get(d, {}).get("red_alerts", 0) for d in days]
@@ -272,7 +279,7 @@ def _clean_point(text: str) -> str:
     """Strip all source citations from a point."""
     return _CITE_ANY_RE.sub("", _SOURCE_RE.sub("", str(text))).strip()
 
-def _truncate(text: str, max_words: int = 30) -> str:
+def _truncate(text: str, max_words: int = 40) -> str:
     """Trim to max_words words, breaking cleanly at word boundary."""
     words = text.split()
     if len(words) <= max_words:
