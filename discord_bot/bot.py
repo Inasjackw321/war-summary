@@ -272,12 +272,37 @@ def _clean_point(text: str) -> str:
     """Strip all source citations from a point."""
     return _CITE_ANY_RE.sub("", _SOURCE_RE.sub("", str(text))).strip()
 
-def _truncate(text: str, max_words: int = 22) -> str:
-    """Trim to max_words words for concise Discord display."""
+def _truncate(text: str, max_words: int = 30) -> str:
+    """Trim to max_words words, breaking cleanly at word boundary."""
     words = text.split()
     if len(words) <= max_words:
         return text
     return " ".join(words[:max_words]).rstrip(",.;:") + "…"
+
+def _first_sentence(text: str) -> str:
+    """Return only the first sentence of a block of text."""
+    m = re.search(r'(?<=[.!?])\s+[A-Z]', text)
+    if m and m.start() > 40:
+        return text[:m.start() + 1].strip()
+    return text.strip()
+
+def _is_vague(clean: str) -> bool:
+    """True for points that promise details but deliver none."""
+    lower = clean.lower().rstrip(".… ")
+    return any(lower.endswith(e) for e in (
+        "to follow", "details to follow", "further details to follow",
+        "more details to follow", "details pending", "developing",
+        "no further details", "no details provided",
+    ))
+
+def _ngram_overlap(a: str, b: str, n: int = 7) -> bool:
+    """True if two texts share a run of n consecutive words (catches near-duplicates)."""
+    wa = a.lower().split()
+    wb = b.lower().split()
+    if len(wa) < n or len(wb) < n:
+        return a.lower()[:50] == b.lower()[:50]
+    grams_b = {tuple(wb[i:i+n]) for i in range(len(wb) - n + 1)}
+    return any(tuple(wa[i:i+n]) in grams_b for i in range(len(wa) - n + 1))
 
 def _point_with_link(text: str) -> str:
     """Return truncated point text with a Telegram source link if available."""
@@ -291,27 +316,26 @@ def _point_with_link(text: str) -> str:
 
 def _collect_points(data: dict, conflict: str) -> list[str]:
     """
-    Gather the most important points across all sections.
-    Priority order: key_developments first, then major conflict sections.
+    Gather the most important unique points across all sections.
+    Priority: key_developments first, then major front/region sections.
     """
     sections = data.get("sections") or {}
 
-    # Section priority — key devs first, then front-line / main sections
     if conflict == "ukraine":
         priority = [
             "key_developments",
             "eastern_front", "northern_front", "southern_front",
             "air_war", "ukraine", "russia",
         ]
-    else:  # middle_east
+    else:
         priority = [
             "key_developments",
             "israel", "gaza_west_bank", "iran",
             "lebanon", "syria_iraq",
         ]
 
-    seen: set[str] = set()
-    points: list[str] = []
+    accepted: list[str] = []   # raw point texts kept so far
+    accepted_clean: list[str] = []  # their cleaned versions for overlap checks
 
     for key in priority:
         raw = sections.get(key)
@@ -320,23 +344,24 @@ def _collect_points(data: dict, conflict: str) -> list[str]:
         items = raw if isinstance(raw, list) else (raw.get("points") or [])
         for p in items:
             clean = _clean_point(p)
-            # Deduplicate by first 60 chars of cleaned text
-            sig = clean[:60].lower()
-            if sig in seen or len(clean) < 25:
+            if len(clean) < 30:
+                continue
+            if _is_vague(clean):
                 continue
             cited = _cited_sources(str(p))
-            # For Middle East: only include points with at least one approved source
             if conflict == "middle_east":
                 if not cited or not cited.intersection(_ME_ALLOWED):
                     continue
             else:
-                # Globally: drop points sourced only from excluded channels
                 if cited and cited.issubset(_EXCLUDED_LOWER):
                     continue
-            seen.add(sig)
-            points.append(str(p))
+            # Near-duplicate check against every already-accepted point
+            if any(_ngram_overlap(clean, prev) for prev in accepted_clean):
+                continue
+            accepted.append(str(p))
+            accepted_clean.append(clean)
 
-    return points
+    return accepted
 
 
 def _embed(data: dict, conflict: str) -> discord.Embed:
@@ -350,52 +375,46 @@ def _embed(data: dict, conflict: str) -> discord.Embed:
         except ValueError:
             pass
 
-    exec_summary = (data.get("sections") or {}).get("executive_summary") or data.get("summary") or ""
+    # One-sentence lead from the executive summary
+    raw_exec = (data.get("sections") or {}).get("executive_summary") or data.get("summary") or ""
+    exec_line = _first_sentence(raw_exec) if raw_exec else ""
 
     embed = discord.Embed(
         title=f"{icon}  {label} — Latest Updates",
-        description=f"*{exec_summary}*" if exec_summary else None,
+        description=f"*{exec_line}*" if exec_line else None,
         color=color,
         timestamp=ts or datetime.now(timezone.utc),
     )
-    # Stats — shown before key developments
+
+    # Stats row
     if conflict == "middle_east":
         alerts = data.get("red_alerts")
         if alerts is not None:
-            embed.add_field(name="🚨 Red Alerts · Israel", value=f"**{round(alerts / 2)}** today", inline=False)
+            embed.add_field(name="🚨 Red Alerts", value=f"**{round(alerts / 2)}** · Israel today", inline=True)
     elif conflict == "ukraine":
         missiles = data.get("missiles")
         drones   = data.get("drones")
         if missiles is not None:
-            embed.add_field(name="🚀 Missiles", value=f"**{missiles}** launched · 24h", inline=True)
+            embed.add_field(name="🚀 Missiles", value=f"**{missiles}** launched", inline=True)
         if drones is not None:
-            embed.add_field(name="🛸 Drones", value=f"**{drones}** launched · 24h", inline=True)
+            embed.add_field(name="🛸 Drones", value=f"**{drones}** launched", inline=True)
 
+    # Key developments — single field, max 8 points
     all_points = _collect_points(data, conflict)
-
     if all_points:
-        nums = ["①","②","③","④","⑤","⑥","⑦","⑧","⑨","⑩","⑪","⑫","⑬","⑭","⑮"]
-        # Pack as many points as fit into Discord's 1024-char field limit.
-        # Spill into a second field if needed (up to 15 total).
-        fields: list[list[str]] = [[]]
-        field_len = 0
-        for i, p in enumerate(all_points[:15]):
-            num  = nums[i] if i < len(nums) else f"{i+1}."
-            line = f"{num} {_point_with_link(p)}"
-            if field_len + len(line) + 1 > 1020:
-                if len(fields) >= 2:
-                    break
-                fields.append([])
-                field_len = 0
-            fields[-1].append(line)
-            field_len += len(line) + 1
-
-        embed.add_field(name="📋  Key Developments", value="\n".join(fields[0]), inline=False)
-        if len(fields) > 1 and fields[1]:
-            embed.add_field(name="📋  (continued)", value="\n".join(fields[1]), inline=False)
+        bullets = []
+        total_len = 0
+        markers = ["▸", "▸", "▸", "▸", "▸", "▸", "▸", "▸"]
+        for i, p in enumerate(all_points[:8]):
+            line = f"**{i+1}.** {_point_with_link(p)}"
+            if total_len + len(line) + 1 > 1020:
+                break
+            bullets.append(line)
+            total_len += len(line) + 1
+        embed.add_field(name="📋  Key Developments", value="\n".join(bullets), inline=False)
 
     n = len(data.get("channels") or [])
-    embed.set_footer(text=f"⚠ AI-generated · {n} channels monitored · Verify before sharing")
+    embed.set_footer(text=f"⚠ AI-generated · {n} sources · Verify before sharing")
     return embed
 
 OPERATOR_ROLE = "War Summary Operator"
