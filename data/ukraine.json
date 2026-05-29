@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-29T22:04:19.880876+00:00",
-  "message_count": 383,
+  "updated_at": "2026-05-29T23:06:45.265496+00:00",
+  "message_count": 379,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,32 +14,31 @@
   "red_alerts": 232,
   "red_alerts_timeline": [
     8,
-    8,
-    15,
+    16,
     8,
     8,
     0,
     0,
-    0,
-    0,
-    8,
     0,
     0,
     8,
     0,
+    0,
     8,
-    23,
-    31,
-    23,
-    15,
-    39,
-    23,
+    0,
     8,
+    32,
+    24,
+    24,
+    16,
+    40,
+    24,
+    8,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    7,
     3,
     12,
     7,
@@ -47,31 +46,32 @@
     9,
     16,
     14,
-    10,
-    17,
+    12,
+    16,
     13,
     11,
-    13,
-    24,
-    20,
-    19,
+    14,
     22,
-    31,
-    59,
+    20,
+    20,
+    22,
+    32,
+    56,
     23,
     17,
     17,
-    4,
-    5
+    5,
+    5,
+    4
   ],
   "messages_by_channel": {
-    "@eRadarrua": 77,
-    "@kpszsu": 86,
-    "@mon1tor_ua": 29,
+    "@eRadarrua": 75,
+    "@kpszsu": 83,
+    "@mon1tor_ua": 27,
     "@UkraineNow": 21,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 141
+    "@tass_agency": 144
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/94258",
@@ -80,16 +80,21 @@
     "UkraineNow": "https://t.me/UkraineNow/81545",
     "DeepStateUA": "https://t.me/DeepStateUA/23544",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30539",
-    "tass_agency": "https://t.me/tass_agency/378158"
+    "tass_agency": "https://t.me/tass_agency/378163"
   },
   "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/81535",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67262",
     "kpszsu": "https://t.me/kpszsu/63264",
-    "eRadarrua": "https://t.me/eRadarrua/94243",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30524",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67297",
-    "UkraineNow": "https://t.me/UkraineNow/81528"
+    "eRadarrua": "https://t.me/eRadarrua/94213"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/378159",
+      "post_id": 378159,
+      "channel": "tass_agency",
+      "ts": "2026-05-29T22:03:01+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30539",
       "post_id": 30539,
@@ -212,13 +217,6 @@
       "post_id": 378113,
       "channel": "tass_agency",
       "ts": "2026-05-29T15:22:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/94167",
-      "post_id": 94167,
-      "channel": "eRadarrua",
-      "ts": "2026-05-29T15:10:13+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/rRJGC8MM5-8m6BT-bxkpEzEcEx1PqYaUXggtCa_-IdP1zG9-AQ8M3BQB2UwqpdHGZ0f7q0UpRtmVrvIgGF5_UR21gzNUUyNpwf7bGxRb4Ey96MoTzZeauo1pfEwAghQFEc5gUC4ykP5UcOyTgZy0KIuZzyoZk2YxPEypZpEkblWJ95GRrgiIK8zre0edfI02Qf1DNXMEuVG4x8IVWjTJrnWSzjm_y05VDbuJOfaWA_xsuB_U8htgjTd7pbNY49xq-BhTS0rHC0ELJFLzbShUZlWX9DafW-8VEgizkS7Ub60mUXiBUoqNxshyk66fD5MCHlNFm4fhjD4dY5exzUYpig.jpg"
     }
   ],
   "post_images": {
@@ -251,92 +249,91 @@
     "kpszsu/63176": "data/media/kpszsu_63176.jpg",
     "kpszsu/63174": "data/media/kpszsu_63176.jpg"
   },
-  "summary": "Russian tactical aviation deployed guided aviation bombs over Zaporizhzhia, Kharkiv and Donetsk regions. Ukrainian forces reported multiple UAV and missile incursions across northern, central and eastern oblasts. Both sides continue intensive strikes on civilian infrastructure, including oil‑gas facilities and schools.",
+  "summary": "Ukrainian forces reported recent gains near Novoselivka in Dnipropetrovsk region and continued clearing operations around Vovkove, Sychneve, and other villages. Russian air activity includes multiple cruise missile launches toward Konotop, Bila Tserkva, and Cherkasy districts, as well as drone incursions into Romanian airspace over Galaţi. Both sides cite heightened missile and UAV activity across multiple fronts.",
   "key_points": [
-    "Guided aviation bombs were launched by Russian tactical aviation on Zaporizhzhia region (Source: @kpszsu/63264).",
-    "Russian tactical aviation also released guided aviation bombs over Kharkiv and Donetsk regions (Source: @kpszsu/63267).",
-    "Ukrainian reports indicate UAVs operating near Zolotovytsia‑Ljubotin‑Merefa corridor in Kharkiv oblast (Source: @eRadarrua/94243).",
-    "Multiple missiles and UAVs were observed over Poltava, Cherkasy and Kirovohrad directions, including rockets heading toward Kremenchuk and Kirovohrad (Sources: @kpszsu/63238, @kpszsu/63239, @kpszsu/63237).",
-    "The Russian army claimed liberation of Budarki and Karaichnoye in Kharkiv region and Novopidgorodne and Lisnoye in Dnipropetrovsk region within 24 hours (Source: @ukr_leaks_eng/30524).",
-    "Ukraine warned of a possible combined strike involving up to 25 X-101 cruise missiles, Kalibr missiles, Iskander-M ballistic missiles and others targeting numerous cities including Kyiv, Kharkiv and Odesa (Source: @mon1tor_ua/67297).",
-    "Russian drones attacked a multi‑storey building in Galaţi, Romania, during operations against Odesa, causing a fire (Source: @UkraineNow/81528).",
-    "Oil‑gas facilities in Kharkiv, Sumy, Poltava and Dnipropetrovsk regions are being hit almost daily, according to Naftogaz (Source: @ukr_leaks_eng/30536)."
+    "Ukrainian troops liberated territory near Novoselivka in Dnipropetrovsk region, with the enemy losing at least 46 km² of land (Source: @UkraineNow/81535).",
+    "Multiple cruise missiles were reported over Konotop, Bila Tserkva, and Cherkasy districts, with no confirmed impacts in Kyiv (Source: @mon1tor_ua/67262, @mon1tor_ua/67275).",
+    "A Russian drone struck a multi‑storey building in Galaţi, Romania, causing a fire, two injuries and evacuation of 70 residents (Source: @UkraineNow/81524).",
+    "Ukrainian air defence observed up to 20 Shahed drones from Poltava and Sumy heading toward Cherkasy region (Source: @mon1tor_ua/67261).",
+    "Ukrainian special forces reportedly disabled a key Russian FSB radio‑electronic intelligence site in the Krasnodar region (Source: @UkraineNow/81537).",
+    "Russian tactical aviation launched guided aviation bombs over Zaporizhzhia and Donetsk regions (Source: @kpszsu/63264, @kpszsu/63263).",
+    "Ukrainian forces reported a group of UAVs moving north in Kharkiv region toward Staryi Mertchyk (Source: @kpszsu/63256).",
+    "Russian President Putin claimed Russian forces are advancing on all fronts daily (Source: @UkraineNow/81541)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Guided aviation bombs were deployed by Russian tactical aviation over Zaporizhzhia, Kharkiv and Donetsk regions, marking a significant escalation of air‑strike capability. Ukrainian forces reported widespread UAV and missile activity across multiple fronts, including Poltava, Cherkasy and northern oblasts. Both sides continue intensive targeting of civilian infrastructure, with repeated attacks on oil‑gas facilities and a notable drone strike in Romania.",
+    "executive_summary": "Ukrainian forces have reclaimed territory near Novoselivka in Dnipropetrovsk region, while Russian missile and UAV activity intensifies across central and northern Ukraine, including cruise missile launches toward Konotop and Bila Tserkva. A Russian drone breach into Romanian airspace over Galaţi caused civilian casualties and prompted diplomatic responses. Both sides report increased use of guided bombs and Shahed drones, indicating a heightened operational tempo.",
     "ukraine": {
       "points": [
-        "Ukrainian forces reported UAVs near Zolotovytsia‑Ljubotin‑Merefa corridor in Kharkiv oblast, indicating continued reconnaissance and strike capability in the region (Source: @eRadarrua/94243).",
-        "Multiple missile alerts were issued for Cherkasy, with rockets heading toward Kirovohrad and Kremenchuk, reflecting heightened threat to central Ukraine (Sources: @kpszsu/63238, @kpszsu/63239).",
-        "Ukrainian authorities warned of a possible combined attack involving cruise missiles, Kalibr missiles, Iskander-M ballistic missiles and others targeting major cities such as Kyiv, Kharkiv, Odesa and others (Source: @mon1tor_ua/67297).",
-        "Naftogaz reported almost daily attacks on oil‑gas infrastructure in Kharkiv, Sumy, Poltava and Dnipropetrovsk regions, highlighting a sustained campaign against energy assets (Source: @ukr_leaks_eng/30536).",
-        "A Russian drone struck a multi‑storey building in Galaţi, Romania, during operations against Odesa, causing a fire and demonstrating cross‑border spillover (Source: @UkraineNow/81528)."
+        "Ukrainian troops liberated areas near Novoselivka in Dnipropetrovsk region and conducted clearing operations around Vovkove, Sychneve, Piddubne, Tovste, Novokhatke, and Zelenyi Hai, with the enemy losing at least 46 km² of territory (Source: @UkraineNow/81535).",
+        "Ukrainian special forces used drones to strike a Russian FSB radio‑electronic intelligence node in the Krasnodar region, disabling key command and control assets used for missile and UAV guidance (Source: @UkraineNow/81537).",
+        "Ukrainian air defence reported Shahed drone activity from Poltava and Sumy heading toward Cherkasy's Zolotonosha district, indicating continued low‑altitude threats (Source: @mon1tor_ua/67261).",
+        "Ukrainian units observed UAV groups moving north in Kharkiv region toward the settlement of Staryi Mertchyk, suggesting reconnaissance or strike missions (Source: @kpszsu/63256).",
+        "Ukrainian forces reported a group of cruise missiles forming near Vinnytsia and heading toward Kyiv, and another group near Kagarlyk, indicating potential massed missile attacks (Source: @eRadarrua/94213)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation released guided aviation bombs over Zaporizhzhia region, expanding the use of precision munitions (Source: @kpszsu/63264).",
-        "Similar guided bomb strikes were reported over Kharkiv and Donetsk regions, indicating coordinated air operations across multiple fronts (Source: @kpszsu/63267).",
-        "The Russian army announced the liberation of Budarki and Karaichnoye in Kharkiv region and Novopidgorodne and Lisnoye in Dnipropetrovsk region within a 24‑hour period (Source: @ukr_leaks_eng/30524).",
-        "Russian forces launched ballistic missiles from Bryansk region, as noted by Ukrainian radar monitoring (Source: @mon1tor_ua/67277).",
-        "Ukrainian reports of UAVs near the Black Sea coast suggest Russian maritime drone deployments targeting the Zatoka area (Source: @eRadarrua/94246)."
+        "Russian forces launched cruise missiles toward Konotop in the northeast and toward Bila Tserkva and Cherkasy districts, though Kyiv reported only ballistic overflights without impacts (Source: @mon1tor_ua/67262, @mon1tor_ua/67275).",
+        "Russian tactical aviation deployed guided aviation bombs over Zaporizhzhia and Donetsk regions, targeting Ukrainian positions (Source: @kpszsu/63264, @kpszsu/63263).",
+        "Multiple Shahed drones were tracked heading from Poltava and Sumy toward Cherkasy, reflecting continued Russian UAV deployment (Source: @mon1tor_ua/67261).",
+        "Russian President Putin claimed Russian troops are advancing on all fronts each day, framing the conflict as nearing its conclusion (Source: @UkraineNow/81541).",
+        "A Russian drone entered Romanian airspace over Galaţi, striking a residential building and prompting diplomatic protests (Source: @UkraineNow/81524)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV activity was observed near Novodoneckoye in Donetsk, moving westward, indicating ongoing aerial pressure in the eastern sector (Source: @kpszsu/63271).",
-        "Russian guided bomb strikes over Donetsk region were confirmed, showing intensified air operations in the east (Source: @kpszsu/63263).",
-        "Ukrainian intelligence reported a possible combined strike with multiple missile types that could target eastern cities such as Kharkiv and Donetsk (Source: @mon1tor_ua/67297).",
-        "Oil‑gas facilities in Kharkiv region faced repeated attacks, underscoring a focus on disrupting energy supply in the east (Source: @ukr_leaks_eng/30536).",
-        "UAVs were reported near Balakliia in eastern Kharkiv oblast, moving toward the town, suggesting reconnaissance or strike intent (Source: @kpszsu/63268)."
+        "UAV activity was reported on the eastern edge of Kharkiv region moving toward Balaklia, indicating possible reconnaissance or strike intent (Source: @kpszsu/63268).",
+        "Guided aviation bomb launches were noted over Donetsk region, suggesting intensified Russian air strikes in the east (Source: @kpszsu/63263).",
+        "Ukrainian forces reported a UAV on the east of Dnipropetrovsk region heading past Ternevka from the east (Source: @kpszsu/63262).",
+        "Russian missile launches were observed toward the Konotop area, a strategic location in the northeast (Source: @mon1tor_ua/67262).",
+        "Ukrainian reports indicated a group of UAVs moving north in Kharkiv region toward Staryi Mertchyk (Source: @kpszsu/63256)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian radar detected ballistic missile launches from Bryansk region, posing a direct threat to northern Ukrainian territories (Source: @mon1tor_ua/67277).",
-        "UAVs were sighted over Chernihiv region, including near Snovsk and Berizna, indicating continued aerial activity in the north (Sources: @eRadarrua/94226, @kpszsu/63266).",
-        "Missile alerts reported up to 20 Shahed drones from Poltava and Sumy heading toward Cherkasy, highlighting cross‑regional threats (Source: @mon1tor_ua/67261).",
-        "Ukrainian forces observed rockets on the north of Poltava heading west, suggesting possible targeting of central-northern zones (Source: @kpszsu/63237).",
-        "UAV groups were reported over northern Kharkiv heading toward Staryi Merchik, showing north‑eastern aerial movements (Source: @kpszsu/63256)."
+        "Ukrainian radar detected Shahed drones from Poltava and Sumy heading toward Cherkasy's Zolotonosha district, reflecting northern threat vectors (Source: @mon1tor_ua/67261).",
+        "UAVs were observed on the north of Kharkiv region moving toward the settlement of Staryi Mertchyk (Source: @kpszsu/63256).",
+        "A Russian missile launch was reported toward Bila Tserkva, a city north of Kyiv (Source: @mon1tor_ua/67271).",
+        "Ukrainian forces noted a Shahed drone over Bila Tserkva (Source: @mon1tor_ua/67266).",
+        "Ukrainian air defence reported a missile launch from Poltava toward Cherkasy, indicating cross‑regional strike capability (Source: @mon1tor_ua/67268)."
       ]
     },
     "southern_front": {
       "points": [
-        "Guided aviation bombs were deployed over Zaporizhzhia region, a key southern oblast, indicating intensified air strikes in the south (Source: @kpszsu/63264).",
-        "UAVs were reported near the Black Sea coast heading toward Zatoka, suggesting maritime drone operations affecting southern coastal areas (Source: @eRadarrua/94246).",
-        "Oil‑gas facilities in Dnipropetrovsk region, part of the southern industrial belt, faced daily attacks (Source: @ukr_leaks_eng/30536).",
-        "UAV activity was noted over Dnipro, specifically near Aviatorske and Yavornytske from the south, indicating pressure on central‑southern infrastructure (Source: @eRadarrua/94240).",
-        "Russian missile launches were observed targeting Kremenchuk and Kirovohrad from the south, threatening key logistical hubs (Sources: @kpszsu/63238, @kpszsu/63239)."
+        "Ukrainian forces reported a UAV on the south of Dnipropetrovsk region heading toward Kryvyi Rih (Source: @kpszsu/63257).",
+        "Guided aviation bombs were launched over Zaporizhzhia region, targeting southern Ukrainian positions (Source: @kpszsu/63264).",
+        "Ukrainian reports indicated missile activity toward Kremenchuk from Cherkasy and Vinnytsia regions (Source: @kpszsu/63247, @kpszsu/63238).",
+        "Ukrainian air defence observed Shahed drones from Poltava and Sumy heading toward Cherkasy, affecting the southern central axis (Source: @mon1tor_ua/67261).",
+        "Ukrainian forces reported a missile launch from Cherkasy toward Vinnytsia (Source: @mon1tor_ua/67268)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation employed guided aviation bombs over Zaporizhzhia, Kharkiv and Donetsk, marking a notable escalation in precision strike capability (Sources: @kpszsu/63264, @kpszsu/63267).",
-        "Ukrainian radar reported multiple Shahed drone swarms and UAV incursions across Cherkasy, Poltava, Sumy and Chernihiv, indicating a high tempo of low‑altitude aerial threats (Sources: @mon1tor_ua/67261, @eRadarrua/94257).",
-        "Ballistic missile launches from Bryansk region were detected, adding a strategic missile dimension to the air conflict (Source: @mon1tor_ua/67277).",
-        "Potential large‑scale combined strike scenarios involving cruise missiles, Kalibr, Iskander and hypersonic weapons were outlined, reflecting heightened air‑to‑ground threat levels (Source: @mon1tor_ua/67297).",
-        "Ukrainian forces reported a possible depletion of air‑defence missile stocks, citing the use of Tu‑95MS aircraft for cruise missile launches (Source: @eRadarrua/94206)."
+        "Russian tactical aviation employed guided aviation bombs over Zaporizhzhia and Donetsk, indicating intensified air strike campaigns (Source: @kpszsu/63264, @kpszsu/63263).",
+        "Multiple cruise missile launches were tracked toward Konotop, Bila Tserkva, and Cherkasy districts, though Kyiv reported only ballistic overflights (Source: @mon1tor_ua/67262, @mon1tor_ua/67275).",
+        "Shahed UAVs were observed from Poltava and Sumy heading toward Cherkasy, reflecting continued low‑altitude drone threats (Source: @mon1tor_ua/67261).",
+        "A Russian drone breached Romanian airspace over Galaţi, striking a residential building and causing civilian casualties (Source: @UkraineNow/81524).",
+        "Ukrainian forces reported UAV groups moving north in Kharkiv region toward Staryi Mertchyk, suggesting reconnaissance activity (Source: @kpszsu/63256)."
       ]
     },
     "key_developments": [
-      "Russian tactical aviation released guided aviation bombs over Zaporizhzhia region, expanding precision strike use (Source: @kpszsu/63264).",
-      "Guided aviation bombs were also deployed over Kharkiv and Donetsk regions, indicating coordinated air operations (Source: @kpszsu/63267).",
-      "Ukrainian forces observed UAVs near Zolotovytsia‑Ljubotin‑Merefa corridor in Kharkiv oblast, suggesting ongoing reconnaissance and strike activity (Source: @eRadarrua/94243).",
-      "Ballistic missiles were launched from Bryansk region, posing a direct threat to northern Ukrainian territories (Source: @mon1tor_ua/67277).",
-      "The Russian army announced liberation of Budarki and Karaichnoye in Kharkiv region and Novopidgorodne and Lisnoye in Dnipropetrovsk region within 24 hours (Source: @ukr_leaks_eng/30524).",
-      "Ukraine warned of a possible combined strike involving up to 25 X‑101 cruise missiles, Kalibr missiles, Iskander‑M ballistic missiles and others targeting major cities (Source: @mon1tor_ua/67297).",
-      "Naftogaz reported almost daily attacks on oil‑gas infrastructure in Kharkiv, Sumy, Poltava and Dnipropetrovsk regions (Source: @ukr_leaks_eng/30536)."
+      "Ukrainian troops liberated territory near Novoselivka in Dnipropetrovsk region, with the enemy losing at least 46 km² of land (Source: @UkraineNow/81535).",
+      "Russian cruise missiles were launched toward Konotop, Bila Tserkva, and Cherkasy districts, though Kyiv reported only ballistic overflights without confirmed impacts (Source: @mon1tor_ua/67262, @mon1tor_ua/67275).",
+      "A Russian drone struck a multi‑storey building in Galaţi, Romania, causing a fire, two injuries and the evacuation of 70 residents (Source: @UkraineNow/81524).",
+      "Ukrainian special forces used drones to disable a Russian FSB radio‑electronic intelligence site in the Krasnodar region (Source: @UkraineNow/81537).",
+      "Russian tactical aviation deployed guided aviation bombs over Zaporizhzhia and Donetsk regions (Source: @kpszsu/63264, @kpszsu/63263).",
+      "Shahed drones from Poltava and Sumy were tracked heading toward Cherkasy's Zolotonosha district (Source: @mon1tor_ua/67261).",
+      "Ukrainian forces reported a group of cruise missiles forming near Vinnytsia and heading toward Kyiv, indicating potential massed missile attacks (Source: @eRadarrua/94213)."
     ],
-    "threat_assessment": "Russian air operations have intensified with the use of guided aviation bombs across multiple southern and eastern oblasts, increasing pressure on Ukrainian defensive assets. Simultaneously, a high volume of UAV and Shahed drone activity across northern, central and eastern fronts strains low‑altitude air‑defence systems. The announced combined missile strike scenario, featuring cruise, ballistic and hypersonic weapons, underscores a potential escalation that could overwhelm current Ukrainian air‑defence capacities.",
-    "regional_response": "Ukrainian forces are reinforcing air‑defence positions in Cherkasy, Poltava and northern oblasts, while also coordinating with NATO partners for enhanced radar coverage. Civilian authorities in affected regions, such as Zaporizhzhia and Kharkiv, have activated emergency protocols following guided bomb strikes. Cross‑border incidents, like the drone impact in Romania, have prompted diplomatic engagements with neighboring states to address airspace violations.",
-    "intelligence_notes": "Monitoring of Russian bomber sorties, particularly Tu‑95MS and Tu‑160 platforms, is critical to anticipate cruise missile launches. UAV clusters originating from the Black Sea and maritime routes suggest a shift toward sea‑based drone operations targeting coastal infrastructure. Continued assessment of Russian ground force movements in liberated villages will inform future operational planning."
+    "threat_assessment": "Russian missile and UAV activity remains widespread, targeting central Ukrainian cities and extending into neighboring Romania, indicating a strategy to pressure both Ukraine and its allies. Ukrainian counter‑operations, including UAV strikes on Russian intelligence sites and territorial gains in Dnipropetrovsk, demonstrate resilience but face escalating aerial threats. Continued use of guided bombs and cruise missiles suggests Russia is seeking to degrade Ukrainian air defences and command structures across multiple fronts.",
+    "regional_response": "Romania has condemned the drone strike over Galaţi and is seeking diplomatic measures, while Ukraine has offered assistance to bolster Romanian air defence capabilities. NATO members have expressed concern over the cross‑border incident, highlighting the potential for broader regional escalation. Ukrainian diplomatic channels are emphasizing the need for coordinated air‑defence support among neighboring states.",
+    "intelligence_notes": "Monitoring of Shahed drone launch points in Poltava and Sumy should be intensified to anticipate future incursions toward central Ukraine. The pattern of cruise missile launches toward Konotop and Bila Tserkva suggests preparation for larger scale strikes, warranting heightened radar and missile defence readiness. UAV activity in Kharkiv and Donetsk regions indicates ongoing reconnaissance that could precede targeted air or ground operations."
   },
   "missiles": 0,
   "drones": 232,
   "kpszsu_timeline": [
-    3,
     2,
     3,
     2,
@@ -348,17 +345,18 @@
     2,
     1,
     1,
-    3,
-    7,
-    4,
     4,
     6,
+    4,
+    4,
+    7,
     5,
-    10,
+    9,
     5,
     6,
     7,
-    0,
-    2
+    1,
+    1,
+    0
   ]
 }
