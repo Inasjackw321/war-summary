@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-29T09:36:36.415348+00:00",
-  "message_count": 314,
+  "updated_at": "2026-05-29T09:55:33.278955+00:00",
+  "message_count": 311,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -22,73 +22,79 @@
     12,
     0,
     12,
-    0,
     23,
+    12,
     46,
-    46,
-    0,
     35,
     12,
+    23,
+    12,
     0,
     12,
     0,
     0,
     0,
-    0,
     12,
+    0,
     12
   ],
   "combined_activity_timeline": [
-    20,
+    16,
     17,
-    11,
-    18,
     13,
     16,
-    12,
-    9,
-    12,
-    12,
-    20,
-    19,
-    9,
-    6,
-    12,
-    6,
-    6,
-    9,
-    14,
+    15,
     15,
     11,
-    14,
-    17,
-    15
+    11,
+    11,
+    19,
+    16,
+    16,
+    11,
+    2,
+    13,
+    5,
+    8,
+    9,
+    15,
+    15,
+    11,
+    15,
+    16,
+    14
   ],
   "messages_by_channel": {
-    "@eRadarrua": 65,
-    "@kpszsu": 65,
+    "@eRadarrua": 64,
+    "@kpszsu": 66,
     "@mon1tor_ua": 6,
-    "@UkraineNow": 23,
+    "@UkraineNow": 22,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 126
+    "@tass_agency": 124
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/94138",
-    "kpszsu": "https://t.me/kpszsu/63188",
+    "kpszsu": "https://t.me/kpszsu/63189",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67258",
     "UkraineNow": "https://t.me/UkraineNow/81532",
     "DeepStateUA": "https://t.me/DeepStateUA/23543",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30521",
-    "tass_agency": "https://t.me/tass_agency/378058"
+    "tass_agency": "https://t.me/tass_agency/378062"
   },
   "cited_post_urls": {
+    "kpszsu": "https://t.me/kpszsu/63181",
     "eRadarrua": "https://t.me/eRadarrua/94100",
-    "kpszsu": "https://t.me/kpszsu/63176",
-    "tass_agency": "https://t.me/tass_agency/378054",
-    "UkraineNow": "https://t.me/UkraineNow/81524"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67252",
+    "UkraineNow": "https://t.me/UkraineNow/81512"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/378059",
+      "post_id": 378059,
+      "channel": "tass_agency",
+      "ts": "2026-05-29T09:35:13+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/378057",
       "post_id": 378057,
@@ -210,12 +216,6 @@
       "post_id": 81525,
       "channel": "UkraineNow",
       "ts": "2026-05-29T05:25:27+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81524",
-      "post_id": 81524,
-      "channel": "UkraineNow",
-      "ts": "2026-05-29T05:21:15+00:00"
     }
   ],
   "post_images": {
@@ -248,113 +248,107 @@
     "kpszsu/63176": "data/media/kpszsu_63176.jpg",
     "kpszsu/63174": "data/media/kpszsu_63176.jpg"
   },
-  "summary": "Russia announced a nationwide alert due to the launch of a MiG-31K carrying an X-47M2 Kinzhal missile. Ukrainian forces reported multiple UAV incursions across several oblasts and a Russian‑controlled advance into villages in Dnipropetrovsk, Kharkiv, and Dnipropetrovsk regions. A large air defense effort claimed the downing of 217 hostile UAVs while Russia prepared a mass missile strike with Tu‑95MS and Tu‑160 bombers.",
+  "summary": "Russian tactical aviation launched guided bombs on Zaporizhzhia region and a MiG-31K carrying an X-47M2 Kinzhal missile prompted nationwide air alerts. Ukraine reported multiple UAV incursions across northern and southern oblasts, including a Romanian drone strike on a Galati building. Russia prepared a massed strike with six Tu‑95MS, two Tu‑160 bombers and up to 40 X‑101 cruise missiles.",
   "key_points": [
-    "Russia launched a MiG-31K fighter equipped with an X-47M2 Kinzhal aerobalistic missile, prompting a nationwide alert (Source: @eRadarrua/94100).",
-    "Ukrainian air defenses reported shooting down 217 hostile UAVs, including Shahed, Gerbera, and Italmas types, across northern, southern and eastern sectors (Source: @kpszsu/63176).",
-    "Russian forces took control of the villages Lesnoe and Novopodgorodnoe in Dnipropetrovsk region and Karaichne and Budarki in Kharkiv region (Source: @tass_agency/378054).",
-    "A Russian drone struck a multi‑storey building in Galaţi, Romania, causing a fire, two injuries and evacuation of 70 residents (Source: @UkraineNow/81524).",
-    "Ukrainian reports indicated UAV activity near Snovsk, Sumy, Chernihiv, Odesa, and Zaporizhzhia, with several drones heading toward specific towns (Source: @eRadarrua/94111, @kpszsu/63173, @kpszsu/63149, @kpszsu/63169).",
-    "A Russian missile attack using an Iskander-M ballistic missile from Kursk region was recorded, alongside 232 strike UAVs targeting 14 locations (Source: @kpszsu/63176).",
-    "Ukrainian forces reported a Russian drone destroying a school in Novhorod‑Siverskyi district, with no casualties reported (Source: @UkraineNow/81526)."
+    "Russian tactical aviation deployed guided bombs on Zaporizhzhia region (Source: @kpszsu/63181).",
+    "A MiG-31K carrying an X‑47M2 Kinzhal missile took off, triggering a country‑wide alert (Source: @eRadarrua/94100).",
+    "Six Tu‑95MS and two Tu‑160 bombers are positioned for a massed missile strike, with up to 40 X‑101 cruise missiles prepared (Source: @eRadarrua/94134).",
+    "Ukrainian forces reported UAV activity from the Black Sea heading south into Odesa and other oblasts (Source: @kpszsu/63168).",
+    "A Russian UAV attacked a multi‑storey building in Galati, Romania, a NATO member (Source: @eRadarrua/94103).",
+    "Threat of Iskander‑M ballistic missiles from Voronezh region was announced (Source: @mon1tor_ua/67252).",
+    "Four controlled UAVs were observed over the sea near Chornomorsk (Source: @eRadarrua/94112)."
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia launched a MiG-31K carrying a Kinzhal missile, triggering a nationwide alert. Ukrainian air defenses downed 217 hostile UAVs while Russia prepared a mass missile strike with Tu‑95MS and Tu‑160 bombers. Russian forces seized villages in Dnipropetrovsk and Kharkiv regions and conducted cross‑border drone attacks.",
+    "executive_summary": "Russian tactical aviation launched guided bombs on Zaporizhzhia and a MiG‑31K with a Kinzhal missile triggered nationwide alerts. Ukraine reported extensive UAV incursions across multiple fronts, including a Russian drone strike on a Romanian building. Russia is massing strategic bombers and cruise missiles for a large‑scale strike.",
     "ukraine": {
       "points": [
-        "Ukrainian air defense units reported shooting down 217 hostile UAVs of various types, including Shahed, Gerbera, and Italmas, across northern, southern and eastern sectors, indicating a high‑intensity UAV threat (Source: @kpszsu/63176).",
-        "Ukrainian authorities documented multiple UAV incursions: three near Snovich, four near Terna in Sumy, and several drones heading toward Cherkasy, Zaporizhzhia, and Odesa, highlighting widespread aerial reconnaissance and strike activity (Source: @eRadarrua/94111, @kpszsu/63173, @kpszsu/63166).",
-        "A Russian drone destroyed a school in the Novhorod‑Siverskyi district of Chernihiv region, burning the building and its contents, though no casualties were reported (Source: @UkraineNow/81526).",
-        "Ukrainian officials reported a Russian drone strike on a multi‑storey residential building in Galaţi, Romania, causing a fire, two injuries and the evacuation of 70 residents, underscoring cross‑border threats (Source: @UkraineNow/81524).",
-        "Ukrainian leadership highlighted a critical shortage of air‑defence systems, urging the United States for licenses to produce Patriot‑compatible PAC‑3 missiles (Source: @UkraineNow/81517)."
+        "Ukrainian sources reported a UAV from the Black Sea moving south into Odesa region, indicating continued maritime drone threats (Source: @kpszsu/63168).",
+        "Four controlled UAVs were observed over the sea near Chornomorsk, suggesting reconnaissance or strike preparation (Source: @eRadarrua/94112).",
+        "Multiple UAV groups were noted moving from various oblasts toward strategic targets, including a group from Chernihiv heading to Kyiv region (Source: @kpszsu/63130).",
+        "Ukrainian officials highlighted the need for increased defense funding and procurement of Gripen fighters, though delivery expected 2027 (Source: @UkraineNow/81512)."
       ]
     },
     "russia": {
       "points": [
-        "Russia announced the launch of a MiG-31K fighter equipped with an X-47M2 Kinzhal aerobalistic missile, prompting a nationwide alert across Ukraine (Source: @eRadarrua/94100).",
-        "The Russian Ministry of Defence reported that 208 Ukrainian UAVs were shot down over Russian regions during the night (Source: @tass_agency/378024).",
-        "Russian forces seized control of the villages Lesnoe and Novopodgorodnoe in Dnipropetrovsk region and Karaichne and Budarki in Kharkiv region, expanding ground footholds (Source: @tass_agency/378054).",
-        "Russia prepared a mass missile strike involving six Tu‑95MS bombers from Olenya and Engels airfields and two Tu‑160 bombers from the Ukrainianka airfield, with up to 40 X‑101 cruise missiles ready (Source: @eRadarrua/94134).",
-        "A Russian Iskander‑M ballistic missile was launched from Kursk region, accompanied by 232 strike UAVs targeting 14 locations across Ukraine (Source: @kpszsu/63176)."
+        "Russian tactical aviation conducted guided bomb strikes on Zaporizhzhia region (Source: @kpszsu/63181).",
+        "A MiG‑31K equipped with an X‑47M2 Kinzhal missile took off, prompting a nationwide air alarm (Source: @eRadarrua/94100).",
+        "Six Tu‑95MS bombers relocated to Engels airfield and two Tu‑160 bombers positioned at Ukrainianka, preparing up to 40 X‑101 cruise missiles for a massed attack (Source: @eRadarrua/94134).",
+        "Threat of Iskander‑M ballistic missile launches from Voronezh region was announced (Source: @mon1tor_ua/67252)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV activity was reported near Snovich in the Sumy region, with three drones observed flying past the town (Source: @eRadarrua/94111).",
-        "Ukrainian defenses recorded UAVs approaching from the north of Sumy heading toward Terna, indicating pressure on the Sumy‑Chernihiv axis (Source: @kpszsu/63173).",
-        "Russian forces reported control of villages in Kharkiv region (Karaichne, Budarki), potentially affecting eastern supply lines (Source: @tass_agency/378054).",
-        "A Russian Iskander‑M ballistic missile launch from Kursk targeted eastern sectors, accompanied by numerous strike UAVs (Source: @kpszsu/63176).",
-        "Ukrainian air defenses downed multiple UAVs over eastern oblasts, including Shahed and Italmas types (Source: @kpszsu/63176)."
+        "UAVs from the Black Sea were reported moving south into Odesa and towards the southern direction of Mykolaiv (Source: @kpszsu/63170).",
+        "Guided bomb attacks by Russian tactical aviation targeted Zaporizhzhia, a key eastern industrial region (Source: @kpszsu/63181).",
+        "A new reactive UAV from Bryansk was observed heading to Horodnia in Chernihiv region, indicating cross‑border drone activity (Source: @eRadarrua/94082).",
+        "Ukrainian reports noted a UAV group from the southeast of Dnipropetrovsk moving toward Kryvyi Rih (Source: @kpszsu/63172)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs were observed heading from the north of Dnipropetrovsk region toward Cherkasy, indicating a northern approach vector (Source: @kpszsu/63152).",
-        "UAVs from the north of Sumy region were tracked moving toward Talalayivka, showing continued northern incursions (Source: @kpszsu/63166).",
-        "A Russian drone was reported flying from the north of Zaporizhzhia region toward Zaporizhzhia city (Source: @kpszsu/63169).",
-        "Ukrainian forces claimed to have downed 217 hostile UAVs across the northern sector, reflecting intense aerial combat (Source: @kpszsu/63176).",
-        "Russian MiG‑31K launch was noted nationwide, affecting northern airspace monitoring (Source: @eRadarrua/94100)."
+        "UAVs were observed over northern Poltava heading toward Pyriatyn (Source: @kpszsu/63184).",
+        "A UAV group from Kursk region moved toward Sumy, indicating northern pressure (Source: @kpszsu/63158).",
+        "UAV activity from Chernihiv heading toward Kyiv region, course toward Chernobyl (Source: @kpszsu/63130).",
+        "A UAV from the Black Sea moved south into Odesa, showing northern‑to‑southern transit routes (Source: @kpszsu/63168)."
       ]
     },
     "southern_front": {
       "points": [
-        "Four UAVs were reported operating from the sea near the Black Sea, heading toward the city of Chornomorsk (Source: @eRadarrua/94112).",
-        "Ukrainian reports indicated UAV activity near Odesa, with five drones observed from the sea heading toward Tatarbunary (Source: @eRadarrua/94114).",
-        "A Russian drone strike on a residential building in Galaţi, Romania, originated from attacks directed at Odesa, showing southern cross‑border reach (Source: @UkraineNow/81524).",
-        "Ukrainian air defenses downed numerous UAVs over southern sectors, part of the 217 total claimed (Source: @kpszsu/63176).",
-        "Russian Iskander‑M missile launch and accompanying UAV swarm targeted southern locations among the 14 hit sites (Source: @kpszsu/63176)."
+        "UAVs from the Black Sea moved south into Odesa and towards the southern direction of Mykolaiv (Source: @kpszsu/63170).",
+        "A new reactive UAV from Bryansk was reported heading to Horodnia and other southern oblasts including Zaporizhzhia (Source: @eRadarrua/94082).",
+        "Four UAVs were seen over the sea near Chornomorsk, a southern coastal city (Source: @eRadarrua/94112).",
+        "A Russian UAV attacked a multi‑storey building in Galati, Romania, indicating southern operational reach (Source: @eRadarrua/94103)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defenses reported shooting down 217 hostile UAVs of various types across the country, indicating a high‑intensity air‑defence effort (Source: @kpszsu/63176).",
-        "The Russian Ministry of Defence claimed 208 Ukrainian UAVs were downed over Russian territory during a single night (Source: @tass_agency/378024).",
-        "Russia prepared a large‑scale missile strike with six Tu‑95MS and two Tu‑160 bombers, each potentially carrying up to 40 X‑101 cruise missiles (Source: @eRadarrua/94134).",
-        "A Russian Iskander‑M ballistic missile launch from Kursk was accompanied by 232 strike UAVs targeting multiple Ukrainian locations (Source: @kpszsu/63176).",
-        "Multiple UAV incursions were reported across Ukrainian oblasts, including Sumy, Chernihiv, Odesa, and Zaporizhzhia, highlighting widespread aerial pressure (Source: @eRadarrua/94111, @kpszsu/63173, @kpszsu/63169)."
+        "Russian MiG‑31K carrying an X‑47M2 Kinzhal missile took off, prompting a nationwide alert (Source: @eRadarrua/94100).",
+        "Guided bomb sorties by Russian tactical aviation targeted Zaporizhzhia (Source: @kpszsu/63181).",
+        "Six Tu‑95MS and two Tu‑160 bombers are positioned for a massed strike with up to 40 X‑101 cruise missiles (Source: @eRadarrua/94134).",
+        "Ukrainian reports of numerous UAV incursions across multiple fronts, including Black Sea, Chernihiv, and southern oblasts (Source: @kpszsu/63168)."
       ]
     },
     "key_developments": [
-      "Russia launched a MiG-31K fighter equipped with an X-47M2 Kinzhal missile, prompting a nationwide alert across Ukraine (Source: @eRadarrua/94100).",
-      "Ukrainian air defenses downed 217 hostile UAVs, including Shahed, Gerbera, and Italmas types, across northern, southern and eastern sectors (Source: @kpszsu/63176).",
-      "Russian forces seized control of the villages Lesnoe and Novopodgorodnoe in Dnipropetrovsk region and Karaichne and Budarki in Kharkiv region (Source: @tass_agency/378054).",
-      "A Russian drone struck a multi‑storey residential building in Galaţi, Romania, causing a fire, two injuries and the evacuation of 70 residents (Source: @UkraineNow/81524).",
-      "Russia prepared a mass missile strike with six Tu‑95MS bombers from Olenya and Engels and two Tu‑160 bombers from Ukrainianka, ready to launch up to 40 X‑101 cruise missiles (Source: @eRadarrua/94134).",
-      "A Russian Iskander‑M ballistic missile was launched from Kursk region, accompanied by 232 strike UAVs targeting 14 locations across Ukraine (Source: @kpszsu/63176).",
-      "Ukrainian authorities reported a Russian drone destroying a school in Novhorod‑Siverskyi district, Chernihiv region, with no casualties (Source: @UkraineNow/81526)."
+      "Russian tactical aviation deployed guided bombs on Zaporizhzhia region, indicating intensified air strikes on eastern targets. (Source: @kpszsu/63181)",
+      "A MiG‑31K equipped with an X‑47M2 Kinzhal missile took off, triggering a nationwide air alert across Ukraine. (Source: @eRadarrua/94100)",
+      "Six Tu‑95MS and two Tu‑160 bombers are positioned for a massed missile strike, with up to 40 X‑101 cruise missiles prepared for launch. (Source: @eRadarrua/94134)",
+      "Ukrainian forces reported UAV activity from the Black Sea moving south into Odesa and Mykolaiv regions, showing maritime drone threats. (Source: @kpszsu/63168)",
+      "Four controlled UAVs were observed over the sea near Chornomorsk, suggesting reconnaissance or strike missions in the southern coastal area. (Source: @eRadarrua/94112)",
+      "A Russian UAV attacked a multi‑storey building in Galati, Romania, a NATO member, marking a cross‑border escalation. (Source: @eRadarrua/94103)",
+      "Threat of Iskander‑M ballistic missile launches from Voronezh region was announced, raising concerns of long‑range strike capability. (Source: @mon1tor_ua/67252)"
     ],
-    "threat_assessment": "Russian aerial capabilities remain a significant threat, demonstrated by the MiG‑31K launch, mass bomber preparations, and extensive UAV and missile attacks across multiple fronts. Ukrainian air defenses are actively engaging, achieving high UAV attrition, but the volume and variety of threats, including ballistic missiles and cross‑border drone strikes, strain defensive resources. Continued Russian ground advances in Dnipropetrovsk and Kharkiv regions could facilitate deeper penetration and logistical support for air operations.",
-    "regional_response": "Ukraine is intensifying air‑defence operations and seeking additional Western air‑defence assets, as highlighted by President Zelensky's appeals for Patriot‑compatible missile production licenses. Neighboring states, notably Romania, have experienced direct attacks, prompting heightened border security and diplomatic protests. International partners are monitoring the escalation, with some, like Sweden, pledging fighter deliveries, while others remain cautious.",
-    "intelligence_notes": "Monitoring of MiG‑31K flight paths and Kinzhal launch signatures is critical for early warning. UAV tracking data shows recurring ingress routes from the north, east, and sea, suggesting predictable launch corridors that can be targeted for interdiction. The seizure of villages in Dnipropetrovsk and Kharkiv may serve as staging areas for future air‑ground coordination, requiring close surveillance of logistics and command nodes."
+    "threat_assessment": "Russian air operations have escalated with guided bomb strikes, strategic bomber deployments, and the use of a Kinzhal‑capable MiG‑31K, increasing pressure on Ukrainian air defenses. UAV incursions across multiple fronts, including maritime routes, complicate detection and interception efforts. The announced Iskander‑M threat adds a long‑range ballistic dimension, potentially targeting rear areas and critical infrastructure.",
+    "regional_response": "Ukraine is reinforcing air defense alerts nationwide and monitoring UAV activity across northern, eastern, and southern fronts. NATO member Romania has lodged diplomatic protests over the drone strike, indicating potential regional escalation. International partners continue to discuss increased defense aid, including future Gripen deliveries, though immediate operational impact remains limited.",
+    "intelligence_notes": "Continued UAV traffic from the Black Sea suggests a supply or reconnaissance corridor that may be exploited for future strikes. The massing of strategic bombers and cruise missiles points to a planned large‑scale offensive, requiring heightened readiness of missile defense assets. Monitoring of Iskander‑M launch preparations in Voronezh is critical for early warning of potential long‑range attacks."
   },
   "missiles": 0,
   "drones": 232,
   "kpszsu_timeline": [
     0,
     2,
-    1,
-    2,
-    2,
     2,
     1,
+    2,
+    2,
+    1,
+    4,
+    5,
+    5,
+    6,
+    6,
+    4,
+    1,
+    5,
+    1,
+    2,
     2,
     5,
-    4,
-    7,
-    7,
-    3,
-    3,
-    4,
     2,
+    3,
+    3,
     1,
-    2,
-    4,
-    4,
-    3,
-    2,
-    2,
-    0
+    1
   ]
 }
