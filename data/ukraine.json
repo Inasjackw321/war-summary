@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-30T08:07:21.529225+00:00",
-  "message_count": 369,
+  "updated_at": "2026-05-30T09:32:37.467675+00:00",
+  "message_count": 366,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,17 +14,15 @@
   "red_alerts": 296,
   "red_alerts_timeline": [
     0,
+    10,
     0,
-    11,
-    0,
-    11,
-    43,
-    32,
-    32,
     21,
-    64,
+    31,
+    41,
+    31,
+    41,
+    41,
     21,
-    11,
     0,
     0,
     0,
@@ -36,60 +34,81 @@
     0,
     0,
     0,
-    21
+    21,
+    0,
+    10
   ],
   "combined_activity_timeline": [
     13,
+    13,
+    25,
+    23,
+    19,
+    23,
+    46,
+    43,
+    23,
+    10,
+    15,
+    5,
+    2,
+    6,
+    8,
+    10,
+    7,
+    10,
+    9,
+    7,
+    14,
     11,
     14,
-    22,
-    21,
-    20,
-    22,
-    33,
-    56,
-    23,
-    17,
-    16,
-    5,
-    4,
-    4,
-    5,
-    11,
-    9,
-    11,
-    6,
-    10,
-    10,
-    12,
-    14
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 68,
-    "@kpszsu": 86,
+    "@eRadarrua": 69,
+    "@kpszsu": 87,
     "@mon1tor_ua": 28,
-    "@UkraineNow": 22,
+    "@UkraineNow": 21,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 23,
-    "@tass_agency": 141
+    "@ukr_leaks_eng": 22,
+    "@tass_agency": 138
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/94284",
-    "kpszsu": "https://t.me/kpszsu/63319",
+    "eRadarrua": "https://t.me/eRadarrua/94287",
+    "kpszsu": "https://t.me/kpszsu/63326",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67300",
     "UkraineNow": "https://t.me/UkraineNow/81552",
     "DeepStateUA": "https://t.me/DeepStateUA/23544",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30542",
-    "tass_agency": "https://t.me/tass_agency/378203"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30545",
+    "tass_agency": "https://t.me/tass_agency/378211"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81534",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30524",
+    "kpszsu": "https://t.me/kpszsu/63303",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67265",
     "tass_agency": "https://t.me/tass_agency/378193",
-    "eRadarrua": "https://t.me/eRadarrua/94229",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30542",
-    "kpszsu": "https://t.me/kpszsu/63287"
+    "UkraineNow": "https://t.me/UkraineNow/81542",
+    "eRadarrua": "https://t.me/eRadarrua/94268"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/378206",
+      "post_id": 378206,
+      "channel": "tass_agency",
+      "ts": "2026-05-30T08:26:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378205",
+      "post_id": 378205,
+      "channel": "tass_agency",
+      "ts": "2026-05-30T08:18:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378204",
+      "post_id": 378204,
+      "channel": "tass_agency",
+      "ts": "2026-05-30T08:08:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/378201",
       "post_id": 378201,
@@ -197,24 +216,6 @@
       "post_id": 378167,
       "channel": "tass_agency",
       "ts": "2026-05-29T23:42:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/378165",
-      "post_id": 378165,
-      "channel": "tass_agency",
-      "ts": "2026-05-29T23:21:13+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/378159",
-      "post_id": 378159,
-      "channel": "tass_agency",
-      "ts": "2026-05-29T22:03:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30539",
-      "post_id": 30539,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-05-29T19:48:54+00:00"
     }
   ],
   "post_images": {
@@ -232,8 +233,6 @@
     "eRadarrua/94240": "data/media/eRadarrua_94242.jpg",
     "eRadarrua/94222": "data/media/eRadarrua_94222.jpg",
     "eRadarrua/94167": "data/media/eRadarrua_94167.jpg",
-    "eRadarrua/94146": "data/media/eRadarrua_94146.jpg",
-    "eRadarrua/94145": "data/media/eRadarrua_94146.jpg",
     "eRadarrua/94152": "data/media/eRadarrua_94152.jpg",
     "eRadarrua/94153": "data/media/eRadarrua_94152.jpg",
     "eRadarrua/94154": "data/media/eRadarrua_94154.jpg",
@@ -241,118 +240,112 @@
     "eRadarrua/94160": "data/media/eRadarrua_94161.jpg",
     "eRadarrua/94163": "data/media/eRadarrua_94163.jpg",
     "eRadarrua/94164": "data/media/eRadarrua_94163.jpg",
-    "eRadarrua/94135": "data/media/eRadarrua_94135.jpg",
-    "eRadarrua/94134": "data/media/eRadarrua_94135.jpg",
+    "eRadarrua/94146": "data/media/eRadarrua_94146.jpg",
+    "eRadarrua/94148": "data/media/eRadarrua_94146.jpg",
     "kpszsu/63300": "data/media/kpszsu_63300.jpg",
     "kpszsu/63299": "data/media/kpszsu_63300.jpg"
   },
-  "summary": "Russia intensified attacks on energy infrastructure, striking Naftogaz facilities in Kharkiv and Sumy and igniting a tanker at Taganrog port. Ukraine reported a drone strike on a residential building in Galați, Romania, and offered air‑defence assistance to Bucharest. Russian forces claimed advances in the north DNR and reported the destruction of an Iskander system and two Tu‑142 aircraft at Taganrog.",
+  "summary": "Ukrainian assault units reported liberating several villages in the Kharkiv and Dnipropetrovsk regions, while Russian tactical aviation intensified guided‑bomb strikes across multiple front‑line oblasts. UAV activity remains high with numerous sightings over Chernihiv, Kharkiv, and Zaporizhzhia, and missile attacks hit Kremenchuk and Bila Tserkva. International support continues, highlighted by Finland's €128 million aid package.",
   "key_points": [
-    "Russia attacked multiple Naftogaz facilities in Kharkiv and Sumy, with attacks lasting nearly a full day and a repeat strike on a Sumy site (Source: @UkraineNow/81534).",
-    "A nighttime drone raid set fire to a tanker, fuel tank and administration building at Taganrog port and hit oil bases in Armavir and Feodosia (Source: @UkraineNow/81546).",
-    "Ukrainian forces claimed to have downed 127 UAVs overnight, according to Russian defence ministry statements (Source: @tass_agency/378193).",
-    "A Russian drone entered Romanian airspace, crashing into a multi‑storey building in Galați, causing fire and casualties (Source: @UkraineNow/81538).",
-    "Ukraine pledged to assist Romania with air‑defence support against Russian drones, with Ukrainian specialists to help strengthen sky protection (Source: @UkraineNow/81540).",
-    "Russian commander Pushilin reported progress north of Svyatogorsk in the DNR and improved positions south of Konstantinovka (Source: @tass_agency/378166).",
-    "Ukrainian SBS forces reported destroying an Iskander missile system and two Tu‑142 bombers at a military airfield near Taganrog (Source: @UkraineNow/81550)."
+    "Ukrainian assault troops captured Budarki and Karaichnoye in Kharkiv and Novopidgorodne and Lisnoye in Dnipropetrovsk, expanding liberated territory. (Source: @ukr_leaks_eng/30524)",
+    "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia, Sumy, Dnipropetrovsk, Kharkiv and Donetsk regions, increasing strike pressure on front‑line areas. (Source: @kpszsu/63303; @kpszsu/63267)",
+    "Multiple UAVs were observed: a UAV on the south‑east of Zaporizhzhia heading toward Zaporizhzhia, and several reactive UAVs over Chernihiv moving westward toward Kyiv. (Source: @kpszsu/63317; @kpszsu/63288)",
+    "Missile attacks struck Kremenchuk (1‑2 rockets) and Bila Tserkva (multiple rockets), indicating continued Russian long‑range strike activity. (Source: @mon1tor_ua/67265; @mon1tor_ua/67271)",
+    "Russian air defence reported shooting down 127 Ukrainian UAVs over Russian territory in a single night. (Source: @tass_agency/378193)",
+    "Finland announced its 33rd military aid package to Ukraine valued at approximately €128 million, adding to prior deliveries of €3.4 billion. (Source: @UkraineNow/81542)",
+    "Russian tactical aviation activity warnings were issued for south‑east, east and north‑east directions, highlighting heightened aerial threat to near‑front regions. (Source: @kpszsu/63295)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia intensified attacks on energy infrastructure, striking Naftogaz facilities in Kharkiv and Sumy and igniting a tanker at Taganrog port. Ukraine reported a drone strike on a residential building in Galați, Romania, and offered air‑defence assistance to Bucharest. Russian forces claimed advances in the north DNR and reported the destruction of an Iskander system and two Tu‑142 aircraft at Taganrog.",
+    "executive_summary": "Ukrainian assault units captured Budarki and Karaichnoye in Kharkiv and Novopidgorodne and Lisnoye in Dnipropetrovsk, expanding liberated territory (Source: @ukr_leaks_eng/30524). Russian tactical aviation intensified guided‑bomb strikes across Zaporizhzhia, Sumy, Dnipropetrovsk, Kharkiv and Donetsk, raising the risk of civilian and military casualties (Source: @kpszsu/63303; @kpszsu/63267). UAV sightings and missile attacks continued, with UAVs observed over Chernihiv and Zaporizhzhia and rockets hitting Kremenchuk and Bila Tserkva (Source: @kpszsu/63317; @mon1tor_ua/67265).",
     "ukraine": {
       "points": [
-        "Ukrainian officials said a Russian drone entered Romanian airspace and collided with a multi‑storey residential building in the border city of Galați, causing a fire and injuries (Source: @UkraineNow/81538).",
-        "Ukraine announced it will support Romania with air‑defence teams, specialists and equipment to counter Russian drone threats, following the Galați incident (Source: @UkraineNow/81540).",
-        "Ukrainian SBS forces reported the destruction of an Iskander missile system and two Tu‑142 strategic bombers at a military airfield near Taganrog during night operations (Source: @UkraineNow/81550).",
-        "Ukrainian intelligence noted a reduction in UAV numbers over the airspace, with only a few remaining over Sumy, Poltava and Chernihiv regions, but expected new groups to enter (Source: @eRadarrua/94229).",
-        "Ukrainian forces claimed to have shot down 127 UAVs overnight, according to Russian defence ministry data, indicating high Ukrainian air‑defence activity (Source: @tass_agency/378193)."
+        "Ukrainian assault troops of the \"North\" Guards Motor Rifle Division advanced up to 100 m in the Bachevsk area, captured two enemy soldiers from the 104th Motor Rifle Brigade, and reported progress of up to 500 m in twelve sectors on the Sumy front, with ongoing firefights in Ivolzhansk and Pisarevka (Source: @ukr_leaks_eng/30542).",
+        "Ukrainian forces liberated the villages of Budarki and Karaichnoye in the Kharkiv region and Novopidgorodne and Lisnoye in the Dnipropetrovsk region within a 24‑hour period, according to the Ministry of Defense (Source: @ukr_leaks_eng/30524).",
+        "Ukrainian special‑operations units received the honorary title \"Heroes of UPA,\" prompting diplomatic criticism but indicating continued internal reorganization (Source: @UkraineNow/81532).",
+        "Ukrainian air defence reported shooting down multiple UAVs, though Russian claims state 127 Ukrainian UAVs were downed over Russian territory (Source: @tass_agency/378193)."
       ]
     },
     "russia": {
       "points": [
-        "Russian officials reported that 127 Ukrainian UAVs were downed during the night, reflecting intensive air‑defence operations (Source: @tass_agency/378193).",
-        "Russian commander Pushilin announced successes in the north of the DNR, bringing forces closer to liberating Svyatogorsk and advancing south of Konstantinovka (Source: @tass_agency/378166).",
-        "Russian authorities declared a local emergency regime in Taganrog after the Ukrainian drone attack that damaged a boiler house and left several residential buildings without hot water (Source: @tass_agency/378200).",
-        "The Russian Ministry of Defence reported the destruction of Ukrainian UAVs over the Tula region, with six drones shot down at night (Source: @tass_agency/378184).",
-        "Russian air‑defence units reported intercepting 13 UAVs over Voronezh region during nighttime operations (Source: @tass_agency/378188)."
+        "Russian tactical aviation conducted guided‑bomb releases on Zaporizhzhia, Sumy, Dnipropetrovsk, Kharkiv and Donetsk oblasts, signalling a broadening of aerial strike zones (Source: @kpszsu/63303; @kpszsu/63267).",
+        "Russian air‑defence forces reported a group strike on Ukrainian military aerodromes and critical infrastructure, as announced by the Russian Ministry of Defence (Source: @tass_agency/378209).",
+        "Two Tu‑95MS bombers were relocated from Olyenya airfield to Engels airfield, indicating strategic bomber repositioning (Source: @eRadarrua/94268).",
+        "Russian authorities warned of possible attacks on military transport aircraft AN‑72 and IL‑76MD‑90A targeting Kursk and Shaykovka airfields, suggesting preparation for larger weapon deliveries (Source: @eRadarrua/94249)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian assault units of the \"North\" Guards Motor Rifle Division advanced up to 100 m in the Bachevsk area of the Sumy front, capturing two enemy soldiers (Source: @ukr_leaks_eng/30542).",
-        "Ukrainian troops reported advances of up to 500 m in twelve sectors of the Sumy region, with ongoing firefights in Ivolzhansk, Pisarevka and surrounding villages (Source: @ukr_leaks_eng/30542).",
-        "Russian forces claimed liberation of Novovasilyevka on the Kupyansk direction and ongoing battles for Vasilyevka and approaches to Mirny on the Dobropillarsk direction (Source: @ukr_leaks_eng/30542).",
-        "Ukrainian reports indicated continued artillery and aviation deployment around Konstantinovka, with heavy battles in built‑up areas (Source: @ukr_leaks_eng/30542).",
-        "Ukrainian sources noted that the \"East\" Group was advancing northwest of Alexandrograd village, consolidating a bridgehead north of the river (Source: @ukr_leaks_eng/30542)."
+        "Ukrainian assault units reported advances of up to 500 m in twelve sectors on the Sumy front, with ongoing firefights in Ivolzhansk, Pisarevka and surrounding areas (Source: @ukr_leaks_eng/30542).",
+        "Russian tactical aviation launched guided bombs on Sumy and Dnipropetrovsk regions, increasing pressure on Ukrainian defensive positions (Source: @kpszsu/63303).",
+        "UAV activity was noted over Sumy and neighboring oblasts, with several UAVs remaining in the airspace and expectations of new groups entering (Source: @eRadarrua/94229).",
+        "Russian forces claimed liberation of villages in the Dnipropetrovsk region, including Novopidgorodne and Lisnoye, as part of their east‑front operations (Source: @ukr_leaks_eng/30524)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian statements highlighted progress north of Svyatogorsk in the Donetsk People's Republic, moving closer to liberating the town (Source: @tass_agency/378166).",
-        "Ukrainian intelligence reported a reactive UAV approaching Chernihiv from the north‑east, indicating continued aerial activity in the northern sector (Source: @eRadarrua/94250).",
-        "A reactive UAV was observed heading toward Chernihiv from Bryansk region, suggesting cross‑border drone incursions (Source: @eRadarrua/94259).",
-        "Ukrainian sources noted a UAV heading toward Zhytomyr's Korosten from the north (Source: @kpszsu/63287).",
-        "Ukrainian monitoring indicated a UAV group moving from Dnipropetrovsk toward Pavlograd and Poltava, showing operational mobility in the north‑central area (Source: @eRadarrua/94230)."
+        "UAVs were observed over Chernihiv region moving westward toward Kyiv, including reactive UAVs along the Belarus border (Source: @kpszsu/63290; @kpszsu/63288).",
+        "A UAV was reported heading from north‑east Chernihiv toward Snovsk and Semenivka, indicating possible reconnaissance or strike intent (Source: @kpszsu/63325).",
+        "UAV sightings included a guided UAV near Horodny and another near Semenivka in Chernihiv oblast (Source: @eRadarrua/94286).",
+        "Russian tactical aviation activity warnings highlighted threats on north‑east directions, affecting northern front‑line oblasts (Source: @kpszsu/63295)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian reports described a drone strike that set fire to a tanker, fuel tank and administrative building at the port of Taganrog, with two injuries reported in a nearby village (Source: @ukr_leaks_eng/30542).",
-        "Russian forces claimed liberation of the village of Novopodgorne in the Dnipropetrovsk region on the southern Dobropillarsk front (Source: @ukr_leaks_eng/30542).",
-        "Ukrainian sources reported a drone attack on a private house in the village of Grekovo‑Timofeevka, injuring two people (Source: @ukr_leaks_eng/30542).",
-        "Ukrainian forces noted ongoing attacks on logistics and energy infrastructure in the Zaporizhzhia region, with power outages affecting a large part of the area (Source: @ukr_leaks_eng/30542).",
-        "Russian reports indicated that a UAV group from the Black Sea area was heading toward the Odessa region, suggesting maritime‑origin drone operations (Source: @eRadarrua/94259)."
+        "Ukrainian forces reported successes on the Oleksandrivsky sector and liberated territory near Novoselivka in Dnipropetrovsk, as well as clearing operations near Voronno, Sichneve, Piddubne, Tvystyi, Novokhatky and Zelenyi Hai (Source: @UkraineNow/81535).",
+        "UAV activity was noted on the south‑east of Zaporizhzhia heading toward Zaporizhzhia city (Source: @kpszsu/63317).",
+        "Russian tactical aviation warned of increased activity on south‑east, east and north‑east directions, affecting southern front regions (Source: @kpszsu/63295).",
+        "Missile attacks struck Kremenchuk (1‑2 rockets) and Bila Tserkva (multiple rockets), indicating continued Russian long‑range strike capability in the south‑central zone (Source: @mon1tor_ua/67265; @mon1tor_ua/67271)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian defence ministry announced the downing of 127 Ukrainian UAVs overnight, reflecting intense air‑defence activity (Source: @tass_agency/378193).",
-        "Six Ukrainian UAVs were destroyed over the Tula region during nighttime operations (Source: @tass_agency/378184).",
-        "Thirteen UAVs were intercepted over Voronezh region by air‑defence units (Source: @tass_agency/378188).",
-        "Ukrainian SBS claimed destruction of an Iskander missile system and two Tu‑142 bombers at Taganrog airfield (Source: @UkraineNow/81550).",
-        "Ukrainian monitoring indicated fewer than ten UAVs remaining in the airspace, with a few over Sumy, Poltava and Chernihiv, but expecting new groups to enter (Source: @eRadarrua/94229)."
+        "Russian tactical aviation deployed guided aviation bombs on multiple front‑line oblasts, including Zaporizhzhia, Sumy, Dnipropetrovsk, Kharkiv and Donetsk (Source: @kpszsu/63303; @kpszsu/63267).",
+        "Russian air‑defence reported downing 127 Ukrainian UAVs over Russian territory in one night (Source: @tass_agency/378193).",
+        "Ukrainian air‑defence units reported shooting down drones in Tula (6), Voronezh (13) and ongoing operations over Crimea (Source: @ukr_leaks_eng/30542).",
+        "Two Tu‑142 aircraft and an Iskander missile system were reportedly destroyed by Ukrainian SBS forces at a military airfield near Taganrog on 30 May (Source: @UkraineNow/81550)."
       ]
     },
     "key_developments": [
-      "Russia attacked multiple Naftogaz facilities in Kharkiv and Sumy, with attacks lasting nearly a full day and a repeat strike on a Sumy site (Source: @UkraineNow/81534).",
-      "A nighttime drone raid ignited a tanker, fuel tank and administration building at Taganrog port and struck oil bases in Armavir and Feodosia (Source: @UkraineNow/81546).",
-      "Ukrainian forces reported downing 127 UAVs overnight, according to Russian defence ministry figures (Source: @tass_agency/378193).",
-      "A Russian drone entered Romanian airspace and crashed into a residential building in Galați, causing fire and injuries (Source: @UkraineNow/81538).",
-      "Ukraine pledged air‑defence assistance to Romania, deploying specialists to strengthen sky protection against Russian drones (Source: @UkraineNow/81540).",
-      "Russian commander Pushilin announced advances north of Svyatogorsk in the DNR and improved positions south of Konstantinovka (Source: @tass_agency/378166).",
-      "Ukrainian SBS forces claimed destruction of an Iskander missile system and two Tu‑142 strategic bombers at a military airfield near Taganrog (Source: @UkraineNow/81550)."
+      "Ukrainian assault troops liberated Budarki and Karaichnoye in Kharkiv and Novopidgorodne and Lisnoye in Dnipropetrovsk, expanding front‑line gains. (Source: @ukr_leaks_eng/30524)",
+      "Russian tactical aviation launched guided aviation bombs on Zaporizhzhia, Sumy, Dnipropetrovsk, Kharkiv and Donetsk, intensifying aerial strikes. (Source: @kpszsu/63303; @kpszsu/63267)",
+      "Multiple UAVs were observed over Chernihiv moving westward toward Kyiv and over Zaporizhzhia heading toward the city, indicating heightened reconnaissance activity. (Source: @kpszsu/63317; @kpszsu/63288)",
+      "Missile attacks struck Kremenchuk (1‑2 rockets) and Bila Tserkva (multiple rockets), showing continued Russian long‑range strike capability. (Source: @mon1tor_ua/67265; @mon1tor_ua/67271)",
+      "Russian air‑defence reported downing 127 Ukrainian UAVs over Russian regions in a single night, reflecting intense air‑defence engagements. (Source: @tass_agency/378193)",
+      "Finland announced its 33rd military aid package to Ukraine valued at €128 million, adding to prior deliveries of €3.4 billion. (Source: @UkraineNow/81542)",
+      "Russian tactical aviation activity warnings were issued for south‑east, east and north‑east directions, highlighting increased aerial threat to near‑front areas. (Source: @kpszsu/63295)"
     ],
-    "threat_assessment": "Russian UAV strikes on energy infrastructure and cross‑border attacks on Romania demonstrate an escalation in long‑range strike capability, pressuring both Ukrainian and NATO‑adjacent territories. Ukrainian air‑defence successes, including the reported downing of over a hundred drones, indicate robust defensive measures but also suggest high UAV sortie rates. Ground advances reported in the north DNR and near Konstantinovka could threaten Ukrainian defensive lines, while Ukrainian counter‑offensives on the Sumy front show continued contestation of territory.",
-    "regional_response": "Romania has sought Ukrainian assistance for air‑defence, reflecting NATO concern over spill‑over attacks. NATO officials have publicly condemned the Romanian drone strike, signaling potential collective defensive measures. Russian claims of territorial gains in the DNR may prompt increased diplomatic pressure from Western partners supporting Ukraine's sovereignty.",
-    "intelligence_notes": "Monitoring of UAV flight paths shows increased activity from the north (Bryansk) and maritime approaches (Black Sea), indicating diversified launch vectors. The destruction of high‑value assets such as the Iskander system and Tu‑142 bombers at Taganrog suggests Ukrainian targeting of Russian strategic air assets. Continued Russian advances near Svyatogorsk warrant close observation for potential breakthroughs on the eastern front."
+    "threat_assessment": "Ukrainian forces are making incremental territorial gains in the Kharkiv and Dnipropetrovsk regions, but face intensified Russian aerial bombardment across multiple fronts. The proliferation of UAVs and missile strikes, especially on logistical hubs like Kremenchuk, underscores a sustained Russian effort to disrupt supply lines and command structures. Russian strategic bomber movements and air‑defence alerts suggest preparation for larger‑scale operations, while Ukrainian air‑defence continues to engage heavily, indicating a contested airspace.",
+    "regional_response": "International partners remain supportive, exemplified by Finland's €128 million aid package, while NATO allies continue to provide air‑defence assets that have downed numerous drones. Russian diplomatic activity, including statements on UAV incidents in neighboring countries, reflects an attempt to manage the broader geopolitical fallout. Ukrainian leadership urges civilian vigilance amid heightened alert levels, particularly in Kyiv and other near‑front regions.",
+    "intelligence_notes": "Continued monitoring of UAV flight paths over Chernihiv and Zaporizhzhia is essential for early warning of potential strike vectors. The recent relocation of Tu‑95MS bombers to Engels may indicate a shift in long‑range strike posture. Russian air‑defence claims of high UAV kill counts should be cross‑checked with independent observations to assess actual UAV operational tempo. The pattern of missile attacks on mid‑size cities suggests a focus on disrupting regional logistics and morale."
   },
   "missiles": 6,
   "drones": 290,
   "kpszsu_timeline": [
-    1,
-    1,
-    4,
-    6,
-    4,
-    4,
+    3,
+    3,
     7,
-    6,
-    8,
     4,
     6,
+    4,
+    10,
+    5,
     7,
-    1,
-    1,
+    2,
+    6,
+    2,
     0,
-    1,
-    4,
-    4,
-    4,
     0,
+    2,
+    5,
+    3,
+    3,
+    1,
+    2,
+    5,
     1,
     4,
-    4,
-    4
+    2
   ]
 }
