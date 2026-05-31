@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-05-31T21:49:23.393165+00:00",
-  "message_count": 259,
+  "updated_at": "2026-05-31T22:48:58.484069+00:00",
+  "message_count": 255,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 229,
   "red_alerts_timeline": [
-    13,
     7,
     0,
     0,
@@ -22,24 +21,24 @@
     7,
     7,
     7,
-    26,
+    28,
     7,
-    13,
-    13,
-    13,
-    13,
-    20,
+    14,
+    14,
+    14,
+    14,
+    21,
     0,
     0,
     0,
-    20,
+    21,
     7,
-    20,
-    20,
-    13
+    21,
+    21,
+    14,
+    0
   ],
   "combined_activity_timeline": [
-    9,
     5,
     8,
     5,
@@ -62,33 +61,47 @@
     12,
     11,
     9,
-    10
+    10,
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 94,
-    "@kpszsu": 45,
-    "@mon1tor_ua": 8,
+    "@eRadarrua": 87,
+    "@kpszsu": 46,
+    "@mon1tor_ua": 5,
     "@UkraineNow": 17,
     "@ukr_leaks_eng": 14,
-    "@tass_agency": 81
+    "@tass_agency": 86
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/94563",
-    "kpszsu": "https://t.me/kpszsu/63439",
+    "kpszsu": "https://t.me/kpszsu/63440",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67319",
     "UkraineNow": "https://t.me/UkraineNow/81583",
     "DeepStateUA": "https://t.me/DeepStateUA/23545",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30568",
-    "tass_agency": "https://t.me/tass_agency/378349"
+    "tass_agency": "https://t.me/tass_agency/378354"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67317",
-    "UkraineNow": "https://t.me/UkraineNow/81561",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30558",
+    "kpszsu": "https://t.me/kpszsu/63413",
+    "UkraineNow": "https://t.me/UkraineNow/81569",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67318",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30564",
     "tass_agency": "https://t.me/tass_agency/378348",
-    "kpszsu": "https://t.me/kpszsu/63407"
+    "eRadarrua": "https://t.me/eRadarrua/94559"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/378352",
+      "post_id": 378352,
+      "channel": "tass_agency",
+      "ts": "2026-05-31T22:25:06+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378350",
+      "post_id": 378350,
+      "channel": "tass_agency",
+      "ts": "2026-05-31T21:56:45+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/94562",
       "post_id": 94562,
@@ -217,18 +230,6 @@
       "channel": "eRadarrua",
       "ts": "2026-05-31T16:03:08+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/CM8ApkE1VrFWNAciF_43YCAtNmhQcU-1HV1toLsF4Q279a-7exNC4LES0C2NoSoXE1aY5USAJkQ8a79_DUg6TsCBmdy6ooRrS2S1lYBeiVLrtEdhvGfiLd02CSw9aeWhzlK9XAoWdwB4IH8Eqi9YFLjlBizYlA8fI3cT9s5-GzbbmY0jGCkj22ZtIs7IsOFL_bPXWBo_tKIFsf_FstQz30UM-sFX8OoYxyBZBDX3kEA7grjjTINvrFY6l8Fo5qgJQ0BRl8iK5N9kpc383uIqSjKbjFSmy6WsAFzoiZdmZBY_eIim7pO9C9Cs9NDNZsVy5D021_-NUBg1Trw9q1-nug.jpg"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/378335",
-      "post_id": 378335,
-      "channel": "tass_agency",
-      "ts": "2026-05-31T15:48:06+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30566",
-      "post_id": 30566,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-05-31T15:33:58+00:00"
     }
   ],
   "post_images": {
@@ -257,86 +258,102 @@
     "kpszsu/63369": "data/media/kpszsu_63369.jpg",
     "kpszsu/63368": "data/media/kpszsu_63369.jpg"
   },
-  "summary": "Ukrainian forces reported multiple Shahed drone incursions over Odesa, Chornomorsk, and Kharkiv, while a night attack damaged the Saratov oil refinery in Russia. A Ukrainian drone struck the machine hall of the Zaporizhzhia Nuclear Power Plant, marking the first known targeted attack on such equipment. The 3rd Army Corps announced control over logistics routes deep in occupied Luhansk, extending Ukrainian UAV influence to several towns.",
+  "summary": "Ukrainian forces reported multiple UAV operations across central and southern regions, including strikes on logistics sites in Dnipro and a warehouse fire. Russian‑linked UAV groups were observed moving from the Black Sea toward Odesa and inland targets such as Kharkiv and Poltava. Significant infrastructure damage was noted at the Saratov oil refinery and a Ukrainian logistics hub in Luhansk.",
   "key_points": [
-    "Ukrainian Shahed drones entered Odesa airspace, with 11 observed over the Black Sea and additional strikes over Chornomorsk and Kharkiv (Source: @mon1tor_ua/67317).",
-    "A night attack on the Saratov oil refinery caused fires and damage to the primary processing unit ELU-AVT-6, affecting a plant processing ~6 million tonnes of oil annually (Source: @UkraineNow/81561).",
-    "Ukrainian UAVs hit the machine hall of the Zaporizhzhia Nuclear Power Plant, the first targeted attack on core NPP equipment (Source: @ukr_leaks_eng/30558).",
-    "The 3rd Army Corps claimed control of logistics routes in Luhansk, reaching 205 km into enemy‑held territory and securing towns including Luhansk and Starobilsk (Source: @UkraineNow/81575).",
-    "Russia warned of a high threat of Iskander‑M ballistic missile launches from Bryansk region (Source: @mon1tor_ua/67313).",
-    "Russian TASS reported the liberation of 63 settlements during the spring 2026 campaign (Source: @tass_agency/378348).",
-    "Ukrainian drones attacked a logistics company depot in Dnipro, igniting warehouses and vehicles (Source: @UkraineNow/81569)."
+    "Ukrainian UAVs operated southwest of Dnipro heading north, targeting logistics facilities (Source: @kpszsu/63413).",
+    "Groups of hostile UAVs moved from the Black Sea toward Odesa and southern directions (Source: @kpszsu/63436).",
+    "A drone strike hit a logistics company warehouse and parked vehicles in Dnipro, with casualty details pending (Source: @UkraineNow/81569).",
+    "Ukrainian UAV destroyed a Nova Poshta depot in Dnipro, building burned completely, no personnel casualties reported (Source: @UkraineNow/81570).",
+    "Third Army Corps claimed control over logistics routes in Luhansk, striking enemy armor and ammunition depots up to 205 km deep (Source: @UkraineNow/81575).",
+    "Saratov oil refinery suffered fire after night attack, with major damage to primary processing unit ELU‑AVT‑6 (Source: @UkraineNow/81561).",
+    "Russian‑linked UAVs were reported over the Black Sea heading toward Odesa and the Odesa‑Odessa direction (Source: @mon1tor_ua/67318)."
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian Shahed drones penetrated Odesa and surrounding areas, while a night strike damaged the Saratov refinery in Russia. A Ukrainian UAV struck the Zaporizhzhia Nuclear Power Plant’s machine hall, a first‑ever targeted attack on such infrastructure. The 3rd Army Corps extended control over logistics routes deep into occupied Luhansk, securing multiple towns.",
+    "executive_summary": "Ukrainian UAV activity intensified with strikes on Dnipro logistics sites and a successful hit on a Nova Poshta depot. Russian‑aligned UAV groups moved from the Black Sea toward Odesa and inland, while the Third Army Corps reported deep strikes into occupied Luhansk logistics corridors. Significant infrastructure damage occurred at the Saratov oil refinery, highlighting ongoing strategic targeting.",
     "ukraine": {
       "points": [
-        "Ukrainian Shahed drones were observed over Odesa, with 11 reported from the Black Sea, and additional Shahed activity over Chornomorsk (3) and Kharkiv (1) (Source: @mon1tor_ua/67317).",
-        "The 3rd Army Corps announced control of logistics routes in Luhansk, reaching 205 km into enemy‑held territory and claiming towns such as Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka (Source: @UkraineNow/81575).",
-        "Ukrainian UAVs struck the machine hall of the Zaporizhzhia Nuclear Power Plant, marking the first known targeted attack on core NPP equipment (Source: @ukr_leaks_eng/30558).",
-        "A Ukrainian drone destroyed a postal service depot in Dnipro, causing the building to burn completely, with no casualties reported (Source: @UkraineNow/81570).",
-        "Ukrainian forces reported a night attack on the Saratov refinery, causing fires and damage to the ELU‑AVT‑6 processing unit (Source: @UkraineNow/81561)."
+        "Ukrainian UAVs operating southwest of Dnipro headed north, targeting logistics facilities, indicating a focus on disrupting supply lines in central Ukraine (Source: @kpszsu/63413).",
+        "A drone strike in Dnipro ignited a logistics company warehouse and nearby parked vehicles; casualty numbers were not yet confirmed (Source: @UkraineNow/81569).",
+        "Ukrainian forces destroyed a Nova Poshta depot in Dnipro; the building was completely burned, with no reported injuries among staff (Source: @UkraineNow/81570).",
+        "The Third Army Corps announced control over logistics routes in Luhansk, conducting UAV strikes on enemy armor and ammunition depots up to 205 km inside occupied territory (Source: @UkraineNow/81575).",
+        "Ukrainian UAVs were observed over the Black Sea heading toward Odesa, suggesting a coordinated effort to challenge Russian maritime airspace (Source: @mon1tor_ua/67318).",
+        "A Ukrainian drone reportedly struck the machine block building of the Zaporizhzhia Nuclear Power Plant, marking the first known through‑explosion attack on that facility (Source: @ukr_leaks_eng/30564).",
+        "German donation of an IRIS‑T launcher to Ukraine was highlighted as enhancing air defence capabilities against Russian attacks (Source: @ukr_leaks_eng/30566)."
       ]
     },
     "russia": {
       "points": [
-        "Russia warned of a high threat of Iskander‑M ballistic missile launches from Bryansk region (Source: @mon1tor_ua/67313).",
-        "TASS reported that Russian forces liberated 63 settlements during the spring 2026 campaign (Source: @tass_agency/378348).",
-        "A Russian statement indicated no casualties and normal operation after the Ukrainian strike on the Zaporizhzhia plant on 30 May (Source: @tass_agency/378311).",
-        "Russian officials noted a stable cholera situation domestically, unrelated to the conflict (Source: @tass_agency/378331)."
+        "Russian‑linked UAV groups were reported moving from the Black Sea toward Odesa and southern directions, indicating continued aerial pressure on Ukrainian coastal areas (Source: @kpszsu/63436).",
+        "Multiple hostile UAVs were noted over the Black Sea approaching Odesa, reinforcing Russian maritime air activity (Source: @mon1tor_ua/67318).",
+        "Russian forces claimed liberation of 63 settlements during the spring 2026 campaign, reflecting ongoing ground advances (Source: @tass_agency/378348).",
+        "Russian officials warned Belarus of potential escalation if attacks occur on Belarusian territory, hinting at broader regional security concerns (Source: @tass_agency/378320).",
+        "A Russian‑linked UAV attack in Henichesk resulted in one child death and six injuries, demonstrating the impact of drone warfare on civilian populations (Source: @tass_agency/378336).",
+        "Russian media reported a UAV incident over the Black Sea heading toward Odesa, aligning with other reports of increased aerial activity in the region (Source: @kpszsu/63439).",
+        "Russian forces announced a new anti‑drone system (MADIS) using JLTV platforms, indicating adaptation to Ukrainian drone tactics (Source: @tass_agency/378317)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian Shahed drones were sighted over Kharkiv, with one reported (Source: @mon1tor_ua/67318).",
-        "Ukrainian UAV activity was reported near the border of Sumy and Kharkiv regions, heading toward Poltava direction (Source: @kpszsu/63407).",
-        "Ukrainian drones attacked a logistics depot in Dnipro, igniting warehouses and vehicles (Source: @UkraineNow/81569).",
-        "Ukrainian UAV groups were observed over the northern part of Chernihiv region along the Belarus border, heading west (Source: @kpszsu/63401)."
+        "UAVs were observed moving from the Black Sea toward the Chornomorsk/Odesa area, suggesting pressure on eastern coastal logistics (Source: @kpszsu/63437).",
+        "Ukrainian UAV activity was reported in the Kharkiv region, including five UAVs over the city’s northern suburbs (Source: @eRadarrua/94559).",
+        "UAV groups were noted moving from Zhytomyr toward Rivne on a western course, indicating cross‑border reconnaissance (Source: @kpszsu/63406).",
+        "UAVs from the north of Chernihiv heading toward the city were reported, highlighting northern approaches (Source: @kpszsu/63422).",
+        "UAVs were seen over Sumy‑Kharkiv border heading toward Poltava, showing east‑central movement (Source: @kpszsu/63407).",
+        "A UAV group moved through Kherson toward Kryvyi Rih, indicating southern‑eastern operational reach (Source: @kpszsu/63404).",
+        "UAVs were reported near the northern outskirts of Dnipro with variable course, suggesting flexible targeting (Source: @kpszsu/63418)."
       ]
     },
     "northern_front": {
       "points": [
-        "Reactive UAVs were reported along the northern Chernihiv border with Belarus, moving westward (Source: @kpszsu/63401).",
-        "UAV groups were observed on the north‑west of Chernihiv region along the Belarus border, also heading west (Source: @kpszsu/63428).",
-        "UAVs were noted on the north‑west of Kharkiv region with changing course (Source: @kpszsu/63438).",
-        "UAVs from Kyiv region were reported moving toward Zhytomyr (Source: @kpszsu/63406)."
+        "UAVs were observed on the border of Sumy and Kharkiv regions heading toward Poltava (Source: @kpszsu/63407).",
+        "UAVs from Zhytomyr moved west toward Rivne (Source: @kpszsu/63406).",
+        "UAVs in Chernihiv heading north toward Novgorod and Siversky were reported (Source: @eRadarrua/94561).",
+        "UAVs on the north of Chernihiv region were noted (Source: @kpszsu/63437).",
+        "UAVs from the north of Zhytomyr heading toward Zhytomyr were reported (Source: @kpszsu/63404).",
+        "UAVs in Sumy region moving past Nizy northward were observed (Source: @kpszsu/63422).",
+        "UAVs on the north of Kharkiv heading toward Poltava were reported (Source: @kpszsu/63413)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian Shahed drones were reported over the Black Sea heading toward Odesa, with 2 observed (Source: @mon1tor_ua/67318).",
-        "UAV groups were noted moving from the south‑east of Dnipro city, with variable course (Source: @kpszsu/63418).",
-        "UAVs were reported from the south‑west of Dnipro, heading north (Source: @kpszsu/63413).",
-        "UAVs from the south‑west of Kharkiv region were observed with southern and western courses (Source: @kpszsu/63432)."
+        "UAVs were reported southwest of Dnipro heading north, targeting logistics (Source: @kpszsu/63413).",
+        "UAV groups moved from the Black Sea toward Odesa and southern directions (Source: @kpszsu/63436).",
+        "UAVs were observed southwest of Kherson heading northeast (Source: @kpszsu/63402).",
+        "UAVs from the Black Sea approached Odesa and the Odesa‑Odessa direction (Source: @mon1tor_ua/67318).",
+        "UAVs were noted on the southern outskirts of Dnipro with changing course (Source: @kpszsu/63418).",
+        "UAVs moved from the Black Sea toward the direction of the southern coast of Mykolaiv (Source: @kpszsu/63437).",
+        "UAVs were reported over the Black Sea heading toward Odesa and the southern sector (Source: @kpszsu/63439)."
       ]
     },
     "air_war": {
       "points": [
-        "Multiple Shahed drone incursions were reported over Odesa, Chornomorsk, and Kharkiv, indicating sustained UAV pressure from the Black Sea (Source: @mon1tor_ua/67317, @mon1tor_ua/67318).",
-        "Ukrainian UAVs struck the Zaporizhzhia Nuclear Power Plant’s machine hall, a first‑ever targeted attack on such infrastructure (Source: @ukr_leaks_eng/30558).",
-        "Ukrainian drones attacked the Saratov oil refinery, causing fires and damage to key processing equipment (Source: @UkraineNow/81561).",
-        "Russian air defense reported no casualties from the May 30 strike on Zaporizhzhia, stating the plant remains operational (Source: @tass_agency/378311)."
+        "Ukrainian UAV strike hit the machine block of Zaporizhzhia Nuclear Power Plant, causing damage to the building (Source: @ukr_leaks_eng/30564).",
+        "Russian anti‑drone system MADIS, based on JLTVs with radar, 30‑mm gun and Stinger missiles, was tested as a cost‑effective counter to expensive interceptors (Source: @tass_agency/378317).",
+        "Ukrainian forces used a drone to destroy a Nova Poshta depot in Dnipro, demonstrating effective UAV strike capability (Source: @UkraineNow/81570).",
+        "Russian UAV attack in Henichesk caused civilian casualties, highlighting ongoing drone threats to populated areas (Source: @tass_agency/378336).",
+        "Ukrainian UAVs operated over the Black Sea toward Odesa, challenging Russian air control in the maritime domain (Source: @mon1tor_ua/67318).",
+        "Ukrainian UAV groups were observed moving from the Black Sea toward the southern coast of Mykolaiv, indicating expanded operational reach (Source: @kpszsu/63437).",
+        "German donation of an IRIS‑T launcher to Ukraine aims to strengthen air defence against Russian missile and drone attacks (Source: @ukr_leaks_eng/30566)."
       ]
     },
     "key_developments": [
-      "Ukrainian Shahed drones entered Odesa airspace, with 11 observed over the Black Sea and additional strikes over Chornomorsk and Kharkiv (Source: @mon1tor_ua/67317).",
-      "A night attack on the Saratov oil refinery caused fires and damage to the primary processing unit ELU‑AVT‑6, affecting a plant processing ~6 million tonnes of oil annually (Source: @UkraineNow/81561).",
-      "Ukrainian UAVs hit the machine hall of the Zaporizhzhia Nuclear Power Plant, the first targeted attack on core NPP equipment (Source: @ukr_leaks_eng/30558).",
-      "The 3rd Army Corps claimed control of logistics routes in Luhansk, reaching 205 km into enemy‑held territory and securing towns including Luhansk and Starobilsk (Source: @UkraineNow/81575).",
-      "Russia warned of a high threat of Iskander‑M ballistic missile launches from Bryansk region (Source: @mon1tor_ua/67313).",
-      "TASS reported the liberation of 63 settlements during the spring 2026 Russian campaign (Source: @tass_agency/378348).",
-      "Ukrainian drones attacked a logistics depot in Dnipro, igniting warehouses and vehicles (Source: @UkraineNow/81569)."
+      "Ukrainian UAVs operating southwest of Dnipro headed north, targeting logistics facilities, indicating a focus on disrupting supply lines (Source: @kpszsu/63413).",
+      "Groups of hostile UAVs moved from the Black Sea toward Odesa and southern directions, showing continued Russian aerial pressure on coastal areas (Source: @kpszsu/63436).",
+      "A drone strike in Dnipro ignited a logistics company warehouse and parked vehicles, with casualty details still being clarified (Source: @UkraineNow/81569).",
+      "Ukrainian forces destroyed a Nova Poshta depot in Dnipro; the building burned completely with no reported personnel injuries (Source: @UkraineNow/81570).",
+      "Third Army Corps claimed control over logistics routes in Luhansk, striking enemy armor and ammunition depots up to 205 km deep inside occupied territory (Source: @UkraineNow/81575).",
+      "Saratov oil refinery suffered a fire after a night attack, with major damage to the primary processing unit ELU‑AVT‑6 (Source: @UkraineNow/81561).",
+      "Russian anti‑drone system MADIS, using JLTV platforms equipped with radar, 30‑mm gun and Stinger missiles, was tested as a cheaper alternative to expensive interceptors (Source: @tass_agency/378317)."
     ],
-    "threat_assessment": "Ukrainian UAV activity remains intense, targeting critical infrastructure such as the Zaporizhzhia plant and the Saratov refinery, while also penetrating deep into occupied Luhansk logistics corridors. Russian threats of Iskander‑M missile launches from Bryansk add a high‑risk ballistic dimension to the southern front. The continued Shahed incursions over Odesa and Kharkiv suggest persistent aerial pressure from the Black Sea, challenging both air defense and civilian safety.",
-    "regional_response": "Ukrainian command structures, notably the 3rd Army Corps, are expanding UAV‑based control over supply routes, aiming to disrupt Russian logistics deep within occupied territories. Russian statements emphasize defensive readiness against missile threats and highlight territorial gains, indicating a focus on consolidating liberated areas. International observers note the unprecedented nature of the Zaporizhzhia machine‑hall strike, raising concerns about nuclear safety protocols.",
-    "intelligence_notes": "Monitoring of Shahed drone launch vectors from the Black Sea is critical for early warning in Odesa and surrounding regions. The damage to Saratov's ELU‑AVT‑6 unit may impact Russian fuel supply chains for both domestic and export markets. The 205 km reach of Ukrainian UAV operations into Luhansk suggests enhanced command‑and‑control capabilities and potential for further deep‑strike missions."
+    "threat_assessment": "Ukrainian UAV operations are intensifying across central and southern Ukraine, targeting logistics hubs and critical infrastructure, while Russian UAV activity remains focused on the Black Sea corridor toward Odesa. The deployment of Russian anti‑drone systems like MADIS suggests an adaptation to counter Ukrainian drone tactics, potentially limiting UAV effectiveness. Continued strikes on energy facilities such as the Saratov refinery highlight the strategic importance of disrupting fuel supplies for both sides.",
+    "regional_response": "Ukrainian authorities are emphasizing rapid response and damage assessment for drone strikes, as seen in Dnipro and Luhansk logistics operations. International partners, notably Germany, are providing air defence assets to bolster Ukraine's capability against Russian aerial threats. Russian statements warning Belarus of escalation indicate a broader regional security concern that may affect cross‑border dynamics.",
+    "intelligence_notes": "Monitoring of UAV flight paths reveals coordinated movements from the Black Sea toward inland targets, requiring enhanced radar coverage. The successful Ukrainian strike on the Zaporizhzhia plant's machine hall underscores the risk to nuclear facilities. Russian anti‑drone developments, such as MADIS, could alter the cost‑benefit calculus of UAV deployments for both sides."
   },
   "missiles": 0,
   "drones": 229,
   "kpszsu_timeline": [
-    0,
     1,
     3,
     1,
@@ -359,6 +376,7 @@
     3,
     1,
     1,
-    2
+    2,
+    1
   ]
 }
