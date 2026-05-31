@@ -203,6 +203,7 @@ def _render_alerts_24h(data: dict) -> io.BytesIO:
 
     timeline = list(data.get("red_alerts_timeline") or [])
     timeline = (timeline + [0] * 24)[:24]
+    timeline = [round(v / 2) for v in timeline]
 
     # Index 0 = 23 hours ago, index 23 = current hour
     now_utc = datetime.now(timezone.utc)
@@ -234,7 +235,7 @@ def _render_alerts_24h(data: dict) -> io.BytesIO:
     ax.set_title("Israel · Red Alerts — Last 24 Hours",
                  color=TEXT, fontsize=11, pad=10, fontweight="semibold")
 
-    total = data.get("red_alerts", sum(timeline))
+    total = round(data.get("red_alerts", sum(timeline) * 2) / 2)
     fig.text(0.01, 0.01, f"Total: {total} alerts (24 h)", ha="left", va="bottom",
              color=MUTED, fontsize=7.5, alpha=0.9)
     fig.text(0.99, 0.01, "warsummary.live", ha="right", va="bottom",
