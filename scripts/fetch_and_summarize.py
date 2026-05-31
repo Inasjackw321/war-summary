@@ -16,6 +16,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+from matplotlib.ticker import MaxNLocator
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
@@ -742,13 +743,18 @@ def _generate_graphs(output_dir: Path) -> None:
             mpatches.Patch(color=RED,  label="Missiles"),
             mpatches.Patch(color=BLUE, label="Drones"),
         ], loc="upper right", framealpha=0, labelcolor=MUTED, fontsize=8)
-        ax.set_title("Ukraine · Missiles & Drones Launched — Last 7 Days",
+        # ASCII title — avoid font-missing glyphs for middle-dot and em-dash in CI
+        ax.set_title("Ukraine - Missiles & Drones Launched - Last 7 Days",
                      color=TEXT, fontsize=11, pad=10, fontweight="semibold")
+        totals = [m + d for m, d in zip(missiles, drones)]
+        peak   = max(totals) if any(totals) else 1
+        ax.set_ylim(0, peak * 1.28 + 5)   # headroom so value labels aren't clipped
+        ax.yaxis.set_major_locator(MaxNLocator(integer=True))
         for i, (m, d) in enumerate(zip(missiles, drones)):
             total = m + d
             if not total:
                 continue
-            ax.text(i, total + 2, str(d) if d else "", ha="center", va="bottom",
+            ax.text(i, total + peak * 0.03, str(d) if d else "", ha="center", va="bottom",
                     color=BLUE, fontsize=7.5, fontweight="bold")
             if m:
                 ax.text(i, m / 2, str(m), ha="center", va="center",
@@ -785,9 +791,12 @@ def _generate_graphs(output_dir: Path) -> None:
         ax.set_axisbelow(True)
         x = range(24)
         ax.bar(x, timeline, color=RED, alpha=0.85, zorder=3, width=0.7)
+        peak = max(timeline) if any(timeline) else 1
+        ax.set_ylim(0, peak * 1.3 + 1)    # headroom so value labels aren't clipped
+        ax.yaxis.set_major_locator(MaxNLocator(integer=True))
         for i, v in enumerate(timeline):
             if v:
-                ax.text(i, v + 0.2, str(v), ha="center", va="bottom",
+                ax.text(i, v + peak * 0.04, str(v), ha="center", va="bottom",
                         color=TEXT, fontsize=7, fontweight="bold")
         ax.set_xticks(list(x))
         ax.set_xticklabels(
@@ -796,7 +805,8 @@ def _generate_graphs(output_dir: Path) -> None:
         )
         ax.yaxis.set_tick_params(labelcolor=MUTED)
         ax.set_ylabel("Alerts", color=MUTED, fontsize=9)
-        ax.set_title("Israel · Red Alerts — Last 24 Hours",
+        # ASCII title to avoid missing glyphs for middle-dot and em-dash in CI fonts
+        ax.set_title("Israel - Red Alerts - Last 24 Hours",
                      color=TEXT, fontsize=11, pad=10, fontweight="semibold")
         total = round(me_data.get("red_alerts", sum(timeline) * 2) / 2)
         fig.text(0.01, 0.01, f"Total: {total} alerts (24 h)", ha="left", va="bottom",

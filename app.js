@@ -201,7 +201,7 @@ function makeHourLabels() {
 function renderAlertChart(id, timelineRaw) {
   const canvas = document.getElementById(id); if (!canvas) return;
   const data = (timelineRaw||[]).map(v => v || 0);
-  const cfg = { type:"bar", data: { labels: makeHourLabels(), datasets: [{ data, backgroundColor: data.map(v => v>3?"rgba(229,62,91,0.85)":v>0?"rgba(229,62,91,0.55)":"rgba(229,62,91,0.1)"), borderWidth:0, borderRadius:2, hoverBackgroundColor:"#e53e5b" }] }, options: { ...CHART_DEFAULTS, plugins: { ...CHART_DEFAULTS.plugins, tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `Alerts: ${c.raw}` } } }, scales: { ...CHART_DEFAULTS.scales } } };
+  const cfg = { type:"bar", data: { labels: makeHourLabels(), datasets: [{ data, backgroundColor: data.map(v => v>1?"rgba(229,62,91,0.85)":v>0?"rgba(229,62,91,0.55)":"rgba(229,62,91,0.1)"), borderWidth:0, borderRadius:2, hoverBackgroundColor:"#e53e5b" }] }, options: { ...CHART_DEFAULTS, plugins: { ...CHART_DEFAULTS.plugins, tooltip: { ...CHART_DEFAULTS.plugins.tooltip, callbacks: { label: c => `Alerts: ${c.raw}` } } }, scales: { ...CHART_DEFAULTS.scales } } };
   if (charts[id]) { charts[id].data.datasets[0].data=data; charts[id].data.datasets[0].backgroundColor=cfg.data.datasets[0].backgroundColor; charts[id].update("active"); }
   else charts[id] = new Chart(canvas, cfg);
 }
