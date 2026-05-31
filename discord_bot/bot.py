@@ -1,5 +1,4 @@
 import os
-import io
 import json
 import re
 import asyncio
@@ -9,11 +8,6 @@ from discord import app_commands
 from discord.ext import commands
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 
 DISCORD_TOKEN  = os.environ["DISCORD_TOKEN"]
 CONFIG_PATH    = Path(os.environ.get("CONFIG_PATH", "/data/config.json"))
@@ -25,13 +19,14 @@ DATA_URLS = {
     "middle_east": "https://warsummary.live/data/middle_east.json",
     "ukraine":     "https://warsummary.live/data/ukraine.json",
 }
-HISTORY_URLS = {
-    "middle_east": "https://warsummary.live/data/middle_east_history.json",
-    "ukraine":     "https://warsummary.live/data/ukraine_history.json",
-}
 CONFLICT_META = {
     "middle_east": ("Middle East", "🌍", 0xf59e0b),
     "ukraine":     ("Ukraine-Russia", "🇺🇦", 0x3b82f6),
+}
+# Pre-rendered PNGs committed to data/ by the hourly GitHub Action
+GRAPH_URLS = {
+    "ukraine":     "https://warsummary.live/data/ukraine_graph.png",
+    "middle_east": "https://warsummary.live/data/middle_east_graph.png",
 }
 
 # Sources known to be heavily biased or state-controlled (excluded globally)
@@ -175,162 +170,6 @@ def _filter_points(points: list) -> list:
             continue
         out.append(p)
     return out
-
-async def _fetch_history(conflict: str) -> dict:
-    try:
-        s = await _get_session()
-        async with s.get(HISTORY_URLS[conflict], timeout=aiohttp.ClientTimeout(total=10)) as r:
-            if r.status == 200:
-                return await r.json(content_type=None)
-    except Exception as e:
-        print(f"[bot] history fetch error ({conflict}): {e}")
-    return {"entries": []}
-
-
-def _last7_days() -> list[str]:
-    today = datetime.now(timezone.utc).date()
-    return [(today - timedelta(days=6 - i)).isoformat() for i in range(7)]
-
-
-def _render_alerts_24h(data: dict) -> io.BytesIO:
-    """Render a 24-hour red alerts bar chart for Middle East and return PNG bytes."""
-    BG     = "#0a0c12"
-    BG2    = "#0f1219"
-    BORDER = "#1a2030"
-    TEXT   = "#dde4f0"
-    MUTED  = "#5a6a88"
-    RED    = "#e53e5b"
-
-    timeline = list(data.get("red_alerts_timeline") or [])
-    timeline = (timeline + [0] * 24)[:24]
-    timeline = [round(v / 2) for v in timeline]
-
-    # Index 0 = 23 hours ago, index 23 = current hour
-    now_utc = datetime.now(timezone.utc)
-    labels = [(now_utc - timedelta(hours=23 - i)).strftime("%H:00") for i in range(24)]
-
-    fig, ax = plt.subplots(figsize=(8, 3.5), facecolor=BG)
-    ax.set_facecolor(BG2)
-    for spine in ax.spines.values():
-        spine.set_edgecolor(BORDER)
-    ax.tick_params(colors=MUTED, labelsize=8)
-    ax.grid(axis="y", color=BORDER, linewidth=0.6, linestyle="--", alpha=0.7)
-    ax.set_axisbelow(True)
-
-    x = range(24)
-    ax.bar(x, timeline, color=RED, alpha=0.85, zorder=3, width=0.7)
-    for i, v in enumerate(timeline):
-        if v:
-            ax.text(i, v + 0.2, str(v), ha="center", va="bottom",
-                    color=TEXT, fontsize=7, fontweight="bold")
-
-    # Show every 3rd hour label to avoid crowding
-    ax.set_xticks(list(x))
-    ax.set_xticklabels(
-        [labels[i] if i % 3 == 0 else "" for i in range(24)],
-        color=MUTED, fontsize=7.5, rotation=30, ha="right",
-    )
-    ax.yaxis.set_tick_params(labelcolor=MUTED)
-    ax.set_ylabel("Alerts", color=MUTED, fontsize=9)
-    ax.set_title("Israel · Red Alerts — Last 24 Hours",
-                 color=TEXT, fontsize=11, pad=10, fontweight="semibold")
-
-    total = round(data.get("red_alerts", sum(timeline) * 2) / 2)
-    fig.text(0.01, 0.01, f"Total: {total} alerts (24 h)", ha="left", va="bottom",
-             color=MUTED, fontsize=7.5, alpha=0.9)
-    fig.text(0.99, 0.01, "warsummary.live", ha="right", va="bottom",
-             color=MUTED, fontsize=7, alpha=0.7)
-
-    plt.tight_layout(pad=1.2)
-    buf = io.BytesIO()
-    fig.savefig(buf, format="png", dpi=150, facecolor=BG, bbox_inches="tight")
-    plt.close(fig)
-    buf.seek(0)
-    return buf
-
-
-def _render_graph(conflict: str, hist: dict) -> io.BytesIO:
-    """Render a 7-day history chart and return PNG bytes."""
-    # Theme colours matching the site
-    BG       = "#0a0c12"
-    BG2      = "#0f1219"
-    BORDER   = "#1a2030"
-    TEXT     = "#dde4f0"
-    MUTED    = "#5a6a88"
-    RED      = "#e53e5b"
-    BLUE     = "#3b82f6"
-
-    days  = _last7_days()
-    by_date = {e["date"]: e for e in (hist.get("entries") or [])}
-    labels  = [d[5:] for d in days]   # MM-DD
-
-    fig, ax = plt.subplots(figsize=(8, 3.5), facecolor=BG)
-    ax.set_facecolor(BG2)
-    for spine in ax.spines.values():
-        spine.set_edgecolor(BORDER)
-
-    ax.tick_params(colors=MUTED, labelsize=9)
-    ax.yaxis.label.set_color(MUTED)
-    ax.xaxis.label.set_color(MUTED)
-    ax.grid(axis="y", color=BORDER, linewidth=0.6, linestyle="--", alpha=0.7)
-    ax.set_axisbelow(True)
-
-    x = range(len(days))
-
-    if conflict == "ukraine":
-        missiles = [by_date.get(d, {}).get("missiles", 0) for d in days]
-        drones   = [by_date.get(d, {}).get("drones",   0) for d in days]
-        bars_m = ax.bar(x, missiles, color=RED,  alpha=0.82, label="Missiles", zorder=3, width=0.55)
-        bars_d = ax.bar(x, drones,   color=BLUE, alpha=0.70, label="Drones",   zorder=3, width=0.55,
-                        bottom=missiles)
-        legend_patches = [
-            mpatches.Patch(color=RED,  label="Missiles"),
-            mpatches.Patch(color=BLUE, label="Drones"),
-        ]
-        ax.legend(handles=legend_patches, loc="upper right", framealpha=0,
-                  labelcolor=MUTED, fontsize=8)
-        ax.set_title("Ukraine · Missiles & Drones Launched — Last 7 Days",
-                     color=TEXT, fontsize=11, pad=10, fontweight="semibold")
-
-        # Value labels: missile count inside red segment, drone count on top
-        for i, (m, d) in enumerate(zip(missiles, drones)):
-            total = m + d
-            if not total:
-                continue
-            # Drone label on top of the full bar
-            ax.text(i, total + 2, str(d) if d else "", ha="center", va="bottom",
-                    color=BLUE, fontsize=7.5, fontweight="bold")
-            # Missile label inside/above the red segment (only when non-zero)
-            if m:
-                mid = m / 2
-                ax.text(i, mid, str(m), ha="center", va="center",
-                        color="#fff", fontsize=7, fontweight="bold")
-
-    else:  # middle_east
-        alerts = [by_date.get(d, {}).get("red_alerts", 0) for d in days]
-        ax.bar(x, alerts, color=RED, alpha=0.82, zorder=3, width=0.55)
-        ax.set_title("Israel · Red Alerts — Last 7 Days",
-                     color=TEXT, fontsize=11, pad=10, fontweight="semibold")
-        for i, v in enumerate(alerts):
-            if v:
-                ax.text(i, v + 0.4, str(v), ha="center", va="bottom",
-                        color=TEXT, fontsize=8, fontweight="bold")
-
-    ax.set_xticks(list(x))
-    ax.set_xticklabels(labels, color=MUTED, fontsize=9)
-    ax.yaxis.set_tick_params(labelcolor=MUTED)
-    ax.set_ylabel("Count", color=MUTED, fontsize=9)
-
-    fig.text(0.99, 0.01, "warsummary.live", ha="right", va="bottom",
-             color=MUTED, fontsize=7, alpha=0.7)
-
-    plt.tight_layout(pad=1.2)
-    buf = io.BytesIO()
-    fig.savefig(buf, format="png", dpi=150, facecolor=BG, bbox_inches="tight")
-    plt.close(fig)
-    buf.seek(0)
-    return buf
-
 
 def _clean_point(text: str) -> str:
     """Strip all source citations from a point."""
@@ -530,32 +369,21 @@ async def slash_graph(interaction: discord.Interaction):
         )
         return
     await interaction.response.defer()
+    # Fetch main data just for the updated_at timestamp used as a cache-buster,
+    # so Discord re-fetches the pre-rendered PNG when data actually changes.
+    data = await _fetch(conflict)
+    if not data:
+        await interaction.followup.send("📊 Failed to fetch data — try again in a moment.")
+        return
+    ts = re.sub(r"[^0-9]", "", data.get("updated_at", ""))[:12]
+    img_url = f"{GRAPH_URLS[conflict]}?t={ts}"
     label, icon, color = CONFLICT_META[conflict]
-    if conflict == "ukraine":
-        hist = await _fetch_history(conflict)
-        if not (hist.get("entries") or []):
-            await interaction.followup.send("📊 No history data yet — check back after the next hourly update.")
-            return
-        buf = await asyncio.get_event_loop().run_in_executor(None, _render_graph, conflict, hist)
-        embed = discord.Embed(
-            title=f"{icon}  {label} — 7-Day History",
-            color=color,
-            timestamp=datetime.now(timezone.utc),
-        )
-    else:  # middle_east
-        data = await _fetch(conflict)
-        if not data:
-            await interaction.followup.send("📊 Failed to fetch alert data — try again in a moment.")
-            return
-        buf = await asyncio.get_event_loop().run_in_executor(None, _render_alerts_24h, data)
-        embed = discord.Embed(
-            title=f"{icon}  {label} — 24h Red Alerts",
-            color=color,
-            timestamp=datetime.now(timezone.utc),
-        )
-    embed.set_image(url="attachment://graph.png")
+    title = (f"{icon}  {label} — 7-Day History"
+             if conflict == "ukraine" else f"{icon}  {label} — 24h Red Alerts")
+    embed = discord.Embed(title=title, color=color, timestamp=datetime.now(timezone.utc))
+    embed.set_image(url=img_url)
     embed.set_footer(text="warsummary.live · Updated hourly")
-    await interaction.followup.send(embed=embed, file=discord.File(buf, filename="graph.png"))
+    await interaction.followup.send(embed=embed)
 
 # ── /warsummary setup ──────────────────────────────────────────────────────────
 @grp.command(name="setup", description="Assign a conflict to a channel (up to 3 channels per conflict)")
@@ -657,32 +485,19 @@ async def prefix_graph(ctx: commands.Context):
     conflict = _conflict_for_channel(ctx.guild.id, ctx.channel.id)
     if not conflict:
         return
+    data = await _fetch(conflict)
+    if not data:
+        await ctx.send("📊 Failed to fetch data — try again in a moment.")
+        return
+    ts = re.sub(r"[^0-9]", "", data.get("updated_at", ""))[:12]
+    img_url = f"{GRAPH_URLS[conflict]}?t={ts}"
     label, icon, color = CONFLICT_META[conflict]
-    if conflict == "ukraine":
-        hist = await _fetch_history(conflict)
-        if not (hist.get("entries") or []):
-            await ctx.send("📊 No history data yet — check back after the next hourly update.")
-            return
-        buf = await asyncio.get_event_loop().run_in_executor(None, _render_graph, conflict, hist)
-        embed = discord.Embed(
-            title=f"{icon}  {label} — 7-Day History",
-            color=color,
-            timestamp=datetime.now(timezone.utc),
-        )
-    else:  # middle_east
-        data = await _fetch(conflict)
-        if not data:
-            await ctx.send("📊 Failed to fetch alert data — try again in a moment.")
-            return
-        buf = await asyncio.get_event_loop().run_in_executor(None, _render_alerts_24h, data)
-        embed = discord.Embed(
-            title=f"{icon}  {label} — 24h Red Alerts",
-            color=color,
-            timestamp=datetime.now(timezone.utc),
-        )
-    embed.set_image(url="attachment://graph.png")
+    title = (f"{icon}  {label} — 7-Day History"
+             if conflict == "ukraine" else f"{icon}  {label} — 24h Red Alerts")
+    embed = discord.Embed(title=title, color=color, timestamp=datetime.now(timezone.utc))
+    embed.set_image(url=img_url)
     embed.set_footer(text="warsummary.live · Updated hourly")
-    await ctx.send(embed=embed, file=discord.File(buf, filename="graph.png"))
+    await ctx.send(embed=embed)
 
 # ── Startup ────────────────────────────────────────────────────────────────────
 @bot.event

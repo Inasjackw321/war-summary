@@ -12,6 +12,11 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
 MODELS = [
@@ -702,6 +707,111 @@ def _build_post_images(all_media: list[dict], media_dir: Path) -> dict[str, str]
     return post_images
 
 
+def _generate_graphs(output_dir: Path) -> None:
+    """Pre-render graph PNGs into data/ so the Discord bot can serve them as static URLs."""
+    BG     = "#0a0c12"
+    BG2    = "#0f1219"
+    BORDER = "#1a2030"
+    TEXT   = "#dde4f0"
+    MUTED  = "#5a6a88"
+    RED    = "#e53e5b"
+    BLUE   = "#3b82f6"
+
+    # --- Ukraine 7-day missiles & drones ---
+    try:
+        hist = json.loads((output_dir / "ukraine_history.json").read_text())
+        KYIV_TZ = timezone(timedelta(hours=3))
+        today = datetime.now(KYIV_TZ).date()
+        days = [(today - timedelta(days=6 - i)).isoformat() for i in range(7)]
+        by_date = {e["date"]: e for e in (hist.get("entries") or [])}
+        labels   = [d[5:] for d in days]
+        missiles = [by_date.get(d, {}).get("missiles", 0) for d in days]
+        drones   = [by_date.get(d, {}).get("drones",   0) for d in days]
+
+        fig, ax = plt.subplots(figsize=(8, 3.5), facecolor=BG)
+        ax.set_facecolor(BG2)
+        for spine in ax.spines.values():
+            spine.set_edgecolor(BORDER)
+        ax.tick_params(colors=MUTED, labelsize=9)
+        ax.grid(axis="y", color=BORDER, linewidth=0.6, linestyle="--", alpha=0.7)
+        ax.set_axisbelow(True)
+        x = range(7)
+        ax.bar(x, missiles, color=RED,  alpha=0.82, zorder=3, width=0.55)
+        ax.bar(x, drones,   color=BLUE, alpha=0.70, zorder=3, width=0.55, bottom=missiles)
+        ax.legend(handles=[
+            mpatches.Patch(color=RED,  label="Missiles"),
+            mpatches.Patch(color=BLUE, label="Drones"),
+        ], loc="upper right", framealpha=0, labelcolor=MUTED, fontsize=8)
+        ax.set_title("Ukraine · Missiles & Drones Launched — Last 7 Days",
+                     color=TEXT, fontsize=11, pad=10, fontweight="semibold")
+        for i, (m, d) in enumerate(zip(missiles, drones)):
+            total = m + d
+            if not total:
+                continue
+            ax.text(i, total + 2, str(d) if d else "", ha="center", va="bottom",
+                    color=BLUE, fontsize=7.5, fontweight="bold")
+            if m:
+                ax.text(i, m / 2, str(m), ha="center", va="center",
+                        color="#fff", fontsize=7, fontweight="bold")
+        ax.set_xticks(list(x))
+        ax.set_xticklabels(labels, color=MUTED, fontsize=9)
+        ax.yaxis.set_tick_params(labelcolor=MUTED)
+        ax.set_ylabel("Count", color=MUTED, fontsize=9)
+        fig.text(0.99, 0.01, "warsummary.live", ha="right", va="bottom",
+                 color=MUTED, fontsize=7, alpha=0.7)
+        plt.tight_layout(pad=1.2)
+        fig.savefig(output_dir / "ukraine_graph.png", format="png", dpi=150,
+                    facecolor=BG, bbox_inches="tight")
+        plt.close(fig)
+        print("  [graph] ukraine_graph.png saved", file=sys.stderr)
+    except Exception as e:
+        print(f"  [graph] ukraine failed: {e}", file=sys.stderr)
+
+    # --- Middle East 24-hour red alerts ---
+    try:
+        me_data  = json.loads((output_dir / "middle_east.json").read_text())
+        timeline = list(me_data.get("red_alerts_timeline") or [])
+        timeline = (timeline + [0] * 24)[:24]
+        timeline = [round(v / 2) for v in timeline]
+        now_utc  = datetime.now(timezone.utc)
+        hlabels  = [(now_utc - timedelta(hours=23 - i)).strftime("%H:00") for i in range(24)]
+
+        fig, ax = plt.subplots(figsize=(8, 3.5), facecolor=BG)
+        ax.set_facecolor(BG2)
+        for spine in ax.spines.values():
+            spine.set_edgecolor(BORDER)
+        ax.tick_params(colors=MUTED, labelsize=8)
+        ax.grid(axis="y", color=BORDER, linewidth=0.6, linestyle="--", alpha=0.7)
+        ax.set_axisbelow(True)
+        x = range(24)
+        ax.bar(x, timeline, color=RED, alpha=0.85, zorder=3, width=0.7)
+        for i, v in enumerate(timeline):
+            if v:
+                ax.text(i, v + 0.2, str(v), ha="center", va="bottom",
+                        color=TEXT, fontsize=7, fontweight="bold")
+        ax.set_xticks(list(x))
+        ax.set_xticklabels(
+            [hlabels[i] if i % 3 == 0 else "" for i in range(24)],
+            color=MUTED, fontsize=7.5, rotation=30, ha="right",
+        )
+        ax.yaxis.set_tick_params(labelcolor=MUTED)
+        ax.set_ylabel("Alerts", color=MUTED, fontsize=9)
+        ax.set_title("Israel · Red Alerts — Last 24 Hours",
+                     color=TEXT, fontsize=11, pad=10, fontweight="semibold")
+        total = round(me_data.get("red_alerts", sum(timeline) * 2) / 2)
+        fig.text(0.01, 0.01, f"Total: {total} alerts (24 h)", ha="left", va="bottom",
+                 color=MUTED, fontsize=7.5, alpha=0.9)
+        fig.text(0.99, 0.01, "warsummary.live", ha="right", va="bottom",
+                 color=MUTED, fontsize=7, alpha=0.7)
+        plt.tight_layout(pad=1.2)
+        fig.savefig(output_dir / "middle_east_graph.png", format="png", dpi=150,
+                    facecolor=BG, bbox_inches="tight")
+        plt.close(fig)
+        print("  [graph] middle_east_graph.png saved", file=sys.stderr)
+    except Exception as e:
+        print(f"  [graph] middle_east failed: {e}", file=sys.stderr)
+
+
 def run() -> None:
     output_dir = Path("data")
     output_dir.mkdir(exist_ok=True)
@@ -733,6 +843,8 @@ def run() -> None:
         except Exception:
             pass
     cleanup_unreferenced_media(media_dir, referenced)
+
+    _generate_graphs(output_dir)
 
     if failed_conflicts:
         print(f"\nFailed conflicts: {failed_conflicts}", file=sys.stderr)
