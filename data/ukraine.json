@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-01T10:34:09.260864+00:00",
-  "message_count": 256,
+  "updated_at": "2026-06-01T12:19:55.093529+00:00",
+  "message_count": 255,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,17 +13,16 @@
   ],
   "red_alerts": 265,
   "red_alerts_timeline": [
+    28,
+    14,
+    0,
+    0,
     42,
-    21,
-    32,
     0,
-    0,
-    0,
-    32,
-    0,
-    21,
-    53,
-    21,
+    28,
+    42,
+    42,
+    14,
     0,
     0,
     0,
@@ -33,63 +32,122 @@
     0,
     0,
     0,
-    11,
+    14,
+    14,
+    28,
     0,
-    21,
-    11
+    0
   ],
   "combined_activity_timeline": [
-    20,
-    10,
     13,
-    9,
     8,
     7,
+    9,
     14,
-    11,
+    10,
     10,
     11,
-    8,
-    8,
-    2,
-    4,
-    4,
-    7,
-    8,
-    5,
     9,
+    7,
+    5,
+    2,
+    3,
+    7,
+    10,
+    4,
+    10,
+    12,
     14,
-    14,
-    14,
-    26,
-    19
+    12,
+    19,
+    25,
+    18,
+    16
   ],
   "messages_by_channel": {
-    "@eRadarrua": 72,
-    "@kpszsu": 46,
+    "@eRadarrua": 58,
+    "@kpszsu": 47,
     "@mon1tor_ua": 6,
-    "@UkraineNow": 18,
-    "@ukr_leaks_eng": 19,
-    "@tass_agency": 95
+    "@UkraineNow": 20,
+    "@ukr_leaks_eng": 20,
+    "@tass_agency": 104
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/94599",
-    "kpszsu": "https://t.me/kpszsu/63501",
+    "eRadarrua": "https://t.me/eRadarrua/94607",
+    "kpszsu": "https://t.me/kpszsu/63508",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67321",
-    "UkraineNow": "https://t.me/UkraineNow/81593",
+    "UkraineNow": "https://t.me/UkraineNow/81597",
     "DeepStateUA": "https://t.me/DeepStateUA/23545",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30582",
-    "tass_agency": "https://t.me/tass_agency/378427"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30585",
+    "tass_agency": "https://t.me/tass_agency/378445"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/378411",
-    "kpszsu": "https://t.me/kpszsu/63463",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67319",
-    "UkraineNow": "https://t.me/UkraineNow/81575",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30581",
-    "eRadarrua": "https://t.me/eRadarrua/94586"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30564",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67317",
+    "tass_agency": "https://t.me/tass_agency/378408",
+    "UkraineNow": "https://t.me/UkraineNow/81583"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/81597",
+      "post_id": 81597,
+      "channel": "UkraineNow",
+      "ts": "2026-06-01T12:06:46+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81596",
+      "post_id": 81596,
+      "channel": "UkraineNow",
+      "ts": "2026-06-01T12:02:40+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378438",
+      "post_id": 378438,
+      "channel": "tass_agency",
+      "ts": "2026-06-01T11:41:29+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30584",
+      "post_id": 30584,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-01T11:32:45+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378437",
+      "post_id": 378437,
+      "channel": "tass_agency",
+      "ts": "2026-06-01T11:26:30+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378436",
+      "post_id": 378436,
+      "channel": "tass_agency",
+      "ts": "2026-06-01T11:20:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378432",
+      "post_id": 378432,
+      "channel": "tass_agency",
+      "ts": "2026-06-01T10:58:52+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81594",
+      "post_id": 81594,
+      "channel": "UkraineNow",
+      "ts": "2026-06-01T10:57:30+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378429",
+      "post_id": 378429,
+      "channel": "tass_agency",
+      "ts": "2026-06-01T10:44:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378428",
+      "post_id": 378428,
+      "channel": "tass_agency",
+      "ts": "2026-06-01T10:42:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/378427",
       "post_id": 378427,
@@ -102,7 +160,7 @@
       "channel": "eRadarrua",
       "ts": "2026-06-01T10:28:42+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/qYoGs4_0dwB6w8zeFUQvQabzk1SCWTZSWisARx0jHlxZy7tlJt4M-59_XbTli1x-iLaVkoNeeT_Jb44m89US-7wmyjvaxDP1WkLm8jExVCRV8VT_a5WZVjfswgTH4NqS14SQbja7SPfsbQOzdSLznnsBlr6Aw5dkCzjWQfUi2lUHFj_eOUrhtOUssfN_qrPPHX9tWQniE6oQ3EwSIJ97VvuAqeR77xyPR_dqQEfV2Cm5ioJaOX3FmCYiEv4cfi-49xejo5B0DIDMqz5TVKCEUaQ56PHbWc8YLS3pEbn74yukrJEPARguD0GSksNQ8785wLEdZZUImwSUrwUO0LXhYg.jpg",
-      "companion_text_id": 94597
+      "companion_text_id": 94600
     },
     {
       "post_url": "https://t.me/eRadarrua/94596",
@@ -157,90 +215,24 @@
       "ts": "2026-06-01T09:16:49+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/HVVoBu0vWK4we6Aw0P5PECIldEljmt6S2DnzWJm4cyYJKQF8csKzfqMhVQHYK7fVfT3nJ2oyl8z9ZRUDkPN-qU9KviO1PwEpR7Xmkfh_Ua3vEeyskK8EFnoGRtgkGnv2EK5jaU_Lo60vY6t1xN2ADnj6lSHQSCW2_jgM8hF9aAUBxN6EN6zYZ0yfuJJpVHpjLeD1Ewq4XHqiQiAbofaxTpx0ILzvFlr87HbYBdqtuvrOjpCXL2Ah0CPfR3DtdPNskxXihMzg0WlVnIbmyZPUT6MgJFHnYfXtOJVKUrGFeYXMSvcpL_T6KMwdo0RJ05t_TMQd5Z8Wgdcjva5ps8lRZA.jpg",
       "companion_text_id": 94582
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30579",
-      "post_id": 30579,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-01T09:06:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/378405",
-      "post_id": 378405,
-      "channel": "tass_agency",
-      "ts": "2026-06-01T09:00:24+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/94582",
-      "post_id": 94582,
-      "channel": "eRadarrua",
-      "ts": "2026-06-01T08:41:12+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/bi9ig3UtMrCu-eA2b6BuwJoKiJAhBodPNw8RuR2XvNpt7wIY1gv1IJiMRMnI68BzfgVw4MTGZJiXI_PEMWeLV33L3dVs1oXR0fwA4GX0OdrrtHvPIl8etXB5jFrP0OG87w5BQcp3uUU1WISGo2teBxxA_3chZQSecCx41FrN5vymCBKGcFyyYnIZ4i6vKtSDbl0KExSsOjzulBIvZ7Wq3fdlHQVYHc-ZBoWe9qJFi-h_u7feVXzZYz8VigZhBy3wBWEmLYfanlv4FkuJBhZXvh77Bia14H3z0VHaWstHq-LkZJw3sZhkq3ApBdeReJnsPUKjqcFO-x0wP9KZnaO5ZA.jpg",
-      "companion_text_id": 94581
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81590",
-      "post_id": 81590,
-      "channel": "UkraineNow",
-      "ts": "2026-06-01T08:33:35+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30578",
-      "post_id": 30578,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-01T08:31:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/94580",
-      "post_id": 94580,
-      "channel": "eRadarrua",
-      "ts": "2026-06-01T08:31:37+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/aFmIuGRrOnsFKOwnr4Ygj1vFNK-JkUN0yYHmLwSgWtxgAuBcgY-W_TV1B1mNZEZD2tStIxHzcOaipaPZUvEACvmzKSY2GL_fhQNmlVp5x14rl8RRNrP4y84Emuhc69qzO5RFmBJiNCNmxsqJQmwGlBpl7a4uVMvWbW4gbLoE6Pu7HK1L8lOmypWr41ztdldeSO_9KJxGqTKSPpuPK44VdfVevtExx3iZjjcX5bfek07ijKwBKT0LSeO1VtHEsr9sl_y0Bb3NAB2rf4bbdi2VOns0ccdWYKLZ7FgoPwlZRc5oSYtvUEqkM1KuKEuDdtEs8sIRysa_F0Y_X3-zQe7Xjg.jpg",
-      "companion_text_id": 94581
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/94579",
-      "post_id": 94579,
-      "channel": "eRadarrua",
-      "ts": "2026-06-01T07:36:53+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/WyEXaxLih_B3vOuTNEoEhdK1NY1KWtZ6LWbisAOBZFhABmQlHQ8IFQ0ryMJnRBSsRAvcA3181SqLA5eQ1XNjSMvAhvVhoXo4x43xnqqoVqBC_LYC1_IkRxd8Wz5f_1rKF44rbccXVL6ppP_GqwBdEjwb1_2E8Qolue8-y8VJ1VJD91qKtaBfPYqx9RvIflskKQj8iNUrLsy7dJGsI2u2Fu1MAETSzuDUMVRONTakIuJ1wY4g9zpY3VBWnRNXQVpTt5QGpU9tCr2q3rjs9FSu6mr4OQAtxB9sxDAubBwhIgtWlnoTZqJvR-t3zC08GRoBGCZpFHJfv4z7Dj6JfTAYJQ.jpg",
-      "companion_text_id": 94578
-    },
-    {
-      "post_url": "https://t.me/tass_agency/378390",
-      "post_id": 378390,
-      "channel": "tass_agency",
-      "ts": "2026-06-01T07:36:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30575",
-      "post_id": 30575,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-01T07:35:47+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/378388",
-      "post_id": 378388,
-      "channel": "tass_agency",
-      "ts": "2026-06-01T07:26:01+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/94580": "data/media/eRadarrua_94580.jpg",
-    "eRadarrua/94581": "data/media/eRadarrua_94580.jpg",
-    "eRadarrua/94582": "data/media/eRadarrua_94582.jpg",
-    "eRadarrua/94583": "data/media/eRadarrua_94583.jpg",
     "eRadarrua/94586": "data/media/eRadarrua_94586.jpg",
     "eRadarrua/94584": "data/media/eRadarrua_94586.jpg",
     "eRadarrua/94596": "data/media/eRadarrua_94596.jpg",
     "eRadarrua/94595": "data/media/eRadarrua_94596.jpg",
     "eRadarrua/94599": "data/media/eRadarrua_94599.jpg",
-    "eRadarrua/94597": "data/media/eRadarrua_94599.jpg",
-    "eRadarrua/94562": "data/media/eRadarrua_94562.jpg",
-    "eRadarrua/94561": "data/media/eRadarrua_94562.jpg",
+    "eRadarrua/94600": "data/media/eRadarrua_94599.jpg",
     "eRadarrua/94573": "data/media/eRadarrua_94573.jpg",
     "eRadarrua/94579": "data/media/eRadarrua_94579.jpg",
     "eRadarrua/94578": "data/media/eRadarrua_94579.jpg",
+    "eRadarrua/94580": "data/media/eRadarrua_94580.jpg",
+    "eRadarrua/94581": "data/media/eRadarrua_94580.jpg",
+    "eRadarrua/94582": "data/media/eRadarrua_94582.jpg",
+    "eRadarrua/94583": "data/media/eRadarrua_94583.jpg",
+    "eRadarrua/94562": "data/media/eRadarrua_94562.jpg",
+    "eRadarrua/94561": "data/media/eRadarrua_94562.jpg",
     "eRadarrua/94515": "data/media/eRadarrua_94515.jpg",
     "eRadarrua/94525": "data/media/eRadarrua_94525.jpg",
     "eRadarrua/94526": "data/media/eRadarrua_94526.jpg",
@@ -251,125 +243,113 @@
     "kpszsu/63463": "data/media/kpszsu_63463.jpg",
     "kpszsu/63462": "data/media/kpszsu_63463.jpg"
   },
-  "summary": "Ukrainian forces conducted a targeted drone strike on the machine hall of the Zaporizhzhia Nuclear Power Plant, while Russian air defenses reported shooting down 228 hostile UAVs across the country. Shahed missile attacks were observed over Odessa, Chornomorsk, and Kharkiv, with multiple strikes reported in the Black Sea area. Russia announced a ban on aviation fuel exports through November 30, citing attacks on its oil facilities.",
+  "summary": "Ukrainian forces struck the machine hall of the Zaporizhzhia Nuclear Power Plant, while Russian forces reported liberating Tikhonovka in the DPR. Multiple Shahed drone attacks were reported over Odessa, the Black Sea, and several Ukrainian regions. Both sides continue to claim air defense successes and ongoing drone activity across frontlines.",
   "key_points": [
-    "Ukrainian drone strike hit the machine hall of the Zaporizhzhia Nuclear Power Plant, the first deliberate attack on this facility (Source: @tass_agency/378411).",
-    "Russian air defense forces reported downing or suppressing 228 hostile UAVs of various types, including Shahed and Gerbera, across northern, southern, and eastern Ukraine (Source: @kpszsu/63463).",
-    "Three Shahed missiles were detected over Odessa and three over Chornomorsk, with additional Shahed activity reported in the Black Sea towards Odesa region (Source: @mon1tor_ua/67319).",
-    "The Third Army Corps claimed control over logistical routes in Luhansk and Eastern Slobozhanshchina, reaching 205 km into enemy‑held territory and striking enemy armor and ammunition depots (Source: @UkraineNow/81575).",
-    "France seized the sanctioned Russian oil tanker Tagor in the Atlantic Ocean on May 31, with support from the United Kingdom (Source: @UkraineNow/81589).",
-    "Russia prohibited aviation fuel exports until 30 November, linking the decision to Ukrainian attacks on Russian oil assets (Source: @UkraineNow/81592).",
-    "A Shahed missile was reported over Kharkiv and three Shahed drones over the Black Sea heading toward Odesa region (Source: @mon1tor_ua/67318)."
+    "Ukrainian drone attacked the machine block of the Zaporizhzhia Nuclear Power Plant, causing damage but no radiation release (Source: @ukr_leaks_eng/30564).",
+    "Russian forces announced the liberation of Tikhonovka in the DPR (Source: @ukr_leaks_eng/30582).",
+    "Shahed drones were reported over Odessa from the Black Sea and over the Black Sea towards Odesa region (Source: @mon1tor_ua/67317; @mon1tor_ua/67318).",
+    "Russian air defenses claimed shooting down 9 guided aerial bombs and 233 UAVs in a 24‑hour period (Source: @tass_agency/378408).",
+    "Ukrainian forces attacked the Saratov oil refinery, a major regional supplier (Source: @UkraineNow/81583).",
+    "Multiple UAV sightings were reported across Ukrainian regions including Zaporizhzhia, Poltava, Kharkiv, Sumy, Chernihiv, and Kyiv (various eRadarrua and kpszsu posts).",
+    "Germany donated an IRIS‑T launcher to Ukraine, enhancing air defence capabilities (Source: @ukr_leaks_eng/30566)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces executed a drone strike on the Zaporizhzhia Nuclear Power Plant's machine hall, marking the first deliberate hit on the facility. Russian air defenses claimed to have downed 228 hostile UAVs nationwide, reflecting intense aerial contest. Concurrently, Shahed missile activity was reported over Odessa, Chornomorsk, and Kharkiv, while Russia imposed an aviation fuel export ban.",
+    "executive_summary": "Ukrainian forces struck the Zaporizhzhia Nuclear Power Plant’s machine hall, causing structural damage without radiation release. Russian forces reported liberating Tikhonovka in the DPR and claimed high UAV interception numbers. Shahed drone attacks continue over Odessa and other regions, indicating sustained aerial pressure on both sides.",
     "ukraine": {
       "points": [
-        "A Ukrainian drone struck the machine block of the Zaporizhzhia Nuclear Power Plant, causing structural damage but no radiation release, as confirmed by the plant director (Source: @tass_agency/378411).",
-        "The Third Army Corps announced control over logistical routes in Luhansk and Eastern Slobozhanshchina, advancing 205 km into enemy‑held territory and destroying enemy armored vehicles and ammunition depots (Source: @UkraineNow/81575).",
-        "Ukrainian forces reported Shahed missile launches targeting Odessa (1 missile), Chornomorsk (1 missile), and Kharkiv (1 missile) with additional missiles in the Black Sea heading toward Odesa region (Source: @mon1tor_ua/67318).",
-        "Ukrainian units reported shooting down multiple Shahed and other UAVs across the front, contributing to the total of 228 UAVs neutralized nationwide (Source: @kpszsu/63463).",
-        "Ukrainian intelligence disclosed a drone attack on a Nova Poshta branch in Dnipro, causing a fire, and strikes on targets in Chernihiv region (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian officials requested U.S. licenses for domestic production of Patriot missiles, citing a need for 60‑65 anti‑ballistic missiles per month (Source: @ukr_leaks_eng/30570).",
-        "Ukrainian volunteer groups supplied drone detectors and anti‑drone equipment to units on the Donetsk, Kyiv, and other fronts (Source: @eRadarrua/94586)."
+        "A Ukrainian drone hit the machine block of the Zaporizhzhia Nuclear Power Plant, marking the first known through‑explosion attack on the facility; the station director noted no radiation release but warned of potential future risks (Source: @ukr_leaks_eng/30564).",
+        "Ukrainian forces carried out an air strike on the Saratov oil refinery, a plant processing about 6 million tonnes of crude annually, targeting a key Russian energy asset (Source: @UkraineNow/81583).",
+        "Ukraine received an additional IRIS‑T air‑defence launcher from Germany, bolstering its capability to counter Russian aerial threats (Source: @ukr_leaks_eng/30566).",
+        "Ukrainian units reported multiple UAV sightings across the front, including Shahed attacks over Odessa from the Black Sea and UAVs near Dnipro, Poltava, Kharkiv, Sumy, Chernihiv, and Kyiv, indicating widespread drone activity (Source: multiple eRadarrua and kpszsu posts).",
+        "Ukrainian officials discussed seeking U.S. licenses for domestic Patriot missile production, highlighting a strategic push for indigenous air‑defence capability (Source: @ukr_leaks_eng/30570; @UkraineNow/81581)."
       ]
     },
     "russia": {
       "points": [
-        "Russia announced a ban on aviation fuel exports until 30 November, attributing the measure to Ukrainian attacks on Russian oil facilities (Source: @UkraineNow/81592).",
-        "The Kremlin reported that President Putin discussed the EAEU summit outcomes with Armenian President Pashinyan (Source: @tass_agency/378417).",
-        "Russia's Ministry of Internal Affairs denied reports of mass checks on elderly drivers (Source: @tass_agency/378426).",
-        "Russian officials labeled France's seizure of the sanctioned tanker Tagor as illegal and bordering on piracy (Source: @tass_agency/378414).",
-        "President Putin instructed regional governors and the FSB to ensure uninterrupted internet access even during restrictions (Source: @tass_agency/378413).",
-        "Russia's wealthiest individuals saw a net increase of $21.85 billion since the start of the year, according to Bloomberg (Source: @tass_agency/378422).",
-        "Russian authorities confirmed that a drone strike on the Zaporizhzhia plant did not cause radiation release, though they warned of potential consequences (Source: @tass_agency/378412)."
+        "The Russian Ministry of Defence announced the liberation of Tikhonovka in the DPR, presenting it as a tactical gain in the Donetsk direction (Source: @ukr_leaks_eng/30582).",
+        "Russian air‑defence forces claimed to have shot down nine guided aerial bombs and 233 Ukrainian UAVs within a 24‑hour period, emphasizing high interception rates (Source: @tass_agency/378408).",
+        "Russia reported that attacks on the Zaporizhzhia plant could have caused loss of an energy block, underscoring the strategic importance of the facility (Source: @tass_agency/378410).",
+        "Russian officials referenced a potential increase in ballistic missile production in response to Ukrainian concerns, indicating a possible escalation in missile capabilities (Source: @ukr_leaks_eng/30570).",
+        "The Russian government reaffirmed internet access guarantees for its citizens even during potential restrictions, reflecting internal security considerations (Source: @tass_agency/378413)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported Shahed missile impacts over Kharkiv and ongoing UAV activity in the eastern sector (Source: @mon1tor_ua/67318).",
-        "The Ukrainian summary report noted drone attacks on the LPD \"Lazarevo\" in Kirov region, oil depot in Matveev Kurgan (Rostov), and refinery in Saratov, indicating broader eastern pressure (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian units claimed penetration north‑west of Alexandrovgrad in Dnipropetrovsk region, expanding a bridgehead across the Volchya River (Source: @ukr_leaks_eng/30581).",
-        "Russian forces reported UAV attacks on civilian vehicles in Bryansk and Belgorod regions, reflecting cross‑border aerial activity (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian reports indicated continued drone strikes on the Zaporizhzhia Nuclear Power Plant and Energodar (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian forces observed UAV activity over Sumy and Poltava regions, with multiple strikes reported (Source: @ukr_leaks_eng/30581).",
-        "Russian air defenses claimed to have downed 12 UAVs over Crimea and 20 over Rostov region during the night (Source: @ukr_leaks_eng/30581)."
+        "Ukrainian drones targeted the machine hall of the Zaporizhzhia Nuclear Power Plant in the eastern sector, causing structural damage (Source: @ukr_leaks_eng/30564).",
+        "Russian forces reported the liberation of Tikhonovka in the DPR, a location within the eastern conflict zone (Source: @ukr_leaks_eng/30582).",
+        "Multiple Shahed drones were observed over the Black Sea heading toward the Odessa region, indicating eastern maritime pressure (Source: @mon1tor_ua/67317).",
+        "Ukrainian UAV activity was reported near Dnipro and Poltava, suggesting reconnaissance and strike missions in the eastern operational area (Source: eRadarrua posts).",
+        "Russian claims of destroying UAV production facilities and launch sites point to ongoing offensive actions in the east (Source: @tass_agency/378408)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian air defense reported shooting down 228 hostile UAVs across the north, south, and east, including Shahed, Gerbera, and Iltamash types (Source: @kpszsu/63463).",
-        "Ukrainian intelligence noted a Russian drone attack on a target in Dnipro (Source: @ukr_leaks_eng/30567).",
-        "Ukrainian forces reported UAV activity from Bryansk direction targeting Russian territory (Source: @kpszsu/63463).",
-        "Russian reports indicated a UAV strike injuring a civilian in the village of Stara Pogesh, Bryansk district (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian units observed Shahed missile launches from Bryansk and Kursk directions toward Ukrainian territory (Source: @kpszsu/63463).",
-        "Russian authorities warned of increased tactical aviation activity on the south‑east direction, affecting front‑line regions (Source: @kpszsu/63451).",
-        "Ukrainian reports listed multiple UAV sightings over Chernihiv and Sumy regions, indicating continued northern aerial pressure (Source: @kpszsu/63458)."
+        "Ukrainian UAV sightings were reported in the Kyiv region, including flights over the north of Kyiv oblast (Source: eRadarrua/94584).",
+        "Shahed drones were reported over the Black Sea heading toward the northern Black Sea area, potentially affecting northern coastal defenses (Source: @mon1tor_ua/67318).",
+        "Ukrainian forces reported UAV activity near Chernihiv and Sumy, indicating northern reconnaissance operations (Source: eRadarrua/94600; kpszsu/63507).",
+        "Russian air‑defence claimed interception of numerous UAVs, which would include those operating over northern Ukrainian territories (Source: @tass_agency/378408).",
+        "Ukrainian drone attacks on Russian logistics in the north were not explicitly detailed, but the high UAV activity suggests ongoing pressure (Source: multiple UAV reports)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces reported Shahed missile activity over Odessa and Chornomorsk, with three missiles each observed (Source: @mon1tor_ua/67319).",
-        "Ukrainian drones struck targets in Kherson region, including Henichesk, causing civilian casualties (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian reports indicated UAV attacks on the Zaporizhzhia Nuclear Power Plant and surrounding infrastructure (Source: @ukr_leaks_eng/30581).",
-        "Russian authorities announced a ban on aviation fuel exports, linking it to Ukrainian attacks on Russian oil assets (Source: @UkraineNow/81592).",
-        "Ukrainian forces reported UAV activity over the Black Sea heading toward Odesa region (Source: @mon1tor_ua/67318).",
-        "Ukrainian intelligence noted a drone strike on a Nova Poshta branch in Dnipro, causing a fire (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian units reported UAV sightings over the Donetsk direction, with continued air defense engagements (Source: @kpszsu/63457)."
+        "Ukrainian forces attacked the Saratov oil refinery, a strategic southern Russian asset, highlighting southern operational reach (Source: @UkraineNow/81583).",
+        "Shahed drones were reported over the Black Sea and towards the Odesa region, indicating southern maritime threats (Source: @mon1tor_ua/67318).",
+        "Ukrainian UAVs were observed near the southern front, including reports of drones over the Zaporizhzhia region and near the Black Sea coast (Source: eRadarrua posts).",
+        "Russian claims of destroying UAV launch sites and shooting down aerial bombs suggest defensive actions on the southern front (Source: @tass_agency/378408).",
+        "Ukrainian air‑defence procurement, such as the IRIS‑T system, aims to strengthen southern air‑defence corridors (Source: @ukr_leaks_eng/30566)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air defenses claimed to have downed 228 hostile UAVs of various types across the country, reflecting intense aerial contest (Source: @kpszsu/63463).",
-        "Ukrainian forces reported multiple Shahed missile launches targeting Odessa, Chornomorsk, and Kharkiv, indicating continued UAV‑borne missile threats (Source: @mon1tor_ua/67318).",
-        "Ukrainian summary noted 12 UAVs shot down over Crimea and 20 over Rostov region during a single night (Source: @ukr_leaks_eng/30581).",
-        "Ukrainian forces reported UAV attacks on Russian civilian vehicles in Bryansk and Belgorod regions (Source: @ukr_leaks_eng/30581).",
-        "Russian authorities warned of heightened tactical aviation activity on the south‑east front, posing risks to near‑front regions (Source: @kpszsu/63451).",
-        "Ukrainian intelligence observed UAV activity over multiple oblasts, including Chernihiv, Sumy, and Dnipropetrovsk, indicating widespread aerial operations (Source: @kpszsu/63458).",
-        "Ukrainian forces reported a drone strike on the Zaporizhzhia Nuclear Power Plant's machine hall, marking a significant escalation in UAV use against critical infrastructure (Source: @tass_agency/378411)."
+        "Ukrainian drone strike on Zaporizhzhia Nuclear Power Plant’s machine hall marks a notable air‑strike on critical infrastructure (Source: @ukr_leaks_eng/30564).",
+        "Russian air‑defence reported downing 9 guided aerial bombs and 233 UAVs in a single day, indicating intense aerial engagements (Source: @tass_agency/378408).",
+        "Multiple Shahed drone attacks were reported over Odessa and the Black Sea, reflecting ongoing low‑altitude aerial threats (Source: @mon1tor_ua/67317; @mon1tor_ua/67318).",
+        "Ukrainian forces received an IRIS‑T launcher from Germany, enhancing their capability to counter Russian air attacks (Source: @ukr_leaks_eng/30566).",
+        "Russian statements about increased ballistic missile production suggest a potential escalation in strategic air‑to‑ground capabilities (Source: @ukr_leaks_eng/30570)."
       ]
     },
     "key_developments": [
-      "Ukrainian drone strike damaged the machine hall of the Zaporizhzhia Nuclear Power Plant, the first deliberate hit on the facility (Source: @tass_agency/378411).",
-      "Russian air defense forces reported neutralizing 228 hostile UAVs, including Shahed, Gerbera, and Iltamash types, across northern, southern, and eastern Ukraine (Source: @kpszsu/63463).",
-      "Three Shahed missiles were observed over Odessa and three over Chornomorsk, with additional Shahed activity reported in the Black Sea toward Odesa region (Source: @mon1tor_ua/67319).",
-      "The Third Army Corps claimed control over logistical routes in Luhansk and Eastern Slobozhanshchina, advancing 205 km into enemy‑held territory and striking enemy armor and ammunition depots (Source: @UkraineNow/81575).",
-      "France seized the sanctioned Russian oil tanker Tagor in the Atlantic Ocean on 31 May, with support from the United Kingdom (Source: @UkraineNow/81589).",
-      "Russia imposed a ban on aviation fuel exports until 30 November, citing Ukrainian attacks on Russian oil facilities as the reason (Source: @UkraineNow/81592).",
-      "Ukrainian officials requested U.S. licenses for domestic production of Patriot missiles, emphasizing a need for 60‑65 anti‑ballistic missiles per month (Source: @ukr_leaks_eng/30570)."
+      "Ukrainian drone struck the machine block of the Zaporizhzhia Nuclear Power Plant, causing structural damage but no radiation release (Source: @ukr_leaks_eng/30564).",
+      "Russian forces announced the liberation of Tikhonovka in the DPR, presenting it as a tactical gain (Source: @ukr_leaks_eng/30582).",
+      "Shahed drones were reported over Odessa from the Black Sea, indicating continued aerial attacks on southern ports (Source: @mon1tor_ua/67317).",
+      "Russian air‑defence claimed shooting down nine guided aerial bombs and 233 UAVs within 24 hours, highlighting high interception activity (Source: @tass_agency/378408).",
+      "Ukrainian forces attacked the Saratov oil refinery, a major Russian fuel processing plant (Source: @UkraineNow/81583).",
+      "Germany donated an IRIS‑T air‑defence launcher to Ukraine, strengthening its anti‑air capabilities (Source: @ukr_leaks_eng/30566).",
+      "Ukrainian officials discussed obtaining U.S. licenses for domestic Patriot missile production, indicating a push for indigenous air‑defence manufacturing (Source: @ukr_leaks_eng/30570)."
     ],
-    "threat_assessment": "Ukrainian forces are increasingly employing UAVs for both strike and reconnaissance missions, targeting critical infrastructure such as the Zaporizhzhia Nuclear Power Plant and logistics hubs in occupied territories. Russian air defenses have responded with high interception rates, claiming over 200 UAVs downed, yet the continued Shahed missile launches over southern ports indicate persistent threat to maritime and coastal assets. The export ban on aviation fuel reflects Russia's attempt to mitigate the impact of Ukrainian attacks on its energy infrastructure, while sanctions enforcement by France demonstrates ongoing international pressure on Russian logistics.",
-    "regional_response": "Western partners, exemplified by France's seizure of the Tagor tanker, are tightening enforcement of sanctions, limiting Russia's ability to move oil revenues. Ukraine is seeking additional Western support, including licensing for Patriot missile production, to bolster its air defense capabilities. Russia's internal measures, such as guaranteeing internet access during restrictions and denying reports of driver checks, aim to maintain domestic stability amid escalating conflict.",
-    "intelligence_notes": "Monitoring of Shahed missile trajectories over the Black Sea and southern Ukrainian ports should be intensified to protect maritime trade routes. The high number of UAV interceptions suggests both sides are escalating drone warfare, requiring enhanced electronic warfare and detection assets. The third army corps' deep logistical strikes in Luhansk indicate a shift toward offensive operations behind enemy lines, warranting close observation of supply chain disruptions in occupied territories."
+    "threat_assessment": "The conflict remains highly dynamic, with both sides employing drones for reconnaissance and strike missions across multiple fronts. Ukrainian attacks on critical Russian infrastructure, such as the Zaporizhzhia plant and Saratov refinery, demonstrate an intent to degrade Russian logistical and energy capabilities. Russian claims of high UAV interception rates suggest robust air‑defence activity, yet continued Shahed drone incursions indicate persistent low‑altitude threats, especially over the Black Sea and southern regions.",
+    "regional_response": "Western partners continue to supply advanced air‑defence systems, exemplified by Germany's IRIS‑T launcher donation, while Ukraine seeks licensing for domestic Patriot missile production to reduce reliance on external sources. Russia's reported increase in ballistic missile production may signal an escalation in strategic deterrence, potentially prompting further NATO vigilance in the region.",
+    "intelligence_notes": "Monitoring of UAV flight paths reveals concentrated activity over Odessa, Zaporizhzhia, and northern Ukrainian oblasts, suggesting targeted pressure points. The reported liberation of Tikhonovka should be corroborated with satellite imagery to assess its strategic impact. Continued analysis of Russian air‑defence claims is needed to verify interception effectiveness and potential depletion of Ukrainian UAV assets."
   },
   "missiles": 0,
   "drones": 265,
   "kpszsu_timeline": [
     2,
-    1,
-    2,
-    2,
-    2,
-    2,
-    1,
-    2,
-    1,
-    2,
-    1,
-    2,
     0,
+    3,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
     4,
-    2,
     3,
-    2,
     3,
     1,
     3,
-    2,
-    2,
+    3,
     1,
-    3
+    0,
+    3,
+    3,
+    2
   ]
 }
