@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-02T04:49:30.609307+00:00",
-  "message_count": 500,
+  "updated_at": "2026-06-02T05:52:47.730836+00:00",
+  "message_count": 504,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,7 +11,7 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 0,
+  "red_alerts": 729,
   "red_alerts_timeline": [
     0,
     0,
@@ -26,71 +26,102 @@
     0,
     0,
     0,
+    97,
+    97,
+    129,
+    97,
+    64,
+    97,
     0,
-    3,
-    3,
-    3,
-    4,
-    2,
-    3,
+    32,
     0,
-    1,
-    0,
-    2
+    64,
+    0
   ],
   "combined_activity_timeline": [
-    9,
     15,
     14,
-    11,
-    21,
-    15,
-    14,
+    12,
+    20,
     13,
-    18,
+    15,
+    13,
+    19,
     12,
     11,
     13,
     22,
     20,
-    20,
-    28,
+    19,
     27,
-    37,
-    59,
-    49,
-    24,
+    32,
+    35,
+    61,
+    47,
+    23,
     11,
-    14,
-    23
+    15,
+    23,
+    11
   ],
   "messages_by_channel": {
-    "@eRadarrua": 87,
-    "@kpszsu": 81,
+    "@eRadarrua": 89,
+    "@kpszsu": 83,
     "@mon1tor_ua": 121,
-    "@UkraineNow": 21,
+    "@UkraineNow": 22,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 164
+    "@tass_agency": 163
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/94916",
-    "kpszsu": "https://t.me/kpszsu/63653",
+    "eRadarrua": "https://t.me/eRadarrua/94918",
+    "kpszsu": "https://t.me/kpszsu/63656",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67457",
-    "UkraineNow": "https://t.me/UkraineNow/81606",
+    "UkraineNow": "https://t.me/UkraineNow/81608",
     "DeepStateUA": "https://t.me/DeepStateUA/23546",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30596",
-    "tass_agency": "https://t.me/tass_agency/378551"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30598",
+    "tass_agency": "https://t.me/tass_agency/378557"
   },
   "cited_post_urls": {
-    "DeepStateUA": "https://t.me/DeepStateUA/23546",
-    "UkraineNow": "https://t.me/UkraineNow/81584",
-    "kpszsu": "https://t.me/kpszsu/63617",
-    "tass_agency": "https://t.me/tass_agency/378515",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67422",
-    "eRadarrua": "https://t.me/eRadarrua/94840"
+    "kpszsu": "https://t.me/kpszsu/63655",
+    "eRadarrua": "https://t.me/eRadarrua/94864",
+    "UkraineNow": "https://t.me/UkraineNow/81596",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67441",
+    "tass_agency": "https://t.me/tass_agency/378544"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/81608",
+      "post_id": 81608,
+      "channel": "UkraineNow",
+      "ts": "2026-06-02T05:37:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/63655",
+      "post_id": 63655,
+      "channel": "kpszsu",
+      "ts": "2026-06-02T05:33:23+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/t-DMXqWWsTihM4jHQWGB0lWY0NPyXIHkOCDevLsGkJ-1OEVTeljS0A_rWiCxrlC0vSg-_HT5p27o5dz_1TRhln6yJn_njzOZujU3dhCFaRgDWnruVQ8S8neiEWfQ7UoBFy8WKAc-a-rQl7fwOOrUEWEHPxpTEtKmDSM_ykoqH1hMKAwm6GmCNcATPeuaZof0oZMeJ30QpSI2hdVOxc3In0b4zNU_jju93zaAXqgTvcjzjA4AbMESN420iktmPZy2MSn8f_vJICwtImwwFDRGNqohVLh2-FB5aKFYnMu-DmHT4CdaaKmOGUzc6wkKFb_wMiv_EIlBPmIyvEKYwA0TRQ.jpg",
+      "companion_text_id": 63654
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30598",
+      "post_id": 30598,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-02T05:33:00+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30597",
+      "post_id": 30597,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-02T05:01:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/378555",
+      "post_id": 378555,
+      "channel": "tass_agency",
+      "ts": "2026-06-02T04:59:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/378550",
       "post_id": 378550,
@@ -198,42 +229,6 @@
       "ts": "2026-06-01T21:58:17+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/GaAm4OHbIxI6jqHJzSv4m_KKULoL0CBbcu0s2SI2Fkg9HLFkvpetQMwz8EbCU_4OSXmw7m_yQmTSVOLMZiMmPslJ8hSrOHboqPUlsvdzak-LqMWWHjxJ59nWTj1luFJTmMnxKLiRYMNKiGFw2T9_TYIGC4kDsCBYTFk508e6469y-TOLz3FG5dRROpPwRGvd2fZp90_wLxRA5VJh-1ZbCGlhICAO8CcP1pMKhYJtw_Q3_mHffIAQZEHtJh5Uxc6sgA1UEm69TbX_WevvC6ZE2NaYav5JzE5i0XNG-d1-h9xK7s1jjOg_XwxhbIpqodLdzm1Xap6ApbWfoZEuWWwdcg.jpg",
       "companion_text_id": 94744
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/67347",
-      "post_id": 67347,
-      "channel": "mon1tor_ua",
-      "ts": "2026-06-01T21:50:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/94737",
-      "post_id": 94737,
-      "channel": "eRadarrua",
-      "ts": "2026-06-01T21:37:18+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/HcebK3g_RX5RAmYPLT64l5b-YD3xO8EnAWEIz66ucsq0sOWnXBvh9J3CHW4pWfs0xHW15Iwe8CQJVFRFCJp9eG6YzrVsAU7-iwuw8xe3WgJwwrkMYpO9ZH2UhsfqDoewsgvuNu5jmrTVyGTUZRaPSu5KyHbb7vqFZHtXBkhlwCDke9un1vnLXsmFiqW28ciDJxArs83kqJYxb_bv2rlZXKGI7IQa45WbeYB4LKyq7WkVeUJNHGQqii4N-rZw6vCx6c5oXUKmZNo4aErmhGX3O9m9ty0iVNOJD1homh5bUrt8DNv7Tk7Dm9cAd41TZL4yZJEKzS0XYB0ZdAFTFwzirA.jpg",
-      "companion_text_id": 94736
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/94736",
-      "post_id": 94736,
-      "channel": "eRadarrua",
-      "ts": "2026-06-01T21:35:24+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Zv36f8mVVutRK0YX6f5J_qIY2vwHLbalPmo3azhGAtQrbzyVyWARF-E9q2rdfhJ0QFeabwnxSFzrR_PKk_Rvoz1n5pB1s4Dtdt_zQukWEbSmnYWC7P9Z7gw9wyktLUmuxaMGJ_teAqEJcUGkW8xRqocW6UgOVqzzzFAhBW7l-OIjYGNEfoL3EjUyWpv_RfEmRvP9s_4CVJ6bwym31Yync-yt8X_f--dvtKEBAkIQ1GrAuvMs6TktZ4kPZYxkdNgny0gjxv7T4DcmOVLJK7wnbPhtrwxhGdKsB021OlP7y-bnnITWWEGcZHKJ7yk5XlBws6fBTOP23UHkb7QSzGIyog.jpg",
-      "companion_text_id": 94735
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/94734",
-      "post_id": 94734,
-      "channel": "eRadarrua",
-      "ts": "2026-06-01T21:22:23+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/HBS3Nurv9oNa9myivwBcBhREiNACHyo36LpCfesoLS0Gf2PckLVDQNMSDRzs_YZhZKIQ6RlANdklZ8qaw0HXCiL3Y2FIFceGABtODUD02UhaLc2ZSWmW2KLO4sICH9A_XYo1y0hxNJ1ECM5DwsrP6wfqWssSH3dYlc28H3I8yvW7e5Hkf6bF5X387zU3cjmHOux3FKWhNEFI7AcdcBZvP2PDqc5AZphTlTnpoh0fjZHKUpU89mnXdrIhSl_ORQAzG7UfBjV5W5ouA2A5gAXZlylcSP4q57I4B4zBM8vrg2Z4e4N0kb9tu2xGD_XNPk3k4s2JBKtvRmSg43yVsvlDOA.jpg",
-      "companion_text_id": 94733
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/67344",
-      "post_id": 67344,
-      "channel": "mon1tor_ua",
-      "ts": "2026-06-01T21:19:05+00:00"
     }
   ],
   "post_images": {
@@ -244,111 +239,111 @@
     "eRadarrua/94884": "data/media/eRadarrua_94883.jpg",
     "eRadarrua/94799": "data/media/eRadarrua_94799.jpg",
     "eRadarrua/94793": "data/media/eRadarrua_94793.jpg",
-    "eRadarrua/94754": "data/media/eRadarrua_94754.jpg",
-    "eRadarrua/94753": "data/media/eRadarrua_94753.jpg",
-    "eRadarrua/94755": "data/media/eRadarrua_94755.jpg",
-    "eRadarrua/94734": "data/media/eRadarrua_94734.jpg",
-    "eRadarrua/94733": "data/media/eRadarrua_94734.jpg",
     "eRadarrua/94736": "data/media/eRadarrua_94736.jpg",
     "eRadarrua/94735": "data/media/eRadarrua_94736.jpg",
     "eRadarrua/94737": "data/media/eRadarrua_94737.jpg",
     "eRadarrua/94745": "data/media/eRadarrua_94745.jpg",
     "eRadarrua/94744": "data/media/eRadarrua_94745.jpg",
     "eRadarrua/94746": "data/media/eRadarrua_94746.jpg",
+    "eRadarrua/94753": "data/media/eRadarrua_94753.jpg",
+    "eRadarrua/94754": "data/media/eRadarrua_94754.jpg",
+    "eRadarrua/94755": "data/media/eRadarrua_94755.jpg",
     "eRadarrua/94727": "data/media/eRadarrua_94727.jpg",
     "eRadarrua/94726": "data/media/eRadarrua_94727.jpg",
-    "eRadarrua/94694": "data/media/eRadarrua_94694.jpg",
-    "eRadarrua/94692": "data/media/eRadarrua_94694.jpg",
-    "kpszsu/63463": "data/media/kpszsu_63463.jpg",
-    "kpszsu/63464": "data/media/kpszsu_63463.jpg"
+    "eRadarrua/94734": "data/media/eRadarrua_94734.jpg",
+    "eRadarrua/94733": "data/media/eRadarrua_94734.jpg",
+    "eRadarrua/94696": "data/media/eRadarrua_94696.jpg",
+    "eRadarrua/94697": "data/media/eRadarrua_94696.jpg",
+    "kpszsu/63655": "data/media/kpszsu_63655.jpg",
+    "kpszsu/63654": "data/media/kpszsu_63655.jpg"
   },
-  "summary": "In May Ukrainian forces reported a net loss of only 14 km² of territory, while Russian forces conducted over 7,000 assault actions. Russian UAV and bomb attacks struck multiple civilian targets, including Odessa, Kharkiv, Druzkovka, and several towns in Sumy and Poltava regions. France intercepted the sanctioned Russian tanker Tagor in the Atlantic, highlighting continued international pressure on Russia’s logistics.",
+  "summary": "Russia launched a massive combined airstrike targeting Kyiv and multiple regions, reporting dozens of casualties and extensive drone activity. Ukrainian forces intercepted 642 targets, including 40 rockets and 602 UAVs, across the country. Separate incidents include Russian drone attacks on civilian structures in Donetsk and Belgorod regions.",
   "key_points": [
-    "Ukraine recorded a net territorial gain of negative 14 km² in May, the smallest increase since October 2023 (Source: @DeepStateUA/23546).",
-    "Russian forces carried out more than 7,000 assault attacks in May, a 37.5% increase, but many were conducted by small units or solo soldiers (Source: @DeepStateUA/23546).",
-    "A Russian drone hit a multi‑storey building in Odessa, injuring five people and causing fires (Source: @UkraineNow/81584).",
-    "Three Russian aerial bombs struck Druzkovka, wounding five civilians, and a drone attacked a hospital in Konotop with no casualties (Source: @UkraineNow/81596).",
-    "Ukrainian air‑defence reported multiple UAV incursions: groups from Kursk heading to Romny, from Rivne toward Netishyn, and from Kharkiv toward Kharkiv city (Source: @kpszsu/63617).",
-    "France seized the sanctioned Russian oil tanker Tagor in the Atlantic on 31 May, with British support (Source: @UkraineNow/81589).",
-    "Ukrainian forces reported a UAV strike on a civilian car in Shchekino, Kursk region, killing a civilian (Source: @tass_agency/378515)."
+    "Russia conducted a large‑scale combined airstrike with Shahed, Gerbera, and other UAVs plus rockets, focusing on Kyiv and hitting Dnipro, Kharkiv, Zaporizhzhia, Poltava and other regions, with 642 targets claimed destroyed (Source: @kpszsu/63655).",
+    "Five groups of cruise missiles arrived over Kyiv region near Kagarlyk, with additional groups from Cherkasy expected (Source: @eRadarrua/94864).",
+    "Three Russian aviation bombs (FAB‑250) struck residential buildings in Druzhkivka, injuring five people (Source: @UkraineNow/81596).",
+    "Ukrainian air defence downed a Shahed UAV over Dimer heading toward Vyshedor (Source: @mon1tor_ua/67441).",
+    "A Russian drone hit a private house in Bochevka, Belgorod region, injuring a child (Source: @tass_agency/378544).",
+    "Ukrainian authorities reported 8 injured, including three children, after attacks in Chernihiv region, with fires in a cultural house (Source: @UkraineNow/81587).",
+    "Russia announced a ban on aviation fuel exports until 30 November, citing attacks on Russian oil facilities (Source: @UkraineNow/81592).",
+    "France intercepted a sanctioned Russian oil tanker Tagor in the Atlantic Ocean (Source: @UkraineNow/81589)."
   ],
-  "sentiment": "volatile",
-  "intensity": 7,
+  "sentiment": "escalating",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukraine recorded a net loss of only 14 km² in May, the smallest since October 2023, while Russian forces intensified assault actions with over 7,000 attacks. Russian UAV and bomb strikes caused civilian casualties in Odessa, Kharkiv, Druzkovka and other towns. International actions included France’s seizure of the sanctioned Russian tanker Tagor, underscoring pressure on Russian logistics.",
+    "executive_summary": "Russia launched a massive combined airstrike focusing on Kyiv, reporting 642 intercepted targets, while Ukrainian forces reported casualties across multiple regions. Drone and missile attacks also hit civilian infrastructure in Donetsk and Belgorod. International responses included France seizing a sanctioned Russian tanker.",
     "ukraine": {
       "points": [
-        "Ukraine’s map shows a net loss of 14 km² of territory in May, marking the first month of negative territorial change since the 2023 counter‑offensive (Source: @DeepStateUA/23546).",
-        "Ukrainian defence leadership saw personnel changes, with new Defence Minister Fedorov and new Eastern Command commander Nykolyuk appointed (Source: @DeepStateUA/23546).",
-        "Ukrainian air‑defence reported a UAV strike on a civilian car in Shchekino, Kursk region, resulting in a civilian death (Source: @tass_agency/378515).",
-        "Ukrainian forces reported a UAV strike on a multi‑storey building in Odessa, injuring five and causing fires (Source: @UkraineNow/81584).",
-        "Ukrainian authorities noted continued infiltration attempts but reported increased defensive reactions to enemy penetrations (Source: @DeepStateUA/23546)."
+        "Ukrainian air defence reported downing 602 hostile UAVs of various types, including Shahed and Gerbera, during the night of 1‑2 June, with 40 rockets also intercepted (Source: @kpszsu/63655).",
+        "The Donetsk regional prosecutor announced that three Russian aviation bombs (FAB‑250) struck multi‑apartment buildings in Druzhkivka, wounding five civilians (Source: @UkraineNow/81596).",
+        "In Chernihiv region, eight people, including three children, were injured and a fire broke out in a cultural house after Russian attacks (Source: @UkraineNow/81587).",
+        "Ukrainian authorities confirmed a Shahed UAV over Dimer heading toward Vyshedor, indicating continued low‑altitude threats near Kyiv (Source: @mon1tor_ua/67441).",
+        "A Russian UAV strike on a private house in Bochevka, Belgorod region, injured a child, highlighting cross‑border drone threats (Source: @tass_agency/378544)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces conducted over 7,000 assault actions in May, a 37.5% increase, though many were small‑unit or solo attacks (Source: @DeepStateUA/23546).",
-        "Three Russian aerial bombs hit Druzkovka, wounding five civilians, and a drone attacked a hospital in Konotop without casualties (Source: @UkraineNow/81596).",
-        "A Russian drone struck a civilian vehicle in Shchekino, Kursk region, killing the occupant (Source: @tass_agency/378515).",
-        "Russian UAV groups were observed heading toward Ukrainian cities: from Kursk to Romny, from Rivne to Netishyn, and from Kharkiv toward Kharkiv (Source: @kpszsu/63617).",
-        "Russian missile and UAV activity was reported over multiple regions, including Sumy, Poltava, and Cherkasy, indicating a broadening of strike zones (Source: @kpszsu/63636, @kpszsu/63645)."
+        "Russia deployed cruise missile groups over Kyiv region, with five groups arriving near Kagarlyk and three more from Cherkasy expected (Source: @eRadarrua/94864).",
+        "Three Tu‑95MS bombers landed at Olenya airfield and three Tu‑160s proceeded to the Far East, later to land at the Ukrainianka airfield, indicating strategic bomber movements (Source: @eRadarrua/94896).",
+        "Russia announced a ban on aviation fuel exports until 30 November, linking the decision to Ukrainian attacks on Russian oil assets (Source: @UkraineNow/81592).",
+        "French forces seized the sanctioned Russian tanker Tagor in the Atlantic, demonstrating international enforcement of sanctions (Source: @UkraineNow/81589).",
+        "Russian authorities reported that a drone strike caused a fire at an industrial enterprise in Belgorod region (Source: @tass_agency/378549)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported a UAV group from Kursk heading toward Romny, indicating pressure on the eastern axis (Source: @kpszsu/63632).",
-        "A UAV from the north of Kharkiv region was reported heading toward Kharkiv city, suggesting continued aerial threats in the east (Source: @kpszsu/63617).",
-        "Russian bombings in Druzkovka (eastern Donetsk) wounded five civilians, showing intensified strikes on eastern settlements (Source: @UkraineNow/81596).",
-        "Ukrainian defence noted increased infiltration attempts in the east, though defensive reactions have improved (Source: @DeepStateUA/23546).",
-        "UAV activity from the north of Poltava heading toward Komyshnia indicates cross‑regional targeting from the east (Source: @kpszsu/63636)."
+        "Shahed UAVs were reported moving from Kursk region toward Romny in the east (Source: @kpszsu/63632).",
+        "Ukrainian forces noted a group of UAVs from the east of Cherkasy heading toward Bila Tserkva (Source: @kpszsu/63630).",
+        "A UAV group from the north of Kharkiv moved toward Balakliia (Source: @kpszsu/63641).",
+        "Ukrainian defence reported UAVs from the north of Kharkiv heading directly to Kharkiv city (Source: @kpszsu/63617).",
+        "Ukrainian radar observed a Shahed UAV over Dimer heading to Vyshedor, indicating eastern approaches toward Kyiv (Source: @mon1tor_ua/67441)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAV groups from the north of Kyiv region were observed heading toward Kyiv, indicating threats to the capital from the north (Source: @kpszsu/63634).",
-        "A UAV from the north of Cherkasy region was reported heading toward Vishnivka, showing northern‑central pressure (Source: @kpszsu/63638).",
-        "Multiple UAV incursions from the north of Kharkiv toward Novyi Merchyk were reported (Source: @kpszsu/63638).",
-        "Ukrainian air‑defence radar detected a Shahed missile over Kyiv’s Troieshchyna/Obolon districts (Source: @mon1tor_ua/67422).",
-        "A Shahed missile was reported over the Kyiv water supply area in the north (Source: @eRadarrua/94840)."
+        "UAVs from northern Chernihiv region moved along the Belarus border toward Kyiv region (Source: @kpszsu/63619).",
+        "A UAV group from northern Chernihiv headed toward northern Kyiv region (Source: @kpszsu/63624).",
+        "UAVs from northern Kyiv region were observed heading toward Kyiv itself (Source: @kpszsu/63634).",
+        "A Shahed UAV was sighted over Dimer heading toward Vyshedor, near the northern approaches to Kyiv (Source: @mon1tor_ua/67441).",
+        "Five groups of cruise missiles were reported over Kyiv region near Kagarlyk, indicating northern strike concentration (Source: @eRadarrua/94864)."
       ]
     },
     "southern_front": {
       "points": [
-        "UAV groups from the south of Sumy heading toward Okhtyrka were reported, indicating southern pressure on the Sumy front (Source: @kpszsu/63636).",
-        "A UAV from the south of Poltava heading toward Zavodske was observed, showing activity on the southern Poltava axis (Source: @eRadarrua/94888).",
-        "Russian UAVs from the south of Kharkiv region were reported heading toward Kharkiv city (Source: @kpszsu/63617).",
-        "A Russian drone strike hit a multi‑storey building in Kharkiv, injuring two people (Source: @UkraineNow/81584).",
-        "Ukrainian forces reported a UAV strike on a civilian car in Shchekino, Kursk region, reflecting southern‑west pressure (Source: @tass_agency/378515)."
+        "UAVs from the south of Sumy region were reported heading toward Kharkiv region (Source: @kpszsu/63646).",
+        "A Shahed UAV was observed over Dimer heading toward Vyshedor, affecting southern Kyiv suburbs (Source: @mon1tor_ua/67441).",
+        "Russian aviation bombs struck Druzhkivka in Donetsk region, causing civilian injuries (Source: @UkraineNow/81596).",
+        "Ukrainian reports indicated attacks on Dnipro with six dead and 36 injured (Source: @UkraineNow/81607).",
+        "Attacks were also reported in Zaporizhzhia and Sumy regions during the mass strike (Source: @UkraineNow/81607)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air‑defence recorded multiple Shahed missile alerts over Kyiv, including Troieshchyna/Obolon and the Kyiv water supply area (Source: @mon1tor_ua/67422, @eRadarrua/94840).",
-        "Four groups of cruise missiles were reported heading toward the capital, indicating a coordinated missile barrage (Source: @eRadarrua/94871).",
-        "A Shahed missile struck a multi‑storey building in Kharkiv, injuring two civilians (Source: @UkraineNow/81584).",
-        "Russian aerial bombs (FAB‑250) hit Druzkovka, causing five civilian injuries (Source: @UkraineNow/81596).",
-        "Ukrainian forces reported a UAV strike on a civilian car in Shchekino, Kursk region, resulting in a fatality (Source: @tass_agency/378515)."
+        "Ukrainian air defence claimed to have downed 40 rockets and 602 UAVs during the massive night attack, including 11 Iskander‑M ballistic missiles and 26 X‑101 cruise missiles (Source: @kpszsu/63655).",
+        "Five groups of cruise missiles arrived over Kyiv region near Kagarlyk, with additional groups from Cherkasy expected (Source: @eRadarrua/94864).",
+        "Three Tu‑95MS bombers landed at Olenya airfield and three Tu‑160s proceeded to the Far East, later to land at Ukrainianka airfield (Source: @eRadarrua/94896).",
+        "Russian forces used Shahed, Gerbera, and other UAV types in the combined strike across multiple oblasts (Source: @kpszsu/63655).",
+        "Ukrainian radar reported multiple Shahed UAVs over Dimer heading toward Vyshedor and Vyshedor/Hostomel (Source: @mon1tor_ua/67441)."
       ]
     },
     "key_developments": [
-      "Ukraine recorded a net territorial loss of 14 km² in May, the smallest change since October 2023 (Source: @DeepStateUA/23546).",
-      "Russian forces increased assault actions by 37.5% in May, totaling over 7,000 attacks (Source: @DeepStateUA/23546).",
-      "A Russian drone hit a multi‑storey building in Odessa, injuring five people and causing fires (Source: @UkraineNow/81584).",
-      "Three Russian aerial bombs struck Druzkovka, wounding five civilians, and a drone attacked a hospital in Konotop (Source: @UkraineNow/81596).",
-      "France seized the sanctioned Russian oil tanker Tagor in the Atlantic on 31 May with British support (Source: @UkraineNow/81589).",
-      "Ukrainian air‑defence reported multiple Shahed missile alerts over Kyiv, including Troieshchyna/Obolon districts (Source: @mon1tor_ua/67422).",
-      "UAV groups from Kursk, Rivne, Kharkiv and other regions were observed heading toward Ukrainian cities, indicating widespread aerial infiltration (Source: @kpszsu/63617)."
+      "Russia launched a massive combined airstrike with Shahed and other UAVs plus rockets, focusing on Kyiv and striking Dnipro, Kharkiv, Zaporizhzhia, Poltava and other regions, with Ukrainian forces reporting 642 intercepted targets (Source: @kpszsu/63655).",
+      "Five groups of cruise missiles arrived over Kyiv region near Kagarlyk, with three additional groups from Cherkasy expected, indicating a concentrated missile barrage on the capital (Source: @eRadarrua/94864).",
+      "Ukrainian air defence downed 602 hostile UAVs and 40 rockets, including 11 Iskander‑M ballistic missiles and 26 X‑101 cruise missiles, during the night of 1‑2 June (Source: @kpszsu/63655).",
+      "Three Russian FAB‑250 aviation bombs hit multi‑apartment buildings in Druzhkivka, Donetsk region, injuring five civilians (Source: @UkraineNow/81596).",
+      "A Russian drone strike on a private house in Bochevka, Belgorod region, injured a child, showing cross‑border UAV threats (Source: @tass_agency/378544).",
+      "France intercepted the sanctioned Russian oil tanker Tagor in the Atlantic, demonstrating enforcement of sanctions against Russia (Source: @UkraineNow/81589).",
+      "Russia announced a ban on aviation fuel exports until 30 November, citing Ukrainian attacks on Russian oil facilities (Source: @UkraineNow/81592)."
     ],
-    "threat_assessment": "Russian offensive activity remains high, with a surge in small‑unit assaults and increased UAV and bomb strikes across multiple fronts, targeting civilian infrastructure and causing casualties. The proliferation of Shahed missiles over Kyiv and strikes in Odessa and Kharkiv demonstrate a sustained aerial threat to major population centers. International interdiction of Russian logistics, exemplified by the seizure of the Tagor tanker, may constrain Russia’s fuel supply but does not yet diminish its operational tempo.",
-    "regional_response": "Ukrainian defence leadership has introduced new senior appointments, aiming to improve command efficiency amid intensified Russian attacks. Air‑defence units are actively engaging Shahed missiles and UAVs, though alerts over Kyiv suggest gaps in early warning. Local authorities in affected regions are conducting emergency response and civilian protection measures.",
-    "intelligence_notes": "Monitoring of UAV flight paths from Kursk, Rivne, Kharkiv and southern Sumy regions should be prioritized to anticipate future strike vectors. The increase in solo or small‑unit Russian assaults may indicate resource constraints or a shift to guerrilla tactics. Continued tracking of sanctioned Russian maritime assets is essential, as the Tagor seizure shows effective international cooperation against Russia’s supply chain."
+    "threat_assessment": "The recent mass airstrike demonstrates Russia's capability to coordinate large‑scale UAV and missile attacks across multiple fronts, stressing Ukrainian air defence and civil infrastructure. Persistent low‑altitude Shahed UAV incursions near Kyiv and along the Belarus border indicate a sustained threat to northern approaches. Cross‑border drone activity in Belgorod highlights the expanding reach of the conflict beyond Ukraine's borders.",
+    "regional_response": "Ukraine reported significant civilian casualties and infrastructure damage in Donetsk, Chernihiv, Dnipro and other oblasts, prompting heightened alert levels and mobilization of air defence assets. Internationally, France's seizure of a sanctioned Russian tanker underscores continued enforcement of economic measures against Russia. Russian domestic policy changes, such as the aviation fuel export ban, reflect internal resource management amid the conflict.",
+    "intelligence_notes": "Monitoring of UAV flight paths from Kursk, Cherkasy, Kharkiv and Sumy regions provides insight into Russian targeting priorities and potential staging areas. The deployment of cruise missile groups over Kyiv suggests pre‑planned strike packages that may be reused. Continued observation of cross‑border drone incidents in Belgorod is essential for assessing escalation risks beyond Ukrainian territory."
   },
-  "missiles": 0,
-  "drones": 0,
+  "missiles": 53,
+  "drones": 676,
   "kpszsu_timeline": [
-    1,
-    4,
-    3,
+    5,
+    2,
     0,
     1,
     3,
@@ -357,8 +352,8 @@
     3,
     1,
     2,
-    2,
-    6,
+    3,
+    5,
     3,
     3,
     7,
@@ -368,7 +363,8 @@
     11,
     9,
     2,
+    1,
     0,
-    1
+    3
   ]
 }
