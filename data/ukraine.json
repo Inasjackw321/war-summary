@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-02T23:59:15.903682+00:00",
-  "message_count": 416,
+  "updated_at": "2026-06-03T02:19:56.109427+00:00",
+  "message_count": 385,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,10 +15,7 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
-    0,
     439,
-    0,
     0,
     0,
     0,
@@ -27,51 +24,54 @@
     0,
     879,
     0,
-    220,
-    659,
+    0,
+    439,
+    439,
     0,
     220,
     439,
     439,
     220,
-    220,
     1098,
-    220
+    220,
+    220,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    28,
-    14,
-    12,
-    14,
+    15,
+    17,
+    18,
+    13,
+    16,
+    19,
+    18,
     25,
-    10,
-    14,
+    11,
+    25,
     18,
-    18,
-    20,
-    21,
+    29,
     19,
     21,
-    22,
+    13,
     27,
-    22,
-    14,
-    18,
-    18,
-    10,
-    10,
-    24,
-    10,
-    6
+    9,
+    12,
+    9,
+    26,
+    4,
+    9,
+    3,
+    8
   ],
   "messages_by_channel": {
     "@eRadarrua": 98,
-    "@kpszsu": 63,
-    "@mon1tor_ua": 39,
+    "@kpszsu": 43,
+    "@mon1tor_ua": 22,
     "@UkraineNow": 31,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 159
+    "@tass_agency": 165
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/95134",
@@ -80,16 +80,23 @@
     "UkraineNow": "https://t.me/UkraineNow/81637",
     "DeepStateUA": "https://t.me/DeepStateUA/23547",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30626",
-    "tass_agency": "https://t.me/tass_agency/378704"
+    "tass_agency": "https://t.me/tass_agency/378721"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30605",
-    "kpszsu": "https://t.me/kpszsu/63715",
-    "UkraineNow": "https://t.me/UkraineNow/81634",
-    "eRadarrua": "https://t.me/eRadarrua/95085",
-    "tass_agency": "https://t.me/tass_agency/378698"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67453",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30612",
+    "UkraineNow": "https://t.me/UkraineNow/81610",
+    "kpszsu": "https://t.me/kpszsu/63671",
+    "tass_agency": "https://t.me/tass_agency/378712",
+    "eRadarrua": "https://t.me/eRadarrua/95133"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/378717",
+      "post_id": 378717,
+      "channel": "tass_agency",
+      "ts": "2026-06-03T01:44:05+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/95127",
       "post_id": 95127,
@@ -225,12 +232,6 @@
       "post_id": 378684,
       "channel": "tass_agency",
       "ts": "2026-06-02T18:14:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/378682",
-      "post_id": 378682,
-      "channel": "tass_agency",
-      "ts": "2026-06-02T18:00:21+00:00"
     }
   ],
   "post_images": {
@@ -257,107 +258,114 @@
     "kpszsu/63655": "data/media/kpszsu_63655.jpg",
     "kpszsu/63654": "data/media/kpszsu_63655.jpg"
   },
-  "summary": "Russian forces conducted a combined drone and missile strike on Kiev, Dnipro, Kharkiv and Zaporizhzhia, igniting a Ukroboronprom building in Kiev. Simultaneously, multiple UAV attacks hit infrastructure in the Krasnodar, Bryansk, Kursk and Belgorod regions, causing civilian injuries and fires. Ukrainian forces reported limited advances on the Sumy and Kharkiv fronts while facing intensified UAV pressure.",
+  "summary": "Russia launched a massive missile and drone strike on Kyiv on 2 June, causing dozens of casualties and extensive damage. Ukrainian officials report shortages in air‑defence missiles and limited Russian capacity for large‑scale offensives. Both sides warn of escalating use of ballistic and hypersonic weapons across multiple fronts.",
   "key_points": [
-    "Russian combined drone and missile strike hit Kiev, Dnipro, Kharkiv and Zaporizhzhia, setting a Ukroboronprom building on fire (Source: @ukr_leaks_eng/30605).",
-    "UAV attack caused a fire at the Ilskoy refinery in Krasnodar region and debris fell on a multi‑storey building in Slavyansk‑on‑Kuban (Source: @ukr_leaks_eng/30605).",
-    "Civilian casualties from UAV strikes reported in Bryansk (two women injured), Kursk (one civilian killed) and Belgorod regions (multiple injuries) (Source: @ukr_leaks_eng/30605).",
-    "Ukrainian forces advanced up to 500 m in several sectors of the Sumy direction, engaging in firefights near Bachivsk, Ivolzhansky and Pisarevsky (Source: @ukr_leaks_eng/30605).",
-    "In the Kharkiv direction, Russian “North” Group units advanced toward Kachiy Lopan’ and Okhrikovka, with three AFU soldiers surrendering (Source: @ukr_leaks_eng/30605).",
-    "Ukrainian defense industry facilities in Khmelnytskyi region were set on fire after Russian attacks (Source: @ukr_leaks_eng/30611).",
-    "Groups of UAVs were reported moving from the south toward Krivoy Rog, Zaporizhzhia and Snigurivka (Source: @kpszsu/63715, @kpszsu/63725)."
+    "Russia employed over 40 rockets and up to 300 drones in a coordinated attack on Kyiv, resulting in at least 7 deaths and 90 injured, including children (Source: @mon1tor_ua/67453).",
+    "Ukrainian Air Force spokesman Ignat confirmed a persistent shortage of air‑defence missiles throughout the war (Source: @ukr_leaks_eng/30612).",
+    "Russian Defence Ministry announced the use of high‑precision hypersonic weapons against critical infrastructure in Kyiv, Zaporizhzhia, Kharkiv, Dnipro, Poltava, Khmelnytskyi and Sumy regions (Source: @UkraineNow/81610).",
+    "Ukraine’s Tregubov stated Russian forces can no longer conduct large simultaneous offensives and are focusing on limited local operations (Source: @UkraineNow/81621).",
+    "Ukrainian media claim Russia has stockpiled over 200 Tsirkon hypersonic missiles capable of striking Kyiv in six minutes and are allegedly impossible to intercept (Source: @ukr_leaks_eng/30614).",
+    "Multiple alerts indicated active Russian tactical aviation and ballistic weapon threats on the north‑east, east, north‑west and southern directions (Source: @kpszsu/63671, @kpszsu/63710, @kpszsu/63720, @kpszsu/63727).",
+    "Three UAVs were shot down over Leningrad Oblast, showing Russian air‑defence activity beyond the front lines (Source: @tass_agency/378712).",
+    "Polish political tension rose as former ambassador Bartosz Cichocki returned his Ukrainian Order of Merit, citing Ukraine’s tribute to UPA and Nazi collaborators (Source: @ukr_leaks_eng/30597)."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian combined drone‑missile strike ignited a Ukroboronprom building in Kiev and hit multiple cities. Ukrainian forces made modest gains on the Sumy and Kharkiv fronts amid intensified UAV attacks on Russian‑held territory. Civilian casualties and infrastructure damage continued across several regions.",
+    "executive_summary": "Russia launched a massive missile and drone strike on Kyiv on 2 June, causing dozens of casualties and extensive damage. Ukrainian officials report severe shortages in air‑defence missiles and note Russian forces are now limited to localized operations. Both sides warn of escalating use of ballistic and hypersonic weapons across multiple fronts.",
     "ukraine": {
       "points": [
-        "Ukrainian defense industry enterprises in the Khmelnytskyi region were set ablaze following Russian attacks, indicating targeting of industrial capacity (Source: @ukr_leaks_eng/30611).",
-        "Ukrainian forces reported advancing up to 500 meters in the Sumy direction, securing sections near Bachivsk, Ivolzhansky and Pisarevsky and engaging in firefights (Source: @ukr_leaks_eng/30605).",
-        "In the Kharkiv sector, assault units of the Russian \"North\" Group moved toward the logistics hub Kachiy Lopan' and Okhrikovka, with three Ukrainian soldiers surrendering (Source: @ukr_leaks_eng/30605).",
-        "Ukrainian officials warned of a possible massive strike that night, urging the public to heed alerts (Source: @UkraineNow/81634)."
+        "Ukrainian authorities reported 7 fatalities and 90 injured in Kyiv after a coordinated attack involving more than 40 rockets and up to 300 drones on 2 June, including two child casualties (Source: @mon1tor_ua/67453).",
+        "Air‑defence commander Ignat confirmed a continuous shortage of surface‑to‑air missiles, hampering Ukraine’s ability to intercept incoming strikes (Source: @ukr_leaks_eng/30612).",
+        "President Zelensky highlighted the dependence of Russian missile production on foreign components, citing specific numbers for Kalibr, Iskander and drone parts (Source: @UkraineNow/81633).",
+        "Ukrainian health officials noted damage to five medical facilities in Kyiv from Russian attacks, with some partially destroyed (Source: @UkraineNow/81611).",
+        "Ukrainian Ombudsman Lubinets warned of ongoing violations, including arrests and property confiscations, despite promised reforms (Source: @ukr_leaks_eng/30624)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces executed a coordinated strike using drones and missiles on Kiev, Dnipro, Kharkiv and Zaporizhzhia, causing a fire at a Ukroboronprom building in Kiev (Source: @ukr_leaks_eng/30605).",
-        "UAV attacks in the Krasnodar region ignited a fire at the Ilskoy refinery and dropped debris on a multi‑storey building in Slavyansk‑on‑Kuban (Source: @ukr_leaks_eng/30605).",
-        "In the Kursk region, a civilian car was hit by a drone in Shchekino, killing a civilian, and additional drone incidents injured several people in nearby villages (Source: @ukr_leaks_eng/30605).",
-        "Belgorod region experienced multiple UAV strikes on roads, vehicles and settlements, resulting in injuries to civilians and damage to infrastructure (Source: @ukr_leaks_eng/30605)."
+        "The Russian Defence Ministry announced the use of high‑precision hypersonic weapons against defence‑industrial targets in multiple oblasts, including Kyiv and Dnipro (Source: @UkraineNow/81610).",
+        "Russian media reported a stockpile of over 200 Tsirkon missiles capable of reaching Kyiv in six minutes, claimed to be impossible to shoot down (Source: @ukr_leaks_eng/30614).",
+        "Three UAVs were intercepted over Leningrad Oblast, indicating Russian air‑defence activity beyond the immediate combat zone (Source: @tass_agency/378712).",
+        "Russian officials stated that due to force shortages they must abandon broad offensives and focus on localized operations (Source: @UkraineNow/81621).",
+        "TASS reported temporary fuel sale limits in LNR, restricting purchases to 20 litres per day (Source: @tass_agency/378686)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported limited advances in the Sumy direction, gaining up to 500 m in several sectors and engaging Russian units near Bachivsk, Ivolzhansky and Pisarevsky (Source: @ukr_leaks_eng/30605).",
-        "Russian \"North\" Group units continued offensive actions toward Kachiy Lopan' and Okhrikovka on the Kharkiv front, with three Ukrainian soldiers surrendering (Source: @ukr_leaks_eng/30605).",
-        "UAV groups from the north‑east were observed launching, with approximately six groups reported from that direction (Source: @eRadarrua/95085).",
-        "New UAV groups from Kursk region crossed into the Sumy area, heading toward Ternev (Source: @kpszsu/63727)."
+        "Ukrainian sources reported new groups of UAVs crossing from Kursk region toward Ternev in Sumy oblast (Source: @kpszsu/63727).",
+        "Alerts indicated active Russian tactical aviation over north‑east and eastern directions, raising the threat of air‑strike missions (Source: @kpszsu/63671).",
+        "Ukrainian reports noted attacks on Kharkiv region resulting in 6 deaths and 36 injuries (Source: @UkraineNow/81607).",
+        "Groups of UAVs were observed moving from the east toward Izium in Kharkiv oblast (Source: @kpszsu/63675).",
+        "Russian ballistic weapon threats were flagged for the north‑east sector (Source: @kpszsu/63717)."
       ]
     },
     "northern_front": {
       "points": [
-        "A six‑year‑old girl was injured in Bryansk region when UAV debris fell in a residential yard (Source: @tass_agency/378698).",
-        "In Bryansk, a civilian car was struck by a drone in Shchekino, resulting in a civilian death (Source: @ukr_leaks_eng/30605).",
-        "Ukrainian forces attacked an FPV drone on a pig farm in Klimovsky district, injuring a worker (Source: @ukr_leaks_eng/30605).",
-        "Two women were injured by a FPV drone in Andreykovichi, Pogarsky district (Source: @ukr_leaks_eng/30605)."
+        "Multiple alerts warned of ballistic weapon threats from the north and north‑east, including potential strikes on front‑line areas (Source: @kpszsu/63720, @kpszsu/63717).",
+        "UAV groups were reported moving along the Belarus border toward Kyiv region from northern Chernihiv oblast (Source: @kpszsu/63674).",
+        "A single Shahed drone was detected approaching Kyiv from the north (Source: @mon1tor_ua/67459).",
+        "UAV activity was noted near Vyshedorivka in Chernihiv, heading toward the Dnipro reservoir (Source: @eRadarrua/95133).",
+        "Three Shahed drones were reported over Kyiv, prompting air‑defence alerts (Source: @mon1tor_ua/67464)."
       ]
     },
     "southern_front": {
       "points": [
-        "UAV groups from the south were reported moving toward Krivoy Rog and Zaporizhzhia (Source: @kpszsu/63715, @kpszsu/63713).",
-        "A UAV group from the south headed toward Snigurivka in Mykolaiv region (Source: @kpszsu/63725).",
-        "UAV attacks in the Krasnodar region caused a fire at the Ilskoy refinery (Source: @ukr_leaks_eng/30605).",
-        "UAV debris fell on a multi‑storey building in Slavyansk‑on‑Kuban, causing damage (Source: @ukr_leaks_eng/30605)."
+        "Russian ballistic weapon threat warnings were issued for the southern direction (Source: @kpszsu/63710).",
+        "Ukrainian media cited Russian use of hypersonic weapons against southern targets, including Zaporizhzhia and Kharkiv (Source: @UkraineNow/81610).",
+        "Ukrainian reports from Dnipro indicated a reactive drone strike on a multi‑storey building, injuring an 8‑year‑old girl and causing 12 deaths (Source: @UkraineNow/81622).",
+        "Ukrainian officials reported damage to five medical facilities in Kyiv from southern‑origin attacks (Source: @UkraineNow/81611).",
+        "Ukrainian forces observed UAVs from the Black Sea heading toward Odesa region (Source: @kpszsu/63716)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian forces employed combined drone and missile strikes on major Ukrainian cities, including a hit on a Ukroboronprom building in Kiev (Source: @ukr_leaks_eng/30605).",
-        "Ukrainian forces launched guided aviation bombs on Sumy and Donetsk regions (Source: @kpszsu/63690).",
-        "Multiple UAV groups were observed launching from north‑east, south‑east and southern directions, indicating a broad aerial pressure (Source: @eRadarrua/95085, @kpszsu/63713, @kpszsu/63725).",
-        "Civilian casualties from UAV attacks were reported across Bryansk, Kursk and Belgorod regions, highlighting the impact on non‑military targets (Source: @ukr_leaks_eng/30605)."
+        "Ukrainian authorities reported over 700 aerial attack means used on the night of 2 June, including rockets, drones and missiles across all sectors (Source: @kpszsu/63699).",
+        "Russian tactical aviation activity was flagged for north‑east and eastern sectors, with threats of air‑strike deployment (Source: @kpszsu/63671).",
+        "Three UAVs were shot down over Leningrad Oblast, showing Russian air‑defence engagement beyond the front (Source: @tass_agency/378712).",
+        "Ukrainian air‑defence units reported continuous interceptions of dozens of UAVs throughout the day (Source: @kpszsu/63699).",
+        "Ukrainian spokesperson highlighted a chronic shortage of air‑defence missiles, limiting interception capacity (Source: @ukr_leaks_eng/30612)."
       ]
     },
     "key_developments": [
-      "Russian combined drone‑missile strike ignited a Ukroboronprom building in Kiev and hit Dnipro, Kharkiv and Zaporizhzhia (Source: @ukr_leaks_eng/30605).",
-      "UAV attack caused a fire at the Ilskoy refinery in Krasnodar region and debris fell on a building in Slavyansk‑on‑Kuban (Source: @ukr_leaks_eng/30605).",
-      "Civilian casualties from UAV strikes occurred in Bryansk (two women injured), Kursk (one civilian killed) and Belgorod (multiple injuries) (Source: @ukr_leaks_eng/30605).",
-      "Ukrainian forces advanced up to 500 m in the Sumy direction, securing sections near Bachivsk, Ivolzhansky and Pisarevsky (Source: @ukr_leaks_eng/30605).",
-      "Russian \"North\" Group units advanced toward Kachiy Lopan' and Okhrikovka on the Kharkiv front, with three Ukrainian soldiers surrendering (Source: @ukr_leaks_eng/30605).",
-      "Ukrainian defense industry facilities in Khmelnytskyi region were set on fire after Russian attacks (Source: @ukr_leaks_eng/30611).",
-      "Multiple UAV groups were reported moving from the south toward Krivoy Rog, Zaporizhzhia and Snigurivka (Source: @kpszsu/63715, @kpszsu/63725)."
+      "Russia launched a coordinated strike on Kyiv using more than 40 rockets and up to 300 drones, causing at least 7 deaths and 90 injuries, including children (Source: @mon1tor_ua/67453).",
+      "Ukrainian Air Force spokesman Ignat confirmed an ongoing shortage of air‑defence missiles, affecting interception capabilities (Source: @ukr_leaks_eng/30612).",
+      "The Russian Defence Ministry announced the deployment of hypersonic weapons against critical infrastructure in multiple Ukrainian regions, including Kyiv and Dnipro (Source: @UkraineNow/81610).",
+      "Ukrainian officials reported that Russian forces can no longer conduct large simultaneous offensives and are now focusing on limited local operations (Source: @UkraineNow/81621).",
+      "Ukrainian media claim Russia has amassed over 200 Tsirkon missiles capable of striking Kyiv in six minutes and are allegedly impossible to intercept (Source: @ukr_leaks_eng/30614).",
+      "Multiple alerts indicated active Russian tactical aviation and ballistic weapon threats on the north‑east, east, north and south fronts (Source: @kpszsu/63671, @kpszsu/63710, @kpszsu/63720, @kpszsu/63727).",
+      "Three UAVs were shot down over Leningrad Oblast, demonstrating Russian air‑defence activity beyond the immediate combat zone (Source: @tass_agency/378712)."
     ],
-    "threat_assessment": "Russian UAV and missile operations continue to target both strategic infrastructure and civilian areas across multiple fronts, increasing pressure on Ukrainian defenses. Ukrainian advances remain limited to small territorial gains, while Russian forces consolidate positions around key logistics hubs. The proliferation of UAV groups from several directions suggests a sustained aerial campaign that could strain Ukrainian air defense resources.",
-    "regional_response": "Local authorities in affected Russian regions reported civilian injuries and infrastructure damage, prompting emergency responses and limited evacuations. Ukrainian officials warned of potential massive strikes and urged public vigilance, indicating heightened alert levels in major cities. International observers have noted the escalation but specific diplomatic actions were not detailed in the source material.",
-    "intelligence_notes": "The concentration of UAV launches from north‑east, south‑east and southern axes points to coordinated Russian aerial tactics aimed at overwhelming Ukrainian air defenses. Fires at industrial sites such as the Ilskoy refinery may be intended to disrupt energy supplies. Continued Ukrainian small‑scale advances suggest a focus on probing Russian lines rather than large‑scale offensives at this stage."
+    "threat_assessment": "Russia is intensifying its use of high‑precision and hypersonic strike capabilities across strategic Ukrainian cities, while simultaneously dispersing UAV and ballistic threats on all fronts. Ukraine faces critical air‑defence shortages that limit its ability to counter the increased volume of aerial attacks. The shift to localized Russian operations suggests a strategic adaptation to manpower constraints, but the continued deployment of advanced weapons sustains a high‑risk environment for civilian and military targets.",
+    "regional_response": "International observers note the escalation of Russian hypersonic and ballistic weapon use as a destabilizing factor, potentially prompting heightened diplomatic pressure. Ukrainian officials are calling for increased foreign air‑defence aid to mitigate missile shortages. Neighboring states, particularly Poland, are experiencing political friction over historical narratives, influencing broader regional support dynamics.",
+    "intelligence_notes": "Monitoring of UAV flight paths from Kursk, the Black Sea and Belarus borders is essential for early warning of inbound attacks. The reported stockpile of Tsirkon missiles warrants close surveillance of Russian logistics hubs. Continued assessment of Russian force allocations will clarify the extent of their shift to localized offensives and potential future escalation points."
   },
   "missiles": 52,
   "drones": 5053,
   "kpszsu_timeline": [
-    12,
+    1,
+    1,
+    0,
+    5,
     7,
+    5,
     2,
-    1,
-    0,
     3,
-    7,
-    4,
-    4,
-    3,
-    1,
+    0,
     1,
     0,
     0,
-    0,
+    1,
     2,
-    1,
-    3,
-    1,
+    0,
     4,
-    1,
     3,
     1,
-    2
+    2,
+    3,
+    1,
+    1,
+    0,
+    0
   ]
 }
