@@ -413,8 +413,9 @@ _KH_RE = re.compile(
 
 def _extract_drones_from_text(text: str) -> int:
     """Extract drone count from a single text. Returns 0 if not found."""
-    # Shahed count is the most reliable — always refers to the launch, never shoot-down stats
-    m = re.search(r'(\d{2,4})\s+Shahed', text, re.IGNORECASE)
+    # Shahed count is the most reliable — always refers to the launch, never shoot-down stats.
+    # (?<!\d) prevents matching a substring like "053" inside cumulative "5053 Shahed".
+    m = re.search(r'(?<!\d)(\d{2,3})\s+Shahed', text, re.IGNORECASE)
     if m:
         return int(m.group(1))
 
@@ -426,13 +427,13 @@ def _extract_drones_from_text(text: str) -> int:
     if zbito:
         search_text = search_text[:zbito.start()]
 
-    m = re.search(r'(\d{2,4})\s+(?:attack|strike|combat)\s+UAVs?\b', search_text, re.IGNORECASE)
+    m = re.search(r'(?<!\d)(\d{2,3})\s+(?:attack|strike|combat)\s+UAVs?\b', search_text, re.IGNORECASE)
     if m:
         return int(m.group(1))
-    m = re.search(r'(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', search_text)
+    m = re.search(r'(?<!\d)(\d+)\s+ударни\w+\s+(?:[Бб][Пп][Лл][Аа]|дрон\w*)', search_text)
     if m:
         return int(m.group(1))
-    m = re.search(r'air\s+attack\s+vehicles?.{0,200}[-–,]\s*(\d{2,4})\s+UAVs?\b', text, re.IGNORECASE | re.DOTALL)
+    m = re.search(r'air\s+attack\s+vehicles?.{0,200}[-–,]\s*(?<!\d)(\d{2,3})\s+UAVs?\b', text, re.IGNORECASE | re.DOTALL)
     if m:
         return int(m.group(1))
     return 0
@@ -485,6 +486,20 @@ def _extract_missiles_from_text(text: str) -> int:
     return 0
 
 
+# Phrases that identify cumulative/since-war-began statistics rather than last-night attack counts.
+# These posts must be skipped so their large totals don't contaminate missile/drone counts.
+_CUMULATIVE_RE = re.compile(
+    r'з\s+початку\s+повномасштабного'       # "since the start of the full-scale"
+    r'|за\s+час\s+повномасштабного'          # "during the full-scale"
+    r'|since\s+the\s+(?:start|beginning)\s+of\s+the\s+full.?scale'
+    r'|з\s+24\s+лютого|від\s+24\s+лютого'   # "since February 24"
+    r'|всього\s+за\s+(?:рік|місяць|весь)'   # "total for the year/month/all time"
+    r'|загалом\s+(?:за\s+)?(?:рік|місяць)'  # "in total for the year/month"
+    r'|за\s+весь\s+час',
+    re.IGNORECASE,
+)
+
+
 def parse_attack_counts(texts: list[str]) -> tuple[int, int]:
     """Return (missiles, drones) from the most recent attack summary in texts.
 
@@ -494,10 +509,17 @@ def parse_attack_counts(texts: list[str]) -> tuple[int, int]:
     for text in texts:
         if not _ATTACK_SUMMARY_RE.search(text):
             continue
+        # Skip cumulative statistics posts — they quote war-long totals (e.g. "5105 aerial
+        # means since the full-scale invasion") that would dwarf any single-night count.
+        if _CUMULATIVE_RE.search(text):
+            continue
 
-        # Total aerial means in this text
-        m_total_uk = re.search(r'(\d{2,4})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
-        m_total_en = re.search(r'(\d{2,4})\s+air\s+attack\s+vehicles?\b', text, re.IGNORECASE)
+        # Total aerial means in this text.
+        # Cap at 3 digits (≤999): kpszsu cumulative/since-invasion posts use 4-digit
+        # totals (e.g. "5105 засобів повітряного нападу") that must not be treated as
+        # a single-night attack count.
+        m_total_uk = re.search(r'(?<!\d)(\d{2,3})\s+засо?б\w*\s+повітряного\s+нападу', text, re.IGNORECASE)
+        m_total_en = re.search(r'(?<!\d)(\d{2,3})\s+air\s+attack\s+vehicles?\b', text, re.IGNORECASE)
         total_m = m_total_uk or m_total_en
         total = int(total_m.group(1)) if total_m else 0
 
