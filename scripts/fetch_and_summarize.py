@@ -960,7 +960,27 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
         missiles, drones = parse_attack_counts(kpszsu_raw)
         red_alerts_raw = missiles + drones
         print(f"  [kpszsu] missiles={missiles} drones={drones} total={red_alerts_raw}", file=sys.stderr)
-        update_conflict_history(output_dir, "ukraine", {"total": red_alerts_raw, "missiles": missiles, "drones": drones})
+
+        if missiles > 0 or drones > 0:
+            # Only write to history when we have real data — prevents a zero
+            # entry at the start of a new day from wiping out the previous count.
+            update_conflict_history(output_dir, "ukraine", {"total": red_alerts_raw, "missiles": missiles, "drones": drones})
+        else:
+            # No attack parsed yet — fall back to the most recent non-zero history
+            # entry so the display keeps showing the last known count.
+            hist_path = output_dir / "ukraine_history.json"
+            try:
+                hist = json.loads(hist_path.read_text()) if hist_path.exists() else {"entries": []}
+                for entry in reversed(hist.get("entries", [])):
+                    if entry.get("missiles", 0) > 0 or entry.get("drones", 0) > 0:
+                        missiles = entry["missiles"]
+                        drones   = entry["drones"]
+                        red_alerts_raw = missiles + drones
+                        print(f"  [kpszsu] no new data — showing last known: missiles={missiles} drones={drones}", file=sys.stderr)
+                        break
+            except Exception as e:
+                print(f"  [kpszsu] history fallback failed: {e}", file=sys.stderr)
+
         # Count UAV events per eRadarrua post (each city direction = 1 event for accuracy)
         ua_alert_events = []
         ua_texts = per_channel_messages.get(alert_ch, [])
