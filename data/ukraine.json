@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-04T23:20:55.421573+00:00",
+  "updated_at": "2026-06-05T01:48:58.898733+00:00",
   "message_count": 497,
   "channels": [
     "eRadarrua",
@@ -11,85 +11,92 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 0,
+  "red_alerts": 293,
   "red_alerts_timeline": [
-    1,
+    0,
+    0,
+    49,
     0,
     0,
     0,
-    2,
-    1,
+    16,
+    16,
     0,
     0,
-    1,
-    1,
+    33,
+    0,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    49,
+    16,
     0,
     0,
-    1,
-    1,
-    0,
-    2,
-    1,
-    1,
-    1,
-    0,
-    2,
-    1,
-    3,
     0
   ],
   "combined_activity_timeline": [
-    3,
-    3,
     1,
-    3,
-    6,
-    11,
-    18,
-    29,
-    23,
-    23,
-    17,
-    24,
-    23,
-    26,
-    19,
-    28,
-    21,
-    37,
-    72,
+    4,
+    9,
+    14,
+    14,
     25,
     23,
-    29,
+    17,
     23,
-    10
+    24,
+    28,
+    16,
+    28,
+    21,
+    18,
+    73,
+    44,
+    27,
+    18,
+    30,
+    15,
+    10,
+    6,
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 83,
-    "@kpszsu": 144,
+    "@eRadarrua": 82,
+    "@kpszsu": 149,
     "@mon1tor_ua": 8,
     "@UkraineNow": 26,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 208
+    "@tass_agency": 204
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/95478",
-    "kpszsu": "https://t.me/kpszsu/64060",
+    "kpszsu": "https://t.me/kpszsu/64076",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67492",
     "UkraineNow": "https://t.me/UkraineNow/81685",
     "DeepStateUA": "https://t.me/DeepStateUA/23550",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30688",
-    "tass_agency": "https://t.me/tass_agency/379214"
+    "tass_agency": "https://t.me/tass_agency/379223"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81666",
-    "kpszsu": "https://t.me/kpszsu/64058",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30666",
-    "tass_agency": "https://t.me/tass_agency/379206",
-    "eRadarrua": "https://t.me/eRadarrua/95441"
+    "UkraineNow": "https://t.me/UkraineNow/81681",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67485",
+    "kpszsu": "https://t.me/kpszsu/64044",
+    "tass_agency": "https://t.me/tass_agency/379216",
+    "DeepStateUA": "https://t.me/DeepStateUA/23550",
+    "eRadarrua": "https://t.me/eRadarrua/95457"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/379222",
+      "post_id": 379222,
+      "channel": "tass_agency",
+      "ts": "2026-06-05T01:19:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/379214",
       "post_id": 379214,
@@ -218,12 +225,6 @@
       "ts": "2026-06-04T18:56:17+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/Z4sjuc3sZWmguX9DKLJbu_lE4zP013jGExN3Ah61w6dPqSOveHdaaZT4pvEs6-bcEagKVlVJ7sovFSJ93dJLEmC6Siz1-rwSQ7mgY7Ydg3whLwsvZxYqRWE-M3aU3aXsjsh4JzH22HexasXjYt0Ntg63b5DkZy3vHycsI9EmekngvEWFaVW_pE1Ax-vAymNMOR-rPBfBV0BNCnJU_ai8MBcbt4a6eK_aBcXopt3bG0Dn5XMbH1an_u22tO9_8m9flBwUR1Vkkr4LPw8CPKCx8KIaKG5m4O9i3eypEq7d4zUJu_XeUH691SyVMbX6H12P4zlUxNsdF7Fwfq94OEzCXA.jpg",
       "companion_text_id": 95427
-    },
-    {
-      "post_url": "https://t.me/tass_agency/379175",
-      "post_id": 379175,
-      "channel": "tass_agency",
-      "ts": "2026-06-04T18:36:55+00:00"
     }
   ],
   "post_images": {
@@ -252,110 +253,106 @@
     "eRadarrua/95329": "data/media/eRadarrua_95329.jpg",
     "eRadarrua/95328": "data/media/eRadarrua_95329.jpg",
     "kpszsu/63867": "data/media/kpszsu_63867.jpg",
-    "kpszsu/63866": "data/media/kpszsu_63867.jpg"
+    "kpszsu/63868": "data/media/kpszsu_63867.jpg"
   },
-  "summary": "IAEA reported a massive attack on the Zaporizhzhia nuclear power plant, highlighting risks to the power grid. Russian forces continued extensive UAV strikes across multiple fronts, including hits on infrastructure in Kyiv, Kherson, and Crimea. The United States advanced a $8 billion aid package for Ukraine while Russian intelligence indicated a capacity to launch up to 100 ballistic missiles monthly.",
+  "summary": "Ukraine reports increased Shahed drone activity across multiple oblasts and a recent Russian ballistic missile strike on Zaporizhzhia, while Russian officials claim the ability to launch up to 100 ballistic missiles per month. Ukrainian intelligence highlights continued UAV incursions in Kharkiv, Sumy, and Dnipropetrovsk regions. Diplomatic efforts continue, with Zelensky's open letter to Putin and EU funding movements for Ukrainian defense.",
   "key_points": [
-    "IAEA observed heavy smoke and sounds of military activity at Zaporizhzhia TPP, noting personnel in shelters and concerns over the plant's transmission line (Source: @UkraineNow/81666).",
-    "Multiple Russian‑controlled UAVs were reported over Kharkiv, Zaporizhzhia, Sumy, and other regions, targeting cities, military assets, and infrastructure (Source: @kpszsu/64058).",
-    "Russia claims the ability to launch up to 100 ballistic missiles per month and plans to deliver up to 60 Kinzhal hypersonic missiles this year (Source: @UkraineNow/81671).",
-    "U.S. House of Representatives backed a $8 billion military credit package and additional sanctions against Russia, with a final vote expected on 7 August (Source: @UkraineNow/81657).",
-    "Ukrainian UAVs struck a Russian patrol boat class \"Svitlyak\" in Crimea and hit a Pantsir‑S1 air defence system in Kherson region (Source: @UkraineNow/81667).",
-    "Russian attacks in Zaporizhzhia caused ten civilian injuries, damaging a residential high‑rise and a sleeping district (Source: @UkraineNow/81681).",
-    "Finland warned it was prepared to shoot down Ukrainian drones that might enter its airspace after a strike on St. Petersburg (Source: @ukr_leaks_eng/30666)."
+    "Russian forces launched a missile strike on Zaporizhzhia, injuring 10 people and damaging a residential high‑rise building. (Source: @UkraineNow/81681)",
+    "Ukrainian air defence radar reports multiple Shahed drones targeting areas in Chernihiv, Poltava, Kyiv, and Kherson regions. (Source: @mon1tor_ua/67485)",
+    "Ukrainian intelligence (HUR) states Russia can employ up to 100 ballistic missiles monthly, with production rates of 55‑60 units and plans for up to 60 Kinzhal hypersonic missiles this year. (Source: @UkraineNow/81671)",
+    "Numerous UAV sightings reported: BPLAs over Kharkiv near Bohodukhiv, Sumy from the north, and Dnipropetrovsk near Vasylkivka. (Source: @kpszsu/64044, @kpszsu/64040)",
+    "Hungary lifted a €6.6 billion EU fund veto for Ukrainian weapons purchases, according to Hungarian media. (Source: @tass_agency/379216)",
+    "Zelensky sent an open letter to Putin proposing a meeting and a full ceasefire, citing monthly Russian casualties of over 30 000. (Source: @DeepStateUA/23550)",
+    "US lawmakers passed a resolution urging Trump to end the war in Iran, while Israel and Lebanon announced a ceasefire contingent on Hezbollah's withdrawal. (Source: @UkraineNow/81656)"
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "IAEA reported a massive attack on the Zaporizhzhia nuclear power plant, raising concerns over the plant's transmission line. Russian UAV operations intensified, striking infrastructure across Kyiv, Kharkiv, Zaporizhzhia, Sumy, and Crimea. The United States moved forward with a multi‑billion‑dollar aid package while Russia announced a capacity to launch up to 100 ballistic missiles monthly.",
+    "executive_summary": "Russian missile strike on Zaporizhzhia injures civilians and damages infrastructure, highlighting ongoing high‑intensity attacks. Ukrainian air defence reports a surge in Shahed drone incursions across several front‑line oblasts, indicating intensified Russian aerial pressure. Diplomatic channels remain active, with Zelensky's open letter to Putin and EU financial support for Ukrainian defence.",
     "ukraine": {
       "points": [
-        "The International Atomic Energy Agency (IAEA) observed light smoke and heard military sounds at the Zaporizhzhia nuclear power plant, confirming plant personnel were sheltering due to the attack and that the plant's single transmission line remains connected (Source: @UkraineNow/81666).",
-        "Ukrainian forces reported a UAV strike on a Russian patrol boat of the \"Svitlyak\" class in Crimea, also damaging a Pantsir‑S1 air‑defence system in the Kherson region and a radar navigation system RSBN‑4N (Source: @UkraineNow/81667).",
-        "A Russian attack on Zaporizhzhia resulted in ten civilian injuries, with damage to a residential high‑rise and a sleeping district (Source: @UkraineNow/81681).",
-        "Ukrainian officials announced that the United States House of Representatives supported a $8 billion military credit package and additional sanctions, with a final vote slated for 7 August (Source: @UkraineNow/81657).",
-        "Finland's defence minister stated the country was ready to intercept Ukrainian drones over its airspace following a Ukrainian strike on St. Petersburg (Source: @ukr_leaks_eng/30666)."
+        "Zelensky's open letter to Putin proposes a meeting, a full ceasefire, and prisoner exchange, emphasizing monthly Russian casualties of over 30 000 and urging an end to hostilities. (Source: @DeepStateUA/23550)",
+        "Ukraine's HUR intelligence assesses Russia's capacity to launch up to 100 ballistic missiles per month, maintaining steady production of 55‑60 missiles and planning delivery of up to 60 Kinzhal hypersonic missiles this year. (Source: @UkraineNow/81671)",
+        "Ukrainian forces report multiple Shahed drone attacks: three in Chernihiv heading toward Kyiv, two along the Poltava‑Chernihiv border, and one near Kirovohrad heading to Dnipropetrovsk. (Source: @mon1tor_ua/67485)",
+        "Ukrainian air defence radar logs UAV activity over Kharkiv near Bohodukhiv moving southwest, and over Sumy from the north, indicating continued Russian aerial reconnaissance. (Source: @kpszsu/64044)",
+        "A logistics centre of Nova Poshta in Dnipro was attacked for the second consecutive day, with assessments of damage ongoing and cargo losses being evaluated. (Source: @UkraineNow/81676)"
       ]
     },
     "russia": {
       "points": [
-        "Russian intelligence disclosed the ability to launch up to 100 ballistic missiles per month and a production rate of 55–60 missiles monthly, with plans to deliver up to 60 Kinzhal hypersonic missiles this year (Source: @UkraineNow/81671).",
-        "Russian forces carried out coordinated UAV attacks on multiple Ukrainian regions, including Kyiv (Boryspil industrial site), Kherson (ambulance vehicle), and Sumy (village of Yampil) causing civilian casualties (Source: @UkraineNow/81677).",
-        "Russia paid 204.3 billion rubles in subsidies to its oil refineries in May, a significant increase from previous months, to offset fuel price differentials caused by the war (Source: @UkraineNow/81662).",
-        "Russian officials claimed a closed‑loop dialogue with the United States over Ukrainian settlement, citing interest from Kushner and Whitfield, though no concrete outcomes were reported (Source: @tass_agency/379206)."
+        "Russian officials claim the ability to launch up to 100 ballistic missiles monthly, with production rates of 55‑60 units and plans to field up to 60 Kinzhal hypersonic missiles this year. (Source: @UkraineNow/81671)",
+        "Hungary removed its €6.6 billion EU fund veto for Ukrainian weapons procurement, facilitating further Russian‑targeted aid flows. (Source: @tass_agency/379216)",
+        "Russia's defense ministry reported no intention to close the automotive market, focusing on local production advantages over imports. (Source: @tass_agency/379220)",
+        "Russian spokesperson Peskov suggested Zelensky could travel to Moscow for talks, indicating a potential diplomatic opening. (Source: @tass_agency/379188)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAVs were reported over Kharkiv region, flying past Krasnopavlivka heading west, and over Sumy from the north (Source: @kpszsu/64058).",
-        "In the Kharkiv direction, a guided strike UAV approached from the southwest toward the city (Source: @kpszsu/64027).",
-        "Ukrainian forces noted UAV activity over the Melitopol urban district, with a massive attack on the district and a school hit, injuring six civilians (Source: @ukr_leaks_eng/30663).",
-        "Russian UAV attacks targeted the Melitopol meat‑processing plant, causing one injury (Source: @ukr_leaks_eng/30663)."
+        "UAVs observed over Kharkiv region near Bohodukhiv moving southwest, and over Sumy from the north, suggesting Russian aerial pressure on the eastern axis. (Source: @kpszsu/64044)",
+        "Multiple Shahed drones reported heading toward Kyiv and Dnipropetrovsk from the east, increasing the threat to rear areas. (Source: @mon1tor_ua/67485)",
+        "Russian missile capability statements indicate sustained ballistic missile launches that could affect eastern Ukrainian cities. (Source: @UkraineNow/81671)"
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs were observed over Chernihiv region near Slavutych and over Sumy direction from the north (Source: @eRadarrua/95441; @kpszsu/64058).",
-        "In the north‑west of Dnipropetrovsk region, UAVs flew past the settlement of Pyatykhatky (Source: @kpszsu/64028).",
-        "Ukrainian UAVs were reported near Konotop heading toward Baturyn in Sumy region (Source: @kpszsu/64021).",
-        "Ukrainian UAVs over Chernihiv region passed near Slavutych, indicating continued aerial pressure on northern oblasts (Source: @eRadarrua/95441)."
+        "Shahed drones detected over Chernihiv heading from the north toward Nizhyn and Malа Dіvitsia, indicating pressure on the northern front. (Source: @eRadarrua/95457)",
+        "UAV sightings over Sumy region from the north, targeting areas near Putivl and Konotop, suggest continued Russian aerial activity in the north. (Source: @eRadarrua/95440)",
+        "Additional Shahed drones reported near Kyiv region from the north, increasing the risk to the capital's airspace. (Source: @mon1tor_ua/67485)"
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian UAVs attacked a Russian patrol boat in Crimea and a Pantsir‑S1 system in Kherson, showing capability to strike naval and air‑defence assets in the south (Source: @UkraineNow/81667).",
-        "Russian UAVs targeted an industrial facility in the Boryspil area of Kyiv region, causing a worker injury and fire (Source: @UkraineNow/81655).",
-        "Ukrainian forces reported a UAV strike on a Russian ambulance in Kherson, wounding three medical workers (Source: @UkraineNow/81677).",
-        "Ukrainian UAVs were observed over the Black Sea heading toward the Odesa region (Karolino‑Buhaz) (Source: @kpszsu/64060)."
+        "Russian missile strike on Zaporizhzhia caused civilian injuries and damage to a high‑rise building, demonstrating ongoing southern offensive actions. (Source: @UkraineNow/81681)",
+        "Shahed drones reported over the Black Sea heading toward Chornomorsk/Limanok, with 10 drones observed, indicating maritime threat to southern ports. (Source: @mon1tor_ua/67487)",
+        "UAV activity noted over Dnipropetrovsk region near Pavlograd and Samara, suggesting Russian reconnaissance in the southern industrial belt. (Source: @eRadarrua/95463)"
       ]
     },
     "air_war": {
       "points": [
-        "More than 20 Ukrainian drones were shot down over Sevastopol during a large‑scale UAV attack on Crimea (Source: @ukr_leaks_eng/30663).",
-        "Ukrainian UAVs conducted attacks on Russian air‑defence radars, including a Pantsir‑S1 system in Kherson and a radar navigation system RSBN‑4N in Crimea (Source: @UkraineNow/81667).",
-        "Russian forces launched a coordinated UAV barrage across multiple fronts, including Kyiv, Kharkiv, Sumy, and the Black Sea, indicating a sustained aerial campaign (Source: @kpszsu/64058).",
-        "Ukrainian air‑defence systems engaged and downed UAVs over Sevastopol and other southern locations, demonstrating active air‑defence response (Source: @ukr_leaks_eng/30663)."
+        "Ukrainian air defence logs multiple Shahed drone incursions across Chernihiv, Poltava, Kyiv, and Kherson oblasts, reflecting heightened aerial threat. (Source: @mon1tor_ua/67485)",
+        "UAV sightings over Kharkiv, Sumy, and Dnipropetrovsk regions indicate persistent Russian drone operations targeting both front‑line and rear areas. (Source: @kpszsu/64044, @kpszsu/64040)",
+        "Russian claims of capacity to launch up to 100 ballistic missiles per month suggest a significant strategic air‑to‑ground capability. (Source: @UkraineNow/81671)"
       ]
     },
     "key_developments": [
-      "IAEA reported heavy smoke and military sounds at Zaporizhzhia nuclear power plant, with staff in shelters and concerns over the plant's transmission line (Source: @UkraineNow/81666).",
-      "Russia announced the capability to launch up to 100 ballistic missiles per month and a production rate of 55–60 missiles, planning to deliver up to 60 Kinzhal hypersonic missiles this year (Source: @UkraineNow/81671).",
-      "Ukrainian UAVs struck a Russian patrol boat class \"Svitlyak\" in Crimea and damaged a Pantsir‑S1 air‑defence system in Kherson (Source: @UkraineNow/81667).",
-      "The U.S. House of Representatives backed an $8 billion military credit package and additional sanctions against Russia, with a final vote set for 7 August (Source: @UkraineNow/81657).",
-      "Multiple Russian UAV attacks hit civilian infrastructure across Zaporizhzhia, Kherson, and Sumy, causing injuries and property damage (Source: @UkraineNow/81677).",
-      "Finland prepared to intercept Ukrainian drones over its airspace after a Ukrainian strike on St. Petersburg (Source: @ukr_leaks_eng/30666).",
-      "More than 20 Ukrainian drones were shot down over Sevastopol during a large‑scale UAV assault on Crimea (Source: @ukr_leaks_eng/30663)."
+      "Russian missile strike on Zaporizhzhia injured 10 civilians and damaged a residential high‑rise building, highlighting ongoing high‑intensity attacks on southern Ukraine. (Source: @UkraineNow/81681)",
+      "Ukrainian air defence reported three Shahed drones over Chernihiv heading toward Kyiv, two along the Poltava‑Chernihiv border, and one near Kirovohrad toward Dnipropetrovsk, indicating a surge in drone attacks. (Source: @mon1tor_ua/67485)",
+      "Ukraine's HUR intelligence states Russia can launch up to 100 ballistic missiles monthly, with production of 55‑60 missiles and plans for up to 60 Kinzhal hypersonic missiles this year. (Source: @UkraineNow/81671)",
+      "Hungary lifted a €6.6 billion EU fund veto for Ukrainian weapons purchases, facilitating increased military aid flow. (Source: @tass_agency/379216)",
+      "Zelensky sent an open letter to Putin proposing a meeting, a full ceasefire, and a comprehensive prisoner exchange, citing monthly Russian casualties exceeding 30 000. (Source: @DeepStateUA/23550)",
+      "Multiple Shahed drones were observed over the Black Sea heading toward Chornomorsk/Limanok, with 10 drones reported, raising concerns for southern maritime infrastructure. (Source: @mon1tor_ua/67487)",
+      "Ukrainian logistics centre of Nova Poshta in Dnipro was attacked for the second day, with damage assessments and cargo loss evaluations ongoing. (Source: @UkraineNow/81676)"
     ],
-    "threat_assessment": "Russian missile production capacity and declared launch rates suggest a sustained strategic strike capability, while the proliferation of UAV attacks across multiple fronts indicates an escalating low‑altitude threat to Ukrainian command, control and civilian infrastructure. Ukrainian counter‑UAV successes in Crimea demonstrate growing air‑defence proficiency but also highlight the intensity of Russian aerial operations. The involvement of external actors, such as Finland's readiness to engage Ukrainian drones, adds a regional dimension to the air conflict.",
-    "regional_response": "Western allies, notably the United States, are advancing substantial financial and military aid, reflecting continued support for Ukrainian defence capabilities. Russian subsidies to its oil refineries aim to mitigate economic strain from sanctions and sustain war‑time production. Localised Ukrainian resilience, such as sheltering plant personnel and rapid fire‑suppression at industrial sites, underscores adaptive civil‑military coordination.",
-    "intelligence_notes": "Monitoring of IAEA reports on Zaporizhzhia remains critical for assessing nuclear safety risks. UAV activity logs across the north, east, and south fronts provide actionable data for targeting Russian command nodes and air‑defence assets. The announced Russian ballistic missile launch capacity warrants heightened alert for potential long‑range strikes, especially in conjunction with Kinzhal deployments."
+    "threat_assessment": "Russian aerial pressure remains high, with frequent Shahed drone incursions across northern, central, and southern fronts, and a demonstrated capacity to launch large numbers of ballistic missiles. Ukrainian air defence is actively engaging these threats, but the volume suggests a sustained Russian effort to degrade infrastructure and morale. The recent missile strike on Zaporizhzhia underscores the risk to civilian centers, while the reported production rates of ballistic and hypersonic missiles indicate Russia can maintain long‑range strike capabilities throughout 2026.",
+    "regional_response": "Western allies continue to bolster Ukrainian defence, exemplified by Hungary's removal of funding vetoes and ongoing diplomatic initiatives such as Zelensky's open letter to Putin. The EU is preparing further integration steps for Ukraine, while the United States supports additional aid packages. Regional actors are monitoring the escalation, with concerns about potential escalation from missile deployments.",
+    "intelligence_notes": "Ukrainian sources should prioritize tracking Shahed drone launch vectors from the north and south to anticipate future strikes on critical infrastructure. Monitoring ballistic missile production and launch patterns will be essential for early warning. Coordination with NATO and EU partners is vital to sustain air defence capabilities and counter the increasing volume of Russian aerial attacks."
   },
   "missiles": 0,
-  "drones": 0,
+  "drones": 293,
   "kpszsu_timeline": [
-    2,
-    3,
     1,
     3,
-    2,
+    5,
+    4,
+    5,
+    7,
+    7,
+    3,
+    7,
+    8,
+    9,
+    5,
+    12,
+    5,
+    6,
+    8,
+    5,
+    6,
+    7,
+    15,
+    8,
     5,
     3,
-    9,
-    6,
-    5,
-    4,
-    9,
-    8,
-    7,
-    7,
-    10,
-    7,
-    4,
-    10,
-    2,
-    8,
-    11,
-    14,
-    4
+    5
   ]
 }
