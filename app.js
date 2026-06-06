@@ -1230,20 +1230,10 @@ function _buildPlutoHtml() {
     // ── Divider ─────────────────────────────────────────────────────────────
     + '<div style="height:1px;background:linear-gradient(90deg,transparent,#1e2a3a 20%,#1e2a3a 80%,transparent);margin-bottom:14px;"></div>'
     // ── Tagline ─────────────────────────────────────────────────────────────
-    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:13px;text-align:left;">A browser extension that cuts through the noise — blocking misinformation and putting you in control of your feed across every platform you use.</p>'
-    // ── Features ────────────────────────────────────────────────────────────
-    + '<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:18px;">'
+    + '<div style="display:flex;flex-direction:column;gap:6px;">'
     + feat(iconPlatforms, 'YouTube, Instagram &amp; X', 'One extension, every major platform. Pluto works across all three with no extra setup.')
     + feat(iconShield,    'Blocks Misinformation',      'Flags and filters unverified claims in real time before they reach your feed.')
     + feat(iconFreedom,   'You Choose What You See',    'Granular controls let you decide exactly what gets filtered — no black boxes, no hidden rules.')
-    + '</div>'
-    // ── CTA ─────────────────────────────────────────────────────────────────
-    + '<div style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border-radius:10px;background:#0a0d14;border:1px solid #1b2330;">'
-    + '<div style="display:flex;align-items:center;gap:8px;">'
-    + '<svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="12" r="5" fill="white"/><path d="M12 7h8.66A11 11 0 0 1 12 23 11 11 0 0 1 4.93 20z" fill="#34A853"/><path d="M12 7H3.34A11 11 0 0 0 4.93 20L12 12z" fill="#FBBC05"/><path d="M12 7h8.66A11 11 0 0 0 3.34 7L12 12z" fill="#EA4335"/><circle cx="12" cy="12" r="4" fill="white"/><circle cx="12" cy="12" r="3" fill="#4285F4"/></svg>'
-    + '<span style="font-size:11px;color:#3d4f64;font-family:\'JetBrains Mono\',monospace;">Chrome Web Store</span>'
-    + '</div>'
-    + '<span style="font-size:10px;font-weight:600;font-family:\'JetBrains Mono\',monospace;color:#7c3aed88;background:#7c3aed0d;border:1px solid #7c3aed25;padding:4px 10px;border-radius:6px;letter-spacing:.04em;">NOT YET AVAILABLE</span>'
     + '</div>';
 }
 
