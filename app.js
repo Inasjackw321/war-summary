@@ -1192,17 +1192,53 @@ function _buildSupportHtml() {
 }
 
 function _buildPlutoHtml() {
+  const feat = (svg, title, desc) =>
+    '<div style="display:flex;align-items:flex-start;gap:10px;padding:9px 10px;border-radius:8px;background:#ffffff03;border:1px solid #1b2330;">'
+    + '<div style="width:30px;height:30px;border-radius:7px;background:#7c3aed14;border:1px solid #7c3aed25;display:flex;align-items:center;justify-content:center;flex-shrink:0;">' + svg + '</div>'
+    + '<div style="text-align:left;"><div style="font-size:11px;font-weight:600;color:#c0cad8;margin-bottom:2px;font-family:\'JetBrains Mono\',monospace;">' + title + '</div>'
+    + '<div style="font-size:10px;color:#46566d;line-height:1.55;">' + desc + '</div></div></div>';
+
+  const iconVerify = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>';
+  const iconTrace  = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>';
+  const iconScore  = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+
   return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
-    + '<div style="width:48px;height:48px;border-radius:50%;background:#7c3aed18;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">'
-    + '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg></div>'
-    + '<div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:10px;">'
-    + '<span style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;">Pluto</span>'
-    + '<span style="font-size:9px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#7c3aed;background:#7c3aed1a;border:1px solid #7c3aed40;padding:2px 7px;border-radius:99px;letter-spacing:0.08em;">BETA</span>'
+    // ── Header ─────────────────────────────────────────────────────────────
+    + '<div style="display:flex;align-items:center;gap:13px;margin-bottom:16px;">'
+    // Combined Pluto + Chrome icon
+    + '<div style="position:relative;flex-shrink:0;">'
+    + '<div style="width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,#1a0f30,#0f1219);border:1px solid #7c3aed35;display:flex;align-items:center;justify-content:center;box-shadow:0 0 18px #7c3aed18;">'
+    + '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg></div>'
+    // Chrome badge overlay
+    + '<div style="position:absolute;bottom:-4px;right:-5px;width:18px;height:18px;border-radius:50%;background:#0f1219;border:1.5px solid #1e2a3a;display:flex;align-items:center;justify-content:center;">'
+    + '<svg viewBox="0 0 24 24" width="13" height="13"><circle cx="12" cy="12" r="5" fill="white"/><path d="M12 7h8.66A11 11 0 0 1 12 23 11 11 0 0 1 4.93 20z" fill="#34A853"/><path d="M12 7H3.34A11 11 0 0 0 4.93 20L12 12z" fill="#FBBC05"/><path d="M12 7h8.66A11 11 0 0 0 3.34 7L12 12z" fill="#EA4335"/><circle cx="12" cy="12" r="4" fill="white"/><circle cx="12" cy="12" r="3" fill="#4285F4"/></svg>'
+    + '</div></div>'
+    // Title block
+    + '<div style="text-align:left;">'
+    + '<div style="display:flex;align-items:center;gap:7px;margin-bottom:4px;">'
+    + '<span style="font-size:15px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;">Pluto</span>'
+    + '<span style="font-size:8px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#7c3aed;background:#7c3aed18;border:1px solid #7c3aed35;padding:2px 6px;border-radius:99px;letter-spacing:.08em;">COMING SOON</span>'
     + '</div>'
-    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:16px;">Pluto is a source and information verification tool for War Summary. Cross-reference claims, trace citations, and assess the reliability of reported events.</p>'
-    + '<div style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:20px;background:#7c3aed12;border:1px solid #7c3aed30;color:#7c3aed;font-size:12px;font-family:\'JetBrains Mono\',monospace;font-weight:600;">'
-    + '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>'
-    + 'Coming Soon</div>';
+    + '<div style="font-size:10px;color:#3d4f64;font-family:\'JetBrains Mono\',monospace;letter-spacing:.05em;">CHROME EXTENSION &nbsp;&#xb7;&nbsp; SOURCE INTELLIGENCE</div>'
+    + '</div></div>'
+    // ── Divider ─────────────────────────────────────────────────────────────
+    + '<div style="height:1px;background:linear-gradient(90deg,transparent,#1e2a3a 20%,#1e2a3a 80%,transparent);margin-bottom:14px;"></div>'
+    // ── Tagline ─────────────────────────────────────────────────────────────
+    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:13px;text-align:left;">Verify sources and trace claims without leaving your tab. Pluto overlays reliability data from War Summary directly onto the pages you browse.</p>'
+    // ── Features ────────────────────────────────────────────────────────────
+    + '<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:18px;">'
+    + feat(iconVerify, 'Source Verification', 'Cross-reference Telegram channels against War Summary\'s curated intelligence network.')
+    + feat(iconTrace,  'Claim Tracing',        'Follow any report back to its origin — spot misattributions and amplified rumours before they spread.')
+    + feat(iconScore,  'Reliability Score',    'Live trust ratings for every source, colour-coded by accuracy history and bias indicators.')
+    + '</div>'
+    // ── CTA ─────────────────────────────────────────────────────────────────
+    + '<div style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border-radius:10px;background:#0a0d14;border:1px solid #1b2330;">'
+    + '<div style="display:flex;align-items:center;gap:8px;">'
+    + '<svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="12" r="5" fill="white"/><path d="M12 7h8.66A11 11 0 0 1 12 23 11 11 0 0 1 4.93 20z" fill="#34A853"/><path d="M12 7H3.34A11 11 0 0 0 4.93 20L12 12z" fill="#FBBC05"/><path d="M12 7h8.66A11 11 0 0 0 3.34 7L12 12z" fill="#EA4335"/><circle cx="12" cy="12" r="4" fill="white"/><circle cx="12" cy="12" r="3" fill="#4285F4"/></svg>'
+    + '<span style="font-size:11px;color:#3d4f64;font-family:\'JetBrains Mono\',monospace;">Chrome Web Store</span>'
+    + '</div>'
+    + '<span style="font-size:10px;font-weight:600;font-family:\'JetBrains Mono\',monospace;color:#7c3aed88;background:#7c3aed0d;border:1px solid #7c3aed25;padding:4px 10px;border-radius:6px;letter-spacing:.04em;">NOT YET AVAILABLE</span>'
+    + '</div>';
 }
 
 function initFooterPopups() {
@@ -1225,7 +1261,7 @@ function initFooterPopups() {
     },
     dataPolicyBtn: () => _openPillPopup(_buildDataPolicyHtml()),
     supportBtn:    () => _openPillPopup(_buildSupportHtml()),
-    plutoBtn:      () => _openPillPopup(_buildPlutoHtml()),
+    plutoBtn:      () => _openPillPopup(_buildPlutoHtml(), true),
   };
   for (const [id, handler] of Object.entries(ids)) {
     const btn = document.getElementById(id);
