@@ -1198,15 +1198,10 @@ function _buildPlutoHtml() {
     + '<div style="text-align:left;"><div style="font-size:11px;font-weight:600;color:#c0cad8;margin-bottom:2px;font-family:\'JetBrains Mono\',monospace;">' + title + '</div>'
     + '<div style="font-size:10px;color:#46566d;line-height:1.55;">' + desc + '</div></div></div>';
 
-  // YouTube + Instagram + X logos inlined as coloured SVG paths
-  const iconPlatforms = '<svg width="15" height="15" viewBox="0 0 36 36" fill="none">'
-    + '<rect width="12" height="12" rx="2.5" fill="#FF0000"/><polygon points="5,3.5 5,8.5 9.5,6" fill="white"/>'
-    + '<rect x="13" y="0" width="11" height="11" rx="2.5" fill="url(#ig)"/><defs><linearGradient id="ig" x1="13" y1="0" x2="24" y2="11" gradientUnits="userSpaceOnUse"><stop stop-color="#F58529"/><stop offset=".5" stop-color="#DD2A7B"/><stop offset="1" stop-color="#515BD4"/></linearGradient></defs>'
-    + '<circle cx="18.5" cy="5.5" r="1.5" fill="none" stroke="white" stroke-width="1"/><rect x="15.5" y="2.5" width="6" height="6" rx="1.8" fill="none" stroke="white" stroke-width="1"/>'
-    + '<rect x="25" y="0" width="11" height="11" rx="2.5" fill="#000"/><path d="M27 2.5h2.2l1.8 2.3 2-2.3H35l-3.1 3.5L35 8.5h-2.2l-2-2.5-2.2 2.5H27l3.2-3.6z" fill="white"/>'
-    + '</svg>';
-  const iconShield    = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>';
-  const iconFreedom   = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M12 22V12"/><path d="M12 12C12 12 7 9 7 5a5 5 0 0 1 10 0c0 4-5 7-5 7z"/><path d="M5 22h14"/></svg>';
+  // Simple stroke icons — consistent with the site's purple palette
+  const iconPlatforms = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="8" height="8" rx="1.5"/><rect x="14" y="3" width="8" height="8" rx="1.5"/><rect x="2" y="13" width="8" height="8" rx="1.5"/><rect x="14" y="13" width="8" height="8" rx="1.5"/></svg>';
+  const iconShield    = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>';
+  const iconFreedom   = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="8" cy="6" r="2" fill="#0f1219"/><circle cx="16" cy="12" r="2" fill="#0f1219"/><circle cx="10" cy="18" r="2" fill="#0f1219"/></svg>';
 
   return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
     // ── Header ─────────────────────────────────────────────────────────────
