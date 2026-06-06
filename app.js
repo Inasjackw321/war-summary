@@ -1198,9 +1198,15 @@ function _buildPlutoHtml() {
     + '<div style="text-align:left;"><div style="font-size:11px;font-weight:600;color:#c0cad8;margin-bottom:2px;font-family:\'JetBrains Mono\',monospace;">' + title + '</div>'
     + '<div style="font-size:10px;color:#46566d;line-height:1.55;">' + desc + '</div></div></div>';
 
-  const iconVerify = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>';
-  const iconTrace  = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>';
-  const iconScore  = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+  // YouTube + Instagram + X logos inlined as coloured SVG paths
+  const iconPlatforms = '<svg width="15" height="15" viewBox="0 0 36 36" fill="none">'
+    + '<rect width="12" height="12" rx="2.5" fill="#FF0000"/><polygon points="5,3.5 5,8.5 9.5,6" fill="white"/>'
+    + '<rect x="13" y="0" width="11" height="11" rx="2.5" fill="url(#ig)"/><defs><linearGradient id="ig" x1="13" y1="0" x2="24" y2="11" gradientUnits="userSpaceOnUse"><stop stop-color="#F58529"/><stop offset=".5" stop-color="#DD2A7B"/><stop offset="1" stop-color="#515BD4"/></linearGradient></defs>'
+    + '<circle cx="18.5" cy="5.5" r="1.5" fill="none" stroke="white" stroke-width="1"/><rect x="15.5" y="2.5" width="6" height="6" rx="1.8" fill="none" stroke="white" stroke-width="1"/>'
+    + '<rect x="25" y="0" width="11" height="11" rx="2.5" fill="#000"/><path d="M27 2.5h2.2l1.8 2.3 2-2.3H35l-3.1 3.5L35 8.5h-2.2l-2-2.5-2.2 2.5H27l3.2-3.6z" fill="white"/>'
+    + '</svg>';
+  const iconShield    = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>';
+  const iconFreedom   = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M12 22V12"/><path d="M12 12C12 12 7 9 7 5a5 5 0 0 1 10 0c0 4-5 7-5 7z"/><path d="M5 22h14"/></svg>';
 
   return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
     // ── Header ─────────────────────────────────────────────────────────────
@@ -1219,17 +1225,17 @@ function _buildPlutoHtml() {
     + '<span style="font-size:15px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;">Pluto</span>'
     + '<span style="font-size:8px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#7c3aed;background:#7c3aed18;border:1px solid #7c3aed35;padding:2px 6px;border-radius:99px;letter-spacing:.08em;">COMING SOON</span>'
     + '</div>'
-    + '<div style="font-size:10px;color:#3d4f64;font-family:\'JetBrains Mono\',monospace;letter-spacing:.05em;">CHROME EXTENSION &nbsp;&#xb7;&nbsp; SOURCE INTELLIGENCE</div>'
+    + '<div style="font-size:10px;color:#3d4f64;font-family:\'JetBrains Mono\',monospace;letter-spacing:.05em;">CHROME EXTENSION &nbsp;&#xb7;&nbsp; MISINFORMATION FILTER</div>'
     + '</div></div>'
     // ── Divider ─────────────────────────────────────────────────────────────
     + '<div style="height:1px;background:linear-gradient(90deg,transparent,#1e2a3a 20%,#1e2a3a 80%,transparent);margin-bottom:14px;"></div>'
     // ── Tagline ─────────────────────────────────────────────────────────────
-    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:13px;text-align:left;">Verify sources and trace claims without leaving your tab. Pluto overlays reliability data from War Summary directly onto the pages you browse.</p>'
+    + '<p style="font-size:12px;color:#5a6a88;line-height:1.65;margin-bottom:13px;text-align:left;">A browser extension that cuts through the noise — blocking misinformation and putting you in control of your feed across every platform you use.</p>'
     // ── Features ────────────────────────────────────────────────────────────
     + '<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:18px;">'
-    + feat(iconVerify, 'Source Verification', 'Cross-reference Telegram channels against War Summary\'s curated intelligence network.')
-    + feat(iconTrace,  'Claim Tracing',        'Follow any report back to its origin — spot misattributions and amplified rumours before they spread.')
-    + feat(iconScore,  'Reliability Score',    'Live trust ratings for every source, colour-coded by accuracy history and bias indicators.')
+    + feat(iconPlatforms, 'YouTube, Instagram &amp; X', 'One extension, every major platform. Pluto works across all three with no extra setup.')
+    + feat(iconShield,    'Blocks Misinformation',      'Flags and filters unverified claims in real time before they reach your feed.')
+    + feat(iconFreedom,   'You Choose What You See',    'Granular controls let you decide exactly what gets filtered — no black boxes, no hidden rules.')
     + '</div>'
     // ── CTA ─────────────────────────────────────────────────────────────────
     + '<div style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border-radius:10px;background:#0a0d14;border:1px solid #1b2330;">'
