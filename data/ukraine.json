@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-07T01:40:17.639473+00:00",
+  "updated_at": "2026-06-07T05:33:18.828917+00:00",
   "message_count": 273,
   "channels": [
     "eRadarrua",
@@ -11,14 +11,10 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 272,
+  "red_alerts": 236,
   "red_alerts_timeline": [
-    22,
-    11,
     0,
-    11,
-    11,
-    33,
+    45,
     11,
     0,
     0,
@@ -31,66 +27,84 @@
     11,
     11,
     0,
-    44,
-    54,
+    34,
+    67,
+    0,
+    0,
+    0,
+    0,
     0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    6,
+    12,
+    19,
+    16,
+    15,
+    15,
     10,
-    8,
-    10,
-    13,
-    18,
-    17,
     17,
     11,
-    14,
-    14,
+    8,
+    7,
+    8,
+    11,
     11,
     7,
+    15,
+    18,
+    16,
     7,
     9,
-    10,
-    11,
-    8,
-    15,
-    20,
-    14,
     7,
-    12,
-    3
+    6,
+    7,
+    9,
+    12
   ],
   "messages_by_channel": {
-    "@eRadarrua": 82,
-    "@kpszsu": 53,
-    "@mon1tor_ua": 10,
+    "@eRadarrua": 77,
+    "@kpszsu": 66,
+    "@mon1tor_ua": 8,
     "@UkraineNow": 14,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 13,
-    "@tass_agency": 99
+    "@tass_agency": 93
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/95800",
-    "kpszsu": "https://t.me/kpszsu/64283",
+    "eRadarrua": "https://t.me/eRadarrua/95803",
+    "kpszsu": "https://t.me/kpszsu/64311",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67517",
     "UkraineNow": "https://t.me/UkraineNow/81744",
     "DeepStateUA": "https://t.me/DeepStateUA/23554",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30732",
-    "tass_agency": "https://t.me/tass_agency/379607"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30733",
+    "tass_agency": "https://t.me/tass_agency/379617"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/379603",
+    "tass_agency": "https://t.me/tass_agency/379573",
+    "UkraineNow": "https://t.me/UkraineNow/81738",
     "DeepStateUA": "https://t.me/DeepStateUA/23554",
-    "kpszsu": "https://t.me/kpszsu/64271",
-    "eRadarrua": "https://t.me/eRadarrua/95763",
-    "UkraineNow": "https://t.me/UkraineNow/81735",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30722"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30733",
+    "kpszsu": "https://t.me/kpszsu/64295",
+    "eRadarrua": "https://t.me/eRadarrua/95765"
   },
   "media": [
+    {
+      "post_url": "https://t.me/kpszsu/64311",
+      "post_id": 64311,
+      "channel": "kpszsu",
+      "ts": "2026-06-07T05:31:35+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/WbmrT3ja8mmGi1vch-I1wQa8u_iFC3av7mtJ0w5D_iJOZftiMMsteJYRhvSHGFwvhgWT8hSvPPxEgwTqR3Bc5DwtmKF6wAQgIXuNQ_EubRnd4qD550GfA83hRSnid2Eks5hZt6LD9vYLc-uC_hpKEdq31eCzfQE7h7Zb9Uy7J87MyKMcmGvDBI1qm7-Kt9TtFKDnlgfd5GjSF3weBt1SdEC5PcXV0eyZL65z-RAga86u3DQopPVwpmXmwQw9_cuUnqftGrtxjakwcVaocFqwv-8n462pNuzx9PT1Ge2NQ72akTsL-UhlfBFiVW1OUZlnsSvhHq3RKJX4Pl8IHqYeyw.jpg",
+      "companion_text_id": 64310
+    },
+    {
+      "post_url": "https://t.me/tass_agency/379608",
+      "post_id": 379608,
+      "channel": "tass_agency",
+      "ts": "2026-06-07T02:50:01+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/95782",
       "post_id": 95782,
@@ -182,12 +196,12 @@
       "companion_text_id": 95729
     },
     {
-      "post_url": "https://t.me/eRadarrua/95721",
-      "post_id": 95721,
+      "post_url": "https://t.me/eRadarrua/95720",
+      "post_id": 95720,
       "channel": "eRadarrua",
-      "ts": "2026-06-06T19:41:12+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/f6U5OxB8eSU2Oa86QLG2r6K4zQEHJrc2d-w62B7VWUCtMytUwTKD1_1IjjPXXznNewXTkrgBmxPzaNIg-h2uOvJ8YCZvFRrci4MUf3S0F573VtqXSCtuipYMIqePIkqmMKYe3Z4lhz5z9xSsG-WkEwsC7dQOJ2M6nLdurFgKw1a6xzfRbcvctnxHJfF8n9FhgKm8Hd8gBG3NYIqWalVCUxaDLO5om_wjVsJ09ybw21cETxogMgim_EPYRDiwDEYrjhifj102wXJH9hlFUIoKy6r4kMjxdPbuonOMk6TMUEiSCSPsj7B9dl1qDjSi1xsqkTKhpdgBXF6oSLLv73yMxg.jpg",
-      "companion_text_id": 95722
+      "ts": "2026-06-06T19:39:15+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Y9Ox7RqP_pIrkYdML1muA_ntJtBOwlSG2khWOb4czpQwc9f8RtyVzHQP8A7t3wlxiQi84k2Zj0o3PVlq1ex3QSGc2EzCX4ihOjSzmK_ppfnUqZzlKDBc4Z1oqp6HJmNXaAi4EaXXUlEBP2d-mOM5PwHxSdRlY5kl9OKawGGoHE57PZggL-389rX0wbfSOyDoeTOpOqK-lhGXESzX3pGBE7iGtXu-0tK7mM-1tjaP5htMAj117x9XZ55jK58d5gLi1_OX5TasF6p-ie_iOV4QGSi16U1Mrn-ZDQd_5IUxMfrflHSC9Pr42EfrpEntlY33jLIh1STRWgXAnquUkXo3Zg.jpg",
+      "companion_text_id": 95719
     },
     {
       "post_url": "https://t.me/UkraineNow/81743",
@@ -222,145 +236,119 @@
       "post_id": 81742,
       "channel": "UkraineNow",
       "ts": "2026-06-06T18:53:17+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81741",
-      "post_id": 81741,
-      "channel": "UkraineNow",
-      "ts": "2026-06-06T18:31:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/95713",
-      "post_id": 95713,
-      "channel": "eRadarrua",
-      "ts": "2026-06-06T18:08:02+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/P1pTJ4D3MQlACBiVpm9yWCHuEwd8Vw9VuiDkr9DQK6orxWqKE5byAtenbasJoSfEYecfPNuZlOWJ7ipJo2BdJR7tamVW9CSd2B0nWVBbJItxSrwXex1dQS8854Mt1aUfSKi-8vkETVD8KfCRJ-BTIJjsL3a2aptXDlipEBAE8WFWRJD9jUGRObn4M9pziwQPl2BWOgiMSurqnAofOU132Rlm4CyKgtn_4CdsKs7vjwAtWp6O4aUt-vx35_fyuix0oGY3VINjYHkLgLex5fsmdzNMZ7ciytEGswO-lspvqSfg_1orLTA2PNdx3QjYe_03-ZutLeVYrymWNx18qNjOOQ.jpg",
-      "companion_text_id": 95712
     }
   ],
   "post_images": {
-    "eRadarrua/95782": "data/media/eRadarrua_95782.jpg",
-    "eRadarrua/95781": "data/media/eRadarrua_95782.jpg",
     "eRadarrua/95764": "data/media/eRadarrua_95764.jpg",
     "eRadarrua/95763": "data/media/eRadarrua_95764.jpg",
     "eRadarrua/95768": "data/media/eRadarrua_95768.jpg",
     "eRadarrua/95770": "data/media/eRadarrua_95768.jpg",
     "eRadarrua/95769": "data/media/eRadarrua_95769.jpg",
     "eRadarrua/95780": "data/media/eRadarrua_95780.jpg",
+    "eRadarrua/95781": "data/media/eRadarrua_95780.jpg",
+    "eRadarrua/95782": "data/media/eRadarrua_95782.jpg",
+    "eRadarrua/95730": "data/media/eRadarrua_95730.jpg",
+    "eRadarrua/95729": "data/media/eRadarrua_95730.jpg",
+    "eRadarrua/95731": "data/media/eRadarrua_95731.jpg",
     "eRadarrua/95741": "data/media/eRadarrua_95741.jpg",
     "eRadarrua/95742": "data/media/eRadarrua_95742.jpg",
     "eRadarrua/95743": "data/media/eRadarrua_95743.jpg",
     "eRadarrua/95745": "data/media/eRadarrua_95743.jpg",
-    "eRadarrua/95721": "data/media/eRadarrua_95721.jpg",
-    "eRadarrua/95722": "data/media/eRadarrua_95721.jpg",
-    "eRadarrua/95730": "data/media/eRadarrua_95730.jpg",
-    "eRadarrua/95729": "data/media/eRadarrua_95730.jpg",
-    "eRadarrua/95731": "data/media/eRadarrua_95731.jpg",
     "eRadarrua/95712": "data/media/eRadarrua_95712.jpg",
     "eRadarrua/95711": "data/media/eRadarrua_95712.jpg",
     "eRadarrua/95713": "data/media/eRadarrua_95713.jpg",
     "eRadarrua/95717": "data/media/eRadarrua_95717.jpg",
     "eRadarrua/95716": "data/media/eRadarrua_95717.jpg",
     "eRadarrua/95719": "data/media/eRadarrua_95719.jpg",
-    "kpszsu/64202": "data/media/kpszsu_64202.jpg",
-    "kpszsu/64203": "data/media/kpszsu_64202.jpg"
+    "eRadarrua/95720": "data/media/eRadarrua_95720.jpg",
+    "kpszsu/64311": "data/media/kpszsu_64311.jpg",
+    "kpszsu/64310": "data/media/kpszsu_64311.jpg"
   },
-  "summary": "Ukraine reported drone strikes killing Russian foreign mercenaries in Zaporizhzhia and injuring civilians in Belgorod. The UK announced a large weapons package for Ukraine, including tanks, artillery, and UAVs. Russia claimed attacks on ships in the Azov Sea and warned of possible ballistic weapon use from Bryansk.",
+  "summary": "Russia has taken control of Shevchenko in Kharkiv region and continues UAV strikes across multiple fronts. Ukraine reports civilian casualties from Russian drones, including a child injured in Zaporizhzhia. Western arms deliveries, notably a large UK package, are augmenting Ukrainian capabilities.",
   "key_points": [
-    "Ukraine drone strike killed a group of surrendered Russian foreign mercenaries in Zaporizhzhia region (Source: @tass_agency/379603).",
-    "The United Kingdom declared a major weapons transfer to Ukraine, listing dozens of tanks, armored vehicles, artillery, naval vessels, missiles and UAVs (Source: @DeepStateUA/23554).",
-    "Russia accused Kyiv of terrorist attacks on the vessels \"Natra\" and \"Circon\" in the Azov Sea (Source: @tass_agency/379564).",
-    "A child was injured by a Ukrainian FPV drone attack on a vehicle in Belgorod region (Source: @tass_agency/379559).",
-    "Russian officials warned of a possible ballistic weapons threat originating from Bryansk (Source: @kpszsu/64271).",
-    "U.S. forces intercepted two Iranian drones, according to CENTCOM (Source: @tass_agency/379606).",
-    "Multiple UAV groups were reported over Odesa, Kharkiv, Sumy and other oblasts, indicating sustained aerial activity (Source: @eRadarrua/95763, @eRadarrua/95745, @eRadarrua/95768).",
-    "Romanian President said a drone that exploded in Constanta port was Ukrainian (Source: @tass_agency/379596)."
+    "Russia established control over Shevchenko in Kharkiv region (Source: @tass_agency/379573).",
+    "Ukraine reports a 10‑year‑old child injured and a father wounded by a Russian drone strike in Zaporizhzhia (Source: @UkraineNow/81738).",
+    "The UK declared a massive weapons transfer to Ukraine, including tanks, ATVs, artillery and over 12,000 UAVs (Source: @DeepStateUA/23554).",
+    "Roman Kostenko warned that Russian mobilization and possible tactical nuclear use could create 5‑10 km damage zones (Source: @ukr_leaks_eng/30733).",
+    "Ukrainian tactical aviation launched guided aerial bombs in Zaporizhzhia region (Source: @kpszsu/64295).",
+    "Ukrainian forces report UAV activity over multiple oblasts, including attacks on Mariupol port and Odessa (Source: @ukr_leaks_eng/30722).",
+    "Russian forces attacked critical infrastructure in Kherson, causing power outages and civilian injuries (Source: @UkraineNow/81740)."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukraine drone strike killed surrendered Russian foreign mercenaries in Zaporizhzhia; the UK announced a massive weapons package for Kyiv; Russia accused Ukraine of terrorist attacks on Azov Sea vessels and warned of ballistic weapon use from Bryansk.",
+    "executive_summary": "Russia seized Shevchenko in Kharkiv region, expanding its front‑line control. Ukrainian authorities report civilian injuries from Russian UAV strikes, notably a child in Zaporizhzhia. The UK announced a substantial weapons package to Ukraine, enhancing its defensive and offensive capabilities.",
     "ukraine": {
       "points": [
-        "Ukrainian drones killed a group of surrendered Russian foreign mercenaries in the Zaporizhzhia region, as reported by TASS (Source: @tass_agency/379603).",
-        "The United Kingdom listed a detailed transfer to Ukraine, including 6 T‑72 tanks, dozens of armored vehicles, 6 AS90 self‑propelled howitzers, 5 000 air‑to‑surface missiles, and over 12 000 combat UAVs (Source: @DeepStateUA/23554).",
-        "Ukrainian FPV drone attacks injured a child in Belgorod region and caused multiple civilian injuries in other Russian border areas (Source: @tass_agency/379559).",
-        "Ukrainian forces reported numerous UAV groups operating over Odesa, Kharkiv, Sumy, Chernihiv and the Black Sea, indicating a broad aerial campaign (Source: @eRadarrua/95763, @eRadarrua/95745).",
-        "Ukrainian drone units \"Ski­f Gryphons\" suffered losses to Russian air defenses on the Zaporizhzhia front (Source: @tass_agency/379607)."
+        "Ukrainian officials confirmed a 10‑year‑old child and her father were injured by a Russian drone strike in Zaporizhzhia, receiving medical care (Source: @UkraineNow/81738).",
+        "Ukrainian tactical aviation deployed guided aerial bombs against targets in Zaporizhzhia region (Source: @kpszsu/64295).",
+        "Ukrainian forces reported UAV attacks on the port of Mariupol and multiple strikes across Odessa, Kharkiv, and other oblasts (Source: @ukr_leaks_eng/30722).",
+        "Ukrainian intelligence noted Russian UAV activity over the Kherson region, causing power outages and injuring a volunteer from a humanitarian foundation (Source: @UkraineNow/81740)."
       ]
     },
     "russia": {
       "points": [
-        "Russia accused Kyiv of terrorist attacks on the commercial vessels \"Natra\" and \"Circon\" in the Azov Sea, citing statements by Maria Zakharova (Source: @tass_agency/379564).",
-        "Russian officials warned of a possible ballistic weapons deployment from the Bryansk region (Source: @kpszsu/64271).",
-        "The Russian Ministry of Defense reported that a child was injured by a Ukrainian UAV in Belgorod, confirming civilian impact (Source: @tass_agency/379559).",
-        "Russia and Ukraine agreed to exchange documentation for citizen benefit payments, indicating a limited diplomatic channel (Source: @tass_agency/379598).",
-        "Russian clubs will not participate in European competitions for the 2026/27 season, per UEFA documents (Source: @tass_agency/379597)."
+        "Russian forces established control over the settlement of Shevchenko in Kharkiv region (Source: @tass_agency/379573).",
+        "A Russian UAV struck a civilian vehicle in Belgorod's Shebekino, killing the driver (Source: @tass_agency/379601).",
+        "Russian authorities reported 95 Ukrainian UAVs shot down over Russian territory in one night (Source: @tass_agency/379613).",
+        "Russian officials, including Lavrov, reiterated the goal of restoring full rights for Russian‑speaking citizens in Ukraine (Source: @UkraineNow/81736)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian drones killed surrendered Russian mercenaries in Zaporizhzhia, a key eastern oblast (Source: @tass_agency/379603).",
-        "Multiple UAV groups were observed over Kharkiv oblast, including a group near Savintsi moving southwest (Source: @kpszsu/64258).",
-        "Ukrainian UAVs were reported near the village of Zlato­pil in Kharkiv, indicating continued pressure on Russian positions (Source: @kpszsu/64270).",
-        "Ukrainian drone attacks targeted Russian military vehicles on the “Novorossiya” route linking Russia to occupied Crimea (Source: @UkraineNow/81735).",
-        "Russian elite UAV unit \"Ski­f Gryphons\" suffered losses to Ukrainian air defenses on the Zaporizhzhia direction (Source: @tass_agency/379607)."
+        "Ukrainian forces engaged in infantry battles in Shostka district, Sumy front, with advances up to 700 m in sixteen sectors (Source: @ukr_leaks_eng/30722).",
+        "Ukrainian drones attacked an agricultural firm in Kozyrevka, Kursk region, injuring three people (Source: @ukr_leaks_eng/30722).",
+        "Russian strikes hit Zaporozhye, Krivoy Rog, Dnepropetrovsk, Kharkov, and Poltava, with at least 50 UAVs operating over Odessa (Source: @ukr_leaks_eng/30722).",
+        "Ukrainian UAVs were downed near Kaluga and Obninsk on approaches from Moscow (Source: @ukr_leaks_eng/30722)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAV activity reported in Chernihiv oblast, with a group heading south (Source: @kpszsu/64255).",
-        "A UAV from Chernihiv was observed heading toward Kyiv region, specifically Brovary (Source: @kpszsu/64280).",
-        "Ukrainian drones attacked an agricultural firm in Kozyrevka, Kursk region, injuring three people (Source: @ukr_leaks_eng/30722).",
-        "Ukrainian UAVs were shot down near Kaluga and Obninsk, indicating northern Russian airspace engagements (Source: @ukr_leaks_eng/30722).",
-        "A civilian woman was injured by a Ukrainian UAV strike in Demyanki, Bryansk region (Source: @ukr_leaks_eng/30722)."
+        "Ukrainian UAVs reported over Chernihiv region near Linovitsya heading toward Kyiv region (Source: @kpszsu/64310).",
+        "UAV activity observed over Sumy heading toward Ulianivka, moving south (Source: @kpszsu/64307).",
+        "UAVs detected over northern Kyiv region heading toward Pripyat (Source: @kpszsu/64305).",
+        "UAVs from Sumy observed moving toward Kotelva/Opishnya (Source: @kpszsu/64301)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian drones attacked the port of Mariupol and Odessa, with at least 50 UAVs operating over Odessa (Source: @ukr_leaks_eng/30722).",
-        "Ukrainian UAVs were reported over the Black Sea near Chornomorsk and Odesa airport (Source: @eRadarrua/95746).",
-        "Ukrainian UAV groups targeted Russian positions in the Krasnodar region, including an oil depot in Ust‑Labinsk (Source: @ukr_leaks_eng/30722).",
-        "Ukrainian drone attacks were noted in the Crimean and Sevastopol areas, with Russian defenses repelling them (Source: @ukr_leaks_eng/30722).",
-        "Ukrainian UAVs were observed over the Sumy front, supporting infantry advances up to 700 m in multiple sectors (Source: @ukr_leaks_eng/30722)."
+        "Ukrainian UAVs attacked the port of Mariupol (Source: @ukr_leaks_eng/30722).",
+        "Russian UAV strike hit a civilian vehicle in Belgorod's Shebekino, killing the driver (Source: @tass_agency/379601).",
+        "Ukrainian drones operated over the Black Sea area (Source: @eRadarrua/95765).",
+        "Ukrainian UAVs reported over Odessa, with at least 50 observed (Source: @ukr_leaks_eng/30722)."
       ]
     },
     "air_war": {
       "points": [
-        "U.S. forces intercepted two Iranian drones, according to CENTCOM (Source: @tass_agency/379606).",
-        "Ukrainian UAVs conducted numerous strikes across Russian regions, including Belgorod, Kursk, Bryansk, and Kaluga (Source: @ukr_leaks_eng/30722).",
-        "Russian air defenses shot down Ukrainian drones over Zaporizhzhia, leading to the loss of the elite \"Ski­f Gryphons\" unit (Source: @tass_agency/379607).",
-        "Romanian authorities identified a Ukrainian drone that exploded in Constanta port (Source: @tass_agency/379596).",
-        "Multiple civilian injuries from FPV drone attacks were reported in Belgorod region, highlighting the threat to non‑military targets (Source: @tass_agency/379559)."
+        "Russian defense ministry reported shooting down 95 Ukrainian UAVs over Russian regions in one night (Source: @tass_agency/379613).",
+        "Ukrainian forces launched guided aerial bombs in Zaporizhzhia region (Source: @kpszsu/64295).",
+        "Ukrainian UAV attacks were recorded in multiple Russian oblasts, including Kaluga, Obninsk, and near St. Petersburg (Source: @ukr_leaks_eng/30722).",
+        "Ukrainian UAVs caused civilian casualties in Belgorod and Kherson regions (Source: @tass_agency/379601; @UkraineNow/81740)."
       ]
     },
     "key_developments": [
-      "Ukrainian drones killed a group of surrendered Russian foreign mercenaries in Zaporizhzhia region (Source: @tass_agency/379603).",
-      "The United Kingdom announced a comprehensive weapons transfer to Ukraine, including tanks, armored vehicles, artillery, missiles and thousands of UAVs (Source: @DeepStateUA/23554).",
-      "Russia accused Ukraine of terrorist attacks on the vessels \"Natra\" and \"Circon\" in the Azov Sea (Source: @tass_agency/379564).",
-      "A child sustained injuries from a Ukrainian FPV drone strike on a vehicle in Belgorod region (Source: @tass_agency/379559).",
-      "Russian officials warned of a potential ballistic weapons threat emanating from Bryansk (Source: @kpszsu/64271).",
-      "U.S. forces intercepted two Iranian drones, as reported by CENTCOM (Source: @tass_agency/379606).",
-      "Romanian President stated that a drone that exploded in Constanta port was Ukrainian (Source: @tass_agency/379596)."
+      "Russia seized control of Shevchenko in Kharkiv region, expanding its front‑line presence. (Source: @tass_agency/379573)",
+      "A Russian drone strike injured a 10‑year‑old child and her father in Zaporizhzhia, highlighting civilian risk. (Source: @UkraineNow/81738)",
+      "The United Kingdom announced a large‑scale weapons transfer to Ukraine, including tanks, artillery, and over 12,000 UAVs. (Source: @DeepStateUA/23554)",
+      "Roman Kostenko warned that Russian mobilization and potential tactical nuclear use could create 5‑10 km damage zones. (Source: @ukr_leaks_eng/30733)",
+      "Ukrainian tactical aviation deployed guided aerial bombs against targets in Zaporizhzhia region. (Source: @kpszsu/64295)",
+      "Russian forces reported shooting down 95 Ukrainian UAVs over Russian territory in a single night. (Source: @tass_agency/379613)",
+      "Russian attacks on Kherson critical infrastructure caused power outages and injured a humanitarian volunteer. (Source: @UkraineNow/81740)"
     ],
-    "threat_assessment": "Ukrainian UAV operations are intensifying across multiple fronts, targeting Russian logistics, civilian infrastructure and foreign assets, while also causing civilian casualties in Russian border regions. Russia's claims of terrorist attacks on maritime vessels and warnings of ballistic weapon deployment from Bryansk suggest a potential escalation in unconventional and strategic strikes. The involvement of external actors, such as Iranian drones intercepted by the U.S., adds a layer of complexity to the aerial threat environment.",
-    "regional_response": "Western allies, notably the United Kingdom, are expanding material support to Ukraine with large-scale deliveries of conventional and unmanned systems, indicating sustained commitment. Russia is leveraging diplomatic channels, such as document exchanges for citizen payments, while maintaining a narrative of Ukrainian aggression to justify defensive measures. Neighboring states like Romania are publicly attributing drone incidents to Ukraine, reflecting heightened regional vigilance.",
-    "intelligence_notes": "Open‑source monitoring shows a surge in UAV activity over both Ukrainian and Russian territories, with frequent reports of groups operating near key logistical nodes. Casualty reports from civilian populations in Belgorod and other border oblasts underscore the blurring of combatant and non‑combatant zones. The disclosed UK weapons package, if delivered, could significantly alter the balance of ground and aerial capabilities on the Ukrainian side."
+    "threat_assessment": "Russian advances, exemplified by the capture of Shevchenko, indicate a continued push to consolidate territorial gains in the east. The reported use of UAVs against civilian targets and the threat of tactical nuclear weapons raise the risk of escalation and broader humanitarian impact. Western arms deliveries, particularly the extensive UK package, aim to bolster Ukrainian defensive and offensive capabilities, potentially offsetting Russian momentum.",
+    "regional_response": "Ukraine's military is intensifying UAV and guided bomb operations across multiple fronts, seeking to disrupt Russian logistics and counter air threats. Local authorities report civilian casualties and infrastructure damage, prompting increased emergency response measures. International partners, notably the UK, are expanding material support, signaling sustained political backing for Kyiv.",
+    "intelligence_notes": "Monitoring of UAV activity remains critical, as both sides employ drones for reconnaissance and strike missions across the northern, eastern, and southern fronts. The possibility of tactical nuclear deployment, as warned by Ukrainian officials, necessitates heightened alertness and civil defense preparations. Continued Russian control over newly seized settlements should be tracked for supply line implications."
   },
   "missiles": 0,
-  "drones": 272,
+  "drones": 236,
   "kpszsu_timeline": [
-    1,
-    4,
-    1,
     3,
     4,
-    3,
     2,
-    3,
+    2,
+    2,
     1,
-    2,
-    2,
+    3,
     1,
     0,
     1,
@@ -369,10 +357,14 @@
     4,
     2,
     3,
-    4,
-    1,
+    3,
     2,
+    1,
     5,
-    0
+    1,
+    6,
+    4,
+    5,
+    7
   ]
 }
