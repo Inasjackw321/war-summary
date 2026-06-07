@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-07T20:08:43.897360+00:00",
-  "message_count": 242,
+  "updated_at": "2026-06-07T21:58:35.378980+00:00",
+  "message_count": 245,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 236,
   "red_alerts_timeline": [
-    84,
-    34,
     0,
     0,
     0,
@@ -24,71 +22,85 @@
     0,
     0,
     0,
-    17,
+    21,
     0,
     0,
     0,
     0,
     0,
-    34,
+    43,
     0,
     0,
-    17,
     0,
-    17,
-    34
+    21,
+    21,
+    43,
+    64,
+    21
   ],
   "combined_activity_timeline": [
-    16,
     14,
-    16,
-    5,
-    11,
-    4,
-    6,
-    8,
-    12,
+    7,
     10,
-    15,
+    3,
+    9,
+    8,
+    9,
+    11,
+    12,
+    14,
+    9,
+    8,
+    8,
+    7,
+    7,
+    14,
+    7,
+    8,
+    9,
     13,
-    8,
     9,
-    5,
-    8,
-    8,
+    17,
     14,
-    6,
-    9,
-    10,
-    12,
-    11,
-    12
+    17
   ],
   "messages_by_channel": {
-    "@eRadarrua": 58,
-    "@kpszsu": 68,
-    "@mon1tor_ua": 8,
-    "@UkraineNow": 15,
+    "@eRadarrua": 49,
+    "@kpszsu": 72,
+    "@mon1tor_ua": 10,
+    "@UkraineNow": 14,
     "@ukr_leaks_eng": 14,
-    "@tass_agency": 79
+    "@tass_agency": 86
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/95865",
-    "kpszsu": "https://t.me/kpszsu/64375",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67521",
+    "eRadarrua": "https://t.me/eRadarrua/95897",
+    "kpszsu": "https://t.me/kpszsu/64389",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67526",
     "UkraineNow": "https://t.me/UkraineNow/81758",
     "DeepStateUA": "https://t.me/DeepStateUA/23554",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30746",
-    "tass_agency": "https://t.me/tass_agency/379676"
+    "tass_agency": "https://t.me/tass_agency/379688"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/64364",
-    "eRadarrua": "https://t.me/eRadarrua/95863",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67513",
-    "UkraineNow": "https://t.me/UkraineNow/81754",
-    "tass_agency": "https://t.me/tass_agency/379670"
+    "tass_agency": "https://t.me/tass_agency/379687",
+    "UkraineNow": "https://t.me/UkraineNow/81746",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67526",
+    "eRadarrua": "https://t.me/eRadarrua/95894",
+    "kpszsu": "https://t.me/kpszsu/64351"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/379680",
+      "post_id": 379680,
+      "channel": "tass_agency",
+      "ts": "2026-06-07T20:13:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/379677",
+      "post_id": 379677,
+      "channel": "tass_agency",
+      "ts": "2026-06-07T20:07:55+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/81758",
       "post_id": 81758,
@@ -210,37 +222,20 @@
       "post_id": 81753,
       "channel": "UkraineNow",
       "ts": "2026-06-07T15:34:47+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/379659",
-      "post_id": 379659,
-      "channel": "tass_agency",
-      "ts": "2026-06-07T15:15:37+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/379656",
-      "post_id": 379656,
-      "channel": "tass_agency",
-      "ts": "2026-06-07T14:26:01+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/95846": "data/media/eRadarrua_95846.jpg",
-    "eRadarrua/95845": "data/media/eRadarrua_95846.jpg",
     "eRadarrua/95852": "data/media/eRadarrua_95852.jpg",
     "eRadarrua/95862": "data/media/eRadarrua_95862.jpg",
     "eRadarrua/95863": "data/media/eRadarrua_95862.jpg",
-    "eRadarrua/95826": "data/media/eRadarrua_95826.jpg",
-    "eRadarrua/95825": "data/media/eRadarrua_95826.jpg",
-    "eRadarrua/95827": "data/media/eRadarrua_95827.jpg",
     "eRadarrua/95832": "data/media/eRadarrua_95832.jpg",
     "eRadarrua/95834": "data/media/eRadarrua_95832.jpg",
     "eRadarrua/95837": "data/media/eRadarrua_95837.jpg",
     "eRadarrua/95840": "data/media/eRadarrua_95840.jpg",
     "eRadarrua/95841": "data/media/eRadarrua_95841.jpg",
     "eRadarrua/95842": "data/media/eRadarrua_95842.jpg",
-    "eRadarrua/95806": "data/media/eRadarrua_95806.jpg",
-    "eRadarrua/95804": "data/media/eRadarrua_95806.jpg",
+    "eRadarrua/95846": "data/media/eRadarrua_95846.jpg",
+    "eRadarrua/95845": "data/media/eRadarrua_95846.jpg",
     "eRadarrua/95815": "data/media/eRadarrua_95815.jpg",
     "eRadarrua/95814": "data/media/eRadarrua_95815.jpg",
     "eRadarrua/95817": "data/media/eRadarrua_95817.jpg",
@@ -249,122 +244,110 @@
     "eRadarrua/95821": "data/media/eRadarrua_95819.jpg",
     "eRadarrua/95824": "data/media/eRadarrua_95824.jpg",
     "eRadarrua/95823": "data/media/eRadarrua_95824.jpg",
+    "eRadarrua/95826": "data/media/eRadarrua_95826.jpg",
+    "eRadarrua/95825": "data/media/eRadarrua_95826.jpg",
+    "eRadarrua/95827": "data/media/eRadarrua_95827.jpg",
+    "eRadarrua/95806": "data/media/eRadarrua_95806.jpg",
+    "eRadarrua/95805": "data/media/eRadarrua_95806.jpg",
     "kpszsu/64311": "data/media/kpszsu_64311.jpg",
     "kpszsu/64310": "data/media/kpszsu_64311.jpg"
   },
-  "summary": "Ukrainian UAV groups from the Black Sea and Kharkiv regions are targeting Odesa and surrounding settlements, while Russian tactical aviation activity increases in the northeast. Multiple Tu‑95MS bombers are being relocated to forward airfields, indicating preparation for massed missile strikes. Drone attacks continue to disrupt civilian infrastructure, including an airport in Sochi and railway assets in Zaporizhzhia.",
+  "summary": "Ukraine halted a resource deal with the United States amid strained political ties. Russian forces conducted drone and missile strikes on infrastructure, including a nuclear fuel storage building in Kyiv region and the Chonhar bridge to Crimea. Ukrainian air defenses reported multiple Shahed missile incursions targeting towns near Kyiv and in the east.",
   "key_points": [
-    "Ukrainian UAV groups from the Black Sea are heading toward Odesa, Zatoka and Karolino‑Buhaz. (Source: @kpszsu/64364)",
-    "UAVs from Kharkiv are operating over Pavlograd in Dnipropetrovsk region. (Source: @eRadarrua/95863)",
-    "Three Shahed‑type drones reported over the Black Sea near Chornomorsk/Odesa. (Source: @mon1tor_ua/67513)",
-    "Russian Tu‑95MS bombers are being moved from Engels and Ukrainianka to Olenya airfield for missile launch preparation. (Source: @eRadarrua/95825, @eRadarrua/95814)",
-    "A Russian UAV struck a police service vehicle in Kharkiv region, killing a bomb‑tech specialist and injuring three others. (Source: @UkraineNow/81754)",
-    "Drone attacks damaged non‑residential building in Odesa, injuring a 41‑year‑old man; residential areas and gas infrastructure also hit in Chornomorsk. (Source: @UkraineNow/81745)",
-    "Sochi airport operations severely limited by UAV attacks, with thousands stranded and many flights delayed or cancelled. (Source: @UkraineNow/81750)"
+    "Ukraine suspended implementation of a resource agreement with the United States after relations between President Zelensky and former President Trump deteriorated (Source: @tass_agency/379687).",
+    "Russian forces struck a Centralized Storage Facility for spent nuclear fuel in Kyiv region, partially damaging the container reception building (Source: @UkraineNow/81746).",
+    "Occupying forces reported a drone attack on the Chonhar bridge leading to its closure and logistical challenges for Russian supply lines (Source: @UkraineNow/81747).",
+    "Multiple Shahed missiles were observed flying over Barishivka toward Kyiv/Borispil, Lubny, Zgурівка, and other locations, prompting air defense alerts (Source: @mon1tor_ua/67526, @mon1tor_ua/67522, @mon1tor_ua/67519).",
+    "Russian drones attacked Zaporizhzhia, causing a fire, infrastructure damage, and civilian casualties including three dead and one injured woman (Source: @UkraineNow/81748).",
+    "Ukrainian air raid warning was issued over Kyiv on 08 June 2026 (Source: @eRadarrua/95894).",
+    "Groups of UAVs were reported moving from the Black Sea toward Odesa and Serhiyivka, and from Kursk region toward Sumy, indicating cross‑border drone activity (Source: @kpszsu/64351, @kpszsu/64355)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian UAV groups from the Black Sea are targeting Odesa and nearby settlements, while Russian tactical aviation activity rises in the northeast. Multiple Tu‑95MS bombers are being repositioned to forward bases, suggesting preparation for large‑scale missile strikes. Drone attacks continue to affect civilian infrastructure, notably Sochi airport and railway facilities in Zaporizhzhia.",
+    "executive_summary": "Ukraine halted a US resource deal, Russian forces struck a nuclear fuel storage site in Kyiv region, and multiple Shahed missile attacks were recorded near Kyiv and in eastern towns, highlighting heightened air‑defense activity.",
     "ukraine": {
       "points": [
-        "Ukrainian UAV groups launched from the Black Sea are directed toward Odesa, Zatoka and Karolino‑Buhaz, indicating a focused effort on southern coastal targets. (Source: @kpszsu/64364)",
-        "Additional UAV formations from Kharkiv region are operating over Pavlograd in Dnipropetrovsk oblast, expanding the aerial threat to central Ukraine. (Source: @eRadarrua/95863)",
-        "A reported cluster of Shahed‑type drones over the Black Sea near Chornomorsk/Odesa suggests intensified maritime‑to‑shore attacks. (Source: @mon1tor_ua/67513)",
-        "Ukrainian forces reported a UAV strike on a police service vehicle in Kharkiv region, killing a bomb‑tech specialist and wounding three others, highlighting risks to security personnel. (Source: @UkraineNow/81754)",
-        "Drone attacks in Odesa caused a non‑residential building fire, injuring a 41‑year‑old man, and damaged residential structures, a gas pipe, and a temple area in Chornomorsk. (Source: @UkraineNow/81745)",
-        "Ukrainian monitoring groups noted UAV activity over the Black Sea near the village of Vylkove/Tatarbunari, indicating continued pressure on maritime approaches. (Source: @eRadarrua/95863)",
-        "Ukrainian authorities reported successful interception of a UAV that hit an electric train in Zaporizhzhia, preventing casualties. (Source: @UkraineNow/81750)"
+        "The Ukrainian government stopped progress on a resource transaction with the United States, citing a breakdown in relations between President Zelensky and former President Trump, with no movement on the deal for several months (Source: @tass_agency/379687).",
+        "A Ukrainian official reported that over 8.5 million citizens have left Ukraine since 2014, including more than 5.7 million since 2022, emphasizing a major humanitarian challenge (Source: @UkraineNow/81751).",
+        "Ukrainian authorities noted that drone strikes on Zaporizhzhia caused a fire, damaged infrastructure, and resulted in three civilian deaths and one injured woman (Source: @UkraineNow/81748).",
+        "Ukrainian air defense issued an alert for Kyiv on 08 June 2026, indicating an ongoing aerial threat (Source: @eRadarrua/95894)."
       ]
     },
     "russia": {
       "points": [
-        "Russian Tu‑95MS strategic bombers are being relocated from Engels and Ukrainianka airfields to Olenya, preparing for potential massed missile strikes on Ukrainian territory. (Source: @eRadarrua/95825, @eRadarrua/95814)",
-        "Russian tactical aviation activity is reported on the north‑eastern front, with warnings of possible air strikes against frontline areas. (Source: @kpszsu/64362)",
-        "Two Russian mechanized personnel were killed in Kursk region during a Ukrainian attack on agricultural land, showing cross‑border strike capability. (Source: @tass_agency/379670)",
-        "Russian forces reported a UAV strike on a police vehicle in Kharkiv region, resulting in one fatality and multiple injuries, demonstrating continued use of drones for targeted attacks. (Source: @UkraineNow/81754)",
-        "Russian authorities noted the presence of UAV groups heading toward Sumy region from Kursk, indicating a focus on northern operational zones. (Source: @kpszsu/64355)",
-        "A Russian UAV attack damaged infrastructure in the Odesa region, including a non‑residential building and gas infrastructure in Chornomorsk. (Source: @UkraineNow/81745)",
-        "Russian military statements highlighted ongoing negotiations and diplomatic moves, but no direct combat details were provided. (Source: @tass_agency/379665)"
+        "Russian forces hit the Centralized Storage Facility for spent nuclear fuel in Kyiv region, partially destroying the container reception building, though radiation levels remained normal (Source: @UkraineNow/81746).",
+        "Occupying authorities announced a drone strike on the Chonhar bridge, cutting the route into Crimea and forcing Russian logistics to seek alternative paths (Source: @UkraineNow/81747).",
+        "Russian UAV groups were observed launching from the Black Sea toward Odesa and Serhiyivka, and from Kursk region toward Sumy, indicating cross‑border drone operations (Source: @kpszsu/64351, @kpszsu/64355).",
+        "Reports indicated that Russian forces employed Shahed missiles targeting locations such as Barishivka, Lubny, and Zgурівка, prompting Ukrainian air‑defense responses (Source: @mon1tor_ua/67526, @mon1tor_ua/67522, @mon1tor_ua/67519)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV groups from Kharkiv region operated over Pavlograd in Dnipropetrovsk oblast, indicating pressure on eastern supply lines. (Source: @eRadarrua/95863)",
-        "A Ukrainian UAV struck an electric train in Zaporizhzhia, but rapid evacuation prevented casualties, showing effective defensive response. (Source: @UkraineNow/81750)",
-        "Russian UAV activity reported toward Sumy and Chernihiv regions from Kursk, suggesting a northern thrust on the eastern front. (Source: @kpszsu/64355)",
-        "Controlled UAV units were noted in Dnipropetrovsk and Zaporizhzhia oblasts, with one group designated as 'impact' UAVs, reflecting organized aerial operations. (Source: @eRadarrua/95841)",
-        "Russian tactical aviation warnings for the north‑eastern direction imply potential air strikes affecting eastern frontline positions. (Source: @kpszsu/64362)",
-        "No direct ground engagements were detailed in the provided messages for the eastern front. (Source: @eRadarrua/95832)"
+        "Shahed missiles were observed over Barishivka heading toward Kyiv/Borispil, indicating eastern approaches to the capital (Source: @mon1tor_ua/67526).",
+        "UAV activity was reported from Kursk region toward Sumy, suggesting increased Russian drone pressure on the eastern front (Source: @kpszsu/64355).",
+        "Groups of UAVs were noted moving from the Black Sea toward Odesa and Serhiyivka, affecting southern‑eastern supply routes (Source: @kpszsu/64351).",
+        "Ukrainian reports mentioned a Shahed missile over Lubny, a town in the north‑central region, reflecting broader eastern‑central threats (Source: @mon1tor_ua/67522)."
       ]
     },
     "northern_front": {
       "points": [
-        "New UAV groups reported over northern Sumy and Chernihiv oblasts, indicating increased aerial surveillance or strike activity. (Source: @kpszsu/64344)",
-        "Russian tactical aviation activity warned for the north‑eastern direction, suggesting possible air operations affecting northern front areas. (Source: @kpszsu/64362)",
-        "No specific ground unit movements or engagements were detailed for the northern front in the source material. (Source: @eRadarrua/95834)",
-        "UAV activity from the Black Sea heading toward northern Odesa and further inland may impact northern operational zones indirectly. (Source: @kpszsu/64353)",
-        "No casualty figures or equipment losses were reported for the northern front. (Source: @eRadarrua/95821)"
+        "Ukrainian air‑defense alerts were issued for Kyiv on 08 June 2026, reflecting heightened northern air activity (Source: @eRadarrua/95894).",
+        "Shahed missile tracks were reported over Zgурівка in the Brovary district, indicating northern approaches toward the capital (Source: @mon1tor_ua/67519)."
       ]
     },
     "southern_front": {
       "points": [
-        "UAV groups from the Black Sea are targeting Odesa, Zatoka, Karolino‑Buhaz, and Serhiyivka, showing a concentrated southern coastal offensive. (Source: @kpszsu/64364, @kpszsu/64375)",
-        "Shahed‑type drones were observed over the Black Sea near Chornomorsk/Odesa, reinforcing pressure on southern maritime approaches. (Source: @mon1tor_ua/67513)",
-        "Ukrainian UAVs attacked infrastructure in Odesa, causing a building fire and injuries, and damaged gas pipelines in Chornomorsk. (Source: @UkraineNow/81745)",
-        "Russian UAV activity reported toward southern Odesa, targeting villages such as Zatoka and Serhiyivka. (Source: @kpszsu/64375)",
-        "No large‑scale ground engagements were detailed for the southern front in the provided messages. (Source: @eRadarrua/95863)"
+        "Drone attacks on Zaporizhzhia caused a fire and civilian casualties, highlighting ongoing threats on the southern front (Source: @UkraineNow/81748).",
+        "UAV groups from the Black Sea were directed toward Odesa and Serhiyivka, targeting southern coastal areas (Source: @kpszsu/64351)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian Tu‑95MS strategic bombers are being repositioned to Olenya airfield, indicating preparation for mass missile launches. (Source: @eRadarrua/95825, @eRadarrua/95814)",
-        "Ukrainian UAV groups are actively operating over multiple regions, including the Black Sea, Kharkiv, and Dnipropetrovsk, showing a diversified aerial campaign. (Source: @kpszsu/64358, @eRadarrua/95863)",
-        "Russian tactical aviation activity is heightened on the north‑eastern axis, with warnings of possible strikes on frontline areas. (Source: @kpszsu/64362)",
-        "UAV attacks have disrupted civilian infrastructure, notably at Sochi airport where thousands are stranded and flights are delayed or cancelled. (Source: @UkraineNow/81750)",
-        "Ukrainian air defenses intercepted a UAV that struck an electric train in Zaporizhzhia, preventing casualties. (Source: @UkraineNow/81750)",
-        "No explicit air-to-air engagements were reported in the source material. (Source: @eRadarrua/95808)"
+        "Multiple Shahed missile flights were reported over Barishivka, Lubny, and Zgурівка, prompting Ukrainian air‑defense engagements (Source: @mon1tor_ua/67526, @mon1tor_ua/67522, @mon1tor_ua/67519).",
+        "Ukrainian air‑raid warning over Kyiv on 08 June 2026 indicates continued aerial threat presence (Source: @eRadarrua/95894).",
+        "Russian UAV groups were observed crossing from Kursk toward Sumy and from the Black Sea toward Odesa, expanding the aerial contest across multiple fronts (Source: @kpszsu/64351, @kpszsu/64355)."
       ]
     },
     "key_developments": [
-      "Ukrainian UAV groups from the Black Sea are targeting Odesa, Zatoka and Karolino‑Buhaz, indicating a focused southern coastal offensive. (Source: @kpszsu/64364)",
-      "Russian Tu‑95MS strategic bombers are being relocated to Olenya airfield, preparing for potential massed missile strikes on Ukraine. (Source: @eRadarrua/95825)",
-      "Shahed‑type drones reported over the Black Sea near Chornomorsk/Odesa suggest intensified maritime‑to‑shore attacks. (Source: @mon1tor_ua/67513)",
-      "A UAV strike in Kharkiv region killed a police bomb‑tech specialist and injured three others, highlighting risks to security forces. (Source: @UkraineNow/81754)",
-      "Drone attacks damaged a non‑residential building in Odesa, injuring a 41‑year‑old man, and also hit residential areas and gas infrastructure in Chornomorsk. (Source: @UkraineNow/81745)",
-      "Sochi airport operations are severely disrupted by UAV attacks, with thousands stranded and many flights delayed or cancelled. (Source: @UkraineNow/81750)",
-      "Russian tactical aviation activity is heightened on the north‑eastern front, with warnings of possible air strikes against frontline areas. (Source: @kpszsu/64362)"
+      "Ukraine suspended a resource deal with the United States after Zelensky's relations with Trump deteriorated (Source: @tass_agency/379687).",
+      "Russian forces damaged a Centralized Storage Facility for spent nuclear fuel in Kyiv region, though radiation remained within normal limits (Source: @UkraineNow/81746).",
+      "A drone strike on the Chonhar bridge forced Russian logistics to seek alternative routes into Crimea (Source: @UkraineNow/81747).",
+      "Shahed missiles were observed over Barishivka, Lubny, and Zgурівка, prompting Ukrainian air‑defense alerts (Source: @mon1tor_ua/67526, @mon1tor_ua/67522, @mon1tor_ua/67519).",
+      "Drone attacks in Zaporizhzhia caused a fire, infrastructure damage, three civilian deaths and one injured woman (Source: @UkraineNow/81748).",
+      "Ukrainian air‑raid warning was issued over Kyiv on 08 June 2026, indicating ongoing aerial threats (Source: @eRadarrua/95894).",
+      "UAV groups launched from the Black Sea toward Odesa and Serhiyivka, and from Kursk toward Sumy, showing expanded Russian drone operations (Source: @kpszsu/64351, @kpszsu/64355)."
     ],
-    "threat_assessment": "Ukrainian UAV operations are expanding across multiple fronts, concentrating on southern coastal targets and key infrastructure, while Russian strategic bombers are being positioned for large‑scale missile attacks. The increased Russian tactical aviation presence in the northeast raises the risk of air strikes on frontline positions. Civilian infrastructure remains vulnerable, as demonstrated by attacks on Odesa facilities and Sochi airport, indicating a sustained threat to both military and civilian domains.",
-    "regional_response": "Ukrainian air defense units have successfully intercepted several UAV threats, preventing casualties in incidents such as the Zaporizhzhia railway attack. Russian relocation of Tu‑95MS bombers suggests a coordinated effort to intensify missile strikes, likely prompting heightened alert levels in affected regions. International observers note the growing use of drones by both sides, affecting civilian populations and complicating humanitarian access.",
-    "intelligence_notes": "Monitoring of UAV flight paths from the Black Sea to Odesa and from Kharkiv to central Ukraine is critical for anticipating future strikes. The movement of Tu‑95MS bombers to Olenya should be tracked for launch signatures and potential targeting. Continued reports of civilian disruptions, especially at transport hubs like Sochi airport, underscore the need for evacuation and humanitarian planning."
+    "threat_assessment": "Russian drone and missile activity remains concentrated on critical infrastructure, including nuclear fuel storage and transport routes such as the Chonhar bridge, indicating a strategy to disrupt logistics. Shahed missile incursions near Kyiv and eastern towns demonstrate continued air‑defence pressure on Ukrainian command centers. Civilian casualties from drone strikes in Zaporizhzhia highlight the growing risk to non‑military targets.",
+    "regional_response": "Ukrainian authorities have heightened air‑defence alerts in Kyiv and reported multiple civilian impacts, while emphasizing the need for international support on infrastructure protection. The suspension of the US resource deal may affect future aid flows, prompting diplomatic outreach. Russian forces appear to be leveraging UAVs to compensate for conventional artillery constraints.",
+    "intelligence_notes": "Monitoring of Shahed missile trajectories should focus on corridors toward the capital and eastern supply lines. UAV launch points from the Black Sea and Kursk region require surveillance to anticipate future strikes. The partial damage to the nuclear fuel storage facility warrants continued radiological monitoring despite current normal readings."
   },
   "missiles": 0,
   "drones": 236,
   "kpszsu_timeline": [
     2,
-    2,
-    2,
     4,
     2,
-    3,
-    5,
-    4,
-    6,
-    4,
-    6,
-    3,
-    2,
-    0,
-    0,
-    0,
     1,
-    3,
-    2,
-    4,
-    2,
     8,
+    4,
+    4,
+    5,
+    6,
+    3,
+    2,
+    0,
+    0,
+    0,
     1,
-    2
+    3,
+    1,
+    4,
+    3,
+    6,
+    2,
+    3,
+    4,
+    4
   ]
 }
