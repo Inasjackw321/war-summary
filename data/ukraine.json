@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-08T10:16:37.574420+00:00",
-  "message_count": 298,
+  "updated_at": "2026-06-08T11:24:50.952571+00:00",
+  "message_count": 319,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,9 +14,8 @@
   "red_alerts": 155,
   "red_alerts_timeline": [
     0,
-    0,
-    0,
-    21,
+    10,
+    10,
     0,
     0,
     10,
@@ -24,71 +23,96 @@
     10,
     21,
     31,
+    21,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     10,
-    10,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     10,
     21,
-    10
+    0
   ],
   "combined_activity_timeline": [
-    7,
     6,
-    8,
+    9,
     14,
-    8,
-    9,
-    9,
-    11,
-    12,
-    16,
-    11,
-    19,
-    11,
-    3,
-    7,
-    13,
-    9,
+    6,
     10,
+    9,
+    12,
+    10,
+    18,
+    9,
+    22,
+    8,
+    3,
+    9,
+    11,
+    13,
+    8,
     14,
+    13,
     14,
-    14,
-    23,
-    25,
-    25
+    22,
+    26,
+    29,
+    23
   ],
   "messages_by_channel": {
-    "@eRadarrua": 47,
-    "@kpszsu": 80,
-    "@mon1tor_ua": 11,
+    "@eRadarrua": 50,
+    "@kpszsu": 87,
+    "@mon1tor_ua": 12,
     "@UkraineNow": 21,
-    "@ukr_leaks_eng": 18,
-    "@tass_agency": 121
+    "@ukr_leaks_eng": 19,
+    "@tass_agency": 130
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/95946",
-    "kpszsu": "https://t.me/kpszsu/64467",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67531",
-    "UkraineNow": "https://t.me/UkraineNow/81772",
+    "eRadarrua": "https://t.me/eRadarrua/95958",
+    "kpszsu": "https://t.me/kpszsu/64475",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67533",
+    "UkraineNow": "https://t.me/UkraineNow/81774",
     "DeepStateUA": "https://t.me/DeepStateUA/23554",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30758",
-    "tass_agency": "https://t.me/tass_agency/379771"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30759",
+    "tass_agency": "https://t.me/tass_agency/379787"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/379759",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30758",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67526",
-    "kpszsu": "https://t.me/kpszsu/64443",
-    "eRadarrua": "https://t.me/eRadarrua/95908"
+    "UkraineNow": "https://t.me/UkraineNow/81759",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67523",
+    "kpszsu": "https://t.me/kpszsu/64472"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/379784",
+      "post_id": 379784,
+      "channel": "tass_agency",
+      "ts": "2026-06-08T10:59:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/379781",
+      "post_id": 379781,
+      "channel": "tass_agency",
+      "ts": "2026-06-08T10:45:18+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30759",
+      "post_id": 30759,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-08T10:32:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/95947",
+      "post_id": 95947,
+      "channel": "eRadarrua",
+      "ts": "2026-06-08T10:17:11+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/nndAbWkGA86Zap01KOINKlHMj49FhWBbBrJNT84TbEX7g_Qv-NL4lalEV_Z5XQPAjxTesTmg7_fRjiI1Rpyx_UgK0i8ni25E9cr1P5QWd-xXUP6l1kuTPYeT00VMG6cIUh_Hr93-QNplzElf-eNZLSQ6_DPET1s5K6tTFu_iLP-GKC3jfGZPMW63tffYSTzvnz6fInJQbR4OAMgWvf4PV8KBPCEqZXGvNaRqSe1yHgImLFIFUTaJZOfEaGeNzzH8MVgbmIlPsFwPvzhCBq08WMFRWewxBf-d-5qfDvJgldO7ItKpRRBl0uGUMWmeYLPiscQjObW8f7xhaLwFOFXZQQ.jpg",
+      "companion_text_id": 95946
+    },
     {
       "post_url": "https://t.me/UkraineNow/81772",
       "post_id": 81772,
@@ -132,7 +156,8 @@
       "post_id": 95940,
       "channel": "eRadarrua",
       "ts": "2026-06-08T09:09:07+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/YALbFRmAnJpB4vAWj5__32WyDZE5exKxclCCApzxAnkDmQZjefzZBt0VnwuYrp0oM9RCguw4tSfC90hUtGwPyNJZXW9BMh-kqKK_C24A9VFwdwdzQIKrBn-YjzGlJmmnoyh3pr3UmyUOuEkVbl4CM9k88FjKUkfMEUWbHzCpknPEUM-okdgPPDJbXrWwo0mYZLxbO9N6ozKvOPxQkQqkhbyNz0l6HBhX5SOzN24BDFR6QKOmhvU_fXIlTaJd_Idt3bYMQqFrMyAc0TLYzd8rfQsOxTAqYpwBRXnheYa472tdvtf1PEmSVg77oGP51vFlYouUbaYNzngwGjCINtp_GA.jpg"
+      "cdn_url": "https://cdn4.telesco.pe/file/YALbFRmAnJpB4vAWj5__32WyDZE5exKxclCCApzxAnkDmQZjefzZBt0VnwuYrp0oM9RCguw4tSfC90hUtGwPyNJZXW9BMh-kqKK_C24A9VFwdwdzQIKrBn-YjzGlJmmnoyh3pr3UmyUOuEkVbl4CM9k88FjKUkfMEUWbHzCpknPEUM-okdgPPDJbXrWwo0mYZLxbO9N6ozKvOPxQkQqkhbyNz0l6HBhX5SOzN24BDFR6QKOmhvU_fXIlTaJd_Idt3bYMQqFrMyAc0TLYzd8rfQsOxTAqYpwBRXnheYa472tdvtf1PEmSVg77oGP51vFlYouUbaYNzngwGjCINtp_GA.jpg",
+      "companion_text_id": 95942
     },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30755",
@@ -189,168 +214,141 @@
       "post_id": 30751,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-08T07:01:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81763",
-      "post_id": 81763,
-      "channel": "UkraineNow",
-      "ts": "2026-06-08T06:56:17+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/379746",
-      "post_id": 379746,
-      "channel": "tass_agency",
-      "ts": "2026-06-08T06:56:10+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30750",
-      "post_id": 30750,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-08T06:33:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81762",
-      "post_id": 81762,
-      "channel": "UkraineNow",
-      "ts": "2026-06-08T06:32:47+00:00"
     }
   ],
   "post_images": {
     "eRadarrua/95940": "data/media/eRadarrua_95940.jpg",
+    "eRadarrua/95942": "data/media/eRadarrua_95940.jpg",
     "eRadarrua/95945": "data/media/eRadarrua_95945.jpg",
     "eRadarrua/95944": "data/media/eRadarrua_95945.jpg",
-    "eRadarrua/95914": "data/media/eRadarrua_95914.jpg",
-    "eRadarrua/95915": "data/media/eRadarrua_95914.jpg",
+    "eRadarrua/95947": "data/media/eRadarrua_95947.jpg",
+    "eRadarrua/95946": "data/media/eRadarrua_95947.jpg",
     "eRadarrua/95919": "data/media/eRadarrua_95919.jpg",
     "eRadarrua/95918": "data/media/eRadarrua_95919.jpg",
     "eRadarrua/95925": "data/media/eRadarrua_95925.jpg",
     "eRadarrua/95924": "data/media/eRadarrua_95925.jpg",
     "eRadarrua/95906": "data/media/eRadarrua_95906.jpg",
     "eRadarrua/95905": "data/media/eRadarrua_95906.jpg",
-    "eRadarrua/95846": "data/media/eRadarrua_95846.jpg",
-    "eRadarrua/95845": "data/media/eRadarrua_95846.jpg",
+    "eRadarrua/95914": "data/media/eRadarrua_95914.jpg",
+    "eRadarrua/95915": "data/media/eRadarrua_95914.jpg",
     "eRadarrua/95852": "data/media/eRadarrua_95852.jpg",
     "eRadarrua/95862": "data/media/eRadarrua_95862.jpg",
     "eRadarrua/95863": "data/media/eRadarrua_95862.jpg",
-    "eRadarrua/95826": "data/media/eRadarrua_95826.jpg",
-    "eRadarrua/95825": "data/media/eRadarrua_95826.jpg",
-    "eRadarrua/95827": "data/media/eRadarrua_95827.jpg",
     "eRadarrua/95832": "data/media/eRadarrua_95832.jpg",
     "eRadarrua/95834": "data/media/eRadarrua_95832.jpg",
     "eRadarrua/95837": "data/media/eRadarrua_95837.jpg",
     "eRadarrua/95840": "data/media/eRadarrua_95840.jpg",
     "eRadarrua/95841": "data/media/eRadarrua_95841.jpg",
-    "eRadarrua/95842": "data/media/eRadarrua_95841.jpg",
+    "eRadarrua/95842": "data/media/eRadarrua_95842.jpg",
+    "eRadarrua/95846": "data/media/eRadarrua_95846.jpg",
+    "eRadarrua/95845": "data/media/eRadarrua_95846.jpg",
     "kpszsu/64426": "data/media/kpszsu_64426.jpg",
     "kpszsu/64425": "data/media/kpszsu_64426.jpg"
   },
-  "summary": "Russian forces reported liberating the settlement of Khimik in the Donetsk People's Republic. Ukrainian sources reported multiple Shahed drone attacks on Barishivka and a drone strike on a Ukrposhta warehouse in Kharkiv. Threats of Iskander‑M/S‑300 ballistic missile launches from Russia's Kursk region were also highlighted.",
+  "summary": "Ukrainian infrastructure suffered multiple drone strikes, including a partially destroyed Ukrposhta hub in Kharkiv and a train attack in occupied Crimea that halted ten trains. Russian intelligence allegedly recruited a civilian to assassinate a GUR officer using an FPV drone, while Russian UAVs continued operations over southern and northern fronts. A drone was also downed for the first time in Latvia, highlighting the expanding geographic reach of the conflict.",
   "key_points": [
-    "Russian forces announced the liberation of the settlement Khimik in the Donetsk People's Republic (Source: @tass_agency/379759).",
-    "Ukrainian \"South\" military group claimed to have liberated the village of Khimik in the DPR (Source: @ukr_leaks_eng/30758).",
-    "Two Shahed attack drones were observed flying over Barishivka heading toward Kyiv/Borispil (Source: @mon1tor_ua/67526).",
-    "A drone destroyed a Ukrposhta warehouse in Kharkiv (Source: @ukr_leaks_eng/30752).",
-    "Multiple UAV sightings were reported near the northern border of Zhytomyr region along the Belarus border (Source: @kpszsu/64443).",
-    "A UAV attack caused a fire at a transfer complex in Novorossiysk, Russia (Source: @tass_agency/379735).",
-    "A warning was issued about possible Iskander‑M/S‑300 ballistic missile launches from Russia's Kursk region (Source: @mon1tor_ua/67530)."
+    "Drone strike partially destroyed the Ukrposhta hub in Kharkiv; no casualties reported (Source: @UkraineNow/81759).",
+    "Russian operatives recruited a 38‑year‑old to assassinate a GUR officer with an FPV drone for $100 k (Source: @UkraineNow/81764).",
+    "A UAV attack on the Moscow‑Simferopol train in occupied Crimea stopped at least ten trains (Source: @UkraineNow/81760).",
+    "Two Shahed missiles struck Lublin, Piryatin and Grebinka, indicating continued Russian missile use against Ukrainian cities (Source: @mon1tor_ua/67523).",
+    "A UAV was observed over Kharkiv, heading from the north‑east (Source: @kpszsu/64472).",
+    "Latvia shot down a Russian drone, the first such interception in its airspace (Source: @UkraineNow/81773).",
+    "A Black Sea‑origin UAV targeted Odesa’s Zatoka area (Source: @kpszsu/64471)."
   ],
-  "sentiment": "escalating",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russian forces announced the liberation of Khimik in the Donetsk People's Republic, while Ukrainian forces also claimed to have taken the same village. Shahed drones attacked Barishivka en route to Kyiv, and a drone strike hit a Ukrposhta warehouse in Kharkiv. Additionally, a threat of Iskander‑M/S‑300 missile launches from Kursk region was broadcast.",
+    "executive_summary": "A drone strike partially destroyed the Ukrposhta hub in Kharkiv, while a UAV attack halted train traffic in occupied Crimea. Russian intelligence reportedly recruited a civilian to assassinate a GUR officer using an FPV drone. UAV activity continues over southern and northern fronts, and a drone was downed for the first time in Latvia.",
     "ukraine": {
       "points": [
-        "Ukrainian \"South\" military group reported liberating the village of Khimik in the Donetsk People's Republic, indicating a forward push in the eastern sector (Source: @ukr_leaks_eng/30758).",
-        "Two Shahed attack drones were observed over Barishivka heading toward Kyiv/Borispil, suggesting continued use of Iranian‑supplied loitering munitions against rear areas (Source: @mon1tor_ua/67526).",
-        "A drone strike destroyed a Ukrposhta warehouse in Kharkiv, demonstrating vulnerability of logistics infrastructure in the northeast (Source: @ukr_leaks_eng/30752).",
-        "Ukrainian UAV activity was reported near Dnipropetrovsk, flying past Apostolove toward Kryvyi Rih, indicating reconnaissance or strike missions in the south‑central zone (Source: @kpszsu/64466).",
-        "Ukrainian forces reported a UAV over Radushne/Kryvyi Rih and another over Novhorod‑Siverskyi, showing dispersed air‑ground operations across multiple fronts (Source: @eRadarrua/95908)."
+        "The Ukrposhta hub in Kharkiv was hit by a drone, resulting in partial destruction of the facility; officials confirmed that all personnel remained unharmed (Source: @UkraineNow/81759).",
+        "In Odesa, a drone strike damaged equipment at an energy facility, causing power outages for over a thousand consumers (Source: @UkraineNow/81759).",
+        "Two Shahed missiles were reported to have struck Lublin, Piryatin and Grebinka, causing damage to civilian areas (Source: @mon1tor_ua/67523).",
+        "A UAV was observed over Kharkiv, approaching from the north‑east, indicating continued aerial pressure on the city (Source: @kpszsu/64472).",
+        "A Black Sea‑origin UAV flew toward Odesa’s Zatoka settlement, highlighting threats to southern coastal infrastructure (Source: @kpszsu/64471).",
+        "Latvia intercepted and shot down a Russian drone, marking the first confirmed downing in its airspace (Source: @UkraineNow/81773)."
       ]
     },
     "russia": {
       "points": [
-        "Russian Ministry of Defense announced the liberation of the settlement Khimik in the DPR, confirming control over the locality (Source: @tass_agency/379759).",
-        "A UAV attack caused a fire at a transfer complex in Novorossiysk, highlighting Russian infrastructure being targeted by Ukrainian drones (Source: @tass_agency/379735).",
-        "Russian authorities reported that 310 Ukrainian UAVs were shot down over Russian regions during the night, indicating intensive air defence activity (Source: @tass_agency/379758).",
-        "A warning was issued about possible launches of Iskander‑M and S‑300 ballistic missiles from Russia's Kursk region, suggesting heightened missile readiness (Source: @mon1tor_ua/67530).",
-        "Russian forces reported activity of hostile online gambling financing networks being suppressed by the FSB, reflecting internal security measures (Source: @tass_agency/379736)."
+        "Russian intelligence allegedly recruited a 38‑year‑old civilian, offering $100 k to assassinate a GUR officer using an FPV drone (Source: @UkraineNow/81764).",
+        "Ukrainian sources claim the drone that fell in Moldova was Russian, underscoring Moscow’s use of UAVs beyond Ukrainian borders (Source: @UkraineNow/81769).",
+        "Russian tactical aviation activity was reported on the southern direction, raising the threat of air strikes on frontline regions (Source: @kpszsu/64447).",
+        "A UAV attack on the Moscow‑Simferopol train in occupied Crimea halted at least ten trains, disrupting Russian logistical lines (Source: @UkraineNow/81760).",
+        "Ukrainian reports indicate Russian UAVs operating over Sumy and Kharkiv, suggesting coordinated aerial operations across multiple fronts (Source: @kpszsu/64472)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Both Russian and Ukrainian sources claimed control over Khimik in the Donetsk region, indicating contested operations on the eastern front (Sources: @tass_agency/379759, @ukr_leaks_eng/30758).",
-        "Ukrainian UAVs were observed near the Dnipropetrovsk area, flying past Apostolove toward Kryvyi Rih, suggesting reconnaissance toward the eastern industrial belt (Source: @kpszsu/64466).",
-        "Shahed drone incursions over Barishivka, located in the north‑west of the eastern axis, demonstrate the reach of loitering munitions toward Kyiv from the east (Source: @mon1tor_ua/67526).",
-        "Ukrainian air alerts were reported in Kyiv at 01:28 and 11:13 on 08 June, reflecting ongoing aerial threat perception from the east (Sources: @eRadarrua/95911, @eRadarrua/95932).",
-        "Ukrainian forces reported a UAV strike on a Ukrposhta warehouse in Kharkiv, a key logistics hub in the eastern sector (Source: @ukr_leaks_eng/30752)."
+        "A UAV was sighted over Kharkiv, approaching from the north‑east, potentially targeting logistics and command nodes (Source: @kpszsu/64472).",
+        "Russian UAVs were reported near Boromlya in Sumy region, flying from the north‑east, indicating pressure on eastern supply routes (Source: @kpszsu/64472).",
+        "Shahed missile strikes hit Lublin and Piryatin, cities close to the eastern front, demonstrating missile reach into Ukrainian interior (Source: @mon1tor_ua/67523).",
+        "Ukrainian intelligence noted a UAV over the Donetsk direction heading toward Kharkiv region (Source: @kpszsu/64459)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAV activity was reported along the northern border of Zhytomyr region adjacent to Belarus, moving westward, indicating surveillance of the northern front (Source: @kpszsu/64443).",
-        "A UAV was observed from Chernihiv heading toward Kyiv region (Vishhorod district), showing potential strike routes from the north (Source: @kpszsu/64431).",
-        "Multiple Shahed drone sightings over Barishivka, located north of Kyiv, suggest pressure on the northern approaches to the capital (Source: @mon1tor_ua/67526).",
-        "Ukrainian air defence alerts in Kyiv at 01:28 and 11:13 on 08 June reflect ongoing aerial threats from the north (Sources: @eRadarrua/95911, @eRadarrua/95932).",
-        "Russian claims of shooting down 310 Ukrainian UAVs over Russian territory indicate extensive air‑defence engagements that may affect northern Ukrainian air operations (Source: @tass_agency/379758)."
+        "UAV activity was reported along the Chernihiv‑Dobrjanka corridor, suggesting reconnaissance over northern border areas (Source: @kpszsu/64468).",
+        "Multiple UAVs were observed along the northern Rivne and Volyn border with Belarus, moving westward (Source: @kpszsu/64468).",
+        "A UAV was tracked on the north of Rivne region along the Belarusian border, indicating possible infiltration routes (Source: @kpszsu/64463).",
+        "Ukrainian sources reported a UAV heading toward Lyubech and Slavutych in Chernihiv region (Source: @kpszsu/64468)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian UAVs were reported near Dnipropetrovsk, flying past Apostolove toward Kryvyi Rih, a southern‑central axis of operation (Source: @kpszsu/64466).",
-        "A UAV attack caused a fire at a transfer complex in Novorossiysk, Russia, demonstrating Ukrainian reach into southern Russian territory (Source: @tass_agency/379735).",
-        "Shahed drone attacks over Barishivka, while north of Kyiv, are part of broader southern‑to‑north strike patterns (Source: @mon1tor_ua/67526).",
-        "Ukrainian forces reported a UAV over Radushne/Kryvyi Rih, indicating activity in the southern industrial corridor (Source: @eRadarrua/95908).",
-        "Threat of Iskander‑M/S‑300 missile launches from Kursk region could affect southern Ukrainian regions within range (Source: @mon1tor_ua/67530)."
+        "A Black Sea‑origin UAV targeted the Zatoka settlement in Odesa region, threatening coastal infrastructure (Source: @kpszsu/64471).",
+        "Drone attacks on an energy facility in southern Odesa caused power outages for more than a thousand consumers (Source: @UkraineNow/81759).",
+        "Ukrainian officials reported a UAV strike on the Chonhar bridge leading to Crimea, a key logistical crossing (Source: @UkraineNow/81758).",
+        "Russian tactical aviation was noted on the southern axis, increasing the risk of air strikes on southern front positions (Source: @kpszsu/64447)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian authorities reported 310 Ukrainian UAVs shot down over Russian regions during a single night, showing intense air‑defence activity (Source: @tass_agency/379758).",
-        "A UAV attack ignited a fire at a transfer complex in Novorossiysk, indicating successful Ukrainian strike capability against Russian infrastructure (Source: @tass_agency/379735).",
-        "Multiple Shahed loitering munitions were observed over Barishivka heading toward Kyiv, reflecting continued use of Iranian‑supplied drones in Ukrainian airspace (Source: @mon1tor_ua/67526).",
-        "Ukrainian UAVs were sighted near Zhytomyr border with Belarus, moving westward, suggesting reconnaissance or strike missions on the northern front (Source: @kpszsu/64443).",
-        "Ukrainian UAV activity reported near Dnipropetrovsk, Apostolove, and Kryvyi Rih demonstrates dispersed aerial operations across central and southern zones (Source: @kpszsu/64466)."
+        "Russian tactical aviation activity was reported on the southern direction, heightening the threat to frontline units (Source: @kpszsu/64447).",
+        "Multiple Shahed missile launches were observed, indicating continued use of loitering munitions against Ukrainian targets (Source: @mon1tor_ua/67523).",
+        "UAVs were tracked over Kharkiv, Sumy, and Odesa, showing a broad aerial surveillance and strike pattern across the theater (Source: @kpszsu/64472, @kpszsu/64471).",
+        "Latvia’s successful interception of a Russian drone demonstrates expanding NATO air‑defence vigilance in the region (Source: @UkraineNow/81773)."
       ]
     },
     "key_developments": [
-      "Russian forces announced the liberation of the settlement Khimik in the Donetsk People's Republic, indicating a territorial gain on the eastern front (Source: @tass_agency/379759).",
-      "Ukrainian \"South\" military group claimed to have liberated the village of Khimik in the DPR, suggesting contested control of the locality (Source: @ukr_leaks_eng/30758).",
-      "Two Shahed attack drones were observed over Barishivka heading toward Kyiv/Borispil, highlighting ongoing loitering‑munition threats to the capital (Source: @mon1tor_ua/67526).",
-      "A drone strike destroyed a Ukrposhta warehouse in Kharkiv, demonstrating vulnerability of Ukrainian logistics infrastructure (Source: @ukr_leaks_eng/30752).",
-      "A UAV attack caused a fire at a transfer complex in Novorossiysk, Russia, showing Ukrainian capability to strike Russian transport hubs (Source: @tass_agency/379735).",
-      "Russian authorities reported shooting down 310 Ukrainian UAVs over Russian territory during a single night, reflecting intense air‑defence engagements (Source: @tass_agency/379758).",
-      "A warning was issued about possible launches of Iskander‑M and S‑300 ballistic missiles from Russia's Kursk region, indicating heightened missile threat levels (Source: @mon1tor_ua/67530)."
+      "A drone strike partially destroyed the Ukrposhta hub in Kharkiv, though no personnel were harmed (Source: @UkraineNow/81759).",
+      "Russian operatives recruited a 38‑year‑old civilian, offering $100 k to assassinate a GUR officer with an FPV drone (Source: @UkraineNow/81764).",
+      "A UAV attack on the Moscow‑Simferopol train in occupied Crimea halted at least ten trains, disrupting Russian logistics (Source: @UkraineNow/81760).",
+      "Two Shahed missiles struck Lublin, Piryatin and Grebinka, causing civilian damage (Source: @mon1tor_ua/67523).",
+      "A UAV was observed over Kharkiv, approaching from the north‑east, indicating continued aerial pressure on the city (Source: @kpszsu/64472).",
+      "Latvia shot down a Russian drone, the first confirmed interception in its airspace (Source: @UkraineNow/81773).",
+      "A Black Sea‑origin UAV targeted Odesa’s Zatoka area, threatening southern coastal infrastructure (Source: @kpszsu/64471)."
     ],
-    "threat_assessment": "The frontlines remain contested, especially around Khimik in the Donetsk region where both sides claim control, suggesting potential for localized escalations. UAV activity is widespread, with Shahed loitering munitions targeting areas near Kyiv and Ukrainian drones striking Russian logistics sites, indicating a persistent aerial threat. The announced possibility of Iskander‑M/S‑300 missile launches from Kursk adds a strategic ballistic risk to Ukrainian air defences.",
-    "regional_response": "Ukraine continues to mobilise air‑defence assets around Kyiv and key eastern cities, while publicizing drone strikes on Russian infrastructure to demonstrate offensive capability. Russia emphasizes its air‑defence successes, reporting high UAV shoot‑down numbers and warning of missile deployments, aiming to deter further Ukrainian aerial incursions. International observers note the increased use of Iranian‑supplied drones and the potential escalation from ballistic missile threats.",
-    "intelligence_notes": "Monitoring of UAV flight paths near border regions (Belarus, Russia) is critical for early warning. Verification of control over Khimik requires on‑the‑ground reconnaissance due to conflicting claims. The threat of Iskander‑M/S‑300 launches warrants heightened missile defence readiness in southern and central Ukraine. Continued analysis of Shahed drone launch sites may reveal supply chains and launch vectors."
+    "threat_assessment": "Russian UAV and missile activity remains widespread, targeting critical infrastructure in Kharkiv, Odesa, and the occupied Crimea rail network. The recruitment of a civilian for a high‑value assassination using an FPV drone signals an escalation in covert operations against Ukrainian intelligence assets. Continued tactical aviation presence on the southern axis and the use of Shahed loitering munitions increase the risk of both strategic strikes and collateral damage across multiple fronts.",
+    "regional_response": "Ukraine has reinforced air‑defence alerts in Kharkiv, Odesa, and the southern coastal zones, while NATO partners, exemplified by Latvia's interception, are enhancing regional air‑space monitoring. International condemnation of the drone incident in Moldova underscores broader regional concerns about spill‑over effects. Diplomatic channels continue to address the alleged Russian plot against GUR personnel, highlighting intelligence cooperation between Kyiv and its allies.",
+    "intelligence_notes": "Open‑source monitoring indicates a pattern of UAV flights from the Black Sea toward Odesa and from the north‑east toward Kharkiv, suggesting coordinated strike planning. The recruitment of a civilian assassin points to Russian intelligence leveraging local assets for targeted killings. Shahed missile deployments against interior Ukrainian cities demonstrate an intent to pressure civilian morale and stretch Ukrainian air‑defence resources."
   },
   "missiles": 0,
   "drones": 155,
   "kpszsu_timeline": [
     0,
-    0,
-    1,
-    3,
-    3,
-    3,
     2,
-    7,
-    2,
+    3,
     2,
     4,
-    5,
     1,
-    0,
-    3,
-    7,
-    1,
-    5,
-    4,
-    0,
-    3,
-    7,
     9,
-    8
+    0,
+    4,
+    2,
+    5,
+    1,
+    0,
+    4,
+    6,
+    3,
+    4,
+    3,
+    0,
+    3,
+    6,
+    11,
+    10,
+    4
   ]
 }
