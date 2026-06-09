@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-09T21:59:48.519998+00:00",
-  "message_count": 297,
+  "updated_at": "2026-06-09T23:02:04.919637+00:00",
+  "message_count": 298,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 166,
   "red_alerts_timeline": [
-    0,
     0,
     0,
     0,
@@ -35,11 +34,11 @@
     0,
     21,
     62,
+    42,
     21,
-    42
+    0
   ],
   "combined_activity_timeline": [
-    6,
     4,
     9,
     4,
@@ -49,9 +48,9 @@
     14,
     14,
     18,
-    9,
-    13,
-    18,
+    11,
+    12,
+    17,
     18,
     11,
     12,
@@ -60,36 +59,41 @@
     22,
     23,
     14,
-    16,
+    17,
     15,
-    13
+    12,
+    7
   ],
   "messages_by_channel": {
-    "@eRadarrua": 40,
-    "@kpszsu": 83,
+    "@eRadarrua": 41,
+    "@kpszsu": 84,
     "@mon1tor_ua": 1,
     "@UkraineNow": 20,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 124
+    "@tass_agency": 123
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96105",
-    "kpszsu": "https://t.me/kpszsu/64672",
+    "eRadarrua": "https://t.me/eRadarrua/96106",
+    "kpszsu": "https://t.me/kpszsu/64675",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67541",
     "UkraineNow": "https://t.me/UkraineNow/81808",
     "DeepStateUA": "https://t.me/DeepStateUA/23568",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30800",
-    "tass_agency": "https://t.me/tass_agency/379960"
+    "tass_agency": "https://t.me/tass_agency/379963"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81790",
-    "eRadarrua": "https://t.me/eRadarrua/96046",
-    "tass_agency": "https://t.me/tass_agency/379955",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30772",
-    "kpszsu": "https://t.me/kpszsu/64643"
+    "kpszsu": "https://t.me/kpszsu/64639",
+    "tass_agency": "https://t.me/tass_agency/379946",
+    "UkraineNow": "https://t.me/UkraineNow/81786"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/379963",
+      "post_id": 379963,
+      "channel": "tass_agency",
+      "ts": "2026-06-09T22:56:01+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/96085",
       "post_id": 96085,
@@ -213,14 +217,6 @@
       "post_id": 23567,
       "channel": "DeepStateUA",
       "ts": "2026-06-09T16:36:20+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96047",
-      "post_id": 96047,
-      "channel": "eRadarrua",
-      "ts": "2026-06-09T16:25:43+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/lcyTSdcbjvwtriT2RZ0UEZzaiqaThhnQpSxgmILH9cqwiJQDXpPw63PgU9kFOXnw9PIGdOhVgp79Si53sdE42AifTWt4GN6xIV2CKxKozDRneLOSwRzfY9mhzG7aWN46rY7aUOaDL3HRbxFmoPI5qj9c8JUn6jU8IG-Mem9Tje5Uzrxp--dWQK9yClUKWoM99lj-Qg4180GG3T835ax1NXjSMGmfqNy4lF8m79mw3lTRULEyeooQer_OtfpVnYOaDOul0wui6HfSc3iaZOfdaCgd3AL1hgIOZNwREpkfXMxOTx6ZLGgSToNgBaFE23UFsXZ1w-rdsnyKchXYbXPjJw.jpg",
-      "companion_text_id": 96046
     }
   ],
   "post_images": {
@@ -247,84 +243,92 @@
     "kpszsu/64565": "data/media/kpszsu_64565.jpg",
     "kpszsu/64564": "data/media/kpszsu_64565.jpg"
   },
-  "summary": "Russian forces have intensified drone attacks across multiple Ukrainian regions, targeting energy infrastructure and bridges. Ukraine and Latvia signed a Drone Deal to bolster air defence, while Bulgaria announced it will cease weapons deliveries to Ukraine. Significant civilian incidents occurred in Dagestan with gas‑pipeline explosions and fires.",
+  "summary": "Ukrainian forces launched guided aviation bombs in Kharkiv, Zaporizhzhia, Donetsk and Sumy regions, while Russian air defenses reported downing 292 Ukrainian UAVs in a single day. Russian attacks on Kharkiv region caused civilian casualties, and Ukrainian strikes hit an ammunition depot in Belgorod and fuel storage in Mariupol. Significant infrastructure incidents occurred in Dagestan with multiple gas‑pipeline explosions and evacuations.",
   "key_points": [
-    "Russian UAVs struck bridge in Chonhar, disrupting the Crimea‑Kherson route and forcing traffic to alternate routes via Armenysk and Perekop (Source: @UkraineNow/81790).",
-    "Ukraine and Latvia signed a multi‑year Drone Deal to enhance protection against Russian aerial threats (Source: @UkraineNow/81801).",
-    "Bulgaria's defence minister announced the country will no longer supply weapons to Ukraine (Source: @UkraineNow/81799).",
-    "Multiple Russian‑controlled UAVs reported over Dnipropetrovsk, Zaporizhzhia, Kherson, and other oblasts, indicating a broad strike pattern (Source: @eRadarrua/96046).",
-    "Gas‑pipeline explosions and subsequent fires in Dagestan caused evacuations of over 100 people (Source: @UkraineNow/81807).",
-    "Ukrainian attacks damaged energy facilities in Zaporizhzhia, leading to partial power outages (Source: @tass_agency/379955).",
-    "Russian officials warned of potential capture of Kostiantynivka this summer if front‑line management does not change (Source: @ukr_leaks_eng/30772)."
+    "Ukrainian forces conducted guided aviation bomb launches in Kharkiv, Zaporizhzhia, Donetsk and eastern Kharkiv regions (Source: @kpszsu/64639, @kpszsu/64658, @kpszsu/64640, @kpszsu/64636).",
+    "Russian air defence claimed to have shot down 292 Ukrainian UAVs in one day (Source: @tass_agency/379946).",
+    "Russian missile attacks on Kharkiv region resulted in 15 civilian deaths, including three children, and additional casualties in Chuhuiv (Source: @UkraineNow/81786).",
+    "Ukrainian strikes destroyed an ammunition depot in Belgorod region near Prokhorovka and damaged fuel tanks at Mariupol port in Donetsk region (Source: @UkraineNow/81800).",
+    "Multiple UAV sightings and flights were reported across northern and southern fronts, including UAVs from the Black Sea toward Odesa, and UAVs operating along the Dnipropetrovsk‑Kharkiv border (Source: @kpszsu/64643, @kpszsu/64645).",
+    "Gas‑pipeline explosions in Dagestan caused large fires and evacuations of up to 140 people (Source: @tass_agency/379952, @tass_agency/379945).",
+    "Debris from a downed UAV ignited a fuel tank fire in Rostov region (Source: @tass_agency/379959)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russian UAV activity has escalated, striking the Chonhar bridge and multiple energy sites across Ukraine. Ukraine secured a Drone Deal with Latvia while Bulgaria halted weapons shipments, affecting Kyiv's supply chain. Civilian safety concerns rose after gas‑pipeline explosions in Dagestan prompted large‑scale evacuations.",
+    "executive_summary": "Ukrainian forces launched guided aviation bombs across multiple eastern fronts, while Russian air defenses reported downing 292 Ukrainian UAVs in a single day. Russian missile strikes on Kharkiv caused civilian deaths, and Ukrainian strikes hit an ammunition depot in Belgorod and fuel storage in Mariupol. Separate incidents in Dagestan involved gas‑pipeline explosions and large‑scale evacuations.",
     "ukraine": {
       "points": [
-        "Ukraine and Latvia formalised a Drone Deal aimed at protecting critical infrastructure from massed Russian attacks, emphasizing expertise sharing and long‑term cooperation (Source: @UkraineNow/81801).",
-        "Ukrainian forces reported using drones to attack the Chonhar bridge, which links Crimea to Kherson, prompting Russian forces to reopen it for light vehicles only after prior damage (Source: @UkraineNow/81790).",
-        "Ukrainian OSINT sources identified a UAV strike on a power substation in Melitopol, leaving the city without electricity (Source: @eRadarrua/96105).",
-        "Ukrainian officials warned that without changes in front‑line management, Russian forces could capture Kostiantynivka this summer (Source: @ukr_leaks_eng/30772).",
-        "Ukraine highlighted the need for continued European anti‑ballistic protection development during President Zelensky's Tallinn summit with Baltic leaders (Source: @UkraineNow/81795)."
+        "Ukrainian forces carried out guided aviation bomb launches in Kharkiv region, targeting enemy positions (Source: @kpszsu/64639).",
+        "Guided bombs were also launched from Zaporizhzhia and Donetsk, expanding the strike envelope into Russian‑held territories (Source: @kpszsu/64658, @kpszsu/64640).",
+        "Ukrainian artillery struck an ammunition depot in Belgorod region near Prokhorovka on 8‑9 June, degrading Russian logistics (Source: @UkraineNow/81800).",
+        "Ukrainian attacks damaged eight fuel tanks and injured infrastructure at the Mariupol port in Donetsk region on 5 June (Source: @UkraineNow/81800).",
+        "Ukrainian UAV operations were reported along the Dnipropetrovsk‑Kharkiv border heading toward Pavlograd, indicating reconnaissance and strike capability (Source: @kpszsu/64645).",
+        "Ukrainian forces reported a fast‑moving target from Donetsk heading toward Dnipropetrovsk, suggesting mobile artillery or missile units (Source: @kpszsu/64672).",
+        "Ukrainian air defence units claimed to have downed a large number of Russian UAVs, though specific numbers were not provided in the operational messages."
       ]
     },
     "russia": {
       "points": [
-        "Russian‑controlled UAVs were observed over Dnipropetrovsk, Zaporizhzhia, Kherson, and other oblasts, indicating coordinated strike operations (Source: @eRadarrua/96046).",
-        "A Russian UAV fragment caused a fuel‑tank fire in Rostov region, highlighting risks to civilian infrastructure (Source: @tass_agency/379959).",
-        "Russian authorities reported that UAV attacks damaged several energy objects in Zaporizhzhia, causing partial power outages (Source: @tass_agency/379955).",
-        "Russian officials claimed potential capture of Kostiantynivka if front‑line management remains unchanged (Source: @ukr_leaks_eng/30772).",
-        "Russia announced fines up to 700,000 rubles for unauthorized use of foreign online services, reflecting tightening internal controls (Source: @tass_agency/379944)."
+        "Russian air defence reported shooting down 292 Ukrainian UAVs in a single day, reflecting intense aerial contest (Source: @tass_agency/379946).",
+        "Russian missile attacks on Kharkiv region killed 15 civilians, including three children, and caused additional injuries in Chuhuiv (Source: @UkraineNow/81786).",
+        "Debris from a downed UAV caused a fuel tank fire in Rostov region, indicating collateral damage from aerial engagements (Source: @tass_agency/379959).",
+        "Russian forces continued to operate UAVs in northern Chernihiv and southern Odesa, with sightings of reconnaissance UAVs (Source: @kpszsu/64646, @kpszsu/64643).",
+        "Russian‑held territories in Belgorod and Donetsk experienced Ukrainian strikes, suggesting vulnerability of logistics hubs.",
+        "No explicit Russian offensive movements were detailed in the provided messages beyond defensive air‑defence actions."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAV activity reported in the Donetsk region, with mentions of expanding mandatory evacuation zones (Source: @UkraineNow/81803).",
-        "Ukrainian sources indicated a UAV strike on a power substation in Melitopol, cutting electricity supply (Source: @eRadarrua/96105).",
-        "Russian UAVs were noted over the Zaporizhzhia area, with specific mention of strikes on energy facilities (Source: @tass_agency/379955).",
-        "Ukrainian intelligence warned of possible Russian capture of Kostiantynivka this summer (Source: @ukr_leaks_eng/30772)."
+        "Guided aviation bomb launches were reported in eastern Kharkiv oblast, indicating Ukrainian offensive pressure (Source: @kpszsu/64639).",
+        "Ukrainian UAVs operated along the border of Sumy and Chernihiv regions, heading south, suggesting surveillance of eastern approaches (Source: @kpszsu/64638).",
+        "Ukrainian guided bomb launches in Sumy region expanded strike activity further east (Source: @kpszsu/64636).",
+        "Russian air‑defence downed a high number of Ukrainian UAVs, impacting Ukrainian aerial operations over the eastern front (Source: @tass_agency/379946).",
+        "Ukrainian fast‑moving target from Donetsk toward Dnipropetrovsk indicates possible artillery redeployment affecting eastern supply lines (Source: @kpszsu/64672)."
       ]
     },
     "northern_front": {
       "points": [
-        "No explicit operational reports from the northern front were present in the source material."
+        "Enemy UAV (likely reconnaissance) detected in northern Chernihiv region (Source: @kpszsu/64646).",
+        "UAV observed on the border of Sumy and Chernihiv heading south, indicating activity near the northern front (Source: @kpszsu/64638).",
+        "UAV sightings in Konotop district of Sumy moving west suggest surveillance of northern approaches (Source: @kpszsu/64674).",
+        "UAV from NE Sumy heading to Shostka reflects continued aerial activity in the northern sector (Source: @kpszsu/64665)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces reported UAV attacks on the Chonhar bridge, affecting the Crimea‑Kherson corridor (Source: @UkraineNow/81790).",
-        "UAV strikes were noted in Kherson oblast as part of broader Russian drone activity (Source: @eRadarrua/96046).",
-        "Russian‑controlled UAVs were observed over the Black Sea heading toward the Odesa region (Source: @kpszsu/64643)."
+        "UAV from Black Sea moved toward southern Odesa, indicating potential maritime‑to‑land reconnaissance (Source: @kpszsu/64643).",
+        "UAV operations reported in Bashkansky district of Mykolaiv region heading northwest and toward Mykolaiv city (Source: @kpszsu/64661, @kpszsu/64669).",
+        "UAV from SE Dnipropetrovsk heading toward Synelnykove shows activity in southern‑central Ukraine (Source: @kpszsu/64673).",
+        "Ukrainian strike on fuel storage at Mariupol port in Donetsk region damaged nine tanks, affecting southern logistics (Source: @UkraineNow/81800)."
       ]
     },
     "air_war": {
       "points": [
-        "Multiple UAV deployments were reported across Ukrainian territory, including Dnipropetrovsk, Zaporizhzhia, Kherson, and Odesa, indicating a sustained aerial campaign (Source: @eRadarrua/96046, @kpszsu/64643).",
-        "Russian UAV fragment caused a fire in Rostov, showing the risk of debris from aerial operations (Source: @tass_agency/379959).",
-        "Ukrainian UAVs reportedly attacked the Chonhar bridge, demonstrating reciprocal drone use (Source: @UkraineNow/81790).",
-        "A Ukrainian‑Latvian Drone Deal was signed to enhance defensive capabilities against such aerial threats (Source: @UkraineNow/81801)."
+        "Russian air defence claimed 292 Ukrainian UAVs shot down in one day, highlighting intense UAV contest (Source: @tass_agency/379946).",
+        "Ukrainian guided aviation bomb launches across multiple fronts demonstrate coordinated air‑to‑ground strike capability (Source: @kpszsu/64639, @kpszsu/64658, @kpszsu/64640, @kpszsu/64636).",
+        "Debris from a downed UAV ignited a fuel tank fire in Rostov region, showing collateral risks of aerial engagements (Source: @tass_agency/379959).",
+        "UAV sightings across northern, eastern, and southern fronts indicate widespread reconnaissance and strike missions by both sides (multiple sources).",
+        "Russian missile attacks on Kharkiv caused civilian casualties, reflecting the use of air‑launched munitions against populated areas (Source: @UkraineNow/81786)."
       ]
     },
     "key_developments": [
-      "Russian UAVs struck the Chonhar bridge, disrupting the Crimea‑Kherson link and forcing traffic onto alternative routes via Armenysk and Perekop (Source: @UkraineNow/81790).",
-      "Ukraine and Latvia concluded a Drone Deal to provide long‑term expertise and protection against Russian aerial attacks (Source: @UkraineNow/81801).",
-      "Bulgaria announced it will cease all weapons deliveries to Ukraine, impacting Kyiv's ammunition supplies (Source: @UkraineNow/81799).",
-      "Gas‑pipeline explosions in Dagestan caused three blasts, fires, and the evacuation of over 100 civilians (Source: @UkraineNow/81807).",
-      "Ukrainian UAVs damaged a power substation in Melitopol, leaving the city without electricity (Source: @eRadarrua/96105).",
-      "Russian UAV fragments ignited a fuel tank fire in Rostov region, highlighting collateral damage to civilian infrastructure (Source: @tass_agency/379959).",
-      "Ukrainian officials warned that Russian forces could capture Kostiantynivka this summer if front‑line management does not improve (Source: @ukr_leaks_eng/30772)."
+      "Ukrainian forces launched guided aviation bombs in Kharkiv, Zaporizhzhia, Donetsk and Sumy regions, expanding strike operations (Source: @kpszsu/64639, @kpszsu/64658, @kpszsu/64640, @kpszsu/64636).",
+      "Russian air defence reported downing 292 Ukrainian UAVs in a single day, indicating high UAV activity and defensive intensity (Source: @tass_agency/379946).",
+      "Russian missile attacks on Kharkiv region killed 15 civilians, including three children, and caused additional casualties in Chuhuiv (Source: @UkraineNow/81786).",
+      "Ukrainian strikes destroyed an ammunition depot in Belgorod region near Prokhorovka and damaged fuel tanks at Mariupol port, degrading Russian logistics (Source: @UkraineNow/81800).",
+      "Multiple UAV sightings were reported across northern and southern fronts, including UAVs from the Black Sea toward Odesa and UAVs operating along the Dnipropetrovsk‑Kharkiv border (Source: @kpszsu/64643, @kpszsu/64645).",
+      "Gas‑pipeline explosions in Dagestan caused large fires and evacuations of up to 140 people, highlighting infrastructure vulnerability (Source: @tass_agency/379952, @tass_agency/379945).",
+      "Debris from a downed UAV ignited a fuel tank fire in Rostov region, showing collateral damage from aerial engagements (Source: @tass_agency/379959)."
     ],
-    "threat_assessment": "Russian UAV operations are broadening, targeting bridges, energy facilities, and civilian infrastructure across multiple fronts, indicating a strategy to disrupt logistics and morale. Ukrainian counter‑drone capabilities are being bolstered through international agreements such as the Latvia Drone Deal, yet supply constraints arise from Bulgaria's cessation of arms shipments. The gas‑pipeline incidents in Dagestan, while outside Ukraine, underscore regional instability that could affect supply lines and civilian safety.",
-    "regional_response": "European partners are responding with mixed signals: Latvia is deepening defence cooperation, while Bulgaria is withdrawing material support, reflecting divergent national priorities. NATO allies continue diplomatic engagement, as seen in Zelensky's Tallinn summit focusing on anti‑ballistic protection. Russian internal measures, including fines for foreign service use, suggest a tightening of domestic control amid external pressures.",
-    "intelligence_notes": "Monitoring of UAV flight paths should prioritize bridge crossings and energy nodes, especially in the southern and eastern sectors. The cessation of Bulgarian arms may force Ukraine to seek alternative suppliers, potentially affecting ammunition availability on the front lines. Civilian evacuation protocols in Dagestan highlight the need for cross‑border coordination on infrastructure security."
+    "threat_assessment": "Ukrainian offensive air‑to‑ground capabilities are active across multiple fronts, targeting logistics hubs in Russian‑held territories. Russian air‑defence remains highly effective against UAV incursions, but civilian areas in Kharkiv are vulnerable to missile strikes. The proliferation of UAV activity on both sides increases the risk of accidental infrastructure damage, as seen in Dagestan and Rostov incidents.",
+    "regional_response": "Western partners are discussing financial mechanisms to support Ukrainian air defence, while Russia continues to emphasize its air‑defence successes. Local authorities in Dagestan have coordinated large‑scale evacuations following pipeline explosions, reflecting heightened civil‑defence readiness. Ukrainian diplomatic outreach to EU and NATO allies underscores the need for sustained material and political support.",
+    "intelligence_notes": "Continuous monitoring of UAV flight paths is essential to anticipate reconnaissance and strike patterns on the northern and southern fronts. The high number of UAV losses reported by Russian sources may indicate either effective Russian air‑defence or inflated claims; corroboration with independent imagery is advised. Infrastructure vulnerabilities, especially gas pipelines in the North Caucasus, present secondary threats that could be exploited to divert resources."
   },
   "missiles": 0,
   "drones": 166,
   "kpszsu_timeline": [
     2,
-    2,
     5,
     1,
     1,
@@ -333,9 +337,9 @@
     4,
     5,
     4,
-    2,
-    1,
     3,
+    1,
+    2,
     2,
     4,
     1,
@@ -344,8 +348,9 @@
     9,
     4,
     3,
+    9,
     8,
-    9,
-    7
+    7,
+    3
   ]
 }
