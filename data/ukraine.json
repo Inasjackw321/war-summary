@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-09T23:02:04.919637+00:00",
-  "message_count": 298,
+  "updated_at": "2026-06-10T00:07:00.491493+00:00",
+  "message_count": 302,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -20,7 +20,6 @@
     0,
     0,
     0,
-    0,
     21,
     0,
     0,
@@ -31,63 +30,72 @@
     0,
     0,
     0,
-    0,
     21,
+    0,
     62,
-    42,
-    21,
+    62,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
+    8,
     4,
-    9,
-    4,
-    4,
+    5,
     4,
     11,
-    14,
-    14,
-    18,
-    11,
-    12,
-    17,
-    18,
-    11,
-    12,
-    14,
-    11,
-    22,
-    23,
-    14,
-    17,
     15,
+    16,
+    16,
+    9,
+    13,
+    17,
+    19,
+    11,
+    13,
+    13,
+    11,
+    21,
+    25,
     12,
+    16,
+    16,
+    11,
+    9,
     7
   ],
   "messages_by_channel": {
-    "@eRadarrua": 41,
+    "@eRadarrua": 40,
     "@kpszsu": 84,
     "@mon1tor_ua": 1,
     "@UkraineNow": 20,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 123
+    "@tass_agency": 128
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/96106",
-    "kpszsu": "https://t.me/kpszsu/64675",
+    "kpszsu": "https://t.me/kpszsu/64680",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67541",
     "UkraineNow": "https://t.me/UkraineNow/81808",
     "DeepStateUA": "https://t.me/DeepStateUA/23568",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30800",
-    "tass_agency": "https://t.me/tass_agency/379963"
+    "tass_agency": "https://t.me/tass_agency/379969"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/64639",
-    "tass_agency": "https://t.me/tass_agency/379946",
-    "UkraineNow": "https://t.me/UkraineNow/81786"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30799",
+    "UkraineNow": "https://t.me/UkraineNow/81801",
+    "kpszsu": "https://t.me/kpszsu/64662",
+    "eRadarrua": "https://t.me/eRadarrua/96058",
+    "tass_agency": "https://t.me/tass_agency/379955"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/379969",
+      "post_id": 379969,
+      "channel": "tass_agency",
+      "ts": "2026-06-09T23:52:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/379963",
       "post_id": 379963,
@@ -211,12 +219,6 @@
       "post_id": 81804,
       "channel": "UkraineNow",
       "ts": "2026-06-09T16:42:38+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23567",
-      "post_id": 23567,
-      "channel": "DeepStateUA",
-      "ts": "2026-06-09T16:36:20+00:00"
     }
   ],
   "post_images": {
@@ -243,93 +245,85 @@
     "kpszsu/64565": "data/media/kpszsu_64565.jpg",
     "kpszsu/64564": "data/media/kpszsu_64565.jpg"
   },
-  "summary": "Ukrainian forces launched guided aviation bombs in Kharkiv, Zaporizhzhia, Donetsk and Sumy regions, while Russian air defenses reported downing 292 Ukrainian UAVs in a single day. Russian attacks on Kharkiv region caused civilian casualties, and Ukrainian strikes hit an ammunition depot in Belgorod and fuel storage in Mariupol. Significant infrastructure incidents occurred in Dagestan with multiple gas‑pipeline explosions and evacuations.",
+  "summary": "Ukrainian interior ministry reports police training for mobilization escorts, while Russia experiences a fatal explosion near Moscow that may have killed a senior artillery commander. Significant gas pipeline explosions occurred in Dagestan, prompting evacuations of over 100 residents. Ukraine and Latvia signed a multi‑year drone cooperation agreement.",
   "key_points": [
-    "Ukrainian forces conducted guided aviation bomb launches in Kharkiv, Zaporizhzhia, Donetsk and eastern Kharkiv regions (Source: @kpszsu/64639, @kpszsu/64658, @kpszsu/64640, @kpszsu/64636).",
-    "Russian air defence claimed to have shot down 292 Ukrainian UAVs in one day (Source: @tass_agency/379946).",
-    "Russian missile attacks on Kharkiv region resulted in 15 civilian deaths, including three children, and additional casualties in Chuhuiv (Source: @UkraineNow/81786).",
-    "Ukrainian strikes destroyed an ammunition depot in Belgorod region near Prokhorovka and damaged fuel tanks at Mariupol port in Donetsk region (Source: @UkraineNow/81800).",
-    "Multiple UAV sightings and flights were reported across northern and southern fronts, including UAVs from the Black Sea toward Odesa, and UAVs operating along the Dnipropetrovsk‑Kharkiv border (Source: @kpszsu/64643, @kpszsu/64645).",
-    "Gas‑pipeline explosions in Dagestan caused large fires and evacuations of up to 140 people (Source: @tass_agency/379952, @tass_agency/379945).",
-    "Debris from a downed UAV ignited a fuel tank fire in Rostov region (Source: @tass_agency/379959)."
+    "Ukrainian Interior Minister Klymenko says police are being trained to politely escort citizens to temporary collection centers during mobilization (Source: @ukr_leaks_eng/30799).",
+    "A gas pipeline near the \"Metan\" gas station in Kizilyurt, Dagestan exploded, causing three blasts, a large fire and evacuation of more than 100 people (Source: @UkraineNow/81801).",
+    "Ukraine and Latvia signed a multi‑year Drone Deal to enhance protection against Russian threats across Europe (Source: @UkraineNow/81805).",
+    "A Russian general‑colonel, head of the Main Missile‑Artillery Directorate, was reportedly killed in an explosion near Balashikha, Moscow region (Source: @UkraineNow/81801).",
+    "Russian forces have equipped Kalibr missiles with a cassette warhead, re‑introducing foreign components in guidance heads (Source: @UkraineNow/81796).",
+    "Multiple UAV groups were reported operating from various Ukrainian regions toward enemy‑held areas, including from eastern Kharkiv toward Balakliia and from the Black Sea toward southern Odesa (Source: @kpszsu/64662, @kpszsu/64643).",
+    "Kyiv’s air‑raid alert was lifted at 20:48 on 09 June 2026 (Source: @eRadarrua/96058)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces launched guided aviation bombs across multiple eastern fronts, while Russian air defenses reported downing 292 Ukrainian UAVs in a single day. Russian missile strikes on Kharkiv caused civilian deaths, and Ukrainian strikes hit an ammunition depot in Belgorod and fuel storage in Mariupol. Separate incidents in Dagestan involved gas‑pipeline explosions and large‑scale evacuations.",
+    "executive_summary": "A senior Russian artillery commander was reportedly killed in an explosion near Balashikha, Moscow region. Simultaneously, major gas pipeline explosions in Dagestan forced evacuation of over 100 civilians. Ukraine and Latvia formalized a drone cooperation program to bolster regional defense.",
     "ukraine": {
       "points": [
-        "Ukrainian forces carried out guided aviation bomb launches in Kharkiv region, targeting enemy positions (Source: @kpszsu/64639).",
-        "Guided bombs were also launched from Zaporizhzhia and Donetsk, expanding the strike envelope into Russian‑held territories (Source: @kpszsu/64658, @kpszsu/64640).",
-        "Ukrainian artillery struck an ammunition depot in Belgorod region near Prokhorovka on 8‑9 June, degrading Russian logistics (Source: @UkraineNow/81800).",
-        "Ukrainian attacks damaged eight fuel tanks and injured infrastructure at the Mariupol port in Donetsk region on 5 June (Source: @UkraineNow/81800).",
-        "Ukrainian UAV operations were reported along the Dnipropetrovsk‑Kharkiv border heading toward Pavlograd, indicating reconnaissance and strike capability (Source: @kpszsu/64645).",
-        "Ukrainian forces reported a fast‑moving target from Donetsk heading toward Dnipropetrovsk, suggesting mobile artillery or missile units (Source: @kpszsu/64672).",
-        "Ukrainian air defence units claimed to have downed a large number of Russian UAVs, though specific numbers were not provided in the operational messages."
+        "Interior Minister Klymenko detailed that police officers are receiving training to politely escort citizens to temporary collection centers (TCC) during mobilization, aiming to reduce incidents of mistreatment (Source: @ukr_leaks_eng/30799).",
+        "Ukraine signed a multi‑year Drone Deal with Latvia, focusing on expertise and assistance to protect critical civil infrastructure from mass attacks (Source: @UkraineNow/81805).",
+        "Ukrainian forces reported multiple UAV deployments: from eastern Kharkiv toward Balakliia, from the Black Sea toward southern Odesa, and from Poltava district toward Kremenchuk (Source: @kpszsu/64662, @kpszsu/64643, @kpszsu/64664).",
+        "Ukrainian air‑defense regiment 291st Air Defense FPV was shown operating drones, indicating active air‑defense drone usage (Source: @ukr_leaks_eng/30793)."
       ]
     },
     "russia": {
       "points": [
-        "Russian air defence reported shooting down 292 Ukrainian UAVs in a single day, reflecting intense aerial contest (Source: @tass_agency/379946).",
-        "Russian missile attacks on Kharkiv region killed 15 civilians, including three children, and caused additional injuries in Chuhuiv (Source: @UkraineNow/81786).",
-        "Debris from a downed UAV caused a fuel tank fire in Rostov region, indicating collateral damage from aerial engagements (Source: @tass_agency/379959).",
-        "Russian forces continued to operate UAVs in northern Chernihiv and southern Odesa, with sightings of reconnaissance UAVs (Source: @kpszsu/64646, @kpszsu/64643).",
-        "Russian‑held territories in Belgorod and Donetsk experienced Ukrainian strikes, suggesting vulnerability of logistics hubs.",
-        "No explicit Russian offensive movements were detailed in the provided messages beyond defensive air‑defence actions."
+        "A Russian general‑colonel, head of the Main Missile‑Artillery Directorate, was reportedly killed in an explosion near Balashikha, Moscow region, according to Russian media (Source: @UkraineNow/81801).",
+        "Russian Kalibr missiles were observed equipped with a cassette warhead, similar to that used on the Kh‑101, with guidance heads still containing 80‑90% foreign components (Source: @UkraineNow/81796).",
+        "Russian forces suffered damage to several energy facilities in Zaporizhzhia region after a Ukrainian attack, causing partial power outages (Source: @tass_agency/379955).",
+        "Russian authorities reported a massive fire reaching 15 m high caused by a gas‑pipeline explosion near a gas station in Dagestan, with no casualties reported by regional officials (Source: @tass_agency/379950)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Guided aviation bomb launches were reported in eastern Kharkiv oblast, indicating Ukrainian offensive pressure (Source: @kpszsu/64639).",
-        "Ukrainian UAVs operated along the border of Sumy and Chernihiv regions, heading south, suggesting surveillance of eastern approaches (Source: @kpszsu/64638).",
-        "Ukrainian guided bomb launches in Sumy region expanded strike activity further east (Source: @kpszsu/64636).",
-        "Russian air‑defence downed a high number of Ukrainian UAVs, impacting Ukrainian aerial operations over the eastern front (Source: @tass_agency/379946).",
-        "Ukrainian fast‑moving target from Donetsk toward Dnipropetrovsk indicates possible artillery redeployment affecting eastern supply lines (Source: @kpszsu/64672)."
+        "UAV groups were observed launching from eastern Kharkiv toward Balakliia, indicating continued reconnaissance or strike activity in the eastern sector (Source: @kpszsu/64662).",
+        "UAVs from the Black Sea were reported heading toward southern Odesa, suggesting pressure on Ukrainian coastal defenses (Source: @kpszsu/64643).",
+        "Multiple UAV groups operated from Kharkiv region locations such as Nova Oleksiivka, Cherkasy Tishky, and 3 Savintsi, targeting unspecified eastern objectives (Source: @eRadarrua/96060).",
+        "A UAV was reported from the north‑east of Sumy region heading toward Sumy city, indicating activity in the northern part of the eastern front (Source: @kpszsu/64675)."
       ]
     },
     "northern_front": {
       "points": [
-        "Enemy UAV (likely reconnaissance) detected in northern Chernihiv region (Source: @kpszsu/64646).",
-        "UAV observed on the border of Sumy and Chernihiv heading south, indicating activity near the northern front (Source: @kpszsu/64638).",
-        "UAV sightings in Konotop district of Sumy moving west suggest surveillance of northern approaches (Source: @kpszsu/64674).",
-        "UAV from NE Sumy heading to Shostka reflects continued aerial activity in the northern sector (Source: @kpszsu/64665)."
+        "UAV activity reported from north‑west Kharkiv toward Kharkiv city, suggesting reconnaissance near the front line (Source: @kpszsu/64647).",
+        "UAVs were noted operating near Chernihiv region, including near Korjivka and other localities (Source: @eRadarrua/96049).",
+        "UAV groups were observed in Sumy region, including near Boromlya and Trostyanets, indicating northern operational focus (Source: @eRadarrua/96106).",
+        "A reconnaissance UAV was reported near Koryukivka in Chernihiv region (Source: @eRadarrua/96049)."
       ]
     },
     "southern_front": {
       "points": [
-        "UAV from Black Sea moved toward southern Odesa, indicating potential maritime‑to‑land reconnaissance (Source: @kpszsu/64643).",
-        "UAV operations reported in Bashkansky district of Mykolaiv region heading northwest and toward Mykolaiv city (Source: @kpszsu/64661, @kpszsu/64669).",
-        "UAV from SE Dnipropetrovsk heading toward Synelnykove shows activity in southern‑central Ukraine (Source: @kpszsu/64673).",
-        "Ukrainian strike on fuel storage at Mariupol port in Donetsk region damaged nine tanks, affecting southern logistics (Source: @UkraineNow/81800)."
+        "UAVs from the Black Sea were directed toward southern Odesa, highlighting pressure on the southern front (Source: @kpszsu/64643).",
+        "UAV activity reported in Dnipropetrovsk region near Slavgorod from the north (Source: @eRadarrua/96106).",
+        "UAVs were noted operating in Zaporizhzhia region near Kushugum and Komishuvakha, targeting southern operational areas (Source: @eRadarrua/96065).",
+        "UAVs were reported near Kherson region as part of broader southern deployments (Source: @eRadarrua/96046)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air defence claimed 292 Ukrainian UAVs shot down in one day, highlighting intense UAV contest (Source: @tass_agency/379946).",
-        "Ukrainian guided aviation bomb launches across multiple fronts demonstrate coordinated air‑to‑ground strike capability (Source: @kpszsu/64639, @kpszsu/64658, @kpszsu/64640, @kpszsu/64636).",
-        "Debris from a downed UAV ignited a fuel tank fire in Rostov region, showing collateral risks of aerial engagements (Source: @tass_agency/379959).",
-        "UAV sightings across northern, eastern, and southern fronts indicate widespread reconnaissance and strike missions by both sides (multiple sources).",
-        "Russian missile attacks on Kharkiv caused civilian casualties, reflecting the use of air‑launched munitions against populated areas (Source: @UkraineNow/81786)."
+        "Kyiv’s air‑raid alert was lifted at 20:48 on 09 June 2026, indicating a temporary lull in aerial threats (Source: @eRadarrua/96058).",
+        "Ukrainian 291st Air Defense FPV Regiment was shown operating drones, reflecting active air‑defense drone usage (Source: @ukr_leaks_eng/30793).",
+        "Russian Kalibr missiles equipped with cassette warheads suggest continued missile strikes capability (Source: @UkraineNow/81796).",
+        "Ukrainian UAV groups were reported operating from multiple regions, indicating extensive aerial reconnaissance and strike operations across fronts (Source: multiple UAV posts)."
       ]
     },
     "key_developments": [
-      "Ukrainian forces launched guided aviation bombs in Kharkiv, Zaporizhzhia, Donetsk and Sumy regions, expanding strike operations (Source: @kpszsu/64639, @kpszsu/64658, @kpszsu/64640, @kpszsu/64636).",
-      "Russian air defence reported downing 292 Ukrainian UAVs in a single day, indicating high UAV activity and defensive intensity (Source: @tass_agency/379946).",
-      "Russian missile attacks on Kharkiv region killed 15 civilians, including three children, and caused additional casualties in Chuhuiv (Source: @UkraineNow/81786).",
-      "Ukrainian strikes destroyed an ammunition depot in Belgorod region near Prokhorovka and damaged fuel tanks at Mariupol port, degrading Russian logistics (Source: @UkraineNow/81800).",
-      "Multiple UAV sightings were reported across northern and southern fronts, including UAVs from the Black Sea toward Odesa and UAVs operating along the Dnipropetrovsk‑Kharkiv border (Source: @kpszsu/64643, @kpszsu/64645).",
-      "Gas‑pipeline explosions in Dagestan caused large fires and evacuations of up to 140 people, highlighting infrastructure vulnerability (Source: @tass_agency/379952, @tass_agency/379945).",
-      "Debris from a downed UAV ignited a fuel tank fire in Rostov region, showing collateral damage from aerial engagements (Source: @tass_agency/379959)."
+      "A senior Russian artillery commander was reportedly killed in an explosion near Balashikha, Moscow region, according to Russian media (Source: @UkraineNow/81801).",
+      "Gas pipeline explosions near the \"Metan\" gas station in Kizilyurt, Dagestan caused three blasts, a large fire, and evacuation of over 100 residents (Source: @UkraineNow/81801).",
+      "Ukraine and Latvia signed a multi‑year Drone Deal to enhance protection against Russian threats across Europe (Source: @UkraineNow/81805).",
+      "Russian Kalibr missiles were observed equipped with a cassette warhead, re‑introducing foreign components in guidance heads (Source: @UkraineNow/81796).",
+      "Multiple Ukrainian UAV groups were reported operating from eastern Kharkiv toward Balakliia and from the Black Sea toward southern Odesa (Source: @kpszsu/64662, @kpszsu/64643).",
+      "Kyiv’s air‑raid alert was lifted at 20:48 on 09 June 2026, indicating a temporary reduction in aerial threat levels (Source: @eRadarrua/96058).",
+      "Ukrainian Interior Minister Klymenko announced police training to politely escort citizens to temporary collection centers during mobilization (Source: @ukr_leaks_eng/30799)."
     ],
-    "threat_assessment": "Ukrainian offensive air‑to‑ground capabilities are active across multiple fronts, targeting logistics hubs in Russian‑held territories. Russian air‑defence remains highly effective against UAV incursions, but civilian areas in Kharkiv are vulnerable to missile strikes. The proliferation of UAV activity on both sides increases the risk of accidental infrastructure damage, as seen in Dagestan and Rostov incidents.",
-    "regional_response": "Western partners are discussing financial mechanisms to support Ukrainian air defence, while Russia continues to emphasize its air‑defence successes. Local authorities in Dagestan have coordinated large‑scale evacuations following pipeline explosions, reflecting heightened civil‑defence readiness. Ukrainian diplomatic outreach to EU and NATO allies underscores the need for sustained material and political support.",
-    "intelligence_notes": "Continuous monitoring of UAV flight paths is essential to anticipate reconnaissance and strike patterns on the northern and southern fronts. The high number of UAV losses reported by Russian sources may indicate either effective Russian air‑defence or inflated claims; corroboration with independent imagery is advised. Infrastructure vulnerabilities, especially gas pipelines in the North Caucasus, present secondary threats that could be exploited to divert resources."
+    "threat_assessment": "Russian high‑level artillery leadership may be vulnerable following the reported death of a senior commander near Moscow, potentially affecting missile and artillery coordination. The Dagestan gas‑pipeline explosions demonstrate a capacity for sabotage or accidental infrastructure damage, posing civilian risk and possible strategic disruption. Ukraine's expanding UAV deployments across multiple fronts indicate sustained reconnaissance and strike capability, while the new drone partnership with Latvia enhances regional defensive posture against Russian aerial threats.",
+    "regional_response": "Ukrainian authorities are emphasizing civilian protection, as seen in police training for mobilization escorts and rapid evacuation after the Dagestan pipeline blasts. Internationally, Latvia's drone agreement with Ukraine reflects growing European support for Ukrainian air‑defense capabilities. Russian statements about missile warhead upgrades suggest an intent to maintain long‑range strike options despite sanctions.",
+    "intelligence_notes": "Monitor further reports on the status of the Russian artillery command structure after the Balashikha incident for potential operational disruptions. Track UAV flight paths from Kharkiv and Black Sea origins to assess targeting priorities. Observe any follow‑up diplomatic actions related to the Latvia drone deal and EU sanctions proposals targeting Russian military personnel."
   },
   "missiles": 0,
   "drones": 166,
   "kpszsu_timeline": [
-    2,
-    5,
+    4,
     1,
     1,
     1,
@@ -351,6 +345,7 @@
     9,
     8,
     7,
-    3
+    5,
+    1
   ]
 }
