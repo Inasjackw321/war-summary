@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-10T12:37:40.164524+00:00",
-  "message_count": 347,
+  "updated_at": "2026-06-10T14:40:14.498575+00:00",
+  "message_count": 357,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -16,12 +16,10 @@
     0,
     0,
     0,
-    0,
-    0,
-    17,
-    17,
-    34,
-    52,
+    14,
+    14,
+    28,
+    41,
     0,
     0,
     0,
@@ -31,64 +29,138 @@
     0,
     0,
     0,
-    17,
+    14,
     0,
-    34,
-    17,
+    28,
+    14,
     0,
-    17
+    14,
+    41,
+    0
   ],
   "combined_activity_timeline": [
     11,
+    16,
+    22,
+    18,
+    8,
     17,
-    11,
-    15,
-    23,
-    17,
-    9,
-    15,
-    17,
+    16,
     7,
-    10,
+    9,
     5,
     12,
     9,
     10,
     10,
     13,
-    14,
-    31,
+    15,
+    29,
     14,
     19,
-    21,
-    22,
-    15
+    20,
+    23,
+    15,
+    25,
+    13
   ],
   "messages_by_channel": {
-    "@eRadarrua": 46,
-    "@kpszsu": 92,
+    "@eRadarrua": 48,
+    "@kpszsu": 91,
     "@mon1tor_ua": 1,
     "@UkraineNow": 28,
-    "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 27,
-    "@tass_agency": 151
+    "@DeepStateUA": 3,
+    "@ukr_leaks_eng": 26,
+    "@tass_agency": 160
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96140",
-    "kpszsu": "https://t.me/kpszsu/64750",
+    "eRadarrua": "https://t.me/eRadarrua/96147",
+    "kpszsu": "https://t.me/kpszsu/64756",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67541",
-    "UkraineNow": "https://t.me/UkraineNow/81828",
-    "DeepStateUA": "https://t.me/DeepStateUA/23568",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30815",
-    "tass_agency": "https://t.me/tass_agency/380075"
+    "UkraineNow": "https://t.me/UkraineNow/81831",
+    "DeepStateUA": "https://t.me/DeepStateUA/23569",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30819",
+    "tass_agency": "https://t.me/tass_agency/380100"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81820",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30805",
-    "kpszsu": "https://t.me/kpszsu/64724",
-    "eRadarrua": "https://t.me/eRadarrua/96124"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30802",
+    "UkraineNow": "https://t.me/UkraineNow/81805",
+    "kpszsu": "https://t.me/kpszsu/64721",
+    "eRadarrua": "https://t.me/eRadarrua/96095"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/380099",
+      "post_id": 380099,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T14:32:13+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30819",
+      "post_id": 30819,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-10T14:26:15+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380097",
+      "post_id": 380097,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T14:25:53+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380096",
+      "post_id": 380096,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T14:19:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380093",
+      "post_id": 380093,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T14:01:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380092",
+      "post_id": 380092,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T13:52:33+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380091",
+      "post_id": 380091,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T13:38:11+00:00"
+    },
+    {
+      "post_url": "https://t.me/DeepStateUA/23569",
+      "post_id": 23569,
+      "channel": "DeepStateUA",
+      "ts": "2026-06-10T13:32:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30817",
+      "post_id": 30817,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-10T13:28:41+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81830",
+      "post_id": 81830,
+      "channel": "UkraineNow",
+      "ts": "2026-06-10T13:04:27+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380083",
+      "post_id": 380083,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T13:00:40+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30816",
+      "post_id": 30816,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-10T12:50:13+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/96140",
       "post_id": 96140,
@@ -140,84 +212,6 @@
       "post_id": 380063,
       "channel": "tass_agency",
       "ts": "2026-06-10T11:15:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81825",
-      "post_id": 81825,
-      "channel": "UkraineNow",
-      "ts": "2026-06-10T11:05:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96137",
-      "post_id": 96137,
-      "channel": "eRadarrua",
-      "ts": "2026-06-10T11:05:26+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/bVxpqLKk9Bc2rvtK5X_BpcCVR_8m7nvQv1Ilt740WaJnhwf3TQOtDfVTUHdFj_BTz6slipAxUwQX667d31TFrsyBfjOUrtrxFYNh7UxjZIAzBbh1JTFAQQRlzuF5PIRTL9kvQP_rzyAvJdlw1Ry6IUFsEui9pqx9ue77hFlhFWnMBandg0NCiyrcyep5FjuqIo-0PVFsvlqRGLNWpyhx0P9rxjeBxZRVGCuQXpDvgbqPXirTAQlserJjWxuBouQw_NyIyVkmgOxxSFpnih8bjx8PClnOkZUMHBtuG7Ezq7JtHz8a7-yP3yrDYPYv33saytoHCDI0aXUDZG26x1ATAg.jpg",
-      "companion_text_id": 96138
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96134",
-      "post_id": 96134,
-      "channel": "eRadarrua",
-      "ts": "2026-06-10T10:55:49+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/ufreD360-CUxh5bcuNwsQR1OoreaTYWyN763g_yYN7C1iIk78NoASdXQCDYlW_7DSigZnrCOi81k8HjwoppsKcYB1QiMDB53FaWRXNqwmRMmtA3a3VAG_7CJFBLLvPc8v3f0aDKReiGk-edUYC3jI-oJXQjFOlMRkK6qSOpnnheNuh2bextKbTiy7wHE4O7iNVjmry6JAQV0fo165fTZ8bGMq3E2US64MsXY88IBQF-xQPnlrYuPo5OWrUH8XWY5ovxI0d2WXzGzO8BL16lBHM0B6CE7f9dMRzRinszr5bK6oGgFfBTfmQ4HTQ2GDRxxy7Baw7mzQqYqc1QedlE6Pw.jpg",
-      "companion_text_id": 96132
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81824",
-      "post_id": 81824,
-      "channel": "UkraineNow",
-      "ts": "2026-06-10T10:51:55+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380055",
-      "post_id": 380055,
-      "channel": "tass_agency",
-      "ts": "2026-06-10T10:46:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380054",
-      "post_id": 380054,
-      "channel": "tass_agency",
-      "ts": "2026-06-10T10:44:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81823",
-      "post_id": 81823,
-      "channel": "UkraineNow",
-      "ts": "2026-06-10T10:37:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380051",
-      "post_id": 380051,
-      "channel": "tass_agency",
-      "ts": "2026-06-10T10:16:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96132",
-      "post_id": 96132,
-      "channel": "eRadarrua",
-      "ts": "2026-06-10T10:10:19+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/PC9EkoNzBlc32YgywzFJXTwwVy-XcogJEDGBQqq1OP-fD3TiSFPUSgqbNpD1fGwjyJH_ddKU8IZQMu5dD1U2hW8JBdpFuwuFEdJDr5jys4vjoP5Y1HiAPkZz0P7yWP59VJu-0eDuRSfoNHw_m6gSHUd9017jB9PbopRR5S-Pyl4MJIbNr23PWSWtFoa69h54GaThFlbfJQXshC96H39wJRc0jSx7Csx8gTwh9NLfANTtbwxRfYDVE4C6ID6sil6VJdSxZwGnHRQ7rirktyfj2secvb0PIzL4SaNsflByeq2aqWTQFyldxyC7vFcbzGNuoEeRJTRx2qsIPDxsgSrhRw.jpg",
-      "companion_text_id": 96130
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81822",
-      "post_id": 81822,
-      "channel": "UkraineNow",
-      "ts": "2026-06-10T10:08:06+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30811",
-      "post_id": 30811,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-10T10:05:21+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81821",
-      "post_id": 81821,
-      "channel": "UkraineNow",
-      "ts": "2026-06-10T09:51:45+00:00"
     }
   ],
   "post_images": {
@@ -237,119 +231,104 @@
     "eRadarrua/96114": "data/media/eRadarrua_96114.jpg",
     "eRadarrua/96120": "data/media/eRadarrua_96120.jpg",
     "eRadarrua/96121": "data/media/eRadarrua_96120.jpg",
-    "eRadarrua/96077": "data/media/eRadarrua_96077.jpg",
-    "eRadarrua/96075": "data/media/eRadarrua_96077.jpg",
     "eRadarrua/96085": "data/media/eRadarrua_96085.jpg",
     "eRadarrua/96062": "data/media/eRadarrua_96062.jpg",
-    "eRadarrua/96061": "data/media/eRadarrua_96062.jpg",
+    "eRadarrua/96060": "data/media/eRadarrua_96062.jpg",
     "eRadarrua/96071": "data/media/eRadarrua_96071.jpg",
+    "eRadarrua/96077": "data/media/eRadarrua_96077.jpg",
+    "eRadarrua/96075": "data/media/eRadarrua_96077.jpg",
     "kpszsu/64700": "data/media/kpszsu_64700.jpg",
     "kpszsu/64699": "data/media/kpszsu_64700.jpg"
   },
-  "summary": "Ukrainian forces reported a mass drone attack on Kharkiv causing six civilian injuries and a residential fire, while Russian missile strikes hit Cheboksary and the Samara oil refinery. Ukraine claimed to have destroyed the Mariupol port infrastructure and the shadow‑fleet vessel Lady Augusta, severely limiting Russian logistics. Both sides reported intensified UAV activity, with Ukraine saying Russia launches 650 drones and missiles daily.",
+  "summary": "Russia is launching approximately 650 drones and up to 100 missiles daily against Ukraine, while Ukraine can field 300‑350 of its own. Ukrainian forces reported significant Russian breakthroughs in Kostiantynivka, and Kyiv claimed strikes on Russian industrial sites over 700 km from the front using FP‑5 Flamingo missiles. Meanwhile, multiple UAV incursions have been observed over several Ukrainian regions.",
   "key_points": [
-    "Mass drone attack on Kharkiv injured at least six civilians and ignited a fire in an industrial district building (Source: @UkraineNow/81820).",
-    "Russian missile strike hit Cheboksary, 1,000 km from the front, and the Novokuybyshevsk oil refinery in Samara caught fire (Source: @ukr_leaks_eng/30805).",
-    "Ukrainian forces destroyed Mariupol port infrastructure, including power substations, radar, a control tower, and the shadow‑fleet cargo ship Lady Augusta (Source: @UkraineNow/81817).",
-    "Russia attempted a missile strike on the Genichesk‑Arabat Spit bridge in Kherson, temporarily suspending traffic (Source: @ukr_leaks_eng/30805).",
-    "Eight districts experienced power outages after a nighttime Ukrainian UAV attack (Source: @ukr_leaks_eng/30805).",
-    "Ukrainian officials reported Russia launches 650 drones and 35‑100 missiles per day at Ukraine (Source: @ukr_leaks_eng/30802).",
-    "Ukrainian military warned of new Russian “Molnia” drones operating on video frequencies hard to detect (Source: @UkraineNow/81812).",
-    "Russian FPV drones wounded civilians in Belgorod region villages, including severe injuries in Krasnaya Yaruga (Source: @ukr_leaks_eng/30805)."
+    "Russia is launching 650 drones and 35‑100 missiles per day at Ukraine; Ukraine can respond with 300‑350 assets (Source: @ukr_leaks_eng/30802).",
+    "An explosion near Moscow in Balashikha killed a driver and is reported to have killed Russian General‑Colonel Damir Davydov (Source: @UkraineNow/81805).",
+    "Russian troops broke into Kostiantynivka city centre from several directions, advancing through Illinovka, Berestok, a shopping centre and Yubileiny Park (Source: @ukr_leaks_eng/30804).",
+    "Ukraine struck the VNIIR‑Progress plant in Cheboksary, the Kuibyshev refinery and two oil sites in the Volgodonsk region with FP‑5 Flamingo missiles, targets over 700 km from the front line (Source: @UkraineNow/81819).",
+    "A group of reactive UAVs launched from the Black Sea are heading toward the Kherson region (Source: @kpszsu/64721).",
+    "UAVs were observed over Dnipropetrovsk region, flying from the north toward Dniprovsk/Verkhnyodniprovsk (Source: @eRadarrua/96095).",
+    "UAVs from the Black Sea were sighted moving southward toward Odesa region locations Vilkove and Tatarbunari (Source: @kpszsu/64718)."
   ],
-  "sentiment": "volatile",
-  "intensity": 7,
+  "sentiment": "escalating",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Mass drone attacks on Kharkiv injured six civilians and sparked a residential fire. Russian missile strikes hit Cheboksary and set the Samara oil refinery ablaze. Ukraine reported the destruction of Mariupol port facilities and the shadow‑fleet vessel Lady Augusta, crippling Russian logistics.",
+    "executive_summary": "Russia is launching 650 drones and up to 100 missiles daily against Ukraine, overwhelming Kyiv's 300‑350‑asset response. Ukrainian defenders face a bleak outlook in Kostiantynivka after Russian forces penetrated the city centre from multiple axes. Kyiv claims successful long‑range strikes on Russian industrial targets using FP‑5 Flamingo missiles, demonstrating heightened strike capability.",
     "ukraine": {
       "points": [
-        "Kharkiv endured a large‑scale UAV assault, with at least six civilians injured, stress reactions reported, and a fire breaking out in a residential building in the industrial district (Source: @UkraineNow/81820).",
-        "In Odessa’s Primorsky district, Russian attacks damaged two residential buildings, completely destroying a fifth‑floor apartment and hospitalising a 46‑year‑old woman (Source: @UkraineNow/81809).",
-        "Ukrainian forces eliminated key Mariupol port assets, including power substations, radar, a control tower, repair facilities, fuel tanks, and the shadow‑fleet cargo ship Lady Augusta, rendering the port non‑operational (Source: @UkraineNow/81817).",
-        "Ukraine’s defense ministry warned that Russian “Molnia” drones now operate on video frequencies that evade most electronic detectors, urging units to adapt (Source: @UkraineNow/81812).",
-        "Ukrainian officials stated Russia is launching approximately 650 drones and 35‑100 missiles daily against Ukraine, while Ukraine can field 300‑350 defensive systems (Source: @ukr_leaks_eng/30802).",
-        "Ukrainian intelligence reported a group of three army‑corps officers in Kharkiv region suspected of extorting soldiers for false combat reports, involving 274 k UAH in illicit gains (Source: @UkraineNow/81815).",
-        "A Ukrainian FPV drone strike wounded a man in the Graivoron district of Belgorod region, demonstrating cross‑border UAV activity (Source: @ukr_leaks_eng/30805)."
+        "Zelensky told a press conference in Tallinn that Ukraine can field 300‑350 drones and missiles daily, far fewer than Russia's 650 drones and 35‑100 missiles, highlighting a resource gap (Source: @ukr_leaks_eng/30802).",
+        "Ukrainian military expert Konstantin Mashovets warned that defending Kostiantynivka looks bleak after Russian assault groups broke into the city centre via Illinovka, Berestok, the 7 Vetrov shopping centre and Yubileiny Park (Source: @ukr_leaks_eng/30804).",
+        "Ukrainian forces reported a UAV operating over Dnipropetrovsk region, approaching Dniprovsk and Verkhnyodniprovsk from the north, indicating continued aerial pressure in central Ukraine (Source: @eRadarrua/96095).",
+        "A UAV was sighted in Zaporizhzhia's southern district, suggesting Russian aerial activity targeting the southern industrial zone (Source: @kpszsu/64747).",
+        "Ukrainian intelligence noted a UAV moving from the north of Kharkiv oblast toward the southeast, potentially threatening logistics corridors (Source: @kpszsu/64724)."
       ]
     },
     "russia": {
       "points": [
-        "A missile attack struck Cheboksary in Chuvashia, located about 1,000 km from the front lines (Source: @ukr_leaks_eng/30805).",
-        "The Novokuybyshevsk oil refinery in Samara region caught fire after Ukrainian strikes, causing significant industrial damage (Source: @ukr_leaks_eng/30805).",
-        "Russian forces attempted a missile strike on the bridge linking Genichesk to the Arabat Spit in Kherson region, temporarily halting traffic (Source: @ukr_leaks_eng/30805).",
-        "Eight districts suffered power outages following a nighttime Ukrainian UAV attack on energy infrastructure (Source: @ukr_leaks_eng/30805).",
-        "Russian FPV drones caused severe civilian injuries in Belgorod region villages, including life‑threatening wounds in Krasnaya Yaruga (Source: @ukr_leaks_eng/30805).",
-        "Russian troops consolidated around Kurylovka in the Kupyansk direction and continued small‑group attacks toward Kupiansk‑Vuzlovy (Source: @ukr_leaks_eng/30805).",
-        "In the Dobropillya direction, Russian forces advanced northwest from Myrne‑Vasylevka and west of Rodynske, maintaining pressure on Ukrainian positions (Source: @ukr_leaks_eng/30805)."
+        "An explosion near Moscow in the town of Balashikha killed the driver of a vehicle; Russian media report the death of General‑Colonel Damir Davydov, head of the Main Rocket‑Artillery Directorate, who was involved in planning the invasion (Source: @UkraineNow/81805).",
+        "Ukraine claimed to have struck the VNIIR‑Progress plant in Cheboksary with FP‑5 Flamingo missiles, a facility that produces radio components for Russian weapons such as Shahed drones and Kalibr missiles (Source: @eRadarrua/96114).",
+        "The Kuibyshev refinery in the Samara region was hit by Ukrainian FP‑5 Flamingo missiles, demonstrating Ukraine's ability to target Russian energy infrastructure far from the front (Source: @UkraineNow/81819).",
+        "Two additional oil infrastructure sites in the Volgodonsk region were reportedly damaged by the same missile type, extending the strike envelope beyond 700 km (Source: @UkraineNow/81819).",
+        "Russian authorities reported a UAV over Cheboksary, nearly 1,000 km from Ukraine, indicating Russian reconnaissance or testing of long‑range UAV capabilities (Source: @eRadarrua/96109)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian assault units of Army Group “North” engaged in small‑arms battles around Kazacha Lopan, a major logistics hub in Kharkiv region (Source: @ukr_leaks_eng/30805).",
-        "Fighting continued in Vovchansk direction, with Ukrainian forces clashing in the villages of Ohrimivka and Losivka and surrounding forest areas (Source: @ukr_leaks_eng/30805).",
-        "In Sumy’s Shostka district, Ukrainian troops advanced up to 900 m in 21 sectors, with ongoing combat in Ivolzhanske, Pysarovka, and Novaya Sich (Source: @ukr_leaks_eng/30805).",
-        "Combat persisted in Krasnopolye district forests near Mihaylovka and along railway tracks to the district centre (Source: @ukr_leaks_eng/30805).",
-        "Ukrainian forces reported small‑arms engagements in the Zaporozhye front, with continual attacks on electrical substations (Source: @ukr_leaks_eng/30805).",
-        "Russian forces in the Kupyansk direction consolidated near Kurylovka while probing towards Kupiansk‑Vuzlovy (Source: @ukr_leaks_eng/30805).",
-        "Ukrainian units in the Velyky Burluk direction fought in forested areas near Petro‑Ivanovka (Source: @ukr_leaks_eng/30805)."
+        "Russian forces penetrated Kostiantynivka in Donetsk oblast, advancing through multiple urban points including the 7 Vetrov shopping centre and Yubileiny Park, threatening the city's defensive line (Source: @ukr_leaks_eng/30804).",
+        "Ukrainian reports of UAV activity over Dnipropetrovsk region suggest continued Russian aerial pressure on supply routes supporting eastern operations (Source: @eRadarrua/96095).",
+        "The high tempo of Russian drone and missile launches—650 drones and up to 100 missiles daily—places sustained pressure on eastern defensive positions (Source: @ukr_leaks_eng/30802).",
+        "Ukrainian statements indicate limited retaliatory capacity, with only 300‑350 drones/missiles available to counter the eastern barrage (Source: @ukr_leaks_eng/30802)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAV activity was reported near Cheboksary, approximately 1,000 km from the front, indicating long‑range reconnaissance or strike capability (Source: @ukr_leaks_eng/30805).",
-        "No direct combat reports were provided for the northern front in the source set; however, Russian missile strikes on Cheboksary and Samara suggest strategic targeting from the north (Source: @ukr_leaks_eng/30805).",
-        "Ukrainian intelligence noted the presence of reactive UAVs operating from the north of Kharkiv heading southeast, indicating potential threat vectors (Source: @kpszsu/64724).",
-        "Reports of a reactive UAV originating from the north of Kharkiv moving southeast underscore continued aerial pressure on northern sectors (Source: @kpszsu/64724).",
-        "No further specific northern front engagements were detailed in the provided messages."
+        "The explosion in Balashikha, a town southwest of Moscow, resulted in the death of a high‑ranking Russian general, indicating possible sabotage or accident in the Russian heartland (Source: @UkraineNow/81805).",
+        "UAVs observed moving from the north of Kharkiv oblast toward the southeast could be used to probe northern supply lines and command posts (Source: @kpszsu/64724).",
+        "Russian FP‑5 Flamingo missile strikes on facilities over 700 km from the front demonstrate Moscow's capacity to project power deep into its own territory, potentially freeing assets for northern operations (Source: @UkraineNow/81819).",
+        "UAV activity over the Odesa region from the Black Sea, while southern, also affects northern maritime approaches to the Ukrainian coast (Source: @kpszsu/64718)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces destroyed Mariupol port infrastructure and the shadow‑fleet vessel Lady Augusta, severely limiting Russian logistical use of the port (Source: @UkraineNow/81817).",
-        "Russia attempted a missile strike on the Genichesk‑Arabat Spit bridge in Kherson, temporarily halting civilian traffic (Source: @ukr_leaks_eng/30805).",
-        "Four wounded civilians were reported in Kherson region locations: Skadovsk, Velyka Kardashynka, Velyky Kopany, and Kalanchak (Source: @ukr_leaks_eng/30805).",
-        "Ukrainian reports indicated a group of reactive UAVs launched from the Black Sea heading toward Kherson region (Source: @kpszsu/64721).",
-        "Ukrainian officials warned of Russian “Molnia” drones operating on hard‑to‑detect video frequencies, affecting southern defenses (Source: @UkraineNow/81812).",
-        "Ukrainian intelligence noted possible preparations for a ballistic missile launch of medium range “Oreshnyk” (RS‑26) at the Kapustin Yar test site, though its intended target remains unclear (Source: @eRadarrua/96124)."
+        "A swarm of reactive UAVs launched from the Black Sea is heading toward the Kherson region, posing a direct threat to southern Ukrainian defenses (Source: @kpszsu/64721).",
+        "UAVs observed over Odesa region locations Vilkove and Tatarbunari indicate Russian aerial pressure on southern coastal infrastructure (Source: @kpszsu/64718).",
+        "UAV activity in Zaporizhzhia's southern district suggests continued attempts to disrupt energy and industrial assets in the southern front (Source: @kpszsu/64747).",
+        "UAVs moving from the north of Kharkiv toward the southeast could eventually cross into southern operational zones, linking northern and southern pressure points (Source: @kpszsu/64724)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine reported that Russia is launching approximately 650 drones and 35‑100 missiles per day against Ukrainian targets (Source: @ukr_leaks_eng/30802).",
-        "Eight UAVs heading for Moscow were destroyed, according to Ukrainian operational reports (Source: @ukr_leaks_eng/30805).",
-        "Ukrainian forces observed Russian FPV drones causing civilian injuries in Belgorod region villages (Source: @ukr_leaks_eng/30805).",
-        "Ukrainian officials highlighted the emergence of Russian “Molnia” drones using video frequencies that evade most electronic detection systems (Source: @UkraineNow/81812).",
-        "Multiple UAV launches were reported across Ukrainian regions, including guided aviation bombs over Kharkiv, and reactive UAVs from the Black Sea toward Kherson (Source: @kpszsu/64717; @kpszsu/64721).",
-        "Ukrainian reports indicated UAV activity over the industrial district of Kharkiv and over the city of Cheboksary, suggesting expanded aerial reach (Source: @UkraineNow/81820; @ukr_leaks_eng/30805).",
-        "Russian missile strikes targeted energy infrastructure in Zaporozhye region, causing damage during a UAV raid (Source: @ukr_leaks_eng/30805)."
+        "Russia is conducting a high‑intensity aerial campaign with 650 drones and 35‑100 missiles daily, overwhelming Ukrainian air defenses (Source: @ukr_leaks_eng/30802).",
+        "Ukraine can field 300‑350 drones and missiles per day, indicating a significant disparity in aerial sortie rates (Source: @ukr_leaks_eng/30802).",
+        "Multiple UAV incursions have been reported across Ukrainian territory: from the Black Sea to Kherson, Odesa, Zaporizhzhia, Dnipropetrovsk, and Kharkiv, showing a broad UAV deployment pattern (Sources: @kpszsu/64721, @kpszsu/64718, @kpszsu/64747, @eRadarrua/96095, @kpszsu/64724).",
+        "Ukrainian long‑range strikes using FP‑5 Flamingo missiles reached targets over 700 km away, demonstrating an expanding Ukrainian strike envelope (Source: @UkraineNow/81819).",
+        "Russian UAV activity over Cheboksary, nearly 1,000 km from the Ukrainian front, suggests testing of deep‑penetration UAV capabilities (Source: @eRadarrua/96109)."
       ]
     },
     "key_developments": [
-      "A mass UAV assault on Kharkiv injured six civilians and ignited a fire in an industrial district residential building (Source: @UkraineNow/81820).",
-      "Russian missile strikes hit Cheboksary, 1,000 km from the front, and set the Novokuybyshevsk oil refinery in Samara ablaze (Source: @ukr_leaks_eng/30805).",
-      "Ukrainian forces destroyed Mariupol port infrastructure and the shadow‑fleet cargo ship Lady Augusta, rendering the port inoperable (Source: @UkraineNow/81817).",
-      "Russia attempted a missile strike on the Genichesk‑Arabat Spit bridge in Kherson, temporarily suspending traffic (Source: @ukr_leaks_eng/30805).",
-      "Eight districts experienced power outages after a nighttime Ukrainian UAV attack on energy facilities (Source: @ukr_leaks_eng/30805).",
-      "Ukraine claims Russia launches 650 drones and 35‑100 missiles daily, while Ukraine can field 300‑350 defensive systems (Source: @ukr_leaks_eng/30802).",
-      "Russian FPV drones wounded civilians in Belgorod region villages, including severe injuries in Krasnaya Yaruga (Source: @ukr_leaks_eng/30805)."
+      "Russia is launching 650 drones and 35‑100 missiles daily against Ukraine, while Kyiv can respond with only 300‑350 assets (Source: @ukr_leaks_eng/30802).",
+      "An explosion near Moscow in Balashikha killed a driver and reportedly General‑Colonel Damir Davydov, head of Russia's Main Rocket‑Artillery Directorate (Source: @UkraineNow/81805).",
+      "Russian forces broke into Kostiantynivka city centre, advancing through Illinovka, Berestok, a shopping centre and Yubileiny Park (Source: @ukr_leaks_eng/30804).",
+      "Ukraine struck the VNIIR‑Progress plant in Cheboksary, the Kuibyshev refinery, and two oil sites in Volgodonsk region with FP‑5 Flamingo missiles over 700 km from the front (Source: @UkraineNow/81819).",
+      "A group of reactive UAVs launched from the Black Sea are heading toward the Kherson region (Source: @kpszsu/64721).",
+      "UAVs were observed over Dnipropetrovsk region, approaching Dniprovsk and Verkhnyodniprovsk from the north (Source: @eRadarrua/96095).",
+      "UAVs from the Black Sea were sighted moving southward toward Odesa region locations Vilkove and Tatarbunari (Source: @kpszsu/64718)."
     ],
-    "threat_assessment": "Russian UAV and missile activity remains high, with long‑range strikes on Cheboksary and Samara indicating strategic targeting beyond the immediate front. Ukraine's destruction of Mariupol port assets and the shadow‑fleet vessel significantly degrades Russian logistical capabilities in the south. The reported introduction of Russian “Molnia” drones operating on hard‑to‑detect frequencies poses a new challenge for Ukrainian air defenses, while the high volume of Russian drone and missile launches stresses Ukrainian interception capacity.",
-    "regional_response": "Western partners are tightening sanctions, with the EU proposing bans on all Russian participants in the war and new measures against Russian energy and fisheries sectors. Ukraine continues to seek international support for defensive aid, highlighting the need for advanced air‑defense systems to counter evolving UAV threats. Regional actors such as Poland and Germany are adjusting policy stances amid broader geopolitical tensions linked to the conflict.",
-    "intelligence_notes": "Ukrainian intelligence reports indicate preparation for possible medium‑range ballistic missile launches from Kapustin Yar, though target intentions remain unclear. Increased UAV activity from the Black Sea toward Kherson suggests a focus on southern supply lines. Continued Russian FPV drone incursions into Belgorod region highlight cross‑border threats to civilian populations, requiring heightened border surveillance."
+    "threat_assessment": "The disparity between Russian and Ukrainian aerial sortie rates creates a sustained pressure on Ukrainian air defenses, especially in the east where Kostiantynivka faces breakthrough threats. Long‑range Ukrainian strikes on Russian industrial sites demonstrate expanding strike capabilities, but also risk escalation. Continued UAV incursions across multiple fronts indicate a diversified Russian approach to probing defenses and targeting logistics.",
+    "regional_response": "Ukraine is reallocating limited air‑defence assets to counter the high volume of Russian drones and missiles, while seeking international assistance to close the capability gap. Russian leadership appears to be leveraging both high‑intensity missile strikes and low‑cost UAV swarms to stretch Ukrainian resources. Neighboring states are monitoring the spill‑over risk, particularly after the Balashikha explosion that suggests possible sabotage activities within Russia.",
+    "intelligence_notes": "Monitoring of UAV flight paths from the Black Sea to Kherson and Odesa should be intensified to anticipate potential strike clusters. The reported death of General‑Colonel Davydov may impact Russian artillery coordination, but verification is needed. Ukrainian FP‑5 Flamingo missile usage indicates access to longer‑range precision weapons, warranting analysis of supply channels. The high daily Russian drone sortie count underscores the need for enhanced electronic warfare and counter‑UAV measures."
   },
   "missiles": 0,
   "drones": 207,
   "kpszsu_timeline": [
     2,
-    3,
-    2,
-    3,
-    9,
+    4,
+    8,
     3,
     0,
-    10,
+    11,
     9,
-    5,
+    4,
     3,
     1,
     5,
@@ -357,12 +336,14 @@
     3,
     1,
     3,
-    2,
-    12,
+    3,
+    9,
     1,
     2,
     2,
     5,
-    2
+    2,
+    2,
+    3
   ]
 }
