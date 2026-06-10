@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-10T19:48:39.463757+00:00",
-  "message_count": 342,
+  "updated_at": "2026-06-10T20:56:05.990138+00:00",
+  "message_count": 334,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 207,
   "red_alerts_timeline": [
-    33,
     22,
     0,
     0,
@@ -25,8 +24,8 @@
     0,
     0,
     11,
-    0,
-    33,
+    11,
+    22,
     0,
     0,
     11,
@@ -36,60 +35,72 @@
     0,
     11,
     0,
-    33
+    44,
+    22
   ],
   "combined_activity_timeline": [
-    19,
-    12,
+    13,
     7,
     10,
-    6,
-    11,
-    8,
+    7,
     9,
-    10,
-    14,
-    22,
-    22,
-    14,
-    23,
-    19,
-    19,
-    19,
-    21,
-    15,
+    9,
+    9,
     11,
-    14,
-    14,
+    17,
+    20,
+    21,
+    16,
+    23,
+    18,
+    19,
+    19,
+    20,
+    15,
     12,
-    10
+    12,
+    16,
+    8,
+    12,
+    11
   ],
   "messages_by_channel": {
     "@eRadarrua": 43,
-    "@kpszsu": 84,
-    "@mon1tor_ua": 2,
+    "@kpszsu": 73,
+    "@mon1tor_ua": 3,
     "@UkraineNow": 25,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 163
+    "@tass_agency": 165
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96167",
-    "kpszsu": "https://t.me/kpszsu/64782",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67543",
+    "eRadarrua": "https://t.me/eRadarrua/96185",
+    "kpszsu": "https://t.me/kpszsu/64790",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67544",
     "UkraineNow": "https://t.me/UkraineNow/81834",
     "DeepStateUA": "https://t.me/DeepStateUA/23569",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30826",
-    "tass_agency": "https://t.me/tass_agency/380130"
+    "tass_agency": "https://t.me/tass_agency/380137"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81821",
-    "kpszsu": "https://t.me/kpszsu/64746",
-    "eRadarrua": "https://t.me/eRadarrua/96122",
-    "tass_agency": "https://t.me/tass_agency/380098",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30804"
+    "UkraineNow": "https://t.me/UkraineNow/81820",
+    "eRadarrua": "https://t.me/eRadarrua/96179",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30804",
+    "kpszsu": "https://t.me/kpszsu/64764"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/380137",
+      "post_id": 380137,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T20:51:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380134",
+      "post_id": 380134,
+      "channel": "tass_agency",
+      "ts": "2026-06-10T20:32:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/380130",
       "post_id": 380130,
@@ -211,165 +222,140 @@
       "post_id": 30823,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-10T16:25:46+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380111",
-      "post_id": 380111,
-      "channel": "tass_agency",
-      "ts": "2026-06-10T16:11:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380108",
-      "post_id": 380108,
-      "channel": "tass_agency",
-      "ts": "2026-06-10T15:53:19+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/96159": "data/media/eRadarrua_96159.jpg",
-    "eRadarrua/96160": "data/media/eRadarrua_96160.jpg",
-    "eRadarrua/96161": "data/media/eRadarrua_96161.jpg",
     "eRadarrua/96167": "data/media/eRadarrua_96167.jpg",
     "eRadarrua/96166": "data/media/eRadarrua_96167.jpg",
-    "eRadarrua/96137": "data/media/eRadarrua_96137.jpg",
-    "eRadarrua/96138": "data/media/eRadarrua_96138.jpg",
-    "eRadarrua/96140": "data/media/eRadarrua_96140.jpg",
     "eRadarrua/96153": "data/media/eRadarrua_96153.jpg",
     "eRadarrua/96151": "data/media/eRadarrua_96153.jpg",
     "eRadarrua/96155": "data/media/eRadarrua_96155.jpg",
     "eRadarrua/96156": "data/media/eRadarrua_96156.jpg",
     "eRadarrua/96157": "data/media/eRadarrua_96156.jpg",
-    "eRadarrua/96114": "data/media/eRadarrua_96114.jpg",
-    "eRadarrua/96112": "data/media/eRadarrua_96114.jpg",
-    "eRadarrua/96120": "data/media/eRadarrua_96120.jpg",
-    "eRadarrua/96121": "data/media/eRadarrua_96120.jpg",
+    "eRadarrua/96159": "data/media/eRadarrua_96159.jpg",
+    "eRadarrua/96160": "data/media/eRadarrua_96160.jpg",
+    "eRadarrua/96161": "data/media/eRadarrua_96161.jpg",
     "eRadarrua/96129": "data/media/eRadarrua_96129.jpg",
     "eRadarrua/96128": "data/media/eRadarrua_96129.jpg",
     "eRadarrua/96132": "data/media/eRadarrua_96132.jpg",
     "eRadarrua/96130": "data/media/eRadarrua_96132.jpg",
     "eRadarrua/96134": "data/media/eRadarrua_96134.jpg",
+    "eRadarrua/96137": "data/media/eRadarrua_96137.jpg",
+    "eRadarrua/96138": "data/media/eRadarrua_96138.jpg",
+    "eRadarrua/96140": "data/media/eRadarrua_96140.jpg",
+    "eRadarrua/96108": "data/media/eRadarrua_96108.jpg",
+    "eRadarrua/96107": "data/media/eRadarrua_96108.jpg",
+    "eRadarrua/96109": "data/media/eRadarrua_96109.jpg",
     "kpszsu/64700": "data/media/kpszsu_64700.jpg",
-    "kpszsu/64698": "data/media/kpszsu_64700.jpg"
+    "kpszsu/64699": "data/media/kpszsu_64700.jpg"
   },
-  "summary": "Ukrainian forces destroyed the Chongar bridge in occupied Crimea and struck the Progress plant in Cheboksary and the Kuibyshev refinery in Samara. Drone activity was reported across multiple Ukrainian regions, including Sumy, Kharkiv, and Poltava. Ukraine announced acquisition of additional air‑defence systems and interceptor missiles from partners.",
+  "summary": "Russian forces intensified drone attacks across multiple fronts, striking residential areas in Odesa and Kharkiv and targeting critical infrastructure such as the Kuibyshev refinery. Ukrainian defenses around Kostiantynivka are reported as collapsing, with Russian assault groups penetrating the city center from several directions. Additional threats include ballistic missiles, KAB rockets, and Shahed‑136 drones launched from various regions.",
   "key_points": [
-    "Ukrainian forces destroyed the Chongar bridge in occupied Crimea, according to the head of the RNBO security council (Source: @UkraineNow/81821).",
-    "Ukrainian strikes hit the Progress plant in Cheboksary and the Kuibyshev refinery in Samara, with the refinery located over 900 km from the front (Source: @UkraineNow/81810).",
-    "Ukraine reported finding additional air‑defence systems and interceptor missiles, including PAC‑3 and PAC‑2, during the president's visits to London (Source: @UkraineNow/81828).",
-    "Multiple UAV sightings were reported in Sumy, Kharkiv, Poltava, and other regions, indicating ongoing drone activity (Sources: @kpszsu/64746, @kpszsu/64765, @kpszsu/64754, @eRadarrua/96122, @eRadarrua/96164, @eRadarrua/96166, @eRadarrua/96123, @kpszsu/64759, @kpszsu/64778, @kpszsu/64769, @kpszsu/64776, @kpszsu/64748, @kpszsu/64753, @kpszsu/64756, @kpszsu/64755, @kpszsu/64779).",
-    "Ukrainian forces destroyed the cargo ship \"Lady Augusta\" and disabled port infrastructure in Mariupol, rendering the port inoperable (Source: @UkraineNow/81817).",
-    "Russian strategic aviation communications were noted on the Far East and Moscow, though no combat sortie was indicated (Source: @eRadarrua/96147).",
-    "Russian attacks on Ukrainian oil facilities caused a temporary shutdown of the Kuibyshev refinery after drone strikes (Source: @eRadarrua/96161)."
+    "Mass drone attacks hit Kharkiv, injuring at least six people and causing a residential building fire in the Industrial district (Source: @UkraineNow/81820).",
+    "Two UAVs were observed over Kharkiv near Derhachi, indicating continued aerial pressure on the city (Source: @eRadarrua/96179).",
+    "Russian troops broke through Kostiantynivka’s defenses, advancing from Illinovka and Berestok through key city landmarks (Source: @ukr_leaks_eng/30804).",
+    "A drone from the Black Sea was tracked heading toward Odesa and Chornomorsk (Source: @kpszsu/64764).",
+    "Ukrainian Shahed‑136 type strike drones were launched from the Millerevo area (Source: @eRadarrua/96150).",
+    "The Kuibyshev oil refinery halted operations after a reported Ukrainian drone strike (Source: @eRadarrua/96161).",
+    "Ballistic weapon threats were announced for front‑line areas (Source: @kpszsu/64733)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces destroyed the Chongar bridge in occupied Crimea, striking a key logistical link. Simultaneously, Ukraine hit major Russian industrial targets in Cheboksary and Samara, while acquiring new air‑defence systems. Drone activity remains widespread across multiple fronts, indicating continued low‑level aerial contest.",
+    "executive_summary": "Mass drone attacks hit Kharkiv, injuring at least six people and causing a residential building fire in the Industrial district. Russian troops broke through Kostiantynivka’s defenses, advancing from multiple directions into the city center. Additional aerial threats include Shahed‑136 drones, KAB rockets, and ballistic weapons across several fronts.",
     "ukraine": {
       "points": [
-        "Ukrainian units destroyed the Chongar bridge in temporarily occupied Crimea, a critical crossing, as reported by the RNBO security council head (Source: @UkraineNow/81821).",
-        "Ukrainian strikes targeted the Progress plant in Cheboksary, which produces electromechanical drives and systems for heavy equipment, and the Kuibyshev refinery in Samara, located more than 900 km from the front line (Source: @UkraineNow/81810).",
-        "Ukraine announced it had secured additional air‑defence systems and interceptor missiles, including PAC‑3 and PAC‑2, from partner nations during the president's London visit (Source: @UkraineNow/81828).",
-        "Ukrainian forces destroyed the cargo ship \"Lady Augusta\" and disabled power, radar, control tower, repair facilities and fuel tanks at the Mariupol port, fully de‑energising the port (Source: @UkraineNow/81817).",
-        "Multiple UAV sightings were reported across Sumy (north), Kharkiv (east, towards Izium), Poltava, and other regions, indicating persistent drone operations (Sources: @kpszsu/64746, @kpszsu/64765, @kpszsu/64754, @eRadarrua/96122, @eRadarrua/96164, @eRadarrua/96166, @eRadarrua/96123).",
-        "Ukrainian tactical aviation deployed guided aviation bombs (KAB) on Sumy, Dnipropetrovsk, Zaporizhzhia, and Donetsk regions, showing expanded strike capability (Source: @kpszsu/64754).",
-        "Ukrainian forces reported a successful strike on the Kuibyshev refinery causing a temporary shutdown after drone attacks (Source: @eRadarrua/96161)."
+        "In Kharkiv, a mass drone assault resulted in at least six civilian injuries and ignited a fire in a residential building within the Industrial district, prompting emergency response teams (Source: @UkraineNow/81820).",
+        "Ukrainian forces reported the presence of two UAVs over Kharkiv near Derhachi, indicating ongoing low‑altitude threats to the city’s outskirts (Source: @eRadarrua/96179).",
+        "Five drones were observed over Prosyana in the south, and additional UAV activity was noted in Kirovohrad, Zaporizhzhia (Tomakivka), and Kharkiv (Prolisne), showing a broadening aerial campaign (Source: @eRadarrua/96184).",
+        "A Shahed‑136 type strike drone launch was detected originating from the Millerevo area, highlighting the use of loitering munitions against Ukrainian targets (Source: @eRadarrua/96150).",
+        "The Kuibyshev oil refinery ceased operations after a Ukrainian drone attack, demonstrating the impact of aerial strikes on critical energy infrastructure (Source: @eRadarrua/96161).",
+        "Sochi airport experienced prolonged circling of an aircraft from Sharm‑El‑Sheikh due to a denied landing caused by a drone threat, reflecting regional airspace disruptions (Source: @eRadarrua/96129)."
       ]
     },
     "russia": {
       "points": [
-        "Russian authorities reportedly attempted to conceal the destruction of the Chongar bridge in Crimea (Source: @UkraineNow/81821).",
-        "Russian strategic aviation communications were detected on the Far East and Moscow, though no combat sortie was confirmed (Source: @eRadarrua/96147).",
-        "Russian forces continued to operate the Progress plant in Cheboksary and the Kuibyshev refinery, both of which were struck by Ukrainian attacks (Source: @UkraineNow/81810).",
-        "Russian‑backed naval units in the Black Sea region were reported to have a vessel \"Lady Augusta\" destroyed by Ukrainian action (Source: @UkraineNow/81817).",
-        "Russian media reported that a significant portion of Sevastopol's defensive panorama was destroyed by Ukrainian fire (Source: @tass_agency/380098).",
-        "Russian officials claimed the United States conducted strikes on Iranian air‑defence sites near the Ormuz Strait, unrelated to the Ukraine front (Source: @UkraineNow/81813).",
-        "Russian legal actions were noted, including a 1 billion‑ruble lawsuit against alleged critics, but these are non‑operational (Source: @tass_agency/380111)."
+        "Russian troops achieved breakthroughs in Kostiantynivka, entering the city center from Illinovka and Berestok and moving through the 7 Vetrov shopping centre and Yubileiny Park toward Yemelyanova Street and the Krivoy Torets River (Source: @ukr_leaks_eng/30804).",
+        "A drone originating from the Black Sea was tracked heading toward Odesa and the port city of Chornomorsk, indicating Russian use of maritime UAV routes (Source: @kpszsu/64764).",
+        "Russian forces announced the deployment of KAB ballistic missiles toward southeastern Kharkiv and Donetsk regions, expanding long‑range strike capabilities (Source: @kpszsu/64754).",
+        "Threats of ballistic weapon use were publicly communicated for front‑line areas, suggesting preparation for high‑impact strikes (Source: @kpszsu/64733).",
+        "A hostile tactical aviation presence was reported on the north‑east and southern axes, warning of possible air‑to‑ground attacks near front‑line zones (Source: @kpszsu/64744).",
+        "In Odesa’s Primorsky district, Russian attacks damaged two residential buildings, completely destroying a fifth‑floor apartment and injuring a 46‑year‑old woman who was hospitalized (Source: @UkraineNow/81811)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian drones were observed moving toward Izium in eastern Kharkiv region, indicating pressure on Russian‑held areas (Source: @kpszsu/64765).",
-        "Guided aviation bombs were launched against Donetsk and Zaporizhzhia regions, suggesting intensified Ukrainian air strikes on eastern fronts (Source: @kpszsu/64754).",
-        "Ukrainian UAVs were reported near the border area of Tytokine heading toward Putivl in Sumy, showing cross‑border reconnaissance (Source: @kpszsu/64769).",
-        "Ukrainian forces reported drone groups targeting Savinets from the east in Kharkiv oblast (Source: @eRadarrua/96157).",
-        "Russian troops reportedly broke through into Kostiantynivka, with advances from Illinovka and Berestok, according to a Ukrainian expert (Source: @ukr_leaks_eng/30804).",
-        "Ukrainian strikes on the Kuibyshev refinery, though far from the front, demonstrate extended reach into Russian interior (Source: @eRadarrua/96161).",
-        "Ukrainian tactical aviation continued KAB deployments over eastern regions, including Donetsk and Zaporizhzhia (Source: @kpszsu/64753)."
+        "Ukrainian defenses around Kostiantynivka are collapsing as Russian assault groups penetrate multiple city sectors, including key commercial and park areas (Source: @ukr_leaks_eng/30804).",
+        "Drone activity was reported east of Chernihiv, with UAVs heading toward Sosnytsia, indicating pressure on northern front‑line positions (Source: @kpszsu/64745).",
+        "Shahed‑136 loitering munitions were launched from Millerevo, targeting eastern operational zones (Source: @eRadarrua/96150).",
+        "A drone was observed heading east of Kharkiv toward Izium, suggesting continued Russian aerial focus on contested eastern districts (Source: @kpszsu/64765).",
+        "Five UAVs over Prosyana (south) and additional sightings in Zaporizhzhia and Kirovohrad reflect a dispersed eastern aerial threat pattern (Source: @eRadarrua/96184)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs were reported in northern Chernihiv region heading toward Snovsk (Source: @kpszsu/64755).",
-        "Ukrainian drones observed over the Black Sea heading toward the Odesa region near the Bay of Sevastopol (Source: @kpszsu/64779).",
-        "Ukrainian UAV activity was noted in the north of Kharkiv region moving toward Lozova (Source: @kpszsu/64759).",
-        "Ukrainian UAVs spotted in Sumy region moving northward (Source: @kpszsu/64746).",
-        "Ukrainian drone sightings in Poltava between Kozelshchyna and Bilyky indicate activity in central‑northern Ukraine (Source: @eRadarrua/96166).",
-        "Ukrainian UAVs reported near the border area of Tytokine heading toward Putivl, affecting northern front dynamics (Source: @kpszsu/64769).",
-        "Ukrainian UAVs observed over the Black Sea heading toward the Odesa region, suggesting maritime surveillance (Source: @kpszsu/64779)."
+        "Ukrainian reports indicate a drone from the Black Sea moving toward Odesa and Chornomorsk, affecting northern coastal defenses (Source: @kpszsu/64764).",
+        "Hostile tactical aviation activity was warned for the north‑east direction, raising concerns of air strikes near front‑line areas (Source: @kpszsu/64744).",
+        "Drone sightings in Sumy region near Vorozhba, heading southwest, suggest Russian UAV operations near the northern border (Source: @kpszsu/64756).",
+        "Ukrainian forces observed UAVs over Kharkiv Derhachi, a city close to the northern front, indicating ongoing aerial pressure (Source: @eRadarrua/96179)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces destroyed port infrastructure in Mariupol, including power substations, radar, control tower, repair facilities and fuel tanks, rendering the port inoperable (Source: @UkraineNow/81817).",
-        "Ukrainian strikes hit the Kuibyshev refinery in Samara, a major southern Russian oil facility, causing a temporary shutdown (Source: @eRadarrua/96161).",
-        "Ukrainian UAV activity reported over the Black Sea heading toward the Odesa region, indicating pressure on southern maritime approaches (Source: @kpszsu/64779).",
-        "Ukrainian drone groups were observed in the southern Kharkiv direction toward Lozova, potentially targeting logistics routes (Source: @kpszsu/64759).",
-        "Ukrainian tactical bombings were launched toward the southern‑eastern part of Kharkiv and Donetsk, showing southern front engagement (Source: @kpszsu/64754).",
-        "Ukrainian forces reported a strike on the Kuibyshev refinery, a key southern Russian energy asset (Source: @UkraineNow/81810).",
-        "Ukrainian UAVs observed near the Black Sea coastline, possibly monitoring Russian naval movements (Source: @kpszsu/64779)."
+        "Five drones were reported over Prosyana in the south, indicating heightened UAV activity on the southern axis (Source: @eRadarrua/96184).",
+        "KAB missile threats were announced for the southeastern Kharkiv and Donetsk areas, extending long‑range strike capability toward the southern front (Source: @kpszsu/64754).",
+        "A drone from the Black Sea heading toward Odesa and Chornomorsk poses a maritime‑air threat to southern coastal infrastructure (Source: @kpszsu/64764).",
+        "Ballistic weapon threats were communicated for front‑line zones, potentially affecting southern operational areas (Source: @kpszsu/64733)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian forces employed guided aviation bombs (KAB) across Sumy, Dnipropetrovsk, Zaporizhzhia, Donetsk and Kharkiv regions, indicating expanded aerial strike capability (Sources: @kpszsu/64754, @kpszsu/64753, @kpszsu/64748).",
-        "Ukrainian UAVs were widely reported in multiple oblasts, including Sumy, Kharkiv, Poltava, Chernihiv and the Black Sea area, showing extensive drone deployment (Multiple sources).",
-        "Russia detected communications of strategic aviation units on the Far East and Moscow, though no combat sortie was confirmed (Source: @eRadarrua/96147).",
-        "Ukrainian strikes on the Kuibyshev refinery were delivered by drones, demonstrating the use of UAVs for deep‑strike missions (Source: @eRadarrua/96161).",
-        "Ukrainian forces reported destroying the cargo ship \"Lady Augusta\" at Mariupol port, likely using aerial assets (Source: @UkraineNow/81817).",
-        "Ukrainian air‑defence acquisition includes PAC‑3 and PAC‑2 interceptors, enhancing defensive capabilities (Source: @UkraineNow/81828).",
-        "Russian air‑defence sites near the Ormuz Strait were reportedly struck by U.S. forces, unrelated to the Ukraine front (Source: @UkraineNow/81813)."
+        "Russian tactical aviation activity was reported on north‑east and southern directions, warning of possible air‑to‑ground attacks near front‑line regions (Source: @kpszsu/64744).",
+        "KAB ballistic missiles were announced for southeastern Kharkiv and Donetsk, indicating an escalation in long‑range aerial strike options (Source: @kpszsu/64754).",
+        "Shahed‑136 loitering munitions were launched from Millerevo, adding a new dimension to the UAV threat landscape (Source: @eRadarrua/96150).",
+        "A drone from the Black Sea was tracked heading toward Odesa and Chornomorsk, highlighting maritime‑air integration in Russian operations (Source: @kpszsu/64764).",
+        "Ukrainian forces reported multiple UAV incursions over Kharkiv, Derhachi, and Prolisne, demonstrating persistent low‑altitude pressure (Source: @eRadarrua/96179, @eRadarrua/96184)."
       ]
     },
     "key_developments": [
-      "Ukrainian forces destroyed the Chongar bridge in occupied Crimea, disrupting a key Russian supply route (Source: @UkraineNow/81821).",
-      "Ukrainian strikes hit the Progress plant in Cheboksary and the Kuibyshev refinery in Samara, targeting Russian industrial capacity (Source: @UkraineNow/81810).",
-      "Ukraine secured additional air‑defence systems and interceptor missiles, including PAC‑3 and PAC‑2, from partner nations (Source: @UkraineNow/81828).",
-      "Ukrainian UAVs were reported across Sumy, Kharkiv, Poltava, Chernihiv and the Black Sea, indicating extensive drone activity (Multiple sources).",
-      "Ukrainian forces destroyed the cargo ship \"Lady Augusta\" and disabled port infrastructure in Mariupol, rendering the port inoperable (Source: @UkraineNow/81817).",
-      "Guided aviation bombs (KAB) were launched by Ukrainian tactical aviation on multiple fronts, including Sumy, Dnipropetrovsk, Zaporizhzhia and Donetsk (Sources: @kpszsu/64754, @kpszsu/64753).",
-      "Russian strategic aviation communications were detected on the Far East and Moscow, though no combat sortie was confirmed (Source: @eRadarrua/96147)."
+      "Mass drone attacks struck Kharkiv, injuring at least six civilians and igniting a residential building fire in the Industrial district (Source: @UkraineNow/81820).",
+      "Russian troops broke through Kostiantynivka’s defenses, advancing from Illinovka and Berestok through key city landmarks into the center (Source: @ukr_leaks_eng/30804).",
+      "A drone from the Black Sea was tracked heading toward Odesa and Chornomorsk, indicating maritime UAV routes used by Russian forces (Source: @kpszsu/64764).",
+      "Shahed‑136 type loitering munitions were launched from the Millerevo area, expanding the UAV threat against Ukrainian positions (Source: @eRadarrua/96150).",
+      "KAB ballistic missiles were announced for southeastern Kharkiv and Donetsk, showing an escalation in long‑range strike capability (Source: @kpszsu/64754).",
+      "The Kuibyshev oil refinery halted operations after a Ukrainian drone strike, highlighting the impact on critical energy infrastructure (Source: @eRadarrua/96161).",
+      "Ballistic weapon threats were publicly communicated for front‑line areas, suggesting preparation for high‑impact attacks (Source: @kpszsu/64733)."
     ],
-    "threat_assessment": "Ukrainian operations are increasingly targeting Russian logistical and industrial nodes deep within Russian territory, while expanding drone and guided bomb usage across multiple fronts. Russian strategic aviation remains on alert but has not yet conducted offensive sorties, suggesting a defensive posture. The destruction of the Chongar bridge and Mariupol port assets hampers Russian supply lines, yet continued Russian air‑defence and strategic communications indicate sustained capability to contest Ukrainian aerial operations.",
-    "regional_response": "Western partners are providing additional air‑defence assets, including PAC‑3 and PAC‑2 interceptors, enhancing Ukraine's defensive posture. Russian authorities are attempting to downplay infrastructure damage, such as the bridge collapse, while maintaining strategic communications. Neighboring states report secondary effects, such as increased drug trafficking in Poland, reflecting broader regional instability.",
-    "intelligence_notes": "UAV sightings across a wide geographic area suggest a decentralized drone deployment strategy by Ukrainian forces, complicating Russian detection. The use of guided aviation bombs on strategic targets indicates improved precision strike capability. Monitoring of Russian strategic aviation communications should continue to assess any shift from defensive to offensive operations."
+    "threat_assessment": "Russian forces are intensifying multi‑axis UAV operations, employing both loitering munitions and conventional drones to target urban centers, infrastructure, and front‑line positions. The breakthrough in Kostiantynivka signals a potential shift in ground dynamics on the eastern front, while the introduction of KAB ballistic missiles and announced ballistic weapon use raises the risk of high‑payload strikes across the southern and eastern sectors. Ukrainian defenses face compounded pressure from aerial, missile, and ground assaults, demanding rapid adaptation and resource allocation.",
+    "regional_response": "Ukrainian authorities have mobilized emergency services in Odesa and Kharkiv, evacuating civilians and reinforcing air‑defense assets after repeated drone incursions. International partners are reportedly supplying additional air‑defense systems, though specific deployments were not detailed in the source material. The ongoing attacks have prompted heightened alert levels across border regions, with local law‑enforcement responding to incidents involving armed groups and civil unrest.",
+    "intelligence_notes": "Monitoring of UAV flight paths from the Black Sea and Millerevo should be prioritized to anticipate future strike vectors. The collapse of defensive lines in Kostiantynivka warrants close observation for possible Russian exploitation of supply routes and further urban penetration. The emergence of KAB missiles and ballistic weapon threats indicates a diversification of Russian strike capabilities, necessitating updated threat models for both ground and air assets."
   },
   "missiles": 0,
   "drones": 207,
   "kpszsu_timeline": [
-    11,
     8,
     3,
-    4,
-    2,
-    4,
     3,
     3,
-    1,
     3,
-    5,
-    6,
-    2,
-    2,
-    4,
     3,
-    2,
-    2,
     3,
     1,
-    2,
-    5,
+    4,
+    4,
+    7,
+    1,
     3,
+    3,
+    4,
+    1,
+    3,
+    2,
+    2,
+    2,
+    4,
+    3,
+    1,
     1
   ]
 }
