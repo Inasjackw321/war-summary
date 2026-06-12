@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-12T08:44:23.690881+00:00",
-  "message_count": 249,
+  "updated_at": "2026-06-12T08:59:41.398043+00:00",
+  "message_count": 248,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,18 +14,18 @@
   "red_alerts": 117,
   "red_alerts_timeline": [
     0,
-    0,
     12,
+    0,
     0,
     0,
     23,
+    23,
+    23,
     12,
-    35,
+    0,
     0,
     12,
     0,
-    0,
-    12,
     0,
     0,
     0,
@@ -39,53 +39,57 @@
     0
   ],
   "combined_activity_timeline": [
-    14,
-    17,
-    13,
-    10,
-    13,
-    14,
     16,
+    19,
+    12,
+    7,
+    14,
     13,
-    9,
-    9,
-    3,
-    18,
-    13,
+    15,
+    15,
     8,
-    8,
-    4,
     7,
     5,
-    5,
-    9,
-    12,
+    21,
     11,
-    10,
-    7
+    8,
+    7,
+    4,
+    6,
+    5,
+    7,
+    8,
+    13,
+    8,
+    11,
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 44,
+    "@eRadarrua": 43,
     "@kpszsu": 39,
     "@mon1tor_ua": 5,
-    "@UkraineNow": 22,
+    "@UkraineNow": 23,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 20,
-    "@tass_agency": 117
+    "@tass_agency": 116
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/96306",
     "kpszsu": "https://t.me/kpszsu/64924",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67573",
-    "UkraineNow": "https://t.me/UkraineNow/81862",
+    "UkraineNow": "https://t.me/UkraineNow/81863",
     "DeepStateUA": "https://t.me/DeepStateUA/23573",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30856",
-    "tass_agency": "https://t.me/tass_agency/380362"
+    "tass_agency": "https://t.me/tass_agency/380363"
   },
-  "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/64894"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/81863",
+      "post_id": 81863,
+      "channel": "UkraineNow",
+      "ts": "2026-06-12T08:52:24+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30856",
       "post_id": 30856,
@@ -209,12 +213,6 @@
       "post_id": 380328,
       "channel": "tass_agency",
       "ts": "2026-06-12T00:54:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380325",
-      "post_id": 380325,
-      "channel": "tass_agency",
-      "ts": "2026-06-11T23:53:01+00:00"
     }
   ],
   "post_images": {
@@ -250,106 +248,107 @@
     "kpszsu/64903": "data/media/kpszsu_64903.jpg",
     "kpszsu/64902": "data/media/kpszsu_64903.jpg"
   },
-  "summary": "Ukrainian forces reported multiple guided bomb strikes by Russian tactical aviation across Kharkiv, Zaporizhzhia and other regions, alongside numerous UAV incursions targeting cities in the north and east. Russian air activity alerts indicate heightened threat of strikes on southeastern and southern fronts. Ukrainian air defenses continue to engage UAVs over several oblasts.",
+  "summary": "Ukrainian forces struck a Russian logistics column near the bridge at Armenysk, disabling the bridge and halting a convoy of up to 50 trucks (UkraineNow/81850). Russian tactical aviation launched guided aerial bombs over Zaporizhzhia, Dnipropetrovsk, Kharkiv, Sumy and other regions (kpszsu/64872, kpszsu/64868, kpszsu/64871, kpszsu/64892, kpszsu/64894). Multiple UAV incursions were reported across Kharkiv, Dnipropetrovsk, Chernihiv and Poltava directions (kpszsu/64909, eRadarrua/96281, eRadarrua/96299, kpszsu/64887, kpszsu/64886).",
   "key_points": [
-    "Russian tactical aviation launched guided aviation bombs on Kharkiv, Zaporizhzhia and eastern Kharkiv regions (Source: @kpszsu/64894).",
-    "UAVs were observed moving from Sumy toward Nizhyn district in Chernihiv, from north toward Poltava, and over Pavlohrad heading north (Source: @kpszsu/64894, @kpszsu/64887, @kpszsu/64888).",
-    "Multiple UAVs entered Dnipropetrovsk, Donetsk, Odesa and Synelnykivka districts with various headings including northwest, south and west (Source: @kpszsu/64897).",
-    "Russian tactical aviation activity alerts were issued for southeastern, eastern and southern directions, warning of possible air strikes on front‑line areas (Source: @kpszsu/64908, @kpszsu/64922).",
-    "UAVs passed over Kharkiv near Zolochiv and Bohodukhiv heading south (Source: @kpszsu/64909).",
-    "Guided bomb strikes were also reported in eastern Kharkiv (Source: @kpszsu/64871).",
-    "UAVs were sighted heading toward Solone in Dnipropetrovsk (Source: @kpszsu/64919).",
-    "UAV activity continued in the north with a reactive UAV approaching Poltava from the north (Source: @kpszsu/64887)."
+    "Ukrainian strike destroyed the bridge at Armenysk, immobilising a convoy of up to 50 Russian trucks carrying fuel and ammunition (UkraineNow/81850).",
+    "Russian tactical aviation deployed guided aerial bombs on Zaporizhzhia, Dnipropetrovsk (Synelnykivka district), Kharkiv, Sumy and Zaporizhzhia region (kpszsu/64872, kpszsu/64868, kpszsu/64871, kpszsu/64892, kpszsu/64894).",
+    "UAVs were observed flying south past Zolochiv and Bohodukhiv in Kharkiv region (kpszsu/64909).",
+    "Three UAVs passed near Apostolove in Dnipropetrovsk region (eRadarrua/96281).",
+    "A reactive UAV approached Poltava from the north (kpszsu/64887).",
+    "UAVs from Sumy headed toward the Nizhyn district of Chernihiv (kpszsu/64894).",
+    "UAV activity reported over Poltava direction from Sumy (kpszsu/64886).",
+    "Russian air defense claimed to have shot down 231 Ukrainian UAVs over Russian regions and the Azov Sea (tass_agency/380346)."
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces reported multiple guided bomb strikes by Russian tactical aviation across Kharkiv, Zaporizhzhia and other regions, alongside numerous UAV incursions targeting cities in the north and east. Russian air activity alerts indicate heightened threat of strikes on southeastern and southern fronts. Ukrainian air defenses continue to engage UAVs over several oblasts.",
+    "executive_summary": "Ukrainian forces disabled a key bridge at Armenysk, halting a large Russian logistics convoy. Russian tactical aviation responded with guided aerial bomb strikes across multiple front‑line regions. Concurrently, UAV incursions were reported across Kharkiv, Dnipropetrovsk, Chernihiv and Poltava, indicating sustained aerial contestation.",
     "ukraine": {
       "points": [
-        "Guided aviation bombs were dropped by Russian tactical aviation on the Zaporizhzhia region, causing operational disruption (Source: @kpszsu/64894).",
-        "A UAV launched from Sumy was observed heading toward the Nizhyn district of Chernihiv, indicating a north‑west penetration route (Source: @kpszsu/64894).",
-        "UAV activity was reported over Poltava from the north, suggesting a direct approach toward central Ukraine (Source: @kpszsu/64887).",
-        "In Dnipropetrovsk, a UAV passed near Pavlohrad heading north, and another UAV moved toward Solone, highlighting continued pressure on the region (Source: @kpszsu/64888, @kpszsu/64919).",
-        "UAVs were sighted in the Synelnykivka district of Dnipropetrovsk moving northwest, and in the west of Donetsk heading toward Novomykolaivka (Source: @kpszsu/64897)."
+        "Ukrainian strike on the bridge at Armenysk rendered the structure inoperable, stopping a convoy of up to 50 Russian trucks loaded with fuel and ammunition, cutting a vital supply line (UkraineNow/81850).",
+        "Ukrainian forces reported UAV activity over Apostolove in Dnipropetrovsk region, with three drones observed in the area (eRadarrua/96281).",
+        "A reactive UAV approached the city of Poltava from the north, suggesting possible reconnaissance or strike intent (kpszsu/64887).",
+        "UAVs originating from Sumy were tracked heading toward the Nizhyn district of Chernihiv, indicating cross‑regional penetration (kpszsu/64894)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation conducted guided bomb launches on the eastern sector of Kharkiv, demonstrating continued offensive capability (Source: @kpszsu/64871).",
-        "Additional guided bomb strikes were reported on Kharkiv overall, reinforcing pressure on Ukrainian defenses (Source: @kpszsu/64874).",
-        "Russian air units issued alerts of increased activity on southeastern and southern axes, indicating preparation for further strikes (Source: @kpszsu/64908, @kpszsu/64922).",
-        "UAVs were observed operating from Russian‑controlled areas toward Ukrainian territory, including routes through Odesa heading west (Source: @kpszsu/64897)."
+        "Russian tactical aviation launched guided aerial bombs over Zaporizhzhia region, targeting unspecified positions (kpszsu/64872).",
+        "Guided aerial bombs were also deployed over Dnipropetrovsk (Synelnykivka district) and Kharkiv region, reflecting a coordinated air strike campaign (kpszsu/64868, kpszsu/64871).",
+        "Sumy region experienced guided bomb attacks, expanding the aerial bombardment footprint (kpszsu/64892).",
+        "Russian air defense reported shooting down 231 Ukrainian UAVs across Russian territories and the Azov Sea, highlighting intensified air defense activity (tass_agency/380346)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Guided bomb attacks targeted eastern Kharkiv, reflecting intensified Russian focus on this front (Source: @kpszsu/64871).",
-        "UAVs entered Donetsk westward toward Novomykolaivka, suggesting attempts to disrupt logistics in the eastern sector (Source: @kpszsu/64897).",
-        "A UAV from Sumy moved toward Nizhyn district, crossing the northeastern approach to the eastern front (Source: @kpszsu/64894).",
-        "UAV activity over Dnipropetrovsk, including a northbound flight near Pavlohrad, indicates pressure on eastern supply lines (Source: @kpszsu/64888)."
+        "UAVs were observed flying south past Zolochiv and Bohodukhiv in Kharkiv region, indicating possible reconnaissance or strike routes (kpszsu/64909).",
+        "Guided aerial bomb strikes were reported in Zaporizhzhia, a key eastern operational area, suggesting Russian attempts to disrupt Ukrainian positions (kpszsu/64872).",
+        "Dnipropetrovsk region saw multiple UAV sightings near Apostolove and bombings in Synelnykivka district, reflecting contested airspace (eRadarrua/96281, kpszsu/64868).",
+        "Sumy region experienced both UAV incursions toward Chernihiv and guided bomb attacks, showing a multi‑layered threat environment (kpszsu/64894, kpszsu/64892)."
       ]
     },
     "northern_front": {
       "points": [
-        "A reactive UAV approached Poltava from the north, highlighting threats to central‑northern command centers (Source: @kpszsu/64887).",
-        "UAV launched from Sumy toward Nizhyn district in Chernihiv demonstrates north‑west penetration (Source: @kpszsu/64894).",
-        "UAVs were observed over Synelnykivka district heading northwest, potentially targeting northern logistical hubs (Source: @kpszsu/64897).",
-        "UAVs passed near Zolochiv and Bohodukhiv in Kharkiv heading south, indicating movement from northern positions (Source: @kpszsu/64909)."
+        "UAVs from Sumy were tracked moving toward the Nizhyn district of Chernihiv, indicating north‑ward penetration (kpszsu/64894).",
+        "A UAV was reported over Chernihiv's Gornosty district (eRadarrua/96300), suggesting ongoing aerial activity in the northern sector.",
+        "No explicit bombings were detailed for the northern front in the source messages.",
+        "Russian air defense claims of downing UAVs over Russian regions may include northern border areas (tass_agency/380346)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian tactical aviation alerts warned of heightened activity on the southern direction, implying possible upcoming strikes (Source: @kpszsu/64922).",
-        "UAV incursions were reported in the southeastern direction, adding to the threat environment for southern Ukrainian forces (Source: @kpszsu/64908)."
+        "UAV activity was noted in Kharkiv region heading south past Zolochiv and Bohodukhiv, potentially targeting southern approaches (kpszsu/64909).",
+        "No direct bombings were reported for the southern front in the provided messages.",
+        "Ukrainian strike on the bridge at Armenysk, located near the Crimean ingress, impacts southern logistics routes (UkraineNow/81850).",
+        "Russian tactical aviation activity was flagged for southern directions in a general warning (kpszsu/64908)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation launched guided bombs in multiple oblasts, including Kharkiv and Zaporizhzhia, showing sustained air strike capability (Source: @kpszsu/64894, @kpszsu/64871).",
-        "Alerts of enemy tactical aviation activity were issued for southeastern, eastern and southern axes, indicating a broadening of air operations (Source: @kpszsu/64908, @kpszsu/64922).",
-        "UAV sightings across northern, central and eastern Ukraine demonstrate persistent low‑altitude threats to Ukrainian airspace (Source: @kpszsu/64887, @kpszsu/64897).",
-        "UAVs were observed heading toward strategic locations such as Pavlohrad, Solone and Novomykolaivka, suggesting targeted reconnaissance or strike missions (Source: @kpszsu/64888, @kpszsu/64919, @kpszsu/64897)."
+        "Russian tactical aviation conducted guided aerial bomb strikes across Zaporizhzhia, Dnipropetrovsk, Kharkiv, Sumy and Zaporizhzhia regions, indicating a broad air strike campaign (kpszsu/64872, kpszsu/64868, kpszsu/64871, kpszsu/64892, kpszsu/64894).",
+        "Ukrainian UAV incursions were reported in multiple oblasts, including Kharkiv, Dnipropetrovsk, Chernihiv and Poltava, showing persistent low‑altitude aerial activity (kpszsu/64909, eRadarrua/96281, kpszsu/64887, kpszsu/64894, kpszsu/64886).",
+        "Russian air defense claimed to have shot down 231 Ukrainian UAVs over Russian regions and the Azov Sea, reflecting heightened anti‑drone operations (tass_agency/380346).",
+        "General alerts warned of increased activity of Russian tactical aviation on southern and eastern directions, suggesting potential escalation (kpszsu/64908, kpszsu/64922)."
       ]
     },
     "key_developments": [
-      "Russian tactical aviation dropped guided aviation bombs on the Zaporizhzhia region, marking a direct strike on Ukrainian territory (Source: @kpszsu/64894).",
-      "Multiple UAVs entered Ukrainian airspace from Sumy, heading toward Nizhyn district in Chernihiv, indicating a north‑west penetration route (Source: @kpszsu/64894).",
-      "Guided bomb attacks were reported on eastern Kharkiv, reinforcing Russian pressure on the eastern front (Source: @kpszsu/64871).",
-      "UAVs were observed over Dnipropetrovsk near Pavlohrad heading north and toward Solone, showing continued aerial threats in central Ukraine (Source: @kpszsu/64888, @kpszsu/64919).",
-      "Russian tactical aviation activity alerts warned of heightened threat on southeastern and southern directions, suggesting preparation for further strikes (Source: @kpszsu/64908, @kpszsu/64922).",
-      "UAVs passed over Kharkiv near Zolochiv and Bohodukhiv heading south, indicating movement from northern positions toward the front lines (Source: @kpszsu/64909).",
-      "UAVs operated in the west of Donetsk heading toward Novomykolaivka, potentially targeting logistics in the eastern sector (Source: @kpszsu/64897)."
+      "Ukrainian forces destroyed the bridge at Armenysk, halting a convoy of up to 50 Russian trucks carrying fuel and ammunition (UkraineNow/81850).",
+      "Russian tactical aviation deployed guided aerial bombs over Zaporizhzhia, striking unspecified targets (kpszsu/64872).",
+      "Guided aerial bomb attacks were carried out in Dnipropetrovsk (Synelnykivka district) by Russian tactical aviation (kpszsu/64868).",
+      "UAVs were observed flying south past Zolochiv and Bohodukhiv in Kharkiv region, indicating possible reconnaissance or strike routes (kpszsu/64909).",
+      "Three UAVs passed near Apostolove in Dnipropetrovsk region, showing continued Ukrainian aerial activity (eRadarrua/96281).",
+      "A reactive UAV approached Poltava from the north, suggesting potential strike intent (kpszsu/64887).",
+      "Russian air defense reported downing 231 Ukrainian UAVs over Russian territories and the Azov Sea, highlighting intensified anti‑drone measures (tass_agency/380346)."
     ],
-    "threat_assessment": "Russian air operations continue to pose a significant threat across multiple fronts, with guided bomb strikes in Kharkiv and Zaporizhzhia demonstrating capability to strike deep targets. UAV incursions from the north, east and south increase pressure on Ukrainian air defenses and complicate command‑and‑control. The alerts of heightened tactical aviation activity suggest Russia may be preparing coordinated strikes on southeastern and southern axes, potentially aiming to disrupt logistics and frontline positions.",
-    "regional_response": "Ukrainian forces are actively tracking and engaging UAVs across several oblasts, employing air defense assets to mitigate the low‑altitude threat. Coordination between regional command centers appears focused on protecting key logistics hubs such as Pavlohrad and Solone. The repeated alerts indicate that Ukrainian air defense readiness is being elevated, especially in the north and east where UAV activity is most frequent.",
-    "intelligence_notes": "Continued monitoring of UAV flight paths is essential to anticipate potential strike vectors toward critical infrastructure. The pattern of guided bomb deployments suggests Russia is targeting both frontline and rear‑area assets to degrade Ukrainian operational depth. Integration of real‑time air threat data with ground force movements will be crucial for maintaining defensive resilience on the eastern and southern fronts."
+    "threat_assessment": "Russian tactical aviation is employing guided aerial bombs across multiple front‑line oblasts, aiming to disrupt Ukrainian positions and logistics. Ukrainian UAV activity remains widespread, penetrating deep into Russian‑held territories and targeting key logistical nodes such as the Armenysk bridge. The high volume of UAV incursions combined with Russian anti‑drone successes indicates a contested airspace with escalating electronic and kinetic countermeasures.",
+    "regional_response": "Ukrainian command appears to prioritize disabling Russian supply lines, as evidenced by the bridge strike at Armenysk, while maintaining pressure through UAV reconnaissance. Russian forces are responding with coordinated bomb strikes and intensified air defense, seeking to protect logistics corridors and deny Ukrainian aerial freedom. Both sides are amplifying aerial operations, suggesting a shift toward greater reliance on air power in the current phase of the conflict.",
+    "intelligence_notes": "Monitoring of UAV flight paths reveals recurring south‑bound routes from Kharkiv and north‑bound approaches toward Poltava, indicating potential targeting patterns. The concentration of guided bomb deployments in Zaporizhzhia and Dnipropetrovsk suggests these regions are focal points for Russian air offensives. The reported downing of 231 UAVs underscores the effectiveness of Russian air defense and may impact future Ukrainian drone sortie rates. Continued observation of bridge infrastructure attacks is critical for assessing logistical disruptions."
   },
   "missiles": 0,
   "drones": 117,
   "kpszsu_timeline": [
-    0,
     1,
     2,
     0,
     0,
-    2,
-    3,
-    2,
-    1,
     1,
     1,
     3,
-    3,
-    3,
-    1,
-    1,
     2,
     1,
     1,
     3,
     1,
+    3,
     4,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    2,
     2,
     1
   ]
