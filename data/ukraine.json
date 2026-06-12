@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-12T12:42:31.400236+00:00",
-  "message_count": 233,
+  "updated_at": "2026-06-12T13:37:21.981150+00:00",
+  "message_count": 229,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,9 +13,8 @@
   ],
   "red_alerts": 117,
   "red_alerts_timeline": [
-    0,
-    23,
     12,
+    23,
     35,
     0,
     12,
@@ -36,60 +35,73 @@
     12,
     0,
     0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    11,
-    17,
-    16,
+    14,
+    18,
+    10,
     12,
-    9,
-    9,
-    3,
-    16,
-    16,
     8,
-    7,
     4,
+    12,
+    18,
+    9,
+    7,
     5,
+    4,
     6,
     5,
     9,
-    11,
-    11,
-    11,
-    7,
+    9,
     13,
+    8,
+    11,
+    12,
     10,
     8,
-    9
+    10,
+    7
   ],
   "messages_by_channel": {
     "@eRadarrua": 42,
     "@kpszsu": 38,
     "@mon1tor_ua": 5,
-    "@UkraineNow": 25,
-    "@DeepStateUA": 3,
-    "@ukr_leaks_eng": 18,
-    "@tass_agency": 102
+    "@UkraineNow": 23,
+    "@DeepStateUA": 4,
+    "@ukr_leaks_eng": 17,
+    "@tass_agency": 100
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/96314",
-    "kpszsu": "https://t.me/kpszsu/64930",
+    "kpszsu": "https://t.me/kpszsu/64932",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67573",
-    "UkraineNow": "https://t.me/UkraineNow/81874",
-    "DeepStateUA": "https://t.me/DeepStateUA/23574",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30861",
-    "tass_agency": "https://t.me/tass_agency/380386"
+    "UkraineNow": "https://t.me/UkraineNow/81875",
+    "DeepStateUA": "https://t.me/DeepStateUA/23575",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30862",
+    "tass_agency": "https://t.me/tass_agency/380392"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/81849",
-    "kpszsu": "https://t.me/kpszsu/64916",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30854",
+    "kpszsu": "https://t.me/kpszsu/64903",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30847",
     "tass_agency": "https://t.me/tass_agency/380386",
     "eRadarrua": "https://t.me/eRadarrua/96300"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30862",
+      "post_id": 30862,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-12T13:27:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380387",
+      "post_id": 380387,
+      "channel": "tass_agency",
+      "ts": "2026-06-12T12:49:01+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30861",
       "post_id": 30861,
@@ -203,20 +215,6 @@
       "post_id": 30854,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-12T06:03:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81856",
-      "post_id": 81856,
-      "channel": "UkraineNow",
-      "ts": "2026-06-12T06:02:52+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96301",
-      "post_id": 96301,
-      "channel": "eRadarrua",
-      "ts": "2026-06-12T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/B-kozKjOA5zQRH1KPBqA65LrEtuj9rblEHVOD8dpdtxP0crARILOpAix5qDbFZCKArzBIHGm4MMiKfbXfC5vmmrpj4XkqDKRKSgeNR5RS7EsV6zL9-QRY7yai1sum_3nJ4s6WGRkbMvncW6-2S_Bblb1xEwK76ycfuUUpO9qIMnuWBELij5MxMFcV7pjYAL5--XFHtoWwC-iXXGYls1iJ8FcRg5SfaNBBBJdrF40xNyGneLvfVJii_AxZHGtCBl4B_x9sqik8xb6QyvPfoP5_tqaoq-gSceoEVPbGH-8cDCugoD6UVmlX-8FPLKupiL7X65QX-mYgp9DqKHOWEwGKw.jpg",
-      "companion_text_id": 96300
     }
   ],
   "post_images": {
@@ -252,111 +250,126 @@
     "kpszsu/64903": "data/media/kpszsu_64903.jpg",
     "kpszsu/64902": "data/media/kpszsu_64903.jpg"
   },
-  "summary": "Ukrainian forces struck the Russian Black Sea Fleet base in Sevastopol with a Neptune missile, destroying ammunition storage. Russian tactical aviation launched guided bombs and UAV attacks across multiple fronts, including a large Shahed swarm on June 12. Ukraine is also evacuating industrial workers from front‑line cities and preparing defence‑service reforms.",
+  "summary": "Ukrainian forces struck a Russian Black Sea Fleet target in Sevastopol with a Neptune missile, destroying weapons storage. Russian tactical aviation launched multiple Shahed and other UAV attacks across several regions, with Ukrainian air defenses downing over 100 drones. A shortage of air‑defence missiles has reduced the down‑rate of ballistic missiles.",
   "key_points": [
-    "Ukrainian Navy used a Neptune missile to hit a Russian military target in Sevastopol, destroying ammunition and equipment storage (Source: @UkraineNow/81849).",
-    "Russian tactical aviation conducted guided‑bomb strikes in Donetsk and Zaporizhzhia regions and launched UAV attacks from the Black Sea toward Odesa (Source: @kpszsu/64916; @kpszsu/64929).",
-    "A Shahed swarm of 117 UAVs attacked Ukrainian positions on June 12, with air defence shooting down 102 of them (Source: @kpszsu/64903).",
-    "Ukrainian authorities began evacuating 3,500 workers from factories in Kramatorsk to western Ukraine as the front moved within 14 km (Source: @ukr_leaks_eng/30854).",
-    "Russian tactical aviation activity was reported on the southern, south‑eastern and eastern directions, threatening front‑line areas (Source: @kpszsu/64879; @kpszsu/64908).",
-    "Ukrainian forces liberated the village of Priyut in the Donetsk People's Republic (Source: @ukr_leaks_eng/30858).",
-    "Moscow reported 21 UAVs intercepted near the capital on August 13 (Source: @tass_agency/380386).",
-    "Ukraine seeks an additional $20 billion in aid to maintain its battlefield advantage (Source: @UkraineNow/81860)."
+    "Ukrainian Navy hit a Russian military object in Sevastopol Bay with a Neptune missile, destroying weapons and equipment storage (Source: @UkraineNow/81849).",
+    "Russian forces attacked with 117 Shahed‑type and other UAVs from multiple directions, Ukrainian defenses shot down 102 of them (Source: @kpszsu/64903).",
+    "A high probability of a launch of an Oryeshnyk missile from the Kapustin Yar range was reported (Source: @UkraineNow/81865).",
+    "Ukrainian air defence down‑rate for ballistic missiles has fallen due to missile shortages (Source: @ukr_leaks_eng/30847).",
+    "Ukrainian UAVs were observed over southern Kharkiv (Lozova), Sumy (Dubovyazivka), and northern Sumy/Chernihiv regions (Source: @kpszsu/64882, @kpszsu/64907, @kpszsu/64880).",
+    "Russian tactical aviation conducted guided‑bomb runs over Kharkiv region (Source: @kpszsu/64874).",
+    "A Russian UAV strike damaged a Nova Poshta terminal in Zaporizhzhia, causing a fire but no casualties (Source: @UkraineNow/81871).",
+    "Romania requested self‑destruct mechanisms for its naval drones to detonate 12 nautical miles offshore if control is lost (Source: @ukr_leaks_eng/30849)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces struck the Russian Black Sea Fleet base in Sevastopol with a Neptune missile, destroying ammunition storage. Russian tactical aviation launched guided‑bomb strikes and extensive UAV attacks across several fronts, including a large Shahed swarm on June 12. Ukraine is evacuating industrial workers from front‑line cities and preparing defence‑service reforms.",
+    "executive_summary": "Ukrainian forces used a Neptune cruise missile to strike a Russian Black Sea Fleet target in Sevastopol, destroying weapons storage. Russian tactical aviation launched a large UAV swarm, with Ukrainian air defenses downing 102 of 117 drones. A shortage of air‑defence missiles is lowering the interception rate of ballistic missiles.",
     "ukraine": {
       "points": [
-        "The Ministry of Defence announced a forthcoming reform to define clearer service terms and increase payments for servicemen, to be presented in the coming weeks (Source: @UkraineNow/81862).",
-        "Ukrainian Navy units fired a Neptune cruise missile at a Russian military target in Sevastopol Bay, destroying ammunition depots and equipment of the Black Sea Fleet (Source: @UkraineNow/81849).",
-        "Ukrainian authorities began moving approximately 3,500 factory workers from Kramatorsk to Perechyn in Zakarpattia as the front line approached within 14 km (Source: @ukr_leaks_eng/30854).",
-        "Ukrainian forces liberated the village of Priyut in the Donetsk People's Republic, according to the Russian Defence Ministry (Source: @ukr_leaks_eng/30858).",
-        "Ukrainian air defence reported shooting down 102 of 117 hostile Shahed‑type UAVs during a night‑time attack on June 12, with impacts recorded at seven locations (Source: @kpszsu/64903)."
+        "The Ukrainian Navy deployed a Neptune missile that hit a Russian military object in Sevastopol Bay, destroying ammunition depots and equipment of the Black Sea Fleet (Source: @UkraineNow/81849).",
+        "Ukrainian air defence units, including aviation, SAM units, REB units and mobile fire groups, intercepted 102 hostile UAVs of Shahed, Gerbera, Italmas and imitation types during the night of 11‑12 June (Source: @kpszsu/64903).",
+        "Ukrainian UAVs were reported over southern Kharkiv region heading toward Lozova, indicating continued reconnaissance or strike activity (Source: @kpszsu/64882).",
+        "Ukrainian UAVs were observed over Sumy region near Dubovyazivka, moving southwest, suggesting pressure on northern front logistics (Source: @kpszsu/64907).",
+        "A Ukrainian UAV strike damaged a Nova Poshta terminal in Zaporizhzhia, igniting a fire but causing no casualties (Source: @UkraineNow/81871).",
+        "Romanian defence officials asked Ukraine to equip naval drones with self‑destruct systems that would detonate 12 nautical miles from shore if control is lost (Source: @ukr_leaks_eng/30849).",
+        "Three TCC employees from Odessa were released after detention for alleged extortion related to mobilisation threats (Source: @ukr_leaks_eng/30861)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation deployed guided aerial bombs over Donetsk and Zaporizhzhia regions, targeting Ukrainian positions (Source: @kpszsu/64916).",
-        "Russian forces launched UAV groups from the Black Sea towards Odesa, indicating a maritime‑to‑land attack vector (Source: @kpszsu/64929).",
-        "Moscow mayor Sergei Sobyanin reported that 21 UAVs were intercepted near the capital on the night of 12‑13 August (Source: @tass_agency/380386).",
-        "Russian officials reiterated that Russia does not seek conflict with NATO, citing perceived defensive advantages (Source: @tass_agency/380351).",
-        "Russian air defence claimed to have downed 231 Ukrainian UAVs over Russian regions and the Azov Sea during a single night (Source: @tass_agency/380346)."
+        "Russian tactical aviation launched a high‑probability Oryeshnyk missile from the Kapustin Yar test range, prompting air‑raid alerts (Source: @UkraineNow/81865).",
+        "Russian forces conducted guided‑bomb runs over Kharkiv region, indicating continued use of tactical air strikes (Source: @kpszsu/64874).",
+        "A shortage of Russian‑supplied air‑defence missiles is causing a decline in the down‑rate of ballistic missiles, according to Ukrainian Air Force spokesman (Source: @ukr_leaks_eng/30847).",
+        "Russian UAV groups from the Black Sea area moved toward Mykolaiv region (Ochakiv) and Odesa region, showing maritime‑to‑land threat vectors (Source: @kpszsu/64883, @kpszsu/64929).",
+        "Russian authorities warned of possible ballistic missile use, heightening alert levels (Source: @kpszsu/64875).",
+        "Russian forces reported 21 UAVs intercepted near Moscow, reflecting heightened air‑defence activity in the capital region (Source: @tass_agency/380386).",
+        "Serbian authorities continued issuing passports to sanctioned Russian citizens, potentially facilitating Russian personnel movement (Source: @UkraineNow/81851)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported a Shahed swarm attack originating from directions including Orel, Kursk, Millerovo, Chauda and Hvardiyiske, targeting eastern sectors (Source: @kpszsu/64903).",
-        "UAV activity was noted on the south‑eastern and eastern fronts, with warnings of aerial strike threats to front‑line oblasts (Source: @kpszsu/64908).",
-        "Ukrainian units liberated Priyut village in the Donetsk People's Republic, shifting control in the eastern theater (Source: @ukr_leaks_eng/30858).",
-        "Ukrainian air defence recorded 14 UAV hits across seven eastern locations during the June 12 attack (Source: @kpszsu/64903)."
+        "Ukrainian UAVs were sighted over Sumy region near Dubovyazivka, moving southwest, indicating pressure on Russian positions in the north‑eastern sector (Source: @kpszsu/64907).",
+        "Ukrainian UAV activity was also reported on the northern Sumy and Chernihiv border area, heading south, suggesting reconnaissance along the front line (Source: @kpszsu/64880).",
+        "Russian Shahed and other UAV attacks targeted locations including Oril, Kursk, Millerovo, Chauda and Gardeyske, with impacts recorded on seven sites (Source: @kpszsu/64903).",
+        "Russian tactical aviation conducted guided‑bomb strikes in Kharkiv region, affecting eastern operational depth (Source: @kpszsu/64874).",
+        "Ukrainian air‑defence downed multiple UAVs over the eastern front, with debris falling on eight locations (Source: @kpszsu/64903).",
+        "A high‑probability Oryeshnyk missile launch was warned for the north‑eastern direction, raising alert status (Source: @UkraineNow/81865).",
+        "Ukrainian forces reported a UAV strike on a postal terminal in Zaporizhzhia, a city near the eastern front, causing a fire (Source: @UkraineNow/81871)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian reports indicated UAVs approaching Chernihiv region from the north, specifically over Horodnia and Snovsk (Source: @eRadarrua/96300).",
-        "Moscow’s air defence reported intercepting 21 UAVs near the capital on 12‑13 August (Source: @tass_agency/380386).",
-        "Ukrainian forces observed UAV activity from the Black Sea heading toward Odesa, affecting northern‑southern approaches (Source: @kpszsu/64929).",
-        "Russian air defence claimed 231 Ukrainian UAVs were shot down over Russian territory, including northern regions (Source: @tass_agency/380346)."
+        "Ukrainian UAVs were observed over northern Sumy and Chernihiv regions, heading south, indicating surveillance of Russian positions near the northern front (Source: @kpszsu/64880).",
+        "Russian UAV attacks from directions Oril, Kursk, Millerovo, Chauda and Gardeyske impacted northern sectors, with 14 strike hits recorded (Source: @kpszsu/64903).",
+        "Ukrainian air‑defence intercepted 102 hostile UAVs across multiple northern locations, with debris found on eight sites (Source: @kpszsu/64903).",
+        "A high‑probability launch of an Oryeshnyk missile was announced, affecting northern air‑space (Source: @UkraineNow/81865).",
+        "Russian tactical aviation conducted guided‑bomb missions over Kharkiv, which borders the northern front, suggesting cross‑front strike capability (Source: @kpszsu/64874).",
+        "Ukrainian forces reported a UAV incident near the northern border of the Chernihiv region, though details remain limited (Source: @eRadarrua/96300).",
+        "Russian missile interception counts near Moscow rose to 21, reflecting heightened air‑defence activity that could affect northern strategic routes (Source: @tass_agency/380386)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian Navy’s Neptune missile struck a Russian military target in Sevastopol, Crimea, destroying ammunition storage (Source: @UkraineNow/81849).",
-        "Ukrainian forces hit two Russian oil‑chemical plants: Nizhnekamskneftekhim in Tatarstan and Tolyatti‑Kauchuk in Samara, affecting Russian defence industry supply (Source: @UkraineNow/81863).",
-        "UAV groups from the Black Sea were observed moving toward Odesa, indicating a southern maritime threat vector (Source: @kpszsu/64929).",
-        "Russian tactical aviation activity was reported on the southern direction, with guided‑bomb deployments (Source: @kpszsu/64916)."
+        "Ukrainian Navy’s Neptune missile strike hit a Russian military target in Sevastopol Bay, destroying weapons and equipment of the Black Sea Fleet (Source: @UkraineNow/81849).",
+        "Ukrainian UAV groups from the Black Sea area moved toward Mykolaiv (Ochakiv) and Odesa regions, indicating maritime‑to‑land threat vectors (Source: @kpszsu/64883, @kpszsu/64929).",
+        "Russian tactical aviation launched guided‑bomb runs over Kharkiv region, affecting southern operational zones (Source: @kpszsu/64874).",
+        "A high‑probability Oryeshnyk missile launch was warned for the southern direction, raising alert levels (Source: @UkraineNow/81865).",
+        "Ukrainian air‑defence reported a decrease in ballistic missile interception due to missile shortages, potentially impacting southern defence posture (Source: @ukr_leaks_eng/30847).",
+        "Romanian defence officials requested self‑destruct mechanisms for naval drones to detonate 12 nautical miles offshore, reflecting concerns over southern maritime operations (Source: @ukr_leaks_eng/30849).",
+        "Ukrainian UAV activity was noted over southern Kharkiv (Lozova), suggesting continued pressure on Russian‑held areas in the south (Source: @kpszsu/64882)."
       ]
     },
     "air_war": {
       "points": [
-        "On the night of 11‑12 June, Russian forces launched a swarm of 117 Shahed‑type UAVs, of which Ukrainian air defence shot down 102 (Source: @kpszsu/64903).",
-        "Russian tactical aviation conducted guided‑bomb strikes in Donetsk and Zaporizhzhia regions, increasing aerial pressure on Ukrainian positions (Source: @kpszsu/64916).",
-        "Ukrainian air defence reported downing 231 Ukrainian UAVs over Russian regions and the Azov Sea in a single night (Source: @tass_agency/380346).",
-        "Moscow’s air defence intercepted 21 UAVs near the capital on 12‑13 August, reflecting heightened aerial activity (Source: @tass_agency/380386).",
-        "UAV activity was noted on the southern, south‑eastern and eastern fronts, with threats to front‑line oblasts (Source: @kpszsu/64879; @kpszsu/64908)."
+        "Ukrainian air‑defence forces downed 102 hostile UAVs of Shahed, Gerbera, Italmas and imitation types during a coordinated attack on 11‑12 June (Source: @kpszsu/64903).",
+        "A high‑probability launch of an Oryeshnyk missile from Kapustin Yar was announced, prompting air‑raid alerts (Source: @UkraineNow/81865).",
+        "Russian tactical aviation conducted guided‑bomb missions over Kharkiv, indicating continued use of air strikes against Ukrainian positions (Source: @kpszsu/64874).",
+        "Ukrainian forces employed a Neptune cruise missile to strike a Russian naval target in Sevastopol, demonstrating long‑range strike capability (Source: @UkraineNow/81849).",
+        "Ballistic missile interception rates have fallen due to a shortage of air‑defence missiles, according to Ukrainian Air Force spokesman (Source: @ukr_leaks_eng/30847).",
+        "Moscow reported 21 UAVs intercepted near the capital, showing heightened air‑defence activity in the Russian heartland (Source: @tass_agency/380386).",
+        "Ukrainian UAVs were observed over multiple front‑line regions, providing reconnaissance and potential strike platforms (Source: @kpszsu/64882, @kpszsu/64907, @kpszsu/64880)."
       ]
     },
     "key_developments": [
-      "Neptune cruise missile strike on Sevastopol destroyed Russian ammunition storage, marking a significant naval strike (Source: @UkraineNow/81849).",
-      "Russian tactical aviation launched guided‑bomb attacks in Donetsk and Zaporizhzhia, intensifying air‑ground operations (Source: @kpszsu/64916).",
-      "Ukrainian air defence downed 102 of 117 Shahed UAVs during a large‑scale swarm attack on June 12 (Source: @kpszsu/64903).",
-      "Ukraine began evacuating 3,500 factory workers from Kramatorsk to western Ukraine as the front approached within 14 km (Source: @ukr_leaks_eng/30854).",
-      "Ukrainian forces liberated Priyut village in the Donetsk People's Republic, shifting control in the east (Source: @ukr_leaks_eng/30858).",
-      "Moscow reported interception of 21 UAVs near the capital on 12‑13 August, indicating increased aerial threats (Source: @tass_agency/380386).",
-      "Ukraine seeks an additional $20 billion in aid to maintain its battlefield advantage (Source: @UkraineNow/81860)."
+      "Ukrainian Neptune missile destroyed weapons storage at a Russian Black Sea Fleet site in Sevastopol Bay, indicating effective long‑range strike capability (Source: @UkraineNow/81849).",
+      "Russian tactical aviation launched a large UAV swarm (117 Shahed‑type and others); Ukrainian air‑defence shot down 102, showing intense aerial contest (Source: @kpszsu/64903).",
+      "A high‑probability Oryeshnyk missile launch from Kapustin Yar was announced, raising immediate air‑raid alert across affected zones (Source: @UkraineNow/81865).",
+      "Ukrainian air‑defence down‑rate for ballistic missiles has decreased due to missile shortages, potentially affecting future interception success (Source: @ukr_leaks_eng/30847).",
+      "Romania requested self‑destruct mechanisms for its naval drones to detonate 12 nautical miles offshore if control is lost, reflecting heightened maritime security concerns (Source: @ukr_leaks_eng/30849).",
+      "Ukrainian UAV activity observed over southern Kharkiv (Lozova) and Sumy regions, indicating continued reconnaissance and pressure on Russian positions (Source: @kpszsu/64882, @kpszsu/64907).",
+      "Russian guided‑bomb runs over Kharkiv region demonstrate ongoing tactical air strikes against Ukrainian forces (Source: @kpszsu/64874)."
     ],
-    "threat_assessment": "Russian tactical aviation continues to employ guided bombs and UAV swarms across multiple fronts, stressing Ukrainian air defences. Ukrainian missile capabilities, exemplified by the Neptune strike on Sevastopol, demonstrate the ability to target high‑value Russian assets deep in occupied territory. The ongoing evacuation of industrial workers from front‑line cities reflects a shifting front line that may expose additional logistical targets.",
-    "regional_response": "Western allies are being urged to provide an extra $20 billion in military assistance, highlighting concerns over Russia's rapid adaptation and potential development of medium‑range drones. Ukrainian defence reforms aim to improve service conditions and sustain troop morale amid intensified combat. Russian statements denying NATO conflict contrast with continued aggressive aerial operations, suggesting a strategic focus on battlefield pressure rather than diplomatic de‑escalation.",
-    "intelligence_notes": "UAV launch vectors from the Black Sea toward Odesa and from eastern Russian regions toward Ukrainian lines indicate coordinated multi‑axis pressure. The high number of intercepted UAVs near Moscow suggests expanded Russian air‑defence coverage, potentially limiting Ukrainian long‑range drone operations. Continued strikes on Russian industrial facilities could degrade the Russian defence industrial base if sustained."
+    "threat_assessment": "Russian forces are intensifying aerial pressure through UAV swarms and guided‑bomb missions, while Ukraine is countering with robust air‑defence and long‑range missile strikes. The shortage of air‑defence missiles on the Ukrainian side is eroding ballistic missile interception rates, potentially exposing critical infrastructure. Maritime threats persist as both sides deploy UAVs from the Black Sea, and Romania's demand for self‑destruct mechanisms underscores the risk of uncontrolled drone incursions.",
+    "regional_response": "Western partners continue to supply advanced air‑defence and missile systems, as evidenced by the Neptune strike and ongoing procurement discussions. Regional actors such as Romania are tightening operational protocols for naval drones, while Serbia's issuance of passports to sanctioned Russians may facilitate Russian personnel movement. NATO statements emphasize deterrence but do not indicate direct escalation.",
+    "intelligence_notes": "Monitoring of Russian tactical aviation launch sites, especially Kapustin Yar, is critical for early warning of missile attacks. Ukrainian UAV flight paths over Kharkiv, Sumy and Chernihiv provide valuable intelligence on front‑line dynamics. The decline in ballistic missile interception highlights the need for accelerated delivery of air‑defence munitions to sustain Ukraine's defensive posture."
   },
   "missiles": 0,
   "drones": 117,
   "kpszsu_timeline": [
-    0,
-    2,
-    3,
-    2,
-    1,
-    1,
-    1,
-    3,
-    3,
-    3,
-    1,
-    1,
-    1,
-    1,
-    1,
-    3,
     1,
     4,
     2,
     1,
     1,
+    1,
+    2,
+    4,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    3,
+    1,
+    3,
+    1,
     0,
     1,
-    1
+    1,
+    0
   ]
 }
