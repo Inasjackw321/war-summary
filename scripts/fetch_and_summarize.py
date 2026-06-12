@@ -625,37 +625,35 @@ def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: 
                 f'Do not pad with vague language — cite specific operational facts.)'
             )
 
-    prompt = f"""You are an intelligence analyst producing structured conflict briefings.
-Analyse the following messages from {conflict_name} channels and extract structured intelligence.
+    prompt = f"""You are a senior intelligence analyst producing structured conflict briefings from raw Telegram channel data.
 
-STRICT GROUNDING RULES — read carefully before writing anything:
-1. Every claim, location, unit, number, or event you write MUST be directly stated in the source messages. Do not infer, extrapolate, or add context from your training data.
-2. If a message is vague or lacks details, write vaguely. Never invent specifics (distances, casualty figures, unit names, weapon types) that are not explicitly stated in the messages.
-3. If you cannot find 7 key_developments or all section points from the actual messages, write fewer — do not pad with plausible-sounding inventions.
-4. STRICT RELEVANCE: Only include information about {conflict_name}. Discard messages about other conflicts, regions, or off-topic events.
-5. Source citations: use the EXACT channel and post ID from the message prefix [channel/postID]. Never cite a post you did not use.
+CRITICAL GROUNDING RULES — violating these invalidates the entire output:
+1. NEVER write any fact, location, name, number, or event that is not EXPLICITLY stated in the source messages below.
+2. If a message is vague, write vaguely. If a message lacks specifics, omit specifics. Never invent distances, casualty figures, unit names, or weapon types.
+3. If you cannot find enough data for a section, write shorter — do not pad with plausible-sounding content.
+4. RELEVANCE: Only include information about {conflict_name}. Discard messages about other conflicts.
+5. Source citations: copy the EXACT channel and post ID from the [channel/postID] prefix. Never cite a source you did not directly use.
+6. Verification: Before including any claim, ask yourself "Is this explicitly stated in a message?" If no, omit it.
 
-Messages are prefixed [channel/postID] or [channel]. Cite as (Source: @channel/postID) or (Source: @channel).
+Messages are prefixed [channel/postID]. Cite as (Source: @channel/postID).
 
 Return ONLY valid JSON with this exact structure:
 {{
-  "summary": "3-sentence executive summary using only facts from the messages",
+  "summary": "3-sentence executive brief. Only facts present in messages. Start with the most operationally significant development.",
   "key_points": [
-    "Up to 8 most significant developments, each 15-25 words of facts FROM the messages, then (Source: @channel/postID). No invented details. Ordered by operational importance."
+    "Up to 8 key developments. Each: one complete sentence of facts FROM the messages (15-30 words), then (Source: @channel/postID). No invented details. Ordered by operational significance."
   ],
   "sentiment": "one of: escalating|volatile|active|tense|stable|calm",
-  "intensity": <1-10>,
+  "intensity": <integer 1-10>,
   "sections": {{
     {chr(10).join(section_instructions)}
   }}
 }}
 
-For key_developments, each item must be a complete sentence ending with its source citation, using only information explicitly present in the cited message.
-
 Messages (newest first, may include Hebrew/Arabic/Ukrainian/Russian):
 {combined[:14000]}
 
-Return only the JSON object, no other text."""
+Return only the JSON object. No markdown, no extra text."""
 
     last_exc: Exception | None = None
     for i, model in enumerate(MODELS):
@@ -844,6 +842,103 @@ def _generate_graphs(output_dir: Path) -> None:
         print(f"  [graph] middle_east failed: {e}", file=sys.stderr)
 
 
+def generate_daily_paper(output_dir: Path) -> None:
+    """Generate a newspaper-style daily brief once per UTC day. Skipped if already run today."""
+    paper_path = output_dir / "daily_paper.json"
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    if paper_path.exists():
+        try:
+            existing = json.loads(paper_path.read_text())
+            if existing.get("date") == today:
+                print("  [daily paper] already generated today, skipping", file=sys.stderr)
+                return
+        except Exception:
+            pass
+
+    context_parts = []
+    for key in CONFLICTS:
+        json_path = output_dir / f"{key}.json"
+        if not json_path.exists():
+            continue
+        try:
+            data = json.loads(json_path.read_text())
+        except Exception:
+            continue
+        title = data.get("conflict", key)
+        exec_sum = (data.get("sections") or {}).get("executive_summary", "")
+        key_points = data.get("key_points", [])
+        threat = (data.get("sections") or {}).get("threat_assessment", "")
+        part = f"=== {title} ===\n"
+        if exec_sum:
+            part += exec_sum + "\n\n"
+        if key_points:
+            part += "Key developments:\n" + "\n".join(f"* {p}" for p in key_points[:6]) + "\n"
+        if threat:
+            part += f"\nThreat assessment: {threat}\n"
+        context_parts.append(part)
+
+    if not context_parts:
+        print("  [daily paper] no conflict data available, skipping", file=sys.stderr)
+        return
+
+    context = "\n\n".join(context_parts)
+    prompt = f"""You are a senior war correspondent writing the front page of a prestigious intelligence newspaper.
+
+Write today's daily brief using ONLY the verified intelligence data provided below.
+Do not add any information from your training data — only use what is explicitly in the data.
+
+Data for {today}:
+{context[:8000]}
+
+Return a JSON object with exactly this structure:
+{{
+  "date": "{today}",
+  "headline": "A powerful, specific headline capturing today's most critical development (10-14 words max)",
+  "subheadline": "A precise supporting sentence with a specific operational detail from the data (20-25 words)",
+  "lede": "Opening paragraph — 3 to 4 sentences covering the most significant developments. Dense with specific facts from the data.",
+  "sections": [
+    {{
+      "conflict": "Ukraine-Russia War",
+      "title": "Section headline for Ukraine front (6-8 words)",
+      "body": "3-4 sentences of factual reporting from Ukraine data only. Specific and grounded."
+    }},
+    {{
+      "conflict": "Middle East",
+      "title": "Section headline for Middle East (6-8 words)",
+      "body": "3-4 sentences of factual reporting from Middle East data only. Specific and grounded."
+    }},
+    {{
+      "conflict": "Analysis",
+      "title": "Intelligence Assessment",
+      "body": "2-3 sentences of analytical synthesis — patterns, escalation signals, notable shifts. Only what the data directly supports."
+    }}
+  ]
+}}
+
+Return only valid JSON. No markdown, no extra text."""
+
+    for i, model in enumerate(MODELS):
+        try:
+            raw = call_openrouter(prompt, model)
+            raw = raw.strip()
+            if raw.startswith("```"):
+                raw = re.sub(r"^```[a-z]*\n?", "", raw)
+                raw = re.sub(r"\n?```$", "", raw)
+            result = json.loads(raw)
+            result["date"] = today
+            result["generated_at"] = datetime.now(timezone.utc).isoformat()
+            paper_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
+            print(f"  [daily paper] generated with {model}", file=sys.stderr)
+            return
+        except Exception as e:
+            wait = 15 * (i + 1)
+            print(f"  [daily paper] model={model} failed: {e} — waiting {wait}s", file=sys.stderr)
+            time.sleep(wait)
+
+    print("  [daily paper] all models failed", file=sys.stderr)
+
+
 def run() -> None:
     output_dir = Path("data")
     output_dir.mkdir(exist_ok=True)
@@ -877,6 +972,7 @@ def run() -> None:
     cleanup_unreferenced_media(media_dir, referenced)
 
     _generate_graphs(output_dir)
+    generate_daily_paper(output_dir)
 
     if failed_conflicts:
         print(f"\nFailed conflicts: {failed_conflicts}", file=sys.stderr)

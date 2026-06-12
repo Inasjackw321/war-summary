@@ -1260,4 +1260,58 @@ function initFooterPopups() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); });
+async function loadDailyPaper() {
+  try {
+    const r = await fetch("data/daily_paper.json?" + Date.now());
+    if (!r.ok) return;
+    const p = await r.json();
+    if (!p.headline) return;
+
+    const sec = document.getElementById("daily-paper-section");
+    if (!sec) return;
+
+    // Masthead date
+    const dateEl = document.getElementById("dpDate");
+    if (dateEl && p.date) {
+      const d = new Date(p.date + "T12:00:00Z");
+      dateEl.textContent = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).toUpperCase();
+    }
+
+    const headline = document.getElementById("dpHeadline");
+    if (headline) headline.textContent = p.headline || "";
+
+    const sub = document.getElementById("dpSubheadline");
+    if (sub) sub.textContent = p.subheadline || "";
+
+    const lede = document.getElementById("dpLede");
+    if (lede) lede.textContent = p.lede || "";
+
+    // Conflict columns (first two sections)
+    const colsEl = document.getElementById("dpColumns");
+    if (colsEl && p.sections) {
+      const colSections = p.sections.filter(s => s.conflict !== "Analysis");
+      colsEl.innerHTML = colSections.map(s => `
+        <div class="dp-col">
+          <div class="dp-col-label">${s.conflict.toUpperCase()}</div>
+          <div class="dp-col-title">${s.title || ""}</div>
+          <div class="dp-col-body">${s.body || ""}</div>
+        </div>`).join("");
+    }
+
+    // Analysis section
+    const analysisEl = document.getElementById("dpAnalysis");
+    const analysisSec = (p.sections || []).find(s => s.conflict === "Analysis");
+    if (analysisEl && analysisSec) {
+      analysisEl.innerHTML = `
+        <div class="dp-analysis-label">Intelligence Analysis</div>
+        <div class="dp-analysis-title">${analysisSec.title || "Assessment"}</div>
+        <div class="dp-analysis-body">${analysisSec.body || ""}</div>`;
+    }
+
+    sec.style.display = "block";
+  } catch (e) {
+    // daily paper not yet available — silently hide
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); loadDailyPaper(); });

@@ -18,7 +18,7 @@
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -69,6 +69,28 @@
     </div>
     <div class="ticker-track" id="tickerTrack"><span id="tickerContent">Loading intel feed…</span></div>
   </div>
+
+  <!-- Daily Paper -->
+  <section id="daily-paper-section" style="display:none;">
+    <div class="dp-wrap">
+      <div class="dp-masthead">
+        <div class="dp-masthead-left" id="dpDate">—</div>
+        <div class="dp-masthead-center">WAR SUMMARY <span class="dp-masthead-accent">DAILY BRIEF</span></div>
+        <div class="dp-masthead-right">warsummary.live</div>
+      </div>
+      <div class="dp-rule-thick"></div>
+      <h2 class="dp-headline" id="dpHeadline">Loading today's brief…</h2>
+      <p class="dp-subheadline" id="dpSubheadline"></p>
+      <div class="dp-rule-thin"></div>
+      <p class="dp-lede" id="dpLede"></p>
+      <div class="dp-columns" id="dpColumns"></div>
+      <div class="dp-analysis" id="dpAnalysis"></div>
+      <div class="dp-footer-bar">
+        <span>Updated once daily &middot; Based on 24-hour intelligence feed</span>
+        <span class="dp-footer-note">All claims sourced from monitored Telegram channels</span>
+      </div>
+    </div>
+  </section>
 
   <!-- Conflict selector tabs -->
   <nav class="conflict-tabs" role="tablist">
