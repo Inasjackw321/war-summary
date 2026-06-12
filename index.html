@@ -70,28 +70,6 @@
     <div class="ticker-track" id="tickerTrack"><span id="tickerContent">Loading intel feed…</span></div>
   </div>
 
-  <!-- Daily Paper -->
-  <section id="daily-paper-section" style="display:none;">
-    <div class="dp-wrap">
-      <div class="dp-masthead">
-        <div class="dp-masthead-left" id="dpDate">—</div>
-        <div class="dp-masthead-center">WAR SUMMARY <span class="dp-masthead-accent">DAILY BRIEF</span></div>
-        <div class="dp-masthead-right">warsummary.live</div>
-      </div>
-      <div class="dp-rule-thick"></div>
-      <h2 class="dp-headline" id="dpHeadline">Loading today's brief…</h2>
-      <p class="dp-subheadline" id="dpSubheadline"></p>
-      <div class="dp-rule-thin"></div>
-      <p class="dp-lede" id="dpLede"></p>
-      <div class="dp-columns" id="dpColumns"></div>
-      <div class="dp-analysis" id="dpAnalysis"></div>
-      <div class="dp-footer-bar">
-        <span>Updated once daily &middot; Based on 24-hour intelligence feed</span>
-        <span class="dp-footer-note">All claims sourced from monitored Telegram channels</span>
-      </div>
-    </div>
-  </section>
-
   <!-- Conflict selector tabs -->
   <nav class="conflict-tabs" role="tablist">
     <button class="tab-btn active" data-tab="middle_east" role="tab">
@@ -101,6 +79,10 @@
     <button class="tab-btn" data-tab="ukraine" role="tab">
       <svg width="14" height="16" viewBox="0 0 88 100" fill="none"><polyline points="8,5 80,50 8,95" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><polyline points="42,32 20,50 42,68" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span class="tab-flags">🇺🇦🇷🇺</span> Ukraine–Russia War
+    </button>
+    <button class="tab-btn tab-btn--paper" data-tab="daily_paper" role="tab" id="dailyPaperTab" style="display:none;">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg>
+      The Daily Paper <span class="tab-paper-badge">DAILY</span>
     </button>
   </nav>
 
@@ -281,6 +263,39 @@
       </div>
     </div>
 
+    <!-- DAILY PAPER PANEL -->
+    <div class="conflict-panel hidden" id="panel-daily_paper">
+      <div class="dp-toolbar">
+        <div class="dp-toolbar-left">
+          <span class="dp-edition-tag" id="dpEdition">MORNING EDITION</span>
+        </div>
+        <button class="dp-download-btn" id="dpDownloadBtn" title="Download today's front page as an image">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Download Front Page</span>
+        </button>
+      </div>
+      <section id="daily-paper-section">
+        <div class="dp-wrap" id="dpCapture">
+          <div class="dp-masthead">
+            <div class="dp-masthead-left" id="dpDate">—</div>
+            <div class="dp-masthead-center">WAR SUMMARY <span class="dp-masthead-accent">DAILY BRIEF</span></div>
+            <div class="dp-masthead-right">warsummary.live</div>
+          </div>
+          <div class="dp-rule-thick"></div>
+          <h2 class="dp-headline" id="dpHeadline">Loading today's brief…</h2>
+          <p class="dp-subheadline" id="dpSubheadline"></p>
+          <div class="dp-rule-thin"></div>
+          <p class="dp-lede" id="dpLede"></p>
+          <div class="dp-columns" id="dpColumns"></div>
+          <div class="dp-analysis" id="dpAnalysis"></div>
+          <div class="dp-footer-bar">
+            <span>Updated once daily &middot; Based on 24-hour intelligence feed</span>
+            <span class="dp-footer-note">All claims sourced from monitored Telegram channels</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
   </main>
 
   <footer class="site-footer">
@@ -341,6 +356,7 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <script src="app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@15.1.0/dist/twemoji.min.js" crossorigin="anonymous"></script>
   <script>twemoji.parse(document.body, { folder: "svg", ext: ".svg" });</script>

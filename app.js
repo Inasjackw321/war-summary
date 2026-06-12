@@ -1059,6 +1059,12 @@ function switchTab(key) {
     p.classList.toggle("hidden", !visible);
     if (visible) { p.style.animation="none"; p.offsetHeight; p.style.animation=""; }
   });
+  if (key === "daily_paper") {
+    // Replay the staggered reveal each time the paper tab is opened
+    const wrap = document.getElementById("dpCapture");
+    if (wrap) { wrap.classList.remove("dp-animate"); wrap.offsetHeight; wrap.classList.add("dp-animate"); }
+    return;
+  }
   if (dataCache[key]) updateHeaderForConflict(dataCache[key]);
   else loadConflict(key).then(d => { if (d) { populatePanel(key, d); updateHeaderForConflict(d); } });
 }
@@ -1260,21 +1266,27 @@ function initFooterPopups() {
   }
 }
 
+// ── Daily Paper ───────────────────────────────────────────────────────────────
+let _dpDate = "";
+
 async function loadDailyPaper() {
   try {
     const r = await fetch("data/daily_paper.json?" + Date.now());
     if (!r.ok) return;
     const p = await r.json();
     if (!p.headline) return;
+    _dpDate = p.date || "";
 
-    const sec = document.getElementById("daily-paper-section");
-    if (!sec) return;
-
-    // Masthead date
+    // Masthead date + edition label
     const dateEl = document.getElementById("dpDate");
     if (dateEl && p.date) {
       const d = new Date(p.date + "T12:00:00Z");
       dateEl.textContent = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).toUpperCase();
+    }
+    const editionEl = document.getElementById("dpEdition");
+    if (editionEl && p.generated_at) {
+      const h = new Date(p.generated_at).getUTCHours();
+      editionEl.textContent = (h < 12 ? "MORNING" : h < 18 ? "AFTERNOON" : "EVENING") + " EDITION";
     }
 
     const headline = document.getElementById("dpHeadline");
@@ -1284,18 +1296,22 @@ async function loadDailyPaper() {
     if (sub) sub.textContent = p.subheadline || "";
 
     const lede = document.getElementById("dpLede");
-    if (lede) lede.textContent = p.lede || "";
+    if (lede) {
+      const txt = p.lede || "";
+      // Drop-cap on the first letter of the lede
+      lede.innerHTML = txt ? `<span class="dp-dropcap">${txt[0]}</span>${txt.slice(1)}` : "";
+    }
 
-    // Conflict columns (first two sections)
+    // Conflict columns (everything except the Analysis block)
     const colsEl = document.getElementById("dpColumns");
     if (colsEl && p.sections) {
       const colSections = p.sections.filter(s => s.conflict !== "Analysis");
-      colsEl.innerHTML = colSections.map(s => `
-        <div class="dp-col">
+      colsEl.innerHTML = colSections.map((s, i) => `
+        <article class="dp-col" style="--dp-i:${i}">
           <div class="dp-col-label">${s.conflict.toUpperCase()}</div>
-          <div class="dp-col-title">${s.title || ""}</div>
+          <h3 class="dp-col-title">${s.title || ""}</h3>
           <div class="dp-col-body">${s.body || ""}</div>
-        </div>`).join("");
+        </article>`).join("");
     }
 
     // Analysis section
@@ -1308,10 +1324,50 @@ async function loadDailyPaper() {
         <div class="dp-analysis-body">${analysisSec.body || ""}</div>`;
     }
 
-    sec.style.display = "block";
+    // Reveal the Daily Paper tab now that we have content
+    const tab = document.getElementById("dailyPaperTab");
+    if (tab) tab.style.display = "";
+
+    initDailyPaperDownload();
   } catch (e) {
-    // daily paper not yet available — silently hide
+    // daily paper not yet available — tab stays hidden
   }
+}
+
+function initDailyPaperDownload() {
+  const btn = document.getElementById("dpDownloadBtn");
+  if (!btn || btn.dataset.wired) return;
+  btn.dataset.wired = "1";
+  btn.addEventListener("click", async () => {
+    if (typeof html2canvas === "undefined") return;
+    const target = document.getElementById("dpCapture");
+    if (!target) return;
+    const label = btn.querySelector("span");
+    const orig = label.textContent;
+    btn.disabled = true;
+    label.textContent = "Rendering…";
+    try {
+      // Pause reveal animations so the capture isn't mid-transition
+      target.classList.add("dp-no-anim");
+      const canvas = await html2canvas(target, {
+        backgroundColor: "#0a0c12",
+        scale: 2,
+        useCORS: true,
+        logging: false,
+      });
+      const a = document.createElement("a");
+      a.download = `war-summary-front-page-${_dpDate || "today"}.png`;
+      a.href = canvas.toDataURL("image/png");
+      a.click();
+      label.textContent = "Saved ✓";
+      setTimeout(() => { label.textContent = orig; btn.disabled = false; }, 1800);
+    } catch (e) {
+      label.textContent = "Failed — retry";
+      btn.disabled = false;
+    } finally {
+      target.classList.remove("dp-no-anim");
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); loadDailyPaper(); });
