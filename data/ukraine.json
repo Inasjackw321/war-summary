@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-13T06:49:28.809925+00:00",
-  "message_count": 208,
+  "updated_at": "2026-06-13T08:33:45.298847+00:00",
+  "message_count": 204,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,21 +13,19 @@
   ],
   "red_alerts": 118,
   "red_alerts_timeline": [
-    0,
-    0,
     11,
     0,
     0,
     0,
-    11,
-    11,
-    11,
     0,
-    11,
-    0,
-    0,
-    32,
     21,
+    11,
+    0,
+    11,
+    0,
+    0,
+    11,
+    43,
     0,
     0,
     0,
@@ -36,33 +34,35 @@
     0,
     0,
     0,
-    11
+    0,
+    11,
+    0
   ],
   "combined_activity_timeline": [
-    10,
-    9,
     12,
     10,
-    10,
-    9,
-    11,
-    23,
-    11,
-    6,
-    11,
-    9,
-    14,
-    6,
     8,
+    9,
+    9,
+    26,
+    11,
+    8,
+    10,
+    10,
+    14,
+    4,
+    10,
+    4,
     5,
-    5,
-    2,
+    3,
+    4,
+    7,
     3,
     7,
-    6,
-    5,
     7,
-    9
+    6,
+    9,
+    8
   ],
   "messages_by_channel": {
     "@eRadarrua": 29,
@@ -71,24 +71,44 @@
     "@UkraineNow": 23,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 15,
-    "@tass_agency": 98
+    "@tass_agency": 94
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96370",
-    "kpszsu": "https://t.me/kpszsu/64983",
+    "eRadarrua": "https://t.me/eRadarrua/96376",
+    "kpszsu": "https://t.me/kpszsu/65000",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67588",
-    "UkraineNow": "https://t.me/UkraineNow/81889",
+    "UkraineNow": "https://t.me/UkraineNow/81891",
     "DeepStateUA": "https://t.me/DeepStateUA/23576",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30869",
-    "tass_agency": "https://t.me/tass_agency/380471"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30872",
+    "tass_agency": "https://t.me/tass_agency/380475"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81883",
-    "kpszsu": "https://t.me/kpszsu/64976",
-    "tass_agency": "https://t.me/tass_agency/380464",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30863"
+    "UkraineNow": "https://t.me/UkraineNow/81890",
+    "kpszsu": "https://t.me/kpszsu/64955",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67587",
+    "eRadarrua": "https://t.me/eRadarrua/96349",
+    "tass_agency": "https://t.me/tass_agency/380473"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/380475",
+      "post_id": 380475,
+      "channel": "tass_agency",
+      "ts": "2026-06-13T08:30:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96373",
+      "post_id": 96373,
+      "channel": "eRadarrua",
+      "ts": "2026-06-13T07:37:38+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/rrBUHpYG_oNtyc-DKJax2EJdnQsmMUiBWMZaJBtKqNRFD_ctsAvICyvLabsL4SfeCf6GGI33TAFbJza6PoMAgAjbPWfBgq0wu6EOLnG_gwj-e4obZE7d-2g1URImGEuY0POFaY7CxhSCTc8h9kXwFlQjnEbcO4zext-BuUQPozYBrXwTNKxIH-esFvD7VqYvHroGs7Awa4HxuxfJkGZ921t7SPOv024Ras7ZX4EcmQfltc2XJe7vipOe19yFIxttIlbT5vVALOjoDl5aXOVjjXfALUGGXY47RiJFCb4W6XDr283csMYp4OCrjy026rwllYYBd30MwoRidASusySpTA.jpg"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380472",
+      "post_id": 380472,
+      "channel": "tass_agency",
+      "ts": "2026-06-13T07:02:36+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30869",
       "post_id": 30869,
@@ -199,28 +219,6 @@
       "channel": "eRadarrua",
       "ts": "2026-06-12T19:01:58+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/QN9XPwRUUe0XatUvpdums3txjqZtTIQiBWLqnoj4_7CLLbxdsq7CLGqflWq00fCp16FIEFn7TRDXAWyDH5Y9JxPr082xn77akjSbeSXRg-o6j_U75ugrVIhGk5SLbm863xNeXfodDhzU5C4zE8LWr1Yd4r1ylVsqrYSIb803Bu9ihlpAvFJa4F_aerXe_X-c1xgml0PGGBi6hD7HyzHjXMAaG00bsJWZ7dgYls2SMrgrxrzrRKMDwhpDWKwATdx_YZUBot8ohJYCa8YX3HXBje1y57WVT2KRSAMyT8G_Iz2fsMbbb4PvU9ahaKHlPOWv1mJqAedRAXKQo_AL4g6SwQ.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96328",
-      "post_id": 96328,
-      "channel": "eRadarrua",
-      "ts": "2026-06-12T19:00:42+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/t3V4dJMxyurtTtFsOCchPWd0VWth9Y2nofrTV_hbHmjwRumFRkLNTEw8l7YZtqwE2R84z2W9W1C-BmT4wyHeZjaCUi0JxKYJMTN53FI5QwTwemdZ2gIjUbFyqA4wykwfFudkCeVe4u4UEeu-fpLnuiobdg_Mbcr3eW6lJDFPxig3mI4jHV9Nptb_0RlYwmrjhnYy1JAIslmi50-hrjTCl_1YuTFhYNRNXh0D6gY1oy8DVThH2ORYkvrTB-1wD20Vci8Jc5RH1H8Iv5WVhYXNWONVed-_zfuA-Oto0sd2JQUobxeiBFRbn9Zg-IrnVeTh60ytK593t8rtlV4Rp_hoaQ.jpg",
-      "companion_text_id": 96326
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81883",
-      "post_id": 81883,
-      "channel": "UkraineNow",
-      "ts": "2026-06-12T18:56:06+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96327",
-      "post_id": 96327,
-      "channel": "eRadarrua",
-      "ts": "2026-06-12T18:44:07+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/kk90NEW_UIzxn-TK1oJceq-7xxY6Ai5zW4JfPK9AHxTwYN7PV_dpFd55dyEJMbvUQMw_9NU9wctPiKpkocO1t0LVpjXfc0xcRUJDLG46ghygMeFXkI3-d3vhiXQf3bEsNwJSOdKyYo2aRuz7KApK26jrPQ7SfRYzDlc71edlcasrw1HrpWjM33n5gKZxrPP_EXYwLpMEzRxgmrkaXLI8IeltUUNMJqGmln_TYX3YbKIjRluV3LqFUv5LxQ2ybfh_bw7wEJSNY4YsslAsAL7s2RqyyUClyfAVSQxGGrRSCapGi4E-9DyMeCwPIvuuqOxE6-YY6C3kfllG1SSWSMSfIQ.jpg",
-      "companion_text_id": 96326
     }
   ],
   "post_images": {
@@ -228,6 +226,7 @@
     "eRadarrua/96356": "data/media/eRadarrua_96357.jpg",
     "eRadarrua/96366": "data/media/eRadarrua_96366.jpg",
     "eRadarrua/96367": "data/media/eRadarrua_96366.jpg",
+    "eRadarrua/96373": "data/media/eRadarrua_96373.jpg",
     "eRadarrua/96328": "data/media/eRadarrua_96328.jpg",
     "eRadarrua/96326": "data/media/eRadarrua_96328.jpg",
     "eRadarrua/96338": "data/media/eRadarrua_96338.jpg",
@@ -245,92 +244,102 @@
     "kpszsu/64976": "data/media/kpszsu_64976.jpg",
     "kpszsu/64974": "data/media/kpszsu_64976.jpg"
   },
-  "summary": "Russian Shahed‑type UAVs launched large‑scale attacks across Ukraine, with 110 drones shot down and multiple strikes on Sumy, Dnipro and Zaporizhzhia facilities. Russia also struck the Temryuk sea port in Krasnodar Krai, causing one death and several injuries. Ukrainian defenses continue to report high UAV activity along northern borders and threats of medium‑range ballistic missiles from Kapustin Yar.",
+  "summary": "Russia launched multiple KAB attacks on Vasylkivka (Dnipropetrovsk) causing civilian casualties and infrastructure damage, while Ukrainian forces reported extensive UAV activity across northern, southern and eastern fronts, including new launch sites near the Belarus border. Ukrainian air defenses claimed high interception rates, downing over 110 of 118 attack drones in recent strikes. Political developments include EU accession talks and language policy changes, but operational focus remains on intensified drone and missile operations.",
   "key_points": [
-    "Russian Shahed and other UAVs attacked Sumy farm, killing five workers and damaging livestock, and also hit a DTEK power plant killing one and wounding another (Source: @UkraineNow/81883).",
-    "A Russian strike on the Temryuk sea port in Krasnodar Krai caused a fire, one fatality and three injuries (Source: @UkraineNow/81889).",
-    "Ukrainian forces reported shooting down 110 hostile UAVs of various types on the night of 12‑13 June (Source: @kpszsu/64976).",
-    "Multiple UAV groups were observed moving from northern Chernihiv and Kyiv regions toward central Ukraine (Source: @kpszsu/64964, @kpszsu/64948, @kpszsu/64954).",
-    "Ukrainian authorities warned of a high probability of a ballistic missile launch from the Kapustin Yar test site (Source: @UkraineNow/81873).",
-    "Russian air defense claimed to have downed 177 Ukrainian UAVs over Russian territory and Black Sea/Azov Sea areas (Source: @tass_agency/380464).",
-    "Ukrainian officials announced upcoming reforms to military service terms and increased pay (Source: @UkraineNow/81872)."
+    "Russia fired 12 KABs on Vasylkivka, Dnipropetrovsk, injuring nine and damaging a market and residential buildings (Source: @UkraineNow/81890).",
+    "Ukrainian UAVs operated from the Black Sea toward Odesa region, indicating southern pressure (Source: @kpszsu/64955).",
+    "New Russian UAV launch sites were identified near the Belarus border, with flights toward northern Kyiv region (Source: @kpszsu/64948).",
+    "Ukrainian air defenses reported downing 110 of 118 attack drones in recent raids (Source: @UkraineNow/81890).",
+    "Multiple Shahed attacks were reported on Korosten and Odesa/Chornomorsk, totaling at least 13 drones (Source: @mon1tor_ua/67587).",
+    "Ukrainian forces reported UAV strikes on Sumy, causing six injuries and a building fire (Source: @UkraineNow/81866).",
+    "Russia claimed a high‑probability launch of Oreshnyk missiles from Kapustin Yar (Source: @UkraineNow/81873)."
   ],
-  "sentiment": "volatile",
+  "sentiment": "active",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russian Shahed‑type UAVs carried out extensive attacks across Ukraine, with 110 drones intercepted and strikes on civilian and energy targets in Sumy and Zaporizhzhia. A Russian missile strike hit the strategic Temryuk sea port in Krasnodar, killing one and injuring several. Ukrainian defenses continue to monitor high UAV traffic along northern borders and anticipate possible ballistic missile launches from Kapustin Yar.",
+    "executive_summary": "Russia launched a 12‑drone (KAB) strike on Vasylkivka, Dnipropetrovsk, causing civilian casualties and significant market damage. Ukrainian UAV operations intensified across the north, south and east, with new launch sites near the Belarus border and Shahed attacks on Korosten and Odesa. Ukrainian air defenses reported a high interception rate, downing 110 of 118 attacking drones.",
     "ukraine": {
       "points": [
-        "Ukrainian forces shot down or suppressed 110 hostile UAVs, including Shahed, Gerbera and Iltamys types, across northern, southern and eastern sectors on the night of 12‑13 June (Source: @kpszsu/64976).",
-        "A Russian UAV strike on a farm in Sumy region killed five workers, injured livestock, and caused additional casualties at a DTEK power plant (one dead, one wounded) (Source: @UkraineNow/81883).",
-        "A Russian drone hit the Nova Poshta terminal in Zaporizhzhia, causing a fire but no reported casualties (Source: @UkraineNow/81871).",
-        "Ukrainian air defense reported downing 177 Ukrainian UAVs over Russian territory and Black Sea/Azov Sea areas, reflecting high UAV activity on both sides (Source: @tass_agency/380464).",
-        "Ukrainian officials warned of a likely launch of a ballistic missile from the Kapustin Yar test site within 24 hours (Source: @UkraineNow/81873)."
+        "Ukrainian forces deployed UAVs from the Black Sea toward Odesa region, indicating sustained pressure on southern coastal targets (Source: @kpszsu/64955).",
+        "Multiple Shahed drones struck Korosten (3) and Odesa/Chornomorsk (10), reflecting increased missile‑drone attacks in the north‑west and south (Source: @mon1tor_ua/67587).",
+        "Ukrainian UAVs operated from Kherson toward Dnipropetrovsk, heading to Kryvyi Rih, showing cross‑regional strike capability (Source: @kpszsu/64974).",
+        "A UAV group in northeastern Dnipropetrovsk moved west/northwest, suggesting reconnaissance or strike missions in that sector (Source: @kpszsu/64992).",
+        "Ukrainian air defenses claimed to have neutralized 110 of 118 attack drones in recent operations, highlighting high interception effectiveness (Source: @UkraineNow/81890).",
+        "Ukrainian UAV activity was reported in Chernihiv along the DK to Dobryanka and along the Belarus border toward northern Kyiv, indicating pressure on northern approaches (Source: @eRadarrua/96349, @kpszsu/64948).",
+        "Ukrainian forces recorded UAV strikes on Sumy, injuring six civilians and igniting a three‑storey building fire (Source: @UkraineNow/81866)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces struck the Temryuk sea port in Krasnodar Krai, igniting a fire, killing one civilian and wounding three others (Source: @UkraineNow/81889).",
-        "Russian air defense claimed to have shot down 177 Ukrainian UAVs over Russian regions and maritime zones (Source: @tass_agency/380464).",
-        "A bomb explosion occurred at the former DNR security minister Pinchuk's residence in Nova Moscow, injuring Pinchuk (Source: @tass_agency/380432).",
-        "Russian media reported a failed attempt to introduce visas for Russian citizens in Bosnia and Herzegovina, reflecting diplomatic tensions (Source: @tass_agency/380454).",
-        "Russian officials warned of potential ballistic missile launches from Kapustin Yar, indicating continued offensive missile readiness (Source: @UkraineNow/81873)."
+        "Russia launched 12 KABs on Vasylkivka, Dnipropetrovsk, injuring nine civilians, damaging a market, ten trade pavilions and a multi‑storey residential building (Source: @UkraineNow/81890).",
+        "Russian forces fired approximately eight KABs from Kherson, with unknown immediate effects (Source: @UkraineNow/81890).",
+        "A UAV attack on Zaporizhzhia critical infrastructure resulted in one fatality (Source: @UkraineNow/81890).",
+        "Russian authorities reported a UAV strike in Krasnodar region killing one and injuring three (Source: @tass_agency/380473).",
+        "Ukrainian attacks in Bryansk region caused one death and two injuries (Source: @tass_agency/380440).",
+        "Russia warned of a high probability of Oreshnyk missile launches from Kapustin Yar, though no launch was confirmed (Source: @UkraineNow/81873).",
+        "Russian statements indicated a threat of ballistic weapon use from the south, without specific details (Source: @kpszsu/64942)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported UAV groups moving from Zaporizhzhia toward Dnipropetrovsk and from Sumy northward, indicating pressure on the eastern axis (Source: @kpszsu/64969).",
-        "Russian tactical aviation launched guided aviation bombs on Sumy region (Source: @kpszsu/64930).",
-        "Ukrainian air defense intercepted multiple Shahed drones over the eastern front, with three impact points recorded (Source: @kpszsu/64976).",
-        "Ukrainian officials noted a high likelihood of a ballistic missile strike from Kapustin Yar affecting eastern territories (Source: @UkraineNow/81873).",
-        "Ukrainian radar reported UAV activity near the Dnipro River corridor, including groups from Krivyi Rih district heading toward Kamianets (Source: @kpszsu/64980)."
+        "UAVs from Kherson moved toward Dnipropetrovsk and Kryvyi Rih, targeting eastern industrial zones (Source: @kpszsu/64974).",
+        "UAV activity reported in Donetsk and Dnipropetrovsk regions, including a strike UAV group of four (Source: @eRadarrua/96345).",
+        "UAVs from the Black Sea directed toward Odesa also affect the eastern flank of the southern front (Source: @kpszsu/64955).",
+        "UAV reconnaissance missions noted in Sumy heading toward Shostka, indicating eastern border monitoring (Source: @eRadarrua/96360).",
+        "UAVs from the north‑east Dnipropetrovsk moved west/northwest, suggesting eastern sector surveillance (Source: @kpszsu/64992).",
+        "Ukrainian air defenses downed numerous drones over eastern regions, contributing to the reported 110 interceptions (Source: @UkraineNow/81890).",
+        "Russian KAB attacks on Vasylkivka, Dnipropetrovsk caused civilian casualties, highlighting eastern target vulnerability (Source: @UkraineNow/81890)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs were observed flying along the Belarus border in northern Chernihiv region, heading toward Kyiv oblast (Source: @kpszsu/64964, @kpszsu/64948).",
-        "Multiple UAV groups were reported near the Chernobyl exclusion zone moving westward (Source: @kpszsu/64954).",
-        "Ukrainian forces reported UAV activity from the north of Zhytomyr heading toward Korosten (Source: @kpszsu/64973).",
-        "UAVs were sighted along the Dnipro highway in the Kyiv region, indicating surveillance of northern approaches (Source: @kpszsu/64954).",
-        "Ukrainian air defense claimed to have downed several UAVs over northern sectors during the 110‑drone interception event (Source: @kpszsu/64976)."
+        "UAVs launched from the north of Chernihiv along the Belarus border moved toward northern Kyiv region (Source: @kpszsu/64948).",
+        "New UAV flights reported north Chernihiv along the Belarus border toward northern Kyiv (Source: @kpszsu/64990).",
+        "UAVs observed in Chernihiv along the DK to Dobryanka, indicating northern operational routes (Source: @eRadarrua/96349).",
+        "UAV reconnaissance noted in Chernihiv, Sumy, Kyiv, and Zhytomyr, covering north‑central axes (Source: @eRadarrua/96360).",
+        "Shahed attacks on Korosten (3 drones) reflect heightened northern threat (Source: @mon1tor_ua/67587).",
+        "UAV groups from the Black Sea toward Odesa also pass near northern coastal zones, affecting the broader northern theater (Source: @kpszsu/64955).",
+        "Russian claims of new drone launch sites near the Belarus border suggest increased northern pressure (Source: @UkraineNow/81876)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian strike on the Temryuk sea port in Krasnodar Krai caused casualties and infrastructure damage (Source: @UkraineNow/81889).",
-        "Ukrainian reports of UAV groups moving from Zaporizhzhia toward Dnipropetrovsk suggest pressure on the southern front (Source: @kpszsu/64969).",
-        "Ukrainian forces noted UAV activity near the Black Sea and Azov Sea areas, aligning with Russian claims of downed Ukrainian drones (Source: @tass_agency/380464).",
-        "A Russian explosion at a former DNR minister's residence in Nova Moscow, while not a front line event, reflects broader security concerns in the south (Source: @tass_agency/380432).",
-        "Ukrainian authorities warned of possible medium‑range ballistic missile launches affecting southern regions (Source: @UkraineNow/81873)."
+        "UAV groups from the Black Sea moved toward Odesa region, indicating sustained southern pressure (Source: @kpszsu/64955).",
+        "UAVs from the Black Sea also reported heading toward Odesa in another group (Source: @kpszsu/64929).",
+        "Shahed drones attacked Odesa/Chornomorsk (10 drones), showing significant southern aerial threat (Source: @mon1tor_ua/67587).",
+        "Ukrainian UAV over Mykolaiv city, controlled, headed to a training polygon, reflecting southern operational activity (Source: @eRadarrua/96347).",
+        "Two UAVs attacked Mykolaiv from the south, causing civilian injuries from debris (Source: @UkraineNow/81890).",
+        "Russian KAB launches from Kherson (≈8) targeted southern areas, though effects remain unconfirmed (Source: @UkraineNow/81890).",
+        "Ukrainian air defenses reported high interception rates, likely covering southern drone influx (Source: @UkraineNow/81890)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian forces intercepted 110 hostile UAVs of various types on the night of 12‑13 June, with three UAVs hitting targets and debris falling in six locations (Source: @kpszsu/64976).",
-        "Russian air defense reported shooting down 177 Ukrainian UAVs over Russian territory and maritime zones (Source: @tass_agency/380464).",
-        "Ukrainian radar recorded multiple Shahed‑type UAV launches from areas including Oril, Kursk, Millerovo, Primorsko-Akhtarsk, Donetsk, and Crimea (Source: @kpszsu/64976).",
-        "Ukrainian officials warned of imminent ballistic missile launches from Kapustin Yar, indicating a potential escalation in missile use (Source: @UkraineNow/81873).",
-        "Ukrainian air defense showcased a promotional video of AI‑enabled interceptors in Kharkiv, though subsequent drone strikes raised questions about operational effectiveness (Source: @ukr_leaks_eng/30863)."
+        "Ukrainian air defenses claimed to have downed 110 of 118 attacking drones in recent operations (Source: @UkraineNow/81890).",
+        "Russian UAV attacks in Krasnodar region killed one and injured three, demonstrating cross‑border strike capability (Source: @tass_agency/380473).",
+        "Ukrainian attacks in Bryansk region caused one death and two injuries, indicating UAV use against Russian territory (Source: @tass_agency/380440).",
+        "Shahed drone swarms targeted Korosten (3) and Odesa/Chornomorsk (10), reflecting missile‑drone hybrid tactics (Source: @mon1tor_ua/67587).",
+        "Massive combined strike warning cited 710 UAVs, 16 Kalibr cruise missiles from Caspian Sea vessels, and 14 Kh‑101 missiles, suggesting potential large‑scale air offensive (Source: @mon1tor_ua/67575).",
+        "UAV activity reported across multiple fronts, including northern Chernihiv, southern Black Sea routes, and eastern Kherson‑Dnipropetrovsk axis, indicating a dispersed air campaign (Source: multiple).",
+        "High probability alert for Oreshnyk missile launches from Kapustin Yar underscores missile threat alongside UAVs (Source: @UkraineNow/81873)."
       ]
     },
     "key_developments": [
-      "Russian Shahed‑type UAVs launched a coordinated attack on Sumy farm and a DTEK power plant, causing five worker deaths and one plant fatality (Source: @UkraineNow/81883).",
-      "Ukrainian forces shot down or suppressed 110 hostile UAVs across multiple fronts on 12‑13 June, including Shahed, Gerbera and Iltamys models (Source: @kpszsu/64976).",
-      "A Russian missile strike hit the strategic Temryuk sea port in Krasnodar, killing one civilian and injuring three (Source: @UkraineNow/81889).",
-      "Ukrainian radar detected multiple UAV groups moving from northern Chernihiv and Kyiv regions toward central Ukraine, indicating increased surveillance activity (Source: @kpszsu/64964, @kpszsu/64948).",
-      "Russian air defense claimed to have downed 177 Ukrainian UAVs over Russian territory and Black Sea/Azov Sea areas (Source: @tass_agency/380464).",
-      "Ukrainian officials warned of a high probability of a ballistic missile launch from the Kapustin Yar test site within 24 hours (Source: @UkraineNow/81873).",
-      "Ukrainian Ministry of Defense announced upcoming reforms to service terms and pay increases for military personnel (Source: @UkraineNow/81872)."
+      "Russia launched 12 KABs on Vasylkivka, Dnipropetrovsk, injuring nine civilians and damaging market infrastructure (Source: @UkraineNow/81890).",
+      "Ukrainian UAVs operated from the Black Sea toward Odesa, intensifying southern pressure (Source: @kpszsu/64955).",
+      "New Russian UAV launch sites near the Belarus border sent flights toward northern Kyiv region (Source: @kpszsu/64948).",
+      "Ukrainian air defenses reported downing 110 of 118 attack drones, indicating high interception capability (Source: @UkraineNow/81890).",
+      "Shahed drone attacks struck Korosten (3) and Odesa/Chornomorsk (10), showing increased missile‑drone use (Source: @mon1tor_ua/67587).",
+      "Ukrainian UAV strike on Sumy caused six injuries and a building fire, highlighting northern civilian impact (Source: @UkraineNow/81866).",
+      "Massive strike warning cited 710 UAVs, 16 Kalibr missiles, and 14 Kh‑101 missiles, suggesting potential large‑scale offensive (Source: @mon1tor_ua/67575)."
     ],
-    "threat_assessment": "Ukrainian forces face a sustained UAV threat, with Russian Shahed and other drone types conducting mass attacks that have caused civilian and infrastructure casualties. The reported possibility of a medium‑range ballistic missile launch from Kapustin Yar adds a new layer of risk, potentially targeting critical rear areas. Russian strikes on strategic assets such as the Temryuk port demonstrate continued capability to project power beyond the front lines, while Ukrainian air defenses show resilience but are strained by the volume of attacks.",
-    "regional_response": "Northern Ukrainian regions are intensifying air surveillance as UAVs approach from the Belarus border, prompting heightened alert levels. Eastern command centers are focusing on intercepting guided bomb deliveries and mitigating UAV incursions toward key logistics hubs. Southern authorities are reinforcing coastal defenses after the Temryuk port strike, while also preparing for possible missile threats from Kapustin Yar.",
-    "intelligence_notes": "UAV flight paths suggest coordinated launch points in Russian‑occupied territories, including Donetsk, Crimea and southern Russian regions, indicating a broad launch network. The high number of intercepted drones points to an increased production or supply line for Shahed‑type UAVs. Russian statements about missile readiness at Kapustin Yar may be a signaling effort to pressure Ukrainian defensive postures ahead of upcoming diplomatic negotiations."
+    "threat_assessment": "Ukrainian forces are expanding UAV operations across all fronts, with notable activity from the Black Sea toward Odesa and from northern Chernihiv toward Kyiv, increasing pressure on Russian defensive lines. Russia continues to employ KABs and UAVs against Ukrainian civilian and infrastructure targets, as seen in Vasylkivka and Kherson, while also threatening ballistic missile use from the south. The high interception rate claimed by Ukrainian air defenses suggests effective, though possibly overstated, defensive capability, but the reported large‑scale strike plans indicate a risk of escalation.",
+    "regional_response": "EU engagement on Ukraine's accession and internal policy changes dominate diplomatic discourse, while frontline actors focus on counter‑UAV measures and civilian protection. Russian statements about new launch sites and missile threats aim to deter Ukrainian advances, yet civilian casualties in Dnipropetrovsk and Sumy may fuel further international support for Ukraine's defensive efforts. Neighboring states monitor the increased UAV traffic near borders, especially Belarus, raising concerns about spillover.",
+    "intelligence_notes": "Continuous monitoring of UAV flight paths from the Black Sea and Belarus border is essential to anticipate target selection and allocate air defense assets. The reported mass strike capability involving hundreds of drones and cruise missiles warrants heightened alert status and readiness of integrated air defense systems. Casualty reports from civilian areas underscore the need for improved early warning and shelter protocols in vulnerable regions."
   },
   "missiles": 0,
   "drones": 118,
   "kpszsu_timeline": [
-    2,
-    2,
     1,
     0,
     1,
@@ -343,15 +352,17 @@
     1,
     1,
     1,
-    1,
     2,
+    1,
     2,
     0,
     1,
     4,
+    1,
     2,
+    0,
     1,
-    1,
-    2
+    2,
+    4
   ]
 }
