@@ -512,6 +512,7 @@ function buildSectionBlock(def, sectionsData, index) {
       <svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
         <polyline points="9 18 15 12 9 6"/>
       </svg>
+      <span class="section-read-time">—</span>
     </div>
     ${geoBarHtml}
     <div class="section-body"></div>
@@ -570,6 +571,8 @@ function buildSectionBlock(def, sectionsData, index) {
       }</div>`;
     }
   }
+
+  addReadingTime(block, body.innerText || body.textContent || "");
 
   // Toggle open/close on header click
   const header = block.querySelector(".section-header");
