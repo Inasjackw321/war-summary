@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-13T14:19:27.265371+00:00",
-  "message_count": 205,
+  "updated_at": "2026-06-13T16:26:16.847590+00:00",
+  "message_count": 207,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,10 +13,8 @@
   ],
   "red_alerts": 118,
   "red_alerts_timeline": [
-    20,
-    0,
-    0,
     10,
+    0,
     0,
     10,
     30,
@@ -35,61 +33,116 @@
     10,
     0,
     0,
+    20,
+    0,
     10,
     10
   ],
   "combined_activity_timeline": [
-    13,
+    9,
     10,
-    6,
-    11,
-    14,
+    12,
+    7,
     7,
     6,
-    7,
-    4,
-    4,
-    2,
-    7,
-    4,
-    6,
-    8,
     5,
-    10,
+    3,
+    2,
+    8,
+    4,
     6,
-    16,
-    13,
-    14,
     7,
+    6,
+    9,
+    8,
+    16,
+    12,
+    13,
     10,
+    10,
+    12,
+    11,
     14
   ],
   "messages_by_channel": {
-    "@eRadarrua": 33,
-    "@kpszsu": 44,
-    "@mon1tor_ua": 10,
-    "@UkraineNow": 18,
+    "@eRadarrua": 34,
+    "@kpszsu": 50,
+    "@mon1tor_ua": 9,
+    "@UkraineNow": 19,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 13,
-    "@tass_agency": 85
+    "@tass_agency": 80
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96410",
-    "kpszsu": "https://t.me/kpszsu/65031",
+    "eRadarrua": "https://t.me/eRadarrua/96420",
+    "kpszsu": "https://t.me/kpszsu/65043",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67589",
-    "UkraineNow": "https://t.me/UkraineNow/81896",
+    "UkraineNow": "https://t.me/UkraineNow/81903",
     "DeepStateUA": "https://t.me/DeepStateUA/23577",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30879",
-    "tass_agency": "https://t.me/tass_agency/380515"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30881",
+    "tass_agency": "https://t.me/tass_agency/380526"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/380480",
-    "UkraineNow": "https://t.me/UkraineNow/81893",
+    "tass_agency": "https://t.me/tass_agency/380515",
+    "UkraineNow": "https://t.me/UkraineNow/81890",
     "eRadarrua": "https://t.me/eRadarrua/96377",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30867",
-    "kpszsu": "https://t.me/kpszsu/64972"
+    "kpszsu": "https://t.me/kpszsu/65012",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67581",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30875"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/380526",
+      "post_id": 380526,
+      "channel": "tass_agency",
+      "ts": "2026-06-13T16:19:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96418",
+      "post_id": 96418,
+      "channel": "eRadarrua",
+      "ts": "2026-06-13T15:58:55+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/FvLFgLQ52LY13IStmPGJ-yrfOWNSc6MKpGYhsaygr65hbgESmWBgg8xosjR_o8ziRkmUEPXKPEHrfzRhZxDCx0P8mTmgdzWd6Rswio5xCKg68ijX2x0SzOh84Oz0pdv3xfb4jP9MNEa2hyJStkiz--RQF_Sz03nOafbh0m7JLSTT2jbTafWA9B4p0-rccYRpW9qqys6x4l1zTe5nhEiet7FefuMAzJT2Sp7HpexaE7KYnRDKCLLTe4JhPxxhrAXFjGAbsaAz700h4Si2XacxD2Dctx66feFUpcDj0nlnZLH4TKti4mCOPoBYj7kXPUjMDNSFWyHoZwSGGQm4EcE-PQ.jpg",
+      "companion_text_id": 96417
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380524",
+      "post_id": 380524,
+      "channel": "tass_agency",
+      "ts": "2026-06-13T15:55:38+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81898",
+      "post_id": 81898,
+      "channel": "UkraineNow",
+      "ts": "2026-06-13T15:32:12+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380520",
+      "post_id": 380520,
+      "channel": "tass_agency",
+      "ts": "2026-06-13T15:02:23+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/81897",
+      "post_id": 81897,
+      "channel": "UkraineNow",
+      "ts": "2026-06-13T14:44:31+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380517",
+      "post_id": 380517,
+      "channel": "tass_agency",
+      "ts": "2026-06-13T14:29:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96412",
+      "post_id": 96412,
+      "channel": "eRadarrua",
+      "ts": "2026-06-13T14:22:02+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/d7FhtB5LhV5us7wJ1WgxEIOzT2ONX0sKCQ6uAL8TBthLZ9JBKtJDsUITA8jdKkcnBUKbZx0QPHDtdishVWY0tJiSjxovN6QxYnwiPqJAVwcMsTeAERPXR4nj8PH_USpQRI0nNdRYEzVoY6Gt-tqZYP2EeT9Y1ikFHg1L6jjT7whX96e-wX6G3iuxNP4ebMzarNKUeL4TqJSusIcQwrRHfTMKtRdK-1xiW_sLPysYptLDCgdJTmd5jzzeYO_j74Y7FnmjaTD061-0NZsEovZ-OmBZ3_WJaEkS1oaPg0R3e3heNgLzblVzqxxV0HLXK3fcjeiiePIDH_W0zqI4DNie5g.jpg",
+      "companion_text_id": 96413
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/30879",
       "post_id": 30879,
@@ -163,180 +216,123 @@
       "post_id": 380491,
       "channel": "tass_agency",
       "ts": "2026-06-13T11:10:09+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380486",
-      "post_id": 380486,
-      "channel": "tass_agency",
-      "ts": "2026-06-13T10:40:08+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96385",
-      "post_id": 96385,
-      "channel": "eRadarrua",
-      "ts": "2026-06-13T10:34:49+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/IC31UVC9fZASzNOShyHe-J7r8wPeeepYBi33EN8lOPPPkU0lSJB3X9k-evNs-DgFG5RhaP1Jz7OOTVWeki12LrliFSamBIJjdSVn_Vq38aoySZItof1c-urqLsQ3-MiH_u8auhL4UBEIAB6DOx5gcVc9ah43z47JNo0sXOITZb14LaVdAK98qMv53Ld5GZvzvqh2idCxNkTSZreL6xOS929yShULCWiOlho2UHLkXwGzTIzG6S6KnlcToX8ecN8anpD1dO2vgv0ObYy5omT7ubMO9BzzbWrac-EnZcT3zhdQyC6oEuY8L8s82_cWS8P1q8pHhmMkNDEy0gnBSvXB4A.jpg",
-      "companion_text_id": 96383
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/81894",
-      "post_id": 81894,
-      "channel": "UkraineNow",
-      "ts": "2026-06-13T10:24:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380484",
-      "post_id": 380484,
-      "channel": "tass_agency",
-      "ts": "2026-06-13T10:08:56+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30874",
-      "post_id": 30874,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-13T10:06:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380483",
-      "post_id": 380483,
-      "channel": "tass_agency",
-      "ts": "2026-06-13T09:50:56+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380481",
-      "post_id": 380481,
-      "channel": "tass_agency",
-      "ts": "2026-06-13T09:23:55+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96381",
-      "post_id": 96381,
-      "channel": "eRadarrua",
-      "ts": "2026-06-13T09:06:04+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/g916HbtOWYB70jVBLrpygd0NEM30TWyuLaP75WiQ7lGs3RiBhQ9XkYGfUoTxROyBNypD0ExDb3gQ2jP4nTFBvLOSzakCQAwF4IouU9LOyunPgNu0vtrkDG3qz9CTrqmmViAkrW7yqedtwrrPFa_7csWn7t6LqZ00ozvY6QTu7mA3q6Eo4ERDS8ZO95vGYApc8mV4QlCexsBVMJixvPxApyXNu2Jw3MKb5_jkMXZMKGRLZDcIUhTJGKElfp0qHKKc4i2zk_Yf4DxBMu6WJ6_VioWWXxxVIHhnvtRSK5wkdN6qQJfe3mqgqPuMPrrdD4VzmHncgRf7hzgJFti_tBJ5uQ.jpg",
-      "companion_text_id": 96383
     }
   ],
   "post_images": {
     "eRadarrua/96400": "data/media/eRadarrua_96400.jpg",
-    "eRadarrua/96373": "data/media/eRadarrua_96373.jpg",
-    "eRadarrua/96377": "data/media/eRadarrua_96377.jpg",
-    "eRadarrua/96376": "data/media/eRadarrua_96377.jpg",
-    "eRadarrua/96379": "data/media/eRadarrua_96379.jpg",
+    "eRadarrua/96412": "data/media/eRadarrua_96412.jpg",
+    "eRadarrua/96413": "data/media/eRadarrua_96412.jpg",
+    "eRadarrua/96418": "data/media/eRadarrua_96418.jpg",
+    "eRadarrua/96417": "data/media/eRadarrua_96418.jpg",
     "eRadarrua/96380": "data/media/eRadarrua_96380.jpg",
     "eRadarrua/96381": "data/media/eRadarrua_96381.jpg",
     "eRadarrua/96383": "data/media/eRadarrua_96381.jpg",
     "eRadarrua/96385": "data/media/eRadarrua_96385.jpg",
     "eRadarrua/96389": "data/media/eRadarrua_96389.jpg",
-    "eRadarrua/96357": "data/media/eRadarrua_96357.jpg",
-    "eRadarrua/96356": "data/media/eRadarrua_96357.jpg",
     "eRadarrua/96366": "data/media/eRadarrua_96366.jpg",
     "eRadarrua/96367": "data/media/eRadarrua_96366.jpg",
-    "eRadarrua/96328": "data/media/eRadarrua_96328.jpg",
-    "eRadarrua/96326": "data/media/eRadarrua_96328.jpg",
-    "eRadarrua/96338": "data/media/eRadarrua_96338.jpg",
+    "eRadarrua/96373": "data/media/eRadarrua_96373.jpg",
+    "eRadarrua/96377": "data/media/eRadarrua_96377.jpg",
+    "eRadarrua/96376": "data/media/eRadarrua_96377.jpg",
+    "eRadarrua/96379": "data/media/eRadarrua_96379.jpg",
     "eRadarrua/96345": "data/media/eRadarrua_96345.jpg",
     "eRadarrua/96344": "data/media/eRadarrua_96345.jpg",
-    "eRadarrua/96319": "data/media/eRadarrua_96319.jpg",
-    "eRadarrua/96318": "data/media/eRadarrua_96319.jpg",
-    "eRadarrua/96320": "data/media/eRadarrua_96320.jpg",
-    "eRadarrua/96321": "data/media/eRadarrua_96320.jpg",
+    "eRadarrua/96357": "data/media/eRadarrua_96357.jpg",
+    "eRadarrua/96356": "data/media/eRadarrua_96357.jpg",
+    "eRadarrua/96321": "data/media/eRadarrua_96321.jpg",
+    "eRadarrua/96327": "data/media/eRadarrua_96327.jpg",
+    "eRadarrua/96326": "data/media/eRadarrua_96327.jpg",
     "kpszsu/64976": "data/media/kpszsu_64976.jpg",
     "kpszsu/64974": "data/media/kpszsu_64976.jpg"
   },
-  "summary": "Russian forces reported liberating 172 buildings in Konstantinovka and killing up to 40 Ukrainian soldiers, while Ukrainian units destroyed six Russian UAV launch points in Pokrovsk. Ukraine struck a Russian oil‑processing facility in Kotovo, Volgograd region, causing a fire, and Russian KAB attacks hit civilian infrastructure in Vasylkivka, Dnipropetrovsk region, injuring nine. Both sides continue intensive UAV activity across multiple fronts, with numerous sightings and interceptions reported.",
+  "summary": "Swedish fighters intercepted Russian Su-24 and Su-34 bombers over the Baltic Sea. Russian tactical aviation launched multiple KAB attacks on Vasylkivka, causing civilian injuries and market fires. Ukrainian drones struck infrastructure in occupied Crimea and Krasnodar, prompting Russian authorities to report 177 intercepted drones and damage to the Chongar bridge.",
   "key_points": [
-    "Russia claims to have liberated 172 buildings in Konstantinovka and eliminated up to 40 Ukrainian soldiers in a 24‑hour period (Source: @tass_agency/380480).",
-    "Ukrainian forces reported destroying six Russian UAV launch points in Pokrovsk (Source: @UkraineNow/81893).",
-    "A Russian oil‑processing plant near Kotovo in Volgograd region was hit, fire confirmed (Source: @UkraineNow/81894).",
-    "Russian KAB attacks in Vasylkivka, Dnipropetrovsk region injured nine civilians, damaged a market, shops and a multi‑apartment building (Source: @UkraineNow/81890).",
-    "Russian air defence shot down 15 guided bombs and 540 UAVs of Ukrainian origin in one day (Source: @tass_agency/380480).",
-    "Ukrainian drones attacked infrastructure in occupied Crimea and Krasnodar, Russian authorities say 177 drones were intercepted and fires sparked at Temryuk terminal (Source: @eRadarrua/96377).",
-    "Russian pilots used FAB‑3000 bombs to destroy temporary Ukrainian dislocation points in the Donetsk People’s Republic (Source: @ukr_leaks_eng/30867).",
-    "Multiple UAV sightings reported in Chernihiv, Dnipropetrovsk, Poltava and other regions, indicating ongoing low‑altitude activity (Source: @eRadarrua/96351)."
+    "Swedish fighter jets intercepted Russian Su-24 and Su-34 bombers over the Baltic Sea (Source: @tass_agency/380515).",
+    "Ukrainian forces attacked a central market in Svatove, LNR, wounding seven civilians (Source: @tass_agency/380520).",
+    "Russia launched 12 KABs on Vasylkivka, Dnipropetrovsk region, injuring nine people and igniting a market fire (Source: @UkraineNow/81890).",
+    "Ukrainian drones targeted infrastructure in occupied Crimea and Krasnodar, with Russian officials reporting 177 intercepted drones and fires at the Temryuk sea terminal (Source: @eRadarrua/96377).",
+    "A bridge at Chongar connecting occupied Crimea and Kherson was damaged, halting traffic through the Janukay checkpoint (Source: @eRadarrua/96377).",
+    "Multiple hostile UAVs were reported across Ukrainian regions, including Chernihiv, Dnipropetrovsk, Kharkiv, and Kherson (Source: @kpszsu/65012, @kpszsu/65007, @kpszsu/65036, @kpszsu/65011).",
+    "Threat of Iskander-M ballistic missile launches from occupied Crimea was highlighted by monitoring channels (Source: @mon1tor_ua/67581).",
+    "Ukraine imposed sanctions on ten Russian mobile operators and related internet providers operating in occupied territories (Source: @UkraineNow/81895)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russian forces announced the liberation of 172 buildings in Konstantinovka and the loss of up to 40 Ukrainian soldiers, while Ukrainian troops eliminated six Russian UAV launch sites in Pokrovsk. Ukraine struck a Russian oil‑processing facility in Kotovo, Volgograd region, igniting a fire, and Russian KAB attacks in Vasylkivka caused civilian casualties and infrastructure damage. Both sides continue intense UAV operations across several fronts, with numerous interceptions and sightings reported.",
+    "executive_summary": "Swedish fighters intercepted Russian Su-24 and Su-34 bombers over the Baltic Sea, indicating heightened NATO‑Russia aerial tension. Russian tactical aviation conducted a series of KAB strikes on Vasylkivka, causing civilian casualties and infrastructure damage. Ukrainian drone operations continued deep into occupied Crimea and Krasnodar, prompting Russian reports of massive interceptions and critical bridge damage at Chongar.",
     "ukraine": {
       "points": [
-        "Ukrainian units destroyed six Russian UAV launch points in Pokrovsk, targeting sites near a café, a children’s goods store and other civilian buildings (Source: @UkraineNow/81893).",
-        "Ukrainian forces reported a Leopard‑2 tank loss in the combat zone, according to Russian defence ministry data (Source: @tass_agency/380480).",
-        "Ukrainian drones attacked infrastructure in occupied Crimea and Krasnodar, with Russian officials claiming 177 drones intercepted and fires at the Temryuk sea terminal (Source: @eRadarrua/96377).",
-        "Ukrainian UAV activity was observed over Chernihiv (multiple points moving south‑west), Dnipropetrovsk (near Kamianke and Apostolove) and Poltava (towards V. Baghachka) (Source: @eRadarrua/96351).",
-        "Ukrainian pilots reportedly used FAB‑3000 bombs to strike temporary dislocation points in the Donetsk People’s Republic (Source: @ukr_leaks_eng/30867)."
+        "Ukrainian forces attacked the central market in Svatove, LNR, wounding seven civilians, according to local authorities (Source: @tass_agency/380520).",
+        "Ukrainian drones struck infrastructure in occupied Crimea and Russia's Krasnodar region, with Russian officials reporting 177 intercepted drones and fires at the Temryuk sea terminal (Source: @eRadarrua/96377).",
+        "Ukrainian UAV activity was reported in Chernihiv (south of Slavutych, heading south‑southeast), Dnipropetrovsk (near Bozhedarivka/Kamianke), and Kharkiv (north‑east of Kharkiv, heading south‑southeast) (Source: @kpszsu/65009, @kpszsu/65017, @kpszsu/65036).",
+        "Ukrainian drones were observed over Kherson region moving toward Velyka Oleksandrivka and Beryslav, with air defence assets engaged (Source: @kpszsu/65007).",
+        "In the Dnipropetrovsk region, a UAV was sighted near Marhanets after passing through Nikopol district (Source: @kpszsu/65017)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces claimed liberation of 172 buildings in Konstantinovka and the elimination of up to 40 Ukrainian soldiers within 24 hours (Source: @tass_agency/380480).",
-        "Russian air defence reported shooting down 15 guided aerial bombs and 540 Ukrainian UAVs of airplane type in a single day (Source: @tass_agency/380480).",
-        "Russian KAB attacks in Vasylkivka, Dnipropetrovsk region injured nine civilians, set fire to a local market and damaged eight shops, ten stalls and a multi‑storey residential building (Source: @UkraineNow/81890).",
-        "Russian authorities reported the destruction of a Ukrainian temporary dislocation point using FAB‑3000 bombs in the Donetsk People’s Republic (Source: @ukr_leaks_eng/30867).",
-        "Russian officials announced the creation of at least five new launch sites for strike drones near the Belarusian border (Source: @UkraineNow/81886)."
+        "Russian tactical aviation launched 12 KABs on Vasylkivka, Dnipropetrovsk region, injuring nine civilians, igniting a market fire, and damaging multiple shops and a residential building (Source: @UkraineNow/81890).",
+        "Russian forces reported the destruction of a railway bridge at Chongar, a key link between occupied Crimea and Kherson, halting traffic through the Janukay checkpoint (Source: @eRadarrua/96377).",
+        "Russian authorities claimed interception of 177 Ukrainian drones across several regions, including Crimea and Krasnodar, after fires were reported at the Temryuk sea terminal (Source: @eRadarrua/96377).",
+        "Russia announced a strategic advantage in the Special Military Operation, stating its forces are advancing on all fronts (Source: @tass_agency/380492).",
+        "Russian officials warned of potential Iskander‑M ballistic missile launches from occupied Crimea (Source: @mon1tor_ua/67581)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAV sightings reported over Chernihiv region moving south‑west toward Kyiv, and a group heading east along the border with Belarus toward Kyiv (Source: @kpszsu/64972).",
-        "Russian claims of heavy casualties among Ukrainian troops in the eastern zone, with approximately 1,440 Ukrainian soldiers lost across all groupings (Source: @tass_agency/380480).",
-        "Ukrainian drones attacked infrastructure in occupied Crimea and Krasnodar, with fires reported at the Temryuk terminal and damage to the Chongar bridge linking Crimea and occupied Kherson (Source: @eRadarrua/96377).",
-        "Ukrainian UAV activity observed near Kamianke in Dnipropetrovsk region, indicating pressure on supply routes (Source: @eRadarrua/96351).",
-        "Russian air defence intercepted a large number of Ukrainian UAVs, suggesting intensified aerial contest over the eastern front (Source: @tass_agency/380480)."
+        "Ukrainian UAVs were reported south of Zaporizhzhia moving northward, and in Donetsk region near Marhanets, indicating continued aerial activity on the eastern axis (Source: @kpszsu/65011).",
+        "Russian tactical aviation activity was noted on the south‑east and south directions targeting Dnipropetrovsk and Zaporizhzhia oblasts (Source: @kpszsu/65025).",
+        "Ukrainian drones attacked a training ground in Zaporizhzhia, targeting Russian personnel, air defence systems, and a missile launcher (Source: @UkraineNow/81891).",
+        "Ukrainian UAVs were observed over the Donetsk People's Republic, with Russian pilots reportedly destroying temporary dislocation points using FAB‑3000 bombs (Source: @ukr_leaks_eng/30875)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs reported over Chernihiv region along the Dnipro River heading toward Dobryanka (Source: @kpszsu/65015).",
-        "Russian pilots used FAB‑3000 bombs against Ukrainian temporary points in the Donetsk People’s Republic, affecting northern sector operations (Source: @ukr_leaks_eng/30867).",
-        "Ukrainian UAV sightings in Chernihiv include four units over Lyubech/Slavutych and one over Snovsk (Source: @eRadarrua/96351).",
-        "Russian air defence claimed downing 540 UAVs of airplane type, many likely operating from the north (Source: @tass_agency/380480).",
-        "Ukrainian UAVs observed moving from Chernihiv toward Kyiv direction, potentially targeting logistics hubs (Source: @kpszsu/65010)."
+        "Multiple hostile UAVs were reported in Chernihiv region, including near Korivka, Slavutych, and north of Slavutych heading south‑southeast (Source: @kpszsu/65009, @eRadarrua/96415).",
+        "Ukrainian UAV activity was noted north‑east of Kharkiv, moving south‑southeast, suggesting pressure on the northern front (Source: @kpszsu/65036).",
+        "A UAV was sighted north of Chernihiv heading toward Slavutych (Source: @kpszsu/65009).",
+        "Ukrainian reconnaissance reported UAVs over Sumy region near Putivl and Buryny, indicating northern operational reach (Source: @kpszsu/65042, @kpszsu/65043)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian KAB attacks in Vasylkivka, Dnipropetrovsk region caused civilian injuries and damage to market infrastructure (Source: @UkraineNow/81890).",
-        "Ukrainian UAV sightings reported over Mykolaiv region heading north, and over Dnipropetrovsk toward Marhanets (Source: @kpszsu/65017).",
-        "Ukrainian drones attacked a critical infrastructure object in Zaporizhzhia, resulting in one fatality (Source: @UkraineNow/81890).",
-        "Ukrainian UAV activity noted over the Black Sea heading toward Chornomorsk and further toward Tatarbunary (Source: @eRadarrua/96356).",
-        "Russian air defence reported intercepting 110 of 118 strike drones targeting southern regions (Source: @UkraineNow/81890)."
+        "Ukrainian drones were observed in Kherson region moving toward Velyka Oleksandrivka and Beryslav (Source: @kpszsu/65007).",
+        "Russian KAB attacks were reported over Vasylkivka, Dnipropetrovsk, causing civilian injuries and market fires (Source: @UkraineNow/81890).",
+        "Ukrainian UAVs were sighted south of Mykolaiv region heading north, indicating activity along the southern axis (Source: @kpszsu/65011).",
+        "Ukrainian forces reported strikes on bridges linking Crimea with the mainland, notably the Chongar bridge (Source: @eRadarrua/96377)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air defence shot down 15 guided aerial bombs and 540 Ukrainian UAVs of airplane type in a single day (Source: @tass_agency/380480).",
-        "Ukrainian drones conducted attacks on occupied Crimea and Krasnodar, with Russian reports of 177 drones intercepted and fires at the Temryuk sea terminal (Source: @eRadarrua/96377).",
-        "Ukrainian UAV sightings across multiple regions (Chernihiv, Dnipropetrovsk, Poltava) indicate sustained low‑altitude operations (Source: @eRadarrua/96351).",
-        "Russian KAB launches in Vasylkivka, Dnipropetrovsk region resulted in civilian casualties and infrastructure damage (Source: @UkraineNow/81890).",
-        "Ukrainian forces reported destroying six Russian UAV launch points in Pokrovsk, reducing enemy strike capability (Source: @UkraineNow/81893)."
+        "Swedish fighter jets intercepted Russian Su‑24 and Su‑34 bombers over the Baltic Sea, demonstrating NATO air engagement with Russian assets (Source: @tass_agency/380515).",
+        "Russian tactical aviation launched multiple KAB attacks on Vasylkivka, Dnipropetrovsk, with Ukrainian air defence reporting 110 of 118 attacking drones neutralised (Source: @UkraineNow/81890).",
+        "Ukrainian drones conducted deep strikes in occupied Crimea and Krasnodar, prompting Russian reports of 177 interceptions and fires at the Temryuk terminal (Source: @eRadarrua/96377).",
+        "Ukrainian UAVs were observed over multiple front‑line regions, including Chernihiv, Kharkiv, and Kherson, indicating widespread aerial reconnaissance and strike activity (Source: @kpszsu/65012, @kpszsu/65036, @kpszsu/65007).",
+        "Russian forces claimed strategic air superiority and continued advances across all directions (Source: @tass_agency/380492)."
       ]
     },
     "key_developments": [
-      "Russian forces claim liberation of 172 buildings in Konstantinovka and the killing of up to 40 Ukrainian soldiers, indicating a localized offensive gain (Source: @tass_agency/380480).",
-      "Ukrainian troops destroyed six Russian UAV launch sites in Pokrovsk, degrading enemy aerial strike capacity (Source: @UkraineNow/81893).",
-      "A fire erupted at a Russian oil‑processing facility near Kotovo, Volgograd region after Ukrainian strike, affecting fuel logistics (Source: @UkraineNow/81894).",
-      "Russian KAB attacks in Vasylkivka, Dnipropetrovsk region injured nine civilians and damaged market infrastructure, showing continued targeting of civilian areas (Source: @UkraineNow/81890).",
-      "Russian air defence reported downing 15 guided bombs and 540 UAVs, reflecting intense aerial contest (Source: @tass_agency/380480).",
-      "Ukrainian drones attacked infrastructure in occupied Crimea and Krasnodar; Russian authorities say 177 drones were intercepted and fires started at Temryuk terminal (Source: @eRadarrua/96377).",
-      "Russian pilots employed FAB‑3000 bombs to destroy Ukrainian temporary dislocation points in the Donetsk People’s Republic (Source: @ukr_leaks_eng/30867)."
+      "Swedish fighters intercepted Russian Su‑24 and Su‑34 bombers over the Baltic Sea, highlighting NATO‑Russia aerial tension. (Source: @tass_agency/380515)",
+      "Russian tactical aviation launched 12 KABs on Vasylkivka, injuring nine civilians and igniting a market fire. (Source: @UkraineNow/81890)",
+      "Ukrainian drones struck infrastructure in occupied Crimea and Krasnodar; Russian officials reported 177 intercepted drones and fires at Temryuk sea terminal. (Source: @eRadarrua/96377)",
+      "A bridge at Chongar linking occupied Crimea and Kherson was damaged, halting traffic through the Janukay checkpoint. (Source: @eRadarrua/96377)",
+      "Multiple hostile UAVs were reported across Ukrainian regions, including Chernihiv, Kharkiv, Dnipropetrovsk, and Kherson, indicating sustained aerial pressure. (Source: @kpszsu/65012, @kpszsu/65036, @kpszsu/65007)",
+      "Threat of Iskander‑M ballistic missile launches from occupied Crimea was flagged by monitoring channels. (Source: @mon1tor_ua/67581)",
+      "Ukraine imposed sanctions on ten Russian mobile operators and related internet providers operating in occupied territories. (Source: @UkraineNow/81895)"
     ],
-    "threat_assessment": "Both sides are intensifying UAV operations, with Russia deploying large numbers of KABs and claiming high interception rates, while Ukraine continues to target logistical nodes, including oil processing facilities and enemy UAV launch sites. The reported loss of a Leopard‑2 tank and significant Ukrainian casualties suggest sustained attrition on the ground. Russian air defence successes may limit Ukrainian strike depth, but continued attacks on civilian infrastructure raise the risk of broader destabilisation.",
-    "regional_response": "Local authorities in the affected Dnipropetrovsk districts have reported civilian injuries and property damage, prompting emergency response measures. Russian statements about new drone launch sites near the Belarusian border indicate a strategic shift to increase strike capacity from the north. Ukrainian leadership has called for heightened public vigilance regarding air alerts, reflecting concern over the expanding aerial threat.",
-    "intelligence_notes": "Monitoring of UAV flight paths shows a pattern of south‑west movement from Chernihiv toward Kyiv and eastward trajectories from Dnipropetrovsk, suggesting coordinated targeting of supply corridors. The use of FAB‑3000 bombs by Russian pilots marks an escalation in munition types against Ukrainian command and control nodes. Interception data points to a high volume of Ukrainian aerial assets, necessitating continued SIGINT focus on drone launch and control sites."
+    "threat_assessment": "Russian aerial assets continue to operate near Ukraine's borders, as evidenced by the interception of Su‑24 and Su‑34 bombers by Swedish fighters. Ukraine's expanding UAV campaign reaches deep into occupied Crimea and Russian territory, prompting Russian claims of massive interceptions but also causing infrastructure damage such as the Chongar bridge. The reported threat of Iskander‑M missile launches from Crimea adds a strategic ballistic dimension, while Russian KAB strikes on civilian targets in the south increase the risk of escalation and civilian casualties.",
+    "regional_response": "Ukrainian forces are intensifying drone operations across the northern, eastern, and southern fronts, targeting logistics hubs and command points. Russian air defence reports high interception rates, yet continued KAB attacks on civilian infrastructure suggest a willingness to employ indiscriminate tactics. NATO's involvement, illustrated by Swedish fighter interceptions, indicates broader regional vigilance and potential for coordinated air defence support.",
+    "intelligence_notes": "Monitoring channels consistently report UAV movements, providing granular data on flight paths and target areas, useful for predictive modelling of future strike zones. The high number of intercepted drones reported by Russian authorities may be inflated; independent verification is needed. Sanctions on Russian telecom operators could degrade Russian command‑and‑control communications in occupied zones, potentially affecting coordination of missile and drone attacks."
   },
   "missiles": 0,
   "drones": 118,
   "kpszsu_timeline": [
-    0,
+    1,
     1,
     0,
+    1,
     2,
-    0,
     1,
-    0,
-    3,
     3,
     0,
     0,
@@ -346,12 +342,14 @@
     1,
     1,
     2,
-    3,
+    4,
     5,
-    6,
+    5,
     3,
-    1,
     2,
+    2,
+    2,
+    4,
     3
   ]
 }
