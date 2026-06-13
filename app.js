@@ -760,6 +760,7 @@ function populatePanel(prefix, data) {
   }
 
   buildSectionsNav(sp, defs);
+  initNavScrollTracker(prefix);
   setTimeout(() => initScrollSpy(prefix), 200);
   initSectionControls(sp);
   initSectionFilter(sp);
@@ -823,7 +824,7 @@ function animateValue(id, from, to, duration) {
 }
 
 // ── Refresh toast ─────────────────────────────────────────────────────────────
-function showToast(msg) {
+function showRefreshToast(msg) {
   let el = document.querySelector(".refresh-toast");
   if (!el) { el = document.createElement("div"); el.className = "refresh-toast"; el.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <span></span>`; document.body.appendChild(el); }
   el.querySelector("span").textContent = msg;
@@ -986,7 +987,7 @@ async function checkForRefresh() {
     if (meChanged) _animateNewItems("me", prevMe);
     if (uaChanged) _animateNewItems("ua", prevUa);
 
-    showToast("Data refreshed");
+    showRefreshToast("Data refreshed");
     return true;
   } catch (e) { console.warn("Auto-refresh check failed:", e); return false; }
 }
@@ -1290,7 +1291,7 @@ async function loadDailyPaper() {
     }
 
     const headline = document.getElementById("dpHeadline");
-    if (headline) headline.textContent = p.headline || "";
+    if (headline) typewriterEffect(headline, p.headline || "", 18);
 
     const sub = document.getElementById("dpSubheadline");
     if (sub) sub.textContent = p.subheadline || "";
@@ -1322,6 +1323,13 @@ async function loadDailyPaper() {
         <div class="dp-analysis-label">Intelligence Analysis</div>
         <div class="dp-analysis-title">${analysisSec.title || "Assessment"}</div>
         <div class="dp-analysis-body">${analysisSec.body || ""}</div>`;
+    }
+
+    // Add read time to masthead right
+    const mastRight = document.querySelector(".dp-masthead-right");
+    if (mastRight) {
+      const mins = dpReadingTime(p);
+      mastRight.innerHTML = `warsummary.live<span class="dp-read-time"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>${mins} min read</span>`;
     }
 
     // Reveal the Daily Paper tab now that we have content
@@ -1370,4 +1378,151 @@ function initDailyPaperDownload() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => { init(); initFooterPopups(); loadDailyPaper(); });
+// ── Toast system ──────────────────────────────────────────────────────────────
+function showToast(html, duration = 2200) {
+  const root = document.getElementById("toastRoot");
+  if (!root) return;
+  const t = document.createElement("div");
+  t.className = "toast";
+  t.innerHTML = html;
+  root.appendChild(t);
+  const kill = () => {
+    t.classList.add("dying");
+    setTimeout(() => t.remove(), 280);
+  };
+  setTimeout(kill, duration);
+}
+
+// ── Keyboard shortcuts ────────────────────────────────────────────────────────
+function initKeyboardShortcuts() {
+  const tabs = ["middle_east", "ukraine", "daily_paper"];
+  const tabKeys = { "1": "middle_east", "2": "ukraine", "3": "daily_paper" };
+  const SHORTCUT_LABELS = [
+    ["1", "Middle-East War"],
+    ["2", "Ukraine–Russia War"],
+    ["3", "The Daily Paper"],
+    ["e", "Expand all sections"],
+    ["c", "Collapse all sections"],
+    ["f", "Toggle focus mode"],
+    ["/", "Search sections"],
+    ["?", "This help panel"],
+    ["Esc", "Close / go back"],
+  ];
+
+  function showKbdOverlay() {
+    const old = document.querySelector(".kbd-overlay");
+    if (old) { old.remove(); return; }
+    const el = document.createElement("div");
+    el.className = "kbd-overlay";
+    el.innerHTML = `<div class="kbd-overlay-panel">
+      <div class="kbd-overlay-title">KEYBOARD SHORTCUTS</div>
+      ${SHORTCUT_LABELS.map(([k, l]) => `<div class="kbd-row"><span>${l}</span><kbd>${k}</kbd></div>`).join("")}
+      <div class="kbd-close-row"><button>Close</button></div>
+    </div>`;
+    document.body.appendChild(el);
+    el.addEventListener("click", e => { if (e.target === el || e.target.closest("button")) el.remove(); });
+    document.addEventListener("keydown", function h(e) {
+      if (e.key === "Escape" || e.key === "?") { el.remove(); document.removeEventListener("keydown", h); }
+    }, { once: true });
+  }
+
+  document.addEventListener("keydown", e => {
+    const tag = document.activeElement?.tagName?.toLowerCase();
+    if (tag === "input" || tag === "textarea") return;
+    const k = e.key;
+    if (k === "?") { e.preventDefault(); showKbdOverlay(); return; }
+    if (tabKeys[k]) {
+      const target = tabKeys[k];
+      const btn = document.querySelector(`.tab-btn[data-tab="${target}"]`);
+      if (!btn || btn.style.display === "none") return;
+      e.preventDefault();
+      switchTab(target);
+      showToast(`Switched to <kbd>${SHORTCUT_LABELS[parseInt(k)-1][1]}</kbd>`, 1600);
+      return;
+    }
+    const prefix = activeTab === "ukraine" ? "ua" : "me";
+    if (k === "e") {
+      e.preventDefault();
+      document.querySelectorAll(`#panel-${activeTab} .section-block:not(.section-block--executive)`).forEach(b => b.classList.add("open"));
+      showToast("All sections expanded", 1400);
+    } else if (k === "c") {
+      e.preventDefault();
+      document.querySelectorAll(`#panel-${activeTab} .section-block:not(.section-block--executive)`).forEach(b => b.classList.remove("open"));
+      showToast("All sections collapsed", 1400);
+    } else if (k === "f") {
+      e.preventDefault();
+      const sc = document.querySelector(`#panel-${activeTab} .sections-content`);
+      if (sc) {
+        sc.classList.toggle("focus-mode");
+        showToast(sc.classList.contains("focus-mode") ? "Focus mode <kbd>on</kbd>" : "Focus mode <kbd>off</kbd>", 1500);
+      }
+    } else if (k === "/" ) {
+      e.preventDefault();
+      const fi = document.getElementById(`${prefix}-filter`);
+      if (fi) { fi.focus(); fi.select(); }
+    }
+  });
+
+  // Wire the header keyboard button
+  const kbdBtn = document.getElementById("kbdHintBtn");
+  if (kbdBtn) kbdBtn.addEventListener("click", showKbdOverlay);
+}
+
+// ── Section reading time ──────────────────────────────────────────────────────
+function addReadingTime(block, text) {
+  const words = (text || "").trim().split(/\s+/).length;
+  const mins = Math.max(1, Math.round(words / 220));
+  const pill = block.querySelector(".section-read-time");
+  if (pill) pill.textContent = `${mins} min`;
+}
+
+// ── Section nav scroll tracking ───────────────────────────────────────────────
+function initNavScrollTracker(prefix) {
+  const sp = prefix === "ukraine" ? "ua" : "me";
+  const nav = document.getElementById(`${sp}-sections-nav`);
+  if (!nav) return;
+  const visited = new Set();
+
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const id = entry.target.id; // e.g. "section-iran"
+      const key = id.replace("section-", "");
+      const navItem = nav.querySelector(`[data-section="${key}"]`);
+      if (!navItem) return;
+      if (entry.isIntersecting) {
+        nav.querySelectorAll(".sections-nav-item").forEach(n => n.classList.remove("active"));
+        navItem.classList.add("active");
+        visited.add(key);
+      } else if (visited.has(key)) {
+        navItem.classList.add("visited");
+      }
+    });
+  }, { rootMargin: "-20% 0px -60% 0px", threshold: 0 });
+
+  document.querySelectorAll(`#panel-${prefix} .section-block`).forEach(el => io.observe(el));
+}
+
+// ── Daily paper: reading time & typewriter headline ───────────────────────────
+function dpReadingTime(paper) {
+  const words = [paper.headline, paper.subheadline, paper.lede,
+    ...(paper.sections || []).map(s => s.body)]
+    .filter(Boolean).join(" ").split(/\s+/).length;
+  const mins = Math.max(1, Math.round(words / 220));
+  return mins;
+}
+
+function typewriterEffect(el, text, speed = 22) {
+  el.textContent = "";
+  let i = 0;
+  const tick = () => {
+    if (i < text.length) { el.textContent += text[i++]; requestAnimationFrame(() => setTimeout(tick, speed)); }
+  };
+  tick();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  init();
+  initFooterPopups();
+  loadDailyPaper();
+  initKeyboardShortcuts();
+});

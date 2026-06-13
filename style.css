@@ -1845,3 +1845,223 @@ body {
   transition: width 0.35s cubic-bezier(0.4,0,0.2,1);
 }
 .section-header:hover::after { width: 40%; }
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   UI Polish — 2nd pass
+   ══════════════════════════════════════════════════════════════════════════════ */
+
+/* ── Header refinements ── */
+.site-header { border-bottom: none; }
+.site-header::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0; height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--accent-red) 20%, var(--accent) 50%, var(--accent-pur) 80%, transparent 100%);
+  opacity: 0.35;
+}
+.kbd-hint-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 6px;
+  padding: 5px 7px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: border-color var(--transition), color var(--transition), background var(--transition);
+}
+.kbd-hint-btn:hover { border-color: var(--border2); color: var(--text2); background: rgba(255,255,255,0.04); }
+
+/* ── Stat card glow ring ── */
+.stat-card--alert::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: calc(var(--radius) + 1px);
+  background: transparent;
+  box-shadow: 0 0 0 0 rgba(229,62,91,0);
+  transition: box-shadow 0.6s ease;
+  pointer-events: none;
+}
+.stat-card--pulsing::after {
+  animation: alertGlow 2.8s ease-in-out infinite;
+}
+@keyframes alertGlow {
+  0%,100% { box-shadow: 0 0 0 0 rgba(229,62,91,0); }
+  50%      { box-shadow: 0 0 18px 2px rgba(229,62,91,0.22); }
+}
+
+/* ── Threat bar polish ── */
+.threat-level-bar { border-radius: 4px; overflow: hidden; }
+.threat-level-fill { border-radius: 4px; transition: width 1.2s cubic-bezier(0.22,1,0.36,1), background 0.6s ease; }
+
+/* ── Tab bar: pill backgrounds ── */
+.tab-btn { border-radius: 6px 6px 0 0; }
+.tab-btn:hover { background: rgba(255,255,255,0.04); }
+.tab-btn.active { background: rgba(255,255,255,0.05); }
+
+/* ── Section reading time pill ── */
+.section-read-time {
+  font-size: 9px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--muted);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  padding: 2px 7px;
+  border-radius: 99px;
+  margin-left: auto;
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+  transition: opacity var(--transition);
+}
+.section-block.open .section-read-time { opacity: 0; pointer-events: none; }
+
+/* ── Sections nav: active tracking dot ── */
+.sections-nav-item {
+  position: relative;
+  padding-left: 18px;
+}
+.sections-nav-item::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--border2);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.sections-nav-item.active::before {
+  background: var(--accent-red);
+  transform: translateY(-50%) scale(1.4);
+}
+.sections-nav-item.visited::before { background: var(--accent-grn); }
+
+/* ── Daily paper: read time ── */
+.dp-read-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  margin-left: 14px;
+}
+.dp-read-time svg { opacity: 0.6; }
+
+/* ── Toast notifications ── */
+#toastRoot {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+}
+.toast {
+  background: rgba(20,24,36,0.96);
+  border: 1px solid var(--border2);
+  border-radius: 8px;
+  padding: 9px 18px;
+  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text2);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  backdrop-filter: blur(12px);
+  animation: toastIn 0.3s cubic-bezier(0.22,1,0.36,1) both;
+  white-space: nowrap;
+}
+.toast kbd {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 11px;
+  color: var(--text);
+}
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes toastOut {
+  to { opacity: 0; transform: translateY(8px); }
+}
+.toast.dying { animation: toastOut 0.25s ease forwards; }
+
+/* ── Keyboard shortcut overlay ── */
+.kbd-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  background: rgba(5,8,14,0.88);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: _ppBackdrop 0.18s ease;
+}
+.kbd-overlay-panel {
+  background: #0f1219;
+  border: 1px solid #252e3d;
+  border-radius: 14px;
+  padding: 28px 32px;
+  min-width: 340px;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.65);
+  animation: _ppPanel 0.22s cubic-bezier(0.4,0,0.2,1);
+}
+.kbd-overlay-title {
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+.kbd-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text2);
+}
+.kbd-row:last-child { border-bottom: none; }
+.kbd-row kbd {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 5px;
+  padding: 3px 9px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--text);
+  flex-shrink: 0;
+}
+.kbd-close-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.kbd-close-row button {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 11px;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 6px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.kbd-close-row button:hover { border-color: var(--border2); color: var(--text2); }
+
+/* ── Focus mode: dim non-hovered sections ── */
+.sections-content.focus-mode .section-block { opacity: 0.4; transition: opacity 0.25s ease; }
+.sections-content.focus-mode .section-block:hover { opacity: 1; }
