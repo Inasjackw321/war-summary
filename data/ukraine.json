@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-14T00:20:09.048314+00:00",
-  "message_count": 239,
+  "updated_at": "2026-06-14T01:46:33.738776+00:00",
+  "message_count": 246,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -17,78 +17,85 @@
     0,
     0,
     0,
-    0,
-    0,
     8,
     0,
     0,
     8,
+    0,
     0,
     0,
     17,
-    0,
-    8,
     8,
     0,
     8,
+    0,
+    17,
     17,
     8,
-    34,
+    25,
+    0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    2,
     7,
-    4,
     6,
-    8,
     5,
-    10,
-    6,
+    7,
+    8,
+    7,
+    12,
     16,
     13,
-    14,
-    7,
-    12,
-    13,
-    10,
-    15,
-    12,
     9,
+    8,
+    14,
     11,
-    21,
+    12,
+    11,
+    14,
+    9,
+    17,
     19,
-    7,
-    7,
-    5
+    14,
+    10,
+    4,
+    4,
+    9
   ],
   "messages_by_channel": {
     "@eRadarrua": 42,
-    "@kpszsu": 79,
-    "@mon1tor_ua": 3,
+    "@kpszsu": 84,
+    "@mon1tor_ua": 4,
     "@UkraineNow": 16,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 14,
-    "@tass_agency": 84
+    "@tass_agency": 85
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/96484",
-    "kpszsu": "https://t.me/kpszsu/65116",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67592",
+    "kpszsu": "https://t.me/kpszsu/65128",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67593",
     "UkraineNow": "https://t.me/UkraineNow/81905",
     "DeepStateUA": "https://t.me/DeepStateUA/23577",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30883",
-    "tass_agency": "https://t.me/tass_agency/380548"
+    "tass_agency": "https://t.me/tass_agency/380552"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/65090",
+    "UkraineNow": "https://t.me/UkraineNow/81890",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67592",
     "tass_agency": "https://t.me/tass_agency/380533",
-    "UkraineNow": "https://t.me/UkraineNow/81898",
-    "eRadarrua": "https://t.me/eRadarrua/96471"
+    "kpszsu": "https://t.me/kpszsu/65118",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30875"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/380550",
+      "post_id": 380550,
+      "channel": "tass_agency",
+      "ts": "2026-06-14T00:54:02+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/380543",
       "post_id": 380543,
@@ -221,12 +228,6 @@
       "post_id": 380527,
       "channel": "tass_agency",
       "ts": "2026-06-13T16:51:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380526",
-      "post_id": 380526,
-      "channel": "tass_agency",
-      "ts": "2026-06-13T16:19:01+00:00"
     }
   ],
   "post_images": {
@@ -256,107 +257,132 @@
     "kpszsu/64976": "data/media/kpszsu_64976.jpg",
     "kpszsu/64974": "data/media/kpszsu_64976.jpg"
   },
-  "summary": "Multiple Russian UAV groups have been reported moving from the Black Sea and other regions toward Ukrainian oblasts, including Odessa, Kharkiv, and Donetsk. Ukrainian air defenses have engaged drones in several regions, and a Russian airstrike damaged infrastructure in Volgograd and Slavyansk. Threats of tactical aviation activity and drone attacks persist across fronts.",
+  "summary": "Russian forces launched multiple KAB attacks on Ukrainian settlements, striking Vasylkivka, Mykolaiv, Kherson and an oil processing plant in Volgograd region, Russia. Ukrainian UAVs hit the Vostochny training ground in Zaporizhzhia, destroying air defenses and targeting enemy personnel, and repeatedly struck bridges linking Crimea to the mainland. Air defence units reported high interception rates, downing over 100 Ukrainian drones across Russian territory and the Black Sea.",
   "key_points": [
-    "New UAV groups from the Black Sea are heading toward Odessa, with vectors toward Zatoka, Serhiivka, and Vylkove. (Source: @kpszsu/65090)",
-    "A reactive UAV was observed crossing the Belarus border into northern Kyiv region. (Source: @kpszsu/65058)",
-    "Ukrainian air defenses reported shooting down 109 Ukrainian UAVs over Russian regions and the Black Sea. (Source: @tass_agency/380533)",
-    "Russian tactical aviation activity increased on the eastern direction, raising threat of air strikes near front‑line areas. (Source: @kpszsu/65106)",
-    "Part of Zaporizhzhia region lost power due to a Ukrainian drone attack. (Source: @tass_agency/380540)",
-    "Russian forces dropped three 250‑kg FAB‑250 bombs on Sloviansk, causing casualties and damage to over 20 apartment blocks. (Source: @UkraineNow/81898)",
-    "Ukrainian forces struck the oil‑processing facility in Kotovo, Volgograd region, igniting a fire. (Source: @UkraineNow/81894)"
+    "Russian KABs hit Vasylkivka market, injuring nine and damaging stores and apartments (Source: @UkraineNow/81890).",
+    "Ukrainian UAVs struck the Vostochny training ground in Zaporizhzhia, destroying TOR‑M2, ZU‑23, MANPADS and enemy troops (Source: @UkraineNow/81891).",
+    "Four Shahed drones launched from the Black Sea were intercepted over Chornomorsk (Source: @mon1tor_ua/67592).",
+    "Russian air defence reported shooting down 109 Ukrainian drones over Russian regions and the Black Sea in one day (Source: @tass_agency/380533).",
+    "Ukrainian forces hit bridges connecting Crimea to the mainland with multiple strikes (Source: @UkraineNow/81891).",
+    "Russian KABs were launched in northeastern Kharkiv and Donetsk regions (Source: @kpszsu/65118).",
+    "An oil processing facility in Kotovo, Volgograd region, Russia was hit, causing a fire (Source: @UkraineNow/81894).",
+    "Russian pilots destroyed Ukrainian temporary dislocation points in the DPR using FAB‑3000 bombs (Source: @ukr_leaks_eng/30875)."
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Multiple UAV groups from the Black Sea and Belarus are moving toward Odessa, Kharkiv, and Kyiv regions, increasing pressure on southern and northern fronts. Ukrainian air defenses have engaged drones extensively, while Russian tactical aviation activity rises on the eastern axis. Recent Russian airstrikes have damaged infrastructure in Volgograd and Sloviansk, underscoring ongoing high‑intensity conflict.",
+    "executive_summary": "Russian KAB attacks on Vasylkivka, Mykolaiv, Kherson and a Volgograd oil plant caused civilian injuries and infrastructure damage. Ukrainian UAVs successfully hit the Vostochny training ground in Zaporizhzhia, destroying air defence systems and targeting enemy forces, and repeatedly struck Crimea‑linking bridges. Air defence exchanges remain intense, with Russia reporting over 100 Ukrainian drone interceptions in a single day.",
     "ukraine": {
       "points": [
-        "Ukrainian forces reported a drone attack that caused a power outage in part of Zaporizhzhia region. (Source: @tass_agency/380540)",
-        "Ukrainian troops struck the oil‑processing plant in Kotovo, Volgograd region, igniting a fire at the facility. (Source: @UkraineNow/81894)",
-        "Ukrainian air defenses claimed to have downed 109 UAVs over Russian territories and the Black Sea in a single day. (Source: @tass_agency/380533)",
-        "Ukrainian pilots destroyed six Russian UAV launch points, according to a Ukrainian news outlet. (Source: @UkraineNow/81905)"
+        "Ukrainian UAVs attacked the Vostochny training ground in Zaporizhzhia, destroying TOR‑M2 and ZU‑23 air defence missiles, a MANPADS battery and enemy personnel (Source: @UkraineNow/81891).",
+        "Multiple UAV strikes were reported on bridges connecting Crimea to the mainland, disrupting Russian logistical routes (Source: @UkraineNow/81891).",
+        "A Shahed drone was observed over Mykolaiv, indicating continued low‑altitude strike capability (Source: @mon1tor_ua/67593).",
+        "UAVs launched from the Black Sea towards Odesa and the Zatoka area were tracked, showing Russian use of maritime launch points (Source: @kpszsu/65090).",
+        "Ukrainian forces employed reactive UAVs near Zolochiv in Kharkiv, heading towards Prudyanka (Source: @kpszsu/65069).",
+        "UAVs were sighted heading to Zaporizhzhia from the southwest, suggesting pressure on the city’s airspace (Source: @kpszsu/65126).",
+        "UAV activity was reported west of Dnipro, prompting engagement by air defence assets (Source: @kpszsu/65105).",
+        "UAVs were observed over Dnipropetrovsk heading past Krynychky and towards Pavlohrad from the southeast (Source: @kpszsu/65100)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation activity was reported on the eastern direction, with threats of air strikes near front‑line areas. (Source: @kpszsu/65106)",
-        "Russian forces dropped three FAB‑250 bombs on Sloviansk, injuring at least five people including a child and damaging over 20 apartment buildings. (Source: @UkraineNow/81898)",
-        "A reactive UAV was observed crossing the Belarus‑Ukraine border heading toward northern Kyiv region. (Source: @kpszsu/65058)",
-        "Russian air defenses reportedly intercepted Ukrainian UAVs over Russian regions, though specific numbers were not detailed beyond overall counts. (Source: @tass_agency/380533)"
+        "Russian KAB rockets struck Vasylkivka market, injuring nine civilians and damaging eight shops, ten market pavilions and a multi‑storey building (Source: @UkraineNow/81890).",
+        "KAB attacks were launched in the northeastern part of Kharkiv and in Donetsk, indicating expanded strike zones (Source: @kpszsu/65118).",
+        "Repeated KAB launches were reported east of Dnipropetrovsk and in Donetsk, showing sustained offensive pressure (Source: @kpszsu/65071).",
+        "An oil processing facility in Kotovo, Volgograd region, Russia was hit, igniting a fire at the plant that handles oil from Volgograd, Astrakhan and Kalmykia (Source: @UkraineNow/81894).",
+        "Russian pilots used FAB‑3000 bombs to destroy Ukrainian temporary dislocation points in the DPR (Source: @ukr_leaks_eng/30875).",
+        "Four Shahed drones launched from the Black Sea were intercepted over Chornomorsk, reflecting Russian air defence response (Source: @mon1tor_ua/67592).",
+        "Russian air defence reported downing 109 Ukrainian drones over Russian territory and the Black Sea in a single day (Source: @tass_agency/380533).",
+        "A drone strike in Mykolaiv caused injuries to two civilians and a child experiencing stress reactions (Source: @UkraineNow/81890)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAVs from Donetsk region were reported heading toward Kharkiv, specifically Lozivskyi district. (Source: @kpszsu/65103)",
-        "UAV activity was noted near Kharkiv city and Krasnokutsk, moving toward those locations. (Source: @kpszsu/65098)",
-        "UAVs observed near Kharkiv moving past Bohodukhiv on a south‑west course. (Source: @kpszsu/65102)",
-        "Russian tactical aviation activity increased on the north‑east direction, raising threat levels for front‑line areas. (Source: @kpszsu/65109)"
+        "Ukrainian UAVs struck the Vostochny training ground in Zaporizhzhia, destroying air defence assets and enemy troops (Source: @UkraineNow/81891).",
+        "Russian KABs were launched toward Kharkiv and Donetsk, indicating heightened activity on the eastern axis (Source: @kpszsu/65118).",
+        "Repeated KAB launches east of Dnipropetrovsk suggest continued pressure on the front line (Source: @kpszsu/65071).",
+        "UAVs were observed heading toward Pavlohrad from the southeast, potentially targeting logistics hubs (Source: @kpszsu/65100).",
+        "Russian air defence claimed 109 drone interceptions over Russian regions, reflecting cross‑border UAV activity from the east (Source: @tass_agency/380533).",
+        "Ukrainian forces hit bridges linking Crimea, affecting eastern supply routes (Source: @UkraineNow/81891).",
+        "Russian KAB attacks in Kherson and Mykolaiv demonstrate a southern‑eastern spillover of eastern front operations (Source: @UkraineNow/81890).",
+        "UAV activity west of Dnipro was engaged by air defence, indicating contested airspace in the eastern sector (Source: @kpszsu/65105)."
       ]
     },
     "northern_front": {
       "points": [
-        "Reactive UAV observed along the Belarus border moving westward in northern Chernihiv region. (Source: @kpszsu/65058)",
-        "UAV reported on the border of Chernihiv and Sumy regions moving southward. (Source: @kpszsu/65059)",
-        "UAV activity noted near Chernihiv from the north heading toward Shostka. (Source: @kpszsu/65060)",
-        "UAVs detected near Zhytomyr region passing Chopyvichi on a south‑west course. (Source: @kpszsu/65064)"
+        "UAVs were reported west of Dnipro, prompting defensive engagement (Source: @kpszsu/65105).",
+        "UAVs were sighted heading toward Mykolaiv from the north, showing reach of northern assets (Source: @mon1tor_ua/67593).",
+        "Russian KAB launches in northeastern Kharkiv suggest pressure from the north‑east (Source: @kpszsu/65118).",
+        "UAVs from the Black Sea were directed toward Odesa, indicating northern maritime launch routes (Source: @kpszsu/65090).",
+        "Reactive UAVs near Zolochiv in Kharkiv moved toward Prudyanka, a northern‑central corridor (Source: @kpszsu/65069).",
+        "UAVs were observed heading to Zaporizhzhia from the southwest, crossing northern airspace (Source: @kpszsu/65126).",
+        "Russian air defence reported downing drones over the Black Sea, a northern maritime zone (Source: @tass_agency/380533).",
+        "No direct combat reports from the immediate northern front, but UAV activity indicates ongoing surveillance and strike attempts."
       ]
     },
     "southern_front": {
       "points": [
-        "New UAV groups from the Black Sea are heading toward Odessa with vectors toward Zatoka, Serhiivka, and Vylkove. (Source: @kpszsu/65090)",
-        "UAVs from the Black Sea were also reported moving toward Odessa via the Vylkove vector. (Source: @kpszsu/65086)",
-        "UAVs from the Black Sea heading south toward Odessa with vector toward Tatarbunary. (Source: @kpszsu/65077)",
-        "UAVs observed over the sea near Zatoka, with six units reported opposite Zatoka. (Source: @eRadarrua/96471)"
+        "Russian KAB attacks hit Mykolaiv, injuring civilians and causing a market fire (Source: @UkraineNow/81890).",
+        "Four Shahed drones launched from the Black Sea were intercepted over Chornomorsk, a key southern port (Source: @mon1tor_ua/67592).",
+        "UAVs were observed heading toward Odesa from the Black Sea, targeting southern coastal infrastructure (Source: @kpszsu/65090).",
+        "KABs were launched in Kherson, with eight rockets reported; effects unknown (Source: @UkraineNow/81890).",
+        "Ukrainian UAVs struck bridges linking Crimea, affecting southern supply lines (Source: @UkraineNow/81891).",
+        "A drone strike in Mykolaiv caused injuries to two civilians and a child (Source: @UkraineNow/81890).",
+        "UAV activity over the southern Black Sea region was noted, indicating continued contest for maritime airspace (Source: @kpszsu/65090).",
+        "No reported Russian ground assaults in the southern front during this period."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defenses claimed to have downed 109 UAVs over Russian regions and the Black Sea in one day. (Source: @tass_agency/380533)",
-        "Russian tactical aviation activity increased on eastern and north‑east directions, raising threat of air strikes. (Source: @kpszsu/65106, @kpszsu/65109)",
-        "Ukrainian forces reported a drone attack causing power loss in Zaporizhzhia. (Source: @tass_agency/380540)",
-        "Ukrainian pilots destroyed six Russian UAV launch points, according to Ukrainian sources. (Source: @UkraineNow/81905)"
+        "Russian air defence claimed 109 Ukrainian drone interceptions over Russian regions and the Black Sea in one day (Source: @tass_agency/380533).",
+        "Ukrainian UAVs successfully destroyed TOR‑M2, ZU‑23 and MANPADS at the Vostochny training ground in Zaporizhzhia (Source: @UkraineNow/81891).",
+        "Four Shahed drones launched from the Black Sea were intercepted over Chornomorsk (Source: @mon1tor_ua/67592).",
+        "Ukrainian UAVs struck bridges connecting Crimea, demonstrating air‑strike capability over contested water routes (Source: @UkraineNow/81891).",
+        "Russian KAB rockets were used against civilian targets in Vasylkivka, Mykolaiv and Kherson, indicating use of air‑launched munitions (Source: @UkraineNow/81890).",
+        "UAV activity was reported west of Dnipro, prompting engagement by local air defence (Source: @kpszsu/65105).",
+        "UAVs from the Black Sea were directed toward Odesa and the Zatoka area, showing maritime launch tactics (Source: @kpszsu/65090).",
+        "UAVs were observed heading toward Zaporizhzhia from the southwest, indicating continued pressure on that city's airspace (Source: @kpszsu/65126)."
       ]
     },
     "key_developments": [
-      "UAV groups from the Black Sea are moving toward Odessa, targeting locations such as Zatoka, Serhiivka, and Vylkove, indicating heightened southern pressure. (Source: @kpszsu/65090)",
-      "A reactive UAV crossed the Belarus‑Ukraine border heading into northern Kyiv region, suggesting potential northern infiltration routes. (Source: @kpszsu/65058)",
-      "Ukrainian air defenses reported downing 109 UAVs over Russian territories and the Black Sea, reflecting intense aerial contest. (Source: @tass_agency/380533)",
-      "Russian tactical aviation activity surged on the eastern front, increasing risk of air strikes near front‑line positions. (Source: @kpszsu/65106)",
-      "A Russian airstrike with three FAB‑250 bombs hit Sloviansk, causing civilian casualties and extensive building damage. (Source: @UkraineNow/81898)",
-      "Ukrainian forces struck the oil‑processing plant in Kotovo, Volgograd region, igniting a fire and disrupting Russian fuel logistics. (Source: @UkraineNow/81894)",
-      "Power outage in Zaporizhzhia region resulted from a Ukrainian drone attack, indicating continued targeting of infrastructure. (Source: @tass_agency/380540)"
+      "Russian KAB rockets struck Vasylkivka market, injuring nine civilians and damaging multiple shops and a residential building (Source: @UkraineNow/81890).",
+      "Ukrainian UAVs destroyed air defence systems (TOR‑M2, ZU‑23, MANPADS) at the Vostochny training ground in Zaporizhzhia, also targeting enemy personnel (Source: @UkraineNow/81891).",
+      "Four Shahed drones launched from the Black Sea were intercepted over Chornomorsk, highlighting maritime UAV launch routes (Source: @mon1tor_ua/67592).",
+      "Russian air defence reported downing 109 Ukrainian drones over Russian territory and the Black Sea in a single day (Source: @tass_agency/380533).",
+      "Ukrainian strikes hit bridges linking Crimea to the mainland, disrupting Russian logistics (Source: @UkraineNow/81891).",
+      "An oil processing facility in Kotovo, Volgograd region, Russia was hit, causing a fire at a key oil handling plant (Source: @UkraineNow/81894).",
+      "Russian KAB attacks were launched in northeastern Kharkiv and Donetsk, expanding the strike envelope (Source: @kpszsu/65118)."
     ],
-    "threat_assessment": "Ukrainian forces face a multi‑directional UAV threat, with Russian drone groups operating from the Black Sea, Belarus, and Donetsk regions targeting key southern and northern oblasts. Russian tactical aviation activity on the eastern front raises the risk of conventional air strikes, while recent high‑payload bombings in Sloviansk demonstrate Russia's willingness to employ heavy ordnance against civilian areas. Ukrainian air defenses are actively engaging, but the volume of UAVs suggests sustained pressure across all fronts.",
-    "regional_response": "Ukrainian command appears to prioritize air defense deployments in southern and eastern sectors, as indicated by reported interceptions and infrastructure attacks. The reported power loss in Zaporizhzhia suggests rapid response units are being tasked to protect critical services. Russian forces continue to leverage both UAVs and tactical aircraft to pressure front‑line regions, while also conducting strategic strikes on logistics hubs in Volgograd. Coordination between ground and air assets remains critical for both sides.",
-    "intelligence_notes": "Monitoring of UAV flight paths from the Black Sea and Belarus should be intensified to anticipate future incursions. The concentration of reactive UAVs near the northern Kyiv corridor may indicate preparation for reconnaissance or strike missions. Continued assessment of Russian tactical aviation patterns on the eastern front is essential to forecast potential air strike windows. The recent use of FAB‑250 bombs underscores a shift toward heavier munitions in urban areas, requiring updated civilian protection protocols."
+    "threat_assessment": "Russian use of KAB rockets against civilian infrastructure in central and southern Ukraine demonstrates a willingness to target populated areas, raising the risk of higher civilian casualties. Ukrainian UAV operations have shown increasing effectiveness, successfully neutralising Russian air defence assets and striking critical logistics nodes such as Crimea bridges. The high interception rate reported by Russian air defence indicates intensified aerial contest, but also suggests that Ukrainian drone capabilities remain a significant threat to Russian rear areas and supply lines.",
+    "regional_response": "Ukrainian authorities are likely to reinforce air defence around vulnerable cities like Mykolaiv and Vasylkivka while continuing UAV strikes on Russian logistical hubs. Russian forces may increase the deployment of short‑range air defence systems and accelerate KAB launch operations to pressure Ukrainian rear areas. Both sides appear to be escalating aerial engagements, with potential spillover effects on civilian infrastructure and supply routes across the frontlines.",
+    "intelligence_notes": "Monitoring of KAB launch sites in Kharkiv and Donetsk should be prioritized to anticipate further strikes on civilian centers. UAV launch vectors from the Black Sea toward Odesa and Chornomorsk warrant enhanced maritime surveillance. Continued assessment of bridge integrity in Crimea is essential, as repeated Ukrainian attacks could disrupt Russian supply chains and affect operational tempo on the southern front."
   },
   "missiles": 0,
   "drones": 118,
   "kpszsu_timeline": [
-    0,
     4,
     2,
     1,
     1,
+    2,
+    1,
+    7,
+    4,
+    4,
     1,
     2,
+    2,
+    2,
+    5,
     3,
+    3,
+    4,
+    8,
+    8,
     5,
     6,
-    3,
-    1,
-    3,
     2,
-    3,
-    4,
-    3,
-    3,
-    5,
-    10,
-    7,
-    3,
-    5,
-    2
+    2,
+    5
   ]
 }
