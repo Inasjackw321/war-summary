@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-14T22:58:54.107176+00:00",
-  "message_count": 367,
+  "updated_at": "2026-06-15T02:13:43.840266+00:00",
+  "message_count": 476,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -19,77 +19,143 @@
     0,
     0,
     0,
-    8,
-    11,
-    0,
-    8,
     0,
     0,
     0,
     0,
     0,
     0,
-    4,
     0,
-    11,
     0,
-    8,
-    19,
-    19,
-    11
+    0,
+    0,
+    0,
+    15,
+    26,
+    15,
+    15,
+    5,
+    21,
+    0
   ],
   "combined_activity_timeline": [
-    5,
+    7,
     4,
+    13,
+    9,
+    5,
+    6,
+    4,
+    12,
     8,
     6,
     7,
-    9,
-    13,
-    10,
-    9,
-    5,
-    15,
-    6,
+    4,
     7,
-    11,
-    6,
-    6,
-    17,
-    6,
-    24,
-    15,
-    28,
-    28,
-    42,
-    80
+    16,
+    5,
+    20,
+    12,
+    20,
+    30,
+    60,
+    85,
+    53,
+    65,
+    18
   ],
   "messages_by_channel": {
-    "@eRadarrua": 93,
-    "@kpszsu": 62,
-    "@mon1tor_ua": 86,
+    "@eRadarrua": 80,
+    "@kpszsu": 71,
+    "@mon1tor_ua": 192,
     "@UkraineNow": 15,
     "@ukr_leaks_eng": 10,
-    "@tass_agency": 101
+    "@tass_agency": 108
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96692",
-    "kpszsu": "https://t.me/kpszsu/65209",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67690",
+    "eRadarrua": "https://t.me/eRadarrua/96804",
+    "kpszsu": "https://t.me/kpszsu/65241",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67808",
     "UkraineNow": "https://t.me/UkraineNow/81920",
     "DeepStateUA": "https://t.me/DeepStateUA/23577",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30893",
-    "tass_agency": "https://t.me/tass_agency/380666"
+    "tass_agency": "https://t.me/tass_agency/380684"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/380635",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30887",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67685",
-    "UkraineNow": "https://t.me/UkraineNow/81908",
-    "kpszsu": "https://t.me/kpszsu/65184",
-    "eRadarrua": "https://t.me/eRadarrua/96625"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67797",
+    "kpszsu": "https://t.me/kpszsu/65230",
+    "UkraineNow": "https://t.me/UkraineNow/81918",
+    "tass_agency": "https://t.me/tass_agency/380679"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/380678",
+      "post_id": 380678,
+      "channel": "tass_agency",
+      "ts": "2026-06-15T01:10:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96802",
+      "post_id": 96802,
+      "channel": "eRadarrua",
+      "ts": "2026-06-15T00:58:58+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/LB_DmLbpyXeYg9lTH7TjU5JuKlRT4AVrx9-rEI6n1VJtb5n0O5tK_DeE_4JlJOPrbNBify-EnnoHYzsq-TkUH774G2xvsOWV6YlShf5zTsWPmVoyJOBdfS5XDl7ZX485sE2ua-HaziZ7de0sMVPYy9os7tvVqj39ZWvoeC3kU7YTBoPemJGksqFBgp-5YSJpsAH8hdtChPrNrJOxwHGCcf6s7BbK2AYAWhBR_u2E5jdYpHdJRWinTQ_J9i11SQQEnTKVfkQHwiGAq4FQ27LQgmKPnPbnXOWx0a_h0oZGuOxJcy8mXUPmmO2ZZvPPDtQZI_l1cEzvJS_uRtDB56gWPQ.jpg",
+      "companion_text_id": 96801
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96745",
+      "post_id": 96745,
+      "channel": "eRadarrua",
+      "ts": "2026-06-14T23:58:40+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/mw_fAhdQwwKx-Vd83Cn9dZrU3CPMPe-8b1-FCA3nTUS91gbL6rdP8FC9WAO_GrBxU9hqF5RHIzaKj0k71gTv2X4kYhjC3lHKzS5YWT4SJVvXp_AjOQoguz4GqKz4DnCj6qIipZpTi7ZvrM6_k6xslOfczwOM28u7bSxjc-TxjXOZrFaewEWyw4JO0irOIfaR9ixN3T4g1cJopzD75aX45qkgZSSTbPTqkHKhk4dICUpIIYS72Dl6rq0p0yYohSHkk-W7v0svYg7_T5kTEW7GhX2lNOknqTC5Lg0_s0uMaTS4_kSmpt9DVsGzQt51K8O_3DI0CFi0rvKSaHKTjVdkoA.jpg",
+      "companion_text_id": 96743
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96743",
+      "post_id": 96743,
+      "channel": "eRadarrua",
+      "ts": "2026-06-14T23:55:55+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/a0qyXaC42AbB-1HpkQQ4JqjlaS4NipLhjTLU4NtvJo-6NVbFMBPrxOoE5WaxwCZ741pimTZPFgeB13og8J6H1rbzigG0WMhtCCa33WJ4Yjhl6ez6M4qusEHcT5aHXH6QEOhI5heYMoeFSugOhGvcnan5F1VqzhgqpDcO-40PDy9Nnc50gPlhuBULgjg2_bpmOmQ7lP5OrPEqDnwQBYJpmeFiIIO1hJ6JXcOz9L_nYBnQfJNCGOQB4Vxu5-IHQJFy6Bxv8GrJEd-wCNUZuPxjxyBhO14PoBwiQL7QHpMVCOkU75BOs_jeIvW2MMgRTWeDy68d7ol6t7URM4GvugqmZA.jpg",
+      "companion_text_id": 96745
+    },
+    {
+      "post_url": "https://t.me/mon1tor_ua/67746",
+      "post_id": 67746,
+      "channel": "mon1tor_ua",
+      "ts": "2026-06-14T23:45:21+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380673",
+      "post_id": 380673,
+      "channel": "tass_agency",
+      "ts": "2026-06-14T23:44:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96733",
+      "post_id": 96733,
+      "channel": "eRadarrua",
+      "ts": "2026-06-14T23:31:37+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/gVVb5p6COIRduupVi-eSYvu_WcqgdVPOXfGn3Xy9xBcspvi-e3C_JiOgrcdLGbdYEomTRaxkl3u_SaETvGCj3u-pwp68TQPp57AJVnfJ9CLjWDikyzoW4I_UIygdzL3Zt8mDhVRrKLLMVBeRJpruY0vp9mhl6eDGv42GbYasPsByAH-rENDFBY1PMl5OeHz-geWBTqxXKZn6sGNSZyzKTupSun8Mf4mmzHEGPXBlXlMZg0naFPdgcHZ2s-LsP5VDGffLDwOJ1WhPiJWYg4pBbhsA4FPuFG1RWixaGaUImfBmb37APcczRokO3Ie3Tu-MaIIf5KrQOrKNCIEDbAoebA.jpg"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380671",
+      "post_id": 380671,
+      "channel": "tass_agency",
+      "ts": "2026-06-14T23:24:42+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96700",
+      "post_id": 96700,
+      "channel": "eRadarrua",
+      "ts": "2026-06-14T23:06:26+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/H-4NCimxOjZWJ-K_SFoxR9z03VeRkVKIBqaMaTUZG-GnCEiRdNIbsJiNSzktyPIN44bmE1ZugtOKyGMyJRIIH826zl-YCIcD1VNP1XALvNltq18AIsZFfBjTJhuyJbLo4wRHjptFW1uamkDc7yB-hCGQ-wtfZ9XDniJch_cZqh-UWbE-W5pgsKzT-JQmjehFlo2RxzLM7KOdUnP6Uy8VzUR7YOhAFTq6RPyTHJV1a7zNaMpaz6MuhnReHxpCLZCMYuUnFpy01iS7QExmHTijgSJEFmBR9iNykw_zpjZVNL2gAET8mGYO2Re6TFMPJGEDIxwVOJS_fTnc6RTVXKMUrw.jpg"
+    },
+    {
+      "post_url": "https://t.me/mon1tor_ua/67694",
+      "post_id": 67694,
+      "channel": "mon1tor_ua",
+      "ts": "2026-06-14T23:03:14+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/380666",
       "post_id": 380666,
@@ -155,230 +221,136 @@
       "post_id": 67621,
       "channel": "mon1tor_ua",
       "ts": "2026-06-14T21:17:09+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380649",
-      "post_id": 380649,
-      "channel": "tass_agency",
-      "ts": "2026-06-14T21:16:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/67619",
-      "post_id": 67619,
-      "channel": "mon1tor_ua",
-      "ts": "2026-06-14T21:09:55+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96600",
-      "post_id": 96600,
-      "channel": "eRadarrua",
-      "ts": "2026-06-14T21:06:34+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/EiTOk3SrrCH66DPO8zpdqz2e5sREwYwPZ6fHXN0wuFz5LxrJH1hU7r54w29QZ_RtPbQ3yYfQ_IU8rWHUwPV-L8U8qWPN7Zk3gkuGe4ERWrmKJX4-bHY7dPvWEOsSE_KvJOQ_LQOdLPSJ9tGGdcN6fjuRgMloxv0feNXmXz8NdFDDV6MkNvZ_r6eogd4p__azrsi-nenUBdz8GD79_iWklop_tz5Zi4wZci8CKSgYV7KfIE6NGGve0Zsuya99PV-Wo5vSo36BovancPciPVIRJaIRojw_EdbQqoOebfI8izZ4ZnIE4NLDiTxayRtbJrHbcY5L4Eggo3-8R3n43ANr-Q.jpg",
-      "companion_text_id": 96599
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96598",
-      "post_id": 96598,
-      "channel": "eRadarrua",
-      "ts": "2026-06-14T21:02:05+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/eW6uN5a05CzTJssUt34V1wGgjHr4YDecY6CDgQfDET_UpRZyOvZDpMb4chEpFtvlRwKEfYGXNAgy_ouQHr2EpEtZC0bWGgXB2_93cwxj3dROEKuRCuRY3XeDpaXhcC0Oa6FlCUCPOMuRCnQUb5klENsknYrGbZVaU-3OlUpJupCLZCE56Uy__ZJjrVbtGRPtxDWtQBI4slFqYWtBqwtunuw2xqYc_Gc8iPuqaX7Q4_1a2kylmcd-uxrgU5-ZaGv0Yne_qFfX08qMBEQrSafN4toWXr_YsQbfM3Bj_rnTkiyqws4J5QVA5BA1dJr3Ai42yYjll62pOLDF4EDEK4gcJg.jpg",
-      "companion_text_id": 96597
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96593",
-      "post_id": 96593,
-      "channel": "eRadarrua",
-      "ts": "2026-06-14T20:53:04+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Fcqm0amYpuZkwqjzs5-n6dsH3yJ9OnK_6dSWZU1_bbdvj4GsQZjw1njhwsL6xI4s0fT9j0OB9vUmvWsItfpo-Rq6ziuoqqAjIL-7dUqVXvikCuH3QoNAUnOoV92gje8wtmaWLusIdr0GXhSmXa3g8gVtAZNfpA1F8U-YOwiFLvGOjD1JoiYhs6I_Q8xK9kO2Gy4rz1aaQ2EpOvkJkKKroGxdlIwOd-4mz46mo76qrBO-lR1gu2cfav5QvUOtTTa1tycAE_F5ncCBVRpsaTLvYbgMuUPJuYlvf4T1gp2mki_5Og_ruN40v5g_4xf8RDAKsWqZ4oFw5PtU7FR4zqvNIA.jpg",
-      "companion_text_id": 96591
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96591",
-      "post_id": 96591,
-      "channel": "eRadarrua",
-      "ts": "2026-06-14T20:46:07+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/oqS3NTSjGeDZBJw7ZsNdedIQgrofVYz2VbgoaBh_McpbRLPSv4ZVX4nOAitS893KkUC7kLLYRm8da0CNpUsq5Rk6FAUBuTaMY69aBFshxmuBaXauRepRm2BkMXkzYHmOmwZoDx8WVd6UKvInmnhs6Somt_I3Nvy3rsmY3spTyY6GBJB-CKZbupecxscmCpsWb8ZRgLj39F-Kdn7aljOgRGUCLuMXEIOsZXKZpgoJvXSLXENoq67dCGzwhAHfJSU5jrjR4he1ZHI_GBBXgtKZ0pfn3qW2262uFd04LnZdtb_dhfHqf031PaFmViauRVM-hZXeXDVsPhKPotE88m-fAw.jpg",
-      "companion_text_id": 96590
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/67615",
-      "post_id": 67615,
-      "channel": "mon1tor_ua",
-      "ts": "2026-06-14T20:38:22+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96585",
-      "post_id": 96585,
-      "channel": "eRadarrua",
-      "ts": "2026-06-14T20:37:37+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/XRZCcA-YB60ppsN6b1kVoeMivZx_P3uty0uPi9f_4PEqvb6CpzyR-x4lf4PcH8xHYKYjFRTSgBaaEK0jFEVcFMIEJQ1zEqrB_2BdQ297fzBm1ASVu4jIwCC94PsJWPvvUg7KxFlkaZt2EYjjyQiZYiJETkT-hOTyKS3i3Vw4vFMYwiOzwH5poKe-hw3VeFuJh4QqQLlZ1Xxz9AK2FTr8IAVx8LLsSZvedwPdPVyct-IU81sfdZg7sVkbpK2FTvlZOSDvmyoAWk0R-Q1vs-PqlmcAPjHOTihjvkogFN-sTSHuZrxeRJfuu3O2OOdIJAhBc-c20Heo7clUGHr-6PCrMw.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96580",
-      "post_id": 96580,
-      "channel": "eRadarrua",
-      "ts": "2026-06-14T20:30:15+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/vZ2QQSLFmEB9-2FpDh4Sh98myD4tQCMRtSl9AgFy8N7_TKS4ftvuDi4_BP5MruIwVmIdCLKPATkLH5ro1wsq9QfTmFXEYGPjIvxT5oj6wQvN2m4L_B4hhqQqeG2qD-Oz8muOfY9z7mOZIfcd71540L77agdKoB9u6eyZoqzSljG2HUyA4zjgp57owQUhjSwUobf_Wytzezl_zVaMIxslQpIjw61635HRMH3_ot4l89uhnZzQZRBBwfivoSAkj-UroH1CvN8x5Lr5deu6h7wDAewUvwl3k_VPvrMmGpxpGX8yT8QhKPg6kiAYSu9oDvBnkYeThmoNxmIQhsRUEUOizA.jpg",
-      "companion_text_id": 96579
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/96574",
-      "post_id": 96574,
-      "channel": "eRadarrua",
-      "ts": "2026-06-14T20:19:40+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/aE22CKdHQdqxD_JfsLZXXHt4IHeQ3TJTuURj8UpX0nyrCSsaM7LuMBR8_QexIRmKf_OqWtmddo36zVRPW8oZDgw3ozPGxB4_vNN4nd-RP6ANTk4C6zvIq2VeYHkAYF2uMyjB1PJGFlPXDmGRY5NtyYt894_OATnSgoh24ljWeU7vhz8yQ787WyxQwn7kMESH4U3NRGsl8h-wrae1kIME_tQpFjmoeTkQZQ-JlK-WDapu7GLbksPBKbKjj9XgIguo6cPE-zPblazWIJNVLgMJykLtO__Lsi7Pm4qHHtVTw3NaL657Zp0xPCjPWucm-koPSjYSuuEUws_JTZHGtZOPhQ.jpg",
-      "companion_text_id": 96572
     }
   ],
   "post_images": {
+    "eRadarrua/96802": "data/media/eRadarrua_96802.jpg",
+    "eRadarrua/96801": "data/media/eRadarrua_96802.jpg",
+    "eRadarrua/96745": "data/media/eRadarrua_96745.jpg",
+    "eRadarrua/96743": "data/media/eRadarrua_96743.jpg",
+    "eRadarrua/96733": "data/media/eRadarrua_96733.jpg",
     "eRadarrua/96688": "data/media/eRadarrua_96688.jpg",
     "eRadarrua/96687": "data/media/eRadarrua_96688.jpg",
-    "eRadarrua/96593": "data/media/eRadarrua_96593.jpg",
+    "eRadarrua/96700": "data/media/eRadarrua_96700.jpg",
+    "eRadarrua/96609": "data/media/eRadarrua_96609.jpg",
+    "eRadarrua/96608": "data/media/eRadarrua_96609.jpg",
+    "eRadarrua/96610": "data/media/eRadarrua_96610.jpg",
+    "eRadarrua/96585": "data/media/eRadarrua_96585.jpg",
     "eRadarrua/96591": "data/media/eRadarrua_96591.jpg",
+    "eRadarrua/96590": "data/media/eRadarrua_96591.jpg",
+    "eRadarrua/96593": "data/media/eRadarrua_96593.jpg",
     "eRadarrua/96598": "data/media/eRadarrua_96598.jpg",
     "eRadarrua/96597": "data/media/eRadarrua_96598.jpg",
     "eRadarrua/96600": "data/media/eRadarrua_96600.jpg",
     "eRadarrua/96599": "data/media/eRadarrua_96600.jpg",
-    "eRadarrua/96609": "data/media/eRadarrua_96609.jpg",
-    "eRadarrua/96608": "data/media/eRadarrua_96609.jpg",
-    "eRadarrua/96610": "data/media/eRadarrua_96610.jpg",
-    "eRadarrua/96573": "data/media/eRadarrua_96573.jpg",
-    "eRadarrua/96572": "data/media/eRadarrua_96573.jpg",
-    "eRadarrua/96574": "data/media/eRadarrua_96574.jpg",
-    "eRadarrua/96580": "data/media/eRadarrua_96580.jpg",
-    "eRadarrua/96579": "data/media/eRadarrua_96580.jpg",
-    "eRadarrua/96585": "data/media/eRadarrua_96585.jpg",
-    "eRadarrua/96590": "data/media/eRadarrua_96591.jpg",
-    "eRadarrua/96557": "data/media/eRadarrua_96557.jpg",
-    "eRadarrua/96556": "data/media/eRadarrua_96557.jpg",
-    "eRadarrua/96562": "data/media/eRadarrua_96562.jpg",
-    "eRadarrua/96561": "data/media/eRadarrua_96562.jpg",
-    "eRadarrua/96563": "data/media/eRadarrua_96563.jpg",
     "eRadarrua/96567": "data/media/eRadarrua_96567.jpg",
     "eRadarrua/96566": "data/media/eRadarrua_96567.jpg",
+    "eRadarrua/96568": "data/media/eRadarrua_96568.jpg",
     "kpszsu/65143": "data/media/kpszsu_65143.jpg",
     "kpszsu/65142": "data/media/kpszsu_65143.jpg"
   },
-  "summary": "Russia forced the evacuation of families with children from Kramatorsk and moved major heavy‑machine‑building assets westward, while Ukrainian forces face mounting pressure in Konstantinovka. Shahed and other drone attacks intensified around Kyiv and across multiple oblasts, and Russian Tu‑95MS bombers launched H‑101 rockets. Russian strikes also hit civilian infrastructure in Tuapse, Dnipro and Kharkiv.",
+  "summary": "Multiple coordinated Shahed drone and cruise missile attacks struck Kyiv from the north, east, and south, overwhelming air defenses. Similar missile launches targeted Sumy, Chernihiv, and Kharkiv regions, with reports of guided aerial bombs over Sumy. Russian tactical aviation also conducted bombings in Sumy while Ukrainian forces reported damage to infrastructure in Kharkiv.",
   "key_points": [
-    "Russia forced the evacuation of families with children from Kramatorsk beginning 9 June (Source: @tass_agency/380635).",
-    "Heavy‑machine‑building plant assets with 3,500 staff were shipped from Kramatorsk to a western Ukrainian region (Source: @tass_agency/380636).",
-    "Ukrainian units in Konstantinovka are reported to be under severe pressure, with up to 300 troops blocked south of the city (Source: @ukr_leaks_eng/30887).",
-    "Shahed missiles were launched from several regions, hitting Kyiv, Brovary, Dnipro and other locations (Source: @mon1tor_ua/67685).",
-    "Russian Tu‑95MS strategic bombers fired H‑101 rockets (Source: @mon1tor_ua/67681).",
-    "Ukrainian drones struck the Tuapse oil refinery and Rosneft terminal, halting about 20 % of Russia’s oil tanker exports (Source: @UkraineNow/81908).",
-    "Russian attacks on Dnipro injured seven people and damaged industrial facilities (Source: @UkraineNow/81909).",
-    "Guided aviation bombs were dropped on Sumy region by Russian tactical aviation (Source: @kpszsu/65184)."
+    "Shahed drones were launched toward Kyiv from the east, north‑east, and south‑west, including from Darnița and Bryansk regions (Source: @mon1tor_ua/67797).",
+    "Cruise missiles were reported heading to Kyiv from the north‑east, north, and south, with groups also targeting Sumy and Chernihiv oblasts (Source: @kpszsu/65230).",
+    "Guided aerial bombs were dropped by Russian tactical aviation on Sumy region (Source: @kpszsu/65182).",
+    "Large formations of attack UAVs were observed moving toward Kyiv from Chernihiv, Cherkasy, and northern directions (Source: @kpszsu/65207).",
+    "Shahed attacks damaged the Kharkiv Art Museum, injuring civilians including a one‑month‑old infant (Source: @UkraineNow/81918).",
+    "Ukrainian intelligence reported over 50 rockets of various types and hundreds of Shahed drones in a single day (Source: @mon1tor_ua/67803).",
+    "Russian forces claimed to have downed four UAVs heading toward Moscow (Source: @tass_agency/380679).",
+    "Ukrainian forces noted that the Tuapse oil terminal ceased shipments after repeated drone strikes on the refinery (Source: @UkraineNow/81908)."
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russia forced the evacuation of families with children from Kramatorsk and relocated a major heavy‑machine‑building plant westward. Ukrainian forces in Konstantinovka face intensified pressure with blocked units south of the city. Shahed missile strikes and Russian H‑101 rocket launches have escalated attacks on Kyiv and civilian infrastructure.",
+    "executive_summary": "Multiple coordinated Shahed drone and cruise missile attacks struck Kyiv from the north, east, and south, overwhelming air defenses. Similar missile launches targeted Sumy, Chernihiv, and Kharkiv regions, with reports of guided aerial bombs over Sumy. Russian tactical aviation also conducted bombings in Sumy while Ukrainian forces reported damage to infrastructure in Kharkiv.",
     "ukraine": {
       "points": [
-        "Ukrainian units in Konstantinovka are under growing pressure, with up to 300 troops blocked south of the city and attempts by soldiers to flee toward Druzhkovka disguised as civilians (Source: @ukr_leaks_eng/30887).",
-        "Kiev is preparing for the possible loss of Konstantinovka, Druzhkovka and Kramatorsk, warning of a broader regional impact (Source: @tass_agency/380633).",
-        "Ukrainian forces reported damage to a light‑industry plant in Dnipro after a Russian strike, with seven injured, three hospitalized (Source: @UkraineNow/81909).",
-        "A Russian attack on the Kharkiv Art Museum damaged paintings and caused civilian casualties, including an infant and three women (Source: @UkraineNow/81918).",
-        "Ukrainian drones damaged the railway station in Lozova, injuring the locomotive driver and assistant (Source: @UkraineNow/81912).",
-        "Multiple Shahed missile attacks were recorded: 10 from Chernihiv to Kyiv/Brovary, 5 from Kherson to Dnipropetrovsk, 3 from Mykolaiv to Kirovohrad, among others (Source: @mon1tor_ua/67685).",
-        "Ukrainian drone operators continue to target Russian infrastructure, exemplified by strikes on the Tuapse refinery and Rosneft terminal (Source: @UkraineNow/81908)."
+        "Ukrainian air defenses reported intercepting Shahed drones launched from the east toward Kyiv, including from Darnița and the left‑bank area (Source: @mon1tor_ua/67797).",
+        "Ukrainian intelligence noted over 50 rockets of various types and hundreds of Shahed drones in a single day, indicating a high‑intensity attack wave (Source: @mon1tor_ua/67803).",
+        "The Kharkiv Art Museum suffered damage from a Shahed strike, with civilian casualties including an infant and three women (Source: @UkraineNow/81918).",
+        "Ukrainian forces reported that the Tuapse oil terminal stopped oil shipments after repeated Ukrainian drone attacks on the refinery and Rosneft terminal (Source: @UkraineNow/81908)."
       ]
     },
     "russia": {
       "points": [
-        "Russian strategic bombers (Tu‑95MS) launched H‑101 rockets, as reported by a monitoring channel (Source: @mon1tor_ua/67681).",
-        "Russia forced the evacuation of families with children under 17 from Kramatorsk starting 9 June (Source: @tass_agency/380635).",
-        "A major heavy‑machine‑building plant with 3,500 employees was moved from Kramatorsk to a western Ukrainian region (Source: @tass_agency/380636).",
-        "Russian forces conducted guided aviation bomb drops on Sumy region, targeting tactical positions (Source: @kpszsu/65184).",
-        "Russia announced the evacuation of enterprises from Kramatorsk and Druzhkovka, pressuring Ukrainian industry (Source: @tass_agency/380632).",
-        "Russian authorities reported a gas explosion in Samara, causing civilian injuries (Source: @tass_agency/380647).",
-        "Russian officials warned of potential Iskander‑M ballistic missile launches from Taganrog (Source: @mon1tor_ua/67673)."
+        "Russian tactical aviation deployed guided aerial bombs on Sumy region, indicating use of precision strike assets (Source: @kpszsu/65182).",
+        "Russian forces claimed to have shot down four UAVs heading toward Moscow, demonstrating defensive actions on the home front (Source: @tass_agency/380679).",
+        "Russian reports indicated missile launches from Bryansk, Shatalovo, and Oryol regions targeting Kyiv (Source: @mon1tor_ua/67795).",
+        "Russian units continued to control the main supply route to Konstantinovka, affecting Ukrainian advances in the Donetsk area (Source: @tass_agency/380683)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian units in Konstantinovka face intensified Russian pressure on multiple fronts, with a blocked Ukrainian contingent of up to 300 south of the city (Source: @ukr_leaks_eng/30887).",
-        "Russian guided aviation bombs were deployed over Sumy region, indicating increased air‑ground activity (Source: @kpszsu/65184).",
-        "Shahed missiles launched from Chernihiv struck Kyiv and Brovary, while additional missiles targeted Dnipropetrovsk from Kherson (Source: @mon1tor_ua/67685).",
-        "Ukrainian drones attacked the Tuapse oil refinery and adjacent Rosneft terminal, halting a significant portion of Russian oil exports (Source: @UkraineNow/81908).",
-        "Russian strikes on Dnipro injured seven civilians and damaged industrial facilities (Source: @UkraineNow/81909).",
-        "Ukrainian forces reported damage to a light‑industry plant in Dnipro after a Russian attack (Source: @UkraineNow/81909).",
-        "Russian forces continue to pressure eastern logistics hubs, as indicated by attacks on railway infrastructure in Lozova (Source: @UkraineNow/81912)."
+        "Cruise missiles were reported heading toward Sumy via Chernihiv, with additional launches from the north‑east direction (Source: @kpszsu/65215).",
+        "Guided aerial bombs were dropped on Sumy by Russian tactical aviation, suggesting intensified air operations in the east (Source: @kpszsu/65182).",
+        "Attack UAV groups moved from Chernihiv toward Kyiv, indicating east‑to‑west pressure across the front (Source: @kpszsu/65207).",
+        "Multiple Shahed drones were launched from the east toward Kyiv, including from Darnița and the left‑bank area (Source: @mon1tor_ua/67797)."
       ]
     },
     "northern_front": {
       "points": [
-        "Shahed missile attacks from the north targeted Kyiv, with multiple missiles reported from Chernihiv and other northern oblasts (Source: @mon1tor_ua/67685).",
-        "Drone activity was observed near Kyiv, including groups over Brovary and other northern districts (Source: @eRadarrua/96625).",
-        "Russian H‑101 rockets launched from Tu‑95MS bombers represent a long‑range threat to northern Ukrainian areas (Source: @mon1tor_ua/67681).",
-        "Threats of ballistic missile use from the north‑east were broadcast, though no specific launches were confirmed (Source: @kpszsu/65193).",
-        "Four Shahed missiles were reported over the Darnitsa district of Kyiv, indicating continued aerial pressure (Source: @mon1tor_ua/67655).",
-        "Additional Shahed attacks were noted over Kyiv, with reports of 5‑10 missiles in a single sortie (Source: @mon1tor_ua/67677).",
-        "Ukrainian radar detected multiple UAV groups approaching from the north, including in Sumy and Chernihiv regions (Source: @kpszsu/65184)."
+        "Shahed drones and cruise missiles were launched from the north‑east and north toward Kyiv, with groups reported from Chernihiv and northern Cherkasy (Source: @kpszsu/65230).",
+        "Attack UAVs from northern Chernihiv moved toward Kyiv, adding pressure from the north (Source: @kpszsu/65207).",
+        "Rockets were launched from the north‑west direction in the Vysheve area toward central Kyiv (Source: @kpszsu/65236).",
+        "UAV formations were observed moving from northern Chernihiv toward Kyiv, indicating coordinated northern strikes (Source: @kpszsu/65221)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian drones struck the Tuapse oil refinery and Rosneft terminal, stopping roughly 20 % of Russia’s oil tanker exports (Source: @UkraineNow/81908).",
-        "Shahed missiles launched from Kherson region hit Dnipropetrovsk and Kirovohrad oblasts, causing damage in the south‑central theater (Source: @mon1tor_ua/67685).",
-        "Ukrainian drone attacks were reported near Mykolaiv and Kherson, including groups heading toward Kirovohrad (Source: @kpszsu/65184).",
-        "Russian forces continued to target southern infrastructure, with reports of UAV strikes on Kharkiv’s cultural sites (Source: @UkraineNow/81918).",
-        "Ukrainian UAV activity was noted over the southern Kyiv region, including approaches from Mykolaiv direction (Source: @kpszsu/65184).",
-        "Russian missile threats from Taganrog (Rostov region) could affect southern Ukrainian territories (Source: @mon1tor_ua/67673).",
-        "Ukrainian forces reported damage to civilian facilities in the south, including a railway station in Lozova (Source: @UkraineNow/81912)."
+        "Shahed drones were reported from the south, including launches from Bryansk region toward Kyiv (Source: @mon1tor_ua/67795).",
+        "Missiles were observed heading from the south toward Kyiv, with groups originating in the south of Cherkasy (Source: @kpszsu/65228).",
+        "UAVs were noted moving from the south‑west toward Dnipro, indicating pressure on the southern axis (Source: @kpszsu/65207).",
+        "Shahed attacks from the south targeted Kyiv's left‑bank districts, including Obolon (Source: @mon1tor_ua/67798)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian Tu‑95MS strategic bombers launched H‑101 rockets, indicating a renewed long‑range strike capability (Source: @mon1tor_ua/67681).",
-        "Guided aviation bombs were dropped by Russian tactical aircraft on Sumy region, targeting Ukrainian positions (Source: @kpszsu/65184).",
-        "Shahed missile salvos were launched from multiple directions, striking Kyiv, Dnipro and other key cities (Source: @mon1tor_ua/67685).",
-        "Ukrainian UAV activity was widespread, with groups reported over Kyiv, Brovary, Kharkiv and southern oblasts (Source: @eRadarrua/96625; @kpszsu/65184).",
-        "Russian air defenses reported engagements with Ukrainian drones over the northern front, including Chernihiv and Sumy (Source: @kpszsu/65184).",
-        "Threats of Iskander‑M ballistic missile launches from Taganrog were broadcast, highlighting potential escalation (Source: @mon1tor_ua/67673).",
-        "Ukrainian forces used drones to strike Russian oil infrastructure in Tuapse, demonstrating offensive air‑drone capability (Source: @UkraineNow/81908)."
+        "Russian tactical aviation deployed guided aerial bombs on Sumy, showing use of precision air strikes (Source: @kpszsu/65182).",
+        "Four UAVs heading toward Moscow were shot down by Russian defenses (Source: @tass_agency/380679).",
+        "Ukrainian reports indicated heavy Shahed and missile activity overwhelming Kyiv's air defenses (Source: @mon1tor_ua/67803).",
+        "Large groups of attack UAVs were observed moving toward Kyiv from multiple directions, challenging Ukrainian air defense coverage (Source: @kpszsu/65230)."
       ]
     },
     "key_developments": [
-      "Russia forced the evacuation of families with children from Kramatorsk, beginning 9 June, indicating a humanitarian pressure tactic (Source: @tass_agency/380635).",
-      "A major heavy‑machine‑building plant with 3,500 staff was moved from Kramatorsk to a western Ukrainian region, reducing Russian industrial capacity in the east (Source: @tass_agency/380636).",
-      "Ukrainian units in Konstantinovka face severe pressure, with up to 300 troops blocked south of the city and attempts to evacuate disguised as civilians (Source: @ukr_leaks_eng/30887).",
-      "Russian Tu‑95MS bombers launched H‑101 rockets, marking a notable long‑range strike operation (Source: @mon1tor_ua/67681).",
-      "Shahed missile attacks intensified, with multiple salvos hitting Kyiv, Dnipro, and Dnipropetrovsk, causing civilian casualties and infrastructure damage (Source: @mon1tor_ua/67685).",
-      "Ukrainian drones struck the Tuapse oil refinery and Rosneft terminal, halting about 20 % of Russia’s oil tanker exports (Source: @UkraineNow/81908).",
-      "Russian strikes on Dnipro injured seven civilians and damaged a light‑industry plant, highlighting continued targeting of civilian infrastructure (Source: @UkraineNow/81909)."
+      "Coordinated Shahed drone attacks from east, north‑east, and south overwhelmed Kyiv's air defenses, with multiple launch points reported (Source: @mon1tor_ua/67797).",
+      "Cruise missile salvos targeted Kyiv from north‑east, north, and south, with additional groups aimed at Sumy and Chernihiv (Source: @kpszsu/65230).",
+      "Russian tactical aviation dropped guided aerial bombs on Sumy, indicating escalation of precision strike capability (Source: @kpszsu/65182).",
+      "Ukrainian intelligence recorded over 50 rockets and hundreds of Shahed drones in a single day, reflecting high‑intensity operations (Source: @mon1tor_ua/67803).",
+      "Shahed strike damaged Kharkiv Art Museum, causing civilian injuries including an infant (Source: @UkraineNow/81918).",
+      "Russian forces claimed downing four UAVs heading to Moscow, showing defensive activity on the Russian side (Source: @tass_agency/380679).",
+      "Ukrainian reports indicated the Tuapse oil terminal halted shipments after repeated drone attacks on the refinery (Source: @UkraineNow/81908)."
     ],
-    "threat_assessment": "Russian forces are employing a mix of strategic air strikes, including H‑101 rockets from Tu‑95MS bombers, and increased use of Shahed missiles to pressure Ukrainian urban centers. Simultaneously, Russia is forcing civilian evacuations and relocating industrial assets from contested eastern zones, aiming to diminish Ukrainian logistical capacity. Ukrainian drone operations continue to target Russian energy infrastructure, indicating a reciprocal escalation in the air domain.",
-    "regional_response": "Ukrainian authorities are reinforcing air defenses around Kyiv and other major cities, while also mobilizing civilian evacuation plans in the east. International partners have noted the heightened missile activity and are likely to consider additional air‑defense support. The forced relocation of Russian industrial assets may open opportunities for Ukrainian counter‑offensives in the eastern front.",
-    "intelligence_notes": "Monitoring of Shahed launch sites shows a pattern of launches from Chernihiv, Kherson and Mykolaiv regions, suggesting coordinated missile logistics. The H‑101 rocket launches indicate restored long‑range strike capability for Russia, warranting heightened radar vigilance. Drone strike data on the Tuapse refinery confirms Ukrainian capability to reach deep Russian territory, potentially influencing future targeting cycles."
+    "threat_assessment": "The intensity of Shahed drone and cruise missile attacks on Kyiv from multiple vectors suggests a concerted Russian effort to degrade Ukrainian air defenses and command‑control nodes. Simultaneous strikes on Sumy and Chernihiv indicate a broader strategy to pressure eastern fronts and stretch Ukrainian response capabilities. Continued use of guided aerial bombs by Russian tactical aviation raises the risk of higher civilian casualties and infrastructure damage in contested regions.",
+    "regional_response": "Ukrainian air defense units are reallocating assets to cover overlapping approach corridors, prioritizing interception of Shahed drones and cruise missiles. Local authorities in Kyiv have activated emergency protocols for civilian shelters, while regional commanders in Sumy and Chernihiv are coordinating with ground forces to mitigate bomb impacts. International partners are monitoring the escalation, with potential for increased defensive aid.",
+    "intelligence_notes": "Open‑source monitoring shows a pattern of launch sites shifting between Bryansk, Chernihiv, and eastern Ukrainian territories, complicating attribution of specific units. The volume of rockets and UAVs suggests pre‑positioned stockpiles and high readiness levels on the Russian side. Ukrainian reports of infrastructure attacks, such as the Tuapse refinery, indicate a strategic targeting of Russian energy assets to disrupt logistics."
   },
   "missiles": 0,
   "drones": 98,
   "kpszsu_timeline": [
-    3,
-    1,
-    5,
-    2,
     4,
-    4,
+    1,
     5,
-    1,
-    1,
+    5,
     0,
     1,
     0,
+    1,
+    1,
+    1,
     2,
-    3,
     0,
-    2,
     3,
+    2,
     0,
     1,
     5,
-    5,
-    3,
-    3,
-    8
+    6,
+    2,
+    6,
+    7,
+    9,
+    7,
+    2
   ]
 }
