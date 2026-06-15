@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-15T19:41:20.437599+00:00",
-  "message_count": 526,
+  "updated_at": "2026-06-15T21:22:43.239775+00:00",
+  "message_count": 515,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,13 +13,11 @@
   ],
   "red_alerts": 60,
   "red_alerts_timeline": [
-    0,
-    0,
+    1,
+    2,
+    1,
     4,
     0,
-    4,
-    1,
-    0,
     0,
     0,
     1,
@@ -28,68 +26,90 @@
     0,
     0,
     0,
-    1,
     0,
+    1,
     0,
     0,
     0,
     1,
     0,
     3,
-    1
+    1,
+    1,
+    0
   ],
   "combined_activity_timeline": [
-    10,
-    19,
-    82,
-    69,
-    63,
-    32,
-    15,
-    9,
-    7,
-    13,
-    15,
-    16,
+    64,
+    77,
+    53,
+    58,
+    14,
+    8,
+    8,
     12,
-    17,
-    24,
     16,
-    21,
-    17,
-    10,
+    16,
     11,
-    16,
-    9,
     13,
-    9
+    24,
+    18,
+    22,
+    17,
+    15,
+    8,
+    10,
+    15,
+    12,
+    11,
+    7,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 77,
-    "@kpszsu": 65,
-    "@mon1tor_ua": 184,
+    "@eRadarrua": 78,
+    "@kpszsu": 61,
+    "@mon1tor_ua": 178,
     "@UkraineNow": 29,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 140
+    "@tass_agency": 138
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96865",
-    "kpszsu": "https://t.me/kpszsu/65292",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67815",
+    "eRadarrua": "https://t.me/eRadarrua/96882",
+    "kpszsu": "https://t.me/kpszsu/65294",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67819",
     "UkraineNow": "https://t.me/UkraineNow/81955",
     "DeepStateUA": "https://t.me/DeepStateUA/23580",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30927",
-    "tass_agency": "https://t.me/tass_agency/380814"
+    "tass_agency": "https://t.me/tass_agency/380817"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/65273",
-    "eRadarrua": "https://t.me/eRadarrua/96817",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30895",
     "UkraineNow": "https://t.me/UkraineNow/81921",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67806"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30918",
+    "kpszsu": "https://t.me/kpszsu/65266",
+    "eRadarrua": "https://t.me/eRadarrua/96836",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67810"
   },
   "media": [
+    {
+      "post_url": "https://t.me/mon1tor_ua/67818",
+      "post_id": 67818,
+      "channel": "mon1tor_ua",
+      "ts": "2026-06-15T20:47:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/380815",
+      "post_id": 380815,
+      "channel": "tass_agency",
+      "ts": "2026-06-15T19:53:04+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/96871",
+      "post_id": 96871,
+      "channel": "eRadarrua",
+      "ts": "2026-06-15T19:48:25+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/SJLyHxIxoLitQS04_C9T7MTlvvAwBxeFsw0Vqj-5hTXAqq8QltIPRx8dwdlA_AHj6GfzSN7w5SSbhwuV2SnyAuTf37vbkMhrjKA1lEEhNaAVGeasxJHU9f8RX1ibUZpyCQBQGB-PDNUY0tvrmVx8lbgeRFue_qBUXptBiEOUB6xGXznFuoCAx0tMOQGu8F0n3FOEqXrb4SuPf0nkN4RFBByYoU05flpbDzwMx_2O8WH2_iFB3b8wjaxh0EVYOdQK3YCv4J06HX379SPU1aAQt4vaWGiiu_ehPXQ258XznsoOZY6v4SY2DnDgAEvN5bT33K4xtI59pmqeBM23eIrcGw.jpg",
+      "companion_text_id": 96870
+    },
     {
       "post_url": "https://t.me/UkraineNow/81955",
       "post_id": 81955,
@@ -194,160 +214,143 @@
       "post_id": 380794,
       "channel": "tass_agency",
       "ts": "2026-06-15T14:22:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380792",
-      "post_id": 380792,
-      "channel": "tass_agency",
-      "ts": "2026-06-15T14:02:56+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30918",
-      "post_id": 30918,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-15T13:53:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/380788",
-      "post_id": 380788,
-      "channel": "tass_agency",
-      "ts": "2026-06-15T13:11:01+00:00"
     }
   ],
   "post_images": {
     "eRadarrua/96865": "data/media/eRadarrua_96865.jpg",
     "eRadarrua/96864": "data/media/eRadarrua_96865.jpg",
-    "eRadarrua/96841": "data/media/eRadarrua_96841.jpg",
-    "eRadarrua/96811": "data/media/eRadarrua_96811.jpg",
-    "eRadarrua/96810": "data/media/eRadarrua_96811.jpg",
-    "eRadarrua/96814": "data/media/eRadarrua_96814.jpg",
-    "eRadarrua/96813": "data/media/eRadarrua_96814.jpg",
-    "eRadarrua/96817": "data/media/eRadarrua_96817.jpg",
-    "eRadarrua/96816": "data/media/eRadarrua_96817.jpg",
+    "eRadarrua/96871": "data/media/eRadarrua_96871.jpg",
+    "eRadarrua/96870": "data/media/eRadarrua_96871.jpg",
     "eRadarrua/96824": "data/media/eRadarrua_96824.jpg",
     "eRadarrua/96823": "data/media/eRadarrua_96824.jpg",
     "eRadarrua/96827": "data/media/eRadarrua_96827.jpg",
     "eRadarrua/96826": "data/media/eRadarrua_96827.jpg",
+    "eRadarrua/96841": "data/media/eRadarrua_96841.jpg",
+    "eRadarrua/96809": "data/media/eRadarrua_96809.jpg",
+    "eRadarrua/96810": "data/media/eRadarrua_96809.jpg",
+    "eRadarrua/96811": "data/media/eRadarrua_96811.jpg",
+    "eRadarrua/96814": "data/media/eRadarrua_96814.jpg",
+    "eRadarrua/96813": "data/media/eRadarrua_96814.jpg",
+    "eRadarrua/96817": "data/media/eRadarrua_96817.jpg",
+    "eRadarrua/96816": "data/media/eRadarrua_96817.jpg",
     "eRadarrua/96802": "data/media/eRadarrua_96802.jpg",
     "eRadarrua/96801": "data/media/eRadarrua_96802.jpg",
-    "eRadarrua/96809": "data/media/eRadarrua_96809.jpg",
-    "eRadarrua/96733": "data/media/eRadarrua_96733.jpg",
     "eRadarrua/96743": "data/media/eRadarrua_96743.jpg",
     "eRadarrua/96745": "data/media/eRadarrua_96745.jpg",
-    "eRadarrua/96700": "data/media/eRadarrua_96700.jpg",
+    "eRadarrua/96733": "data/media/eRadarrua_96733.jpg",
     "eRadarrua/96688": "data/media/eRadarrua_96688.jpg",
     "eRadarrua/96687": "data/media/eRadarrua_96688.jpg",
+    "eRadarrua/96700": "data/media/eRadarrua_96700.jpg",
     "kpszsu/65248": "data/media/kpszsu_65248.jpg",
     "kpszsu/65247": "data/media/kpszsu_65248.jpg"
   },
-  "summary": "Russian tactical aviation launched guided aviation bombs on the Zaporizhzhia region and Kharkiv, while intensive Shahed drone attacks struck Kyiv and surrounding areas, causing civilian casualties. Ukraine confirmed receipt of Patriot missiles and asserted that the Dormition Cathedral was hit by a Russian drone, not an errant air defense missile. Overall, the night saw 611 drones and 70 rockets deployed across Ukraine, with the capital bearing the brunt of damage and casualties.",
+  "summary": "Russia launched a massive overnight strike of 611 drones and 70 rockets, primarily targeting Kyiv, causing civilian casualties and infrastructure damage. Ukraine reported multiple UAV sightings across several fronts and announced compensation for displaced residents in Kyiv. Zelensky proposed a direct meeting with Putin at the upcoming G7 summit in France.",
   "key_points": [
-    "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia region (Source: @kpszsu/65273).",
-    "Shahed-type drone struck the Kyiv Pechersk Lavra, according to SBU evidence (Source: @eRadarrua/96817).",
-    "Massive missile and drone strikes hit targets in Kyiv (Source: @ukr_leaks_eng/30895).",
-    "Ukraine received a batch of Patriot missiles (Source: @ukr_leaks_eng/30913).",
-    "Ukraine says the Dormition Cathedral was hit by a Russian drone, not a Patriot missile (Source: @ukr_leaks_eng/30913).",
-    "Night attack involved 611 drones and 70 rockets, primarily targeting Kyiv, resulting in 30 injured and 4 dead (Source: @UkraineNow/81921).",
-    "Multiple Shahed drones were reported over Kyiv districts including Obolon, Pechersk, and Darnytsia (Source: @mon1tor_ua/67806).",
-    "Russian tactical aviation also bombed Kharkiv region (Source: @kpszsu/65266)."
+    "Russia launched 611 drones and 70 rockets overnight, focusing on Kyiv, resulting in four deaths and thirty injuries (Source: @UkraineNow/81921).",
+    "Zelensky offered to meet Putin at the G7 summit in Evian-les-Bains, France, on June 15-17, with a request already submitted by Ukraine (Source: @ukr_leaks_eng/30918).",
+    "Ukrainian authorities announced one‑time 40,000 UAH aid and up to 20,000 UAH monthly compensation for Kyiv residents whose homes were damaged (Source: @UkraineNow/81947).",
+    "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia and Kharkiv regions (Source: @kpszsu/65266).",
+    "Ukrainian forces reported the liberation of the village of Artema (Dolgaya Balka) in the Konstantinovka direction of Donetsk (Source: @ukr_leaks_eng/30916).",
+    "Multiple UAVs were tracked over northern Donetsk, Sumy, Kharkiv, and near the Black Sea, indicating continued aerial activity (Sources: @kpszsu/65263, @kpszsu/65267, @eRadarrua/96836).",
+    "A Russian Tu‑22M3 bomber crashed after takeoff in California, unrelated to the front lines (Source: @mon1tor_ua/67810)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russian tactical aviation launched guided aviation bombs on Zaporizhzhia and Kharkiv regions, intensifying the air campaign. Shahed drones repeatedly struck Kyiv, including the Pechersk Lavra, causing civilian casualties and infrastructure damage. Ukraine reported receiving Patriot missiles and confirmed a Russian drone hit the Dormition Cathedral, while a massive night barrage of 611 drones and 70 rockets hit primarily Kyiv.",
+    "executive_summary": "Russia unleashed a large‑scale drone and missile barrage, striking Kyiv and causing civilian casualties and significant damage. Ukraine responded with compensation measures for affected Kyiv residents and reported ongoing UAV activity across multiple fronts. Zelensky seeks a direct dialogue with Putin at the upcoming G7 summit.",
     "ukraine": {
       "points": [
-        "Ukraine announced receipt of a batch of Patriot surface-to-air missiles, enhancing its air defense capabilities (Source: @ukr_leaks_eng/30913).",
-        "The Ukrainian Orthodox Church reported that the Dormition Cathedral at the Kyiv Pechersk Lavra was struck by a Russian Shahed drone, not a Patriot missile (Source: @ukr_leaks_eng/30913).",
-        "SBU investigators identified fragments of a Shahed-type UAV at the Kyiv Pechersk Lavra site, confirming a drone attack (Source: @eRadarrua/96817).",
-        "Civilian shelters in the Kyiv metro continued to be used as bomb shelters during ongoing attacks (Source: @ukr_leaks_eng/30897).",
-        "Ukraine reported that 30 civilians were injured, including two children, and four fatalities resulted from the recent large-scale drone and missile barrage (Source: @UkraineNow/81921)."
+        "The Ukrainian government announced a one‑time 40,000 UAH assistance payment and up to 20,000 UAH monthly rent compensation for Kyiv residents whose homes were damaged in recent attacks (Source: @UkraineNow/81947).",
+        "In Dnipro, a night‑time Russian strike damaged the House of Organ and Chamber Music, destroyed a college room, and shattered school windows (Source: @UkraineNow/81924).",
+        "Ukrainian forces reclaimed the village of Artema (Dolgaya Balka) in the Konstantinovka direction of the Donetsk People's Republic (Source: @ukr_leaks_eng/30916).",
+        "A Russian attack on Komishuvakha in Zaporizhzhia during humanitarian aid distribution injured four people (Source: @UkraineNow/81944).",
+        "An airstrike hit Kharkiv's zoo, igniting a fire in an enclosure and causing animal deaths (Source: @UkraineNow/81952)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation conducted guided aviation bomb strikes on the Zaporizhzhia region (Source: @kpszsu/65273).",
-        "The same Russian air assets also launched guided bombs on Kharkiv region (Source: @kpszsu/65266).",
-        "Shahed drones were observed approaching Kyiv from multiple directions, including Obolon, Pechersk, and Darnytsia districts (Source: @mon1tor_ua/67806).",
-        "Additional Shahed drones were reported over Kyiv's left-bank area targeting Lukianivka (Source: @mon1tor_ua/67779).",
-        "Russian forces employed reactive UAVs near Odessa, prompting civilian shelter alerts (Source: @kpszsu/65264)."
+        "Russia launched 611 drones and 70 rockets overnight, with the main focus on Kyiv, resulting in four civilian deaths and thirty injuries (Source: @UkraineNow/81921).",
+        "Russian tactical aviation employed guided aviation bombs against targets in Zaporizhzhia and Kharkiv regions (Source: @kpszsu/65266).",
+        "A Russian Tu‑22M3 strategic bomber crashed shortly after takeoff in California, reported by Ukrainian monitoring channels (Source: @mon1tor_ua/67810).",
+        "Ukrainian reports indicate Russian UAV activity over the Black Sea near the Crimean coast, heading southward (Source: @eRadarrua/96836).",
+        "Multiple Russian‑controlled UAVs were observed over northern Donetsk heading toward Novodonetsk (Source: @kpszsu/65263)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Guided aviation bombs were dropped on the Zaporizhzhia region, indicating intensified Russian air operations in the east (Source: @kpszsu/65273).",
-        "Kharkiv region also experienced guided bomb attacks from Russian tactical aviation (Source: @kpszsu/65266).",
-        "A reactive UAV was reported near Bogoduhiv in Kharkiv region, flying southward (Source: @kpszsu/65275).",
-        "Shahed drone activity was noted over the Berestyna area of Kharkiv region, heading toward Poltava direction (Source: @eRadarrua/96838).",
-        "Russian air activity included a reactive UAV from the Black Sea area heading toward Odesa region (Source: @kpszsu/65259)."
+        "Ukrainian forces reported the liberation of Artema (Dolgaya Balka) in the Konstantinovka direction of Donetsk, indicating a localized advance (Source: @ukr_leaks_eng/30916).",
+        "Russian UAVs were tracked over Sumy heading toward Esman/Gluhiiv, suggesting reconnaissance or strike intent in the northeastern sector (Source: @kpszsu/65267).",
+        "Guided aviation bomb releases were noted over Zaporizhzhia, a key eastern industrial region, by Russian tactical aviation (Source: @kpszsu/65266).",
+        "Ukrainian monitoring noted groups of strike UAVs passing near Brovary en route to Kyiv, highlighting pressure on the eastern approaches to the capital (Source: @kpszsu/65235).",
+        "A Russian UAV was observed over the north of Sumy moving toward Chernihiv region, indicating potential cross‑border activity (Source: @kpszsu/65291)."
       ]
     },
     "northern_front": {
       "points": [
-        "A reactive UAV was observed moving from the north of Donetsk toward Novodonetsk (Source: @kpszsu/65263).",
-        "Shahed drones were reported over the northern Kyiv area, including a flight over the city radar (Source: @mon1tor_ua/67799).",
-        "Ukrainian sources noted a Shahed drone approaching Kropyvnytskyi from the west (Source: @mon1tor_ua/67815).",
-        "A Shahed drone was sighted over Sumy region heading toward Yampil, then toward Voronezh (Source: @kpszsu/65279).",
-        "Reactive UAV activity was reported from the Black Sea heading toward Odesa, affecting northern coastal defenses (Source: @kpszsu/65259)."
+        "Ukrainian channels reported UAVs over northern Donetsk heading to Novodonetsk (Source: @kpszsu/65263).",
+        "Multiple UAV sightings were logged over the Kyiv region, including flights over Darniy district, Kharkiv district, and Poznyaki (Source: @mon1tor_ua/67805).",
+        "A UAV was observed over the north of Sumy moving toward Chernihiv, suggesting northern reconnaissance activity (Source: @kpszsu/65291).",
+        "Ukrainian radar detected UAV groups over the Kyiv area, prompting air‑defence alerts (Source: @mon1tor_ua/67800).",
+        "A UAV was reported over the north of Donetsk heading toward Novodonetsk, reinforcing continued aerial pressure in the north (Source: @kpszsu/65263)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian tactical aviation launched guided bombs on Kharkiv and Zaporizhzhia, affecting southern operational zones (Source: @kpszsu/65266).",
-        "A reactive UAV was reported from the Black Sea heading toward Odesa and the Odesa region (Source: @kpszsu/65259).",
-        "Shahed drones were observed over the Dnipro region, causing damage to a music school building (Source: @UkraineNow/81924).",
-        "Ukrainian authorities reported a night attack causing damage in Dnipro, including a damaged organ and chamber music building (Source: @UkraineNow/81924).",
-        "Ukrainian air alerts warned of possible MiG-31K flights over the country during the day (Source: @eRadarrua/96815)."
+        "Two controlled UAVs were spotted over the Black Sea near the Crimean coast, heading southward (Source: @eRadarrua/96836).",
+        "Ukrainian monitoring noted UAV groups from Kherson moving toward Mykolaiv, including the settlement of Bereznegovatoye (Source: @eRadarrua/96870).",
+        "A UAV was observed over Mykolaiv region with a north‑north‑east course (Source: @kpszsu/65277).",
+        "Russian tactical aviation launched guided bombs on Zaporizhzhia, a southern strategic region (Source: @kpszsu/65266).",
+        "Ukrainian reports indicated UAV activity over the southern Dnipropetrovsk area, specifically Tomakivka from the south (Source: @eRadarrua/96846)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation employed guided aviation bombs on Zaporizhzhia and Kharkiv regions, indicating a shift to precision strike tactics (Source: @kpszsu/65273, @kpszsu/65266).",
-        "Shahed drones proliferated over Kyiv, with multiple sightings across districts, overwhelming local air defenses (Source: @mon1tor_ua/67806, @mon1tor_ua/67779).",
-        "Ukraine reported receiving Patriot missile systems to bolster its air defense network (Source: @ukr_leaks_eng/30913).",
-        "A massive coordinated barrage of 611 drones and 70 rockets targeted Ukraine, primarily Kyiv, resulting in civilian casualties (Source: @UkraineNow/81921).",
-        "Ukrainian radar reported increased activity of tactical aviation aircraft over the southern front (Source: @eRadarrua/96816)."
+        "Russia employed 611 drones and 70 rockets in a coordinated overnight strike, heavily targeting Kyiv and causing civilian casualties (Source: @UkraineNow/81921).",
+        "Russian tactical aviation released guided aviation bombs on Zaporizhzhia and Kharkiv, indicating use of precision strike assets (Source: @kpszsu/65266).",
+        "Ukrainian air‑defence reported a successful interception of a missile over Kyiv at 05:22 on 15 June (Source: @eRadarrua/96805).",
+        "A Russian Tu‑22M3 strategic bomber crashed after takeoff in California, noted by Ukrainian monitoring sources (Source: @mon1tor_ua/67810).",
+        "Multiple UAVs were tracked over various fronts, including northern Donetsk, Sumy, Kharkiv, and the Black Sea, reflecting sustained aerial reconnaissance and strike activity (Sources: @kpszsu/65263, @eRadarrua/96836)."
       ]
     },
     "key_developments": [
-      "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia region, marking a notable escalation in precision air strikes (Source: @kpszsu/65273).",
-      "Shahed-type drone impact confirmed at Kyiv Pechersk Lavra by SBU, highlighting continued UAV threat to cultural sites (Source: @eRadarrua/96817).",
-      "Ukraine received a batch of Patriot missiles, strengthening its air defense capabilities against Russian aerial attacks (Source: @ukr_leaks_eng/30913).",
-      "Nighttime barrage of 611 drones and 70 rockets focused on Kyiv caused 30 injuries and four fatalities, underscoring high-intensity combat (Source: @UkraineNow/81921).",
-      "Multiple Shahed drones reported over Kyiv districts, including Obolon, Pechersk, and Darnytsia, stressing strain on local air defenses (Source: @mon1tor_ua/67806).",
-      "Russian guided bomb strikes also hit Kharkiv region, expanding the eastern front's aerial conflict zone (Source: @kpszsu/65266).",
-      "Reactive UAV activity near Odessa prompted civilian shelter alerts, indicating Russian air pressure on southern coastal areas (Source: @kpszsu/65264)."
+      "Russia launched 611 drones and 70 rockets in an overnight barrage focused on Kyiv, causing four deaths and thirty injuries (Source: @UkraineNow/81921).",
+      "Zelensky offered a direct meeting with Putin at the G7 summit in Evian-les-Bains, France, on June 15‑17, with Ukraine having submitted a request (Source: @ukr_leaks_eng/30918).",
+      "Ukrainian authorities announced 40,000 UAH one‑time aid and up to 20,000 UAH monthly rent compensation for Kyiv residents whose homes were damaged (Source: @UkraineNow/81947).",
+      "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia and Kharkiv regions, indicating escalation of precision strike use (Source: @kpszsu/65266).",
+      "Ukrainian forces liberated the village of Artema (Dolgaya Balka) in the Konstantinovka direction of Donetsk, marking a localized gain (Source: @ukr_leaks_eng/30916).",
+      "Multiple UAVs were observed over the Black Sea near Crimea heading south, and over northern Donetsk toward Novodonetsk, showing expanded aerial activity (Sources: @eRadarrua/96836, @kpszsu/65263).",
+      "A Russian Tu‑22M3 bomber crashed after takeoff in California, reported by Ukrainian monitoring channels (Source: @mon1tor_ua/67810)."
     ],
-    "threat_assessment": "Russian air operations have intensified, employing guided aviation bombs on key eastern regions and a high volume of Shahed drones targeting Kyiv, challenging Ukraine's air defense. The influx of Patriot systems provides Ukraine with improved interception capability, yet the sheer number of drones and rockets overwhelms current defenses, leading to civilian casualties and infrastructure damage. Continued UAV activity across northern and southern fronts suggests a broadening of the aerial threat envelope, requiring sustained anti‑drone measures and coordination with allied air support.",
-    "regional_response": "Ukraine's government has mobilized civilian shelters, especially in Kyiv metro stations, and publicized the receipt of Patriot missiles to reassure the populace. Local authorities in affected oblasts, such as Dnipro and Kharkiv, reported damage to civilian structures and coordinated emergency services. Internationally, the provision of Patriot systems reflects increased NATO support, though operational integration remains in early stages.",
-    "intelligence_notes": "SBU forensic analysis confirms Shahed drone fragments at the Kyiv Pechersk Lavra, providing concrete evidence of Russian UAV deployment against cultural sites. Radar and open‑source monitoring indicate a surge in Shahed sightings over Kyiv, suggesting coordinated launch points possibly from occupied territories. The scale of the recent drone and rocket barrage points to a pre‑planned mass attack, likely synchronized with ground operations in the east."
+    "threat_assessment": "The large‑scale drone and missile strike demonstrates Russia's continued capacity to conduct high‑volume aerial attacks, stressing Ukrainian air‑defences, especially around Kyiv. Russian tactical aviation's use of guided bombs in Zaporizhzhia and Kharkiv suggests a shift toward more precise, high‑value targeting, potentially increasing civilian risk in contested areas. Ukrainian counter‑offensives, such as the recapture of Artema, indicate localized momentum but face sustained aerial pressure across multiple fronts.",
+    "regional_response": "Ukraine is mobilising financial assistance for displaced civilians in Kyiv, aiming to mitigate the humanitarian impact of recent attacks. International diplomatic efforts are evident in Zelensky's proposal for a direct dialogue with Putin at the G7 summit, seeking a high‑level negotiation channel. NATO officials have warned against Ukrainian drone operations that could endanger alliance members, reflecting heightened sensitivity to escalation risks.",
+    "intelligence_notes": "UAV activity remains pervasive across northern, eastern, and southern fronts, with sightings near strategic locations such as Novodonetsk, Sumy, and the Black Sea coast, indicating ongoing reconnaissance and strike preparation. The crash of a Russian Tu‑22M3 bomber, while outside the combat zone, may affect Russian strategic bomber availability. Continued monitoring of Russian guided bomb deployments is essential to anticipate further precision strikes on critical infrastructure."
   },
   "missiles": 60,
   "drones": 0,
   "kpszsu_timeline": [
-    5,
-    1,
-    10,
+    8,
     5,
     11,
-    4,
+    7,
+    0,
     1,
     1,
-    1,
-    2,
+    3,
     0,
     2,
     2,
     0,
     0,
+    0,
+    8,
+    1,
+    5,
+    1,
+    0,
     2,
-    6,
     2,
-    4,
     1,
     1,
-    1,
-    2,
-    1
+    0
   ]
 }
