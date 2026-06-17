@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-17T02:13:35.224541+00:00",
-  "message_count": 287,
+  "updated_at": "2026-06-17T04:54:40.528850+00:00",
+  "message_count": 284,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,82 +14,90 @@
   "red_alerts": 132,
   "red_alerts_timeline": [
     0,
-    0,
-    20,
-    0,
-    20,
-    20,
+    24,
+    24,
     0,
     0,
     0,
-    10,
-    10,
-    10,
+    0,
+    12,
+    24,
     0,
     0,
-    10,
+    12,
     0,
-    10,
+    12,
     0,
-    10,
-    10,
+    0,
+    24,
+    0,
+    0,
+    0,
     0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    4,
-    9,
-    18,
-    11,
-    15,
-    19,
+    13,
     16,
     18,
-    12,
-    22,
-    15,
-    19,
-    22,
-    12,
-    11,
     17,
-    8,
+    16,
+    16,
+    18,
+    17,
+    18,
+    14,
+    23,
+    9,
+    16,
+    13,
     4,
-    6,
-    6,
     2,
-    6,
+    7,
+    5,
+    3,
     8,
-    7
+    7,
+    7,
+    6,
+    11
   ],
   "messages_by_channel": {
     "@eRadarrua": 42,
-    "@kpszsu": 59,
+    "@kpszsu": 62,
     "@mon1tor_ua": 4,
     "@UkraineNow": 22,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 134
+    "@tass_agency": 128
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/96956",
-    "kpszsu": "https://t.me/kpszsu/65398",
+    "eRadarrua": "https://t.me/eRadarrua/96958",
+    "kpszsu": "https://t.me/kpszsu/65406",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67826",
     "UkraineNow": "https://t.me/UkraineNow/81981",
     "DeepStateUA": "https://t.me/DeepStateUA/23583",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30953",
-    "tass_agency": "https://t.me/tass_agency/380995"
+    "tass_agency": "https://t.me/tass_agency/381010"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/81976",
-    "tass_agency": "https://t.me/tass_agency/380986",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30937",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67825",
-    "kpszsu": "https://t.me/kpszsu/65387"
+    "UkraineNow": "https://t.me/UkraineNow/81981",
+    "tass_agency": "https://t.me/tass_agency/381003",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67824",
+    "kpszsu": "https://t.me/kpszsu/65385",
+    "eRadarrua": "https://t.me/eRadarrua/96938",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30951",
+    "DeepStateUA": "https://t.me/DeepStateUA/23581"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/381010",
+      "post_id": 381010,
+      "channel": "tass_agency",
+      "ts": "2026-06-17T04:53:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/380992",
       "post_id": 380992,
@@ -209,12 +217,6 @@
       "post_id": 81973,
       "channel": "UkraineNow",
       "ts": "2026-06-16T13:58:34+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30946",
-      "post_id": 30946,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-16T13:52:54+00:00"
     }
   ],
   "post_images": {
@@ -226,133 +228,131 @@
     "eRadarrua/96926": "data/media/eRadarrua_96927.jpg",
     "eRadarrua/96913": "data/media/eRadarrua_96913.jpg",
     "eRadarrua/96912": "data/media/eRadarrua_96913.jpg",
-    "eRadarrua/96883": "data/media/eRadarrua_96883.jpg",
     "eRadarrua/96891": "data/media/eRadarrua_96891.jpg",
     "eRadarrua/96890": "data/media/eRadarrua_96891.jpg",
     "eRadarrua/96892": "data/media/eRadarrua_96892.jpg",
     "kpszsu/65307": "data/media/kpszsu_65307.jpg",
     "kpszsu/65306": "data/media/kpszsu_65307.jpg"
   },
-  "summary": "Ukrainian long‑range strike hit a Russian oil‑processing plant 500 km from the front, and multiple UAV attacks caused civilian casualties in Nikopol and other settlements. Russia reported shooting down 10 UAVs bound for Moscow and claimed destruction of Ukrainian drone command points in Zaporizhzhia. Both sides continue intensive drone and missile activity across several fronts.",
+  "summary": "Ukrainian drones attacked a Moscow oil refinery and other targets, prompting Russian air defenses to down 10 UAVs over Moscow. Tactical aviation activity was reported on eastern and northeastern fronts, and three Tu‑95 bombers were relocated from Engels to Olyenya. A Su‑24M crash in Khmelnytskyi resulted in two crew deaths.",
   "key_points": [
-    "Ukrainian long‑range strike damaged an oil‑processing plant in the Moscow region, 500 km from the front (Source: @UkraineNow/81976).",
-    "Three civilians were killed by an FPV drone in Nikopol, Dnipropetrovsk region (Source: @UkraineNow/81974).",
-    "Russia’s air defence downed 10 UAVs heading toward Moscow (Source: @tass_agency/380986).",
-    "Russian MoD claimed UAVs destroyed Ukrainian drone command points in Zaporizhzhia oblast (Source: @tass_agency/380995).",
-    "Ukrainian MoD reported 172 enemy drones shot down and listed numerous drone attacks across Russian regions (Source: @ukr_leaks_eng/30937).",
-    "A Ukrainian Su‑24M crashed during a mission over Khmelnytskyi region, killing both crew members (Source: @mon1tor_ua/67825).",
-    "UAV activity reported near Solone (north‑east), Sumy, and Zaporizhzhia regions (Source: @kpszsu/65387, @kpszsu/65360, @kpszsu/65386).",
-    "A rocket was launched toward Donetsk near Novomykolayivka (Source: @kpszsu/65359)."
+    "Ukrainian drones struck a refinery in Moscow region, causing emergency pressure reduction (Source: @UkraineNow/81981).",
+    "Russian air defenses shot down ten UAVs heading to Moscow (Source: @tass_agency/381003).",
+    "Three Tu‑95 strategic bombers were moved from Engels airfield to Olyenya, with possible additional two bombers relocating (Source: @mon1tor_ua/67824).",
+    "A Su‑24M of the 7th Tactical Aviation Brigade crashed near Khmelnytskyi, killing both crew members (Source: @mon1tor_ua/67825).",
+    "Ukrainian UAV activity was reported over Dnipropetrovsk, Zaporizhzhia, Sumy, Chernihiv and other regions (Source: @kpszsu/65385, @kpszsu/65380, @kpszsu/65403, @kpszsu/65401, @eRadarrua/96938).",
+    "Russian oil exports averaged 3.83 million barrels per day in mid‑June, up from earlier in the year (Source: @ukr_leaks_eng/30951).",
+    "Damage to the Kyiv Pechersk Lavra exceeds 500 million hryvnias, with restoration expected to take about two years (Source: @ukr_leaks_eng/30949)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian long‑range strike damaged a Russian oil‑processing plant 500 km from the front, highlighting deep‑strike capability. Russia intensified air‑defence, downing 10 UAVs bound for Moscow and claiming destruction of Ukrainian drone command nodes in Zaporizhzhia. Both sides sustain high‑tempo UAV and missile operations across multiple fronts.",
+    "executive_summary": "Ukrainian drones attacked a Moscow oil refinery, prompting Russian air defenses to down ten UAVs over the capital. Tactical aviation activity intensified on the eastern and northeastern fronts, and three Tu‑95 strategic bombers were relocated from Engels to Olyenya. A Su‑24M crash in Khmelnytskyi killed both crew members.",
     "ukraine": {
       "points": [
-        "Ukrainian forces employed a long‑range strike that damaged an oil‑processing plant in the Moscow region, located approximately 500 km from the front line (Source: @UkraineNow/81976).",
-        "A Ukrainian Su‑24M of the 7th Tactical Aviation Brigade crashed while conducting a mission over Khmelnytskyi region; both the pilot and navigator were killed (Source: @mon1tor_ua/67825).",
-        "UAVs were observed operating near Solone on a north‑east course, and in Sumy region north‑west of Hotin with variable heading (Source: @kpszsu/65387, @kpszsu/65360).",
-        "UAV activity was reported in Zaporizhzhia oblast north of Vilnyansk, heading west or south‑west (Source: @kpszsu/65386).",
-        "Ukrainian MoD reported shooting down 172 enemy drones and listed attacks on Russian oil depots, agricultural sites, and civilian areas across multiple regions (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian forces claimed a rocket launch toward Donetsk near Novomykolayivka (Source: @kpszsu/65359).",
-        "Ukrainian long‑range strike contributed to logistical disruption of Russian fuel supply chains (Source: @UkraineNow/81976)."
+        "Ukrainian drones were observed over Dnipropetrovsk region near Pavlohrad, Synelnykove, Slavihorod and northwest of Nikopol (Source: @kpszsu/65385).",
+        "A reactive UAV was reported over Zaporizhzhia, heading eastward toward the city (Source: @kpszsu/65380).",
+        "UAV activity was noted in Dnipropetrovsk heading toward Krynychok (Source: @kpszsu/65403).",
+        "In Sumy region, a UAV approached Trostyanets from the northeast (Source: @kpszsu/65401).",
+        "In Zaporizhzhia, a UAV moved toward Vilnyansky from the east (Source: @kpszsu/65401).",
+        "Chernihiv region reported three UAVs moving from Novgorod toward Siversky (Source: @eRadarrua/96938).",
+        "A UAV from Chernihiv was heading toward the Kyiv water reservoir (Source: @kpszsu/65348)."
       ]
     },
     "russia": {
       "points": [
-        "Russian air‑defence forces downed 10 UAVs that were heading toward Moscow, as reported by Moscow mayor Sergei Sobyanin (Source: @tass_agency/380986).",
-        "The Russian Ministry of Defence announced the destruction of Ukrainian drone command points in Zaporizhzhia oblast (Source: @tass_agency/380995).",
-        "Russian reports indicated a fire at an oil depot in the Krasnodar region village of Poltava following a drone strike (Source: @ukr_leaks_eng/30937).",
-        "Russian forces reported civilian casualties from Ukrainian drone attacks in the Bryansk, Belgorod, and Kharkiv regions, including injuries and deaths (Source: @ukr_leaks_eng/30937).",
-        "A Russian UAV attack on a car in Dorogoshch, Graivoron district, caused shrapnel injuries to two men (Source: @ukr_leaks_eng/30937).",
-        "Russian authorities noted ongoing high‑intensity battles for Stepnogorsk on the Zaporozhye front, with attacks on rear areas and energy facilities (Source: @ukr_leaks_eng/30937).",
-        "Russian MoD claimed liberation of the village of Dolgaia Balka southwest of Konstantinovsk (Source: @ukr_leaks_eng/30937)."
+        "Russian air defense forces shot down ten UAVs heading for Moscow (Source: @tass_agency/381003).",
+        "Three Tu‑95MS strategic bombers were relocated from Engels airfield to Olyenya, with reports of two additional bombers moving (Source: @mon1tor_ua/67824).",
+        "Russian oil exports reached an average of 3.83 million barrels per day for the period ending 14 June, the highest since the start of the conflict (Source: @ukr_leaks_eng/30951).",
+        "Damage to the Kyiv Pechersk Lavra was assessed at over 500 million hryvnias, with a two‑year restoration timeline (Source: @ukr_leaks_eng/30949).",
+        "A Su‑24M of the 7th Tactical Aviation Brigade crashed near Khmelnytskyi, killing both crew members (Source: @mon1tor_ua/67825).",
+        "Russian tactical aviation activity was warned on the eastern and north‑eastern directions, indicating potential strikes on front‑line areas (Source: @kpszsu/65391, @kpszsu/65384).",
+        "Russian forces reportedly intensified pressure around Kostyantynivka, with infantry advancing from multiple directions (Source: @DeepStateUA/23581)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian UAVs operated near Solone, moving north‑east across the Dnipropetrovsk/Kamianets area (Source: @kpszsu/65387).",
-        "A Ukrainian FPV drone struck a civilian convoy in Nikopol, killing three people (Source: @UkraineNow/81974).",
-        "Russian reports of Ukrainian drone attacks on agricultural facilities near Selishche, Pochepsky district, resulting in three mechanic deaths (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian forces reported infantry battles in Bachivsk, Ivolzhansk, and Nova Sich on the Sumy front (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian attacks targeted the Stepnogorsk area on the Zaporozhye front, causing civilian casualties and energy facility damage (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian UAV activity reported north of Vilnyansk in Zaporizhzhia, heading west/south‑west (Source: @kpszsu/65386).",
-        "Ukrainian drone attacks on the Donetsk‑Mariupol highway resulted in civilian deaths and serious injuries (Source: @ukr_leaks_eng/30937)."
+        "Ukrainian UAVs were reported in Dnipropetrovsk heading toward Krynychok, indicating activity near the eastern front (Source: @kpszsu/65403).",
+        "Russian tactical aviation activity was flagged on the eastern direction, suggesting possible air strikes on front‑line zones (Source: @kpszsu/65391).",
+        "Kostyantynivka faced heavy infantry pressure from the east via Novodmytrivka, with Russian forces attempting to cut supply lines (Source: @DeepStateUA/23581).",
+        "Ukrainian UAVs over Zaporizhzhia moved eastward toward the city, potentially targeting logistics nodes (Source: @kpszsu/65380).",
+        "Reports indicated Russian forces advancing toward the northern part of Kostyantynivka to encircle the town (Source: @DeepStateUA/23581).",
+        "Ukrainian UAV sightings near Sumy and Siverskyi suggest reconnaissance along the northeastern sector (Source: @eRadarrua/96938).",
+        "Russian air defenses downed UAVs over Moscow, reflecting broader air‑defense engagements that may affect eastern front air operations (Source: @tass_agency/381003)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs detected in Sumy region north‑west of Hotin with variable course (Source: @kpszsu/65360).",
-        "Reactive UAV observed heading toward Sumy city from the north (Source: @kpszsu/65376).",
-        "Ukrainian MoD reported 172 enemy drones shot down, many operating over northern Russian territories (Source: @ukr_leaks_eng/30937).",
-        "Russian forces reported drone attacks on civilian infrastructure in the Bryansk region (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian infantry battles continued in forested areas near Mikhailovka and along railway tracks in Krasnopolsky district (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian forces claimed advances of up to 500 m in nine sectors on the Volchansk sector of the Kharkiv front (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian UAV activity noted near the Black Sea heading toward Chornomorsk (Source: @kpszsu/65374)."
+        "Ukrainian UAVs were observed over Chernihiv heading toward the Kyiv water reservoir, indicating northern reconnaissance (Source: @kpszsu/65348).",
+        "Russian tactical aviation activity was warned on the north‑eastern direction, with possible strikes on front‑line areas (Source: @kpszsu/65384).",
+        "UAV activity reported in Chernihiv region moving from Novgorod toward Siversky (Source: @eRadarrua/96938).",
+        "UAV sightings in Dnipropetrovsk near Yurivka with a western course suggest movements near the northern edge of the front (Source: @kpszsu/65378).",
+        "Russian forces were reported pressing around Kostyantynivka, which lies north of the Donetsk axis (Source: @DeepStateUA/23581).",
+        "No explicit combat engagements were detailed for the northern front beyond UAV observations and air‑activity warnings.",
+        "The relocation of Tu‑95 bombers from Engels may affect northern strategic strike capabilities (Source: @mon1tor_ua/67824)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian long‑range strike hit an oil‑processing plant in the Moscow region, a key logistical node for southern Russian fuel distribution (Source: @UkraineNow/81976).",
-        "Ukrainian forces reported attacks on a fuel depot in Poltavska station, Kuban, a critical link for fuel to Krasnodar and Adygea (Source: @UkraineNow/81956).",
-        "Ukrainian drone attacks in the Kherson region injured civilians in Gornostevka and Novozburivka (Source: @ukr_leaks_eng/30937).",
-        "Russian reports of Ukrainian drone attacks on the Donetsk‑Mariupol highway causing civilian casualties (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian MoD listed attacks on Russian oil depots in Krasnodar region, causing fires (Source: @ukr_leaks_eng/30937).",
-        "Ukrainian UAV activity reported near the Black Sea corridor, potentially targeting southern maritime routes (Source: @kpszsu/65374).",
-        "Russian forces reported drone strikes on civilian areas in the Kherson region, including a bus stop in Shebekino (Source: @ukr_leaks_eng/30937)."
+        "Ukrainian drones attacked a fuel depot in Poltava settlement on the Kuban, a key logistics hub for Lukoil (Source: @UkraineNow/81956).",
+        "Ukrainian UAVs were reported over Dnipropetrovsk heading south of Synelnykove toward Solone/Aviatorske (Source: @eRadarrua/96958).",
+        "Russian oil export increases suggest heightened reliance on southern pipeline routes (Source: @ukr_leaks_eng/30951).",
+        "No direct combat reports were provided for the southern front beyond the drone strike on the Poltava fuel depot.",
+        "Kostyantynivka pressure may influence southern logistics corridors toward Kramatorsk (Source: @DeepStateUA/23581).",
+        "Ukrainian UAV activity in Zaporizhzhia heading east could affect southern industrial areas (Source: @kpszsu/65380).",
+        "The Su‑24M crash occurred in Khmelnytskyi, which lies in western Ukraine, not directly on the southern front."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air‑defence downed 10 UAVs heading for Moscow, indicating heightened air‑defence activity over the capital (Source: @tass_agency/380986).",
-        "Ukrainian MoD reported shooting down 172 enemy drones across multiple Russian regions (Source: @ukr_leaks_eng/30937).",
-        "Russian MoD claimed destruction of Ukrainian drone command points in Zaporizhzhia oblast (Source: @tass_agency/380995).",
-        "Ukrainian UAVs conducted attacks on oil depots in Krasnodar and on agricultural facilities in Bryansk (Source: @ukr_leaks_eng/30937).",
-        "A Ukrainian Su‑24M was lost during a mission over Khmelnytskyi region, highlighting risks to tactical aviation (Source: @mon1tor_ua/67825).",
-        "Ukrainian UAV activity observed near Sumy, Zaporizhzhia, and the Black Sea, indicating dispersed air‑operational pressure (Source: @kpszsu/65360, @kpszsu/65386, @kpszsu/65374).",
-        "Russian reports of drone attacks causing civilian injuries in multiple oblasts, including Belgorod and Kharkiv (Source: @ukr_leaks_eng/30937)."
+        "Russian air defenses downed ten UAVs targeting Moscow (Source: @tass_agency/381003).",
+        "Ukrainian UAVs were reported over multiple regions including Dnipropetrovsk, Zaporizhzhia, Sumy, Chernihiv, and Kyiv reservoir (Source: multiple @kpszsu and @eRadarrua posts).",
+        "Warnings of increased Russian tactical aviation activity on eastern and north‑eastern directions were issued (Source: @kpszsu/65391, @kpszsu/65384).",
+        "Three Tu‑95MS strategic bombers were relocated, indicating repositioning of long‑range strike assets (Source: @mon1tor_ua/67824).",
+        "A Su‑24M crash in Khmelnytskyi resulted in loss of crew, highlighting operational risks for Russian tactical aviation (Source: @mon1tor_ua/67825).",
+        "Ukrainian drones attacked a Moscow refinery, demonstrating capability to strike deep inside Russian territory (Source: @UkraineNow/81981).",
+        "No explicit air‑to‑air engagements were reported beyond UAV interceptions."
       ]
     },
     "key_developments": [
-      "Ukrainian long‑range strike damaged a Russian oil‑processing plant 500 km from the front, disrupting fuel logistics (Source: @UkraineNow/81976).",
-      "Three civilians killed by an FPV drone in Nikopol, highlighting continued UAV threat to rear areas (Source: @UkraineNow/81974).",
-      "Russia’s air‑defence downed 10 UAVs bound for Moscow, showing heightened protection of the capital (Source: @tass_agency/380986).",
-      "Russian MoD announced destruction of Ukrainian drone command nodes in Zaporizhzhia, indicating counter‑UAV operations (Source: @tass_agency/380995).",
-      "Ukrainian MoD reported 172 enemy drones shot down across Russian territory, reflecting intense aerial contest (Source: @ukr_leaks_eng/30937).",
-      "Ukrainian Su‑24M crash in Khmelnytskyi region resulted in loss of two crew members, affecting tactical aviation assets (Source: @mon1tor_ua/67825).",
-      "Rocket launch toward Donetsk near Novomykolayivka demonstrates continued missile strikes on contested zones (Source: @kpszsu/65359)."
+      "Ukrainian drones struck a Moscow oil refinery, prompting emergency response and highlighting deep‑strike capability (Source: @UkraineNow/81981).",
+      "Russian air defenses shot down ten UAVs heading for Moscow, showing active air‑defense posture (Source: @tass_agency/381003).",
+      "Three Tu‑95MS strategic bombers were relocated from Engels to Olyenya, indicating strategic asset repositioning (Source: @mon1tor_ua/67824).",
+      "A Su‑24M of the 7th Tactical Aviation Brigade crashed near Khmelnytskyi, killing both crew members (Source: @mon1tor_ua/67825).",
+      "Ukrainian UAV activity was reported across Dnipropetrovsk, Zaporizhzhia, Sumy, Chernihiv and towards Kyiv water reservoir, suggesting widespread reconnaissance and strike missions (Source: @kpszsu/65385, @kpszsu/65380, @kpszsu/65403, @kpszsu/65401, @eRadarrua/96938, @kpszsu/65348).",
+      "Russian oil exports rose to an average of 3.83 million barrels per day in mid‑June, reflecting increased reliance on crude shipments (Source: @ukr_leaks_eng/30951).",
+      "Damage to Kyiv Pechersk Lavra exceeds 500 million hryvnias with a two‑year restoration estimate, indicating significant cultural loss (Source: @ukr_leaks_eng/30949)."
     ],
-    "threat_assessment": "Ukrainian forces are extending strike range into Russian interior logistics hubs, while maintaining aggressive UAV operations against civilian and military targets. Russian air‑defence is increasingly effective over strategic cities, yet UAV threats persist across multiple fronts, causing civilian casualties. Both sides are escalating drone and missile use, indicating a sustained high‑intensity conflict with expanding operational depth.",
-    "regional_response": "Russian authorities are reinforcing air‑defence around Moscow and claiming successful counter‑UAV actions in Zaporizhzhia, while publicizing civilian impact of Ukrainian attacks to bolster domestic resolve. Ukrainian leadership highlights deep‑strike successes and seeks to leverage international support for continued offensive capabilities. Local administrations in affected oblasts are reporting casualties and infrastructure damage, prompting emergency response measures.",
-    "intelligence_notes": "Monitoring of UAV flight paths shows a pattern of north‑east and north‑west vectors targeting rear areas in Dnipropetrovsk, Sumy, and Zaporizhzhia. The loss of a Su‑24M suggests heightened risk for tactical aviation during strike missions over contested zones. Continued Russian claims of drone command node destruction should be cross‑checked with independent SIGINT to assess actual UAV operational capacity."
+    "threat_assessment": "Ukrainian UAV operations demonstrate an expanding strike envelope, reaching deep into Russian territory and targeting critical infrastructure such as oil refineries. Russian tactical aviation activity warnings on eastern and north‑eastern fronts suggest preparation for intensified air operations, while the relocation of Tu‑95 strategic bombers may enhance long‑range strike capabilities. The downing of ten UAVs over Moscow indicates robust air‑defense readiness, yet the successful drone attacks reveal gaps that could be exploited for further high‑value strikes.",
+    "regional_response": "Russian authorities have intensified air‑defense measures around Moscow, as evidenced by the interception of multiple UAVs. The relocation of strategic bombers from Engels to Olyenya may be aimed at dispersing assets to mitigate vulnerability. Ukrainian forces continue to leverage UAVs for reconnaissance and strike missions across multiple fronts, indicating a coordinated effort to pressure Russian logistics and industrial sites.",
+    "intelligence_notes": "Monitoring of UAV flight paths should focus on corridors from Dnipropetrovsk and Zaporizhzhia toward central Russia, as these have yielded successful strikes. The movement of Tu‑95 bombers warrants surveillance of Olyenya airfield for potential launch activity. Continued assessment of Russian air‑defense effectiveness is needed, given the mixed outcomes of UAV interceptions and successful attacks."
   },
   "missiles": 0,
   "drones": 132,
   "kpszsu_timeline": [
-    0,
-    0,
-    4,
+    3,
+    2,
+    3,
+    2,
     1,
-    2,
-    4,
-    2,
-    0,
     1,
-    5,
-    6,
-    2,
-    5,
+    3,
     7,
     1,
-    3,
-    1,
-    1,
-    1,
-    3,
-    0,
+    4,
+    8,
     2,
-    5,
-    3
+    3,
+    2,
+    1,
+    0,
+    3,
+    1,
+    1,
+    4,
+    4,
+    3,
+    1,
+    2
   ]
 }
