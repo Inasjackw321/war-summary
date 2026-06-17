@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-17T20:40:13.133224+00:00",
-  "message_count": 329,
+  "updated_at": "2026-06-17T21:43:36.226593+00:00",
+  "message_count": 341,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,7 +14,6 @@
   "red_alerts": 119,
   "red_alerts_timeline": [
     8,
-    8,
     0,
     0,
     0,
@@ -26,71 +25,80 @@
     8,
     0,
     0,
+    16,
+    0,
+    0,
     8,
     8,
     0,
+    16,
     8,
     0,
     8,
-    17,
-    8,
-    0,
-    8,
-    17
+    16,
+    16
   ],
   "combined_activity_timeline": [
+    6,
+    2,
+    7,
+    7,
     7,
     6,
-    1,
-    8,
-    6,
-    8,
-    6,
-    8,
-    12,
-    15,
+    9,
+    14,
+    13,
     11,
-    17,
-    20,
-    27,
-    25,
-    18,
+    16,
     21,
-    16,
-    17,
+    28,
+    24,
     18,
-    11,
-    17,
+    22,
     16,
-    18
+    16,
+    19,
+    11,
+    15,
+    17,
+    17,
+    19
   ],
   "messages_by_channel": {
-    "@eRadarrua": 43,
-    "@kpszsu": 58,
-    "@mon1tor_ua": 2,
+    "@eRadarrua": 48,
+    "@kpszsu": 56,
+    "@mon1tor_ua": 7,
     "@UkraineNow": 24,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 172
+    "@tass_agency": 176
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97035",
-    "kpszsu": "https://t.me/kpszsu/65472",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67829",
+    "eRadarrua": "https://t.me/eRadarrua/97055",
+    "kpszsu": "https://t.me/kpszsu/65475",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67834",
     "UkraineNow": "https://t.me/UkraineNow/82009",
     "DeepStateUA": "https://t.me/DeepStateUA/23585",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30984",
-    "tass_agency": "https://t.me/tass_agency/381173"
+    "tass_agency": "https://t.me/tass_agency/381179"
   },
   "cited_post_urls": {
-    "DeepStateUA": "https://t.me/DeepStateUA/23585",
-    "UkraineNow": "https://t.me/UkraineNow/82002",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30971",
-    "kpszsu": "https://t.me/kpszsu/65433",
-    "tass_agency": "https://t.me/tass_agency/381157",
-    "eRadarrua": "https://t.me/eRadarrua/96985"
+    "kpszsu": "https://t.me/kpszsu/65457",
+    "UkraineNow": "https://t.me/UkraineNow/81983",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67834",
+    "tass_agency": "https://t.me/tass_agency/381174",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30973",
+    "eRadarrua": "https://t.me/eRadarrua/97003"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/97047",
+      "post_id": 97047,
+      "channel": "eRadarrua",
+      "ts": "2026-06-17T21:22:20+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/GzlajVLNccqcglaUbCG4aMYdVqrhcqIj9K8NnJnKiQAd5A6AS3DJDGVengsVEYIcn-0F4MaBPQInm4oqXrD6vbQ4h2RtCrMPyyxTzCQjkK-oNWXeLNxF4CXKPCP2W7ymMzNHbW3A4zSyEXvfwIEWTFpGg2jSYEUsJzY9XMRkoAZnXBgcZH10_Kf4314-0Lgi8owgzAoS6d1w8AMjJtXM_SRzXX0TeS4yRoXFAboEgvQmU5RNacprBrrYnAH2LRi-OgVleKWk0Vf2CA8R75xCuZiw7_nQa4EgWkmy8H6-g9NilmYUzoa3lvT3Y1oVnnuzdhA1SELStb6G3IJKE1O7ww.jpg",
+      "companion_text_id": 97046
+    },
     {
       "post_url": "https://t.me/eRadarrua/97026",
       "post_id": 97026,
@@ -216,15 +224,11 @@
       "post_id": 381146,
       "channel": "tass_agency",
       "ts": "2026-06-17T16:38:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381145",
-      "post_id": 381145,
-      "channel": "tass_agency",
-      "ts": "2026-06-17T16:34:18+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/97047": "data/media/eRadarrua_97047.jpg",
+    "eRadarrua/97046": "data/media/eRadarrua_97047.jpg",
     "eRadarrua/97016": "data/media/eRadarrua_97016.jpg",
     "eRadarrua/97015": "data/media/eRadarrua_97016.jpg",
     "eRadarrua/97026": "data/media/eRadarrua_97026.jpg",
@@ -249,96 +253,112 @@
     "eRadarrua/96967": "data/media/eRadarrua_96967.jpg",
     "eRadarrua/96966": "data/media/eRadarrua_96967.jpg",
     "eRadarrua/96968": "data/media/eRadarrua_96968.jpg",
-    "eRadarrua/96969": "data/media/eRadarrua_96969.jpg",
     "kpszsu/65409": "data/media/kpszsu_65409.jpg",
     "kpszsu/65411": "data/media/kpszsu_65409.jpg"
   },
-  "summary": "Ukrainian forces have intensified drone operations, striking a Moscow refinery and Zaporizhzhia civilian infrastructure, while Russia reports recapturing Kutuzovka in Donetsk. The Netherlands pledged $580 million for Ukrainian drones and air‑defence systems. Heavy fighting continues around Pokrovsk and Mirnograd with extensive enemy drone activity.",
+  "summary": "Ukrainian strike drones were reported over multiple northern oblasts, including Sumy, Chernihiv, and Dnipropetrovsk, heading toward regional centers. Russian‑linked attacks continued in the south, with drones hitting Zaporizhzhia causing civilian casualties and damage to infrastructure. Both sides also reported aerial incidents unrelated to combat, such as civilian aircraft incidents in Russia.",
   "key_points": [
-    "The Netherlands announced a $580 million package for Ukrainian drones and air‑defence weapons. (Source: @DeepStateUA/23585)",
-    "Ukrainian drones damaged the main processing unit at Gazprom Neft's largest Moscow refinery. (Source: @UkraineNow/82002)",
-    "A Ukrainian drone strike hit five civilian targets in Zaporizhzhia, killing one person and injuring seven. (Source: @UkraineNow/81983)",
-    "Russian forces claimed liberation of the village of Kutuzovka in the Donetsk People’s Republic. (Source: @ukr_leaks_eng/30971)",
-    "Ukrainian forces report heavy enemy pressure and extensive drone activity around Pokrovsk, Mirnograd, and Dobropillia. (Source: @DeepStateUA/23584)",
-    "Enemy UAVs were observed heading south from northern Kharkiv and from Sumy toward Shostka‑Vorozh. (Source: @kpszsu/65433, @kpszsu/65465)",
-    "Forced evacuations of families with children were ordered in 23 settlements of Dnipropetrovsk region. (Source: @ukr_leaks_eng/30978)",
-    "Russia denied Ukrainian drone involvement in the reported attack on a bus carrying Belarusian children in Bryansk. (Source: @UkraineNow/82006)"
+    "Ukrainian strike drones were observed over northern Sumy heading south toward Shostka (Source: @kpszsu/65457).",
+    "Multiple groups of strike drones operated in northern Sumy region, with some heading toward Shostka (Source: @kpszsu/65447).",
+    "Ukrainian drones attacked Zaporizhzhia, killing one civilian and injuring seven, damaging residential buildings, an office centre and the Zaporizhzhia National University (Source: @UkraineNow/81983).",
+    "Ukrainian strike drones were reported over northern Chernihiv heading southwest (Source: @kpszsu/65444).",
+    "Ukrainian strike drones were seen over northern Dnipropetrovsk heading north toward Kharkiv (Source: @kpszsu/65438).",
+    "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny (Source: @mon1tor_ua/67834).",
+    "Russian air incidents included a Smartavia Boeing 737‑800 returning to Sochi due to technical issues (Source: @tass_agency/381174).",
+    "A light aircraft Zlin Z42 crashed in the Moscow region, classified as a catastrophe (Source: @tass_agency/381165)."
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian drone operations have escalated, striking a major Moscow refinery and causing civilian casualties in Zaporizhzhia. Russia announced the recapture of Kutuzovka in Donetsk and continues to face intense ground pressure around Pokrovsk and Mirnograd. International support rose as the Netherlands committed $580 million for drones and air‑defence systems.",
+    "executive_summary": "Ukrainian strike drones were active across northern Ukraine, targeting Sumy, Chernihiv and Dnipropetrovsk regions. A drone attack on Zaporizhzhia caused civilian deaths, injuries and extensive infrastructure damage. Separate Russian civilian aviation incidents were reported, highlighting ongoing non‑combat aerial risks.",
     "ukraine": {
       "points": [
-        "The Netherlands pledged $580 million to fund Ukrainian drones and air‑defence procurement, allocating €250 million for Dutch‑made drones and €250 million via the PURL initiative. (Source: @DeepStateUA/23585)",
-        "Ukrainian forces reported a drone strike on Zaporizhzhia that hit five civilian structures, killing one civilian and wounding seven, with extensive damage to an office centre and a university façade. (Source: @UkraineNow/81983)",
-        "In the Pokrovsk‑Mirnograd sector, Ukrainian troops are confronting heavy enemy infantry pressure and a high volume of enemy UAVs of various types, including FPV, loitering munitions, and Shahed drones. (Source: @DeepStateUA/23584)",
-        "Ukrainian authorities announced forced evacuations for families with children from 23 settlements in Dnipropetrovsk region, affecting nearly 3,800 children. (Source: @ukr_leaks_eng/30978)",
-        "The Ukrainian defence ministry promised partial demobilisation for personnel serving since 2022, to begin at year‑end, based on service length and combat days. (Source: @ukr_leaks_eng/30957)"
+        "Ukrainian strike drones operated in northern Sumy, moving south toward Shostka, indicating pressure on regional logistics (Source: @kpszsu/65457).",
+        "Additional drone groups were observed over northern Sumy, also heading toward Shostka, suggesting coordinated sorties (Source: @kpszsu/65447).",
+        "Strike drones were seen over northern Chernihiv, moving southwest, potentially targeting Russian‑held positions (Source: @kpszsu/65444).",
+        "Ukrainian drones over northern Dnipropetrovsk headed north toward Kharkiv, indicating cross‑border operational reach (Source: @kpszsu/65438).",
+        "A cluster of strike drones in Poltava maintained a course toward Myrhorod, showing activity on the central front (Source: @kpszsu/65461).",
+        "Ukrainian drone attacks on Zaporizhzhia resulted in one civilian death, seven injuries, and damage to residential, office and university structures (Source: @UkraineNow/81983).",
+        "Drone strikes on a Nova Poshta sorting terminal in Sumy damaged the roof and equipment but caused no worker casualties (Source: @UkraineNow/81995).",
+        "A nighttime drone strike on a equestrian school in Sumy damaged stables and resulted in horse fatalities, though personnel were unharmed (Source: @UkraineNow/81984)."
       ]
     },
     "russia": {
       "points": [
-        "Russia’s Ministry of Defence reported the liberation of Kutuzovka village in the Donetsk People's Republic. (Source: @ukr_leaks_eng/30971)",
-        "A Ukrainian drone strike damaged the main processing unit at Gazprom Neft’s largest Moscow refinery, halting operations. (Source: @UkraineNow/82002)",
-        "Russia’s General Staff denied any Ukrainian UAV use in the alleged attack on a bus carrying Belarusian children in Bryansk, calling it a Kremlin provocation. (Source: @UkraineNow/82006)",
-        "Russian aviation authorities classified the crash of a light Zlin Z42 aircraft in the Moscow region as a disaster, with two fatalities. (Source: @tass_agency/381157)",
-        "Russia announced a summit with ASEAN delegations, highlighting diplomatic engagement amidst the conflict. (Source: @tass_agency/381142)"
+        "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny, indicating possible Russian missile launches (Source: @mon1tor_ua/67834).",
+        "Russian authorities reported a Smartavia Boeing 737‑800 returning to Sochi due to technical failure, highlighting civilian aviation disruptions (Source: @tass_agency/381174).",
+        "A Zlin Z42 light aircraft crashed in the Moscow region, classified as a catastrophe by Rosaviatsiya (Source: @tass_agency/381165).",
+        "Two buses carrying passengers in Bryansk region were attacked by Ukrainian drones; passengers survived and were later returned to Russia (Source: @tass_agency/381178).",
+        "Russian officials condemned Ukrainian attacks on civilian targets in Bryansk, labeling them as terrorist acts (Source: @tass_agency/381170).",
+        "Russian media reported that children on a bus in Bryansk were targeted, with Russian officials promising retaliation (Source: @tass_agency/381145).",
+        "A Ukrainian drone allegedly attacked a Belarusian children's soccer team bus near Bryansk, killing a chaperone and injuring six (Source: @ukr_leaks_eng/30973).",
+        "Russian authorities reported that children on a bus in Bryansk were unharmed after a drone strike, with medical forecasts positive (Source: @tass_agency/381164)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces face intensified enemy attacks around Pokrovsk and Mirnograd, with Russian infantry advancing toward Rodinske and Bilytske, key logistics nodes. (Source: @DeepStateUA/23584)",
-        "Russian forces claim to have secured Kutuzovka village in the Donetsk region, expanding their foothold in the front line. (Source: @ukr_leaks_eng/30971)",
-        "Ukrainian authorities ordered evacuations in Dnipropetrovsk oblast’s Shakhtarska, Dubovykska and Bohynivska hromadas, reflecting heightened threat to civilian populations. (Source: @ukr_leaks_eng/30978)",
-        "Enemy UAV activity reported north of Kharkiv, heading south, indicating potential strike vectors toward the front‑line cities. (Source: @kpszsu/65433)",
-        "Multiple strike reports indicate Russian artillery and drone use targeting supply routes near Dobropillia, aiming to disrupt Ukrainian logistics. (Source: @DeepStateUA/23584)"
+        "Ukrainian strike drones were observed over northern Dnipropetrovsk heading toward Kharkiv, suggesting eastward pressure (Source: @kpszsu/65438).",
+        "Ukrainian drones were reported near Zaporizhzhia, causing civilian casualties and damage to key infrastructure (Source: @UkraineNow/81983).",
+        "A drone attack on a Nova Poshta terminal in Sumy (eastern Sumy region) damaged the roof and equipment (Source: @UkraineNow/81995).",
+        "Ukrainian strike drones were seen over the north‑east part of Sumy heading toward Chernihiv, indicating cross‑border activity (Source: @kpszsu/65438).",
+        "Ukrainian drones were reported near the southern Dnipropetrovsk region moving north, potentially targeting Russian positions (Source: @kpszsu/65447).",
+        "A ballistic missile launch was reported from Voronezh region, potentially aimed eastward (Source: @mon1tor_ua/67830).",
+        "Ukrainian strike drones were observed over the north‑west part of Sumy heading east, showing continued pressure on eastern supply routes (Source: @kpszsu/65439).",
+        "Ukrainian drones were reported near the eastern front in Kharkiv region, heading north (Source: @kpszsu/65439)."
       ]
     },
     "northern_front": {
       "points": [
-        "Enemy UAVs were observed over northern Kharkiv heading south, suggesting reconnaissance or strike missions. (Source: @kpszsu/65433)",
-        "In Sumy region, strike‑capable UAVs operated near Shostka‑Vorozh, posing a threat to transport corridors. (Source: @kpszsu/65465)",
-        "UAVs spotted in north‑west Sumy were directed toward Chernihiv, indicating possible cross‑border targeting. (Source: @kpszsu/65438)",
-        "Multiple UAVs were detected over the Black Sea heading toward Odesa and the Black Sea coast, raising concerns for maritime assets. (Source: @kpszsu/65455)",
-        "A Russian light aircraft crash in the Moscow region resulted in two fatalities, unrelated to combat but highlighting aviation risks. (Source: @tass_agency/381157)"
+        "Multiple Ukrainian strike drones operated over northern Sumy, heading south toward Shostka (Source: @kpszsu/65457).",
+        "Ukrainian drones were seen over northern Chernihiv moving southwest (Source: @kpszsu/65444).",
+        "Ukrainian strike drones were reported over northern Dnipropetrovsk heading north toward Kharkiv, indicating northern front activity (Source: @kpszsu/65438).",
+        "Ukrainian drones were observed over northern Sumy heading east, suggesting pressure on the Chernihiv axis (Source: @kpszsu/65439).",
+        "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny (Source: @mon1tor_ua/67834).",
+        "Ukrainian drones were reported from Bryansk region (Russia) heading into Ukrainian territory, indicating cross‑border incursions (Source: @eRadarrua/97003).",
+        "Ukrainian strike drones were observed over northern Sumy, heading east, possibly targeting logistics corridors (Source: @kpszsu/65439).",
+        "Ukrainian drones were reported near the northern border of Chernihiv from Bryansk (Source: @eRadarrua/97003)."
       ]
     },
     "southern_front": {
       "points": [
-        "Five Ukrainian drones struck civilian infrastructure in Zaporizhzhia, killing one and injuring seven, with the office centre nearly fully destroyed. (Source: @UkraineNow/81983)",
-        "A Ukrainian drone reportedly attacked a bus on the A240 highway near Bryansk, killing a chaperone and injuring six; Russian sources later denied UAV involvement. (Source: @ukr_leaks_eng/30977)",
-        "A strike by Ukrainian drones damaged the main processing unit at Moscow’s largest oil refinery, halting operations. (Source: @UkraineNow/82002)",
-        "In the Black Sea, a swarm of strike UAVs targeted the tanker FINĀ A near the Shescharis oil terminal, preventing its loading. (Source: @eRadarrua/96985)",
-        "Ukrainian forces reported enemy drone infiltrations in the south of Dobropillia, threatening logistics and command posts. (Source: @DeepStateUA/23584)"
+        "Ukrainian drones attacked Zaporizhzhia, causing civilian casualties and extensive damage to residential and educational facilities (Source: @UkraineNow/81983).",
+        "Ukrainian strike drones were reported over southern Dnipropetrovsk moving north, indicating activity on the southern front (Source: @kpszsu/65447).",
+        "Ukrainian drones were observed near the Zaporizhzhia region heading toward Veselanka (Source: @eRadarrua/97008).",
+        "Ukrainian drones struck a Nova Poshta sorting terminal in Sumy, a southern part of the region, damaging infrastructure (Source: @UkraineNow/81995).",
+        "A Ukrainian drone attack on a bus carrying Belarusian children near Bryansk resulted in casualties, showing southern cross‑border threats (Source: @ukr_leaks_eng/30973).",
+        "Ukrainian strike drones were reported over the southern Dnipropetrovsk region heading north toward Kharkiv (Source: @kpszsu/65447).",
+        "Ukrainian drones were observed near the southern front in the Kharkiv region, heading north (Source: @kpszsu/65439).",
+        "Ukrainian strike drones were reported over the southern Dnipropetrovsk region heading north, indicating pressure on Russian‑held areas (Source: @kpszsu/65447)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian UAVs hit the Gazprom Neft refinery’s core processing unit in Moscow, forcing a shutdown of the plant. (Source: @UkraineNow/82002)",
-        "Five UAV strikes in Zaporizhzhia caused civilian deaths, injuries, and extensive damage to residential and educational buildings. (Source: @UkraineNow/81983)",
-        "A reported UAV attack on a bus carrying Belarusian children near Bryansk resulted in one death and six injuries, though Russian officials later denied UAV use. (Source: @ukr_leaks_eng/30977, @UkraineNow/82006)",
-        "Enemy UAVs were observed over northern Kharkiv and Sumy, heading south and toward regional centers, indicating ongoing aerial pressure on Ukrainian rear areas. (Source: @kpszsu/65433, @kpszsu/65465)",
-        "Strike‑capable UAVs in the Black Sea corridor moved toward Odesa and the coastal region, threatening maritime traffic. (Source: @kpszsu/65455)"
+        "A Smartavia Boeing 737‑800 returned to Sochi due to technical issues, highlighting non‑combat aviation disruptions (Source: @tass_agency/381174).",
+        "A Zlin Z42 light aircraft crashed in the Moscow region, classified as a catastrophe (Source: @tass_agency/381165).",
+        "Two buses in Bryansk region were attacked by Ukrainian drones; passengers survived and were later transported to Russia (Source: @tass_agency/381178).",
+        "Russian officials condemned Ukrainian drone attacks on civilian targets in Bryansk, labeling them terrorist acts (Source: @tass_agency/381170).",
+        "Russian media reported a Ukrainian drone strike on a Belarusian children's soccer team bus near Bryansk, causing one death and injuries (Source: @ukr_leaks_eng/30973).",
+        "Ukrainian drones were reported over Zaporizhzhia causing civilian casualties and damage to an office centre and university (Source: @UkraineNow/81983).",
+        "Ukrainian strike drones were observed over multiple Ukrainian regions, indicating ongoing aerial combat operations (Source: multiple @kpszsu entries).",
+        "A ballistic missile launch was reported from Voronezh region, potentially targeting Ukrainian territory (Source: @mon1tor_ua/67830)."
       ]
     },
     "key_developments": [
-      "Ukrainian drones damaged the main processing unit at Moscow’s largest Gazprom Neft refinery, halting operations. (Source: @UkraineNow/82002)",
-      "Five Ukrainian UAV strikes in Zaporizhzhia killed one civilian and wounded seven, destroying an office centre and damaging university facilities. (Source: @UkraineNow/81983)",
-      "Russia announced the liberation of Kutuzovka village in the Donetsk People’s Republic, expanding its control in the east. (Source: @ukr_leaks_eng/30971)",
-      "The Netherlands pledged $580 million for Ukrainian drones and air‑defence procurement, allocating funds for Dutch‑made drones and the PURL programme. (Source: @DeepStateUA/23585)",
-      "Intense fighting continues around Pokrovsk and Mirnograd, with Ukrainian troops facing heavy infantry pressure and numerous enemy drones. (Source: @DeepStateUA/23584)",
-      "Enemy UAVs were observed over northern Kharkiv heading south and over Sumy targeting Shostka‑Vorozh, indicating ongoing aerial threat to rear areas. (Source: @kpszsu/65433, @kpszsu/65465)",
-      "Forced evacuations were ordered for families with children in 23 settlements of Dnipropetrovsk region, affecting nearly 3,800 children. (Source: @ukr_leaks_eng/30978)"
+      "Ukrainian strike drones operated over northern Sumy, heading south toward Shostka, suggesting coordinated pressure on regional logistics (Source: @kpszsu/65457).",
+      "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny, indicating possible Russian missile activity in the north (Source: @mon1tor_ua/67834).",
+      "Ukrainian drones attacked Zaporizhzhia, killing one civilian, injuring seven, and damaging residential, office and university structures (Source: @UkraineNow/81983).",
+      "Ukrainian drones struck a Nova Poshta sorting terminal in Sumy, damaging roof and equipment but causing no worker casualties (Source: @UkraineNow/81995).",
+      "Two buses in Bryansk region were hit by Ukrainian drones; passengers survived and were later returned to Russia (Source: @tass_agency/381178).",
+      "A Smartavia Boeing 737‑800 returned to Sochi due to technical failure, reflecting civilian aviation disruptions (Source: @tass_agency/381174).",
+      "A Zlin Z42 light aircraft crashed in the Moscow region, classified as a catastrophe by Rosaviatsiya (Source: @tass_agency/381165)."
     ],
-    "threat_assessment": "Ukrainian drone capabilities are proving effective against high‑value Russian targets, notably the Moscow refinery and civilian infrastructure in Zaporizhzhia, suggesting an increased ability to strike deep within Russian territory. Russian forces continue to consolidate gains in the east, exemplified by the recapture of Kutuzovka, while maintaining pressure on Ukrainian positions around Pokrovsk and Mirnograd, supported by extensive UAV deployments. The sustained enemy UAV activity across multiple fronts, including northern Kharkiv and Sumy, poses a persistent threat to logistics and civilian centres, requiring enhanced air‑defence measures.",
-    "regional_response": "The Netherlands' substantial financial commitment underscores growing international support for Ukrainian drone and air‑defence programs, potentially shifting the aerial balance. Russian denial of UAV involvement in the Bryansk bus incident reflects a broader information‑war strategy aimed at mitigating perceived Ukrainian offensive successes. Local authorities in Dnipropetrovsk are executing large‑scale evacuations, indicating coordination between military and civil structures to protect vulnerable populations amid heightened drone activity.",
-    "intelligence_notes": "Monitoring of UAV flight paths in the northern and southern sectors should prioritize identification of launch sites to disrupt enemy reconnaissance and strike capabilities. The recapture of Kutuzovka may serve as a staging point for further Russian advances in Donetsk, warranting close observation of troop movements. The effectiveness of Ukrainian drone strikes on strategic Russian infrastructure suggests that expanding drone production and supply chains, as facilitated by new Dutch funding, will be a critical factor in future operational planning."
+    "threat_assessment": "Ukrainian drone activity remains widespread across northern, eastern and southern fronts, targeting logistics hubs, civilian infrastructure and crossing into Russian territory. Russian missile launches, including reported ballistic missiles from Voronezh and Sumy, indicate a continued threat of longer‑range strikes. Civilian aviation incidents in Russia, while non‑combat, add to overall airspace risk and may affect operational planning for both sides.",
+    "regional_response": "Ukrainian authorities continue to report drone strikes and coordinate defensive measures, while Russian officials publicly condemn Ukrainian attacks on civilian targets and promise retaliation. International observers, including the UN, have criticized attacks on civilian populations in Bryansk. Both sides appear to be maintaining heightened alert levels on their respective fronts.",
+    "intelligence_notes": "Open‑source monitoring shows a pattern of Ukrainian drones operating in clusters, often heading toward regional centers, suggesting coordinated sortie planning. Reports of ballistic missile trajectories from Russian-held areas require verification but indicate potential escalation in missile use. Non‑combat aviation incidents in Russia may impact air traffic control and require deconfliction with military operations."
   },
   "missiles": 0,
   "drones": 119,
   "kpszsu_timeline": [
-    3,
     1,
     0,
     4,
@@ -346,8 +366,8 @@
     3,
     2,
     1,
-    3,
     4,
+    3,
     1,
     2,
     3,
@@ -357,10 +377,11 @@
     2,
     0,
     3,
-    1,
-    4,
+    2,
+    3,
     3,
     2,
-    5
+    5,
+    1
   ]
 }
