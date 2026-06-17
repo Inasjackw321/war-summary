@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-17T21:43:36.226593+00:00",
-  "message_count": 341,
+  "updated_at": "2026-06-17T23:01:22.729495+00:00",
+  "message_count": 351,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 119,
   "red_alerts_timeline": [
-    8,
     0,
     0,
     0,
@@ -27,70 +26,79 @@
     0,
     16,
     0,
-    0,
     8,
+    0,
     8,
     0,
     16,
     8,
-    0,
+    8,
+    8,
     8,
     16,
-    16
+    8
   ],
   "combined_activity_timeline": [
+    3,
+    10,
     6,
-    2,
-    7,
-    7,
     7,
     6,
-    9,
-    14,
-    13,
-    11,
-    16,
-    21,
-    28,
-    24,
-    18,
-    22,
-    16,
-    16,
-    19,
-    11,
+    10,
     15,
-    17,
-    17,
-    19
+    10,
+    15,
+    15,
+    23,
+    30,
+    22,
+    19,
+    18,
+    15,
+    16,
+    20,
+    11,
+    14,
+    23,
+    13,
+    15,
+    15
   ],
   "messages_by_channel": {
-    "@eRadarrua": 48,
+    "@eRadarrua": 49,
     "@kpszsu": 56,
-    "@mon1tor_ua": 7,
+    "@mon1tor_ua": 13,
     "@UkraineNow": 24,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 176
+    "@tass_agency": 179
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97055",
-    "kpszsu": "https://t.me/kpszsu/65475",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67834",
+    "eRadarrua": "https://t.me/eRadarrua/97072",
+    "kpszsu": "https://t.me/kpszsu/65483",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67843",
     "UkraineNow": "https://t.me/UkraineNow/82009",
     "DeepStateUA": "https://t.me/DeepStateUA/23585",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30984",
-    "tass_agency": "https://t.me/tass_agency/381179"
+    "tass_agency": "https://t.me/tass_agency/381184"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/65457",
-    "UkraineNow": "https://t.me/UkraineNow/81983",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67834",
-    "tass_agency": "https://t.me/tass_agency/381174",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30973",
-    "eRadarrua": "https://t.me/eRadarrua/97003"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30972",
+    "UkraineNow": "https://t.me/UkraineNow/82006",
+    "kpszsu": "https://t.me/kpszsu/65466",
+    "eRadarrua": "https://t.me/eRadarrua/97002",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67833",
+    "tass_agency": "https://t.me/tass_agency/381174"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/97059",
+      "post_id": 97059,
+      "channel": "eRadarrua",
+      "ts": "2026-06-17T22:00:37+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/hProiQ8rDBbK8ptEFQNqHZVkafogH_6sYGpXf9vCmvZ5zj1rq-AcD6f6FFeBj0plPEZ67ouMB3G6MW-auqy9hQKphUmsa99HIOXz7TbPZrkYQX9FF05jSigbU-ohceDZ74SOSjOCAVuZY-j1S-yrFP514sPXj5zuROni8dttGcXcGcK_ytLeIMWH3713kNovp8AVNW8SP-N34EoJ-d9Pg3xe3tuJsFFQy9NOCnD1D1ytn-vgdJPcgWwe55AxKERcsBGPAisolC5GDrlhJj1WsIkmJFoGssATSiTEm4eFIemP4Fy4LSGJx32tpbx5UeSONo6GFTdNDL_BzQOXGoABdQ.jpg",
+      "companion_text_id": 97058
+    },
     {
       "post_url": "https://t.me/eRadarrua/97047",
       "post_id": 97047,
@@ -218,21 +226,19 @@
       "post_id": 30984,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-17T16:57:54+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381146",
-      "post_id": 381146,
-      "channel": "tass_agency",
-      "ts": "2026-06-17T16:38:58+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/97059": "data/media/eRadarrua_97059.jpg",
+    "eRadarrua/97058": "data/media/eRadarrua_97059.jpg",
     "eRadarrua/97047": "data/media/eRadarrua_97047.jpg",
     "eRadarrua/97046": "data/media/eRadarrua_97047.jpg",
     "eRadarrua/97016": "data/media/eRadarrua_97016.jpg",
     "eRadarrua/97015": "data/media/eRadarrua_97016.jpg",
     "eRadarrua/97026": "data/media/eRadarrua_97026.jpg",
     "eRadarrua/97027": "data/media/eRadarrua_97026.jpg",
+    "eRadarrua/96992": "data/media/eRadarrua_96992.jpg",
+    "eRadarrua/96990": "data/media/eRadarrua_96990.jpg",
     "eRadarrua/97000": "data/media/eRadarrua_97000.jpg",
     "eRadarrua/97002": "data/media/eRadarrua_97000.jpg",
     "eRadarrua/97005": "data/media/eRadarrua_97005.jpg",
@@ -245,143 +251,116 @@
     "eRadarrua/96979": "data/media/eRadarrua_96977.jpg",
     "eRadarrua/96985": "data/media/eRadarrua_96985.jpg",
     "eRadarrua/96986": "data/media/eRadarrua_96986.jpg",
-    "eRadarrua/96990": "data/media/eRadarrua_96990.jpg",
     "eRadarrua/96989": "data/media/eRadarrua_96990.jpg",
-    "eRadarrua/96992": "data/media/eRadarrua_96992.jpg",
     "eRadarrua/96959": "data/media/eRadarrua_96959.jpg",
     "eRadarrua/96958": "data/media/eRadarrua_96959.jpg",
     "eRadarrua/96967": "data/media/eRadarrua_96967.jpg",
     "eRadarrua/96966": "data/media/eRadarrua_96967.jpg",
-    "eRadarrua/96968": "data/media/eRadarrua_96968.jpg",
     "kpszsu/65409": "data/media/kpszsu_65409.jpg",
     "kpszsu/65411": "data/media/kpszsu_65409.jpg"
   },
-  "summary": "Ukrainian strike drones were reported over multiple northern oblasts, including Sumy, Chernihiv, and Dnipropetrovsk, heading toward regional centers. Russian‑linked attacks continued in the south, with drones hitting Zaporizhzhia causing civilian casualties and damage to infrastructure. Both sides also reported aerial incidents unrelated to combat, such as civilian aircraft incidents in Russia.",
+  "summary": "Ukrainian forces reported drone activity across multiple fronts, while Russian sources denied a claimed Ukrainian drone strike on a Belarusian children's bus in Bryansk. Threats of Shahed-136 strike groups from Primorsko-Akhtarsk and Khalino airfields and ballistic missile launches toward Sumy and Chernihiv were noted. G7 leaders pledged increased air defence deliveries to Ukraine.",
   "key_points": [
-    "Ukrainian strike drones were observed over northern Sumy heading south toward Shostka (Source: @kpszsu/65457).",
-    "Multiple groups of strike drones operated in northern Sumy region, with some heading toward Shostka (Source: @kpszsu/65447).",
-    "Ukrainian drones attacked Zaporizhzhia, killing one civilian and injuring seven, damaging residential buildings, an office centre and the Zaporizhzhia National University (Source: @UkraineNow/81983).",
-    "Ukrainian strike drones were reported over northern Chernihiv heading southwest (Source: @kpszsu/65444).",
-    "Ukrainian strike drones were seen over northern Dnipropetrovsk heading north toward Kharkiv (Source: @kpszsu/65438).",
-    "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny (Source: @mon1tor_ua/67834).",
-    "Russian air incidents included a Smartavia Boeing 737‑800 returning to Sochi due to technical issues (Source: @tass_agency/381174).",
-    "A light aircraft Zlin Z42 crashed in the Moscow region, classified as a catastrophe (Source: @tass_agency/381165)."
+    "Ukrainian drones were reported operating in the Zaporozhye region (Source: @ukr_leaks_eng/30972).",
+    "A Ukrainian drone allegedly attacked a bus with a Belarusian children's soccer team on the A240 highway near Bryansk, killing one and injuring six, but the Russian General Staff denied any Ukrainian UAV use in the area (Source: @ukr_leaks_eng/30977; Source: @UkraineNow/82006).",
+    "New groups of strike UAVs entered Chernihiv region from the north (Source: @kpszsu/65466).",
+    "Shahed-136 strike UAVs are threatened to launch from Primorsko-Akhtarsk (up to 8 groups) and Khalino (up to 4 groups) airfields (Source: @eRadarrua/97002).",
+    "Ballistic missile threats were reported over Sumy heading toward Chernihiv and Romny (Source: @mon1tor_ua/67833).",
+    "G7 leaders agreed to increase air defence system supplies to Ukraine (Source: @UkraineNow/81982).",
+    "Forced evacuation of families with children from 23 settlements in Dnipropetrovsk region was announced (Source: @ukr_leaks_eng/30978).",
+    "High‑level Ukraine‑NATO council meeting will not take place at the Ankara summit, though Zelensky will attend on the sidelines (Source: @ukr_leaks_eng/30981)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian strike drones were active across northern Ukraine, targeting Sumy, Chernihiv and Dnipropetrovsk regions. A drone attack on Zaporizhzhia caused civilian deaths, injuries and extensive infrastructure damage. Separate Russian civilian aviation incidents were reported, highlighting ongoing non‑combat aerial risks.",
+    "executive_summary": "Ukrainian drone activity continues across several fronts, including Zaporozhye and Chernihiv, while Russian authorities deny a reported Ukrainian UAV strike on a Belarusian children's bus near Bryansk. Threats of Shahed‑136 strike groups from Primorsko‑Akhtarsk and Khalino airfields and ballistic missile launches toward Sumy and Chernihiv heighten the risk of escalation. G7 leaders pledged additional air‑defence deliveries to support Ukraine.",
     "ukraine": {
       "points": [
-        "Ukrainian strike drones operated in northern Sumy, moving south toward Shostka, indicating pressure on regional logistics (Source: @kpszsu/65457).",
-        "Additional drone groups were observed over northern Sumy, also heading toward Shostka, suggesting coordinated sorties (Source: @kpszsu/65447).",
-        "Strike drones were seen over northern Chernihiv, moving southwest, potentially targeting Russian‑held positions (Source: @kpszsu/65444).",
-        "Ukrainian drones over northern Dnipropetrovsk headed north toward Kharkiv, indicating cross‑border operational reach (Source: @kpszsu/65438).",
-        "A cluster of strike drones in Poltava maintained a course toward Myrhorod, showing activity on the central front (Source: @kpszsu/65461).",
-        "Ukrainian drone attacks on Zaporizhzhia resulted in one civilian death, seven injuries, and damage to residential, office and university structures (Source: @UkraineNow/81983).",
-        "Drone strikes on a Nova Poshta sorting terminal in Sumy damaged the roof and equipment but caused no worker casualties (Source: @UkraineNow/81995).",
-        "A nighttime drone strike on a equestrian school in Sumy damaged stables and resulted in horse fatalities, though personnel were unharmed (Source: @UkraineNow/81984)."
+        "Ukrainian forces claim they are conducting operations in the Zaporozhye region, describing their troops as \"true professionals\" (Source: @ukr_leaks_eng/30972).",
+        "Ukrainian drones were reported heading toward the border area between Kharkiv and Sumy regions (Source: @eRadarrua/97072).",
+        "A forced evacuation of families with children from 23 settlements in Dnipropetrovsk region was ordered, affecting nearly 3,800 children (Source: @ukr_leaks_eng/30978).",
+        "Ukrainian authorities announced that no UAVs were used against the Bryansk bus incident during the reported time frame (Source: @UkraineNow/82006)."
       ]
     },
     "russia": {
       "points": [
-        "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny, indicating possible Russian missile launches (Source: @mon1tor_ua/67834).",
-        "Russian authorities reported a Smartavia Boeing 737‑800 returning to Sochi due to technical failure, highlighting civilian aviation disruptions (Source: @tass_agency/381174).",
-        "A Zlin Z42 light aircraft crashed in the Moscow region, classified as a catastrophe by Rosaviatsiya (Source: @tass_agency/381165).",
-        "Two buses carrying passengers in Bryansk region were attacked by Ukrainian drones; passengers survived and were later returned to Russia (Source: @tass_agency/381178).",
-        "Russian officials condemned Ukrainian attacks on civilian targets in Bryansk, labeling them as terrorist acts (Source: @tass_agency/381170).",
-        "Russian media reported that children on a bus in Bryansk were targeted, with Russian officials promising retaliation (Source: @tass_agency/381145).",
-        "A Ukrainian drone allegedly attacked a Belarusian children's soccer team bus near Bryansk, killing a chaperone and injuring six (Source: @ukr_leaks_eng/30973).",
-        "Russian authorities reported that children on a bus in Bryansk were unharmed after a drone strike, with medical forecasts positive (Source: @tass_agency/381164)."
+        "Russian General Staff stated that Ukrainian UAVs did not strike targets in Bryansk region, labeling the claim an information provocation (Source: @UkraineNow/82006).",
+        "Russian sources reported a Boeing 737‑800 from Sochi returning to its departure airport due to a technical fault (Source: @tass_agency/381174).",
+        "Russian media circulated the claim of a Ukrainian drone hitting a bus with Belarusian children, which was later denied by Russian officials (Source: @ukr_leaks_eng/30977).",
+        "A group of hostile UAVs from Bryansk region entered northern Chernihiv, according to Ukrainian monitoring (Source: @kpszsu/65453)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian strike drones were observed over northern Dnipropetrovsk heading toward Kharkiv, suggesting eastward pressure (Source: @kpszsu/65438).",
-        "Ukrainian drones were reported near Zaporizhzhia, causing civilian casualties and damage to key infrastructure (Source: @UkraineNow/81983).",
-        "A drone attack on a Nova Poshta terminal in Sumy (eastern Sumy region) damaged the roof and equipment (Source: @UkraineNow/81995).",
-        "Ukrainian strike drones were seen over the north‑east part of Sumy heading toward Chernihiv, indicating cross‑border activity (Source: @kpszsu/65438).",
-        "Ukrainian drones were reported near the southern Dnipropetrovsk region moving north, potentially targeting Russian positions (Source: @kpszsu/65447).",
-        "A ballistic missile launch was reported from Voronezh region, potentially aimed eastward (Source: @mon1tor_ua/67830).",
-        "Ukrainian strike drones were observed over the north‑west part of Sumy heading east, showing continued pressure on eastern supply routes (Source: @kpszsu/65439).",
-        "Ukrainian drones were reported near the eastern front in Kharkiv region, heading north (Source: @kpszsu/65439)."
+        "Strike UAV groups entered Chernihiv region from the north, indicating increased aerial pressure on the eastern front (Source: @kpszsu/65466).",
+        "Ballistic missile threats were reported over Sumy, targeting routes toward Chernihiv and Romny (Source: @mon1tor_ua/67833).",
+        "UAVs were observed heading toward Trostyanets and Boromlya in Sumy region (Source: @kpszsu/65470).",
+        "A reconnaissance UAV was spotted north of Velykyi Sorochyntsi in Poltava, moving toward Myrhorod (Source: @kpszsu/65423)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple Ukrainian strike drones operated over northern Sumy, heading south toward Shostka (Source: @kpszsu/65457).",
-        "Ukrainian drones were seen over northern Chernihiv moving southwest (Source: @kpszsu/65444).",
-        "Ukrainian strike drones were reported over northern Dnipropetrovsk heading north toward Kharkiv, indicating northern front activity (Source: @kpszsu/65438).",
-        "Ukrainian drones were observed over northern Sumy heading east, suggesting pressure on the Chernihiv axis (Source: @kpszsu/65439).",
-        "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny (Source: @mon1tor_ua/67834).",
-        "Ukrainian drones were reported from Bryansk region (Russia) heading into Ukrainian territory, indicating cross‑border incursions (Source: @eRadarrua/97003).",
-        "Ukrainian strike drones were observed over northern Sumy, heading east, possibly targeting logistics corridors (Source: @kpszsu/65439).",
-        "Ukrainian drones were reported near the northern border of Chernihiv from Bryansk (Source: @eRadarrua/97003)."
+        "New groups of strike UAVs entered Chernihiv from the north, suggesting heightened activity along the northern front (Source: @kpszsu/65466).",
+        "A hostile UAV group from Bryansk entered northern Chernihiv (Source: @kpszsu/65453).",
+        "Shahed‑136 strike groups are prepared for launch from Primorsko‑Akhtarsk and Khalino, potentially affecting northern sectors (Source: @eRadarrua/97002).",
+        "UAV activity was reported in Kyiv region north of Pripyat and near the border with Chernihiv (Source: @eRadarrua/97036)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian drones attacked Zaporizhzhia, causing civilian casualties and extensive damage to residential and educational facilities (Source: @UkraineNow/81983).",
-        "Ukrainian strike drones were reported over southern Dnipropetrovsk moving north, indicating activity on the southern front (Source: @kpszsu/65447).",
-        "Ukrainian drones were observed near the Zaporizhzhia region heading toward Veselanka (Source: @eRadarrua/97008).",
-        "Ukrainian drones struck a Nova Poshta sorting terminal in Sumy, a southern part of the region, damaging infrastructure (Source: @UkraineNow/81995).",
-        "A Ukrainian drone attack on a bus carrying Belarusian children near Bryansk resulted in casualties, showing southern cross‑border threats (Source: @ukr_leaks_eng/30973).",
-        "Ukrainian strike drones were reported over the southern Dnipropetrovsk region heading north toward Kharkiv (Source: @kpszsu/65447).",
-        "Ukrainian drones were observed near the southern front in the Kharkiv region, heading north (Source: @kpszsu/65439).",
-        "Ukrainian strike drones were reported over the southern Dnipropetrovsk region heading north, indicating pressure on Russian‑held areas (Source: @kpszsu/65447)."
+        "Ukrainian drones attacked civil infrastructure in Zaporizhzhia, causing one death and seven injuries, with damage to residential buildings, an office centre and a university (Source: @ukr_leaks_eng/81983).",
+        "Strike UAVs from the Black Sea were reported heading toward Ochakiv (Source: @kpszsu/65464).",
+        "UAVs from the Black Sea were observed moving toward Odessa/Chornomorske (Source: @kpszsu/65450).",
+        "UAV groups from Kherson region were directed toward the border of Mykolaiv and Dnipropetrovsk oblasts (Source: @kpszsu/65463)."
       ]
     },
     "air_war": {
       "points": [
-        "A Smartavia Boeing 737‑800 returned to Sochi due to technical issues, highlighting non‑combat aviation disruptions (Source: @tass_agency/381174).",
-        "A Zlin Z42 light aircraft crashed in the Moscow region, classified as a catastrophe (Source: @tass_agency/381165).",
-        "Two buses in Bryansk region were attacked by Ukrainian drones; passengers survived and were later transported to Russia (Source: @tass_agency/381178).",
-        "Russian officials condemned Ukrainian drone attacks on civilian targets in Bryansk, labeling them terrorist acts (Source: @tass_agency/381170).",
-        "Russian media reported a Ukrainian drone strike on a Belarusian children's soccer team bus near Bryansk, causing one death and injuries (Source: @ukr_leaks_eng/30973).",
-        "Ukrainian drones were reported over Zaporizhzhia causing civilian casualties and damage to an office centre and university (Source: @UkraineNow/81983).",
-        "Ukrainian strike drones were observed over multiple Ukrainian regions, indicating ongoing aerial combat operations (Source: multiple @kpszsu entries).",
-        "A ballistic missile launch was reported from Voronezh region, potentially targeting Ukrainian territory (Source: @mon1tor_ua/67830)."
+        "Shahed‑136 strike UAVs are threatened to launch from Primorsko‑Akhtarsk (up to 8 groups) and Khalino (up to 4 groups) airfields (Source: @eRadarrua/97002).",
+        "Multiple UAV groups were reported across Poltava, Sumy, Chernihiv, and Kharkiv regions, indicating widespread aerial operations (Source: @eRadarrua/97072; @kpszsu/65470; @kpszsu/65423).",
+        "Ballistic missile alerts were issued for Sumy, Chernihiv, and Kyiv districts, including a missile impact in Darnitskyi district of Kyiv (Source: @mon1tor_ua/67842).",
+        "Russian denial of Ukrainian UAV use in Bryansk follows earlier claims of a drone strike on a civilian bus (Source: @UkraineNow/82006)."
       ]
     },
     "key_developments": [
-      "Ukrainian strike drones operated over northern Sumy, heading south toward Shostka, suggesting coordinated pressure on regional logistics (Source: @kpszsu/65457).",
-      "A ballistic missile was reported over Sumy heading toward Chernihiv/Romny, indicating possible Russian missile activity in the north (Source: @mon1tor_ua/67834).",
-      "Ukrainian drones attacked Zaporizhzhia, killing one civilian, injuring seven, and damaging residential, office and university structures (Source: @UkraineNow/81983).",
-      "Ukrainian drones struck a Nova Poshta sorting terminal in Sumy, damaging roof and equipment but causing no worker casualties (Source: @UkraineNow/81995).",
-      "Two buses in Bryansk region were hit by Ukrainian drones; passengers survived and were later returned to Russia (Source: @tass_agency/381178).",
-      "A Smartavia Boeing 737‑800 returned to Sochi due to technical failure, reflecting civilian aviation disruptions (Source: @tass_agency/381174).",
-      "A Zlin Z42 light aircraft crashed in the Moscow region, classified as a catastrophe by Rosaviatsiya (Source: @tass_agency/381165)."
+      "Ukrainian drones operating in Zaporozhye region, described as professional actions (Source: @ukr_leaks_eng/30972).",
+      "Claimed Ukrainian drone strike on a Belarusian children's bus near Bryansk resulted in one death and six injuries, later denied by Russian General Staff (Source: @ukr_leaks_eng/30977; Source: @UkraineNow/82006).",
+      "New strike UAV groups entered Chernihiv from the north, expanding aerial pressure on the eastern front (Source: @kpszsu/65466).",
+      "Shahed‑136 UAV launch threats from Primorsko‑Akhtarsk (up to 8 groups) and Khalino (up to 4 groups) airfields (Source: @eRadarrua/97002).",
+      "Ballistic missile threats over Sumy heading toward Chernihiv and Romny, with alerts in Kyiv district (Source: @mon1tor_ua/67833; Source: @mon1tor_ua/67842).",
+      "G7 leaders committed to increased air defence system deliveries to Ukraine (Source: @UkraineNow/81982).",
+      "Forced evacuation of families with children from 23 settlements in Dnipropetrovsk region, affecting nearly 3,800 children (Source: @ukr_leaks_eng/30978)."
     ],
-    "threat_assessment": "Ukrainian drone activity remains widespread across northern, eastern and southern fronts, targeting logistics hubs, civilian infrastructure and crossing into Russian territory. Russian missile launches, including reported ballistic missiles from Voronezh and Sumy, indicate a continued threat of longer‑range strikes. Civilian aviation incidents in Russia, while non‑combat, add to overall airspace risk and may affect operational planning for both sides.",
-    "regional_response": "Ukrainian authorities continue to report drone strikes and coordinate defensive measures, while Russian officials publicly condemn Ukrainian attacks on civilian targets and promise retaliation. International observers, including the UN, have criticized attacks on civilian populations in Bryansk. Both sides appear to be maintaining heightened alert levels on their respective fronts.",
-    "intelligence_notes": "Open‑source monitoring shows a pattern of Ukrainian drones operating in clusters, often heading toward regional centers, suggesting coordinated sortie planning. Reports of ballistic missile trajectories from Russian-held areas require verification but indicate potential escalation in missile use. Non‑combat aviation incidents in Russia may impact air traffic control and require deconfliction with military operations."
+    "threat_assessment": "Ukrainian UAV activity is spreading across multiple axes, notably in Zaporozhye, Chernihiv, and the southern Black Sea corridor, indicating a coordinated effort to pressure Russian positions. Russian denial of the Bryansk bus incident suggests a parallel information warfare front, aiming to counteract Ukrainian claims. The preparation of Shahed‑136 strike groups from two Russian airfields and the reported ballistic missile launches toward Sumy and Kyiv raise the risk of rapid escalation, especially if missile trajectories intersect civilian areas.",
+    "regional_response": "Western allies, particularly G7 members, have pledged additional air defence systems, reflecting concern over the increasing UAV and missile threats. NATO's focus on Ukraine's needs at the Ankara summit, despite Zelensky's limited participation, underscores continued diplomatic support. Ukrainian authorities are conducting large‑scale evacuations in Dnipropetrovsk, indicating a precautionary response to anticipated attacks.",
+    "intelligence_notes": "Monitoring should prioritize the identified UAV launch points at Primorsko‑Akhtarsk and Khalino for early warning of Shahed‑136 sorties. Ballistic missile trajectories toward Sumy, Chernihiv, and Kyiv districts require heightened radar coverage and rapid interceptor readiness. The denial of the Bryansk bus strike by Russian officials suggests potential disinformation campaigns; cross‑verification of UAV activity in border regions is essential."
   },
   "missiles": 0,
   "drones": 119,
   "kpszsu_timeline": [
-    1,
     0,
-    4,
-    3,
+    6,
     3,
     2,
     1,
+    2,
     4,
-    3,
+    2,
     1,
     2,
-    3,
+    4,
     2,
     3,
     3,
+    1,
+    1,
     2,
-    0,
-    3,
     2,
     3,
     3,
-    2,
     5,
+    3,
+    0,
     1
   ]
 }
