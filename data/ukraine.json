@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-18T10:52:30.919835+00:00",
-  "message_count": 431,
+  "updated_at": "2026-06-18T11:48:02.193219+00:00",
+  "message_count": 424,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,7 +15,6 @@
   "red_alerts_timeline": [
     0,
     12,
-    0,
     12,
     0,
     24,
@@ -36,61 +35,110 @@
     24,
     12,
     12,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    23,
     20,
-    19,
-    15,
-    15,
     20,
-    11,
+    15,
     16,
     19,
-    14,
-    19,
-    13,
-    12,
-    12,
-    36,
-    28,
-    10,
-    14,
     11,
-    23,
+    16,
+    18,
+    16,
+    19,
+    12,
+    11,
+    12,
+    35,
+    29,
+    11,
     15,
-    22,
-    23,
-    19
+    12,
+    20,
+    15,
+    21,
+    26,
+    19,
+    16
   ],
   "messages_by_channel": {
     "@eRadarrua": 74,
-    "@kpszsu": 51,
+    "@kpszsu": 48,
     "@mon1tor_ua": 63,
-    "@UkraineNow": 25,
+    "@UkraineNow": 24,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 189
+    "@tass_agency": 186
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97179",
+    "eRadarrua": "https://t.me/eRadarrua/97180",
     "kpszsu": "https://t.me/kpszsu/65531",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67898",
-    "UkraineNow": "https://t.me/UkraineNow/82022",
+    "UkraineNow": "https://t.me/UkraineNow/82023",
     "DeepStateUA": "https://t.me/DeepStateUA/23585",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30997",
-    "tass_agency": "https://t.me/tass_agency/381289"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30998",
+    "tass_agency": "https://t.me/tass_agency/381304"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/381272",
-    "kpszsu": "https://t.me/kpszsu/65513",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67880",
-    "UkraineNow": "https://t.me/UkraineNow/82015",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/30992",
-    "eRadarrua": "https://t.me/eRadarrua/97100"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67867",
+    "UkraineNow": "https://t.me/UkraineNow/82012",
+    "kpszsu": "https://t.me/kpszsu/65474",
+    "eRadarrua": "https://t.me/eRadarrua/97104"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/381302",
+      "post_id": 381302,
+      "channel": "tass_agency",
+      "ts": "2026-06-18T11:41:14+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/30998",
+      "post_id": 30998,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-18T11:33:49+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/381300",
+      "post_id": 381300,
+      "channel": "tass_agency",
+      "ts": "2026-06-18T11:33:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/97180",
+      "post_id": 97180,
+      "channel": "eRadarrua",
+      "ts": "2026-06-18T11:23:57+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/sLZ2BJN3FjNiiEC4GTmQTaV_9EnSyg0JJoQgVbX8pxZD-04lL0HysyMRLnAe1MPioaxUEKGFhwxWSUrZSXzog1OtcaKUpn-wcSUyO3xBMNnTyKH8KrjG-ajRTfl5njtPM9ECnO1IXSOqow2XLPVRX9bBCkVku4DomlrcYLcX6WppQ0WZteF5anQ9a5WTeUinvpFiCsOzIsRo8m4_ENn5HVv59BAbnFdUujSAeSAznAJmD7ACNbX2DaB7c3TYTXjAUyPX9kTSuOcOH9Lb_TEmH1rWg8Yfal4bp0WQwpbu724Xijj33WXH8uwRuG2eCEFK9SKUi-GnZ3Z9qfyDgKHTew.jpg",
+      "companion_text_id": 97179
+    },
+    {
+      "post_url": "https://t.me/tass_agency/381295",
+      "post_id": 381295,
+      "channel": "tass_agency",
+      "ts": "2026-06-18T11:13:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/381293",
+      "post_id": 381293,
+      "channel": "tass_agency",
+      "ts": "2026-06-18T11:04:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82023",
+      "post_id": 82023,
+      "channel": "UkraineNow",
+      "ts": "2026-06-18T10:51:53+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/381290",
+      "post_id": 381290,
+      "channel": "tass_agency",
+      "ts": "2026-06-18T10:51:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/381288",
       "post_id": 381288,
@@ -166,58 +214,6 @@
       "post_id": 30995,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-18T09:32:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381267",
-      "post_id": 381267,
-      "channel": "tass_agency",
-      "ts": "2026-06-18T09:09:31+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381263",
-      "post_id": 381263,
-      "channel": "tass_agency",
-      "ts": "2026-06-18T09:02:32+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30994",
-      "post_id": 30994,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-18T09:01:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381262",
-      "post_id": 381262,
-      "channel": "tass_agency",
-      "ts": "2026-06-18T09:01:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/97155",
-      "post_id": 97155,
-      "channel": "eRadarrua",
-      "ts": "2026-06-18T08:59:32+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/e2b_DTUNlbUqlfcBuywqGUZuCnGC-jr3Kxjc3OQ0L4kmrq8r2omWjK5vv1PcLSiyUQRLBvWbs8ClWwf07dI8X-KSyKjYKZRSPjE5bRTn6H7vMTbolWeOzGMVJCgJeuoQ0mKuJkGaPQk1l2b6T1uxH8A2wJmEs23AG7Zg4Zd4c0WhG3qSDPTqJipv8xtu27sGLoQKuD6minAaNN3MQaUfHVPTrdfFtcv9usyX7DHd7ifqL1DJckxeKIEPUfYK2GuHEAr8KBF6brkn7rQv7Z7l2B3jWgzik_F4Uiacg8qNgUKbOo8WS4znNjOiZO_nViOw1cFmcLNae4mIHDliu6mtww.jpg",
-      "companion_text_id": 97153
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381252",
-      "post_id": 381252,
-      "channel": "tass_agency",
-      "ts": "2026-06-18T08:28:09+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/30991",
-      "post_id": 30991,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-18T08:05:53+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/97146",
-      "post_id": 97146,
-      "channel": "eRadarrua",
-      "ts": "2026-06-18T07:57:15+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/LOVfjFOEE6JHihCISvIriCxL1ESmqq1dpgpBhL0yluORAu9QkdbZlRRPF_410gNUeSpqIuCL3i0S2OOXIYPo_-yPzv-HeLH2Hes073k1zMouQ6_rjwxqBtok7c8ARjOU9f_JsshhOztHBjuMHLsND9qFTffGSZRhho_TdjnhnWWWfzGXEEm7FEB0ei1oKDAjwDI6Q-lO3JsxW_5MeL_IRJonfMpORlGYkSFrxDC-Qy7qeOILIKnDSz7mhUqOZckE7IqAWc824E14ynbvwWCyVyDpdBbbJbzB-AJG2khUmZ0wlHyxjt4Scdl7BxccH_ynVe1quEq1U66eFOAAPZjJKQ.jpg",
-      "companion_text_id": 97145
     }
   ],
   "post_images": {
@@ -225,6 +221,8 @@
     "eRadarrua/97153": "data/media/eRadarrua_97155.jpg",
     "eRadarrua/97171": "data/media/eRadarrua_97171.jpg",
     "eRadarrua/97173": "data/media/eRadarrua_97173.jpg",
+    "eRadarrua/97180": "data/media/eRadarrua_97180.jpg",
+    "eRadarrua/97179": "data/media/eRadarrua_97180.jpg",
     "eRadarrua/97136": "data/media/eRadarrua_97136.jpg",
     "eRadarrua/97135": "data/media/eRadarrua_97136.jpg",
     "eRadarrua/97140": "data/media/eRadarrua_97140.jpg",
@@ -233,7 +231,7 @@
     "eRadarrua/97146": "data/media/eRadarrua_97146.jpg",
     "eRadarrua/97145": "data/media/eRadarrua_97146.jpg",
     "eRadarrua/97112": "data/media/eRadarrua_97112.jpg",
-    "eRadarrua/97111": "data/media/eRadarrua_97111.jpg",
+    "eRadarrua/97111": "data/media/eRadarrua_97112.jpg",
     "eRadarrua/97126": "data/media/eRadarrua_97126.jpg",
     "eRadarrua/97127": "data/media/eRadarrua_97126.jpg",
     "eRadarrua/97129": "data/media/eRadarrua_97129.jpg",
@@ -242,96 +240,106 @@
     "eRadarrua/97131": "data/media/eRadarrua_97131.jpg",
     "eRadarrua/97132": "data/media/eRadarrua_97132.jpg",
     "eRadarrua/97133": "data/media/eRadarrua_97133.jpg",
-    "eRadarrua/97110": "data/media/eRadarrua_97111.jpg",
     "kpszsu/65513": "data/media/kpszsu_65513.jpg",
     "kpszsu/65512": "data/media/kpszsu_65513.jpg"
   },
-  "summary": "Russian forces reported destroying Ukrainian long‑range UAV storage sites, while Ukrainian sources confirmed the downing of 216 aerial targets including Shahed drones and Iskander‑M missiles on 18 June. Multiple Shahed attacks were observed over Kyiv, Kyiv‑region suburbs, Sumy and the Black Sea coast. Ukrainian authorities reported damage to civilian infrastructure in Kyiv oblast but no casualties.",
+  "summary": "Ukrainian Shahed and Geran-5 drones are repeatedly targeting Kyiv and its suburbs, with at least five Shaheds reported over the capital. Russian cities, including Moscow, are also under UAV and missile attacks, notably on oil refineries and residential areas. Significant strikes on infrastructure continued in Poltava and Dnipro regions, causing casualties and damage.",
   "key_points": [
-    "Russian defence ministry said its troops struck Ukrainian long‑range UAV storage sites within a day (Source: @tass_agency/381272).",
-    "Ukrainian air defence reported 216 aerial targets destroyed on the night of 18 June, including 4 Iskander‑M/S‑400 missiles and 212 Shahed‑type drones (Source: @kpszsu/65513).",
-    "Shahed drones were tracked heading toward Kyiv, Boryspil and the Dnipro direction, with at least one intercepted over Kyiv (Source: @mon1tor_ua/67880).",
-    "Ukrainian officials said night attacks on Kyiv oblast damaged houses, a school and an industrial site but caused no casualties (Source: @UkraineNow/82015).",
-    "A Shahed drone was reported over Dnipro and another over Pavlograd (Source: @mon1tor_ua/67891, @mon1tor_ua/67865).",
-    "Ukrainian forces reported a group of attack UAVs moving from Mykolaiv towards Kirovohrad (Source: @kpszsu/65473).",
-    "Russian media noted debris from downed UAVs fell on a shopping centre in Moscow region (Source: @tass_agency/381255).",
-    "Ukraine’s Ministry of Defence announced checks of military commissariats for rights violations (Source: @UkraineNow/82003)."
+    "At least five Shahed drones were observed over Kyiv, some heading toward the Darnytskyi district (Source: @mon1tor_ua/67867).",
+    "A Geran-5 missile was launched 3 km from Brovary, initially targeting Boryspil before moving toward Kyiv's Darnytskyi district (Source: @mon1tor_ua/67881).",
+    "Moscow suffered multiple UAV strikes on an oil refinery and residential buildings, with reported damage to a shopping centre (Source: @UkraineNow/82012).",
+    "Russian forces hit an energy facility in Poltava region, injuring one person and causing power outages (Source: @UkraineNow/82013).",
+    "A Russian strike on Dnipro damaged a private enterprise, killed one man and wounded nine others (Source: @UkraineNow/82020).",
+    "UAV groups from the Black Sea are heading toward Ochakiv and Zatoka/Serhiyivka, indicating continued southern maritime pressure (Source: @kpszsu/65474, @kpszsu/65511).",
+    "KAB missile launches were reported targeting Zaporizhzhia and eastern Dnipropetrovsk oblast (Source: @kpszsu/65499).",
+    "Ukrainian air alarm in Kyiv was cancelled at 05:42 on 18 June 2026 (Source: @eRadarrua/97104)."
   ],
-  "sentiment": "volatile",
+  "sentiment": "active",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Russian forces claimed destruction of Ukrainian long‑range UAV storage sites, while Ukrainian air defence reported downing 216 aerial targets on 18 June, including Iskander‑M missiles and Shahed drones. Shahed attacks were observed over Kyiv, its suburbs and the Black Sea coast, prompting alerts and interceptions. Damage to civilian structures in Kyiv oblast was reported without casualties.",
+    "executive_summary": "Ukrainian Shahed and Geran-5 drones are repeatedly targeting Kyiv and its suburbs, with at least five Shaheds reported over the capital. Russian cities, including Moscow, are also under UAV and missile attacks, notably on oil refineries and residential areas. Significant strikes on infrastructure continued in Poltava and Dnipro regions, causing casualties and damage.",
     "ukraine": {
       "points": [
-        "Ukrainian air defence units engaged a large-scale aerial assault on the night of 18 June, confirming 216 targets destroyed, comprising 4 Iskander‑M/S‑400 ballistic missiles and 212 Shahed‑type UAVs across northern, southern and eastern sectors (Source: @kpszsu/65513).",
-        "Ukrainian officials reported that night attacks in Kyiv oblast damaged residential houses, an educational institution and an industrial facility in Vyshorod and Borispil districts, but no injuries were recorded (Source: @UkraineNow/82015).",
-        "A group of attack UAVs was observed moving from Mykolaiv towards Kirovohrad, indicating a south‑west thrust of Shahed drones (Source: @kpszsu/65473).",
-        "Ukrainian forces reported a Shahed drone heading toward Dnipro and another over Pavlograd, highlighting continued threats to central Ukrainian cities (Source: @mon1tor_ua/67891, @mon1tor_ua/67865).",
-        "Ukrainian intelligence posted footage of fighting in the village of Kutuzovka in the DPR, suggesting ongoing ground combat in contested areas (Source: @ukr_leaks_eng/30992)."
+        "A Shahed drone was observed over Pavlograd, indicating the spread of missile attacks into central Ukraine (Source: @mon1tor_ua/67865).",
+        "UAV groups were reported moving from the Black Sea toward Ochakiv, suggesting a southern maritime axis of attack (Source: @kpszsu/65474).",
+        "UAV formations approached Poltava from the north, raising the risk of strikes on the regional capital (Source: @kpszsu/65496).",
+        "Two strike UAVs were detected heading toward the Boryspil area, targeting Kyiv from the east (Source: @kpszsu/65500).",
+        "KAB missile launches targeted Zaporizhzhia and eastern Dnipropetrovsk, demonstrating long‑range strike capability (Source: @kpszsu/65499).",
+        "Ukrainian forces reported successful defense of a railway bridge near Rozdolne in occupied Crimea from UAV attack (Source: @UkraineNow/82011).",
+        "Casualty reports from Poltava indicate one injured person after a drone strike on an energy object (Source: @UkraineNow/82013)."
       ]
     },
     "russia": {
       "points": [
-        "The Russian Ministry of Defence announced that its troops destroyed Ukrainian long‑range UAV storage facilities within a 24‑hour period (Source: @tass_agency/381272).",
-        "Russian authorities reported six injuries from a Shahed UAV strike on a bus in Bryansk region, with victims to be evacuated to Belarus (Source: @tass_agency/381253).",
-        "Russian media described debris from downed UAVs damaging a private house in Elektrostal and a shopping centre roof in Moscow region (Source: @tass_agency/381255).",
-        "A Russian source indicated that Moscow was under attack by UAVs targeting an oil refinery, with response measures underway (Source: @ukr_leaks_eng/30994).",
-        "Russian officials cited a memo on Russia‑ASEAN summit outcomes, unrelated to combat but reflecting broader diplomatic activity (Source: @tass_agency/381286)."
+        "Moscow's oil refinery sustained multiple UAV hits, with reports of extensive damage (Source: @mon1tor_ua/67897).",
+        "UAV attacks on Moscow resulted in damage to a local shopping centre and several residential buildings (Source: @UkraineNow/82012).",
+        "Moscow was reported under UAV attack in general, confirming ongoing aerial pressure on the Russian capital (Source: @mon1tor_ua/67866).",
+        "Moscow airports suspended operations following Ukrainian UAV attacks (Source: @eRadarrua/97130).",
+        "A threat of ballistic weapon use from the southeast was noted, potentially targeting Russian territory (Source: @kpszsu/65527).",
+        "Ukrainian Shahed missile launched from the Black Sea toward Odesa region, indicating pressure on southern Russian‑occupied areas (Source: @mon1tor_ua/67894).",
+        "Russian air defense downed several drones over Moscow, confirming active interception efforts (Source: @UkraineNow/82012)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces reported Shahed UAV activity over Sumy region, including attacks near the border of Sumy and Kharkiv oblasts (Source: @kpszsu/65483).",
-        "A Shahed drone was observed heading westward from south of Sumy (Source: @kpszsu/65516).",
-        "Ukrainian reports indicated fast‑moving targets from Kursk heading toward Sumy, suggesting cross‑border UAV launches (Source: @kpszsu/65531).",
-        "Ukrainian intelligence noted ongoing small‑arms battles in Bachevsk, Ivolzhansky and Novaya Sech within Sumy district (Source: @ukr_leaks_eng/30994).",
-        "Ukrainian forces reported a group of attack UAVs moving from the Black Sea toward Serhiyivka Bay, indicating maritime launch points (Source: @kpszsu/65511)."
+        "Geran-5 missiles were launched 3 km from Brovary, initially heading to Boryspil before turning toward Kyiv's Darnytskyi district (Source: @mon1tor_ua/67881).",
+        "Two Bandera rockets flew over Borispil, directed toward the Darnytskyi district of Kyiv (Source: @mon1tor_ua/67884).",
+        "Additional Bandera rockets were reported over Borispil with the same trajectory (Source: @mon1tor_ua/67883).",
+        "A reactive Shahed missile was observed heading directly for Kyiv (Source: @mon1tor_ua/67898).",
+        "UAV activity was noted near the Dnipropetrovsk area, with a fast‑moving missile reported toward Pavlograd (Source: @eRadarrua/97135).",
+        "Air alarm in Kyiv was cancelled at 05:42 on 18 June 2026, indicating a temporary lull (Source: @eRadarrua/97104).",
+        "Multiple Shahed drones were reported over Kyiv, suggesting sustained pressure on the capital (Source: @mon1tor_ua/67867)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian air defence reported downing of Shahed drones over the Kyiv region, including a group near Barishivka and one over Boryspil (Source: @eRadarrua/97100).",
-        "A Shahed drone was tracked over the Dnipro direction, with a change of course noted near Brovary (Source: @mon1tor_ua/67882).",
-        "Ukrainian sources indicated a Shahed drone heading toward the Dnipro district of Kyiv, prompting alerts (Source: @mon1tor_ua/67880).",
-        "Ukrainian radar reported a Shahed drone over the northern outskirts of Kyiv, with potential re‑emergence over the city within two hours (Source: @mon1tor_ua/67887).",
-        "Ukrainian forces noted a Shahed drone over the Chernihiv region heading toward Nosivka and then Kyiv (Source: @eRadarrua/97100)."
+        "UAV groups were observed moving from the Black Sea toward Zatoka/Serhiyivka, indicating northern Black Sea activity (Source: @kpszsu/65511).",
+        "UAV formations approached Poltava from the north, raising the threat to the regional center (Source: @kpszsu/65496).",
+        "A Shahed drone was sighted over Pavlograd, extending the northern reach of missile attacks (Source: @mon1tor_ua/67865).",
+        "UAV activity was reported near the Kyiv region from the north, with missiles heading toward Darnytskyi district (Source: @mon1tor_ua/67881).",
+        "UAV strikes on Moscow's northern districts were reported, though details remain limited (Source: @mon1tor_ua/67866).",
+        "UAVs were observed near the Boryspil area, potentially targeting northern approaches to Kyiv (Source: @kpszsu/65500).",
+        "No specific casualty figures were provided for northern engagements."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian reports described a group of attack UAVs moving from the Black Sea toward the Zatoka/Serhiyivka direction (Source: @kpszsu/65511).",
-        "Shahed drones were observed over the Black Sea coast heading toward Odesa, with possible course changes after launch from Crimea (Source: @mon1tor_ua/67894).",
-        "Ukrainian sources reported a Shahed drone over the Dnipro direction near the Kyiv‑Dnipro district, indicating southern pressure (Source: @mon1tor_ua/67880).",
-        "Ukrainian intelligence noted a Shahed drone heading west from the area south of Sumy, potentially targeting central Ukraine (Source: @kpszsu/65516).",
-        "Ukrainian forces reported a Shahed drone group moving from Mykolaiv toward Kirovohrad, suggesting a south‑west axis of attack (Source: @kpszsu/65473)."
+        "Shahed missiles were reported over the Black Sea heading toward the Odesa region, suggesting southern maritime pressure (Source: @mon1tor_ua/67894).",
+        "UAV groups from the Black Sea were directed toward Ochakiv, a key southern port (Source: @kpszsu/65474).",
+        "UAVs were observed heading toward the Zatoka/Serhiyivka area from the Black Sea (Source: @kpszsu/65511).",
+        "A threat of ballistic weapons from the southeast was noted, potentially targeting southern Ukrainian territories (Source: @kpszsu/65527).",
+        "UAV attacks on Moscow's oil refinery originated from the south, indicating cross‑border strike capability (Source: @mon1tor_ua/67897).",
+        "Ukrainian UAVs attacked a railway bridge near Rozdolne in occupied Crimea, a southern strategic point (Source: @UkraineNow/82011).",
+        "No direct casualty numbers were reported for southern Ukrainian targets in the provided messages."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defence claimed 216 aerial targets destroyed on 18 June, including 4 Iskander‑M ballistic missiles and 212 Shahed‑type UAVs (Source: @kpszsu/65513).",
-        "Russian reports indicated debris from downed UAVs damaging civilian structures in Moscow region, including a private house and a shopping centre roof (Source: @tass_agency/381255).",
-        "Ukrainian sources reported multiple Shahed drones intercepted over Kyiv, Boryspil and Dnipro directions, with alerts issued for civilian safety (Source: @mon1tor_ua/67880, @eRadarrua/97100).",
-        "Russian forces claimed to have struck Ukrainian long‑range UAV storage sites, suggesting a pre‑emptive strike on UAV production capabilities (Source: @tass_agency/381272).",
-        "Ukrainian intelligence noted a Shahed drone attack on a Russian refinery, with response measures being taken (Source: @ukr_leaks_eng/30994)."
+        "Multiple Shahed and Geran-5 drones were reported over Kyiv and its suburbs, indicating intense low‑altitude air activity (Source: @mon1tor_ua/67867, @mon1tor_ua/67881).",
+        "UAV strikes on Moscow's oil refinery and residential areas demonstrate Ukrainian capability to reach deep into Russian airspace (Source: @mon1tor_ua/67897, @mon1tor_ua/67866).",
+        "Russian air defense successfully downed several drones over Moscow, protecting key infrastructure (Source: @UkraineNow/82012).",
+        "KAB missile launches targeted Zaporizhzhia and eastern Dnipropetrovsk, showing use of medium‑range air‑to‑ground systems (Source: @kpszsu/65499).",
+        "UAV groups from the Black Sea were directed toward southern Ukrainian ports, highlighting maritime air threat vectors (Source: @kpszsu/65474, @kpszsu/65511).",
+        "Air alarm in Kyiv was cancelled at 05:42 on 18 June 2026, reflecting a brief pause in aerial alerts (Source: @eRadarrua/97104).",
+        "Reports of a ballistic weapon threat from the southeast suggest potential escalation of high‑altitude air threats (Source: @kpszsu/65527)."
       ]
     },
     "key_developments": [
-      "Russian troops destroyed Ukrainian long‑range UAV storage sites, according to the Russian defence ministry (Source: @tass_agency/381272).",
-      "Ukrainian air defence reported downing 216 aerial targets, including 4 Iskander‑M missiles and 212 Shahed drones on the night of 18 June (Source: @kpszsu/65513).",
-      "Shahed drones were tracked heading toward Kyiv, Boryspil and Dnipro, prompting multiple interceptions (Source: @mon1tor_ua/67880, @eRadarrua/97100).",
-      "Night attacks damaged residential and educational buildings in Kyiv oblast but caused no casualties (Source: @UkraineNow/82015).",
-      "Ukrainian forces observed Shahed activity over Sumy and the border with Kharkiv, indicating continued eastern pressure (Source: @kpszsu/65483).",
-      "Russian reports of UAV debris damaging structures in Moscow region highlight the reach of Ukrainian drone strikes (Source: @tass_agency/381255).",
-      "Ukrainian intelligence posted footage of combat in the village of Kutuzovka in the DPR, confirming ongoing ground fighting (Source: @ukr_leaks_eng/30992)."
+      "Shahed drones over Kyiv, including at least five sightings, indicate sustained pressure on the capital (Source: @mon1tor_ua/67867).",
+      "UAV attacks on Moscow's oil refinery and residential districts show Ukrainian capability to strike deep Russian targets (Source: @mon1tor_ua/67897).",
+      "Geran-5 missile launch 3 km from Brovary heading toward Kyiv's Darnytskyi district demonstrates proximity of attacks to the capital (Source: @mon1tor_ua/67881).",
+      "KAB missile launches at Zaporizhzhia and eastern Dnipropetrovsk expand the range of Ukrainian strike options (Source: @kpszsu/65499).",
+      "UAV groups from the Black Sea targeting Ochakiv and Zatoka/Serhiyivka increase southern front pressure (Source: @kpszsu/65474, @kpszsu/65511).",
+      "Russian air defense downed drones over Moscow, confirming active interception but also indicating ongoing threat (Source: @UkraineNow/82012).",
+      "Threat of ballistic weapons from the southeast could elevate the conflict's intensity (Source: @kpszsu/65527)."
     ],
-    "threat_assessment": "Ukrainian air defences are under sustained pressure from Shahed‑type UAVs launched from multiple directions, including the Black Sea, Crimea and Russian territories. The downing of 216 aerial targets demonstrates high interception capability but also indicates a significant volume of hostile air activity. Russian claims of striking Ukrainian UAV storage suggest an effort to degrade Kyiv's long‑range drone capabilities, potentially shifting the aerial balance. Continued UAV incursions over Kyiv and eastern fronts pose persistent threats to both military and civilian infrastructure.",
-    "regional_response": "Ukrainian authorities have issued public alerts and reinforced air defence assets around Kyiv, Boryspil and Dnipro, while emphasizing civilian safety measures. Russian statements highlight successful strikes on Ukrainian UAV assets, aiming to project defensive strength. International observers note the escalation of UAV usage on both sides, with potential implications for regional security dynamics and civilian risk.",
-    "intelligence_notes": "Monitoring of UAV launch points indicates increased activity from the Black Sea coast and Crimea, requiring enhanced radar coverage. The high number of intercepted Shahed drones suggests a robust Ukrainian electronic warfare and air defence response, yet the persistence of attacks underscores the need for additional counter‑UAV resources. Russian claims of destroying UAV storage sites should be corroborated with satellite imagery to assess impact on Ukraine's drone production capabilities."
+    "threat_assessment": "Ukrainian drone and missile activity is intensifying around Kyiv, with Shahed and Geran-5 systems operating within a few kilometres of the city, raising the risk of civilian casualties and infrastructure damage. Russian territory, particularly Moscow, is experiencing UAV strikes on strategic oil infrastructure and residential areas, demonstrating Ukraine's growing long‑range strike capability. The emergence of ballistic weapon threats from the southeast adds a new dimension that could complicate air defense postures on both sides.",
+    "regional_response": "Ukrainian air defense units are actively engaging inbound Shahed and Geran-5 drones, as evidenced by multiple alerts and interceptions over Kyiv. Russian air defense reported successful downing of drones over Moscow, indicating heightened alertness in the capital. Both sides appear to be reallocating assets to protect critical infrastructure, with Ukraine focusing on counter‑UAV measures and Russia reinforcing air defense around major cities and industrial sites.",
+    "intelligence_notes": "The concentration of Shahed attacks near Kyiv suggests a coordinated effort to test and potentially degrade the capital's air defense envelope. UAV incursions from the Black Sea toward southern ports highlight a strategic aim to disrupt logistics and supply lines in the south. The reported ballistic threat from the southeast, while unconfirmed, should be monitored for any deployment that could alter the current balance of aerial capabilities."
   },
   "missiles": 0,
   "drones": 239,
   "kpszsu_timeline": [
-    2,
     4,
     1,
     0,
@@ -343,17 +351,18 @@
     4,
     2,
     1,
-    2,
+    1,
+    5,
+    6,
+    1,
+    1,
     4,
-    7,
-    0,
-    1,
-    4,
     1,
     1,
     0,
     2,
     1,
+    0,
     0
   ]
 }
