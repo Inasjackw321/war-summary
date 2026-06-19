@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-19T12:43:39.130842+00:00",
-  "message_count": 287,
+  "updated_at": "2026-06-19T13:47:45.055469+00:00",
+  "message_count": 281,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,23 +15,23 @@
   "red_alerts_timeline": [
     5,
     5,
+    25,
+    10,
+    10,
+    10,
     5,
-    19,
-    14,
-    9,
-    9,
-    5,
-    5,
-    0,
-    0,
-    0,
-    5,
-    0,
     5,
     0,
     0,
     0,
     5,
+    0,
+    5,
+    0,
+    0,
+    0,
+    5,
+    0,
     0,
     0,
     0,
@@ -39,56 +39,69 @@
     0
   ],
   "combined_activity_timeline": [
-    17,
-    14,
-    8,
+    13,
+    9,
     20,
     12,
     19,
-    16,
+    15,
     3,
     6,
-    5,
+    6,
     4,
+    2,
     3,
-    3,
-    8,
     9,
-    7,
-    15,
-    11,
+    9,
+    8,
     14,
-    17,
+    10,
+    16,
+    16,
     16,
     21,
     14,
-    25
+    25,
+    11
   ],
   "messages_by_channel": {
-    "@eRadarrua": 57,
-    "@kpszsu": 29,
+    "@eRadarrua": 54,
+    "@kpszsu": 33,
     "@mon1tor_ua": 8,
-    "@UkraineNow": 28,
+    "@UkraineNow": 26,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 24,
-    "@tass_agency": 140
+    "@ukr_leaks_eng": 23,
+    "@tass_agency": 136
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/97283",
-    "kpszsu": "https://t.me/kpszsu/65589",
+    "kpszsu": "https://t.me/kpszsu/65595",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67907",
-    "UkraineNow": "https://t.me/UkraineNow/82052",
+    "UkraineNow": "https://t.me/UkraineNow/82053",
     "DeepStateUA": "https://t.me/DeepStateUA/23586",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31025",
-    "tass_agency": "https://t.me/tass_agency/381481"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31027",
+    "tass_agency": "https://t.me/tass_agency/381487"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31023",
-    "eRadarrua": "https://t.me/eRadarrua/97264",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31017",
+    "kpszsu": "https://t.me/kpszsu/65566",
+    "UkraineNow": "https://t.me/UkraineNow/82044",
     "tass_agency": "https://t.me/tass_agency/381449",
-    "kpszsu": "https://t.me/kpszsu/65579"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67902"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/82053",
+      "post_id": 82053,
+      "channel": "UkraineNow",
+      "ts": "2026-06-19T13:30:47+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/381482",
+      "post_id": 381482,
+      "channel": "tass_agency",
+      "ts": "2026-06-19T13:13:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/381477",
       "post_id": 381477,
@@ -202,20 +215,6 @@
       "post_id": 82046,
       "channel": "UkraineNow",
       "ts": "2026-06-19T08:20:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82045",
-      "post_id": 82045,
-      "channel": "UkraineNow",
-      "ts": "2026-06-19T08:17:52+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/97270",
-      "post_id": 97270,
-      "channel": "eRadarrua",
-      "ts": "2026-06-19T07:51:50+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/fcG4zp934vR0RK8U45XUWGci8-V1AL1_il6kJ2pZZwCvUc6p_W5uMogsp1krgJDeSodEyOuMGpcq4VS0JsXi7BOaZGoQKQKhRmUpg9YyZLgtrYYf6G_BhXu5JbJF5pjW3k7_3h-VX2eLQM5jLfqcEoe0Ei_wzx7YGUoqsyC7r4lCGTkX4E_9xQ7Xslt82uGsK0TSfzyMHbKlxHJol91RnZ1SCTKIj7XHpKU9Gnkm4ozb0nhHeQlLW_TJB4L0tWqt6SHjZWcGnfr_ko3Xb387AN06T79hXS2EuGlEZQ7X9uEX06b3AWdfDQYIvzS6XNxyl9ICJYs3Ub33XLn76b9naQ.jpg",
-      "companion_text_id": 97271
     }
   ],
   "post_images": {
@@ -248,86 +247,93 @@
     "kpszsu/65566": "data/media/kpszsu_65566.jpg",
     "kpszsu/65565": "data/media/kpszsu_65566.jpg"
   },
-  "summary": "Ukrainian forces reported liberating 627 buildings and neutralising over 540 enemy troops in Konstantinovka, while Russian strategic aviation prepared a large missile and bomber sortie targeting Kyiv and other cities. Multiple UAV sightings were reported across northern and central Ukraine, and Russian forces claimed to have liberated five settlements in the Donetsk region. Russian air defenses downed 216 Ukrainian UAVs over Russian territory and the Moscow region.",
+  "summary": "Russian forces intensified UAV and guided bomb attacks across multiple fronts, striking civilian infrastructure in Kharkiv, Kherson, Odessa and the Black Sea, while Ukrainian air defenses reported downing 79 hostile drones. Russian troops claimed the liberation of five settlements in the Donetsk region, including Yurkovka. Ukrainian forces continued to repel aerial assaults, reporting numerous UAV incursions from various directions.",
   "key_points": [
-    "Ukrainian assault groups in Konstantinovka destroyed enemy positions, liberating 627 buildings and neutralising over 540 troops, 160 weapons, and 116 vehicles (Source: @ukr_leaks_eng/31023).",
-    "Russian strategic bombers, including 7 Tu-95MS, 4 Tu-22M3, and 3 Tu-160, were reportedly being readied for a missile strike on Kyiv and other major Ukrainian cities (Source: @eRadarrua/97264).",
-    "Russian forces announced the liberation of five settlements in the Donetsk region, including Yurkovka, over the past week (Source: @tass_agency/381449).",
-    "Ukrainian air defenses reported at least two Tu-95MS aircraft in the air, possibly from the ‘Ukrainka’ airfield (Source: @eRadarrua/97248).",
-    "UAV activity was observed over northern Kyiv region heading southwest, near the border of Kharkiv and Dnipropetrovsk heading northwest, and west of Kharkiv towards Lyubotyn (Source: @kpszsu/65579).",
-    "Additional UAV sightings included a drone over the Chernihiv region heading toward Kyiv region (Vishhorod district) (Source: @kpszsu/65577).",
-    "Russian air defenses downed three UAVs approaching Moscow, bringing the daily total to 19 (Source: @tass_agency/381448).",
-    "Russian defense ministry reported shooting down 216 Ukrainian UAVs over Russian regions and the Black Sea within six hours (Source: @tass_agency/381466)."
+    "Russian forces struck a fuel tanker parking lot in southern Odessa region (Source: @ukr_leaks_eng/31017).",
+    "Ukrainian air defenses shot down 79 enemy UAVs during a large-scale attack involving 90 Shahed‑type drones from multiple directions (Source: @kpszsu/65566).",
+    "Russian guided aerial bombs were launched on Zaporizhzhia and Dnipropetrovsk regions (Source: @kpszsu/65592).",
+    "A Russian drone attack on civilian ships in the Black Sea killed a crew member and injured five others (Source: @UkraineNow/82044).",
+    "In Kherson, Russian attacks damaged two buses and injured five civilians (Source: @UkraineNow/82046).",
+    "Russian forces attacked Kharkiv with a guided aerial bomb, causing nine injuries including four children and damaging over forty houses (Source: @UkraineNow/82042).",
+    "Russian troops claimed to have liberated five settlements in Donetsk, including Yurkovka (Source: @tass_agency/381449).",
+    "Multiple reactive Shahed‑type UAVs were reported over Kharkiv, Sumy, Kryvyi Rih, Mykolaiv, Chernihiv and the Black Sea, heading toward various Ukrainian targets (Source: @kpszsu/65562, @kpszsu/65558, @kpszsu/65574, @kpszsu/65561)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces made significant gains in Konstantinovka, liberating hundreds of structures and neutralising substantial enemy forces. Russia prepared a large-scale aerial strike involving multiple strategic bombers aimed at Kyiv and other major cities. Both sides reported intense UAV activity and high numbers of UAV interceptions.",
+    "executive_summary": "Russian forces intensified UAV and guided bomb attacks across multiple fronts, striking civilian infrastructure in Kharkiv, Kherson, Odessa and the Black Sea, while Ukrainian air defenses reported downing 79 hostile drones. Russian troops claimed the liberation of five settlements in the Donetsk region, including Yurkovka. Ukrainian forces continued to repel aerial assaults, reporting numerous UAV incursions from various directions.",
     "ukraine": {
       "points": [
-        "In Konstantinovka, Ukrainian assault groups conducted combat actions, liberating 627 buildings and neutralising over 540 enemy troops, more than 160 weapons, and 116 motor vehicles during the week (Source: @ukr_leaks_eng/31023).",
-        "Ukrainian air defenses observed at least two Tu-95MS bombers in the air, possibly originating from the ‘Ukrainka’ airfield, with further direction details pending (Source: @eRadarrua/97248).",
-        "Ukrainian forces reported UAV sightings across the north: a drone in north‑west Kyiv region heading southwest, another on the Kharkiv‑Dnipropetrovsk border heading northwest, and a third west of Kharkiv towards Lyubotyn (Source: @kpszsu/65579).",
-        "Additional UAV activity was noted in the Chernihiv region, with a drone heading toward the Kyiv region (Vishhorod district) (Source: @kpszsu/65577)."
+        "Ukrainian air defenses engaged and destroyed 79 enemy UAVs, including Shahed, Gerbera, Italmas and Bandera types, after a coordinated attack of 90 strike drones from Bryansk, Orel, Primorsko-Akhtarsk, and other directions, with nine UAVs hitting eight locations (Source: @kpszsu/65566).",
+        "Ukrainian forces reported a guided aerial bomb strike on Kharkiv that injured nine people, including four children, and damaged more than forty private houses (Source: @UkraineNow/82042).",
+        "In Kherson's Korabelnyi district, Russian attacks on a minibus injured at least four civilians, who were treated for explosive and fragment injuries (Source: @UkraineNow/82043).",
+        "Ukrainian authorities noted multiple reactive Shahed‑type UAVs approaching from Chernihiv towards Kyiv and Borispil, indicating ongoing low‑altitude threat corridors (Source: @mon1tor_ua/67902).",
+        "Ukrainian reports listed UAV trajectories from Mykolaiv toward Kirovohrad (Vilshanka), from Sumy toward Trostianets and Boromlya, and from the Black Sea toward Odesa region locations such as Zatoka and Serhiyivka (Source: @kpszsu/65562, @kpszsu/65594, @kpszsu/65561)."
       ]
     },
     "russia": {
       "points": [
-        "Russian strategic aviation prepared a mass strike: 7 Tu-95MS, 4 Tu-22M3 (being armed at Engels), and 3 Tu-160 (likely armed in the Far East), plus Iskander-M ballistic missiles and cruise missiles from Crimea and Kursk, targeting Kyiv and other large cities (Source: @eRadarrua/97264).",
-        "The Russian Ministry of Defense announced the liberation of five settlements in the Donetsk People's Republic, including Yurkovka, over the past week (Source: @tass_agency/381449).",
-        "Russian air defenses downed three UAVs approaching Moscow, raising the daily total to 19 intercepted UAVs (Source: @tass_agency/381448).",
-        "Russia's defense ministry reported shooting down 216 Ukrainian UAVs over Russian territories and the Black Sea within a six‑hour period (Source: @tass_agency/381466)."
+        "Russian forces struck a fuel tanker parking lot in the southern Odessa region, targeting logistical assets (Source: @ukr_leaks_eng/31017).",
+        "Russian tactical aviation deployed guided aerial bombs on Zaporizhzhia and Dnipropetrovsk regions, indicating a focus on industrial and transport targets (Source: @kpszsu/65592).",
+        "Russian troops announced the liberation of five settlements in the Donetsk People's Republic, including Yurkovka, over the past week (Source: @tass_agency/381449).",
+        "A Russian drone attack on civilian vessels in the Black Sea resulted in one fatality and multiple injuries among crews of Panamanian and St. Kitts & Nevis flagged ships (Source: @UkraineNow/82044).",
+        "In Kherson, Russian forces damaged two public transport buses during a morning attack, causing five injuries (Source: @UkraineNow/82046)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian combat actions in Konstantinovka, located in the eastern Kharkiv region, resulted in the liberation of numerous structures and significant enemy losses (Source: @ukr_leaks_eng/31023).",
-        "UAV sightings over the Kharkiv‑Dnipropetrovsk border heading northwest suggest continued reconnaissance or strike preparation on the eastern front (Source: @kpszsu/65579).",
-        "Russian strategic bombers, including Tu-22M3 and Tu-160, are being positioned for potential strikes on eastern Ukrainian targets (Source: @eRadarrua/97264).",
-        "Russian claims of liberating settlements in Donetsk indicate ongoing offensive operations on the eastern front (Source: @tass_agency/381449)."
+        "UAV activity was reported over Kharkiv from the south, with reactive drones targeting the Utka area and heading toward Valki (Source: @kpszsu/65564).",
+        "Shahed‑type drones were observed flying from the north over Chernihiv toward Kyiv and Borispil, highlighting pressure on the northeastern approaches (Source: @mon1tor_ua/67902).",
+        "Multiple UAVs were tracked moving from the Black Sea toward Odesa and the Zatoka area, suggesting maritime‑to‑land strike vectors (Source: @kpszsu/65561).",
+        "Russian strike drones attacked Sumy region, heading toward Trostianets and Boromlya, indicating continued pressure on northern Sumy oblast (Source: @kpszsu/65594).",
+        "Ukrainian air defenses reported downing UAVs over the eastern sector, with nine strike drones impacting eight locations across the east (Source: @kpszsu/65566)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple UAVs were reported over northern Kyiv region, moving southwest, indicating possible surveillance or strike attempts from the north (Source: @kpszsu/65579).",
-        "A UAV observed in Chernihiv region heading toward Kyiv region (Vishhorod district) highlights pressure on the northern approaches to the capital (Source: @kpszsu/65577).",
-        "Russian air defenses intercepted three UAVs near Moscow, reflecting heightened aerial activity in the north of the Russian Federation (Source: @tass_agency/381448).",
-        "Ukrainian forces reported a UAV near Gontcharivskyi, Chernihiv region, adding to the northern UAV activity (Source: @eRadarrua/97252)."
+        "UAV groups from Bryansk region entered Chernihiv oblast, moving along the Belarus border toward Slavutych and northern Kyiv region (Source: @kpszsu/65557).",
+        "Reactive Shahed drones were observed near Chernihiv from the north, with three units reported near Desnyansky district (Source: @mon1tor_ua/67899).",
+        "UAVs from the Black Sea were tracked heading northward over Chernihiv, then southwest toward Kyiv region (Source: @kpszsu/65574).",
+        "A UAV from Chernihiv was directed toward the Vyshhorod district of Kyiv region, indicating potential targeting of capital outskirts (Source: @kpszsu/65577).",
+        "UAVs were noted moving north of Dnipro heading west, suggesting possible strikes on central Ukrainian targets (Source: @kpszsu/65574)."
       ]
     },
     "southern_front": {
       "points": [
-        "No explicit southern front combat reports were found in the provided messages.",
-        "No specific southern front UAV or missile activity was detailed beyond general threat statements."
+        "Russian drone attacks in the southern Odessa region hit a fuel tanker parking lot, affecting fuel logistics (Source: @ukr_leaks_eng/31017).",
+        "UAVs from Mykolaiv oblast were observed heading toward Kirovohrad (Vilshanka) and further south toward Koblyve, indicating southern corridor activity (Source: @kpszsu/65562, @kpszsu/65558).",
+        "In Kherson, Russian forces damaged two buses and injured five civilians in the Korabelnyi district (Source: @UkraineNow/82046).",
+        "UAVs from the Black Sea moved westward, potentially targeting coastal installations in the southern theater (Source: @kpszsu/65574).",
+        "Russian guided aerial bomb strikes were reported in Zaporizhzhia region, a key southern industrial area (Source: @kpszsu/65592)."
       ]
     },
     "air_war": {
       "points": [
-        "Russia prepared a large aerial strike involving 7 Tu-95MS, 4 Tu-22M3, and 3 Tu-160 bombers, plus cruise and ballistic missiles, targeting Kyiv and other major cities (Source: @eRadarrua/97264).",
-        "Ukrainian air defenses reported at least two Tu-95MS bombers in the air, possibly from the ‘Ukrainka’ airfield (Source: @eRadarrua/97248).",
-        "Russian air defenses downed three UAVs approaching Moscow, bringing the day's total to 19 UAVs intercepted (Source: @tass_agency/381448).",
-        "Russia claimed to have shot down 216 Ukrainian UAVs over its territory and the Black Sea within six hours (Source: @tass_agency/381466)."
+        "Ukrainian air defenses shot down 79 hostile UAVs during a large‑scale raid involving 90 Shahed‑type drones from multiple Russian directions (Source: @kpszsu/65566).",
+        "Russian tactical aviation launched guided aerial bombs on Zaporizhzhia and Dnipropetrovsk regions, indicating a shift to precision strike capabilities (Source: @kpszsu/65592).",
+        "Multiple reactive Shahed drones were reported over the Black Sea, with five units circling the area, posing threats to maritime traffic (Source: @mon1tor_ua/67899).",
+        "UAV incursions were tracked from various Russian‑held territories, including Bryansk, Orel, and Primorsko‑Akhtarsk, targeting northern, central, and southern Ukrainian zones (Source: @kpszsu/65566).",
+        "Ukrainian forces reported downing UAVs over Kharkiv, Sumy, and Chernihiv regions, demonstrating continued air defense engagement across the front (Source: @kpszsu/65566)."
       ]
     },
     "key_developments": [
-      "Ukrainian assault groups in Konstantinovka liberated 627 buildings and neutralised over 540 enemy troops, 160 weapons, and 116 vehicles (Source: @ukr_leaks_eng/31023).",
-      "Russia prepared a coordinated strike with 7 Tu-95MS, 4 Tu-22M3, 3 Tu-160 bombers, Iskander-M missiles, and cruise missiles targeting Kyiv and other major cities (Source: @eRadarrua/97264).",
-      "Russian forces announced the liberation of five settlements in Donetsk, including Yurkovka (Source: @tass_agency/381449).",
-      "Ukrainian air defenses observed at least two Tu-95MS bombers in the air, possibly from the ‘Ukrainka’ airfield (Source: @eRadarrua/97248).",
-      "Multiple UAV sightings were reported across northern and central Ukraine, including drones heading southwest from Kyiv region and northwest from the Kharkiv‑Dnipropetrovsk border (Source: @kpszsu/65579).",
-      "Russian air defenses downed three UAVs near Moscow, raising the daily total to 19 intercepted UAVs (Source: @tass_agency/381448).",
-      "Russia reported shooting down 216 Ukrainian UAVs over Russian regions and the Black Sea within six hours (Source: @tass_agency/381466)."
+      "Russian forces struck a fuel tanker parking lot in southern Odessa, disrupting fuel supplies (Source: @ukr_leaks_eng/31017).",
+      "Ukrainian air defenses downed 79 UAVs during a coordinated attack of 90 Shahed‑type drones from multiple Russian directions (Source: @kpszsu/65566).",
+      "Russian tactical aviation deployed guided aerial bombs on Zaporizhzhia and Dnipropetrovsk regions, targeting industrial infrastructure (Source: @kpszsu/65592).",
+      "A Russian drone attack on civilian ships in the Black Sea killed one crew member and injured five, highlighting maritime threats (Source: @UkraineNow/82044).",
+      "Russian troops claimed liberation of five settlements in Donetsk, including Yurkovka, indicating ongoing ground offensives (Source: @tass_agency/381449).",
+      "In Kherson, Russian attacks damaged two buses and injured five civilians, showing continued targeting of public transport (Source: @UkraineNow/82046).",
+      "Multiple UAV trajectories from Russian‑held territories were reported over Kharkiv, Sumy, Chernihiv and the Black Sea, indicating broad aerial pressure (Source: @kpszsu/65562, @kpszsu/65558, @kpszsu/65574)."
     ],
-    "threat_assessment": "The imminent Russian aerial strike, featuring multiple strategic bombers and missile systems, poses a high threat to Kyiv and other major Ukrainian population centers. Ukrainian UAV activity across the north and east suggests continued reconnaissance and potential strike preparation, complicating air defense efforts. Russian claims of liberating settlements in Donetsk indicate ongoing ground offensives that could stretch Ukrainian resources.",
-    "regional_response": "Ukrainian forces are focusing on consolidating gains in the east, particularly around Konstantinovka, while bolstering air defenses against the anticipated large‑scale Russian strike. Russian military statements emphasize territorial gains in Donetsk and aggressive air operations, reflecting a strategy to pressure multiple fronts simultaneously. International observers note the escalation but no direct foreign military response is detailed in the sources.",
-    "intelligence_notes": "Monitoring of UAV flight paths in northern Ukraine is critical for early warning of potential missile launches. Verification of the readiness and launch timelines of the reported Russian strategic bombers should be prioritized. Continued assessment of ground combat outcomes in the Donetsk region will inform the balance of forces on the eastern front."
+    "threat_assessment": "Russian forces are employing a diversified aerial campaign, combining high‑volume Shahed UAV swarms with precision guided bombs to strike both civilian and strategic targets across Ukraine. Ukrainian air defenses have demonstrated resilience, intercepting the majority of UAVs, yet the persistent influx from multiple vectors strains detection and response capacities. Ground offensives continue in the Donetsk region, with claimed territorial gains that may signal a focus on consolidating control in contested areas.",
+    "regional_response": "Ukrainian authorities are reinforcing air defense assets in the north, east and south, prioritizing protection of critical infrastructure and civilian transport. Local emergency services in Kharkiv, Kherson and Odessa are managing casualties from aerial strikes, while regional administrations coordinate damage assessments. International monitoring groups are documenting civilian casualties, particularly in maritime incidents, to support potential diplomatic actions.",
+    "intelligence_notes": "The pattern of UAV launches from Russian‑held territories suggests coordinated timing with ground operations, aiming to overload Ukrainian air defenses. The use of guided aerial bombs on industrial regions indicates an escalation in precision strike capability. Continued attacks on fuel logistics and maritime vessels aim to disrupt supply chains, underscoring the strategic intent to weaken Ukraine's operational sustainment."
   },
   "missiles": 0,
   "drones": 90,
   "kpszsu_timeline": [
     0,
     0,
-    0,
     1,
     1,
     1,
@@ -337,17 +343,18 @@
     0,
     1,
     0,
-    0,
+    1,
     4,
+    1,
     2,
-    2,
-    3,
-    2,
+    4,
+    1,
     3,
     2,
     2,
     0,
     2,
-    1
+    2,
+    3
   ]
 }
