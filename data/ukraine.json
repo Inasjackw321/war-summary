@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-19T09:57:45.863576+00:00",
-  "message_count": 285,
+  "updated_at": "2026-06-19T11:05:58.737921+00:00",
+  "message_count": 277,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,14 +15,18 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
     5,
     5,
     9,
     24,
-    9,
+    14,
     5,
-    9,
+    5,
+    5,
+    5,
+    0,
+    0,
+    0,
     5,
     5,
     0,
@@ -30,66 +34,80 @@
     0,
     5,
     0,
-    5,
-    0,
-    0,
-    5,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    22,
+    16,
+    13,
     15,
     12,
     17,
-    11,
-    16,
-    17,
+    15,
+    15,
+    15,
     12,
-    17,
-    14,
     4,
-    6,
-    6,
-    3,
-    2,
-    5,
-    7,
-    11,
-    7,
-    16,
     8,
-    18,
-    14,
-    24
+    4,
+    4,
+    1,
+    5,
+    10,
+    8,
+    10,
+    15,
+    8,
+    17,
+    15,
+    25,
+    13
   ],
   "messages_by_channel": {
-    "@eRadarrua": 55,
+    "@eRadarrua": 53,
     "@kpszsu": 26,
     "@mon1tor_ua": 8,
-    "@UkraineNow": 31,
+    "@UkraineNow": 29,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 141
+    "@tass_agency": 137
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97274",
-    "kpszsu": "https://t.me/kpszsu/65584",
+    "eRadarrua": "https://t.me/eRadarrua/97277",
+    "kpszsu": "https://t.me/kpszsu/65585",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67907",
-    "UkraineNow": "https://t.me/UkraineNow/82050",
+    "UkraineNow": "https://t.me/UkraineNow/82052",
     "DeepStateUA": "https://t.me/DeepStateUA/23586",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31019",
-    "tass_agency": "https://t.me/tass_agency/381438"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31021",
+    "tass_agency": "https://t.me/tass_agency/381457"
   },
   "cited_post_urls": {
     "kpszsu": "https://t.me/kpszsu/65566",
-    "UkraineNow": "https://t.me/UkraineNow/82037",
-    "tass_agency": "https://t.me/tass_agency/381399",
-    "eRadarrua": "https://t.me/eRadarrua/97255",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67902"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31016",
+    "eRadarrua": "https://t.me/eRadarrua/97215",
+    "tass_agency": "https://t.me/tass_agency/381446",
+    "UkraineNow": "https://t.me/UkraineNow/82045"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/381454",
+      "post_id": 381454,
+      "channel": "tass_agency",
+      "ts": "2026-06-19T10:38:28+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31020",
+      "post_id": 31020,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-19T10:04:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/381441",
+      "post_id": 381441,
+      "channel": "tass_agency",
+      "ts": "2026-06-19T10:02:25+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/97274",
       "post_id": 97274,
@@ -200,24 +218,6 @@
       "post_id": 82041,
       "channel": "UkraineNow",
       "ts": "2026-06-19T05:20:20+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82040",
-      "post_id": 82040,
-      "channel": "UkraineNow",
-      "ts": "2026-06-19T05:05:21+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31010",
-      "post_id": 31010,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-19T05:02:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381392",
-      "post_id": 381392,
-      "channel": "tass_agency",
-      "ts": "2026-06-19T05:01:23+00:00"
     }
   ],
   "post_images": {
@@ -249,104 +249,85 @@
     "kpszsu/65566": "data/media/kpszsu_65566.jpg",
     "kpszsu/65565": "data/media/kpszsu_65566.jpg"
   },
-  "summary": "Ukrainian forces shot down 79 hostile drones on the night of 18‑19 June, while Ukrainian attack drones breached Moscow’s layered air defence and struck a refinery near Kapotnya. Russia destroyed a key energy facility near Zolochiv in Kharkiv region and hit civilian vessels in the Black Sea, causing crew casualties. Germany and the United Kingdom announced major air‑defence and drone aid packages for Ukraine.",
+  "summary": "Ukrainian air defenses shot down 79 of 90 hostile UAVs during the night of 18‑19 June, with nine UAVs striking eight locations across the north, south and east. Russian forces continued strikes on Kharkiv, Sumy and Zaporozhye regions and reported UAV activity over Rostov, Crimea and Sevastopol. Multiple low‑altitude UAV incursions were observed from Bryansk, the Black Sea and domestic Ukrainian regions.",
   "key_points": [
-    "Ukrainian air defence units downed 79 enemy drones of various types, including Shahed and Gerbera, launched from Bryansk, Orel, Primorsko‑Akhtarsk and Crimea (Source: @kpszsu/65566).",
-    "Ukrainian attack drones penetrated Moscow’s layered air defence and hit the Moscow refinery in Kapotnya, located about 15 km from the city (Source: @UkraineNow/82037).",
-    "Russian forces used a Geran missile to destroy an important energy object near Zolochiv in Kharkiv region (Source: @tass_agency/381399).",
-    "Russian drones attacked civilian ships in the Black Sea, killing one crew member and wounding several others (Source: @UkraineNow/82044).",
-    "Germany and Ukraine signed an agreement to develop a new air‑defence system against ballistic missiles (Source: @UkraineNow/82031).",
-    "The United Kingdom pledged to deliver 150,000 drones, 350 air‑defence missiles and radars to Ukraine by the end of the year (Source: @UkraineNow/82032).",
-    "Russian attacks on southern Odesa region caused a fire at a fuel depot, killing one civilian and injuring four (Source: @UkraineNow/82045).",
-    "Ukrainian drones were reported operating across multiple oblasts, including Shahed attacks from the north, east and south, and guided UAVs near Chernihiv, Sumy and Dnipropetrovsk (Source: @eRadarrua/97255)."
+    "Ukrainian forces downed 79 of 90 Shahed, Gerbera, Italmas, Bandera and imitation drones, while nine UAVs hit eight sites across the country on the night of 18‑19 June (Source: @kpszsu/65566).",
+    "Air defense systems were active over Rostov, Crimea, Sevastopol, Melitopol and Kirillovka, shooting down two UAVs in the northern sector of Sevastopol (Source: @ukr_leaks_eng/31016).",
+    "Russian strikes targeted Kharkiv, Sumy and Zaporozhye regions, with reported infantry battles and a captured serviceman in the Sumy area (Source: @ukr_leaks_eng/31016).",
+    "Five UAVs launched from Bryansk entered Horodnya in Chernihiv region (Source: @eRadarrua/97215).",
+    "Multiple UAV sightings were reported in Kyiv, Sumy and Chernihiv oblasts, including a group of three UAVs in Kyiv region and one in Sumy (Source: @eRadarrua/97271).",
+    "UAVs from the Black Sea were observed heading toward Odesa, Zatoka and Serhiyivka (Source: @kpszsu/65561).",
+    "Russian strategic bombers (Tu‑95MS) were detected in the air, possibly from the Olenya airfield, though mission intent was unclear (Source: @eRadarrua/97238).",
+    "Russian authorities reported shooting down four additional UAVs approaching Moscow, bringing the day's total to ten (Source: @tass_agency/381446)."
   ],
-  "sentiment": "volatile",
+  "sentiment": "active",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian air‑defence forces shot down 79 hostile drones on the night of 18‑19 June, demonstrating high interception capability. Ukrainian attack drones successfully breached Moscow’s layered air‑defence and struck a refinery near Kapotnya, marking a significant deep‑strike. Russia continued its offensive, destroying a key energy facility near Zolochiv and targeting civilian vessels in the Black Sea.",
+    "executive_summary": "Ukrainian air defenses intercepted the majority of a large UAV swarm on the night of 18‑19 June, downing 79 of 90 drones and limiting damage to nine strikes across eight locations. Russian forces maintained pressure with strikes on Kharkiv, Sumy and Zaporozhye, while air defenses also engaged UAVs over Rostov, Crimea and Sevastopol. Ongoing low‑altitude UAV incursions from multiple directions continue to challenge both sides.",
     "ukraine": {
       "points": [
-        "Ukrainian air‑defence units reported shooting down 79 enemy drones, including Shahed, Gerbera, Italmas, Banderol and Parody types, launched from Bryansk, Orel, Primorsko‑Akhtarsk and Crimea, with nine strike drones confirmed on eight locations (Source: @kpszsu/65566).",
-        "Ukrainian attack drones penetrated Moscow’s layered air‑defence and hit the Moscow refinery in Kapotnya, located roughly 15 km from the capital, delivering a notable blow to Russian industrial capacity (Source: @UkraineNow/82037).",
-        "Ukrainian forces observed multiple UAV movements across the front, with Shahed‑type drones operating from the north toward Sumy and Chernihiv, and guided UAVs reported near Kharkiv, Dnipropetrovsk and Donetsk oblasts (Source: @eRadarrua/97255).",
-        "The United Kingdom committed to supply 150,000 drones, 350 air‑defence missiles and radar systems to Ukraine by year‑end, valued at £752 million (Source: @UkraineNow/82032).",
-        "Germany and Ukraine agreed to co‑develop a new air‑defence system targeting ballistic missiles, announced during the 35th Contact Group meeting (Source: @UkraineNow/82031).",
-        "Ukrainian special forces detained hackers who created a fake “Rezerv+” app used to evade conscription, affecting over 4,000 users in Kyiv, Rivne and Cherkasy (Source: @UkraineNow/82050).",
-        "Ukrainian authorities reported a nationwide minute of silence at 09:00 daily to honour fallen soldiers (Source: @eRadarrua/97260)."
+        "Ukrainian anti‑air units engaged a massive night‑time UAV attack, shooting down 79 Shahed‑type and other drones and confirming nine hits on eight separate locations across the north, south and east (Source: @kpszsu/65566).",
+        "Air defense coverage was reported over the Rostov region, Crimea, Sevastopol, Melitopol and Kirillovka, with two UAVs downed in the northern sector of Sevastopol (Source: @ukr_leaks_eng/31016).",
+        "Ukrainian forces recorded UAV sightings in Kyiv oblast (three UAVs) and Sumy oblast (one UAV), indicating continued low‑level incursions (Source: @eRadarrua/97271).",
+        "A group of five UAVs launched from Bryansk entered Horodnya in Chernihiv region, prompting local air defense response (Source: @eRadarrua/97215)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces employed a Geran missile to destroy a critical energy facility near Zolochiv in Kharkiv region, according to the Russian Ministry of Defence (Source: @tass_agency/381399).",
-        "Russian drones attacked civilian vessels in the Black Sea, killing a crew member on a Panamanian‑flagged ship and wounding crew on vessels flagged by Saint Kitts and Nevis (Source: @UkraineNow/82044).",
-        "Russian air‑defence commander Sergei Peskov claimed high performance of Russian air‑defence despite ongoing attacks (Source: @tass_agency/381427).",
-        "Russian authorities reported that three drones heading for Moscow were shot down by city air‑defence, as announced by Mayor Sobyanin (Source: @tass_agency/381423).",
-        "Debris from downed drones damaged a private house in Elektrostal and a shopping centre roof in Moscow region, causing minor injuries (Source: @tass_agency/381431).",
-        "Russian forces reported destroying a Ukrainian‑occupied position in Konstantinovka and advancing in the Nikolayevsky micro‑district (Source: @tass_agency/381420).",
-        "Russian strategic bombers were relocated: four Tu‑22M3 and three Tu‑95MS moved to Engels airbase (Source: @eRadarrua/97256)."
+        "Russian air forces conducted strikes on targets in Kharkiv, Sumy and Zaporozhye regions, with reported infantry battles and the capture of a serviceman from the 130th ORB in Sumy (Source: @ukr_leaks_eng/31016).",
+        "Four UAVs approaching Moscow were shot down, bringing the day's total interceptions to ten (Source: @tass_agency/381446).",
+        "Strategic bomber activity was noted with Tu‑95MS aircraft observed, possibly originating from the Olenya airfield, though mission purpose was not confirmed (Source: @eRadarrua/97238).",
+        "Russian authorities reported mass police and military raids in Penza, Kamensk and Kuznetsk, forcing men to sign defense contracts (Source: @eRadarrua/97274)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian Shahed drones were observed approaching from the north of Sumy and Chernihiv regions, targeting infrastructure near the Belarus border (Source: @kpszsu/65541).",
-        "Guided UAVs were reported over the Donetsk area, with multiple strikes directed toward eastern Kharkiv and Dnipropetrovsk oblasts (Source: @eRadarrua/97255).",
-        "Russian Geran missile strike on the Zolochiv energy site in Kharkiv region disrupted power supply to nearby districts (Source: @tass_agency/381399).",
-        "Ukrainian forces recorded a reactive Shahed crossing from Chernihiv toward Kyiv/Boryspil, indicating continued pressure on the northern approaches (Source: @mon1tor_ua/67902).",
-        "Russian air‑defence intercepted three drones heading for Moscow, reflecting the extended reach of Ukrainian UAV operations (Source: @tass_agency/381423).",
-        "Ukrainian UAV sightings included a Shahed heading from the north of Chernihiv toward Kyiv region, suggesting possible targeting of capital‑area logistics (Source: @kpszsu/65541).",
-        "Russian forces reported destroying a Ukrainian‑held position in Konstantinovka, indicating ongoing combat on the eastern front (Source: @tass_agency/381420)."
+        "UAV attacks were recorded in the east, with nine hostile drones striking eight locations across the eastern sector during the night of 18‑19 June (Source: @kpszsu/65566).",
+        "Russian strikes hit Kharkiv and Sumy regions, with ongoing infantry battles in Shostka district and capture of a Russian serviceman (Source: @ukr_leaks_eng/31016).",
+        "UAVs from the Black Sea were observed heading toward Odesa, Zatoka and Serhiyivka, indicating a maritime launch axis (Source: @kpszsu/65561).",
+        "In the Zaporozhye region, Ukrainian reports noted civilian injuries from UAV attacks and a total of 126 UAV attacks recorded over the previous day (Source: @ukr_leaks_eng/31016)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian UAVs were tracked over northern Sumy heading toward Yampil and Kroleve, and over eastern Dnipropetrovsk toward Pavlograd and Chaplyne (Source: @kpszsu/65559).",
-        "A reactive Shahed was reported flying from Chernihiv to Kyiv/Boryspil, highlighting threats to the capital corridor (Source: @mon1tor_ua/67902).",
-        "Ukrainian drones were observed near the Belarus border in northern Chernihiv, moving toward northern Kyiv oblast (Source: @kpszsu/65541).",
-        "Russian air‑defence shot down three drones targeting Moscow, with debris falling in Elektrostal and a shopping centre roof (Source: @tass_agency/381423).",
-        "Ukrainian UAV activity included a Shahed crossing from the north of Chernihiv toward Kyiv, potentially aiming at logistical hubs (Source: @kpszsu/65541).",
-        "Russian forces reported high‑performance air‑defence operations despite ongoing attacks, suggesting reinforced northern air‑space (Source: @tass_agency/381427).",
-        "Ukrainian UAV sightings also included a reactive Shahed over the north of Sumy heading toward Yampil, indicating continued reconnaissance (Source: @kpszsu/65559)."
+        "Ukrainian defenses downed 79 UAVs, many of which originated from northern directions such as Bryansk, Orel and Primorsko-Akhtarsk (Source: @kpszsu/65566).",
+        "UAV sightings included a group of five from Bryansk to Horodnya and multiple UAVs over Kyiv oblast (Source: @eRadarrua/97215; @eRadarrua/97271).",
+        "Russian air defense reported shooting down four UAVs approaching Moscow, reflecting heightened activity in the north (Source: @tass_agency/381446).",
+        "UAVs were observed over the northern Chernihiv region, with courses toward Kyiv and local districts (Source: @kpszsu/65577)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian drone attacks on civilian infrastructure in Odesa region ignited a fuel depot fire, killing one person and injuring four (Source: @UkraineNow/82045).",
-        "A Russian drone struck a minibus in the Khoroshevo district of Kherson, wounding at least four civilians, including a 46‑year‑old woman (Source: @UkraineNow/82043).",
-        "Ukrainian UAVs were reported over Zaporizhzhia, with two guided drones approaching the city from the south (Source: @eRadarrua/97239).",
-        "Ukrainian Shahed attacks were noted from the south toward Kharkiv and Donetsk regions, indicating pressure on southern supply lines (Source: @eRadarrua/97255).",
-        "Russian forces claimed destruction of a Ukrainian‑occupied position in Konstantinovka, a location in the southern operational area (Source: @tass_agency/381420).",
-        "Ukrainian UAV activity included a reactive Shahed crossing from Chernihiv to Kyiv, potentially affecting southern logistics corridors (Source: @mon1tor_ua/67902).",
-        "Russian air‑defence reported high effectiveness despite ongoing southern drone attacks, per statements by Defence Minister (Source: @tass_agency/381427)."
+        "UAV attacks in the south included strikes on Odesa region from the Black Sea and incidents in Kherson where civilian infrastructure was hit (Source: @ukr_leaks_eng/31016).",
+        "In the Kherson region, five civilians were injured and one killed due to UAV attacks, with 126 UAV incidents recorded overall (Source: @ukr_leaks_eng/31016).",
+        "Russian forces reported a UAV strike on a bus with Belarusian children, though the claim is contested (Source: @ukr_leaks_eng/30998).",
+        "Ukrainian reports noted a UAV strike causing a fire at a cargo truck depot in southern Odesa, resulting in one death and four injuries (Source: @UkraineNow/82045)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air‑defence forces downed 79 hostile drones on the night of 18‑19 June, including Shahed, Gerbera, Italmas, Banderol and Parody types (Source: @kpszsu/65566).",
-        "Russian air‑defence shot down three drones heading for Moscow, with debris causing minor injuries in Elektrostal and a shopping centre (Source: @tass_agency/381423).",
-        "Russian Geran missile was used to destroy an energy facility near Zolochiv, demonstrating missile use against Ukrainian infrastructure (Source: @tass_agency/381399).",
-        "Ukrainian attack drones breached Moscow’s layered air‑defence and struck the Kapotnya refinery, a deep‑strike capability (Source: @UkraineNow/82037).",
-        "Russian drones attacked civilian vessels in the Black Sea, resulting in one fatality and multiple injuries (Source: @UkraineNow/82044).",
-        "Ukrainian UAVs were observed across multiple fronts, including Shahed attacks from the north, east and south, and guided UAVs near Chernihiv, Sumy and Dnipropetrovsk (Source: @eRadarrua/97255).",
-        "Russian strategic bombers (Tu‑22M3 and Tu‑95MS) were relocated to Engels airbase, indicating potential future air‑operations (Source: @eRadarrua/97256)."
+        "Ukrainian air defenses intercepted 79 of 90 hostile UAVs during a coordinated night attack, limiting damage to nine successful strikes (Source: @kpszsu/65566).",
+        "Russian air defense shot down four UAVs approaching Moscow, raising the day's total to ten (Source: @tass_agency/381446).",
+        "Strategic bomber movements were noted with Tu‑95MS and Tu‑22M3 aircraft operating from Olenya and other bases, though combat intent was not confirmed (Source: @eRadarrua/97238; @eRadarrua/97256).",
+        "Air defense systems were active over Rostov, Crimea, Sevastopol, Melitopol and Kirillovka, engaging multiple UAVs (Source: @ukr_leaks_eng/31016)."
       ]
     },
     "key_developments": [
-      "Ukrainian air‑defence shot down 79 enemy drones of various types launched from multiple Russian regions, confirming high interception capability (Source: @kpszsu/65566).",
-      "Ukrainian attack drones penetrated Moscow’s layered air‑defence and struck the Kapotnya refinery, a strategic blow to Russian industry (Source: @UkraineNow/82037).",
-      "Russian Geran missile destroyed a key energy facility near Zolochiv in Kharkiv region, disrupting local power supply (Source: @tass_agency/381399).",
-      "Russian drones attacked civilian ships in the Black Sea, killing one crew member and wounding several others (Source: @UkraineNow/82044).",
-      "Germany and Ukraine signed an agreement to co‑develop a new air‑defence system against ballistic missiles (Source: @UkraineNow/82031).",
-      "The United Kingdom pledged delivery of 150,000 drones, 350 air‑defence missiles and radars to Ukraine by year‑end (Source: @UkraineNow/82032).",
-      "Russian attacks on Odesa region fuel depot caused a fire, one civilian death and four injuries (Source: @UkraineNow/82045)."
+      "Ukrainian forces downed 79 of 90 hostile UAVs during the night of 18‑19 June, with nine UAVs hitting eight locations across the country (Source: @kpszsu/65566).",
+      "Russian air defense intercepted four UAVs approaching Moscow, bringing the day's total interceptions to ten (Source: @tass_agency/381446).",
+      "Russian strikes targeted Kharkiv, Sumy and Zaporozhye regions, with infantry battles and a captured serviceman reported in Sumy (Source: @ukr_leaks_eng/31016).",
+      "UAVs launched from Bryansk entered Horodnya in Chernihiv region, indicating cross‑border drone activity (Source: @eRadarrua/97215).",
+      "UAVs from the Black Sea were observed heading toward Odesa, Zatoka and Serhiyivka, suggesting maritime launch vectors (Source: @kpszsu/65561).",
+      "Strategic bombers (Tu‑95MS, Tu‑22M3) were detected in the air from Olenya and other bases, though mission purpose remains unclear (Source: @eRadarrua/97238).",
+      "Civilian casualties from UAV attacks were reported in Kherson and Odesa regions, including one death and multiple injuries (Source: @ukr_leaks_eng/31016; @UkraineNow/82045)."
     ],
-    "threat_assessment": "Ukrainian forces have demonstrated increased UAV strike capability, successfully breaching deep Russian air‑defence zones and targeting critical infrastructure such as the Kapotnya refinery. Russia continues to employ missile strikes against energy assets and uses drones to threaten civilian maritime traffic in the Black Sea, indicating a strategy of economic disruption. The high volume of drone engagements on both sides suggests an escalating aerial contest, with both parties enhancing air‑defence and UAV deployment.",
-    "regional_response": "Western allies are expanding support, with Germany committing to a new ballistic‑missile air‑defence system and the United Kingdom delivering a large batch of drones and air‑defence missiles, bolstering Ukrainian resilience. Russia maintains a narrative of robust air‑defence performance while continuing offensive strikes on Ukrainian energy and civilian targets, aiming to pressure both military and civilian morale. Neighboring states monitor the increased UAV activity, especially near border regions such as Belarus and the Black Sea littoral.",
-    "intelligence_notes": "UAV traffic reports indicate coordinated multi‑directional attacks, requiring continuous radar and electronic‑warfare monitoring across all fronts. The destruction of the Zolochiv energy facility demonstrates Russia's willingness to target critical infrastructure beyond front‑line combat zones. The successful Ukrainian strike on the Moscow refinery suggests a growing capability for long‑range UAV operations, potentially prompting Russia to reinforce air‑defence layers around strategic rear‑area assets."
+    "threat_assessment": "Ukrainian air defenses have demonstrated high effectiveness against large UAV swarms, reducing potential damage but still facing persistent low‑altitude incursions from multiple vectors. Russian forces continue to employ UAVs for strikes on civilian and military targets, while also maintaining strategic bomber operations that could threaten deeper targets. The ongoing cross‑border UAV launches from Russian oblasts underscore a sustained aerial threat that requires continued vigilance and resource allocation.",
+    "regional_response": "Ukraine's regional commands have coordinated multi‑layered air defense involving aviation, missile units and electronic warfare to counter UAV threats across the north, east and south. Russian regional authorities reported increased air defense activity around Moscow and have conducted mass conscription raids in interior regions, indicating a domestic mobilization effort. Both sides are adapting tactics, with Ukraine focusing on layered interception and Russia leveraging both UAV and strategic bomber assets.",
+    "intelligence_notes": "Future UAV attacks are likely to originate from Russian border oblasts such as Bryansk and from maritime launch points in the Black Sea, necessitating enhanced radar coverage. The detection of strategic bombers suggests potential for long‑range strike missions, though current evidence does not confirm combat deployment. Continued monitoring of Russian conscription activities may reveal shifts in manpower allocation for UAV operations."
   },
   "missiles": 0,
   "drones": 90,
   "kpszsu_timeline": [
-    0,
     0,
     0,
     0,
@@ -367,8 +348,9 @@
     2,
     5,
     0,
-    3,
+    4,
+    1,
     2,
-    2
+    0
   ]
 }
