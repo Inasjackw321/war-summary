@@ -2065,3 +2065,119 @@ body {
 /* ── Focus mode: dim non-hovered sections ── */
 .sections-content.focus-mode .section-block { opacity: 0.4; transition: opacity 0.25s ease; }
 .sections-content.focus-mode .section-block:hover { opacity: 1; }
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   Graph lightbox + chart expand buttons
+   ══════════════════════════════════════════════════════════════════════════════ */
+
+/* Expand button on chart card hover */
+.chart-expand-btn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 3px 5px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  flex-shrink: 0;
+  opacity: 0;
+  transition: color var(--transition), background var(--transition), opacity var(--transition);
+}
+.sidebar-card:hover .chart-expand-btn { opacity: 1; }
+.chart-expand-btn:hover { color: var(--text2); background: rgba(255,255,255,0.08); }
+
+/* Graph modal */
+.graph-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2500;
+  background: rgba(5,8,14,0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: _ppBackdrop 0.18s ease;
+}
+.graph-modal-inner {
+  background: #0c0f17;
+  border: 1px solid #252e3d;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: min(92vw, 960px);
+  width: 100%;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.75), 0 0 0 1px rgba(255,255,255,0.04) inset;
+  animation: _ppPanel 0.22s cubic-bezier(0.4,0,0.2,1);
+  display: flex;
+  flex-direction: column;
+}
+.graph-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 16px;
+  border-bottom: 1px solid #1a2030;
+  gap: 12px;
+}
+.graph-modal-title {
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  color: var(--text2);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.graph-modal-actions { display: flex; align-items: center; gap: 8px; }
+.graph-modal-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  background: rgba(59,130,246,0.08);
+  border: 1px solid rgba(59,130,246,0.25);
+  padding: 5px 11px;
+  border-radius: 6px;
+  transition: background var(--transition), border-color var(--transition);
+}
+.graph-modal-download:hover { background: rgba(59,130,246,0.18); border-color: rgba(59,130,246,0.5); }
+.graph-modal-close {
+  background: none;
+  border: 1px solid transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  padding: 5px 8px;
+  border-radius: 5px;
+  transition: color var(--transition), background var(--transition), border-color var(--transition);
+}
+.graph-modal-close:hover { color: var(--text); background: rgba(255,255,255,0.06); border-color: var(--border); }
+.graph-modal-body {
+  padding: 16px;
+  background: #080b11;
+}
+.graph-modal-img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  border: 1px solid #1a2030;
+}
+.graph-modal-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px 10px;
+  font-size: 9px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  border-top: 1px solid #1a2030;
+}
+.graph-modal-source { color: var(--accent); opacity: 0.7; }
