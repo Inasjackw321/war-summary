@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-21T22:44:47.120358+00:00",
-  "message_count": 319,
+  "updated_at": "2026-06-22T01:50:16.541721+00:00",
+  "message_count": 299,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,9 +15,6 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
-    0,
-    0,
     9,
     0,
     9,
@@ -36,59 +33,68 @@
     0,
     9,
     9,
+    0,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    9,
-    8,
-    23,
-    3,
+    2,
     5,
+    13,
+    16,
     11,
-    15,
-    10,
     30,
     28,
     33,
-    16,
-    7,
+    15,
+    8,
     10,
-    14,
+    13,
     12,
     11,
     9,
-    18,
-    10,
+    19,
+    8,
     9,
     13,
     10,
-    4
+    3,
+    7,
+    5,
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 59,
-    "@kpszsu": 111,
-    "@mon1tor_ua": 24,
+    "@eRadarrua": 56,
+    "@kpszsu": 103,
+    "@mon1tor_ua": 11,
     "@UkraineNow": 18,
     "@ukr_leaks_eng": 11,
-    "@tass_agency": 96
+    "@tass_agency": 100
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97707",
-    "kpszsu": "https://t.me/kpszsu/65977",
+    "eRadarrua": "https://t.me/eRadarrua/97708",
+    "kpszsu": "https://t.me/kpszsu/65990",
     "mon1tor_ua": "https://t.me/mon1tor_ua/67984",
     "UkraineNow": "https://t.me/UkraineNow/82103",
     "DeepStateUA": "https://t.me/DeepStateUA/23588",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31062",
-    "tass_agency": "https://t.me/tass_agency/381762"
+    "tass_agency": "https://t.me/tass_agency/381784"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/65918",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67979",
-    "UkraineNow": "https://t.me/UkraineNow/82089",
-    "tass_agency": "https://t.me/tass_agency/381737",
-    "eRadarrua": "https://t.me/eRadarrua/97706"
+    "kpszsu": "https://t.me/kpszsu/65984",
+    "tass_agency": "https://t.me/tass_agency/381776",
+    "eRadarrua": "https://t.me/eRadarrua/97706",
+    "UkraineNow": "https://t.me/UkraineNow/82099",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31054"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/381782",
+      "post_id": 381782,
+      "channel": "tass_agency",
+      "ts": "2026-06-22T01:28:29+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/381762",
       "post_id": 381762,
@@ -212,12 +218,6 @@
       "post_id": 31062,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-21T16:21:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381731",
-      "post_id": 381731,
-      "channel": "tass_agency",
-      "ts": "2026-06-21T15:58:25+00:00"
     }
   ],
   "post_images": {
@@ -249,114 +249,113 @@
     "kpszsu/65808": "data/media/kpszsu_65808.jpg",
     "kpszsu/65809": "data/media/kpszsu_65808.jpg"
   },
-  "summary": "UAV activity intensified across multiple fronts, with groups of drones reported approaching Sumy, Kharkiv, Zaporizhzhia, and the southern Odesa region. Russian forces continued strikes on infrastructure, including the Crimean bridge and an oil depot in Kerch. Ukrainian authorities reported civilian casualties in Sumy and Dnipropetrovsk regions.",
+  "summary": "KAB rockets were launched toward Zaporizhzhia, Dnipropetrovsk and Donetsk regions. Russian air defenses downed six UAVs en route to Moscow. UAV activity continues over multiple Ukrainian oblasts, including Kharkiv, Sumy, Zaporizhzhia and Chernihiv.",
   "key_points": [
-    "Groups of UAVs were observed heading toward Sumy from the north and toward Kharkiv from the north (Source: @kpszsu/65918).",
-    "Two Shahed drones were reported approaching Kyiv/Vyshhorod from the north (Source: @mon1tor_ua/67979).",
-    "A UAV group from the Black Sea was directed toward the Mykolaiv region (Source: @kpszsu/65965).",
-    "Russian strikes damaged facilities on both sides of the Crimean bridge and hit radar stations with S‑400 components (Source: @UkraineNow/82089).",
-    "Shelling of Sumy caused damage to residential buildings and six injuries (Source: @UkraineNow/82087).",
-    "Russian attacks on Dnipropetrovsk region resulted in five injuries, including a 2‑year‑old child (Source: @UkraineNow/82101).",
-    "A UAV group from the south was reported over Zaporizhzhia (Source: @kpszsu/65976).",
-    "Air defense systems reportedly shot down 168 Ukrainian UAVs over Russian territory and seas (Source: @tass_agency/381737)."
+    "KAB rockets were fired at targets in Zaporizhzhia, Dnipropetrovsk and Donetsk regions (Source: @kpszsu/65984).",
+    "Russian air defenses shot down six UAVs heading toward Moscow (Source: @tass_agency/381776).",
+    "UAVs were reported over Kharkiv from the north and over Sumy from the north (Source: @kpszsu/65975).",
+    "A group of UAVs approached Zaporizhzhia from the south (Source: @kpszsu/65975).",
+    "UAV activity was noted in Chernihiv region near Berezna and in multiple locations in Kharkiv region including Velika Danylivka and Bohodukhiv (Source: @eRadarrua/97706).",
+    "A civilian was killed by an explosive device in Gorlovka (Source: @tass_agency/381754).",
+    "Three people were injured by an IED near a public transport stop in Kharkiv region, one fatality (Source: @UkraineNow/82099).",
+    "UAV groups were observed moving from the Black Sea toward southern Odesa (Source: @kpszsu/65967)."
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "UAV activity surged with multiple groups targeting Sumy, Kharkiv, Zaporizhzhia and the Odesa region. Russian strikes hit the Crimean bridge infrastructure and radar sites, while civilian areas in Sumy and Dnipropetrovsk suffered casualties. Air defenses reported high interception rates of Ukrainian UAVs over Russian airspace.",
+    "executive_summary": "KAB rockets struck Zaporizhzhia, Dnipropetrovsk and Donetsk, indicating intensified long‑range attacks. Russian air defenses intercepted six UAVs bound for Moscow, showing heightened aerial contest. UAV incursions continue across northern and eastern oblasts, sustaining pressure on Ukrainian defenses.",
     "ukraine": {
       "points": [
-        "Ukrainian officials reported a Shahed drone strike on Kyiv/Vyshhorod from the north, indicating continued aerial threat to the capital region (Source: @mon1tor_ua/67979).",
-        "In Sumy, artillery fire damaged private homes, apartment blocks and vehicles, with six civilians injured and emergency services responding (Source: @UkraineNow/82087).",
-        "Dnipropetrovsk region experienced over 30 attacks in a day, resulting in five injured, including a 2‑year‑old child, and damage to agricultural fields and private property (Source: @UkraineNow/82101).",
-        "Ukrainian air defenses claimed to have downed 168 UAVs over Russian regions and Black Sea/Azov Sea areas, reflecting heightened air defense activity (Source: @tass_agency/381737).",
-        "A UAV group from the Black Sea was observed heading toward Mykolaiv, suggesting potential maritime‑to‑land strike vectors (Source: @kpszsu/65965)."
+        "Ukrainian authorities reported a civilian death from an explosive device in Gorlovka, underscoring ongoing sabotage threats in occupied territories (Source: @tass_agency/381754).",
+        "Three individuals, including one fatality, were injured by an IED near a public transport stop in Kharkiv region, highlighting persistent ground‑level threats (Source: @UkraineNow/82099).",
+        "UAV sightings over Kharkiv oblast included flights from the north toward Velika Danylivka, Bohodukhiv and other localities, indicating reconnaissance or strike intent (Source: @eRadarrua/97706).",
+        "In Chernihiv region, a reconnaissance UAV operated near Berezna, suggesting continued intelligence‑gathering activities (Source: @eRadarrua/97706).",
+        "Multiple UAVs were reported over Sumy and Zaporizhzhia, with groups approaching from the north and south respectively, reflecting a broad aerial pressure (Source: @kpszsu/65975)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces struck both sides of the Crimean bridge, targeting oil logistics and a fuel depot in occupied Kerch (Source: @UkraineNow/82089).",
-        "A Russian UAV group from the Black Sea moved southward over Odesa region, heading toward Tatarbunary (Source: @kpszsu/65973).",
-        "Russian air defense reported shooting down 168 Ukrainian UAVs over Russian territory and adjacent seas (Source: @tass_agency/381737).",
-        "A UAV group from the south was observed over Zaporizhzhia, indicating cross‑border aerial activity (Source: @kpszsu/65976).",
-        "Russian reports indicated UAVs approaching Sumy and Kharkiv from the north, highlighting ongoing reconnaissance or strike missions (Source: @kpszsu/65918)."
+        "Russian air defense forces downed six UAVs attempting to reach Moscow, demonstrating active interception capabilities (Source: @tass_agency/381776).",
+        "KAB rockets were launched toward Zaporizhzhia, Dnipropetrovsk and Donetsk, showing Russian use of long‑range precision munitions (Source: @kpszsu/65984).",
+        "A group of UAVs originated from the Black Sea heading south toward Odesa region, indicating possible Russian maritime launch points (Source: @kpszsu/65967).",
+        "Russian reports highlighted the destruction of Ukrainian infrastructure in Zaporizhzhia and DniproGES dam, though specific details were not provided in the source messages (Source: @ukr_leaks_eng/31054)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAVs were reported heading toward Kharkiv from the north and from the northeast, including a group from Belgorod region moving toward Bohodukhiv (Source: @kpszsu/65973).",
-        "Shahed drones were observed over Kyiv/Vyshhorod from the north, suggesting possible eastern‑to‑central corridor attacks (Source: @mon1tor_ua/67979).",
-        "UAV activity from the Black Sea was directed toward Mykolaiv, indicating a southern approach to the eastern front (Source: @kpszsu/65965).",
-        "Multiple UAV groups were noted in the Sumy area, approaching from the north and moving toward Trostyanets and Shostka (Source: @kpszsu/65922, @kpszsu/65932).",
-        "UAVs were reported over Dnipropetrovsk region from the southeast, heading toward Chaplyne (Source: @kpszsu/65973)."
+        "KAB rockets targeted Zaporizhzhia and Donetsk, key eastern combat zones, suggesting escalation of strike operations (Source: @kpszsu/65984).",
+        "UAV groups were observed over Zaporizhzhia from the south, potentially supporting ground operations in the east (Source: @kpszsu/65975).",
+        "UAV activity in Kharkiv oblast included flights toward Bohodukhiv and Velika Danylivka, indicating pressure on eastern front lines (Source: @eRadarrua/97706).",
+        "Reconnaissance UAVs operated near Berezna in Chernihiv, close to the eastern front perimeter (Source: @eRadarrua/97706).",
+        "UAVs were reported over Dnipropetrovsk region from the north, adding to eastern aerial activity (Source: @kpszsu/65986)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs were observed over Sumy from the north, with groups moving toward Trostyanets and Shostka (Source: @kpszsu/65922, @kpszsu/65932).",
-        "A UAV group from Belgorod region entered northern Kharkiv heading toward Bohodukhiv (Source: @kpszsu/65973).",
-        "UAVs were reported over Chernihiv region, including reconnaissance UAVs operating near Berezna (Source: @eRadarrua/97706).",
-        "Multiple UAV groups were noted in the Chernihiv area, with launches from Primorsko-Akhtarsk and Bryansk districts (Source: @eRadarrua/97675).",
-        "UAV activity from the north was also reported over the Kharkiv region, indicating sustained aerial pressure (Source: @kpszsu/65918)."
+        "UAVs were detected over Chernihiv region near Berezna, reflecting northern reconnaissance efforts (Source: @eRadarrua/97706).",
+        "UAVs approached Kharkiv from the north, covering locations such as Velika Danylivka and Bohodukhiv (Source: @eRadarrua/97706).",
+        "UAV activity was noted in Sumy from the north, indicating pressure on the northern border area (Source: @kpszsu/65975).",
+        "Additional UAV sightings in Chernihiv included routes toward Korivka (Source: @kpszsu/65987).",
+        "UAVs were reported in Rivne region (Kostopil) and Zhytomyr region (Chudniv), extending the northern surveillance envelope (Source: @eRadarrua/97642)."
       ]
     },
     "southern_front": {
       "points": [
-        "A UAV group from the Black Sea moved southward over Odesa region toward Tatarbunary (Source: @kpszsu/65973).",
-        "UAVs were reported heading toward Zaporizhzhia from the south (Source: @kpszsu/65976).",
-        "UAV activity from the Black Sea was also directed toward the Mykolaiv region (Source: @kpszsu/65965).",
-        "A UAV from Kherson region was observed moving toward Mykolaiv (Source: @eRadarrua/97660).",
-        "UAVs were noted over the southern front, including a group from the Black Sea heading toward Chornomorsk (Source: @kpszsu/65964)."
+        "UAV groups launched from the Black Sea moved south toward Odesa region, suggesting southern maritime launch capabilities (Source: @kpszsu/65967).",
+        "UAV activity was reported over Zaporizhzhia from the south, affecting the southern front (Source: @kpszsu/65975).",
+        "No direct combat reports were found for the Crimean peninsula beyond fuel sales restrictions, which are not combat‑related (Source: @UkraineNow/82088).",
+        "UAVs were observed near Pavlograd in Dnipropetrovsk, close to the southern operational area (Source: @eRadarrua/97708).",
+        "UAVs were reported near the Dnipro region, indicating continued southern pressure (Source: @kpszsu/65986)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air defense claimed to have shot down 168 Ukrainian UAVs over Russian regions and the Black and Azov seas (Source: @tass_agency/381737).",
-        "Ukrainian forces reported multiple UAV incursions across various fronts, including Sumy, Kharkiv, Zaporizhzhia and Odesa (multiple sources).",
-        "UAV groups were launched from Russian territories such as Belgorod and Bryansk, targeting Ukrainian regions (Source: @kpszsu/65973, @eRadarrua/97675).",
-        "Ukrainian air defenses engaged UAVs over the Crimean bridge area following strikes on infrastructure (Source: @UkraineNow/82089).",
-        "Reconnaissance UAVs were observed operating in Chernihiv and Kharkiv regions, indicating ongoing intelligence gathering (Source: @eRadarrua/97706)."
+        "Russian air defenses intercepted six UAVs heading for Moscow, demonstrating active air defense engagement (Source: @tass_agency/381776).",
+        "KAB rockets were launched toward Zaporizhzhia, Dnipropetrovsk and Donetsk, reflecting long‑range aerial strike capability (Source: @kpszsu/65984).",
+        "Multiple UAV groups were observed over Ukrainian territory, including northern, eastern and southern sectors, indicating a broad aerial contest (Source: @kpszsu/65975, @eRadarrua/97706).",
+        "Air alerts were issued in Kyiv at 12:18 on 21 June, confirming ongoing air threat perception (Source: @eRadarrua/97643).",
+        "UAV launch points identified in Primorsko-Akhtarsk and Bryansk regions suggest cross‑border aerial operations (Source: @eRadarrua/97675)."
       ]
     },
     "key_developments": [
-      "UAV groups from the north targeted Sumy and Kharkiv, indicating increased aerial pressure on northeastern Ukraine (Source: @kpszsu/65918).",
-      "Russian strikes damaged both sides of the Crimean bridge and hit radar stations equipped with S‑400 components (Source: @UkraineNow/82089).",
-      "Air defense systems reported downing 168 Ukrainian UAVs over Russian territory and adjacent seas (Source: @tass_agency/381737).",
-      "Shelling in Sumy caused civilian injuries and damage to residential structures (Source: @UkraineNow/82087).",
-      "Dnipropetrovsk region suffered over 30 attacks in a day, resulting in civilian casualties including a 2‑year‑old child (Source: @UkraineNow/82101).",
-      "UAVs from the Black Sea moved southward toward Odesa and Mykolaiv, suggesting maritime‑to‑land strike vectors (Source: @kpszsu/65973).",
-      "A UAV group from the south was observed over Zaporizhzhia, indicating cross‑border aerial activity (Source: @kpszsu/65976)."
+      "KAB rockets struck Zaporizhzhia, Dnipropetrovsk and Donetsk regions, indicating intensified long‑range attacks (Source: @kpszsu/65984).",
+      "Russian air defenses downed six UAVs en route to Moscow, showing active interception (Source: @tass_agency/381776).",
+      "UAVs were reported over Kharkiv from the north, targeting Velika Danylivka and Bohodukhiv (Source: @eRadarrua/97706).",
+      "UAV activity in Chernihiv near Berezna and Korivka reflects expanded reconnaissance (Source: @eRadarrua/97706, @kpszsu/65987).",
+      "A civilian was killed by an explosive device in Gorlovka, highlighting sabotage risks (Source: @tass_agency/381754).",
+      "Three casualties, including one death, resulted from an IED near a Kharkiv public transport stop (Source: @UkraineNow/82099).",
+      "UAV groups launched from the Black Sea moved toward Odesa, indicating maritime launch capability (Source: @kpszsu/65967)."
     ],
-    "threat_assessment": "Ukrainian forces face a multi‑directional UAV threat, with Russian launch points in Belgorod, Bryansk, and the Black Sea targeting key northern and southern regions. The strikes on the Crimean bridge and radar installations demonstrate Russia's focus on disrupting Ukrainian logistics and air defense capabilities. Continued civilian casualties in Sumy and Dnipropetrovsk highlight the persistent risk to non‑military targets, while high interception rates suggest robust, though strained, Ukrainian air defenses.",
-    "regional_response": "Ukrainian regional authorities have mobilized emergency services in Sumy and Dnipropetrovsk, conducting damage assessments and treating injured civilians. Air defense units across the front lines have intensified UAV interception efforts, reporting significant shoot‑downs. Local administrations in occupied Crimea have imposed curfews and restricted civilian services, reflecting Russian consolidation of control in the region.",
-    "intelligence_notes": "Monitoring of UAV launch sites indicates increased activity from the Black Sea corridor and Russian border oblasts, requiring enhanced radar coverage. The pattern of strikes on infrastructure, especially the Crimean bridge, suggests a strategic aim to impair supply lines. Coordination between Shahed drone deployments and conventional artillery attacks points to integrated Russian targeting tactics across multiple fronts."
+    "threat_assessment": "Russian long‑range KAB strikes on Zaporizhzhia, Dnipropetrovsk and Donetsk increase pressure on Ukrainian rear areas, while sustained UAV incursions across northern, eastern and southern fronts challenge air defense resources. The downing of six UAVs near Moscow shows Russian air defense effectiveness but also the high volume of aerial threats. Continued sabotage, exemplified by the Gorlovka casualty, underscores the hybrid nature of the threat landscape.",
+    "regional_response": "Ukrainian authorities have heightened air alerts, particularly in Kyiv, and are likely reallocating air defense assets to counter the surge in UAV activity. Local emergency services responded to IED incidents in Kharkiv, indicating increased civilian protection measures. Coordination with allied intelligence may be intensified to track UAV launch sites in Russia and the Black Sea region.",
+    "intelligence_notes": "UAV flight paths suggest multiple launch corridors: northern routes from Russian territory into Kharkiv and Sumy, southern maritime routes from the Black Sea toward Odesa, and eastern trajectories toward Zaporizhzhia. Monitoring of KAB launch signatures should focus on identified target oblasts. The pattern of sabotage in occupied areas like Gorlovka may require expanded counter‑insurgency operations."
   },
   "missiles": 0,
   "drones": 105,
   "kpszsu_timeline": [
-    3,
-    1,
-    9,
     1,
     2,
     3,
     4,
-    4,
-    15,
-    10,
+    6,
     14,
-    3,
-    2,
+    10,
+    13,
     4,
+    2,
+    3,
     3,
     5,
     3,
     1,
-    4,
-    3,
     5,
-    7,
-    3,
-    2
+    1,
+    6,
+    6,
+    4,
+    1,
+    1,
+    1,
+    4
   ]
 }
