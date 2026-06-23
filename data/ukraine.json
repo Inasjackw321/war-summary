@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-23T01:42:44.060948+00:00",
-  "message_count": 310,
+  "updated_at": "2026-06-23T04:39:28.346981+00:00",
+  "message_count": 305,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,9 +13,6 @@
   ],
   "red_alerts": 88,
   "red_alerts_timeline": [
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -36,22 +33,22 @@
     24,
     0,
     0,
+    0,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    8,
-    4,
-    5,
     12,
-    16,
-    14,
-    21,
-    18,
-    21,
-    13,
-    18,
     15,
-    12,
+    15,
+    18,
+    21,
+    19,
+    14,
+    17,
+    15,
+    13,
     9,
     13,
     11,
@@ -59,39 +56,52 @@
     14,
     7,
     11,
-    20,
-    19,
+    18,
     21,
-    3
+    21,
+    3,
+    4,
+    3,
+    6
   ],
   "messages_by_channel": {
     "@eRadarrua": 55,
-    "@kpszsu": 27,
+    "@kpszsu": 24,
     "@mon1tor_ua": 34,
     "@UkraineNow": 22,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 144
+    "@tass_agency": 142
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/97845",
-    "kpszsu": "https://t.me/kpszsu/66044",
+    "kpszsu": "https://t.me/kpszsu/66045",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68021",
     "UkraineNow": "https://t.me/UkraineNow/82125",
     "DeepStateUA": "https://t.me/DeepStateUA/23589",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31091",
-    "tass_agency": "https://t.me/tass_agency/381959"
+    "tass_agency": "https://t.me/tass_agency/381972"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82116",
-    "tass_agency": "https://t.me/tass_agency/381920",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31083",
-    "kpszsu": "https://t.me/kpszsu/65993",
-    "DeepStateUA": "https://t.me/DeepStateUA/66027",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68016",
-    "eRadarrua": "https://t.me/eRadarrua/97819"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31088",
+    "UkraineNow": "https://t.me/UkraineNow/82117",
+    "kpszsu": "https://t.me/kpszsu/66039",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68004",
+    "tass_agency": "https://t.me/tass_agency/381935"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/381972",
+      "post_id": 381972,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T04:30:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/381962",
+      "post_id": 381962,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T02:15:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/381958",
       "post_id": 381958,
@@ -206,18 +216,6 @@
       "post_id": 82120,
       "channel": "UkraineNow",
       "ts": "2026-06-22T15:55:06+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31086",
-      "post_id": 31086,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-22T15:28:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31085",
-      "post_id": 31085,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-22T15:05:08+00:00"
     }
   ],
   "post_images": {
@@ -245,96 +243,88 @@
     "kpszsu/66001": "data/media/kpszsu_66001.jpg",
     "kpszsu/66000": "data/media/kpszsu_66001.jpg"
   },
-  "summary": "Ukrainian forces struck the \"Сборка\" semiconductor plant in Voronezh, a key producer of components for Russian air defence and missile systems. A Ukrainian drone attack on a civilian bus in Gorlovka injured 13 people. Ukraine signed a contract with Germany for 600 Patriot missiles to bolster its air defence.",
+  "summary": "Russian forces used FAB-500 bombs against Ukrainian drone control centers in the DPR, while Ukraine reported continued operation of its General Chereshnya drone plant despite attacks. Russian ballistic missile and drone strikes caused civilian casualties in Odesa and Zaporizhzhia regions, and a strike hit a semiconductor plant in Voronezh producing missile components. Ukraine secured a contract with Germany for 600 air‑defence missiles.",
   "key_points": [
-    "Ukrainian strikes hit the \"Сборка\" plant in Voronezh, damaging a facility that makes parts for Pantsir, Iskander‑K and Kh‑101 missiles (Source: @UkraineNow/82116).",
-    "A Ukrainian drone attacked a civilian bus in Gorlovka during rush hour, resulting in 13 injuries (Source: @tass_agency/381920).",
-    "Russia opened a criminal case alleging a Ukrainian terrorist attack on Voronezh (Source: @tass_agency/381953).",
-    "Ukraine signed a contract with Germany for delivery of 600 Patriot interceptor missiles (Source: @UkraineNow/82121).",
-    "Russian Geran missiles struck a Ukrainian fuel storage facility in the Zaporozhye region (Source: @ukr_leaks_eng/31083).",
-    "Russian forces killed a 13‑year‑old boy, his father and grandmother in Shostkivska community, Sumy region (Source: @UkraineNow/82106).",
-    "Ukraine warned it will destroy Russian drone relay stations in Belarus if they are not removed within a week (Source: @ukr_leaks_eng/31063).",
-    "EU officials stated the bloc will increase pressure on Moscow rather than negotiate, reaffirming support for Ukraine (Source: @ukr_leaks_eng/31089)."
+    "Russian Armed Forces struck Ukrainian drone control centers in the DPR with FAB-500 bombs (Source: @ukr_leaks_eng/31088).",
+    "Ukraine's General Chereshnya drone production facility was hit but remains operational and staff are unharmed (Source: @UkraineNow/82117).",
+    "A Russian ballistic missile hit an agricultural enterprise in Odesa region, killing one civilian and injuring three (Source: @UkraineNow/82105).",
+    "A Russian drone attack on a private house in Zaporizhzhia injured three people and killed a woman, including an 11‑year‑old boy (Source: @UkraineNow/82105).",
+    "Russia struck a semiconductor plant in Voronezh that manufactures parts for Pantsir, Iskander‑K and Kh‑101 missiles (Source: @UkraineNow/82116).",
+    "Ukraine signed a contract with Germany for delivery of 600 air‑defence missiles (Source: @UkraineNow/82121).",
+    "Russian tactical aviation activity was reported on the north‑east axis (Source: @kpszsu/66039).",
+    "Russian anti‑aircraft Rubicon unmanned systems unit engaged enemy drones (Source: @ukr_leaks_eng/31080)."
   ],
-  "sentiment": "escalating",
+  "sentiment": "active",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces struck the \"Сборка\" semiconductor plant in Voronezh, a key producer of components for Russian air‑defence and missile systems, marking a deepening of cross‑border attacks. A Ukrainian drone hit a civilian bus in Gorlovka, injuring 13, while Russia opened a criminal case over the Voronezh strike. Ukraine secured a contract for 600 Patriot missiles from Germany, enhancing its air‑defence capability amid rising hostilities.",
+    "executive_summary": "Russian forces employed FAB-500 bombs against Ukrainian drone control centers in the DPR, indicating a focus on degrading UAV capabilities. Ukraine’s General Chereshnya drone plant sustained damage but continues production, underscoring resilience. Civilian casualties rose from Russian missile and drone strikes in Odesa and Zaporizhzhia, while a strike on a Voronezh semiconductor plant targeted missile component production.",
     "ukraine": {
       "points": [
-        "Ukraine announced a contract with Germany for 600 Patriot interceptor missiles, with production already underway, strengthening its air‑defence network (Source: @UkraineNow/82121).",
-        "Ukrainian forces claimed to have destroyed over 800,000 Russian targets with drones since the start of the year, reporting 167,000 Russian personnel killed or seriously wounded (Source: @UkraineNow/82123).",
-        "Ukrainian officials warned they will dismantle Russian drone relay stations in Belarus if they are not removed within a week (Source: @ukr_leaks_eng/31063).",
-        "Ukrainian troops reported the continued operation of the \"General Chereshnya\" drone production facility despite Russian attacks, indicating resilience in UAV manufacturing (Source: @UkraineNow/82117).",
-        "Ukrainian forces reported the unfurling of the Russian national flag by assault units in the liberated Preobrazhenskaya Street, Konstantinovka, highlighting ongoing frontline advances (Source: @ukr_leaks_eng/31069)."
+        "The General Chereshnya drone manufacturing facility was attacked but remains operational, with all employees reported alive and healthy (Source: @UkraineNow/82117).",
+        "Ukraine secured a procurement contract with Germany for 600 air‑defence missiles, enhancing its air‑defence inventory (Source: @UkraineNow/82121).",
+        "Ukrainian forces reported that since the start of the year they have struck over 800,000 Russian targets with drones, claiming heavy Russian personnel losses (Source: @UkraineNow/82123).",
+        "Ukrainian anti‑aircraft Rubicon unmanned systems unit actively engaged enemy drones, according to Russian sources (Source: @ukr_leaks_eng/31080)."
       ]
     },
     "russia": {
       "points": [
-        "Russian authorities opened a criminal case alleging a Ukrainian terrorist attack on Voronezh following the strike on the \"Сборка\" plant (Source: @tass_agency/381953).",
-        "Russian officials claimed a Ukrainian drone strike on a bus carrying Belarusian children was intended to draw Minsk into the conflict (Source: @tass_agency/381945).",
-        "Russian Geran missiles hit a Ukrainian fuel storage facility in the Zaporozhye region, demonstrating continued missile strikes on logistics hubs (Source: @ukr_leaks_eng/31083).",
-        "Russian tactical aviation activity was reported on a south‑east direction, indicating potential air operations near front‑line areas (Source: @kpszsu/65993).",
-        "Russian forces killed a 13‑year‑old boy, his father and grandmother in the Shostkivska community of Sumy region, reflecting ongoing civilian casualties (Source: @UkraineNow/82106)."
+        "Russian Armed Forces used FAB-500 bombs to hit Ukrainian drone control centers in the DPR (Source: @ukr_leaks_eng/31088).",
+        "A Russian ballistic missile struck an agricultural enterprise in the Odesa region, causing one death and three injuries (Source: @UkraineNow/82105).",
+        "A Russian drone attack on a private house in Zaporizhzhia resulted in three injuries and one civilian death, including an 11‑year‑old boy (Source: @UkraineNow/82105).",
+        "Russian forces bombed a semiconductor plant in Voronezh that produces components for Pantsir, Iskander‑K and Kh‑101 missiles (Source: @UkraineNow/82116).",
+        "Russian tactical aviation activity was noted on the north‑east front, indicating possible air operations in that sector (Source: @kpszsu/66039)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian drone attacks were reported in the eastern part of Kharkiv region, Donetsk and Zaporizhzhia, indicating continued UAV pressure on Russian‑held territories (Source: @kpszsu/66027).",
-        "Russian forces reportedly increased activity around the town of Lyman, with Ukrainian sources noting enemy infiltration and fortified positions in the surrounding forest zones (Source: @DeepStateUA/66027).",
-        "A Ukrainian drone strike hit the \"Сборка\" plant in Voronezh, a strategic target supplying components for Russian missile systems (Source: @UkraineNow/82116).",
-        "Ukrainian forces reported successful strikes on Russian positions near the village of Rzhyshchiv, advancing their operational reach (Source: @mon1tor_ua/68016).",
-        "Russian tactical aviation was noted operating on a south‑east axis, potentially targeting eastern front logistics (Source: @kpszsu/65993)."
+        "Ukrainian drone strikes targeted Russian facilities in the Donetsk People's Republic, including the use of FAB-500 bombs by Russia (Source: @ukr_leaks_eng/31088).",
+        "Russian drone activity was reported over the Zaporizhzhia region, including attacks on civilian structures (Source: @UkraineNow/82105).",
+        "Ukrainian forces claimed extensive drone attacks across the eastern front, reporting over 800,000 Russian targets hit since the start of the year (Source: @UkraineNow/82123).",
+        "Multiple reactive Shahed UAVs were observed heading toward Kyiv from the north, indicating potential threats to the capital from eastern launch points (Source: @mon1tor_ua/68004)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple reactive UAVs were observed north of Obukhiv and in the Borova area, heading toward Kyiv, indicating heightened aerial activity near the northern capital region (Source: @kpszsu/66038, @kpszsu/66036).",
-        "Ukrainian radar reported a reactive Shahed drone approaching Kyiv from the north, prompting air‑defence alerts (Source: @mon1tor_ua/68004).",
-        "Ukrainian forces detected a UAV heading toward the Vyshorod district of Kyiv, reinforcing the threat to the capital (Source: @kpszsu/66021).",
-        "A Shahed drone was reported over the Kyiv district of Troieshchyna, triggering local air‑defence response (Source: @mon1tor_ua/68009).",
-        "Ukrainian authorities noted a reactive UAV over the northern outskirts of Chernihiv, maintaining pressure on northern front settlements (Source: @eRadarrua/97819)."
+        "Reactive Shahed UAVs were detected approaching Kyiv from the north, with several alerts issued (Source: @mon1tor_ua/68004).",
+        "Ukrainian radar reported a reactive Shahed heading toward the Darnytskyi district of Kyiv (Source: @mon1tor_ua/68017).",
+        "Additional reactive Shahed alerts were posted for Kyiv's northern approaches (Source: @mon1tor_ua/68005).",
+        "Ukrainian monitoring noted a reactive UAV over the Kyiv water reservoir heading toward Vyshorod/Kyiv (Source: @kpszsu/66041)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian drones were observed over the Berislav district of Kherson region, heading north‑west, suggesting continued UAV operations in the south (Source: @kpszsu/66030).",
-        "A Russian Geran missile strike hit a fuel storage facility in the Zaporozhye region, a key logistical node for Ukrainian forces (Source: @ukr_leaks_eng/31083).",
-        "Ukrainian forces reported a reactive Shahed drone over Dnipro/Kamianets, indicating ongoing aerial threats in the southern operational area (Source: @mon1tor_ua/67985).",
-        "Ukrainian intelligence noted increased Russian tactical aviation activity on a south‑east axis, potentially targeting southern front positions (Source: @kpszsu/65993).",
-        "Ukrainian forces reported a UAV over the Black Sea heading toward the Odesa region, highlighting maritime‑adjacent aerial threats (Source: @kpszsu/66030)."
+        "Russian ballistic missile strike hit an agricultural enterprise in the Odesa region, causing civilian casualties (Source: @UkraineNow/82105).",
+        "A Russian drone attacked a private house in Zaporizhzhia, resulting in civilian injuries and a fatality (Source: @UkraineNow/82105).",
+        "Ukrainian forces reported drone attacks on Russian railway infrastructure in occupied Voronezh and Berdyansk (Source: @UkraineNow/82107).",
+        "Russian missile strikes were also reported in occupied Crimea, including Feodosia and Sevastopol (Source: @UkraineNow/82107)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine secured a contract for 600 Patriot missiles from Germany, enhancing its air‑defence capabilities against Russian aerial threats (Source: @UkraineNow/82121).",
-        "Russian Geran missiles struck a Ukrainian fuel depot in Zaporozhye, demonstrating continued missile use against Ukrainian infrastructure (Source: @ukr_leaks_eng/31083).",
-        "Ukrainian UAV activity was reported across multiple fronts, including reactive Shahed drones targeting Kyiv, Chernihiv, and southern regions, indicating a broad aerial campaign (Source: @kpszsu/66038, @mon1tor_ua/68004).",
-        "Russian tactical aviation was noted operating on a south‑east direction, suggesting potential air strikes near front‑line areas (Source: @kpszsu/65993).",
-        "A Ukrainian drone attack on a civilian bus in Gorlovka resulted in 13 injuries, highlighting the use of UAVs against soft targets (Source: @tass_agency/381920)."
+        "Russian tactical aviation activity was observed on the north‑east axis, suggesting ongoing air operations (Source: @kpszsu/66039).",
+        "Ukrainian anti‑aircraft Rubicon unmanned systems unit engaged enemy drones, indicating active air defence measures (Source: @ukr_leaks_eng/31080).",
+        "Moscow’s air defence reportedly downed 141 Ukrainian targets in a single day (Source: @tass_agency/381935).",
+        "Ukrainian forces claimed extensive drone strikes against Russian targets, with over 800,000 hits since the start of the year (Source: @UkraineNow/82123)."
       ]
     },
     "key_developments": [
-      "Ukrainian forces struck the \"Сборка\" semiconductor plant in Voronezh, damaging a key supplier of components for Russian air‑defence and missile systems (Source: @UkraineNow/82116).",
-      "A Ukrainian drone attack on a civilian bus in Gorlovka injured 13 people during rush hour, underscoring the risk to non‑military targets (Source: @tass_agency/381920).",
-      "Russia opened a criminal case alleging a Ukrainian terrorist attack on Voronezh following the plant strike (Source: @tass_agency/381953).",
-      "Ukraine signed a contract with Germany for 600 Patriot interceptor missiles, bolstering its air‑defence network (Source: @UkraineNow/82121).",
-      "Russian Geran missiles hit a Ukrainian fuel storage facility in the Zaporozhye region, disrupting logistics (Source: @ukr_leaks_eng/31083).",
-      "Ukrainian officials warned they will destroy Russian drone relay stations in Belarus if not removed within a week (Source: @ukr_leaks_eng/31063).",
-      "EU officials announced increased pressure on Moscow rather than negotiations, reaffirming support for Ukraine (Source: @ukr_leaks_eng/31089)."
+      "Russian FAB-500 bomb strikes on Ukrainian drone control centers in the DPR demonstrate a focus on degrading UAV command capabilities (Source: @ukr_leaks_eng/31088).",
+      "Ukraine's General Chereshnya drone plant remains operational after an attack, preserving a key UAV production line (Source: @UkraineNow/82117).",
+      "A Russian ballistic missile hit an agricultural site in Odesa, killing one civilian and injuring three, highlighting continued strike on civilian infrastructure (Source: @UkraineNow/82105).",
+      "Russian drone attack on a private house in Zaporizhzhia caused three injuries and one death, including an 11‑year‑old boy (Source: @UkraineNow/82105).",
+      "A strike on Voronezh's semiconductor plant targeting missile component production indicates Russian attempts to protect critical defence industry assets (Source: @UkraineNow/82116).",
+      "Ukraine secured a contract for 600 German‑made air‑defence missiles, bolstering its air‑defence capabilities (Source: @UkraineNow/82121).",
+      "Increased Russian tactical aviation activity on the north‑east front suggests potential escalation of air operations in that sector (Source: @kpszsu/66039)."
     ],
-    "threat_assessment": "Cross‑border strikes, such as the Voronezh plant attack and the Gorlovka bus incident, indicate Ukraine's expanding UAV reach into Russian territory, raising the risk of escalation. Russian missile attacks on Ukrainian logistics, exemplified by the Geran strike on a fuel depot, continue to threaten supply lines in the south. The pending delivery of 600 Patriot interceptors will enhance Ukraine's air‑defence, potentially mitigating Russian aerial threats, while Russian tactical aviation activity on a south‑east axis suggests preparation for intensified air operations.",
-    "regional_response": "Western partners, notably Germany and the EU, are deepening military and diplomatic support, as shown by the Patriot contract and EU statements of increased pressure on Moscow. Belarus faces heightened pressure from Ukraine to remove Russian drone relay stations, with threats of unilateral action. Russia's legal and propaganda responses aim to frame Ukrainian attacks as terrorism, seeking to justify further defensive measures.",
-    "intelligence_notes": "UAV activity remains high across all fronts, with reactive Shahed drones targeting Kyiv and northern regions, while Ukrainian drone strikes continue against Russian industrial targets. Monitoring of Russian tactical aviation movements on the south‑east axis is critical for anticipating potential air strikes. Civilian casualty reports in Sumy and Gorlovka highlight the ongoing humanitarian impact of the conflict."
+    "threat_assessment": "Russian forces are intensifying strikes on Ukrainian UAV command and production facilities, employing heavy FAB-500 munitions and missile attacks that have caused civilian casualties in Odesa and Zaporizhzhia. The targeting of a Voronezh semiconductor plant underscores Moscow's priority to safeguard missile component production. Meanwhile, persistent reactive Shahed UAV incursions toward Kyiv from the north pose a continuous low‑altitude threat, while increased tactical aviation activity on the north‑east front signals potential escalation of air operations.",
+    "regional_response": "Ukraine is reinforcing its air‑defence posture, highlighted by a new procurement contract for 600 German missiles and active deployment of Rubicon anti‑drone systems. Ukrainian authorities continue to publicise resilience of critical UAV production, aiming to sustain operational capacity despite attacks. Internationally, the procurement deal reflects growing Western support for Ukraine's air‑defence needs.",
+    "intelligence_notes": "Monitoring should focus on the flight paths of reactive Shahed UAVs approaching Kyiv from the north, as multiple alerts indicate a coordinated campaign. Satellite and SIGINT assets should track movements of Russian tactical aviation units on the north‑east axis to anticipate possible strike waves. Continued OSINT on civilian infrastructure strikes will aid in assessing the humanitarian impact and potential shifts in Russian targeting doctrine."
   },
   "missiles": 0,
   "drones": 88,
   "kpszsu_timeline": [
-    2,
-    0,
-    1,
+    3,
     4,
-    3,
     0,
     0,
     0,
@@ -353,6 +343,9 @@
     3,
     3,
     2,
-    1
+    1,
+    0,
+    0,
+    0
   ]
 }
