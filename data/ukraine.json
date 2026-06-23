@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-23T20:35:27.449977+00:00",
-  "message_count": 324,
+  "updated_at": "2026-06-23T22:49:03.781441+00:00",
+  "message_count": 314,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 135,
   "red_alerts_timeline": [
-    19,
-    29,
     0,
     0,
     0,
@@ -24,8 +22,7 @@
     0,
     0,
     10,
-    29,
-    0,
+    31,
     10,
     0,
     0,
@@ -33,64 +30,93 @@
     0,
     0,
     0,
+    0,
+    10,
+    10,
     10,
     10,
     0,
-    19
+    42
   ],
   "combined_activity_timeline": [
-    9,
-    16,
-    23,
-    22,
-    3,
-    4,
-    3,
-    6,
-    12,
-    7,
-    20,
-    20,
-    20,
-    15,
-    16,
     18,
+    22,
+    2,
+    4,
+    5,
+    9,
+    8,
+    9,
+    19,
     20,
     21,
     15,
-    8,
-    8,
-    12,
     15,
-    9
+    24,
+    19,
+    20,
+    9,
+    7,
+    10,
+    12,
+    14,
+    11,
+    7,
+    13
   ],
   "messages_by_channel": {
-    "@eRadarrua": 59,
-    "@kpszsu": 52,
-    "@mon1tor_ua": 34,
+    "@eRadarrua": 53,
+    "@kpszsu": 51,
+    "@mon1tor_ua": 28,
     "@UkraineNow": 14,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 139
+    "@tass_agency": 142
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97931",
-    "kpszsu": "https://t.me/kpszsu/66108",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68028",
+    "eRadarrua": "https://t.me/eRadarrua/97950",
+    "kpszsu": "https://t.me/kpszsu/66115",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68029",
     "UkraineNow": "https://t.me/UkraineNow/82139",
     "DeepStateUA": "https://t.me/DeepStateUA/23592",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31115",
-    "tass_agency": "https://t.me/tass_agency/382098"
+    "tass_agency": "https://t.me/tass_agency/382111"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82131",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67990",
-    "eRadarrua": "https://t.me/eRadarrua/97913",
-    "kpszsu": "https://t.me/kpszsu/66093",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31104",
-    "tass_agency": "https://t.me/tass_agency/382079"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68001",
+    "kpszsu": "https://t.me/kpszsu/66101",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31113",
+    "tass_agency": "https://t.me/tass_agency/382096",
+    "UkraineNow": "https://t.me/UkraineNow/82133",
+    "eRadarrua": "https://t.me/eRadarrua/97916"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/382110",
+      "post_id": 382110,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T22:18:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/97945",
+      "post_id": 97945,
+      "channel": "eRadarrua",
+      "ts": "2026-06-23T22:06:17+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/rsvFu39BANUHLao8p-63m2Ikyfcm96nqfjqQvKLSksN1NA1x0bG_5sjlqA-DCv1w9DFvnzuV6U4Mc2XSYa7vLZMiOEhv4FkQf4tTnHhkFyuz3N5OC1gMGcZBDWN2AkfwnUF5PKFntwwbjfebmFrUfP5Oci0BhKUKp51J2UGYl2c6wz41eOlEWW5GFf4ckeCTxibkbnFp7wcvAe0KC1W-GTXxm2xB1k_SqaB1Z3irhU86qB37m10pNs0jVhr1EGpC3SY3TI8FKEwxlbnTL51_9XUo05H5PCq_b7n0ea-kX3Lchk0P-jCsVOk4RLFvTmGSMR_fwT3hX8RaUtKvwFi8HQ.jpg",
+      "companion_text_id": 97943
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382105",
+      "post_id": 382105,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T22:05:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382102",
+      "post_id": 382102,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T21:20:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/382098",
       "post_id": 382098,
@@ -198,42 +224,18 @@
       "post_id": 31112,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-23T14:44:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/382075",
-      "post_id": 382075,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T14:39:16+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82136",
-      "post_id": 82136,
-      "channel": "UkraineNow",
-      "ts": "2026-06-23T14:17:07+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/97877",
-      "post_id": 97877,
-      "channel": "eRadarrua",
-      "ts": "2026-06-23T14:13:47+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/M0CK_xqZ4ljukt96E1vBp9bzdw-d6Oo07YUTZ_Df_V4pl2YpqMkWpogJe-23qpYKeun-n7Dx-8fLEo7ZDuZgM4MblbbZs2qnS53TE5J_ugj4frGa2U7jGktqP2AJ-QBbRPYOaeAyFOJYtE0L7Q0thQwv8ReV9hh9TosRbT2OP1nih2gidYN5Kn6bwrL8udHT2VAjDxBwME1dINk3MDwXqp0glpql9N3akOkacmJw2hOnJpa1A55P8L99-wa1WGZk_5kaeBrBIgdb0HWQ_GdVUfd8ro9HH4QYAB7HDHiYKC4QMBeBCclCKKYj_do56HPnwqDwSGsp4lhh8ZMqo4EYZg.jpg",
-      "companion_text_id": 97876
-    },
-    {
-      "post_url": "https://t.me/tass_agency/382071",
-      "post_id": 382071,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T14:12:05+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/97945": "data/media/eRadarrua_97945.jpg",
+    "eRadarrua/97943": "data/media/eRadarrua_97945.jpg",
+    "eRadarrua/97911": "data/media/eRadarrua_97911.jpg",
+    "eRadarrua/97912": "data/media/eRadarrua_97911.jpg",
     "eRadarrua/97921": "data/media/eRadarrua_97921.jpg",
     "eRadarrua/97919": "data/media/eRadarrua_97921.jpg",
     "eRadarrua/97900": "data/media/eRadarrua_97900.jpg",
     "eRadarrua/97899": "data/media/eRadarrua_97900.jpg",
     "eRadarrua/97910": "data/media/eRadarrua_97910.jpg",
-    "eRadarrua/97911": "data/media/eRadarrua_97911.jpg",
-    "eRadarrua/97912": "data/media/eRadarrua_97911.jpg",
     "eRadarrua/97872": "data/media/eRadarrua_97872.jpg",
     "eRadarrua/97871": "data/media/eRadarrua_97872.jpg",
     "eRadarrua/97874": "data/media/eRadarrua_97874.jpg",
@@ -251,136 +253,130 @@
     "eRadarrua/97865": "data/media/eRadarrua_97866.jpg",
     "eRadarrua/97867": "data/media/eRadarrua_97867.jpg",
     "eRadarrua/97847": "data/media/eRadarrua_97847.jpg",
-    "eRadarrua/97848": "data/media/eRadarrua_97848.jpg",
+    "eRadarrua/97848": "data/media/eRadarrua_97847.jpg",
     "kpszsu/66046": "data/media/kpszsu_66046.jpg",
     "kpszsu/66047": "data/media/kpszsu_66046.jpg"
   },
-  "summary": "Ukrainian authorities report a deadly rocket strike in Kryvyi Rih and intensive Russian attacks across Zaporizhzhia, with over a thousand strikes on 56 settlements. UAV and missile sightings proliferate from multiple fronts, including MiG‑31K launches carrying Kinzhal missiles. Ukrainian officials warn of a large‑scale offensive on several axes, citing heightened activity in Lyman, Kupiansk and the South‑Slobozhansky direction.",
+  "summary": "On June 23, 2026, Ukraine's air defense intercepted Shahed drones targeting Kyiv, Brovary, and Sirets, while Russian tactical aviation launched guided bombs at Kharkiv and Donetsk regions. The US Deputy Permanent Representative to the UN called on Russia to immediately pursue peace, and Hungary successfully removed language about Ukraine's accelerated EU accession from the EU summit declaration. A Russian fuel truck evaded a Ukrainian drone, and Russian Lancet loitering munitions were reported attacking transport on the Izium–Oskol road in Kharkiv region.",
   "key_points": [
-    "Three civilians killed and 23 injured by a Russian rocket attack on Kryvyi Rih (Source: @UkraineNow/82131).",
-    "Zaporizhzhia region suffered 1,050 strikes on 56 settlements, including 18 aviation attacks and 769 UAVs (Source: @UkraineNow/82126).",
-    "Ukrainian radar channels report multiple Shahed drones approaching Kyiv and Vyshhorod from the north (Source: @mon1tor_ua/67990).",
-    "MiG‑31K fighter launched from Savasleyka carrying an X‑47M2 Kinzhal missile, prompting nationwide air alerts (Source: @mon1tor_ua/68026; @eRadarrua/97913).",
-    "Ukrainian officials warn of a large‑scale Russian offensive on the Lyman, Kupiansk and South‑Slobozhansky axes (Source: @UkraineNow/82138).",
-    "UAVs detected near Bliznyuky (Kharkiv), Krasnokutsk (Kharkiv) and over the Black Sea heading toward Mykolaiv (Source: @kpszsu/66093; @kpszsu/66068; @kpszsu/66095).",
-    "Russian tactical aviation deployed guided aerial bombs on Donetsk and increased activity on the eastern front (Source: @kpszsu/66083; @kpszsu/66102).",
-    "Russian “Lancet” loitering munitions attacked transport between Izium and Oskol in Kharkiv region (Source: @ukr_leaks_eng/31104)."
+    "Air defense intercepted Shahed drones over Kyiv's Nivki district heading toward Sirets, with additional drones detected near Brovary and Obukhiv. (Source: @mon1tor_ua/68001, @mon1tor_ua/68011, @mon1tor_ua/67998)",
+    "Russian tactical aviation launched guided aerial bombs targeting Kharkiv and Donetsk regions, with repeated strikes reported on the city of Kharkiv. (Source: @kpszsu/66101, @kpszsu/66098, @kpszsu/66075)",
+    "US Deputy Permanent Representative to the UN Dan Negriya called on Russia to immediately make peace, stating time is not on Moscow's side. (Source: @ukr_leaks_eng/31113)",
+    "Hungary achieved the removal of language on Ukraine's accelerated EU accession from the EU summit declaration, according to Peter Magyar. (Source: @tass_agency/382096)",
+    "Russian Lancet loitering munitions attacked transport on the road between Izium and Oskol in Kharkiv region. (Source: @ukr_leaks_eng/31104)",
+    "A Russian fuel truck evaded a Ukrainian drone, and ballistic missile threats were reported from Kursk and Voronezh regions. (Source: @ukr_leaks_eng/31094, @kpszsu/66077, @mon1tor_ua/68022)",
+    "Ukraine's UN Representative Melnik stated Kiev could withdraw consent to a ceasefire along the front line if the Security Council does not adopt a ceasefire resolution. (Source: @ukr_leaks_eng/31101)",
+    "The railway bridge across the North Crimean Canal in Crimea has ceased to exist, described as a strategic military-logistic artery for occupiers. (Source: @UkraineNow/82133)"
   ],
   "sentiment": "active",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian authorities report a deadly rocket strike in Kryvyi Rih and intensive Russian attacks across Zaporizhzhia, with over a thousand strikes on 56 settlements. UAV and missile sightings proliferate from multiple fronts, including MiG‑31K launches carrying Kinzhal missiles. Ukrainian officials warn of a large‑scale offensive on several axes, citing heightened activity in Lyman, Kupiansk and the South‑Slobozhansky direction.",
+    "executive_summary": "On June 23, 2026, Ukrainian air defense engaged multiple Shahed drones targeting Kyiv, Brovary, and surrounding areas, while Russian tactical aviation conducted guided bomb strikes on Kharkiv and Donetsk regions. Diplomatically, the US called for immediate peace talks, and Hungary blocked accelerated Ukraine EU accession language from the EU summit declaration. Russian Lancet munitions struck transport infrastructure in Kharkiv region, and the strategic railway bridge across the North Crimean Canal in Crimea was reported destroyed.",
     "ukraine": {
       "points": [
-        "The National Police Ombudsman rescued six men, including one with broken ribs, from a Mykolaiv regional detention centre after 18 days without contact (Source: @UkraineNow/82137).",
-        "In Kryvyi Rih, a Russian rocket strike killed three civilians and injured 23, with one victim in critical condition (Source: @UkraineNow/82131).",
-        "Zaporizhzhia region endured 1,050 attacks on 56 settlements, comprising 18 aviation strikes, 769 UAVs, three MLRS salvos and 260 artillery strikes, causing injuries and infrastructure damage (Source: @UkraineNow/82126).",
-        "A truck parking lot in Zaporizhzhia was hit during the night, according to local reports (Source: @ukr_leaks_eng/31098).",
-        "Shelling in Kherson’s Velyky Kopan (Aleshky district) wounded a civilian man (Source: @ukr_leaks_eng/31106).",
-        "Ukrainian officials warned of a large‑scale Russian offensive affecting the Lyman, Kupiansk and South‑Slobozhansky directions (Source: @UkraineNow/82138).",
-        "Ukrainian radar channels reported a Shahed drone from the north targeting Kyiv and Vyshhorod (Source: @mon1tor_ua/67990).",
-        "MiG‑31K fighter launched from Savasleyka carrying an X‑47M2 Kinzhal missile, prompting nationwide air‑raid alerts (Source: @mon1tor_ua/68026; @eRadarrua/97913)."
+        "Ukrainian air defense intercepted Shahed drones over Kyiv's Nivki district moving toward Sirets, with additional drones detected heading toward Brovary and Obukhiv in Kyiv Oblast. (Source: @mon1tor_ua/68001, @mon1tor_ua/68011, @mon1tor_ua/67998)",
+        "Ukraine's UN Representative Melnik stated that Kiev could withdraw its consent to a ceasefire along the front line if the UN Security Council does not adopt a resolution on a ceasefire. (Source: @ukr_leaks_eng/31101)",
+        "A Russian fuel truck successfully evaded a Ukrainian drone, indicating ongoing Ukrainian drone operations targeting Russian logistics. (Source: @ukr_leaks_eng/31094)",
+        "Ukraine's Permanent Representative to the UN and US Deputy Permanent Representative Dan Negriya were engaged in ceasefire diplomacy, with the US stating 'time is not on Moscow's side.' (Source: @ukr_leaks_eng/31113, @ukr_leaks_eng/31101)",
+        "The railway bridge across the North Crimean Canal in Crimea ceased to exist, described as a strategic military-logistic artery for Russian occupiers moving supplies from Russia through Crimea. (Source: @UkraineNow/82133)",
+        "UkraineNow reported that Russia is creating conditions for the spread of anthrax in Kherson region, described as biological terrorism. (Source: @UkraineNow/82139)",
+        "Ukrainian teenagers chased away TCC (Territorial Conscription Commission) workers in their van, reflecting ongoing tensions around mobilization efforts. (Source: @ukr_leaks_eng/31110)"
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation conducted guided aerial bomb strikes on Donetsk, intensifying the eastern front combat (Source: @kpszsu/66083).",
-        "Russian forces increased missile activity nationwide, with alerts of MiG‑31K launches carrying Kinzhal missiles (Source: @kpszsu/66103).",
-        "Threats of ballistic weapon use were noted from the Millerovo direction (Source: @kpszsu/66084).",
-        "Russian “Lancet” loitering munitions attacked transport routes between Izium and Oskol in Kharkiv region (Source: @ukr_leaks_eng/31104).",
-        "UAVs were observed operating from the Black Sea towards Mykolaiv region, indicating maritime launch capabilities (Source: @kpszsu/66095).",
-        "Multiple Shahed drones were launched from the north targeting Kyiv and surrounding areas (Source: @mon1tor_ua/67990).",
-        "Russian officials claim to be ready for peace talks based on Istanbul agreements (Source: @tass_agency/382079).",
-        "President Putin announced the awarding of the Zhukov Order to the FSO Presidential Regiment (Source: @tass_agency/382094)."
+        "Russian tactical aviation launched guided aerial bombs targeting Kharkiv Oblast and Donetsk Oblast, with repeated strikes specifically on the city of Kharkiv. (Source: @kpszsu/66101, @kpszsu/66098, @kpszsu/66075)",
+        "Russian Lancet loitering munitions attacked transport on the road between Izium and Oskol in Kharkiv region, per the head of Oskol city military administration Zagoruyko. (Source: @ukr_leaks_eng/31104)",
+        "Ballistic missile threats were reported from Kursk region and Voronezh region (Iskander-M), with a MiG-31K takeoff detected, prompting a nationwide missile alert in Ukraine. (Source: @kpszsu/66077, @mon1tor_ua/68022, @kpszsu/66103)",
+        "Shoigu stated that the situation with countering drone attacks will improve and that Russia is not standing still on this issue. (Source: @tass_agency/382075)",
+        "Putin stated that Ukrainian strikes on Russia cannot affect the situation on the front where Russian forces are liberating one settlement after another. (Source: @tass_agency/382078)",
+        "The State Duma will consider amendments to the Tax Code to stimulate fuel production, including new excise taxation mechanisms for gasoline production. (Source: @tass_agency/382109)",
+        "Vnukovo Airport is operating flights on approval basis, per Rosaviatsiya. (Source: @tass_agency/382111)"
       ]
     },
     "eastern_front": {
       "points": [
-        "UAVs were sighted near Bliznyuky and Oleksandrivka in Kharkiv region, indicating continued aerial reconnaissance (Source: @kpszsu/66093).",
-        "A UAV passed north of Chernihiv heading toward Koryukivka, suggesting activity on the northern flank (Source: @kpszsu/66080).",
-        "UAVs from Sumy moved toward Poltava, targeting Kotelva and Opishnia, showing cross‑regional drone trajectories (Source: @kpszsu/66079).",
-        "Russian tactical aviation activity was reported on the eastern direction, with increased aerial operations (Source: @kpszsu/66102).",
-        "A UAV near Krasnokutsk in Kharkiv headed south, possibly supporting ground operations (Source: @kpszsu/66068).",
-        "Russian “Lancet” loitering munitions attacked transport between Izium and Oskol (Source: @ukr_leaks_eng/31104).",
-        "Ukrainian forces reported a rocket strike in Vinnytsia towards Voronovytsia (Source: @kpszsu/66107).",
-        "Continued shelling in Kherson region, with civilian injuries reported in Velyky Kopan (Source: @ukr_leaks_eng/31106)."
+        "Russian tactical aviation launched guided aerial bomb strikes on Kharkiv Oblast and Donetsk Oblast, with repeated strikes on the city of Kharkiv. (Source: @kpszsu/66101, @kpszsu/66098, @kpszsu/66075)",
+        "Russian Lancet loitering munitions attacked transport on the Izium–Oskol road in Kharkiv region. (Source: @ukr_leaks_eng/31104)",
+        "Shahed drones were detected heading toward Shostka and Hlukhiv in Sumy Oblast, and toward Dikan in Poltava Oblast. (Source: @eRadarrua/97916)",
+        "Drones were reported over Dnipropetrovsk Oblast (Samar, Pidhirne, near Shakhtarsky) and Cherkasy Oblast (heading toward Korsun-Shevchenkivskyi). (Source: @eRadarrua/97940, @eRadarrua/97936)",
+        "Two reactive drones were reported heading toward Boromlia and Trostianets from the east. (Source: @eRadarrua/97918)",
+        "Drones were detected over Kharkiv region settlements including Bezliudivka, Rohan, and Bohodukhiv. (Source: @eRadarrua/97936)",
+        "An intelligence-gathering drone was reported near Zaporizhzhia airport, with drones crossing the Dnipropetrovsk-Zaporizhzhia border near Slavhorod on a western course. (Source: @eRadarrua/97936, @eRadarrua/97898)"
       ]
     },
     "northern_front": {
       "points": [
-        "Shahed drones launched from the north targeted Kyiv and Vyshhorod, prompting air‑raid alerts (Source: @mon1tor_ua/67990).",
-        "MiG‑31K launch from Savasleyka with Kinzhal missile caused nationwide alarms (Source: @mon1tor_ua/68026; @eRadarrua/97913).",
-        "UAVs detected north of Chernihiv heading to Koryukivka, indicating surveillance activity (Source: @kpszsu/66080).",
-        "Air‑raid alerts were issued over Kyiv at 22:03 and 22:18, reflecting heightened threat levels (Source: @eRadarrua/97912; @eRadarrua/97915).",
-        "Ukrainian radar reported a Shahed drone approaching Kyiv from the north (Source: @mon1tor_ua/67989).",
-        "Russian missile threat from Millerovo was highlighted, potentially affecting northern sectors (Source: @kpszsu/66084).",
-        "UAV activity over the Black Sea towards Mykolaiv may impact northern coastal defenses (Source: @kpszsu/66095).",
-        "Ukrainian officials warned of a large‑scale offensive affecting multiple fronts, including northern axes (Source: @UkraineNow/82138)."
+        "Shahed drones were detected over Kyiv's Nivki district heading toward Sirets, with additional drones targeting Brovary and Obukhiv. (Source: @mon1tor_ua/68001, @mon1tor_ua/68011, @mon1tor_ua/67998)",
+        "A drone was detected on Chernihiv Oblast, with reports of new reactive Shaheds in the area. (Source: @mon1tor_ua/68003)",
+        "Drones were reported in northern Chernihiv Oblast heading toward Koriukivka. (Source: @kpszsu/66080)",
+        "A missile threat was reported toward Vinnytsia Oblast, in the direction of Voronovytsia. (Source: @kpszsu/66107)",
+        "Ballistic missile threats were reported from the northeastern direction, with a nationwide missile alert declared across Ukraine. (Source: @eRadarrua/97941, @kpszsu/66103)",
+        "An Iskander-M ballistic missile threat was reported from Voronezh Oblast. (Source: @mon1tor_ua/68022)",
+        "A MiG-31K was detected taking off, prompting the all-Ukraine missile danger alert. (Source: @kpszsu/66103)"
       ]
     },
     "southern_front": {
       "points": [
-        "UAVs from the Black Sea were observed heading toward Mykolaiv region, indicating southern maritime launch points (Source: @kpszsu/66095).",
-        "Russian rocket attacks in Kryvyi Rih caused three civilian deaths and 23 injuries (Source: @UkraineNow/82131).",
-        "Zaporizhzhia region experienced 1,050 strikes on 56 settlements, with extensive UAV and artillery usage (Source: @UkraineNow/82126).",
-        "A rocket strike in Vinnytsia targeted Voronovytsia, showing southern operational reach (Source: @kpszsu/66107).",
-        "Ukrainian officials cited heightened activity on the South‑Slobozhansky direction as part of a broader offensive (Source: @UkraineNow/82138).",
-        "Russian tactical aviation deployed guided aerial bombs on Donetsk, affecting southern operational depth (Source: @kpszsu/66083).",
-        "UAV sightings near Krasnokutsk (Kharkiv) heading south may support southern maneuvers (Source: @kpszsu/66068).",
-        "Biological terror claim of Russian activity spreading Siberian plague in Kherson region (Source: @UkraineNow/82139)."
+        "Drones were reported from the Black Sea waters heading toward Odesa Oblast, with a 26-year-old woman killed and a 39-year-old man wounded in Odesa city. (Source: @UkraineNow/82132, @kpszsu/66076)",
+        "Shelling of Kherson region continued unabated with numerous settlements under attack; a man was wounded in Velyky Kopan, Aleshky district. (Source: @ukr_leaks_eng/31106)",
+        "Drones heading toward Mykolaiv Oblast from the Black Sea waters were reported. (Source: @kpszsu/66095)",
+        "The railway bridge across the North Crimean Canal in Crimea ceased to exist, described as a key Russian military-logistic artery. (Source: @UkraineNow/82133)",
+        "Drones were reported near Petropavlivka in Dnipropetrovsk Oblast and an intelligence drone near Zaporizhzhia airport. (Source: @eRadarrua/97898)",
+        "Russia is reported to be creating conditions for anthrax spread in Kherson region, described as biological terrorism. (Source: @UkraineNow/82139)",
+        "Drones were reported heading toward Chornomorske from Black Sea waters. (Source: @kpszsu/66076)"
       ]
     },
     "air_war": {
       "points": [
-        "MiG‑31K fighter launched from Savasleyka carrying an X‑47M2 Kinzhal missile, triggering nationwide air alerts (Source: @mon1tor_ua/68026; @eRadarrua/97913).",
-        "Multiple Shahed drones were detected approaching Kyiv from the north, prompting local air‑raid warnings (Source: @mon1tor_ua/67990).",
-        "Russian tactical aviation conducted guided aerial bomb strikes on Donetsk, intensifying air operations (Source: @kpszsu/66083).",
-        "UAV activity reported across Kharkiv, Chernihiv, Sumy and the Black Sea, indicating widespread aerial reconnaissance (Source: @kpszsu/66093; @kpszsu/66079; @kpszsu/66080; @kpszsu/66095).",
-        "Air‑raid alerts were issued over Kyiv at 22:03 and 22:18, reflecting heightened missile and drone threats (Source: @eRadarrua/97912; @eRadarrua/97915).",
-        "Russian “Lancet” loitering munitions engaged transport routes in Kharkiv region (Source: @ukr_leaks_eng/31104).",
-        "Threat of ballistic weapons from Millerovo was highlighted, suggesting potential long‑range missile use (Source: @kpszsu/66084).",
-        "Ukrainian radar channels reported increased activity of enemy tactical aviation on the eastern front (Source: @kpszsu/66102)."
+        "Multiple Shahed drones were intercepted over Kyiv Oblast targeting Nivki (toward Sirets), Brovary, and Obukhiv on the night of June 23, 2026. (Source: @mon1tor_ua/68001, @mon1tor_ua/68011, @mon1tor_ua/67998)",
+        "Russian tactical aviation conducted guided aerial bomb strikes on Kharkiv and Donetsk regions, with repeated strikes specifically targeting the city of Kharkiv. (Source: @kpszsu/66101, @kpszsu/66098, @kpszsu/66075)",
+        "A Russian fuel truck evaded a Ukrainian drone, and a Ukrainian drone with 5 kg of explosives was found in Estonia's Ryuga parish, having fallen during a Ukrainian attack on Russia in early June. (Source: @ukr_leaks_eng/31094, @ukr_leaks_eng/31100)",
+        "A MiG-31K takeoff was detected, triggering a nationwide missile danger alert across all of Ukraine. (Source: @kpszsu/66103)",
+        "Ballistic missile threats were reported from Kursk region and Voronezh Oblast (Iskander-M), with additional ballistic threat from the northeastern direction. (Source: @kpszsu/66077, @mon1tor_ua/68022, @eRadarrua/97941)",
+        "Russian Lancet loitering munitions struck transport on the Izium–Oskol road in Kharkiv region. (Source: @ukr_leaks_eng/31104)",
+        "Two reactive drones were reported on Boromlia/Trostianets from the east, and a missile was reported toward Vinnytsia Oblast in the direction of Voronovytsia. (Source: @eRadarrua/97918, @kpszsu/66107)"
       ]
     },
     "key_developments": [
-      "Three civilians killed and 23 injured by a Russian rocket strike on Kryvyi Rih, highlighting the continued threat to urban centers (Source: @UkraineNow/82131).",
-      "Zaporizhzhia region suffered 1,050 strikes on 56 settlements, including 18 aviation attacks and 769 UAVs, indicating a high‑intensity campaign (Source: @UkraineNow/82126).",
-      "MiG‑31K launch from Savasleyka with an X‑47M2 Kinzhal missile prompted nationwide air‑raid alerts, showing Russia’s use of hypersonic weapons (Source: @mon1tor_ua/68026; @eRadarrua/97913).",
-      "Ukrainian officials warned of a large‑scale Russian offensive on the Lyman, Kupiansk and South‑Slobozhansky axes, suggesting preparation for coordinated assaults (Source: @UkraineNow/82138).",
-      "UAVs detected near Bliznyuky (Kharkiv), Krasnokutsk (Kharkiv) and over the Black Sea heading toward Mykolaiv, indicating multi‑directional drone operations (Source: @kpszsu/66093; @kpszsu/66068; @kpszsu/66095).",
-      "Shahed drones launched from the north targeted Kyiv and Vyshhorod, causing multiple air‑raid alerts and demonstrating persistent low‑altitude threats (Source: @mon1tor_ua/67990).",
-      "Russian “Lancet” loitering munitions attacked transport between Izium and Oskol, disrupting logistics in the Kharkiv region (Source: @ukr_leaks_eng/31104)."
+      "Ukrainian air defense engaged Shahed drones targeting Kyiv (Nivki toward Sirets), Brovary, and Obukhiv in a series of overnight interceptions across Kyiv Oblast. (Source: @mon1tor_ua/68001, @mon1tor_ua/68011, @mon1tor_ua/67998)",
+      "Russian tactical aviation launched repeated guided aerial bomb strikes on Kharkiv city and broader Kharkiv and Donetsk regions. (Source: @kpszsu/66101, @kpszsu/66098, @kpszsu/66075)",
+      "A nationwide missile danger alert was declared across Ukraine following a MiG-31K takeoff and Iskander-M ballistic missile threats from Voronezh Oblast. (Source: @kpszsu/66103, @mon1tor_ua/68022)",
+      "Russian Lancet loitering munitions attacked transport on the Izium–Oskol road in Kharkiv region, per Oskol city military administration head Zagoruyko. (Source: @ukr_leaks_eng/31104)",
+      "The strategic railway bridge across the North Crimean Canal in Crimea was reported destroyed, eliminating a key Russian logistics artery. (Source: @UkraineNow/82133)",
+      "US Deputy UN Representative Dan Negriya called on Russia to immediately make peace, stating 'time is not on Moscow's side.' (Source: @ukr_leaks_eng/31113)",
+      "Ukraine's UN Representative Melnik warned that Kiev could withdraw ceasefire consent if the Security Council does not adopt a ceasefire resolution. (Source: @ukr_leaks_eng/31101)"
     ],
-    "threat_assessment": "Russian forces are employing a mixed arsenal of rockets, UAVs, guided aerial bombs and hypersonic missiles, creating a multi‑layered threat across all fronts. The concentration of attacks on civilian infrastructure in Kryvyi Rih and Zaporizhzhia, combined with the announced large‑scale offensive, suggests preparation for coordinated ground operations. Continued drone activity from maritime and inland launch points expands the battlefield, while the use of Kinzhal‑armed MiG‑31K indicates a willingness to employ strategic strike capabilities, raising the risk of rapid escalation.",
-    "regional_response": "Ukrainian authorities have intensified civil defense measures, issuing frequent air‑raid alerts and mobilizing rescue efforts in heavily hit cities. Regional commanders report increased artillery and air defense deployments, particularly around Kyiv, Kharkiv and the southern oblasts. International partners are monitoring the hypersonic missile use, with diplomatic statements urging restraint, while aid channels focus on medical and reconstruction support for the affected populations.",
-    "intelligence_notes": "Open‑source monitoring continues to track UAV flight paths, revealing cross‑regional trajectories that may precede ground maneuvers. The emergence of ballistic threats from Millerovo and the reported biological terror activities in Kherson warrant heightened bio‑security and missile defense readiness. Signals intelligence indicates possible coordination between Russian tactical aviation and ground forces, underscoring the need for integrated air‑ground situational awareness."
+    "threat_assessment": "The security environment remains highly active with combined aerial threats across multiple axes. Russia employed Shahed drones against Kyiv Oblast, guided bombs against Kharkiv and Donetsk, and Lancet munitions against transport infrastructure in the Izium-Oskol corridor. The detection of a MiG-31K takeoff and Iskander-M launch threats from Voronezh indicates Russia's continued capacity for strategic aviation and ballistic missile employment. The destruction of the North Crimean Canal railway bridge represents a significant logistics disruption for Russian forces in southern Ukraine. Ukraine's air defense demonstrated capability to intercept multiple drone threats overnight, though Odesa suffered civilian casualties from drone strikes.",
+    "regional_response": "The United States, through Deputy UN Representative Dan Negriya, called for immediate peace negotiations, asserting that 'time is not on Moscow's side.' Hungary successfully removed language about Ukraine's accelerated EU accession from the EU summit declaration, signaling continued diplomatic resistance to Ukraine's integration timeline. Ukraine's UN Representative Melnik conditioned continued ceasefire consent on Security Council action. Domestically, Ukraine faced mobilization tensions as teenagers chased TCC workers, and Deputy Prime Minister Kuleba's assets were seized amid corruption allegations. Russia's State Duma moved to stimulate fuel production through tax code amendments.",
+    "intelligence_notes": "The source material contains a mix of operational military reporting, diplomatic developments, and internal Ukrainian political issues. Several key items require corroboration: the biological terrorism claim regarding anthrax in Kherson region, the Molfar NGO's alleged role in Zaluzhny's political positioning, and the DeepStateUA report on alleged abuses within the 425th Assault Regiment 'Skelia.' The operational military data (drone routes, bomb strikes, missile threats) appears consistent across multiple channels. The destruction of the North Crimean Canal bridge, if confirmed, would represent a significant degradation of Russian logistics in occupied southern Ukraine."
   },
   "missiles": 0,
   "drones": 135,
   "kpszsu_timeline": [
-    0,
-    4,
-    3,
+    2,
     2,
     1,
     0,
     0,
     0,
     1,
-    0,
-    4,
-    6,
-    3,
     1,
-    2,
-    3,
+    4,
     5,
     3,
+    2,
+    2,
+    4,
+    4,
+    3,
+    2,
+    1,
+    4,
+    2,
     3,
     1,
-    3,
-    3,
-    3,
-    1
+    1,
+    3
   ]
 }
