@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-23T10:02:48.895147+00:00",
-  "message_count": 300,
+  "updated_at": "2026-06-23T12:25:32.263994+00:00",
+  "message_count": 309,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,19 +13,16 @@
   ],
   "red_alerts": 135,
   "red_alerts_timeline": [
-    9,
+    10,
     0,
     0,
-    9,
     0,
+    10,
+    10,
     0,
-    9,
-    9,
-    0,
-    0,
-    18,
-    9,
-    27,
+    10,
+    10,
+    39,
     0,
     0,
     0,
@@ -34,63 +31,134 @@
     0,
     0,
     0,
-    27,
-    9,
-    9
+    0,
+    29,
+    10,
+    10,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    16,
-    12,
-    19,
+    21,
+    11,
+    11,
+    10,
     13,
-    12,
-    9,
-    15,
-    9,
-    3,
-    15,
-    9,
-    6,
-    32,
-    9,
-    20,
-    2,
-    6,
-    3,
+    8,
+    8,
     11,
     9,
+    12,
+    27,
+    19,
+    8,
+    4,
+    2,
+    6,
     10,
-    24,
-    20,
-    16
+    9,
+    15,
+    22,
+    22,
+    14,
+    17,
+    19
   ],
   "messages_by_channel": {
-    "@eRadarrua": 55,
-    "@kpszsu": 32,
+    "@eRadarrua": 56,
+    "@kpszsu": 35,
     "@mon1tor_ua": 33,
     "@UkraineNow": 15,
-    "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 26,
-    "@tass_agency": 138
+    "@DeepStateUA": 3,
+    "@ukr_leaks_eng": 28,
+    "@tass_agency": 139
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97866",
-    "kpszsu": "https://t.me/kpszsu/66066",
+    "eRadarrua": "https://t.me/eRadarrua/97871",
+    "kpszsu": "https://t.me/kpszsu/66073",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68021",
-    "UkraineNow": "https://t.me/UkraineNow/82130",
-    "DeepStateUA": "https://t.me/DeepStateUA/23589",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31101",
-    "tass_agency": "https://t.me/tass_agency/382022"
+    "UkraineNow": "https://t.me/UkraineNow/82132",
+    "DeepStateUA": "https://t.me/DeepStateUA/23591",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31107",
+    "tass_agency": "https://t.me/tass_agency/382050"
   },
   "cited_post_urls": {
+    "mon1tor_ua": "https://t.me/mon1tor_ua/67991",
     "UkraineNow": "https://t.me/UkraineNow/82126",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31083",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67989",
-    "kpszsu": "https://t.me/kpszsu/66050",
-    "eRadarrua": "https://t.me/eRadarrua/97853",
-    "tass_agency": "https://t.me/tass_agency/382012"
+    "kpszsu": "https://t.me/kpszsu/66048",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31088",
+    "tass_agency": "https://t.me/tass_agency/382036",
+    "eRadarrua": "https://t.me/eRadarrua/97792"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31107",
+      "post_id": 31107,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-23T12:21:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382049",
+      "post_id": 382049,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T12:13:50+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382048",
+      "post_id": 382048,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T12:11:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382046",
+      "post_id": 382046,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T11:54:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31105",
+      "post_id": 31105,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-23T11:52:20+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382042",
+      "post_id": 382042,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T11:32:49+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382037",
+      "post_id": 382037,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T11:13:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/97867",
+      "post_id": 97867,
+      "channel": "eRadarrua",
+      "ts": "2026-06-23T10:59:32+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/I7hdlPJoeuKYV2Q_pM9z8anbSeCwPQ6ZBsuCOGhD7Y30HZo-s7D_ZYle8g07VLdaBC5iDGCMaeMBBZEUYBNkIVVQa1HNOjPxSZMMe9K5Q4VrTv7SjoxJuo9cfwV6JpiaNmEl9dHeqz8OaAmPKCFU9Q5ULKDUBJvTlMf6CvKt6-U6Eu9cFCQVRCPwLZ2NgePLJqasrVGzYZS1jGRrDFqUSH7ilGBnlgJkXm_0SONuzfYgdAXLu6rPQWP15TM6M3CmKX3Nex9S5jPmph8_2Btud4PpZCq9z5x1xrTWd1-nZeCoOrGi0AxHsUbZElg0JxxUN8BKzONMeXEQVdbwHf4Yow.jpg",
+      "companion_text_id": 97866
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382031",
+      "post_id": 382031,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T10:39:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382027",
+      "post_id": 382027,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T10:32:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82131",
+      "post_id": 82131,
+      "channel": "UkraineNow",
+      "ts": "2026-06-23T10:04:14+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/97866",
       "post_id": 97866,
@@ -146,225 +214,156 @@
       "companion_text_id": 97848
     },
     {
-      "post_url": "https://t.me/tass_agency/381988",
-      "post_id": 381988,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T07:06:51+00:00"
-    },
-    {
       "post_url": "https://t.me/eRadarrua/97848",
       "post_id": 97848,
       "channel": "eRadarrua",
       "ts": "2026-06-23T06:56:28+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/m4ORIuG6mUop8XbubAOnVA3yKpKez3ueoYN3F-95vfpWXXBVUwwnkzOQxQ7AeWt71mSEt_TLIxtIf662iDTMcnxIv77w593B0DvgH4h4Mcw3lOm-wimMgKYtDGNtr3msEapMJMVDTogZIU74b7wyt3TPz4N30reIt5oD4cXptuOgiR8iPEBdCKhUKirIbKbIjulE9RvV-f3MIBltHHVJf7Lur85m_EGGabWRiOvtyBI18mSHtXc8MpqsX8PgsafmLShmBvsXnh7_B8EBdFZ0Tt8gor3eVE3nqP95_kC6NljKy-BV9948la60NnGaVDmHqlM4jUGKIExoZC0rj1RxYA.jpg",
       "companion_text_id": 97847
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82129",
-      "post_id": 82129,
-      "channel": "UkraineNow",
-      "ts": "2026-06-23T06:50:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381985",
-      "post_id": 381985,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T06:44:53+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381984",
-      "post_id": 381984,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T06:31:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/97847",
-      "post_id": 97847,
-      "channel": "eRadarrua",
-      "ts": "2026-06-23T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/m50VEWPgokG8teoDAP6tSd4lLdA70LOGOOi213m7JoCCGOn0wFktzth3oWLgaJraJ944RHzx-IAd-LV8RteNn4b4lsy6Hjx6t2uldUaAyX5kZW32RhSIYY75ycq_N2GX2_0p_E2JkTGIrHxA6auWv6lmowGxdB8S8cl2J8-vCmQaXJSFwys6Zkeq8ijHFJMRnyetISg1BnAToFIasqSxBqKF64VMjkChHQ2z-4g06Xlr4PlWsXAa3EINE_t8Bp0MY7_gpGDwPzNWcZ56M6hkdMehlpe-l1rYp9vBJFvDNrsLlQG0M0hXWynEw8KYM0YC5F2c5y1Z_saWtEL_HPhbRQ.jpg",
-      "companion_text_id": 97848
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381982",
-      "post_id": 381982,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T05:59:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82128",
-      "post_id": 82128,
-      "channel": "UkraineNow",
-      "ts": "2026-06-23T05:53:09+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381981",
-      "post_id": 381981,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T05:37:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82127",
-      "post_id": 82127,
-      "channel": "UkraineNow",
-      "ts": "2026-06-23T05:35:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82126",
-      "post_id": 82126,
-      "channel": "UkraineNow",
-      "ts": "2026-06-23T05:30:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31092",
-      "post_id": 31092,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-06-23T05:03:01+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/97847": "data/media/eRadarrua_97847.jpg",
-    "eRadarrua/97848": "data/media/eRadarrua_97848.jpg",
-    "eRadarrua/97849": "data/media/eRadarrua_97849.jpg",
     "eRadarrua/97863": "data/media/eRadarrua_97863.jpg",
     "eRadarrua/97864": "data/media/eRadarrua_97863.jpg",
     "eRadarrua/97866": "data/media/eRadarrua_97866.jpg",
     "eRadarrua/97865": "data/media/eRadarrua_97866.jpg",
-    "eRadarrua/97788": "data/media/eRadarrua_97788.jpg",
-    "eRadarrua/97789": "data/media/eRadarrua_97788.jpg",
+    "eRadarrua/97867": "data/media/eRadarrua_97867.jpg",
+    "eRadarrua/97847": "data/media/eRadarrua_97847.jpg",
+    "eRadarrua/97848": "data/media/eRadarrua_97848.jpg",
+    "eRadarrua/97849": "data/media/eRadarrua_97849.jpg",
     "eRadarrua/97771": "data/media/eRadarrua_97771.jpg",
     "eRadarrua/97769": "data/media/eRadarrua_97771.jpg",
     "eRadarrua/97783": "data/media/eRadarrua_97783.jpg",
     "eRadarrua/97784": "data/media/eRadarrua_97783.jpg",
-    "eRadarrua/97747": "data/media/eRadarrua_97747.jpg",
-    "eRadarrua/97746": "data/media/eRadarrua_97747.jpg",
+    "eRadarrua/97788": "data/media/eRadarrua_97788.jpg",
+    "eRadarrua/97789": "data/media/eRadarrua_97788.jpg",
     "eRadarrua/97750": "data/media/eRadarrua_97750.jpg",
     "eRadarrua/97749": "data/media/eRadarrua_97750.jpg",
     "eRadarrua/97763": "data/media/eRadarrua_97763.jpg",
-    "eRadarrua/97736": "data/media/eRadarrua_97736.jpg",
-    "eRadarrua/97737": "data/media/eRadarrua_97736.jpg",
+    "eRadarrua/97747": "data/media/eRadarrua_97747.jpg",
+    "eRadarrua/97746": "data/media/eRadarrua_97747.jpg",
     "kpszsu/66046": "data/media/kpszsu_66046.jpg",
     "kpszsu/66047": "data/media/kpszsu_66046.jpg"
   },
-  "summary": "Ukrainian forces reported extensive UAV activity across multiple fronts, including strikes on Russian logistics and energy sites. Russian attacks continued with missile and aerial bomb strikes on Zaporizhzhia and Crimea, causing civilian injuries and infrastructure damage. Both sides cited ongoing air defense alerts and the deployment of advanced weapons systems.",
+  "summary": "Russian Shahed and UAV attacks continue over Kyiv, Zaporizhzhia and Kharkiv regions, with multiple strikes reported on civilian infrastructure. Ukrainian forces reported heavy aerial activity in the Black Sea and attacks on Russian‑occupied Crimea, including a power plant strike in Kerch. Casualties and damage reports indicate ongoing intense combat across multiple fronts.",
   "key_points": [
-    "Ukrainian defense reported 1050 strikes on 56 settlements in Zaporizhzhia region, including 18 aviation strikes and 769 FPV UAVs (Source: @UkraineNow/82126).",
-    "Russian Geran missiles hit a Ukrainian Armed Forces fuel storage facility in the Kiev‑controlled part of Zaporizhzhia region (Source: @ukr_leaks_eng/31083).",
-    "Ukrainian forces struck the Kerch thermal power plant in occupied Crimea, causing widespread power outages in several districts (Source: @UkraineNow/82129).",
-    "Multiple reactive Shahed drones were observed approaching Kyiv from the north, prompting air defense alerts (Source: @mon1tor_ua/67989, @mon1tor_ua/68004, @mon1tor_ua/68005).",
-    "Russian tactical aviation launched guided aerial bombs on the city of Zaporizhzhia (Source: @kpszsu/66050).",
-    "Ukrainian UAVs were reported heading toward Kharkiv, Chernihiv, Odesa, and the Black Sea from various directions (Source: @kpszsu/66030, @kpszsu/66029).",
-    "Vitaly Kim warned that the impact of attacks on Russian logistics will be felt in 2‑3 months, with no rapid reduction expected (Source: @ukr_leaks_eng/31082)."
+    "Russian Shahed missiles were detected over Kyiv's Nivki/Sviatoshyn and Obolon/Troeshchyna districts, prompting air defence alerts. (Source: @mon1tor_ua/67991)",
+    "Ukrainian authorities reported 1,050 Russian attacks on 56 settlements in Zaporizhzhia region, including 18 air strikes and 769 UAV launches in one day. (Source: @UkraineNow/82126)",
+    "A Russian tactical aviation strike deployed guided aviation bombs on Zaporizhzhia city and southern Kharkiv region. (Source: @kpszsu/66048)",
+    "Ukrainian forces struck a Russian‑occupied power plant in Kerch, Crimea, causing widespread electricity outages in several districts. (Source: @UkraineNow/82129)",
+    "Multiple groups of combat UAVs were observed over the Black Sea heading toward Vylkove (Odesa region) and Odessa city. (Source: @kpszsu/66061)",
+    "Russian forces used FAB‑500 bombs against Ukrainian drone control centers in the DPR, according to the Russian Ministry of Defence. (Source: @ukr_leaks_eng/31088)",
+    "Three people were injured in Sumy after a Russian air strike that hit three locations, igniting a trolleybus. (Source: @UkraineNow/82127)"
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces reported over a thousand strikes in Zaporizhzhia, including extensive UAV attacks, while Russian missile and aerial bomb strikes hit Ukrainian fuel storage and urban targets. Both sides employed advanced weapons such as Shahed drones, KAB rockets, and Kh‑47M2 Kinzhal missiles. Air defense alerts remained frequent across multiple fronts.",
+    "executive_summary": "Russian Shahed missiles continue to target Kyiv suburbs, while intensive UAV and bomb attacks hit Zaporizhzhia and Kharkiv regions. Ukrainian forces have struck a Russian‑occupied power plant in Kerch, causing major outages. Both sides report high‑intensity aerial operations across multiple fronts.",
     "ukraine": {
       "points": [
-        "Ukrainian defense recorded 1050 attacks on 56 settlements in Zaporizhzhia region, comprising 18 aviation strikes, 769 FPV UAVs, 3 MLRS salvos, and 260 artillery strikes, with 169 damage reports to housing and infrastructure (Source: @UkraineNow/82126).",
-        "Ukrainian forces struck the Kerch thermal power plant in occupied Crimea, leading to power outages in Evpatoria, Krasnoperekopsk, Saky, Dzhankoi, and Krasnogvardeysk districts (Source: @UkraineNow/82129).",
-        "A truck parking lot in Zaporozhye was attacked during the night, indicating continued ground target engagements (Source: @ukr_leaks_eng/31098).",
-        "Ukrainian UAVs were observed heading from Kharkiv toward Kozlivshchyna in Poltava region and from Poltava toward Dykanka/Poltava, showing operational reach across central Ukraine (Source: @eRadarrua/97853, @kpszsu/66054).",
-        "Ukrainian air defenses reported multiple reactive Shahed drones approaching Kyiv from the north, prompting alerts over Vyshhorod, Obolon, Troieshchyna, and Nyvky areas (Source: @mon1tor_ua/67989, @mon1tor_ua/68004, @mon1tor_ua/68005, @mon1tor_ua/67991).",
-        "Ukrainian radar noted a UAV over Kyiv reservoir heading toward Vyshhorod, indicating continued low‑altitude threats to the capital's water infrastructure (Source: @kpszsu/66041).",
-        "Ukrainian forces launched KAB rockets toward eastern Kharkiv, Donetsk, and Zaporizhzhia regions, expanding long‑range strike capabilities (Source: @kpszsu/66027)."
+        "Ukrainian defence reported 1,050 attacks by Russian forces on 56 settlements in Zaporizhzhia region, including 18 air strikes, 769 UAV launches, 3 multiple rocket launcher strikes and 260 artillery strikes, causing damage to housing and infrastructure. (Source: @UkraineNow/82126)",
+        "Ukrainian forces hit a thermal power plant in the occupied city of Kerch, Crimea, leading to mass electricity outages in Evpatoria, Krasnoperekopsk, Saksky, Dzhankoy and Krasnogvardeysky districts. (Source: @UkraineNow/82129)",
+        "Three civilians were injured in Sumy after a Russian air strike that struck three locations and set a trolleybus on fire. (Source: @UkraineNow/82127)",
+        "Ukrainian air defence detected Shahed missiles over Kyiv's Nivki/Sviatoshyn and Obolon/Troeshchyna districts, prompting alerts. (Source: @mon1tor_ua/67991)",
+        "Ukrainian forces reported groups of combat UAVs operating over the Black Sea heading toward Vylkove (Odesa region) and directly over Odessa city. (Source: @kpszsu/66061)",
+        "Ukrainian intelligence noted a Russian FAB‑500 bomb strike on drone control centers in the DPR. (Source: @ukr_leaks_eng/31088)",
+        "Ukrainian reports indicated a Shahed missile from the north over Kyiv/Vishhorod. (Source: @mon1tor_ua/67989)"
       ]
     },
     "russia": {
       "points": [
-        "Russian Geran missiles struck a Ukrainian Armed Forces fuel storage facility in the Kiev‑controlled part of Zaporizhzhia region, targeting logistical assets (Source: @ukr_leaks_eng/31083).",
-        "Russian tactical aviation conducted repeated guided aerial bomb attacks on the city of Zaporizhzhia, indicating intensified aerial bombardment (Source: @kpszsu/66050).",
-        "A MiG‑31K fighter launched from Savaslyka carried an X‑47M2 Kinzhal hypersonic missile, demonstrating deployment of advanced air‑launched weapons (Source: @mon1tor_ua/67986).",
-        "Russian forces reported strikes on fuel‑energy and transport infrastructure, including depots used by Ukrainian forces, as part of their offensive operations (Source: @tass_agency/382012).",
-        "Ukrainian reports indicated Russian UAV activity over the Black Sea heading toward Odesa and over Berislav district in Kherson region moving northwest (Source: @kpszsu/66030).",
-        "Russian attacks on Sumy resulted in three civilian injuries and damage to three locations, including a trolleybus fire (Source: @UkraineNow/82127).",
-        "In occupied Crimea, Russian authorities noted power outages across multiple districts, attributing them to drone attacks on critical infrastructure (Source: @UkraineNow/82119)."
+        "Russian tactical aviation launched guided aviation bombs on Zaporizhzhia city and southern Kharkiv region. (Source: @kpszsu/66048)",
+        "Russian forces deployed Shahed missiles over Kyiv suburbs Nivki/Sviatoshyn, Obolon/Troeshchyna, and a northward Shahed over Kyiv/Vishhorod. (Source: @mon1tor_ua/67991, @mon1tor_ua/67989)",
+        "Russian UAV groups were observed over the Black Sea heading toward Vylkove (Odesa region) and over Odessa. (Source: @kpszsu/66061)",
+        "Russian Ministry of Defence claimed use of FAB‑500 bombs against Ukrainian drone control centers in the DPR. (Source: @ukr_leaks_eng/31088)",
+        "Russian forces reported multiple UAV attacks on Ukrainian infrastructure, including a bus in Gorlovka (DNR) resulting in up to 17 injuries. (Source: @tass_agency/382036)",
+        "Russian statements indicated intensified strikes on Ukrainian positions in Zaporozhye, Kharkiv and Nikolayev, including “Geranium” attacks. (Source: @ukr_leaks_eng/31105)",
+        "Russian forces claimed damage to Ukrainian fuel storage facilities in the Zaporozhye region. (Source: @ukr_leaks_eng/31083)"
       ]
     },
     "eastern_front": {
       "points": [
-        "UAVs were reported moving from Kharkiv toward Kozlivshchyna in Poltava, and from Poltava toward Dykanka, indicating cross‑regional UAV operations in the east (Source: @eRadarrua/97853, @kpszsu/66054).",
-        "KAB rocket launches targeted eastern Kharkiv, Donetsk, and Zaporizhzhia regions, expanding strike depth on the eastern front (Source: @kpszsu/66027).",
-        "Russian forces claimed hits on fuel‑energy infrastructure in the east, including depots supporting Ukrainian forces (Source: @tass_agency/382012).",
-        "Ukrainian defense recorded 5 UAV groups passing near Ternuvate in Zaporizhzhia, suggesting sustained aerial pressure in the eastern sector (Source: @eRadarrua/97789).",
-        "Reactive Shahed drones were observed approaching Kyiv from the north, but also reported near the eastern border, indicating dispersed threat vectors (Source: @mon1tor_ua/67989).",
-        "Ukrainian air alarm in Kyiv was lifted at 03:31, reflecting temporary relief but ongoing alert status on the eastern approaches (Source: @eRadarrua/97841).",
-        "Vitaly Kim warned that attacks on Russian logistics will have delayed effects, implying continued eastern front pressure (Source: @ukr_leaks_eng/31082)."
+        "Ukrainian reports of 769 UAV launches, including FPV drones, over Zaporizhzhia region, with 18 air strikes and 260 artillery strikes in one day. (Source: @UkraineNow/82126)",
+        "Russian tactical aviation bombed Zaporizhzhia city and southern Kharkiv region. (Source: @kpszsu/66048)",
+        "Ukrainian forces reported a Shahed missile from the north over Kyiv, indicating possible eastern‑to‑west trajectories. (Source: @mon1tor_ua/67989)",
+        "Ukrainian defence noted UAV activity near Magdalenivka in Dnipropetrovsk region, indicating eastern sector pressure. (Source: @kpszsu/66071)",
+        "Russian reports of UAV attacks on Sumy, causing civilian injuries and a trolleybus fire. (Source: @UkraineNow/82127)",
+        "Ukrainian intelligence observed UAV groups over the Black Sea heading toward Vylkove, affecting the eastern Odesa corridor. (Source: @kpszsu/66061)",
+        "Russian forces claimed strikes on Ukrainian fuel storage in Zaporozhye region. (Source: @ukr_leaks_eng/31083)"
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple reactive Shahed drones were tracked approaching Kyiv from the north, with alerts over Vyshhorod, Obolon, Troieshchyna, and Nyvky districts (Source: @mon1tor_ua/67989, @mon1tor_ua/68004, @mon1tor_ua/68005, @mon1tor_ua/67991).",
-        "UAVs were reported heading toward Chernihiv, Berezna, and Mena from the north, indicating increased aerial activity in the northern sector (Source: @kpszsu/66029).",
-        "New groups of strike UAVs, including reactive types, were observed in northern Chernihiv region (Source: @kpszsu/66042).",
-        "A reactive UAV was seen over Kyiv reservoir heading toward Vyshhorod, highlighting low‑altitude threats near the capital (Source: @kpszsu/66041).",
-        "UAV activity was noted over the Black Sea heading toward Odesa, suggesting potential northern maritime routes (Source: @kpszsu/66030).",
-        "MiG‑31K launch with Kinzhal missile from Savaslyka underscores high‑altitude threat capability in the north (Source: @mon1tor_ua/67986).",
-        "Ukrainian radar reported a UAV over Vasylkiv and another over the capital heading toward Vynohradari, reflecting continued northern surveillance (Source: @eRadarrua/97824)."
+        "Shahed missiles detected over Kyiv's Nivki/Sviatoshyn and Obolon/Troeshchyna districts, indicating northern approaches to the capital. (Source: @mon1tor_ua/67991)",
+        "Ukrainian radar reported a reactive Shahed from the north over Kyiv/Vishhorod. (Source: @mon1tor_ua/67989)",
+        "Ukrainian forces observed UAVs north of Horodnia and Koryukivka in Chernihiv region. (Source: @eRadarrua/97792)",
+        "Ukrainian defence noted reactive UAVs over Kyiv water reservoir heading toward Vishhorod/Kyiv. (Source: @kpszsu/66041)",
+        "Ukrainian reports of UAVs near Borova, Vasylkiv, Kalynivka, and north of Borova with western courses. (Source: @kpszsu/66037, @kpszsu/66036)",
+        "Russian statements mention increased UAV activity over northern Ukrainian territories, though specific locations were not detailed. (Source: @ukr_leaks_eng/31105)",
+        "Ukrainian intelligence reported a Shahed launch from the north targeting Kyiv, prompting air defence activation. (Source: @mon1tor_ua/67989)"
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces struck the Kerch thermal power plant in occupied Crimea, causing outages in Evpatoria, Krasnoperekopsk, Saky, Dzhankoi, and Krasnogvardeysk districts (Source: @UkraineNow/82129).",
-        "Russian attacks in Crimea led to power outages across multiple districts, attributed to drone strikes on critical infrastructure (Source: @UkraineNow/82119).",
-        "UAVs were reported over the Black Sea heading toward Odesa, indicating southern maritime threat vectors (Source: @kpszsu/66030).",
-        "Russian Geran missiles targeted a Ukrainian fuel storage in the Kiev‑controlled part of Zaporizhzhia, affecting southern logistics (Source: @ukr_leaks_eng/31083).",
-        "Ukrainian defense recorded 1050 strikes on 56 settlements in Zaporizhzhia, including 18 aviation strikes and 769 FPV UAVs, highlighting intense southern combat (Source: @UkraineNow/82126).",
-        "A truck parking lot in Zaporozhye was attacked at night, showing ground target vulnerability in the south (Source: @ukr_leaks_eng/31098).",
-        "Repeated guided aerial bomb attacks were launched on Zaporizhzhia city, emphasizing sustained aerial pressure on the southern front (Source: @kpszsu/66050)."
+        "Ukrainian forces reported multiple UAV groups over the Black Sea heading toward Vylkove (Odesa region) and Odessa city. (Source: @kpszsu/66061)",
+        "Russian tactical aviation bombed Zaporizhzhia city and southern Kharkiv region. (Source: @kpszsu/66048)",
+        "Ukrainian OVA reported a Russian drone attack on the Odesa coastline, killing a 26‑year‑old woman and injuring a 39‑year‑old man. (Source: @UkraineNow/82132)",
+        "Ukrainian defence noted UAV activity near the southern direction of Kharkiv, passing Zolochiv and Bohodukhiv. (Source: @kpszsu/66073)",
+        "Ukrainian reports of UAVs over the Black Sea heading toward the port city of Odessa. (Source: @kpszsu/66064)",
+        "Russian forces claimed strikes on Ukrainian fuel storage in the Zaporozhye region, affecting southern logistics. (Source: @ukr_leaks_eng/31083)",
+        "Ukrainian authorities reported a Shahed missile over Kyiv from the north, but also noted UAVs operating south of Zaporizhzhia. (Source: @kpszsu/66060)"
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian defense reported 1050 strikes in Zaporizhzhia, including 18 aviation strikes and 769 FPV UAVs, reflecting high UAV usage (Source: @UkraineNow/82126).",
-        "Russian tactical aviation conducted guided aerial bomb attacks on Zaporizhzhia city, indicating intensified air strikes (Source: @kpszsu/66050).",
-        "A MiG‑31K launched a Kh‑47M2 Kinzhal hypersonic missile from Savaslyka, showing deployment of advanced Russian air‑launched weapons (Source: @mon1tor_ua/67986).",
-        "Russian Geran missiles struck a Ukrainian fuel storage in Zaporizhzhia, demonstrating missile use against logistics (Source: @ukr_leaks_eng/31083).",
-        "Ukrainian UAVs were observed heading toward multiple strategic locations, including Kharkiv, Chernihiv, Odesa, and the Black Sea, indicating broad aerial reconnaissance and strike capability (Source: @kpszsu/66030, @kpszsu/66029).",
-        "Reactive Shahed drones repeatedly approached Kyiv from the north, prompting numerous air defense alerts (Source: @mon1tor_ua/67989, @mon1tor_ua/68004).",
-        "Air alarm over Kyiv was lifted at 03:31, showing temporary cessation of aerial threats but ongoing vigilance (Source: @eRadarrua/97841)."
+        "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia and southern Kharkiv, indicating intensified air strikes. (Source: @kpszsu/66048)",
+        "Ukrainian reports of 769 UAV launches, 18 air strikes and 260 artillery strikes in Zaporizhzhia region within 24 hours. (Source: @UkraineNow/82126)",
+        "Russian Ministry of Defence announced FAB‑500 bomb strikes on Ukrainian drone control centers in the DPR. (Source: @ukr_leaks_eng/31088)",
+        "Ukrainian air defence detected multiple Shahed missile trajectories over Kyiv suburbs, prompting alerts. (Source: @mon1tor_ua/67991)",
+        "Ukrainian forces reported UAV groups over the Black Sea heading toward Vylkove and Odessa, suggesting maritime air activity. (Source: @kpszsu/66061)",
+        "Russian reports of UAV attacks on civilian targets in Sumy, Gorlovka (DNR) and other locations, causing injuries. (Source: @UkraineNow/82127, @tass_agency/382036)",
+        "Russian statements indicated increased drone activity over Ukrainian territory, with claims of 141 enemy drones shot down in a day. (Source: @ukr_leaks_eng/31105)"
       ]
     },
     "key_developments": [
-      "Ukrainian forces recorded 1050 strikes on 56 settlements in Zaporizhzhia, including 18 aviation strikes and 769 FPV UAVs, indicating high-intensity aerial operations (Source: @UkraineNow/82126).",
-      "Russian Geran missiles hit a Ukrainian fuel storage facility in the Kiev‑controlled Zaporizhzhia region, targeting logistics assets (Source: @ukr_leaks_eng/31083).",
-      "Ukrainian strike on the Kerch thermal power plant in occupied Crimea caused power outages across multiple districts, affecting civilian infrastructure (Source: @UkraineNow/82129).",
-      "Multiple reactive Shahed drones approached Kyiv from the north, prompting air defense alerts over Vyshhorod, Obolon, Troieshchyna, and Nyvky (Source: @mon1tor_ua/67989, @mon1tor_ua/68004, @mon1tor_ua/68005).",
-      "Russian tactical aviation launched guided aerial bombs on Zaporizhzhia city, showing intensified use of precision air strikes (Source: @kpszsu/66050).",
-      "A MiG‑31K fighter launched a Kh‑47M2 Kinzhal missile from Savaslyka, demonstrating deployment of hypersonic air‑launched weapons (Source: @mon1tor_ua/67986).",
-      "Vitaly Kim warned that the impact of attacks on Russian logistics will be felt in 2‑3 months, with no rapid reduction expected (Source: @ukr_leaks_eng/31082)."
+      "Russian Shahed missiles were detected over Kyiv's Nivki/Sviatoshyn and Obolon/Troeshchyna districts, prompting air defence alerts. (Source: @mon1tor_ua/67991)",
+      "Ukrainian authorities reported 1,050 Russian attacks on 56 settlements in Zaporizhzhia region, including 18 air strikes and 769 UAV launches in one day. (Source: @UkraineNow/82126)",
+      "Ukrainian forces struck a Russian‑occupied power plant in Kerch, Crimea, causing widespread electricity outages in multiple districts. (Source: @UkraineNow/82129)",
+      "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia city and southern Kharkiv region. (Source: @kpszsu/66048)",
+      "Multiple groups of combat UAVs were observed over the Black Sea heading toward Vylkove (Odesa region) and Odessa city. (Source: @kpszsu/66061)",
+      "Russian Ministry of Defence claimed FAB‑500 bomb strikes on Ukrainian drone control centers in the DPR. (Source: @ukr_leaks_eng/31088)",
+      "Three civilians were injured in Sumy after a Russian air strike that hit three locations, igniting a trolleybus. (Source: @UkraineNow/82127)"
     ],
-    "threat_assessment": "Ukrainian forces are leveraging high‑volume UAV attacks and KAB rockets to pressure Russian logistics and energy nodes, particularly in Zaporizhzhia and Crimea. Russia responds with precision aerial bombs, hypersonic Kinzhal missiles, and Geran rockets, targeting fuel depots and urban centers, sustaining a high‑intensity air war. The persistent Shahed drone threat to Kyiv underscores the vulnerability of critical infrastructure and the need for robust air defense.",
-    "regional_response": "Western partners continue to supply air defense systems, as evidenced by Ukraine's procurement of Patriot interceptors from Germany, while Russia claims strikes on Ukrainian logistical hubs. Regional actors such as Romania are planning coastal patrols to counter Ukrainian drone activity, reflecting broader security concerns. Diplomatic efforts remain focused on reconstruction and support, with no immediate de‑escalation signals.",
-    "intelligence_notes": "Monitoring of UAV flight paths reveals expanding Ukrainian operational reach into Russian‑held territories, including the Black Sea corridor toward Odesa. Russian use of advanced missile platforms like the Kinzhal indicates a shift toward high‑value, rapid strike capabilities. Continued attacks on energy infrastructure in Crimea suggest a strategic aim to disrupt Russian civilian services, while Ukrainian logistics remain under pressure but resilient."
+    "threat_assessment": "Russian aerial capabilities remain robust, with Shahed missiles targeting Kyiv and guided bombs striking key Ukrainian cities. Ukrainian UAV activity over the Black Sea and attacks on occupied Crimea indicate a widening of the conflict's maritime dimension. Continued high‑intensity UAV and artillery operations across multiple fronts suggest sustained pressure on Ukrainian defensive resources.",
+    "regional_response": "Ukrainian regional authorities have activated air defence alerts in Kyiv and reported extensive damage in Zaporizhzhia and Sumy, while local administrations in Crimea are managing large‑scale power outages. Russian statements emphasize the use of heavy munitions and UAVs to degrade Ukrainian infrastructure, reflecting a coordinated strategic approach across the frontlines.",
+    "intelligence_notes": "Open‑source monitoring shows a persistent pattern of Shahed missile launches from the north toward the capital and increased UAV concentrations over the Black Sea corridor. The reported FAB‑500 strikes on drone control centers suggest a focus on degrading Ukrainian ISR capabilities. Continued observation of UAV flight paths is critical for anticipating future strikes on both civilian and military targets."
   },
   "missiles": 0,
   "drones": 135,
   "kpszsu_timeline": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
     1,
     0,
     3,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
+    4,
     2,
+    1,
+    0,
+    0,
     0,
     1,
-    6,
+    0,
+    4,
+    5,
+    4,
+    1,
     2,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1,
-    8,
-    3,
-    2
+    3
   ]
 }
