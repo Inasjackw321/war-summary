@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-22T23:52:32.907031+00:00",
-  "message_count": 300,
+  "updated_at": "2026-06-23T01:42:44.060948+00:00",
+  "message_count": 310,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 88,
   "red_alerts_timeline": [
-    0,
-    0,
     0,
     0,
     0,
@@ -36,61 +34,70 @@
     8,
     16,
     24,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
+    8,
+    4,
     5,
-    9,
-    7,
-    5,
-    6,
     12,
-    19,
+    16,
+    14,
+    21,
+    18,
+    21,
     13,
     18,
-    22,
-    17,
-    14,
-    17,
     15,
-    13,
-    7,
-    14,
-    10,
-    7,
-    14,
-    8,
+    12,
     9,
-    26,
-    13
+    13,
+    11,
+    5,
+    14,
+    7,
+    11,
+    20,
+    19,
+    21,
+    3
   ],
   "messages_by_channel": {
-    "@eRadarrua": 53,
-    "@kpszsu": 29,
-    "@mon1tor_ua": 20,
+    "@eRadarrua": 55,
+    "@kpszsu": 27,
+    "@mon1tor_ua": 34,
     "@UkraineNow": 22,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 148
+    "@tass_agency": 144
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97830",
-    "kpszsu": "https://t.me/kpszsu/66038",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68005",
+    "eRadarrua": "https://t.me/eRadarrua/97845",
+    "kpszsu": "https://t.me/kpszsu/66044",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68021",
     "UkraineNow": "https://t.me/UkraineNow/82125",
     "DeepStateUA": "https://t.me/DeepStateUA/23589",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31091",
-    "tass_agency": "https://t.me/tass_agency/381954"
+    "tass_agency": "https://t.me/tass_agency/381959"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/381937",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/67992",
-    "kpszsu": "https://t.me/kpszsu/66003",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31069",
-    "UkraineNow": "https://t.me/UkraineNow/82104",
-    "eRadarrua": "https://t.me/eRadarrua/97792"
+    "UkraineNow": "https://t.me/UkraineNow/82116",
+    "tass_agency": "https://t.me/tass_agency/381920",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31083",
+    "kpszsu": "https://t.me/kpszsu/65993",
+    "DeepStateUA": "https://t.me/DeepStateUA/66027",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68016",
+    "eRadarrua": "https://t.me/eRadarrua/97819"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/381958",
+      "post_id": 381958,
+      "channel": "tass_agency",
+      "ts": "2026-06-23T00:25:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/381946",
       "post_id": 381946,
@@ -211,137 +218,118 @@
       "post_id": 31085,
       "channel": "ukr_leaks_eng",
       "ts": "2026-06-22T15:05:08+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/381908",
-      "post_id": 381908,
-      "channel": "tass_agency",
-      "ts": "2026-06-22T14:48:49+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/97788": "data/media/eRadarrua_97788.jpg",
+    "eRadarrua/97789": "data/media/eRadarrua_97788.jpg",
     "eRadarrua/97771": "data/media/eRadarrua_97771.jpg",
     "eRadarrua/97769": "data/media/eRadarrua_97771.jpg",
     "eRadarrua/97783": "data/media/eRadarrua_97783.jpg",
     "eRadarrua/97784": "data/media/eRadarrua_97783.jpg",
-    "eRadarrua/97788": "data/media/eRadarrua_97788.jpg",
-    "eRadarrua/97789": "data/media/eRadarrua_97788.jpg",
+    "eRadarrua/97747": "data/media/eRadarrua_97747.jpg",
+    "eRadarrua/97746": "data/media/eRadarrua_97747.jpg",
     "eRadarrua/97750": "data/media/eRadarrua_97750.jpg",
     "eRadarrua/97749": "data/media/eRadarrua_97750.jpg",
     "eRadarrua/97763": "data/media/eRadarrua_97763.jpg",
+    "eRadarrua/97726": "data/media/eRadarrua_97726.jpg",
+    "eRadarrua/97725": "data/media/eRadarrua_97726.jpg",
     "eRadarrua/97736": "data/media/eRadarrua_97736.jpg",
     "eRadarrua/97737": "data/media/eRadarrua_97736.jpg",
-    "eRadarrua/97747": "data/media/eRadarrua_97747.jpg",
-    "eRadarrua/97746": "data/media/eRadarrua_97747.jpg",
     "eRadarrua/97709": "data/media/eRadarrua_97709.jpg",
     "eRadarrua/97710": "data/media/eRadarrua_97709.jpg",
     "eRadarrua/97712": "data/media/eRadarrua_97712.jpg",
     "eRadarrua/97711": "data/media/eRadarrua_97712.jpg",
     "eRadarrua/97722": "data/media/eRadarrua_97722.jpg",
     "eRadarrua/97723": "data/media/eRadarrua_97722.jpg",
-    "eRadarrua/97726": "data/media/eRadarrua_97726.jpg",
-    "eRadarrua/97725": "data/media/eRadarrua_97726.jpg",
     "kpszsu/66001": "data/media/kpszsu_66001.jpg",
     "kpszsu/66000": "data/media/kpszsu_66001.jpg"
   },
-  "summary": "Two Russian nationals were detained for planning a fuel train explosion in the Moscow region. Ukrainian forces reported multiple Shahed and UAV attacks across Kyiv, Chernihiv, Sumy, and southern oblasts, including a drone strike on a civilian merchant vessel that caused a fatality. Russian forces claimed to have struck Ukrainian National Guard command points in the Donetsk region with FAB‑500 munitions.",
+  "summary": "Ukrainian forces struck the \"Сборка\" semiconductor plant in Voronezh, a key producer of components for Russian air defence and missile systems. A Ukrainian drone attack on a civilian bus in Gorlovka injured 13 people. Ukraine signed a contract with Germany for 600 Patriot missiles to bolster its air defence.",
   "key_points": [
-    "Two Russians were arrested for preparing a Kyiv‑directed sabotage attack on a fuel train in the Moscow region (Source: @tass_agency/381937).",
-    "Shahed drones were observed over Nivki/Svyatoshyn and Obukhiv/Ukrainka, and a reactive Shahed approached Kyiv/Vishhorod from the north (Source: @mon1tor_ua/67992, @mon1tor_ua/67994, @mon1tor_ua/67989).",
-    "UAVs from the Black Sea headed toward Balabanivka in Odesa, while UAVs from Donetsk moved toward Kharkiv (Source: @kpszsu/66003).",
-    "UAVs from northern Sumy were tracked heading to Svesa and Yampil; another UAV approached Zaporizhzhia from the south (Source: @kpszsu/66000).",
-    "Ukrainian assault units raised the Russian flag on Preobrazhenskaya Street in Konstantinovka after liberating the area (Source: @ukr_leaks_eng/31069).",
-    "Russian drones attacked two civilian merchant ships, igniting a fire and killing a 58‑year‑old Egyptian cook; crews from Turkey and India were rescued (Source: @UkraineNow/82104).",
-    "Russian forces reported using FAB‑500 weapons to destroy Ukrainian National Guard command posts and UAV control points in the DNR (Source: @tass_agency/381917)."
+    "Ukrainian strikes hit the \"Сборка\" plant in Voronezh, damaging a facility that makes parts for Pantsir, Iskander‑K and Kh‑101 missiles (Source: @UkraineNow/82116).",
+    "A Ukrainian drone attacked a civilian bus in Gorlovka during rush hour, resulting in 13 injuries (Source: @tass_agency/381920).",
+    "Russia opened a criminal case alleging a Ukrainian terrorist attack on Voronezh (Source: @tass_agency/381953).",
+    "Ukraine signed a contract with Germany for delivery of 600 Patriot interceptor missiles (Source: @UkraineNow/82121).",
+    "Russian Geran missiles struck a Ukrainian fuel storage facility in the Zaporozhye region (Source: @ukr_leaks_eng/31083).",
+    "Russian forces killed a 13‑year‑old boy, his father and grandmother in Shostkivska community, Sumy region (Source: @UkraineNow/82106).",
+    "Ukraine warned it will destroy Russian drone relay stations in Belarus if they are not removed within a week (Source: @ukr_leaks_eng/31063).",
+    "EU officials stated the bloc will increase pressure on Moscow rather than negotiate, reaffirming support for Ukraine (Source: @ukr_leaks_eng/31089)."
   ],
-  "sentiment": "active",
+  "sentiment": "escalating",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Two Russian suspects were detained for a planned fuel‑train explosion near Moscow. Ukrainian forces continue to face Shahed and UAV attacks across multiple fronts, including a deadly drone strike on a civilian merchant vessel. Russia claims successful FAB‑500 strikes on Ukrainian National Guard command sites in the Donetsk area.",
+    "executive_summary": "Ukrainian forces struck the \"Сборка\" semiconductor plant in Voronezh, a key producer of components for Russian air‑defence and missile systems, marking a deepening of cross‑border attacks. A Ukrainian drone hit a civilian bus in Gorlovka, injuring 13, while Russia opened a criminal case over the Voronezh strike. Ukraine secured a contract for 600 Patriot missiles from Germany, enhancing its air‑defence capability amid rising hostilities.",
     "ukraine": {
       "points": [
-        "Assault units of the Southern Group of Forces raised the Russian national flag on Preobrazhenskaya Street in Konstantinovka after liberating the settlement, indicating a symbolic victory (Source: @ukr_leaks_eng/31069).",
-        "Ukrainian air defenses engaged a Shahed drone over Nivki/Svyatoshyn, reporting the intercept (Source: @mon1tor_ua/67992).",
-        "A reactive Shahed drone approached Kyiv from the north, targeting the Vishhorod district (Source: @mon1tor_ua/67989).",
-        "Ukrainian forces reported a drone strike on the General Chereshnya drone‑production plant in Mykolaiv region; the facility remained operational after the attack (Source: @UkraineNow/82117).",
-        "Ukrainian authorities noted a UAV over the Chernihiv region north of Horodnia and Koryukivka, indicating continued aerial activity (Source: @eRadarrua/97792).",
-        "Ukrainian units reported a UAV over the Black Sea heading toward Balabanivka in Odesa, suggesting cross‑sea reconnaissance (Source: @kpszsu/66003).",
-        "Ukrainian forces observed a reactive UAV near Obukhiv and another near Bucha/Vorzel/Irpin, highlighting persistent low‑altitude threats (Source: @eRadarrua/97823)."
+        "Ukraine announced a contract with Germany for 600 Patriot interceptor missiles, with production already underway, strengthening its air‑defence network (Source: @UkraineNow/82121).",
+        "Ukrainian forces claimed to have destroyed over 800,000 Russian targets with drones since the start of the year, reporting 167,000 Russian personnel killed or seriously wounded (Source: @UkraineNow/82123).",
+        "Ukrainian officials warned they will dismantle Russian drone relay stations in Belarus if they are not removed within a week (Source: @ukr_leaks_eng/31063).",
+        "Ukrainian troops reported the continued operation of the \"General Chereshnya\" drone production facility despite Russian attacks, indicating resilience in UAV manufacturing (Source: @UkraineNow/82117).",
+        "Ukrainian forces reported the unfurling of the Russian national flag by assault units in the liberated Preobrazhenskaya Street, Konstantinovka, highlighting ongoing frontline advances (Source: @ukr_leaks_eng/31069)."
       ]
     },
     "russia": {
       "points": [
-        "Two Russian citizens were detained by the FSB for allegedly preparing a sabotage operation to blow up a fuel‑laden train in the Moscow region (Source: @tass_agency/381937).",
-        "Russian forces announced the use of FAB‑500 precision munitions to destroy Ukrainian National Guard command posts and temporary UAV deployment sites in the Donetsk People's Republic (Source: @tass_agency/381917).",
-        "The Russian Ministry of Defense reported that Russian aircraft struck a Ukrainian bus carrying Belarusian children, alleging a provocation (Source: @tass_agency/381945).",
-        "Russian authorities imposed fuel‑sale limits in Omsk region, restricting gasoline to 40 L and diesel to 80 L per vehicle (Source: @tass_agency/381943).",
-        "The Russian Federal Security Service (FSB) warned of increased Shahed drone activity targeting Russian infrastructure, though specific incidents were not detailed (implicit from multiple Ukrainian reports).",
-        "Russian media noted repeated closures of the Crimean Bridge to automobile traffic, indicating possible security measures (Source: @tass_agency/381940).",
-        "Russian statements claimed that Ukraine does not target civilian infrastructure, denying responsibility for recent attacks on ports and railways (Source: @tass_agency/381945)."
+        "Russian authorities opened a criminal case alleging a Ukrainian terrorist attack on Voronezh following the strike on the \"Сборка\" plant (Source: @tass_agency/381953).",
+        "Russian officials claimed a Ukrainian drone strike on a bus carrying Belarusian children was intended to draw Minsk into the conflict (Source: @tass_agency/381945).",
+        "Russian Geran missiles hit a Ukrainian fuel storage facility in the Zaporozhye region, demonstrating continued missile strikes on logistics hubs (Source: @ukr_leaks_eng/31083).",
+        "Russian tactical aviation activity was reported on a south‑east direction, indicating potential air operations near front‑line areas (Source: @kpszsu/65993).",
+        "Russian forces killed a 13‑year‑old boy, his father and grandmother in the Shostkivska community of Sumy region, reflecting ongoing civilian casualties (Source: @UkraineNow/82106)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAVs from the Black Sea were tracked heading toward Balabanivka in Odesa, suggesting a southern‑eastern axis of aerial movement (Source: @kpszsu/66003).",
-        "Russian FAB‑500 strikes targeted Ukrainian National Guard command points in the Donetsk region, indicating intensified operations on the eastern front (Source: @tass_agency/381917).",
-        "Ukrainian forces reported a reactive UAV over the Kharkiv area, originating from the Donetsk direction (Source: @kpszsu/66003).",
-        "Multiple Shahed drones were observed over the Kharkiv‑adjacent towns of Obukhiv and Kyiv, reflecting cross‑front pressure (Source: @mon1tor_ua/67994).",
-        "UAV activity was noted north of Horodnia and Koryukivka in Chernihiv, a region bordering the eastern front (Source: @eRadarrua/97792).",
-        "A UAV was reported over the Zaporizhzhia region from the south, indicating possible coordination with eastern operations (Source: @kpszsu/66000).",
-        "Ukrainian intelligence noted increased UAV traffic over the Donetsk‑controlled areas, potentially for reconnaissance (Source: @kpszsu/66003)."
+        "Ukrainian drone attacks were reported in the eastern part of Kharkiv region, Donetsk and Zaporizhzhia, indicating continued UAV pressure on Russian‑held territories (Source: @kpszsu/66027).",
+        "Russian forces reportedly increased activity around the town of Lyman, with Ukrainian sources noting enemy infiltration and fortified positions in the surrounding forest zones (Source: @DeepStateUA/66027).",
+        "A Ukrainian drone strike hit the \"Сборка\" plant in Voronezh, a strategic target supplying components for Russian missile systems (Source: @UkraineNow/82116).",
+        "Ukrainian forces reported successful strikes on Russian positions near the village of Rzhyshchiv, advancing their operational reach (Source: @mon1tor_ua/68016).",
+        "Russian tactical aviation was noted operating on a south‑east axis, potentially targeting eastern front logistics (Source: @kpszsu/65993)."
       ]
     },
     "northern_front": {
       "points": [
-        "Shahed drones were sighted over Nivki/Svyatoshyn and Nivki heading toward Sirеts, indicating northern Kyiv‑region threats (Source: @mon1tor_ua/67992, @mon1tor_ua/68000).",
-        "UAVs from northern Sumy were tracked moving toward Svesa and Yampil, showing north‑to‑south aerial trajectories (Source: @kpszsu/66000).",
-        "A reactive UAV was observed west of Obukhiv, heading north, suggesting a northern approach vector (Source: @kpszsu/66038).",
-        "UAVs from the north were reported over Kyiv/Vishhorod, with one reactive Shahed approaching from that direction (Source: @mon1tor_ua/67989).",
-        "UAV activity was recorded north of Chernihiv, near Horodnia and Koryukivka (Source: @eRadarrua/97792).",
-        "A reactive UAV was noted in the Chernihiv district heading west, indicating possible reconnaissance over the northern border (Source: @kpszsu/66018).",
-        "UAVs were reported over the Borova/Vasylkiv/Kalinivka area, a northern‑central zone of the Kyiv region (Source: @kpszsu/66037)."
+        "Multiple reactive UAVs were observed north of Obukhiv and in the Borova area, heading toward Kyiv, indicating heightened aerial activity near the northern capital region (Source: @kpszsu/66038, @kpszsu/66036).",
+        "Ukrainian radar reported a reactive Shahed drone approaching Kyiv from the north, prompting air‑defence alerts (Source: @mon1tor_ua/68004).",
+        "Ukrainian forces detected a UAV heading toward the Vyshorod district of Kyiv, reinforcing the threat to the capital (Source: @kpszsu/66021).",
+        "A Shahed drone was reported over the Kyiv district of Troieshchyna, triggering local air‑defence response (Source: @mon1tor_ua/68009).",
+        "Ukrainian authorities noted a reactive UAV over the northern outskirts of Chernihiv, maintaining pressure on northern front settlements (Source: @eRadarrua/97819)."
       ]
     },
     "southern_front": {
       "points": [
-        "UAVs from the Black Sea moved toward Balabanivka in Odesa, highlighting southern maritime aerial activity (Source: @kpszsu/66003).",
-        "UAVs from Donetsk headed toward Kharkiv, crossing the southern front line (Source: @kpszsu/66003).",
-        "A UAV was observed over the Zaporizhzhia region from the south, indicating southern pressure (Source: @kpszsu/66000).",
-        "Ukrainian forces reported a drone strike on a civilian merchant ship, causing a fire and a fatality; the ship was en route to Ukrainian ports (Source: @UkraineNow/82104).",
-        "UAVs were sighted over Mykolaiv region (Novobohdanivka) and over the Black Sea, suggesting southern coastal operations (Source: @eRadarrua/97794).",
-        "Russian attacks targeted the General Chereshnya drone‑production plant in Mykolaiv, though the facility remained functional (Source: @UkraineNow/82117).",
-        "UAV activity was reported over the southern Kherson district of Berislav, heading north (Source: @kpszsu/66034)."
+        "Ukrainian drones were observed over the Berislav district of Kherson region, heading north‑west, suggesting continued UAV operations in the south (Source: @kpszsu/66030).",
+        "A Russian Geran missile strike hit a fuel storage facility in the Zaporozhye region, a key logistical node for Ukrainian forces (Source: @ukr_leaks_eng/31083).",
+        "Ukrainian forces reported a reactive Shahed drone over Dnipro/Kamianets, indicating ongoing aerial threats in the southern operational area (Source: @mon1tor_ua/67985).",
+        "Ukrainian intelligence noted increased Russian tactical aviation activity on a south‑east axis, potentially targeting southern front positions (Source: @kpszsu/65993).",
+        "Ukrainian forces reported a UAV over the Black Sea heading toward the Odesa region, highlighting maritime‑adjacent aerial threats (Source: @kpszsu/66030)."
       ]
     },
     "air_war": {
       "points": [
-        "Multiple Shahed and reactive UAVs were intercepted over Kyiv, Nivki, Obukhiv, and Dnipro, showing sustained aerial pressure (Source: @mon1tor_ua/67992, @mon1tor_ua/67994, @mon1tor_ua/67985).",
-        "Russian FAB‑500 precision weapons were used to strike Ukrainian National Guard command posts in the DNR, indicating high‑power air‑to‑ground capability (Source: @tass_agency/381917).",
-        "Ukrainian air defenses reported engagements with UAVs over Chernihiv, Sumy, and Zaporizhzhia, reflecting a broad geographic spread (Source: @eRadarrua/97792, @kpszsu/66000, @kpszsu/66034).",
-        "Drone attacks on civilian merchant vessels in the Black Sea resulted in fire and a crew fatality, highlighting the maritime air threat (Source: @UkraineNow/82104).",
-        "Ukrainian forces reported a UAV over the Black Sea heading toward Balabanivka, suggesting reconnaissance or strike intent (Source: @kpszsu/66003).",
-        "Russian statements denied attacks on civilian infrastructure despite evidence of drone strikes on ports and railways (Source: @tass_agency/381945).",
-        "UAV sightings over the occupied territories of Armensk, Feodosia, Sevastopol, and the Tavriya power plant indicate continued Russian‑controlled air activity (Source: @UkraineNow/82107)."
+        "Ukraine secured a contract for 600 Patriot missiles from Germany, enhancing its air‑defence capabilities against Russian aerial threats (Source: @UkraineNow/82121).",
+        "Russian Geran missiles struck a Ukrainian fuel depot in Zaporozhye, demonstrating continued missile use against Ukrainian infrastructure (Source: @ukr_leaks_eng/31083).",
+        "Ukrainian UAV activity was reported across multiple fronts, including reactive Shahed drones targeting Kyiv, Chernihiv, and southern regions, indicating a broad aerial campaign (Source: @kpszsu/66038, @mon1tor_ua/68004).",
+        "Russian tactical aviation was noted operating on a south‑east direction, suggesting potential air strikes near front‑line areas (Source: @kpszsu/65993).",
+        "A Ukrainian drone attack on a civilian bus in Gorlovka resulted in 13 injuries, highlighting the use of UAVs against soft targets (Source: @tass_agency/381920)."
       ]
     },
     "key_developments": [
-      "Two Russian citizens were arrested for planning a sabotage attack on a fuel‑laden train in the Moscow region, indicating active FSB counter‑intelligence operations. (Source: @tass_agency/381937)",
-      "Shahed drones were observed over Nivki/Svyatoshyn and Obukhiv/Ukrainka, with a reactive Shahed approaching Kyiv/Vishhorod from the north, showing persistent aerial threats to the capital. (Source: @mon1tor_ua/67992, @mon1tor_ua/67994, @mon1tor_ua/67989)",
-      "UAVs from the Black Sea headed toward Balabanivka in Odesa, while UAVs from Donetsk moved toward Kharkiv, indicating cross‑regional aerial reconnaissance. (Source: @kpszsu/66003)",
-      "Russian forces claimed FAB‑500 strikes destroyed Ukrainian National Guard command posts and UAV control sites in the Donetsk region, demonstrating escalation of high‑power air strikes. (Source: @tass_agency/381917)",
-      "A drone attack on a civilian merchant vessel caused a fire and killed a 58‑year‑old Egyptian cook; eight crew members were rescued, highlighting the risk to maritime traffic. (Source: @UkraineNow/82104)",
-      "Ukrainian assault units raised the Russian flag on Preobrazhenskaya Street in Konstantinovka after liberating the area, a symbolic victory on the front line. (Source: @ukr_leaks_eng/31069)",
-      "Russian authorities imposed fuel‑sale limits in Omsk region, restricting gasoline to 40 L and diesel to 80 L per vehicle, reflecting domestic logistical constraints. (Source: @tass_agency/381943)"
+      "Ukrainian forces struck the \"Сборка\" semiconductor plant in Voronezh, damaging a key supplier of components for Russian air‑defence and missile systems (Source: @UkraineNow/82116).",
+      "A Ukrainian drone attack on a civilian bus in Gorlovka injured 13 people during rush hour, underscoring the risk to non‑military targets (Source: @tass_agency/381920).",
+      "Russia opened a criminal case alleging a Ukrainian terrorist attack on Voronezh following the plant strike (Source: @tass_agency/381953).",
+      "Ukraine signed a contract with Germany for 600 Patriot interceptor missiles, bolstering its air‑defence network (Source: @UkraineNow/82121).",
+      "Russian Geran missiles hit a Ukrainian fuel storage facility in the Zaporozhye region, disrupting logistics (Source: @ukr_leaks_eng/31083).",
+      "Ukrainian officials warned they will destroy Russian drone relay stations in Belarus if not removed within a week (Source: @ukr_leaks_eng/31063).",
+      "EU officials announced increased pressure on Moscow rather than negotiations, reaffirming support for Ukraine (Source: @ukr_leaks_eng/31089)."
     ],
-    "threat_assessment": "Ukrainian forces continue to face a high volume of Shahed and reactive UAV attacks across the northern and central fronts, targeting both civilian and military infrastructure. Russian use of FAB‑500 precision munitions against Ukrainian National Guard command sites in the Donetsk area marks an escalation in firepower and suggests a focus on degrading command and control. Maritime drone threats have manifested in lethal attacks on civilian shipping, underscoring the expanding domain of Russian aerial operations.",
-    "regional_response": "Ukrainian air defense units have increased interception activity around Kyiv, Chernihiv, and southern coastal regions, reflecting a coordinated defensive posture. The FSB's arrest of two suspects planning a sabotage operation near Moscow indicates heightened Russian internal security measures that may limit external operational capacity. Internationally, the incident involving the civilian merchant ship has drawn attention to the safety of Black Sea navigation, potentially prompting allied naval escorts.",
-    "intelligence_notes": "Continued monitoring of UAV flight paths from the Black Sea and Donetsk directions is essential to anticipate future strike vectors. The symbolic raising of the Russian flag in Konstantinovka may be used for propaganda; however, it also signals Ukrainian control of the locality. Fuel restrictions in Omsk could affect Russian logistical support to front‑line units, offering a potential vulnerability for exploitation."
+    "threat_assessment": "Cross‑border strikes, such as the Voronezh plant attack and the Gorlovka bus incident, indicate Ukraine's expanding UAV reach into Russian territory, raising the risk of escalation. Russian missile attacks on Ukrainian logistics, exemplified by the Geran strike on a fuel depot, continue to threaten supply lines in the south. The pending delivery of 600 Patriot interceptors will enhance Ukraine's air‑defence, potentially mitigating Russian aerial threats, while Russian tactical aviation activity on a south‑east axis suggests preparation for intensified air operations.",
+    "regional_response": "Western partners, notably Germany and the EU, are deepening military and diplomatic support, as shown by the Patriot contract and EU statements of increased pressure on Moscow. Belarus faces heightened pressure from Ukraine to remove Russian drone relay stations, with threats of unilateral action. Russia's legal and propaganda responses aim to frame Ukrainian attacks as terrorism, seeking to justify further defensive measures.",
+    "intelligence_notes": "UAV activity remains high across all fronts, with reactive Shahed drones targeting Kyiv and northern regions, while Ukrainian drone strikes continue against Russian industrial targets. Monitoring of Russian tactical aviation movements on the south‑east axis is critical for anticipating potential air strikes. Civilian casualty reports in Sumy and Gorlovka highlight the ongoing humanitarian impact of the conflict."
   },
   "missiles": 0,
   "drones": 88,
   "kpszsu_timeline": [
-    1,
-    4,
     2,
     0,
     1,
@@ -352,17 +340,19 @@
     0,
     1,
     0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    3,
+    3,
     2,
-    2,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    5,
     1
   ]
 }
