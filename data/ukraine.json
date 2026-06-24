@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-24T00:19:52.852047+00:00",
-  "message_count": 294,
+  "updated_at": "2026-06-24T01:39:14.407939+00:00",
+  "message_count": 295,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -18,10 +18,9 @@
     0,
     0,
     0,
-    0,
-    0,
-    29,
     10,
+    29,
+    0,
     10,
     0,
     0,
@@ -34,63 +33,76 @@
     0,
     19,
     0,
-    29,
+    39,
+    0,
     10,
-    10
+    0
   ],
   "combined_activity_timeline": [
-    12,
+    4,
     3,
-    3,
-    5,
-    10,
-    10,
-    12,
-    24,
-    19,
-    16,
-    15,
-    17,
-    22,
+    6,
+    13,
+    7,
     20,
-    17,
-    9,
-    7,
-    9,
-    15,
-    10,
-    10,
+    19,
+    21,
     14,
-    7,
-    8
+    16,
+    20,
+    20,
+    18,
+    14,
+    8,
+    9,
+    12,
+    14,
+    10,
+    9,
+    13,
+    5,
+    9,
+    11
   ],
   "messages_by_channel": {
-    "@eRadarrua": 49,
-    "@kpszsu": 50,
-    "@mon1tor_ua": 11,
+    "@eRadarrua": 47,
+    "@kpszsu": 56,
+    "@mon1tor_ua": 5,
     "@UkraineNow": 14,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 144
+    "@tass_agency": 147
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/97951",
-    "kpszsu": "https://t.me/kpszsu/66124",
+    "eRadarrua": "https://t.me/eRadarrua/97952",
+    "kpszsu": "https://t.me/kpszsu/66133",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68029",
     "UkraineNow": "https://t.me/UkraineNow/82139",
     "DeepStateUA": "https://t.me/DeepStateUA/23592",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31115",
-    "tass_agency": "https://t.me/tass_agency/382117"
+    "tass_agency": "https://t.me/tass_agency/382125"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/66086",
-    "UkraineNow": "https://t.me/UkraineNow/82126",
-    "eRadarrua": "https://t.me/eRadarrua/97940",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68022",
-    "tass_agency": "https://t.me/tass_agency/382113",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31094"
+    "UkraineNow": "https://t.me/UkraineNow/82129",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31095",
+    "kpszsu": "https://t.me/kpszsu/66101",
+    "tass_agency": "https://t.me/tass_agency/382125",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68028",
+    "eRadarrua": "https://t.me/eRadarrua/97941"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/382123",
+      "post_id": 382123,
+      "channel": "tass_agency",
+      "ts": "2026-06-24T01:10:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382119",
+      "post_id": 382119,
+      "channel": "tass_agency",
+      "ts": "2026-06-24T00:30:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/382116",
       "post_id": 382116,
@@ -212,18 +224,6 @@
       "post_id": 382087,
       "channel": "tass_agency",
       "ts": "2026-06-23T15:53:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/382083",
-      "post_id": 382083,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T15:21:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/382082",
-      "post_id": 382082,
-      "channel": "tass_agency",
-      "ts": "2026-06-23T15:08:01+00:00"
     }
   ],
   "post_images": {
@@ -236,8 +236,6 @@
     "eRadarrua/97910": "data/media/eRadarrua_97910.jpg",
     "eRadarrua/97911": "data/media/eRadarrua_97911.jpg",
     "eRadarrua/97912": "data/media/eRadarrua_97911.jpg",
-    "eRadarrua/97872": "data/media/eRadarrua_97872.jpg",
-    "eRadarrua/97871": "data/media/eRadarrua_97872.jpg",
     "eRadarrua/97874": "data/media/eRadarrua_97874.jpg",
     "eRadarrua/97873": "data/media/eRadarrua_97874.jpg",
     "eRadarrua/97876": "data/media/eRadarrua_97876.jpg",
@@ -252,118 +250,121 @@
     "eRadarrua/97866": "data/media/eRadarrua_97866.jpg",
     "eRadarrua/97865": "data/media/eRadarrua_97866.jpg",
     "eRadarrua/97867": "data/media/eRadarrua_97867.jpg",
+    "eRadarrua/97872": "data/media/eRadarrua_97872.jpg",
+    "eRadarrua/97871": "data/media/eRadarrua_97872.jpg",
     "eRadarrua/97847": "data/media/eRadarrua_97847.jpg",
     "eRadarrua/97848": "data/media/eRadarrua_97847.jpg",
     "kpszsu/66046": "data/media/kpszsu_66046.jpg",
     "kpszsu/66047": "data/media/kpszsu_66046.jpg"
   },
-  "summary": "Russian tactical aviation launched guided aviation bombs across multiple Ukrainian regions, including Zaporizhzhia, Kharkiv, Donetsk, and Dnipropetrovsk. Ukrainian forces reported numerous UAV incursions targeting settlements in Sumy, Poltava, Cherkasy, and Kharkiv oblasts. A missile strike in Kryvyi Rih caused three fatalities and 23 injuries.",
+  "summary": "Ukrainian forces struck the Russian‑occupied Kerch power plant, causing widespread blackouts in Crimea. Russian troops raised flags in the newly liberated Krasny Liman area of the DPR. Intense UAV and guided‑bomb activity continues across the eastern, northern and southern fronts.",
   "key_points": [
-    "Russian tactical aviation conducted guided aviation bomb strikes on Zaporizhzhia, Kharkiv, Donetsk, and Dnipropetrovsk regions (Source: @kpszsu/66086).",
-    "Ukrainian authorities recorded 1,050 attacks on 56 settlements in Zaporizhzhia region within one day, including 769 UAVs and 18 airstrikes (Source: @UkraineNow/82126).",
-    "Three civilians were killed and 23 wounded by a Russian missile attack in Kryvyi Rih (Source: @UkraineNow/82131).",
-    "UAV groups from the north of Sumy moved toward Chernihiv, targeting Ponornitsya and Holmy (Source: @kpszsu/66123).",
-    "Multiple UAV sightings reported in Poltava, Dnipropetrovsk, Cherkasy, and Sumy oblasts, often near specific villages (Source: @eRadarrua/97940, @eRadarrua/97933, @eRadarrua/97925).",
-    "Threats of Iskander-M and S-300 ballistic missile launches were announced from Voronezh, Kursk, and Crimea regions (Source: @mon1tor_ua/68022, @mon1tor_ua/68029).",
-    "Russian forces engaged in combat near Zaporizhzhia's Lyubitske settlement (Source: @tass_agency/382113)."
+    "Ukrainian air defence hit the power plant in occupied Kerch, Crimea, cutting electricity to several districts (Source: @UkraineNow/82129).",
+    "Russian forces raised Russian flags in the liberated settlement of Krasny Liman in the DPR (Source: @ukr_leaks_eng/31095).",
+    "Russian \"Lancet\" loitering munitions attacked transport on the Izium‑Oskol road in Kharkiv region (Source: @ukr_leaks_eng/31104).",
+    "Russian tactical aviation launched guided aerial bombs on Kharkiv and Donetsk directions (Source: @kpszsu/66101).",
+    "Sevastopol’s air defence shot down nine UAVs, with two more downed later (Source: @tass_agency/382125; @tass_agency/382117).",
+    "A railway bridge over the North Crimean Canal was destroyed, disrupting a key Russian logistics corridor (Source: @UkraineNow/82133).",
+    "Multiple UAV groups were reported heading toward Olishivka, Goncharivske, Bohodukhiv and Poltava from various northern and eastern directions (Source: @kpszsu/66126; @kpszsu/66128; @kpszsu/66121).",
+    "Threats of ballistic missile launches from the Kursk region were noted, including Iskander‑M/S‑300 (Source: @mon1tor_ua/68028)."
   ],
-  "sentiment": "volatile",
-  "intensity": 8,
+  "sentiment": "active",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Russian tactical aviation launched guided aviation bombs across Zaporizhzhia, Kharkiv, Donetsk and Dnipropetrovsk, intensifying air‑ground pressure. Ukrainian forces reported extensive UAV activity targeting settlements in Sumy, Poltava, Cherkasy and Kharkiv oblasts. A missile strike in Kryvyi Rih resulted in three civilian deaths and 23 injuries.",
+    "executive_summary": "Ukrainian forces struck the Kerch power plant in occupied Crimea, causing blackouts across multiple districts. Russian troops raised flags in the newly liberated Krasny Liman settlement in the DPR, indicating territorial gains. UAV and guided‑bomb attacks persist across the eastern, northern and southern fronts, maintaining high operational tempo.",
     "ukraine": {
       "points": [
-        "Ukrainian authorities documented 1,050 attacks on 56 settlements in Zaporizhzhia region within a 24‑hour period, including 769 UAVs, 18 airstrikes, three multiple‑rocket launcher strikes and 260 artillery strikes, causing damage to housing and infrastructure (Source: @UkraineNow/82126).",
-        "Three civilians were killed and 23 injured by a Russian missile strike in Kryvyi Rih; one of the wounded is in critical condition (Source: @UkraineNow/82131).",
-        "Ukrainian forces reported a group of UAVs from northern Sumy moving toward Chernihiv, targeting Ponornitsya and Holmy (Source: @kpszsu/66123).",
-        "In Poltava oblast, UAVs were observed near Dikan’ka and Gadyach, while in Dnipropetrovsk oblast they were seen near Samara, Podhorodne and near Shakhtarsk (Source: @eRadarrua/97898).",
-        "Ukrainian officials noted UAV activity in Cherkasy heading toward Korosten‑Shevchenkivskyi (Source: @eRadarrua/97933)."
+        "Ukrainian air defence units hit the thermal power plant in occupied Kerch, Crimea, leading to power outages in Evpatoria, Krasnoperekopsk, Saki, Dzhankoi and Krasnogvardeysk districts (Source: @UkraineNow/82129).",
+        "A Ukrainian drone carrying five kilograms of explosives fell in Ryuga parish, Estonia, during a June attack on Russia (Source: @ukr_leaks_eng/31100).",
+        "Ukrainian forces reported a night‑time attack on a truck parking lot in Zaporizhzhia (Source: @ukr_leaks_eng/31098).",
+        "A Russian fuel truck evaded a Ukrainian drone, indicating ongoing counter‑UAV operations (Source: @ukr_leaks_eng/31094).",
+        "Ukrainian National Guard commander warned that discovery of an additional 70,000 Russian troops could enable a new Belarus‑origin offensive (Source: @ukr_leaks_eng/31096)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation conducted guided aviation bomb launches on Zaporizhzhia, Kharkiv, Donetsk and Dnipropetrovsk oblasts (Source: @kpszsu/66086).",
-        "Russian forces engaged in combat near the settlement of Lyubitske in Zaporizhzhia region (Source: @tass_agency/382113).",
-        "Threats of Iskander‑M and S‑300 ballistic missile launches were announced from Voronezh, Kursk and Crimea regions (Source: @mon1tor_ua/68022, @mon1tor_ua/68029).",
-        "A Russian fuel truck reportedly evaded a Ukrainian drone (Source: @ukr_leaks_eng/31094).",
-        "Russian air assets were observed taking off MiG‑31K, indicating high‑altitude interception activity (Source: @kpszsu/66106)."
+        "Russian soldiers raised Russian flags in the liberated settlement of Krasny Liman in the DPR, signalling control of the area (Source: @ukr_leaks_eng/31095).",
+        "Russian \"Lancet\" loitering munitions attacked transport convoys on the Izium‑Oskol road in Kharkiv region (Source: @ukr_leaks_eng/31104).",
+        "Russian tactical aviation conducted launches of guided aerial bombs targeting Kharkiv and Donetsk directions (Source: @kpszsu/66101).",
+        "Russian forces approached the town of Lyubitske near Zaporizhzhia and engaged in combat there (Source: @tass_agency/382113).",
+        "Russian air defence shot down a UAV heading toward Moscow (Source: @tass_agency/382122)."
       ]
     },
     "eastern_front": {
       "points": [
-        "UAVs from northern Sumy moved toward Chernihiv, targeting Ponornitsya and Holmy on the eastern front (Source: @kpszsu/66123).",
-        "Guided aviation bomb strikes were reported in Donetsk oblast, indicating Russian air activity on the eastern front (Source: @kpszsu/66086).",
-        "UAV activity reported near Pavlograd in eastern Dnipropetrovsk oblast (Source: @kpszsu/66109).",
-        "Russian tactical aviation also launched bomb strikes on Kharkiv oblast, intensifying pressure on the eastern sector (Source: @kpszsu/66098).",
-        "UAV sightings near Shakhtarsk and Samara in Dnipropetrovsk oblast suggest continued eastern reconnaissance missions (Source: @eRadarrua/97898)."
+        "UAV groups were reported heading toward Olishivka and Goncharivske in Chernihiv region from the east (Source: @kpszsu/66126).",
+        "UAVs from the north of Kharkiv moved toward Bohodukhiv, indicating pressure on the northern sector of the eastern front (Source: @kpszsu/66128).",
+        "Guided aerial bomb launches targeted Kharkiv oblast, with multiple reports of UAV activity near Bliznyky, Oleksandrivka, Bzlyuvka and Vasicheve (Source: @kpszsu/66093; @kpszsu/66094).",
+        "Enemy tactical aviation activity was noted on the eastern direction, raising the threat of air strikes (Source: @kpszsu/66102).",
+        "A Russian \"Lancet\" attack on the Izium‑Oskol road disrupted logistics in Kharkiv region (Source: @ukr_leaks_eng/31104)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs were observed traveling from northern Sumy toward Chernihiv, indicating activity on the northern front (Source: @kpszsu/66123).",
-        "A UAV was reported near the village of Bliznyuky in Kharkiv oblast, close to the northern border (Source: @kpszsu/66093).",
-        "UAVs detected near the city of Shostka in Sumy oblast, suggesting northern sector incursions (Source: @eRadarrua/97916).",
-        "Russian tactical aviation bombings were reported in Kharkiv oblast, affecting the northern front (Source: @kpszsu/66098).",
-        "MiG‑31K take‑off was noted, reflecting Russian air operations that could impact the northern theater (Source: @kpszsu/66106)."
+        "UAVs were observed moving from the north‑east towards Kyiv, with alerts of ballistic threats from that direction (Source: @eRadarrua/97941).",
+        "UAVs were reported near the border of Sumy and Kharkiv heading toward Poltava, indicating cross‑regional pressure (Source: @kpszsu/66117).",
+        "UAV activity was noted north of Sumy moving toward Chernihiv (Source: @kpszsu/66105).",
+        "MiG‑31K launch was reported as a missile danger across Ukraine (Source: @kpszsu/66103).",
+        "A threat of Iskander‑M/S‑300 ballistic missiles from Kursk region was highlighted (Source: @mon1tor_ua/68028)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian tactical aviation bomb strikes hit Zaporizhzhia oblast, including the city of Kryvyi Rih where a missile attack caused civilian casualties (Source: @kpszsu/66086, @UkraineNow/82131).",
-        "UAVs were reported near the Black Sea, heading toward Mykolaiv oblast from the sea (Source: @kpszsu/66095).",
-        "Threats of Iskander‑M missile launches were announced from Crimea, posing a risk to southern Ukrainian territories (Source: @mon1tor_ua/68022).",
-        "UAV activity observed near the coastal area of the Black Sea opposite Chornomorske (Source: @eRadarrua/97925).",
-        "Russian forces engaged near Lyubitske in Zaporizhzhia, a southern frontline settlement (Source: @tass_agency/382113)."
+        "Ukrainian forces struck the Kerch thermal power plant in occupied Crimea, causing blackouts across several districts (Source: @UkraineNow/82129).",
+        "A railway bridge over the North Crimean Canal was destroyed, disrupting a key Russian logistics corridor (Source: @UkraineNow/82133).",
+        "Sevastopol’s air defence shot down nine UAVs, with two additional UAVs downed later, showing intense aerial activity in the southern theater (Source: @tass_agency/382125; @tass_agency/382117).",
+        "Russian attacks on Zaporizhzhia region resulted in 1,050 strikes on 56 settlements, including 18 airstrikes and 769 drones (Source: @UkraineNow/82126).",
+        "A night‑time attack on a truck parking lot in Zaporizhzhia was reported (Source: @ukr_leaks_eng/31098)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation launched guided aviation bombs across multiple oblasts, including Zaporizhzhia, Kharkiv, Donetsk and Dnipropetrovsk (Source: @kpszsu/66086).",
-        "Ukrainian forces reported 769 UAVs of various types, predominantly FPV, operating over Zaporizhzhia region in a single day (Source: @UkraineNow/82126).",
-        "MiG‑31K take‑off was recorded, indicating high‑altitude Russian interceptor activity (Source: @kpszsu/66106).",
-        "UAV sightings were widespread across Poltava, Cherkasy, Sumy, and Dnipropetrovsk oblasts, targeting both civilian and military sites (Source: @eRadarrua/97940, @eRadarrua/97933).",
-        "Russian threats of Iskander‑M and S‑300 ballistic missile launches from Voronezh, Kursk and Crimea suggest potential escalation of the air‑to‑ground threat (Source: @mon1tor_ua/68022, @mon1tor_ua/68029)."
+        "Russian tactical aviation launched guided aerial bombs on Kharkiv and Donetsk directions, indicating use of precision strike assets (Source: @kpszsu/66101).",
+        "Multiple UAV groups were reported across northern, eastern and southern sectors, targeting locations such as Olishivka, Bohodukhiv, Poltava and Sevastopol (Source: @kpszsu/66126; @kpszsu/66128; @kpszsu/66121; @tass_agency/382125).",
+        "Ukrainian air defence downed a UAV heading for Moscow, showing reach of Russian UAV operations (Source: @tass_agency/382122).",
+        "Sevastopol’s air defence intercepted nine UAVs in a single engagement (Source: @tass_agency/382125).",
+        "Alerts of ballistic missile threats from the east, north‑east and Kursk region were issued, reflecting heightened missile activity (Source: @eRadarrua/97941; @eRadarrua/97923; @mon1tor_ua/68028)."
       ]
     },
     "key_developments": [
-      "Russian tactical aviation deployed guided aviation bombs on Zaporizhzhia, Kharkiv, Donetsk and Dnipropetrovsk oblasts, intensifying air‑ground operations (Source: @kpszsu/66086).",
-      "Ukrainian authorities recorded 1,050 attacks on 56 settlements in Zaporizhzhia region, including 769 UAVs and 18 airstrikes in 24 hours (Source: @UkraineNow/82126).",
-      "A missile strike in Kryvyi Rih resulted in three civilian deaths and 23 injuries (Source: @UkraineNow/82131).",
-      "UAV groups from northern Sumy moved toward Chernihiv, targeting Ponornitsya and Holmy (Source: @kpszsu/66123).",
-      "Threats of Iskander‑M and S‑300 ballistic missile launches were announced from Voronezh, Kursk and Crimea (Source: @mon1tor_ua/68022, @mon1tor_ua/68029).",
-      "Russian forces engaged in combat near Lyubitske settlement in Zaporizhzhia region (Source: @tass_agency/382113).",
-      "MiG‑31K take‑off observed, indicating high‑altitude Russian interceptor activity (Source: @kpszsu/66106)."
+      "Ukrainian strike on the Kerch power plant caused blackouts in Evpatoria, Krasnoperekopsk, Saki, Dzhankoi and Krasnogvardeysk districts (Source: @UkraineNow/82129).",
+      "Russian \"Lancet\" loitering munitions attacked the Izium‑Oskol road, disrupting transport in Kharkiv region (Source: @ukr_leaks_eng/31104).",
+      "Russian forces raised flags in Krasny Liman, indicating control of the newly liberated settlement in the DPR (Source: @ukr_leaks_eng/31095).",
+      "Sevastopol air defence shot down nine UAVs, demonstrating intense aerial contest in the southern theater (Source: @tass_agency/382125).",
+      "A railway bridge over the North Crimean Canal was destroyed, cutting a strategic logistics route for Russian forces (Source: @UkraineNow/82133).",
+      "Guided aerial bomb launches targeted Kharkiv and Donetsk oblasts, showing escalation of precision strike usage (Source: @kpszsu/66101).",
+      "Multiple UAV formations reported moving toward Olishivka, Bohodukhiv, Poltava and other points, indicating broad UAV pressure across fronts (Source: @kpszsu/66126; @kpszsu/66128; @kpszsu/66121)."
     ],
-    "threat_assessment": "Russian air operations, including guided bomb deployments and potential ballistic missile launches, are elevating the threat to Ukrainian rear areas across multiple fronts. UAV incursions remain pervasive, targeting both civilian infrastructure and military positions in Sumy, Poltava, Cherkasy and Dnipropetrovsk oblasts, complicating air defense allocations. The missile strike in Kryvyi Rih underscores the continued risk to densely populated centers, while threats from Iskander‑M and S‑300 systems could introduce longer‑range strike capabilities against strategic assets.",
-    "regional_response": "Ukrainian regional commands have reported heightened alert levels, mobilizing air defense units to intercept UAV swarms and preparing for possible ballistic missile alerts. Local authorities in Zaporizhzhia have documented extensive damage and are coordinating emergency response for civilian casualties. In the north, Ukrainian forces are tracking UAV trajectories from Sumy toward Chernihiv to pre‑empt further incursions.",
-    "intelligence_notes": "Open‑source monitoring indicates a pattern of Russian tactical aviation strikes synchronized with UAV saturation attacks, suggesting a combined‑arms approach to overwhelm Ukrainian defenses. The announced threats of Iskander‑M launches from multiple Russian regions may be a strategic signaling effort rather than immediate deployment, but require continuous radar vigilance. Continued observation of UAV launch points in Russian‑occupied territories will be critical for forecasting future attack vectors."
+    "threat_assessment": "Ukrainian forces are intensifying strikes on critical Russian‑controlled infrastructure in Crimea, while Russian tactical aviation and loitering munitions continue to pressure supply routes in the eastern and northern sectors. The proliferation of UAVs across multiple fronts suggests a shift toward persistent low‑altitude harassment, complicating air defence allocations. Potential ballistic missile launches from Kursk and north‑east directions raise the risk of high‑impact strikes beyond the immediate frontlines.",
+    "regional_response": "Ukrainian command appears to prioritize targeting of energy and logistics nodes in occupied territories, leveraging both conventional strikes and UAV attacks. Russian forces are reinforcing territorial claims by raising flags in liberated areas and employing guided bombs to disrupt Ukrainian movements. Regional air defence units are increasingly engaged, as evidenced by multiple UAV interceptions in Sevastopol and near Kyiv.",
+    "intelligence_notes": "Open‑source reports indicate a coordinated UAV campaign originating from multiple launch points, targeting both military and civilian infrastructure. The emergence of Russian \"Lancet\" attacks on key transport corridors underscores a focus on disrupting Ukrainian logistics. Monitoring of ballistic missile alerts from Kursk and north‑east vectors is essential for early warning and civil defence preparedness."
   },
   "missiles": 0,
   "drones": 135,
   "kpszsu_timeline": [
-    1,
     0,
     0,
     0,
     1,
     0,
-    2,
-    7,
-    2,
-    2,
-    2,
-    2,
+    5,
     5,
     3,
+    1,
+    2,
+    3,
     4,
-    1,
-    3,
-    2,
-    2,
+    4,
     2,
     1,
     3,
-    2,
-    3
+    3,
+    3,
+    1,
+    1,
+    3,
+    1,
+    4,
+    6
   ]
 }
