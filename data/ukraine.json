@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-25T04:13:30.244319+00:00",
-  "message_count": 313,
+  "updated_at": "2026-06-25T08:33:35.068753+00:00",
+  "message_count": 319,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,83 +11,166 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 101,
+  "red_alerts": 90,
   "red_alerts_timeline": [
+    7,
+    7,
+    7,
+    0,
+    7,
+    7,
     0,
     0,
+    21,
     0,
-    8,
-    8,
-    0,
-    8,
-    8,
-    8,
-    8,
-    0,
-    0,
-    23,
-    0,
-    16,
-    8,
+    14,
+    7,
     0,
     0,
     0,
     0,
     0,
     0,
-    8,
-    0
+    7,
+    0,
+    0,
+    0,
+    0,
+    7
   ],
   "combined_activity_timeline": [
-    14,
-    8,
-    13,
-    14,
     21,
-    26,
+    27,
+    19,
+    23,
     17,
-    25,
-    20,
-    22,
-    18,
-    11,
-    13,
-    12,
+    23,
     15,
     11,
-    4,
-    7,
-    4,
-    3,
-    5,
     13,
-    10,
-    6
+    11,
+    16,
+    9,
+    5,
+    5,
+    2,
+    5,
+    7,
+    14,
+    7,
+    7,
+    12,
+    13,
+    17,
+    20
   ],
   "messages_by_channel": {
-    "@eRadarrua": 54,
-    "@kpszsu": 72,
+    "@eRadarrua": 55,
+    "@kpszsu": 80,
     "@mon1tor_ua": 4,
-    "@UkraineNow": 20,
-    "@ukr_leaks_eng": 23,
-    "@tass_agency": 140
+    "@UkraineNow": 21,
+    "@ukr_leaks_eng": 22,
+    "@tass_agency": 137
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/98078",
-    "kpszsu": "https://t.me/kpszsu/66287",
+    "eRadarrua": "https://t.me/eRadarrua/98084",
+    "kpszsu": "https://t.me/kpszsu/66320",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68035",
-    "UkraineNow": "https://t.me/UkraineNow/82159",
+    "UkraineNow": "https://t.me/UkraineNow/82168",
     "DeepStateUA": "https://t.me/DeepStateUA/23592",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31142",
-    "tass_agency": "https://t.me/tass_agency/382290"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31150",
+    "tass_agency": "https://t.me/tass_agency/382327"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82140",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31127",
-    "eRadarrua": "https://t.me/eRadarrua/98053",
-    "kpszsu": "https://t.me/kpszsu/66233"
+    "UkraineNow": "https://t.me/UkraineNow/82157",
+    "kpszsu": "https://t.me/kpszsu/66286",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31127"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/98084",
+      "post_id": 98084,
+      "channel": "eRadarrua",
+      "ts": "2026-06-25T08:24:05+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/UylWRdtFRcDHbKrr41mxJABGIOTW2GAQZrKlZerYP35rUmOjNTrwjh7pUkxrveNOivtM_fOPYxJg5FVbvkarzCOtkSYy0hepf7BEgfF6aP5iP_XI00KQ4ju_Sa0uKB2LZUH2fC85M4YFvVRX4EqHSoNJEkH5PgsZGQJyyJIZnUXTtr1b9bfb2FGvZAMfgJH3uMcNLxquXllqZ8UGEWQW1z28qP0ZfVtsHFIJUw-rgmWftET4eTXmxp-8tMPUoPaF6KQYcMmvzvQ8J1qN1CjIKg50xyGiwQHRStdjwUlhGAhVrObs1lhvUEeXuL03-5wMkyEpgPmNc--eicCwWK3QSg.jpg",
+      "companion_text_id": 98083
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382320",
+      "post_id": 382320,
+      "channel": "tass_agency",
+      "ts": "2026-06-25T07:44:47+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31149",
+      "post_id": 31149,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-25T07:32:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31148",
+      "post_id": 31148,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-25T07:02:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382310",
+      "post_id": 382310,
+      "channel": "tass_agency",
+      "ts": "2026-06-25T06:57:34+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82162",
+      "post_id": 82162,
+      "channel": "UkraineNow",
+      "ts": "2026-06-25T06:37:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31147",
+      "post_id": 31147,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-25T06:29:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31145",
+      "post_id": 31145,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-25T06:01:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/98079",
+      "post_id": 98079,
+      "channel": "eRadarrua",
+      "ts": "2026-06-25T05:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/VrHHxtfrFkERVkZBuflXKZHjbbdiw1wJ-ErxlyEc42atdVSHs7TPADYsU_Pkk_de17nb9wvnQ6uRQlkyXLzCrdd5qomzthbVVZKXaVEkWkWFtO5qOeGZHkYm7hu-lrPlsVtDmEhB8weMm_bv7yhCPeG65Bsg4UtVGEwF8FNo_tJbDbxB_XyGDBislfFP19SxkHrHwhEEMXco8knUSOxDmsWT8igOaHVNFSR2zsirKNg6_OnzzTnzVAT6rf_HLDwfMEKjd-wY_h1T7IgzEZmnZ1GOZwhnK_4cL8JBVwsdzW4CuhpRGyeN9YrTZ3V-ME_asz7ByRIWrnV5hJ1MdBYc6w.jpg",
+      "companion_text_id": 98078
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82161",
+      "post_id": 82161,
+      "channel": "UkraineNow",
+      "ts": "2026-06-25T05:37:39+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/66293",
+      "post_id": 66293,
+      "channel": "kpszsu",
+      "ts": "2026-06-25T05:36:53+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/OY5jnBuE2R9cVQN0bgMeTZ2Sbr0uj2otK0n3XWV4fJHihWJZbOLT0TUG3Of2FPgR72ZE42lqiVwEuHrLUAOdkgZGouCv-GG6UC_CAgR_pC17j8ZPLB4xsgsxP7BMNyjU4hnHWdxU_OSngiljxUDoyR0vyBkP2pir8wWtkpJMElBPAENLl-q2XaL1bYql9eDzKjrJ7L3nHa_9f25OLlzTJhxB_MQAJCb2zDQIqAw5VXDfbL_XgbKTQT2z0sNloeq6w4d2hoiwZ4BliHs96tSWf1e8PU0hPvp7XYo59ZIc1O7IuG3wuU9iOkgofCF1WIryoptBabEUSfS2To273uX7vw.jpg",
+      "companion_text_id": 66292
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31143",
+      "post_id": 31143,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-06-25T05:01:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/382296",
+      "post_id": 382296,
+      "channel": "tass_agency",
+      "ts": "2026-06-25T04:59:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/382282",
       "post_id": 382282,
@@ -137,232 +220,144 @@
       "ts": "2026-06-24T20:00:18+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/Bb0x5A7_Vxf2vOqInIrkU3CHvSrISI3MOQCU--zPVgsmfxGiPZcP4WFJDE5LB2h9N-o9oxq2agLzNFpqsKUTy5svnFzdJQ0gir-3uaCcVwjJiOPAbnQH0lAy5KqCHO3PKHGPDbst9LMRFdtD5cg3WhUmA0u9mIFVEK6c73GjWPGeI4f5R1lzGBRdzSPM__Wa48RLdXhiYmtbtHcw7lhy9Z3H2TRaUmj9014n29tclRz7zREjJ1Ac1PqL7gHeouYxI3qi6r94-dq3UiWRzghcuBgte9asIsKMlp8i7jA0EcGIfj5uxC6QdTK_7c-hroFDGa4hEZYV0BDcb17659IJrQ.jpg",
       "companion_text_id": 98053
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98050",
-      "post_id": 98050,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T19:55:05+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/WJZkCuas9tI_LobuVePKykBlR_1j-nJQEoujC77kRYzquGdBS8Dzb5gAwi4IPb65IhcaaVLEW4akPpc0MBA5tp9NiG-_AbYMqWtnAGCs8eCTQAe2beO4J13ve3-_zSComTTj5zbPdhqkOZcv49kO9a5myn5vy7pTJZct50_o3IqHpGQ-z8NuzxpPqx8rF5X4dSt4ID8-eY4grIxSJVUM382etuuGbOHhbuIbg5NwSqu2_r8Y29HdDe0S5s4JMqN5P_FW_-mTnkU0QlkgibnVxos8M7Dqx5ViedP8ELfsasG3NpW-AHh3zoSpMyeAfNWH-Y0GS69fP_GHzOjFGR9Tcg.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98040",
-      "post_id": 98040,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T19:47:52+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/D3zeZgEc83vMIqqiHQSmmGCSLXPd2pPAeXUu7j0ncpRwWfbSySkSBJI6ar85EKX4jTXm91ZAOs7ui9qGXx5ACAcvWKQpsr6KP8J3Iqz1HlxN31po2pg32GvbuAm04uy2U3xR9-G2wAOhLoHXSI1f4oomL46_vNZcc2Pb6kQIaIg4SC8gyrewsES1QHuSGpkRnLvFbgC5tXekiZ0CsY84n3BRvc5ThdeSiRap4JCavI12HX-8BYQ4Ag6T3W0zKoUxNJJ2vhVqsdadCp8g9a_ICDAMs47XACMlL2JDAMCVP4r4zn3gmdllsYdFZn5gtai5s3zZ-c9_XJftvY2RbOHOXA.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98030",
-      "post_id": 98030,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T19:45:10+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/v1bX0AiYhkRyYfke-J4zvsdl40gHI7cvID5bij979oQG-Qo9Tt3b6thVveT6gl2O0WfdPIJphG-Z9LK0U82YLnNaW3K1uIRDXLDWYZL3WUB4wauXL-aJbfwHgoXh3CIRpKidppirkJljvUG-Hjrbjoe5KkOyyIYUygAbpp2dl_AJZOvebeXLX3ZEs3cWFnlsUYbNCBKjIEcFL28MzKMw35ZmKY8kleYx4ii7_TwZIU60UVPVbxFeRlKTifyZ-cE9a6oP3WM7_kVqUnk__8ra2zF4fgk2WiQSWGk6-MPObtetGHMFUuif7c34RMyjcEzbPyyl_McGZu00__LtP-WDFg.jpg",
-      "companion_text_id": 98028
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82159",
-      "post_id": 82159,
-      "channel": "UkraineNow",
-      "ts": "2026-06-24T19:31:23+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82157",
-      "post_id": 82157,
-      "channel": "UkraineNow",
-      "ts": "2026-06-24T19:04:51+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/382264",
-      "post_id": 382264,
-      "channel": "tass_agency",
-      "ts": "2026-06-24T18:49:38+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98024",
-      "post_id": 98024,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T18:46:56+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/uEEV5eicK6js-EvwLHvD-e5Nzm8Ft84jKmAhOxogRaI1NWbeUq3pvL6_HPWa9IAhXnNCwuisyLzHaCcPXA9r7JIe3Uf_bN0n3AXw2__9s4Jly7XLQPxy-sq3PfVFNjU2U3bSMzMkdEc3sVhgJoxlwr6j1br1WOd2GsdTosz1qT6Va9eaT-3MmJ82G0jAT0QVWlncsZj5e88mGL858QWXGweCjqJgjO45aY-4PiFEiGKfxVGshdWAHZxy3T8H_zLx3lZWzQQMCwl3rs1tk-wqgalYpBlvsF_JAOvraW4wwuxxCPzv77m3MOj6lLm_iqRCp0KQPeiNNTeIQ0xpEHJztQ.jpg",
-      "companion_text_id": 98023
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98023",
-      "post_id": 98023,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T18:42:33+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/KWYXKVndy1Rspqd9VEKf7CqMxjfy1nQsQoQ1fp4t1Ltz6s9jE2nqetsOcMRlHRPu3G5FQgiM43FIfTpYcNmuBH1Lv9uJt3ijp3oJhMaiKXW4cgr677c_Q9L3MMvECcIZcOM48D2y6bDrcuDcpb5PfDMvXxXx3TrP49RDvh-XgX0zFJyZmD8gnrW4wPc7eBscG21-0_N5FHKgUoeM8CfR8muwHIi2y578h1c3NYmIiUaYohK2VREyz8ENd7cVnih0HyIyD9Qo4EhpPlTqumK8riZ618rfSHGqVw_KPoT6JnSIo3RsV5LLzbP8ui_R3IN1n1eD-GSmOPnfahoNJZeM5w.jpg",
-      "companion_text_id": 98022
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98020",
-      "post_id": 98020,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T18:16:14+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/IhPRU5Qngo5snbXdmp8HPI_KzIbf7wpQXPlbMYh9qImZfLoU-j2JoKsVuB1JLJPZl5IX5aywIOvqQ8o1UMxctI6ygvQhJLLKG3MKeKqMF07dwCeXrJNAQCe_5uHfWV52SLlnpnrBHFnUdzPpt0n_l8Ra7bvcNqYp1_-d1fYF2InJW35uq3uirlxn3uBgzoON8bV3MmBxrDHvTCSJ0SW5fwn5P-aMZhJCN8G5rpSmdO3Fu6NQ99yuiat7r9dIwoviBjuyF3Hbm_L8u0V0HzOlKjSewkXEu8y2CzX9YbuhcqmggFl31DXt5b1JEHS27S6yfay_V-FBrXfs-Zh6REv2JQ.jpg",
-      "companion_text_id": 98019
-    },
-    {
-      "post_url": "https://t.me/tass_agency/382262",
-      "post_id": 382262,
-      "channel": "tass_agency",
-      "ts": "2026-06-24T18:05:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/382260",
-      "post_id": 382260,
-      "channel": "tass_agency",
-      "ts": "2026-06-24T18:01:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98019",
-      "post_id": 98019,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T17:58:24+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/CCCsns30oYE8DbAKiOvrxKj_VVbv5__bwadGl1IXsna3RKnuQq1fZoSFlCzHOawSN5Lpol_OxW9rC2a5qv4Gp80lFbuUDJHe-nAGa-4g1eEBcKcZqaXbtamHRoLsCFGM5e-LuSzBjj3GtQZhRk6I4grmudEL_7hya4T2C5V0yZTk8DNBpsnP3eNTS-evPwylp4GPH5bPlJ9jCqWleFZ8tfcaoiprJoSxsdRv3bj2wI8U-hUImziIoJVyvxhVQj2r01jdkTK3ItYhqqy56wPJ_cX3l-bX6YyCB8TItsF-vKRrlcrwdmZi81rkTZvg_uwy_skCrXRF6KIC2baDt5zvuw.jpg",
-      "companion_text_id": 98018
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98018",
-      "post_id": 98018,
-      "channel": "eRadarrua",
-      "ts": "2026-06-24T17:33:46+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/AgH0SsJ0GVi1e2YJ-rZJhOuOVMqoDOiwhZ6cT8Aj1WCC1Y6VLYIK4OpwaQxEc8ss24E9oU3K7DQzJAYE3ViEPBV3USYkaOOFCykVQH8zptXwa7UBU_v5-ntH3mxhyxaiPjqdmhQM3Jb2U-2KuMWF3x2_H8sAj907UYmTPswZvH03BAvfZGcwhlUHjrnq74cfWJuWCmotQE28XhMWhDwHYwDHvTnuD7ddS6NdFZDqFIsDr2ycOuecEmgMu_YPEYQnVLhOiatD2tdIBiJmTF8t-XMS9wBxOfFfs60G9s72r1oDqZ--HXKpDlvs7x-fAo3bJAyvrwmDMXmPaqv764wd3w.jpg",
-      "companion_text_id": 98017
     }
   ],
   "post_images": {
-    "eRadarrua/98060": "data/media/eRadarrua_98060.jpg",
-    "eRadarrua/98059": "data/media/eRadarrua_98060.jpg",
     "eRadarrua/98068": "data/media/eRadarrua_98068.jpg",
     "eRadarrua/98067": "data/media/eRadarrua_98068.jpg",
-    "eRadarrua/98030": "data/media/eRadarrua_98030.jpg",
-    "eRadarrua/98028": "data/media/eRadarrua_98030.jpg",
+    "eRadarrua/98079": "data/media/eRadarrua_98079.jpg",
+    "eRadarrua/98078": "data/media/eRadarrua_98079.jpg",
+    "eRadarrua/98084": "data/media/eRadarrua_98084.jpg",
+    "eRadarrua/98083": "data/media/eRadarrua_98084.jpg",
     "eRadarrua/98040": "data/media/eRadarrua_98040.jpg",
     "eRadarrua/98050": "data/media/eRadarrua_98050.jpg",
     "eRadarrua/98054": "data/media/eRadarrua_98054.jpg",
     "eRadarrua/98053": "data/media/eRadarrua_98054.jpg",
     "eRadarrua/98058": "data/media/eRadarrua_98058.jpg",
-    "eRadarrua/98015": "data/media/eRadarrua_98015.jpg",
-    "eRadarrua/98014": "data/media/eRadarrua_98015.jpg",
-    "eRadarrua/98016": "data/media/eRadarrua_98016.jpg",
-    "eRadarrua/98017": "data/media/eRadarrua_98017.jpg",
-    "eRadarrua/98018": "data/media/eRadarrua_98018.jpg",
-    "eRadarrua/98019": "data/media/eRadarrua_98019.jpg",
+    "eRadarrua/98059": "data/media/eRadarrua_98058.jpg",
+    "eRadarrua/98060": "data/media/eRadarrua_98060.jpg",
     "eRadarrua/98020": "data/media/eRadarrua_98020.jpg",
+    "eRadarrua/98019": "data/media/eRadarrua_98020.jpg",
     "eRadarrua/98023": "data/media/eRadarrua_98023.jpg",
     "eRadarrua/98022": "data/media/eRadarrua_98023.jpg",
     "eRadarrua/98024": "data/media/eRadarrua_98024.jpg",
-    "kpszsu/66144": "data/media/kpszsu_66144.jpg",
-    "kpszsu/66143": "data/media/kpszsu_66144.jpg"
+    "eRadarrua/98030": "data/media/eRadarrua_98030.jpg",
+    "eRadarrua/98028": "data/media/eRadarrua_98030.jpg",
+    "eRadarrua/98008": "data/media/eRadarrua_98008.jpg",
+    "eRadarrua/98007": "data/media/eRadarrua_98008.jpg",
+    "eRadarrua/98015": "data/media/eRadarrua_98015.jpg",
+    "eRadarrua/98014": "data/media/eRadarrua_98015.jpg",
+    "eRadarrua/98016": "data/media/eRadarrua_98016.jpg",
+    "eRadarrua/98017": "data/media/eRadarrua_98016.jpg",
+    "kpszsu/66293": "data/media/kpszsu_66293.jpg",
+    "kpszsu/66292": "data/media/kpszsu_66293.jpg"
   },
-  "summary": "Ukrainian drone operations have knocked out power in Sevastopol, while Russian forces reported strikes across Sumy, Kharkiv, and the Pavlovgrad district. Both sides continue extensive UAV activity, with multiple sightings in Sumy, Kharkiv, Dnipropetrovsk, and Zaporizhzhia regions. Ground combat persists in several eastern villages with small‑arms engagements.",
+  "summary": "Russian forces launched an Iskander-M ballistic missile strike and 90 drones across multiple regions, causing civilian injuries and damage to fuel infrastructure. Drone activity was reported near several towns in Sumy, Kharkiv, and Zaporizhzhia oblasts, including attacks on an oil depot and a cinema. Ukrainian authorities reported casualties in Zaporizhzhia beach attack and injuries in Sumy and Kharkiv regions.",
   "key_points": [
-    "Ukrainian drones caused a complete power outage in Sevastopol after multiple strikes on the main substation, igniting a fire visible for kilometers (Source: @UkraineNow/82140).",
-    "Russian forces conducted overnight strikes on Sumy, Kharkiv, and Pavlovgrad district, according to a two‑major report (Source: @ukr_leaks_eng/31127).",
-    "Ukrainian assault units are engaged in small‑arms battles in Shostka district (Bachevsk) and villages Ivolzhansk, Pysarevka, and Novaya Sech in Sumy region (Source: @ukr_leaks_eng/31127).",
-    "Ukrainian drones attacked civilian targets in Belgorod region, wounding civilians in Aleksandrovka, Grayvoron, and Proletarsky (Source: @ukr_leaks_eng/31127).",
-    "Ukrainian UAVs were observed near Aviatorske in Dnipropetrovsk and over Sumy region near Hotin and Boromlya (Source: @eRadarrua/98053; @kpszsu/66233).",
-    "Russian tactical aviation activity was reported on the north‑east direction, indicating potential air strikes near front‑line areas (Source: @kpszsu/66265).",
-    "Ukrainian forces reported using the domestically produced \"Vyravnyvatel\" guided aerial bomb, capable of 10‑140 km range (Source: @ukr_leaks_eng/31125)."
+    "Russian forces attacked Ukrainian oil depots in Zaporizhzhia, Mykolaiv and Dnipropetrovsk oblasts with drones, halting operations (Source: @UkraineNow/82157).",
+    "An Iskander-M ballistic missile strike and 90 drones hit Sumy, Zaporizhzhia and Kharkiv regions, injuring civilians and damaging infrastructure (Source: @UkraineNow/82162).",
+    "Four people, including three children, were injured in a Russian strike on a Zaporizhzhia beach (Source: @UkraineNow/82150).",
+    "A drone attack on a cinema in Konotop, Sumy oblast, wounded multiple civilians (Source: @UkraineNow/82146).",
+    "UAVs were observed flying near Pidryanka in Kharkiv oblast heading south (Source: @kpszsu/66286).",
+    "UAVs were reported near Prudyanka in Kharkiv oblast moving southward (Source: @kpszsu/66286).",
+    "UAV activity was noted near Komishuvakha heading toward Zaporizhzhia (Source: @kpszsu/66313).",
+    "UAVs were seen over the northern outskirts of Sumy moving west or southwest (Source: @kpszsu/66271)."
   ],
   "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian drone strikes have left Sevastopol without power, highlighting intensified aerial operations. Russian forces claim successful overnight strikes on Sumy, Kharkiv, and Pavlovgrad, while ground fighting continues in multiple eastern villages. Both sides report heightened UAV activity across several oblasts.",
+    "executive_summary": "Russian forces launched a coordinated strike using an Iskander-M ballistic missile and 90 drones across Sumy, Zaporizhzhia and Kharkiv, causing civilian injuries and damaging fuel infrastructure. Drone activity was reported near multiple towns in Sumy, Kharkiv and Zaporizhzhia oblasts, including attacks on an oil depot and a cinema. Ukrainian authorities recorded casualties from a beach attack in Zaporizhzhia and injuries in Sumy and Kharkiv.",
     "ukraine": {
       "points": [
-        "Ukrainian operators from the 291st Motorized Rifle Regiment are active in the Zaporozhye area, targeting Ukrainian snipers in cellars (Source: @ukr_leaks_eng/31119).",
-        "Ukrainian forces have begun employing the \"Vyravnyvatel\" 250 kg guided aerial bomb, with claimed production and launch ranges up to 140 km (Source: @ukr_leaks_eng/31125).",
-        "Ukrainian drones caused a total power outage in Sevastopol after six‑seven strikes on the main substation, resulting in a fire visible for many kilometres (Source: @UkraineNow/82140).",
-        "Ukrainian assault units continue small‑arms battles in Shostka district (Bachevsk) and villages Ivolzhansk, Pysarevka, and Novaya Sech in Sumy region (Source: @ukr_leaks_eng/31127).",
-        "Ukrainian UAV sightings include a reconnaissance UAV near Aviatorske in Dnipropetrovsk and multiple UAVs north‑west of Hotin heading south‑west (Source: @eRadarrua/98053; @kpszsu/66233)."
+        "Ukrainian officials reported that drone attacks halted operations at oil depots in Zaporizhzhia, Mykolaiv and Dnipropetrovsk oblasts (Source: @UkraineNow/82157).",
+        "Four civilians, three of them children, were injured during a Russian strike on a beach in Zaporizhzhia (Source: @UkraineNow/82150).",
+        "A cinema in Konotop, Sumy oblast, was hit by drones, resulting in at least one leg injury and a neck wound (Source: @UkraineNow/82146).",
+        "In Kharkiv oblast, a drone strike damaged a building façade, an electrical line, a garage and three cars, injuring one woman (Source: @UkraineNow/82162).",
+        "Ukrainian authorities reported that two workers at a Zaporizhzhia fuel station were hospitalized with minor injuries after a drone strike (Source: @UkraineNow/82162)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces reported overnight strikes on Sumy, Kharkiv, and Pavlovgrad district, according to a two‑major briefing (Source: @ukr_leaks_eng/31127).",
-        "Russian drones attacked civilian targets in Belgorod region, wounding civilians in Aleksandrovka, Grayvoron, and Proletarsky (Source: @ukr_leaks_eng/31127).",
-        "Russian tactical aviation activity was noted on the north‑east direction, indicating possible air‑strike operations near front‑line zones (Source: @kpszsu/66265).",
-        "Russian Ministry of Defense reported successful assaults in Krasny Lyman and Konstantinovka, clearing 52 and 128 buildings per day respectively (Source: @ukr_leaks_eng/31127).",
-        "Russian forces claim a man injured by an enemy drone in 1st Yankovo, Rylsk district, Kursk region (Source: @ukr_leaks_eng/31127)."
+        "Russian forces employed an Iskander-M ballistic missile in a night attack on Sumy, Kharkiv and Zaporizhzhia regions (Source: @UkraineNow/82162).",
+        "Ninety drones were launched in the same operation, targeting civilian and infrastructure sites across multiple oblasts (Source: @UkraineNow/82162).",
+        "Tactical aviation activity was reported on the north‑eastern direction, indicating potential air strikes near front‑line areas (Source: @kpszsu/66265).",
+        "Additional reports indicated continued tactical aviation activity on the north‑eastern axis (Source: @kpszsu/66297).",
+        "Russian UAVs were observed flying over Sumy oblast heading westward from the northern outskirts of Sumy (Source: @kpszsu/66271)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian small‑arms fighting continues in Shostka district (Bachevsk) and villages Ivolzhansk, Pysarevka, Novaya Sech in Sumy region (Source: @ukr_leaks_eng/31127).",
-        "Ukrainian assault units are active in Kazachya Lopan, Losevka, Ukrainskoe, Petro‑Ivanovka, and surrounding areas on the Kharkiv direction (Source: @ukr_leaks_eng/31127).",
-        "Russian forces report progress in Zaoskolye from the Kupyansk direction and ongoing battles in Kupyansk‑Vuzlovy (Source: @ukr_leaks_eng/31127).",
-        "Ukrainian drone strikes target Stepnogorsk and Prymorsk on the Zaporozhye front, with continuous UAV activity reported (Source: @ukr_leaks_eng/31127).",
-        "In the Kherson region, five civilians, including a child, were wounded over the previous 24 hours amid ongoing attacks (Source: @ukr_leaks_eng/31127)."
+        "UAVs were sighted near Prudyanka in Kharkiv oblast moving southward (Source: @kpszsu/66286).",
+        "UAVs were observed near Pidryanka in Kharkiv oblast heading south (Source: @kpszsu/66286).",
+        "UAVs were reported near Komishuvakha heading toward Zaporizhzhia (Source: @kpszsu/66313).",
+        "Russian tactical aviation activity was warned for the north‑eastern direction, affecting eastern front zones (Source: @kpszsu/66265).",
+        "UAVs were seen over the northern outskirts of Sumy moving west or southwest (Source: @kpszsu/66271)."
       ]
     },
     "northern_front": {
       "points": [
-        "UAVs observed north of Zaporizhzhia from the south‑west, and another heading toward Zaporizhzhia from the south‑east (Source: @kpszsu/66258; @kpszsu/66274).",
-        "UAV activity reported on the northern outskirts of Sumy, heading west or south‑west (Source: @kpszsu/66271).",
-        "UAVs detected near the north‑west of Hotin, moving south‑west toward Mikolaivka/Ulyanivka (Source: @kpszsu/66233).",
-        "Russian tactical aviation threat noted on the north‑east direction, potentially affecting front‑line areas (Source: @kpszsu/66265).",
-        "UAV sightings in Sumy region include locations near Boromlya (east) and Shostka (south‑west) (Source: @eRadarrua/98073)."
+        "UAV activity was reported in the north‑eastern direction, suggesting possible air operations near the northern front (Source: @kpszsu/66265).",
+        "Additional alerts indicated continued tactical aviation activity on the north‑eastern axis (Source: @kpszsu/66297).",
+        "UAVs were observed near the northern outskirts of Sumy moving westward (Source: @kpszsu/66271).",
+        "No specific ground engagements were detailed for the northern front in the provided messages."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian drones attacked fuel depots of Naftogaz in Zaporizhzhia, Mykolaiv, and Dnipropetrovsk regions, halting operations (Source: @UkraineNow/82157).",
-        "Ukrainian UAVs observed near the main substation in Sevastopol, causing a fire and power outage (Source: @UkraineNow/82140).",
-        "Russian strikes reported in the Pavlovgrad district, part of the southern operational area (Source: @ukr_leaks_eng/31127).",
-        "Ukrainian forces report using the \"Vyravnyvatel\" guided bomb, potentially targeting southern infrastructure (Source: @ukr_leaks_eng/31125).",
-        "Ukrainian UAV activity noted in Dnipropetrovsk region near Aviatorske (Source: @eRadarrua/98053)."
+        "Drone attacks on oil depots in Zaporizhzhia, Mykolaiv and Dnipropetrovsk oblasts disrupted fuel supply (Source: @UkraineNow/82157).",
+        "A beach strike in Zaporizhzhia injured four civilians, including three children (Source: @UkraineNow/82150).",
+        "Iskander-M missile strike included southern regions such as Kharkiv and Zaporizhzhia (Source: @UkraineNow/82162).",
+        "No further specific southern front ground actions were detailed in the messages."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation activity was highlighted on the north‑east axis, suggesting possible air‑strike missions near front‑line zones (Source: @kpszsu/66265).",
-        "Ukrainian drone operations caused a major power outage in Sevastopol after multiple strikes on the main substation (Source: @UkraineNow/82140).",
-        "Ukrainian UAVs were observed conducting reconnaissance near Aviatorske in Dnipropetrovsk and over Sumy region (Source: @eRadarrua/98053; @kpszsu/66233).",
-        "Russian drones attacked civilian targets in Belgorod region, causing injuries in several villages (Source: @ukr_leaks_eng/31127).",
-        "Ukrainian forces reported using the \"Vyravnyvatel\" guided aerial bomb, indicating an expansion of air‑to‑ground capabilities (Source: @ukr_leaks_eng/31125)."
+        "Russian tactical aviation activity was reported on the north‑eastern direction, raising the threat of air strikes near front‑line areas (Source: @kpszsu/66265).",
+        "A repeat alert indicated ongoing tactical aviation activity on the north‑eastern axis (Source: @kpszsu/66297).",
+        "Ninety drones were launched in a coordinated night operation across multiple regions (Source: @UkraineNow/82162).",
+        "UAV sightings were frequent in Sumy, Kharkiv and Zaporizhzhia oblasts, indicating high drone traffic (Sources: @kpszsu/66286, @kpszsu/66313, @kpszsu/66271).",
+        "Ukrainian air defenses faced a surge of strike UAVs, temporarily overwhelming defenses in Sevastopol according to separate reports (Source: @ukr_leaks_eng/31127)."
       ]
     },
     "key_developments": [
-      "Ukrainian drone strikes disabled Sevastopol's power grid, igniting a fire at the main substation and prompting civilian warnings (Source: @UkraineNow/82140).",
-      "Russian overnight strikes hit Sumy, Kharkiv, and Pavlovgrad district, indicating a coordinated multi‑region offensive (Source: @ukr_leaks_eng/31127).",
-      "Ukrainian small‑arms engagements continue in Shostka district and multiple Sumy villages, showing persistent ground combat (Source: @ukr_leaks_eng/31127).",
-      "Russian tactical aviation activity reported on the north‑east front, suggesting potential air‑strike escalation (Source: @kpszsu/66265).",
-      "Ukrainian UAV sightings proliferate across Sumy, Kharkiv, Dnipropetrovsk, and Zaporizhzhia, reflecting intensified aerial reconnaissance (Source: @eRadarrua/98053; @kpszsu/66233).",
-      "Ukrainian drones attacked fuel depots of Naftogaz in Zaporizhzhia, Mykolaiv, and Dnipropetrovsk, halting fuel operations (Source: @UkraineNow/82157).",
-      "Ukrainian forces introduced the \"Vyravnyvatel\" guided aerial bomb, expanding precision strike options (Source: @ukr_leaks_eng/31125)."
+      "Russian forces used an Iskander-M ballistic missile and 90 drones in a coordinated night strike on Sumy, Kharkiv and Zaporizhzhia, causing civilian injuries and infrastructure damage (Source: @UkraineNow/82162).",
+      "Drone attacks halted operations at oil depots in Zaporizhzhia, Mykolaiv and Dnipropetrovsk oblasts, disrupting fuel logistics (Source: @UkraineNow/82157).",
+      "A Russian strike on a Zaporizhzhia beach injured four civilians, including three children (Source: @UkraineNow/82150).",
+      "UAVs were observed near Prudyanka and Pidryanka in Kharkiv oblast, moving southward, indicating active drone corridors (Source: @kpszsu/66286).",
+      "UAVs were sighted near Komishuvakha heading toward Zaporizhzhia, suggesting targeting of logistics routes (Source: @kpszsu/66313).",
+      "Tactical aviation activity was reported on the north‑eastern axis, raising the risk of air strikes near front‑line zones (Source: @kpszsu/66265).",
+      "Ukrainian authorities reported civilian injuries from a drone attack on a cinema in Konotop, Sumy oblast (Source: @UkraineNow/82146)."
     ],
-    "threat_assessment": "Ukrainian UAV capabilities are increasingly impacting strategic infrastructure, as seen in Sevastopol and fuel depots, while Russian forces maintain pressure through coordinated strikes across multiple fronts. The proliferation of UAV sightings suggests both sides are intensifying aerial reconnaissance and strike operations, raising the risk of rapid escalation. Continued small‑arms engagements in eastern villages indicate a grinding ground conflict that could be influenced by air‑to‑ground assets.",
-    "regional_response": "Ukrainian leadership emphasizes the need for partner support to sustain operations, particularly in counter‑UAV measures and precision munitions. Russian statements highlight confidence in achieving operational goals, while tactical aviation threats suggest a focus on air superiority. Neighboring states monitor the increased UAV activity, with concerns over spill‑over effects on border regions.",
-    "intelligence_notes": "Monitor UAV flight paths near critical infrastructure, especially power substations and fuel depots, for early warning of strikes. Track Russian tactical aviation deployments on the north‑east axis to anticipate potential air‑strike campaigns. Assess the operational impact of the new \"Vyravnyvatel\" bomb on Ukrainian strike capabilities and possible counter‑measures."
+    "threat_assessment": "Russian missile and drone operations demonstrate a shift toward high‑intensity, multi‑domain strikes targeting both civilian infrastructure and logistical nodes. The concentration of UAV activity in Sumy, Kharkiv and Zaporizhzhia oblasts strains Ukrainian air defenses, especially after the reported overload in Sevastopol. Continued tactical aviation presence on the north‑eastern front increases the risk of air assaults on rear areas, while attacks on fuel depots threaten supply lines critical to Ukrainian operations.",
+    "regional_response": "Ukrainian authorities have mobilized emergency services to treat injured civilians and are likely reinforcing air defense assets around high‑risk corridors. Reports of halted fuel depot operations suggest a need for alternative logistics routes and increased protection of energy infrastructure. The documented civilian casualties may prompt heightened public alertness and potential adjustments in civil defense protocols in the affected regions.",
+    "intelligence_notes": "Monitoring of UAV flight paths should focus on the identified corridors near Prudyanka, Pidryanka, Komishuvakha and the northern outskirts of Sumy to anticipate future strikes. The surge in drone usage indicates a possible stockpile depletion by Russian forces, which could affect the tempo of future attacks. Coordination with allied air defense systems may be required to mitigate the overload risk observed in Sevastopol and other contested airspaces."
   },
   "missiles": 0,
-  "drones": 101,
+  "drones": 90,
   "kpszsu_timeline": [
-    3,
-    2,
-    0,
-    0,
-    3,
+    4,
     9,
-    5,
-    6,
-    6,
     8,
+    4,
+    6,
+    7,
+    1,
+    3,
+    1,
+    2,
+    2,
+    0,
+    1,
+    0,
+    0,
     3,
     4,
+    8,
     1,
     2,
-    2,
-    0,
-    0,
     1,
-    0,
-    2,
-    2,
-    7,
+    3,
     4,
-    2
+    6
   ]
 }
