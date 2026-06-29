@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-06-29T22:49:54.197199+00:00",
+  "updated_at": "2026-06-29T23:49:42.006517+00:00",
   "message_count": 342,
   "channels": [
     "eRadarrua",
@@ -13,38 +13,37 @@
   ],
   "red_alerts": 108,
   "red_alerts_timeline": [
-    4,
     0,
     0,
     0,
-    8,
-    8,
+    9,
+    9,
     0,
     4,
     17,
-    8,
+    9,
     0,
     0,
-    8,
+    9,
     4,
     0,
     4,
     4,
-    8,
+    9,
     0,
     0,
-    8,
-    8,
-    12,
+    9,
+    9,
+    13,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    7,
     4,
     5,
     5,
     9,
-    14,
+    15,
     11,
     19,
     23,
@@ -62,32 +61,33 @@
     9,
     14,
     18,
-    20
+    21,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 65,
+    "@eRadarrua": 64,
     "@kpszsu": 89,
     "@mon1tor_ua": 13,
     "@UkraineNow": 26,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 126
+    "@tass_agency": 127
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/98746",
-    "kpszsu": "https://t.me/kpszsu/66840",
+    "kpszsu": "https://t.me/kpszsu/66845",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68171",
     "UkraineNow": "https://t.me/UkraineNow/82277",
     "DeepStateUA": "https://t.me/DeepStateUA/23600",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31256",
-    "tass_agency": "https://t.me/tass_agency/382981"
+    "tass_agency": "https://t.me/tass_agency/382985"
   },
   "cited_post_urls": {
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68163",
     "UkraineNow": "https://t.me/UkraineNow/82268",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68162",
     "kpszsu": "https://t.me/kpszsu/66829",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31243",
-    "tass_agency": "https://t.me/tass_agency/382979",
-    "eRadarrua": "https://t.me/eRadarrua/98713"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31237",
+    "eRadarrua": "https://t.me/eRadarrua/98734",
+    "tass_agency": "https://t.me/tass_agency/382967"
   },
   "media": [
     {
@@ -264,98 +264,97 @@
     "kpszsu/66719": "data/media/kpszsu_66719.jpg",
     "kpszsu/66718": "data/media/kpszsu_66719.jpg"
   },
-  "summary": "Russian forces launched extensive drone strikes across multiple Ukrainian regions, with significant attacks targeting Poltava, Kharkiv, Kremenchuk, and Zaporizhzhia. Ukrainian forces struck three key bridges in occupied Donetsk and Luhansk regions used for Russian logistics. A Russian attack on a private enterprise in Dnipro killed 4 and wounded 10, while Russia claims advances in the Dnepropetrovsk and Zaporozhye regions.",
+  "summary": "Russian forces launched multiple Shahed drone strikes on Poltava and Kremenchuk, with several drones redirecting mid-flight. Ukrainian forces struck three key bridges in occupied Donetsk and Lugansk regions used for Russian logistics. Putin stated he received new proposals to limit combat operations to four territories and halt deep strikes, citing Ukrainian personnel shortages.",
   "key_points": [
-    "Ukrainian forces struck three key bridges in occupied Donetsk and Luhansk regions, including a road bridge near Novoazovsk and two railway bridges, disrupting Russian logistics for personnel, weapons, and ammunition transfers. (Source: @UkraineNow/82268)",
-    "Multiple waves of strike drones targeted Poltava region from Kharkiv region, with at least 9 Shaheds reported heading toward Poltava and 1 toward Kremenchuk. (Source: @mon1tor_ua/68162)",
-    "Russian tactical aviation launched guided aviation bombs on the city of Zaporizhzhia and Kharkiv region. (Source: @kpszsu/66829, @kpszsu/66826)",
-    "A Russian attack on a private enterprise in Dnipro killed 4 people and wounded 10, with rescue operations ongoing. (Source: @UkraineNow/82259)",
-    "Russian Defense Ministry claims liberation of Bogodarovka in Dnepropetrovsk region and Pysantsy along the Vovcha River bed by Army Group 'East.' (Source: @ukr_leaks_eng/31243, @ukr_leaks_eng/31237)",
-    "In eastern Zaporozhye region, Russian forces took the settlement of Novoselovka, with Egorovka as the next objective north of Mala Tokmachka. (Source: @ukr_leaks_eng/31237)",
-    "The commander of Ukraine's 154th Separate Mechanized Brigade, Vladimir Kononnikov, was found dead, with the cause of death under investigation. (Source: @ukr_leaks_eng/31231)",
-    "Overnight drone raids damaged energy facilities in Zaporozhye region causing widespread power outages, while all districts of Kherson region are completely or partially without power. (Source: @ukr_leaks_eng/31237)"
+    "Four Shahed drones targeted Poltava, with all drones subsequently redirecting course toward Kremenchuk. (Source: @mon1tor_ua/68163, @mon1tor_ua/68171)",
+    "Ukrainian forces struck an automobile bridge near Novoazovsk in Donetsk region and two railway bridges in Lugansk region used for personnel and equipment transfers. (Source: @UkraineNow/82268)",
+    "Russian tactical aviation launched repeated guided aviation bomb strikes on the city of Zaporozhye. (Source: @kpszsu/66829, @kpszsu/66830)",
+    "Putin stated he received proposals to halt deep strikes on both sides and limit combat to Kherson, Zaporozhye, DNR, and LNR territories. (Source: @UkraineNow/82260)",
+    "In the Zaporozhye region, energy facilities were damaged and emergency power outages affected a significant part of the region; all districts of Kherson region are completely or partially without power. (Source: @ukr_leaks_eng/31237)",
+    "Russian Army Group 'East' liberated the settlement of Pysantsy in the Dnepropetrovsk direction, advancing along the Vovcha River bed. (Source: @ukr_leaks_eng/31237)",
+    "In the eastern Zaporozhye region, Russian forces took the settlement of Novoselovka, with Egorovka as the next objective north of Mala Tokmachka. (Source: @ukr_leaks_eng/31237)",
+    "A kamikaze drone struck a regular bus in the village of Petryatinka, Bryansk region, wounding a woman. (Source: @ukr_leaks_eng/31237)"
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian forces struck three key bridges in occupied Donetsk and Luhansk regions, including a road bridge near Novoazovsk and two railway bridges, disrupting Russian logistics for personnel, weapons, and ammunition transfers. Russian forces launched extensive drone strikes across Poltava, Kharkiv, Kremenchuk, and Zaporizhzhia, while tactical aviation dropped guided bombs on Zaporizhzhia and Kharkiv region. A Russian attack on a private enterprise in Dnipro killed 4 and wounded 10, and Russia claims territorial advances in Dnepropetrovsk and Zaporozhye regions.",
+    "executive_summary": "Russian forces launched multiple Shahed drone strikes on Poltava and Kremenchuk, with several drones redirecting mid-flight. Ukrainian forces struck three key bridges in occupied Donetsk and Lugansk regions used for Russian logistics. Putin stated he received new proposals to limit combat operations to four territories and halt deep strikes, citing Ukrainian personnel shortages.",
     "ukraine": {
       "points": [
-        "Ukrainian forces struck three key bridges in occupied Donetsk and Luhansk regions, including a road bridge near Novoazovsk in Donetsk region and two railway bridges in Luhansk region, which the enemy uses for transferring personnel, weapons, ammunition, and materiel. (Source: @UkraineNow/82268)",
-        "A Russian attack on a private enterprise in Dnipro killed 4 people and wounded 10, with rescue operations ongoing. (Source: @UkraineNow/82259)",
-        "The commander of Ukraine's 154th Separate Mechanized Brigade, Vladimir Kononnikov, was found dead, with the 'South' operational command reporting the cause of death is being established. (Source: @ukr_leaks_eng/31231)",
-        "Ukraine's Center for Countering Disinformation stated that Russian forces have not advanced toward Sumy since spring 2025 and remain over 20 km from the city, contradicting Putin's claim of being within 10 km. (Source: @UkraineNow/82254)",
-        "Hourly power outages will begin in all regions of Ukraine on June 30 for all consumer categories due to significant growth in energy consumption from hot weather. (Source: @ukr_leaks_eng/31255)",
-        "A Ukrainian strike on a bus depot in Kherson region destroyed civilian vehicles including 14 school buses. (Source: @ukr_leaks_eng/31237)"
+        "Ukrainian forces struck an automobile bridge near Novoazovsk in Donetsk region and two railway bridges in Lugansk region, which the enemy uses for transferring personnel, weapons, ammunition, and materiel. (Source: @UkraineNow/82268)",
+        "Ukraine faces power outages due to abnormal heat; Yasno CEO Sergey Kovalenko stated every additional 3°C in Kiev increases grid load by approximately 100 MW, compounding strain on war-damaged infrastructure. (Source: @ukr_leaks_eng/31234)",
+        "Ukrainian drone activity included three groups of UAVs from Donetsk region toward Yurievka, and four UAVs from Kharkiv region toward Valki/Kov'yagi. (Source: @eRadarrua/98734, @eRadarrua/98732)",
+        "Ukrainian drones targeted the Lymanka area in Odessa region from the Black Sea coastal waters. (Source: @kpszsu/66813)",
+        "Deputy Speaker of the Polish Sejm Krzysztof Bosak stated continued funding of the Kiev regime is disgraceful, accusing Ukraine of pursuing an anti-Polish policy and banning exhumation of Volyn massacre victims. (Source: @ukr_leaks_eng/31246)",
+        "China rejected Ukraine's request for a debt deferment in May 2026; Ukraine's budget deficit stands at 18.5% of GDP, and Zelensky signed a 2024 law suspending repayment of external debt to non-Western countries. (Source: @ukr_leaks_eng/31256)"
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation launched guided aviation bombs on the city of Zaporizhzhia and Kharkiv region. (Source: @kpszsu/66829, @kpszsu/66826)",
-        "Russian Defense Ministry claims liberation of Bogodarovka in Dnepropetrovsk region and Pysantsy along the Vovcha River bed by Army Group 'East.' (Source: @ukr_leaks_eng/31243, @ukr_leaks_eng/31237)",
-        "In eastern Zaporozhye region, Russian forces took the settlement of Novoselovka, with Egorovka as the next objective north of Mala Tokmachka. (Source: @ukr_leaks_eng/31237)",
-        "Russian forces in the Donetsk People's Republic report 3 residents killed and 13 wounded from Ukrainian drone strikes since the beginning of the day. (Source: @tass_agency/382979)",
-        "Overnight drone raids damaged energy facilities in Zaporozhye region causing emergency power outages across a significant part of the region, while all districts of Kherson region are completely or partially without power. (Source: @ukr_leaks_eng/31237)",
-        "In the Bryansk region, a kamikaze drone struck a regular bus in the village of Petryatinka, Zlynkovsky district, wounding a woman. (Source: @ukr_leaks_eng/31237)",
-        "On the Kharkov direction, Army Group 'North' continues offensive operations in Kazachya Lopan and adjacent forest areas, and on the Vovchansk sector small-arms fighting continues in Losevka, Ukrainske, and Zemlyanoy Yar. (Source: @ukr_leaks_eng/31237)"
+        "Russian tactical aviation launched repeated guided aviation bomb strikes on the city of Zaporozhye. (Source: @kpszsu/66829, @kpszsu/66830)",
+        "Russian forces conducted intensive drone strikes on Kharkov, Sumy, Pavlovgrad, and Nikolayev region overnight. (Source: @ukr_leaks_eng/31237)",
+        "Russian Army Group 'North' continues offensive operations in Kazachya Lopan and adjacent forest areas on the Kharkov direction, and small-arms fighting continues in Losevka, Ukrainske, Zemlyanoy Yar, and Petro-Ivanovka. (Source: @ukr_leaks_eng/31237)",
+        "Russian forces destroyed a bridge over the Senek River from the Kupyansk direction using an FAB strike to complicate enemy logistics. (Source: @ukr_leaks_eng/31237)",
+        "Russian forces continue assault operations in urban areas of Krasny Liman and Konstantinovka; Russian artillery destroyed a Ukrainian military shelter in Konstantinovka. (Source: @ukr_leaks_eng/31237, @ukr_leaks_eng/31242)",
+        "Russia's UN mission demanded the Secretary-General condemn Ukrainian strikes on a bus carrying Belarusians, calling the lack of UN response disappointing. (Source: @tass_agency/382967)"
       ]
     },
     "eastern_front": {
       "points": [
-        "On the Kharkov direction, Russian Army Group 'North' continues offensive operations in Kazachya Lopan and adjacent forest areas, with small-arms fighting in Losevka, Ukrainske, Zemlyanoy Yar, and Petro-Ivanovka on the Velyky Burluk sector. (Source: @ukr_leaks_eng/31237)",
-        "From the Kupyansk direction, Russian forces destroyed a bridge over the Senek River with an FAB strike to complicate enemy logistics. (Source: @ukr_leaks_eng/31237)",
-        "In Krasny Liman and Konstantinovka, Russian forces continue assault operations in urban areas while the enemy responds with numerous drone strikes. (Source: @ukr_leaks_eng/31237)",
-        "Russian tactical aviation launched guided aviation bombs on Kharkiv region. (Source: @kpszsu/66826)",
-        "Multiple groups of strike drones were tracked across Kharkiv region heading in various directions including south toward Poltava and west. (Source: @kpszsu/66834, @kpszsu/66836, @kpszsu/66809)",
-        "On the Sumy direction in Shostka district, Russian assault troops continue small-arms battles in Bachevsk and surroundings, while fighting also continues in Pysarevka, Marino, Novaya Sech, and forest areas of Krasnopolye district. (Source: @ukr_leaks_eng/31237)"
+        "Russian Army Group 'East' liberated the settlement of Pysantsy in the Dnepropetrovsk direction, advancing along the Vovcha River bed. (Source: @ukr_leaks_eng/31237)",
+        "In the eastern Zaporozhye region, Russian forces took the settlement of Novoselovka; Egorovka, located north of Mala Tokmachka, is the next objective. (Source: @ukr_leaks_eng/31237)",
+        "Russian forces continue assault operations in urban areas of Krasny Liman and Konstantinovka, with the enemy responding with numerous drone strikes. (Source: @ukr_leaks_eng/31237)",
+        "Russian forces destroyed a bridge over the Senek River from the Kupyansk direction using an FAB strike to complicate enemy logistics. (Source: @ukr_leaks_eng/31237)",
+        "Russian artillery destroyed a Ukrainian military shelter in Konstantinovka. (Source: @ukr_leaks_eng/31242)",
+        "In the DNR, three residents were killed and 13 wounded from Ukrainian UAV strikes since the beginning of the day, according to head of republic Pushilin. (Source: @tass_agency/382979)"
       ]
     },
     "northern_front": {
       "points": [
-        "In the Belgorod region, Rakitnansky district, an FPV drone attacked a commercial facility in Proletarsky, causing a woman to sustain barotrauma. Settlements under attack include Vyazovoye, Nizhneye Berezovo-Vtoroye, Gora-Podol, Proletarsky, Dolgoye, Oktyabrsky, and Berezovka. (Source: @ukr_leaks_eng/31237)",
+        "On the Sumy direction, Army Group 'North' assault troops continue small-arms battles in Bachevsk and surroundings in Shostka district, and fighting in Pysarevka, Marino, and Novaya Sech in Sumy district. (Source: @ukr_leaks_eng/31237)",
+        "In the Belgorod region's Rakitnyansky district, an FPV drone attacked a commercial facility in Proletarsky, causing a woman barotrauma; settlements Vyazovoye, Nizhneye Berezovo-Vtoroye, Gora-Podol, Proletarsky, Dolgoye, Oktyabrsky, and Berezovka were under attack. (Source: @ukr_leaks_eng/31237)",
         "In the Bryansk region, a kamikaze drone struck a regular bus in the village of Petryatinka, Zlynkovsky district, wounding a woman. (Source: @ukr_leaks_eng/31237)",
-        "Drones were tracked heading toward Kharkiv from the north and toward Men in Chernihiv region from the northwest. (Source: @kpszsu/66812)",
-        "On the Sumy direction, Russian forces continue operations in Shostka, Sumy, and Krasnopolye districts with small-arms battles and forest fighting. (Source: @ukr_leaks_eng/31237)"
+        "At least three UAVs were detected along the border toward Dobryanku in Chernigov region. (Source: @eRadarrua/98708, @eRadarrua/98707)",
+        "Russian Army Group 'North' continues offensive operations in Kazachya Lopan and adjacent forest areas on the Kharkov direction; AFU assault units made several unsuccessful counterattacks near Otradnogo. (Source: @ukr_leaks_eng/31237)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian tactical aviation launched guided aviation bombs on the city of Zaporizhzhia. (Source: @kpszsu/66829)",
-        "In the eastern Zaporozhye region, Russian forces took Novoselovka, with Egorovka as the next objective north of Mala Tokmachka. (Source: @ukr_leaks_eng/31237)",
-        "Overnight drone raids damaged energy facilities in Zaporozhye region causing emergency power outages, while all districts of Kherson region are completely or partially without power. (Source: @ukr_leaks_eng/31237)",
-        "A Ukrainian strike on a bus depot in Kherson region destroyed civilian vehicles including 14 school buses. (Source: @ukr_leaks_eng/31237)",
-        "In the Dnepropetrovsk direction, Russian Army Group 'East' claims liberation of Pysantsy, advancing along the Vovcha River bed, and Bogodarovka. (Source: @ukr_leaks_eng/31237, @ukr_leaks_eng/31243)",
-        "Crimea and Sevastopol repelled an overnight drone attack, with air raid warnings sounding again by morning and at least 2 UAVs shot down; the Crimean Bridge has been closed since night. (Source: @ukr_leaks_eng/31237)"
+        "In the Zaporozhye region, energy facilities were damaged and emergency power outages affected a significant part of the region. (Source: @ukr_leaks_eng/31237)",
+        "All districts of the neighboring Kherson region are completely or partially without power. (Source: @ukr_leaks_eng/31237)",
+        "Crimea and Sevastopol repelled an attack; air raid warnings were sounding again in Sevastopol by morning with at least two UAVs shot down, and the Crimean Bridge has been closed since the night. (Source: @ukr_leaks_eng/31237)",
+        "A Ukrainian strike hit a bus depot in the Kherson region, destroying civilian vehicles including 14 school buses. (Source: @ukr_leaks_eng/31237)",
+        "Russian tactical aviation launched repeated guided aviation bomb strikes on the city of Zaporozhye. (Source: @kpszsu/66829, @kpszsu/66830)",
+        "Ukrainian drones targeted the Lymanka area in Odessa region from the Black Sea coastal waters. (Source: @kpszsu/66813)"
       ]
     },
     "air_war": {
       "points": [
-        "Multiple waves of strike drones targeted Poltava region from Kharkiv region, with at least 9 Shaheds reported toward Poltava, 1 toward Kremenchuk, and 3 Shaheds from Kharkiv region toward Poltava region. (Source: @mon1tor_ua/68162)",
-        "Strike drones were tracked from Kharkiv region toward Poltava, south-southeast of Poltava heading south, east of Bogodukhiv heading south, and north of Pavlohograd on the border of Dnipropetrovsk and Kharkiv regions toward Poltava region. (Source: @kpszsu/66837, @kpszsu/66825, @kpszsu/66831, @kpszsu/66836)",
-        "Groups of strike drones were tracked east of Kharkiv region heading west, toward Sakhnovshchyna from the north, and toward Kushuhum in Zaporizhzhia region from the south. (Source: @kpszsu/66834, @kpszsu/66809, @kpszsu/66810)",
-        "In Poltava region, 3 reactive drones were reported in Zavodsky district, and 4 drones tracked from Yuriivka past Perechepyne toward Kobyelyaky, with additional groups past Chutove and 2 more in Kharkiv region. (Source: @eRadarrua/98713, @eRadarrua/98720, @eRadarrua/98741)",
-        "Russian tactical aviation launched guided aviation bombs on Zaporizhzhia and Kharkiv region. (Source: @kpszsu/66829, @kpszsu/66826)",
-        "In Dnipropetrovsk region, 4 drone groups targeted Yuriivka from Dobropillya; in Zaporizhzhia region, 3 drones near Vilnyansk; in Chernihiv region, a guided drone near Horodnya. (Source: @eRadarrua/98712)",
-        "The number of drones intercepted on approach to Moscow since the beginning of the day exceeded 10. (Source: @tass_agency/382970)"
+        "Four Shahed drones targeted Poltava, with all drones subsequently redirecting course toward Kremenchuk. (Source: @mon1tor_ua/68163, @mon1tor_ua/68171)",
+        "Three Shahed drones were reported heading toward Kremenchuk. (Source: @mon1tor_ua/68160)",
+        "A group of attack UAVs from Kharkiv region headed toward Poltava from the southern direction. (Source: @kpszsu/66839)",
+        "A group of strike UAVs from Kharkiv region headed toward Poltava. (Source: @kpszsu/66837)",
+        "Three groups of UAVs from the direction of Dobropolye in Donetsk region headed toward the border of regions in the direction of Yurievka. (Source: @eRadarrua/98734)",
+        "Four UAVs from the north headed toward Valki/Kov'yagi in Kharkiv region. (Source: @eRadarrua/98732)",
+        "At least three UAVs were detected along the border toward Dobryanku in Chernigov region. (Source: @eRadarrua/98708, @eRadarrua/98707)"
       ]
     },
     "key_developments": [
-      "Ukrainian forces struck three key bridges in occupied Donetsk and Luhansk regions, including a road bridge near Novoazovsk and two railway bridges, disrupting Russian logistics for personnel, weapons, ammunition, and materiel transfers. (Source: @UkraineNow/82268)",
-      "Multiple waves of strike drones targeted Poltava region from Kharkiv region, with at least 9 Shaheds toward Poltava, 1 toward Kremenchuk, and additional groups tracked across multiple vectors. (Source: @mon1tor_ua/68162)",
-      "A Russian attack on a private enterprise in Dnipro killed 4 people and wounded 10, with rescue operations ongoing. (Source: @UkraineNow/82259)",
-      "Russian forces claim liberation of Bogodarovka in Dnepropetrovsk region and Pysantsy along the Vovcha River bed by Army Group 'East,' plus Novoselovka in eastern Zaporozhye region. (Source: @ukr_leaks_eng/31243, @ukr_leaks_eng/31237)",
-      "Russian tactical aviation launched guided aviation bombs on the city of Zaporizhzhia and Kharkiv region. (Source: @kpszsu/66829, @kpszsu/66826)",
-      "Overnight drone raids damaged energy facilities in Zaporozhye region causing widespread power outages, while all districts of Kherson region are completely or partially without power. (Source: @ukr_leaks_eng/31237)",
-      "The commander of Ukraine's 154th Separate Mechanized Brigade, Vladimir Kononnikov, was found dead, with the cause of death under investigation by the 'South' operational command. (Source: @ukr_leaks_eng/31231)"
+      "Four Shahed drones targeted Poltava, then all redirected course toward Kremenchuk, indicating possible Ukrainian air defense pressure or Russian targeting adjustments. (Source: @mon1tor_ua/68163, @mon1tor_ua/68171)",
+      "Ukrainian forces struck an automobile bridge near Novoazovsk in Donetsk region and two railway bridges in Lugansk region, disrupting Russian logistics for personnel, weapons, and materiel transfers. (Source: @UkraineNow/82268)",
+      "Putin stated he received proposals to halt deep strikes on both sides and limit combat to Kherson, Zaporozhye, DNR, and LNR, claiming the reason is catastrophic Ukrainian personnel shortages. (Source: @UkraineNow/82260)",
+      "Russian Army Group 'East' liberated Pysantsy in the Dnepropetrovsk direction along the Vovcha River, and Russian forces took Novoselovka in eastern Zaporozhye region with Egorovka as next objective. (Source: @ukr_leaks_eng/31237)",
+      "Energy facilities in Zaporozhye region were damaged causing widespread outages; all districts of Kherson region are completely or partially without power following overnight Ukrainian strikes. (Source: @ukr_leaks_eng/31237)",
+      "Russian tactical aviation launched repeated guided aviation bomb strikes on Zaporozhye, while Russian drone strikes targeted Kharkov, Sumy, Pavlovgrad, and Nikolayev region. (Source: @kpszsu/66829, @kpszsu/66830, @ukr_leaks_eng/31237)",
+      "A kamikaze drone struck a regular bus in Petryatinka village, Bryansk region, wounding a woman; in Belgorod region an FPV drone attacked a commercial facility in Proletarsky causing barotrauma to a woman. (Source: @ukr_leaks_eng/31237)"
     ],
-    "threat_assessment": "The operational tempo is escalating significantly with coordinated multi-axis drone strikes targeting Poltava, Kharkiv, Kremenchuk, and Zaporizhzhia regions simultaneously. Russian forces are pressing offensive operations across the eastern front in Kharkov, Kupyansk, Krasny Liman, and Konstantinovka directions while claiming territorial gains in Dnepropetrovsk and Zaporozhye regions. Ukrainian strikes against logistics infrastructure in occupied Donetsk and Luhansk demonstrate continued deep-strike capability against Russian supply lines. The loss of the 154th Separate Mechanized Brigade commander represents a potential leadership disruption requiring monitoring.",
-    "regional_response": "Belgorod and Bryansk regions continue to suffer cross-border drone attacks targeting civilian infrastructure including a bus in Petryatinka and a commercial facility in Proletarsky. The Russian MFA has demanded UN Security Council condemnation of Ukrainian strikes on a bus carrying Belarusians, while claiming Ukraine is attempting to draw NATO into direct conflict. Energy infrastructure across Zaporozhye and Kherson regions has been severely degraded by overnight drone raids, causing widespread blackouts. The Crimean Bridge remains closed following overnight drone attacks on Crimea and Sevastopol.",
-    "intelligence_notes": "Russian claims of territorial advances in Dnepropetrovsk and Zaporozhye regions require independent verification, as Ukrainian sources contest Russian claims of approaching Sumy within 10 km, stating Russian forces remain over 20 km away and have not advanced since spring 2025. The extensive drone activity across Poltava region from multiple vectors suggests a coordinated saturation attack pattern. The death of 154th Brigade commander Kononnikov is confirmed but circumstances remain undisclosed. Power grid restrictions across all Ukrainian regions beginning June 30 indicate growing energy strain from increased consumption during hot weather."
+    "threat_assessment": "The operational tempo remains high across multiple axes, with Russia maintaining pressure through Shahed drone strikes on Poltava and Kremenchuk and repeated guided bomb strikes on Zaporozhye. Ukrainian forces are actively targeting Russian logistics infrastructure, striking three bridges in Donetsk and Lugansk regions. The Sumy and Kharkov directions see continued ground engagements with Russian Army Group 'North' advancing in multiple settlements. Civilian infrastructure remains at risk on both sides, with energy outages in Zaporozhye and Kherson regions and drone strikes on civilian vehicles in Russian border regions.",
+    "regional_response": "Polish Deputy Speaker Krzysztof Bosak publicly condemned continued funding of Ukraine, citing anti-Polish policies and the Volyn massacre exhumation ban, signaling potential friction in Polish-Ukrainian relations. China formally rejected Ukraine's debt deferment request, with Ukraine's budget deficit at 18.5% of GDP and a 2024 law suspending non-Western debt repayments straining creditor relations. Russia's UN mission demanded the Secretary-General condemn Ukrainian strikes on a bus carrying Belarusians, using the incident for diplomatic pressure.",
+    "intelligence_notes": "The drone redirect from Poltava to Kremenchuk suggests either Ukrainian air defense displacement or deliberate Russian target reassessment mid-flight. Putin's public acknowledgment of ceasefire proposals limiting combat to four territories may indicate exploratory diplomatic signaling, though he framed the proposal as originating from the Ukrainian side due to personnel shortages. The destruction of the Senek River bridge by FAB strike and three occupied-territory bridges by Ukraine highlights logistics nodes as priority targets for both sides. Local resistance to military commissars was filmed in Krivoy Rog and Zaporozhye, suggesting domestic mobilization pressures."
   },
   "missiles": 0,
   "drones": 108,
   "kpszsu_timeline": [
-    2,
     1,
     4,
     3,
@@ -378,6 +377,7 @@
     1,
     4,
     4,
+    2,
     2
   ]
 }
