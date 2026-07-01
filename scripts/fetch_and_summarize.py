@@ -24,12 +24,10 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 # rate-limited (429) or a model is retired (404), the next provider still works —
 # this prevents a single outage from wiping out every fallback.
 MODELS = [
-    "deepseek/deepseek-chat-v3-0324:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "google/gemini-2.0-flash-exp:free",
-    "qwen/qwen-2.5-72b-instruct:free",
-    "mistralai/mistral-small-3.2-24b-instruct:free",
-    "openai/gpt-oss-120b:free",
+    "cohere/north-mini-code:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "poolside/laguna-m.1:free",
+    "google/gemma-4-31b-it:free",
 ]
 
 CONFLICTS = {
