@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-01T13:10:40.270017+00:00",
-  "message_count": 282,
+  "updated_at": "2026-07-01T14:20:45.267333+00:00",
+  "message_count": 290,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,13 +13,12 @@
   ],
   "red_alerts": 151,
   "red_alerts_timeline": [
-    0,
     6,
     0,
     6,
     17,
-    6,
-    28,
+    11,
+    22,
     11,
     6,
     22,
@@ -28,67 +27,141 @@
     0,
     0,
     0,
-    0,
-    22,
+    6,
+    17,
     11,
     6,
     0,
     0,
     6,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    14,
-    18,
-    14,
-    10,
     19,
-    4,
-    16,
-    9,
-    8,
     11,
-    3,
-    6,
-    6,
+    11,
+    19,
     5,
+    16,
     7,
     8,
-    15,
+    10,
+    4,
+    6,
+    7,
+    5,
+    6,
+    9,
     15,
     14,
-    15,
-    13,
-    18,
     16,
-    15
+    13,
+    16,
+    17,
+    16,
+    19,
+    18
   ],
   "messages_by_channel": {
-    "@eRadarrua": 68,
-    "@kpszsu": 36,
-    "@mon1tor_ua": 8,
-    "@UkraineNow": 23,
-    "@DeepStateUA": 6,
-    "@ukr_leaks_eng": 22,
-    "@tass_agency": 119
+    "@eRadarrua": 76,
+    "@kpszsu": 37,
+    "@mon1tor_ua": 10,
+    "@UkraineNow": 24,
+    "@DeepStateUA": 4,
+    "@ukr_leaks_eng": 24,
+    "@tass_agency": 115
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/98910",
-    "kpszsu": "https://t.me/kpszsu/66987",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68198",
-    "UkraineNow": "https://t.me/UkraineNow/82316",
+    "eRadarrua": "https://t.me/eRadarrua/98929",
+    "kpszsu": "https://t.me/kpszsu/66991",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68200",
+    "UkraineNow": "https://t.me/UkraineNow/82319",
     "DeepStateUA": "https://t.me/DeepStateUA/23611",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31297",
-    "tass_agency": "https://t.me/tass_agency/383218"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31301",
+    "tass_agency": "https://t.me/tass_agency/383225"
   },
-  "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/98871",
-    "UkraineNow": "https://t.me/UkraineNow/82304",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31295",
-    "tass_agency": "https://t.me/tass_agency/383200"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/82319",
+      "post_id": 82319,
+      "channel": "UkraineNow",
+      "ts": "2026-07-01T14:05:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383224",
+      "post_id": 383224,
+      "channel": "tass_agency",
+      "ts": "2026-07-01T14:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/98922",
+      "post_id": 98922,
+      "channel": "eRadarrua",
+      "ts": "2026-07-01T13:45:35+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/nhU2c8oOMUFRYYf_nuh9XVcOEw4d6__VsFYc2P7tv9wcDF3yLDjDqwfPlPKvapiZJSsvlT4QTyIH7HGImEjGsE57XlF-FjVMQbUsrfu-r-SEoVSGPfcpBHmAz6co5Qdm5zp_n3YbacjnmQOEmbyktlIZwcMpuuawH4xRSx87AwQY3lJOENAPyIRdUwPXEPcWCwDACiGp4GbBoSSFqjCE0lt0TTO-Z-r2kTOAHVMC_8tXDX9cW1ydyo0O4eFdyBXqOQVIRj3yYRrVdpexJGEe8ImQZ-rurGUMKm55LLSMY-aAFgOvRkaNwU4sUc2-NGize8ofMCC2Rr4B1tyPmZbhJQ.jpg",
+      "companion_text_id": 98921
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/98921",
+      "post_id": 98921,
+      "channel": "eRadarrua",
+      "ts": "2026-07-01T13:43:30+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/NkTAHjfHuLa_wbK_FxdSHrdLT4tWD1icKz-ZKbS2OmM_BdoqOUTaiaDM1jcYl60IZPjwOsIeNYiuWrtUQXAwgRoQge2r3FDyqM51Hlhzl_TfAN4HHez3wNQBmzqlQTXeQ8TuXJ56mbmlpTSuzwl_Fb64uI6zOYv5-9tnOwMG5JjlbBON3EdoKIxeh4_WZa2oKRNaL1gG8Reb50__F04RpZRPD5DGnZpNsMbWewyAMbR3CLqi9nwC619ssdBZbmUXGLnovDkoQdHdsCgcHPXDgNJWruXvxr_h3SaEOCM4IU4EisqePgJqsyeka2fDkd2QUEVuzdbs8IPBiuoF0f6K0g.jpg",
+      "companion_text_id": 98922
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31300",
+      "post_id": 31300,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-01T13:33:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383221",
+      "post_id": 383221,
+      "channel": "tass_agency",
+      "ts": "2026-07-01T13:32:38+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/98917",
+      "post_id": 98917,
+      "channel": "eRadarrua",
+      "ts": "2026-07-01T13:32:26+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/mmdzKSGArg1FDZ1C8QOIfJbU9qyYglN-R8u-7HK88dLSsvth3BAbqCzVRQm0AE-Zs84916tJJAFWyde-PXzAGPyV9lSQUvtH_iiZN_hGxr80uaniCpWQcnGh3SSn4blugfFPlYxL3eYHCvO86jn8ZkWYij2qIGdKGkbPTiBJqOwlFLarJvNL5Of32bpAVAMcmEHjfD4NO8dZCZhP3wkKEL9RMXOpxg6EBdkW3VzoIyh8o8zEvTnYvUJ4PBWmSaRAQ5JNGSvwaNi-UmfcYp35N13-yGIaCwgkaIThySmZYjQIuCjnscHDR5S1-6e3tXgkFOHWt02L15wP-u47jaqFuw.jpg",
+      "companion_text_id": 98915
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/98915",
+      "post_id": 98915,
+      "channel": "eRadarrua",
+      "ts": "2026-07-01T13:12:02+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Zp8qSc__ibIwLwugiFr7bydwkcNZhIuxNTxiFAdlv9W9nB3hTj_pmHd-fvndrAncx7m3pO7SWWi-ufpk4dEaGaYZpYAarQO6pf0mhnQ2nDnMwh3iMEbqy2gXTUv_HI05mpbHKOGljxFvKPyE38odw_lZmw4N3mJKRF0DKg47UPjg-3jFsyFNcS75wD_e8cQjOvOhtdQSAT8QFJnXwG9q0ptZPkIJnJA5VnCMOaIAbnhlsIgDxFRjLhy-H1t0OLcVQiZfC4esqyPhSAgUYKEZm7-H-HFl25zvjlQ9cNIjdnkoUYCsv1IEg4WI11-WLGN-X-VEh9zIpXIjYWcuNPSVkw.jpg",
+      "companion_text_id": 98917
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/98913",
+      "post_id": 98913,
+      "channel": "eRadarrua",
+      "ts": "2026-07-01T13:09:22+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/RK5FdNkk8_geV5JnxAkliU6jBr2LUVg3cC_eNr5mPoUQ1Wj0gCZh0Ukf5XhVAu53EGMF1QuxlC_bJtgZDNVuKYp6fmYxRUq-THxks3iOH1Yb3TApc3Rymjzzy0SRLqWdZ2XKqwfwlsWjbBv8zyGGaVrdTuKzepVfh0PgJVyG4ewncPs_lnY7GNILkhfuh5KBOCWTWaip-hEFWsQJ7uMFYNjvDIgHEN9oqxw1SYRlLqLFeH4KB7TESxdzsyK07hxsyrbw1dBsVTlfKO8brjGI9PLb9P5rQsVrV0nkfX8MUMC5qWULfxvfp4BSF-uc2fe_Txf2hCPOd5zeoUXsENmJaw.jpg",
+      "companion_text_id": 98912
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383219",
+      "post_id": 383219,
+      "channel": "tass_agency",
+      "ts": "2026-07-01T13:09:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/98911",
+      "post_id": 98911,
+      "channel": "eRadarrua",
+      "ts": "2026-07-01T13:01:28+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/YhXysbbGkW-Bk7hzvLkTwZ6Tuu1_KzyuGHzZjd7ltSC6UtVCa3UQMnu9Tf_L9MSPPP6lnzVDr69fU2qb14XQpmBCmFELLD42qtW5gtCP3QYPsQtd68WaP7ZpExeGXd4tJpTIOwTplZNCNkoAYJrp-gzCq0AYQiuDBFgzKss97vG4VJMElfnnzXpQ8SuMQBQv9cAeH8FTsjLKB8aujU7J5XebWig-9nJywZ3XjJJnuCNkoINGfHOpbUwm0P7l6YfMtYnm6VEVpElqECJqJfRAEC5SHQ_KNHBd3_yyLiGKnf4akfpGXX6NWtVPbmt8ffX2XyeQ6Yogn2cCJVpQkCamOA.jpg",
+      "companion_text_id": 98910
+    },
     {
       "post_url": "https://t.me/tass_agency/383218",
       "post_id": 383218,
@@ -144,76 +217,17 @@
       "post_id": 23611,
       "channel": "DeepStateUA",
       "ts": "2026-07-01T10:57:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23605",
-      "post_id": 23605,
-      "channel": "DeepStateUA",
-      "ts": "2026-07-01T10:24:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31292",
-      "post_id": 31292,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-01T09:34:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383186",
-      "post_id": 383186,
-      "channel": "tass_agency",
-      "ts": "2026-07-01T09:24:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/98885",
-      "post_id": 98885,
-      "channel": "eRadarrua",
-      "ts": "2026-07-01T09:11:41+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/WaMUXlcCNwVY-WAO0_sgEk3D7tF4OChiT1gyywiKSQx0FEwEi7BBHTar16Qz68FDTx5qxAKCl4qmw7zanNOllppgXjnZQSShzc83qi8FwoKwuC0ae0b5pI-xwAs8WFay3pa6N5uzJNQhXnla6m_XTK-j4TZy2zYvviyw_cFnKqgych00-e2XlJOeI7akDWFVXsGHmXyEsk4cTh4FsgzDDcDbILQ8TY7bs_N0HXJIA008J10pTFNgqtiCmgeWenfAbkiwVVXRlq-yA7T2Dwu2VxJv1kmjib-amspjnOHHlqEgVyBxXX4gWHsVC5Wys_Rh9RUm5IMf3NpTHIBEW1Jz3w.jpg"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31291",
-      "post_id": 31291,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-01T09:03:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383184",
-      "post_id": 383184,
-      "channel": "tass_agency",
-      "ts": "2026-07-01T09:01:20+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82310",
-      "post_id": 82310,
-      "channel": "UkraineNow",
-      "ts": "2026-07-01T08:59:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383181",
-      "post_id": 383181,
-      "channel": "tass_agency",
-      "ts": "2026-07-01T08:55:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383180",
-      "post_id": 383180,
-      "channel": "tass_agency",
-      "ts": "2026-07-01T08:49:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31290",
-      "post_id": 31290,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-01T08:26:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383174",
-      "post_id": 383174,
-      "channel": "tass_agency",
-      "ts": "2026-07-01T08:13:01+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/98911": "data/media/eRadarrua_98911.jpg",
+    "eRadarrua/98910": "data/media/eRadarrua_98911.jpg",
+    "eRadarrua/98913": "data/media/eRadarrua_98913.jpg",
+    "eRadarrua/98912": "data/media/eRadarrua_98913.jpg",
+    "eRadarrua/98915": "data/media/eRadarrua_98915.jpg",
+    "eRadarrua/98917": "data/media/eRadarrua_98917.jpg",
+    "eRadarrua/98921": "data/media/eRadarrua_98921.jpg",
+    "eRadarrua/98922": "data/media/eRadarrua_98922.jpg",
     "eRadarrua/98901": "data/media/eRadarrua_98901.jpg",
     "eRadarrua/98900": "data/media/eRadarrua_98901.jpg",
     "eRadarrua/98872": "data/media/eRadarrua_98872.jpg",
@@ -231,104 +245,23 @@
     "eRadarrua/98843": "data/media/eRadarrua_98844.jpg",
     "eRadarrua/98815": "data/media/eRadarrua_98815.jpg",
     "eRadarrua/98814": "data/media/eRadarrua_98815.jpg",
-    "eRadarrua/98794": "data/media/eRadarrua_98794.jpg",
-    "eRadarrua/98793": "data/media/eRadarrua_98794.jpg",
-    "eRadarrua/98795": "data/media/eRadarrua_98795.jpg",
-    "eRadarrua/98796": "data/media/eRadarrua_98795.jpg",
-    "eRadarrua/98797": "data/media/eRadarrua_98797.jpg",
-    "eRadarrua/98787": "data/media/eRadarrua_98787.jpg",
-    "eRadarrua/98788": "data/media/eRadarrua_98788.jpg",
     "kpszsu/66963": "data/media/kpszsu_66963.jpg",
     "kpszsu/66961": "data/media/kpszsu_66963.jpg"
   },
-  "summary": "Russian forces are preparing for a large-scale missile attack with up to 60 Kh-101 cruise missiles and 30 Iskander-M systems, targeting Kyiv and western Ukraine. Ukrainian forces report ongoing drone strikes on Russian positions in Kherson and Mykolaiv regions, while Russian forces claim control over settlements in Kharkiv and Zaporizhzhia. Infrastructure attacks continue, including a fire at a power substation in Lyubertsy and strikes on Ukrainian energy facilities. (Source: @eRadarrua/98871)",
-  "key_points": [
-    "Russian forces are preparing for a large-scale missile attack with up to 60 Kh-101 cruise missiles and 30 Iskander-M systems, targeting Kyiv and western Ukraine. (Source: @eRadarrua/98871)",
-    "Ukrainian forces report ongoing drone strikes on Russian positions in Kherson and Mykolaiv regions, with 30 injured in a bus attack in Kherson. (Source: @UkraineNow/82304)",
-    "Russian forces claim control over settlements in Kharkiv and Zaporizhzhia regions, including Ukrainskoye and Kopani. (Source: @ukr_leaks_eng/31295)",
-    "A fire at a power substation in Lyubertsy caused electricity outages, with 20 brigades deployed for restoration. (Source: @tass_agency/383200)",
-    "Russian forces struck Ukrainian drone control points in Donetsk and Sumy regions with FAB-500 bombs and a Kh-38 missile. (Source: @tass_agency/383212)",
-    "Ukrainian drones targeted Russian aircraft hangars at the Sakai airfield in Crimea, damaging Su-30SM fighters. (Source: @UkraineNow/82307)",
-    "Russian forces in Krasny Liman are reportedly entrenched in basements and not moving openly, according to a Russian military source. (Source: @tass_agency/383207)",
-    "Ukrainian military confirmed strikes on five gas stations in Dnipropetrovsk region overnight. (Source: @ukr_leaks_eng/31290)"
-  ],
-  "sentiment": "volatile",
-  "intensity": 8,
-  "sections": {
-    "executive_summary": "Russian forces are preparing for a large-scale missile attack with up to 60 Kh-101 cruise missiles and 30 Iskander-M systems, targeting Kyiv and western Ukraine. Ukrainian forces report ongoing drone strikes on Russian positions in Kherson and Mykolaiv regions, while Russian forces claim control over settlements in Kharkiv and Zaporizhzhia. Infrastructure attacks continue, including a fire at a power substation in Lyubertsy and strikes on Ukrainian energy facilities. (Source: @eRadarrua/98871)",
-    "ukraine": {
-      "points": [
-        "Ukrainian forces report ongoing drone strikes on Russian positions in Kherson and Mykolaiv regions, with 30 injured in a bus attack in Kherson. (Source: @UkraineNow/82304)",
-        "Ukrainian military confirmed strikes on five gas stations in Dnipropetrovsk region overnight. (Source: @ukr_leaks_eng/31290)",
-        "Ukrainian drones targeted Russian aircraft hangars at the Sakai airfield in Crimea, damaging Su-30SM fighters. (Source: @UkraineNow/82307)",
-        "Ukrainian forces in Kherson report a bus attack with two fatalities and five injuries. (Source: @UkraineNow/82304)",
-        "Ukrainian military confirmed strikes on five gas stations in Dnipropetrovsk region overnight. (Source: @ukr_leaks_eng/31290)"
-      ]
-    },
-    "russia": {
-      "points": [
-        "Russian forces are preparing for a large-scale missile attack with up to 60 Kh-101 cruise missiles and 30 Iskander-M systems, targeting Kyiv and western Ukraine. (Source: @eRadarrua/98871)",
-        "A fire at a power substation in Lyubertsy caused electricity outages, with 20 brigades deployed for restoration. (Source: @tass_agency/383200)",
-        "Russian forces claim control over settlements in Kharkiv and Zaporizhzhia regions, including Ukrainskoye and Kopani. (Source: @ukr_leaks_eng/31295)",
-        "Russian forces in Krasny Liman are reportedly entrenched in basements and not moving openly, according to a Russian military source. (Source: @tass_agency/383207)",
-        "Russian forces struck Ukrainian drone control points in Donetsk and Sumy regions with FAB-500 bombs and a Kh-38 missile. (Source: @tass_agency/383212)"
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Russian forces in Krasny Liman are reportedly entrenched in basements and not moving openly, according to a Russian military source. (Source: @tass_agency/383207)",
-        "Russian forces claim control over settlements in Kharkiv and Zaporizhzhia regions, including Ukrainskoye and Kopani. (Source: @ukr_leaks_eng/31295)",
-        "Russian forces struck Ukrainian drone control points in Donetsk and Sumy regions with FAB-500 bombs and a Kh-38 missile. (Source: @tass_agency/383212)",
-        "Russian forces report ongoing attacks on Enerhodar, with infrastructure challenges and regular shelling of the approach road. (Source: @tass_agency/383202)"
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Russian forces report ongoing attacks on Enerhodar, with infrastructure challenges and regular shelling of the approach road. (Source: @tass_agency/383202)",
-        "Russian forces in Krasny Liman are reportedly entrenched in basements and not moving openly, according to a Russian military source. (Source: @tass_agency/383207)",
-        "Russian forces claim control over settlements in Kharkiv and Zaporizhzhia regions, including Ukrainskoye and Kopani. (Source: @ukr_leaks_eng/31295)",
-        "Russian forces report ongoing attacks on Enerhodar, with infrastructure challenges and regular shelling of the approach road. (Source: @tass_agency/383202)"
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Ukrainian forces report ongoing drone strikes on Russian positions in Kherson and Mykolaiv regions, with 30 injured in a bus attack in Kherson. (Source: @UkraineNow/82304)",
-        "Ukrainian military confirmed strikes on five gas stations in Dnipropetrovsk region overnight. (Source: @ukr_leaks_eng/31290)",
-        "Russian forces claim control over settlements in Kharkiv and Zaporizhzhia regions, including Ukrainskoye and Kopani. (Source: @ukr_leaks_eng/31295)",
-        "Ukrainian drones targeted Russian aircraft hangars at the Sakai airfield in Crimea, damaging Su-30SM fighters. (Source: @UkraineNow/82307)"
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Russian forces are preparing for a large-scale missile attack with up to 60 Kh-101 cruise missiles and 30 Iskander-M systems, targeting Kyiv and western Ukraine. (Source: @eRadarrua/98871)",
-        "Ukrainian drones targeted Russian aircraft hangars at the Sakai airfield in Crimea, damaging Su-30SM fighters. (Source: @UkraineNow/82307)",
-        "Russian forces report ongoing attacks on Enerhodar, with infrastructure challenges and regular shelling of the approach road. (Source: @tass_agency/383202)",
-        "Russian forces in Krasny Liman are reportedly entrenched in basements and not moving openly, according to a Russian military source. (Source: @tass_agency/383207)"
-      ]
-    },
-    "key_developments": [
-      "Russian forces are preparing for a large-scale missile attack with up to 60 Kh-101 cruise missiles and 30 Iskander-M systems, targeting Kyiv and western Ukraine. (Source: @eRadarrua/98871)",
-      "Ukrainian forces report ongoing drone strikes on Russian positions in Kherson and Mykolaiv regions, with 30 injured in a bus attack in Kherson. (Source: @UkraineNow/82304)",
-      "A fire at a power substation in Lyubertsy caused electricity outages, with 20 brigades deployed for restoration. (Source: @tass_agency/383200)",
-      "Russian forces claim control over settlements in Kharkiv and Zaporizhzhia regions, including Ukrainskoye and Kopani. (Source: @ukr_leaks_eng/31295)",
-      "Ukrainian drones targeted Russian aircraft hangars at the Sakai airfield in Crimea, damaging Su-30SM fighters. (Source: @UkraineNow/82307)",
-      "Russian forces struck Ukrainian drone control points in Donetsk and Sumy regions with FAB-500 bombs and a Kh-38 missile. (Source: @tass_agency/383212)",
-      "Ukrainian military confirmed strikes on five gas stations in Dnipropetrovsk region overnight. (Source: @ukr_leaks_eng/31290)"
-    ],
-    "threat_assessment": "The potential large-scale missile attack by Russian forces poses a significant threat to Ukrainian infrastructure and population centers, particularly in Kyiv and western regions. The use of Kh-101 cruise missiles and Iskander-M systems indicates a high-intensity strike capability. Ukrainian forces are actively targeting Russian positions in southern regions, with notable attacks on military infrastructure in Crimea. The situation remains volatile with both sides engaging in sustained operations. (Source: @eRadarrua/98871)",
-    "regional_response": "Ukrainian forces are responding to Russian missile threats with increased drone activity and targeted strikes on Russian military infrastructure. The Czech Republic and Poland have taken political actions against Ukrainian leadership, reflecting regional tensions. NATO Secretary General Mark Rutte is reportedly concerned about the Russian threat, indicating potential for increased Western support. The situation in Enerhodar remains tense with ongoing shelling and infrastructure challenges. (Source: @ukr_leaks_eng/31279)",
-    "intelligence_notes": "Russian forces are consolidating control in eastern regions while preparing for large-scale missile attacks. Ukrainian drone operations are intensifying, with successful strikes on Russian airfields and energy facilities. Infrastructure vulnerabilities in both countries are being exploited, with fires and outages affecting civilian populations. Political developments, such as the Czech Republic's actions against Zelensky, may impact regional alliances. (Source: @tass_agency/383200)"
-  },
+  "summary": "Summary unavailable.",
+  "key_points": [],
+  "sentiment": "unknown",
+  "intensity": 5,
+  "sections": {},
   "missiles": 0,
   "drones": 151,
   "kpszsu_timeline": [
+    5,
+    2,
     1,
     4,
-    4,
     1,
-    4,
     0,
-    1,
     0,
     0,
     3,
@@ -338,13 +271,14 @@
     0,
     1,
     2,
-    2,
     3,
+    2,
     0,
     1,
     2,
     1,
     1,
-    2
+    3,
+    1
   ]
 }
