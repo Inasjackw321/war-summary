@@ -20,11 +20,16 @@ from matplotlib.ticker import MaxNLocator
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
+# Diverse set of free models across different providers. If one provider is
+# rate-limited (429) or a model is retired (404), the next provider still works —
+# this prevents a single outage from wiping out every fallback.
 MODELS = [
+    "deepseek/deepseek-chat-v3-0324:free",
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "google/gemini-2.0-flash-exp:free",
+    "qwen/qwen-2.5-72b-instruct:free",
+    "mistralai/mistral-small-3.2-24b-instruct:free",
     "openai/gpt-oss-120b:free",
-    "openrouter/owl-alpha",
-    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
 ]
 
 CONFLICTS = {
@@ -587,7 +592,17 @@ def call_openrouter(prompt: str, model: str) -> str:
     }
     resp = requests.post(url, json=body, headers=headers, timeout=180)
     resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"].strip()
+    try:
+        data = resp.json()
+    except ValueError:
+        raise RuntimeError(f"non-JSON response (status {resp.status_code}): {resp.text[:200]!r}")
+    # OpenRouter returns {"error": {...}} with a 200 when a model is unavailable
+    if "error" in data and "choices" not in data:
+        raise RuntimeError(f"API error: {data['error']}")
+    choices = data.get("choices")
+    if not choices:
+        raise RuntimeError(f"no choices in response: {str(data)[:200]}")
+    return choices[0]["message"]["content"].strip()
 
 
 def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: list[str]) -> dict:
