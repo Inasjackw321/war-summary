@@ -509,31 +509,51 @@ _CUMULATIVE_RE = re.compile(
 )
 
 
-# Explicit "N missiles and M UAVs" breakdown — the most reliable signal, since
-# kpszsu states it directly (e.g. "570 air attack means - 74 missiles and 496
-# UAVs" / "570 засобів ... 74 ракети та 496 БпЛА"). Reading this verbatim avoids
-# the total-minus-heuristic split that mis-attributed counts (66/504 vs 74/496).
-# (?:\w+\s+){0,2} allows optional adjectives between the number and the noun,
-# e.g. "496 attack UAVs" / "496 ударних БпЛА".
+# Explicit "N missiles and M UAVs" breakdown, ANCHORED to the launch-total phrase
+# ("air attack means/vehicles" / "засобів повітряного нападу"). This is the
+# LAUNCHED count kpszsu states directly, e.g.
+#   "recorded 570 air attack means - 74 missiles and 496 UAVs"
+#   "застосував 570 засобів повітряного нападу: 74 ракети та 496 БпЛА".
+# Anchoring is critical: an unanchored "N missiles and M UAVs" also matches the
+# shoot-down sentence ("destroyed 48 missiles and 476 UAVs"), which under-counts
+# the launch total. (?:\w+\s+){0,2} allows adjectives ("attack UAVs"/"ударних БпЛА").
 _BREAKDOWN_EN_RE = re.compile(
+    r'air\s+attack\s+(?:means|vehicles?)\b[\s\w]{0,25}?[-–—:,]\s*'
     r'(?<!\d)(\d{1,4})\s+missiles?\s+and\s+(\d{1,4})\s+(?:\w+\s+){0,2}UAVs?',
     re.IGNORECASE,
 )
 _BREAKDOWN_UK_RE = re.compile(
-    r'(?<!\d)(\d{1,4})\s+ракет\w*\s+(?:та|і|й|and)\s+(\d{1,4})\s+(?:\w+\s+){0,2}(?:БпЛА|дрон\w*|UAVs?)',
+    r'засо\w+\s+повітряного\s+нападу\b[\s\w’\']{0,25}?[-–—:,]?\s*'
+    r'(?<!\d)(\d{1,4})\s+ракет\w*\s+(?:та|і|й)\s+(\d{1,4})\s+(?:\w+\s+){0,2}(?:БпЛА|дрон\w*)',
+    re.IGNORECASE | re.UNICODE,
+)
+
+# Shoot-down / interception language — if a breakdown sits in this context it is
+# NOT the launch total and must be ignored.
+_SHOOTDOWN_RE = re.compile(
+    r'shot\s*down|destroy|intercept|eliminat|neutraliz|suppress|'
+    r'збит|знищ|подавл|перехопл|уражен',
     re.IGNORECASE | re.UNICODE,
 )
 
 
 def _extract_breakdown(text: str) -> "tuple[int, int] | None":
-    """Return (missiles, drones) from an explicit 'N missiles and M UAVs' phrase, else None."""
+    """Return (missiles, drones) from the LAUNCH-anchored 'N missiles and M UAVs' phrase.
+
+    Returns None if no launch-anchored breakdown is present, or if the match sits
+    in shoot-down context — the caller then falls back to the total-based split.
+    """
     for rx in (_BREAKDOWN_EN_RE, _BREAKDOWN_UK_RE):
         m = rx.search(text)
-        if m:
-            missiles, drones = int(m.group(1)), int(m.group(2))
-            # Sanity: single-night figures, not cumulative totals.
-            if 0 < missiles <= 999 and 0 < drones <= 4000:
-                return missiles, drones
+        if not m:
+            continue
+        # Reject if shoot-down language appears just before the match (intercept stats).
+        preceding = text[max(0, m.start() - 60):m.start()]
+        if _SHOOTDOWN_RE.search(preceding):
+            continue
+        missiles, drones = int(m.group(1)), int(m.group(2))
+        if 0 < missiles <= 999 and 0 < drones <= 4000:
+            return missiles, drones
     return None
 
 
