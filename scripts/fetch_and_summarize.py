@@ -590,6 +590,18 @@ def call_openrouter(prompt: str, model: str) -> str:
         "max_tokens": 6000,
     }
     resp = requests.post(url, json=body, headers=headers, timeout=180)
+    # 429 = rate limit. On the free tier this is usually the per-minute cap (20/min)
+    # if the daily quota still has room. Honor Retry-After and retry the SAME model
+    # once, which is cheaper than burning another daily request on the next model.
+    if resp.status_code == 429:
+        retry_after = resp.headers.get("Retry-After")
+        try:
+            wait = min(float(retry_after), 65) if retry_after else 30
+        except (TypeError, ValueError):
+            wait = 30
+        print(f"    [429] rate limited on {model} — waiting {wait:.0f}s then one retry", file=sys.stderr)
+        time.sleep(wait)
+        resp = requests.post(url, json=body, headers=headers, timeout=180)
     resp.raise_for_status()
     try:
         data = resp.json()
