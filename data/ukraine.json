@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-02T10:59:35.211788+00:00",
-  "message_count": 557,
+  "updated_at": "2026-07-02T11:10:58.145510+00:00",
+  "message_count": 559,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,7 +11,7 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 570,
+  "red_alerts": 524,
   "red_alerts_timeline": [
     0,
     0,
@@ -24,66 +24,138 @@
     0,
     0,
     0,
-    0,
-    80,
-    80,
-    133,
-    106,
+    26,
+    159,
+    159,
     53,
     0,
-    27,
+    0,
+    26,
+    0,
+    26,
     0,
     0,
-    27,
-    0,
+    26,
     0
   ],
   "combined_activity_timeline": [
-    14,
-    15,
+    12,
+    11,
     12,
     9,
     12,
-    10,
-    12,
     9,
-    3,
-    6,
-    24,
-    28,
-    33,
-    54,
-    94,
-    54,
-    29,
-    20,
-    14,
+    5,
+    5,
+    9,
+    38,
+    23,
+    43,
+    84,
+    68,
+    39,
+    25,
     16,
-    21,
-    22,
+    15,
+    14,
     28,
-    17
+    23,
+    25,
+    14,
+    20
   ],
   "messages_by_channel": {
-    "@eRadarrua": 80,
-    "@kpszsu": 83,
+    "@eRadarrua": 81,
+    "@kpszsu": 82,
     "@mon1tor_ua": 216,
-    "@UkraineNow": 24,
-    "@DeepStateUA": 5,
+    "@UkraineNow": 25,
+    "@DeepStateUA": 3,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 123
+    "@tass_agency": 126
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/99355",
-    "kpszsu": "https://t.me/kpszsu/67113",
+    "eRadarrua": "https://t.me/eRadarrua/99361",
+    "kpszsu": "https://t.me/kpszsu/67116",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68496",
-    "UkraineNow": "https://t.me/UkraineNow/82334",
+    "UkraineNow": "https://t.me/UkraineNow/82338",
     "DeepStateUA": "https://t.me/DeepStateUA/23614",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31323",
-    "tass_agency": "https://t.me/tass_agency/383336"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31326",
+    "tass_agency": "https://t.me/tass_agency/383358"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/82327",
+    "eRadarrua": "https://t.me/eRadarrua/99357",
+    "kpszsu": "https://t.me/kpszsu/67100",
+    "tass_agency": "https://t.me/tass_agency/383345",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31324"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/383358",
+      "post_id": 383358,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T11:09:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383354",
+      "post_id": 383354,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T10:51:46+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383353",
+      "post_id": 383353,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T10:50:16+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383350",
+      "post_id": 383350,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T10:32:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383349",
+      "post_id": 383349,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T10:25:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82337",
+      "post_id": 82337,
+      "channel": "UkraineNow",
+      "ts": "2026-07-02T10:19:50+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82336",
+      "post_id": 82336,
+      "channel": "UkraineNow",
+      "ts": "2026-07-02T10:13:27+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383346",
+      "post_id": 383346,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T10:11:37+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31325",
+      "post_id": 31325,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-02T10:09:17+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82335",
+      "post_id": 82335,
+      "channel": "UkraineNow",
+      "ts": "2026-07-02T09:35:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383337",
+      "post_id": 383337,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T09:27:54+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/383334",
       "post_id": 383334,
@@ -137,76 +209,6 @@
       "post_id": 31318,
       "channel": "ukr_leaks_eng",
       "ts": "2026-07-02T07:02:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82327",
-      "post_id": 82327,
-      "channel": "UkraineNow",
-      "ts": "2026-07-02T06:34:48+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23614",
-      "post_id": 23614,
-      "channel": "DeepStateUA",
-      "ts": "2026-07-02T06:25:10+00:00"
-    },
-    {
-      "post_url": "https://t.me/kpszsu/67095",
-      "post_id": 67095,
-      "channel": "kpszsu",
-      "ts": "2026-07-02T06:20:52+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/bRSBuiDuqmzgvkvmvbr9WvKDQ7-cR4vYFOUW8HcQZmJu0Bxns0lIATh93wJvnrXFez1iBlmFgYzsfTH2w-FjnJqq623rqpSjLeCDJzl4MaVfqvQPSpf1YwJN8GmV4jBsx0nzi26hIX9A8J4W4AQ3FMamFSRU5-dA4m9gkllg0AZZS377k3BlouZgZy9klXOpexqqCP0mgum_9DeISMdJgt_mAk32W7e7b2UU_jsQMzGz451MZUBAHWxp0xzER8ob-xA9DYWZ5Z_LSE1_OOnzugUd0deqbbbhFC80PII4S8B4vWcDw1yPzhXbvS4pW_v7Goopuub8cOfdOPzwGHCDQQ.jpg",
-      "companion_text_id": 67094
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383299",
-      "post_id": 383299,
-      "channel": "tass_agency",
-      "ts": "2026-07-02T06:18:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/99318",
-      "post_id": 99318,
-      "channel": "eRadarrua",
-      "ts": "2026-07-02T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/lpKEWC7CmVGMNHn6YkZjV94hapQuR6havNhE2uM2_vLV6b1ulgesWn2_TU7DqTHPm02VILrPF9sbj1rO7wIhl6lYS9Lxs3X0_nKSvD-4nxp3GtnyjtUG7pyjg9pGEY4GI80dinIy0fsT2J8ALnVLUN-r3yE4w-KtKQ2SmyEBNaTWvufgU65PMjyW75eTl9yFfBwKfKYnGwJFMz7-FXNVIgHCMoFL_inRZrqusihIR5adm4eSJrCL1YBR1XJXN4yhRKbU2_wm8wKiA5j7Ks9l_MH-f0yuvDXN4vEx5M3Grzcfh0UXVjYLYLkQ02xM7RZQyL_-JphjhWz2kwcKsJcNnQ.jpg",
-      "companion_text_id": 99317
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31313",
-      "post_id": 31313,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-02T05:32:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82326",
-      "post_id": 82326,
-      "channel": "UkraineNow",
-      "ts": "2026-07-02T05:11:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31309",
-      "post_id": 31309,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-02T05:07:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383288",
-      "post_id": 383288,
-      "channel": "tass_agency",
-      "ts": "2026-07-02T05:00:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383282",
-      "post_id": 383282,
-      "channel": "tass_agency",
-      "ts": "2026-07-02T04:22:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/68493",
-      "post_id": 68493,
-      "channel": "mon1tor_ua",
-      "ts": "2026-07-02T03:58:39+00:00"
     }
   ],
   "post_images": {
@@ -214,25 +216,95 @@
     "eRadarrua/99317": "data/media/eRadarrua_99318.jpg",
     "eRadarrua/99216": "data/media/eRadarrua_99216.jpg",
     "eRadarrua/99215": "data/media/eRadarrua_99216.jpg",
-    "eRadarrua/99173": "data/media/eRadarrua_99173.jpg",
     "eRadarrua/99179": "data/media/eRadarrua_99179.jpg",
     "eRadarrua/99180": "data/media/eRadarrua_99179.jpg",
     "eRadarrua/99192": "data/media/eRadarrua_99192.jpg",
     "eRadarrua/99191": "data/media/eRadarrua_99192.jpg",
+    "eRadarrua/99173": "data/media/eRadarrua_99173.jpg",
     "eRadarrua/99126": "data/media/eRadarrua_99126.jpg",
     "eRadarrua/99127": "data/media/eRadarrua_99126.jpg",
     "kpszsu/67095": "data/media/kpszsu_67095.jpg",
     "kpszsu/67094": "data/media/kpszsu_67095.jpg"
   },
-  "summary": "Summary unavailable.",
-  "key_points": [],
-  "sentiment": "unknown",
-  "intensity": 5,
-  "sections": {},
-  "missiles": 74,
-  "drones": 496,
+  "summary": "Recent attacks on Kyiv and surrounding regions indicate escalating Russian drone and missile strikes. Civilian infrastructure and energy facilities remain primary targets. Ukrainian forces report significant losses from coordinated air assaults.",
+  "key_points": [
+    "Russian forces launched 570 air weapons, including 74 missiles and 496 drones, targeting Kyiv and other cities (Source: @UkraineNow/82327).",
+    "Aerial attacks damaged Kostiivskyi NPP, a key Russian oil refinery supplying 11% of Russia's fuel (Source: @UkraineNow/82332).",
+    "Drone strikes hit multiple locations in Kyiv, including the Kyiv Zoo and logistics centers (Source: @eRadarrua/99357).",
+    "Russian drones targeted Sumy, Chernihiv, and Zaporozhye regions (Source: @kpszsu/67100, @kpszsu/67110).",
+    "Ukrainian officials reported 106 salmonella cases linked to Ukrainian-produced food (Source: @tass_agency/383345).",
+    "Zaluzhny, former Ukrainian military leader, announced presidential candidacy (Source: @ukr_leaks_eng/31324).",
+    "EU proposed new sanctions against Russian entities supporting the war (Source: @UkraineNow/82335)."
+  ],
+  "sentiment": "escalating",
+  "intensity": 9,
+  "sections": {
+    "executive_summary": "Russian forces conducted a massive air assault on Kyiv with 570 weapons, causing significant damage to infrastructure. Civilian casualties and infrastructure damage were reported in multiple regions. Ukrainian officials highlighted escalating attacks and called for stronger international response.",
+    "ukraine": {
+      "points": [
+        "Drone and missile attacks damaged Kyiv Zoo, destroying animal enclosures and causing injuries to wildlife (Source: @UkraineNow/82336).",
+        "Kostiivskyi NPP, a critical Russian oil refinery, was targeted, exacerbating Russia's energy crisis (Source: @UkraineNow/82332).",
+        "Drone strikes in Kyiv resulted in power outages and damage to logistics centers like MOYO (Source: @eRadarrua/99357).",
+        "Attacks in Sumy and Chernihiv regions involved multiple drones targeting civilian and military infrastructure (Source: @kpszsu/67100, @kpszsu/67110).",
+        "Ukrainian authorities reported 106 salmonella cases from domestic food products (Source: @tass_agency/383345).",
+        "Zaluzhny, a prominent military figure, declared intent to run for president (Source: @ukr_leaks_eng/31324).",
+        "EU proposed sanctions against Russian entities in response to attacks (Source: @UkraineNow/82335)."
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian forces deployed 570 air weapons, including 74 missiles and 496 drones, in coordinated attacks (Source: @UkraineNow/82327).",
+        "Kostiivskyi NPP, a key oil refinery, was targeted, impacting Russia's fuel supply (Source: @UkraineNow/82332).",
+        "Drone strikes in Kyiv and surrounding areas suggest strategic targeting of urban centers (Source: @eRadarrua/99357).",
+        "Russian military operations in Sumy and Chernihiv regions involved persistent drone assaults (Source: @kpszsu/67100, @kpszsu/67110).",
+        "Russian forces attacked critical infrastructure in Zaporozhye and Kherson regions (Source: @ukr_leaks_eng/31296)."
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Russian drones targeted Zaporozhye region, damaging civilian vehicles and infrastructure (Source: @ukr_leaks_eng/31296).",
+        "Attacks in Kherson region caused injuries and infrastructure damage (Source: @ukr_leaks_eng/31296).",
+        "Russian forces struck critical energy facilities in eastern Ukraine (Source: @UkraineNow/82332).",
+        "Drone assaults in Sumy and Chernihiv regions disrupted civilian life (Source: @kpszsu/67100, @kpszsu/67110).",
+        "Russian military operations in eastern front focused on energy and transportation networks (Source: @UkraineNow/82332)."
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Drone strikes in Chernihiv and Sumy regions indicate northern front activity (Source: @kpszsu/67100, @kpszsu/67110).",
+        "Russian forces targeted areas near Kyiv from northern directions (Source: @kpszsu/67106).",
+        "Persistent drone assaults in northern regions suggest sustained offensive (Source: @kpszsu/67101)."
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Russian attacks in Zaporozhye and Kherson regions reflect southern front operations (Source: @ukr_leaks_eng/31296).",
+        "Drone strikes in southern areas targeted logistics and civilian infrastructure (Source: @ukr_leaks_eng/31296)."
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Russian forces used 570 air weapons, including 74 missiles and 496 drones, in coordinated attacks (Source: @UkraineNow/82327).",
+        "Drone assaults in Kyiv and surrounding regions highlight air superiority efforts (Source: @eRadarrua/99357).",
+        "Russian military operations in air war focused on urban and industrial targets (Source: @UkraineNow/82327)."
+      ]
+    }
+  },
+  "key_developments": [
+    "Russian forces launched 570 air weapons, including 74 missiles and 496 drones, targeting Kyiv and other cities (Source: @UkraineNow/82327).",
+    "Kostiivskyi NPP, a critical Russian oil refinery, was attacked, worsening energy shortages (Source: @UkraineNow/82332).",
+    "Drone strikes in Kyiv caused power outages and damage to logistics centers (Source: @eRadarrua/99357).",
+    "Russian drones targeted Sumy and Chernihiv regions, disrupting civilian and military infrastructure (Source: @kpszsu/67100, @kpszsu/67110).",
+    "Zaluzhny, a former military leader, announced presidential candidacy (Source: @ukr_leaks_eng/31324).",
+    "EU proposed new sanctions against Russian entities in response to attacks (Source: @UkraineNow/82335).",
+    "Russian forces attacked Kostiivskyi NPP, a key oil refinery supplying 11% of Russia's fuel (Source: @UkraineNow/82332)."
+  ],
+  "threat_assessment": "Russian forces are escalating attacks on Ukrainian infrastructure and cities, using large-scale drone and missile strikes. The targeting of energy facilities and urban centers suggests a strategy to degrade Ukraine's resilience. The use of 570 weapons in a single assault indicates a high level of coordination and resources.",
+  "regional_response": "Ukraine has called for increased international sanctions against Russia following the attacks. The EU has proposed new measures targeting Russian entities. Ukrainian authorities are focusing on protecting critical infrastructure and responding to civilian casualties.",
+  "intelligence_notes": "The scale and coordination of Russian air attacks suggest a deliberate effort to overwhelm Ukrainian defenses. The targeting of energy infrastructure and urban centers indicates a strategic goal to weaken Ukraine's capacity to sustain the war. The political move by Zaluzhny could impact future military and political dynamics.",
+  "missiles": 48,
+  "drones": 476,
   "kpszsu_timeline": [
-    2,
     1,
     2,
     2,
@@ -241,20 +313,21 @@
     2,
     1,
     2,
-    1,
     6,
-    3,
-    4,
-    8,
-    11,
-    5,
-    1,
     2,
-    3,
-    1,
-    8,
     4,
-    9,
-    2
+    4,
+    12,
+    6,
+    4,
+    1,
+    4,
+    0,
+    5,
+    7,
+    7,
+    4,
+    2,
+    1
   ]
 }
