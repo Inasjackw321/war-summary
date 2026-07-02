@@ -613,7 +613,16 @@ def call_openrouter(prompt: str, model: str) -> str:
     choices = data.get("choices")
     if not choices:
         raise RuntimeError(f"no choices in response: {str(data)[:200]}")
-    return choices[0]["message"]["content"].strip()
+    msg = choices[0].get("message", {}) or {}
+    # Some models (reasoning/code variants) return content=null and put the
+    # actual text in "reasoning". Fall back to that before giving up.
+    content = msg.get("content")
+    if not content:
+        content = msg.get("reasoning") or ""
+    content = content.strip()
+    if not content:
+        raise RuntimeError("empty content in response")
+    return content
 
 
 def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: list[str]) -> dict:
