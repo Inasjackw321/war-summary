@@ -581,6 +581,65 @@ def update_conflict_history(output_dir: Path, conflict_key: str, data: dict) -> 
     path.write_text(json.dumps(hist, indent=2, ensure_ascii=False))
 
 
+def _loads_lenient(raw: str) -> dict:
+    """Parse a model's JSON, salvaging truncated/fenced/prefixed output.
+
+    Free models often truncate mid-response (leaving an unterminated string /
+    open braces) or wrap the JSON in ```fences``` or prose. Try a clean parse
+    first, then isolate the outermost object, then rebuild a valid prefix by
+    closing any dangling string and open brackets — trimming the last partial
+    element if needed — so a nearly-complete summary isn't thrown away.
+    """
+    raw = (raw or "").strip()
+    if raw.startswith("```"):
+        raw = re.sub(r"^```[a-z]*\n?", "", raw)
+        raw = re.sub(r"\n?```$", "", raw)
+    start = raw.find("{")
+    if start > 0:
+        raw = raw[start:]
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+
+    # Walk the text tracking string/bracket state to find where valid structure ends.
+    stack: list[str] = []
+    in_str = False
+    escaped = False
+    for ch in raw:
+        if in_str:
+            if escaped:
+                escaped = False
+            elif ch == "\\":
+                escaped = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch in "{[":
+            stack.append("}" if ch == "{" else "]")
+        elif ch in "}]":
+            if stack:
+                stack.pop()
+
+    def _close(text: str, open_str: bool, closers: list[str]) -> str:
+        out = text
+        if open_str:
+            out += '"'
+        out = re.sub(r"[,:]\s*$", "", out.rstrip())
+        return out + "".join(reversed(closers))
+
+    # Candidate 1: close as-is. Candidate 2: drop the last partial element then close.
+    for candidate in (raw, re.sub(r",[^,{}\[\]]*$", "", raw)):
+        try:
+            return json.loads(_close(candidate, in_str, list(stack)))
+        except json.JSONDecodeError:
+            continue
+    # Last resort: let the original error propagate for the caller to log.
+    return json.loads(raw)
+
+
 def call_openrouter(prompt: str, model: str) -> str:
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
@@ -592,7 +651,7 @@ def call_openrouter(prompt: str, model: str) -> str:
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.2,
-        "max_tokens": 6000,
+        "max_tokens": 8000,
     }
     resp = requests.post(url, json=body, headers=headers, timeout=180)
     # 429 = rate limit. On the free tier this is usually the per-minute cap (20/min)
@@ -699,11 +758,7 @@ Return only the JSON object. No markdown, no extra text."""
     for i, model in enumerate(MODELS):
         try:
             raw = call_openrouter(prompt, model)
-            raw = raw.strip()
-            if raw.startswith("```"):
-                raw = re.sub(r"^```[a-z]*\n?", "", raw)
-                raw = re.sub(r"\n?```$", "", raw)
-            result = json.loads(raw)
+            result = _loads_lenient(raw)
             if not result.get("sections"):
                 raise ValueError("AI returned empty sections")
             print(f"  [ok] model={model}", file=sys.stderr)
@@ -961,11 +1016,7 @@ Return only valid JSON. No markdown, no extra text."""
     for i, model in enumerate(MODELS):
         try:
             raw = call_openrouter(prompt, model)
-            raw = raw.strip()
-            if raw.startswith("```"):
-                raw = re.sub(r"^```[a-z]*\n?", "", raw)
-                raw = re.sub(r"\n?```$", "", raw)
-            result = json.loads(raw)
+            result = _loads_lenient(raw)
             result["date"] = today
             result["generated_at"] = datetime.now(timezone.utc).isoformat()
             paper_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
