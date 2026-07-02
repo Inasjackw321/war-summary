@@ -509,6 +509,34 @@ _CUMULATIVE_RE = re.compile(
 )
 
 
+# Explicit "N missiles and M UAVs" breakdown — the most reliable signal, since
+# kpszsu states it directly (e.g. "570 air attack means - 74 missiles and 496
+# UAVs" / "570 засобів ... 74 ракети та 496 БпЛА"). Reading this verbatim avoids
+# the total-minus-heuristic split that mis-attributed counts (66/504 vs 74/496).
+# (?:\w+\s+){0,2} allows optional adjectives between the number and the noun,
+# e.g. "496 attack UAVs" / "496 ударних БпЛА".
+_BREAKDOWN_EN_RE = re.compile(
+    r'(?<!\d)(\d{1,4})\s+missiles?\s+and\s+(\d{1,4})\s+(?:\w+\s+){0,2}UAVs?',
+    re.IGNORECASE,
+)
+_BREAKDOWN_UK_RE = re.compile(
+    r'(?<!\d)(\d{1,4})\s+ракет\w*\s+(?:та|і|й|and)\s+(\d{1,4})\s+(?:\w+\s+){0,2}(?:БпЛА|дрон\w*|UAVs?)',
+    re.IGNORECASE | re.UNICODE,
+)
+
+
+def _extract_breakdown(text: str) -> "tuple[int, int] | None":
+    """Return (missiles, drones) from an explicit 'N missiles and M UAVs' phrase, else None."""
+    for rx in (_BREAKDOWN_EN_RE, _BREAKDOWN_UK_RE):
+        m = rx.search(text)
+        if m:
+            missiles, drones = int(m.group(1)), int(m.group(2))
+            # Sanity: single-night figures, not cumulative totals.
+            if 0 < missiles <= 999 and 0 < drones <= 4000:
+                return missiles, drones
+    return None
+
+
 def parse_attack_counts(texts: list[str]) -> tuple[int, int]:
     """Return (missiles, drones) from the most recent attack summary in texts.
 
@@ -522,6 +550,12 @@ def parse_attack_counts(texts: list[str]) -> tuple[int, int]:
         # means since the full-scale invasion") that would dwarf any single-night count.
         if _CUMULATIVE_RE.search(text):
             continue
+
+        # Highest priority: an explicit "X missiles and Y UAVs" breakdown stated in
+        # the post itself. This is unambiguous, so trust it over derived splits.
+        breakdown = _extract_breakdown(text)
+        if breakdown:
+            return breakdown
 
         # Total aerial means in this text.
         # Cap at 3 digits (≤999): kpszsu cumulative/since-invasion posts use 4-digit
