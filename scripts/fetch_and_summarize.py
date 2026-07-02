@@ -24,12 +24,11 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 # rate-limited (429) or a model is retired (404), the next provider still works —
 # this prevents a single outage from wiping out every fallback.
 MODELS = [
-    "nvidia/nemotron-3.5-content-safety:free",
-    "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "google/gemma-4-26b-a4b-it:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
-    "liquid/lfm-2.5-1.2b-thinking:free",
-    "qwen/qwen3-next-80b-a3b-instruct:free",
+    "cohere/north-mini-code:free",
+    "qwen/qwen3-coder:free",
+    "poolside/laguna-m.1:free",
+    "meta-llama/llama-3.2-3b-instruct:free",
+    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
 ]
 
 CONFLICTS = {
