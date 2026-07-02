@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-02T20:03:04.661481+00:00",
-  "message_count": 579,
+  "updated_at": "2026-07-02T21:20:43.084090+00:00",
+  "message_count": 546,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,82 +15,88 @@
   "red_alerts_timeline": [
     0,
     0,
+    65,
+    129,
+    43,
     0,
-    23,
-    158,
-    68,
-    0,
-    0,
-    23,
-    0,
-    23,
+    22,
     0,
     0,
-    23,
+    22,
     0,
+    0,
+    22,
     0,
     0,
     0,
-    23,
-    45,
-    23,
-    23,
-    23,
-    45
+    0,
+    22,
+    65,
+    0,
+    22,
+    22,
+    65,
+    0
   ],
   "combined_activity_timeline": [
-    26,
-    27,
-    33,
-    70,
-    75,
-    40,
-    29,
     15,
+    45,
+    86,
+    62,
+    28,
+    29,
     10,
-    20,
-    23,
-    25,
-    26,
-    9,
-    22,
-    18,
-    22,
+    17,
     16,
-    13,
-    13,
-    7,
-    13,
+    25,
+    24,
+    23,
     14,
-    11
+    19,
+    16,
+    25,
+    15,
+    11,
+    12,
+    8,
+    12,
+    16,
+    12,
+    4
   ],
   "messages_by_channel": {
-    "@eRadarrua": 89,
-    "@kpszsu": 80,
-    "@mon1tor_ua": 217,
+    "@eRadarrua": 90,
+    "@kpszsu": 76,
+    "@mon1tor_ua": 184,
     "@UkraineNow": 33,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 130
+    "@tass_agency": 133
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/99426",
-    "kpszsu": "https://t.me/kpszsu/67153",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68500",
+    "eRadarrua": "https://t.me/eRadarrua/99432",
+    "kpszsu": "https://t.me/kpszsu/67154",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68501",
     "UkraineNow": "https://t.me/UkraineNow/82358",
     "DeepStateUA": "https://t.me/DeepStateUA/23615",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31346",
-    "tass_agency": "https://t.me/tass_agency/383416"
+    "tass_agency": "https://t.me/tass_agency/383423"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68493",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31309",
-    "tass_agency": "https://t.me/tass_agency/383408",
-    "UkraineNow": "https://t.me/UkraineNow/82347",
-    "kpszsu": "https://t.me/kpszsu/67123",
-    "eRadarrua": "https://t.me/eRadarrua/99426"
+    "UkraineNow": "https://t.me/UkraineNow/82326",
+    "eRadarrua": "https://t.me/eRadarrua/99362",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31344",
+    "tass_agency": "https://t.me/tass_agency/383388",
+    "kpszsu": "https://t.me/kpszsu/67098",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68463"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/383417",
+      "post_id": 383417,
+      "channel": "tass_agency",
+      "ts": "2026-07-02T19:56:19+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/82358",
       "post_id": 82358,
@@ -213,12 +219,6 @@
       "post_id": 31344,
       "channel": "ukr_leaks_eng",
       "ts": "2026-07-02T15:42:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31342",
-      "post_id": 31342,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-02T15:05:35+00:00"
     }
   ],
   "post_images": {
@@ -246,122 +246,109 @@
     "kpszsu/67095": "data/media/kpszsu_67095.jpg",
     "kpszsu/67094": "data/media/kpszsu_67095.jpg"
   },
-  "summary": "Russia launched a massive combined strike on Kyiv and other Ukrainian cities using over 50 missiles and more than 70 jet-powered Shahed drones, forcing 52,500 people into Kyiv metro shelters. Russian forces claimed liberation of Piskunovka in Donetsk region and control of Kopany in Zaporizhzhia region, while Ukrainian air defenses tracked Shahed drones across multiple oblasts. President Zelensky appealed to 40 countries for urgent Patriot missile transfers, stating Ukraine needs at least 140 Patriot interceptors to counter ballistic missile barrages.",
+  "summary": "Russian forces conducted a large-scale missile and drone attack on Kyiv, killing 25 people and injuring over 100, with damage to 20 residential buildings. Ukrainian forces reported liberating Piskunovka in the DPR, while Russia claimed responsibility for attacks on fuel stations in Sumy and a drone strike on a bus in Belarus. Tensions escalated between Ukraine and Poland over drone technology transfers amid ongoing Russian attacks on critical infrastructure.",
   "key_points": [
-    "Russia conducted massive overnight attack on Kyiv with >50 missiles and >70 jet-powered Shahed drones, largest metro sheltering in years with 52,500 civilians. (Source: @mon1tor_ua/68493)",
-    "Shahed drones tracked over Kyiv districts including Desnyansky, Svyatoshyn, Obolon, Shulyavka, Vyradny, Vyshneve, Hostomel, Borodyanka. (Source: @mon1tor_ua/68464)",
-    "Russian MoD claims strikes on military-industrial and fuel-energy facilities in Kyiv overnight. (Source: @ukr_leaks_eng/31309)",
-    "TASS reports AFU attacked bus in Lysychansk wounding 12 civilians. (Source: @tass_agency/383408)",
-    "Russian forces liberated Piskunovka in DPR per Russian MoD. (Source: @ukr_leaks_eng/31327)",
-    "Army Group East seized Kopany in Zaporizhzhia region; UAV attacks on civilian vehicles in Zaporizhzhia and Kherson regions. (Source: @ukr_leaks_eng/31316)",
-    "Zelensky requests 140 Patriot missiles from 40 partner nations to intercept ~70 ballistic missiles. (Source: @UkraineNow/82347)",
-    "SBU detained defense academy associate professor attempting to leak strike drone data to Russian GRU. (Source: @UkraineNow/82351)"
+    "Russian attack on Kyiv killed 25 people and injured over 100, damaging 20 residential buildings (Source: @UkraineNow/82326).",
+    "Three civilians killed in Russian drone attack on fuel stations in Sumy (Source: @UkraineNow/82339).",
+    "52,500 Kyiv residents sheltered in metro during air raid, including 4,500 children (Source: @eRadarrua/99362).",
+    "Ukrainian Air Force reports critical shortage of Patriot missile systems and interceptors (Source: @ukr_leaks_eng/31344).",
+    "Russian Defense Ministry claims liberation of Piskunovka in the DPR (Source: @ukr_leaks_eng/31327).",
+    "Drone attack on Belarusian bus killed 6 Russians traveling from Belarus to Anapa (Source: @tass_agency/383388).",
+    "Ukraine refuses drone technology transfer to Poland over historical disputes (Source: @UkraineNow/82341)."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia launched a massive combined strike on Kyiv and other Ukrainian cities using over 50 missiles and more than 70 jet-powered Shahed drones, forcing 52,500 people into Kyiv metro shelters. Russian forces claimed liberation of Piskunovka in Donetsk region and control of Kopany in Zaporizhzhia region, while Ukrainian air defenses tracked Shahed drones across multiple oblasts. President Zelensky appealed to 40 countries for urgent Patriot missile transfers, stating Ukraine needs at least 140 Patriot interceptors to counter ballistic missile barrages.",
+    "executive_summary": "Russian forces launched a massive missile and drone assault on Kyiv, resulting in 25 fatalities and over 100 injuries, with significant damage to residential infrastructure. Ukrainian authorities reported that 52,500 civilians, including 4,500 children, sought refuge in Kyiv's metro system during the attack. Concurrently, Russia claimed territorial gains in the DPR while facing international scrutiny over a drone strike on a civilian bus in Belarus.",
     "ukraine": {
       "points": [
-        "Ukrainian air defense monitored over 70 jet-powered Shahed drones and 50+ missiles during massive overnight attack, with drones tracked across Kyiv, Kharkiv, Sumy, Chernihiv, Poltava, Mykolaiv, Zaporizhzhia, Kryvyi Rih, and Vinnytsia oblasts. (Source: @mon1tor_ua/68493, @kpszsu/67123, @kpszsu/67136, @kpszsu/67122, @kpszsu/67128, @kpszsu/67144, @kpszsu/67097, @eRadarrua/99426, @eRadarrua/99375, @eRadarrua/99366)",
-        "President Zelensky stated Ukraine requires minimum 140 Patriot missiles to intercept approximately 70 ballistic missiles, and has sent urgent requests to 40 partner nations for immediate Patriot missile transfers from existing stocks. (Source: @UkraineNow/82347, @UkraineNow/82353)",
-        "SBU detained associate professor from Ministry of Defense scientific center accused of copying and transmitting strike drone project documentation to Russian GRU handlers in exchange for promised occupation administration position. (Source: @UkraineNow/82351)",
-        "Human Rights Ombudsman Lubinets reported mobilization death in Lviv region: man mobilized by Sheptytskyi TCR died next day with body showing hematomas and limb injuries inconsistent with official hypertrophic cardiomyopathy cause. (Source: @UkraineNow/82352)",
-        "Polish MiG-29 fighters intended for Ukraine in exchange for drone technology will be scrapped instead, per Polish Ministry of Defense, after Ukraine reportedly prioritized historical disputes over technology transfer agreement. (Source: @UkraineNow/82339, @eRadarrua/99425)",
-        "BookChef publishing house lost 800,000 books in Russian strike on Denka Logistics central warehouse in Kyiv, causing order delays for new releases. (Source: @UkraineNow/82344)"
+        "Russian missile and drone attack on Kyiv on July 2, 2026, killed 25 people and injured over 100, damaging 20 residential buildings including a nine-story building in Darnytskyi District (Source: @UkraineNow/82326).",
+        "52,500 Kyiv residents, including 4,500 children, sheltered in the metro system during the air raid, the highest number in years (Source: @eRadarrua/99362).",
+        "23 educational institutions damaged in Kyiv during the night attack, with 11 in Darnytskyi, 6 in Dnipro, and 4 in Shevchenkivskyi districts (Source: @UkraineNow/82355).",
+        "Ukrainian Air Force spokesman Yuriy Ignat confirmed critical shortage of Patriot missile systems and interceptors, limiting ballistic missile defense capabilities (Source: @ukr_leaks_eng/31344).",
+        "Ukraine declined Polish request for drone technology transfer citing historical disputes, complicating defense cooperation (Source: @UkraineNow/82341)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces executed massive combined strike using over 50 missiles and more than 70 jet-powered Shahed-136/131 drones targeting Kyiv and multiple Ukrainian cities overnight. (Source: @mon1tor_ua/68493)",
-        "Russian Ministry of Defense claims strikes hit military-industrial and fuel-energy facilities in Kyiv during overnight operation. (Source: @ukr_leaks_eng/31309)",
-        "Russian troops liberated settlement of Piskunovka in Donetsk People's Republic according to Russian MoD report. (Source: @ukr_leaks_eng/31327)",
-        "Army Group East established control over Kopany settlement in Zaporizhzhia region; conducted UAV attacks on civilian vehicles on Dneprovka-Zapovitnoye road and near Konstantinovka, wounding civilians in Mikhailovka, Kamenka-Dneprovskaya, and Semenivka. (Source: @ukr_leaks_eng/31316)",
-        "Russian UAV strikes in Kherson region injured eight civilians on M-17 Chaplynka-Askaniya-Nova road and damaged infrastructure in 14 settlements, with heavy trucks also targeted. (Source: @ukr_leaks_eng/31316)",
-        "TASS reports Ukrainian forces attacked bus in Lysychansk wounding 12 people, per LPR head Pasechnik. (Source: @tass_agency/383408)",
-        "Enemy tactical aviation active in Black Sea waters per Ukrainian monitoring. (Source: @kpszsu/67149)"
+        "Russian Defense Ministry announced liberation of Piskunovka in the DPR (Source: @ukr_leaks_eng/31327).",
+        "Drone attack on civilian bus traveling from Minsk to Anapa in Bryansk region killed 6 Russians (Source: @tass_agency/383388).",
+        "Multiple drone and missile attacks on Sumy fuel stations killed 3 civilians (Source: @UkraineNow/82339).",
+        "Russian propaganda highlighted fuel shortages and priority service for military personnel at gas stations (Source: @eRadarrua/99387).",
+        "Russian media reported successful drone strikes on Ukrainian infrastructure including publishing houses (Source: @UkraineNow/82344)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces liberated Piskunovka in Donetsk People's Republic per Russian Ministry of Defense announcement. (Source: @ukr_leaks_eng/31327)",
-        "Army Group East captured Kopany settlement in Zaporizhzhia region during offensive operations. (Source: @ukr_leaks_eng/31316)",
-        "Russian UAVs attacked two civilian vehicles on Dneprovka-Zapovitnoye road in Zaporizhzhia region over previous 24 hours. (Source: @ukr_leaks_eng/31316)",
-        "Drone strike hit civilian vehicle near Konstantinovka in Melitopol district, Zaporizhzhia region. (Source: @ukr_leaks_eng/31316)",
-        "In Mikhailovka urban-type settlement, man injured; in Kamenka-Dneprovskaya city, local resident wounded; in Semenivka village (Polohy district), drone struck private house wounding woman. (Source: @ukr_leaks_eng/31316)",
-        "Russian forces conducting active UAV operations along Zaporizhzhia front with multiple civilian casualties reported. (Source: @ukr_leaks_eng/31316)"
+        "Ukrainian forces reported liberation of Piskunovka in the DPR (Source: @ukr_leaks_eng/31327).",
+        "Russian drone attacks targeted Kharkiv region with cruise missiles and UAVs (Source: @kpszsu/67098).",
+        "Multiple drone groups reported approaching Kharkiv from southern and western directions (Source: @kpszsu/67121).",
+        "Russian forces continued operations near Ugledar and Volnovakha, with Pacific Fleet Marines previously engaged there (Source: @ukr_leaks_eng/31342)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian Shahed drones entered Kyiv from north targeting Desnyansky district, with multiple drones tracked over Svyatoshyn, Vyshneve, Hostomel, Borodyanka areas. (Source: @mon1tor_ua/68464, @mon1tor_ua/68483, @mon1tor_ua/68489)",
-        "Drone activity reported on Kharkiv-Sumy oblast border moving southwest per Ukrainian monitoring. (Source: @kpszsu/67123)",
-        "Group of jet-powered UAVs bypassed Slavutych in Chernihiv region moving southward. (Source: @kpszsu/67097)",
-        "Jet-powered UAV detected in Mirgorod area, Poltava region. (Source: @kpszsu/67097)",
-        "UAV spotted in Vinnytsia region heading toward Zhurino area. (Source: @kpszsu/67097)",
-        "Russian drone struck gas station in Zarichny district of Sumy city wounding three civilians per Sumy OVA. (Source: @UkraineNow/82339)"
+        "Massive Russian missile and drone attack on Kyiv killed 25 people and injured over 100 (Source: @UkraineNow/82326).",
+        "Kyiv metro sheltered 52,500 residents during air raid, including 4,500 children (Source: @eRadarrua/99362).",
+        "Multiple drone groups changed course toward Kyiv suburbs including Sviatoshyn, Vyshgorod, and Brovary (Source: @mon1tor_ua/68463, @mon1tor_ua/68462).",
+        "Reactive explosive drones tracked moving from Chernihiv toward Kyiv regions (Source: @mon1tor_ua/68495)."
       ]
     },
     "southern_front": {
       "points": [
-        "Group of UAVs launched from Black Sea waters toward southern Mykolaiv region per Ukrainian monitoring. (Source: @kpszsu/67128)",
-        "Jet-powered UAV approached Zaporizhzhia from south, two drones bypassed city toward Skvortsov area. (Source: @kpszsu/67144, @eRadarrua/99375)",
-        "Two UAVs detected over Kryvyi Rih from Radushne direction in Dnipropetrovsk region. (Source: @eRadarrua/99426)",
-        "Enemy tactical aviation active in Black Sea waters indicating continued naval aviation operations. (Source: @kpszsu/67149)",
-        "Russian UAV strikes in Kherson region injured eight civilians on M-17 highway and damaged infrastructure in 14 settlements. (Source: @ukr_leaks_eng/31316)",
-        "KAB guided bombs launched toward northeastern Kharkiv region from Russian positions. (Source: @kpszsu/67128)"
+        "Russian drone attacks on Sumy fuel stations killed 3 civilians (Source: @UkraineNow/82339).",
+        "Multiple drone groups reported approaching Nikolaev region from sea areas (Source: @eRadarrua/99381, @kpszsu/67154).",
+        "Russian drone attacks on Kherson and Nikolaev regions from Black Sea areas (Source: @kpszsu/67416).",
+        "Drone groups targeting Snihurivka in Nikolaev region (Source: @kpszsu/67099)."
       ]
     },
     "air_war": {
       "points": [
-        "Massive Russian overnight attack employed over 50 missiles and more than 70 jet-powered Shahed drones against Kyiv and multiple Ukrainian cities. (Source: @mon1tor_ua/68493)",
-        "Cruise missile detected over Poltava region heading toward Dikanka area per radar tracking. (Source: @eRadarrua/99366)",
-        "Shahed drones tracked across Kyiv metro area: Desnyansky district, Svyatoshyn, Obolon, Shulyavka, Vyradny, Vyshneve, Hostomel, Borodyanka with multiple course changes observed. (Source: @mon1tor_ua/68464, @mon1tor_ua/68461, @mon1tor_ua/68483, @mon1tor_ua/68465, @mon1tor_ua/68485, @mon1tor_ua/68489)",
-        "52,500 civilians sheltered in Kyiv metro during attack including nearly 4,500 children, largest sheltering event in recent years. (Source: @eRadarrua/99362)",
-        "Zelensky states Ukraine needs minimum 140 Patriot missiles to intercept approximately 70 ballistic missiles, has appealed to 40 nations for urgent transfers. (Source: @UkraineNow/82347, @UkraineNow/82353)",
-        "Russian KAB guided bombs targeting northeastern Kharkiv region from Russian territory. (Source: @kpszsu/67128)",
-        "Polish MiG-29 transfer to Ukraine cancelled; aircraft to be scrapped after drone technology exchange dispute. (Source: @UkraineNow/82339, @eRadarrua/99425)"
+        "Ukrainian Air Force reported interception of 524 targets: 48 missiles and 476 enemy drones overnight July 1-2 (Source: @kpszsu/67095).",
+        "Critical shortage of Patriot missile systems and interceptors limits Ukrainian ballistic missile defense (Source: @ukr_leaks_eng/31344).",
+        "Multiple cruise missile and drone launches from sea areas targeting Zaporizhzhia, Sumy, and Donetsk regions (Source: @kpszsu/67098).",
+        "Russian drone attacks on Kyiv, Chernihiv, and other regions using reactive explosive drones (Source: @mon1tor_ua/68467, @mon1tor_ua/68490)."
       ]
     },
     "key_developments": [
-      "Russia launched massive combined strike on Kyiv with >50 missiles and >70 jet-powered Shahed drones, forcing 52,500 civilians into metro shelters including 4,500 children. (Source: @mon1tor_ua/68493, @eRadarrua/99362)",
-      "Shahed drones penetrated Kyiv airspace from north, tracked across Desnyansky, Svyatoshyn, Obolon, Shulyavka, Vyshneve, Hostomel, Borodyanka with multiple course changes. (Source: @mon1tor_ua/68464, @mon1tor_ua/68489)",
-      "Russian MoD claims liberation of Piskunovka in DPR and Army Group East capture of Kopany in Zaporizhzhia region with civilian UAV attacks in both regions. (Source: @ukr_leaks_eng/31327, @ukr_leaks_eng/31316)",
-      "Zelensky urgently requested 140 Patriot missiles from 40 partner nations to counter ~70 ballistic missiles, proposing stock exchanges for future contracted deliveries. (Source: @UkraineNow/82347, @UkraineNow/82353)",
-      "SBU detained defense ministry academy associate professor copying strike drone documentation for Russian GRU in exchange for occupation administration post. (Source: @UkraineNow/82351)",
-      "Polish MiG-29 fighters for Ukraine deal collapsed; aircraft to be scrapped after Ukraine prioritized historical disputes over drone technology transfer. (Source: @UkraineNow/82339, @eRadarrua/99425)",
-      "Russian UAV struck gas station in Sumy's Zarichny district wounding three civilians; cruise missile tracked over Poltava toward Dikanka. (Source: @UkraineNow/82339, @eRadarrua/99366)"
+      "Russian forces conducted a massive missile and drone attack on Kyiv on July 2, 2026, killing 25 people and injuring over 100, with damage to 20 residential buildings (Source: @UkraineNow/82326).",
+      "Ukrainian Air Force reported critical shortage of Patriot missile systems and interceptors, limiting ballistic missile defense capabilities (Source: @ukr_leaks_eng/31344).",
+      "Russian Defense Ministry claimed liberation of Piskunovka in the DPR, marking a potential territorial advance (Source: @ukr_leaks_eng/31327).",
+      "Drone attack on civilian bus in Bryansk region killed 6 Russians traveling from Belarus to Anapa, raising questions about Ukrainian operations in Russian territory (Source: @tass_agency/383388).",
+      "52,500 Kyiv residents, including 4,500 children, sought refuge in the metro system during the air raid, the highest number in years (Source: @eRadarrua/99362).",
+      "Ukraine declined Polish request for drone technology transfer citing historical disputes, complicating defense cooperation (Source: @UkraineNow/82341).",
+      "Multiple drone attacks on Sumy fuel stations killed 3 civilians, demonstrating continued targeting of critical infrastructure (Source: @UkraineNow/82339)."
     ],
-    "threat_assessment": "The massive combined missile-drone barrage demonstrates Russia's sustained long-range strike capacity and willingness to target civilian infrastructure across Ukraine. The scale of the attack — over 120 aerial weapons in a single night — indicates Russia maintains significant missile and Shahed drone stocks despite sanctions. Ukrainian air defense saturation is evident from Zelensky's urgent Patriot missile appeal, revealing critical interceptor shortages. Russian ground advances in Zaporizhzhia (Kopany) and Donetsk (Piskunovka) suggest continued offensive pressure on eastern and southern fronts. The SBU counterintelligence success against GRU drone technology targeting shows ongoing Russian emphasis on acquiring Ukrainian UAV capabilities.",
-    "regional_response": "Poland's decision to scrap MiG-29s rather than transfer them to Ukraine highlights how historical disputes are undermining practical military cooperation among NATO allies. Zelensky's direct appeal to 40 nations for Patriot missiles bypasses standard procurement channels, signaling acute capability gaps. The proposed stock-exchange mechanism for Patriot interceptors reflects creative diplomacy to overcome partner hesitancy. European security services should anticipate increased Ukrainian-Russian political violence spillover following the Monaco explosion and Zaluzhny power struggle allegations. Regional air defense coordination remains insufficient against massed drone-missile attacks.",
-    "intelligence_notes": "The SBU detention of a defense academy associate professor reveals GRU targeting of Ukrainian strike drone development programs through academic recruitment. Russian use of jet-powered Shahed variants (likely Shahed-238) indicates propulsion upgrades increasing speed and reducing interception windows. Civilian vehicle targeting in Zaporizhzhia and Kherson suggests systematic anti-logistics campaign. The 52,500 metro sheltering figure provides measurable civil defense metric for future attack planning. Ukrainian monitoring channels' real-time drone tracking demonstrates effective open-source intelligence fusion. Political tensions between Zelensky and Zaluzhny camps risk fragmenting Ukrainian command cohesion at critical juncture."
+    "threat_assessment": "Russian forces are escalating their use of combined missile and drone attacks against Ukrainian population centers, with Kyiv experiencing unprecedented civilian casualties and infrastructure damage. The reported shortage of Patriot missile systems creates a critical vulnerability in Ukraine's ballistic missile defense, potentially allowing future strikes to cause greater harm. Russian territorial advances in the DPR, including the claimed liberation of Piskunovka, suggest possible coordinated offensives that could threaten Ukrainian supply lines and defensive positions. The targeting of fuel infrastructure in Sumy indicates a strategy to degrade civilian morale and economic stability.",
+    "regional_response": "Poland's government expressed outrage over Ukrainian drone attacks on Belarusian territory, with Polish officials demanding accountability for the deaths of Russian civilians. The Ukrainian refusal to share drone technology with Poland has strained defense cooperation, with Polish Defense Minister citing broken agreements. International humanitarian organizations have condemned the Russian attacks on Kyiv's civilian infrastructure, calling for increased NATO support for Ukrainian air defense systems. The incident involving the Bryansk bus attack has further complicated diplomatic relations between Ukraine and its allies.",
+    "intelligence_notes": "The scale of the Kyiv attack suggests improved Russian coordination of mixed missile and drone assets, potentially indicating enhanced command and control capabilities. Ukrainian reports of Patriot system shortages highlight urgent logistical needs that could be exploited by Russian forces in future operations. The targeting of fuel infrastructure in Sumy and the publishing house in Kyiv demonstrates a pattern of attacking both economic and cultural symbols of Ukrainian sovereignty. Russian propaganda efforts, including coverage of fuel shortages and military honors, aim to maintain domestic support despite ongoing casualties."
   },
   "missiles": 74,
   "drones": 496,
   "kpszsu_timeline": [
-    1,
+    4,
+    8,
+    9,
     5,
-    4,
-    11,
-    6,
-    4,
+    3,
     2,
     3,
+    0,
+    8,
+    5,
+    8,
+    3,
     1,
-    5,
-    6,
-    7,
-    5,
     1,
     2,
-    0,
     7,
-    4,
+    2,
     0,
     0,
     1,
     0,
     1,
-    2
+    2,
+    1
   ]
 }
