@@ -1003,13 +1003,13 @@ function scheduleAutoRefresh(updatedAt) {
 
 // ── Countdown ─────────────────────────────────────────────────────────────────
 function startCountdown(updatedAt) {
-  const ONE_HOUR = 60 * 60 * 1000;
+  const CYCLE = 2 * 60 * 60 * 1000;   // updates run every 2 hours
   const updated = new Date(updatedAt).getTime();
   let overduePolling = false;
   const cdEl = () => document.getElementById("countdown");
 
   function tick() {
-    const remaining = ONE_HOUR - (Date.now() - updated);
+    const remaining = CYCLE - (Date.now() - updated);
     if (remaining <= 0) {
       if (!overduePolling) {
         overduePolling = true;
@@ -1028,9 +1028,12 @@ function startCountdown(updatedAt) {
       }
       return;
     }
+    const h = Math.floor(remaining / 3600000);
     const m = Math.floor((remaining % 3600000) / 60000);
     const s = Math.floor((remaining % 60000) / 1000);
-    cdEl().textContent = `${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`;
+    cdEl().textContent = h > 0
+      ? `${h}h ${String(m).padStart(2,"0")}m`
+      : `${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`;
   }
   tick();
   setInterval(tick, 1000);
@@ -1170,7 +1173,7 @@ function _buildDataPolicyHtml() {
     + '<div style="font-size:14px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;margin-bottom:14px;">Data Policy</div>'
     + '<div style="text-align:left;display:flex;flex-direction:column;gap:12px;font-size:11px;color:#5a6a88;line-height:1.65;">'
     + section("WHERE THE DATA COMES FROM", "War Summary monitors publicly available posts from Telegram channels covering active conflicts. No private messages or accounts are accessed.")
-    + section("HOW IT IS PROCESSED", "Posts are collected hourly and sent to an AI language model (via OpenRouter) which produces structured summaries and threat assessments. Output is not manually reviewed before publishing.")
+    + section("HOW IT IS PROCESSED", "Posts are collected every 2 hours and sent to an AI language model (via OpenRouter) which produces structured summaries and threat assessments. Output is not manually reviewed before publishing.")
     + section("SOURCE RELIABILITY", "Some channels have known political biases or have published inaccurate reports. These are flagged with a warning icon. Always cross-reference with official sources.")
     + section("YOUR DATA", "This site collects no personal data, uses no cookies, and has no user accounts. No analytics or third-party tracking scripts are loaded.")
     + "</div>";
@@ -1554,7 +1557,7 @@ function openGraphModal(imgUrl, title, isDataUrl) {
         <img src="${imgUrl}${ts}" alt="${title}" class="graph-modal-img" loading="eager">
       </div>
       <div class="graph-modal-meta">
-        <span>warsummary.live &middot; Updated hourly</span>
+        <span>warsummary.live &middot; Updated every 2 hours</span>
         <span class="graph-modal-source">Source: open Telegram channels</span>
       </div>
     </div>`;

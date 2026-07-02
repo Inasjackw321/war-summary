@@ -2,9 +2,9 @@ name: Update Conflict Summaries
 
 on:
   schedule:
-    - cron: "0 * * * *"    # every hour, on the hour
-    - cron: "20 * * * *"   # :20 safety net
-    - cron: "45 * * * *"   # :45 safety net
+    - cron: "0 */2 * * *"    # every 2 hours, on the hour
+    - cron: "20 */2 * * *"   # :20 safety net
+    - cron: "45 */2 * * *"   # :45 safety net
   workflow_dispatch:        # allow manual trigger
 
 permissions:

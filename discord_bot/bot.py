@@ -23,7 +23,7 @@ CONFLICT_META = {
     "middle_east": ("Middle East", "🌍", 0xf59e0b),
     "ukraine":     ("Ukraine-Russia", "🇺🇦", 0x3b82f6),
 }
-# Pre-rendered PNGs committed to data/ by the hourly GitHub Action
+# Pre-rendered PNGs committed to data/ by the GitHub Action (every 2 hours)
 GRAPH_URLS = {
     "ukraine":     "https://warsummary.live/data/ukraine_graph.png",
     "middle_east": "https://warsummary.live/data/middle_east_graph.png",
@@ -382,7 +382,7 @@ async def slash_graph(interaction: discord.Interaction):
              if conflict == "ukraine" else f"{icon}  {label} — 24h Red Alerts")
     embed = discord.Embed(title=title, color=color, timestamp=datetime.now(timezone.utc))
     embed.set_image(url=img_url)
-    embed.set_footer(text="warsummary.live · Updated hourly")
+    embed.set_footer(text="warsummary.live · Updated every 2 hours")
     await interaction.followup.send(embed=embed)
 
 # ── /warsummary setup ──────────────────────────────────────────────────────────
@@ -496,7 +496,7 @@ async def prefix_graph(ctx: commands.Context):
              if conflict == "ukraine" else f"{icon}  {label} — 24h Red Alerts")
     embed = discord.Embed(title=title, color=color, timestamp=datetime.now(timezone.utc))
     embed.set_image(url=img_url)
-    embed.set_footer(text="warsummary.live · Updated hourly")
+    embed.set_footer(text="warsummary.live · Updated every 2 hours")
     await ctx.send(embed=embed)
 
 # ── Startup ────────────────────────────────────────────────────────────────────
