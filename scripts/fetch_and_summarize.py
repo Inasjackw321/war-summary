@@ -23,12 +23,15 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 # Diverse set of free models across different providers. If one provider is
 # rate-limited (429) or a model is retired (404), the next provider still works —
 # this prevents a single outage from wiping out every fallback.
+# General instruction-tuned models (not code models) — these reliably emit the
+# strict JSON schema this task needs. Ordered by capability, across providers so
+# a single provider's throttle doesn't take out every fallback.
 MODELS = [
-    "cohere/north-mini-code:free",
-    "qwen/qwen3-coder:free",
-    "poolside/laguna-m.1:free",
-    "meta-llama/llama-3.2-3b-instruct:free",
-    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "google/gemini-2.0-flash-exp:free",
+    "deepseek/deepseek-chat-v3-0324:free",
+    "qwen/qwen-2.5-72b-instruct:free",
+    "mistralai/mistral-small-3.2-24b-instruct:free",
 ]
 
 CONFLICTS = {
