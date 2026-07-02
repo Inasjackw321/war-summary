@@ -23,15 +23,17 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 # Diverse set of free models across different providers. If one provider is
 # rate-limited (429) or a model is retired (404), the next provider still works —
 # this prevents a single outage from wiping out every fallback.
-# General instruction-tuned models (not code models) — these reliably emit the
-# strict JSON schema this task needs. Ordered by capability, across providers so
-# a single provider's throttle doesn't take out every fallback.
+# Hardcoding individual :free model IDs is fragile — OpenRouter renames and
+# retires free variants constantly (hence the 404s). "openrouter/free" is a
+# meta-router that auto-selects whatever free model is currently available and
+# fits the request, so it resolves to a live backend at request time. Listed
+# twice (each attempt can route to a different backend), with two confirmed-real
+# free models as long-shot backups.
 MODELS = [
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "google/gemini-2.0-flash-exp:free",
-    "deepseek/deepseek-chat-v3-0324:free",
-    "qwen/qwen-2.5-72b-instruct:free",
-    "mistralai/mistral-small-3.2-24b-instruct:free",
+    "openrouter/free",
+    "openrouter/free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
 ]
 
 CONFLICTS = {
