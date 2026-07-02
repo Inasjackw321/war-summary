@@ -743,6 +743,40 @@ def call_openrouter(prompt: str, model: str) -> str:
     return content
 
 
+def _validate_summary(result: dict, section_keys: list[str]) -> None:
+    """Raise if the model's output doesn't match the expected schema.
+
+    Weak free models sometimes return a near-empty object, or nest top-level
+    fields inside "sections" while omitting the real geographic sections. Accepting
+    those overwrites a good summary with garbage, so reject anything that doesn't
+    carry a solid majority of the expected content sections.
+    """
+    if not isinstance(result, dict):
+        raise ValueError("result is not an object")
+    sections = result.get("sections")
+    if not isinstance(sections, dict) or not sections:
+        raise ValueError("missing/empty sections")
+
+    # Content sections we expect (exclude the meta keys some models wrongly nest in).
+    expected = [k for k in section_keys if k not in ("executive_summary",)]
+    present = 0
+    for k in expected:
+        v = sections.get(k)
+        if isinstance(v, str) and v.strip():
+            present += 1
+        elif isinstance(v, dict) and v.get("points"):
+            present += 1
+        elif isinstance(v, list) and v:
+            present += 1
+    # Require at least half of the expected content sections to be genuinely filled.
+    if present < max(3, len(expected) // 2):
+        raise ValueError(f"only {present}/{len(expected)} content sections filled")
+
+    exec_sum = sections.get("executive_summary", "")
+    if not (isinstance(exec_sum, str) and len(exec_sum.strip()) >= 80):
+        raise ValueError("executive_summary too short/missing")
+
+
 def generate_summary(conflict_name: str, section_keys: list[str], raw_messages: list[str]) -> dict:
     if not raw_messages:
         return {
@@ -813,8 +847,7 @@ Return only the JSON object. No markdown, no extra text."""
         try:
             raw = call_openrouter(prompt, model)
             result = _loads_lenient(raw)
-            if not result.get("sections"):
-                raise ValueError("AI returned empty sections")
+            _validate_summary(result, section_keys)
             print(f"  [ok] model={model}", file=sys.stderr)
             return result
         except Exception as e:
@@ -1167,6 +1200,22 @@ def _process_conflict(key: str, conf: dict, output_dir: Path, media_dir: Path) -
 
     ai_result = generate_summary(conf["title"], conf["section_keys"], all_messages)
     ai_result.pop("red_alerts", None)
+
+    # If the AI produced nothing usable (all models failed / returned garbage),
+    # DON'T overwrite the last good summary with an empty one — reuse the previous
+    # sections so the site never goes blank. Stats (alerts/counts) still refresh below.
+    if not (ai_result.get("sections")):
+        prev_path = output_dir / f"{key}.json"
+        try:
+            prev = json.loads(prev_path.read_text()) if prev_path.exists() else {}
+            if prev.get("sections"):
+                print("  [summary] models failed — keeping previous summary", file=sys.stderr)
+                for fld in ("summary", "key_points", "sentiment", "intensity", "sections"):
+                    if fld in prev:
+                        ai_result[fld] = prev[fld]
+                ai_result["stale_summary"] = True
+        except Exception as e:
+            print(f"  [summary] could not reuse previous summary: {e}", file=sys.stderr)
 
     cited_post_urls = _extract_cited_posts(ai_result, set(conf["channels"]))
 
