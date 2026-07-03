@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-03T19:43:44.166519+00:00",
-  "message_count": 316,
+  "updated_at": "2026-07-03T21:22:46.743818+00:00",
+  "message_count": 335,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,9 +13,7 @@
   ],
   "red_alerts": 105,
   "red_alerts_timeline": [
-    13,
-    20,
-    13,
+    28,
     0,
     0,
     0,
@@ -26,64 +24,111 @@
     0,
     0,
     0,
-    7,
-    7,
+    0,
+    14,
     0,
     0,
     0,
-    7,
-    7,
-    20,
-    7,
     0,
-    0
+    7,
+    21,
+    14,
+    0,
+    0,
+    7,
+    7
   ],
   "combined_activity_timeline": [
+    5,
+    5,
+    6,
+    3,
     9,
     6,
-    5,
-    5,
-    5,
-    4,
-    9,
-    8,
-    9,
-    12,
-    15,
-    16,
-    18,
-    28,
-    29,
-    15,
+    10,
+    10,
     14,
     17,
-    18,
-    14,
+    16,
+    24,
+    30,
+    17,
+    19,
+    12,
+    20,
+    13,
+    16,
     15,
-    14,
-    14,
-    15
+    16,
+    8,
+    31,
+    11
   ],
   "messages_by_channel": {
-    "@eRadarrua": 42,
+    "@eRadarrua": 47,
     "@kpszsu": 65,
-    "@mon1tor_ua": 5,
-    "@UkraineNow": 20,
+    "@mon1tor_ua": 3,
+    "@UkraineNow": 21,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 22,
-    "@tass_agency": 159
+    "@tass_agency": 174
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/99531",
-    "kpszsu": "https://t.me/kpszsu/67272",
+    "eRadarrua": "https://t.me/eRadarrua/99555",
+    "kpszsu": "https://t.me/kpszsu/67276",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68505",
-    "UkraineNow": "https://t.me/UkraineNow/82384",
+    "UkraineNow": "https://t.me/UkraineNow/82385",
     "DeepStateUA": "https://t.me/DeepStateUA/23618",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31370",
-    "tass_agency": "https://t.me/tass_agency/383596"
+    "tass_agency": "https://t.me/tass_agency/383619"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "tass_agency": "https://t.me/tass_agency/383614",
+    "eRadarrua": "https://t.me/eRadarrua/99546",
+    "UkraineNow": "https://t.me/UkraineNow/82378",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31357"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/383619",
+      "post_id": 383619,
+      "channel": "tass_agency",
+      "ts": "2026-07-03T21:12:45+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/99548",
+      "post_id": 99548,
+      "channel": "eRadarrua",
+      "ts": "2026-07-03T20:22:41+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/f8FCqedtKkh9Xq8gXqeKfT0ljdGb21us8YKW9tRqjjaD26Kg9U5SnJRcWN_GPg815OGtuRKafT77EZrT9YskAojhKSFgkV0Qnvvx7VbVkT4zzjH2jOxScK1yE9uZOvK_oLW0WRtvLRxQeyWXQYxv6ExwSKOufs-RXhX8o1j77XpPyfh4XmAJgZzDiqlsRMyx6TsqInD4RFEgAJT8lw7ZxJzYFunqQQmUCc7VQRl2cgLdhmPj9k9l-MouVmkuOsyk5Z8yu7CA4lZtiomGLPFKitzSDvBoZreU3NcV6Yv8I-1T3PaBnb4v24vM-RJc9gQ8KO1kYaH2dIThKVJ1Wj9CeQ.jpg",
+      "companion_text_id": 99546
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383609",
+      "post_id": 383609,
+      "channel": "tass_agency",
+      "ts": "2026-07-03T20:16:15+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383601",
+      "post_id": 383601,
+      "channel": "tass_agency",
+      "ts": "2026-07-03T19:51:26+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/99532",
+      "post_id": 99532,
+      "channel": "eRadarrua",
+      "ts": "2026-07-03T19:42:17+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Uues28Mmv-Wm-93jN1q65wMN70mkZ5ltQTfRnTbpa6fht9n6JXAhfLlc6mH9Fa-cCOjkxFK9xoulZsSd-nehTA1VEMrnedC68X3pDA0Y329PsoiVKjG4tggrZ5PtgFhbtrKMBXPO11SB7kExu1plnQBLMmjfa19oaARba5AYgylPtwEuKKlBS-Ku4ZYU8FPRtILZawl3LCq6kpwbSv95w9eh2l8Mn59cF_PEjh0AGUOCTXHIiItm_ZmcJv4uhUxKG-Auip2ANebKmItxv0aWx_kpUkneCnjDZwyTOgSDQq0wl4fRSfuhp06cshzx8Xor0kjnCNwEZwgUGH_-b4wRUg.jpg",
+      "companion_text_id": 99530
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82385",
+      "post_id": 82385,
+      "channel": "UkraineNow",
+      "ts": "2026-07-03T19:39:41+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/99531",
       "post_id": 99531,
@@ -173,51 +218,18 @@
       "post_id": 82379,
       "channel": "UkraineNow",
       "ts": "2026-07-03T16:12:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383569",
-      "post_id": 383569,
-      "channel": "tass_agency",
-      "ts": "2026-07-03T15:51:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31369",
-      "post_id": 31369,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-03T15:41:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383562",
-      "post_id": 383562,
-      "channel": "tass_agency",
-      "ts": "2026-07-03T15:30:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31368",
-      "post_id": 31368,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-03T15:08:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82377",
-      "post_id": 82377,
-      "channel": "UkraineNow",
-      "ts": "2026-07-03T14:56:23+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31367",
-      "post_id": 31367,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-03T14:32:58+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/99532": "data/media/eRadarrua_99532.jpg",
+    "eRadarrua/99530": "data/media/eRadarrua_99532.jpg",
+    "eRadarrua/99548": "data/media/eRadarrua_99548.jpg",
+    "eRadarrua/99546": "data/media/eRadarrua_99548.jpg",
     "eRadarrua/99512": "data/media/eRadarrua_99512.jpg",
     "eRadarrua/99511": "data/media/eRadarrua_99512.jpg",
     "eRadarrua/99522": "data/media/eRadarrua_99522.jpg",
     "eRadarrua/99521": "data/media/eRadarrua_99522.jpg",
     "eRadarrua/99531": "data/media/eRadarrua_99531.jpg",
-    "eRadarrua/99530": "data/media/eRadarrua_99531.jpg",
     "eRadarrua/99473": "data/media/eRadarrua_99473.jpg",
     "eRadarrua/99471": "data/media/eRadarrua_99473.jpg",
     "eRadarrua/99475": "data/media/eRadarrua_99475.jpg",
@@ -232,98 +244,126 @@
     "kpszsu/67183": "data/media/kpszsu_67183.jpg",
     "kpszsu/67182": "data/media/kpszsu_67183.jpg"
   },
-  "summary": "Ukraine-Russia War escalates with missile strikes on Kyiv and Sumy regions, destruction of military assets, and ongoing BPLAs. Poland refuses to transfer MiG-29s, opting for scrapping. Russia targets infrastructure and civilian areas.",
+  "summary": "Russian forces claim liberation of Konstantynivka and advancement in Donbas, while Ukrainian infrastructure faces sustained BPLAs and strikes. Escalating attacks on civilian areas and military movements indicate heightened operational activity. Recent reports highlight potential escalation risks in Poland and pollution impacts in Kyiv.",
   "key_points": [
-    "Ukraine-Russia War sees missile strikes on Kyiv and Sumy regions, causing casualties and infrastructure damage (Source: UkraineNow/82355, UkraineNow/82379).",
-    "Saky airfield attacked, destroying at least 7 aircraft including Su-30SM and Su-24 (Source: eRadarrua/99467, eRadarrua/99512).",
-    "BPLAs deployed in Sumy, Chernihiv, and other regions, targeting Russian positions (Source: kpszsu/67241, kpszsu/67255).",
-    "Russia launches massive strikes on Ukrainian missile and UAV storage sites (Source: ukr_leaks_eng/31358).",
-    "Poland scraps MiG-29s instead of transferring them to Ukraine (Source: ukr_leaks_eng/31349).",
-    "Russian strikes on Sumy region's gas stations and markets cause casualties (Source: tass_agency/383572, tass_agency/383574).",
-    "Ukrainian officials report 30+ casualties in Kyiv from Russian attacks (Source: UkraineNow/82379)."
+    "Russian forces claim full liberation of Konstantynivka and 22 km advancement from Seversk in DNR (Source: @tass_agency/383614).",
+    "BPLAs strike Sumy, Chernihiv, and Poltava regions, with multiple incidents reported near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546, @eRadarrua/99504).",
+    "30 casualties reported in Kyiv following Russian strikes, with air quality deterioration (Source: @UkraineNow/82378).",
+    "Russian military reports 133 liberated settlements and 3,000 km² control in Donbas and Novorossiya (Source: @tass_agency/383601).",
+    "Poland allegedly prepares for Russian provocations, including BPLAs and cyberattacks on critical infrastructure (Source: @UkraineNow/82371).",
+    "Ukrainian officials deny evacuation rumors in Sumy, attributing them to disinformation (Source: @UkraineNow/82369).",
+    "Russian forces report 23 liberated settlements since Seversk's liberation (Source: @tass_agency/383614).",
+    "BPLAs target infrastructure in Kharkiv, Sumy, and Chernihiv, with coordinated strikes from northern directions (Source: @eRadarrua/99548, @eRadarrua/99507)."
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Ukraine-Russia War intensifies with missile strikes on Kyiv and Sumy, destruction of military assets, and BPLAs. Poland refuses to transfer MiG-29s, opting for scrapping. Russia targets infrastructure and civilian areas.",
+    "executive_summary": "Russian forces claim liberation of Konstantynivka and advancement in Donbas, while Ukrainian infrastructure faces sustained BPLAs and strikes. Escalating attacks on civilian areas and military movements indicate heightened operational activity. Recent reports highlight potential escalation risks in Poland and pollution impacts in Kyiv.",
     "ukraine": {
       "points": [
-        "Ukraine suffers missile strikes in Kyiv and Sumy regions, resulting in 25-30 casualties and 100+ injured (Source: UkraineNow/82355, UkraineNow/82379).",
-        "Saky airfield attacked, destroying 7 aircraft including Su-30SM and Su-24 (Source: eRadarrua/99467, eRadarrua/99512).",
-        "BPLAs deployed in Sumy, Chernihiv, and other regions, targeting Russian positions (Source: kpszsu/67241, kpszsu/67255).",
-        "Ukrainian forces report destruction of missile and UAV storage sites by Russian strikes (Source: ukr_leaks_eng/31358)."
+        "BPLAs strike Sumy, Chernihiv, and Poltava regions, with multiple incidents reported near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546, @eRadarrua/99504).",
+        "30 casualties reported in Kyiv following Russian strikes, with air quality deterioration (Source: @UkraineNow/82378).",
+        "Ukrainian officials deny evacuation rumors in Sumy, attributing them to disinformation (Source: @UkraineNow/82369).",
+        "Russian strikes target railway infrastructure in occupied Crimea, disrupting military logistics (Source: @UkraineNow/82375).",
+        "BPLAs target gas stations and critical infrastructure on Krivoy Rog highway (Source: @ukr_leaks_eng/31357).",
+        "Ukrainian military reports damage to radar and command nodes in occupied Crimea (Source: @UkraineNow/82378).",
+        "Pollution in Kyiv linked to recent strikes and historical Chernobyl-related fires (Source: @ukr_leaks_eng/31350)."
       ]
     },
     "russia": {
       "points": [
-        "Russia launches massive strikes on Ukrainian missile and UAV storage sites (Source: ukr_leaks_eng/31358).",
-        "Russian forces target Sumy region's gas stations and markets, causing casualties (Source: tass_agency/383572, tass_agency/383574).",
-        "Russian airstrikes on Kyiv and Sumy regions result in 25-30 casualties (Source: UkraineNow/82355, UkraineNow/82379).",
-        "Russia deploys BPLAs in Sumy, Chernihiv, and other regions (Source: kpszsu/67241, kpszsu/67255)."
+        "Russian forces claim full liberation of Konstantynivka and 22 km advancement from Seversk in DNR (Source: @tass_agency/383614).",
+        "Russian military reports 133 liberated settlements and 3,000 km² control in Donbas and Novorossiya (Source: @tass_agency/383601).",
+        "Putin emphasizes expanding security zones through attacks on Ukrainian infrastructure (Source: @tass_agency/383617).",
+        "Russian forces advance from North Skrypnyk in DNR (Source: @tass_agency/383614).",
+        "Russian media highlights 'planned security zones' in Kharkiv and Sumy regions (Source: @eRadarrua/99542).",
+        "Russian forces report 23 liberated settlements since Seversk's liberation (Source: @tass_agency/383614).",
+        "Russian military claims control over 3,000 km² in Donbas and Novorossiya (Source: @tass_agency/383601)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces destroy temporary Ukrainian deployment points in Donetsk People's Republic (Source: ukr_leaks_eng/31361).",
-        "Russian strikes on Sumy region's infrastructure cause significant damage (Source: tass_agency/383572).",
-        "BPLAs deployed in Sumy and Chernihiv regions (Source: kpszsu/67241, kpszsu/67255)."
+        "Russian forces advance 22 km from Seversk in DNR (Source: @tass_agency/383614).",
+        "BPLAs target infrastructure in Donetsk and Luhansk regions (Source: @eRadarrua/99548).",
+        "Russian forces liberate 23 settlements since Seversk's liberation (Source: @tass_agency/383614).",
+        "Russian military reports 133 liberated settlements in Donbas and Novorossiya (Source: @tass_agency/383601).",
+        "BPLAs strike near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546).",
+        "Russian forces consolidate control over 3,000 km² in Donbas (Source: @tass_agency/383601).",
+        "Russian military claims liberation of Konstantynivka as a strategic achievement (Source: @tass_agency/383614)."
       ]
     },
     "northern_front": {
       "points": [
-        "BPLAs deployed in Chernihiv and Kharkiv regions (Source: kpszsu/67254, kpszsu/67251)."
+        "BPLAs strike near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546).",
+        "Russian forces advance from North Skrypnyk in DNR (Source: @tass_agency/383614).",
+        "BPLAs target infrastructure in Poltava and Chernihiv (Source: @eRadarrua/99507).",
+        "Russian military reports 22 km advancement in DNR (Source: @tass_agency/383614).",
+        "BPLAs strike near Poltava and Sumy (Source: @eRadarrua/99504).",
+        "Russian forces consolidate control over 3,000 km² in Donbas (Source: @tass_agency/383601).",
+        "BPLAs target infrastructure in Kharkiv and Sumy (Source: @eRadarrua/99548)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian strikes on Sumy region's gas stations and markets (Source: tass_agency/383572)."
+        "BPLAs target infrastructure in Kharkiv and Sumy (Source: @eRadarrua/99548).",
+        "Russian forces advance from North Skrypnyk in DNR (Source: @tass_agency/383614).",
+        "BPLAs strike near Poltava and Sumy (Source: @eRadarrua/99504).",
+        "Russian military reports 133 liberated settlements in Donbas (Source: @tass_agency/383601).",
+        "BPLAs target infrastructure in Kharkiv and Sumy (Source: @eRadarrua/99548).",
+        "Russian forces consolidate control over 3,000 km² in Donbas (Source: @tass_agency/383601).",
+        "BPLAs strike near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546)."
       ]
     },
     "air_war": {
       "points": [
-        "Saky airfield attacked, destroying 7 aircraft (Source: eRadarrua/99467, eRadarrua/99512)."
+        "Ukrainian air defense systems report failures during Russian strikes in western Ukraine (Source: @ukr_leaks_eng/31349).",
+        "Russian air strikes target infrastructure in Crimea and Kharkiv (Source: @UkraineNow/82378).",
+        "BPLAs and air strikes target critical infrastructure in occupied Crimea (Source: @UkraineNow/82375).",
+        "Russian air strikes cause pollution in Kyiv (Source: @ukr_leaks_eng/31350).",
+        "Ukrainian military reports damage to radar and command nodes in occupied Crimea (Source: @UkraineNow/82378).",
+        "Russian air strikes target gas stations on Krivoy Rog highway (Source: @ukr_leaks_eng/31357).",
+        "Ukrainian air defense systems face challenges during Russian air attacks (Source: @ukr_leaks_eng/31349)."
       ]
     },
     "key_developments": [
-      "Saky airfield attacked, destroying 7 aircraft including Su-30SM and Su-24 (Source: eRadarrua/99467, eRadarrua/99512).",
-      "Missile strikes in Kyiv and Sumy regions cause 25-30 casualties (Source: UkraineNow/82355, UkraineNow/82379).",
-      "BPLAs deployed in Sumy, Chernihiv, and other regions (Source: kpszsu/67241, kpszsu/67255).",
-      "Poland scraps MiG-29s instead of transferring them to Ukraine (Source: ukr_leaks_eng/31349).",
-      "Russian strikes on Sumy region's gas stations and markets (Source: tass_agency/383572).",
-      "Ukrainian forces report destruction of missile and UAV storage sites (Source: ukr_leaks_eng/31358).",
-      "Russian forces target infrastructure in Sumy and Kyiv regions (Source: tass_agency/383572, UkraineNow/82355)."
+      "Russian forces claim liberation of Konstantynivka and 22 km advancement in DNR, signaling territorial gains (Source: @tass_agency/383614).",
+      "BPLAs strike Sumy, Chernihiv, and Poltava regions, indicating coordinated attacks on infrastructure (Source: @eRadarrua/99546, @eRadarrua/99504).",
+      "30 casualties in Kyiv following Russian strikes, with air quality deterioration (Source: @UkraineNow/82378).",
+      "Poland allegedly prepares for Russian provocations, including BPLAs and cyberattacks (Source: @UkraineNow/82371).",
+      "Ukrainian officials deny evacuation rumors in Sumy, highlighting disinformation campaigns (Source: @UkraineNow/82369).",
+      "Russian military reports 133 liberated settlements and 3,000 km² control in Donbas (Source: @tass_agency/383601).",
+      "Russian forces advance from North Skrypnyk in DNR, suggesting continued offensive operations (Source: @tass_agency/383614)."
     ],
-    "threat_assessment": "Ongoing Russian missile and BPLAs attacks on Ukrainian infrastructure and civilian areas pose significant operational risks. The destruction of military assets and targeting of key regions suggest a sustained offensive strategy by Russia.",
-    "regional_response": "Poland's refusal to transfer MiG-29s and opt for scrapping highlights strategic hesitation. International reactions, including concerns from Germany and the US, may influence future support for Ukraine.",
-    "intelligence_notes": "The destruction of MiG-29s and BPLAs indicates Russia's focus on degrading Ukrainian air and ground capabilities. The targeting of infrastructure in Sumy and Kyiv suggests a broader strategy to disrupt Ukrainian logistics and morale."
+    "threat_assessment": "The sustained BPLAs and Russian territorial claims indicate a deliberate effort to escalate pressure on Ukraine. Potential Russian provocations in Poland, including BPLAs and cyberattacks, could draw NATO into direct conflict. Pollution in Kyiv and infrastructure damage underscore the human and economic costs of escalation.",
+    "regional_response": "Ukraine is likely to prioritize counter-BPLA operations and infrastructure protection. Poland may face pressure to increase defense spending or deploy assets to deter Russian provocations. NATO could face demands to enhance support for Ukraine amid escalating threats.",
+    "intelligence_notes": "The Russian focus on Donbas and infrastructure attacks suggests a strategy to weaken Ukrainian resilience. The potential for escalation in Poland requires heightened monitoring. Disinformation campaigns, such as evacuation rumors, aim to destabilize Ukrainian society. Pollution in Kyiv highlights the collateral damage of prolonged conflict."
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 105,
   "kpszsu_timeline": [
-    1,
-    1,
     0,
     1,
     2,
     0,
-    3,
+    2,
     2,
     3,
-    3,
-    4,
     2,
     4,
-    7,
-    3,
-    1,
     3,
     4,
-    4,
-    3,
-    3,
-    5,
     6,
+    5,
+    0,
+    3,
+    2,
+    6,
+    3,
+    2,
+    6,
+    6,
+    1,
+    1,
     0
   ]
 }
