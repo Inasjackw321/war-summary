@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-03T21:22:46.743818+00:00",
-  "message_count": 335,
+  "updated_at": "2026-07-03T23:32:08.632110+00:00",
+  "message_count": 336,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,82 +13,83 @@
   ],
   "red_alerts": 105,
   "red_alerts_timeline": [
-    28,
     0,
     0,
-    0,
-    7,
-    0,
+    9,
     0,
     0,
     0,
     0,
     0,
     0,
-    14,
+    0,
+    18,
     0,
     0,
     0,
+    9,
+    9,
+    18,
+    18,
     0,
-    7,
-    21,
-    14,
     0,
-    0,
-    7,
-    7
+    9,
+    9,
+    9,
+    0
   ],
   "combined_activity_timeline": [
-    5,
-    5,
     6,
     3,
-    9,
-    6,
-    10,
-    10,
-    14,
+    8,
+    8,
+    11,
+    8,
     17,
-    16,
-    24,
-    30,
-    17,
-    19,
-    12,
-    20,
-    13,
+    15,
+    18,
+    22,
+    33,
     16,
     15,
+    14,
+    23,
+    12,
     16,
-    8,
-    31,
-    11
+    14,
+    16,
+    6,
+    34,
+    9,
+    7,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 47,
+    "@eRadarrua": 44,
     "@kpszsu": 65,
     "@mon1tor_ua": 3,
     "@UkraineNow": 21,
     "@DeepStateUA": 3,
-    "@ukr_leaks_eng": 22,
-    "@tass_agency": 174
+    "@ukr_leaks_eng": 23,
+    "@tass_agency": 177
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/99555",
-    "kpszsu": "https://t.me/kpszsu/67276",
+    "eRadarrua": "https://t.me/eRadarrua/99558",
+    "kpszsu": "https://t.me/kpszsu/67279",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68505",
     "UkraineNow": "https://t.me/UkraineNow/82385",
     "DeepStateUA": "https://t.me/DeepStateUA/23618",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31370",
-    "tass_agency": "https://t.me/tass_agency/383619"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31371",
+    "tass_agency": "https://t.me/tass_agency/383628"
   },
-  "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/383614",
-    "eRadarrua": "https://t.me/eRadarrua/99546",
-    "UkraineNow": "https://t.me/UkraineNow/82378",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31357"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/383623",
+      "post_id": 383623,
+      "channel": "tass_agency",
+      "ts": "2026-07-03T21:53:06+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/383619",
       "post_id": 383619,
@@ -212,12 +213,6 @@
       "post_id": 383573,
       "channel": "tass_agency",
       "ts": "2026-07-03T16:18:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82379",
-      "post_id": 82379,
-      "channel": "UkraineNow",
-      "ts": "2026-07-03T16:12:12+00:00"
     }
   ],
   "post_images": {
@@ -235,8 +230,6 @@
     "eRadarrua/99475": "data/media/eRadarrua_99475.jpg",
     "eRadarrua/99467": "data/media/eRadarrua_99467.jpg",
     "eRadarrua/99466": "data/media/eRadarrua_99467.jpg",
-    "eRadarrua/99435": "data/media/eRadarrua_99435.jpg",
-    "eRadarrua/99434": "data/media/eRadarrua_99435.jpg",
     "eRadarrua/99446": "data/media/eRadarrua_99446.jpg",
     "eRadarrua/99445": "data/media/eRadarrua_99446.jpg",
     "eRadarrua/99449": "data/media/eRadarrua_99449.jpg",
@@ -244,126 +237,112 @@
     "kpszsu/67183": "data/media/kpszsu_67183.jpg",
     "kpszsu/67182": "data/media/kpszsu_67183.jpg"
   },
-  "summary": "Russian forces claim liberation of Konstantynivka and advancement in Donbas, while Ukrainian infrastructure faces sustained BPLAs and strikes. Escalating attacks on civilian areas and military movements indicate heightened operational activity. Recent reports highlight potential escalation risks in Poland and pollution impacts in Kyiv.",
+  "summary": "Ukrainian forces report drone strikes in Sumy causing casualties, while Russian claims of territorial gains in Donetsk and Luhansk persist. Escalating tensions are evident in both kinetic attacks and political rhetoric.",
   "key_points": [
-    "Russian forces claim full liberation of Konstantynivka and 22 km advancement from Seversk in DNR (Source: @tass_agency/383614).",
-    "BPLAs strike Sumy, Chernihiv, and Poltava regions, with multiple incidents reported near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546, @eRadarrua/99504).",
-    "30 casualties reported in Kyiv following Russian strikes, with air quality deterioration (Source: @UkraineNow/82378).",
-    "Russian military reports 133 liberated settlements and 3,000 km² control in Donbas and Novorossiya (Source: @tass_agency/383601).",
-    "Poland allegedly prepares for Russian provocations, including BPLAs and cyberattacks on critical infrastructure (Source: @UkraineNow/82371).",
-    "Ukrainian officials deny evacuation rumors in Sumy, attributing them to disinformation (Source: @UkraineNow/82369).",
-    "Russian forces report 23 liberated settlements since Seversk's liberation (Source: @tass_agency/383614).",
-    "BPLAs target infrastructure in Kharkiv, Sumy, and Chernihiv, with coordinated strikes from northern directions (Source: @eRadarrua/99548, @eRadarrua/99507)."
+    "Ukrainian drones struck Sumy with KABs, killing 3 and injuring 20, with attacks targeting central areas (Source: eRadarrua/99542).",
+    "Russian forces claim full liberation of Konstantinovka, advancing 22 km from Seversk toward DNR (Source: tass_agency/383614).",
+    "Putin stated increased attacks on civilian infrastructure will expand Russia's security zone (Source: tass_agency/383617).",
+    "Ukrainian drones targeted infrastructure in Chernihiv, Poltava, and Kharkiv regions (Sources: kpszsu/67245, kpszsu/67254, kpszsu/67266).",
+    "Russian military reports 25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
+    "Ukrainian officials deny fake evacuation alerts in Sumy, attributing them to Russian provocateurs (Source: UkraineNow/82362).",
+    "Ukraine and Germany discuss mechanisms for returning mobilized personnel (Source: ukr_leaks_eng/31359)."
   ],
   "sentiment": "escalating",
-  "intensity": 9,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces claim liberation of Konstantynivka and advancement in Donbas, while Ukrainian infrastructure faces sustained BPLAs and strikes. Escalating attacks on civilian areas and military movements indicate heightened operational activity. Recent reports highlight potential escalation risks in Poland and pollution impacts in Kyiv.",
+    "executive_summary": "Ukrainian drone strikes in Sumy caused significant casualties, while Russian forces claim territorial advances. Putin's rhetoric suggests escalating security zone expansion. Drone activity remains a critical operational factor.",
     "ukraine": {
       "points": [
-        "BPLAs strike Sumy, Chernihiv, and Poltava regions, with multiple incidents reported near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546, @eRadarrua/99504).",
-        "30 casualties reported in Kyiv following Russian strikes, with air quality deterioration (Source: @UkraineNow/82378).",
-        "Ukrainian officials deny evacuation rumors in Sumy, attributing them to disinformation (Source: @UkraineNow/82369).",
-        "Russian strikes target railway infrastructure in occupied Crimea, disrupting military logistics (Source: @UkraineNow/82375).",
-        "BPLAs target gas stations and critical infrastructure on Krivoy Rog highway (Source: @ukr_leaks_eng/31357).",
-        "Ukrainian military reports damage to radar and command nodes in occupied Crimea (Source: @UkraineNow/82378).",
-        "Pollution in Kyiv linked to recent strikes and historical Chernobyl-related fires (Source: @ukr_leaks_eng/31350)."
+        "Drone strikes in Sumy with KABs resulted in 3 deaths and 20 injuries, targeting central infrastructure (Source: eRadarrua/99542).",
+        "Ukrainian forces deployed long-range drones (40-50+ km range) to disrupt Russian logistics near frontlines (Source: mon1tor_ua/68504).",
+        "Sumy residents received false evacuation alerts via SMS, later debunked by local authorities (Source: UkraineNow/82362).",
+        "Drones struck gas stations and infrastructure on Krivoy Rog highway (Sources: ukr_leaks_eng/31357, ukr_leaks_eng/31361).",
+        "Ukraine and Germany established working groups for returning mobilized personnel (Source: ukr_leaks_eng/31359).",
+        "Ukrainian drones targeted areas in Chernihiv, Poltava, and Kharkiv regions (Sources: kpszsu/67245, kpszsu/67254, kpszsu/67266).",
+        "Ukrainian officials reported increased air pollution in Kyiv linked to recent strikes (Source: UkraineNow/82373)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces claim full liberation of Konstantynivka and 22 km advancement from Seversk in DNR (Source: @tass_agency/383614).",
-        "Russian military reports 133 liberated settlements and 3,000 km² control in Donbas and Novorossiya (Source: @tass_agency/383601).",
-        "Putin emphasizes expanding security zones through attacks on Ukrainian infrastructure (Source: @tass_agency/383617).",
-        "Russian forces advance from North Skrypnyk in DNR (Source: @tass_agency/383614).",
-        "Russian media highlights 'planned security zones' in Kharkiv and Sumy regions (Source: @eRadarrua/99542).",
-        "Russian forces report 23 liberated settlements since Seversk's liberation (Source: @tass_agency/383614).",
-        "Russian military claims control over 3,000 km² in Donbas and Novorossiya (Source: @tass_agency/383601)."
+        "Russian forces claim full liberation of Konstantinovka, advancing 22 km from Seversk (Source: tass_agency/383614).",
+        "Putin stated attacks on civilian infrastructure will expand Russia's security zone (Source: tass_agency/383617).",
+        "Russian military reports 25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
+        "Russian forces freed 23 settlements since liberating Seversk (Source: tass_agency/383614).",
+        "Russian military claims to have fully cleared Konstantinovka (Source: tass_agency/383589).",
+        "Russian spokesperson denied plans to attack Europe or UK, blaming Western escalation (Source: tass_agency/383620).",
+        "Russian media highlighted liberated territories in LPR and DNR (Source: tass_agency/383609)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advance 22 km from Seversk in DNR (Source: @tass_agency/383614).",
-        "BPLAs target infrastructure in Donetsk and Luhansk regions (Source: @eRadarrua/99548).",
-        "Russian forces liberate 23 settlements since Seversk's liberation (Source: @tass_agency/383614).",
-        "Russian military reports 133 liberated settlements in Donbas and Novorossiya (Source: @tass_agency/383601).",
-        "BPLAs strike near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546).",
-        "Russian forces consolidate control over 3,000 km² in Donbas (Source: @tass_agency/383601).",
-        "Russian military claims liberation of Konstantynivka as a strategic achievement (Source: @tass_agency/383614)."
+        "Russian forces advanced 22 km from Seversk toward DNR (Source: tass_agency/383614).",
+        "Russian military reports liberation of 29 settlements and 600+ km² in June (Source: tass_agency/383610).",
+        "Ukrainian drones targeted deployment points in Alekseyevo-Druzhkovka and Krasny Liman (Source: ukr_leaks_eng/31361).",
+        "Russian forces continue operations in Donbas and Luhansk (Source: tass_agency/383610).",
+        "Russian military claims to have freed 23 settlements since Seversk (Source: tass_agency/383614).",
+        "Russian forces are reportedly reinforcing Konstantinovka (Source: tass_agency/383614).",
+        "Russian military operations focus on Donbas and southern fronts (Source: tass_agency/383610)."
       ]
     },
     "northern_front": {
       "points": [
-        "BPLAs strike near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546).",
-        "Russian forces advance from North Skrypnyk in DNR (Source: @tass_agency/383614).",
-        "BPLAs target infrastructure in Poltava and Chernihiv (Source: @eRadarrua/99507).",
-        "Russian military reports 22 km advancement in DNR (Source: @tass_agency/383614).",
-        "BPLAs strike near Poltava and Sumy (Source: @eRadarrua/99504).",
-        "Russian forces consolidate control over 3,000 km² in Donbas (Source: @tass_agency/383601).",
-        "BPLAs target infrastructure in Kharkiv and Sumy (Source: @eRadarrua/99548)."
+        "Ukrainian drones operated in Poltava and Kharkiv regions (Sources: kpszsu/67245, kpszsu/67254).",
+        "Reactive drones targeted areas near Kharkiv (Source: kpszsu/67258).",
+        "Drones reported near Poltava and Chernihiv (Sources: kpszsu/67245, kpszsu/67254)."
       ]
     },
     "southern_front": {
       "points": [
-        "BPLAs target infrastructure in Kharkiv and Sumy (Source: @eRadarrua/99548).",
-        "Russian forces advance from North Skrypnyk in DNR (Source: @tass_agency/383614).",
-        "BPLAs strike near Poltava and Sumy (Source: @eRadarrua/99504).",
-        "Russian military reports 133 liberated settlements in Donbas (Source: @tass_agency/383601).",
-        "BPLAs target infrastructure in Kharkiv and Sumy (Source: @eRadarrua/99548).",
-        "Russian forces consolidate control over 3,000 km² in Donbas (Source: @tass_agency/383601).",
-        "BPLAs strike near Novohrad-Volynskyi and Shostka (Source: @eRadarrua/99546)."
+        "Russian forces advanced in Donbas and Luhansk (Source: tass_agency/383610).",
+        "Ukrainian drones targeted southern regions (Source: kpszsu/67265)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defense systems report failures during Russian strikes in western Ukraine (Source: @ukr_leaks_eng/31349).",
-        "Russian air strikes target infrastructure in Crimea and Kharkiv (Source: @UkraineNow/82378).",
-        "BPLAs and air strikes target critical infrastructure in occupied Crimea (Source: @UkraineNow/82375).",
-        "Russian air strikes cause pollution in Kyiv (Source: @ukr_leaks_eng/31350).",
-        "Ukrainian military reports damage to radar and command nodes in occupied Crimea (Source: @UkraineNow/82378).",
-        "Russian air strikes target gas stations on Krivoy Rog highway (Source: @ukr_leaks_eng/31357).",
-        "Ukrainian air defense systems face challenges during Russian air attacks (Source: @ukr_leaks_eng/31349)."
+        "25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
+        "Ukrainian drones targeted infrastructure in Sumy, Chernihiv, and Poltava (Sources: eRadarrua/99542, kpszsu/67245).",
+        "Russian military reports increased drone activity near frontlines (Source: tass_agency/383616)."
       ]
     },
     "key_developments": [
-      "Russian forces claim liberation of Konstantynivka and 22 km advancement in DNR, signaling territorial gains (Source: @tass_agency/383614).",
-      "BPLAs strike Sumy, Chernihiv, and Poltava regions, indicating coordinated attacks on infrastructure (Source: @eRadarrua/99546, @eRadarrua/99504).",
-      "30 casualties in Kyiv following Russian strikes, with air quality deterioration (Source: @UkraineNow/82378).",
-      "Poland allegedly prepares for Russian provocations, including BPLAs and cyberattacks (Source: @UkraineNow/82371).",
-      "Ukrainian officials deny evacuation rumors in Sumy, highlighting disinformation campaigns (Source: @UkraineNow/82369).",
-      "Russian military reports 133 liberated settlements and 3,000 km² control in Donbas (Source: @tass_agency/383601).",
-      "Russian forces advance from North Skrypnyk in DNR, suggesting continued offensive operations (Source: @tass_agency/383614)."
+      "Ukrainian drone strikes in Sumy with KABs caused 3 deaths and 20 injuries (Source: eRadarrua/99542).",
+      "Russian forces claim full liberation of Konstantinovka, advancing 22 km from Seversk (Source: tass_agency/383614).",
+      "Putin announced expanded security zones following attacks on civilian infrastructure (Source: tass_agency/383617).",
+      "Ukrainian drones targeted infrastructure on Krivoy Rog highway (Source: ukr_leaks_eng/31357).",
+      "Ukraine and Germany established working groups for returning mobilized personnel (Source: ukr_leaks_eng/31359).",
+      "Russian military reports 25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
+      "Ukrainian officials debunked fake evacuation alerts in Sumy (Source: UkraineNow/82362)."
     ],
-    "threat_assessment": "The sustained BPLAs and Russian territorial claims indicate a deliberate effort to escalate pressure on Ukraine. Potential Russian provocations in Poland, including BPLAs and cyberattacks, could draw NATO into direct conflict. Pollution in Kyiv and infrastructure damage underscore the human and economic costs of escalation.",
-    "regional_response": "Ukraine is likely to prioritize counter-BPLA operations and infrastructure protection. Poland may face pressure to increase defense spending or deploy assets to deter Russian provocations. NATO could face demands to enhance support for Ukraine amid escalating threats.",
-    "intelligence_notes": "The Russian focus on Donbas and infrastructure attacks suggests a strategy to weaken Ukrainian resilience. The potential for escalation in Poland requires heightened monitoring. Disinformation campaigns, such as evacuation rumors, aim to destabilize Ukrainian society. Pollution in Kyiv highlights the collateral damage of prolonged conflict."
+    "threat_assessment": "Russian claims of territorial gains and Putin's rhetoric on security zones indicate potential for escalated kinetic operations. Drone warfare remains a critical vector for both sides, with Sumy and Donbas as focal points. Russian disinformation campaigns may aim to destabilize Ukrainian morale.",
+    "regional_response": "Ukraine is deploying long-range drones to counter Russian logistics, while Russia focuses on territorial consolidation in Donbas. International actors like Germany are engaging in diplomatic efforts to support Ukraine's mobilization return. Russian propaganda emphasizes territorial successes to legitimize its campaign.",
+    "intelligence_notes": "Drone activity in Sumy and Donbas suggests a shift toward precision strikes on logistics and infrastructure. Russian claims of liberated territories may mask ongoing combat operations. The use of KABs in Sumy highlights Russia's continued reliance on conventional artillery despite drone countermeasures."
   },
   "missiles": 0,
   "drones": 105,
   "kpszsu_timeline": [
+    2,
     0,
+    2,
+    2,
+    4,
+    2,
+    5,
     1,
-    2,
-    0,
-    2,
-    2,
-    3,
-    2,
-    4,
-    3,
-    4,
-    6,
+    5,
+    5,
     5,
     0,
     3,
-    2,
+    3,
     6,
     3,
-    2,
+    3,
+    5,
     6,
-    6,
+    0,
     1,
-    1,
-    0
+    0,
+    0,
+    2
   ]
 }
