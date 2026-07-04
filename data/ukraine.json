@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-04T21:08:58.573729+00:00",
-  "message_count": 240,
+  "updated_at": "2026-07-04T23:10:12.902044+00:00",
+  "message_count": 243,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,42 +14,40 @@
   "red_alerts": 86,
   "red_alerts_timeline": [
     0,
-    5,
     0,
     0,
     0,
     0,
-    0,
-    5,
+    6,
     11,
     0,
-    5,
+    6,
     11,
-    5,
+    6,
     0,
     0,
     0,
     0,
-    5,
+    6,
     11,
     0,
     0,
-    5,
+    6,
     0,
-    22
+    23,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    8,
-    5,
     7,
     10,
     3,
     8,
     7,
-    13,
+    14,
     12,
     12,
-    18,
+    17,
     17,
     9,
     12,
@@ -57,38 +55,65 @@
     8,
     10,
     9,
-    13,
-    10,
+    14,
+    9,
     12,
     6,
     9,
-    13
+    13,
+    12,
+    4
   ],
   "messages_by_channel": {
-    "@eRadarrua": 43,
-    "@kpszsu": 36,
+    "@eRadarrua": 40,
+    "@kpszsu": 37,
     "@mon1tor_ua": 4,
     "@UkraineNow": 22,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 17,
-    "@tass_agency": 116
+    "@tass_agency": 121
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/99632",
-    "kpszsu": "https://t.me/kpszsu/67342",
+    "eRadarrua": "https://t.me/eRadarrua/99633",
+    "kpszsu": "https://t.me/kpszsu/67345",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68511",
     "UkraineNow": "https://t.me/UkraineNow/82418",
     "DeepStateUA": "https://t.me/DeepStateUA/23620",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31388",
-    "tass_agency": "https://t.me/tass_agency/383756"
+    "tass_agency": "https://t.me/tass_agency/383774"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/383743",
-    "UkraineNow": "https://t.me/UkraineNow/82389",
-    "eRadarrua": "https://t.me/eRadarrua/99624",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31378"
+    "tass_agency": "https://t.me/tass_agency/383763",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31380",
+    "UkraineNow": "https://t.me/UkraineNow/82416",
+    "kpszsu": "https://t.me/kpszsu/67324",
+    "eRadarrua": "https://t.me/eRadarrua/99632"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/383768",
+      "post_id": 383768,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T22:16:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383766",
+      "post_id": 383766,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T21:49:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383762",
+      "post_id": 383762,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T21:25:36+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383758",
+      "post_id": 383758,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T21:12:45+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/383755",
       "post_id": 383755,
@@ -194,32 +219,6 @@
       "post_id": 383734,
       "channel": "tass_agency",
       "ts": "2026-07-04T14:21:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383731",
-      "post_id": 383731,
-      "channel": "tass_agency",
-      "ts": "2026-07-04T14:06:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31383",
-      "post_id": 31383,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-04T14:04:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82408",
-      "post_id": 82408,
-      "channel": "UkraineNow",
-      "ts": "2026-07-04T13:37:39+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/99588",
-      "post_id": 99588,
-      "channel": "eRadarrua",
-      "ts": "2026-07-04T13:06:32+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Qjss38NK5FkYXeBJDcBLfbhTvNtvP8HB6NOncdiM62u0bgykd7N2x5mLmvNPjus3t5fXEgnJIn5hKXzdFTU3GxiHvSS3UeSU8jFWWWQ_N3epQd0uVW4Hdo3w51qQfJAr1DuhoTN_BuvttdAHcx7csnGQHWxibUnTU3KXFBjmXeAQAgTifLvA8UwZdwASCOA6I6RxHsUqZFIu45O610Rf6A-vt0tlw_QxI3JIdvPwdcFERMEjn78K3KLcvQGTbJhVG6WHXBhpHAef6vfyBsTFI3Zs5I_S5_40yNreoOuMqVLBxPcM9fjJoxREDe0Oy-4P6dhrJI2Q5rEkCKLev3xHpw.jpg",
-      "companion_text_id": 99589
     }
   ],
   "post_images": {
@@ -244,79 +243,78 @@
     "kpszsu/67304": "data/media/kpszsu_67304.jpg",
     "kpszsu/67305": "data/media/kpszsu_67304.jpg"
   },
-  "summary": "Russian forces claim full control of Konstantinovka, marking a significant territorial gain. A major oil terminal in St. Petersburg was attacked, causing a large fire. A deadly DTP in Mykolaiv resulted in 9 fatalities and 8 injuries.",
+  "summary": "Russian forces claim liberation of Konstantinovka, while Ukrainian sources deny occupation and report continued attacks on infrastructure. Recent Ukrainian strikes hit a supermarket in Kramatorsk, causing casualties and a fire, and Russian drones have targeted multiple Ukrainian cities. The conflict remains active with ongoing aerial and ground operations.",
   "key_points": [
-    "Russian forces state they have fully liberated Konstantinovka, with ongoing clearing operations in the city (Source: @tass_agency/383743).",
-    "A large oil terminal in St. Petersburg was struck by missiles, leading to a major fire and significant damage (Source: @UkraineNow/82389).",
-    "A DTP on the M-14 highway in Mykolaiv killed 9 people and injured 8, involving a Mercedes Sprinter van (Source: @UkraineNow/82391).",
-    "Missile strikes targeted infrastructure in Belgorod, causing power and water supply disruptions (Source: @UkraineNow/82417).",
-    "Drone attacks near Kharkiv and Chernihiv reported, with specific locations mentioned (Source: @eRadarrua/99624, @eRadarrua/99627).",
-    "A mine explosion in the Odessa region destroyed an ATB warehouse (Source: @ukr_leaks_eng/31378).",
-    "Russian forces report control over settlements in Kharkiv and Donetsk regions (Source: @tass_agency/383747).",
-    "Ukrainian forces claim to have destroyed a Mig-29 fighter and its launch site in Crimea (Source: @UkraineNow/82414)."
+    "Russian President Putin orders continued mass strikes on Ukrainian defense industry infrastructure and expansion of security zones in response to alleged Ukrainian attacks (Source: @tass_agency/383763).",
+    "Ukrainian General Staff refutes reports of Russian occupation of Konstantinovka, stating the information does not correspond to reality (Source: @ukr_leaks_eng/31380).",
+    "Russian drones have struck multiple Ukrainian cities including Zaporizhzhia, Dnipro, and Sumy, causing civilian casualties and fires (Source: @UkraineNow/82416).",
+    "Ukrainian forces reportedly destroyed a MiG-29 fighter jet and an airfield launch installation at Belbek airfield in Crimea, inflicting significant damage (Source: @UkraineNow/82414).",
+    "Russian UAVs have been observed operating over Kharkiv, Poltava, and Chernihiv regions, targeting various locations (Source: @kpszsu/67324, @kpszsu/67288, @kpszsu/67313).",
+    "Ukrainian authorities report a fatal road accident on Highway M-14 involving a passenger minibus and a truck, killing nine people (Source: @UkraineNow/82397).",
+    "Russian forces claim to have liberated Konstantinovka, citing strategic importance and evacuation of civilians, while Ukrainian sources deny the claim (Source: @ukr_leaks_eng/31371).",
+    "Ukrainian media reports a large fire at a petrol terminal in St. Petersburg following a missile strike, with 21 storage tanks and a 12.5 million ton/year throughput (Source: @UkraineNow/82389)."
   ],
-  "sentiment": "volatile",
-  "intensity": 7,
+  "sentiment": "tense",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces claim full control of Konstantinovka, a key territorial gain. A major oil terminal in St. Petersburg was attacked, causing a large fire. A deadly DTP in Mykolaiv resulted in 9 fatalities and 8 injuries.",
+    "executive_summary": "Russian forces claim liberation of Konstantinovka, while Ukrainian sources deny occupation and report continued attacks on infrastructure. Recent Ukrainian strikes hit a supermarket in Kramatorsk, causing casualties and a fire, and Russian drones have targeted multiple Ukrainian cities. The conflict remains active with ongoing aerial and ground operations.",
     "ukraine": {
       "points": [
-        "A DTP on the M-14 highway in Mykolaiv killed 9 people and injured 8, involving a Mercedes Sprinter van (Source: @UkraineNow/82391).",
-        "Missile strikes targeted infrastructure in Belgorod, causing power and water supply disruptions (Source: @UkraineNow/82417).",
-        "A mine explosion in the Odessa region destroyed an ATB warehouse (Source: @ukr_leaks_eng/31378).",
-        "Ukrainian forces claim to have destroyed a Mig-29 fighter and its launch site in Crimea (Source: @UkraineNow/82414).",
-        "Drone attacks near Kharkiv and Chernihiv reported, with specific locations mentioned (Source: @eRadarrua/99624, @eRadarrua/99627).",
-        "A missile strike on a St. Petersburg oil terminal caused a large fire and significant damage (Source: @UkraineNow/82389).",
-        "Russian forces report control over settlements in Kharkiv and Donetsk regions (Source: @tass_agency/383747)."
+        "Ukrainian General Staff refutes Russian claims of occupation of Konstantinovka, stating the information does not correspond to reality (Source: @ukr_leaks_eng/31380).",
+        "Ukrainian forces reportedly destroyed a MiG-29 fighter jet and an airfield launch installation at Belbek airfield in Crimea, inflicting significant damage (Source: @UkraineNow/82414).",
+        "Ukrainian authorities report a fatal road accident on Highway M-14 involving a passenger minibus and a truck, killing nine people (Source: @UkraineNow/82397).",
+        "Ukrainian media reports a large fire at a petrol terminal in St. Petersburg following a missile strike, with 21 storage tanks and a 12.5 million ton/year throughput (Source: @UkraineNow/82389)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces state they have fully liberated Konstantinovka, with ongoing clearing operations in the city (Source: @tass_agency/383743).",
-        "Russian forces report control over settlements in Kharkiv and Donetsk regions (Source: @tass_agency/383747).",
-        "Russian media claims Konstantinovka is under full control, with clearing operations in progress (Source: @tass_agency/383743)."
+        "Russian President Putin orders continued mass strikes on Ukrainian defense industry infrastructure and expansion of security zones in response to alleged Ukrainian attacks (Source: @tass_agency/383763).",
+        "Russian drones have struck multiple Ukrainian cities including Zaporizhzhia, Dnipro, and Sumy, causing civilian casualties and fires (Source: @UkraineNow/82416).",
+        "Russian forces claim to have liberated Konstantinovka, citing strategic importance and evacuation of civilians, while Ukrainian sources deny the claim (Source: @ukr_leaks_eng/31371).",
+        "Russian UAVs have been observed operating over Kharkiv, Poltava, and Chernihiv regions, targeting various locations (Source: @kpszsu/67324, @kpszsu/67288, @kpszsu/67313)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces claim full control of Konstantinovka, with ongoing clearing operations in the city (Source: @tass_agency/383743).",
-        "Missile strikes targeted infrastructure in Belgorod, causing power and water supply disruptions (Source: @UkraineNow/82417)."
+        "Russian UAVs observed near Kharkiv and Poltava, moving southward and eastward, indicating potential targeting of eastern Ukrainian logistics (Source: @kpszsu/67324, @kpszsu/67315).",
+        "Ukrainian reports of drone strikes on Zaporizhzhia and Dnipro suggest continued pressure on eastern supply lines (Source: @UkraineNow/82416)."
       ]
     },
     "northern_front": {
       "points": [
-        "Drone attacks near Kharkiv and Chernihiv reported, with specific locations mentioned (Source: @eRadarrua/99624, @eRadarrua/99627)."
+        "Russian UAV activity reported near Chernihiv, with two drones observed near Rypky (Source: @eRadarrua/99632).",
+        "Ukrainian drone activity noted near Kharkiv and Poltava, indicating ongoing surveillance and potential strikes (Source: @kpszsu/67288)."
       ]
     },
     "southern_front": {
       "points": [
-        "A missile strike on a St. Petersburg oil terminal caused a large fire and significant damage (Source: @UkraineNow/82389)."
+        "Russian drones observed over southern Kharkiv and Poltava, moving westward, potentially targeting southern Ukrainian positions (Source: @kpszsu/67324).",
+        "Ukrainian reports of a supermarket strike in Kramatorsk with casualties and a fire, indicating southern front activity (Source: @UkraineNow/82416)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian forces claim to have destroyed a Mig-29 fighter and its launch site in Crimea (Source: @UkraineNow/82414).",
-        "Drone attacks near Kharkiv and Chernihiv reported, with specific locations mentioned (Source: @eRadarrua/99624, @eRadarrua/99627)."
+        "Ukrainian forces reportedly destroyed a MiG-29 fighter jet and an airfield launch installation at Belbek airfield in Crimea (Source: @UkraineNow/82414).",
+        "Russian UAVs have conducted strikes on multiple Ukrainian cities, including Zaporizhzhia, Dnipro, and Sumy, causing civilian casualties (Source: @UkraineNow/82416).",
+        "Russian drones observed over Kharkiv, Poltava, and Chernihiv regions, indicating continued aerial operations (Source: @kpszsu/67324, @kpszsu/67288)."
       ]
     },
     "key_developments": [
-      "Russian forces claim full control of Konstantinovka, a strategic town in Donetsk region (Source: @tass_agency/383743).",
-      "A major oil terminal in St. Petersburg was attacked by missiles, causing a large fire and significant damage (Source: @UkraineNow/82389).",
-      "A DTP on the M-14 highway in Mykolaiv killed 9 people and injured 8, involving a Mercedes Sprinter van (Source: @UkraineNow/82391).",
-      "Missile strikes targeted infrastructure in Belgorod, causing power and water supply disruptions (Source: @UkraineNow/82417).",
-      "Ukrainian forces claim to have destroyed a Mig-29 fighter and its launch site in Crimea (Source: @UkraineNow/82414).",
-      "Drone attacks near Kharkiv and Chernihiv reported, with specific locations mentioned (Source: @eRadarrua/99624, @eRadarrua/99627).",
-      "A mine explosion in the Odessa region destroyed an ATB warehouse (Source: @ukr_leaks_eng/31378)."
+      "Russian President Putin orders continued mass strikes on Ukrainian defense industry infrastructure and expansion of security zones in response to alleged Ukrainian attacks (Source: @tass_agency/383763).",
+      "Ukrainian General Staff refutes Russian claims of occupation of Konstantinovka, stating the information does not correspond to reality (Source: @ukr_leaks_eng/31380).",
+      "Russian drones have struck multiple Ukrainian cities including Zaporizhzhia, Dnipro, and Sumy, causing civilian casualties and fires (Source: @UkraineNow/82416).",
+      "Ukrainian forces reportedly destroyed a MiG-29 fighter jet and an airfield launch installation at Belbek airfield in Crimea, inflicting significant damage (Source: @UkraineNow/82414).",
+      "Russian forces claim to have liberated Konstantinovka, citing strategic importance and evacuation of civilians, while Ukrainian sources deny the claim (Source: @ukr_leaks_eng/31371).",
+      "Ukrainian authorities report a fatal road accident on Highway M-14 involving a passenger minibus and a truck, killing nine people (Source: @UkraineNow/82397).",
+      "Ukrainian media reports a large fire at a petrol terminal in St. Petersburg following a missile strike, with 21 storage tanks and a 12.5 million ton/year throughput (Source: @UkraineNow/82389)."
     ],
-    "threat_assessment": "The liberation of Konstantinovka by Russian forces indicates a potential shift in frontline dynamics, while attacks on critical infrastructure like the St. Petersburg oil terminal and Mykolaiv DTP highlight ongoing efforts to disrupt Ukrainian logistics and civilian life. The use of drones and missiles suggests a sustained offensive strategy by both sides.",
-    "regional_response": "Ukrainian authorities have reported casualties and infrastructure damage from missile and drone strikes, while Russian media emphasizes territorial gains. International observers may monitor the humanitarian impact of these attacks, particularly in regions like Mykolaiv and Belgorod.",
-    "intelligence_notes": "The repeated targeting of oil infrastructure and civilian areas suggests a deliberate strategy to weaken Ukrainian economic and logistical capabilities. The use of drones and missiles by both sides indicates a high level of technological engagement in the conflict."
+    "threat_assessment": "The conflict remains highly volatile, with Russian forces asserting strategic gains while Ukrainian sources deny occupation claims. Continued aerial attacks on Ukrainian infrastructure and civilian areas increase the risk of escalation. The presence of UAVs and missile strikes across multiple fronts suggests sustained pressure on Ukrainian logistics and morale. Monitoring of Russian claims and Ukrainian counter‑actions is essential to assess potential shifts in operational initiative.",
+    "regional_response": "International actors, notably the United States and Hungary, are engaged in diplomatic efforts related to Ukraine’s EU accession and broader conflict dynamics. Russian-U.S. talks continue, with emphasis on economic cooperation, while Hungary has partially unblocked Ukraine’s EU accession negotiations. These developments may influence regional security calculations and potential support for Ukraine.",
+    "intelligence_notes": "Open-source reports indicate active Russian UAV operations across northern, eastern, and southern Ukrainian regions, targeting logistics and infrastructure. Ukrainian claims of destroying a MiG-29 and an airfield launch installation in Crimea suggest successful counter‑air operations. The conflicting narratives over Konstantinovka highlight information warfare and the need for verification of territorial control claims."
   },
   "missiles": 0,
   "drones": 86,
   "kpszsu_timeline": [
-    0,
-    1,
     3,
     5,
     0,
@@ -325,8 +323,8 @@
     0,
     3,
     1,
-    2,
-    4,
+    3,
+    3,
     0,
     0,
     0,
@@ -338,6 +336,8 @@
     1,
     0,
     2,
-    2
+    2,
+    2,
+    0
   ]
 }
