@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-03T23:32:08.632110+00:00",
-  "message_count": 336,
+  "updated_at": "2026-07-04T03:47:23.725492+00:00",
+  "message_count": 338,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,59 +15,59 @@
   "red_alerts_timeline": [
     0,
     0,
-    9,
+    0,
+    0,
+    0,
+    10,
+    10,
+    0,
+    0,
+    0,
+    10,
+    10,
+    29,
+    10,
+    0,
+    0,
+    10,
+    10,
+    10,
     0,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    18,
-    0,
-    0,
-    0,
-    9,
-    9,
-    18,
-    18,
-    0,
-    0,
-    9,
-    9,
-    9,
     0
   ],
   "combined_activity_timeline": [
-    6,
-    3,
     8,
-    8,
-    11,
-    8,
-    17,
-    15,
-    18,
-    22,
-    33,
-    16,
-    15,
-    14,
-    23,
     12,
+    14,
+    18,
+    17,
+    29,
+    27,
     16,
     14,
     16,
+    19,
+    14,
+    15,
+    14,
+    13,
+    20,
+    22,
+    8,
+    5,
+    5,
+    10,
     6,
-    34,
-    9,
-    7,
-    5
+    8,
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 44,
-    "@kpszsu": 65,
-    "@mon1tor_ua": 3,
+    "@eRadarrua": 43,
+    "@kpszsu": 69,
+    "@mon1tor_ua": 2,
     "@UkraineNow": 21,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 23,
@@ -75,14 +75,20 @@
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/99558",
-    "kpszsu": "https://t.me/kpszsu/67279",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68505",
+    "kpszsu": "https://t.me/kpszsu/67302",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68507",
     "UkraineNow": "https://t.me/UkraineNow/82385",
     "DeepStateUA": "https://t.me/DeepStateUA/23618",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31371",
-    "tass_agency": "https://t.me/tass_agency/383628"
+    "tass_agency": "https://t.me/tass_agency/383648"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/82384",
+    "eRadarrua": "https://t.me/eRadarrua/99548",
+    "kpszsu": "https://t.me/kpszsu/67254",
+    "tass_agency": "https://t.me/tass_agency/383610",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31349"
+  },
   "media": [
     {
       "post_url": "https://t.me/tass_agency/383623",
@@ -237,112 +243,113 @@
     "kpszsu/67183": "data/media/kpszsu_67183.jpg",
     "kpszsu/67182": "data/media/kpszsu_67183.jpg"
   },
-  "summary": "Ukrainian forces report drone strikes in Sumy causing casualties, while Russian claims of territorial gains in Donetsk and Luhansk persist. Escalating tensions are evident in both kinetic attacks and political rhetoric.",
+  "summary": "Ukrainian forces reported a massive KAB strike on Sumy causing civilian casualties and infrastructure damage. Russian UAV activity was noted across multiple regions including Kharkiv, Zaporizhzhia, and the north. The Netherlands agreed to host a special tribunal on Russian aggression.",
   "key_points": [
-    "Ukrainian drones struck Sumy with KABs, killing 3 and injuring 20, with attacks targeting central areas (Source: eRadarrua/99542).",
-    "Russian forces claim full liberation of Konstantinovka, advancing 22 km from Seversk toward DNR (Source: tass_agency/383614).",
-    "Putin stated increased attacks on civilian infrastructure will expand Russia's security zone (Source: tass_agency/383617).",
-    "Ukrainian drones targeted infrastructure in Chernihiv, Poltava, and Kharkiv regions (Sources: kpszsu/67245, kpszsu/67254, kpszsu/67266).",
-    "Russian military reports 25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
-    "Ukrainian officials deny fake evacuation alerts in Sumy, attributing them to Russian provocateurs (Source: UkraineNow/82362).",
-    "Ukraine and Germany discuss mechanisms for returning mobilized personnel (Source: ukr_leaks_eng/31359)."
+    "Russian UAVs conducted a mass strike on Sumy, hitting civilian infrastructure and resulting in multiple civilian injuries, including children (Source: @UkraineNow/82384).",
+    "Two civilians were killed and about twenty injured in combined Russian attacks on Zaporizhzhia, including KABs and drones (Source: @eRadarrua/99548).",
+    "Ukrainian UAV sightings were reported near Kharkiv, Zaporizhzhia, Dnipropetrovsk, and Chernihiv regions (Source: @kpszsu/67254, @kpszsu/67265, @kpszsu/67278, @kpszsu/67289).",
+    "Russia claims to have liberated 29 settlements and over 600 km² in June (Source: @tass_agency/383610).",
+    "The Netherlands will host a special tribunal to prosecute Russian political and military leadership for the crime of aggression (Source: @UkraineNow/82383).",
+    "Three German Skynex air defence systems failed during a Russian air strike in western Ukraine in April (Source: @ukr_leaks_eng/31349).",
+    "Russian forces fully liberated Konstantinovka according to Russian statements (Source: @tass_agency/383611)."
   ],
-  "sentiment": "escalating",
-  "intensity": 8,
+  "sentiment": "volatile",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian drone strikes in Sumy caused significant casualties, while Russian forces claim territorial advances. Putin's rhetoric suggests escalating security zone expansion. Drone activity remains a critical operational factor.",
+    "executive_summary": "Ukrainian authorities reported a large‑scale KAB attack on Sumy that injured civilians, including children, and damaged residential areas. Russian UAV activity continues across the eastern front, with sightings near Kharkiv, Zaporizhzhia, Dnipropetrovsk and Chernihiv. Internationally, the Netherlands agreed to host a special tribunal to try Russian leaders for the crime of aggression.",
     "ukraine": {
       "points": [
-        "Drone strikes in Sumy with KABs resulted in 3 deaths and 20 injuries, targeting central infrastructure (Source: eRadarrua/99542).",
-        "Ukrainian forces deployed long-range drones (40-50+ km range) to disrupt Russian logistics near frontlines (Source: mon1tor_ua/68504).",
-        "Sumy residents received false evacuation alerts via SMS, later debunked by local authorities (Source: UkraineNow/82362).",
-        "Drones struck gas stations and infrastructure on Krivoy Rog highway (Sources: ukr_leaks_eng/31357, ukr_leaks_eng/31361).",
-        "Ukraine and Germany established working groups for returning mobilized personnel (Source: ukr_leaks_eng/31359).",
-        "Ukrainian drones targeted areas in Chernihiv, Poltava, and Kharkiv regions (Sources: kpszsu/67245, kpszsu/67254, kpszsu/67266).",
-        "Ukrainian officials reported increased air pollution in Kyiv linked to recent strikes (Source: UkraineNow/82373)."
+        "Sumy suffered a mass KAB strike that hit civilian infrastructure, causing at least three deaths and numerous injuries, including children, according to the Sumy regional administration (Source: @UkraineNow/82384).",
+        "Two civilians were killed and about twenty injured in combined Russian attacks on Zaporizhzhia, involving KABs and drones, as reported by the State Emergency Service (Source: @eRadarrua/99548).",
+        "Ukrainian forces reported UAV activity north of Kharkiv, with two UAVs observed near Derhachi and Cirkuny (Source: @eRadarrua/99555).",
+        "Ukrainian intelligence noted that all gas stations in several oblasts, including Kyiv, Sumy, Chernihiv, Dnipropetrovsk, Poltava and Kharkiv, are potential targets for UAV attacks (Source: @eRadarrua/99503).",
+        "Ukrainian MP Mykola Tyshchenko faced suspicion in a $1 million case related to call‑center operations, highlighting internal corruption concerns (Source: @UkraineNow/82375)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces claim full liberation of Konstantinovka, advancing 22 km from Seversk (Source: tass_agency/383614).",
-        "Putin stated attacks on civilian infrastructure will expand Russia's security zone (Source: tass_agency/383617).",
-        "Russian military reports 25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
-        "Russian forces freed 23 settlements since liberating Seversk (Source: tass_agency/383614).",
-        "Russian military claims to have fully cleared Konstantinovka (Source: tass_agency/383589).",
-        "Russian spokesperson denied plans to attack Europe or UK, blaming Western escalation (Source: tass_agency/383620).",
-        "Russian media highlighted liberated territories in LPR and DNR (Source: tass_agency/383609)."
+        "Russian forces claim to have liberated 29 settlements and over 600 km² of territory in June (Source: @tass_agency/383610).",
+        "Russia announced the full liberation of Konstantinovka, describing it as an impregnable fortified area (Source: @tass_agency/383611).",
+        "A Russian soldier from the 55th Guards Motorized Rifle Brigade destroyed a Ukrainian UAV in flight (Source: @ukr_leaks_eng/31364).",
+        "Russian authorities reported temporary closure of traffic on the Crimean Bridge due to operational activity (Source: @tass_agency/383630).",
+        "Russia is developing a lunar training complex for cosmonauts, unrelated to the conflict but noted in official statements (Source: @tass_agency/383633)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advanced 22 km from Seversk toward DNR (Source: tass_agency/383614).",
-        "Russian military reports liberation of 29 settlements and 600+ km² in June (Source: tass_agency/383610).",
-        "Ukrainian drones targeted deployment points in Alekseyevo-Druzhkovka and Krasny Liman (Source: ukr_leaks_eng/31361).",
-        "Russian forces continue operations in Donbas and Luhansk (Source: tass_agency/383610).",
-        "Russian military claims to have freed 23 settlements since Seversk (Source: tass_agency/383614).",
-        "Russian forces are reportedly reinforcing Konstantinovka (Source: tass_agency/383614).",
-        "Russian military operations focus on Donbas and southern fronts (Source: tass_agency/383610)."
+        "UAVs were observed heading north‑west over eastern Dnipropetrovsk region (Source: @kpszsu/67278).",
+        "A reactive UAV was reported moving north over Kherson region from the TOT (Source: @kpszsu/67254).",
+        "Ukrainian forces reported a UAV heading toward Zaporizhzhia from the southwest (Source: @kpszsu/67265).",
+        "Multiple UAV sightings were logged near Kharkiv, including one passing near Kegichivka heading north (Source: @kpszsu/67279).",
+        "A fast‑moving target was reported near Mykolaiv region, passing Bashankiv towards Kirovohrad (Source: @kpszsu/67264)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian drones operated in Poltava and Kharkiv regions (Sources: kpszsu/67245, kpszsu/67254).",
-        "Reactive drones targeted areas near Kharkiv (Source: kpszsu/67258).",
-        "Drones reported near Poltava and Chernihiv (Sources: kpszsu/67245, kpszsu/67254)."
+        "UAV activity was reported in Chernihiv region west of Novhorod‑Siverskyi with a variable course (Source: @kpszsu/67289).",
+        "UAVs were observed north of Kharkiv with a variable course (Source: @kpszsu/67254).",
+        "UAVs were reported near Sumy, passing Romny from the north on a western course (Source: @kpszsu/67251).",
+        "Two UAVs were noted in Chernihiv region near Olishivka (Source: @eRadarrua/99511).",
+        "UAVs were reported in Poltava and Chernihiv during reconnaissance missions (Source: @eRadarrua/99495)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces advanced in Donbas and Luhansk (Source: tass_agency/383610).",
-        "Ukrainian drones targeted southern regions (Source: kpszsu/67265)."
+        "Russian attacks on Zaporizhzhia resulted in two civilian deaths and about twenty injuries, with repeated KAB strikes (Source: @eRadarrua/99548).",
+        "UAVs were observed moving toward Zaporizhzhia from the southwest (Source: @kpszsu/67265).",
+        "A reactive UAV was reported heading north in Kherson region from the TOT (Source: @kpszsu/67254).",
+        "Ukrainian forces noted a UAV heading toward Mykolaiv region near Bashankiv (Source: @kpszsu/67264).",
+        "A new UAV route was identified from Donetsk to southern Zaporizhzhia, passing Tokmak (Source: @eRadarrua/99504)."
       ]
     },
     "air_war": {
       "points": [
-        "25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
-        "Ukrainian drones targeted infrastructure in Sumy, Chernihiv, and Poltava (Sources: eRadarrua/99542, kpszsu/67245).",
-        "Russian military reports increased drone activity near frontlines (Source: tass_agency/383616)."
+        "Three of Germany's eight Skynex air defence systems failed during a Russian air strike in western Ukraine in April, limiting tracking capability (Source: @ukr_leaks_eng/31349).",
+        "Ukrainian forces reported a mass KAB strike on Sumy, indicating continued Russian aerial munition use (Source: @UkraineNow/82384).",
+        "Ukrainian intelligence reported destruction of temporary deployment points in Donetsk DPR by Russian aerial bombs (Source: @ukr_leaks_eng/31361).",
+        "Ukrainian special forces (SBU) struck the Sakhi airfield in Crimea, damaging multiple hangars and reportedly destroying at least seven aircraft (Source: @UkraineNow/82372).",
+        "Ukrainian forces hit a Russian electronic warfare station near Artemivka in Crimea and a reconnaissance unit in Sevastopol (Source: @UkraineNow/82378)."
       ]
     },
     "key_developments": [
-      "Ukrainian drone strikes in Sumy with KABs caused 3 deaths and 20 injuries (Source: eRadarrua/99542).",
-      "Russian forces claim full liberation of Konstantinovka, advancing 22 km from Seversk (Source: tass_agency/383614).",
-      "Putin announced expanded security zones following attacks on civilian infrastructure (Source: tass_agency/383617).",
-      "Ukrainian drones targeted infrastructure on Krivoy Rog highway (Source: ukr_leaks_eng/31357).",
-      "Ukraine and Germany established working groups for returning mobilized personnel (Source: ukr_leaks_eng/31359).",
-      "Russian military reports 25 drones shot down near Moscow in 24 hours (Source: tass_agency/383616).",
-      "Ukrainian officials debunked fake evacuation alerts in Sumy (Source: UkraineNow/82362)."
+      "Mass KAB strike on Sumy caused civilian casualties and infrastructure damage, highlighting intensified Russian aerial operations in the north (Source: @UkraineNow/82384).",
+      "Two civilian deaths and ~20 injuries in Zaporizhzhia from combined KAB and drone attacks show sustained pressure on southern cities (Source: @eRadarrua/99548).",
+      "Russia claims liberation of 29 settlements and over 600 km² in June, indicating ongoing offensive momentum (Source: @tass_agency/383610).",
+      "Germany reports failures in three Skynex air defence systems during a Russian strike, reducing Ukraine's air defence reliability (Source: @ukr_leaks_eng/31349).",
+      "Ukrainian special forces damaged hangars at Sakhi airfield in Crimea, reportedly destroying at least seven aircraft (Source: @UkraineNow/82372).",
+      "The Netherlands will host a special tribunal to prosecute Russian leadership for the crime of aggression, marking a significant diplomatic development (Source: @UkraineNow/82383).",
+      "Ukrainian intelligence confirmed Russian aerial bombing of temporary deployment points in Donetsk DPR, degrading Ukrainian forward positions (Source: @ukr_leaks_eng/31361)."
     ],
-    "threat_assessment": "Russian claims of territorial gains and Putin's rhetoric on security zones indicate potential for escalated kinetic operations. Drone warfare remains a critical vector for both sides, with Sumy and Donbas as focal points. Russian disinformation campaigns may aim to destabilize Ukrainian morale.",
-    "regional_response": "Ukraine is deploying long-range drones to counter Russian logistics, while Russia focuses on territorial consolidation in Donbas. International actors like Germany are engaging in diplomatic efforts to support Ukraine's mobilization return. Russian propaganda emphasizes territorial successes to legitimize its campaign.",
-    "intelligence_notes": "Drone activity in Sumy and Donbas suggests a shift toward precision strikes on logistics and infrastructure. Russian claims of liberated territories may mask ongoing combat operations. The use of KABs in Sumy highlights Russia's continued reliance on conventional artillery despite drone countermeasures."
+    "threat_assessment": "Russian UAV and KAB activity remains high across the northern and southern fronts, targeting civilian infrastructure and causing casualties, as seen in Sumy and Zaporizhzhia. Air defence reliability is challenged by reported system failures, reducing Ukraine's ability to intercept aerial threats. Russian territorial claims of liberated settlements suggest continued ground offensives, while Ukrainian special operations are striking high‑value targets in occupied Crimea, indicating a contested air and ground environment.",
+    "regional_response": "Western partners are increasing diplomatic pressure, exemplified by the Netherlands' commitment to host a special tribunal for Russian aggression. NATO allies are reviewing air defence support after German system failures, potentially prompting additional deliveries. Ukraine is focusing on protecting critical infrastructure, especially fuel stations, and reinforcing civilian shelters in response to intensified aerial attacks.",
+    "intelligence_notes": "UAV sighting reports provide granular data on Russian aerial routes, useful for predictive threat modeling. The concentration of attacks on fuel stations suggests a Russian strategy to disrupt logistics and civilian morale. Failure of German air defence systems underscores the need for diversified and resilient air defence solutions. Continued Ukrainian strikes on occupied Crimea airfields indicate a strategic effort to degrade Russian air capabilities in the region."
   },
   "missiles": 0,
   "drones": 105,
   "kpszsu_timeline": [
     2,
-    0,
-    2,
-    2,
+    3,
     4,
+    3,
+    4,
+    8,
+    1,
+    1,
+    3,
+    4,
+    4,
+    4,
+    3,
+    4,
+    6,
+    1,
+    0,
+    0,
+    0,
     2,
-    5,
-    1,
-    5,
-    5,
-    5,
-    0,
-    3,
-    3,
     6,
-    3,
-    3,
-    5,
-    6,
-    0,
     1,
-    0,
-    0,
-    2
+    3,
+    1
   ]
 }
