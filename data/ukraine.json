@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-04T07:26:37.807101+00:00",
-  "message_count": 335,
+  "updated_at": "2026-07-04T10:31:04.190771+00:00",
+  "message_count": 307,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,81 +15,122 @@
   "red_alerts_timeline": [
     0,
     0,
+    0,
+    5,
+    5,
+    11,
     11,
     0,
     0,
+    5,
+    5,
+    5,
     0,
-    6,
     0,
-    17,
+    0,
+    0,
+    0,
+    0,
+    5,
     11,
+    5,
     0,
-    0,
-    6,
-    6,
-    6,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    6,
     11,
-    6
+    5
   ],
   "combined_activity_timeline": [
-    16,
-    24,
-    31,
-    17,
-    17,
-    12,
-    24,
-    10,
-    16,
     15,
-    16,
-    7,
-    33,
-    9,
-    8,
-    6,
-    6,
-    9,
-    4,
-    8,
-    8,
-    11,
+    15,
     14,
-    13
+    23,
+    12,
+    16,
+    14,
+    16,
+    6,
+    34,
+    8,
+    7,
+    5,
+    7,
+    9,
+    5,
+    8,
+    7,
+    12,
+    12,
+    13,
+    21,
+    16,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 48,
-    "@kpszsu": 62,
+    "@eRadarrua": 46,
+    "@kpszsu": 53,
     "@mon1tor_ua": 2,
     "@UkraineNow": 21,
     "@DeepStateUA": 3,
-    "@ukr_leaks_eng": 21,
-    "@tass_agency": 178
+    "@ukr_leaks_eng": 19,
+    "@tass_agency": 163
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/99571",
-    "kpszsu": "https://t.me/kpszsu/67312",
+    "eRadarrua": "https://t.me/eRadarrua/99582",
+    "kpszsu": "https://t.me/kpszsu/67321",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68508",
-    "UkraineNow": "https://t.me/UkraineNow/82391",
+    "UkraineNow": "https://t.me/UkraineNow/82400",
     "DeepStateUA": "https://t.me/DeepStateUA/23618",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31374",
-    "tass_agency": "https://t.me/tass_agency/383675"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31378",
+    "tass_agency": "https://t.me/tass_agency/383703"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82378",
-    "tass_agency": "https://t.me/tass_agency/383658",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31371",
-    "kpszsu": "https://t.me/kpszsu/67298",
-    "eRadarrua": "https://t.me/eRadarrua/99548"
+    "tass_agency": "https://t.me/tass_agency/383670",
+    "UkraineNow": "https://t.me/UkraineNow/82395",
+    "kpszsu": "https://t.me/kpszsu/67295",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31372"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31378",
+      "post_id": 31378,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-04T10:18:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383699",
+      "post_id": 383699,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T09:54:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82397",
+      "post_id": 82397,
+      "channel": "UkraineNow",
+      "ts": "2026-07-04T09:07:42+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82396",
+      "post_id": 82396,
+      "channel": "UkraineNow",
+      "ts": "2026-07-04T08:59:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383691",
+      "post_id": 383691,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T08:34:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383690",
+      "post_id": 383690,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T08:27:18+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/383687",
+      "post_id": 383687,
+      "channel": "tass_agency",
+      "ts": "2026-07-04T08:04:24+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/82391",
       "post_id": 82391,
@@ -166,7 +207,7 @@
       "channel": "eRadarrua",
       "ts": "2026-07-04T05:02:01+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/phvGSO3tWRp3EjmVxDKTQPrGqAnmBeJrQueLFsuh-7wfJ-UnQLgudaqG8j0UgZ5asZG-rDf8PJ5Ak8umJGghDnFbiOyKzP5zFJIMzw8eQhfyYnencXdx_CLjb-za-tqUt33NKLoh9E_TQgyAC9XU6D2-twQ-aF5oMxnAvgpCcIEnX1O--IqZ7oD8-srcMWLzfI2GgMJ8oqzxsbtPioZl5EKMBm2mb-ihSJGTd-x_KsnQWG-BEpNFxq-HxwXldzyHV8rLFQ7VRTd9Ul3VX6E6hogggXzQh20Jgc3wGT-i4TEqDkJdVcXmVc4gFs8iAUzIIUOXLQ2Hv3V3f3j7ASyxUQ.jpg",
-      "companion_text_id": 99562
+      "companion_text_id": 99564
     },
     {
       "post_url": "https://t.me/eRadarrua/99560",
@@ -175,169 +216,132 @@
       "ts": "2026-07-04T04:36:53+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/GcH_qg2EfJ9cgZiktM-g1KkRuw9oMYO6H1J38mvvc-9Q8vf9MoaSFhvUB6U9nthPvzmA_96VrCkwy9sYpA2OYoHUYTMQTRlK28H9cIc3KTdBB8Uulu4to98y7plROHGKDFzZ1Ywb4aC0YhWRe477Pp46G3ZE1OMxhLQwwY2YhvnOvQy0WMN_PO5tnzCyXX17B6KTkNC9Caf-uhhbcOEjc1FYQo_9D3SJ1G0IGBv2yGI3IBMrNa7YuB3RDWkFzPryzy-CxouLAOOVx-maHQuKDXC3qEpU8snkxdG-iUE9lgS7BGfKn5MQgkFy80hfGvmQcnS4l5a1H4rW9LUyErCX6Q.jpg",
       "companion_text_id": 99559
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383623",
-      "post_id": 383623,
-      "channel": "tass_agency",
-      "ts": "2026-07-03T21:53:06+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383619",
-      "post_id": 383619,
-      "channel": "tass_agency",
-      "ts": "2026-07-03T21:12:45+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/99548",
-      "post_id": 99548,
-      "channel": "eRadarrua",
-      "ts": "2026-07-03T20:22:41+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/f8FCqedtKkh9Xq8gXqeKfT0ljdGb21us8YKW9tRqjjaD26Kg9U5SnJRcWN_GPg815OGtuRKafT77EZrT9YskAojhKSFgkV0Qnvvx7VbVkT4zzjH2jOxScK1yE9uZOvK_oLW0WRtvLRxQeyWXQYxv6ExwSKOufs-RXhX8o1j77XpPyfh4XmAJgZzDiqlsRMyx6TsqInD4RFEgAJT8lw7ZxJzYFunqQQmUCc7VQRl2cgLdhmPj9k9l-MouVmkuOsyk5Z8yu7CA4lZtiomGLPFKitzSDvBoZreU3NcV6Yv8I-1T3PaBnb4v24vM-RJc9gQ8KO1kYaH2dIThKVJ1Wj9CeQ.jpg",
-      "companion_text_id": 99546
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383609",
-      "post_id": 383609,
-      "channel": "tass_agency",
-      "ts": "2026-07-03T20:16:15+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383601",
-      "post_id": 383601,
-      "channel": "tass_agency",
-      "ts": "2026-07-03T19:51:26+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/99532",
-      "post_id": 99532,
-      "channel": "eRadarrua",
-      "ts": "2026-07-03T19:42:17+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Uues28Mmv-Wm-93jN1q65wMN70mkZ5ltQTfRnTbpa6fht9n6JXAhfLlc6mH9Fa-cCOjkxFK9xoulZsSd-nehTA1VEMrnedC68X3pDA0Y329PsoiVKjG4tggrZ5PtgFhbtrKMBXPO11SB7kExu1plnQBLMmjfa19oaARba5AYgylPtwEuKKlBS-Ku4ZYU8FPRtILZawl3LCq6kpwbSv95w9eh2l8Mn59cF_PEjh0AGUOCTXHIiItm_ZmcJv4uhUxKG-Auip2ANebKmItxv0aWx_kpUkneCnjDZwyTOgSDQq0wl4fRSfuhp06cshzx8Xor0kjnCNwEZwgUGH_-b4wRUg.jpg",
-      "companion_text_id": 99530
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82385",
-      "post_id": 82385,
-      "channel": "UkraineNow",
-      "ts": "2026-07-03T19:39:41+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/99560": "data/media/eRadarrua_99560.jpg",
-    "eRadarrua/99559": "data/media/eRadarrua_99560.jpg",
     "eRadarrua/99563": "data/media/eRadarrua_99563.jpg",
-    "eRadarrua/99562": "data/media/eRadarrua_99563.jpg",
+    "eRadarrua/99564": "data/media/eRadarrua_99563.jpg",
     "eRadarrua/99568": "data/media/eRadarrua_99568.jpg",
     "eRadarrua/99567": "data/media/eRadarrua_99568.jpg",
-    "eRadarrua/99532": "data/media/eRadarrua_99532.jpg",
-    "eRadarrua/99530": "data/media/eRadarrua_99532.jpg",
     "eRadarrua/99548": "data/media/eRadarrua_99548.jpg",
     "eRadarrua/99546": "data/media/eRadarrua_99548.jpg",
-    "eRadarrua/99512": "data/media/eRadarrua_99512.jpg",
-    "eRadarrua/99511": "data/media/eRadarrua_99512.jpg",
+    "eRadarrua/99560": "data/media/eRadarrua_99560.jpg",
+    "eRadarrua/99559": "data/media/eRadarrua_99560.jpg",
     "eRadarrua/99522": "data/media/eRadarrua_99522.jpg",
     "eRadarrua/99521": "data/media/eRadarrua_99522.jpg",
     "eRadarrua/99531": "data/media/eRadarrua_99531.jpg",
+    "eRadarrua/99530": "data/media/eRadarrua_99531.jpg",
+    "eRadarrua/99532": "data/media/eRadarrua_99532.jpg",
+    "eRadarrua/99512": "data/media/eRadarrua_99512.jpg",
+    "eRadarrua/99511": "data/media/eRadarrua_99512.jpg",
+    "eRadarrua/99467": "data/media/eRadarrua_99467.jpg",
     "eRadarrua/99473": "data/media/eRadarrua_99473.jpg",
     "eRadarrua/99471": "data/media/eRadarrua_99473.jpg",
     "eRadarrua/99475": "data/media/eRadarrua_99475.jpg",
-    "eRadarrua/99467": "data/media/eRadarrua_99467.jpg",
-    "eRadarrua/99466": "data/media/eRadarrua_99467.jpg",
     "kpszsu/67304": "data/media/kpszsu_67304.jpg",
     "kpszsu/67305": "data/media/kpszsu_67304.jpg"
   },
-  "summary": "Ukrainian forces conducted strikes on critical infrastructure in occupied Crimea, including a rail bridge and radio-electronic warfare stations. Russian forces claimed to have shot down 389 Ukrainian drones overnight. The US warned Poland of potential Russian provocations on Polish territory.",
+  "summary": "Russian forces claim full liberation of Konstantinovka in Donetsk Oblast, though no evidence provided. Ukrainian military reports ongoing defense operations in the area. Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets.",
   "key_points": [
-    "Ukrainian military struck a rail bridge over the Krasnohvardiisky canal in occupied Crimea, disrupting Russian logistics (Source: @UkraineNow/82378).",
-    "Russian Ministry of Defense reported destroying 389 Ukrainian drones overnight across Russian regions (Source: @tass_agency/383658).",
-    "US communicated to Poland that Russia may plan provocations including drone attacks on critical infrastructure (Source: @UkraineNow/82371).",
-    "Ukrainian SBU damaged seven aircraft at Saky airfield in occupied Crimea (Source: @UkraineNow/82372).",
-    "Russian forces claimed liberation of Konstantinovka in Donetsk People's Republic (Source: @ukr_leaks_eng/31371).",
-    "Drones and Shahed-136 threats reported across multiple Ukrainian regions including Sumy, Kharkiv, and Dnipro (Source: @kpszsu/67298).",
-    "Zelensky announced Netherlands will host special tribunal on Russian aggression (Source: @UkraineNow/82383)."
+    "Russian forces claim full liberation of Konstantinovka in Donetsk Oblast, though no evidence provided (Source: @tass_agency/383670)",
+    "Ukrainian military reports ongoing defense operations in Konstantinovka, repelling 11 enemy assaults (Source: @UkraineNow/82395)",
+    "Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets (Source: @kpszsu/67295)",
+    "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)",
+    "Russian forces continue to hold strategic initiative in the special military operation zone (Source: @tass_agency/383669)",
+    "Ukrainian military reports strikes on Russian military targets in Crimea (Source: @UkraineNow/82385)",
+    "Russian strikes on Ukrainian infrastructure, including a TEC in Belgorod and a fuel terminal in St. Petersburg (Source: @UkraineNow/82389)"
   ],
-  "sentiment": "escalating",
-  "intensity": 8,
+  "sentiment": "volatile",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Ukrainian forces conducted significant strikes on occupied Crimean infrastructure, targeting rail bridges and radio-electronic warfare facilities. Russian forces claimed to have shot down 389 Ukrainian drones overnight and announced the liberation of Konstantinovka. The US warned Poland of potential Russian provocations involving drone attacks on critical infrastructure.",
+    "executive_summary": "Russian forces claim full liberation of Konstantinovka in Donetsk Oblast, though no evidence provided. Ukrainian military reports ongoing defense operations in the area. Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets.",
     "ukraine": {
       "points": [
-        "Ukrainian military struck a rail bridge over the Krasnohvardiisky canal in occupied Crimea, which Russian forces use for troop and logistics movement. Additional strikes targeted a radio-electronic warfare station in Artemivka and a drone control point in Ukrainian Donetsk region (Source: @UkraineNow/82378).",
-        "Ukrainian SBU damaged seven aircraft at Saky airfield in occupied Crimea, including Su-30SM, Su-30, and Su-24 aircraft. Two hangars at Gvardiyske airfield were also damaged, affecting drone storage (Source: @UkraineNow/82372).",
-        "Russian forces claimed to have shot down 389 Ukrainian drones overnight across Russian regions. Ukrainian sources reported drone activity over Sumy, Kharkiv, Dnipro, and Zaporizhzhia regions (Source: @tass_agency/383658, @kpszsu/67298).",
-        "US warned Poland that Russia may plan provocations including drone attacks on critical infrastructure, potential fighter jet simulations, and hybrid/direct attacks using Russian and Belarusian forces (Source: @UkraineNow/82371)."
+        "Ukrainian military reports ongoing defense operations in Konstantinovka, repelling 11 enemy assaults (Source: @UkraineNow/82395)",
+        "Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets (Source: @kpszsu/67295)",
+        "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)",
+        "Ukrainian military reports strikes on Russian military targets in Crimea (Source: @UkraineNow/82385)"
       ]
     },
     "russia": {
       "points": [
-        "Russian Ministry of Defense claimed to have destroyed 389 Ukrainian drones overnight across Russian regions. Forces also reported eliminating Ukrainian drone control points in Dnipropetrovsk region (Source: @tass_agency/383658, @tass_agency/383641).",
-        "Russian President Putin announced the liberation of Konstantinovka in Donetsk People's Republic, calling it a strategic step toward full DPR liberation. Evacuation of remaining civilians was ordered (Source: @ukr_leaks_eng/31371).",
-        "Russian forces conducted airstrikes on Zaporizhzhia, killing two civilians and injuring 20 others. Attacks used KAB bombs, continuing daily assaults on the region (Source: @eRadarrua/99548)."
+        "Russian forces claim full liberation of Konstantinovka in Donetsk Oblast, though no evidence provided (Source: @tass_agency/383670)",
+        "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)",
+        "Russian strikes on Ukrainian infrastructure, including a TEC in Belgorod and a fuel terminal in St. Petersburg (Source: @UkraineNow/82389)",
+        "Russian forces continue to hold strategic initiative in the special military operation zone (Source: @tass_agency/383669)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces claimed to have liberated Konstantinovka in Donetsk People's Republic, a strategic step toward full DPR liberation. The city's capture was announced by Putin with orders for civilian evacuation (Source: @ukr_leaks_eng/31371).",
-        "Ukrainian forces conducted strikes on occupied Crimea, including rail bridges and radio-electronic warfare stations. Saky airfield was damaged, affecting Su-30 and Su-24 aircraft (Source: @UkraineNow/82378, @UkraineNow/82372)."
+        "Russian forces claim full liberation of Konstantinovka in Donetsk Oblast, though no evidence provided (Source: @tass_agency/383670)",
+        "Ukrainian military reports ongoing defense operations in Konstantinovka, repelling 11 enemy assaults (Source: @UkraineNow/82395)",
+        "Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets (Source: @kpszsu/67295)",
+        "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)"
       ]
     },
     "northern_front": {
       "points": [
-        "US warned Poland of potential Russian provocations including drone attacks on critical infrastructure and fighter jet simulations. Russia may use Belarusian forces for hybrid attacks (Source: @UkraineNow/82371)."
+        "Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets (Source: @kpszsu/67295)",
+        "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)",
+        "Russian strikes on Ukrainian infrastructure, including a TEC in Belgorod and a fuel terminal in St. Petersburg (Source: @UkraineNow/82389)",
+        "Russian forces continue to hold strategic initiative in the special military operation zone (Source: @tass_agency/383669)"
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian military struck a rail bridge over the Krasnohvardiisky canal in occupied Crimea, disrupting Russian logistics. Additional strikes hit radio-electronic warfare stations in Artemivka and a drone control point (Source: @UkraineNow/82378).",
-        "Russian forces conducted airstrikes on Zaporizhzhia, killing two civilians and injuring 20 others using KAB bombs. Daily attacks continued on the region (Source: @eRadarrua/99548)."
+        "Ukrainian military reports ongoing defense operations in Konstantinovka, repelling 11 enemy assaults (Source: @UkraineNow/82395)",
+        "Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets (Source: @kpszsu/67295)",
+        "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)",
+        "Russian strikes on Ukrainian infrastructure, including a TEC in Belgorod and a fuel terminal in St. Petersburg (Source: @UkraineNow/82389)"
       ]
     },
     "air_war": {
       "points": [
-        "Russian Ministry of Defense reported destroying 389 Ukrainian drones overnight across Russian regions. Ukrainian sources reported drone activity over Sumy, Kharkiv, Dnipro, and Zaporizhzhia regions (Source: @tass_agency/383658, @kpszsu/67298).",
-        "Ukrainian SBU damaged seven aircraft at Saky airfield in occupied Crimea, including Su-30SM, Su-30, and Su-24 aircraft. Two hangars at Gvardiyske airfield were also damaged (Source: @UkraineNow/82372)."
+        "Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets (Source: @kpszsu/67295)",
+        "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)",
+        "Russian strikes on Ukrainian infrastructure, including a TEC in Belgorod and a fuel terminal in St. Petersburg (Source: @UkraineNow/82389)",
+        "Ukrainian military reports strikes on Russian military targets in Crimea (Source: @UkraineNow/82385)"
       ]
     },
     "key_developments": [
-      "Ukrainian forces struck a rail bridge over the Krasnohvardiisky canal in occupied Crimea, disrupting Russian troop and logistics movement (Source: @UkraineNow/82378).",
-      "Russian Ministry of Defense claimed to have destroyed 389 Ukrainian drones overnight across Russian regions (Source: @tass_agency/383658).",
-      "US warned Poland of potential Russian provocations involving drone attacks on critical infrastructure within months (Source: @UkraineNow/82371).",
-      "Russian forces announced the liberation of Konstantinovka in Donetsk People's Republic, a strategic step toward full DPR control (Source: @ukr_leaks_eng/31371).",
-      "Ukrainian SBU damaged seven aircraft at Saky airfield in occupied Crimea, including Su-30SM and Su-24 aircraft (Source: @UkraineNow/82372).",
-      "Russian forces conducted airstrikes on Zaporizhzhia, killing two civilians and injuring 20 others using KAB bombs (Source: @eRadarrua/99548).",
-      "Ukrainian drones targeted radio-electronic warfare stations in Artemivka and a drone control point in Dnipro region (Source: @UkraineNow/82378)."
+      "Russian forces claim full liberation of Konstantinovka in Donetsk Oblast, though no evidence provided (Source: @tass_agency/383670)",
+      "Ukrainian military reports ongoing defense operations in Konstantinovka, repelling 11 enemy assaults (Source: @UkraineNow/82395)",
+      "Multiple drone strikes reported across Ukraine, including attacks on infrastructure and military targets (Source: @kpszsu/67295)",
+      "Russian strikes on Ukrainian infrastructure, including a warehouse in Odessa and a TEC in Belgorod (Source: @ukr_leaks_eng/31372)",
+      "Russian strikes on Ukrainian infrastructure, including a TEC in Belgorod and a fuel terminal in St. Petersburg (Source: @UkraineNow/82389)",
+      "Ukrainian military reports strikes on Russian military targets in Crimea (Source: @UkraineNow/82385)",
+      "Russian forces continue to hold strategic initiative in the special military operation zone (Source: @tass_agency/383669)"
     ],
-    "threat_assessment": "Russian forces continue to maintain strategic initiative with claims of Konstantinovka's liberation and sustained drone attacks. The US warns of potential Russian provocations in Poland, indicating possible escalation beyond Ukraine's borders. Civilian infrastructure in Zaporizhzhia remains under intense aerial assault, with daily KAB bomb attacks causing casualties.",
-    "regional_response": "The Netherlands agreed to host a special tribunal on Russian aggression, potentially strengthening international legal accountability. Ukraine and Germany are discussing mechanisms for returning mobilized men. Finland's former activist reported that over 100 innovators joined the war on Ukraine's side, with most killed or missing.",
-    "intelligence_notes": "Russian drone activity is concentrated across multiple Ukrainian regions, with Shahed-136 threats reported near Black Sea areas. Ukrainian forces are targeting Crimean infrastructure to disrupt Russian logistics and air capabilities. Information warfare continues with conflicting claims about battlefield advances and civilian evacuations."
+    "threat_assessment": "Russian forces maintain strategic initiative, with ongoing attacks on Ukrainian infrastructure and military targets. Ukrainian military continues to defend key positions, but faces sustained pressure. Escalation risks remain high due to continued strikes on civilian and military infrastructure.",
+    "regional_response": "Ukrainian military continues to defend key positions, but faces sustained pressure. Escalation risks remain high due to continued strikes on civilian and military infrastructure. Western allies are increasing support, but concerns persist over potential Russian provocations.",
+    "intelligence_notes": "Russian claims of Konstantinovka's liberation lack corroborating evidence, suggesting potential propaganda. Ukrainian military's focus on defending key positions indicates strategic importance of the area. Drone strikes on infrastructure highlight vulnerability of Ukrainian logistics and energy systems."
   },
   "missiles": 0,
   "drones": 86,
   "kpszsu_timeline": [
-    4,
-    6,
-    5,
     0,
     3,
-    2,
+    3,
     6,
-    4,
-    1,
-    7,
+    3,
+    3,
     5,
-    1,
+    6,
+    0,
     1,
     0,
     0,
     2,
     4,
     3,
+    1,
+    3,
+    0,
     0,
     4,
     0,
-    0,
     4,
+    2,
     0
   ]
 }
