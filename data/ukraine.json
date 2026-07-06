@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-06T13:58:16.279746+00:00",
-  "message_count": 454,
+  "updated_at": "2026-07-06T16:10:40.899655+00:00",
+  "message_count": 461,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,21 +13,19 @@
   ],
   "red_alerts": 419,
   "red_alerts_timeline": [
-    0,
     11,
+    33,
     11,
-    43,
-    11,
-    21,
-    53,
-    53,
-    32,
-    11,
-    43,
+    33,
+    55,
+    55,
+    22,
+    33,
+    22,
     0,
     0,
-    21,
-    11,
+    33,
+    0,
     0,
     11,
     0,
@@ -36,62 +34,113 @@
     0,
     11,
     11,
-    0
+    0,
+    0,
+    11
   ],
   "combined_activity_timeline": [
-    9,
-    9,
     16,
-    18,
-    5,
-    9,
-    16,
-    24,
-    42,
-    36,
-    50,
-    11,
-    9,
-    9,
-    10,
-    25,
-    21,
-    21,
-    17,
-    23,
     15,
-    14,
+    5,
+    13,
+    20,
+    20,
+    42,
+    49,
+    35,
+    11,
+    10,
+    10,
+    10,
+    24,
+    23,
+    20,
+    18,
+    21,
+    13,
+    16,
     29,
+    13,
+    14,
     13
   ],
   "messages_by_channel": {
-    "@eRadarrua": 108,
-    "@kpszsu": 59,
-    "@mon1tor_ua": 96,
-    "@UkraineNow": 19,
-    "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 21,
-    "@tass_agency": 149
+    "@eRadarrua": 107,
+    "@kpszsu": 60,
+    "@mon1tor_ua": 94,
+    "@UkraineNow": 16,
+    "@ukr_leaks_eng": 24,
+    "@tass_agency": 160
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/99952",
-    "kpszsu": "https://t.me/kpszsu/67551",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68622",
+    "eRadarrua": "https://t.me/eRadarrua/99962",
+    "kpszsu": "https://t.me/kpszsu/67561",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68623",
     "UkraineNow": "https://t.me/UkraineNow/82448",
     "DeepStateUA": "https://t.me/DeepStateUA/23622",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31422",
-    "tass_agency": "https://t.me/tass_agency/384019"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31428",
+    "tass_agency": "https://t.me/tass_agency/384037"
   },
-  "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82438",
-    "eRadarrua": "https://t.me/eRadarrua/99922",
-    "DeepStateUA": "https://t.me/DeepStateUA/23621",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31407",
-    "kpszsu": "https://t.me/kpszsu",
-    "tass_agency": "https://t.me/tass_agency/384007",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68619"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/384036",
+      "post_id": 384036,
+      "channel": "tass_agency",
+      "ts": "2026-07-06T15:56:34+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/99960",
+      "post_id": 99960,
+      "channel": "eRadarrua",
+      "ts": "2026-07-06T15:34:06+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/hTSxxF--hMbYh-_C-AiARyPFg1A3xw-UIwpEEwlSfIskOFAFKje-G2Hs4ONegriC9uRYcNGgnc8yd-DNQxXiwpyqZqWEm6zzAEP3Rc5WKv1BUEsPLjbP0U8kVrjI08GYo24ySfOfTkBk_hUzvcF8cDGHf9y7cD_Q3AfZ7FJmY0ji-dcy4cMz9d-M6jWYG6z2jFspJh3OZS_tMI0AWAoxWJb32_mItDIBg7_nkgi6cM-O0Vt5cWrDT_mZbK25kAIX7SRspNq7UeKVrreox85U3TzqLsQm4zNATo9hZoVaYH-0WXgkZToXvSi2ykpVOPjBQJPN6Vk3NqV-gHSyl3hp_w.jpg",
+      "companion_text_id": 99959
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31427",
+      "post_id": 31427,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-06T15:31:08+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/99959",
+      "post_id": 99959,
+      "channel": "eRadarrua",
+      "ts": "2026-07-06T15:20:31+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/eRQApVBDTYf_CdBmtwJ3334PJdBJUd7TI4kGJqTUDIuWnVYhsuCHAyXgVKiS_HBACjhgPVWJZS7y0WKQ892YWhNuNrtsOPQCbI5FHtmSn43tnOJVR4-Jisxe5A6uMemNTkE6SALHq8Cz46HnfwFbveVCWMHk7vadWGYehYx-_VEJ5QJ41lisygH9p2qqBxv54_PG99W_DRtBMo9HahUxJTWNW2Z0vO7nAjvMKAmXuGNmQVBRN6V4Xi-o-Q7RjW_JsgGsYGukF28ChXSwnLq9LAAxbRBSzLdAyDOI_0FdypdGTYXTlKQdGNto8JKBW7Gbg7ZATMvugd4v1r6tpme7ew.jpg",
+      "companion_text_id": 99961
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384032",
+      "post_id": 384032,
+      "channel": "tass_agency",
+      "ts": "2026-07-06T15:11:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31425",
+      "post_id": 31425,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-06T15:06:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384025",
+      "post_id": 384025,
+      "channel": "tass_agency",
+      "ts": "2026-07-06T14:31:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31423",
+      "post_id": 31423,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-06T14:08:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384021",
+      "post_id": 384021,
+      "channel": "tass_agency",
+      "ts": "2026-07-06T14:01:01+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/99952",
       "post_id": 99952,
@@ -162,212 +211,142 @@
       "post_id": 31419,
       "channel": "ukr_leaks_eng",
       "ts": "2026-07-06T12:04:45+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/99937",
-      "post_id": 99937,
-      "channel": "eRadarrua",
-      "ts": "2026-07-06T11:57:28+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/vtppbbrLsrj9KAu2qUoOufEvlPc5vGUxOQEdcI6gN9x7hTpnftMeppsSq-5Qu8EMrylDuHdbq6j0IJVV6Ba4nv1XlvJedJ0q5DCi4V3zYd7S6pzY2xOI6DJIhzmu3WrBl_MYDN5FIGzcbXI4zQFe8bU3Q9ql9kDGYhnA-WMWmIn76m0LFv8il0G-gutUE6Kes_LfA8Rd5q832k4SdS6EkiysTJhvQKqkwO1VR-C7GCtvJL0wkz4_Sb9dzwC2r9fhAu4zIgFnew8JRvicoInTUWiLeslZIRxMJHnvqKuA4R_abI6NsdsuPkjyeFnROfKmtJSPpXiF_ZY_87Ev3_68JA.jpg",
-      "companion_text_id": 99936
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383981",
-      "post_id": 383981,
-      "channel": "tass_agency",
-      "ts": "2026-07-06T11:48:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383976",
-      "post_id": 383976,
-      "channel": "tass_agency",
-      "ts": "2026-07-06T11:23:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31417",
-      "post_id": 31417,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-06T10:29:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383960",
-      "post_id": 383960,
-      "channel": "tass_agency",
-      "ts": "2026-07-06T10:00:43+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31412",
-      "post_id": 31412,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-06T10:00:36+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31410",
-      "post_id": 31410,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-06T09:53:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82446",
-      "post_id": 82446,
-      "channel": "UkraineNow",
-      "ts": "2026-07-06T09:53:41+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/383954",
-      "post_id": 383954,
-      "channel": "tass_agency",
-      "ts": "2026-07-06T09:31:02+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/99937": "data/media/eRadarrua_99937.jpg",
-    "eRadarrua/99936": "data/media/eRadarrua_99937.jpg",
-    "eRadarrua/99938": "data/media/eRadarrua_99938.jpg",
-    "eRadarrua/99940": "data/media/eRadarrua_99940.jpg",
     "eRadarrua/99952": "data/media/eRadarrua_99952.jpg",
+    "eRadarrua/99959": "data/media/eRadarrua_99959.jpg",
+    "eRadarrua/99961": "data/media/eRadarrua_99959.jpg",
+    "eRadarrua/99960": "data/media/eRadarrua_99960.jpg",
     "eRadarrua/99923": "data/media/eRadarrua_99923.jpg",
     "eRadarrua/99922": "data/media/eRadarrua_99923.jpg",
     "eRadarrua/99928": "data/media/eRadarrua_99928.jpg",
     "eRadarrua/99927": "data/media/eRadarrua_99928.jpg",
     "eRadarrua/99931": "data/media/eRadarrua_99931.jpg",
     "eRadarrua/99930": "data/media/eRadarrua_99931.jpg",
+    "eRadarrua/99937": "data/media/eRadarrua_99937.jpg",
+    "eRadarrua/99936": "data/media/eRadarrua_99937.jpg",
+    "eRadarrua/99938": "data/media/eRadarrua_99938.jpg",
+    "eRadarrua/99940": "data/media/eRadarrua_99940.jpg",
     "eRadarrua/99907": "data/media/eRadarrua_99907.jpg",
     "eRadarrua/99906": "data/media/eRadarrua_99907.jpg",
     "eRadarrua/99887": "data/media/eRadarrua_99887.jpg",
     "eRadarrua/99888": "data/media/eRadarrua_99887.jpg",
+    "eRadarrua/99849": "data/media/eRadarrua_99849.jpg",
+    "eRadarrua/99850": "data/media/eRadarrua_99849.jpg",
     "eRadarrua/99854": "data/media/eRadarrua_99854.jpg",
     "eRadarrua/99855": "data/media/eRadarrua_99854.jpg",
     "eRadarrua/99832": "data/media/eRadarrua_99832.jpg",
     "eRadarrua/99831": "data/media/eRadarrua_99832.jpg",
-    "eRadarrua/99849": "data/media/eRadarrua_99849.jpg",
-    "eRadarrua/99850": "data/media/eRadarrua_99849.jpg",
     "eRadarrua/99802": "data/media/eRadarrua_99802.jpg",
     "eRadarrua/99801": "data/media/eRadarrua_99802.jpg",
-    "eRadarrua/99786": "data/media/eRadarrua_99786.jpg",
-    "eRadarrua/99785": "data/media/eRadarrua_99786.jpg",
-    "eRadarrua/99790": "data/media/eRadarrua_99790.jpg",
-    "eRadarrua/99789": "data/media/eRadarrua_99790.jpg",
     "kpszsu/67506": "data/media/kpszsu_67506.jpg",
     "kpszsu/67505": "data/media/kpszsu_67506.jpg"
   },
-  "summary": "Russia conducted large-scale overnight attacks using 68 rockets and 351 drones, with 29 ballistic missiles hitting 34 locations across Ukraine. Ukrainian air defenses shot down 363 targets but failed to intercept any ballistic missiles. Civilian casualties mounted with 10 killed and 46 injured in Kyiv alone.",
+  "summary": "Russian forces launched a massive strike after Ukraine’s Independence Day, prompting President Zelensky to warn civilians. Ukrainian air defenses shot down 9 aviation bombs and 811 UAVs, showing active counter‑air operations. Russian attacks on fuel infrastructure, including gas stations in Zaporizhzhia and Kharkiv, and tankers in the Azov Sea, have caused casualties and disrupted logistics.",
   "key_points": [
-    "Russia used 68 rockets and 351 drones overnight, 29 ballistic missiles hit 34 locations (Source: @UkraineNow/82438).",
-    "Air defense shot down 363 targets but failed to intercept any ballistic missiles (Source: @eRadarrua/99922).",
-    "Kyiv attack killed 10 and injured 46 including 5 children (Source: @UkraineNow/82436).",
-    "Ukraine attacked Omsk NPP - Russia's last unoccupied refinery 2500km from border (Source: @eRadarrua/99940).",
-    "Fighting continues in Kostiantynivka with Russians consolidating around Illynivka and Novodmitrivka (Source: @DeepStateUA/23621).",
-    "Air defense shortage of interceptor missiles acknowledged by officials (Source: @ukr_leaks_eng/31407).",
-    "Drones active across multiple regions with specific trajectories reported (Source: @kpszsu series)."
+    "Russian forces launched a massive strike after Ukraine’s Independence Day, prompting President Zelensky to warn civilians. (Source: UkraineNow/82434)",
+    "Ukrainian air defenses shot down 9 aviation bombs and 811 UAVs, indicating active counter‑air capabilities. (Source: tass_agency/384002)",
+    "Russian attacks on gas stations in Zaporizhzhia injured five civilians, while a separate strike on a Kharkiv gas station was documented. (Source: UkraineNow/82446, eRadarrua/99959)",
+    "Two Russian tankers in the Azov Sea, each carrying 7000 tons of fuel, were attacked, disrupting logistics to annexed Crimea. (Source: UkraineNow/82448)",
+    "Reactive UAVs were observed in Sumy from the northwest and in Dnipropetrovsk near N. Yuriyivka heading west, indicating continued Russian aerial harassment. (Source: kpszsu/67503, kpszsu/67561)",
+    "Ukrainian authorities moved high school students from nine Kharkiv communities to military exercises and sent university students from Kharkiv and Zaporizhzhia to special sabotage training courses. (Source: tass_agency/384022)",
+    "Russian UAV activity included Shahed drones from Bryansk and Millerovo, with about 10 groups observed, increasing pressure on Ukrainian rear areas. (Source: eRadarrua/99926)",
+    "An air alert was issued in Kyiv at 08:14 on 06.07.2026, reflecting heightened threat perception. (Source: eRadarrua/99910)"
   ],
-  "sentiment": "escalating",
+  "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia conducted large-scale overnight attacks using 68 rockets and 351 drones, with 29 ballistic missiles hitting 34 locations across Ukraine. Ukrainian air defenses shot down 363 targets but failed to intercept any ballistic missiles. Civilian casualties mounted with 10 killed and 46 injured in Kyiv alone.",
+    "executive_summary": "Russian forces launched a massive strike after Ukraine’s Independence Day, prompting President Zelensky to warn civilians. Ukrainian air defenses shot down 9 aviation bombs and 811 UAVs, showing active counter‑air operations. Russian attacks on fuel infrastructure, including gas stations in Zaporizhzhia and Kharkiv, and tankers in the Azov Sea, have caused casualties and disrupted logistics.",
     "ukraine": {
       "points": [
-        "Air defense officials acknowledged shortage of interceptor missiles needed to shoot down ballistic missiles, with Defense Minister Fedorov announcing Patriot missile deliveries will not begin until next year (Source: @ukr_leaks_eng/31407, @ukr_leaks_eng/31409).",
-        "Kyiv attack resulted in 10 killed and 46 injured including 5 children, with destruction across multiple locations (Source: @UkraineNow/82436).",
-        "Vishnevy attack destroyed nearly 5 streets, evacuated 500 people due to explosion risk, caused 3 deaths including 9-month-old and 12-year-old, with 26 injured (Source: @UkraineNow/82444).",
-        "Zaporizhzhia attack killed policeman and injured 8 others including 15-year-old, with private residential sector also hit (Source: @UkraineNow/82433).",
-        "Nova Poshta logistics centers hit in Kyiv's Obolonsky district and Zaporizhzhia (Source: @ukr_leaks_eng/31419).",
-        "Channel 5 television office in Kyiv damaged in airstrike on Rybalsky Island (Source: @ukr_leaks_eng/31406).",
-        "Power outages affected 6 regions and 58 settlements in Sumy region due to weather and attacks (Source: @UkraineNow/82440)."
+        "Ukrainian authorities moved high school students from nine Kharkiv communities to military exercises and sent university students from Kharkiv and Zaporizhzhia to special sabotage training courses. (Source: tass_agency/384022)",
+        "Ukrainian air defenses reported shooting down 9 aviation bombs and 811 UAVs, indicating active defense operations. (Source: tass_agency/384002)",
+        "Russian attacks on gas stations in Zaporizhzhia injured five civilians, and a separate attack on a Kharkiv gas station was documented. (Source: UkraineNow/82446, eRadarrua/99959)",
+        "In Zaporizhzhia, a Russian strike with FAB-500 bombs injured nine people, killed a policeman, and injured seven civilians, including a 15‑year‑old. (Source: UkraineNow/82433)",
+        "Russian attacks on two tankers in the Azov Sea, each carrying 7000 tons of fuel, were reported, indicating targeting of logistics. (Source: UkraineNow/82448)"
       ]
     },
     "russia": {
       "points": [
-        "Conducted overnight attack using 68 rockets and 351 drones, with 29 ballistic missiles hitting 34 locations (Source: @UkraineNow/82438).",
-        "Attacked Omsk NPP - Russia's last unoccupied refinery located approximately 2500km from Ukrainian border (Source: @eRadarrua/99940).",
-        "Demanded Sweden respect Vienna Convention after drone attack on Russian embassy in Stockholm (Source: @tass_agency/384007).",
-        "Claimed Ukrainian drone attack on Sevastopol museum was a British-planned provocation (Source: @tass_agency/383981).",
-        "Ambassador left Russian embassy in Sweden after drone attack (Source: @tass_agency/384006).",
-        "Attacked fuel tankers in Azov Sea carrying 7000 tons each of fuel to Crimea (Source: @UkraineNow/82448).",
-        "S-400 air defense systems hit by drones in Crimea and Bryansk region (Source: @UkraineNow/82448)."
+        "Russian forces attacked two tankers in the Azov Sea carrying 7000 tons of fuel each, disrupting supply to annexed Crimea. (Source: UkraineNow/82448)",
+        "Russian attacks on gas stations in Zaporizhzhia and Kharkiv caused injuries and operational disruptions. (Source: UkraineNow/82446, eRadarrua/99959)",
+        "Russian strikes on the Omsk NPP were reported, marking the first Ukrainian attack on a Russian oil refinery. (Source: eRadarrua/99940)",
+        "Russian tactical aviation activity was reported in eastern, southern, and northern directions, posing a threat to frontline and rear areas. (Source: kpszsu/67483, kpszsu/67519)",
+        "Russian UAV activity included Shahed drones from Bryansk and Millerovo, with about 10 groups observed. (Source: eRadarrua/99926)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Active fighting in Kostiantynivka with Russians consolidating around Illynivka and Novodmitrivka to cut off city movement (Source: @DeepStateUA/23621).",
-        "Drones from Sumy region moving toward Hadiach in Poltava region (Source: @kpszsu/67509).",
-        "Cruise missiles launched from Sumy region toward Kyiv region (Source: @mon1tor_ua/68619).",
-        "Drones from Sumy region toward Poltava region (Source: @kpszsu/67509).",
-        "Missiles from Sumy region toward Chernihiv region, Pryluky district (Source: @mon1tor_ua/68587).",
-        "Drones from east moving toward Krolivtsi in Sumy region (Source: @kpszsu/67515).",
-        "Drones from north moving toward Kharkiv region (Source: @kpszsu/67524)."
+        "Reactive UAVs were observed in Sumy from the northwest, and in Dnipropetrovsk near N. Yuriyivka heading west. (Source: kpszsu/67503, kpszsu/67561)",
+        "UAVs were also detected in the Berislavsky district of Kherson moving north, and in the Opishnya area of Poltava from the northeast. (Source: kpszsu/67535, kpszsu/67556)",
+        "Reactive UAVs were observed in the south of Zaporizhzhia near Tokmak heading westward, and one from the sea to Ochakiv. (Source: eRadarrua/99905, eRadarrua/99961)",
+        "UAV activity in the Black Sea towards Odesa was reported, indicating maritime threat. (Source: kpszsu/67507)"
       ]
     },
     "northern_front": {
       "points": [
-        "Drones moving west-southwest near Chernihiv region (Source: @kpszsu/67500).",
-        "Drones from Chernihiv region moving toward Kyiv region (Source: @mon1tor_ua/68617).",
-        "Drones from northwest moving toward Brovary and Kyiv (Source: @kpszsu/67505).",
-        "Drones from north moving toward Kyiv (Source: @kpszsu/67505).",
-        "Drones from Nosivka in Chernihiv region moving toward Brovary (Source: @eRadarrua/99916).",
-        "Drones from northwest moving toward Kyiv (Source: @kpszsu/67502)."
+        "7 people were killed in Kyiv due to a massive Russian attack, and an air alert was issued at 08:14 on 06.07.2026. (Source: eRadarrua/99907, eRadarrua/99910)",
+        "UAVs were observed over Kyiv, with reports of 2 rockets over Brovar heading to forest area, Darnitsa, Sosmisto. (Source: mon1tor_ua/68604)",
+        "UAVs were observed over Chernihiv region: 2 on Nizhyn, 1 on Mena, 2 on Borznu. (Source: eRadarrua/99909)",
+        "UAVs were observed over Kharkiv region, including an attack on a gas station. (Source: eRadarrua/99959)"
       ]
     },
     "southern_front": {
       "points": [
-        "Drones in Black Sea moving toward Odesa (Source: @kpszsu/67507).",
-        "Drones from Black Sea moving toward Pivdenne/Chornomorske (Source: @kpszsu/67510).",
-        "Tankers attacked in Azov Sea delivering fuel to Crimea, each carrying 7000 tons (Source: @UkraineNow/82448).",
-        "S-400 air defense systems hit in Crimea and Bryansk region (Source: @UkraineNow/82448).",
-        "Nebo-U radar hit in Kerch (Source: @UkraineNow/82448).",
-        "Blackout in Crimea with fires at power station near Simferopol, airfield Gvardeyskoye, and Kerch port (Source: @UkraineNow/82442)."
+        "Russian attacks on gas stations in Zaporizhzhia injured five civilians, and a separate attack on a Kharkiv gas station was documented. (Source: UkraineNow/82446, eRadarrua/99959)",
+        "Russian attacks on two tankers in the Azov Sea, each carrying 7000 tons of fuel, were reported. (Source: UkraineNow/82448)",
+        "Russian attacks on the Omsk NPP were reported, marking the first Ukrainian attack on a Russian oil refinery. (Source: eRadarrua/99940)",
+        "Russian UAV activity in the south of Zaporizhzhia near Tokmak heading westward, and one from the sea to Ochakiv. (Source: eRadarrua/99905, eRadarrua/99961)"
       ]
     },
     "air_war": {
       "points": [
-        "No ballistic missiles were intercepted overnight despite 29 being launched (Source: @eRadarrua/99922).",
-        "Air defenses shot down 363 targets: 37 rockets and 326 drones (Source: @UkraineNow/82438).",
-        "29 ballistic missiles hit 34 locations, 18 attack drones struck 34 locations (Source: @UkraineNow/82438).",
-        "351 drones used in overnight attack, 68 rockets launched (Source: @UkraineNow/82438).",
-        "Air defense shortage of interceptor missiles acknowledged as reason for ballistic missile failures (Source: @ukr_leaks_eng/31407).",
-        "Shahed drones tracked on Darnytsia, Obolon, and Vishnevy areas (Source: @mon1tor_ua/68613, @mon1tor_ua/68586).",
-        "Two Orlan drones operating in Black Sea area (Source: @eRadarrua/99938)."
+        "Ukrainian air defenses shot down 9 aviation bombs and 811 UAVs, indicating active counter‑air operations. (Source: tass_agency/384002)",
+        "An air alert was issued in Kyiv at 08:14 on 06.07.2026, reflecting heightened threat perception. (Source: eRadarrua/99910)",
+        "Russian tactical aviation activity was reported in eastern, southern, and northern directions, posing a threat to frontline and rear areas. (Source: kpszsu/67483, kpszsu/67519)",
+        "Russian UAV activity included Shahed drones from Bryansk and Millerovo, with about 10 groups observed. (Source: eRadarrua/99926)"
       ]
     },
     "key_developments": [
-      "Russia used 68 rockets and 351 drones overnight, 29 ballistic missiles hit 34 locations across Ukraine (Source: @UkraineNow/82438).",
-      "Air defense shot down 363 targets but failed to intercept any ballistic missiles (Source: @eRadarrua/99922).",
-      "Kyiv attack killed 10 and injured 46 including 5 children (Source: @UkraineNow/82436).",
-      "Ukraine attacked Omsk NPP - Russia's last unoccupied refinery 2500km from border (Source: @eRadarrua/99940).",
-      "Fighting continues in Kostiantynivka with Russians consolidating around Illynivka and Novodmitrivka (Source: @DeepStateUA/23621).",
-      "Air defense shortage of interceptor missiles acknowledged by officials (Source: @ukr_leaks_eng/31407).",
-      "Drones active across multiple regions with specific trajectories reported (Source: @kpszsu series)."
+      "Russian forces launched a massive strike after Ukraine’s Independence Day, prompting President Zelensky to warn civilians of potential casualties. (Source: UkraineNow/82434)",
+      "Ukrainian air defenses reported shooting down 9 aviation bombs and 811 UAVs, demonstrating active counter‑air capabilities. (Source: tass_agency/384002)",
+      "Russian attacks on gas stations in Zaporizhzhia injured five civilians, while a separate strike on a Kharkiv gas station was documented, indicating targeting of fuel infrastructure. (Source: UkraineNow/82446, eRadarrua/99959)",
+      "Two Russian tankers in the Azov Sea, each carrying 7000 tons of fuel, were attacked, disrupting logistics to annexed Crimea. (Source: UkraineNow/82448)",
+      "Russian UAV activity included Shahed drones from Bryansk and Millerovo, with about 10 groups observed, increasing pressure on Ukrainian rear areas. (Source: eRadarrua/99926)",
+      "Reactive UAVs were observed in Sumy from the northwest and in Dnipropetrovsk near N. Yuriyivka heading west, indicating continued Russian aerial harassment. (Source: kpszsu/67503, kpszsu/67561)",
+      "Ukrainian authorities moved high school students from nine Kharkiv communities to military exercises and sent university students from Kharkiv and Zaporizhzhia to special sabotage training courses. (Source: tass_agency/384022)"
     ],
-    "threat_assessment": "Russian forces conducted large-scale overnight attacks using 68 rockets and 351 drones, demonstrating sustained aerial warfare capability. Despite Ukrainian air defenses shooting down 363 targets, no ballistic missiles were intercepted, highlighting critical capability gaps. The attack resulted in significant civilian casualties including 10 killed and 46 injured in Kyiv, with similar impacts across multiple regions.",
-    "regional_response": "Ukrainian forces demonstrated extended reach by attacking Omsk NPP - Russia's last unoccupied refinery - indicating expanded operational capabilities. Air defense officials acknowledged interceptor missile shortages and requested additional Patriot missile supplies at NATO summit. Civilian infrastructure came under repeated attack with residential areas and logistics centers targeted.",
-    "intelligence_notes": "Russian drone operations showed coordinated movement patterns across multiple regions with specific directional vectors reported. The use of 68 rockets and 351 drones represents a significant escalation in aerial attack volume. Air defense failures against ballistic missiles suggest either technical limitations or insufficient interceptor supplies."
+    "threat_assessment": "Russian tactical aviation activity in multiple directions and persistent UAV harassment of Ukrainian rear areas increase the risk of escalation. The targeting of fuel infrastructure, including gas stations and tankers, threatens supply lines and civilian safety. Ukrainian air defenses have demonstrated capacity to shoot down numerous bombs and UAVs, but continued Russian pressure may strain resources and force a shift in operational tempo.",
+    "regional_response": "Ukrainian officials have requested new funding for drone production, citing European Commission support. US intelligence reportedly provides optimal routes for Ukrainian drones to bypass Russian air defenses, enabling strikes on Russian refineries. NATO’s Air Defence Coalition is engaged in procurement of Patriot, IRIS‑T, and NASAMS missiles, though details remain limited.",
+    "intelligence_notes": "US intelligence is reportedly guiding Ukrainian forces on routes to avoid Russian air defenses, facilitating strikes on Russian oil refineries. According to a Financial Times report, Ukrainian drones have hit Russian refineries at least 194 times since early 2026, 11 times more than the previous year. These operations rely on real‑time intelligence and coordination with allied partners."
   },
   "missiles": 68,
   "drones": 351,
   "kpszsu_timeline": [
-    3,
-    1,
     0,
     3,
     0,
     2,
-    1,
-    3,
-    4,
-    6,
-    6,
-    4,
-    3,
-    1,
-    2,
-    4,
-    3,
-    2,
     2,
     3,
-    1,
+    3,
+    8,
+    4,
+    4,
+    4,
     0,
+    2,
     4,
+    3,
+    3,
+    1,
+    3,
+    1,
+    1,
+    3,
+    2,
+    2,
     1
   ]
 }
