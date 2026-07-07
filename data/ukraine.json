@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-07T11:18:43.190682+00:00",
-  "message_count": 324,
+  "updated_at": "2026-07-07T13:10:40.619341+00:00",
+  "message_count": 314,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,16 +13,14 @@
   ],
   "red_alerts": 123,
   "red_alerts_timeline": [
-    9,
     0,
-    0,
-    0,
-    26,
-    0,
-    18,
     0,
     9,
-    18,
+    19,
+    19,
+    0,
+    0,
+    28,
     0,
     0,
     0,
@@ -36,51 +34,53 @@
     0,
     0,
     9,
-    18
+    19,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    19,
-    26,
-    16,
-    11,
+    13,
     14,
-    11,
+    13,
+    13,
+    14,
     18,
+    19,
     14,
-    24,
-    9,
+    5,
+    11,
     7,
-    10,
-    7,
-    4,
+    5,
     6,
     5,
+    6,
+    22,
+    18,
     10,
-    20,
+    13,
+    19,
     17,
-    11,
-    11,
-    21,
-    16,
-    17
+    15,
+    18,
+    12
   ],
   "messages_by_channel": {
     "@eRadarrua": 42,
-    "@kpszsu": 57,
+    "@kpszsu": 54,
     "@mon1tor_ua": 23,
-    "@UkraineNow": 19,
+    "@UkraineNow": 20,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 158
+    "@tass_agency": 150
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/100060",
-    "kpszsu": "https://t.me/kpszsu/67649",
+    "eRadarrua": "https://t.me/eRadarrua/100070",
+    "kpszsu": "https://t.me/kpszsu/67656",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68643",
-    "UkraineNow": "https://t.me/UkraineNow/82469",
+    "UkraineNow": "https://t.me/UkraineNow/82472",
     "DeepStateUA": "https://t.me/DeepStateUA/23623",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31442",
-    "tass_agency": "https://t.me/tass_agency/384158"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31445",
+    "tass_agency": "https://t.me/tass_agency/384173"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/82447",
@@ -90,6 +90,44 @@
     "eRadarrua": "https://t.me/eRadarrua/100033"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/100070",
+      "post_id": 100070,
+      "channel": "eRadarrua",
+      "ts": "2026-07-07T12:49:15+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/npjv8B2o2Id1eGvel0C5rDhPtFSZPfBRr49qfDk8pXR-CRlvpgOO0giQLZwD02aJT5Mp5z4sqcSHL0HWMO23OMTwGl7c6vVMwLY72Op-nzxHulGr03m2p1DQBC4N1Ip6W5IFevjOiiz8jezcoUTMcXXVQ8j3AF3aiLg-sBRIjUkL5cvXHZj9Ipb8ztGThiurVx9C70JapmbI8iILSNMcKLG4zGtKVkyKMkmfd5SyegimbJcXEfrEsOWc0Ws5MNwQV0EcIU4FYKptYtbrMVM_vx6eHnmhIYaZUn5OAw3VzOhU12iit4Jdv82-McY4pQdCUbaEcdMLZLvZvx2lCAsg4w.jpg",
+      "companion_text_id": 100068
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31445",
+      "post_id": 31445,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-07T12:35:39+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31444",
+      "post_id": 31444,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-07T12:06:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82471",
+      "post_id": 82471,
+      "channel": "UkraineNow",
+      "ts": "2026-07-07T12:04:44+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384165",
+      "post_id": 384165,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T11:58:36+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384159",
+      "post_id": 384159,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T11:26:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/384158",
       "post_id": 384158,
@@ -175,68 +213,31 @@
       "post_id": 384125,
       "channel": "tass_agency",
       "ts": "2026-07-07T08:46:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384124",
-      "post_id": 384124,
-      "channel": "tass_agency",
-      "ts": "2026-07-07T08:41:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82462",
-      "post_id": 82462,
-      "channel": "UkraineNow",
-      "ts": "2026-07-07T08:35:20+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31438",
-      "post_id": 31438,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-07T08:33:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384120",
-      "post_id": 384120,
-      "channel": "tass_agency",
-      "ts": "2026-07-07T08:23:41+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31437",
-      "post_id": 31437,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-07T08:06:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384117",
-      "post_id": 384117,
-      "channel": "tass_agency",
-      "ts": "2026-07-07T07:51:06+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/100044": "data/media/eRadarrua_100044.jpg",
-    "eRadarrua/100046": "data/media/eRadarrua_100044.jpg",
     "eRadarrua/100053": "data/media/eRadarrua_100053.jpg",
     "eRadarrua/100051": "data/media/eRadarrua_100053.jpg",
-    "eRadarrua/100025": "data/media/eRadarrua_100025.jpg",
-    "eRadarrua/100024": "data/media/eRadarrua_100025.jpg",
+    "eRadarrua/100070": "data/media/eRadarrua_100070.jpg",
+    "eRadarrua/100068": "data/media/eRadarrua_100070.jpg",
     "eRadarrua/100036": "data/media/eRadarrua_100036.jpg",
     "eRadarrua/100034": "data/media/eRadarrua_100036.jpg",
+    "eRadarrua/100044": "data/media/eRadarrua_100044.jpg",
+    "eRadarrua/100046": "data/media/eRadarrua_100044.jpg",
+    "eRadarrua/100013": "data/media/eRadarrua_100013.jpg",
+    "eRadarrua/100012": "data/media/eRadarrua_100013.jpg",
+    "eRadarrua/100025": "data/media/eRadarrua_100025.jpg",
+    "eRadarrua/100024": "data/media/eRadarrua_100025.jpg",
+    "eRadarrua/99988": "data/media/eRadarrua_99988.jpg",
     "eRadarrua/99998": "data/media/eRadarrua_99998.jpg",
     "eRadarrua/100008": "data/media/eRadarrua_100008.jpg",
     "eRadarrua/100010": "data/media/eRadarrua_100008.jpg",
-    "eRadarrua/100013": "data/media/eRadarrua_100013.jpg",
-    "eRadarrua/100012": "data/media/eRadarrua_100013.jpg",
     "eRadarrua/99978": "data/media/eRadarrua_99978.jpg",
     "eRadarrua/99977": "data/media/eRadarrua_99978.jpg",
-    "eRadarrua/99988": "data/media/eRadarrua_99988.jpg",
+    "eRadarrua/99952": "data/media/eRadarrua_99952.jpg",
     "eRadarrua/99959": "data/media/eRadarrua_99959.jpg",
     "eRadarrua/99961": "data/media/eRadarrua_99959.jpg",
     "eRadarrua/99960": "data/media/eRadarrua_99960.jpg",
-    "eRadarrua/99938": "data/media/eRadarrua_99938.jpg",
-    "eRadarrua/99937": "data/media/eRadarrua_99937.jpg",
-    "eRadarrua/99940": "data/media/eRadarrua_99940.jpg",
-    "eRadarrua/99952": "data/media/eRadarrua_99952.jpg",
     "kpszsu/67633": "data/media/kpszsu_67633.jpg",
     "kpszsu/67634": "data/media/kpszsu_67633.jpg"
   },
@@ -293,32 +294,33 @@
     "regional_response": "NATO Secretary General Rutte's comments suggest ongoing alliance discussions about Ukraine support, though his reported 'stand-up routine' indicates potential diplomatic tensions. Ukrainian President Zelensky is focusing on domestic investigations into corruption and military misconduct. International attention is also on the detention of Ukrainian officials in Monaco related to an assassination attempt.",
     "intelligence_notes": "Ukrainian military intelligence officer and former security official detained in Monaco over Yermolayev case suggest internal security concerns. Three soldiers attempting to sell military equipment indicates potential supply chain vulnerabilities. Air Force warnings about missile shortages highlight critical defense gaps requiring immediate attention."
   },
+  "stale_summary": true,
   "missiles": 0,
   "drones": 123,
   "kpszsu_timeline": [
-    1,
-    3,
-    3,
-    1,
+    2,
+    2,
     1,
     2,
+    4,
+    3,
     5,
+    3,
     2,
     6,
+    1,
+    1,
     2,
+    1,
+    1,
+    6,
     3,
-    5,
+    4,
     1,
-    1,
-    2,
-    1,
-    2,
-    5,
-    3,
-    5,
-    0,
     2,
     0,
+    0,
+    1,
     1
   ]
 }
