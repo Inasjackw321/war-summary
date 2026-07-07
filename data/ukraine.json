@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-07T08:00:24.644929+00:00",
-  "message_count": 326,
+  "updated_at": "2026-07-07T10:13:27.507972+00:00",
+  "message_count": 322,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,18 +14,16 @@
   "red_alerts": 123,
   "red_alerts_timeline": [
     0,
+    9,
+    9,
     0,
     0,
-    10,
-    10,
+    9,
+    19,
+    19,
     0,
     0,
-    10,
-    20,
-    0,
-    20,
-    10,
-    20,
+    28,
     0,
     0,
     0,
@@ -33,64 +31,168 @@
     0,
     0,
     0,
-    10,
-    10,
+    9,
+    9,
     0,
-    0
+    0,
+    0,
+    9
   ],
   "combined_activity_timeline": [
+    13,
     17,
-    23,
-    14,
-    11,
-    31,
-    13,
+    28,
     15,
+    13,
     12,
+    13,
     16,
-    12,
-    13,
-    23,
+    16,
     18,
+    15,
     5,
+    12,
+    5,
+    5,
+    7,
+    5,
+    8,
+    22,
+    17,
     11,
-    6,
-    6,
-    5,
-    5,
-    6,
-    19,
-    19,
     13,
-    11
+    18,
+    18
   ],
   "messages_by_channel": {
     "@eRadarrua": 42,
-    "@kpszsu": 60,
+    "@kpszsu": 57,
     "@mon1tor_ua": 23,
-    "@UkraineNow": 15,
+    "@UkraineNow": 17,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 25,
-    "@tass_agency": 160
+    "@ukr_leaks_eng": 24,
+    "@tass_agency": 158
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/100048",
-    "kpszsu": "https://t.me/kpszsu/67645",
+    "eRadarrua": "https://t.me/eRadarrua/100056",
+    "kpszsu": "https://t.me/kpszsu/67648",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68643",
-    "UkraineNow": "https://t.me/UkraineNow/82460",
+    "UkraineNow": "https://t.me/UkraineNow/82467",
     "DeepStateUA": "https://t.me/DeepStateUA/23623",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31436",
-    "tass_agency": "https://t.me/tass_agency/384116"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31441",
+    "tass_agency": "https://t.me/tass_agency/384148"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31412",
-    "UkraineNow": "https://t.me/UkraineNow/82443",
-    "kpszsu": "https://t.me/kpszsu/67572",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68627",
-    "tass_agency": "https://t.me/tass_agency/384048",
-    "eRadarrua": "https://t.me/eRadarrua/99959"
+    "tass_agency": "https://t.me/tass_agency/384138",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31421",
+    "UkraineNow": "https://t.me/UkraineNow/82458",
+    "kpszsu": "https://t.me/kpszsu/67617"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31441",
+      "post_id": 31441,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-07T10:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384143",
+      "post_id": 384143,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T09:45:41+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31440",
+      "post_id": 31440,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-07T09:33:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384134",
+      "post_id": 384134,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T09:08:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31439",
+      "post_id": 31439,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-07T09:03:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384133",
+      "post_id": 384133,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T09:01:13+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82463",
+      "post_id": 82463,
+      "channel": "UkraineNow",
+      "ts": "2026-07-07T08:56:49+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/100053",
+      "post_id": 100053,
+      "channel": "eRadarrua",
+      "ts": "2026-07-07T08:51:48+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/nJYmhAk5j0kOfK2mfonAPPjzgGVg1PwIvNSa5kO_8HCnCSn7__xBBjKyXNMzmTCkfwyWPHkkMaKVx7fJ2bLce_zAluXdazwzle2NPffGHQmVIn4BjwxgwR8EijuIs6lJ7yu1lPT8txJXH6exDHpRftkSA0YKy5nOxa87exe1VlavgfQTn0--Q_hIyVU1hz7FJKVpFQod-G24wmzWoyYVvfdat8LECcdqIEymLpmSxRgnzFoi5Sc-jb56du_QZ_IX5smDovfJINEuYhvmADC5pOdmlLlfMbQ9KnpTt-hOMUjAo8OjLyNTmEF6J9jrN9OaNfNZ8p3Ni-wbwOEA3dRZag.jpg",
+      "companion_text_id": 100051
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384126",
+      "post_id": 384126,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T08:49:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384125",
+      "post_id": 384125,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T08:46:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384124",
+      "post_id": 384124,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T08:41:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82462",
+      "post_id": 82462,
+      "channel": "UkraineNow",
+      "ts": "2026-07-07T08:35:20+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31438",
+      "post_id": 31438,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-07T08:33:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384120",
+      "post_id": 384120,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T08:23:41+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31437",
+      "post_id": 31437,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-07T08:06:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384117",
+      "post_id": 384117,
+      "channel": "tass_agency",
+      "ts": "2026-07-07T07:51:06+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82461",
+      "post_id": 82461,
+      "channel": "UkraineNow",
+      "ts": "2026-07-07T07:49:31+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/31436",
       "post_id": 31436,
@@ -108,145 +210,29 @@
       "post_id": 384110,
       "channel": "tass_agency",
       "ts": "2026-07-07T07:06:48+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82458",
-      "post_id": 82458,
-      "channel": "UkraineNow",
-      "ts": "2026-07-07T06:08:24+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/100044",
-      "post_id": 100044,
-      "channel": "eRadarrua",
-      "ts": "2026-07-07T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/J195p4IvZdo5czZR_RvGLEH7avbyIDhcdQ_omrrmscPaFjQ0db9aD7VFWDOkYnIa3i4uwVhmfvpVe8-Gy3WN8yu1E7Z2Jjgk80XqzqtAV3raJRSvW5-C7kU3KbUU_s6jN8uizc801CQu_8DBzIQ2916z-81Qp7TGrnKl4tH30Ps0T6C4rscTEZ2zSzhZ3EvLdtJ8i1n3iXlRxiZOG3UcMIvkt4PIS30va3u706uU1MrXcJIqp_cB-83if5XXJVFi9M2mnL4eSrSHExCng2bhudJpsV4OdqQgNN9I6UxHWArOFgkFkUkp3zXFc1Y31qBH_hk4iiK1GeSJESEpg7ZTQQ.jpg",
-      "companion_text_id": 100046
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384104",
-      "post_id": 384104,
-      "channel": "tass_agency",
-      "ts": "2026-07-07T05:54:40+00:00"
-    },
-    {
-      "post_url": "https://t.me/kpszsu/67633",
-      "post_id": 67633,
-      "channel": "kpszsu",
-      "ts": "2026-07-07T05:40:44+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/NIfHn3crStH6ixM9oAbRdhFG_TUEjv6oQke0kmGk_wOQb1pfXbaJRqoh1rrBSTrHf_A43QrPy9m3nSbsXxvqql7cVtfK_j9CCDiPXksjpfcEhXE-aldBlUJjQdcEUpM2c1B0ZdWam8ThFZPEar0NHRBpZMK-dL4iugvmaANdR4Q0_-lyiaC5Reo7z9jl1WVj-BWW9OqZ4Dm7_nK3-BksAXXswj-srRbn8KB_B5J27F8ilba9_Tgzp8Tpp2y4_jujCHr33x0_AX4_-LMKwuTWA49GSxWqSagjWZaV498hpRH0rG4VEfuZoSugNXqEYch2kA3oxCCtl7SxHEv-FeTJpw.jpg",
-      "companion_text_id": 67634
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31432",
-      "post_id": 31432,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-07T05:33:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82454",
-      "post_id": 82454,
-      "channel": "UkraineNow",
-      "ts": "2026-07-07T05:03:13+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31431",
-      "post_id": 31431,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-07T05:02:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384097",
-      "post_id": 384097,
-      "channel": "tass_agency",
-      "ts": "2026-07-07T05:01:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/100036",
-      "post_id": 100036,
-      "channel": "eRadarrua",
-      "ts": "2026-07-07T04:42:03+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/KVgSE8E65Dsd9BhxM0Y_rlfjOPEehiF2wfJH4tNGXsaE2imTt9QVUmbrlZPF-YWhuqTi6QKnQez0jBo589SaLQKS0cLI_6oCQouExj6SCEPwdgfWJSjD04ylIefbEwtxYIb7Mw3iJw3gQLPR3Eozz7gzp7_Rh2zS4ZqpSDbqDrNTFbDgw19GIG2qotThfBMxkVWG293LFyFwOyScloijuSqBbdRrnUyETTB6nMhOW-Br_48PNGnWsx_EOwotjHj5kgOYLddR9iwXdJ8qzlI3pSAWUO7Ic5vKIvwbKRrLzqi5SXts3hLdOBf5dNg51ryUJKjv8KOMR_O6VDnOXxDK-A.jpg",
-      "companion_text_id": 100034
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384076",
-      "post_id": 384076,
-      "channel": "tass_agency",
-      "ts": "2026-07-07T02:19:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384052",
-      "post_id": 384052,
-      "channel": "tass_agency",
-      "ts": "2026-07-06T21:29:26+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/100025",
-      "post_id": 100025,
-      "channel": "eRadarrua",
-      "ts": "2026-07-06T20:15:53+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/HgTwxP-Z6f98SgHGkvTqgcI2OZYxv8OFG5VLgukpRDkgh81ZH7949nMrn1Vm0VjNalHb7uyn0G3A6suaLkx8Ng1WvzqQPk0-GoFm8qjJtYZmOLjcJGDMrYaPGHVU9X5Agma6gFt1dEOy6fhBHsAirMYjQo2eMqTWcG3tiMGgXUGU4Lx40n7UO_sIIDASzxYh-sJ1b6WonauqD2d2oXuf5CwOfdHLQceiVk_GAikjWlucirx5vuyTGPSjaXEO-16yYgQGbdorgfmHsWxCqyfrDGb_O-tahvC7hr_GUG7sRC5DDzMYBAs2Rc3StIi2U8DOpVLixb0MTi5F1m4ryP2M2Q.jpg",
-      "companion_text_id": 100024
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/100013",
-      "post_id": 100013,
-      "channel": "eRadarrua",
-      "ts": "2026-07-06T19:43:40+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/GsfzPkImo4_3Mn5TpwqQkAVB3d9YnOUPBKzFU_zUI6YbZ8T8MGhvBAtATNZ48GD0I87vkMoTcu-lbvGKNm5gYeVDQ554IFbXIVBSDB_qprJU4RYu3pvgvpBthMc_MTtQobixJcvvgyd9hi7pWb_Acz-5C_NbZ-G44ZnDN-4LAfecDbll6VO0SFSrR5cdLxZv4ee9FGv6x7Q5NPlTfmbHOgww-OffM_6kuT_9vt4O6C9P7xMwhd25-7MmlqtBOb9LKnP_m--199PX1U9vCAoixlvqqnnGHcsYjP1dGRfbslYL0mse5fcsUgS-EFfaZkHsEr70ZZpBKNix4FHbraywRA.jpg",
-      "companion_text_id": 100012
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82453",
-      "post_id": 82453,
-      "channel": "UkraineNow",
-      "ts": "2026-07-06T19:21:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/100008",
-      "post_id": 100008,
-      "channel": "eRadarrua",
-      "ts": "2026-07-06T19:16:24+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/WdHdceWgqWohoYKJUMQbe34KM-CCM33ksfaFcLESiX2o9QRR4Yjxr4yeu9E8tnhaLLGnqsXcLZMCIRuG6NpPZIRQhjpWugrewYRpDbQekB0xnc9GuBvc1Yr5p4cwceyoMaq113oIKc0mOkFRH5BocPP-uwmOLKVzQO4HIRE_q6-kwWF5kwcWf14W75gpeNGu7hIAJMNaJ2KRsnaxu5pkclv99E_OeRWIfGx2t3zdm-PvT3cvoHQ-LLRCVZztmv_sIccJ-ijfO14bP4ZE0N2Z9gUVwCV3RCmzuaahgX_3jE3FgYEszypu7qkBuxbE8OR0wSZQsJLIL8Rk7hHi7fKUSA.jpg",
-      "companion_text_id": 100009
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/99998",
-      "post_id": 99998,
-      "channel": "eRadarrua",
-      "ts": "2026-07-06T19:14:10+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/G1fwtXTDKdWkf1a8NaUsz1H8Zs4JnIDK05LnxV8_-V6yBOXQR5H0KDzZIoC4RDtyKDZabwv2fuXsHEargOwqXaOTtOobgxqa4LNwjIhattE-CmysNGdMfCsteFdwu6fos41K9SBlxdc5-ADieYvVXPQ8Oz2rUgHAz9UJzaRBE2pNTadQRsFJBiChuwL_b4Z-1pTUEI4wrlq-jry-XYjT3rspg8NL_Z-3mXbkglXNEJcRi-Qn5rZ9zrLY-BXWGLixZv2YaLZNI2pgIFvd51eIepWbNH3Yqnq7F2KiQ2IepHEdojz_B468pVQkZtvpSsUTbgG_Jecx6NwbluaYEMnz-g.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/99988",
-      "post_id": 99988,
-      "channel": "eRadarrua",
-      "ts": "2026-07-06T19:09:03+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/T5pmOqTCk3Df0rfyDZpegMIvANLFzJa9Cg8aUhOZNoNPDpP5oBvoJiORSp4fvJyIlyJNLiHEHVkkPbSGkEo9VWg7qIJwflD5mYJx299uA70NwrDSJswhNgFJ3-Xqmurdue0hUBYDOfyfNyqyh8G-Px3ApEGpM8i5IDt4vMbftBzzrDgF0pwZvGGQGB0OKl7lp4DXoByyhyBMuX8guC24DXmsFGIzdqY8JfQd8gSG5VRlH2tpLyK7ltRMeFDYwXVO69GZkyPeP1DVVpyNDnabY3-6XwbLG8YCPfYcFPPlsQKtaRZvqbqaEUwqnpPHWiqYqVDkJYsO792cuY9b0K-GVQ.jpg"
     }
   ],
   "post_images": {
-    "eRadarrua/100036": "data/media/eRadarrua_100036.jpg",
-    "eRadarrua/100034": "data/media/eRadarrua_100036.jpg",
     "eRadarrua/100044": "data/media/eRadarrua_100044.jpg",
     "eRadarrua/100046": "data/media/eRadarrua_100044.jpg",
-    "eRadarrua/100013": "data/media/eRadarrua_100013.jpg",
-    "eRadarrua/100012": "data/media/eRadarrua_100013.jpg",
+    "eRadarrua/100053": "data/media/eRadarrua_100053.jpg",
+    "eRadarrua/100051": "data/media/eRadarrua_100053.jpg",
     "eRadarrua/100025": "data/media/eRadarrua_100025.jpg",
     "eRadarrua/100024": "data/media/eRadarrua_100025.jpg",
+    "eRadarrua/100036": "data/media/eRadarrua_100036.jpg",
+    "eRadarrua/100034": "data/media/eRadarrua_100036.jpg",
     "eRadarrua/99988": "data/media/eRadarrua_99988.jpg",
     "eRadarrua/99998": "data/media/eRadarrua_99998.jpg",
     "eRadarrua/100008": "data/media/eRadarrua_100008.jpg",
-    "eRadarrua/100009": "data/media/eRadarrua_100008.jpg",
+    "eRadarrua/100010": "data/media/eRadarrua_100008.jpg",
+    "eRadarrua/100013": "data/media/eRadarrua_100013.jpg",
+    "eRadarrua/100012": "data/media/eRadarrua_100013.jpg",
     "eRadarrua/99978": "data/media/eRadarrua_99978.jpg",
     "eRadarrua/99977": "data/media/eRadarrua_99978.jpg",
     "eRadarrua/99952": "data/media/eRadarrua_99952.jpg",
     "eRadarrua/99959": "data/media/eRadarrua_99959.jpg",
     "eRadarrua/99961": "data/media/eRadarrua_99959.jpg",
     "eRadarrua/99960": "data/media/eRadarrua_99960.jpg",
-    "eRadarrua/99931": "data/media/eRadarrua_99931.jpg",
-    "eRadarrua/99930": "data/media/eRadarrua_99931.jpg",
     "eRadarrua/99937": "data/media/eRadarrua_99937.jpg",
     "eRadarrua/99936": "data/media/eRadarrua_99937.jpg",
     "eRadarrua/99938": "data/media/eRadarrua_99938.jpg",
@@ -254,117 +240,114 @@
     "kpszsu/67633": "data/media/kpszsu_67633.jpg",
     "kpszsu/67634": "data/media/kpszsu_67633.jpg"
   },
-  "summary": "Russian forces conducted a large-scale strike on Kiev and surrounding regions using long-range precision weapons and attack drones, resulting in multiple casualties and infrastructure damage. Ukrainian authorities reported evacuations in Vyshneve due to dangerous detonations, with at least 14 civilian deaths in Kiev alone. The United States and European Union are reportedly supporting Ukraine's defense efforts amid ongoing negotiations to end the conflict.",
+  "summary": "Russian forces reported destroying Ukrainian infrastructure targets and shooting down 797 drones and 2 long-range missiles in 24 hours. Ukrainian attacks on Russian territory caused seven casualties in Belgorod region, including a 16-year-old. NATO summit tensions emerged as Zelensky's participation was reportedly avoided to prevent conflicts with Trump.",
   "key_points": [
-    "Russian forces launched a large-scale strike using long-range precision-guided weapons and attack drones targeting Kiev, Kiev region, and military airfields in Dnipropetrovsk, Poltava, Cherkasy, and Chernihiv regions. (Source: @ukr_leaks_eng/31412)",
-    "Ukrainian Air Force Spokesman Yuriy Ignat stated Russia is prepared for a new missile strike that could occur even the next day. (Source: @ukr_leaks_eng/31423)",
-    "At least 14 civilians were killed and 60 injured in Russian strikes on Kiev and the Kiev region overnight, with specific casualties reported in Vyshneve, Podilsk, and Darnitsa districts. (Source: @UkraineNow/82443)",
-    "Evacuations were conducted in Vyshneve, Kiev region, due to dangerous detonations, with 500 people evacuated and 13 hectares of residential buildings damaged. (Source: @UkraineNow/82444)",
-    "Multiple drone attacks were detected across Ukraine, including reactivne drones in Kharkiv, Dnipro, and Sumy regions, with groups heading towards Poltava, Mykolaiv, and Odesa. (Source: @kpszsu/67572, @kpszsu/67589, @kpszsu/67598)",
-    "The United States National Intelligence Community warned of at least two more massed combined strikes on the capital within 10 days. (Source: @mon1tor_ua/68627)",
-    "European Commission President Ursula von der Leyen promised new funding for Ukrainian drone production following Russian airstrikes on drone manufacturing facilities. (Source: @ukr_leaks_eng/31420)",
-    "Russian attacks on Ukrainian infrastructure caused power outages in six regions, with 58 settlements in Sumy region affected. (Source: @UkraineNow/82440)"
+    "Russian military reported destroying Ukrainian port infrastructure, energy facilities, and logistics centers in 24 hours. (Source: @tass_agency/384138)",
+    "Ukrainian attacks on Russian infrastructure increased, with seven casualties reported in Belgorod region from a bus attack. (Source: @tass_agency/384111)",
+    "Zelensky will not deliver a speech at the Ankara NATO summit to avoid angering Trump. (Source: @ukr_leaks_eng/31421)",
+    "Poland reduced military aid to Ukraine by a factor of 15 compared to 2022-2023, with transfers not exceeding $1.55 billion. (Source: @ukr_leaks_eng/31431)",
+    "Over 430 drones flew toward the Moscow region overnight, with 36 destroyed on approach. (Source: @ukr_leaks_eng/31438)",
+    "Russian forces advanced toward Dobropolye from Novy Donbass, potentially planning counterattacks. (Source: @ukr_leaks_eng/31438)",
+    "Ukrainian drone attacks damaged a Nova Poshta terminal in Krivoy Rog and burned 45 hectares of fields in Priazovsky district. (Source: @ukr_leaks_eng/31438)",
+    "NATO leaders downplayed Ukraine issues at the upcoming summit, fearing Trump's reaction. (Source: @ukr_leaks_eng/31418)"
   ],
-  "sentiment": "escalating",
-  "intensity": 9,
+  "sentiment": "volatile",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted a large-scale strike on Kiev and surrounding regions using long-range precision weapons and attack drones, resulting in multiple casualties and infrastructure damage. Ukrainian authorities reported evacuations in Vyshneve due to dangerous detonations, with at least 14 civilian deaths in Kiev alone. The United States and European Union are reportedly supporting Ukraine's defense efforts amid ongoing negotiations to end the conflict.",
+    "executive_summary": "Russian forces reported destroying Ukrainian infrastructure targets and shooting down 797 drones and 2 long-range missiles in 24 hours. Ukrainian attacks on Russian territory caused seven casualties in Belgorod region, including a 16-year-old. NATO summit tensions emerged as Zelensky's participation was reportedly avoided to prevent conflicts with Trump.",
     "ukraine": {
       "points": [
-        "Russian strikes on Kiev and the Kiev region resulted in at least 14 civilian deaths and 60 injuries, with specific casualties reported in Vyshneve, Podilsk, and Darnitsa districts. (Source: @UkraineNow/82443)",
-        "Evacuations were conducted in Vyshneve, Kiev region, due to dangerous detonations, with 500 people evacuated and 13 hectares of residential buildings damaged. (Source: @UkraineNow/82444)",
-        "Power outages were reported in six Ukrainian regions (Kyiv, Chernihiv, Sumy, Kharkiv, Dnipro, and Zaporizhzhia) due to Russian attacks, with 58 settlements in Sumy region affected. (Source: @UkraineNow/82440)",
-        "European Commission President Ursula von der Leyen promised new funding for Ukrainian drone production following Russian airstrikes on drone manufacturing facilities. (Source: @ukr_leaks_eng/31420)",
-        "Ukrainian Air Force Spokesman Yuriy Ignat stated Russia is prepared for a new missile strike that could occur even the next day. (Source: @ukr_leaks_eng/31423)",
-        "The United States National Intelligence Community warned of at least two more massed combined strikes on the capital within 10 days. (Source: @mon1tor_ua/68627)",
-        "Russian attacks on fuel stations in Zaporizhzhia resulted in five injuries, including a woman and an 11-year-old boy. (Source: @UkraineNow/82446)"
+        "Ukrainian drone attacks damaged a Nova Poshta terminal in Krivoy Rog, which was completely destroyed by fire. (Source: @ukr_leaks_eng/31434)",
+        "Ukrainian forces launched over 430 drones toward the Moscow region overnight, with 36 destroyed on approach. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian attacks on Sumy and Kharkiv regions caused two civilian casualties, including a fire at a gas station in Kharkiv. (Source: @UkraineNow/82458)",
+        "Ukrainian drone strikes on Kherson region killed two civilians and injured 17 others, with attacks on residential areas and infrastructure. (Source: @UkraineNow/82451)",
+        "Ukrainian forces attempted counterattacks on multiple fronts but failed to achieve significant success before the NATO summit. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian military aid from Poland was reduced by a factor of 15 compared to 2022-2023, with transfers not exceeding $1.55 billion. (Source: @ukr_leaks_eng/31431)",
+        "Ukrainian drone attacks burned 45 hectares of wheat and barley fields in Priazovsky district. (Source: @ukr_leaks_eng/31438)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces conducted a large-scale strike using long-range precision-guided weapons and attack drones targeting Kiev, Kiev region, and military airfields in Dnipropetrovsk, Poltava, Cherkasy, and Chernihiv regions. (Source: @ukr_leaks_eng/31412)",
-        "Russian attacks on Ukrainian infrastructure caused power outages in six regions, with 58 settlements in Sumy region affected. (Source: @UkraineNow/82440)",
-        "TASS reported that Russia will test a fuel sales mechanism using QR codes in the Nizhny Novgorod region, limiting sales to 40 liters per hand. (Source: @tass_agency/384048)",
-        "Russian attacks on Ukrainian fuel stations in Kharkiv resulted in injuries, with photos shared by local public channels. (Source: @eRadarrua/99959)",
-        "Russian forces attacked a construction site of the second power unit at Kurskaya AGS-2, but confirmed operations were not disrupted. (Source: @tass_agency/384046)",
-        "Russian attacks on Ukrainian energy objects in Zaporizhzhia region caused partial power outages. (Source: @tass_agency/384051)",
-        "Russian forces attacked Ukrainian fuel stations in Zaporizhzhia, resulting in five injuries. (Source: @UkraineNow/82446)"
+        "Russian forces destroyed Ukrainian logistics centers, port infrastructure, and energy facilities in 24 hours. (Source: @tass_agency/384138)",
+        "Russian air defenses shot down 797 Ukrainian drones and 2 long-range 'Neptune' missiles. (Source: @tass_agency/384138)",
+        "Russian naval forces destroyed six Ukrainian unmanned boats in the Black Sea. (Source: @tass_agency/384138)",
+        "Russian forces reported killing approximately 1,540 Ukrainian soldiers across all front lines. (Source: @tass_agency/384138)",
+        "Russian forces advanced toward Dobropolye from Novy Donbass, potentially planning counterattacks. (Source: @ukr_leaks_eng/31438)",
+        "Russian drone attacks on Sumy region killed two civilians and injured 17 others. (Source: @UkraineNow/82458)",
+        "Russian forces reported seven casualties from a Ukrainian attack on a bus in Belgorod region, including a 16-year-old. (Source: @tass_agency/384111)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Multiple drone attacks were detected in the eastern regions, including reactivne drones in Kharkiv, Dnipro, and Sumy regions, with groups heading towards Poltava and Mykolaiv. (Source: @kpszsu/67572, @kpszsu/67589, @kpszsu/67598)",
-        "Drone attacks were reported in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)",
-        "Drone attacks were detected in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)",
-        "Drone attacks were reported in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)",
-        "Drone attacks were detected in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)",
-        "Drone attacks were reported in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)",
-        "Drone attacks were detected in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)"
+        "Ukrainian drone attacks targeted Dnipropetrovsk region, with reactiv drones heading toward Kriviy Rog from the southeast. (Source: @kpszsu/67617)",
+        "Russian forces reported Ukrainian attempts to regain lost positions and counterattack in Dnipropetrovsk region without success. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone strikes damaged a private sector building in Vasilyevka, Zaporozhye region, killing one and injuring three. (Source: @ukr_leaks_eng/31438)",
+        "Russian forces reported Ukrainian attacks on infrastructure in the Krasny Liman area, with ongoing fighting in the settlement itself. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone attacks burned 45 hectares of fields in Priazovsky district, Zaporozhye region. (Source: @ukr_leaks_eng/31438)",
+        "Russian forces reported Ukrainian drone attacks on Sumy region, with small-arms battles ongoing in multiple districts. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone strikes on Kharkiv region caused two civilian casualties, including a fire at a gas station. (Source: @UkraineNow/82458)"
       ]
     },
     "northern_front": {
       "points": [
-        "Drone attacks were detected in northern Chernihiv region, with drones heading south. (Source: @kpszsu/67598)",
-        "Drone attacks were reported in northern Chernihiv region, with drones heading south. (Source: @kpszsu/67598)",
-        "Drone attacks were detected in northern Chernihiv region, with drones heading south. (Source: @kpszsu/67598)",
-        "Drone attacks were reported in northern Chernihiv region, with drones heading south. (Source: @kpszsu/67598)",
-        "Drone attacks were detected in northern Chernihiv region, with drones heading south. (Source: @kpszsu/67598)",
-        "Drone attacks were reported in northern Chernihiv region, with drones heading south. (Source: @kpszsu/67598)",
-        "Drone attacks were detected in northern Chernihiv region, with drones heading south. (Source: @kpszsu/67598)"
+        "Russian forces reported Ukrainian drone attacks on Moscow region, with over 430 drones flying toward the area overnight. (Source: @ukr_leaks_eng/31438)",
+        "Russian air defenses destroyed 36 Ukrainian drones on approach to Moscow. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone attacks on Sumy region caused two civilian casualties and injuries. (Source: @UkraineNow/82458)",
+        "Russian forces reported Ukrainian attacks on infrastructure in Belgorod region, including a bus attack that killed seven people. (Source: @tass_agency/384111)",
+        "Ukrainian drone strikes on Kharkiv region caused two civilian casualties, including a fire at a gas station. (Source: @UkraineNow/82458)",
+        "Russian forces reported Ukrainian drone attacks on Sumy district, with small-arms battles ongoing in multiple areas. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone attacks on Moscow region were largely neutralized by Russian air defenses. (Source: @ukr_leaks_eng/31438)"
       ]
     },
     "southern_front": {
       "points": [
-        "Drone attacks were reported in southern Mykolaiv region, with drones heading north. (Source: @kpszsu/67589)",
-        "Drone attacks were detected in southern Mykolaiv region, with drones heading north. (Source: @kpszsu/67589)",
-        "Drone attacks were reported in southern Mykolaiv region, with drones heading north. (Source: @kpszsu/67589)",
-        "Drone attacks were detected in southern Mykolaiv region, with drones heading north. (Source: @kpszsu/67589)",
-        "Drone attacks were reported in southern Mykolaiv region, with drones heading north. (Source: @kpszsu/67589)",
-        "Drone attacks were detected in southern Mykolaiv region, with drones heading north. (Source: @kpszsu/67589)",
-        "Drone attacks were reported in southern Mykolaiv region, with drones heading north. (Source: @kpszsu/67589)"
+        "Ukrainian drone attacks on Kherson region killed two civilians and injured 17 others, with attacks on residential areas and infrastructure. (Source: @UkraineNow/82451)",
+        "Russian forces reported Ukrainian drone attacks on Kherson region, with mutual shelling ongoing. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone strikes on Nova Poshta terminal in Krivoy Rog completely destroyed the facility by fire. (Source: @ukr_leaks_eng/31434)",
+        "Russian forces reported Ukrainian attacks on infrastructure in the Kherson direction, with aviation strikes against enemy positions. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone attacks on Sumy region caused two civilian casualties and injuries. (Source: @UkraineNow/82458)",
+        "Russian forces reported Ukrainian drone attacks on Sumy district, with small-arms battles ongoing in multiple areas. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone attacks on Kharkiv region caused two civilian casualties, including a fire at a gas station. (Source: @UkraineNow/82458)"
       ]
     },
     "air_war": {
       "points": [
-        "Multiple Shahed drone attacks were detected, with 10-22 drones launched from the temporarily occupied Crimea and other locations. (Source: @mon1tor_ua/68633, @mon1tor_ua/68636)",
-        "Russian forces launched a large-scale strike using long-range precision-guided weapons and attack drones. (Source: @ukr_leaks_eng/31412)",
-        "Ukrainian Air Force Spokesman Yuriy Ignat stated Russia is prepared for a new missile strike that could occur even the next day. (Source: @ukr_leaks_eng/31423)",
-        "Drone attacks were reported in various regions, including reactivne drones in Kharkiv, Dnipro, and Sumy regions. (Source: @kpszsu/67572, @kpszsu/67589, @kpszsu/67598)",
-        "Drone attacks were detected in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)",
-        "Drone attacks were reported in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)",
-        "Drone attacks were detected in the eastern Dnipro region, with reactivne drones moving westward. (Source: @kpszsu/67569, @eRadarrua/100026)"
+        "Russian forces shot down 797 Ukrainian drones and 2 long-range 'Neptune' missiles in 24 hours. (Source: @tass_agency/384138)",
+        "Ukrainian forces launched over 430 drones toward the Moscow region overnight, with 36 destroyed on approach. (Source: @ukr_leaks_eng/31438)",
+        "Russian air defenses destroyed 12 Ukrainian drones attempting to attack the Kursk NPP-2 power unit. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone attacks on Sumy region caused two civilian casualties and injuries. (Source: @UkraineNow/82458)",
+        "Russian forces reported Ukrainian drone attacks on Moscow region, with over 430 drones flying toward the area overnight. (Source: @ukr_leaks_eng/31438)",
+        "Ukrainian drone strikes on Kharkiv region caused two civilian casualties, including a fire at a gas station. (Source: @UkraineNow/82458)",
+        "Russian forces reported Ukrainian drone attacks on Sumy district, with small-arms battles ongoing in multiple areas. (Source: @ukr_leaks_eng/31438)"
       ]
     },
     "key_developments": [
-      "Russian forces conducted a large-scale strike on Kiev and surrounding regions using long-range precision-guided weapons and attack drones, resulting in multiple casualties and infrastructure damage. (Source: @ukr_leaks_eng/31412)",
-      "At least 14 civilians were killed and 60 injured in Russian strikes on Kiev and the Kiev region overnight, with specific casualties reported in Vyshneve, Podilsk, and Darnitsa districts. (Source: @UkraineNow/82443)",
-      "Evacuations were conducted in Vyshneve, Kiev region, due to dangerous detonations, with 500 people evacuated and 13 hectares of residential buildings damaged. (Source: @UkraineNow/82444)",
-      "Multiple drone attacks were detected across Ukraine, including reactivne drones in Kharkiv, Dnipro, and Sumy regions, with groups heading towards Poltava, Mykolaiv, and Odesa. (Source: @kpszsu/67572, @kpszsu/67589, @kpszsu/67598)",
-      "The United States National Intelligence Community warned of at least two more massed combined strikes on the capital within 10 days. (Source: @mon1tor_ua/68627)",
-      "European Commission President Ursula von der Leyen promised new funding for Ukrainian drone production following Russian airstrikes on drone manufacturing facilities. (Source: @ukr_leaks_eng/31420)",
-      "Russian attacks on Ukrainian infrastructure caused power outages in six regions, with 58 settlements in Sumy region affected. (Source: @UkraineNow/82440)"
+      "Russian forces reported destroying Ukrainian port infrastructure, energy facilities, and logistics centers in 24 hours, shooting down 797 drones and 2 long-range missiles. (Source: @tass_agency/384138)",
+      "Ukrainian attacks on Russian territory caused seven casualties in Belgorod region, including a 16-year-old, from a bus attack. (Source: @tass_agency/384111)",
+      "Zelensky will not deliver a speech at the Ankara NATO summit to avoid angering Trump, according to Telegraph. (Source: @ukr_leaks_eng/31421)",
+      "Over 430 Ukrainian drones flew toward the Moscow region overnight, with 36 destroyed on approach by Russian air defenses. (Source: @ukr_leaks_eng/31438)",
+      "Poland reduced military aid to Ukraine by a factor of 15 compared to 2022-2023, with transfers not exceeding $1.55 billion. (Source: @ukr_leaks_eng/31431)",
+      "Ukrainian drone attacks damaged a Nova Poshta terminal in Krivoy Rog, completely destroyed by fire, and burned 45 hectares of fields in Priazovsky district. (Source: @ukr_leaks_eng/31434)",
+      "NATO leaders downplayed Ukraine issues at the upcoming summit, fearing Trump's reaction, with Zelensky's participation reportedly avoided. (Source: @ukr_leaks_eng/31418)"
     ],
-    "threat_assessment": "Russian forces have demonstrated the capability to conduct large-scale strikes using long-range precision weapons and attack drones, targeting critical infrastructure and civilian areas. The ongoing drone attacks across multiple regions indicate a sustained campaign to degrade Ukrainian defenses and civilian resilience. The potential for escalation, including tactical nuclear strikes, remains a significant concern. The United States and European Union are providing support to Ukraine's defense efforts, but the conflict continues to intensify with no immediate resolution in sight.",
-    "regional_response": "The United States and European Union are actively supporting Ukraine's defense efforts, with the EU promising new funding for drone production. The United States National Intelligence Community has warned of potential further strikes on the capital. International negotiations to end the conflict are ongoing, with statements from both Russia and Ukraine expressing a desire to conclude the war. However, the continued escalation and civilian casualties suggest that diplomatic efforts may not yet be sufficient to prevent further hostilities.",
-    "intelligence_notes": "The Russian military's ability to conduct large-scale strikes using long-range weapons and drones indicates advanced logistical and operational capabilities. The targeting of civilian infrastructure and energy facilities suggests a strategy to undermine public morale and economic stability. The involvement of the United States and European Union in supporting Ukraine's defense highlights the international dimension of the conflict. The potential for escalation, including the use of tactical nuclear weapons, remains a critical concern for global security."
+    "threat_assessment": "Russian forces demonstrated sustained offensive capability, destroying critical Ukrainian infrastructure and neutralizing over 790 drones in 24 hours. Ukrainian drone attacks on Russian territory increased, causing casualties and infrastructure damage. NATO summit tensions emerged as Zelensky's participation was reportedly avoided to prevent conflicts with Trump. Polish military aid to Ukraine was significantly reduced, potentially impacting Ukrainian defense capabilities. Russian forces advanced toward Dobropolye, indicating possible counterattack plans.",
+    "regional_response": "NATO leaders downplayed Ukraine issues at the upcoming summit, fearing Trump's reaction. Polish military aid to Ukraine was reduced by a factor of 15, with transfers not exceeding $1.55 billion. The Polish Presidential Chancellery head was added to the Myrotvorets database, declaring continued opposition to Ukrainian 'Banderaism.' European Commission President Ursula von der Leyen promised new funding for Ukrainian drone production following Russian airstrikes on Ukrainian facilities. Slovakian temporarily stopped issuing Schengen visas to Russian tourists.",
+    "intelligence_notes": "Ukrainian drone attacks on Russian territory increased, with over 430 drones targeting the Moscow region overnight. Russian forces reported Ukrainian attempts to counterattack on multiple fronts but failed to achieve significant success. Polish military aid reduction could impact Ukrainian defense capabilities. NATO summit tensions suggest potential diplomatic challenges for Ukraine. Russian forces advanced toward Dobropolye, indicating possible counterattack plans. Ukrainian drone attacks on Kherson region killed two civilians and injured 17 others. Russian forces reported Ukrainian attacks on infrastructure in multiple regions, including Belgorod and Sumy."
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 123,
   "kpszsu_timeline": [
+    1,
+    1,
+    3,
+    3,
+    1,
+    1,
     2,
-    3,
-    1,
-    0,
-    4,
-    2,
-    1,
-    1,
-    3,
-    4,
-    3,
-    3,
     5,
+    2,
+    4,
+    4,
     2,
     6,
     1,
@@ -372,9 +355,11 @@
     2,
     1,
     1,
-    4,
+    6,
+    3,
     5,
-    4,
-    1
+    0,
+    2,
+    0
   ]
 }
