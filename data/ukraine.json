@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-09T03:54:32.194750+00:00",
-  "message_count": 385,
+  "updated_at": "2026-07-09T04:47:27.766268+00:00",
+  "message_count": 364,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,83 +13,89 @@
   ],
   "red_alerts": 171,
   "red_alerts_timeline": [
-    39,
-    13,
-    13,
+    17,
+    17,
     0,
     0,
     0,
-    13,
+    17,
     0,
     0,
-    13,
-    26,
-    13,
+    17,
+    34,
+    17,
     0,
-    13,
-    13,
-    0,
-    0,
-    0,
+    17,
+    17,
     0,
     0,
     0,
-    13,
+    0,
+    0,
+    0,
+    17,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    46,
-    17,
-    14,
-    13,
+    21,
+    16,
+    11,
+    22,
+    32,
     26,
-    26,
-    26,
+    16,
     18,
-    19,
     25,
-    28,
-    17,
+    27,
+    20,
     10,
     14,
     12,
-    7,
+    6,
     5,
     4,
-    2,
     4,
-    13,
-    9,
-    11,
-    12
+    4,
+    10,
+    12,
+    10,
+    15,
+    14
   ],
   "messages_by_channel": {
-    "@eRadarrua": 52,
-    "@kpszsu": 80,
-    "@mon1tor_ua": 55,
+    "@eRadarrua": 41,
+    "@kpszsu": 85,
+    "@mon1tor_ua": 38,
     "@UkraineNow": 28,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 145
+    "@tass_agency": 147
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/100399",
-    "kpszsu": "https://t.me/kpszsu/67849",
+    "kpszsu": "https://t.me/kpszsu/67857",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68824",
     "UkraineNow": "https://t.me/UkraineNow/82519",
     "DeepStateUA": "https://t.me/DeepStateUA/23626",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31482",
-    "tass_agency": "https://t.me/tass_agency/384440"
+    "tass_agency": "https://t.me/tass_agency/384451"
   },
   "cited_post_urls": {
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68818",
     "UkraineNow": "https://t.me/UkraineNow/82513",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31469",
-    "kpszsu": "https://t.me/kpszsu/67787",
-    "tass_agency": "https://t.me/tass_agency/384395",
-    "eRadarrua": "https://t.me/eRadarrua/100394"
+    "tass_agency": "https://t.me/tass_agency/384414",
+    "eRadarrua": "https://t.me/eRadarrua/100394",
+    "kpszsu": "https://t.me/kpszsu/67842"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/384451",
+      "post_id": 384451,
+      "channel": "tass_agency",
+      "ts": "2026-07-09T04:36:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/384420",
       "post_id": 384420,
@@ -177,12 +183,6 @@
       "ts": "2026-07-08T15:34:58+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/384370",
-      "post_id": 384370,
-      "channel": "tass_agency",
-      "ts": "2026-07-08T15:19:38+00:00"
-    },
-    {
       "post_url": "https://t.me/tass_agency/384365",
       "post_id": 384365,
       "channel": "tass_agency",
@@ -223,134 +223,112 @@
     "eRadarrua/100283": "data/media/eRadarrua_100283.jpg",
     "eRadarrua/100284": "data/media/eRadarrua_100283.jpg",
     "eRadarrua/100288": "data/media/eRadarrua_100288.jpg",
-    "eRadarrua/100258": "data/media/eRadarrua_100258.jpg",
-    "eRadarrua/100259": "data/media/eRadarrua_100259.jpg",
     "kpszsu/67758": "data/media/kpszsu_67758.jpg",
     "kpszsu/67760": "data/media/kpszsu_67758.jpg",
     "kpszsu/67709": "data/media/kpszsu_67709.jpg",
     "kpszsu/67708": "data/media/kpszsu_67709.jpg"
   },
-  "summary": "Russian forces conducted drone and missile attacks across Ukraine, hitting Kyiv, Kharkiv, Dnipro, Odesa and other cities, causing casualties and infrastructure damage. Ukraine's drone operations targeted Russian naval assets in the Black Sea and struck facilities in occupied territories including an airbase in Danilovgrad. NATO summit discussions in Ankara addressed Ukraine's EU accession progress and ongoing military support requirements.",
+  "summary": "US intelligence warns of potential mass combined strike on Ukraine within 72 hours targeting postal facilities, factories, and warehouses. Multiple Russian drone attacks struck Kyiv and other regions causing casualties and infrastructure damage. Ukrainian forces claim successful strikes on Russian energy infrastructure and shadow fleet vessels in the Black Sea.",
   "key_points": [
-    "Russian drone attack on Kyiv killed three people and injured thirteen others, including a child evacuated by emergency responders. (Source: @UkraineNow/82513)",
-    "Ukrainian drone operations destroyed Russian naval tankers in the Black Sea and struck logistics hubs including an airbase in Danilovgrad. (Source: @UkraineNow/82494)",
-    "Russian missile strikes hit residential buildings in Kharkiv and Dnipro, killing at least five people and wounding dozens across multiple cities. (Source: @UkraineNow/82501)",
-    "Ukrainian President Zelenskyy met with Polish President Nawrocki at NATO summit, discussing shared threat from Russia and need for continued dialogue. (Source: @UkraineNow/82516)",
-    "Bulgarian Prime Minister stated Bulgaria has exhausted its military aid capacity to Ukraine but will accept equipment for repair and restoration. (Source: @ukr_leaks_eng/31469)",
-    "European Commission confirmed Ukraine has fulfilled all conditions for EU accession negotiations and is ready to open remaining five clusters. (Source: @ukr_leaks_eng/31481)",
-    "Danish Prime Minister emphasized need for increased assistance to Ukraine and more pressure on Russia to ensure Ukraine as the sole winner. (Source: @ukr_leaks_eng/31464)",
-    "Ukrainian drone operations reported targeting Russian naval facilities in the Black Sea region and logistics hubs in occupied territories. (Source: @UkraineNow/82494)"
+    "US reconnaissance community warns of potential mass combined strike on Ukrainian territory within 72 hours targeting postal facilities, factories, and warehouses (Source: @mon1tor_ua/68818)",
+    "Russian drone attack on Kyiv's Desnianskyi district hit a multi-story building, resulting in 13 injured and 3 killed with rescue operations ongoing (Source: @UkraineNow/82513)",
+    "Ukrainian forces struck key energy supply point to Crimea, damaging the Kuban-Crime energy bridge PP-2 'Crime' receiving power from Russia via underwater cables (Source: @UkraineNow/82514)",
+    "Russian forces evacuated families from Konstantinovka area as they advance on Slavyansk-Kramatorsk agglomeration according to Russian military expert (Source: @tass_agency/384414)",
+    "Multiple reactive drones reported heading toward Kyiv region including areas near Korostenskyi district in Zhytomyr region and Troeshyna area (Source: @mon1tor_ua/68824)",
+    "Ukrainian drone units damaged at least 19 Russian shadow fleet tankers and logistics hubs over 72 hours including port infrastructure in Kerch (Source: @UkraineNow/82494)",
+    "Russian forces reportedly advancing in Kharkiv region with Ukrainian troops retreating from Zemlyanky settlement (Source: @tass_agency/384415)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted coordinated drone and missile attacks across Ukraine, hitting Kyiv, Kharkiv, Dnipro, Odesa and other cities, causing casualties and infrastructure damage. Ukrainian drone operations targeted Russian naval assets in the Black Sea and struck facilities in occupied territories including an airbase in Danilovgrad. NATO summit discussions in Ankara addressed Ukraine's EU accession progress and ongoing military support requirements.",
+    "executive_summary": "US intelligence warns of potential mass combined strike on Ukraine within 72 hours targeting postal facilities, factories, and warehouses. Multiple Russian drone attacks struck Kyiv and other regions causing casualties and infrastructure damage. Ukrainian forces claim successful strikes on Russian energy infrastructure and shadow fleet vessels in the Black Sea.",
     "ukraine": {
       "points": [
-        "Ukrainian drone operations over the past 72 hours destroyed at least 19 Russian naval tankers in the Black Sea, one cargo ship, and one ferry in Kerch, while also targeting airbase facilities in Danilovgrad and logistics hubs in occupied territories. (Source: @UkraineNow/82494)",
-        "Ukrainian President Zelenskyy met with Polish President Nawrocki at the NATO summit in Ankara, discussing the shared threat from Russia and the importance of maintaining strong bilateral relations and mutual support. (Source: @UkraineNow/82516)",
-        "The European Commission confirmed Ukraine has fulfilled all conditions for EU accession negotiations and is fully prepared to open the remaining five clusters in the membership process. (Source: @ukr_leaks_eng/31481)",
-        "Bulgarian Prime Minister Rumen Radev stated Bulgaria has exhausted its military aid capacity to Ukraine but will continue support through equipment repair and restoration services. (Source: @ukr_leaks_eng/31469)",
-        "Danish Prime Minister Mette Frederiksen emphasized the need for increased assistance to Ukraine and more pressure on Russia to ensure Ukraine emerges as the sole winner of the conflict. (Source: @ukr_leaks_eng/31464)",
-        "Former Ukrainian Armed Forces Commander-in-Chief Valeriy Zaluzhny wrote that Western analysts incorrectly assess the war's outcome, noting that near-equilibrium has emerged on the battlefield and the decisive factor is which society can withstand the economic, military, and psychological burden longest. (Source: @ukr_leaks_eng/31475)",
-        "Ukrainian drone operations reported targeting Russian naval facilities in the Black Sea region and logistics hubs in occupied territories, including destruction of missile storage facilities and equipment at an airbase in Danilovgrad. (Source: @UkraineNow/82494)"
+        "US reconnaissance community issued warning about potential mass combined strike on Ukrainian territory within 72 hours targeting postal facilities, factories, and warehouses (Source: @mon1tor_ua/68818)",
+        "Kyiv experienced multiple drone attacks resulting in 13 injured and 3 killed across Desnianskyi and other districts with rescue operations continuing (Source: @UkraineNow/82513)",
+        "Ukrainian Special Forces struck key energy supply point to Crimea damaging Kuban-Crime energy bridge PP-2 'Crime' infrastructure (Source: @UkraineNow/82514)",
+        "Ukrainian drone units conducted successful attacks on Russian shadow fleet tankers and logistics hubs over 72 hours period (Source: @UkraineNow/82494)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces conducted coordinated drone and missile attacks across Ukraine, hitting Kyiv, Kharkiv, Dnipro, Odesa and other cities, with reports of ballistic missile threats and reactive drone incursions. (Source: @kpszsu/67787)",
-        "Russian military claimed to have shot down 111 Ukrainian drones over Russian territory within 12 hours, according to Russian Ministry of Defense reports. (Source: @tass_agency/384395)",
-        "Russian forces struck the Samsung Ukraine plant in Kiev, where components for FP-5 Flamingo cruise missiles were manufactured and stored, according to Ukrainian intelligence reports. (Source: @ukr_leaks_eng/31461)",
-        "Russian forces launched attacks on residential buildings in Kharkiv and Dnipro, with reports of rocket strikes on apartment buildings and fuel stations across multiple Ukrainian cities. (Source: @UkraineNow/82501)",
-        "Russian drone attacks on Kyiv killed three people and injured thirteen others, including a child who was evacuated by emergency responders to a hospital. (Source: @UkraineNow/82513)",
-        "Russian forces attacked Odesa, killing two people and damaging infrastructure in the city, according to Ukrainian emergency service reports. (Source: @UkraineNow/82518)",
-        "Russian forces struck a military warehouse in Vyshnevoye near Kiev, where missiles for air defense and other ammunition were stored, according to Ukrainian MP Anna Skorokhod. (Source: @ukr_leaks_eng/31478)"
+        "Russian forces evacuated families with children from Konstantinovka area as part of advance toward Slavyansk-Kramatorsk agglomeration (Source: @tass_agency/384434)",
+        "Russian military reported shooting down Ukrainian aircraft with additional details not provided by command according to monitoring channels (Source: @UkraineNow/82508)",
+        "Russian forces reportedly advancing in Kharkiv region with Ukrainian troops retreating from Zemlyanky settlement (Source: @tass_agency/384415)",
+        "Russian Ministry of Defense reported shooting down 73 Ukrainian drones over Russian regions overnight (Source: @tass_agency/384449)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian drone operations reported destroying Russian naval tankers in the Black Sea, with at least 19 tankers, one cargo ship, and one ferry targeted over 72 hours. (Source: @UkraineNow/82494)",
-        "Drone operations targeted Russian airbase facilities in Danilovgrad, destroying missile storage facilities and equipment according to Ukrainian intelligence reports. (Source: @UkraineNow/82494)",
-        "Ukrainian drone operations struck logistics hubs in occupied territories, including facilities in Novogrigorivka and Chervone, targeting ammunition and fuel storage. (Source: @UkraineNow/82494)",
-        "Russian drone attacks on Sumy region targeted Kremenchug water reservoir, with Ukrainian reports of drone activity in the area. (Source: @kpszsu/67800)",
-        "Ukrainian drone operations reported targeting Russian naval facilities in the Black Sea region, with attacks on shipping and logistics infrastructure. (Source: @UkraineNow/82494)",
-        "Drone operations in the Kharkiv region targeted Russian positions, with reports of coordinated attacks on military installations and supply depots. (Source: @eRadarrua/100394)",
-        "Ukrainian operations in the Donbas region targeted Russian command structures and equipment storage facilities in occupied territories. (Source: @UkraineNow/82494)"
+        "Reactive drones reported in Chernihiv region near Snovsk and Novgorod areas heading toward Sumy region (Source: @eRadarrua/100394)",
+        "Kharkiv region monitoring shows reactive drones near Staryi Merchyk heading toward Kharkiv with variable course (Source: @kpszsu/67842)",
+        "Sumy region reported reactive drones near Krolevec area and controlled drone near Ternovyi (Source: @eRadarrua/100396)",
+        "Donetsk region reported reactive drones near Komyshuvakha area (Source: @eRadarrua/100398)"
       ]
     },
     "northern_front": {
       "points": [
-        "Russian drone attacks on Kyiv killed three people and injured thirteen others, with emergency responders evacuating a child to the hospital. (Source: @UkraineNow/82513)",
-        "Drone activity reported on Dnipro River near Kyiv, with Ukrainian forces tracking drone movements toward the capital. (Source: @kpszsu/67770)",
-        "Russian drone attacks on northern regions included strikes on residential buildings and infrastructure across multiple cities. (Source: @UkraineNow/82501)",
-        "Ukrainian drone operations targeted Russian logistics and supply lines in northern occupied territories, including facilities near Kyiv. (Source: @UkraineNow/82494)",
-        "Russian forces launched attacks on military infrastructure near Kyiv, including strikes on ammunition storage facilities. (Source: @ukr_leaks_eng/31478)",
-        "Drone activity tracked moving from northern regions toward Kyiv, with Ukrainian forces monitoring multiple incursion attempts. (Source: @kpszsu/67770)",
-        "Russian missile threats prompted elevated alert status in northern Ukrainian regions, with reports of ballistic missile warnings. (Source: @kpszsu/67786)"
+        "Kyiv and surrounding region under active reconnaissance with enemy attempting to locate drone storage facilities (Source: @mon1tor_ua/68815)",
+        "Reactive drones reported heading toward Kyiv from north including areas near Korostenskyi district in Zhytomyr region (Source: @mon1tor_ua/68824)",
+        "Bryansk region has 24 Iskander-M launch systems while Kursk region has 6 Circon missile launch systems (Source: @mon1tor_ua/68817)",
+        "Kyiv air alert declared at 13:10 with all-clear given at 17:31 according to monitoring channels (Source: @eRadarrua/100340)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian drone attacks on Odesa killed two people and damaged infrastructure in the city, according to Ukrainian emergency service reports. (Source: @UkraineNow/82518)",
-        "Ukrainian drone operations targeted Russian naval assets in the Black Sea, destroying tankers and shipping in the Kerch region. (Source: @UkraineNow/82494)",
-        "Drone attacks on southern regions included strikes on fuel stations and industrial facilities in Dnipro and other cities. (Source: @UkraineNow/82501)",
-        "Ukrainian operations in southern regions targeted Russian logistics hubs and equipment storage facilities in occupied territories. (Source: @UkraineNow/82494)",
-        "Russian missile threats and drone activity reported in southern Ukrainian regions, including attacks on residential areas. (Source: @kpszsu/67772)",
-        "Drone operations tracked moving from the Black Sea toward Odesa and other southern cities. (Source: @kpszsu/67772)",
-        "Russian forces launched attacks on infrastructure in southern regions, including strikes on industrial facilities and fuel storage. (Source: @UkraineNow/82501)"
+        "Mykolaiv region reported reactive drones near Luparev and heading toward Odesa area (Source: @kpszsu/67855)",
+        "Odesa attacked by Russian forces resulting in two deaths and infrastructure damage (Source: @UkraineNow/82518)",
+        "Zaporizhzhia region reported reactive drones near Petropavlivka heading west and one near Polohy (Source: @eRadarrua/100398)",
+        "Dnipro region reported reactive drones near Synelniki heading northeast and near Mezhova heading west (Source: @kpszsu/67850)"
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian drone operations destroyed Russian naval tankers in the Black Sea, with at least 19 tankers and one cargo ship targeted over 72 hours. (Source: @UkraineNow/82494)",
-        "Russian forces claimed to have shot down 111 Ukrainian drones over Russian territory within 12 hours, according to Russian Ministry of Defense reports. (Source: @tass_agency/384395)",
-        "Ukrainian drone operations targeted Russian airbase facilities in Danilovgrad, destroying missile storage and equipment according to intelligence reports. (Source: @UkraineNow/82494)",
-        "Drone activity tracked across multiple regions including Kyiv, Kharkiv, Dnipro, Odesa and other cities, with both sides reporting aerial engagements. (Source: @kpszsu/67787)",
-        "Ukrainian drone operations reported targeting Russian logistics and supply lines throughout occupied territories. (Source: @UkraineNow/82494)",
-        "Russian drone attacks on Ukrainian cities caused casualties and infrastructure damage, with emergency responders evacuating wounded civilians. (Source: @UkraineNow/82513)",
-        "Ukrainian drone operations in the Black Sea region targeted Russian naval facilities and shipping infrastructure. (Source: @UkraineNow/82494)"
+        "Ukrainian forces shot down Russian Su-34 fighter-bomber aircraft according to monitoring channels (Source: @UkraineNow/82508)",
+        "Multiple reactive drones reported across Ukraine including Kyiv, Chernihiv, Sumy, and southern regions (Source: @mon1tor_ua/68824)",
+        "Russian forces reported shooting down 73 Ukrainian drones over Russian regions overnight (Source: @tass_agency/384449)",
+        "Ukrainian drone units damaged Russian port infrastructure in Kerch and logistics hubs in occupied territories (Source: @UkraineNow/82494)"
       ]
     },
     "key_developments": [
-      "Russian drone attacks on Kyiv killed three people and injured thirteen others, including a child evacuated by emergency responders to a hospital. (Source: @UkraineNow/82513)",
-      "Ukrainian drone operations over 72 hours destroyed 19 Russian naval tankers in the Black Sea, one cargo ship, and one ferry, while also targeting airbase facilities in Danilovgrad. (Source: @UkraineNow/82494)",
-      "Russian missile strikes hit residential buildings in Kharkiv and Dnipro, killing at least five people and wounding dozens across multiple Ukrainian cities. (Source: @UkraineNow/82501)",
-      "Ukrainian President Zelenskyy met with Polish President Nawrocki at NATO summit in Ankara, discussing shared threat from Russia and importance of continued bilateral support. (Source: @UkraineNow/82516)",
-      "European Commission confirmed Ukraine has fulfilled all conditions for EU accession negotiations and is ready to open remaining five clusters in membership process. (Source: @ukr_leaks_eng/31481)",
-      "Bulgarian Prime Minister Rumen Radev stated Bulgaria has exhausted military aid capacity to Ukraine but will continue support through equipment repair and restoration services. (Source: @ukr_leaks_eng/31469)",
-      "Danish Prime Minister Mette Frederiksen emphasized need for increased assistance to Ukraine and more pressure on Russia to ensure Ukraine as sole conflict winner. (Source: @ukr_leaks_eng/31464)"
+      "US intelligence warns of potential mass combined strike on Ukraine within 72 hours targeting postal facilities, factories, and warehouses with high threat level for Kyiv from Iskander-M and other missile systems (Source: @mon1tor_ua/68818)",
+      "Russian drone attack on Kyiv's Desnianskyi district hit multi-story building resulting in 13 injured, 3 killed, and ongoing rescue operations with medical personnel hospitalizing 9 victims (Source: @UkraineNow/82513)",
+      "Ukrainian forces struck key energy infrastructure supplying Crimea via underwater cables at Kuban-Crime energy bridge PP-2 'Crime' point according to SBU commander Robert Brovdi (Source: @UkraineNow/82514)",
+      "Russian forces advancing in Kharkiv region with Ukrainian troops retreating from Zemlyanky settlement according to Russian military expert Andrey Marochko (Source: @tass_agency/384415)",
+      "Ukrainian drone units damaged minimum 19 Russian shadow fleet tankers and logistics hubs over 72 hours including port infrastructure in Kerch and fuel storage facilities (Source: @UkraineNow/82494)",
+      "Multiple reactive drones reported across northern Ukraine including Kyiv region with 24 Iskander-M launch systems in Bryansk and 6 Circon systems in Kursk region (Source: @mon1tor_ua/68817)",
+      "Russian forces evacuated families with children from Konstantinovka area as they advance on Slavyansk-Kramatorsk agglomeration according to TASS (Source: @tass_agency/384434)"
     ],
-    "threat_assessment": "Russian forces are conducting coordinated multi-domain attacks across Ukraine, targeting major cities including Kyiv, Kharkiv, Dnipro, and Odesa with drones and missiles, causing civilian casualties and infrastructure damage. Ukrainian drone operations have demonstrated capability to strike Russian naval assets in the Black Sea and logistics facilities in occupied territories, indicating sustained offensive operations. The conflict remains volatile with both sides engaging in active aerial warfare and ground operations across multiple fronts. NATO summit discussions highlight ongoing international support requirements for Ukraine's defense and EU integration process. Intelligence indicates potential for continued escalation as both sides test each other's capabilities and resolve.",
-    "regional_response": "NATO summit in Ankara addressed Ukraine's EU accession progress, with European Commission confirming Kyiv has fulfilled all conditions for membership negotiations. Polish-Ukrainian relations showed signs of diplomatic engagement through high-level meetings, though historical tensions around Ukrainian nationalist symbols persist. Bulgaria indicated exhaustion of military aid capacity but commitment to repair and restoration support. Denmark emphasized need for increased assistance and pressure on Russia. Colombia's disclosure of mercenary use in Ukraine raises concerns about international recruitment practices and potential escalation risks. Regional partners continue balancing support provision with domestic capacity constraints.",
-    "intelligence_notes": "Ukrainian drone operations demonstrate expanding reach into Russian-occupied territories, targeting naval assets and logistics infrastructure with reported success against Black Sea fleet elements. Russian missile threats and drone incursions show pattern of coordinated attacks across multiple Ukrainian regions simultaneously. NATO summit discussions reveal focus on sustaining international support while advancing Ukraine's European integration. Bulgarian military aid exhaustion signals potential supply chain challenges for Ukrainian forces. Intelligence indicates both sides preparing for potential escalation with reports of ballistic missile threats and increased drone activity monitoring."
+    "threat_assessment": "Russian forces maintain significant offensive capabilities with 24 Iskander-M launch systems in Bryansk region and 6 Circon missile systems in Kursk region positioned for potential strikes on Kyiv. Multiple reactive drones reported across northern and southern Ukraine indicating coordinated reconnaissance and attack preparations. Ukrainian forces continue targeting Russian logistics and energy infrastructure including shadow fleet vessels in Black Sea and Crimea supply lines.",
+    "regional_response": "US intelligence community actively monitoring potential mass strike threat while providing early warning to Ukrainian authorities. Ukrainian air defense systems responding to multiple drone incursions across all fronts with varying success rates. Russian forces conducting evacuation operations in frontline areas while advancing in Kharkiv region.",
+    "intelligence_notes": "Ukrainian forces demonstrate capability to strike strategic Russian targets including energy infrastructure and naval assets in Black Sea. Russian drone activity suggests coordinated campaign targeting Kyiv and critical infrastructure across multiple regions. Intelligence gaps remain regarding specific unit deployments and exact casualty figures from recent engagements."
   },
-  "stale_summary": true,
   "missiles": 2,
   "drones": 169,
   "kpszsu_timeline": [
-    1,
     2,
     3,
     3,
-    8,
-    2,
-    4,
-    3,
-    4,
     6,
     6,
     4,
-    4,
     1,
-    1,
-    2,
-    0,
-    2,
-    0,
-    0,
+    3,
+    6,
     6,
     5,
-    6,
-    7
+    3,
+    2,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0,
+    4,
+    7,
+    5,
+    9,
+    5
   ]
 }
