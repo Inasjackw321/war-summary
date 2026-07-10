@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-09T23:29:37.125601+00:00",
-  "message_count": 298,
+  "updated_at": "2026-07-10T03:45:55.116576+00:00",
+  "message_count": 282,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,83 +14,94 @@
   "red_alerts": 94,
   "red_alerts_timeline": [
     0,
-    7,
+    0,
+    16,
+    0,
+    0,
+    8,
+    0,
+    0,
+    8,
+    0,
+    8,
+    0,
+    16,
+    0,
+    0,
+    8,
+    16,
+    16,
     0,
     0,
     0,
     0,
-    14,
     0,
-    0,
-    7,
-    0,
-    0,
-    7,
-    0,
-    7,
-    0,
-    7,
-    7,
-    0,
-    7,
-    7,
-    7,
-    14,
     0
   ],
   "combined_activity_timeline": [
-    3,
     14,
     8,
+    25,
     13,
-    19,
-    4,
+    17,
     23,
     14,
+    10,
+    14,
     16,
-    23,
-    16,
-    11,
-    13,
-    15,
-    16,
+    17,
+    10,
     12,
-    12,
+    7,
+    9,
     10,
     8,
+    15,
     8,
-    11,
-    12,
-    11,
-    6
+    5,
+    8,
+    8,
+    4,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 34,
-    "@kpszsu": 53,
+    "@eRadarrua": 33,
+    "@kpszsu": 37,
     "@mon1tor_ua": 7,
     "@UkraineNow": 20,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 27,
-    "@tass_agency": 155
+    "@tass_agency": 156
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/100481",
-    "kpszsu": "https://t.me/kpszsu/67906",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68833",
+    "kpszsu": "https://t.me/kpszsu/67921",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68834",
     "UkraineNow": "https://t.me/UkraineNow/82539",
     "DeepStateUA": "https://t.me/DeepStateUA/23628",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31512",
-    "tass_agency": "https://t.me/tass_agency/384607"
+    "tass_agency": "https://t.me/tass_agency/384629"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/100449",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31503",
-    "tass_agency": "https://t.me/tass_agency/384591",
-    "UkraineNow": "https://t.me/UkraineNow/82536",
-    "DeepStateUA": "https://t.me/DeepStateUA/23627",
-    "kpszsu": "https://t.me/kpszsu/67851"
+    "kpszsu": "https://t.me/kpszsu/67918",
+    "eRadarrua": "https://t.me/eRadarrua/100420",
+    "UkraineNow": "https://t.me/UkraineNow/82526",
+    "tass_agency": "https://t.me/tass_agency/384626"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/384621",
+      "post_id": 384621,
+      "channel": "tass_agency",
+      "ts": "2026-07-10T01:35:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384610",
+      "post_id": 384610,
+      "channel": "tass_agency",
+      "ts": "2026-07-10T00:11:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/384604",
       "post_id": 384604,
@@ -208,18 +219,6 @@
       "post_id": 384572,
       "channel": "tass_agency",
       "ts": "2026-07-09T17:14:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31511",
-      "post_id": 31511,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-09T17:01:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384569",
-      "post_id": 384569,
-      "channel": "tass_agency",
-      "ts": "2026-07-09T16:27:01+00:00"
     }
   ],
   "post_images": {
@@ -246,106 +245,104 @@
     "kpszsu/67858": "data/media/kpszsu_67858.jpg",
     "kpszsu/67857": "data/media/kpszsu_67858.jpg"
   },
-  "summary": "Ukraine faces escalating drone threats across multiple regions while domestic unrest grows over military conscription policies. Russian forces continue targeting civilian infrastructure, including a deadly attack on a gas station in Zaporizhzhia. Ukraine's drone procurement plans and EU policy shifts signal ongoing strategic adjustments.",
+  "summary": "Ukraine plans to purchase 200,000 mid-range drones by year-end with Western allies providing half, while Russian airstrikes have destroyed 200 of Ukraine's 5,000 gas stations over the past month. Czech President Petr Pavel stated Ukraine has two months to end the war before potential Russian general mobilization post-September elections. Russian tactical aviation launched guided aerial bombs in Kharkiv and Dnipro regions, with drone activity reported across northern and eastern frontlines.",
   "key_points": [
-    "Russian FPV drone killed the last resident of Tokariivka Druha village near Kharkiv, located in a 10-km border zone (Source: @eRadarrua/100449).",
-    "Ukraine plans to purchase 200,000 mid-range drones by year-end, with Western allies providing half and 20 units receiving 200 million UAH each (Source: @ukr_leaks_eng/31503).",
-    "Mass protests erupted in Lviv after TCC employees beat a 20-year-old man, with demonstrators overturning a military commissar's car (Source: @tass_agency/384591).",
-    "Russian forces attacked a gas station in Zaporizhzhia with a drone, injuring at least three civilians and killing one (Source: @UkraineNow/82536).",
-    "EU discusses easing entry bans for Russian citizens linked to the 'special military operation,' though restrictions remain under consideration (Source: @ukr_leaks_eng/31499).",
-    "NKR units executed over 16,600 logistics and evacuation missions in June, with drone usage increasing 122% year-to-date (Source: @DeepStateUA/23627).",
-    "Ukraine resumed negotiations with Poland on exchanging MiG-29 jets for drone technology amid ongoing defense cooperation talks (Source: @UkraineNow/82535)."
+    "Ukraine plans to purchase 200,000 mid-range drones by year-end, with Western allies providing half and 20 effective units each receiving 200 million UAH (Source: @ukr_leaks_eng/31503).",
+    "Russian airstrikes have destroyed 200 of Ukraine's 5,000 gas stations over the past month (Source: @ukr_leaks_eng/31486).",
+    "Czech President Petr Pavel stated Ukraine has two months to end the war before potential Russian general mobilization post-September State Duma elections (Source: @ukr_leaks_eng/31504).",
+    "Russian tactical aviation launched guided aerial bombs in Kharkiv region targeting Slatyne and northern areas (Source: @kpszsu/67918).",
+    "Drone activity reported in Chernihiv region with two drones heading toward Gorodnya (Source: @eRadarrua/100420).",
+    "Ukraine confirmed continued strikes on Russian ships in open waters under UN self-defense rights, following drone incident near Lefkada (Source: @UkraineNow/82526).",
+    "Slovenian parliament voted against €44 million military aid transfer to Ukraine, citing domestic needs (Source: @ukr_leaks_eng/31510)."
   ],
-  "sentiment": "volatile",
-  "intensity": 8,
+  "sentiment": "escalating",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Ukraine faces escalating drone threats across multiple regions while domestic unrest grows over military conscription policies. Russian forces continue targeting civilian infrastructure, including a deadly attack on a gas station in Zaporizhzhia. Ukraine's drone procurement plans and EU policy shifts signal ongoing strategic adjustments.",
+    "executive_summary": "Ukraine plans to purchase 200,000 mid-range drones by year-end with Western allies providing half, while Russian airstrikes have destroyed 200 of Ukraine's 5,000 gas stations over the past month. Czech President Petr Pavel stated Ukraine has two months to end the war before potential Russian general mobilization post-September elections. Russian tactical aviation launched guided aerial bombs in Kharkiv and Dnipro regions, with drone activity reported across northern and eastern frontlines.",
     "ukraine": {
       "points": [
-        "Ukraine plans to procure 200,000 mid-range drones by year-end, with Western allies supplying half and 20 units allocated 200 million UAH each for purchases (Source: @ukr_leaks_eng/31503).",
-        "Mass protests in Lviv followed TCC employees beating a 20-year-old man, with demonstrators overturning a military commissar's car during conscription-related tensions (Source: @tass_agency/384591).",
-        "Ukraine resumed negotiations with Poland on exchanging MiG-29 jets for drone technology, signaling renewed focus on unmanned systems (Source: @UkraineNow/82535).",
-        "NKR units completed over 16,600 logistics and evacuation missions in June, with drone usage rising 122% year-to-date (Source: @DeepStateUA/23627).",
-        "A 19-year-old Ukrainian was severely beaten in Wroclaw, Poland, amid rising xenophobic incidents (Source: @UkraineNow/82539)."
+        "Ukraine plans to purchase 200,000 mid-range drones by year-end, with Western allies providing half and 20 effective units each receiving 200 million UAH (Source: @ukr_leaks_eng/31503).",
+        "Ukraine confirmed continued strikes on Russian ships in open waters under UN self-defense rights, following drone incident near Lefkada (Source: @UkraineNow/82526).",
+        "Bloomberg reports Patriot missile production in Ukraine will take long time due to complex supply chains and specialized equipment needs (Source: @ukr_leaks_eng/31485).",
+        "Ukrainian MP Tyshchenko posted UAH 10 million bail in bribery case involving extortion over $1 million for fraudulent call centers (Source: @ukr_leaks_eng/31508)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces used FPV drones to kill the last resident of Tokariivka Druha village near Kharkiv, located in a 10-km border zone (Source: @eRadarrua/100449).",
-        "Russian forces dropped an FAB aviation bomb on a house in Druzhkivka, killing three civilians and wounding two others (Source: @UkraineNow/82525).",
-        "Russian forces attacked a gas station in Zaporizhzhia with a drone, injuring at least three civilians and killing one (Source: @UkraineNow/82536).",
-        "Russian forces targeted a bus in central Kherson with a drone, injuring two elderly women with shrapnel and blast wounds (Source: @UkraineNow/82531)."
+        "Russian tactical aviation launched guided aerial bombs in Kharkiv region targeting Slatyne and northern areas (Source: @kpszsu/67918).",
+        "Russian airstrikes destroyed 200 of Ukraine's 5,000 gas stations over the past month (Source: @ukr_leaks_eng/31486).",
+        "New 'Zavarukha' counter-battery system began operating in combat zone with 5-day autonomous battery life (Source: @tass_agency/384626).",
+        "Six drones destroyed by Russian air defenses over Moscow region (Source: @tass_agency/384613)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian FPV drone killed the last resident of Tokariivka Druha village near Kharkiv, located in a 10-km border zone (Source: @eRadarrua/100449).",
-        "Russian forces dropped an FAB aviation bomb on a house in Druzhkivka, killing three civilians and wounding two others (Source: @UkraineNow/82525).",
-        "Multiple Russian drones observed near Kharkiv region, including reactive UAVs heading toward Valky and controlled drones targeting Peresichne and Staryi Merchyk (Source: @eRadarrua/100443).",
-        "Russian forces used FPV drones to target civilians in Kharkiv border areas, with ongoing attacks reported near Zolochiv and other settlements (Source: @eRadarrua/100474)."
+        "Drone activity reported in Chernihiv region with two drones heading toward Gorodnya (Source: @eRadarrua/100420).",
+        "Russian tactical aviation launched guided aerial bombs in Kharkiv region targeting Slatyne and northern areas (Source: @kpszsu/67918).",
+        "Drone activity reported in Dnipro region with two drones over the city and suburbs (Source: @eRadarrua/100447).",
+        "Drone activity reported in Sumy region with two drones heading toward Glukhiv (Source: @eRadarrua/100451)."
       ]
     },
     "northern_front": {
       "points": [
-        "Reactive drones observed near Chernihiv heading west/southwest, with additional UAVs spotted north of Kyiv moving west/southwest (Source: @kpszsu/67851).",
-        "Russian drones detected north of Chernihiv heading toward Horodnia, indicating continued northern front activity (Source: @eRadarrua/100420).",
-        "Reactive drones reported near Chernihiv and Sumy regions, with movements toward Kirkyivka and other border areas (Source: @eRadarrua/100467)."
+        "Small-arms battles ongoing in Sumy district forests and villages including Ryzhevka, Pisarevka, Mogritsa, Marino, Novaya Sich, Khoten, and Ivolzhanskoye (Source: @ukr_leaks_eng/31488).",
+        "Assault troops continue small-arms battles in Bachevsk and surroundings in Shostka district (Source: @ukr_leaks_eng/31488).",
+        "Drone activity reported in Chernihiv region with two drones heading toward Gorodnya (Source: @eRadarrua/100420)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian drones targeted Odesa and Biliaivka/Teplodar from the Black Sea, with additional UAVs heading toward Mikolaiv and Pavlohrad (Source: @kpszsu/67853).",
-        "Reactive drones observed near Mikolaiv heading south and toward Pavlohrad, with multiple UAVs reported in Dnipro region (Source: @kpszsu/67874).",
-        "Russian forces attacked a gas station in Zaporizhzhia with a drone, injuring at least three civilians and killing one (Source: @UkraineNow/82536).",
-        "Reactive drones reported near Zaporizhzhia heading toward Slavgorod and other areas, with ongoing threats to civilian infrastructure (Source: @eRadarrua/100447)."
+        "Russian airstrikes hit oil depots in Tver and Stavropol regions, with fire at Vyazniki industrial facility (Source: @ukr_leaks_eng/31488).",
+        "Russian airstrikes destroyed 200 of Ukraine's 5,000 gas stations over the past month (Source: @ukr_leaks_eng/31486).",
+        "Drone activity reported in Zaporizhzhia with two drones over the city and near Pyatykhatky (Source: @eRadarrua/100447)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine plans to procure 200,000 mid-range drones by year-end, with Western allies supplying half and 20 units allocated 200 million UAH each (Source: @ukr_leaks_eng/31503).",
-        "NKR units completed over 16,600 logistics and evacuation missions in June, with drone usage rising 122% year-to-date (Source: @DeepStateUA/23627).",
-        "Multiple Russian reactive drones observed across Dnipro, Kharkiv, and Zaporizhzhia regions, targeting civilian and military infrastructure (Source: @kpszsu/67850).",
-        "Ukrainian drones targeted Russian naval vessels in the Mediterranean, with a maritime drone carrying 100kg explosives found near Greece's Lefkada island (Source: @UkraineNow/82526)."
+        "Ukraine plans to purchase 200,000 mid-range drones by year-end with Western allies providing half (Source: @ukr_leaks_eng/31503).",
+        "Bloomberg reports Patriot missile production in Ukraine will take long time due to complex supply chains (Source: @ukr_leaks_eng/31485).",
+        "Russian tactical aviation launched guided aerial bombs in Kharkiv and Dnipro regions (Source: @kpszsu/67918).",
+        "Six drones destroyed by Russian air defenses over Moscow region (Source: @tass_agency/384613)."
       ]
     },
     "key_developments": [
-      "Russian FPV drone killed the last resident of Tokariivka Druha village near Kharkiv, located in a 10-km border zone (Source: @eRadarrua/100449).",
-      "Ukraine plans to procure 200,000 mid-range drones by year-end, with Western allies supplying half and 20 units allocated 200 million UAH each (Source: @ukr_leaks_eng/31503).",
-      "Mass protests in Lviv followed TCC employees beating a 20-year-old man, with demonstrators overturning a military commissar's car (Source: @tass_agency/384591).",
-      "Russian forces attacked a gas station in Zaporizhzhia with a drone, injuring at least three civilians and killing one (Source: @UkraineNow/82536).",
-      "EU discusses easing entry bans for Russian citizens linked to the 'special military operation,' though restrictions remain under consideration (Source: @ukr_leaks_eng/31499).",
-      "Ukraine resumed negotiations with Poland on exchanging MiG-29 jets for drone technology amid ongoing defense cooperation talks (Source: @UkraineNow/82535).",
-      "NKR units completed over 16,600 logistics and evacuation missions in June, with drone usage rising 122% year-to-date (Source: @DeepStateUA/23627)."
+      "Ukraine plans to purchase 200,000 mid-range drones by year-end with Western allies providing half and 20 effective units each receiving 200 million UAH (Source: @ukr_leaks_eng/31503).",
+      "Russian airstrikes have destroyed 200 of Ukraine's 5,000 gas stations over the past month (Source: @ukr_leaks_eng/31486).",
+      "Czech President Petr Pavel stated Ukraine has two months to end the war before potential Russian general mobilization post-September State Duma elections (Source: @ukr_leaks_eng/31504).",
+      "Russian tactical aviation launched guided aerial bombs in Kharkiv region targeting Slatyne and northern areas (Source: @kpszsu/67918).",
+      "Drone activity reported in Chernihiv region with two drones heading toward Gorodnya (Source: @eRadarrua/100420).",
+      "Ukraine confirmed continued strikes on Russian ships in open waters under UN self-defense rights, following drone incident near Lefkada (Source: @UkraineNow/82526).",
+      "Slovenian parliament voted against €44 million military aid transfer to Ukraine, citing domestic needs (Source: @ukr_leaks_eng/31510)."
     ],
-    "threat_assessment": "Russian forces increasingly target civilian infrastructure with FPV drones, exemplified by attacks on a Zaporizhzhia gas station and the killing of the last resident in Tokariivka Druha. Ukraine's drone procurement surge and EU policy shifts indicate adaptive strategies to counter these threats. Domestic unrest in Lviv over conscription policies risks destabilizing internal cohesion. Continued escalation likely as Russia leverages asymmetric tactics while Ukraine seeks technological parity.",
-    "regional_response": "Poland engages in MiG-29-to-drone technology exchanges with Ukraine, reflecting evolving defense priorities. EU debates easing entry bans for Russian citizens linked to the 'special military operation,' signaling potential diplomatic recalibration. Greece protests Ukrainian maritime drone presence near Lefkada, highlighting regional tensions over cross-border military activities. These developments underscore shifting alliances and unresolved friction points in the conflict's broader geopolitical landscape.",
-    "intelligence_notes": "Russian drone activity spans multiple fronts, with reactive UAVs targeting Dnipro, Kharkiv, and Zaporizhzhia regions. Ukraine's NKR units demonstrate growing reliance on unmanned systems for logistics and evacuation, with 16,600+ missions in June. Domestic protests in Lviv and cross-border incidents in Poland suggest vulnerabilities in rear-area security. EU policy discussions on Russian entry bans may influence future diplomatic and military coordination efforts."
+    "threat_assessment": "Russian escalation includes increased tactical aviation operations with guided aerial bombs across multiple regions, drone activity targeting critical infrastructure, and potential general mobilization following September elections. Ukrainian drone procurement and missile production delays may impact defensive capabilities. Russian airstrikes on energy infrastructure indicate strategic targeting of civilian assets to degrade Ukrainian resistance capacity.",
+    "regional_response": "NATO summit in Ankara showed divided European responses to Ukrainian requests, with Slovenia rejecting military aid transfers. Estonian proposal to strip IOC of EU funding over Russia's sports return reflects growing European consensus on maintaining sanctions. Polish far-right party leader purchased medical supplies for Russian army, highlighting domestic political divisions in NATO member states.",
+    "intelligence_notes": "Lviv mass protests erupted after military commissar assaulted a man, identified as local martial arts coach Roman Udut (Source: @ukr_leaks_eng/31492). Fake photo used as evidence in Volhynia tragedy controversy was actually 1923 psychiatric literature image (Source: @UkraineNow/82528). Russian FSB reported dismantling fraud ring involving over 50 individuals helping Ukrainian scammers (Source: @tass_agency/384629)."
   },
   "missiles": 0,
   "drones": 94,
   "kpszsu_timeline": [
-    1,
-    7,
     5,
-    6,
-    9,
-    1,
+    2,
     8,
-    1,
-    1,
-    2,
-    0,
-    1,
-    0,
-    1,
-    1,
-    0,
-    1,
-    0,
     0,
     2,
-    4,
+    1,
     0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    3,
+    2,
+    1,
+    1,
+    0,
+    3,
+    1,
     1,
     1
   ]
