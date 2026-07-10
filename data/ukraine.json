@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-10T21:15:48.577768+00:00",
-  "message_count": 250,
+  "updated_at": "2026-07-10T23:09:46.256222+00:00",
+  "message_count": 244,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,77 +13,93 @@
   ],
   "red_alerts": 137,
   "red_alerts_timeline": [
-    23,
     0,
     0,
     0,
     0,
     0,
     0,
-    0,
-    11,
-    0,
-    11,
-    11,
+    14,
     0,
     0,
-    11,
+    27,
     0,
-    23,
-    11,
-    11,
     0,
-    11,
-    11,
+    14,
+    0,
+    27,
+    14,
+    14,
+    0,
+    14,
+    14,
+    0,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    12,
+    5,
+    8,
     5,
     6,
-    7,
-    7,
-    4,
-    11,
+    8,
     14,
-    13,
-    17,
+    14,
     16,
+    15,
+    21,
     19,
-    20,
-    14,
-    11,
+    13,
+    13,
     9,
     9,
-    16,
+    15,
     13,
     6,
     8,
     7,
-    3,
-    2
+    4,
+    2,
+    9,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 38,
-    "@kpszsu": 24,
-    "@mon1tor_ua": 6,
+    "@eRadarrua": 35,
+    "@kpszsu": 23,
+    "@mon1tor_ua": 10,
     "@UkraineNow": 21,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 134
+    "@tass_agency": 128
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/100566",
-    "kpszsu": "https://t.me/kpszsu/67969",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68836",
+    "kpszsu": "https://t.me/kpszsu/67973",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68844",
     "UkraineNow": "https://t.me/UkraineNow/82560",
     "DeepStateUA": "https://t.me/DeepStateUA/23630",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31540",
-    "tass_agency": "https://t.me/tass_agency/384749"
+    "tass_agency": "https://t.me/tass_agency/384760"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/82544",
+    "kpszsu": "https://t.me/kpszsu/67922",
+    "tass_agency": "https://t.me/tass_agency/384728"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/384757",
+      "post_id": 384757,
+      "channel": "tass_agency",
+      "ts": "2026-07-10T21:29:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384750",
+      "post_id": 384750,
+      "channel": "tass_agency",
+      "ts": "2026-07-10T21:22:27+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/100566",
       "post_id": 100566,
@@ -197,18 +213,6 @@
       "post_id": 384731,
       "channel": "tass_agency",
       "ts": "2026-07-10T14:44:11+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31533",
-      "post_id": 31533,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-10T14:35:23+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384729",
-      "post_id": 384729,
-      "channel": "tass_agency",
-      "ts": "2026-07-10T14:31:09+00:00"
     }
   ],
   "post_images": {
@@ -226,112 +230,107 @@
     "eRadarrua/100489": "data/media/eRadarrua_100490.jpg",
     "eRadarrua/100493": "data/media/eRadarrua_100493.jpg",
     "eRadarrua/100492": "data/media/eRadarrua_100493.jpg",
-    "eRadarrua/100480": "data/media/eRadarrua_100480.jpg",
-    "eRadarrua/100479": "data/media/eRadarrua_100480.jpg",
     "eRadarrua/100484": "data/media/eRadarrua_100484.jpg",
     "eRadarrua/100483": "data/media/eRadarrua_100484.jpg",
     "kpszsu/67924": "data/media/kpszsu_67924.jpg",
     "kpszsu/67922": "data/media/kpszsu_67924.jpg"
   },
-  "summary": "Russian forces conducted multiple attacks on Zaporizhzhia and Kramatorsk using KABs, resulting in civilian casualties and infrastructure damage. The EU approved Ukraine's purchase of UK weapons under its military financing program. Ukrainian forces reported destroying 48 Russian naval targets in five days, including tankers and support vessels. Russian advances were noted near Minykivka and Bochkovo, with increased drone activity across northern and eastern Ukraine. Evacuation orders were issued for additional settlements in Dnipropetrovsk region. Germany initiated serial production of Gereon combat robots for Ukraine. Russian threats included potential Iskander-M missile launches from Taganrog.",
+  "summary": "Russian forces conducted drone strikes on Ukrainian infrastructure, including the Ilisky Oil Refinery and Dnepropetrovsk region. Ukrainian forces targeted Russian gas stations and military positions. Operational intensity remains high with ongoing frontline engagements.",
   "key_points": [
-    "Russian forces attacked Zaporizhzhia and Kramatorsk with KABs, killing civilians and damaging residential buildings (Source: UkraineNow/82555).",
-    "EU approved Ukraine's purchase of UK weapons under military financing program, bypassing 'buy European' clause if unavailable (Source: ukr_leaks_eng/31532).",
-    "Ukrainian forces destroyed 48 Russian naval targets in five days, including 10 tankers and a tugboat (Source: UkraineNow/82544).",
-    "Russian advances reported near Minykivka and Bochkovo, with active frontline movements (Source: DeepStateUA/23630).",
-    "Evacuation orders issued for Vasylkovka and Vyshetarasovka in Dnipropetrovsk region, affecting over 6,500 residents (Source: UkraineNow/82549).",
-    "German Ulm plant began serial production of Gereon unmanned ground systems for Ukraine (Source: ukr_leaks_eng/31538).",
-    "Russian drone activity detected in northern Ukraine, targeting Chernihiv and Sumy regions (Source: kpszsu/67935).",
-    "Threat of Iskander-M missile launches from Taganrog, Rostov region, reported (Source: mon1tor_ua/68834)."
+    "Russian drones struck Ilisky Oil Refinery and Dnepropetrovsk region, causing fires and evacuations (Source: @UkraineNow/82544)",
+    "Ukrainian forces hit Russian gas stations in Bryansk and Sumy regions with drone strikes (Source: @kpszsu/67922)",
+    "Russian airstrikes killed four civilians in Kramatorsk, including a 14-year-old boy and his sister (Source: @UkraineNow/82555)",
+    "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)",
+    "Ukrainian ammunition depot in residential area triggered explosion in Pavlograd (Source: @tass_agency/384749)",
+    "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+    "Ukrainian intelligence reported Russian-Iranian military cooperation including Starlink countermeasures (Source: @UkraineNow/82553)"
   ],
-  "sentiment": "active",
-  "intensity": 7,
+  "sentiment": "volatile",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted multiple attacks on Zaporizhzhia and Kramatorsk using KABs, resulting in civilian casualties and infrastructure damage. The EU approved Ukraine's purchase of UK weapons under its military financing program. Ukrainian forces reported destroying 48 Russian naval targets in five days, including tankers and support vessels. Russian advances were noted near Minykivka and Bochkovo, with increased drone activity across northern and eastern Ukraine. Evacuation orders were issued for additional settlements in Dnipropetrovsk region. Germany initiated serial production of Gereon combat robots for Ukraine. Russian threats included potential Iskander-M missile launches from Taganrog.",
+    "executive_summary": "Russian forces targeted Ukrainian energy infrastructure with drone strikes, while Ukrainian forces retaliated against Russian gas stations. Civilian casualties reported in Kramatorsk. Operational tempo remains high with frontline engagements.",
     "ukraine": {
       "points": [
-        "Evacuation orders issued for Vasylkovka (Sinelnyky district) and Vyshetarasovka (Nikopol district) in Dnipropetrovsk region, requiring adult residents to leave due to security risks (Source: UkraineNow/82549).",
-        "German Ulm plant launched serial production of Gereon unmanned ground systems under DEUTZ and ARX Robotics partnership (Source: ukr_leaks_eng/31538).",
-        "National Bank introduced 2,000-hryvnia banknote featuring poet Vasyl Stus, entering circulation on September 4 (Source: UkraineNow/82548).",
-        "Russian attacks on Zaporizhzhia destroyed residential and non-residential buildings, killing one and injuring four, including a child (Source: UkraineNow/82551).",
-        "Russian forces attacked critical infrastructure in Krivoy Rog, causing massive fires reported by local residents (Source: ukr_leaks_eng/31539).",
-        "Russian forces began destroying gas stations in Kyiv region, escalating infrastructure threats (Source: ukr_leaks_eng/31523).",
-        "TCC units detained riot participants in Lviv, including a serviceman who left his unit without permission (Source: ukr_leaks_eng/31514)."
+        "Ukrainian forces struck Russian gas stations in Bryansk and Sumy regions with drone attacks (Source: @kpszsu/67922)",
+        "Russian airstrikes killed four civilians in Kramatorsk, including a 14-year-old boy and his sister (Source: @UkraineNow/82555)",
+        "Ukrainian ammunition depot in residential area triggered explosion in Pavlograd (Source: @tass_agency/384749)",
+        "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)",
+        "Ukrainian forces engaged in infantry fighting near Bachivsk (Source: @UkraineNow/82543)",
+        "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+        "Ukrainian intelligence reported Russian-Iranian military cooperation including Starlink countermeasures (Source: @UkraineNow/82553)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces advanced near Minykivka and Bochkovo, with active frontline movements reported (Source: DeepStateUA/23630).",
-        "Russian drone activity detected in northern Ukraine, targeting Chernihiv and Sumy regions (Source: kpszsu/67935).",
-        "Russian attacks on Zaporizhzhia and Kramatorsk resulted in civilian casualties, including a 14-year-old boy and his 18-year-old sister (Source: UkraineNow/82555).",
-        "Russian forces targeted gas stations in Kyiv region, destroying infrastructure (Source: ukr_leaks_eng/31523).",
-        "Russian threats included potential Iskander-M missile launches from Taganrog, Rostov region (Source: mon1tor_ua/68834).",
-        "Russian advances in Donetsk and Luhansk regions continued, with plans to expand operations in Dnipropetrovsk and Zaporizhzhia (Source: UkraineNow/82543).",
-        "Russian forces destroyed gas stations in Kyiv region, escalating infrastructure threats (Source: ukr_leaks_eng/31523)."
+        "Russian drones struck Ilisky Oil Refinery and Dnepropetrovsk region, causing fires and evacuations (Source: @UkraineNow/82544)",
+        "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)",
+        "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+        "Russian airstrikes killed four civilians in Kramatorsk (Source: @UkraineNow/82555)",
+        "Russian forces conducted drone strikes on Ukrainian gas stations (Source: @kpszsu/67922)",
+        "Russian military reported 32,000+ combat losses (Source: @UkraineNow/82543)",
+        "Russian forces preparing for prolonged conflict with Western allies (Source: @UkraineNow/82553)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advanced near Minykivka and Bochkovo, with active frontline movements (Source: DeepStateUA/23630).",
-        "Ukrainian forces reported destroying 48 Russian naval targets in five days, including 10 tankers and a tugboat (Source: UkraineNow/82544).",
-        "Russian drone activity detected in Donetsk and Luhansk regions, targeting infrastructure (Source: UkraineNow/82551).",
-        "Russian advances in Donetsk and Luhansk regions continued, with plans to expand operations in Dnipropetrovsk and Zaporizhzhia (Source: UkraineNow/82543).",
-        "Russian forces attacked critical infrastructure in Krivoy Rog, causing massive fires (Source: ukr_leaks_eng/31539).",
-        "Evacuation orders issued for Vasylkovka and Vyshetarasovka in Dnipropetrovsk region (Source: UkraineNow/82549).",
-        "Russian attacks on Zaporizhzhia destroyed residential and non-residential buildings (Source: UkraineNow/82551)."
+        "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+        "Ukrainian forces engaged in infantry fighting near Bachivsk (Source: @UkraineNow/82543)",
+        "Russian military reported 32,000+ combat losses (Source: @UkraineNow/82543)",
+        "Russian forces preparing for prolonged conflict with Western allies (Source: @UkraineNow/82553)",
+        "Russian drones struck Ilisky Oil Refinery and Dnepropetrovsk region (Source: @UkraineNow/82544)",
+        "Ukrainian ammunition depot in residential area triggered explosion in Pavlograd (Source: @tass_agency/384749)",
+        "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)"
       ]
     },
     "northern_front": {
       "points": [
-        "Russian drone activity detected in northern Ukraine, targeting Chernihiv and Sumy regions (Source: kpszsu/67935).",
-        "Russian forces advanced near Minykivka and Bochkovo, with active frontline movements (Source: DeepStateUA/23630).",
-        "Russian drone activity reported in Sumy region, targeting Gutti and Bogodukhiv (Source: eRadarrua/100540).",
-        "Russian forces advanced near Shostka in Sumy region (Source: kpszsu/67908).",
-        "Russian drone activity in Chernihiv region, targeting Slavutych and Chernihiv outskirts (Source: eRadarrua/100547).",
-        "Russian advances in northern Ukraine included movements toward Poltava region (Source: mon1tor_ua/68828).",
-        "Russian drone activity in Kyiv region, targeting gas stations (Source: ukr_leaks_eng/31523)."
+        "Russian drones struck Leningrad region, downing 30+ (Source: @tass_agency/384742)",
+        "Russian forces conducted drone strikes on Ukrainian gas stations (Source: @kpszsu/67922)",
+        "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)",
+        "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+        "Ukrainian forces engaged in infantry fighting near Bachivsk (Source: @UkraineNow/82543)",
+        "Russian military reported 32,000+ combat losses (Source: @UkraineNow/82543)",
+        "Russian forces preparing for prolonged conflict with Western allies (Source: @UkraineNow/82553)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian attacks on Zaporizhzhia destroyed residential and non-residential buildings, killing one and injuring four (Source: UkraineNow/82551).",
-        "Russian forces attacked Kherson region with KABs, damaging port infrastructure (Source: UkraineNow/82558).",
-        "Russian drone activity detected in Kherson region, targeting Nova Mayachka (Source: eRadarrua/100540).",
-        "Russian advances in Zaporizhzhia and Dnipropetrovsk regions continued, with plans to expand operations (Source: UkraineNow/82543).",
-        "Russian forces targeted gas stations in Kyiv region, escalating infrastructure threats (Source: ukr_leaks_eng/31523).",
-        "Russian attacks on Zaporizhzhia and Kramatorsk resulted in civilian casualties (Source: UkraineNow/82555).",
-        "Russian forces attacked critical infrastructure in Krivoy Rog, causing massive fires (Source: ukr_leaks_eng/31539)."
+        "Russian drones struck Ilisky Oil Refinery and Dnepropetrovsk region (Source: @UkraineNow/82544)",
+        "Ukrainian forces struck Russian gas stations in Bryansk and Sumy regions (Source: @kpszsu/67922)",
+        "Russian airstrikes killed four civilians in Kramatorsk (Source: @UkraineNow/82555)",
+        "Ukrainian ammunition depot in residential area triggered explosion in Pavlograd (Source: @tass_agency/384749)",
+        "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)",
+        "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+        "Ukrainian intelligence reported Russian-Iranian military cooperation including Starlink countermeasures (Source: @UkraineNow/82553)"
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation activity reported in southern-southeastern direction, threatening frontline regions (Source: kpszsu/67928).",
-        "Russian drone groups detected in Black Sea, targeting Odesa region (Source: kpszsu/67967).",
-        "Russian drone activity in northern Ukraine, targeting Chernihiv and Sumy regions (Source: kpszsu/67935).",
-        "Russian drone activity in Kherson region, targeting Nova Mayachka (Source: eRadarrua/100540).",
-        "Russian drone activity in Kyiv region, targeting gas stations (Source: ukr_leaks_eng/31523).",
-        "Russian drone activity in Donetsk region, targeting Zaporizhzhia (Source: kpszsu/67907).",
-        "Russian drone activity in Sumy region, targeting Gutti and Bogodukhiv (Source: eRadarrua/100540)."
+        "Russian drones struck Ilisky Oil Refinery and Dnepropetrovsk region (Source: @UkraineNow/82544)",
+        "Ukrainian forces struck Russian gas stations in Bryansk and Sumy regions (Source: @kpszsu/67922)",
+        "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)",
+        "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+        "Ukrainian forces engaged in infantry fighting near Bachivsk (Source: @UkraineNow/82543)",
+        "Russian military reported 32,000+ combat losses (Source: @UkraineNow/82543)",
+        "Russian forces preparing for prolonged conflict with Western allies (Source: @UkraineNow/82553)"
       ]
     },
     "key_developments": [
-      "Russian forces attacked Zaporizhzhia and Kramatorsk with KABs, killing civilians and damaging infrastructure (Source: UkraineNow/82555).",
-      "EU approved Ukraine's purchase of UK weapons under military financing program, bypassing 'buy European' clause if unavailable (Source: ukr_leaks_eng/31532).",
-      "Ukrainian forces destroyed 48 Russian naval targets in five days, including 10 tankers and a tugboat (Source: UkraineNow/82544).",
-      "Russian advances reported near Minykivka and Bochkovo, with active frontline movements (Source: DeepStateUA/23630).",
-      "Evacuation orders issued for Vasylkovka and Vyshetarasovka in Dnipropetrovsk region, affecting over 6,500 residents (Source: UkraineNow/82549).",
-      "German Ulm plant launched serial production of Gereon unmanned ground systems for Ukraine (Source: ukr_leaks_eng/31538).",
-      "Threat of Iskander-M missile launches from Taganrog, Rostov region, reported (Source: mon1tor_ua/68834)."
+      "Russian drones struck Ilisky Oil Refinery and Dnepropetrovsk region, causing fires and evacuations (Source: @UkraineNow/82544)",
+      "Ukrainian forces struck Russian gas stations in Bryansk and Sumy regions with drone attacks (Source: @kpszsu/67922)",
+      "Russian airstrikes killed four civilians in Kramatorsk, including a 14-year-old boy and his sister (Source: @UkraineNow/82555)",
+      "Ukrainian ammunition depot in residential area triggered explosion in Pavlograd (Source: @tass_agency/384749)",
+      "Russian military reported 400+ Ukrainian drone attacks on Zaporizhzhia NPP since March (Source: @tass_agency/384728)",
+      "Russian forces advanced near Bachivsk despite reduced attack directions (Source: @UkraineNow/82543)",
+      "Ukrainian intelligence reported Russian-Iranian military cooperation including Starlink countermeasures (Source: @UkraineNow/82553)"
     ],
-    "threat_assessment": "Russian forces continue to escalate attacks on civilian infrastructure in Zaporizhzhia and Kramatorsk, using KABs to target residential areas. Increased drone activity across northern and eastern Ukraine suggests expanded reconnaissance and strike capabilities. The potential use of Iskander-M missiles from Taganrog poses a significant threat to southern regions. Ukrainian forces' naval successes indicate effective countermeasures against Russian logistics. Evacuation orders in Dnipropetrovsk region highlight ongoing security risks. German combat robot production signals Western military support escalation.",
-    "regional_response": "The EU's approval of UK weapons purchases for Ukraine demonstrates continued Western military backing despite supply constraints. Kazakhstan's border security measures, including 59 police posts and fuel smuggling checks, reflect regional efforts to counter Russian logistical vulnerabilities. German unmanned ground system production highlights industrial mobilization for Ukraine. Russian diplomatic activities in Burundi and Congo suggest attempts to expand influence amid military setbacks. Evacuation orders in Dnipropetrovsk region indicate Ukrainian administrative responses to security threats.",
-    "intelligence_notes": "Russian naval losses (48 targets in five days) suggest Ukrainian naval dominance in Black Sea operations. German Gereon robot production indicates Western technological support for Ukraine's ground operations. Russian drone activity patterns in northern Ukraine may reveal targeting priorities for infrastructure. Evacuation orders in Dnipropetrovsk region signal potential escalation in southern front operations. Iskander-M missile threats from Taganrog require enhanced air defense preparedness."
+    "threat_assessment": "Russian forces maintain multi-front pressure with intensified drone warfare targeting Ukrainian energy infrastructure. Ukrainian counterstrikes against Russian logistics threaten supply chains. Civilian casualties from aerial attacks underscore escalating humanitarian costs. Russian military's reported 32,000+ losses suggest unsustainable attrition rates.",
+    "regional_response": "Ukrainian forces continue precision strikes on Russian energy infrastructure while maintaining frontline engagements. Russian military escalates aerial campaigns despite Western sanctions. International actors monitor developments with growing concern over potential spillover effects.",
+    "intelligence_notes": "Russian-Iranian military collaboration appears operational, with Iran providing drone technology and countermeasures against Starlink. Ukrainian intelligence highlights critical vulnerabilities in Russian logistics networks. Frontline dynamics suggest Russian forces prioritize incremental gains over breakthrough objectives despite numerical superiority."
   },
   "missiles": 0,
   "drones": 137,
   "kpszsu_timeline": [
-    1,
-    1,
     2,
     1,
     1,
@@ -339,7 +338,7 @@
     1,
     1,
     0,
-    4,
+    3,
     3,
     2,
     0,
@@ -349,10 +348,12 @@
     0,
     3,
     0,
-    1,
     0,
     1,
+    1,
     0,
+    0,
+    2,
     0
   ]
 }
