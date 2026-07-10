@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-10T17:59:17.245725+00:00",
-  "message_count": 270,
+  "updated_at": "2026-07-10T19:48:29.431915+00:00",
+  "message_count": 264,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 137,
   "red_alerts_timeline": [
-    10,
-    0,
     20,
     20,
     0,
@@ -30,66 +28,88 @@
     20,
     0,
     0,
-    10,
     0,
     10,
-    20,
+    10,
+    10,
+    10,
+    10,
     10,
     0,
     10
   ],
   "combined_activity_timeline": [
-    10,
-    10,
     8,
     15,
-    6,
-    6,
-    8,
-    6,
+    7,
     4,
-    8,
-    13,
+    9,
+    7,
+    4,
+    6,
     16,
-    10,
-    19,
-    22,
+    12,
+    12,
+    18,
     20,
+    22,
     14,
     12,
-    9,
+    10,
     8,
     16,
-    15,
-    6,
-    9
+    13,
+    8,
+    10,
+    7,
+    4
   ],
   "messages_by_channel": {
-    "@eRadarrua": 43,
-    "@kpszsu": 29,
+    "@eRadarrua": 41,
+    "@kpszsu": 26,
     "@mon1tor_ua": 8,
-    "@UkraineNow": 20,
+    "@UkraineNow": 21,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 142
+    "@tass_agency": 140
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/100551",
-    "kpszsu": "https://t.me/kpszsu/67966",
+    "eRadarrua": "https://t.me/eRadarrua/100561",
+    "kpszsu": "https://t.me/kpszsu/67968",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68836",
-    "UkraineNow": "https://t.me/UkraineNow/82557",
+    "UkraineNow": "https://t.me/UkraineNow/82560",
     "DeepStateUA": "https://t.me/DeepStateUA/23630",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31540",
-    "tass_agency": "https://t.me/tass_agency/384743"
+    "tass_agency": "https://t.me/tass_agency/384747"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82540",
-    "kpszsu": "https://t.me/kpszsu/67926",
-    "eRadarrua": "https://t.me/eRadarrua/100540",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31534",
-    "DeepStateUA": "https://t.me/DeepStateUA/23628"
+    "UkraineNow": "https://t.me/UkraineNow/82556",
+    "tass_agency": "https://t.me/tass_agency/384743",
+    "kpszsu": "https://t.me/kpszsu/67918",
+    "eRadarrua": "https://t.me/eRadarrua/100530",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31516"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/82560",
+      "post_id": 82560,
+      "channel": "UkraineNow",
+      "ts": "2026-07-10T19:31:41+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/100556",
+      "post_id": 100556,
+      "channel": "eRadarrua",
+      "ts": "2026-07-10T18:46:21+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/frzpJ41yuVNkniCyRVdp990RCz9fe2i4KfsG7GnpGaJdojIaP4blnJTMTs_dVIGoHf3v8J13U0_1rZtOfUwtQoIdcQEySmUY8XYFuUDfSTWteFatY5IvJws0PijCY3wpXQEKAa6KMkUhMfzIzCoN2Ulky2UeRrTDq421IEs0JCTHitWZ-t1NpT28aY1rhbADJadrZ_l95vp053yyw-axF-HtvJnq2wYH1BJR55tiIdcNiK6DQBxBlGYGBQ1PCv6rbCh4JNUbtrShhJ2R2FETlJ8CgOZSum0iJDdYosnyoY3AhbaQqDTIRqPkXjJ628_ItaL5zWC_JsDnhH-tQyXpJQ.jpg",
+      "companion_text_id": 100557
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384744",
+      "post_id": 384744,
+      "channel": "tass_agency",
+      "ts": "2026-07-10T18:00:01+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/100548",
       "post_id": 100548,
@@ -193,149 +213,134 @@
       "post_id": 384728,
       "channel": "tass_agency",
       "ts": "2026-07-10T14:31:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384727",
-      "post_id": 384727,
-      "channel": "tass_agency",
-      "ts": "2026-07-10T14:02:33+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384725",
-      "post_id": 384725,
-      "channel": "tass_agency",
-      "ts": "2026-07-10T13:41:45+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31530",
-      "post_id": 31530,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-10T13:01:57+00:00"
     }
   ],
   "post_images": {
     "eRadarrua/100548": "data/media/eRadarrua_100548.jpg",
     "eRadarrua/100547": "data/media/eRadarrua_100548.jpg",
-    "eRadarrua/100513": "data/media/eRadarrua_100513.jpg",
-    "eRadarrua/100511": "data/media/eRadarrua_100513.jpg",
+    "eRadarrua/100556": "data/media/eRadarrua_100556.jpg",
+    "eRadarrua/100557": "data/media/eRadarrua_100556.jpg",
     "eRadarrua/100522": "data/media/eRadarrua_100522.jpg",
     "eRadarrua/100521": "data/media/eRadarrua_100522.jpg",
-    "eRadarrua/100493": "data/media/eRadarrua_100493.jpg",
-    "eRadarrua/100492": "data/media/eRadarrua_100493.jpg",
-    "eRadarrua/100473": "data/media/eRadarrua_100473.jpg",
-    "eRadarrua/100474": "data/media/eRadarrua_100473.jpg",
-    "eRadarrua/100480": "data/media/eRadarrua_100480.jpg",
-    "eRadarrua/100479": "data/media/eRadarrua_100480.jpg",
+    "eRadarrua/100513": "data/media/eRadarrua_100513.jpg",
+    "eRadarrua/100511": "data/media/eRadarrua_100513.jpg",
     "eRadarrua/100484": "data/media/eRadarrua_100484.jpg",
     "eRadarrua/100483": "data/media/eRadarrua_100484.jpg",
     "eRadarrua/100490": "data/media/eRadarrua_100490.jpg",
     "eRadarrua/100489": "data/media/eRadarrua_100490.jpg",
-    "eRadarrua/100453": "data/media/eRadarrua_100453.jpg",
-    "eRadarrua/100451": "data/media/eRadarrua_100453.jpg",
-    "eRadarrua/100464": "data/media/eRadarrua_100464.jpg",
-    "eRadarrua/100466": "data/media/eRadarrua_100464.jpg",
+    "eRadarrua/100493": "data/media/eRadarrua_100493.jpg",
+    "eRadarrua/100492": "data/media/eRadarrua_100493.jpg",
     "eRadarrua/100468": "data/media/eRadarrua_100468.jpg",
-    "eRadarrua/100467": "data/media/eRadarrua_100468.jpg",
+    "eRadarrua/100469": "data/media/eRadarrua_100468.jpg",
+    "eRadarrua/100473": "data/media/eRadarrua_100473.jpg",
+    "eRadarrua/100474": "data/media/eRadarrua_100473.jpg",
+    "eRadarrua/100480": "data/media/eRadarrua_100480.jpg",
+    "eRadarrua/100479": "data/media/eRadarrua_100480.jpg",
     "kpszsu/67924": "data/media/kpszsu_67924.jpg",
     "kpszsu/67922": "data/media/kpszsu_67924.jpg"
   },
-  "summary": "Russian forces suffered significant losses with 14 tanks and 114 drones destroyed in recent attacks. Ukrainian forces reported intensified drone strikes across multiple fronts. Civilian evacuations and infrastructure attacks highlight ongoing operational pressures.",
+  "summary": "Ukrainian GUR and SBS executed a deep strike destroying the Ilski Oil Refinery in Krasnodar region, a major fuel supplier for Russian forces in occupied Ukraine. Russian air defenses intercepted 144 Ukrainian UAVs over Russian territory while cruise missiles struck Odesa port infrastructure and guided aerial bombs hit central Zaporizhzhia causing civilian casualties. Frontline infantry fighting continues across Sumy, Kharkiv, Kupyansk, Slavyansk, and Dnipropetrovsk directions with Russian \"North\" and \"East\" Groups conducting assaults and Ukrainian forces consolidating positions.",
   "key_points": [
-    "14 Russian tanks and 114 drones destroyed in overnight attacks (Source: @UkraineNow/82540, @kpszsu/67926)",
-    "BPLAs targeting Sumy, Kharkiv, and Dnipropetrovsk regions (Source: @kpszsu/67931, @eRadarrua/100540)",
-    "Evacuation orders for 6,500+ civilians in Dnipropetrovsk settlements (Source: @UkraineNow/82549, @ukr_leaks_eng/31534)",
-    "Russian attacks on Zaporizhzhia infrastructure caused casualties (Source: @UkraineNow/82550)",
-    "BPLAs launched from Black Sea towards Odesa and Mykolaiv regions (Source: @kpszsu/67938)",
-    "Ukrainian military reported 32,000+ monthly combat losses (Source: @UkraineNow/82543)",
-    "New 2000 UAH banknote featuring Vasyl Stus to enter circulation (Source: @UkraineNow/82548)"
+    "Ukrainian GUR and SBS conducted a deep strike on the Ilski Oil Refinery in Krasnodar region, a key fuel supplier for Russian occupation forces. (Source: @UkraineNow/82556)",
+    "Russian air defenses shot down 144 Ukrainian UAVs over Russian regions in a single day, according to the Russian Ministry of Defense. (Source: @tass_agency/384743)",
+    "Russian cruise missiles struck Odesa port infrastructure, causing fires and one civilian death. (Source: @UkraineNow/82558)",
+    "Russian guided aerial bombs hit central Zaporizhzhia, destroying residential buildings, killing one and wounding at least four including a child. (Source: @UkraineNow/82551)",
+    "Commander-in-Chief Syrsky reported Russian offensive directions reduced from 13 to 6-7, with average monthly losses of approximately 32,000 killed and wounded. (Source: @UkraineNow/82543)",
+    "The UN documented at least 265 civilian deaths and 1,816 injuries in June, the highest monthly toll since the early invasion phase. (Source: @UkraineNow/82545)",
+    "SBU claimed destruction of 14 Russian tankers overnight, totaling 49 targets eliminated in recent days. (Source: @UkraineNow/82540)",
+    "Zelensky established United Rapid Response Forces under General Dmytro Voloshyn and a Long-Range Strike Command to degrade Russian war potential. (Source: @UkraineNow/82557)"
   ],
-  "sentiment": "escalating",
-  "intensity": 9,
+  "sentiment": "active",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian military suffered 14 tank and 114 drone losses in recent strikes. Ukrainian forces reported intensified BPLAs across multiple fronts. Civilian evacuations and infrastructure attacks underscore operational escalation.",
+    "executive_summary": "Ukraine's deep strike on the Ilski Oil Refinery demonstrates expanding long-range strike capacity against Russian strategic energy infrastructure. Russia responded with massive drone waves and precision strikes on Ukrainian port and urban centers, while frontline grinding continues across multiple axes with high attrition. Ukrainian command restructuring signals preparation for sustained high-tempo operations.",
     "ukraine": {
       "points": [
-        "BPLAs launched from Black Sea targeted Odesa and Mykolaiv regions (Source: @kpszsu/67938)",
-        "14 Russian tanks destroyed in overnight attacks (Source: @UkraineNow/82540)",
-        "6,500+ civilians ordered to evacuate Dnipropetrovsk settlements (Source: @UkraineNow/82549)",
-        "Zaporizhzhia infrastructure attack caused 1 death and 4 injuries (Source: @UkraineNow/82550)",
-        "BPLAs targeting Synevlianske and Kryvyi Rog (Source: @kpszsu/67957, @eRadarrua/100530)",
-        "32,000+ monthly Russian combat losses reported (Source: @UkraineNow/82543)",
-        "New 2000 UAH banknote featuring Vasyl Stus to enter circulation (Source: @UkraineNow/82548)"
+        "GUR and SBS jointly executed a deep strike operation on the night of July 10, 2026, successfully hitting the Ilski Oil Refinery in Krasnodar region, one of the largest refineries in southern Russia that supplies fuel to Russian forces on temporarily occupied Ukrainian territories. (Source: @UkraineNow/82556)",
+        "President Zelensky signed decrees creating the United Rapid Response Forces combining assault, drone, and artillery units under Brigadier General Dmytro Voloshyn, commander of the 8th DSU Corps, and a separate Long-Range Strike Command tasked with degrading Russian war potential. (Source: @UkraineNow/82557)",
+        "SBU reported destruction of 14 Russian tankers overnight, bringing total eliminated targets to 49 over several days, indicating sustained campaign against Russian logistics and energy infrastructure. (Source: @UkraineNow/82540)",
+        "Ukrainian air defense units tracked and engaged multiple Russian UAV groups: jet-powered drones approached Kharkiv from the north, targeted Synelnykove and Kryvyi Rih in Dnipropetrovsk region, while groups from the Black Sea threatened Odesa region and Chernihiv region faced drones from the north. (Source: @kpszsu/67918, @kpszsu/67907, @kpszsu/67955, @kpszsu/67936, @eRadarrua/100530, @eRadarrua/100547, @eRadarrua/100511, @kpszsu/67922, @kpszsu/67940)",
+        "Internal tensions persist as TCC (Territorial Recruitment Center) confrontations escalate: in Lviv protesters overturned a commissar's car and were forced to chant \"Glory to the TCC\"; near Kyiv a truck driver was doused with gasoline and pulled from his cab in underwear; Korchinsky called for arming TCC personnel with shoot-on-sight orders. (Source: @ukr_leaks_eng/31516, @ukr_leaks_eng/31513, @ukr_leaks_eng/31534)"
       ]
     },
     "russia": {
       "points": [
-        "59 police posts deployed on Kazakhstan-Russia border to intercept illegal fuel (Source: @UkraineNow/82541)",
-        "BPLAs launched from Orel, Bryansk, and other regions (Source: @kpszsu/67924)",
-        "BPLAs targeting Kryvyi Rog infrastructure (Source: @ukr_leaks_eng/31537)",
-        "BPLAs launched from Chornomorsk towards Odessa (Source: @kpszsu/67938)",
-        "BPLAs targeting Sumy and Kharkiv regions (Source: @kpszsu/67931)",
-        "BPLAs launched from Kursk towards Sumy (Source: @eRadarrua/100492)",
-        "BPLAs targeting Kryvyi Rog and Zaporizhzhia (Source: @kpszsu/67914)"
+        "Russian Ministry of Defense claimed 144 Ukrainian UAVs were shot down over Russian regions during the day, indicating a massive Ukrainian drone wave targeting rear areas. (Source: @tass_agency/384743)",
+        "Russian forces launched cruise missiles at Odesa region striking port infrastructure, causing fires that were localized by rescuers, with one confirmed civilian fatality. (Source: @UkraineNow/82558)",
+        "Russian aviation dropped guided aerial bombs (KABs) on central Zaporizhzhia, destroying residential and non-residential buildings, prompting evacuation of high-rise residents, killing one civilian and wounding at least four including a child. (Source: @UkraineNow/82551)",
+        "Russian \"North\" Group of Forces continues infantry assaults in Sumy direction across multiple settlements including Bachevsk, Ulanovo, Ryzhevka, Pisarevka, Mogritsa, Maryino, Prokhody, Novaya Sech, Khoten, and forest areas south of Ivolzhan and Krasnopolsky district. (Source: @ukr_leaks_eng/31522)",
+        "Russian \"East\" Group of Forces consolidates positions near Bogodarovka and Aleksandrovka in Dnipropetrovsk region, eliminating infiltration groups and preventing new crossings over the Volchya River. (Source: @ukr_leaks_eng/31522)",
+        "Russian 18th Army aviation struck logistics and economic infrastructure on the right bank of the Dnipro in Kherson region, while Ukrainian attacks killed one and injured two civilians in the past 24 hours. (Source: @ukr_leaks_eng/31522)",
+        "Russian border regions suffered drone attacks: Belgorod region saw two civilians injured between Kolykhalino and Shelaevo, a driver killed and two hospitalized in a car strike near Yasnye Zori, an \"Orlan\" unit serviceman wounded in Novaya Tavolzhanka, and two women injured by FPV shrapnel near Zamostye; Kursk region gas station attacked in Fonovo; Yaroslavl region transport blocked after UAV attack. (Source: @ukr_leaks_eng/31522, @tass_agency/384747)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advanced near Kostyantynivka and Zatyishka (Source: @DeepStateUA/23628)",
-        "BPLAs targeted Synevlianske and Kryvyi Rog (Source: @kpszsu/67957, @ukr_leaks_eng/31537)",
-        "Russian attacks on Zaporizhzhia caused civilian casualties (Source: @UkraineNow/82550)",
-        "BPLAs launched from Orel and Bryansk regions (Source: @kpszsu/67924)",
-        "Russian forces maintained 6-7 active fronts (Source: @UkraineNow/82543)"
+        "In Kupyansk direction, Russian forces advance in urban areas under heavy Ukrainian drone pressure, with fighting continuing north of Radkovka and Malaya Shapkovka. (Source: @ukr_leaks_eng/31522)",
+        "Slavyansk direction sees enemy counterattacks near Malinovka (9 km east of Kramatorsk) and fighting near approaches to Nikolaevka, where Russian forces likely leveling front line before storming. (Source: @ukr_leaks_eng/31522)",
+        "Konstantinovka clearing and consolidation continues with increased Russian combat activity noted in Druzhkovka direction. (Source: @ukr_leaks_eng/31522)",
+        "Dobropol direction features fighting for Belitskoye with Russian forces employing FAB high-explosive aerial bombs against Ukrainian positions. (Source: @ukr_leaks_eng/31522)",
+        "Dnipropetrovsk region: Russian \"East\" Group consolidates in Bogodarovka and Aleksandrovka area, eliminating small infiltration groups and preventing establishment of new crossings across the Volchya River. (Source: @ukr_leaks_eng/31522)",
+        "Russian offensive directions reduced from 13 to 6-7 per Syrsky, yet Russia maintains goals to occupy all of Donetsk and Luhansk regions, expand into Dnipropetrovsk and Zaporizhzhia, and create a buffer zone in northern Ukraine. (Source: @UkraineNow/82543)"
       ]
     },
     "northern_front": {
       "points": [
-        "BPLAs launched from Chornomorsk towards Odessa (Source: @kpszsu/67938)",
-        "BPLAs targeting Kharkiv region (Source: @kpszsu/67926)",
-        "BPLAs launched from Kursk towards Sumy (Source: @eRadarrua/100492)"
+        "Sumy direction: Russian \"North\" Group infantry fighting in Bachevsk, Ulanovo, Ryzhevka, Pisarevka, Mogritsa, Maryino, Prokhody, Novaya Sech, Khoten, and forest areas south of Ivolzhan and Krasnopolsky district. (Source: @ukr_leaks_eng/31522)",
+        "Kharkiv direction: Russian \"North\" Group engaged in Kazachya Lopan; Volchansk area fighting in Volokhovskoye, Yurchyenkovo, and Bely Kolodez; Velikoburluk area fighting west of Petro-Ivanovka and forest areas near Artelnoe, Budarki, Zemlyanka. (Source: @ukr_leaks_eng/31522)",
+        "Belgorod region: Ukrainian drone attacks injured two civilians between Kolykhalino and Shelaevo in Valuy district; a driver killed and two hospitalized in car strike between Yasnye Zori and Cheremoshnoe; \"Orlan\" unit serviceman wounded in Novaya Tavolzhanka; two women injured by FPV shrapnel near Zamostye. (Source: @ukr_leaks_eng/31522)",
+        "Kursk region: Ukrainian drone attacked gas station in Fonovo, Rylovsky district, injuring one local resident. (Source: @ukr_leaks_eng/31522)",
+        "Bryansk region: One civilian killed in Nizhnyaya Starodubka by HIMARS multiple launch rocket system shelling. (Source: @ukr_leaks_eng/31522)",
+        "Yaroslavl region: UAV attack prompted transport blockade on exit toward Moscow for safety per Governor Mikhail Yevrayev. (Source: @tass_agency/384747)",
+        "Moscow region: Krasnogorsk \"Terabit\" shopping center reported burning; over 12 drones approached Moscow per Two Majors summary. (Source: @eRadarrua/100552, @ukr_leaks_eng/31522)"
       ]
     },
     "southern_front": {
       "points": [
-        "BPLAs launched from Black Sea towards Odesa (Source: @kpszsu/67938)",
-        "BPLAs targeting Mykolaiv region (Source: @kpszsu/67938)"
+        "Odesa region struck by Russian cruise missiles hitting port infrastructure, fires localized, one civilian killed. (Source: @UkraineNow/82558)",
+        "Zaporizhzhia city center hit by Russian KAB guided aerial bombs destroying residential and non-residential buildings, one killed, at least four wounded including a child, evacuations underway. (Source: @UkraineNow/82551)",
+        "Kherson region: Ukrainian attacks killed one and injured two civilians in past 24 hours; Russian 18th Army aviation continues striking logistics and economic infrastructure on right bank. (Source: @ukr_leaks_eng/31522)",
+        "Dnipropetrovsk region targeted by Russian jet-powered UAVs toward Synelnykove, Kryvyi Rih (near Sofiivka), and Kamianka area; KAB strike reported on eastern Dnipropetrovsk. (Source: @kpszsu/67907, @eRadarrua/100530, @kpszsu/67922, @kpszsu/67936)",
+        "Zaporizhzhia region faces Russian UAV from south per Ukrainian air defense alerts; Ukrainian drones also active over Zaporizhzhia heading toward Dnipropetrovsk. (Source: @kpszsu/67936, @kpszsu/67955)",
+        "Energy infrastructure attacks left significant parts of Zaporizhzhia and Kherson regions without electricity, with continued enemy drone activity over damaged areas. (Source: @ukr_leaks_eng/31522)",
+        "Black Sea: Groups of Ukrainian UAVs detected heading toward Odesa region (Chornomorske) per air defense alerts. (Source: @kpszsu/67920, @kpszsu/67940)"
       ]
     },
     "air_war": {
       "points": [
-        "114 drones destroyed in overnight attacks (Source: @kpszsu/67926)",
-        "BPLAs launched from Orel, Bryansk, and Chornomorsk (Source: @kpszsu/67924)",
-        "Ukrainian air defense systems intercepted 18 drones (Source: @kpszsu/67926)"
+        "Ukrainian massive drone wave: 144 UAVs shot down over Russian regions in one day per Russian MoD; at least 30 downed in Leningrad region, over 12 approaching Moscow; debris caused fire at Ilski Oil Refinery and crashes in Severnaya village. (Source: @tass_agency/384743, @ukr_leaks_eng/31522)",
+        "Ukrainian deep strike: GUR and SBS successfully hit Ilski Oil Refinery in Krasnodar region, a major fuel supplier for Russian occupation forces. (Source: @UkraineNow/82556)",
+        "Russian cruise missile strike on Odesa port infrastructure caused fires and one death. (Source: @UkraineNow/82558)",
+        "Russian KAB guided aerial bombs struck central Zaporizhzhia and eastern Dnipropetrovsk region. (Source: @UkraineNow/82551, @kpszsu/67936)",
+        "Reciprocal drone strikes on gas stations continue along entire front line per Two Majors. (Source: @ukr_leaks_eng/31522)",
+        "Ukrainian air defense tracking multiple Russian UAV groups: jet drones toward Kharkiv, Synelnykove, Kryvyi Rih, Kamianka; groups from Black Sea toward Odesa; drones toward Chernihiv, Slavutych from north. (Source: @kpszsu/67918, @kpszsu/67907, @kpszsu/67955, @kpszsu/67936, @eRadarrua/100530, @eRadarrua/100547, @eRadarrua/100511, @kpszsu/67922, @kpszsu/67940)",
+        "Russian air defense activity intense: 144 Ukrainian UAVs intercepted; Yaroslavl region transport blocked after UAV attack; Moscow region shopping center fire. (Source: @tass_agency/384743, @tass_agency/384747, @eRadarrua/100552)"
       ]
     },
     "key_developments": [
-      "14 Russian tanks and 114 drones destroyed in overnight strikes (Source: @UkraineNow/82540)",
-      "BPLAs targeting multiple regions including Sumy, Kharkiv, and Dnipropetrovsk (Source: @kpszsu/67931)",
-      "6,500+ civilians ordered to evacuate Dnipropetrovsk settlements (Source: @UkraineNow/82549)",
-      "Zaporizhzhia infrastructure attack caused 1 death and 4 injuries (Source: @UkraineNow/82550)",
-      "New 2000 UAH banknote featuring Vasyl Stus to enter circulation (Source: @UkraineNow/82548)",
-      "Russian forces reported 32,000+ monthly combat losses (Source: @UkraineNow/82543)",
-      "BPLAs launched from Black Sea towards Odesa and Mykolaiv (Source: @kpszsu/67938)"
-    ],
-    "threat_assessment": "Intensified BPLAs and tank losses indicate escalating Russian offensive efforts. Targeting of civilian infrastructure and evacuation orders suggest deliberate pressure on Ukrainian population. Drone swarms demonstrate Russia's focus on asymmetric warfare tactics.",
-    "regional_response": "Ukraine deployed air defense systems to counter drone swarms. International partners like Germany are accelerating combat robot production for Ukraine. EU sanctions debates highlight divided responses to Russian aggression.",
-    "intelligence_notes": "BPLAs from multiple Russian regions suggest coordinated strikes. Targeting of Dnipropetrovsk settlements may aim to disrupt logistics. New banknote introduction could signal economic stabilization efforts amid war."
+      "Ukrainian GUR and SBS destroyed Ilski Oil Refinery in Krasnodar Krai, a top-10 Russian refinery supplying fuel to occupation forces, via coordinated deep strike overnight July 10. (Source: @UkraineNow/82556)",
+      "Russian MoD claims 144 Ukrainian UAVs shot down over Russian territory in 24 hours, including 30+ in Leningrad Oblast and 12+ approaching Moscow, indicating largest Ukrainian drone wave to date. (Source: @tass_agency/384743, @ukr_leaks_eng/31522)",
+      "Russian cruise missiles hit Odesa port infrastructure causing fires and one civilian death; KABs devastated central Zaporizhzhia killing one and wounding four including a child. (Source: @UkraineNow/82558, @UkraineNow/82551)",
+      "Syrsky confirms Russian offensive axes reduced from 13 to"
+    ]
   },
   "missiles": 0,
   "drones": 137,
   "kpszsu_timeline": [
+    2,
     1,
+    1,
+    0,
     3,
-    2,
     1,
     1,
     1,
-    2,
     1,
-    1,
-    2,
-    0,
     1,
     1,
     4,
-    4,
-    0,
+    3,
+    1,
     0,
     0,
     0,
@@ -343,6 +348,8 @@
     3,
     0,
     0,
-    1
+    1,
+    1,
+    0
   ]
 }
