@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-11T09:49:17.538679+00:00",
-  "message_count": 244,
+  "updated_at": "2026-07-11T11:15:43.001175+00:00",
+  "message_count": 236,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,16 +13,14 @@
   ],
   "red_alerts": 123,
   "red_alerts_timeline": [
+    11,
     0,
+    22,
+    11,
+    11,
     0,
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    0,
-    12,
+    11,
+    11,
     0,
     0,
     0,
@@ -30,66 +28,68 @@
     0,
     0,
     0,
-    12,
+    11,
     0,
     0,
     0,
     0,
-    12,
-    12
+    11,
+    0,
+    22,
+    0
   ],
   "combined_activity_timeline": [
-    14,
-    12,
-    10,
+    11,
+    9,
+    9,
+    15,
+    13,
+    7,
     8,
-    16,
-    14,
+    6,
+    3,
+    2,
+    13,
+    4,
+    3,
+    27,
     7,
     9,
-    6,
-    5,
-    2,
-    7,
     8,
-    4,
-    12,
-    20,
-    8,
-    6,
     14,
-    12,
+    11,
+    14,
     10,
-    15,
-    8,
-    15
+    10,
+    14,
+    7
   ],
   "messages_by_channel": {
     "@eRadarrua": 36,
-    "@kpszsu": 34,
+    "@kpszsu": 36,
     "@mon1tor_ua": 28,
-    "@UkraineNow": 19,
+    "@UkraineNow": 20,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 20,
-    "@tass_agency": 105
+    "@tass_agency": 94
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/100607",
-    "kpszsu": "https://t.me/kpszsu/68039",
+    "eRadarrua": "https://t.me/eRadarrua/100615",
+    "kpszsu": "https://t.me/kpszsu/68042",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68870",
-    "UkraineNow": "https://t.me/UkraineNow/82570",
+    "UkraineNow": "https://t.me/UkraineNow/82572",
     "DeepStateUA": "https://t.me/DeepStateUA/23630",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31545",
-    "tass_agency": "https://t.me/tass_agency/384811"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31547",
+    "tass_agency": "https://t.me/tass_agency/384817"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82570",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68850",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31541",
-    "tass_agency": "https://t.me/tass_agency/384797",
-    "DeepStateUA": "https://t.me/DeepStateUA/23630",
-    "kpszsu": "https://t.me/kpszsu/68021",
-    "eRadarrua": "https://t.me/eRadarrua/100557"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68854",
+    "UkraineNow": "https://t.me/UkraineNow/82558",
+    "tass_agency": "https://t.me/tass_agency/384799",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31542",
+    "kpszsu": "https://t.me/kpszsu/67998",
+    "eRadarrua": "https://t.me/eRadarrua/100587",
+    "DeepStateUA": "https://t.me/DeepStateUA/23630"
   },
   "media": [
     {
@@ -222,98 +222,108 @@
   "post_images": {
     "eRadarrua/100589": "data/media/eRadarrua_100589.jpg",
     "eRadarrua/100590": "data/media/eRadarrua_100589.jpg",
-    "eRadarrua/100548": "data/media/eRadarrua_100548.jpg",
-    "eRadarrua/100547": "data/media/eRadarrua_100548.jpg",
     "eRadarrua/100556": "data/media/eRadarrua_100556.jpg",
     "eRadarrua/100557": "data/media/eRadarrua_100556.jpg",
     "eRadarrua/100566": "data/media/eRadarrua_100566.jpg",
     "eRadarrua/100565": "data/media/eRadarrua_100566.jpg",
+    "eRadarrua/100548": "data/media/eRadarrua_100548.jpg",
+    "eRadarrua/100547": "data/media/eRadarrua_100548.jpg",
     "eRadarrua/100522": "data/media/eRadarrua_100522.jpg",
-    "eRadarrua/100521": "data/media/eRadarrua_100522.jpg",
     "kpszsu/68010": "data/media/kpszsu_68010.jpg",
     "kpszsu/68009": "data/media/kpszsu_68010.jpg"
   },
-  "summary": "Russian forces conducted missile and drone attacks across Ukraine, causing casualties in Odesa and Kyiv, while Ukrainian forces destroyed a key oil refinery in Illichivsk. Russia temporarily blocked the Azov-Don Sea Canal and Black Sea grain exports, impacting logistics. The EU advanced Ukraine's accession negotiations with the opening of the fourth cluster.",
+  "summary": "Ballistic missile strikes on Kyiv and Odesa ports escalate frontline tensions. Drone attacks across multiple regions indicate sustained offensive operations. Enemy movements near Minyivka suggest localized breakthroughs.",
   "key_points": [
-    "Russian missile attacks on Odesa killed two people and damaged civilian infrastructure, with one individual sustaining shrapnel injuries. (Source: @UkraineNow/82570)",
-    "Ukrainian forces destroyed the Illichivsk oil refinery, a major supplier of fuel to Russian troops in occupied territories. (Source: @UkraineNow/82556)",
-    "Russia temporarily suspended navigation through the Azov-Don Sea Canal and blocked grain export requests via the Kerch Strait. (Source: @UkraineNow/82566)",
-    "Ukrainian forces evacuated over 6,500 adults from two Dnipro region settlements due to danger, following earlier evacuation of children. (Source: @UkraineNow/82549)",
-    "Russian missile attacks on Kyiv caused fires on the left bank, with reports of 3-5 impacts and significant damage. (Source: @mon1tor_ua/68850)",
-    "The EU approved the opening of the fourth cluster of negotiations for Ukraine's EU accession, focusing on foreign relations. (Source: @UkraineNow/82552)",
-    "German production of Patriot missile systems will likely occur in Europe, not Ukraine, with potential post-war transfer to Ukraine. (Source: @ukr_leaks_eng/31541)",
-    "Ukrainian forces destroyed 13 Russian shadow fleet ships, including 10 tankers and 1 cargo ship, in recent operations. (Source: @UkraineNow/82554)"
+    "Ballistic missile struck Kyiv (Source: @mon1tor_ua/68854).",
+    "Three strikes reported on Chornomors'k, Sanzhiyku, and Odesa (Source: @mon1tor_ua/68840).",
+    "Iskander-M rocket threat from occupied Crimea (Source: @mon1tor_ua/68844).",
+    "49 enemy ships sunk in 4 days (Source: @mon1tor_ua/68869).",
+    "Odesa port infrastructure hit by missile (Source: @UkraineNow/82558).",
+    "Yuzhnoy port targeted by Russian forces (Source: @tass_agency/384799).",
+    "Detailed strike report: 144 UAVs destroyed, multiple city attacks (Source: @ukr_leaks_eng/31542)."
   ],
-  "sentiment": "tense",
-  "intensity": 7,
+  "sentiment": "escalating",
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russian missile and drone attacks across Ukraine caused casualties in Odesa and Kyiv, with Ukrainian forces destroying the Illichivsk oil refinery. Russia blocked the Azov-Don Sea Canal and Black Sea grain exports, disrupting logistics. The EU advanced Ukraine's EU accession negotiations with the fourth cluster approval.",
+    "executive_summary": "Ballistic missile strikes on Kyiv and Odesa ports mark a significant escalation. Drone swarms across multiple regions suggest coordinated offensive efforts. Enemy advances near Minyivka indicate potential localized breakthroughs.",
     "ukraine": {
       "points": [
-        "Ukrainian forces destroyed the Illichivsk oil refinery in a joint operation with SBU, DSU, and other defense units, targeting a major fuel supplier to Russian troops in occupied territories. (Source: @UkraineNow/82556)",
-        "Evacuation orders were issued for two Dnipro region settlements, Vasylivka and Vyshhetarasivka, with over 6,500 adults remaining to be evacuated after children were previously removed. (Source: @UkraineNow/82549)",
-        "Missile attacks on Odesa killed two people, including a 24-year-old man with shrapnel injuries, damaging civilian infrastructure. (Source: @UkraineNow/82570)",
-        "Russian missile attacks on Kyiv caused fires on the left bank, with reports of 3-5 impacts and significant damage. (Source: @mon1tor_ua/68850)",
-        "Ukrainian forces destroyed 13 Russian shadow fleet ships in recent operations, including 10 tankers and 1 cargo ship. (Source: @UkraineNow/82554)"
+        "Ballistic missile impacts in Kyiv caused alarm signals and fires in non-residential areas (Source: @ukr_leaks_eng/31542).",
+        "Drone attacks from Krovlyavets and Chernihiv regions targeted Kharkiv and Chernihiv (Source: @kpszsu/67998, @eRadarrua/100587).",
+        "Odesa port infrastructure damaged by missile strikes, with localized fires (Source: @UkraineNow/82558).",
+        "Enemy assault troops active in Sumy region, engaging in small-arms battles near Bachevsk and Shostka (Source: @ukr_leaks_eng/31542).",
+        "Port strikes in Izmail and Yuzhnoy disrupted logistics for Ukrainian forces (Source: @tass_agency/384801, @tass_agency/384799).",
+        "Enemy UAV attacks in Taganrog Bay targeted a methanol tanker, causing casualties (Source: @ukr_leaks_eng/31542).",
+        "Enemy forces advancing near Minyivka, with map updates showing territorial gains (Source: @DeepStateUA/23630)."
       ]
     },
     "russia": {
       "points": [
-        "Russia temporarily suspended navigation through the Azov-Don Sea Canal and blocked grain export requests via the Kerch Strait, impacting up to 25% of Russian wheat exports. (Source: @UkraineNow/82566)",
-        "Russian forces attacked Ukrainian infrastructure with missile strikes, including targeting the Illichivsk oil refinery and civilian facilities in Odesa and Kyiv. (Source: @UkraineNow/82556, @UkraineNow/82570)",
-        "Russian media reported the sinking of a ship in Taganrog Bay during drone attacks, with a sailor killed. (Source: @tass_agency/384797)",
-        "Russia allocated over 4.3 billion rubles for tourism industry support in Crimea and Sevastopol due to reduced tourist flows from Ukrainian attacks. (Source: @tass_agency/384806)",
-        "Russian forces advanced near Minkevka, according to Ukrainian intelligence updates. (Source: @DeepStateUA/23630)"
+        "Missile strikes on Odesa and Yuzhnoy ports targeted Ukrainian logistics hubs (Source: @tass_agency/384799, @tass_agency/384801).",
+        "Iskander-M rocket threats from Crimea indicate strategic targeting (Source: @mon1tor_ua/68844).",
+        "Enemy UAV and missile attacks in Taganrog Bay and Azov Sea disrupted maritime operations (Source: @ukr_leaks_eng/31542).",
+        "Russian forces reported sinking 49 ships in 4 days (Source: @mon1tor_ua/68869).",
+        "Strikes on fuel infrastructure and transport networks in occupied territories (Source: @tass_agency/384815).",
+        "Enemy air defenses downed 445 UAVs in a single day (Source: @tass_agency/384815).",
+        "Military operations in Belgorod and Kharkov regions involved small-arms engagements (Source: @ukr_leaks_eng/31542)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advanced near Minkevka, according to Ukrainian intelligence updates. (Source: @DeepStateUA/23630)",
-        "Drone attacks targeted Kharkiv and Sumy regions, with reports of guided missiles approaching from the north and southwest. (Source: @kpszsu/68021, @eRadarrua/100557)",
-        "Ukrainian forces reported destroying 111 hostile drones, including Shahed, Harba, and Italmus types, in recent operations. (Source: @kpszsu/68010)",
-        "Russian missile attacks on Kharkiv region caused casualties, with seven injured at an enterprise in Nemishchi. (Source: @UkraineNow/82569)",
-        "Drone groups approached from the north and southwest, targeting Kharkiv and Sumy regions. (Source: @kpszsu/68009, @eRadarrua/100557)"
+        "Enemy advances near Minyivka with map updates showing territorial gains (Source: @DeepStateUA/23630).",
+        "Enemy assault troops active in Sumy region, engaging in small-arms battles (Source: @ukr_leaks_eng/31542).",
+        "Enemy forces attempting to establish positions in forest belts near Novoskelevatoye (Source: @ukr_leaks_eng/31542).",
+        "Enemy UAV attacks in Kherson region caused civilian injuries (Source: @ukr_leaks_eng/31542).",
+        "Enemy logistics disruptions via port strikes in Odesa and Yuzhnoy (Source: @tass_agency/384799, @tass_agency/384801).",
+        "Enemy forces counterattacking in Malinovka and Tikhonovka (Source: @ukr_leaks_eng/31542).",
+        "Enemy troops breaking through toward Alexeyevo-Druzhkovka (Source: @ukr_leaks_eng/31542)."
       ]
     },
     "northern_front": {
       "points": [
-        "Missile attacks on Kyiv caused fires on the left bank, with reports of 3-5 impacts and significant damage. (Source: @mon1tor_ua/68850)",
-        "Russian missile attacks on Kyiv included 4 guided missiles and 2 anti-radiation missiles, with some debris falling on locations. (Source: @kpszsu/68010)",
-        "Drone attacks approached Kyiv from the north and east, with reports of 2-5 impacts in the Darnitsky district. (Source: @mon1tor_ua/68853, @mon1tor_ua/68867)",
-        "Ukrainian air defenses intercepted 2 guided missiles and 111 hostile drones in recent operations. (Source: @kpszsu/68010)",
-        "Explosions were reported in the capital before air raid alerts were issued. (Source: @eRadarrua/100568)"
+        "Enemy UAV attacks in Kharkiv region targeted residential and industrial areas (Source: @eRadarrua/100587).",
+        "Enemy forces advancing near Kozachya Lopan (Source: @ukr_leaks_eng/31542).",
+        "Enemy small-arms battles ongoing in Volokhovskoye and Yurchenkovo (Source: @ukr_leaks_eng/31542).",
+        "Enemy UAV strikes in Belgorod region killed a civilian (Source: @ukr_leaks_eng/31542).",
+        "Enemy forces operating near Pokarsky district (Source: @ukr_leaks_eng/31542).",
+        "Enemy UAV attacks in Novaya Sich and Khoten villages (Source: @ukr_leaks_eng/31542).",
+        "Enemy attempts to supply electricity to Sumy residents (Source: @ukr_leaks_eng/31542)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces destroyed the Illichivsk oil refinery, a major fuel supplier to Russian troops in occupied territories. (Source: @UkraineNow/82556)",
-        "Russian missile attacks on Odesa killed two people and damaged civilian infrastructure, with one individual sustaining shrapnel injuries. (Source: @UkraineNow/82570)",
-        "Ukrainian forces destroyed 13 Russian shadow fleet ships, including 10 tankers and 1 cargo ship, in recent operations. (Source: @UkraineNow/82554)",
-        "Drone attacks targeted Odesa region from the Black Sea, with groups approaching from the north and south. (Source: @kpszsu/68001, @kpszsu/68035)",
-        "Russian missile attacks on Odesa caused fires on civilian infrastructure, with one death reported. (Source: @UkraineNow/82558)"
+        "Enemy UAV attacks in Taganrog Bay targeted a methanol tanker (Source: @ukr_leaks_eng/31542).",
+        "Enemy forces conducting counterattacks in Malinovka and Tikhonovka (Source: @ukr_leaks_eng/31542).",
+        "Enemy UAV strikes in Azov Sea disrupted maritime operations (Source: @ukr_leaks_eng/31542).",
+        "Enemy forces advancing near Bachevsk and Pisarevka (Source: @ukr_leaks_eng/31542).",
+        "Enemy UAV attacks in Odesa region caused civilian casualties (Source: @UkraineNow/82558).",
+        "Enemy forces operating near Zaporozhye region (Source: @ukr_leaks_eng/31542).",
+        "Enemy UAV attacks in Kherson region caused power outages (Source: @ukr_leaks_eng/31542)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defenses intercepted 2 guided missiles and 111 hostile drones, including Shahed, Harba, and Italmus types. (Source: @kpszsu/68010)",
-        "Russian missile attacks included 4 guided missiles and 2 anti-radiation missiles, with some debris falling on locations. (Source: @kpszsu/68010)",
-        "Drone attacks approached from multiple directions, including the Black Sea and northern regions, targeting Kyiv, Kharkiv, and Odesa. (Source: @kpszsu/68001, @kpszsu/68021, @kpszsu/68035)",
-        "Ukrainian forces reported destroying 2 guided missiles and 111 hostile drones in recent operations. (Source: @kpszsu/68010)",
-        "Russian missile attacks on Kyiv caused fires on the left bank, with reports of 3-5 impacts and significant damage. (Source: @mon1tor_ua/68850)"
+        "Enemy air defenses downed 445 UAVs in a single day (Source: @tass_agency/384815).",
+        "Enemy UAV attacks in Kharkiv and Kherson regions (Source: @eRadarrua/100587, @ukr_leaks_eng/31542).",
+        "Enemy missile strikes on Kyiv and Odesa ports (Source: @mon1tor_ua/68854, @tass_agency/384799).",
+        "Enemy UAV swarms in Taganrog Bay (Source: @ukr_leaks_eng/31542).",
+        "Enemy missile and UAV attacks in Taganrog and Azov Sea (Source: @ukr_leaks_eng/31542).",
+        "Enemy UAV attacks in Kharkiv and Chernihiv regions (Source: @kpszsu/67998, @eRadarrua/100587).",
+        "Enemy UAV and missile strikes in Odesa and Yuzhnoy ports (Source: @UkraineNow/82558, @tass_agency/384799)."
       ]
     },
     "key_developments": [
-      "Ukrainian forces destroyed the Illichivsk oil refinery, a major fuel supplier to Russian troops in occupied territories, in a joint operation with SBU, DSU, and other defense units. (Source: @UkraineNow/82556)",
-      "Russian missile attacks on Odesa killed two people and damaged civilian infrastructure, with one individual sustaining shrapnel injuries. (Source: @UkraineNow/82570)",
-      "Russia temporarily suspended navigation through the Azov-Don Sea Canal and blocked grain export requests via the Kerch Strait, impacting up to 25% of Russian wheat exports. (Source: @UkraineNow/82566)",
-      "Ukrainian forces evacuated over 6,500 adults from two Dnipro region settlements, Vasylivka and Vyshhetarasivka, following earlier evacuation of children. (Source: @UkraineNow/82549)",
-      "Russian missile attacks on Kyiv caused fires on the left bank, with reports of 3-5 impacts and significant damage. (Source: @mon1tor_ua/68850)",
-      "The EU approved the opening of the fourth cluster of negotiations for Ukraine's EU accession, focusing on foreign relations. (Source: @UkraineNow/82552)",
-      "German production of Patriot missile systems will likely occur in Europe, not Ukraine, with potential post-war transfer to Ukraine. (Source: @ukr_leaks_eng/31541)"
+      "Ballistic missile strike on Kyiv (Source: @mon1tor_ua/68854).",
+      "Odesa port infrastructure damaged by missile (Source: @UkraineNow/82558).",
+      "Enemy sinking of 49 ships in 4 days (Source: @mon1tor_ua/68869).",
+      "Enemy advances near Minyivka (Source: @DeepStateUA/23630).",
+      "Iskander-M rocket threat from Crimea (Source: @mon1tor_ua/68844).",
+      "Enemy UAV swarms in Taganrog Bay (Source: @ukr_leaks_eng/31542).",
+      "Enemy missile strikes on Yuzhnoy port (Source: @tass_agency/384799)."
     ],
-    "threat_assessment": "Russian missile and drone attacks continue to target Ukrainian infrastructure, causing casualties and disrupting logistics, with recent strikes on Odesa, Kyiv, and Kharkiv. Ukrainian forces have demonstrated capability to destroy key Russian assets, including oil refineries and shadow fleet ships, but face ongoing pressure on multiple fronts. The destruction of the Illichivsk refinery significantly impacts Russian fuel supply lines, potentially straining military operations in occupied territories.",
-    "regional_response": "The EU advanced Ukraine's EU accession negotiations with the approval of the fourth cluster, signaling continued political support. Germany announced plans to produce Patriot missile systems in Europe, enhancing Ukraine's air defense capabilities. International humanitarian organizations continue to monitor the situation, with reports of civilian casualties and infrastructure damage from ongoing attacks.",
-    "intelligence_notes": "Evacuation orders in the Dnipro region highlight the expanding danger zones due to Russian missile attacks. The destruction of the Illichivsk refinery represents a significant strategic victory for Ukrainian forces, disrupting Russian logistics. Ongoing drone and missile attacks suggest Russia's strategy to degrade Ukrainian infrastructure and morale, with potential escalation risks in the coming days."
+    "threat_assessment": "The escalation of missile and drone attacks on key Ukrainian ports and cities indicates a deliberate effort to disrupt logistics and civilian infrastructure. The Iskander-M threat from Crimea suggests Russia is leveraging occupied territories for strategic strikes. Enemy advances near Minyivka and Minyivka suggest potential breakthroughs that could shift frontline dynamics.",
+    "regional_response": "Ukrainian forces are countering missile and drone strikes with air defense systems, while also conducting localized counteroffensives in Sumy and Kharkiv regions. The closure of the Don-Azov canal by Russia aims to restrict Ukrainian maritime supply lines. Western arms supplies, including Patriot systems, are being prioritized to counter missile threats.",
+    "intelligence_notes": "The coordinated use of ballistic missiles and drones across multiple fronts highlights Russia's integrated offensive strategy. The targeting of ports and logistics hubs suggests an attempt to isolate Ukrainian forces. The Iskander-M threat from Crimea underscores the risk of long-range strikes on Ukrainian and potentially European targets."
   },
   "missiles": 2,
   "drones": 121,
@@ -321,11 +331,10 @@
     0,
     0,
     0,
-    0,
     3,
     0,
-    0,
     1,
+    0,
     1,
     0,
     0,
@@ -333,14 +342,15 @@
     0,
     1,
     1,
-    1,
-    3,
     1,
     4,
-    2,
+    1,
+    3,
+    3,
     6,
     2,
+    4,
     2,
-    4
+    1
   ]
 }
