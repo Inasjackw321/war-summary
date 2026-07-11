@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-11T11:15:43.001175+00:00",
-  "message_count": 236,
+  "updated_at": "2026-07-11T13:36:41.461990+00:00",
+  "message_count": 224,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,14 +13,12 @@
   ],
   "red_alerts": 123,
   "red_alerts_timeline": [
-    11,
+    13,
+    13,
+    13,
+    13,
     0,
-    22,
-    11,
-    11,
-    0,
-    11,
-    11,
+    13,
     0,
     0,
     0,
@@ -28,70 +26,102 @@
     0,
     0,
     0,
-    11,
+    13,
     0,
     0,
     0,
     0,
-    11,
+    13,
     0,
-    22,
+    27,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    11,
-    9,
-    9,
     15,
-    13,
-    7,
+    14,
+    10,
     8,
     6,
-    3,
-    2,
-    13,
-    4,
-    3,
-    27,
     7,
+    1,
+    6,
     9,
+    3,
+    3,
+    30,
+    7,
+    7,
+    10,
+    14,
+    10,
+    15,
+    9,
+    15,
     8,
-    14,
-    11,
-    14,
-    10,
-    10,
-    14,
-    7
+    6,
+    7,
+    4
   ],
   "messages_by_channel": {
-    "@eRadarrua": 36,
-    "@kpszsu": 36,
+    "@eRadarrua": 32,
+    "@kpszsu": 38,
     "@mon1tor_ua": 28,
-    "@UkraineNow": 20,
-    "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 20,
-    "@tass_agency": 94
+    "@UkraineNow": 21,
+    "@DeepStateUA": 1,
+    "@ukr_leaks_eng": 17,
+    "@tass_agency": 87
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/100615",
-    "kpszsu": "https://t.me/kpszsu/68042",
+    "eRadarrua": "https://t.me/eRadarrua/100618",
+    "kpszsu": "https://t.me/kpszsu/68055",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68870",
-    "UkraineNow": "https://t.me/UkraineNow/82572",
+    "UkraineNow": "https://t.me/UkraineNow/82574",
     "DeepStateUA": "https://t.me/DeepStateUA/23630",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31547",
-    "tass_agency": "https://t.me/tass_agency/384817"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31549",
+    "tass_agency": "https://t.me/tass_agency/384823"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68854",
-    "UkraineNow": "https://t.me/UkraineNow/82558",
-    "tass_agency": "https://t.me/tass_agency/384799",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31542",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68853",
     "kpszsu": "https://t.me/kpszsu/67998",
-    "eRadarrua": "https://t.me/eRadarrua/100587",
-    "DeepStateUA": "https://t.me/DeepStateUA/23630"
+    "tass_agency": "https://t.me/tass_agency/384785",
+    "UkraineNow": "https://t.me/UkraineNow/82551",
+    "DeepStateUA": "https://t.me/DeepStateUA/23630",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31549",
+    "eRadarrua": "https://t.me/eRadarrua/100567"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/82574",
+      "post_id": 82574,
+      "channel": "UkraineNow",
+      "ts": "2026-07-11T13:15:29+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31549",
+      "post_id": 31549,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-11T13:04:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82573",
+      "post_id": 82573,
+      "channel": "UkraineNow",
+      "ts": "2026-07-11T12:24:45+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384820",
+      "post_id": 384820,
+      "channel": "tass_agency",
+      "ts": "2026-07-11T12:06:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/384819",
+      "post_id": 384819,
+      "channel": "tass_agency",
+      "ts": "2026-07-11T11:51:01+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/31545",
       "post_id": 31545,
@@ -185,172 +215,140 @@
       "post_id": 68853,
       "channel": "mon1tor_ua",
       "ts": "2026-07-11T00:51:07+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384765",
-      "post_id": 384765,
-      "channel": "tass_agency",
-      "ts": "2026-07-11T00:41:06+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384763",
-      "post_id": 384763,
-      "channel": "tass_agency",
-      "ts": "2026-07-10T23:29:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384757",
-      "post_id": 384757,
-      "channel": "tass_agency",
-      "ts": "2026-07-10T21:29:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384750",
-      "post_id": 384750,
-      "channel": "tass_agency",
-      "ts": "2026-07-10T21:22:27+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/100566",
-      "post_id": 100566,
-      "channel": "eRadarrua",
-      "ts": "2026-07-10T20:51:10+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/DZt_rccK1xInUe7HtuJ_A-lwYoBxz7mGrG2tzWRsjfs-NpVH1IriCUMoFa2YCW3V6hNM7AInHHGpoRViHsk6lBtBZjaez4o7g8NWGGYyYNJo6IUczgjlCaOv4pQQraJ-jkoexSkYwvcuVdjO5qa-k8UtbKfDyv3m8USOz4o4Zk-0t2aUw3HDuZYFsv0hUNy0R94hi5FObnRlJBkxHhcGqe0LG-UjiRb1bn9Gej43OoHH2gCTmAsqMLLoLiT7oBMzACdn3AiFHjhNWvXGykrElxbbpknhmp5duHyyeXL7KQGP7PF_Hu70v0RdX0mrmsgCLXQBRVUi-2J4LlrOKOj-Tw.jpg",
-      "companion_text_id": 100565
     }
   ],
   "post_images": {
     "eRadarrua/100589": "data/media/eRadarrua_100589.jpg",
     "eRadarrua/100590": "data/media/eRadarrua_100589.jpg",
-    "eRadarrua/100556": "data/media/eRadarrua_100556.jpg",
-    "eRadarrua/100557": "data/media/eRadarrua_100556.jpg",
     "eRadarrua/100566": "data/media/eRadarrua_100566.jpg",
     "eRadarrua/100565": "data/media/eRadarrua_100566.jpg",
     "eRadarrua/100548": "data/media/eRadarrua_100548.jpg",
     "eRadarrua/100547": "data/media/eRadarrua_100548.jpg",
-    "eRadarrua/100522": "data/media/eRadarrua_100522.jpg",
+    "eRadarrua/100556": "data/media/eRadarrua_100556.jpg",
+    "eRadarrua/100557": "data/media/eRadarrua_100556.jpg",
     "kpszsu/68010": "data/media/kpszsu_68010.jpg",
     "kpszsu/68009": "data/media/kpszsu_68010.jpg"
   },
-  "summary": "Ballistic missile strikes on Kyiv and Odesa ports escalate frontline tensions. Drone attacks across multiple regions indicate sustained offensive operations. Enemy movements near Minyivka suggest localized breakthroughs.",
+  "summary": "Russian forces launched ballistic missile strikes on Kyiv's left bank causing 3-5 impacts in Darnitsky district, while simultaneous jet UAV waves from Sumy region targeted Chernihiv and Kyiv regions. Russian Geran-4 UAV struck an energy substation in Sumy region. Zaporizhzhia city center was hit by KAB guided bombs killing one and wounding at least four including a child.",
   "key_points": [
-    "Ballistic missile struck Kyiv (Source: @mon1tor_ua/68854).",
-    "Three strikes reported on Chornomors'k, Sanzhiyku, and Odesa (Source: @mon1tor_ua/68840).",
-    "Iskander-M rocket threat from occupied Crimea (Source: @mon1tor_ua/68844).",
-    "49 enemy ships sunk in 4 days (Source: @mon1tor_ua/68869).",
-    "Odesa port infrastructure hit by missile (Source: @UkraineNow/82558).",
-    "Yuzhnoy port targeted by Russian forces (Source: @tass_agency/384799).",
-    "Detailed strike report: 144 UAVs destroyed, multiple city attacks (Source: @ukr_leaks_eng/31542)."
+    "Ballistic missiles struck Kyiv's Darnitsky district with 3-5 impacts overnight. (Source: @mon1tor_ua/68853)",
+    "Multiple jet UAV groups launched from Sumy region toward Krolevets, Konotop, Chernihiv, and Kyiv. (Source: @kpszsu/67998)",
+    "Russian Geran-4 UAV destroyed energy substation in Sumy region per Russian MoD. (Source: @tass_agency/384785)",
+    "Zaporizhzhia city center attacked with KABs: residential buildings damaged, 1 killed, 4+ wounded including child. (Source: @UkraineNow/82551)",
+    "Odesa region port infrastructure hit by cruise missiles causing fires, 1 killed. (Source: @UkraineNow/82558)",
+    "Russian air defense claims 445 Ukrainian UAVs, 2 aerial bombs, 2 long-range missiles downed; 1,460 Ukrainian losses reported. (Source: @tass_agency/384811)",
+    "Russian forces advanced near Minkivka per DeepState map update. (Source: @DeepStateUA/23630)",
+    "Zelensky states Ukrainian air defense cannot intercept Russian ballistic missiles. (Source: @ukr_leaks_eng/31549)"
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Ballistic missile strikes on Kyiv and Odesa ports mark a significant escalation. Drone swarms across multiple regions suggest coordinated offensive efforts. Enemy advances near Minyivka indicate potential localized breakthroughs.",
+    "executive_summary": "Russian forces conducted a coordinated overnight strike package combining ballistic missiles on Kyiv's left bank (3-5 impacts in Darnitsky district) with multiple jet UAV waves launched from Sumy region transiting Chernihiv toward Kyiv. Simultaneously, a Russian Geran-4 UAV struck an energy substation in Sumy region, while KAB guided bombs hit Zaporizhzhia city center killing one civilian and wounding four including a child, and cruise missiles targeted Odesa port infrastructure killing one. Russian forces reportedly advanced near Minkivka on the eastern front.",
     "ukraine": {
       "points": [
-        "Ballistic missile impacts in Kyiv caused alarm signals and fires in non-residential areas (Source: @ukr_leaks_eng/31542).",
-        "Drone attacks from Krovlyavets and Chernihiv regions targeted Kharkiv and Chernihiv (Source: @kpszsu/67998, @eRadarrua/100587).",
-        "Odesa port infrastructure damaged by missile strikes, with localized fires (Source: @UkraineNow/82558).",
-        "Enemy assault troops active in Sumy region, engaging in small-arms battles near Bachevsk and Shostka (Source: @ukr_leaks_eng/31542).",
-        "Port strikes in Izmail and Yuzhnoy disrupted logistics for Ukrainian forces (Source: @tass_agency/384801, @tass_agency/384799).",
-        "Enemy UAV attacks in Taganrog Bay targeted a methanol tanker, causing casualties (Source: @ukr_leaks_eng/31542).",
-        "Enemy forces advancing near Minyivka, with map updates showing territorial gains (Source: @DeepStateUA/23630)."
+        "President Zelensky acknowledged Ukrainian air defense systems lack capability to intercept Russian ballistic missiles, urging partners to fulfill NATO support promises. (Source: @ukr_leaks_eng/31549)",
+        "Zelensky signed decrees establishing a special command for long-range strikes against Russia and a rapid response joint task force. (Source: @ukr_leaks_eng/31543)",
+        "Ukrainian monitoring channels tracked multiple Shahed-type UAV groups crossing from Sumy region through Chernihiv toward Kyiv overnight. (Source: @mon1tor_ua/68868)",
+        "Air raid alerts activated in Kyiv at 03:40 and lifted at 05:02 after ballistic missile impacts and UAV transits. (Source: @eRadarrua/100567, @eRadarrua/100579)",
+        "Eurostat data shows Ukrainian temporary protection holders in EU increased to 4.38 million in May, with largest rise in Italy (+6,250). (Source: @ukr_leaks_eng/31545)",
+        "Lviv court detained a 23-year-old serviceman without bail for attacking a police officer during anti-TCC riots. (Source: @ukr_leaks_eng/31533)",
+        "Ukrainian nationalist figure Korchinsky called for arming TCC personnel and authorizing lethal force against resisters. (Source: @ukr_leaks_eng/31534)"
       ]
     },
     "russia": {
       "points": [
-        "Missile strikes on Odesa and Yuzhnoy ports targeted Ukrainian logistics hubs (Source: @tass_agency/384799, @tass_agency/384801).",
-        "Iskander-M rocket threats from Crimea indicate strategic targeting (Source: @mon1tor_ua/68844).",
-        "Enemy UAV and missile attacks in Taganrog Bay and Azov Sea disrupted maritime operations (Source: @ukr_leaks_eng/31542).",
-        "Russian forces reported sinking 49 ships in 4 days (Source: @mon1tor_ua/68869).",
-        "Strikes on fuel infrastructure and transport networks in occupied territories (Source: @tass_agency/384815).",
-        "Enemy air defenses downed 445 UAVs in a single day (Source: @tass_agency/384815).",
-        "Military operations in Belgorod and Kharkov regions involved small-arms engagements (Source: @ukr_leaks_eng/31542)."
+        "Russian MoD released video showing Geran-4 UAV strike on energy substation in Sumy region. (Source: @tass_agency/384785)",
+        "Russian air defense claimed destruction of 445 Ukrainian fixed-wing UAVs, 2 aerial bombs, and 2 long-range missiles in 24 hours. (Source: @tass_agency/384811)",
+        "Russian MoD reported Ukrainian losses of approximately 1,460 personnel across all fronts in past 24 hours. (Source: @tass_agency/384811)",
+        "Russian \"South\" group evacuated up to 20 civilians from Konstantinovka over three days per MoD. (Source: @tass_agency/384787)",
+        "Russian assault troops and scouts began operating near Druzhkivka per DNR head Pushilin. (Source: @tass_agency/384809)",
+        "Water supply restricted in Crimea due to network accident per \"Voda Kryma\" utility. (Source: @tass_agency/384812)",
+        "Grain truck queues formed at Azov, Rostov-on-Don, and Taganrog ports after they stopped accepting wheat per Russian Telegram channels. (Source: @eRadarrua/100590)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Enemy advances near Minyivka with map updates showing territorial gains (Source: @DeepStateUA/23630).",
-        "Enemy assault troops active in Sumy region, engaging in small-arms battles (Source: @ukr_leaks_eng/31542).",
-        "Enemy forces attempting to establish positions in forest belts near Novoskelevatoye (Source: @ukr_leaks_eng/31542).",
-        "Enemy UAV attacks in Kherson region caused civilian injuries (Source: @ukr_leaks_eng/31542).",
-        "Enemy logistics disruptions via port strikes in Odesa and Yuzhnoy (Source: @tass_agency/384799, @tass_agency/384801).",
-        "Enemy forces counterattacking in Malinovka and Tikhonovka (Source: @ukr_leaks_eng/31542).",
-        "Enemy troops breaking through toward Alexeyevo-Druzhkovka (Source: @ukr_leaks_eng/31542)."
+        "DeepState map update confirms Russian forces advanced near Minkivka. (Source: @DeepStateUA/23630)",
+        "Russian assault troops and reconnaissance elements active in Druzhkivka outskirts per DNR head Pushilin. (Source: @tass_agency/384809)",
+        "Russian \"South\" group conducted civilian evacuations from Konstantinovka over three days. (Source: @tass_agency/384787)",
+        "Russian tactical aviation active on eastern and southeastern fronts with KAB employment threat for frontline areas. (Source: @kpszsu/68034)",
+        "KAB guided bombs struck northeast Kharkiv region per Ukrainian monitoring. (Source: @kpszsu/68018)",
+        "UAV activity reported from north toward Kharkiv city. (Source: @kpszsu/68018)",
+        "No specific ground combat details beyond Minkivka advance and Druzhkivka activity in provided messages."
       ]
     },
     "northern_front": {
       "points": [
-        "Enemy UAV attacks in Kharkiv region targeted residential and industrial areas (Source: @eRadarrua/100587).",
-        "Enemy forces advancing near Kozachya Lopan (Source: @ukr_leaks_eng/31542).",
-        "Enemy small-arms battles ongoing in Volokhovskoye and Yurchenkovo (Source: @ukr_leaks_eng/31542).",
-        "Enemy UAV strikes in Belgorod region killed a civilian (Source: @ukr_leaks_eng/31542).",
-        "Enemy forces operating near Pokarsky district (Source: @ukr_leaks_eng/31542).",
-        "Enemy UAV attacks in Novaya Sich and Khoten villages (Source: @ukr_leaks_eng/31542).",
-        "Enemy attempts to supply electricity to Sumy residents (Source: @ukr_leaks_eng/31542)."
+        "Multiple jet UAV groups launched from Sumy region toward Krolevets, Konotop, Chernihiv, and Kyiv overnight. (Source: @kpszsu/67998, @kpszsu/68040, @kpszsu/68042, @kpszsu/68049)",
+        "Russian Geran-4 UAV struck energy substation in Sumy region per Russian MoD video. (Source: @tass_agency/384785)",
+        "Ballistic missile threat declared from southern direction per Ukrainian air defense alert. (Source: @kpszsu/68025)",
+        "Ballistic missiles impacted Kyiv's Darnitsky district with 3-5 hits around 03:39. (Source: @mon1tor_ua/68853, @eRadarrua/100569)",
+        "Air raid alert in Kyiv activated at 03:40, lifted at 05:02. (Source: @eRadarrua/100567, @eRadarrua/100579)",
+        "Ukrainian monitoring noted lack of air raid alert in Kyiv region despite UAV transits. (Source: @eRadarrua/100575)",
+        "Two jet Shaheds from Sumy transited Chernihiv toward Kyiv per monitoring channels. (Source: @mon1tor_ua/68868)"
       ]
     },
     "southern_front": {
       "points": [
-        "Enemy UAV attacks in Taganrog Bay targeted a methanol tanker (Source: @ukr_leaks_eng/31542).",
-        "Enemy forces conducting counterattacks in Malinovka and Tikhonovka (Source: @ukr_leaks_eng/31542).",
-        "Enemy UAV strikes in Azov Sea disrupted maritime operations (Source: @ukr_leaks_eng/31542).",
-        "Enemy forces advancing near Bachevsk and Pisarevka (Source: @ukr_leaks_eng/31542).",
-        "Enemy UAV attacks in Odesa region caused civilian casualties (Source: @UkraineNow/82558).",
-        "Enemy forces operating near Zaporozhye region (Source: @ukr_leaks_eng/31542).",
-        "Enemy UAV attacks in Kherson region caused power outages (Source: @ukr_leaks_eng/31542)."
+        "Zaporizhzhia city center attacked with KAB guided bombs: residential and non-residential buildings destroyed, 1 killed, at least 4 wounded including a child, evacuations underway. (Source: @UkraineNow/82551)",
+        "Odesa region port infrastructure hit by cruise missiles causing fires, 1 killed, consequences being mitigated. (Source: @UkraineNow/82558)",
+        "Six Shahed UAVs targeted Chornomorsk in Odesa region per monitoring. (Source: @mon1tor_ua/68838)",
+        "UAV from Black Sea area headed toward Odesa region (Chornomorsk) per tracking. (Source: @kpszsu/68032)",
+        "UAV group transited Kherson region toward Mykolaiv region (Novy Buh/Kazanka). (Source: @kpszsu/68051)",
+        "UAVs in Zaporizhzhia region moving toward Komyshuvakha from south and Novomykolaivka from east. (Source: @kpszsu/68015)",
+        "Shipping halted on Azov-Don Sea Canal; grain truck queues at Azov, Rostov-on-Don, Taganrog ports. (Source: @eRadarrua/100590)"
       ]
     },
     "air_war": {
       "points": [
-        "Enemy air defenses downed 445 UAVs in a single day (Source: @tass_agency/384815).",
-        "Enemy UAV attacks in Kharkiv and Kherson regions (Source: @eRadarrua/100587, @ukr_leaks_eng/31542).",
-        "Enemy missile strikes on Kyiv and Odesa ports (Source: @mon1tor_ua/68854, @tass_agency/384799).",
-        "Enemy UAV swarms in Taganrog Bay (Source: @ukr_leaks_eng/31542).",
-        "Enemy missile and UAV attacks in Taganrog and Azov Sea (Source: @ukr_leaks_eng/31542).",
-        "Enemy UAV attacks in Kharkiv and Chernihiv regions (Source: @kpszsu/67998, @eRadarrua/100587).",
-        "Enemy UAV and missile strikes in Odesa and Yuzhnoy ports (Source: @UkraineNow/82558, @tass_agency/384799)."
+        "Ballistic missiles struck Kyiv left bank (Darnitsky district) with 3-5 impacts around 03:39. (Source: @mon1tor_ua/68853, @eRadarrua/100569)",
+        "Multiple waves of jet-powered UAVs (Shahed-type) launched from Sumy region toward Chernihiv and Kyiv. (Source: @kpszsu/67998, @mon1tor_ua/68868)",
+        "Russian Geran-4 UAV destroyed energy substation in Sumy region per MoD video. (Source: @tass_agency/384785)",
+        "KAB guided bombs employed against Zaporizhzhia city center and northeast Kharkiv region. (Source: @UkraineNow/82551, @kpszsu/68018)",
+        "Cruise missiles struck Odesa port infrastructure causing fires and casualties. (Source: @UkraineNow/82558)",
+        "Russian air defense claims: 445 Ukrainian fixed-wing UAVs, 2 aerial bombs, 2 long-range missiles downed in 24h. (Source: @tass_agency/384811)",
+        "Ukrainian air defense reportedly lacks capability to intercept Russian ballistic missiles per Zelensky. (Source: @ukr_leaks_eng/31549)"
       ]
     },
     "key_developments": [
-      "Ballistic missile strike on Kyiv (Source: @mon1tor_ua/68854).",
-      "Odesa port infrastructure damaged by missile (Source: @UkraineNow/82558).",
-      "Enemy sinking of 49 ships in 4 days (Source: @mon1tor_ua/68869).",
-      "Enemy advances near Minyivka (Source: @DeepStateUA/23630).",
-      "Iskander-M rocket threat from Crimea (Source: @mon1tor_ua/68844).",
-      "Enemy UAV swarms in Taganrog Bay (Source: @ukr_leaks_eng/31542).",
-      "Enemy missile strikes on Yuzhnoy port (Source: @tass_agency/384799)."
+      "Ballistic missile strikes hit Kyiv's Darnitsky district with 3-5 impacts overnight, marking rare direct hits on capital. (Source: @mon1tor_ua/68853)",
+      "Coordinated jet UAV waves from Sumy region transited Chernihiv toward Kyiv while ballistic missiles struck. (Source: @kpszsu/67998, @mon1tor_ua/68868)",
+      "Russian Geran-4 UAV struck energy substation in Sumy region per Russian MoD confirmation. (Source: @tass_agency/384785)",
+      "KAB guided bombs destroyed residential buildings in Zaporizhzhia city center killing 1 civilian and wounding 4 including child. (Source: @UkraineNow/82551)",
+      "Cruise missiles hit Odesa port infrastructure causing fires and 1 fatality. (Source: @UkraineNow/82558)",
+      "DeepState map shows Russian tactical advance near Minkivka on eastern front. (Source: @DeepStateUA/23630)",
+      "Zelensky signed decrees creating special long-range strike command and rapid response joint task force. (Source: @ukr_leaks_eng/31543)"
     ],
-    "threat_assessment": "The escalation of missile and drone attacks on key Ukrainian ports and cities indicates a deliberate effort to disrupt logistics and civilian infrastructure. The Iskander-M threat from Crimea suggests Russia is leveraging occupied territories for strategic strikes. Enemy advances near Minyivka and Minyivka suggest potential breakthroughs that could shift frontline dynamics.",
-    "regional_response": "Ukrainian forces are countering missile and drone strikes with air defense systems, while also conducting localized counteroffensives in Sumy and Kharkiv regions. The closure of the Don-Azov canal by Russia aims to restrict Ukrainian maritime supply lines. Western arms supplies, including Patriot systems, are being prioritized to counter missile threats.",
-    "intelligence_notes": "The coordinated use of ballistic missiles and drones across multiple fronts highlights Russia's integrated offensive strategy. The targeting of ports and logistics hubs suggests an attempt to isolate Ukrainian forces. The Iskander-M threat from Crimea underscores the risk of long-range strikes on Ukrainian and potentially European targets."
+    "threat_assessment": "The simultaneous ballistic missile strikes on Kyiv and mass jet UAV launches from Sumy region demonstrate Russia's growing capacity for complex, multi-axis strike packages targeting Ukrainian command centers and critical infrastructure. Zelensky's admission that Ukrainian air defense cannot intercept ballistic missiles reveals a critical capability gap that Russia is actively exploiting. The use of KAB guided bombs on major urban centers like Zaporizhzhia and Kharkiv indicates a shift toward precision stand-off strikes on civilian infrastructure. Russian advances near Minkivka and activity around Druzhkivka suggest continued pressure on the eastern front, while the Geran-4 strike on Sumy energy infrastructure shows expanding UAV capabilities. The coordinated nature of these attacks across northern, eastern, and southern fronts signals an escalation in Russian operational tempo.",
+    "regional_response": "EU ambassadors approved opening the sixth negotiation cluster (External Relations) for Ukraine's accession, signaling continued political integration despite battlefield escalation. Germany is launching serial production of Gereon unmanned ground systems for Ukraine through DEUTZ-ARX partnership, with Patriot missile production slated for German facilities. China-Russia military cooperation is deepening per joint investigations, including joint air defense projects and anti-Starlink technologies. Ukrainian refugee numbers in EU rose to 4.38 million in May with Italy seeing largest increase. These developments show Western military-industrial support expanding while diplomatic integration proceeds, but the pace may not match Russia's current strike tempo.",
+    "intelligence_notes": "The Fire Point co-founder's claim of planned ballistic missile strikes on Moscow this fall suggests Ukrainian long-range strike ambitions are advancing, though operational feasibility remains uncertain. Russian shipping stoppages on the Azov-Don canal and grain port closures indicate domestic logistics strain possibly linked to Ukrainian maritime drone activity (13 shadow fleet vessels reportedly hit by SBU). Water restrictions in Crimea due to infrastructure accidents highlight persistent vulnerabilities in occupied territories. The TCC-related unrest in Lviv and Sykhiv district, including armed resistance and nationalist calls for lethal force, points to growing domestic friction over mobilization. These factors collectively suggest a widening conflict spectrum beyond frontline combat."
   },
   "missiles": 2,
   "drones": 121,
   "kpszsu_timeline": [
-    0,
-    0,
-    0,
     3,
     0,
-    1,
     0,
+    1,
     1,
     0,
     0,
     2,
     0,
-    1,
-    1,
-    1,
-    4,
-    1,
-    3,
-    3,
-    6,
+    0,
     2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    5,
+    3,
+    3,
     4,
     2,
+    0,
+    1,
     1
   ]
 }
