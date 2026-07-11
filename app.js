@@ -1204,7 +1204,7 @@ function _buildSupportHtml() {
     + "Follow @Kaldockhi</a>";
 }
 
-function _buildPlutoHtml() {
+function _buildGeolinkHtml() {
   const feat = (svg, title, desc) =>
     '<div style="display:flex;align-items:flex-start;gap:10px;padding:9px 10px;border-radius:8px;background:#ffffff03;border:1px solid #1b2330;">'
     + '<div style="width:30px;height:30px;border-radius:7px;background:#7c3aed14;border:1px solid #7c3aed25;display:flex;align-items:center;justify-content:center;flex-shrink:0;">' + svg + '</div>'
@@ -1212,36 +1212,35 @@ function _buildPlutoHtml() {
     + '<div style="font-size:10px;color:#46566d;line-height:1.55;">' + desc + '</div></div></div>';
 
   // Simple stroke icons — consistent with the site's purple palette
-  const iconPlatforms = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="8" height="8" rx="1.5"/><rect x="14" y="3" width="8" height="8" rx="1.5"/><rect x="2" y="13" width="8" height="8" rx="1.5"/><rect x="14" y="13" width="8" height="8" rx="1.5"/></svg>';
-  const iconShield    = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>';
-  const iconFreedom   = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="8" cy="6" r="2" fill="#0f1219"/><circle cx="16" cy="12" r="2" fill="#0f1219"/><circle cx="10" cy="18" r="2" fill="#0f1219"/></svg>';
+  const iconAI      = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 7V4h6v3"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="13" r="1"/><path d="M9 17h6"/></svg>';
+  const iconPin     = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>';
+  const iconFree    = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M14.5 9a2.5 2.5 0 00-5 0c0 2 3 2.5 3 4a2 2 0 01-3.5 1.3"/><path d="M12 6.5v11"/></svg>';
 
   return '<button class="pp-close" style="position:absolute;top:12px;right:12px;background:none;border:none;color:#3d4a5c;cursor:pointer;padding:4px;font-size:18px;line-height:1;">&#x2715;</button>'
     // ── Header ─────────────────────────────────────────────────────────────
     + '<div style="display:flex;align-items:center;gap:13px;margin-bottom:16px;">'
-    // Combined Pluto + Chrome icon
+    // Geolink icon — glowing map pin with an AI-scan ring
     + '<div style="position:relative;flex-shrink:0;">'
     + '<div style="width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,#1a0f30,#0f1219);border:1px solid #7c3aed35;display:flex;align-items:center;justify-content:center;box-shadow:0 0 18px #7c3aed18;">'
-    + '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg></div>'
-    // Chrome badge overlay
-    + '<div style="position:absolute;bottom:-4px;right:-5px;width:18px;height:18px;border-radius:50%;background:#0f1219;border:1.5px solid #1e2a3a;display:flex;align-items:center;justify-content:center;">'
-    + '<svg viewBox="0 0 24 24" width="13" height="13"><circle cx="12" cy="12" r="5" fill="white"/><path d="M12 7h8.66A11 11 0 0 1 12 23 11 11 0 0 1 4.93 20z" fill="#34A853"/><path d="M12 7H3.34A11 11 0 0 0 4.93 20L12 12z" fill="#FBBC05"/><path d="M12 7h8.66A11 11 0 0 0 3.34 7L12 12z" fill="#EA4335"/><circle cx="12" cy="12" r="4" fill="white"/><circle cx="12" cy="12" r="3" fill="#4285F4"/></svg>'
-    + '</div></div>'
+    + '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>'
+    // AI badge overlay
+    + '<div style="position:absolute;bottom:-4px;right:-5px;width:20px;height:14px;border-radius:5px;background:#7c3aed;border:1.5px solid #0f1219;display:flex;align-items:center;justify-content:center;font-size:7px;font-weight:800;color:#fff;font-family:\'JetBrains Mono\',monospace;letter-spacing:.04em;">AI</div>'
+    + '</div>'
     // Title block
     + '<div style="text-align:left;">'
     + '<div style="display:flex;align-items:center;gap:7px;margin-bottom:4px;">'
-    + '<span style="font-size:15px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;">Pluto</span>'
+    + '<span style="font-size:15px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#dde4f0;">Geolink</span>'
     + '<span style="font-size:8px;font-weight:700;font-family:\'JetBrains Mono\',monospace;color:#7c3aed;background:#7c3aed18;border:1px solid #7c3aed35;padding:2px 6px;border-radius:99px;letter-spacing:.08em;">COMING SOON</span>'
     + '</div>'
-    + '<div style="font-size:10px;color:#3d4f64;font-family:\'JetBrains Mono\',monospace;letter-spacing:.05em;">CHROME EXTENSION &nbsp;&#xb7;&nbsp; MISINFORMATION FILTER</div>'
+    + '<div style="font-size:10px;color:#3d4f64;font-family:\'JetBrains Mono\',monospace;letter-spacing:.05em;">AI GEOLOCATION &nbsp;&#xb7;&nbsp; 100% FREE</div>'
     + '</div></div>'
     // ── Divider ─────────────────────────────────────────────────────────────
     + '<div style="height:1px;background:linear-gradient(90deg,transparent,#1e2a3a 20%,#1e2a3a 80%,transparent);margin-bottom:14px;"></div>'
-    // ── Tagline ─────────────────────────────────────────────────────────────
+    // ── Features ─────────────────────────────────────────────────────────────
     + '<div style="display:flex;flex-direction:column;gap:6px;">'
-    + feat(iconPlatforms, 'YouTube, Instagram &amp; X', 'One extension, every major platform. Pluto works across all three with no extra setup.')
-    + feat(iconShield,    'Blocks Misinformation',      'Flags and filters unverified claims in real time before they reach your feed.')
-    + feat(iconFreedom,   'You Choose What You See',    'Granular controls let you decide exactly what gets filtered — no black boxes, no hidden rules.')
+    + feat(iconAI,   'AI-Powered Geolocation', 'Drop in any photo or clip and Geolink pinpoints where it was taken from visual clues alone.')
+    + feat(iconPin,  'Pinpoint Accuracy',       'Cross-references terrain, signage, skylines and shadows to narrow a location down to the map.')
+    + feat(iconFree, 'Completely Free',         'Every feature, no paywall, no credits, no account required — just open it and search.')
     + '</div>';
 }
 
@@ -1265,7 +1264,7 @@ function initFooterPopups() {
     },
     dataPolicyBtn: () => _openPillPopup(_buildDataPolicyHtml()),
     supportBtn:    () => _openPillPopup(_buildSupportHtml()),
-    plutoBtn:      () => _openPillPopup(_buildPlutoHtml(), true),
+    geolinkBtn:    () => _openPillPopup(_buildGeolinkHtml(), true),
   };
   for (const [id, handler] of Object.entries(ids)) {
     const btn = document.getElementById(id);
