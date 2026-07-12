@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-12T21:08:47.981139+00:00",
-  "message_count": 257,
+  "updated_at": "2026-07-12T23:06:58.259735+00:00",
+  "message_count": 264,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,82 +13,99 @@
   ],
   "red_alerts": 119,
   "red_alerts_timeline": [
-    14,
-    9,
     0,
     0,
     0,
     0,
     0,
     0,
-    9,
     5,
-    9,
-    5,
-    5,
-    5,
-    0,
+    10,
+    10,
     5,
     5,
-    14,
     5,
     0,
-    9,
     5,
-    9,
-    5
+    5,
+    10,
+    10,
+    0,
+    10,
+    5,
+    10,
+    10,
+    5,
+    0
   ],
   "combined_activity_timeline": [
-    8,
-    8,
     6,
+    9,
+    3,
+    10,
+    5,
+    10,
+    9,
+    12,
+    13,
+    7,
     8,
-    4,
-    10,
-    4,
-    10,
-    10,
-    10,
     14,
-    6,
-    8,
-    16,
-    15,
-    12,
+    13,
+    14,
     10,
-    18,
-    11,
-    2,
-    12,
     17,
+    9,
+    5,
+    12,
     15,
-    23
+    17,
+    24,
+    17,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 52,
-    "@kpszsu": 76,
-    "@mon1tor_ua": 15,
+    "@eRadarrua": 49,
+    "@kpszsu": 83,
+    "@mon1tor_ua": 19,
     "@UkraineNow": 17,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 10,
-    "@tass_agency": 85
+    "@tass_agency": 84
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/100782",
-    "kpszsu": "https://t.me/kpszsu/68240",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68903",
+    "eRadarrua": "https://t.me/eRadarrua/100792",
+    "kpszsu": "https://t.me/kpszsu/68252",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68907",
     "UkraineNow": "https://t.me/UkraineNow/82606",
     "DeepStateUA": "https://t.me/DeepStateUA/23636",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31567",
-    "tass_agency": "https://t.me/tass_agency/384940"
+    "tass_agency": "https://t.me/tass_agency/384948"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68896",
-    "tass_agency": "https://t.me/tass_agency/384921",
     "UkraineNow": "https://t.me/UkraineNow/82587",
-    "kpszsu": "https://t.me/kpszsu/68224"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31567",
+    "tass_agency": "https://t.me/tass_agency/384930",
+    "DeepStateUA": "https://t.me/DeepStateUA/23636",
+    "kpszsu": "https://t.me/kpszsu/68222",
+    "eRadarrua": "https://t.me/eRadarrua/100724",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68904"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/384945",
+      "post_id": 384945,
+      "channel": "tass_agency",
+      "ts": "2026-07-12T22:23:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/100789",
+      "post_id": 100789,
+      "channel": "eRadarrua",
+      "ts": "2026-07-12T21:22:10+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/gXbkekTrSguo_AmMwBLi3wNB_bQI8xmywA4yjN3Sk5ZXcmngeu3sSsyv4NvN0G1STOFlaG13Fnk4NY7swvZ8Iv01c1XQS5k8JgvkYKEJqRDZeqO2iPvi35SW7ZGQqBeuYp91xrXowiA4mu6ubBxnPhOqJywYEjrqM2zHSFHzMDY71MmgV3SodmKDQTHOTduH6SUiCUcTdOAt1Sqp3e2h07HgMaoh-me12X1p3tuckFdv7JP3AXVKepEyNR4OxWQsImSQvD-E67kvARj_16HiaduLlQ9mP2i46eLAygvcRiluCERx0K_GnWA0SNW13o3DzSILNrJiy_xjsXc5l2GDCg.jpg",
+      "companion_text_id": 100791
+    },
     {
       "post_url": "https://t.me/eRadarrua/100777",
       "post_id": 100777,
@@ -213,24 +230,14 @@
       "ts": "2026-07-12T12:34:50+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/DcRuwU3uYrjiL2TeHK1OS9fLqq4nS1TQsym6o3kkfraqZotcEr6LnG0K9ubcV1Uayr0_-xXt6-1kDhwEz2ShNgYkDBKvX7i-sM_pumcyL0kkvUidiDrLvKHL7EJBQ6DRYXjw3h-KGfKirx2a1tkIqaaaPfHY7DoLismzCUtmfqhG7YkLmyFeCgrfKrj3QCX7Aa7bQ4QOFEtR0r8t1vM9vh9J0zbtASL6QipydTrtWDg3OeuN-WKtRFiNy0ZhSBGmwG_6mxPRSPJf81-_zdoWFo4q2PHgYFeQPZHOPEWXZqsVImZT2SHoWatjtknHChQl0QzIYEjPGApBC91meb5MRA.jpg",
       "companion_text_id": 100707
-    },
-    {
-      "post_url": "https://t.me/tass_agency/384917",
-      "post_id": 384917,
-      "channel": "tass_agency",
-      "ts": "2026-07-12T12:32:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82597",
-      "post_id": 82597,
-      "channel": "UkraineNow",
-      "ts": "2026-07-12T11:33:33+00:00"
     }
   ],
   "post_images": {
     "eRadarrua/100764": "data/media/eRadarrua_100764.jpg",
     "eRadarrua/100774": "data/media/eRadarrua_100774.jpg",
     "eRadarrua/100777": "data/media/eRadarrua_100777.jpg",
+    "eRadarrua/100789": "data/media/eRadarrua_100789.jpg",
+    "eRadarrua/100791": "data/media/eRadarrua_100789.jpg",
     "eRadarrua/100753": "data/media/eRadarrua_100753.jpg",
     "eRadarrua/100752": "data/media/eRadarrua_100753.jpg",
     "eRadarrua/100727": "data/media/eRadarrua_100727.jpg",
@@ -244,127 +251,101 @@
     "eRadarrua/100707": "data/media/eRadarrua_100707.jpg",
     "eRadarrua/100708": "data/media/eRadarrua_100707.jpg",
     "eRadarrua/100684": "data/media/eRadarrua_100684.jpg",
-    "eRadarrua/100683": "data/media/eRadarrua_100684.jpg",
+    "eRadarrua/100685": "data/media/eRadarrua_100684.jpg",
     "eRadarrua/100691": "data/media/eRadarrua_100691.jpg",
     "eRadarrua/100690": "data/media/eRadarrua_100691.jpg",
-    "eRadarrua/100678": "data/media/eRadarrua_100678.jpg",
-    "eRadarrua/100677": "data/media/eRadarrua_100678.jpg",
-    "eRadarrua/100680": "data/media/eRadarrua_100680.jpg",
-    "eRadarrua/100679": "data/media/eRadarrua_100680.jpg",
     "kpszsu/68150": "data/media/kpszsu_68150.jpg"
   },
-  "summary": "Russian forces conducted multiple missile and drone strikes across Ukraine, targeting ports and infrastructure. Ukrainian defenses reported destroying numerous Russian aircraft and drones. Political developments include Ukrainian cabinet reshuffles and international diplomatic responses.",
+  "summary": "A Russian refinery in Syzran, Samara Oblast, has caught fire following drone attacks. Ukraine is receiving significant military aid, including a German-funded order for 50,000 Shrike FPV drones. Ukrainian leadership is undergoing political restructuring as President Zelenskyy announces plans to replace the Prime Minister and law enforcement leadership.",
   "key_points": [
-    "Russian Su-34 and Su-30 aircraft conducted missile strikes near Sevastopol and Poltava (Source: @mon1tor_ua/68896)",
-    "Russian attack on a ferry in LNR's Enerhodar killed four civilians (Source: @tass_agency/384921)",
-    "Ukrainian strikes damaged a Russian oil refinery in Syzran (Source: @UkraineNow/82587)",
-    "Russian air defenses intercepted 220 Ukrainian drones over multiple regions (Source: @tass_agency/384932)",
-    "Ukrainian officials confirmed strikes on 10 Russian tankers and 4 ammunition trucks (Source: @UkraineNow/82591)",
-    "Russian authorities preparing punitive operations against 70+ pro-Ukrainian residents in Belgorod (Source: @tass_agency/384930)",
-    "Ukrainian Defense Ministry reported ongoing PPO challenges and need for military reforms (Source: @UkraineNow/82598)"
+    "A refinery in Syzran, Samara Oblast, belonging to PJSC Rosneft, caught fire following drone attacks (Source: @UkraineNow/82587).",
+    "Germany is financing the purchase of 50,000 Shrike FPV drones for Ukraine, featuring US-made Auterion software for autonomous target engagement (Source: @ukr_leaks_eng/31567).",
+    "President Zelenskyy announced plans to replace Prime Minister Sviridenko and implement personnel changes in the government and law enforcement agencies (Source: @ukr_leaks_eng/31566).",
+    "Ukrainian drone forces struck 10 tankers and 4 ferries, contributing to a total of 90 Russian vessels targeted over the last week (Source: @UkraineNow/82591).",
+    "A drone strike on an industrial enterprise in Kryvyi Rih resulted in two fatalities (Source: @UkraineNow/82588).",
+    "In Kherson, a drone dropped an explosive device in the Korabel district, killing one person and injuring two (Source: @UkraineNow/82588).",
+    "A drone strike on a food industry enterprise in Dnipro was reported with no preliminary casualties (Source: @UkraineNow/82588).",
+    "In Sumy, a strike resulted in six deaths and 42 injuries (Source: @UkraineNow/82588)."
   ],
   "sentiment": "volatile",
-  "intensity": 8,
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Russian forces launched missile strikes targeting Ukrainian ports and infrastructure. Ukrainian defenses reported intercepting numerous drones and aircraft. Political developments include Ukrainian cabinet reshuffles and international diplomatic responses.",
+    "executive_summary": "A Russian refinery in Syzran, Samara Oblast, has caught fire following drone attacks. Ukraine is receiving significant military aid, including a German-funded order for 50,000 Shrike FPV drones. Ukrainian leadership is undergoing political restructuring as President Zelenskyy announces plans to replace the Prime Minister and law enforcement leadership.",
     "ukraine": {
       "points": [
-        "Ukrainian officials reported strikes on 10 Russian tankers and 4 ammunition trucks, disrupting logistics (Source: @UkraineNow/82591)",
-        "Russian attacks on Chornomorsk port and Odesa infrastructure confirmed (Source: @mon1tor_ua/68895)",
-        "Ukrainian Defense Ministry emphasized need for military reforms and PPO improvements (Source: @UkraineNow/82598)",
-        "Kharkiv region faced repeated Russian drone attacks from eastern directions (Source: @kpszsu/68224)",
-        "Ukrainian strikes damaged Russian oil refinery in Syzran (Source: @UkraineNow/82587)",
-        "Russian punitive operations targeting 70+ pro-Ukrainian residents in Belgorod region (Source: @tass_agency/384930)",
-        "Ukrainian officials confirmed strikes on Russian naval assets in Black Sea (Source: @UkraineNow/82591)"
+        "President Zelenskyy announced the replacement of Prime Minister Sviridenko and upcoming personnel changes within the government and law enforcement agencies (Source: @ukr_leaks_eng/31566).",
+        "Germany is financing the purchase of 50,000 Shrike FPV drones, equipped with Auterion software to autonomously track and engage moving targets (Source: @ukr_leaks_eng/31567).",
+        "Ukraine is expected to receive Patriot missile systems under a contract with Germany no earlier than 2028 (Source: @ukr_leaks_eng/31564).",
+        "Poland has transferred 5 Patriot missiles to Ukraine, with a provision for 50 more in case of threat (Source: @ukr_leaks_eng/31564).",
+        "Ukrainian drone forces struck 10 tankers and 4 ferries, part of a larger campaign that hit 90 Russian vessels in the last week (Source: @UkraineNow/82591)."
       ]
     },
     "russia": {
       "points": [
-        "Russian Su-34 and Su-30 aircraft conducted strikes near Sevastopol and Poltava (Source: @mon1tor_ua/68896)",
-        "Russian oil refinery in Syzran damaged by Ukrainian strikes (Source: @UkraineNow/82587)",
-        "Russian authorities preparing punitive operations against 70+ pro-Ukrainian residents (Source: @tass_agency/384930)",
-        "Russian air defenses intercepted 220 Ukrainian drones over multiple regions (Source: @tass_agency/384932)",
-        "Russian strikes on Ukrainian ports and infrastructure confirmed (Source: @mon1tor_ua/68895)",
-        "Russian military reported destroying 90+ Ukrainian naval assets (Source: @UkraineNow/82591)",
-        "Russian forces attacked Ukrainian energy infrastructure in Kharkiv region (Source: @kpszsu/68224)"
+        "A refinery in Syzran, Samara Oblast, part of PJSC Rosneft, caught fire following drone attacks (Source: @UkraineNow/82587).",
+        "Russian forces attacked public transport in Kherson, hitting a minibus and a stop, resulting in two civilian injuries (Source: @UkraineNow/82593).",
+        "Authorities in the Chernigov region are reportedly preparing operations to detain at least 70 pro-Russian residents in border areas (Source: @tass_agency/384930).",
+        "A bus traveling from Stakhanov to Moscow in the LNR was attacked by the AFU, reportedly injuring two women (Source: @tass_agency/384936)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces attacked Ukrainian positions near Donetsk with artillery (Source: @mon1tor_ua/68892)",
-        "Ukrainian strikes damaged Russian ammunition depot in Tokmak (Source: @UkraineNow/82591)",
-        "Russian punitive operations targeting pro-Ukrainian residents in Belgorod (Source: @tass_agency/384930)",
-        "Ukrainian forces reported strikes on Russian logistics hubs (Source: @UkraineNow/82591)",
-        "Russian attacks on Ukrainian energy infrastructure in Kharkiv region (Source: @kpszsu/68224)",
-        "Ukrainian Defense Ministry emphasized need for military reforms (Source: @UkraineNow/82598)",
-        "Russian forces conducted missile strikes near Sevastopol (Source: @mon1tor_ua/68896)"
+        "Enemy forces have advanced near Zhalizne (Source: @DeepStateUA/23636).",
+        "Russian tactical aviation launched guided aerial bombs toward the Kharkiv region from the east (Source: @kpszsu/68222)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian Su-34 conducted missile strike near Poltava (Source: @mon1tor_ua/68893)",
-        "Ukrainian forces reported strikes on Russian logistics hubs (Source: @UkraineNow/82591)",
-        "Russian attacks on Ukrainian energy infrastructure in Kharkiv region (Source: @kpszsu/68224)",
-        "Ukrainian Defense Ministry emphasized need for military reforms (Source: @UkraineNow/82598)",
-        "Russian punitive operations targeting pro-Ukrainian residents in Belgorod (Source: @tass_agency/384930)",
-        "Ukrainian strikes damaged Russian oil refinery in Syzran (Source: @UkraineNow/82587)",
-        "Russian forces conducted missile strikes near Sevastopol (Source: @mon1tor_ua/68896)"
+        "UAVs were reported flying near Velyshane in the Kharkiv region on a south-southeast course (Source: @kpszsu/68252).",
+        "UAVs were observed near Shevchenkove heading toward Pechenihy/Chuhuiv (Source: @kpszsu/68223)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian Su-34 and Su-30 conducted strikes near Sevastopol (Source: @mon1tor_ua/68896)",
-        "Ukrainian strikes damaged Russian oil refinery in Syzran (Source: @UkraineNow/82587)",
-        "Russian punitive operations targeting pro-Ukrainian residents in Belgorod (Source: @tass_agency/384930)",
-        "Ukrainian forces reported strikes on Russian logistics hubs (Source: @UkraineNow/82591)",
-        "Russian attacks on Ukrainian energy infrastructure in Kharkiv region (Source: @kpszsu/68224)",
-        "Ukrainian Defense Ministry emphasized need for military reforms (Source: @UkraineNow/82598)",
-        "Russian forces conducted missile strikes near Sevastopol (Source: @mon1tor_ua/68896)"
+        "In Crimea, Dzhankoy and the Dzhankoy district have been without electricity for seven days (Source: @UkraineNow/82592).",
+        "Water supply in Dzhankoy is restricted to specific hours due to fuel shortages and high costs (Source: @UkraineNow/82592).",
+        "The Azov Sea port in Rostov Oblast was struck by an FP-1 drone several days ago (Source: @eRadarrua/100724)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian Su-34 and Su-30 aircraft conducted strikes near Sevastopol (Source: @mon1tor_ua/68896)",
-        "Ukrainian forces reported intercepting 220 drones (Source: @tass_agency/384932)",
-        "Russian air defenses intercepted 220 Ukrainian drones (Source: @tass_agency/384932)",
-        "Ukrainian strikes damaged Russian oil refinery in Syzran (Source: @UkraineNow/82587)",
-        "Russian punitive operations targeting pro-Ukrainian residents in Belgorod (Source: @tass_agency/384930)",
-        "Ukrainian forces reported strikes on Russian logistics hubs (Source: @UkraineNow/82591)",
-        "Russian forces conducted missile strikes near Sevastopol (Source: @mon1tor_ua/68896)"
+        "A Su-34 launched a missile maneuver (Source: @mon1tor_ua/68904).",
+        "A Su-57 launched a missile maneuver (Source: @mon1tor_ua/68902).",
+        "A Shahed drone entered the Podilskyi district of Poltava from the north (Source: @mon1tor_ua/68893).",
+        "A Kh-31P missile was reported heading toward Odesa/Chornomorsk (Source: @mon1tor_ua/68891).",
+        "36 enemy UAVs heading to Moscow were destroyed since the start of the day (Source: @tass_agency/384914)."
       ]
     },
     "key_developments": [
-      "Ukrainian officials confirmed strikes on 10 Russian tankers and 4 ammunition trucks (Source: @UkraineNow/82591)",
-      "Russian punitive operations targeting 70+ pro-Ukrainian residents in Belgorod (Source: @tass_agency/384930)",
-      "Ukrainian Defense Ministry emphasized need for military reforms (Source: @UkraineNow/82598)",
-      "Russian air defenses intercepted 220 Ukrainian drones (Source: @tass_agency/384932)",
-      "Ukrainian strikes damaged Russian oil refinery in Syzran (Source: @UkraineNow/82587)",
-      "Russian forces conducted missile strikes near Sevastopol (Source: @mon1tor_ua/68896)",
-      "Ukrainian officials reported strikes on Russian logistics hubs (Source: @UkraineNow/82591)"
+      "A Rosneft refinery in Syzran, Samara Oblast, caught fire following drone strikes (Source: @UkraineNow/82587).",
+      "Germany is financing 50,000 Shrike FPV drones for Ukraine, featuring autonomous target engagement software (Source: @ukr_leaks_eng/31567).",
+      "President Zelenskyy announced plans to replace Prime Minister Sviridenko and reform law enforcement (Source: @ukr_leaks_eng/31566).",
+      "Ukrainian drones struck 10 tankers and 4 ferries, part of a week-long campaign hitting 90 vessels (Source: @UkraineNow/82591).",
+      "A drone strike in Kryvyi Rih killed two people at an industrial enterprise (Source: @UkraineNow/82588).",
+      "A drone strike in Sumy resulted in six deaths and 42 injuries (Source: @UkraineNow/82588).",
+      "Dzhankoy and surrounding areas in Crimea remain without electricity for a seventh day (Source: @UkraineNow/82592)."
     ],
-    "threat_assessment": "Russian forces continue aggressive strikes targeting Ukrainian ports and infrastructure, with increased focus on energy and logistics assets. Ukrainian defenses demonstrate capability to intercept significant numbers of drones, but sustained pressure risks overwhelming defenses. Political instability in Ukraine's cabinet could affect strategic coherence.",
-    "regional_response": "Ukrainian government implements cabinet reshuffles to strengthen strategic direction, while international partners provide military support. Russian authorities escalate punitive measures against pro-Ukrainian populations, risking further destabilization of occupied territories.",
-    "intelligence_notes": "Russian military appears prioritizing strikes on Ukrainian ports and energy infrastructure, while Ukrainian forces focus on disrupting Russian logistics. Political changes in Ukraine's cabinet may impact military coordination, requiring close monitoring of command structure adjustments."
+    "threat_assessment": "The operational environment is characterized by high-intensity drone warfare targeting both industrial infrastructure and civilian areas. The strike on the Syzran refinery indicates continued long-range capability against Russian energy assets. The influx of 50,000 autonomous FPV drones from Germany will likely increase the lethality of Ukrainian tactical operations.",
+    "regional_response": "Ukraine is undergoing significant political restructuring as President Zelenskyy moves to replace the Prime Minister and law enforcement leadership. International support remains high, evidenced by German financing for large-scale drone procurement and Polish transfers of Patriot missiles.",
+    "intelligence_notes": "The use of autonomous software in Shrike FPV drones represents a significant technological shift in UAV engagement. The targeting of civilian transport and infrastructure in Kherson and Sumy highlights the ongoing impact of kinetic strikes on non-combatant populations."
   },
   "missiles": 4,
   "drones": 115,
   "kpszsu_timeline": [
-    1,
     2,
-    2,
-    5,
+    6,
     1,
     3,
     1,
     4,
     1,
     0,
-    4,
     3,
-    1,
+    3,
+    2,
     4,
-    6,
-    7,
+    4,
+    9,
     4,
     6,
     2,
@@ -372,6 +353,8 @@
     2,
     4,
     7,
-    5
+    6,
+    7,
+    1
   ]
 }
