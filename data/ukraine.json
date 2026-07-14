@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-14T11:52:20.673721+00:00",
-  "message_count": 0,
+  "updated_at": "2026-07-14T14:06:31.699943+00:00",
+  "message_count": 365,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,189 +11,353 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 134,
+  "red_alerts": 140,
   "red_alerts_timeline": [
+    11,
+    11,
+    0,
+    6,
+    11,
+    11,
+    6,
+    6,
+    0,
+    0,
+    6,
+    6,
     0,
     0,
     0,
+    22,
+    11,
+    11,
     0,
+    6,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    6,
+    6,
     0
   ],
   "combined_activity_timeline": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    19,
+    18,
+    11,
+    7,
+    14,
+    11,
+    12,
+    20,
+    12,
+    8,
+    9,
+    13,
+    25,
+    9,
+    11,
+    24,
+    16,
+    19,
+    17,
+    21,
+    14,
+    17,
+    25,
+    11
   ],
-  "messages_by_channel": {},
-  "recent_post_urls": {},
-  "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31574",
-    "tass_agency": "https://t.me/tass_agency/385115",
-    "UkraineNow": "https://t.me/UkraineNow/82625",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/68902"
+  "messages_by_channel": {
+    "@eRadarrua": 64,
+    "@kpszsu": 57,
+    "@mon1tor_ua": 38,
+    "@UkraineNow": 26,
+    "@DeepStateUA": 3,
+    "@ukr_leaks_eng": 26,
+    "@tass_agency": 151
   },
-  "media": [],
-  "post_images": {},
-  "summary": "Russian forces launched coordinated drone attacks across multiple regions including attacks on civilian vessels in the Odesa port and oil facilities in Stavropol, while Ukrainian forces reported combat operations in Sumy, Kharkiv, and Dnipro directions. France announced plans to begin deliveries of SAMP-T missiles to Ukraine and granted production licenses for SCALP cruise missiles and AASM bombs. Ukrainian President Zelenskyy announced completion of the FREYJA anti-ballistic missile system development.",
+  "recent_post_urls": {
+    "eRadarrua": "https://t.me/eRadarrua/101000",
+    "kpszsu": "https://t.me/kpszsu/68446",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68967",
+    "UkraineNow": "https://t.me/UkraineNow/82647",
+    "DeepStateUA": "https://t.me/DeepStateUA/23640",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31615",
+    "tass_agency": "https://t.me/tass_agency/385251"
+  },
+  "cited_post_urls": {
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31613",
+    "tass_agency": "https://t.me/tass_agency/385240",
+    "eRadarrua": "https://t.me/eRadarrua/100965",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/68954",
+    "kpszsu": "https://t.me/kpszsu/68431",
+    "UkraineNow": "https://t.me/UkraineNow/82640",
+    "DeepStateUA": "https://t.me/DeepStateUA/23640"
+  },
+  "media": [
+    {
+      "post_url": "https://t.me/tass_agency/385251",
+      "post_id": 385251,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T14:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385249",
+      "post_id": 385249,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T13:29:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31613",
+      "post_id": 31613,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-14T13:22:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31612",
+      "post_id": 31612,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-14T13:02:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82646",
+      "post_id": 82646,
+      "channel": "UkraineNow",
+      "ts": "2026-07-14T12:31:00+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385243",
+      "post_id": 385243,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T12:26:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385241",
+      "post_id": 385241,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T12:07:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31610",
+      "post_id": 31610,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-14T12:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/DeepStateUA/23639",
+      "post_id": 23639,
+      "channel": "DeepStateUA",
+      "ts": "2026-07-14T11:50:28+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82644",
+      "post_id": 82644,
+      "channel": "UkraineNow",
+      "ts": "2026-07-14T11:27:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385233",
+      "post_id": 385233,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T11:26:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385231",
+      "post_id": 385231,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T11:17:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82643",
+      "post_id": 82643,
+      "channel": "UkraineNow",
+      "ts": "2026-07-14T11:02:39+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385229",
+      "post_id": 385229,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T11:00:40+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82642",
+      "post_id": 82642,
+      "channel": "UkraineNow",
+      "ts": "2026-07-14T10:47:00+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385227",
+      "post_id": 385227,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T10:46:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385226",
+      "post_id": 385226,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T10:37:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385224",
+      "post_id": 385224,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T10:24:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385223",
+      "post_id": 385223,
+      "channel": "tass_agency",
+      "ts": "2026-07-14T10:13:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31607",
+      "post_id": 31607,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-14T10:04:01+00:00"
+    }
+  ],
+  "post_images": {
+    "eRadarrua/100963": "data/media/eRadarrua_100963.jpg",
+    "eRadarrua/100964": "data/media/eRadarrua_100964.jpg",
+    "eRadarrua/100941": "data/media/eRadarrua_100941.jpg",
+    "eRadarrua/100939": "data/media/eRadarrua_100941.jpg",
+    "eRadarrua/100957": "data/media/eRadarrua_100957.jpg",
+    "eRadarrua/100959": "data/media/eRadarrua_100957.jpg",
+    "eRadarrua/100929": "data/media/eRadarrua_100929.jpg",
+    "eRadarrua/100928": "data/media/eRadarrua_100929.jpg",
+    "eRadarrua/100930": "data/media/eRadarrua_100930.jpg",
+    "eRadarrua/100931": "data/media/eRadarrua_100930.jpg",
+    "eRadarrua/100912": "data/media/eRadarrua_100912.jpg",
+    "eRadarrua/100913": "data/media/eRadarrua_100912.jpg",
+    "eRadarrua/100916": "data/media/eRadarrua_100916.jpg",
+    "eRadarrua/100917": "data/media/eRadarrua_100916.jpg",
+    "eRadarrua/100918": "data/media/eRadarrua_100918.jpg",
+    "eRadarrua/100920": "data/media/eRadarrua_100920.jpg",
+    "eRadarrua/100919": "data/media/eRadarrua_100920.jpg",
+    "eRadarrua/100884": "data/media/eRadarrua_100884.jpg",
+    "eRadarrua/100883": "data/media/eRadarrua_100884.jpg",
+    "eRadarrua/100885": "data/media/eRadarrua_100885.jpg",
+    "eRadarrua/100878": "data/media/eRadarrua_100878.jpg",
+    "eRadarrua/100877": "data/media/eRadarrua_100878.jpg",
+    "kpszsu/68397": "data/media/kpszsu_68397.jpg",
+    "kpszsu/68398": "data/media/kpszsu_68397.jpg"
+  },
+  "summary": "Russia is escalating drone attacks on Ukrainian ports and infrastructure, with reports of over 100 Shahed drones potentially being used in a single strike. Ukrainian officials highlight the threat of ballistic missile launches, while international allies emphasize the need for coordinated defense. The conflict remains highly volatile with frequent strikes and military movements.",
   "key_points": [
-    "Russian forces attacked civilian vessels in the Odesa region port of Chornomorsk with Geran-4 kamikaze drones, damaging a cargo ship, ferry, and fishing trawler. (Source: @ukr_leaks_eng/31574)",
-    "Drone attack on Mikhailovskaya oil depot in Stavropol region after previous strike on Syzransky oil refinery. (Source: @ukr_leaks_eng/31574)",
-    "Russian forces struck Chernigov region energy facility with three kamikaze drones, leaving city without power. (Source: @ukr_leaks_eng/31574)",
-    "Ukrainian forces engaged in fighting near Ulanovo and Malaya Sloboda in Sumy direction, with continued combat in Ryzhevka, Pisarevka, and forest areas south of Ivolzhanskoye. (Source: @ukr_leaks_eng/31574)",
-    "French President Macron announced SAMP-T missile deliveries to Ukraine will begin in coming weeks and granted production licenses for SCALP cruise missiles, Aster 30 missiles, and AASM Hammer bombs. (Source: @tass_agency/385115)",
-    "Ukrainian President Zelenskyy stated Ukraine is completing its FREYJA anti-ballistic missile system development. (Source: @UkraineNow/82625)",
-    "UK joined EU's €90 billion military funding program for Ukraine. (Source: @ukr_leaks_eng/31595)"
+    "Russia is reportedly preparing to launch over 100 Shahed jet drones in a single attack, according to Ukrainian aviation expert Bogdan Dolintse (Source: @ukr_leaks_eng/31613).",
+    "Russian strikes targeted Ukrainian ports and logistics infrastructure, including attacks on the Southern port and logistics centers (Source: @tass_agency/385240).",
+    "Polish Defense Minister Kosiniak-Kamysz urged Ukrainian refugees in Poland to return and join the military, criticizing their presence (Source: @ukr_leaks_eng/31588).",
+    "French President Macron warned that the war could spread beyond Ukraine if concessions are made, citing historical lessons (Source: @ukr_leaks_eng/31614).",
+    "Ukrainian forces reported drone attacks on Chernihiv and Poltava regions, with reactive Shahed drones and ballistic threats (Source: @eRadarrua/100965, @mon1tor_ua/68954).",
+    "Russian military actions included strikes on defense industry facilities in Kyiv producing missiles and drones (Source: @ukr_leaks_eng/31598).",
+    "Ballistic missile threats were reported from Bryansk and northern directions, with potential attacks on strategic sites (Source: @mon1tor_ua/68967, @kpszsu/68431)."
   ],
   "sentiment": "escalating",
-  "intensity": 8,
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russian forces launched coordinated drone attacks across multiple regions including attacks on civilian vessels in the Odesa port and oil facilities in Stavropol, while Ukrainian forces reported combat operations in Sumy, Kharkiv, and Dnipro directions. French President Macron announced plans to begin deliveries of SAMP-T missiles to Ukraine and granted production licenses for SCALP cruise missiles and AASM bombs. Ukrainian President Zelenskyy announced completion of the FREYJA anti-ballistic missile system development.",
+    "executive_summary": "Russia's escalation of drone and ballistic missile threats against Ukraine, including potential large-scale Shahed attacks, marks a critical operational development. Ukrainian defenses face sustained pressure on ports and infrastructure, while international allies stress the risk of broader conflict. The situation remains highly volatile with frequent strikes.",
     "ukraine": {
       "points": [
-        "In the Sumy direction, the 'North' group is engaged in fighting near Ulanovo and on approaches to Malaya Sloboda. Fighting continues in Ryzhevka, Pisarevka, Mogrytsa, Maryino, Novaya Sech, Khoten, and forest areas south of Ivolzhanskoye. In the Krasnopil district, fighting is taking place in forest areas and in the border village of Prokhody. (Source: @ukr_leaks_eng/31574)",
-        "In the Kharkov direction, the 'North' group continues offensive operations in the village of Kazachya Lopan. Fighting continues in Volchansk area in villages of Volokhovskoye, Yurchynkove, and Bely Kolodez. In Velikoburluk direction, fighting is taking place west of Petro-Ivanovka and in forest areas near Artelnoe, Budarki, and Zemlyanka. (Source: @ukr_leaks_eng/31574)",
-        "In the Kramatorsk direction, Russian forces are storming the area near Malinivka. Ukrainian forces report attacks from Ukrainian FPV drones. In Sloviansk, Ukrainian forces disrupted Russian logistics by destroying a gas station and fuel truck. (Source: @ukr_leaks_eng/31574)",
-        "In the Dobropoly direction, heavy fighting is taking place near Mirne, Serhiyivka, and Shevchenko villages. In the Dnepropetrovsk region, the 'East' group is advancing near Alexandrivka. (Source: @ukr_leaks_eng/31574)",
-        "In the Zaporozhye region, three civilians were killed in Energodar after an AFU FPV drone deliberately attacked a civilian vehicle. In Kamenka-Dneprovska, a network supermarket was hit by an enemy drone attack resulting in a fire. (Source: @ukr_leaks_eng/31574)",
-        "In the Chernigov region, Russian forces struck an energy facility with three kamikaze drones, leaving the city without power. Geran drones targeted locations in Dnepropetrovsk and Zaporozhye regions. (Source: @ukr_leaks_eng/31574)",
-        "Ukrainian forces destroyed 44 drones approaching Moscow overnight, with 45 destroyed as they approached the city. Approximately 300 drones had flown toward the capital in the previous 24 hours. (Source: @ukr_leaks_eng/31574)"
+        "Ukrainian forces reported reactive Shahed drones and ballistic threats in Chernihiv and Poltava regions, with specific locations like Kulivky and Semenivka mentioned (Source: @eRadarrua/100965, @mon1tor_ua/68954).",
+        "Strikes on Ukrainian ports and logistics infrastructure, including the Southern port and logistics centers, were documented by Russian sources (Source: @tass_agency/385240).",
+        "Ukrainian military exercises involving the 'Coalition of the Willing' were planned with French and British forces, per Polish Prime Minister Tusk (Source: @ukr_leaks_eng/31607).",
+        "Ballistic missile threats from Bryansk and northern directions were reported, with potential targeting of strategic sites (Source: @mon1tor_ua/68967, @kpszsu/68431).",
+        "Ukrainian defense officials highlighted the need for a European anti-ballistic system, with Zelenskyy presenting proposals in Paris (Source: @UkraineNow/82640).",
+        "Drone attacks on critical infrastructure, including a major oil refinery in Salavat, were carried out by Ukrainian special operations (Source: @UkraineNow/82637).",
+        "Russian strikes on defense industry facilities in Kyiv producing missiles and drones were reported (Source: @ukr_leaks_eng/31598)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces attacked civilian vessels in the port of Chornomorsk in the Odesa region with Geran-4 kamikaze drones, damaging a cargo ship, ferry, and fishing trawler during mineral fertilizer unloading operations. Three crew members killed, five injured. (Source: @UkraineNow/82614)",
-        "In the Belgorod region, a drone struck a private house in Sankovo village, injuring a woman. Another drone hit a car in Oktyabrsky village, injuring a man. Near Repyakhovka, a car exploded on what is believed to be an explosive device, killing one civilian and injuring another. (Source: @ukr_leaks_eng/31574)",
-        "In the Kharkov direction, Russian 'North' group continues offensive operations in Kazachya Lopan village. In Kupyansk area, Russian forces control is slowly expanding with many enemy drones in the sky. (Source: @ukr_leaks_eng/31574)",
-        "In the Kramatorsk direction, Russian forces are storming the area near Malinivka. Advanced units report attacks from Ukrainian FPV drones. In Sloviansk, Ukrainian forces destroyed a gas station and fuel truck. (Source: @ukr_leaks_eng/31574)",
-        "Russian forces struck the Chernigov region energy facility with three kamikaze drones, leaving the city without power. Geran drones targeted Dnepropetrovsk and Zaporozhye regions. (Source: @ukr_leaks_eng/31574)",
-        "Russian forces attacked civilian infrastructure in Odesa region port of Chornomorsk with Geran-4 kamikaze drones, damaging multiple vessels. (Source: @ukr_leaks_eng/31574)",
-        "Russian forces launched drone attacks on civilian infrastructure across multiple regions including attacks on oil facilities in Stavropol and energy infrastructure in Chernigov region. (Source: @ukr_leaks_eng/31574)"
+        "Russian military reported strikes on Ukrainian ports and logistics infrastructure, including the Southern port and logistics centers (Source: @tass_agency/385240).",
+        "Russian defense ministry claimed strikes on Ukrainian defense industry facilities producing missiles and drones (Source: @ukr_leaks_eng/31598).",
+        "Russian officials, including Lavrov, accused Ukraine of terrorism and criticized Western support for Kyiv (Source: @tass_agency/385234).",
+        "Russia emphasized continued food supply commitments to African countries despite Western pressure (Source: @tass_agency/385234).",
+        "Russian forces were reported to have intercepted and destroyed Shahed drones in Podmoskovye (Source: @tass_agency/385233).",
+        "Russian military actions included attacks on ports and infrastructure, with claims of targeting Ukrainian logistics (Source: @tass_agency/385210).",
+        "Russian officials accused Western countries of undermining Russia-Ukraine agreements and supporting terrorism (Source: @tass_agency/385234)."
       ]
     },
     "eastern_front": {
       "points": [
-        "In the Sumy direction, the 'North' group is engaged in fighting near Ulanovo and on approaches to Malaya Sloboda. Fighting continues in Ryzhevka, Pisarevka, Mogrytsa, Maryino, Novaya Sech, Khoten, and forest areas south of Ivolzhanskoye. In the Krasnopil district, fighting is taking place in forest areas and in the border village of Prokhody. (Source: @ukr_leaks_eng/31574)",
-        "In the Kharkov direction, the 'North' group continues offensive operations in the village of Kazachya Lopan. Fighting continues in Volchansk area in villages of Volokhovskoye, Yurchynkove, and Bely Kolodez. In Velikoburluk direction, fighting is taking place west of Petro-Ivanovka and in forest areas near Artelnoe, Budarki, and Zemlyanka. (Source: @ukr_leaks_eng/31574)",
-        "In Kupyansk area, Russian forces control is slowly expanding with many enemy drones in the sky. (Source: @ukr_leaks_eng/31574)",
-        "In the Kramatorsk direction, Russian forces are storming the area near Malinivka. Ukrainian forces report attacks from Ukrainian FPV drones. In Sloviansk, Ukrainian forces disrupted Russian logistics by destroying a gas station and fuel truck. (Source: @ukr_leaks_eng/31574)",
-        "In the Dobropoly direction, heavy fighting is taking place near Mirne, Serhiyivka, and Shevchenko villages. (Source: @ukr_leaks_eng/31574)",
-        "In the Dnepropetrovsk region, the 'East' group is advancing near Alexandrivka. (Source: @ukr_leaks_eng/31574)",
-        "Geran drones targeted locations in Dnepropetrovsk and Zaporozhye regions. (Source: @ukr_leaks_eng/31574)"
+        "Russian forces targeted Ukrainian positions near Malynivka, Sichneve, and Novogeorgiyivka, with reduced enemy-held territories reported (Source: @DeepStateUA/23640).",
+        "Ballistic missile threats from Bryansk and northern directions were reported, with potential targeting of strategic sites (Source: @mon1tor_ua/68967, @kpszsu/68431).",
+        "Ukrainian forces repelled Russian attacks near Malynivka and other areas, with specific locations mentioned (Source: @DeepStateUA/23640).",
+        "Russian strikes on infrastructure and military targets in eastern regions were documented (Source: @tass_agency/385210).",
+        "Russian forces were reported to have used ballistic missiles in eastern front operations (Source: @mon1tor_ua/68967).",
+        "Ukrainian defense officials noted the need for a European anti-ballistic system to counter Russian threats (Source: @UkraineNow/82640).",
+        "Russian military actions included attacks on ports and logistics centers in eastern Ukraine (Source: @tass_agency/385210)."
       ]
     },
     "northern_front": {
       "points": [
-        "In the Kharkov direction, the 'North' group continues offensive operations in the village of Kazachya Lopan. Fighting continues in Volchansk area in villages of Volokhovskoye, Yurchynkove, and Bely Kolodez. In Velikoburluk direction, fighting is taking place west of Petro-Ivanovka and in forest areas near Artelnoe, Budarki, and Zemlyanka. (Source: @ukr_leaks_eng/31574)",
-        "In Kupyansk area, Russian forces control is slowly expanding with many enemy drones in the sky. (Source: @ukr_leaks_eng/31574)",
-        "Ukrainian forces destroyed 44 drones approaching Moscow overnight, with 45 destroyed as they approached the city. Approximately 300 drones had flown toward the capital in the previous 24 hours. (Source: @ukr_leaks_eng/31574)",
-        "In the Belgorod region, a drone struck a private house in Sankovo village, injuring a woman. Another drone hit a car in Oktyabrsky village, injuring a man. Near Repyakhovka, a car exploded on what is believed to be an explosive device, killing one civilian and injuring another. (Source: @ukr_leaks_eng/31574)",
-        "In the Sumy direction, the 'North' group is engaged in fighting near Ulanovo and on approaches to Malaya Sloboda. Fighting continues in Ryzhevka, Pisarevka, Mogrytsa, Maryino, Novaya Sech, Khoten, and forest areas south of Ivolzhanskoye. In the Krasnopil district, fighting is taking place in forest areas and in the border village of Prokhody. (Source: @ukr_leaks_eng/31574)",
-        "Drone attacks on civilian infrastructure in Belgorod region including strikes on private homes and vehicles. (Source: @ukr_leaks_eng/31574)",
-        "Russian forces launched coordinated drone attacks across northern regions including attacks on Moscow and energy infrastructure. (Source: @ukr_leaks_eng/31574)"
+        "Ballistic missile threats from Bryansk and northern directions were reported, with potential targeting of strategic sites (Source: @mon1tor_ua/68967, @kpszsu/68431).",
+        "Russian forces were reported to have used ballistic missiles in northern front operations (Source: @mon1tor_ua/68967).",
+        "Ukrainian forces faced drone and missile attacks in northern regions, including Poltava and Chernihiv (Source: @eRadarrua/100965, @mon1tor_ua/68954).",
+        "Russian military actions included strikes on ports and infrastructure in northern Ukraine (Source: @tass_agency/385210).",
+        "Ballistic missile threats from northern directions were highlighted as a critical risk (Source: @mon1tor_ua/68967).",
+        "Ukrainian defense officials emphasized the need for coordinated European defense against Russian ballistic threats (Source: @UkraineNow/82640).",
+        "Russian forces were reported to have targeted northern Ukrainian regions with ballistic missiles (Source: @mon1tor_ua/68967)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces attacked civilian vessels in the port of Chornomorsk in the Odesa region with Geran-4 kamikaze drones, damaging a cargo ship, ferry, and fishing trawler during mineral fertilizer unloading operations. Three crew members killed, five injured. (Source: @UkraineNow/82614)",
-        "In the Zaporozhye region, three civilians were killed in Energodar after an AFU FPV drone deliberately attacked a civilian vehicle. In Kamenka-Dneprovska, a network supermarket was hit by an enemy drone attack resulting in a fire. (Source: @ukr_leaks_eng/31574)",
-        "Drone attacks on civilian infrastructure in Odesa region including attacks on oil facilities in Stavropol and energy infrastructure in Chernigov region. (Source: @ukr_leaks_eng/31574)",
-        "In the Kramatorsk direction, Russian forces are storming the area near Malinivka. Ukrainian forces report attacks from Ukrainian FPV drones. In Sloviansk, Ukrainian forces disrupted Russian logistics by destroying a gas station and fuel truck. (Source: @ukr_leaks_eng/31574)",
-        "In the Dobropoly direction, heavy fighting is taking place near Mirne, Serhiyivka, and Shevchenko villages. (Source: @ukr_leaks_eng/31574)",
-        "In the Dnepropetrovsk region, the 'East' group is advancing near Alexandrivka. (Source: @ukr_leaks_eng/31574)",
-        "Geran drones targeted locations in Dnepropetrovsk and Zaporozhye regions. (Source: @ukr_leaks_eng/31574)"
+        "Russian strikes on Ukrainian ports and logistics infrastructure in the Southern region were documented (Source: @tass_agency/385240).",
+        "Ballistic missile threats from southern directions were reported, with potential targeting of strategic sites (Source: @mon1tor_ua/68967).",
+        "Ukrainian forces faced drone and missile attacks in southern regions, including Poltava and Chernihiv (Source: @eRadarrua/100965, @mon1tor_ua/68954).",
+        "Russian military actions included attacks on ports and logistics centers in southern Ukraine (Source: @tass_agency/385210).",
+        "Ballistic missile threats from southern directions were highlighted as a critical risk (Source: @mon1tor_ua/68967).",
+        "Ukrainian defense officials emphasized the need for a European anti-ballistic system to counter Russian threats (Source: @UkraineNow/82640).",
+        "Russian forces were reported to have targeted southern Ukrainian regions with ballistic missiles (Source: @mon1tor_ua/68967)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian forces destroyed 44 drones approaching Moscow overnight, with 45 destroyed as they approached the city. Approximately 300 drones had flown toward the capital in the previous 24 hours. (Source: @ukr_leaks_eng/31574)",
-        "Russian forces launched drone attacks on civilian infrastructure across multiple regions including attacks on oil facilities in Stavropol and energy infrastructure in Chernigov region. (Source: @ukr_leaks_eng/31574)",
-        "In the Belgorod region, a drone struck a private house in Sankovo village, injuring a woman. Another drone hit a car in Oktyabrsky village, injuring a man. Near Repyakhovka, a car exploded on what is believed to be an explosive device, killing one civilian and injuring another. (Source: @ukr_leaks_eng/31574)",
-        "Drone attacks on civilian infrastructure in Odesa region including attacks on oil facilities in Stavropol and energy infrastructure in Chernigov region. (Source: @ukr_leaks_eng/31574)",
-        "Russian Su-30 and Su-57 aircraft conducted combat maneuvers over the Black Sea area near Sevastopol. (Source: @mon1tor_ua/68902)",
-        "Russian forces launched coordinated drone attacks across multiple regions including attacks on Moscow and energy infrastructure. (Source: @ukr_leaks_eng/31574)",
-        "Ukrainian forces reported destroying 44 drones approaching Moscow overnight, with 45 destroyed as they approached the city. (Source: @ukr_leaks_eng/31574)"
+        "Reactive Shahed drones and ballistic missiles were reported in multiple regions, including Chernihiv, Poltava, and northern areas (Source: @eRadarrua/100965, @mon1tor_ua/68954).",
+        "Russian forces were reported to have used ballistic missiles in air warfare operations (Source: @mon1tor_ua/68967).",
+        "Ukrainian forces reported drone attacks on critical infrastructure, including oil refineries (Source: @UkraineNow/82637).",
+        "Ballistic missile threats from Bryansk and northern directions were a key concern (Source: @mon1tor_ua/68967).",
+        "Ukrainian defense officials highlighted the need for a European anti-ballistic system to counter Russian air threats (Source: @UkraineNow/82640).",
+        "Russian military actions included strikes on ports and infrastructure using ballistic missiles (Source: @tass_agency/385210).",
+        "Reactive Shahed drones were reported in multiple regions, with specific locations like Kulivky and Semenivka mentioned (Source: @eRadarrua/100965, @mon1tor_ua/68954)."
       ]
     },
     "key_developments": [
-      "Russian forces attacked civilian vessels in the Odesa region port of Chornomorsk with Geran-4 kamikaze drones, damaging a cargo ship, ferry, and fishing trawler during mineral fertilizer unloading operations. Three crew members killed, five injured. (Source: @UkraineNow/82614)",
-      "French President Macron announced SAMP-T missile deliveries to Ukraine will begin in coming weeks and granted production licenses for SCALP cruise missiles, Aster 30 missiles, and AASM Hammer bombs. (Source: @tass_agency/385115)",
-      "Ukrainian President Zelenskyy stated Ukraine is completing its FREYJA anti-ballistic missile system development. (Source: @UkraineNow/82625)",
-      "UK joined EU's €90 billion military funding program for Ukraine. (Source: @ukr_leaks_eng/31595)",
-      "In the Sumy direction, the 'North' group is engaged in fighting near Ulanovo and on approaches to Malaya Sloboda. Fighting continues in Ryzhevka, Pisarevka, Mogrytsa, Maryino, Novaya Sech, Khoten, and forest areas south of Ivolzhanskoye. (Source: @ukr_leaks_eng/31574)",
-      "In the Kharkov direction, the 'North' group continues offensive operations in the village of Kazachya Lopan. Fighting continues in Volchansk area in villages of Volokhovskoye, Yurchynkove, and Bely Kolodez. (Source: @ukr_leaks_eng/31574)",
-      "In the Zaporozhye region, three civilians were killed in Energodar after an AFU FPV drone deliberately attacked a civilian vehicle. (Source: @ukr_leaks_eng/31574)"
+      "Russia's potential use of over 100 Shahed drones in a single attack, as reported by Ukrainian experts, poses a significant operational threat (Source: @ukr_leaks_eng/31613).",
+      "Strikes on Ukrainian ports and logistics infrastructure, including the Southern port and logistics centers, were documented by Russian sources (Source: @tass_agency/385240).",
+      "Polish Defense Minister Kosiniak-Kamysz's call for Ukrainian refugees to return and join the military reflects shifting regional dynamics (Source: @ukr_leaks_eng/31588).",
+      "French President Macron's warning about the war spreading beyond Ukraine if concessions are made highlights the risk of escalation (Source: @ukr_leaks_eng/31614).",
+      "Ballistic missile threats from Bryansk and northern directions, with potential targeting of strategic sites, were reported (Source: @mon1tor_ua/68967, @kpszsu/68431).",
+      "Ukrainian defense officials proposed a European anti-ballistic system to counter Russian threats, with Zelenskyy presenting plans in Paris (Source: @UkraineNow/82640).",
+      "Russian strikes on defense industry facilities in Kyiv producing missiles and drones were reported, indicating targeted industrial sabotage (Source: @ukr_leaks_eng/31598)."
     ],
-    "threat_assessment": "Russian forces are escalating drone attacks against civilian infrastructure across multiple regions, including attacks on merchant vessels in the Odesa port and oil facilities in Stavropol. The coordinated nature of these attacks suggests improved coordination and targeting capabilities. Ukrainian forces report ongoing combat operations in multiple directions, with Russian 'North' group advancing in Sumy and Kharkiv regions. The development of Ukrainian anti-ballistic capabilities including FREYJA system represents a significant strategic advancement. The involvement of multiple European nations in military support programs indicates sustained international commitment to Ukrainian defense capabilities.",
-    "regional_response": "France announced SAMP-T missile deliveries to Ukraine and granted production licenses for advanced weaponry including SCALP cruise missiles and AASM bombs. The UK joined the EU's €90 billion military funding program for Ukraine. Ukraine and nine other European countries officially created an Anti-Ballistic Missile Coalition to protect Europe from missile threats. Polish Defense Minister called on young Ukrainians to return home and join the Ukrainian Armed Forces. The EU failed to agree on a 21st round of sanctions against Russia but intends to blacklist 250 individuals under interim sanctions regime.",
-    "intelligence_notes": "Russian forces demonstrated capability to launch coordinated drone attacks across multiple regions simultaneously, targeting both military and civilian infrastructure. Ukrainian forces report ongoing combat operations in multiple directions with Russian 'North' group advancing in Sumy and Kharkiv regions. The development of Ukrainian anti-ballistic missile capabilities including FREYJA system represents a significant strategic advancement. International military support programs including the EU's €90 billion funding and Anti-Ballistic Missile Coalition indicate sustained Western commitment. Reports of Ukrainian military leadership issues including detention of a brigade commander raise questions about internal security and command structure."
+    "threat_assessment": "The escalation of drone and ballistic missile threats by Russia, including the potential use of over 100 Shahed drones in a single attack, represents a significant escalation in the conflict. These attacks target critical infrastructure and ports, undermining Ukraine's logistical and economic resilience. The threat of ballistic missiles from Bryansk and northern directions further complicates defense planning, requiring coordinated European countermeasures.",
+    "regional_response": "Poland's stance, including the recall of Ukrainian refugees and military calls, reflects regional tensions. France's emphasis on a European anti-ballistic system and the Coalition of the Willing's exercises indicate a growing international response. However, Russia's continued aggression and diplomatic pressure on African nations suggest a multifaceted threat that requires unified Western action.",
+    "intelligence_notes": "The reported use of Shahed drones and ballistic missiles by Russia underscores the need for enhanced air defense capabilities. The potential for large-scale drone attacks necessitates real-time monitoring and rapid response protocols. Regional cooperation, particularly through the Coalition of the Willing, is critical to countering Russia's escalating tactics."
   },
-  "stale_summary": true,
-  "missiles": 0,
-  "drones": 134,
+  "missiles": 5,
+  "drones": 135,
   "kpszsu_timeline": [
+    1,
+    2,
+    1,
     0,
+    1,
+    2,
+    1,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    2,
+    1,
+    2,
+    6,
+    3,
+    2,
+    1,
+    3,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    10,
+    2
   ]
 }
