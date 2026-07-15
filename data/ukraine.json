@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-15T03:00:14.994646+00:00",
-  "message_count": 305,
+  "updated_at": "2026-07-15T04:04:44.870764+00:00",
+  "message_count": 304,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,15 +14,14 @@
   "red_alerts": 140,
   "red_alerts_timeline": [
     0,
-    0,
     26,
     13,
     13,
     0,
     6,
     0,
-    0,
-    13,
+    6,
+    6,
     0,
     13,
     0,
@@ -34,55 +33,63 @@
     0,
     0,
     0,
-    13,
-    6,
+    19,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    6,
-    11,
-    23,
+    10,
+    24,
+    17,
+    20,
     16,
     21,
-    15,
-    22,
     14,
-    17,
-    25,
-    12,
-    17,
-    15,
-    13,
-    9,
+    18,
+    24,
     11,
+    18,
     15,
-    8,
+    12,
+    10,
+    11,
+    14,
+    9,
+    2,
+    5,
+    9,
+    7,
     4,
     5,
-    9,
-    6,
-    5,
-    5
+    7
   ],
   "messages_by_channel": {
     "@eRadarrua": 40,
-    "@kpszsu": 66,
-    "@mon1tor_ua": 12,
+    "@kpszsu": 69,
+    "@mon1tor_ua": 11,
     "@UkraineNow": 23,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 136
+    "@tass_agency": 133
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/101057",
-    "kpszsu": "https://t.me/kpszsu/68510",
+    "eRadarrua": "https://t.me/eRadarrua/101058",
+    "kpszsu": "https://t.me/kpszsu/68518",
     "mon1tor_ua": "https://t.me/mon1tor_ua/68977",
     "UkraineNow": "https://t.me/UkraineNow/82653",
     "DeepStateUA": "https://t.me/DeepStateUA/23642",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31622",
-    "tass_agency": "https://t.me/tass_agency/385305"
+    "tass_agency": "https://t.me/tass_agency/385307"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/82633",
+    "eRadarrua": "https://t.me/eRadarrua/101018",
+    "kpszsu": "https://t.me/kpszsu/68509",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31618",
+    "tass_agency": "https://t.me/tass_agency/385307",
+    "DeepStateUA": "https://t.me/DeepStateUA/23639"
+  },
   "media": [
     {
       "post_url": "https://t.me/tass_agency/385303",
@@ -223,98 +230,104 @@
     "kpszsu/68397": "data/media/kpszsu_68397.jpg",
     "kpszsu/68398": "data/media/kpszsu_68397.jpg"
   },
-  "summary": "Ukrainian forces report sustained drone and missile attacks across multiple regions, including strikes on Odesa port infrastructure and a major Russian fuel facility. Kyiv and surrounding areas suffered significant damage from 135 drones and 10 rockets. Poland's stance on EU accession negotiations highlights regional diplomatic tensions.",
+  "summary": "Iranian drones struck a tanker in Odesa, causing a fire and casualties, including two Ukrainians. Russian ballistic missiles hit Kyiv, damaging infrastructure. Drone attacks targeted freight trains and cargo ships in the Black Sea.",
   "key_points": [
-    "Ukrainian forces destroyed a Russian Black Sea fleet vessel using a Sargan-3000 missile system near Novorossiysk (Source: UkraineNow/82640).",
-    "A Russian oil refining complex in Salavat was struck by drones and missiles, damaging critical infrastructure (Source: UkraineNow/82637).",
-    "Polish officials emphasized protecting 'sensitive sectors' during Ukraine-EU accession talks, citing agricultural interests (Source: DeepStateUA/23642).",
-    "Iranian drones attacked tankers in the Red Sea, killing one crew member and injuring eight, including two Ukrainians (Source: UkraineNow/82633).",
-    "Multiple drone swarms targeted Odesa port, damaging infrastructure and fuel reserves (Source: tass_agency/385267).",
-    "Russian drones struck two bulk carriers en route from Chornomorsk to Odesa, hitting logistics facilities (Source: ukr_leaks_eng/31618).",
-    "Kyiv and regional areas endured 135 drones and 10 rockets, damaging schools, residences, and energy infrastructure (Source: UkraineNow/82639)."
+    "Iranian rockets hit a tanker in Odesa, killing one and injuring eight, including two Ukrainians (Source: @UkraineNow/82633).",
+    "Russian ballistic missiles struck Kyiv, causing fires in Darnytskyi and Holosiyivskyi districts (Source: @UkraineNow/82631).",
+    "Ukrainian drones destroyed a Russian FSB corvette 'Izumrud' near Novorossiysk (Source: @eRadarrua/101018).",
+    "Guided bombs targeted industrial sites in Dnipro (Source: @kpszsu/68509).",
+    "Russian drones attacked bulk carriers en route from Chornomorsk to Odesa (Source: @ukr_leaks_eng/31618).",
+    "KSVR attacks in Belgorod injured three civilians (Source: @tass_agency/385307).",
+    "Kh-59 missiles were reportedly launched from Su-34s toward Odesa (Source: @eRadarrua/101017)."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian forces report sustained drone and missile attacks across multiple regions, including strikes on Odesa port infrastructure and a major Russian fuel facility. Kyiv and surrounding areas suffered significant damage from 135 drones and 10 rockets. Poland's stance on EU accession negotiations highlights regional diplomatic tensions.",
+    "executive_summary": "Iranian drone attacks on Odesa infrastructure and Russian missile strikes on Kyiv highlight escalating cross-border aggression. Drone operations in the Black Sea and Dnipro region demonstrate sustained kinetic threats.",
     "ukraine": {
       "points": [
-        "Ukrainian forces destroyed a Russian Black Sea fleet vessel using a Sargan-3000 missile system near Novorossiysk (Source: UkraineNow/82640).",
-        "A Russian oil refining complex in Salavat was struck by drones and missiles, damaging critical infrastructure (Source: UkraineNow/82637).",
-        "Ukrainian drones and missiles targeted Odesa port, damaging infrastructure and fuel reserves (Source: tass_agency/385267).",
-        "Kyiv and regional areas endured 135 drones and 10 rockets, damaging schools, residences, and energy infrastructure (Source: UkraineNow/82639)."
+        "Iranian drones targeted a tanker in Odesa, causing a fire and killing one crew member, with two Ukrainian casualties (Source: @UkraineNow/82633).",
+        "Russian ballistic missiles hit Kyiv's Darnytskyi and Holosiyivskyi districts, damaging civilian and industrial infrastructure (Source: @UkraineNow/82631).",
+        "Ukrainian Sargan-3000 drones destroyed the Russian FSB corvette 'Izumrud' near Novorossiysk, causing enemy casualties (Source: @eRadarrua/101018).",
+        "Guided bombs struck Dnipro's industrial sites, including an oil storage facility (Source: @kpszsu/68509).",
+        "Drone attacks on Black Sea cargo ships resulted in a captain's death and 11 evacuations (Source: @UkraineNow/82650).",
+        "Ukrainian forces reported strikes on defense industry facilities in Kiev producing missiles and drones (Source: @ukr_leaks_eng/31598).",
+        "Reactive drones operated in the Black Sea, targeting Odesa (Source: @eRadarrua/100976)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched drones and missiles at Ukrainian infrastructure, including Odesa port and Salavat facility (Source: tass_agency/385267, UkraineNow/82637).",
-        "Russian drones attacked bulk carriers in the Black Sea, targeting logistics for Ukrainian forces (Source: ukr_leaks_eng/31618).",
-        "Russian military actions included strikes on civilian infrastructure in Kyiv and regional areas (Source: UkraineNow/82639).",
-        "Russian forces used drones to target fuel reserves and logistics centers in Odesa (Source: tass_agency/385267)."
+        "Russian ballistic missiles struck Kyiv, with no reported casualties but significant infrastructure damage (Source: @UkraineNow/82631).",
+        "KSVR forces attacked Belgorod, injuring three civilians (Source: @tass_agency/385307).",
+        "Russian drones targeted bulk carriers in the Black Sea, disrupting Ukrainian logistics (Source: @ukr_leaks_eng/31618).",
+        "Kh-59 missiles were launched from Su-34s toward Odesa (Source: @eRadarrua/101017).",
+        "Russian forces reported 340 drones near Moscow, with 50+ neutralized (Source: @tass_agency/385290).",
+        "Russian military leadership faces criticism for operational inefficiencies (Source: @DeepStateUA/23639).",
+        "Russian strikes on defense industry facilities in Kiev were reported (Source: @ukr_leaks_eng/31598)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Drone attacks near Kharkiv and Sumy regions targeted military and civilian infrastructure (Source: eRadarrua/101002, kpszsu/68485).",
-        "Russian forces conducted strikes on energy infrastructure in Donetsk and Luhansk regions (Source: UkraineNow/82639).",
-        "Ukrainian forces reported drone swarms near Kharkiv and Poltava (Source: kpszsu/68486, kpszsu/68488).",
-        "Russian missile attacks damaged residential areas in Donetsk (Source: UkraineNow/82639)."
+        "Drone strikes targeted Dnipro's industrial infrastructure, including oil storage (Source: @kpszsu/68509).",
+        "Ballistic missile attacks on Kyiv originated from eastern front positions (Source: @UkraineNow/82631).",
+        "Russian drones operated in the Black Sea, attacking cargo ships (Source: @ukr_leaks_eng/31618).",
+        "KSVR attacks in Belgorod indicate eastern front encroachment (Source: @tass_agency/385307).",
+        "Kh-59 missile launches from Su-34s suggest eastern front air support (Source: @eRadarrua/101017).",
+        "Ukrainian drones struck freight trains in Dnipro (Source: @ukr_leaks_eng/31603).",
+        "Reactive drones in the Black Sea targeted Odesa (Source: @eRadarrua/100976)."
       ]
     },
     "northern_front": {
       "points": [
-        "Drone strikes near Chernihiv and Kharkiv regions targeted military positions (Source: eRadarrua/101001, kpszsu/68488).",
-        "Russian forces launched attacks on infrastructure near Chernihiv (Source: eRadarrua/101001).",
-        "Ukrainian forces reported drone activity near Chernihiv and Sumy (Source: kpszsu/68485, kpszsu/68489).",
-        "Russian drones targeted logistics centers in northern regions (Source: ukr_leaks_eng/31618)."
+        "Drones operated in Sumy and Poltava regions, targeting Odesa (Source: @kpszsu/68485).",
+        "Reactive drones in the Black Sea approached Odesa (Source: @eRadarrua/100976).",
+        "Russian drones near Moscow were neutralized (Source: @tass_agency/385290).",
+        "Ukrainian forces reported strikes on defense facilities in Kiev (Source: @ukr_leaks_eng/31598)."
       ]
     },
     "southern_front": {
       "points": [
-        "Drone attacks near Odesa and Kherson regions targeted ports and infrastructure (Source: eRadarrua/101031, kpszsu/68489).",
-        "Russian forces struck fuel reserves in Odesa port (Source: tass_agency/385267).",
-        "Ukrainian forces reported drone activity near Kherson and Odesa (Source: kpszsu/68489, eRadarrua/101055).",
-        "Russian missile attacks damaged infrastructure in southern regions (Source: UkraineNow/82639)."
+        "Drone attacks on Black Sea cargo ships originated from southern front areas (Source: @ukr_leaks_eng/31618).",
+        "Russian ballistic missiles on Kyiv may involve southern front coordination (Source: @UkraineNow/82631).",
+        "KSVR attacks in Belgorod reflect southern front pressure (Source: @tass_agency/385307)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian forces reported 135 drones and 10 rockets in overnight attacks (Source: UkraineNow/82639).",
-        "Russian drones targeted Odesa port and Black Sea logistics (Source: tass_agency/385267, ukr_leaks_eng/31618).",
-        "Ukrainian forces used Sargan-3000 missile systems against Russian vessels (Source: UkraineNow/82640).",
-        "Drone swarms were deployed across multiple fronts, including Kharkiv and Odesa (Source: kpszsu/68485, eRadarrua/101002)."
+        "Kh-59 missiles launched from Su-34s toward Odesa (Source: @eRadarrua/101017).",
+        "Russian drones operated near Moscow and in the Black Sea (Source: @tass_agency/385290).",
+        "Ukrainian Sargan-3000 drones destroyed a Russian corvette (Source: @eRadarrua/101018)."
       ]
     },
     "key_developments": [
-      "Ukrainian forces destroyed a Russian Black Sea fleet vessel using a Sargan-3000 missile system near Novorossiysk (Source: UkraineNow/82640).",
-      "A Russian oil refining complex in Salavat was struck by drones and missiles, damaging critical infrastructure (Source: UkraineNow/82637).",
-      "Polish officials emphasized protecting 'sensitive sectors' during Ukraine-EU accession talks, citing agricultural interests (Source: DeepStateUA/23642).",
-      "Iranian drones attacked tankers in the Red Sea, killing one crew member and injuring eight, including two Ukrainians (Source: UkraineNow/82633).",
-      "Multiple drone swarms targeted Odesa port, damaging infrastructure and fuel reserves (Source: tass_agency/385267).",
-      "Russian drones struck two bulk carriers en route from Chornomorsk to Odesa, hitting logistics facilities (Source: ukr_leaks_eng/31618).",
-      "Kyiv and regional areas endured 135 drones and 10 rockets, damaging schools, residences, and energy infrastructure (Source: UkraineNow/82639)."
+      "Iranian drones struck a tanker in Odesa, killing one and injuring eight, including two Ukrainians (Source: @UkraineNow/82633).",
+      "Russian ballistic missiles hit Kyiv's infrastructure, with no casualties but significant damage (Source: @UkraineNow/82631).",
+      "Ukrainian drones destroyed a Russian FSB corvette in the Black Sea (Source: @eRadarrua/101018).",
+      "Guided bombs targeted Dnipro's industrial sites, including oil storage (Source: @kpszsu/68509).",
+      "Russian drones attacked Black Sea cargo ships, disrupting Ukrainian logistics (Source: @ukr_leaks_eng/31618).",
+      "KSVR forces injured three civilians in Belgorod (Source: @tass_agency/385307).",
+      "Kh-59 missile launches from Su-34s indicate escalating air operations (Source: @eRadarrua/101017)."
     ],
-    "threat_assessment": "The sustained drone and missile attacks indicate Russia's continued focus on degrading Ukrainian infrastructure and military capabilities. Targeting fuel reserves and logistics centers suggests an effort to disrupt Ukrainian supply chains. Poland's diplomatic stance may signal broader regional concerns about Ukraine's integration into European structures.",
-    "regional_response": "Poland's emphasis on protecting 'sensitive sectors' during EU accession talks reflects strategic concerns about Ukraine's economic and political alignment. Iran's involvement in Red Sea attacks highlights external actors exploiting the conflict. Ukraine's partners are urged to accelerate sanctions against Russia to counter escalating threats.",
-    "intelligence_notes": "The frequency of drone attacks across multiple fronts suggests coordinated Russian efforts to overwhelm Ukrainian defenses. Targeting fuel reserves and logistics centers may aim to cripple Ukrainian mobility. Poland's diplomatic actions could influence broader European support for Ukraine. Iran's role in Red Sea attacks adds a transnational dimension to the conflict."
+    "threat_assessment": "Iranian involvement in Odesa attacks and Russian missile strikes on Kyiv suggest coordinated cross-border aggression. Drone operations in the Black Sea and Dnipro region demonstrate Russia's sustained kinetic capabilities, while KSVR actions in Belgorod indicate frontline pressure. The combination of conventional and drone warfare escalates risks of broader conflict.",
+    "regional_response": "Ukraine has deployed Sargan-3000 drones to counter Black Sea threats, while Russia continues missile and drone strikes. International actors, including the US, face pressure to address Iranian and Russian actions. Ukraine's military leadership is under scrutiny for operational effectiveness.",
+    "intelligence_notes": "The Iranian attack on Odesa highlights potential non-state actor involvement in the conflict. Russian missile and drone operations suggest a multi-front strategy. KSVR's actions in Belgorod may indicate attempts to destabilize eastern regions. Coordination between Russian military branches remains a critical factor."
   },
   "missiles": 5,
   "drones": 135,
   "kpszsu_timeline": [
     1,
-    1,
     3,
     6,
     3,
     2,
-    0,
-    3,
+    1,
+    2,
     1,
     9,
     2,
-    2,
-    4,
     3,
+    4,
+    2,
     0,
     0,
     3,
@@ -324,6 +337,7 @@
     7,
     2,
     1,
-    3
+    3,
+    4
   ]
 }
