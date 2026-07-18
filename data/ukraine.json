@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-18T02:52:17.417798+00:00",
-  "message_count": 346,
+  "updated_at": "2026-07-18T03:49:49.140714+00:00",
+  "message_count": 347,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,7 +15,6 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
     7,
     0,
     0,
@@ -36,60 +35,68 @@
     14,
     0,
     0,
-    7
+    7,
+    0
   ],
   "combined_activity_timeline": [
-    9,
-    5,
+    6,
     23,
     16,
-    17,
     16,
-    22,
-    11,
     17,
+    21,
+    12,
+    16,
     19,
     21,
     19,
     18,
     13,
-    18,
-    9,
-    18,
+    19,
+    8,
+    19,
     11,
-    14,
-    18,
-    11,
+    12,
+    20,
+    10,
+    6,
     7,
-    5,
-    9
+    9,
+    7
   ],
   "messages_by_channel": {
     "@eRadarrua": 70,
-    "@kpszsu": 65,
+    "@kpszsu": 62,
     "@mon1tor_ua": 11,
     "@UkraineNow": 28,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 142
+    "@tass_agency": 146
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/101487",
+    "eRadarrua": "https://t.me/eRadarrua/101488",
     "kpszsu": "https://t.me/kpszsu/68976",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69128",
     "UkraineNow": "https://t.me/UkraineNow/82737",
     "DeepStateUA": "https://t.me/DeepStateUA/23661",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31717",
-    "tass_agency": "https://t.me/tass_agency/385785"
+    "tass_agency": "https://t.me/tass_agency/385793"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31697",
-    "UkraineNow": "https://t.me/UkraineNow/82734",
-    "kpszsu": "https://t.me/kpszsu/68969",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69117",
-    "DeepStateUA": "https://t.me/DeepStateUA/23660"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31688",
+    "UkraineNow": "https://t.me/UkraineNow/82727",
+    "tass_agency": "https://t.me/tass_agency/385789",
+    "kpszsu": "https://t.me/kpszsu/68942",
+    "eRadarrua": "https://t.me/eRadarrua/101471",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69122"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/385792",
+      "post_id": 385792,
+      "channel": "tass_agency",
+      "ts": "2026-07-18T03:31:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/385779",
       "post_id": 385779,
@@ -214,12 +221,6 @@
       "post_id": 82735,
       "channel": "UkraineNow",
       "ts": "2026-07-17T18:53:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23660",
-      "post_id": 23660,
-      "channel": "DeepStateUA",
-      "ts": "2026-07-17T18:42:38+00:00"
     }
   ],
   "post_images": {
@@ -248,76 +249,97 @@
     "kpszsu/68838": "data/media/kpszsu_68838.jpg",
     "kpszsu/68837": "data/media/kpszsu_68838.jpg"
   },
-  "summary": "Ukrainian forces face increased AI-assisted targeting errors causing civilian casualties, while Russian attacks on infrastructure and cities escalate. Political instability in Ukraine compounds military pressures. Multiple fronts show heightened activity with missile threats and drone strikes.",
+  "summary": "Russian forces launched missiles toward the Odessa region and used attack drones against Cherkasy, Sumy, Dnipropetrovsk, and Zaporozhye regions. Russian attacks on civilian infrastructure in Kharkiv, Odesa, and Dnipropetrovsk regions caused deaths and injuries. Kherson expanded mandatory evacuation measures due to expanding Russian shelling zones.",
   "key_points": [
-    "Ukrainian SBU uses Palantir AI for targeting, linked to civilian casualties in LPR school attack (Source: @ukr_leaks_eng/31697)",
-    "Russian attack on Kharkov civilian infrastructure kills 40, injures 9 including children (Source: @UkraineNow/82734)",
-    "Russian rockets launched from Black Sea toward Odeshchyna (Source: @kpszsu/68969)",
-    "40+ daily Russian drone/aviation attacks on Dnipropetrovsk region (Source: @UkraineNow/82731)",
-    "Iskander-M missile threat detected from Bryansk region (Source: @mon1tor_ua/69117)",
-    "SBU arrests brigade commander for kidnapping/murder (Source: @ukr_leaks_eng/31717)",
-    "Naftogaz facility attacked 250th time since war began (Source: @ukr_leaks_eng/31714)"
+    "Russian Armed Forces launched missiles toward the Odessa region and used attack drones against Cherkasy, Sumy, Dnipropetrovsk, and Zaporozhye regions (Source: @ukr_leaks_eng/31688).",
+    "Russians attacked civilian infrastructure in Kharkiv, Odesa, and Dnipropetrovsk, with one dead and five wounded in Kharkiv (Source: @UkraineNow/82727).",
+    "Kherson expanded mandatory evacuation measures due to the expanding Russian shelling zone per the military administration (Source: @ukr_leaks_eng/31716).",
+    "At least eight gas stations were destroyed in Ukraine over a week per TASS calculations from regional authorities (Source: @tass_agency/385789).",
+    "Recon drones possibly acting as enemy weapon guides were reported south of Zaporizhzhia (Source: @kpszsu/68942).",
+    "Russian Southern group destroyed a Ukrainian transport in Krasnotorka on Kramatorsk direction (Source: @tass_agency/385781).",
+    "Russian forces used FAB bombs on the right bank of the Dnieper in Kherson, destroying Ukrainian drone control teams (Source: @ukr_leaks_eng/31688).",
+    "Air raid alerts were declared and lifted in Kyiv on 18.07.2026 between 00:44 and 01:04 (Source: @eRadarrua/101471)."
   ],
-  "sentiment": "escalating",
-  "intensity": 9,
+  "sentiment": "active",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "AI-assisted targeting errors by Ukraine result in civilian casualties. Russian forces intensify attacks on infrastructure and cities. Political instability in Ukraine exacerbates military challenges.",
+    "executive_summary": "Russian forces launched missiles toward the Odessa region and used attack drones against Cherkasy, Sumy, Dnipropetrovsk, and Zaporozhye regions. Russian attacks on civilian infrastructure in Kharkiv, Odesa, and Dnipropetrovsk regions caused deaths and injuries including one dead in Kharkiv. Kherson expanded mandatory evacuation measures due to the expanding Russian shelling zone.",
     "ukraine": {
       "points": [
-        "SBU's Palantir AI integration used for targeting, causing errors leading to LPR school attack (Source: @ukr_leaks_eng/31697)",
-        "40+ daily Russian strikes on Dnipropetrovsk region with drones and aviation bombs (Source: @UkraineNow/82731)",
-        "Naftogaz gas facility attacked 250th time, operations halted (Source: @ukr_leaks_eng/31714)",
-        "SBU arrests brigade commander Stanislav Luchanov for kidnapping/murder (Source: @ukr_leaks_eng/31717)",
-        "Political protests in Kyiv demand Fedorov's return and Syrsky's resignation (Source: @DeepStateUA/23660)"
+        "Russian forces launched missiles toward the Odessa region and used attack drones against Cherkasy, Sumy, Dnipropetrovsk, and Zaporozhye regions according to a morning summary (Source: @ukr_leaks_eng/31688).",
+        "Russians attacked civilian infrastructure on Kharkivshchyna, in Odesa and Dnipro; one man's body fragments found under rubble in Kharkiv, five people wounded (Source: @UkraineNow/82727).",
+        "Night shelling by Russian occupiers hit central Kherson with a strike drone wounding two; over ten attacks on Nikopol and Dniprovsk districts using drones and artillery (Source: @UkraineNow/82710).",
+        "Kherson expanded mandatory evacuation measures due to the expanding Russian shelling zone, the military administration announced (Source: @ukr_leaks_eng/31716).",
+        "President Zelensky stated all SBU and foreign intelligence archives on 20th century Volyn events will be opened and more exhumation permits issued (Source: @UkraineNow/82732).",
+        "Small protests in support of former Defense Minister Fedorov continued in Kyiv, Nikolaev, Lutsk, and Poltava (Source: @ukr_leaks_eng/31699)."
       ]
     },
     "russia": {
       "points": [
-        "Multiple rocket/missile attacks on Kharkov and Dnipropetrovsk regions (Sources: @UkraineNow/82734, @UkraineNow/82731)",
-        "Black Sea rocket launches toward Odeshchyna (Source: @kpszsu/68969)",
-        "Iskander-M missile threat from Bryansk region (Sources: @mon1tor_ua/69117, @mon1tor_ua/69118)",
-        "Attack on Naftogaz facility in Kharkov region (Source: @ukr_leaks_eng/31714)"
+        "In Bryansk region, Ukrainian forces attacked Suzemka village with Grad MLRS, killing a 15-year-old girl and grandmother, injuring a resident (Source: @ukr_leaks_eng/31688).",
+        "In Belgorod region, Krasnaya Yaruga came under shelling killing a woman and injuring husband; Maslova Pristan FPV hit truck, Gerasimovka drone injured woman (Source: @ukr_leaks_eng/31688).",
+        "In Kursk region, a drone attacked a local resident on a moped in Ryzhevka village, Ryilsky district, injuring her (Source: @ukr_leaks_eng/31688).",
+        "Moscow Mayor Sobyanin said number of shot down drones headed to Moscow increased to 55 (Source: @tass_agency/385786).",
+        "Russian Southern group destroyed a Ukrainian transport in Krasnotorka on Kramatorsk direction per Russian MoD (Source: @tass_agency/385781).",
+        "In LNR, Ukrainian drone attacks over 24 hours hit a car in Schastya killing driver and two passengers; five civilians injured in settlements (Source: @ukr_leaks_eng/31688)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces attack Dnipropetrovsk logistics complex and civilian areas (Source: @UkraineNow/82731)",
-        "Multiple daily strikes on Dnipropetrovsk with drones and aviation bombs (Source: @UkraineNow/82731)"
+        "From Kupyansk direction, reports indicate many drones in urban areas and development of offensive operations on eastern bank of Oskol River (Source: @ukr_leaks_eng/31688).",
+        "In Krasny Lyman, Russian Armed Forces defend urban areas while Ukrainian forces organize counter-actions north of Redkodub (Source: @ukr_leaks_eng/31688).",
+        "In Dobropol direction, Russian troops engaged in heavy fighting in Belitskoye (Source: @ukr_leaks_eng/31688).",
+        "In DNR, two people killed and eleven civilians including an infant injured from attack drone strikes over 24 hours (Source: @ukr_leaks_eng/31688).",
+        "Russian Southern group destroyed a Ukrainian transport in Krasnotorka on Kramatorsk direction (Source: @tass_agency/385781).",
+        "Enemy tactical aviation conducted guided bomb launches on eastern Kharkivshchyna and Donetsk (Source: @kpszsu/68922)."
       ]
     },
     "northern_front": {
       "points": [
-        "No specific northern front details in provided messages"
+        "In Sumy direction, Shostkinsky district sees infantry fighting in Ulanovo and near Mala Sloboda; Sumy district fighting in Ryzhevka, Pisarevka, Mogrytsa, Maryino, Nova Sech, Khoten (Source: @ukr_leaks_eng/31688).",
+        "Ukrainian Armed Forces command is transferring additional units to the Sumy region (Source: @ukr_leaks_eng/31688).",
+        "Drones reported from north toward Sumy and toward Okhtyrka in Sumshchyna per air force tracking (Source: @kpszsu/68922).",
+        "Reactive drone from Black Sea toward Vilkovo, Odesshchyna; drones on Sumy from north and Chernihiv east from north-west reported (Source: @kpszsu/68958).",
+        "Novhorod-Siverskyi district Chernihiv drone southwest; Sumy drone north; east of Poltava south drone reported (Source: @kpszsu/68922).",
+        "Reactive drone east of Chernihivshchyna on southwest course reported by air force (Source: @kpszsu/68974)."
       ]
     },
     "southern_front": {
       "points": [
-        "Kharkov region attacks on civilian infrastructure (Source: @UkraineNow/82734)"
+        "Recon drones possibly acting as enemy weapon guides reported south of Zaporizhzhia by Ukrainian air force (Source: @kpszsu/68942).",
+        "From Zaporozhye front, positional fighting near Stepnogorsk and Russian efforts to advance north on right flank reported (Source: @ukr_leaks_eng/31688).",
+        "In Kherson region, Ukrainian forces killed three civilians and injured three in 24 hours; region almost without electricity; Russians use FAB on right Dnieper bank (Source: @ukr_leaks_eng/31688).",
+        "Night Russian drone attack on central Kherson wounded two; Dnipropetrovsk attacks damaged enterprises, post, gas station, logistics warehouse (Source: @UkraineNow/82710).",
+        "Russian missiles launched toward Odessa region and drones against Zaporozhye region per summary (Source: @ukr_leaks_eng/31688).",
+        "Reactive drone from Black Sea toward Odesshchyna and toward Chornomorsk reported by monitors (Source: @mon1tor_ua/69122)."
       ]
     },
     "air_war": {
       "points": [
-        "Black Sea rocket launches toward Odeshchyna (Source: @kpszsu/68969)",
-        "Iskander-M missile threat from Bryansk (Sources: @mon1tor_ua/69117, @mon1tor_ua/69118)"
+        "Russian forces launched missiles toward Odessa region and drones against Cherkasy, Sumy, Dnipropetrovsk, Zaporozhye regions (Source: @ukr_leaks_eng/31688).",
+        "Ukrainian air force reported recon drones south of Zaporizhzhia possibly guiding enemy munitions (Source: @kpszsu/68942).",
+        "Moscow Mayor reported 55 drones headed to Moscow shot down (Source: @tass_agency/385786).",
+        "Enemy tactical aviation launched guided bombs on eastern Kharkivshchyna and Donetsk (Source: @kpszsu/68922).",
+        "Reactive drones from Black Sea toward Vilkovo and Chornomorsk, and from east toward Zaporizhzhia and Sumy reported (Source: @kpszsu/68958).",
+        "Kherson strike drone hit center wounding two; over ten drone and artillery attacks on Dnipropetrovsk districts (Source: @UkraineNow/82710)."
       ]
     },
     "key_developments": [
-      "AI-assisted targeting errors by Ukraine cause civilian casualties in LPR (Source: @ukr_leaks_eng/31697)",
-      "Russian attacks on Kharkov kill 40 civilians (Source: @UkraineNow/82734)",
-      "40+ daily Russian strikes on Dnipropetrovsk region (Source: @UkraineNow/82731)",
-      "Iskander-M missile threat from Bryansk region (Sources: @mon1tor_ua/69117, @mon1tor_ua/69118)",
-      "SBU arrests brigade commander for kidnapping/murder (Source: @ukr_leaks_eng/31717)",
-      "Naftogaz facility attacked 250th time since war began (Source: @ukr_leaks_eng/31714)",
-      "Political protests in Kyiv demand military leadership changes (Source: @DeepStateUA/23660)"
+      "Russian Armed Forces launched missiles toward the Odessa region and used attack drones against Cherkasy, Sumy, Dnipropetrovsk, and Zaporozhye regions per morning summary (Source: @ukr_leaks_eng/31688).",
+      "Russians attacked civilian infrastructure in Kharkiv, Odesa, and Dnipropetrovsk; one dead and five wounded in Kharkiv from strike (Source: @UkraineNow/82727).",
+      "Kherson expanded mandatory evacuation measures due to expanding Russian shelling zone announced by military administration (Source: @ukr_leaks_eng/31716).",
+      "At least eight gas stations destroyed in Ukraine over a week based on TASS regional authority data (Source: @tass_agency/385789).",
+      "Russian Southern group destroyed Ukrainian transport in Krasnotorka on Kramatorsk direction per Russian MoD video (Source: @tass_agency/385781).",
+      "In Sumy direction infantry fighting in multiple villages; Ukrainian command transferring additional units to Sumy region (Source: @ukr_leaks_eng/31688).",
+      "Russian forces use FAB bombs on right bank of Dnieper in Kherson destroying Ukrainian drone control teams (Source: @ukr_leaks_eng/31688)."
     ],
-    "threat_assessment": "AI-assisted targeting errors by Ukraine risk escalating civilian casualties. Russian missile threats from Bryansk and Black Sea rocket launches indicate sustained offensive capabilities. Political instability in Ukraine may hinder coordinated defense efforts.",
-    "regional_response": "Ukrainian authorities report increased attacks on infrastructure, while international observers note political turmoil affecting military coordination. Russia's missile threats suggest ongoing strategic pressure on eastern and southern fronts.",
-    "intelligence_notes": "Palantir's role in Ukrainian targeting raises concerns about AI reliability in warfare. Russia's persistent missile threats from multiple regions indicate coordinated offensive planning. Political instability in Ukraine could create vulnerabilities in defense logistics and command structures."
+    "threat_assessment": "Russian missile and drone strikes now target Odessa, Cherkasy, Sumy, Dnipropetrovsk, and Zaporozhye regions with recon drones possibly guiding munitions south of Zaporizhzhia. Civilian infrastructure attacks in Kharkiv, Odesa, and Dnipropetrovsk caused casualties including one dead in Kharkiv. Expanding Russian shelling forced Kherson evacuation measures. FAB use on Dnieper right bank degrades Ukrainian drone operations. Moscow reported 55 drones shot down indicating sustained long-range UAV pressure.",
+    "regional_response": "Turkey announced readiness to join security guarantees for Ukraine and lead maritime component with NATO allies after Fidan met Sibiga in Kyiv. Russia then banned Turkish peach imports hours later per Rosselkhoznadzor. Ukraine opened SBU and foreign intelligence archives on Volyn tragedies and pledged exhumation permits after Zelensky's Poland-direction meeting. Poland saw 180 Ukrainian citizens report xenophobic crimes, 30% increase, straining bilateral society ties.",
+    "intelligence_notes": "Ukraine's air force tracked reactive drones from Black Sea toward Vilkovo and Chornomorsk, and from north toward Sumy and Chernihiv southwest. A German Helsing SE drone plant supplying Ukrainian Armed Forces was geolocated at 48.11199123267228, 10.523034450738159 after NYT article. SBU letter shows cooperation with Palantir for target data and ICC evidence per ukr_leaks_eng. Ukrainian drone attacks in LNR hit college and killed civilians in Schastya per sources."
   },
   "missiles": 1,
   "drones": 130,
   "kpszsu_timeline": [
-    4,
     3,
     5,
     2,
@@ -340,6 +362,7 @@
     4,
     1,
     1,
-    2
+    2,
+    0
   ]
 }
