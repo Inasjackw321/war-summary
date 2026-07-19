@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-19T03:24:20.654678+00:00",
-  "message_count": 322,
+  "updated_at": "2026-07-19T04:24:18.367654+00:00",
+  "message_count": 328,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,7 +14,6 @@
   "red_alerts": 90,
   "red_alerts_timeline": [
     0,
-    0,
     16,
     5,
     0,
@@ -36,10 +35,10 @@
     0,
     0,
     0,
-    5
+    5,
+    0
   ],
   "combined_activity_timeline": [
-    6,
     15,
     18,
     16,
@@ -50,47 +49,55 @@
     15,
     6,
     11,
-    11,
-    26,
+    10,
+    27,
     18,
     5,
     8,
     4,
     5,
     9,
-    49,
-    25,
+    50,
+    24,
     3,
     10,
-    6
+    6,
+    12
   ],
   "messages_by_channel": {
-    "@eRadarrua": 54,
-    "@kpszsu": 54,
-    "@mon1tor_ua": 73,
+    "@eRadarrua": 57,
+    "@kpszsu": 58,
+    "@mon1tor_ua": 75,
     "@UkraineNow": 17,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 16,
-    "@tass_agency": 105
+    "@tass_agency": 102
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/101656",
-    "kpszsu": "https://t.me/kpszsu/69134",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69234",
+    "eRadarrua": "https://t.me/eRadarrua/101661",
+    "kpszsu": "https://t.me/kpszsu/69140",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69236",
     "UkraineNow": "https://t.me/UkraineNow/82754",
     "DeepStateUA": "https://t.me/DeepStateUA/23664",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31737",
-    "tass_agency": "https://t.me/tass_agency/385914"
+    "tass_agency": "https://t.me/tass_agency/385917"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82743",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69228",
-    "kpszsu": "https://t.me/kpszsu/69067",
-    "tass_agency": "https://t.me/tass_agency/385907",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31728",
-    "eRadarrua": "https://t.me/eRadarrua/101579"
+    "tass_agency": "https://t.me/tass_agency/385901",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69204",
+    "UkraineNow": "https://t.me/UkraineNow/82744",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31734",
+    "DeepStateUA": "https://t.me/DeepStateUA/23664",
+    "kpszsu": "https://t.me/kpszsu/69125",
+    "eRadarrua": "https://t.me/eRadarrua/101567"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/385915",
+      "post_id": 385915,
+      "channel": "tass_agency",
+      "ts": "2026-07-19T03:27:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/385911",
       "post_id": 385911,
@@ -212,12 +219,6 @@
       "post_id": 82748,
       "channel": "UkraineNow",
       "ts": "2026-07-18T15:48:46+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82747",
-      "post_id": 82747,
-      "channel": "UkraineNow",
-      "ts": "2026-07-18T15:34:17+00:00"
     }
   ],
   "post_images": {
@@ -228,8 +229,6 @@
     "eRadarrua/101631": "data/media/eRadarrua_101630.jpg",
     "eRadarrua/101580": "data/media/eRadarrua_101580.jpg",
     "eRadarrua/101579": "data/media/eRadarrua_101580.jpg",
-    "eRadarrua/101496": "data/media/eRadarrua_101496.jpg",
-    "eRadarrua/101495": "data/media/eRadarrua_101496.jpg",
     "eRadarrua/101499": "data/media/eRadarrua_101499.jpg",
     "eRadarrua/101497": "data/media/eRadarrua_101499.jpg",
     "eRadarrua/101504": "data/media/eRadarrua_101504.jpg",
@@ -241,95 +240,105 @@
     "eRadarrua/101489": "data/media/eRadarrua_101490.jpg",
     "eRadarrua/101492": "data/media/eRadarrua_101492.jpg",
     "eRadarrua/101491": "data/media/eRadarrua_101492.jpg",
+    "eRadarrua/101496": "data/media/eRadarrua_101496.jpg",
+    "eRadarrua/101495": "data/media/eRadarrua_101496.jpg",
     "kpszsu/68985": "data/media/kpszsu_68985.jpg",
     "kpszsu/68984": "data/media/kpszsu_68985.jpg"
   },
-  "summary": "Russian forces launched missile attacks from Crimea targeting Odesa, damaging port infrastructure and residential areas. Ukrainian forces struck Russian logistics facilities in Moscow and Tambov regions, over 500 km from the front line. Increased drone activity and ballistic missile threats were reported across multiple Ukrainian regions, including Kyiv and Chernihiv. (Source: @mon1tor_ua/69232) (Source: @UkraineNow/82743) (Source: @mon1tor_ua/69228)",
+  "summary": "Russian forces claim to be completing the liberation of Krasny Liman with organized Ukrainian defense broken and isolated pockets being destroyed. More than 42 ballistic missiles were launched at Kyiv and the region, a record according to monitoring. Russian drone and missile attacks also struck Odesa region ports and ships, causing one death and three wounded among foreign vessel crew.",
   "key_points": [
-    "Russian missile launches from Crimea targeted Odesa, damaging port infrastructure and residential areas with two fatalities and three injuries reported. (Source: @UkraineNow/82743)",
-    "Ukrainian forces struck Russian logistics facilities in Moscow and Tambov regions, over 500 km from the front line, targeting components for drones and navigation equipment. (Source: @UkraineNow/82742)",
-    "Multiple Russian drones were detected over Kyiv, Chernihiv, and Sumy regions, with ballistic missile threats reported from northern, eastern, and southern directions. (Source: @mon1tor_ua/69228) (Source: @kpszsu/69067)",
-    "Russian ground forces advanced near Volokhivka and began fighting for Zakharivka in Kharkiv region, according to military expert Andrey Marochko. (Source: @tass_agency/385907)",
-    "Russian units 'Rubikon' were redeployed from the front to protect the shadow fleet, using portable air defense systems and heavy machine guns. (Source: @UkraineNow/82740)",
-    "Protests in Kyiv demanded the resignation of Ukraine's Commander-in-Chief Syrsky, with participants gathering near Franko Square. (Source: @ukr_leaks_eng/31728)",
-    "NATO countries' €140 billion military aid pledge to Ukraine may face challenges due to uneven burden-sharing among alliance members. (Source: @ukr_leaks_eng/31736)",
-    "Russian 'Baba-yaga' drone was shot down near Krasnyi Lyman using an air ram by 'West' fighters, according to the Russian Ministry of Defense. (Source: @tass_agency/385910)"
+    "Russian forces are completing the liberation of Krasny Liman as organized Ukrainian defense in the city is broken and isolated pockets are being destroyed, Gerasimov stated (Source: @tass_agency/385901).",
+    "More than 42 ballistic missiles were launched at Kyiv and the region, described as a record by the monitoring channel (Source: @mon1tor_ua/69204).",
+    "Four ballistic missiles were reported heading to Lukyanivka and two to Kyiv per separate monitoring posts (Source: @mon1tor_ua/69213).",
+    "Russia struck a locomotive and passenger cars of a train in Zaporizhzhia with a double hit; no casualties reported per Ukraine's infrastructure minister (Source: @UkraineNow/82744).",
+    "A Russian attack on a foreign vessel off Odesa under Antigua and Barbuda flag killed one and wounded three, with port infrastructure damaged (Source: @UkraineNow/82743).",
+    "Russian forces destroyed two dry cargo ships with military cargo at Odessa port and hit a ship at Yuzhny port per Russian MoD (Source: @ukr_leaks_eng/31734).",
+    "Ukrainian drones struck an oil depot in Moscow region, tankers and guard ship Svetlyak in Kerch per Ukrainian General Staff (Source: @UkraineNow/82745).",
+    "Russian Western group troops liberated Piskunovka and reached outskirts of Nikolaevka advancing toward Slavyansk and Kramatorsk (Source: @tass_agency/385878)."
   ],
-  "sentiment": "active",
-  "intensity": 8,
+  "sentiment": "escalating",
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russian forces launched missile attacks from Crimea targeting Odesa, damaging port infrastructure and residential areas. Ukrainian forces struck Russian logistics facilities in Moscow and Tambov regions, over 500 km from the front line. Increased drone activity and ballistic missile threats were reported across multiple Ukrainian regions, including Kyiv and Chernihiv. (Source: @mon1tor_ua/69232) (Source: @UkraineNow/82743) (Source: @mon1tor_ua/69228)",
+    "executive_summary": "Russian forces claim to be completing the liberation of Krasny Liman with organized Ukrainian defense broken and isolated pockets destroyed. More than 42 ballistic missiles were launched at Kyiv and region, a record per monitoring. Russian strikes hit Odesa ports and foreign ships killing one and wounding three, while Ukraine struck Russian oil depot and Kerch vessel.",
     "ukraine": {
       "points": [
-        "Ukrainian forces damaged Russian logistics facilities in Moscow and Tambov regions, over 500 km from the front line, targeting components for drones and navigation equipment. (Source: @UkraineNow/82742)",
-        "Protests in Kyiv demanded the resignation of Ukraine's Commander-in-Chief Syrsky, with participants gathering near Franko Square. (Source: @ukr_leaks_eng/31728)",
-        "Russian missile attacks on Odesa damaged port infrastructure, residential buildings, and recreational facilities, with two fatalities and three injuries. (Source: @UkraineNow/82743)",
-        "Russian drones struck residential areas in Zaporizhzhia, injuring five people including a 14-year-old boy and 17-year-old girl. (Source: @UkraineNow/82748)",
-        "Russian missile attacks on Chernihiv region injured five people, including three children, in a residential building strike. (Source: @UkraineNow/82739)",
-        "Ukrainian forces used 'middle-strike' drones in the Azov Sea and Crimean waters, targeting Russian naval assets. (Source: @UkraineNow/82742)"
+        "Ukraine's General Staff reported a double Russian strike on a locomotive and passenger cars of a train in Zaporizhzhia; all passengers and staff were moved to safety with no casualties per the infrastructure minister (Source: @UkraineNow/82744).",
+        "A Russian attack on a trade vessel under Antigua and Barbuda flag off Odesa killed one person and wounded three, damaged port buildings, reservoirs and warehouses, and a repeated strike hit rescue equipment (Source: @UkraineNow/82743).",
+        "Ukrainian General Staff stated an oil depot in Moscow region was hit, tankers and guard ship Svetlyak in Kerch were struck, and a railway bridge over Belaya river near Sabivka in Luhansk region was hit (Source: @UkraineNow/82745).",
+        "President Zelensky said he spoke at length with Fedorov and Syrsky and that army decisions will be worked out; he thanked those who care for Ukraine (Source: @UkraineNow/82751).",
+        "The Ministry of Foreign Affairs of Botswana stated citizens are deceived with job offers abroad then forced to fight for Russia against Ukraine, with cases rapidly growing (Source: @UkraineNow/82753).",
+        "Police opened a criminal case after TCC servicemen in Lviv beat a 34-year-old man and forced him into a minibus; the man had minor injuries and a service check was ordered (Source: @UkraineNow/82746)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces advanced near Volokhivka and began fighting for Zakharivka in Kharkiv region, according to military expert Andrey Marochko. (Source: @tass_agency/385907)",
-        "Russian units 'Rubikon' were redeployed from the front to protect the shadow fleet, using portable air defense systems and heavy machine guns. (Source: @UkraineNow/82740)",
-        "Russian 'Baba-yaga' drone was shot down near Krasnyi Lyman using an air ram by 'West' fighters, according to the Russian Ministry of Defense. (Source: @tass_agency/385910)",
-        "Russian forces launched Iskander-K missiles overnight, targeting Odesa from Crimea. (Source: @mon1tor_ua/69205)",
-        "Russian forces deployed 2 Su-34, 1 Su-57, and 1 Su-35 aircraft over Crimea during missile launches targeting Odesa. (Source: @mon1tor_ua/69232)",
-        "Russian forces used guided air bombs in attacks on Odesa, damaging port infrastructure and residential areas. (Source: @UkraineNow/82743)"
+        "Chief of General Staff Gerasimov checked the Western group's combat tasks, noting successes in liberating DNR and setting further tasks including Krasny Liman completion (Source: @tass_agency/385880).",
+        "Russian forces claim to be completing liberation of Krasny Liman with broken Ukrainian defense and destroyed isolated pockets per Gerasimov (Source: @tass_agency/385901).",
+        "Russian Western group liberated Piskunovka and reached outskirts of Nikolaevka advancing toward Slavyansk and Kramatorsk per Gerasimov (Source: @tass_agency/385878).",
+        "Russian troops began battles for Zakharovka in Kharkov region after pushing Ukrainian forces from Volokhovskoye per military expert Marochko (Source: @tass_agency/385907).",
+        "Russian MoD stated fuel reservoirs intended for Ukrainian Armed Forces were hit in the port of Yuzhny (Source: @tass_agency/385883).",
+        "Russian forces destroyed two dry cargo ships with military cargo at Odessa port and hit a ship at Yuzhny port per MoD (Source: @ukr_leaks_eng/31734)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advanced near Volokhivka and began fighting for Zakharivka in Kharkiv region, according to military expert Andrey Marochko. (Source: @tass_agency/385907)",
-        "Russian drones were detected over Kharkiv region, targeting areas including Krivoy Rog and Barvinkove. (Source: @kpszsu/69121) (Source: @kpszsu/69072)",
-        "Russian forces deployed reactive drones over Kharkiv region, targeting areas including Krivoy Rog and Barvinkove. (Source: @kpszsu/69121) (Source: @kpszsu/69072)",
-        "Russian forces used guided air bombs in attacks on Odesa, damaging port infrastructure and residential areas. (Source: @UkraineNow/82743)"
+        "Russian Western group liberated Piskunovka and reached outskirts of Nikolaevka advancing in direction of Slavyansk and Kramatorsk per Gerasimov (Source: @tass_agency/385878).",
+        "Russian forces are completing liberation of Krasny Liman with organized Ukrainian defense broken and isolated pockets destroyed per Gerasimov (Source: @tass_agency/385901).",
+        "Russian Southern group advanced toward Druzhkovka with forward units entering Alekseyevo-Druzhkovka and fighting; Western group fights on wide front (Source: @tass_agency/385880).",
+        "Russian troops progressed in Holy Mountains national park destroying Ukrainian forces in Svyatogorsk and Shchurovo per Gerasimov report (Source: @tass_agency/385880).",
+        "Forward Russian units are less than 5 km from eastern outskirts of Kramatorsk applying fire on Ukrainian forces per Gerasimov (Source: @tass_agency/385880).",
+        "On Kupyansk direction Russian forces repelled Ukrainian breakout attempts west of Kupyansk and advance toward Shevchenkovo per Gerasimov (Source: @tass_agency/385880).",
+        "Enemy advanced near Pageno and Rodinskoye per DeepState map update (Source: @DeepStateUA/23664)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian drones were detected over Chernihiv and Sumy regions, with ballistic missile threats reported from northern directions. (Source: @kpszsu/69067) (Source: @kpszsu/69065)",
-        "Russian drones targeted Shostkyi district in Sumy region, moving southward. (Source: @kpszsu/69067)",
-        "Russian drones were detected over Chernihiv region, targeting areas including Shostkyi district. (Source: @kpszsu/69067)",
-        "Russian drones were detected over Kyiv, with ballistic missile threats reported from northern directions. (Source: @mon1tor_ua/69228)"
+        "A reactive drone was reported heading toward Nizhyn in Chernihiv region from northeast per air force tracking (Source: @kpszsu/69125).",
+        "A new reactive drone entered Chernihiv region from Bryansk per radar channel (Source: @eRadarrua/101567).",
+        "A reactive drone moved along the border between Sumy and Chernihiv regions on southern course per air force (Source: @kpszsu/69123).",
+        "A reactive drone was tracked near Losinovka in Chernihiv region per radar (Source: @eRadarrua/101659).",
+        "A reactive drone continued toward Kalynivka per air force monitoring (Source: @kpszsu/69065).",
+        "A loitering munition 'Banderya' was reported toward Kremenchuk per air force (Source: @kpszsu/69045)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian missile attacks from Crimea targeted Odesa, damaging port infrastructure and residential areas with two fatalities and three injuries. (Source: @UkraineNow/82743)",
-        "Russian drones targeted Odesa from the Black Sea, moving northward. (Source: @kpszsu/69123)",
-        "Russian forces used guided air bombs in attacks on Odesa, damaging port infrastructure and residential areas. (Source: @UkraineNow/82743)",
-        "Russian drones targeted areas including Dnipro region, moving toward Mezhova. (Source: @eRadarrua/101579)"
+        "A drone was reported toward Tatarbunary in Odesa region from Black Sea waters per air force (Source: @kpszsu/69046).",
+        "A reactive drone headed toward southern Odesa region from Black Sea per air force (Source: @kpszsu/69073).",
+        "Monitoring expected missile launches from Crimea toward Odesa region with 2 Su-34, 1 Su-57, 1 Su-35 over Crimea (Source: @mon1tor_ua/69232).",
+        "Russian MoD stated fuel reservoirs for Ukrainian Armed Forces were struck in port of Yuzhny (Source: @tass_agency/385883).",
+        "Two dry cargo ships with military cargo were destroyed at Odessa port and a ship at Yuzhny hit per Russian MoD (Source: @ukr_leaks_eng/31734).",
+        "A trade vessel under Antigua and Barbuda flag was hit off Odesa killing one and wounding three with port infrastructure damaged (Source: @UkraineNow/82743).",
+        "A drone was reported toward Komyshuvakha in Zaporizhzhia region from southeast per air force (Source: @kpszsu/69117)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian forces deployed 2 Su-34, 1 Su-57, and 1 Su-35 aircraft over Crimea during missile launches targeting Odesa. (Source: @mon1tor_ua/69232)",
-        "Russian 'Baba-yaga' drone was shot down near Krasnyi Lyman using an air ram by 'West' fighters, according to the Russian Ministry of Defense. (Source: @tass_agency/385910)",
-        "Russian drones were detected over multiple regions, including Kyiv, Chernihiv, Sumy, and Kharkiv, with reactive drones targeting areas. (Source: @kpszsu/69067) (Source: @kpszsu/69121)",
-        "Russian forces launched Iskander-K missiles overnight, targeting Odesa from Crimea. (Source: @mon1tor_ua/69205)",
-        "Russian drones targeted areas including Dnipro region, moving toward Mezhova. (Source: @eRadarrua/101579)",
-        "Russian drones were detected over Kyiv, with ballistic missile threats reported from northern directions. (Source: @mon1tor_ua/69228)"
+        "More than 42 ballistic missiles were launched at Kyiv and region, called a record by monitoring channel (Source: @mon1tor_ua/69204).",
+        "Four ballistic missiles were reported on Lukyanivka and two on Kyiv in separate monitoring posts (Source: @mon1tor_ua/69213).",
+        "Two ballistic missiles were reported on Kyiv and later four ballistic missiles on Kyiv per monitoring (Source: @mon1tor_ua/69207).",
+        "A missile was reported on Zatoka per monitoring channel (Source: @mon1tor_ua/69233).",
+        "Russian Geran drones increasingly switch to single attacks in manual control mode per ex-minister adviser Beskrestnov (Source: @ukr_leaks_eng/31733).",
+        "Russian MoD released footage of Black Sea container ship attack by Geran-4 Shikher and Gerbera-Shikher drones carrying military cargo (Source: @ukr_leaks_eng/31722).",
+        "Combat work against a guided reactive drone continued over Black Sea waters per radar (Source: @eRadarrua/101656)."
       ]
     },
     "key_developments": [
-      "Russian missile launches from Crimea targeted Odesa, damaging port infrastructure and residential areas with two fatalities and three injuries. (Source: @UkraineNow/82743)",
-      "Ukrainian forces struck Russian logistics facilities in Moscow and Tambov regions, over 500 km from the front line, targeting components for drones and navigation equipment. (Source: @UkraineNow/82742)",
-      "Russian forces advanced near Volokhivka and began fighting for Zakharivka in Kharkiv region, according to military expert Andrey Marochko. (Source: @tass_agency/385907)",
-      "Russian units 'Rubikon' were redeployed from the front to protect the shadow fleet, using portable air defense systems and heavy machine guns. (Source: @UkraineNow/82740)",
-      "Protests in Kyiv demanded the resignation of Ukraine's Commander-in-Chief Syrsky, with participants gathering near Franko Square. (Source: @ukr_leaks_eng/31728)",
-      "NATO countries' €140 billion military aid pledge to Ukraine may face challenges due to uneven burden-sharing among alliance members. (Source: @ukr_leaks_eng/31736)",
-      "Russian 'Baba-yaga' drone was shot down near Krasnyi Lyman using an air ram by 'West' fighters, according to the Russian Ministry of Defense. (Source: @tass_agency/385910)"
+      "Russian forces claim completion of Krasny Liman liberation with Ukrainian organized defense broken and isolated pockets destroyed, stated by Gerasimov (Source: @tass_agency/385901).",
+      "More than 42 ballistic missiles launched at Kyiv and region, a record per mon1tor_ua monitoring of the air campaign (Source: @mon1tor_ua/69204).",
+      "Russian Western group liberated Piskunovka and reached Nikolaevka outskirts advancing toward Slavyansk and Kramatorsk per Gerasimov (Source: @tass_agency/385878).",
+      "Russian strike on Antigua-Barbuda flagged vessel off Odesa killed one, wounded three, damaged port infrastructure and rescue gear (Source: @UkraineNow/82743).",
+      "Ukraine hit oil depot in Moscow region, tankers and Svetlyak guard ship in Kerch, and railway bridge near Sabivka per General Staff (Source: @UkraineNow/82745).",
+      "Russian MoD says two dry cargo ships with military cargo destroyed at Odessa port and a ship hit at Yuzhny port (Source: @ukr_leaks_eng/31734).",
+      "Russian troops began battles for Zakharovka in Kharkov region after pushing Ukrainian forces from Volokhovskoye per Marochko (Source: @tass_agency/385907)."
     ],
-    "threat_assessment": "Russian missile and drone activity intensified across multiple Ukrainian regions, with Crimea-based launches targeting Odesa's critical infrastructure. Ballistic missile threats from northern, eastern, and southern directions indicate coordinated multi-domain operations. Ukrainian strikes on Russian logistics facilities suggest efforts to disrupt supply chains for drone components and navigation equipment. The redeployment of 'Rubikon' units to protect the shadow fleet highlights vulnerabilities in Russian naval operations. Continued protests in Kyiv may signal internal instability affecting military command structures. (Source: @mon1tor_ua/69232) (Source: @UkraineNow/82742) (Source: @UkraineNow/82740)",
-    "regional_response": "NATO's €140 billion military aid pledge faces implementation risks due to uneven burden-sharing among European allies. Germany and the UK remain primary donors, while France, Italy, and Spain lag significantly. Ukrainian protests demanding Syrsky's resignation reflect public dissatisfaction with military leadership. Russian forces continue advancing in Kharkiv region, targeting Volokhivka and Zakharivka. Increased drone activity across northern and eastern Ukraine suggests sustained pressure on civilian and military infrastructure. (Source: @ukr_leaks_eng/31736) (Source: @ukr_leaks_eng/31728) (Source: @tass_agency/385907)",
-    "intelligence_notes": "Russian 'Geran' drones increasingly operate in manual control mode for single attacks, according to former Defense Minister adviser Sergei Beskrestnov. Ukrainian forces targeted Russian logistics facilities in Moscow and Tambov regions, over 500 km from the front line. Russian forces deployed 2 Su-34, 1 Su-57, and 1 Su-35 aircraft over Crimea during missile launches. The use of Iskander-K missiles indicates precision strike capabilities. Continued ballistic missile threats across multiple regions suggest sustained operational pressure. (Source: @ukr_leaks_eng/31736) (Source: @UkraineNow/82742) (Source: @mon1tor_ua/69232)"
+    "threat_assessment": "Russian forces are pressing multi-axis advances in the east with claims of liberating Piskunovka, reaching Nikolaevka outskirts, and completing Krasny Liman clearance per Gerasimov (Source: @tass_agency/385878, @tass_agency/385901). Massive ballistic missile volleys exceeding 42 against Kyiv indicate intensified strategic strike campaigns (Source: @mon1tor_ua/69204). Southern ports remain under repeated drone and missile threat with foreign vessels hit, raising escalation risk to Black Sea shipping (Source: @UkraineNow/82743). Ukrainian deep strikes on Moscow oil depot and Kerch vessels show reciprocal expansion of target sets (Source: @UkraineNow/82745).",
+    "regional_response": "Botswana's Ministry of Foreign Affairs publicly warned citizens are fraudulently recruited and forced to fight for Russia against Ukraine, with cases rapidly increasing (Source: @UkraineNow/82753). Hungary's parliament adopted a constitutional amendment providing for President Sulyok's resignation per speaker Forsthoffer (Source: @tass_agency/385881). Russia and China are openly and timely discussing all aspects of Ukrainian settlement per Deputy Foreign Minister Rudenko (Source: @tass_agency/385911). No other regional actor responses to frontline events were explicitly stated in the messages.",
+    "intelligence_notes": "DeepState map update recorded enemy advance near Pageno and Rodinskoye, indicating granular frontline shifts corroborating eastern pressure (Source: @DeepStateUA/23664). Russian Geran drones are shifting to single manual-control attacks per Beskrestnov, suggesting tactical adaptation in air warfare (Source: @ukr_leaks_eng/31733). FT reports Zelensky seeks Syrsky replacement amid criticism but no decision made; veteran Koziatynsky calls protests against Syrsky (Source: @ukr_leaks_eng/31732, @DeepStateUA/23663). TASS alleges Readovka founder Kostylev may pressure embezzlement accomplices over 1 billion rubles for drone delivery (Source: @tass_agency/385912)."
   },
   "missiles": 0,
   "drones": 90,
   "kpszsu_timeline": [
-    0,
     4,
     2,
     4,
@@ -340,18 +349,19 @@
     4,
     0,
     2,
-    4,
-    9,
+    3,
+    10,
     6,
     0,
     2,
     0,
     0,
     0,
-    1,
     2,
     1,
+    1,
     4,
-    1
+    1,
+    4
   ]
 }
