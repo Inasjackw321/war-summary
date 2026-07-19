@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-19T11:22:12.780870+00:00",
-  "message_count": 322,
+  "updated_at": "2026-07-19T13:39:41.722949+00:00",
+  "message_count": 338,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,74 +13,74 @@
   ],
   "red_alerts": 166,
   "red_alerts_timeline": [
-    26,
-    0,
-    7,
-    7,
-    26,
-    7,
+    8,
+    23,
+    16,
+    8,
     0,
     0,
-    7,
+    8,
     0,
     0,
     0,
     0,
     0,
     0,
-    7,
+    8,
     0,
     0,
     0,
-    13,
-    13,
-    13,
+    16,
+    16,
+    16,
     0,
+    0,
+    8,
     0
   ],
   "combined_activity_timeline": [
-    17,
-    6,
     11,
-    10,
-    25,
     20,
-    5,
-    8,
+    20,
+    16,
+    3,
+    9,
     3,
     4,
-    6,
-    52,
-    26,
-    2,
-    10,
-    6,
-    12,
-    12,
-    10,
     16,
-    11,
+    50,
+    17,
+    3,
+    13,
+    10,
+    7,
+    9,
+    12,
+    19,
+    10,
     24,
-    15,
-    11
+    12,
+    12,
+    20,
+    17
   ],
   "messages_by_channel": {
-    "@eRadarrua": 65,
-    "@kpszsu": 62,
-    "@mon1tor_ua": 81,
-    "@UkraineNow": 17,
+    "@eRadarrua": 68,
+    "@kpszsu": 67,
+    "@mon1tor_ua": 82,
+    "@UkraineNow": 19,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 15,
-    "@tass_agency": 81
+    "@tass_agency": 86
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/101709",
-    "kpszsu": "https://t.me/kpszsu/69187",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69246",
-    "UkraineNow": "https://t.me/UkraineNow/82768",
+    "eRadarrua": "https://t.me/eRadarrua/101729",
+    "kpszsu": "https://t.me/kpszsu/69209",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69255",
+    "UkraineNow": "https://t.me/UkraineNow/82770",
     "DeepStateUA": "https://t.me/DeepStateUA/23664",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31746",
-    "tass_agency": "https://t.me/tass_agency/385950"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31748",
+    "tass_agency": "https://t.me/tass_agency/385960"
   },
   "cited_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/101695",
@@ -89,6 +89,60 @@
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31728"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/101721",
+      "post_id": 101721,
+      "channel": "eRadarrua",
+      "ts": "2026-07-19T12:43:04+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/PvoGHaFlGJHjRJhLyF27bi2mcvlvszu80p4YTJhxYynbI17ehBYstx_5CcL0wyLnloxqGmqdFlTILzT6dcpiRh3w8Zx21H4mjwVskix7uaHK_rj5XHiUigTq_VZGTyIMatnusZrceioGYIgP9PTMHRXcNUnC3s8jYed0OGDln-rzHp1zWsythQr3YVPhMaSLKeiI2skakHPR07_As7ieYd7LktL3hwbzJQt-BDNj2VWRUX_m07PqIHWSBsYNktq0dXpOPss66uPIv7N2_hm41jXwLx6rpLNsu4Kg0hcnQ6js2u_BClV2fhGdeWeHVig_Zv6zWKTz5V16nI9qi7dIHQ.jpg",
+      "companion_text_id": 101720
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385956",
+      "post_id": 385956,
+      "channel": "tass_agency",
+      "ts": "2026-07-19T12:42:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82770",
+      "post_id": 82770,
+      "channel": "UkraineNow",
+      "ts": "2026-07-19T12:18:38+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385954",
+      "post_id": 385954,
+      "channel": "tass_agency",
+      "ts": "2026-07-19T12:13:46+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82769",
+      "post_id": 82769,
+      "channel": "UkraineNow",
+      "ts": "2026-07-19T12:13:29+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/101711",
+      "post_id": 101711,
+      "channel": "eRadarrua",
+      "ts": "2026-07-19T11:41:37+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/tstcUyqoQq4takQk22Div5myrUiKml402sUk_T_e8lSVTdjvomS-v2uRe1PRC25DewHawdOBzCtENBQAly5cpyyy1SvrVadZK1NiI3JmQlUdadCmVF-QxlsbmioKpXKY6jfxxwHGw0beUI52BlYxw_MvTcx4Ag7aoVn71i4p-qkL3OK_dQoauRZYd_oQWi28yx5bB00t48T3bRgAFeSWq7JtK0Kg13OpSILu56LwWTYEP5BC0YAUtjmcf6TjgkcDWKEJPh3ZlWsmEc9QGh3050locZrPd5pzf9EyuoXn_qtjFlcCdk7q0mZq5YNnByedLp2TXoQ40LJuqHsvbhr4eQ.jpg",
+      "companion_text_id": 101710
+    },
+    {
+      "post_url": "https://t.me/tass_agency/385953",
+      "post_id": 385953,
+      "channel": "tass_agency",
+      "ts": "2026-07-19T11:41:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/101710",
+      "post_id": 101710,
+      "channel": "eRadarrua",
+      "ts": "2026-07-19T11:20:03+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/CopsxR3AkhaZ_wfWUZoKfBAAn_ND8gHeTE-hb67eCMBVIxJZFr7wAVZtOmaEZiP-ymMGowFEigY4ZEQrilX0-N77ek3pdZadep8H7FmxN3NuG2LJ8gyWQnwlr43TWL38zAd0NkrpK-D_Ex7egm2_urJKfvOvaQr6twHBUmaB92bkF4v3Ja2yv4wt7KGy5vnjSPwkC7ZZpXCTnJBYv_lKYxCdNMs64SzdlrtvVMV4E9Zw8OqV5D0uX5c_lyssfeoYDdJCh0-E1-nm4SMUMkBeONDFRAjCJbRJu2mTNo_SX5LKomkdvQ7tnwUCDkZN7t-eVHr8ckLPTZvp8CZ2i8fT9g.jpg",
+      "companion_text_id": 101709
+    },
     {
       "post_url": "https://t.me/tass_agency/385950",
       "post_id": 385950,
@@ -164,61 +218,14 @@
       "post_id": 385930,
       "channel": "tass_agency",
       "ts": "2026-07-19T06:23:27+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/385929",
-      "post_id": 385929,
-      "channel": "tass_agency",
-      "ts": "2026-07-19T06:21:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/101662",
-      "post_id": 101662,
-      "channel": "eRadarrua",
-      "ts": "2026-07-19T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/dhNBZIROl3Q0LWgQr4GNxxMGa09cznxcX4T7v5trktMRoju1dui5VofsSRlJUATqhg5MSspShv4_LlpDasxIVv2hR_2kEAzvJYNaRuNk0m6vAxRbt01OdeflysqC8wK7Y7qPVPAJUWohJu5KbNF0aNtsMnX4AeAKZljL-xF69P8_2OcZ7h-CBN72_UZFa6fHBZcbFqJUC4XSsZY06FS917NzJp1FnEItXACOpx7XLYfGZ_J__D5pwh5B_9EEpNReQPtkqkgxLPFgVhnUVjfulCr0h0gTIPP76edCwWDRGBPOjNarFr0yWnq5E-gJpN9a0nhnGkdlDcNCL1LGu3lHlQ.jpg",
-      "companion_text_id": 101661
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82761",
-      "post_id": 82761,
-      "channel": "UkraineNow",
-      "ts": "2026-07-19T05:50:53+00:00"
-    },
-    {
-      "post_url": "https://t.me/kpszsu/69144",
-      "post_id": 69144,
-      "channel": "kpszsu",
-      "ts": "2026-07-19T05:40:56+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/m3U7uGewKAgaGymn-WJNpCUe2OoTtuKGAnHavXA2Ssm2KLzEANJtju8s67cw6eN6mhWl1SL1Qnh1bv6KtKD8BYrqkeSylIQjFSXCRr2H3ZByvjaArd1nzq8KOeE0WRl_Nv-KUXaZ9FEi6b7x09wmRccdz7qJWweqrbSmN5Eo6gbpLaJBOQm04bgDpJEemXV0-5Pq8PSWEgjL3ex0exrXJffM_k7PrK6nT8q1iYB_L6wVYi8N4pSDRC8J7xKu5RkhakQIRg-qkadCiI2rHb_x1HEOastC9hwX5-CFNTFXp0qu_-KBwCuIwYIUuVtqiw3KCIN73cff_YxqWxot0aqs6w.jpg",
-      "companion_text_id": 69146
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82755",
-      "post_id": 82755,
-      "channel": "UkraineNow",
-      "ts": "2026-07-19T05:10:33+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31738",
-      "post_id": 31738,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-19T05:03:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/385915",
-      "post_id": 385915,
-      "channel": "tass_agency",
-      "ts": "2026-07-19T03:27:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/385911",
-      "post_id": 385911,
-      "channel": "tass_agency",
-      "ts": "2026-07-19T02:21:00+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/101710": "data/media/eRadarrua_101710.jpg",
+    "eRadarrua/101709": "data/media/eRadarrua_101710.jpg",
+    "eRadarrua/101711": "data/media/eRadarrua_101711.jpg",
+    "eRadarrua/101721": "data/media/eRadarrua_101721.jpg",
+    "eRadarrua/101720": "data/media/eRadarrua_101721.jpg",
     "eRadarrua/101677": "data/media/eRadarrua_101677.jpg",
     "eRadarrua/101675": "data/media/eRadarrua_101677.jpg",
     "eRadarrua/101684": "data/media/eRadarrua_101684.jpg",
@@ -328,32 +335,33 @@
     "regional_response": "Ukrainian officials are under pressure to replace Commander-in-Chief Syrsky amid protests, while Russian strikes on Kyiv and other cities continue. NATO's €140 billion aid commitment faces challenges due to uneven distribution among member states, potentially jeopardizing support for Ukraine.",
     "intelligence_notes": "Russian military tactics show increased reliance on Geran drones in manual control mode, while ballistic missile strikes on Kyiv and other cities indicate a shift toward targeting strategic infrastructure. The potential deployment of modernized Iskander-M rockets with 480 km range could significantly alter the battlefield dynamics, requiring urgent Ukrainian countermeasures."
   },
+  "stale_summary": true,
   "missiles": 41,
   "drones": 125,
   "kpszsu_timeline": [
-    4,
-    0,
     2,
-    4,
-    8,
-    7,
-    0,
-    2,
-    0,
-    0,
-    0,
-    1,
-    2,
-    1,
-    4,
-    1,
-    4,
-    1,
-    3,
-    4,
-    1,
     6,
+    8,
     5,
-    2
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    4,
+    3,
+    2,
+    0,
+    4,
+    3,
+    1,
+    7,
+    2,
+    3,
+    7,
+    3
   ]
 }
