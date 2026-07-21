@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-20T23:23:45.458739+00:00",
-  "message_count": 331,
+  "updated_at": "2026-07-21T03:04:19.606762+00:00",
+  "message_count": 320,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,60 +13,60 @@
   ],
   "red_alerts": 94,
   "red_alerts_timeline": [
+    9,
     0,
     0,
     0,
+    13,
+    9,
+    4,
     0,
-    10,
+    9,
+    0,
+    4,
+    13,
+    0,
+    4,
+    0,
+    4,
+    0,
+    9,
     0,
     0,
+    4,
     0,
-    21,
-    5,
-    5,
-    5,
-    5,
     0,
-    16,
-    5,
-    0,
-    5,
-    5,
-    0,
-    5,
-    5,
-    0,
-    0
+    13
   ],
   "combined_activity_timeline": [
-    7,
-    12,
-    14,
-    9,
-    14,
-    14,
-    9,
-    18,
-    18,
-    19,
-    18,
-    12,
-    22,
-    20,
-    25,
-    21,
-    10,
     12,
     13,
-    5,
-    8,
-    9,
+    10,
+    18,
+    17,
+    15,
+    21,
+    13,
+    21,
+    17,
+    20,
+    26,
+    15,
     11,
-    11
+    11,
+    8,
+    7,
+    7,
+    9,
+    13,
+    7,
+    11,
+    7,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 41,
-    "@kpszsu": 70,
+    "@eRadarrua": 45,
+    "@kpszsu": 55,
     "@mon1tor_ua": 3,
     "@UkraineNow": 20,
     "@DeepStateUA": 4,
@@ -74,23 +74,41 @@
     "@tass_agency": 164
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/101865",
-    "kpszsu": "https://t.me/kpszsu/69429",
+    "eRadarrua": "https://t.me/eRadarrua/101874",
+    "kpszsu": "https://t.me/kpszsu/69448",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69273",
     "UkraineNow": "https://t.me/UkraineNow/82803",
     "DeepStateUA": "https://t.me/DeepStateUA/23670",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31787",
-    "tass_agency": "https://t.me/tass_agency/386198"
+    "tass_agency": "https://t.me/tass_agency/386222"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/101862",
-    "UkraineNow": "https://t.me/UkraineNow/82793",
+    "DeepStateUA": "https://t.me/DeepStateUA/23670",
+    "UkraineNow": "https://t.me/UkraineNow/82788",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31784",
-    "tass_agency": "https://t.me/tass_agency/386185",
-    "DeepStateUA": "https://t.me/DeepStateUA/23668",
-    "kpszsu": "https://t.me/kpszsu/69412"
+    "kpszsu": "https://t.me/kpszsu/69438",
+    "eRadarrua": "https://t.me/eRadarrua/101855",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69272"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/386220",
+      "post_id": 386220,
+      "channel": "tass_agency",
+      "ts": "2026-07-21T02:31:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/386217",
+      "post_id": 386217,
+      "channel": "tass_agency",
+      "ts": "2026-07-21T01:54:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/386209",
+      "post_id": 386209,
+      "channel": "tass_agency",
+      "ts": "2026-07-21T01:00:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/386194",
       "post_id": 386194,
@@ -192,24 +210,6 @@
       "post_id": 31784,
       "channel": "ukr_leaks_eng",
       "ts": "2026-07-20T16:41:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/386150",
-      "post_id": 386150,
-      "channel": "tass_agency",
-      "ts": "2026-07-20T16:39:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31783",
-      "post_id": 31783,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-20T16:28:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31781",
-      "post_id": 31781,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-20T15:28:59+00:00"
     }
   ],
   "post_images": {
@@ -217,127 +217,118 @@
     "eRadarrua/101828": "data/media/eRadarrua_101827.jpg",
     "eRadarrua/101810": "data/media/eRadarrua_101810.jpg",
     "eRadarrua/101812": "data/media/eRadarrua_101812.jpg",
-    "eRadarrua/101792": "data/media/eRadarrua_101792.jpg",
-    "eRadarrua/101794": "data/media/eRadarrua_101792.jpg",
     "eRadarrua/101778": "data/media/eRadarrua_101778.jpg",
     "eRadarrua/101779": "data/media/eRadarrua_101779.jpg",
     "eRadarrua/101783": "data/media/eRadarrua_101783.jpg",
     "eRadarrua/101784": "data/media/eRadarrua_101783.jpg",
+    "eRadarrua/101792": "data/media/eRadarrua_101792.jpg",
     "kpszsu/69330": "data/media/kpszsu_69330.jpg",
-    "kpszsu/69331": "data/media/kpszsu_69330.jpg"
+    "kpszsu/69329": "data/media/kpszsu_69330.jpg"
   },
-  "summary": "Russian forces intensified strikes on Ukrainian civilian infrastructure, including a deadly attack on a shopping mall in Sumy and a missile strike on an oil depot in Odesa. The UN reported June civilian casualties reached the highest level since April 2022, with 126 killed and 907 wounded, primarily from long-range missiles and drones. Meanwhile, Ukrainian Commander-in-Chief Syrskyi denied conflicts with the defense minister and emphasized institutional resilience amid personnel changes.",
+  "summary": "Russian forces have advanced near Rai-Oleksandrivka according to DeepStateUA. Ukrainian forces conducted strikes in the Black and Azov Seas, hitting 7 vessels including 3 tankers and 4 cargo ships. Significant civilian casualties were reported in Zaporizhzhia and Kramatorsk following Russian strikes.",
   "key_points": [
-    "Russian FPV drone strike hit Epicentr mall in Sumy causing major fire (Source: @eRadarrua/101862)",
-    "Russian attack on Turkish cargo ship Golden Leo near Odesa killed 10 people (Source: @eRadarrua/101827)",
-    "UN: June civilian casualties highest since April 2022 with 126 killed, 907 wounded (Source: @UkraineNow/82793)",
-    "Russian strikes on Kramatorsk and Zaporizhzhia killed at least 3, wounded 9 (Source: @UkraineNow/82791)",
-    "Major fire at Eximnefteprodukt oil depot in Odesa after Russian Banderol missile strike (Source: @ukr_leaks_eng/31784)",
-    "Russian MoD claims strike on military cargo storage at Chornomorsk port in Odesa region (Source: @ukr_leaks_eng/31782)",
-    "Sevastopol air defense shot down 2 Ukrainian UAVs according to governor (Source: @tass_agency/386185)",
-    "Syrskyi denies conflict with Defense Minister Fedorov, asserts readiness to work with any leadership (Source: @UkraineNow/82803)"
+    "Russian forces have advanced near Rai-Oleksandrivka (Source: @DeepStateUA/23670).",
+    "Ukrainian drones struck 7 vessels in the Black and Azov Seas, including 3 tankers and 4 cargo ships (Source: @UkraineNow/82788).",
+    "Russian forces struck the Eximnefteprodukt plant in Odesa with a Banderol missile, causing a massive fire (Source: @ukr_leaks_eng/31784).",
+    "A Russian strike on Zaporizhzhia resulted in one death and three injuries (Source: @UkraineNow/82785).",
+    "Russian forces conducted six strikes on residential areas in Kramatorsk, resulting in one death and five injuries (Source: @UkraineNow/82791).",
+    "The SBU struck a Russian FSB coordination center in Kherson with 13 drones, causing a large fire (Source: @UkraineNow/82794).",
+    "Russian forces used three X-59/X-69 cruise missiles to strike the civilian cargo ship GOLDEN LEO (Source: @UkraineNow/82786).",
+    "Six EU countries oppose parts of the 21st anti-Russian sanctions package (Source: @UkraineNow/82789)."
   ],
-  "sentiment": "escalating",
-  "intensity": 8,
+  "sentiment": "volatile",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Russian forces escalated attacks on civilian and infrastructure targets across Ukraine, with deadly strikes in Sumy, Odesa, Kramatorsk, and Zaporizhzhia. The UN confirmed June saw the highest civilian casualties since April 2022, driven by long-range missile and drone strikes deep behind front lines. Ukrainian leadership faces internal scrutiny as Commander-in-Chief Syrskyi addresses tensions with the defense ministry while emphasizing institutional continuity.",
+    "executive_summary": "Russian forces have made tactical gains near Rai-Oleksandrivka. Ukrainian maritime strikes successfully targeted seven vessels in the Black and Azov Seas. Aerial strikes in Zaporizhzhia and Kramatorsk have caused civilian casualties and infrastructure damage.",
     "ukraine": {
       "points": [
-        "Commander-in-Chief Syrskyi stated he is ready to work with any defense minister, denying personal conflict with Minister Fedorov and emphasizing Ukraine's resilience relies on army, institutions, and millions of citizens rather than irreplaceable individuals (Source: @UkraineNow/82803).",
-        "Syrskyi personally initiated creation of Unmanned Systems Forces but clarified drones alone cannot replace artillery, air defense, and other equipment, countering allegations he refuses to fight with drones (Source: @UkraineNow/82803).",
-        "Head of Zelensky's office Budanov acknowledged society's position on personnel changes heard, stating situation is being resolved professionally and constructively in favor of the state (Source: @ukr_leaks_eng/31781).",
-        "Ukrainian Sappers Association safety instructor Igor Molodan claimed no certified bomb shelters exist for general public, only for top military and political leadership (Source: @ukr_leaks_eng/31785).",
-        "Blogger Ekaterina Zolotareva alleged former Defense Minister Fedorov lobbied for drone manufacturer Skyfall and CEO Alexander Konotopsky, resulting in multi-billion dollar contracts, and claimed current protests are sponsored by Konotopsky and Kolomoisky (Source: @ukr_leaks_eng/31762).",
-        "Western-made quad bike disguised as grain discovered in grain container at Odesa region port, suggesting covert military supply routes (Source: @ukr_leaks_eng/31772).",
-        "DeepState mapping project affirmed continuity despite commander changes, signaling operational stability in Ukrainian military analysis (Source: @DeepStateUA/23668)."
+        "Ukrainian drones targeted 7 vessels in the Black and Azov Seas, including 3 tankers and 4 cargo ships (Source: @UkraineNow/82788).",
+        "The SBU utilized 13 drones to strike a Russian FSB coordination center in Kherson, causing a large fire (Source: @UkraineNow/82794).",
+        "A Banderol missile strike on the Eximnefteprodukt plant in Odesa caused a massive fire at fuel tanks (Source: @ukr_leaks_eng/31784).",
+        "Ukrainian forces reported a strike on a civilian vessel, the GOLDEN LEO, using X-59/X-69 cruise missiles (Source: @UkraineNow/82786).",
+        "The Ukrainian National Police were observed displaying drone boxes while reporting on a strike in Sumy (Source: @ukr_leaks_eng/31770)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces attacked Epicentr shopping mall in Sumy with FPV drone, causing significant fire and civilian casualties (Source: @eRadarrua/101862).",
-        "Russian strike on Turkish-owned, Guinea-Bissau flagged cargo ship Golden Leo near Odesa killed 10 people, escalating Black Sea maritime threats (Source: @eRadarrua/101827).",
-        "Russian guided aerial bombs struck residential areas of Kramatorsk with six hits, killing at least 2 and wounding 4, while Zaporizhzhia attack killed 1 and wounded 5 (Source: @UkraineNow/82791).",
-        "Russian Banderol missile struck fuel tanks at Eximnefteprodukt plant in Odesa, causing massive fire with thick smoke visible across city (Source: @ukr_leaks_eng/31784).",
-        "Russian Ministry of Defense reported strike on port infrastructure in Chornomorsk, Odesa region, allegedly used for storing military cargo (Source: @ukr_leaks_eng/31782).",
-        "Sevastopol air defense systems intercepted and destroyed 2 Ukrainian UAVs during attempted attack, per city governor (Source: @tass_agency/386185).",
-        "Russian proxy source claimed Ukrainian drone attack on civilian bus in Shebekino, Belgorod region, killing 5 including a child and injuring 23 (Source: @ukr_leaks_eng/31787)."
+        "Russian forces have advanced in the vicinity of Rai-Oleksandrivka (Source: @DeepStateUA/23670).",
+        "Russian forces conducted six strikes on residential areas in Kramatorsk, causing one death and five injuries (Source: @UkraineNow/82791).",
+        "Russian forces struck Zaporizhzhia, resulting in one death and three injuries (Source: @UkraineNow/82785).",
+        "Russian forces launched three X-59/X-69 cruise missiles at the civilian cargo ship GOLDEN LEO (Source: @UkraineNow/82786).",
+        "Russian forces launched guided aerial bombs that damaged residential and non-residential buildings in Zaporizhzhia (Source: @UkraineNow/82791)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces conducted six guided aerial bomb strikes on residential quarters of Kramatorsk, Donetsk region, resulting in at least 2 killed and 4 wounded, with victims trapped under rubble (Source: @UkraineNow/82791).",
-        "Continued Russian pressure on eastern Ukrainian cities with long-range aviation assets, demonstrating ability to strike deep into Donetsk region rear areas (Source: @UkraineNow/82791).",
-        "No specific ground offensive movements reported in eastern sector during this period, though aviation strikes indicate sustained targeting of urban centers (Source: @UkraineNow/82791).",
-        "Ukrainian air defense activity in eastern regions not detailed in available messages, though tactical aviation threat alerts issued for frontline areas (Source: @kpszsu/69412)."
+        "Russian forces have advanced near Rai-Oleksandrivka (Source: @DeepStateUA/23670).",
+        "Russian forces launched guided aerial bombs toward the east of Dnipropetrovsk (Source: @kpszsu/69438).",
+        "Russian forces conducted strikes on residential quarters in Kramatorsk (Source: @UkraineNow/82791)."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple jet UAVs detected over Chernihiv region targeting Nizhyn, Horodnya, Borzna, and Baturyn, with increased strike UAV threat warning issued for Chernihiv city (Source: @eRadarrua/101841, @eRadarrua/101831, @eRadarrua/101832, @eRadarrua/101860).",
-        "Sumy region experienced FPV drone attack on Epicentr mall and multiple jet UAVs from Kursk direction toward Romny and Nedryhailiv, plus UAVs from Belarus toward Buhaivka (Source: @eRadarrua/101862, @eRadarrua/101828, @eRadarrua/101834).",
-        "Kharkiv region tracked three jet UAVs past Lozova toward Dnipropetrovsk region, two jet UAVs likely Banderol toward Zlatopil, and tactical aviation activity alert for northeastern direction (Source: @eRadarrua/101855, @eRadarrua/101843, @kpszsu/69412).",
-        "UAV transit from Sumy region toward Kharkiv region and from Chernihiv region past Slavutych on southern course indicates persistent northern vector threats (Source: @kpszsu/69428, @kpszsu/69398)."
+        "A high-speed target was reported in northern Kharkiv heading towards Chuhuiv (Source: @kpszsu/69436).",
+        "Three jet UAVs were spotted passing Lovovo in Kharkiv region toward Dnipropetrovsk (Source: @eRadarrua/101855).",
+        "Jet UAVs were reported near Slobozhanske from the southeast (Source: @kpszsu/69410).",
+        "Jet UAVs were spotted near Zlatopil from the south (Source: @eRadarrua/101843).",
+        "Jet UAVs were reported near Sharyivka from the south (Source: @eRadarrua/101872)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian attack on Turkish cargo ship Golden Leo near Odesa killed 10 crew members, marking significant escalation in Black Sea maritime targeting (Source: @eRadarrua/101827).",
-        "Massive fire at Eximnefteprodukt oil depot in Odesa after Russian Banderol missile strike on fuel tanks, with smoke visible city-wide (Source: @ukr_leaks_eng/31784).",
-        "Russian MoD claimed precision strike on Chornomorsk port infrastructure in Odesa region allegedly storing military cargo (Source: @ukr_leaks_eng/31782).",
-        "Multiple UAV groups detected over Black Sea approaching Odesa coastline from sea lanes, including reconnaissance UAV over Primorskyi district (Source: @eRadarrua/101865, @eRadarrua/101844, @eRadarrua/101863, @kpszsu/69416).",
-        "Jet UAV launched from Vilkovo toward Izmail district in Odesa region, plus UAV from occupied Kherson region toward Odesa region (Source: @eRadarrua/101850, @eRadarrua/101806)."
+        "A Banderol loitering munition was reported heading towards Odesa (Source: @kpszsu/69432).",
+        "Two guided jet UAVs were spotted near Myriolyubove in Mykolaiv region (Source: @eRadarrua/101822).",
+        "A jet UAV was reported heading from Vilkove towards the Izmail district (Source: @eRadarrua/101850).",
+        "A jet UAV was reported from the Black Sea towards Chornomorsk/Odesa (Source: @kpszsu/69370)."
       ]
     },
     "air_war": {
       "points": [
-        "Intensive UAV activity across all fronts: jet UAVs (likely Banderol) used for deep strikes in Kharkiv, Sumy, Odesa regions; FPV drones for tactical attacks in Sumy; reconnaissance UAVs over Odesa (Source: @eRadarrua/101843, @eRadarrua/101855, @eRadarrua/101850, @eRadarrua/101862, @eRadarrua/101863).",
-        "Russian tactical aviation active in northeastern direction with threat of aviation-guided weapons for frontline areas, per Ukrainian monitoring (Source: @kpszsu/69412).",
-        "Russian guided aerial bombs (KABs) primary weapon for Kramatorsk and Zaporizhzhia strikes, causing severe structural damage and casualties (Source: @UkraineNow/82791).",
-        "Banderol cruise missiles employed against Odesa oil depot and possibly Kharkiv region targets, indicating continued long-range precision strike campaign (Source: @ukr_leaks_eng/31784, @eRadarrua/101843).",
-        "Ukrainian UAV attacks reported on Russian territory: Sevastopol (2 shot down), Shebekino Belgorod region (bus attack claimed), suggesting expanded Ukrainian deep strike capability (Source: @tass_agency/386185, @ukr_leaks_eng/31787).",
-        "UN data confirms 45% of June civilian casualties from long-range missiles and strike drones, with most attacks far from front lines including Kyiv and Dnipro (Source: @UkraineNow/82793).",
-        "Air defense interceptions reported in Sevastopol only; no Ukrainian air defense successes detailed in available messages for this period (Source: @tass_agency/386185)."
+        "Russia has launched 107 ballistic missiles and 20 Zircon missiles against Ukraine since early July (Source: @UkraineNow/82787).",
+        "Russia produces approximately 50-55 Iskander-M ballistic missiles per month (Source: @mon1tor_ua/69272).",
+        "One to two Onyx missiles were reported heading towards Odesa/Chornomorsk (Source: @mon1tor_ua/69268).",
+        "Russian tactical aviation activity was reported in the north-eastern direction (Source: @kpszsu/69435)."
       ]
     },
     "key_developments": [
-      "Russian FPV drone strike on Epicentr mall in Sumy causes major fire, marking continued targeting of civilian commercial infrastructure (Source: @eRadarrua/101862)",
-      "Russian attack on Turkish cargo ship Golden Leo near Odesa kills 10, escalating Black Sea maritime security risks (Source: @eRadarrua/101827)",
-      "UN reports June civilian casualties highest since April 2022: 126 killed, 907 wounded, 45% from long-range missiles and drones (Source: @UkraineNow/82793)",
-      "Russian guided bomb strikes on Kramatorsk (6 hits) and Zaporizhzhia kill 3, wound 9 in residential areas (Source: @UkraineNow/82791)",
-      "Banderol missile destroys Eximnefteprodukt oil depot in Odesa, massive fire sends smoke across city (Source: @ukr_leaks_eng/31784)",
-      "Russian MoD claims strike on military cargo storage at Chornomorsk port, Odesa region (Source: @ukr_leaks_eng/31782)",
-      "Sevastopol air defense shoots down 2 Ukrainian UAVs; Ukrainian drone allegedly kills 5 civilians on bus in Shebekino, Belgorod (Source: @tass_agency/386185, @ukr_leaks_eng/31787)"
+      "Russian forces have advanced near Rai-Oleksandrivka (Source: @DeepStateUA/23670).",
+      "Ukrainian drones struck 7 vessels in the Black and Azov Seas, including 3 tankers (Source: @UkraineNow/82788).",
+      "A Banderol missile strike caused a massive fire at the Eximnefteprodukt plant in Odesa (Source: @ukr_leaks_eng/31784).",
+      "Russian forces conducted six strikes on residential areas in Kramatorsk, causing casualties (Source: @UkraineNow/82791).",
+      "The SBU struck a Russian FSB coordination center in Kherson with 13 drones (Source: @UkraineNow/82794).",
+      "Russia has launched 107 ballistic missiles and 20 Zircon missiles since early July (Source: @UkraineNow/82787).",
+      "Six EU countries oppose parts of the 21st anti-Russian sanctions package (Source: @UkraineNow/82789)."
     ],
-    "threat_assessment": "Russian forces are systematically escalating long-range strikes against Ukrainian civilian infrastructure and population centers far from front lines, utilizing combined missile, guided bomb, and drone arsenals. The June civilian casualty spike to 2022-level highs indicates a deliberate campaign to degrade Ukrainian societal resilience and economic capacity, particularly targeting energy, port, and commercial facilities in Odesa and northern regions. Simultaneously, Ukrainian deep strikes into Russian territory (Sevastopol, Belgorod) suggest expanding asymmetric capabilities, raising risks of further escalation. The internal Ukrainian leadership tensions regarding defense procurement and personnel changes could affect military decision-making coherence at a critical juncture.",
-    "regional_response": "International response shows fragmentation: new UK Prime Minister Andy Burnham pledges continued support for Ukraine, but EU unity on 21st sanctions package is fracturing with Greece, Germany, France, Italy, Austria, and Portugal opposing further measures citing economic costs. Turkey's cargo ship loss may trigger NATO Article 4 consultations, while Indonesia maintains defense cooperation with Russia despite Western pressure. UN civilian casualty documentation provides legal basis for potential war crimes investigations but lacks enforcement mechanism.",
-    "intelligence_notes": "Allegations of corruption linking former Defense Minister Fedorov to drone manufacturer Skyfall via CEO Konotopsky and oligarch Kolomoisky suggest systemic procurement vulnerabilities that Russian intelligence likely exploits. The reported absence of certified public bomb shelters indicates critical civil defense gaps despite years of war. Syrskyi's public affirmation of Unmanned Systems Forces creation confirms doctrinal shift toward drone-centric warfare, though his caveat about artillery/air defense irreplaceability reveals capability gaps. Upcoming prisoner exchange signals maintained backchannel communication despite heightened kinetic conflict."
+    "threat_assessment": "The operational environment is characterized by high-intensity aerial strikes and maritime targeting. Russian forces are utilizing ballistic missiles and cruise missiles to target civilian infrastructure and maritime vessels. The advancement near Rai-Oleksandrivka indicates continued ground pressure.",
+    "regional_response": "The UK has undergone a leadership change, with Andy Burnham replacing Keir Starmer as Prime Minister. Within the EU, six nations including France and Germany are opposing specific provisions of the 21st sanctions package due to economic concerns.",
+    "intelligence_notes": "Russian missile production of Iskander-M is estimated at 50-55 units per month, though recent Ukrainian strikes on the defense industry may have reduced this. The SBU is actively targeting FSB coordination nodes using drone swarms."
   },
   "missiles": 0,
   "drones": 94,
   "kpszsu_timeline": [
+    4,
+    5,
+    4,
     2,
-    7,
-    7,
-    5,
-    5,
-    6,
-    3,
-    1,
-    3,
-    1,
-    1,
-    1,
-    5,
     2,
-    6,
-    3,
     1,
     2,
-    5,
     1,
+    3,
+    2,
+    4,
+    5,
+    3,
+    1,
+    4,
+    2,
     0,
     0,
+    1,
+    2,
+    1,
     3,
-    0
+    0,
+    2
   ]
 }
