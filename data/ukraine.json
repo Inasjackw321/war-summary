@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-23T20:15:54.037578+00:00",
-  "message_count": 358,
+  "updated_at": "2026-07-23T21:14:55.508762+00:00",
+  "message_count": 357,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 168,
   "red_alerts_timeline": [
-    20,
     0,
     0,
     0,
@@ -23,73 +22,80 @@
     0,
     0,
     0,
-    20,
-    20,
+    22,
+    22,
     0,
     0,
-    20,
-    20,
-    10,
-    10,
+    22,
+    22,
+    11,
+    11,
     0,
     0,
-    10,
+    11,
     0,
-    30,
-    10
+    34,
+    11,
+    0
   ],
   "combined_activity_timeline": [
     10,
-    9,
     2,
     6,
     19,
     13,
     9,
     7,
-    12,
+    11,
     16,
-    18,
-    26,
-    21,
+    19,
+    24,
+    23,
     26,
     17,
-    18,
-    9,
     17,
+    11,
+    16,
     19,
     30,
     21,
-    11,
     9,
-    13
+    11,
+    13,
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 69,
-    "@kpszsu": 76,
+    "@eRadarrua": 66,
+    "@kpszsu": 74,
     "@mon1tor_ua": 16,
     "@UkraineNow": 22,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 147
+    "@tass_agency": 151
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102340",
-    "kpszsu": "https://t.me/kpszsu/69853",
+    "eRadarrua": "https://t.me/eRadarrua/102343",
+    "kpszsu": "https://t.me/kpszsu/69855",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69331",
     "UkraineNow": "https://t.me/UkraineNow/82867",
     "DeepStateUA": "https://t.me/DeepStateUA/23681",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31868",
-    "tass_agency": "https://t.me/tass_agency/386732"
+    "tass_agency": "https://t.me/tass_agency/386738"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102290",
-    "tass_agency": "https://t.me/tass_agency/386726",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31846",
-    "UkraineNow": "https://t.me/UkraineNow/82857",
-    "DeepStateUA": "https://t.me/DeepStateUA/23681"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31852",
+    "eRadarrua": "https://t.me/eRadarrua/102280",
+    "kpszsu": "https://t.me/kpszsu/69821",
+    "tass_agency": "https://t.me/tass_agency/386727",
+    "UkraineNow": "https://t.me/UkraineNow/82851"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/386737",
+      "post_id": 386737,
+      "channel": "tass_agency",
+      "ts": "2026-07-23T21:10:02+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/102339",
       "post_id": 102339,
@@ -214,12 +220,6 @@
       "post_id": 386716,
       "channel": "tass_agency",
       "ts": "2026-07-23T16:03:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23679",
-      "post_id": 23679,
-      "channel": "DeepStateUA",
-      "ts": "2026-07-23T16:00:00+00:00"
     }
   ],
   "post_images": {
@@ -247,104 +247,81 @@
     "kpszsu/69780": "data/media/kpszsu_69780.jpg",
     "kpszsu/69781": "data/media/kpszsu_69780.jpg"
   },
-  "summary": "Ukrainian forces maintain offensive operations in Chernihiv and Sumy regions with multiple strikes reported. Russian air defenses intercepted Ukrainian drones over multiple fronts. Diplomatic efforts for peace talks continue with US involvement. Civilian casualties reported in Zaporizhzhia from Russian attacks.",
+  "summary": "Russian strikes on Ukrainian ports and ships disrupt grain exports, while BPLAs target multiple regions. Sanctions escalate economic pressure on Russia. Military activity remains concentrated in eastern and southern fronts.",
   "key_points": [
-    "Ukrainian strike groups operating in Chernihiv region with multiple UAV and missile launches (Source: @eRadarrua/102290)",
-    "Russian air defenses reported shooting down 172 Ukrainian drones over Russian territory and Black Sea (Source: @tass_agency/386726)",
-    "Zelenskyy offered Fedorov deputy PM role but he insists on Defense Ministry position to implement AIR-LAND-ECONOMY plan (Source: @ukr_leaks_eng/31846)",
-    "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102287)",
-    "Russian claims of 8,300 Ukrainian deaths in Donbas since 2014 (Source: @tass_agency/386716)",
-    "Ukrainian forces attacking Russian positions near Lyman and Kreminna (Source: @eRadarrua/102307)",
-    "Ireland announces €125M military aid package including €100M for non-lethal equipment (Source: @UkraineNow/82857)"
+    "Russian strikes on Ukrainian ports and ships halt grain corridor operations, per Ukrainian officials (Source: @ukr_leaks_eng/31852).",
+    "BPLAs attack regions including Poltava, Chernihiv, and Sumy, with multiple groups reported (Source: @eRadarrua/102280, @kpszsu/69821).",
+    "Russia claims to have downed 172 Ukrainian BPLAs over Black Sea and Azov regions (Source: @tass_agency/386727).",
+    "EU imposes 21st sanctions package targeting Russian officials and entities (Source: @tass_agency/386735).",
+    "Ukrainian fuel prices rise to UAH 79.84/liter for gasoline (Source: @ukr_leaks_eng/31850).",
+    "BPLAs reported near Kharkiv, Kyiv, and Chernihiv regions (Source: @eRadarrua/102310, @kpszsu/69846).",
+    "Russian military claims strikes on infrastructure in Southern ports (Source: @tass_agency/386727).",
+    "Ukrainian military develops AI system 'Marichka' for battlefield data analysis (Source: @UkraineNow/82851)."
   ],
-  "sentiment": "volatile",
-  "intensity": 7,
+  "sentiment": "escalating",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian forces maintain offensive operations in Chernihiv and Sumy regions with multiple strikes reported. Russian air defenses intercepted Ukrainian drones over multiple fronts. Diplomatic efforts for peace talks continue with US involvement. Civilian casualties reported in Zaporizhzhia from Russian attacks.",
+    "executive_summary": "Russian military strikes on Ukrainian ports and ships disrupt critical grain exports, while BPLAs target multiple regions. Sanctions escalate economic pressure on Russia. Military activity remains concentrated in eastern and southern fronts.",
     "ukraine": {
       "points": [
-        "Ukrainian strike groups operating in Chernihiv region with multiple UAV and missile launches (Source: @eRadarrua/102290)",
-        "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102307)",
-        "Fedorov insists on Defense Ministry position to implement AIR-LAND-ECONOMY plan (Source: @ukr_leaks_eng/31846)",
-        "Ukrainian forces attacking Russian positions near Lyman and Kreminna (Source: @eRadarrua/102307)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)",
-        "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102307)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)"
+        "BPLAs attack Poltava, Chernihiv, and Sumy regions, with groups operating near Kharkiv and Kyiv (Source: @eRadarrua/102280, @kpszsu/69821).",
+        "Ukrainian ports see suspended ship calls due to Russian strikes, per Agrarian Policy Minister Taras Vysotsky (Source: @ukr_leaks_eng/31852).",
+        "Fuel prices in Ukraine reach UAH 79.84/liter for gasoline, impacting logistics (Source: @ukr_leaks_eng/31850).",
+        "AI system 'Marichka' developed for centralized battlefield data analysis to reduce decision-making time (Source: @UkraineNow/82851).",
+        "Russian strikes on Southern ports disrupt grain corridor, with ships avoiding Ukrainian waters (Source: @UkraineNow/82863).",
+        "BPLAs reported near Chernihiv and Kyiv regions, including near Ivankiv and Krasyatichi (Source: @kpszsu/69837, @eRadarrua/102317).",
+        "Ukrainian military confirms attacks on Wildberries warehouses may lead to strikes on other businesses (Source: @ukr_leaks_eng/31847)."
       ]
     },
     "russia": {
       "points": [
-        "Russian air defenses reported shooting down 172 Ukrainian drones over Russian territory and Black Sea (Source: @tass_agency/386726)",
-        "Russian forces attacked Zaporizhzhia with KABs causing civilian casualties (Source: @UkraineNow/82855)",
-        "Russian claims of 8,300 Ukrainian deaths in Donbas since 2014 (Source: @tass_agency/386716)",
-        "Russian forces continuing operations in Donbas region (Source: @tass_agency/386716)",
-        "Russian military claims successful interception of Ukrainian drones (Source: @tass_agency/386726)",
-        "Russian forces maintaining pressure on eastern frontlines (Source: @tass_agency/386716)",
-        "Russian military claims successful interception of Ukrainian drones (Source: @tass_agency/386726)"
+        "Claims to have downed 172 Ukrainian BPLAs over Black Sea and Azov regions (Source: @tass_agency/386727).",
+        "Imposes 21st sanctions package targeting Russian officials and entities, including crypto restrictions (Source: @tass_agency/386735).",
+        "Reports strikes on infrastructure in Southern ports, including fuel unloading facilities (Source: @tass_agency/386727).",
+        "Discusses prolonging gasoline export ban for six months (Source: @tass_agency/386727).",
+        "Sanctions include potential visa bans for SVO participants (Source: @tass_agency/386725)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces attacking Russian positions near Lyman and Kreminna (Source: @eRadarrua/102307)",
-        "Russian forces maintaining pressure on eastern frontlines (Source: @tass_agency/386716)",
-        "Ukrainian strike groups operating in Chernihiv region with multiple UAV and missile launches (Source: @eRadarrua/102290)",
-        "Russian forces continuing operations in Donbas region (Source: @tass_agency/386716)",
-        "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102307)",
-        "Russian military claims successful interception of Ukrainian drones (Source: @tass_agency/386726)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)"
+        "BPLAs and reactive groups reported near Kharkiv, Kyiv, and Chernihiv regions (Source: @eRadarrua/102280, @kpszsu/69821).",
+        "Russian strikes on infrastructure in Southern ports may impact eastern front logistics (Source: @tass_agency/386727).",
+        "Ukrainian military reports attacks on Wildberries warehouses, potentially escalating to other businesses (Source: @ukr_leaks_eng/31847)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian strike groups operating in Chernihiv region with multiple UAV and missile launches (Source: @eRadarrua/102290)",
-        "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102307)",
-        "Russian military claims successful interception of Ukrainian drones (Source: @tass_agency/386726)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)",
-        "Ukrainian forces attacking Russian positions near Lyman and Kreminna (Source: @eRadarrua/102307)",
-        "Russian forces maintaining pressure on eastern frontlines (Source: @tass_agency/386716)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)"
+        "BPLAs reported near Chernihiv and Kyiv regions, including near Ivankiv and Krasyatichi (Source: @kpszsu/69837, @eRadarrua/102317)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102307)",
-        "Russian forces maintaining pressure on eastern frontlines (Source: @tass_agency/386716)",
-        "Ukrainian strike groups operating in Chernihiv region with multiple UAV and missile launches (Source: @eRadarrua/102290)",
-        "Russian military claims successful interception of Ukrainian drones (Source: @tass_agency/386726)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)",
-        "Ukrainian forces attacking Russian positions near Lyman and Kreminna (Source: @eRadarrua/102307)",
-        "Russian forces continuing operations in Donbas region (Source: @tass_agency/386716)"
+        "Russian strikes on Southern ports disrupt grain corridor, with ships avoiding Ukrainian waters (Source: @UkraineNow/82863).",
+        "BPLAs reported near Kherson and Mykolaiv regions (Source: @kpszsu/69817)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian air defenses reported shooting down 172 Ukrainian drones over Russian territory and Black Sea (Source: @tass_agency/386726)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)",
-        "Ukrainian strike groups operating in Chernihiv region with multiple UAV and missile launches (Source: @eRadarrua/102290)",
-        "Russian military claims successful interception of Ukrainian drones (Source: @tass_agency/386726)",
-        "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102307)",
-        "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)",
-        "Russian military claims successful interception of Ukrainian drones (Source: @tass_agency/386726)"
+        "Russian claims to have downed 172 Ukrainian BPLAs over Black Sea and Azov regions (Source: @tass_agency/386727)."
       ]
     },
     "key_developments": [
-      "Ukrainian forces maintain offensive operations in Chernihiv region with multiple UAV and missile launches (Source: @eRadarrua/102290)",
-      "Russian air defenses reported shooting down 172 Ukrainian drones over Russian territory and Black Sea (Source: @tass_agency/386726)",
-      "Zelenskyy offered Fedorov deputy PM role but he insists on Defense Ministry position to implement AIR-LAND-ECONOMY plan (Source: @ukr_leaks_eng/31846)",
-      "Ukrainian forces conducting strikes near Kupiansk and Chervonohryhorivka in Sumy region (Source: @eRadarrua/102307)",
-      "Russian claims of 8,300 Ukrainian deaths in Donbas since 2014 (Source: @tass_agency/386716)",
-      "Ukrainian military leadership emphasizes importance of air superiority and economic warfare (Source: @DeepStateUA/23681)",
-      "Ireland announces €125M military aid package including €100M for non-lethal equipment (Source: @UkraineNow/82857)"
+      "Russian strikes on Ukrainian ports halt grain corridor operations, per Ukrainian officials (Source: @ukr_leaks_eng/31852).",
+      "BPLAs target multiple regions including Poltava, Chernihiv, and Sumy (Source: @eRadarrua/102280, @kpszsu/69821).",
+      "Russia claims downing 172 Ukrainian BPLAs over Black Sea and Azov (Source: @tass_agency/386727).",
+      "EU imposes 21st sanctions package targeting Russian officials and entities (Source: @tass_agency/386735).",
+      "Ukrainian fuel prices reach UAH 79.84/liter for gasoline (Source: @ukr_leaks_eng/31850).",
+      "Ukrainian military develops AI system 'Marichka' for battlefield data analysis (Source: @UkraineNow/82851).",
+      "Russian strikes on Southern ports disrupt grain exports, with ships avoiding Ukrainian waters (Source: @UkraineNow/82863)."
     ],
-    "threat_assessment": "Ukrainian military leadership maintains significant momentum through coordinated air-land-economic operations, creating sustained pressure on Russian forces. Russian air defenses remain active but face persistent drone attacks. Diplomatic efforts show mixed progress with US involvement, though territorial disputes remain unresolved. Civilian casualties in Zaporizhzhia highlight ongoing risks to non-combatants.",
-    "regional_response": "Ireland's €125M aid package demonstrates continued Western support, while US-Russia-Ukraine trilateral talks remain tentative. Russian military claims successful drone interceptions suggest ongoing air defense capabilities, though Ukrainian strikes persist. Civilian casualties in Zaporizhzhia underscore vulnerability of southern regions to Russian attacks.",
-    "intelligence_notes": "Fedorov's insistence on Defense Ministry position suggests internal Ukrainian military reform priorities. Russian claims of 8,300 Ukrainian deaths in Donbas appear unverified and likely inflated. Ukrainian military's focus on air superiority aligns with recent operational patterns. US-Russia-Ukraine trilateral talks face significant hurdles given previous failed proposals. Russian military's emphasis on drone defense indicates adaptation to Ukrainian tactics."
+    "threat_assessment": "Russian military escalation through BPLAs and port strikes threatens Ukraine's economic and military logistics. Sanctions may further strain Russia's economy, but retaliatory measures could intensify conflict. Ukrainian AI development may enhance battlefield responsiveness but requires integration challenges.",
+    "regional_response": "Ukraine may face increased pressure on grain exports due to port strikes, while Russia's sanctions could provoke economic countermeasures. NATO involvement in MiG-29 transfers highlights potential regional alliances. Ukrainian AI systems may offer tactical advantages but depend on resource allocation.",
+    "intelligence_notes": "BPLA activity patterns suggest coordinated Russian efforts to disrupt Ukrainian supply lines. Sanctions targeting Russian financial and energy sectors may have delayed but significant impacts. Ukrainian military's AI initiatives require sustained funding and technical support to be operationally effective."
   },
   "missiles": 0,
   "drones": 168,
   "kpszsu_timeline": [
     4,
-    3,
     0,
     4,
     9,
@@ -365,6 +342,7 @@
     8,
     4,
     2,
+    1,
     1,
     1
   ]
