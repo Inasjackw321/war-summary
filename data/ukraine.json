@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-25T03:01:56.858181+00:00",
-  "message_count": 430,
+  "updated_at": "2026-07-25T04:15:03.850918+00:00",
+  "message_count": 423,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,9 +13,8 @@
   ],
   "red_alerts": 90,
   "red_alerts_timeline": [
-    8,
-    20,
-    8,
+    17,
+    9,
     0,
     0,
     0,
@@ -24,63 +23,64 @@
     4,
     4,
     0,
-    0,
     4,
     4,
     0,
-    12,
-    4,
+    0,
+    17,
     0,
     0,
     0,
     0,
-    16,
-    4,
-    0
+    0,
+    21,
+    0,
+    0,
+    9
   ],
   "combined_activity_timeline": [
+    15,
+    27,
+    22,
+    23,
+    43,
+    36,
+    21,
+    20,
+    21,
+    15,
+    18,
     20,
     12,
-    28,
-    21,
-    22,
-    41,
-    41,
-    20,
-    17,
-    26,
-    15,
-    19,
-    18,
+    11,
+    9,
     13,
-    14,
     8,
-    11,
-    11,
     10,
-    8,
-    17,
+    9,
     18,
-    13,
-    7
+    22,
+    8,
+    7,
+    15
   ],
   "messages_by_channel": {
-    "@eRadarrua": 88,
-    "@kpszsu": 80,
-    "@mon1tor_ua": 38,
+    "@eRadarrua": 86,
+    "@kpszsu": 77,
+    "@mon1tor_ua": 36,
     "@UkraineNow": 28,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 24,
     "@tass_agency": 171
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102556",
-    "kpszsu": "https://t.me/kpszsu/70040",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69385",
+    "eRadarrua": "https://t.me/eRadarrua/102565",
+    "kpszsu": "https://t.me/kpszsu/70044",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69386",
     "UkraineNow": "https://t.me/UkraineNow/82911",
     "DeepStateUA": "https://t.me/DeepStateUA/23682",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31898",
-    "tass_agency": "https://t.me/tass_agency/386974"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31899",
+    "tass_agency": "https://t.me/tass_agency/386984"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/82900",
@@ -91,6 +91,18 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/69367"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/386982",
+      "post_id": 386982,
+      "channel": "tass_agency",
+      "ts": "2026-07-25T04:05:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/386976",
+      "post_id": 386976,
+      "channel": "tass_agency",
+      "ts": "2026-07-25T03:11:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/386974",
       "post_id": 386974,
@@ -154,12 +166,6 @@
       "ts": "2026-07-24T22:49:02+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/386942",
-      "post_id": 386942,
-      "channel": "tass_agency",
-      "ts": "2026-07-24T21:10:01+00:00"
-    },
-    {
       "post_url": "https://t.me/eRadarrua/102531",
       "post_id": 102531,
       "channel": "eRadarrua",
@@ -168,22 +174,16 @@
       "companion_text_id": 102533
     },
     {
-      "post_url": "https://t.me/tass_agency/386940",
-      "post_id": 386940,
-      "channel": "tass_agency",
-      "ts": "2026-07-24T20:44:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/386936",
-      "post_id": 386936,
-      "channel": "tass_agency",
-      "ts": "2026-07-24T20:12:01+00:00"
-    },
-    {
       "post_url": "https://t.me/UkraineNow/82911",
       "post_id": 82911,
       "channel": "UkraineNow",
       "ts": "2026-07-24T19:30:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/386931",
+      "post_id": 386931,
+      "channel": "tass_agency",
+      "ts": "2026-07-24T19:07:01+00:00"
     },
     {
       "post_url": "https://t.me/eRadarrua/102514",
@@ -192,6 +192,18 @@
       "ts": "2026-07-24T18:59:06+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/mAKvOCXCtp-wawECiiCsQ1leCo9L_IfOKLbM1Rz3M3x10AjWPUf9KJCURjR3wSEJh3nFxZd8Aq7OedBP_ROMNBIRPxPxG0DPSGyCMxTZCto0vIKkrQplcrpg_F8XprQGPFmBSxCmqMNfeT5EpYpSa28Dq6qDPE4yVUR3JtAa6PDijLyc5U6uPwsykrjpPr8XQeR_h_gCNvF06m7xk7g8FFphfYgq0Wat73M4hlg38TzTMPKomrx7nL50mzMdo1AnnGPwo0EDkM3d3r6F4jSJLwCXDFZQoO1D5IGbOfeajTSXgbY7lx3uB8sWQCl-Tabg4u8HQqQbzy828BmSElY5oA.jpg",
       "companion_text_id": 102513
+    },
+    {
+      "post_url": "https://t.me/tass_agency/386929",
+      "post_id": 386929,
+      "channel": "tass_agency",
+      "ts": "2026-07-24T18:48:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/386926",
+      "post_id": 386926,
+      "channel": "tass_agency",
+      "ts": "2026-07-24T18:00:46+00:00"
     },
     {
       "post_url": "https://t.me/tass_agency/386925",
@@ -206,29 +218,19 @@
       "ts": "2026-07-24T17:46:56+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/Ta24Qd-Mou5GLNemdBqB5DUMlyJHfhnbgcSVxMrKcq7EqGhbeDV6jaTqeB85qCbGuQEaRSS0l2IudpyYz6Z8Ruq7339rl7qH7DTQfIDA6DSMub-2qfSXPU0cYojfy_GMHDmz7z6zBmdNROeoHTs8dFWIXhOXPK9VZwx6ui9sJYWW-Fb4aYgagWGWOP_toT88mYIY6IindGxF9S48KdXI1PlJ3YWIDZC5NyQB1bLDRFyaCmH8jQlowz4j0905Msxs4OG8ymqpECww6uSjw-uMeyYWjZol_41fkJB5bBQBcDawtEddMAgVDQs2n6RIrB94fJga6D1OYRVOmGQrvbX5Ng.jpg",
       "companion_text_id": 102504
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102504",
-      "post_id": 102504,
-      "channel": "eRadarrua",
-      "ts": "2026-07-24T17:45:39+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/jf4nHuOaiukkCsN0eP9GT3TF5E86uDJdxBOpF4aswXErnxANHoNR2_D3MbuNmaANeZ5hCKGMXd1S8zBXK1ZO2ddUgXTpoYVvlv7BBVlqD_dG5La7O1bTAE52k7vxEHMecfZlyJUYeQskLE8uXRlu88KsU9IkW1PspU2KiCJpCmxdPRiY65VvgU-wO-La6js76PLroRcMYdvGFif8vc3Dg-PQiAwB7V2a-ub4rSuJLv8JvsT1eoBZhBpqPnTD4sUfsvnXHAZMFMvavmpO28ZxjYpzTRwUugv4neCrTNSABpOGZPB_S9PK6ND3sMjdk1C3a0K-lSE_FPP9DvpesSufOw.jpg",
-      "companion_text_id": 102503
-    },
-    {
-      "post_url": "https://t.me/tass_agency/386923",
-      "post_id": 386923,
-      "channel": "tass_agency",
-      "ts": "2026-07-24T17:32:01+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/102514": "data/media/eRadarrua_102514.jpg",
-    "eRadarrua/102513": "data/media/eRadarrua_102514.jpg",
     "eRadarrua/102531": "data/media/eRadarrua_102531.jpg",
     "eRadarrua/102533": "data/media/eRadarrua_102531.jpg",
     "eRadarrua/102535": "data/media/eRadarrua_102535.jpg",
     "eRadarrua/102534": "data/media/eRadarrua_102535.jpg",
+    "eRadarrua/102514": "data/media/eRadarrua_102514.jpg",
+    "eRadarrua/102513": "data/media/eRadarrua_102514.jpg",
+    "eRadarrua/102488": "data/media/eRadarrua_102488.jpg",
+    "eRadarrua/102486": "data/media/eRadarrua_102488.jpg",
+    "eRadarrua/102489": "data/media/eRadarrua_102489.jpg",
+    "eRadarrua/102493": "data/media/eRadarrua_102493.jpg",
     "eRadarrua/102494": "data/media/eRadarrua_102494.jpg",
     "eRadarrua/102496": "data/media/eRadarrua_102496.jpg",
     "eRadarrua/102497": "data/media/eRadarrua_102496.jpg",
@@ -239,12 +241,6 @@
     "eRadarrua/102503": "data/media/eRadarrua_102503.jpg",
     "eRadarrua/102504": "data/media/eRadarrua_102504.jpg",
     "eRadarrua/102505": "data/media/eRadarrua_102505.jpg",
-    "eRadarrua/102476": "data/media/eRadarrua_102476.jpg",
-    "eRadarrua/102475": "data/media/eRadarrua_102476.jpg",
-    "eRadarrua/102477": "data/media/eRadarrua_102477.jpg",
-    "eRadarrua/102478": "data/media/eRadarrua_102477.jpg",
-    "eRadarrua/102488": "data/media/eRadarrua_102488.jpg",
-    "eRadarrua/102486": "data/media/eRadarrua_102488.jpg",
     "kpszsu/69965": "data/media/kpszsu_69965.jpg",
     "kpszsu/69964": "data/media/kpszsu_69965.jpg",
     "kpszsu/69891": "data/media/kpszsu_69891.jpg",
@@ -321,32 +317,33 @@
     "regional_response": "Ukraine has extended martial law and general mobilization by 90 days, signaling continued preparation for sustained conflict. Poland has proposed a joint Polish-Ukrainian Patriot missile production facility to the US, seeking to strengthen regional defense capabilities. The US Senate is preparing to vote on a sanctions bill against Russia, with bipartisan support indicating potential for renewed Western pressure. Additionally, Ukraine is developing next-generation drones with ranges up to 10,000 km to enhance its long-range strike capacity.",
     "intelligence_notes": "Recent Russian attacks have focused on high-profile military and industrial targets, including a private military exhibition near Kyiv, suggesting a shift toward targeting Ukraine's defense sector. Ukrainian President Zelenskyy's announcement of advanced drone development highlights efforts to close the capability gap with Russia in long-range strikes. The extension of martial law and mobilization indicates that Ukrainian leadership anticipates prolonged hostilities. Regional actors, including Poland and the US, are actively considering measures to bolster Ukraine's air defense and offensive capabilities. Monitoring of Russian drone deployment patterns reveals coordinated multi-directional attacks across northern and southern fronts."
   },
+  "stale_summary": true,
   "missiles": 0,
   "drones": 90,
   "kpszsu_timeline": [
-    5,
-    3,
-    4,
-    4,
-    4,
-    7,
-    7,
-    0,
     3,
     5,
-    4,
     3,
+    5,
+    6,
+    6,
+    1,
     3,
+    5,
     4,
+    2,
+    5,
+    2,
     1,
     0,
-    3,
-    2,
+    4,
+    1,
     5,
     3,
-    2,
-    2,
-    6,
-    0
+    3,
+    4,
+    3,
+    1,
+    2
   ]
 }
