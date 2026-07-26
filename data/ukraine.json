@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-26T13:51:27.782922+00:00",
-  "message_count": 255,
+  "updated_at": "2026-07-26T15:16:19.449890+00:00",
+  "message_count": 263,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,83 +13,111 @@
   ],
   "red_alerts": 141,
   "red_alerts_timeline": [
-    0,
-    23,
-    11,
-    0,
-    34,
-    11,
-    11,
+    21,
+    10,
+    21,
+    21,
+    10,
     0,
     0,
     0,
-    11,
     0,
+    10,
     0,
     0,
     0,
     0,
     0,
-    11,
-    11,
+    10,
+    0,
+    10,
     0,
     0,
     0,
+    10,
     0,
-    11
+    10
   ],
   "combined_activity_timeline": [
-    9,
     11,
     10,
-    11,
     15,
+    11,
     13,
-    7,
-    8,
-    10,
-    10,
-    10,
+    5,
     11,
     6,
+    9,
+    15,
     8,
-    3,
-    10,
-    18,
+    7,
+    6,
+    5,
     17,
+    15,
     16,
-    11,
+    18,
+    4,
     8,
     8,
-    8,
-    17
+    10,
+    15,
+    20
   ],
   "messages_by_channel": {
-    "@eRadarrua": 51,
-    "@kpszsu": 48,
+    "@eRadarrua": 52,
+    "@kpszsu": 50,
     "@mon1tor_ua": 14,
     "@UkraineNow": 16,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 13,
-    "@tass_agency": 112
+    "@ukr_leaks_eng": 12,
+    "@tass_agency": 118
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102777",
-    "kpszsu": "https://t.me/kpszsu/70190",
+    "eRadarrua": "https://t.me/eRadarrua/102783",
+    "kpszsu": "https://t.me/kpszsu/70199",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69410",
     "UkraineNow": "https://t.me/UkraineNow/82942",
     "DeepStateUA": "https://t.me/DeepStateUA/23683",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31933",
-    "tass_agency": "https://t.me/tass_agency/387193"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31934",
+    "tass_agency": "https://t.me/tass_agency/387209"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/82935",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31926",
+    "eRadarrua": "https://t.me/eRadarrua/102783",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69408",
+    "tass_agency": "https://t.me/tass_agency/387204",
+    "kpszsu": "https://t.me/kpszsu/70142"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/387209",
+      "post_id": 387209,
+      "channel": "tass_agency",
+      "ts": "2026-07-26T15:10:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387204",
+      "post_id": 387204,
+      "channel": "tass_agency",
+      "ts": "2026-07-26T14:56:47+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/102779",
+      "post_id": 102779,
+      "channel": "eRadarrua",
+      "ts": "2026-07-26T14:28:54+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/APpx317x1KdJoPMc_zL5LdPgAA4EeEgi2iH7sM-2T4km5WSR_BxYMRR6PiOBThdG04ae8SnnpgIj-ZkSKWwAJSeTeq05YLcu-QSTovRc24mAe2_EzBcgNZ9AIz2Kj8jJJy4tUroNLpSsc3GRecef-VqXAmkC1a6OpgiAcu9Z0Edu5pDyP8IhC0QoDQLjRoWcrOnO2WMKyKN7dSvCTsUA6qSkJdCvuAEWwHmLzRF9wZ5Tl8JqprZM1FdcOk2OD1do7pxoYgax5Emq2up4HpzNRT_31Qv_uG_0ISSG_uq7H0J5Br6gpmSUCvM-3UjYFqznJOpwh9BDXl47esDiN0i2tA.jpg",
+      "companion_text_id": 102777
+    },
     {
       "post_url": "https://t.me/eRadarrua/102777",
       "post_id": 102777,
       "channel": "eRadarrua",
       "ts": "2026-07-26T13:47:53+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/bCNzTfgtQwagBnPjFdmMEHgt3Hpgq8OMcCgpkwpKQ5gOWeOhzzCF-LcUufCSlcr7bRHckmFW9OkCmYXBEDypuPGcemxxSTLsi3AiyySHEXYCXfxTYYJDA6snBpBjlVOejZaM9disXDp8duTEAzah6mGT6u_jdmMYICm6uxs5oMQWGwOgeKI7Ka_SVJxA0yB55Q2JpZ8gxr5IrHpv2UGYFq88o-SBfjrgtWEu5c4K_NU1K0KTiIfM_Ei0SJDmzA3Ar70Gok-J3z9R0jxoCiAWMFBXrrTb1vWE7eD7VUeVlTDzM51H6UAp7tUyEuNYNK_YkMAacnHIHenhlZwmTwrTUA.jpg"
+      "cdn_url": "https://cdn4.telesco.pe/file/bCNzTfgtQwagBnPjFdmMEHgt3Hpgq8OMcCgpkwpKQ5gOWeOhzzCF-LcUufCSlcr7bRHckmFW9OkCmYXBEDypuPGcemxxSTLsi3AiyySHEXYCXfxTYYJDA6snBpBjlVOejZaM9disXDp8duTEAzah6mGT6u_jdmMYICm6uxs5oMQWGwOgeKI7Ka_SVJxA0yB55Q2JpZ8gxr5IrHpv2UGYFq88o-SBfjrgtWEu5c4K_NU1K0KTiIfM_Ei0SJDmzA3Ar70Gok-J3z9R0jxoCiAWMFBXrrTb1vWE7eD7VUeVlTDzM51H6UAp7tUyEuNYNK_YkMAacnHIHenhlZwmTwrTUA.jpg",
+      "companion_text_id": 102779
     },
     {
       "post_url": "https://t.me/ukr_leaks_eng/31933",
@@ -195,174 +223,128 @@
       "channel": "eRadarrua",
       "ts": "2026-07-26T06:20:50+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/LxHBZrYtxncIVor-Th2TWnJmKCZ8Ho3kpP7LYv_-CVnj_aHH37ogcJYb6AVdx1mSKB7MWaiQ0h3HUnmgUr4McLpClK8zKPmoY6zb2C9-hYLr5VRhv9c8DInE4bBB0kzDfJeFvCOX5HZTyGPclmpzsv_GsoXKeEeOQ29GWjt1jWic5hU4sEqZMM6ha9ymD1KwfWxR0KQiwPWT8WZezG6-5PIR20nWAWStlH2bAPSPpC_WQCjGf6eTKMDtHGHD6xc2vtv6yUVP8RAHbBkOoPh-5IoHmwAceSx_oMwM64mU2VxNnvttGAJm_M_A9uxf8x5F1_WLv6RXXMPK4GwxrpOw1A.jpg"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31927",
-      "post_id": 31927,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-26T06:02:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102730",
-      "post_id": 102730,
-      "channel": "eRadarrua",
-      "ts": "2026-07-26T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/f9tC2iDFHD1_iAU-bT7gIwat1_CA2Powis8blz-OWKouIBL-mJyR6nmODjxBzrI31Rrxequ6buCQ3ABwQ6-Z8br7VZrbfeEDft34Pbgm_uJwU5jJL_p1_o_DXQEJEBwTOhutKQKakoTmjN7mcjXI6QVv2mUIiXF6bglIMpo0qNlIT6S9AYxnDvToLN-idUzvogx3e-KycN4G_JvAr_MG5kZcqIirgs_hEt8IABzCG0MjXuZZNQKOu8Tj0YWHa4ilxMdUVB0bpxvmVftZYFxUvvB0wo9sYr2-LGb8Z6PSFsTfeF3Ug1TMsc3LRUTzwTEtlTxgnnKIpfzv1a1RXWaKmA.jpg",
-      "companion_text_id": 102729
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82935",
-      "post_id": 82935,
-      "channel": "UkraineNow",
-      "ts": "2026-07-26T05:55:05+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/102759": "data/media/eRadarrua_102759.jpg",
-    "eRadarrua/102758": "data/media/eRadarrua_102759.jpg",
     "eRadarrua/102777": "data/media/eRadarrua_102777.jpg",
-    "eRadarrua/102743": "data/media/eRadarrua_102743.jpg",
-    "eRadarrua/102742": "data/media/eRadarrua_102743.jpg",
+    "eRadarrua/102779": "data/media/eRadarrua_102779.jpg",
     "eRadarrua/102744": "data/media/eRadarrua_102744.jpg",
+    "eRadarrua/102743": "data/media/eRadarrua_102743.jpg",
     "eRadarrua/102755": "data/media/eRadarrua_102755.jpg",
     "eRadarrua/102756": "data/media/eRadarrua_102755.jpg",
+    "eRadarrua/102759": "data/media/eRadarrua_102759.jpg",
+    "eRadarrua/102758": "data/media/eRadarrua_102759.jpg",
     "eRadarrua/102729": "data/media/eRadarrua_102729.jpg",
     "eRadarrua/102728": "data/media/eRadarrua_102729.jpg",
     "eRadarrua/102730": "data/media/eRadarrua_102730.jpg",
     "eRadarrua/102735": "data/media/eRadarrua_102735.jpg",
-    "eRadarrua/102703": "data/media/eRadarrua_102703.jpg",
+    "eRadarrua/102742": "data/media/eRadarrua_102743.jpg",
     "eRadarrua/102707": "data/media/eRadarrua_102707.jpg",
     "eRadarrua/102706": "data/media/eRadarrua_102707.jpg",
     "eRadarrua/102708": "data/media/eRadarrua_102708.jpg",
-    "eRadarrua/102674": "data/media/eRadarrua_102674.jpg",
-    "eRadarrua/102673": "data/media/eRadarrua_102673.jpg",
-    "eRadarrua/102656": "data/media/eRadarrua_102656.jpg",
-    "eRadarrua/102654": "data/media/eRadarrua_102656.jpg",
+    "eRadarrua/102703": "data/media/eRadarrua_102703.jpg",
     "eRadarrua/102663": "data/media/eRadarrua_102663.jpg",
     "eRadarrua/102661": "data/media/eRadarrua_102663.jpg",
+    "eRadarrua/102673": "data/media/eRadarrua_102673.jpg",
+    "eRadarrua/102674": "data/media/eRadarrua_102674.jpg",
     "kpszsu/70134": "data/media/kpszsu_70134.jpg",
     "kpszsu/70133": "data/media/kpszsu_70134.jpg"
   },
-  "summary": "Recent missile and drone attacks on Ukrainian cities, including Kyiv, indicate heightened operational activity. Russian forces continue targeting infrastructure and military assets, while Ukrainian responses focus on counter-drone measures. The conflict remains marked by escalating strikes and defensive adaptations.",
+  "summary": "Russian forces conducted coordinated drone and missile strikes across multiple Ukrainian regions including Kyiv, Chernihiv, and Odesa, with air defenses intercepting the majority of projectiles. Ukraine's ombudsman reported over 16,000 missing civilians, some potentially held in Russian captivity. A poll showed nearly 76% of Poles hold negative views of President Zelenskyy's leadership.",
   "key_points": [
-    "Russian forces launched ballistic missile attacks on Kyiv, causing fires in multiple districts (Source: UkraineNow/82939).",
-    "Drone strikes targeted Dnipropetrovsk, Chernihiv, and Kryvyi Rih regions, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
-    "Ukrainian military reported losses of approximately 1,345 personnel in recent operations (Source: tass_agency/387180).",
-    "Russian military claims to have liberated Shchevchenko in DNR (Source: tass_agency/387184).",
-    "Ukrainian Commander-in-Chief Drapatiy initiated an army audit to address unit accountability (Source: ukr_leaks_eng/31933).",
-    "Russian air defenses intercepted multiple Oñix missiles near Odesa and Chernomorsk (Source: mon1tor_ua/69408).",
-    "Kazakhstan's president called for an end to the war, reflecting regional diplomatic concerns (Source: ukr_leaks_eng/31922).",
-    "Panama's military offered citizens for participation in the conflict (Source: UkraineNow/82939)."
+    "Russian forces launched 136 drones and 8 missiles at Ukraine overnight, with air defenses intercepting 104 drones and 6 missiles across northern, southern, and eastern regions (Source: @UkraineNow/82935).",
+    "Ukraine's ombudsman reported over 16,000 civilians are missing, with some potentially held in Russian captivity (Source: @ukr_leaks_eng/31926).",
+    "A poll in Poland showed nearly 76% of respondents have a negative assessment of President Zelenskyy's activities (Source: @ukr_leaks_eng/31931).",
+    "Russian military trains were observed moving with fuel tankers under fire from Ukrainian drones in an unspecified region (Source: @eRadarrua/102783).",
+    "A drone struck a supermarket in Chernihiv, killing two people including a 10-year-old child and injuring three others (Source: @UkraineNow/82942).",
+    "Russian forces targeted port infrastructure in Odesa and Chornomorsk with Onyx missiles, continuing strikes on transport facilities (Source: @mon1tor_ua/69408).",
+    "Ukrainian military intelligence reported Russian forces advancing in Kupyansk and Konstantinovka directions while repelling attacks in Krasny Liman (Source: @ukr_leaks_eng/31928).",
+    "President Putin emphasized Arctic cooperation while warning Russia will protect its interests, as the country continues naval modernization with new submarine acceptance (Source: @tass_agency/387204)."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian missile and drone attacks on Ukrainian cities, including Kyiv, signal intensified offensive operations. Ukrainian forces report significant personnel losses and focus on counter-drone defenses. The conflict shows no signs of de-escalation.",
-    "ukraine": {
-      "points": [
-        "Drone attacks in Dnipropetrovsk and Chernihiv regions targeted critical infrastructure, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
-        "Ukrainian military reported 1,345 personnel losses in recent operations, highlighting the scale of combat (Source: tass_agency/387180).",
-        "Ballistic missile attacks on Kyiv resulted in fires in three districts, with no casualties reported (Source: UkraineNow/82939).",
-        "Commander-in-Chief Drapatiy launched an audit to address military unit accountability, though the General Staff denied the report's authenticity (Source: ukr_leaks_eng/31933).",
-        "Drone strikes in Zaporozhye and Kherson directions remain unchanged, indicating persistent frontline activity (Source: ukr_leaks_eng/31930).",
-        "Ukrainian forces continue advancing westward in the north, with the 'Sever' group retaking border villages (Source: ukr_leaks_eng/31932).",
-        "Logistical strikes on Wildberries warehouses and port infrastructure in Odessa aim to disrupt supply chains (Source: ukr_leaks_eng/31932)."
-      ]
-    },
-    "russia": {
-      "points": [
-        "Russian forces claim to have liberated Shchevchenko in DNR, suggesting territorial gains (Source: tass_agency/387184).",
-        "Ballistic missile attacks on Kyiv and Poltava indicate continued use of long-range weapons (Source: UkraineNow/82939, mon1tor_ua/69400).",
-        "Russian military increased strikes on Odessa port infrastructure and merchant ships to disrupt Western support (Source: ukr_leaks_eng/31932).",
-        "Russia maintains dialogue with US negotiators on Ukraine, emphasizing its proposed terms (Source: tass_agency/387181).",
-        "Russian air defenses intercepted Oñix missiles near Odesa, demonstrating active air defense capabilities (Source: mon1tor_ua/69408).",
-        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
-        "Russian forces are using volunteer units to counter drones, raising concerns about traditional military effectiveness (Source: ukr_leaks_eng/31932)."
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Drone attacks in Dnipropetrovsk and Chernihiv regions targeted critical infrastructure, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
-        "Russian forces repelled enemy attacks in Kupyansk and advanced in the Konstantinovka direction (Source: ukr_leaks_eng/31932).",
-        "Ballistic missile strikes on Kyiv and Poltava highlight the eastern front's vulnerability to long-range attacks (Source: UkraineNow/82939, mon1tor_ua/69400).",
-        "Russian military claims to have liberated Shchevchenko in DNR, indicating progress in the region (Source: tass_agency/387184).",
-        "Drone strikes in Zaporozhye and Kherson directions remain unchanged, suggesting ongoing frontline engagement (Source: ukr_leaks_eng/31930).",
-        "Russian forces are using volunteer units to counter drones, reflecting a shift in combat tactics (Source: ukr_leaks_eng/31932).",
-        "Logistical strikes on Wildberries warehouses in the east aim to disrupt Ukrainian supply chains (Source: ukr_leaks_eng/31932)."
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "The 'Sever' group is gradually retaking border villages in the north (Source: ukr_leaks_eng/31932).",
-        "Russian forces are repelling enemy attacks in the western part of Kupyansk (Source: ukr_leaks_eng/31932).",
-        "Ballistic missile threats from Kursk and Bryansk regions remain a concern (Source: mon1tor_ua/69399, mon1tor_ua/69401).",
-        "Ukrainian forces face challenges in the north due to limited mobility and drone threats (Source: ukr_leaks_eng/31932).",
-        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
-        "Drone strikes in the north target logistical centers, exacerbating supply issues (Source: ukr_leaks_eng/31932).",
-        "Russian forces are using volunteer units to counter drones, indicating a reliance on non-traditional tactics (Source: ukr_leaks_eng/31932)."
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Drone attacks in Zaporozhye and Kherson directions remain unchanged, indicating persistent frontline activity (Source: ukr_leaks_eng/31930).",
-        "Russian forces are using volunteer units to counter drones, reflecting a shift in combat tactics (Source: ukr_leaks_eng/31932).",
-        "Logistical strikes on Wildberries warehouses in the south aim to disrupt Ukrainian supply chains (Source: ukr_leaks_eng/31932).",
-        "Ballistic missile threats from Kursk and Bryansk regions remain a concern (Source: mon1tor_ua/69399, mon1tor_ua/69401).",
-        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
-        "Drone strikes in the south target port infrastructure in Odessa (Source: ukr_leaks_eng/31932).",
-        "Russian forces are using volunteer units to counter drones, indicating a reliance on non-traditional tactics (Source: ukr_leaks_eng/31932)."
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Ballistic missile attacks on Kyiv and Poltava caused significant damage, with fires in multiple districts (Source: UkraineNow/82939).",
-        "Russian air defenses intercepted Oñix missiles near Odesa, demonstrating active air defense capabilities (Source: mon1tor_ua/69408).",
-        "Drone strikes in Dnipropetrovsk, Chernihiv, and Kryvyi Rih regions targeted critical infrastructure (Source: eRadarrua/102719, eRadarrua/102762).",
-        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
-        "Drone attacks in the south target port infrastructure in Odessa (Source: ukr_leaks_eng/31932).",
-        "Russian forces are using volunteer units to counter drones, indicating a reliance on non-traditional tactics (Source: ukr_leaks_eng/31932).",
-        "Ballistic missile threats from Kursk and Bryansk regions remain a concern (Source: mon1tor_ua/69399, mon1tor_ua/69401)."
-      ]
-    },
-    "key_developments": [
-      "Russian missile attacks on Kyiv and Poltava caused fires in multiple districts, with no casualties reported (Source: UkraineNow/82939).",
-      "Drone strikes in Dnipropetrovsk and Chernihiv regions targeted critical infrastructure, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
-      "Ukrainian military reported 1,345 personnel losses in recent operations, highlighting the scale of combat (Source: tass_agency/387180).",
-      "Russian forces claimed to have liberated Shchevchenko in DNR, indicating territorial gains (Source: tass_agency/387184).",
-      "Commander-in-Chief Drapatiy initiated an army audit to address military unit accountability (Source: ukr_leaks_eng/31933).",
-      "Russian air defenses intercepted Oñix missiles near Odesa, demonstrating active air defense capabilities (Source: mon1tor_ua/69408).",
-      "Kazakhstan's president called for an end to the war, reflecting regional diplomatic concerns (Source: ukr_leaks_eng/31922)."
+    "executive_summary": "Russian forces conducted widespread drone and missile attacks across Ukraine overnight, targeting Kyiv, Chernihiv, and Odesa with air defenses intercepting most projectiles. Ukraine's ombudsman reported over 16,000 missing civilians, some potentially held in Russian captivity. A Polish poll revealed nearly 76% negative sentiment toward President Zelenskyy's leadership.",
+    "ukraine": [
+      "Over 16,000 civilians are officially missing in Ukraine, according to ombudsman Lubinets, with some potentially held in Russian captivity. The scale of disappearances reflects ongoing occupation-related abductions and displacement across conflict zones (Source: @ukr_leaks_eng/31926).",
+      "Russian forces launched a large-scale overnight attack using 136 drones and 8 missiles including Iskander-M and S-400 systems. Air defenses intercepted 104 drones and 6 missiles, but two ballistic missiles and 27 attack drones struck 18 locations across northern, southern, and eastern regions (Source: @UkraineNow/82935).",
+      "A drone attack on a Chernihiv supermarket killed two people including a 10-year-old child and injured three others. Emergency services confirmed casualties at the ATB store following the strike on civilian infrastructure (Source: @UkraineNow/82942).",
+      "President Zelenskyy claimed Russia has received 221,000 personnel since January with nearly 225,500 casualties including 131,000 killed and 93,000 wounded. He accused Putin of preparing expanded mobilization while masking it with euphemistic language (Source: @UkraineNow/82929).",
+      "A Polish poll showed 76% negative assessment of Zelenskyy's activities, reflecting growing European skepticism about Ukraine's leadership amid prolonged conflict and Western resource commitments (Source: @ukr_leaks_eng/31931).",
+      "Ukrainian military personnel from the 108th Territorial Defense Brigade recorded an appeal regarding lack of rotation for over six months. A soldier's son described troops as severely malnourished, appearing like famine victims, with commanders unreachable due to security conditions (Source: @UkraineNow/82931)."
     ],
-    "threat_assessment": "The increased frequency of missile and drone attacks by Russian forces suggests a shift toward more aggressive offensive tactics. The targeting of critical infrastructure and military assets indicates a strategy to degrade Ukrainian capabilities. The use of volunteer units by Russia to counter drones highlights a potential gap in traditional military effectiveness, which could be exploited by Ukraine. The lack of significant casualties in some attacks may reflect improved targeting or defensive measures, but the overall trend of escalating strikes raises concerns about the conflict's trajectory.",
-    "regional_response": "Kazakhstan's president has called for an end to the war, signaling potential diplomatic pressure on Russia. Panama's military offering citizens for participation in the conflict may indicate broader regional involvement. The Russian military's focus on port infrastructure in Odessa suggests an attempt to disrupt Western support, which could influence regional alliances. The use of volunteer units by Russia to counter drones may also prompt neighboring countries to reassess their military strategies.",
-    "intelligence_notes": "The Russian military's reliance on volunteer units to counter drones raises questions about the sustainability of traditional military structures. The targeting of logistical centers in the east and south indicates a strategy to weaken Ukrainian supply chains. The lack of significant casualties in some attacks may reflect improved targeting or defensive measures, but the overall trend of escalating strikes suggests a need for Ukraine to adapt its defense strategies. The regional diplomatic efforts, such as Kazakhstan's call for peace, could provide leverage for Ukraine in future negotiations."
+    "russia": [
+      "President Putin declared Russia open to Arctic cooperation while warning it will protect national interests in the region. He emphasized Arctic wealth accumulation as part of broader economic development strategy (Source: @tass_agency/387204).",
+      "Putin stated that few countries possess the hypersonic 'Tsirkon' missile system and that Russia continues improving it. He highlighted naval capabilities as crucial to national defense given 60% of Russia's borders are water boundaries (Source: @tass_agency/387208).",
+      "The Russian Navy accepted 20 warships this year with plans to receive more than 20 additional vessels by year-end, including the submarine 'Perm.' Naval forces remain central to Russia's strategic deterrent and regional influence projection (Source: @tass_agency/387190).",
+      "Putin warned Russia will use all available capabilities to ensure Kaliningrad region security if threatened. He characterized potential interventions as requiring careful but decisive responses akin to anti-piracy operations (Source: @tass_agency/387199).",
+      "Putin praised naval personnel for courage and heroism while emphasizing the military's role in the nuclear triad. He underscored maritime forces as having enduring importance for national security architecture (Source: @tass_agency/387192).",
+      "Russia's State Duma passed legislation tightening requirements for labor migrants, requiring children of foreign workers to leave or obtain permits within 30 days of turning 18. The law aims to regulate migration flows and employment access (Source: @tass_agency/387178)."
+    ],
+    "eastern_front": [
+      "Russian forces continued offensive operations in Kupyansk, repelling Ukrainian attacks in the western part of the city while increasing their presence in urban areas. Simultaneously, enemy actions in the Krasny Liman area were reportedly thwarted (Source: @ukr_leaks_eng/31928).",
+      "Advances were reported in the Konstantinovka direction with Russian forces making territorial gains. The Dobropolye axis saw liberation of Belitskoye settlement amid ongoing positional warfare (Source: @ukr_leaks_eng/31928).",
+      "The Zaporozhye front remained largely static with no significant territorial changes reported. Ukrainian medium-range strike capabilities continued to influence tactical dynamics without altering the overall frontline posture (Source: @ukr_leaks_eng/31928).",
+      "Russian military sources indicated continued pressure in the Donetsk region with coordinated attacks along multiple axes. Drone activity increased in the Kherson direction though without major breakthroughs (Source: @ukr_leaks_eng/31928)."
+    ],
+    "northern_front": [
+      "Russian forces maintained pressure in the northern sector with the 'Sever' group gradually advancing hundreds of meters and retaking border villages. The pace of advancement remained slow but steady according to military intelligence assessments (Source: @ukr_leaks_eng/31928).",
+      "Air raid alerts were activated in Kyiv at 02:49 and again at various times throughout the night as Russian drone swarms approached from multiple directions. Defense systems successfully intercepted most incoming threats (Source: @eRadarrua/102713).",
+      "Chernihiv region experienced renewed Russian drone activity with explosions reported near residential areas. A targeted strike on a supermarket resulted in civilian casualties including a child victim (Source: @eRadarrua/102777).",
+      "Northern Chernihiv Oblast saw two controlled drones in the Horodnya area with one drone reaching Nizhyn for reconnaissance purposes. The pattern suggests continued efforts to probe Ukrainian air defenses (Source: @eRadarrua/102761)."
+    ],
+    "southern_front": [
+      "Russian forces intensified strikes on port infrastructure in Odesa and Chornomorsk using Onyx cruise missiles. A container terminal in Chornomorsk storing military cargo was damaged during the attack (Source: @tass_agency/387205).",
+      "Ukrainian air defenses shot down two Onyx missiles targeting Odesa and Chornomorsk ports. The attacks formed part of broader efforts to disrupt maritime logistics and grain exports (Source: @mon1tor_ua/69408).",
+      "Drone activity increased in the Black Sea region with multiple UAVs detected approaching Odesa Oblast from maritime directions. Some drones were tracked toward Vilkove and other coastal settlements (Source: @kpszsu/70142).",
+      "Russian naval forces continued demonstrating presence in the Black Sea with regular patrols near Odesa port facilities. The increased activity aims to project power and deter international shipping operations (Source: @ukr_leaks_eng/31928)."
+    ],
+    "air_war": [
+      "Russian forces launched a massive overnight drone barrage involving 136 unmanned aerial vehicles across Ukraine. Air defenses successfully intercepted 104 drones while 27 attack drones struck various targets (Source: @UkraineNow/82935).",
+      "Eight ballistic and cruise missiles were fired including Iskander-M systems and S-400 components. Ukrainian air defenses managed to intercept or suppress five of the eight projectiles during the coordinated assault (Source: @UkraineNow/82935).",
+      "Shahed-type drones continued arriving in significant numbers with reports of 7-12 units crossing into Ukrainian territory overnight. These Iranian-supplied weapons formed the bulk of the drone swarm attacks (Source: @mon1tor_ua/69403).",
+      "Air raid alerts were triggered multiple times across Kyiv, Chernihiv, and Sumy regions as Russian aircraft and drones approached. Defense systems remained active throughout the night responding to repeated incursions (Source: @eRadarrua/102713).",
+      "Ukrainian electronic warfare assets successfully disrupted several Russian drones before they reached designated targets. The defensive measures prevented potential damage to critical infrastructure facilities (Source: @eRadarrua/102706)."
+    ],
+    "key_developments": [
+      "Russian forces launched 136 drones and 8 missiles in coordinated overnight attack across Ukraine, with air defenses intercepting 104 drones and 5 missiles while 27 attack drones struck 18 locations (Source: @UkraineNow/82935).",
+      "Ukraine's ombudsman reported over 16,000 missing civilians with some potentially held in Russian captivity, highlighting ongoing humanitarian crisis from occupation policies (Source: @ukr_leaks_eng/31926).",
+      "A drone strike on Chernihiv supermarket killed two people including a 10-year-old child and injured three others, marking another civilian infrastructure attack (Source: @UkraineNow/82942).",
+      "Russian forces targeted Odesa and Chornomorsk port infrastructure with Onyx cruise missiles, damaging container terminals storing military cargo as part of maritime logistics disruption campaign (Source: @tass_agency/387205).",
+      "Polish poll revealed 76% negative assessment of President Zelenskyy's activities, indicating growing European skepticism about Ukrainian leadership amid prolonged conflict (Source: @ukr_leaks_eng/31931).",
+      "Russian military sources reported advances in Kupyansk and Konstantinovka directions while thwarting Ukrainian attacks in Krasny Liman area, suggesting continued offensive momentum (Source: @ukr_leaks_eng/31928).",
+      "President Putin emphasized Arctic cooperation while warning Russia will protect its interests, as naval modernization continues with new submarine acceptance planned for year-end (Source: @tass_agency/387204)."
+    ],
+    "threat_assessment": "Russian forces are maintaining sustained pressure across multiple fronts with intensified drone and missile campaigns targeting both military and civilian infrastructure. The overnight attack involving 136 drones and 8 missiles demonstrates Russia's capacity for large-scale coordinated operations despite Ukrainian air defenses. Civilian casualties from supermarket strikes in Chernihiv highlight ongoing risks to non-combatants. The targeting of port infrastructure in Odesa and Chornomorsk indicates efforts to disrupt Ukraine's maritime economy and grain exports. Russian advances in Kupyansk and Konstantinovka suggest continued offensive momentum in key sectors, requiring enhanced defensive preparations along the entire frontline.",
+    "regional_response": "European public opinion appears increasingly skeptical of Ukrainian leadership, with 76% of Poles expressing negative views of President Zelenskyy according to recent polling data. Romania has shot down a third Russian drone in three days, confirming ongoing violations of NATO airspace from attacks originating against Odesa region targets. International observers note that ships continue arriving in Odesa despite Russian port strikes, suggesting current measures are insufficient to fully disrupt maritime commerce. Regional governments are likely to increase air defense cooperation and consider stronger responses to cross-border drone incursions given the escalating frequency of such incidents.",
+    "intelligence_notes": "Russian military train movements with fuel tankers under drone attack indicate ongoing logistical operations supporting frontline advances. The pattern of attacks suggests Russia is attempting to replicate successful tactics from previous campaigns while adapting to Ukrainian air defense improvements. Ukrainian forces face challenges with troop rotation and morale, as evidenced by appeals from the 108th Territorial Defense Brigade regarding six-month deployment extensions. The integration of Iranian-supplied Shahed drones into Russian attack patterns continues, with these weapons comprising a significant portion of overnight assaults. Electronic warfare capabilities appear to be playing an increasingly important role in determining the effectiveness of both sides' aerial operations."
   },
   "missiles": 5,
   "drones": 136,
   "kpszsu_timeline": [
+    0,
+    0,
     2,
-    0,
-    0,
-    0,
+    1,
     3,
+    0,
     2,
     1,
     1,
-    2,
-    1,
-    2,
     4,
-    0,
     2,
     0,
     2,
-    8,
+    0,
+    5,
+    7,
     5,
     4,
+    0,
     2,
     1,
-    2,
-    1,
+    0,
+    5,
     3
   ]
 }
