@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-26T12:00:56.976360+00:00",
-  "message_count": 254,
+  "updated_at": "2026-07-26T13:51:27.782922+00:00",
+  "message_count": 255,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,15 +13,13 @@
   ],
   "red_alerts": 141,
   "red_alerts_timeline": [
-    11,
-    0,
     0,
     23,
     11,
     0,
     34,
-    23,
-    0,
+    11,
+    11,
     0,
     0,
     0,
@@ -36,61 +34,93 @@
     11,
     0,
     0,
-    0
+    0,
+    0,
+    11
   ],
   "combined_activity_timeline": [
     9,
+    11,
+    10,
+    11,
     15,
-    10,
-    12,
-    8,
-    11,
-    17,
-    10,
-    8,
-    11,
-    5,
-    10,
     13,
-    9,
+    7,
     8,
+    10,
+    10,
+    10,
+    11,
     6,
-    2,
-    13,
-    15,
-    21,
-    13,
+    8,
+    3,
+    10,
+    18,
+    17,
+    16,
     11,
     8,
-    8
+    8,
+    8,
+    17
   ],
   "messages_by_channel": {
-    "@eRadarrua": 52,
-    "@kpszsu": 46,
-    "@mon1tor_ua": 13,
+    "@eRadarrua": 51,
+    "@kpszsu": 48,
+    "@mon1tor_ua": 14,
     "@UkraineNow": 16,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 16,
-    "@tass_agency": 110
+    "@ukr_leaks_eng": 13,
+    "@tass_agency": 112
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102769",
-    "kpszsu": "https://t.me/kpszsu/70180",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69409",
-    "UkraineNow": "https://t.me/UkraineNow/82941",
+    "eRadarrua": "https://t.me/eRadarrua/102777",
+    "kpszsu": "https://t.me/kpszsu/70190",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69410",
+    "UkraineNow": "https://t.me/UkraineNow/82942",
     "DeepStateUA": "https://t.me/DeepStateUA/23683",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31931",
-    "tass_agency": "https://t.me/tass_agency/387172"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31933",
+    "tass_agency": "https://t.me/tass_agency/387193"
   },
-  "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/387144",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69409",
-    "UkraineNow": "https://t.me/UkraineNow/82929",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31924",
-    "kpszsu": "https://t.me/kpszsu/70168",
-    "eRadarrua": "https://t.me/eRadarrua/102762"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/102777",
+      "post_id": 102777,
+      "channel": "eRadarrua",
+      "ts": "2026-07-26T13:47:53+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/bCNzTfgtQwagBnPjFdmMEHgt3Hpgq8OMcCgpkwpKQ5gOWeOhzzCF-LcUufCSlcr7bRHckmFW9OkCmYXBEDypuPGcemxxSTLsi3AiyySHEXYCXfxTYYJDA6snBpBjlVOejZaM9disXDp8duTEAzah6mGT6u_jdmMYICm6uxs5oMQWGwOgeKI7Ka_SVJxA0yB55Q2JpZ8gxr5IrHpv2UGYFq88o-SBfjrgtWEu5c4K_NU1K0KTiIfM_Ei0SJDmzA3Ar70Gok-J3z9R0jxoCiAWMFBXrrTb1vWE7eD7VUeVlTDzM51H6UAp7tUyEuNYNK_YkMAacnHIHenhlZwmTwrTUA.jpg"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31933",
+      "post_id": 31933,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-26T13:41:52+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82942",
+      "post_id": 82942,
+      "channel": "UkraineNow",
+      "ts": "2026-07-26T13:39:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387189",
+      "post_id": 387189,
+      "channel": "tass_agency",
+      "ts": "2026-07-26T13:09:23+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387181",
+      "post_id": 387181,
+      "channel": "tass_agency",
+      "ts": "2026-07-26T12:41:24+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387178",
+      "post_id": 387178,
+      "channel": "tass_agency",
+      "ts": "2026-07-26T12:26:02+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/387172",
       "post_id": 387172,
@@ -185,157 +215,140 @@
       "post_id": 82935,
       "channel": "UkraineNow",
       "ts": "2026-07-26T05:55:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102729",
-      "post_id": 102729,
-      "channel": "eRadarrua",
-      "ts": "2026-07-26T05:54:24+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/hZujnv9J8lYkFajBfOQJZ8ROaPhm-XvDz6LiJI8GJephOC_WaX1CSjdoQFcfpm6XRVsRX3t_wGfqR94kVVgm0kRdC28jtEitaOur1SYIfl2lp5mgqgyN9l4c64A6HCgr9FUt7sbHn-Z_dTcYtSb0G9JGTBaaO51UP1tSigT1R9kydB3x4WP16IPHkSvBoozbFbX9UPSNvaZimCKWNhw5Iib5gxUJGMzCDknTrMQt8z7bP-IvvShXydJRitkt1DDS8K5nKfNGah00xEIu1rgaiiwQTSKyE16mvOdgKrR50bW3CQU-0UJdgDQrYzZM30Gkba83h2JV2j6Tpal9Nk_lsA.jpg",
-      "companion_text_id": 102728
-    },
-    {
-      "post_url": "https://t.me/kpszsu/70134",
-      "post_id": 70134,
-      "channel": "kpszsu",
-      "ts": "2026-07-26T05:47:50+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/a0usMSVEO4ISN_OAO862bYcSpr8pp-AzrCpvOh6PN7tQL9KKNwNrRpLJ7Z05LwzoZEOBPtUf6vWy8bnuyVVATYNjFaorIvlgunkbZUrO1y-o-dtUMj_0MDtYLKKbWQSuOfNuvdxQ_NXUrci_FjMur5_OIzaagjavoWy02OLQxQEVhbx8BtsM2JOYDSVbkI7ui0n___jpWHO2fxzODzVt8RU5G_s4vSaf6-v46SUO-HNgfX2LTBF43lpAc_5XIn-LYHF_zhPD6GK2Hb-GU0rM4sq5YThWqo6bQbmK24VzVZnMv25n4EwQspkAgyYyxEUA9pbLQsU8F82zQz2Qp9t7uA.jpg",
-      "companion_text_id": 70133
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82934",
-      "post_id": 82934,
-      "channel": "UkraineNow",
-      "ts": "2026-07-26T05:35:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387137",
-      "post_id": 387137,
-      "channel": "tass_agency",
-      "ts": "2026-07-26T04:10:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387116",
-      "post_id": 387116,
-      "channel": "tass_agency",
-      "ts": "2026-07-26T00:04:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387111",
-      "post_id": 387111,
-      "channel": "tass_agency",
-      "ts": "2026-07-25T23:15:01+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/102755": "data/media/eRadarrua_102755.jpg",
-    "eRadarrua/102756": "data/media/eRadarrua_102755.jpg",
     "eRadarrua/102759": "data/media/eRadarrua_102759.jpg",
     "eRadarrua/102758": "data/media/eRadarrua_102759.jpg",
-    "eRadarrua/102730": "data/media/eRadarrua_102730.jpg",
-    "eRadarrua/102729": "data/media/eRadarrua_102729.jpg",
-    "eRadarrua/102735": "data/media/eRadarrua_102735.jpg",
+    "eRadarrua/102777": "data/media/eRadarrua_102777.jpg",
     "eRadarrua/102743": "data/media/eRadarrua_102743.jpg",
     "eRadarrua/102742": "data/media/eRadarrua_102743.jpg",
     "eRadarrua/102744": "data/media/eRadarrua_102744.jpg",
+    "eRadarrua/102755": "data/media/eRadarrua_102755.jpg",
+    "eRadarrua/102756": "data/media/eRadarrua_102755.jpg",
+    "eRadarrua/102729": "data/media/eRadarrua_102729.jpg",
     "eRadarrua/102728": "data/media/eRadarrua_102729.jpg",
+    "eRadarrua/102730": "data/media/eRadarrua_102730.jpg",
+    "eRadarrua/102735": "data/media/eRadarrua_102735.jpg",
     "eRadarrua/102703": "data/media/eRadarrua_102703.jpg",
     "eRadarrua/102707": "data/media/eRadarrua_102707.jpg",
     "eRadarrua/102706": "data/media/eRadarrua_102707.jpg",
     "eRadarrua/102708": "data/media/eRadarrua_102708.jpg",
+    "eRadarrua/102674": "data/media/eRadarrua_102674.jpg",
+    "eRadarrua/102673": "data/media/eRadarrua_102673.jpg",
+    "eRadarrua/102656": "data/media/eRadarrua_102656.jpg",
+    "eRadarrua/102654": "data/media/eRadarrua_102656.jpg",
     "eRadarrua/102663": "data/media/eRadarrua_102663.jpg",
     "eRadarrua/102661": "data/media/eRadarrua_102663.jpg",
-    "eRadarrua/102673": "data/media/eRadarrua_102673.jpg",
-    "eRadarrua/102674": "data/media/eRadarrua_102674.jpg",
-    "eRadarrua/102643": "data/media/eRadarrua_102643.jpg",
-    "eRadarrua/102644": "data/media/eRadarrua_102644.jpg",
-    "eRadarrua/102645": "data/media/eRadarrua_102644.jpg",
     "kpszsu/70134": "data/media/kpszsu_70134.jpg",
     "kpszsu/70133": "data/media/kpszsu_70134.jpg"
   },
-  "summary": "Russian forces struck a drone assembly facility in Kyiv, killing and injuring civilians in Kharkiv and Zaporizhzhia. Ukraine claims Russia lost over 225,000 personnel since February 2022. A large-scale combined attack on Kyiv is anticipated within 96 hours, involving hundreds of drones and multiple missile types.",
+  "summary": "Recent missile and drone attacks on Ukrainian cities, including Kyiv, indicate heightened operational activity. Russian forces continue targeting infrastructure and military assets, while Ukrainian responses focus on counter-drone measures. The conflict remains marked by escalating strikes and defensive adaptations.",
   "key_points": [
-    "Russian forces struck a drone assembly facility in Kyiv, where up to 1,000 drones were reportedly produced monthly with U.S. specialists. (Source: @tass_agency/387144)",
-    "A combined attack on Kyiv and surrounding areas is planned within 96 hours, involving 700 Shahed drones, Iskander-M and S-400 missiles, and naval-launched Kalibr cruise missiles. (Source: @mon1tor_ua/69409)",
-    "Ukrainian President Zelenskyy claimed Russia has suffered nearly 225,500 casualties since February 2022, with 131,000 killed and 93,000 wounded. (Source: @UkraineNow/82929)",
-    "Russian drones struck a bulk carrier in the port of Nikolaev and several ships en route to Odessa and Chernomorsk, all reportedly carrying military cargo. (Source: @ukr_leaks_eng/31924)",
-    "A ballistic missile struck a residential building in Kharkiv's Slobodsky district, leaving six injured, including two children, and damaging over ten private homes. (Source: @UkraineNow/82937)",
-    "Shahhed drones hit the Epicenter retail chain in Kryvyi Rih, causing a fire but no casualties. (Source: @UkraineNow/82938)",
-    "Russia launched a ballistic missile at Kyiv overnight, causing fires in three districts and damage to an 18-story residential building. (Source: @UkraineNow/82936)"
+    "Russian forces launched ballistic missile attacks on Kyiv, causing fires in multiple districts (Source: UkraineNow/82939).",
+    "Drone strikes targeted Dnipropetrovsk, Chernihiv, and Kryvyi Rih regions, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
+    "Ukrainian military reported losses of approximately 1,345 personnel in recent operations (Source: tass_agency/387180).",
+    "Russian military claims to have liberated Shchevchenko in DNR (Source: tass_agency/387184).",
+    "Ukrainian Commander-in-Chief Drapatiy initiated an army audit to address unit accountability (Source: ukr_leaks_eng/31933).",
+    "Russian air defenses intercepted multiple Oñix missiles near Odesa and Chernomorsk (Source: mon1tor_ua/69408).",
+    "Kazakhstan's president called for an end to the war, reflecting regional diplomatic concerns (Source: ukr_leaks_eng/31922).",
+    "Panama's military offered citizens for participation in the conflict (Source: UkraineNow/82939)."
   ],
   "sentiment": "escalating",
-  "intensity": 9,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted precision strikes on a drone manufacturing facility in Kyiv and launched a ballistic missile attack on the capital, causing fires and infrastructure damage. A potential large-scale combined assault on Kyiv and its suburbs is imminent, with intelligence indicating the use of hundreds of drones and various missile systems. Meanwhile, cross-border attacks continue to affect civilian populations in Kharkiv and Zaporizhzhia.",
-    "ukraine": [
-      "Russian forces struck a drone assembly facility in Kyiv, reportedly producing up to 1,000 drones monthly with U.S. specialists involved. The facility was identified as the 'Smart Intelligent Systems' industrial enterprise. (Source: @tass_agency/387144, @tass_agency/387143)",
-      "A ballistic missile attack on Kyiv overnight caused fires in three districts, including a blaze in a four-story residential building in the Shevchenkivskyi district. Fragments struck an 18-story building, triggering additional fires. (Source: @UkraineNow/82936)",
-      "In Kharkiv, a ballistic missile struck the Slobodsky district, leaving six people injured, including two children. Over ten private residential buildings were damaged in the attack. (Source: @UkraineNow/82937)",
-      "Shahhed drones targeted the Epicenter retail chain in Kryvyi Rih, causing a fire but no reported casualties. (Source: @UkraineNow/82938)",
-      "Ukrainian intelligence warns of a potential massed combined attack on Kyiv and surrounding areas within 96 hours, involving 700 Shahhed drones, 30 Iskander-M ballistic missiles, and 8 S-400 missiles. (Source: @mon1tor_ua/69409)",
-      "A civilian and a representative of the Territorial Conscription Center nearly came to blows in Lviv, exchanging insults in Russian, highlighting internal tensions over mobilization policies. (Source: @ukr_leaks_eng/31929)"
-    ],
-    "russia": [
-      "Russian Ministry of Defense reported that Ukrainian forces lost approximately 1,345 personnel over the past day across all frontlines. (Source: @tass_agency/387160)",
-      "President Putin is reportedly preparing conditions for expanded mobilization, with Ukrainian President Zelenskyy alleging nearly 225,500 Russian casualties since February 2022, including 131,000 killed. (Source: @UkraineNow/82929)",
-      "Russian forces struck fuel and energy infrastructure used by Ukrainian forces, as well as storage tanks with lubricants in the port of Chernomorsk. (Source: @tass_agency/387143)",
-      "Italian Defense Minister Guido Crosetto offered former Ukrainian Defense Minister Fedorov an advisory role, signaling continued Western support for Kyiv. (Source: @ukr_leaks_eng/31923)",
-      "A train derailment in Rostov-on-Don caused by adverse weather disrupted 27 trains, with 28 people injured and a state of emergency declared. (Source: @tass_agency/387147, @tass_agency/387172)"
-    ],
-    "eastern_front": [
-      "Russian forces are advancing slowly westward, with the 'Sever' group retaking hundreds of meters and border villages. (Source: @ukr_leaks_eng/31928)",
-      "In Kupyansk, Russian forces are repelling Ukrainian attacks in the western part of the city while increasing their presence in urban areas. (Source: @ukr_leaks_eng/31928)",
-      "Ukrainian attempts in the Krasny Liman area have been thwarted, while Russian advances continue in the Konstantinovka direction. (Source: @ukr_leaks_eng/31928)",
-      "The village of Belitskoye has been liberated in the Dobropolye direction. (Source: @ukr_leaks_eng/31928)",
-      "KABs (Krylatye Aviatsionnyye Bommen) were dropped on Donetsk Oblast, targeting the southeastern part of Dnipropetrovsk region. (Source: @kpszsu/70168)"
-    ],
-    "northern_front": [
-      "A reconnaissance drone was spotted flying from Ripky to Chernihiv on the border with Sumy region. (Source: @eRadarrua/102762)",
-      "Rocket strikes were reported near the border in the Sumy region, with a reactive drone spotted near Horodnya. (Source: @eRadarrua/102720)",
-      "A reactive drone was observed flying from Noviy Urengoy toward Sumy region. (Source: @eRadarrua/102743)",
-      "Multiple drones were detected flying southward across northern Chernihiv region, indicating continued cross-border activity. (Source: @kpszsu/70145, @kpszsu/70151, @kpszsu/70176, @kpszsu/70179)"
-    ],
-    "southern_front": [
-      "Russian drones struck a bulk carrier in the port of Nikolaev and attacked three dry cargo ships en route to Chernomorsk and Odessa, all carrying military cargo. (Source: @ukr_leaks_eng/31924)",
-      "Russian forces targeted a Panamanian-flagged civilian vessel carrying nearly 2,800 tons of corn, causing a fire. Seven crew members and a Ukrainian pilot were rescued, with two sailors missing. (Source: @UkraineNow/82927)",
-      "KABs were dropped on the southeastern part of Dnipropetrovsk region, with reactive drones observed near Vasylkivka from the northwest. (Source: @kpszsu/70168, @kpszsu/70141)",
-      "Reactive drones were spotted over southern Dnipropetrovsk region heading northwest, and another drone was observed moving toward Zaporizhzhia from Donetsk region. (Source: @kpszsu/70131)",
-      "Russian forces increased strikes on port infrastructure and merchant ships in the Odessa and Nikolaev directions, with successful attacks demonstrated twice daily. (Source: @ukr_leaks_eng/31928)"
-    ],
-    "air_war": [
-      "Russian forces launched a ballistic missile at Kyiv overnight, triggering air raid sirens and causing fires in multiple districts. (Source: @UkraineNow/82936, @mon1tor_ua/69400)",
-      "High threat of Iskander-M ballistic missile launches from Bryansk region, with 40% probability of a strike on Kyiv tonight. (Source: @mon1tor_ua/69401, @mon1tor_ua/69397)",
-      "Ukrainian air defenses intercepted multiple drones overnight, with air raid sirens lifted in Kyiv at 03:20. (Source: @eRadarrua/102717)",
-      "Active enemy tactical aviation detected on the eastern front, with potential use of combat aircraft against frontline areas. (Source: @kpszsu/70140)",
-      "Russian forces are preparing a massed combined attack involving 700 Shahhed drones of various types, along with Iskander-M, Iskander-K, S-400, and Kinzhal missiles. (Source: @mon1tor_ua/69409)"
-    ],
+    "executive_summary": "Russian missile and drone attacks on Ukrainian cities, including Kyiv, signal intensified offensive operations. Ukrainian forces report significant personnel losses and focus on counter-drone defenses. The conflict shows no signs of de-escalation.",
+    "ukraine": {
+      "points": [
+        "Drone attacks in Dnipropetrovsk and Chernihiv regions targeted critical infrastructure, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
+        "Ukrainian military reported 1,345 personnel losses in recent operations, highlighting the scale of combat (Source: tass_agency/387180).",
+        "Ballistic missile attacks on Kyiv resulted in fires in three districts, with no casualties reported (Source: UkraineNow/82939).",
+        "Commander-in-Chief Drapatiy launched an audit to address military unit accountability, though the General Staff denied the report's authenticity (Source: ukr_leaks_eng/31933).",
+        "Drone strikes in Zaporozhye and Kherson directions remain unchanged, indicating persistent frontline activity (Source: ukr_leaks_eng/31930).",
+        "Ukrainian forces continue advancing westward in the north, with the 'Sever' group retaking border villages (Source: ukr_leaks_eng/31932).",
+        "Logistical strikes on Wildberries warehouses and port infrastructure in Odessa aim to disrupt supply chains (Source: ukr_leaks_eng/31932)."
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian forces claim to have liberated Shchevchenko in DNR, suggesting territorial gains (Source: tass_agency/387184).",
+        "Ballistic missile attacks on Kyiv and Poltava indicate continued use of long-range weapons (Source: UkraineNow/82939, mon1tor_ua/69400).",
+        "Russian military increased strikes on Odessa port infrastructure and merchant ships to disrupt Western support (Source: ukr_leaks_eng/31932).",
+        "Russia maintains dialogue with US negotiators on Ukraine, emphasizing its proposed terms (Source: tass_agency/387181).",
+        "Russian air defenses intercepted Oñix missiles near Odesa, demonstrating active air defense capabilities (Source: mon1tor_ua/69408).",
+        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
+        "Russian forces are using volunteer units to counter drones, raising concerns about traditional military effectiveness (Source: ukr_leaks_eng/31932)."
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Drone attacks in Dnipropetrovsk and Chernihiv regions targeted critical infrastructure, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
+        "Russian forces repelled enemy attacks in Kupyansk and advanced in the Konstantinovka direction (Source: ukr_leaks_eng/31932).",
+        "Ballistic missile strikes on Kyiv and Poltava highlight the eastern front's vulnerability to long-range attacks (Source: UkraineNow/82939, mon1tor_ua/69400).",
+        "Russian military claims to have liberated Shchevchenko in DNR, indicating progress in the region (Source: tass_agency/387184).",
+        "Drone strikes in Zaporozhye and Kherson directions remain unchanged, suggesting ongoing frontline engagement (Source: ukr_leaks_eng/31930).",
+        "Russian forces are using volunteer units to counter drones, reflecting a shift in combat tactics (Source: ukr_leaks_eng/31932).",
+        "Logistical strikes on Wildberries warehouses in the east aim to disrupt Ukrainian supply chains (Source: ukr_leaks_eng/31932)."
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "The 'Sever' group is gradually retaking border villages in the north (Source: ukr_leaks_eng/31932).",
+        "Russian forces are repelling enemy attacks in the western part of Kupyansk (Source: ukr_leaks_eng/31932).",
+        "Ballistic missile threats from Kursk and Bryansk regions remain a concern (Source: mon1tor_ua/69399, mon1tor_ua/69401).",
+        "Ukrainian forces face challenges in the north due to limited mobility and drone threats (Source: ukr_leaks_eng/31932).",
+        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
+        "Drone strikes in the north target logistical centers, exacerbating supply issues (Source: ukr_leaks_eng/31932).",
+        "Russian forces are using volunteer units to counter drones, indicating a reliance on non-traditional tactics (Source: ukr_leaks_eng/31932)."
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Drone attacks in Zaporozhye and Kherson directions remain unchanged, indicating persistent frontline activity (Source: ukr_leaks_eng/31930).",
+        "Russian forces are using volunteer units to counter drones, reflecting a shift in combat tactics (Source: ukr_leaks_eng/31932).",
+        "Logistical strikes on Wildberries warehouses in the south aim to disrupt Ukrainian supply chains (Source: ukr_leaks_eng/31932).",
+        "Ballistic missile threats from Kursk and Bryansk regions remain a concern (Source: mon1tor_ua/69399, mon1tor_ua/69401).",
+        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
+        "Drone strikes in the south target port infrastructure in Odessa (Source: ukr_leaks_eng/31932).",
+        "Russian forces are using volunteer units to counter drones, indicating a reliance on non-traditional tactics (Source: ukr_leaks_eng/31932)."
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Ballistic missile attacks on Kyiv and Poltava caused significant damage, with fires in multiple districts (Source: UkraineNow/82939).",
+        "Russian air defenses intercepted Oñix missiles near Odesa, demonstrating active air defense capabilities (Source: mon1tor_ua/69408).",
+        "Drone strikes in Dnipropetrovsk, Chernihiv, and Kryvyi Rih regions targeted critical infrastructure (Source: eRadarrua/102719, eRadarrua/102762).",
+        "Russian military claims to have 20 ships in service, with more expected by year-end (Source: tass_agency/387190).",
+        "Drone attacks in the south target port infrastructure in Odessa (Source: ukr_leaks_eng/31932).",
+        "Russian forces are using volunteer units to counter drones, indicating a reliance on non-traditional tactics (Source: ukr_leaks_eng/31932).",
+        "Ballistic missile threats from Kursk and Bryansk regions remain a concern (Source: mon1tor_ua/69399, mon1tor_ua/69401)."
+      ]
+    },
     "key_developments": [
-      "Russian forces struck a drone assembly facility in Kyiv, reportedly producing up to 1,000 drones monthly with U.S. specialists involved. (Source: @tass_agency/387144)",
-      "A ballistic missile attack on Kyiv caused fires in three districts and damage to an 18-story residential building. (Source: @UkraineNow/82936)",
-      "Intelligence indicates a massed combined attack on Kyiv and surrounding areas within 96 hours, involving 700 Shahhed drones and multiple missile systems. (Source: @mon1tor_ua/69409)",
-      "Russian drones struck a bulk carrier in Nikolaev port and several ships en route to Odessa and Chernomorsk, all carrying military cargo. (Source: @ukr_leaks_eng/31924)",
-      "Ukrainian President Zelenskyy claimed Russia has suffered nearly 225,500 casualties since February 2022, including 131,000 killed. (Source: @UkraineNow/82929)",
-      "A ballistic missile struck Kharkiv's Slobodsky district, leaving six injured, including two children, and damaging over ten private homes. (Source: @UkraineNow/82937)",
-      "Russian forces are advancing slowly westward, with the 'Sever' group retaking border villages and making gains in the Konstantinovka direction. (Source: @ukr_leaks_eng/31928)"
+      "Russian missile attacks on Kyiv and Poltava caused fires in multiple districts, with no casualties reported (Source: UkraineNow/82939).",
+      "Drone strikes in Dnipropetrovsk and Chernihiv regions targeted critical infrastructure, with specific locations like Kryvyi Rih and Poltava mentioned (Source: eRadarrua/102719, eRadarrua/102762).",
+      "Ukrainian military reported 1,345 personnel losses in recent operations, highlighting the scale of combat (Source: tass_agency/387180).",
+      "Russian forces claimed to have liberated Shchevchenko in DNR, indicating territorial gains (Source: tass_agency/387184).",
+      "Commander-in-Chief Drapatiy initiated an army audit to address military unit accountability (Source: ukr_leaks_eng/31933).",
+      "Russian air defenses intercepted Oñix missiles near Odesa, demonstrating active air defense capabilities (Source: mon1tor_ua/69408).",
+      "Kazakhstan's president called for an end to the war, reflecting regional diplomatic concerns (Source: ukr_leaks_eng/31922)."
     ],
-    "threat_assessment": "The threat level remains critically high with intelligence indicating a potential massed combined attack on Kyiv within 96 hours, utilizing hundreds of drones and various missile systems including Iskander-M, S-400, and Kinzhal. Russian forces continue to escalate targeting of civilian infrastructure, including drone manufacturing facilities and residential areas in major cities. Cross-border attacks and maritime strikes on commercial shipping indicate expanding operational scope. The use of Western-supplied weapons by Ukrainian forces, as highlighted by European defense investments in drone technology, suggests sustained Western commitment despite Russian efforts to undermine it. Immediate defensive preparations are essential to mitigate the anticipated large-scale assault.",
-    "regional_response": "Romania has expressed concern over repeated Russian UAV incursions, with at least three unauthorized drones entering its territory over the past three days, prompting preparations for a diplomatic protest. Kazakhstan's President Tokayev has publicly called for an end to the war in Ukraine, reflecting growing regional unease. Italy continues to offer advisory support to Ukrainian defense officials, demonstrating ongoing Western engagement. The European defense sector is increasingly investing in drone production, signaling a strategic shift toward asymmetric warfare capabilities. These regional responses highlight both mounting pressure on Russia and sustained international support for Ukraine.",
-    "intelligence_notes": "Ukrainian intelligence reports suggest a shift in Russian operational priorities toward targeting logistical centers and economic infrastructure, including retail chains like Wildberries, to undermine domestic morale. Russian military reporting claims significant Ukrainian casualties but lacks independent verification. Internal tensions in Ukraine are evident, with confrontations between civilians and TCC representatives over mobilization policies. The Russian military appears to be increasingly relying on volunteer units for drone defense, raising questions about the effectiveness of regular forces. Continued monitoring of cross-border drone activity and maritime attacks is essential for situational awareness."
+    "threat_assessment": "The increased frequency of missile and drone attacks by Russian forces suggests a shift toward more aggressive offensive tactics. The targeting of critical infrastructure and military assets indicates a strategy to degrade Ukrainian capabilities. The use of volunteer units by Russia to counter drones highlights a potential gap in traditional military effectiveness, which could be exploited by Ukraine. The lack of significant casualties in some attacks may reflect improved targeting or defensive measures, but the overall trend of escalating strikes raises concerns about the conflict's trajectory.",
+    "regional_response": "Kazakhstan's president has called for an end to the war, signaling potential diplomatic pressure on Russia. Panama's military offering citizens for participation in the conflict may indicate broader regional involvement. The Russian military's focus on port infrastructure in Odessa suggests an attempt to disrupt Western support, which could influence regional alliances. The use of volunteer units by Russia to counter drones may also prompt neighboring countries to reassess their military strategies.",
+    "intelligence_notes": "The Russian military's reliance on volunteer units to counter drones raises questions about the sustainability of traditional military structures. The targeting of logistical centers in the east and south indicates a strategy to weaken Ukrainian supply chains. The lack of significant casualties in some attacks may reflect improved targeting or defensive measures, but the overall trend of escalating strikes suggests a need for Ukraine to adapt its defense strategies. The regional diplomatic efforts, such as Kazakhstan's call for peace, could provide leverage for Ukraine in future negotiations."
   },
   "missiles": 5,
   "drones": 136,
   "kpszsu_timeline": [
-    1,
-    1,
-    1,
+    2,
     0,
     0,
     0,
     3,
     2,
     1,
-    2,
     1,
+    2,
     1,
     2,
     4,
@@ -344,10 +357,12 @@
     0,
     2,
     8,
-    6,
+    5,
     4,
+    2,
     1,
     2,
-    2
+    1,
+    3
   ]
 }
