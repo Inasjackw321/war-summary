@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-26T19:48:56.708692+00:00",
-  "message_count": 271,
+  "updated_at": "2026-07-26T21:10:05.230556+00:00",
+  "message_count": 267,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 141,
   "red_alerts_timeline": [
-    17,
     0,
     0,
     0,
@@ -23,72 +22,73 @@
     0,
     0,
     0,
+    17,
+    0,
+    17,
+    0,
+    0,
+    0,
+    17,
     0,
     17,
     17,
     0,
-    0,
-    0,
-    0,
     17,
     0,
-    34,
-    0,
     17,
-    0,
     0
   ],
   "combined_activity_timeline": [
-    8,
-    7,
-    10,
+    9,
     6,
-    12,
-    12,
-    7,
-    7,
-    4,
     10,
-    15,
-    17,
-    17,
-    11,
-    8,
-    7,
-    8,
-    17,
-    12,
-    30,
     14,
-    12,
+    9,
+    8,
+    5,
+    6,
+    13,
+    14,
+    17,
+    17,
+    7,
+    7,
+    9,
     10,
-    7
+    13,
+    19,
+    27,
+    14,
+    11,
+    7,
+    9,
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 44,
-    "@kpszsu": 62,
+    "@eRadarrua": 43,
+    "@kpszsu": 67,
     "@mon1tor_ua": 12,
     "@UkraineNow": 14,
     "@ukr_leaks_eng": 11,
-    "@tass_agency": 128
+    "@tass_agency": 120
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102821",
-    "kpszsu": "https://t.me/kpszsu/70240",
+    "eRadarrua": "https://t.me/eRadarrua/102824",
+    "kpszsu": "https://t.me/kpszsu/70255",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69410",
     "UkraineNow": "https://t.me/UkraineNow/82946",
     "DeepStateUA": "https://t.me/DeepStateUA/23683",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31936",
-    "tass_agency": "https://t.me/tass_agency/387244"
+    "tass_agency": "https://t.me/tass_agency/387246"
   },
-  "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/387237",
-    "UkraineNow": "https://t.me/UkraineNow/82941",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69409",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31930",
-    "kpszsu": "https://t.me/kpszsu/70189"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/387245",
+      "post_id": 387245,
+      "channel": "tass_agency",
+      "ts": "2026-07-26T19:43:11+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/82946",
       "post_id": 82946,
@@ -211,12 +211,6 @@
       "post_id": 387178,
       "channel": "tass_agency",
       "ts": "2026-07-26T12:26:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387172",
-      "post_id": 387172,
-      "channel": "tass_agency",
-      "ts": "2026-07-26T11:41:03+00:00"
     }
   ],
   "post_images": {
@@ -224,129 +218,140 @@
     "eRadarrua/102807": "data/media/eRadarrua_102808.jpg",
     "eRadarrua/102818": "data/media/eRadarrua_102818.jpg",
     "eRadarrua/102819": "data/media/eRadarrua_102819.jpg",
-    "eRadarrua/102779": "data/media/eRadarrua_102779.jpg",
     "eRadarrua/102777": "data/media/eRadarrua_102777.jpg",
-    "eRadarrua/102759": "data/media/eRadarrua_102759.jpg",
-    "eRadarrua/102758": "data/media/eRadarrua_102759.jpg",
-    "eRadarrua/102743": "data/media/eRadarrua_102743.jpg",
-    "eRadarrua/102742": "data/media/eRadarrua_102743.jpg",
+    "eRadarrua/102779": "data/media/eRadarrua_102779.jpg",
     "eRadarrua/102744": "data/media/eRadarrua_102744.jpg",
+    "eRadarrua/102743": "data/media/eRadarrua_102743.jpg",
     "eRadarrua/102755": "data/media/eRadarrua_102755.jpg",
     "eRadarrua/102756": "data/media/eRadarrua_102755.jpg",
+    "eRadarrua/102759": "data/media/eRadarrua_102759.jpg",
+    "eRadarrua/102758": "data/media/eRadarrua_102759.jpg",
     "eRadarrua/102729": "data/media/eRadarrua_102729.jpg",
     "eRadarrua/102728": "data/media/eRadarrua_102729.jpg",
     "eRadarrua/102730": "data/media/eRadarrua_102730.jpg",
     "eRadarrua/102735": "data/media/eRadarrua_102735.jpg",
-    "eRadarrua/102703": "data/media/eRadarrua_102703.jpg",
+    "eRadarrua/102742": "data/media/eRadarrua_102743.jpg",
     "eRadarrua/102707": "data/media/eRadarrua_102707.jpg",
     "eRadarrua/102706": "data/media/eRadarrua_102707.jpg",
     "eRadarrua/102708": "data/media/eRadarrua_102708.jpg",
+    "eRadarrua/102703": "data/media/eRadarrua_102703.jpg",
     "kpszsu/70134": "data/media/kpszsu_70134.jpg",
     "kpszsu/70133": "data/media/kpszsu_70134.jpg"
   },
-  "summary": "Ukrainian forces face intensified drone and missile attacks targeting civilian and military infrastructure, with reports of casualties in Chernihiv and Kyiv. Russia continues to deploy ballistic missiles and drones from occupied territories, escalating threats to Kyiv and surrounding regions. Recent attacks highlight the ongoing hybrid warfare tactics employed by Russian forces.",
+  "summary": "Russian forces conducted a large-scale aerial attack across Ukraine overnight, deploying missiles, drones, and cruise missiles against multiple regions including Kharkiv, Zaporizhzhia, and Kyiv. Ukrainian air defenses reportedly intercepted numerous threats but confirmed strikes on civilian infrastructure causing casualties. Intelligence indicates preparations for a mass combined strike on Kyiv and surrounding areas within 96 hours involving hundreds of drones and missiles.",
   "key_points": [
-    "Ukrainian drone attack in Gorlovka injured three civilians and a medical worker (Source: @tass_agency/387237).",
-    "Missile strike in Kyiv killed three, including a child, and injured three others (Source: @UkraineNow/82941).",
-    "Russia plans to deploy 700 Shahed drones and Iskander-M rockets in a coordinated attack on Kyiv (Source: @mon1tor_ua/69409).",
-    "Russian missiles targeted Slobidsk, killing six, including two children (Source: @UkraineNow/82937).",
-    "Russian UAVs crossed into Romania, prompting diplomatic concerns (Source: @ukr_leaks_eng/31930).",
-    "Multiple ballistic missile launches from Crimea threaten Kyiv and regions (Source: @mon1tor_ua/69407).",
-    "Russian attacks on civilian infrastructure in Kyiv caused fires in multiple districts (Source: @UkraineNow/82941).",
-    "Russian forces are advancing KABs (cruise missiles) toward Kharkiv and Chernihiv (Source: @kpszsu/70189)."
+    "Russian attack overnight included 1 Kh-59/69 missile, 7 Iskander-M/S-400 missiles, and 136 drones across northern, southern, and eastern regions (Source: UkraineNow/82935).",
+    "Ukrainian air defenses intercepted 1 Kh-59/69 missile, 5 Iskander-M/S-400 missiles, and 104 Shahed-type drones (Source: UkraineNow/82935).",
+    "Strikes confirmed in Kharkiv's Slobidsky district with six casualties including two children and over ten residential buildings damaged (Source: UkraineNow/82937).",
+    "One civilian killed and one injured when Russian forces struck a civilian facility in Zaporizhzhia using guided aerial bombs (Source: UkraineNow/82941).",
+    "Russian drone crashed into a supermarket in Chernihiv killing two people including a 10-year-old child and wounding three (Source: UkraineNow/82942).",
+    "Massive drone and missile incursion into Romanian airspace raised diplomatic concerns with Romania preparing a protest note (Source: UkraineNow/82940).",
+    "Intelligence warns of planned mass combined strike on Kyiv and region within 96 hours involving up to 700 drones, 30 Iskander-M, 18 Iskander-K, 8 S-400, and 6 hypersonic 'Circone' missiles (Source: mon1tor_ua/69409).",
+    "Over 50 people sought medical assistance in Rostov region after unspecified incident, with emergency regime in Volgogradsky and Chertkovsky districts (Source: tass_agency/387246)."
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Ukrainian forces face intensified drone and missile attacks targeting civilian and military infrastructure, with reports of casualties in Chernihiv and Kyiv. Russia continues to deploy ballistic missiles and drones from occupied territories, escalating threats to Kyiv and surrounding regions. Recent attacks highlight the ongoing hybrid warfare tactics employed by Russian forces.",
+    "executive_summary": "Russian forces launched a large-scale aerial assault across Ukraine overnight, deploying missiles, drones, and cruise missiles against multiple regions including Kharkiv, Zaporizhzhia, and Kyiv. Ukrainian air defenses reportedly intercepted numerous threats but confirmed strikes on civilian infrastructure causing casualties. Intelligence indicates preparations for a mass combined strike on Kyiv and surrounding areas within 96 hours involving hundreds of drones and missiles.",
     "ukraine": {
       "points": [
-        "Drone attack in Gorlovka resulted in three civilian and one medical worker injuries (Source: @tass_agency/387237).",
-        "Missile strike in Kyiv killed three, including a 10-year-old child, and injured three others (Source: @UkraineNow/82941).",
-        "Russian Shahed drones and Iskander-M rockets are planned for a coordinated attack on Kyiv, including targets like Troeshnaya and Dvrzh (Source: @mon1tor_ua/69409).",
-        "Six civilians, including two children, killed in Slobidsk missile strike (Source: @UkraineNow/82937).",
-        "Russian UAVs breached Romanian airspace, raising regional security concerns (Source: @ukr_leaks_eng/31930).",
-        "Multiple ballistic missile launches from Crimea threaten Kyiv and regions with up to 700 Shahed drones and 30 Iskander-K missiles (Source: @mon1tor_ua/69407).",
-        "Russian missile attacks on Kyiv caused fires in Shvchenkivskyi, Desyanskyi, and Solomianskyi districts (Source: @UkraineNow/82941).",
-        "Russian KABs are advancing toward Kharkiv and Chernihiv from the north (Source: @kpszsu/70189)."
+        "Russian forces struck Kharkiv's Slobidsky district overnight, causing six casualties including two children and damaging over ten private residential buildings, according to Mayor Igor Terekhov (Source: UkraineNow/82937).",
+        "A civilian was killed and one injured when Russian guided aerial bombs struck a civilian facility in Zaporizhzhia (Source: UkraineNow/82941).",
+        "A Russian drone crashed into a supermarket in Chernihiv, killing two people including a 10-year-old child and wounding three others, according to State Bureau of Investigation (Source: UkraineNow/82942).",
+        "Ukrainian air defenses successfully intercepted one Kh-59/69 guided aerial missile, five Iskander-M/S-400 ballistic missiles, and 104 Shahed-type drones across northern, southern, and eastern regions (Source: UkraineNow/82935).",
+        "Ukrainian forces confirmed two ballistic missile impacts and 27 drone strikes on 18 locations, with debris from destroyed weapons falling on seven additional sites (Source: UkraineNow/82935).",
+        "New Commander-in-Chief Drapatiy announced an audit of Ukrainian military units to assess actual conditions, promising no one will be untouchable and those abusing positions will be held accountable (Source: ukr_leaks_eng/31933)."
       ]
     },
     "russia": {
       "points": [
-        "Russia is deploying ballistic missiles and drones from occupied Crimea and Kursk to target Kyiv (Source: @mon1tor_ua/69407, 69409).",
-        "Russian forces are advancing KABs (cruise missiles) toward Kharkiv and Chernihiv (Source: @kpszsu/70189).",
-        "Russian military is conducting coordinated attacks using Shahed drones and ballistic rockets (Source: @mon1tor_ua/69409).",
-        "Russian UAVs are crossing into neighboring countries like Romania, indicating expanded operational reach (Source: @ukr_leaks_eng/31930).",
-        "Russian military is prioritizing resource allocation for success in the special military operation (SVO) (Source: @tass_agency/387225).",
-        "Russian forces are using ballistic rockets like S-400 and Kinzal in attacks on Ukrainian cities (Source: @mon1tor_ua/69409).",
-        "Russian military is coordinating attacks with air and naval assets, including Tu-95MS bombers (Source: @mon1tor_ua/69409)."
+        "Russian forces conducted overnight attack using 1 Kh-59/69 guided missile, 7 Iskander-M/S-400 ballistic missiles, and 136 drones including Shahed, 'Gerbera,' and 'Italmass' types across northern, southern, and eastern Ukraine (Source: UkraineNow/82935).",
+        "Putin stated he occasionally watches blogger Igor Remeslo's content and is pleased when they 'hit the mark,' according to TASS (Source: tass_agency/387243).",
+        "Putin claimed Ukraine is publicly reviving Nazi ideology, stating the current Ukrainian regime is based on extreme nationalism and neo-Nazism (Source: tass_agency/387210).",
+        "Putin announced Russian military heroes are writing history, with descendants being educated using their examples, noting many preparations are already underway (Source: tass_agency/387213).",
+        "Putin emphasized the fleet's enormous importance to Russia's nuclear triad, as reported by TASS (Source: tass_agency/387235).",
+        "Russian drone equipped with video camera attacked an agricultural trading base in Chernihiv, which Ukrainian police classified as an act of terrorism driven by hatred toward everything Ukrainian (Source: UkraineNow/82943)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian missile strikes in Slobidsk (Kharkiv region) caused six casualties (Source: @UkraineNow/82937).",
-        "Russian KABs are advancing toward Kharkiv from the north (Source: @kpszsu/70189).",
-        "Russian forces are using ballistic rockets in eastern front operations (Source: @mon1tor_ua/69409)."
+        "Multiple drone attacks detected in northern Chernihiv region with one drone falling on a supermarket in Chernihiv city killing two including a child (Source: UkraineNow/82942).",
+        "A reconnaissance drone from Ripa was detected heading north from Chernihiv region (Source: eRadarrua/102807).",
+        "Northern Chernihiv region experienced drone activity with one drone from Chernihiv region targeting Kyiv region toward Yahotyn from northeast (Source: kpszsu/70208).",
+        "A drone from northern Chernihiv region was detected heading south toward Lozove in southern Kharkiv region (Source: kpszsu/70210).",
+        "Drone activity detected on northeast-eastern direction with reactiv drone heading from Black Sea toward northern Sumy region (Source: kpszsu/70249).",
+        "Northern-western Chernihiv region experienced drone activity with one drone from Chernihiv region heading south (Source: kpszsu/70199)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian KABs are advancing toward Kharkiv from the north (Source: @kpszsu/70189).",
-        "Russian forces are deploying ballistic missiles from Kursk to target Kyiv (Source: @mon1tor_ua/69407)."
+        "Intelligence warns of planned mass combined strike on Kyiv and region within 96 hours involving up to 700 Shahed-type drones of various types (Source: mon1tor_ua/69409).",
+        "Attack plan includes 30 Iskander-M ballistic missiles, up to 18 Iskander-K cruise missiles, 8 S-400 missiles, and 6 hypersonic 'Circone' missiles (Source: mon1tor_ua/69409).",
+        "Naval assets include 4 missile ships in Black Sea with salvo capability of up to 24 Kalibr cruise missiles (Source: mon1tor_ua/69409).",
+        "Air assets include 3 Tu-95MS bombers with salvo capability of up to 12 Kh-101 cruise missiles (Source: mon1tor_ua/69409).",
+        "Two Tu-160 bombers with salvo capability of up to 12 Kh-101 cruise missiles, and one MiG-31K with one Kinzhal air-to-air missile (Source: mon1tor_ua/69409).",
+        "Specific Kyiv targets identified including Desnianskyi, Darnytskyi, Dniprovskyi, Solomianskyi, Shevchenkivskyi, Pecherskyi, Holosiivskyi, and Svatošinsky districts with multiple residential areas and metro stations (Source: mon1tor_ua/69409)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian missile attacks on Kyiv originated from southern regions (Source: @UkraineNow/82941).",
-        "Russian forces are using ballistic rockets in southern front operations (Source: @mon1tor_ua/69409)."
+        "Drone attacks detected on Zaporizhzhia from southwest and southeast directions (Source: kpszsu/70245).",
+        "Reactiv drone detected heading from Dnipro region toward Kriviy Rih (Source: eRadarrua/102744).",
+        "Drone activity from Black Sea targeting Odesa and Mykolaiv regions (Source: kpszsu/70241).",
+        "Drone attacks on Mykolaiv region from Black Sea (Source: kpszsu/70201).",
+        "Drone activity detected on southeast approach to Dnipro region from Zaporizhzhia (Source: kpszsu/70244).",
+        "Drone attacks on Kherson from southwest direction (Source: kpszsu/70241)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian Shahed drones and ballistic missiles are being used in air attacks on Kyiv (Source: @mon1tor_ua/69409).",
-        "Russian Tu-95MS bombers are launching ballistic missiles at Ukrainian cities (Source: @mon1tor_ua/69409)."
+        "Ukrainian air defenses intercepted 1 Kh-59/69 guided aerial missile, 5 Iskander-M/S-400 ballistic missiles, and 104 Shahed-type drones across northern, southern, and eastern regions (Source: UkraineNow/82935).",
+        "Confirmed strikes on 18 locations with two ballistic missile impacts and 27 drone strikes, plus debris from destroyed weapons on seven locations (Source: UkraineNow/82935).",
+        "Romania confirmed three unauthorized Russian UAVs entered its airspace over three days, prompting preparation of diplomatic protest to Russia (Source: ukr_leaks_eng/31930).",
+        "Enemy tactical aircraft activity detected in northeast-eastern direction with threat of air strike weapons for border regions (Source: kpszsu/70218).",
+        "Active enemy tactical aircraft activity detected in eastern direction with threat of air strike weapons for border regions (Source: kpszsu/70222).",
+        "Russian drone equipped with video camera attacked agricultural trading base in Chernihiv, classified as terrorism act (Source: UkraineNow/82943)."
       ]
     },
     "key_developments": [
-      "Russian missile strike in Kyiv killed three, including a child, and injured three others (Source: @UkraineNow/82941).",
-      "Russian Shahed drones and Iskander-M rockets are planned for a coordinated attack on Kyiv, targeting 18 locations (Source: @mon1tor_ua/69409).",
-      "Russian KABs are advancing toward Kharkiv from the north (Source: @kpszsu/70189).",
-      "Russian UAVs breached Romanian airspace, raising regional security concerns (Source: @ukr_leaks_eng/31930).",
-      "Russian forces are deploying ballistic rockets from Crimea, including S-400 and Kinzal systems (Source: @mon1tor_ua/69409).",
-      "Multiple ballistic missile launches from Crimea threaten Kyiv with up to 700 Shahed drones (Source: @mon1tor_ua/69407).",
-      "Russian missile attacks on Kyiv caused fires in Shvchenkivskyi, Desyanskyi, and Solomianskyi districts (Source: @UkraineNow/82941)."
+      "Russian forces launched large-scale aerial attack overnight with 1 Kh-59/69 missile, 7 Iskander-M/S-400 missiles, and 136 drones across Ukraine, with Ukrainian air defenses intercepting most threats but confirming strikes on civilian infrastructure (Source: UkraineNow/82935).",
+      "Multiple civilian casualties reported from Russian strikes: six in Kharkiv including two children, one in Zaporizhzhia, and two including a child in Chernihiv supermarket attack (Source: UkraineNow/82937, UkraineNow/82941, UkraineNow/82942).",
+      "Intelligence warns of imminent mass combined strike on Kyiv and region within 96 hours involving up to 700 drones, 30 Iskander-M, 18 Iskander-K, 8 S-400, and 6 hypersonic 'Circone' missiles with specific targets identified in nine Kyiv districts (Source: mon1tor_ua/69409).",
+      "Romania preparing diplomatic protest to Russia after three Russian Shahed-type UAVs entered Romanian airspace over three days, raising concerns about attacks on Odesa port infrastructure (Source: UkraineNow/82940, ukr_leaks_eng/31930).",
+      "Putin publicly praised blogger Igor Remeslo's content and stated he watches their materials, while claiming Ukraine is reviving Nazi ideology and basing its regime on extreme nationalism and neo-Nazism (Source: tass_agency/387243, tass_agency/387210).",
+      "Over 50 people sought medical assistance in Rostov region after unspecified incident, with emergency regime activated in Volgogradsky and Chertkovsky districts (Source: tass_agency/387246).",
+      "Ukrainian forces confirmed two ballistic missile impacts and 27 drone strikes on 18 locations, with debris from destroyed weapons falling on seven additional sites (Source: UkraineNow/82935)."
     ],
-    "threat_assessment": "Russia's escalation of ballistic missile and drone attacks from occupied territories poses a significant threat to Kyiv and surrounding regions. The planned coordinated use of 700 Shahed drones and Iskander-M rockets indicates a shift toward massed, high-impact strikes. The involvement of Russian military assets like Tu-95MS bombers suggests a multi-vector attack strategy. Ukraine's air defense systems are under sustained pressure, with limited capacity to intercept all incoming threats.",
-    "regional_response": "Romania has initiated diplomatic protests against Russian UAV incursions, signaling potential international backlash. Neighboring countries may increase surveillance or military readiness in response to cross-border attacks. Ukraine is likely to request additional air defense support from allies to counter the escalating missile and drone threats.",
-    "intelligence_notes": "The coordinated use of Shahed drones and ballistic missiles by Russia suggests a deliberate effort to overwhelm Ukrainian defenses. The targeting of civilian infrastructure in Kyiv indicates a strategy to maximize psychological and material damage. Russia's expansion of UAV operations into neighboring countries may aim to test allied responses or create diplomatic pressure. Ukraine's intelligence community must prioritize tracking Russian missile launch sites in occupied Crimea and Kursk."
+    "threat_assessment": "Russian forces are escalating aerial operations with unprecedented scale and sophistication, employing mixed missile and drone formations including advanced Iskander and hypersonic systems. The confirmed civilian casualties and infrastructure damage indicate reduced discrimination in targeting, while the planned Kyiv strike represents a significant escalation risk. Intelligence indicates Russia is preparing for sustained multi-domain operations involving naval, air, and missile assets, potentially signaling preparation for broader offensive operations or strategic messaging ahead of negotiations.",
+    "regional_response": "Romania has expressed serious concern over repeated Russian UAV incursions into its airspace, preparing diplomatic protests that could strain Russia-Romania relations and impact regional security cooperation. European Union members are monitoring the situation closely, with potential implications for NATO solidarity and collective defense Article 5 considerations given the scale of attacks on Ukrainian territory. The international community is likely to witness increased diplomatic pressure on Russia through existing sanctions frameworks and potential additional measures.",
+    "intelligence_notes": "The volume and sophistication of Russian aerial operations suggest either degraded air defense capabilities or deliberate saturation attacks testing Ukrainian defenses. The use of video-equipped drones for psychological warfare and the targeting of civilian infrastructure indicates evolving Russian tactical doctrine. Intelligence assessments should prioritize monitoring Kyiv area preparations and Romanian airspace violations as indicators of broader strategic intentions. The confirmed civilian casualties may impact international legal considerations and potential war crimes investigations."
   },
-  "stale_summary": true,
   "missiles": 5,
   "drones": 136,
   "kpszsu_timeline": [
     1,
+    1,
+    1,
+    5,
     2,
-    1,
-    1,
-    1,
+    0,
+    2,
+    0,
+    2,
+    8,
+    4,
     5,
     0,
-    1,
-    1,
     2,
-    5,
+    1,
+    0,
+    4,
+    3,
     6,
     4,
-    2,
-    1,
-    1,
-    1,
-    3,
+    4,
     3,
     5,
-    6,
-    1,
-    6,
-    2
+    4
   ]
 }
