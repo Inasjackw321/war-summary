@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-28T07:39:23.170448+00:00",
-  "message_count": 339,
+  "updated_at": "2026-07-28T10:53:46.699658+00:00",
+  "message_count": 350,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,20 +13,17 @@
   ],
   "red_alerts": 131,
   "red_alerts_timeline": [
-    0,
-    8,
     8,
     0,
     8,
-    8,
-    15,
+    16,
     0,
     0,
     0,
-    8,
-    15,
-    31,
-    8,
+    16,
+    25,
+    25,
+    0,
     0,
     0,
     0,
@@ -35,55 +32,180 @@
     0,
     0,
     8,
-    15,
+    16,
+    0,
+    8,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    18,
-    19,
-    17,
-    18,
-    17,
-    16,
-    15,
-    23,
-    19,
+    21,
     14,
-    12,
-    7,
+    17,
+    20,
+    20,
+    17,
     11,
-    11,
-    18,
-    6,
-    5,
-    10,
-    5,
-    9,
-    14,
     13,
-    23,
-    18
+    10,
+    9,
+    18,
+    11,
+    5,
+    7,
+    7,
+    6,
+    10,
+    15,
+    12,
+    25,
+    16,
+    20,
+    29,
+    16
   ],
   "messages_by_channel": {
     "@eRadarrua": 61,
-    "@kpszsu": 58,
-    "@mon1tor_ua": 9,
-    "@UkraineNow": 18,
+    "@kpszsu": 62,
+    "@mon1tor_ua": 12,
+    "@UkraineNow": 20,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 167
+    "@tass_agency": 169
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102975",
-    "kpszsu": "https://t.me/kpszsu/70477",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69431",
-    "UkraineNow": "https://t.me/UkraineNow/82972",
+    "eRadarrua": "https://t.me/eRadarrua/102993",
+    "kpszsu": "https://t.me/kpszsu/70492",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69434",
+    "UkraineNow": "https://t.me/UkraineNow/82978",
     "DeepStateUA": "https://t.me/DeepStateUA/23685",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31969",
-    "tass_agency": "https://t.me/tass_agency/387490"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31979",
+    "tass_agency": "https://t.me/tass_agency/387527"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/82973",
+    "eRadarrua": "https://t.me/eRadarrua/102969",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31971",
+    "kpszsu": "https://t.me/kpszsu/70489",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69418"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/82978",
+      "post_id": 82978,
+      "channel": "UkraineNow",
+      "ts": "2026-07-28T10:43:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/102991",
+      "post_id": 102991,
+      "channel": "eRadarrua",
+      "ts": "2026-07-28T10:38:02+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/B2Ri83AZrJjhBU1f3T0yHvblrfDrIINcxVTOeoOnx_uf5Dh3zAYyYAH7tm735KYPy0QIc9PqUlRHVuqOxO8EI_q31FichCJYMgcyJicLTp6buhVauTsDxAM68wszUnULeR-JE7x-LW4xlzNY3VtHYBAuMfbBKwhXpvYlNiZa5jHHbFBXDAGPK1t0IokOnW5ZQNyOQqQ_vGYDFuJ5xKWPhoWNxQSFhobQ5C7merDHht-umSVJQafgM6IDXuiA47h9H4EikzLRNxGkSD2U5Eir1XmTpPapTv3HGJEIK9tY_w8gU2uF9iqje4wwi213PDFf1UGTCvm5nP48xZg1eF2RRw.jpg",
+      "companion_text_id": 102992
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82977",
+      "post_id": 82977,
+      "channel": "UkraineNow",
+      "ts": "2026-07-28T10:21:40+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387521",
+      "post_id": 387521,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T10:20:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/102988",
+      "post_id": 102988,
+      "channel": "eRadarrua",
+      "ts": "2026-07-28T10:18:25+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/dba72sKEiMfdBYkfAXL55aRTgy-VYH7It5tTRa4-HtBlUYRt4KmNtyTda0IEw-YTAlxa5u5Dz_KSeHr_W89omZYn7miiu35JYcfF4BIiE0rIw0iI-TQaxJ9lT6DpuaenRDmJaxnPZhghWZzTHjZYllYd6sjyGvqacdSF5877S-l3Xr3LKxOonUKp8AdjlefXiIllqyifvTY93TyMEPPWvAiiY05LF59d79p3UIZ69hWMNH6zQJh_q56wZZseflFoYn1Rbed8T1XRhyTb4_lO55DD7I35zkd4jgvbbjYAoblGuYs9YNj2QHz_xEjIrXiePMTHYt5KycgJyRGTL-3h8A.jpg",
+      "companion_text_id": 102987
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387515",
+      "post_id": 387515,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T09:45:47+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31976",
+      "post_id": 31976,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-28T09:40:46+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82976",
+      "post_id": 82976,
+      "channel": "UkraineNow",
+      "ts": "2026-07-28T09:19:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387507",
+      "post_id": 387507,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T09:12:18+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387503",
+      "post_id": 387503,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T09:00:14+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/102985",
+      "post_id": 102985,
+      "channel": "eRadarrua",
+      "ts": "2026-07-28T08:59:19+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/oZCOv8uhhxz_M_dvhVSv7FWFOFDcimDL67S0leurQ4kI-DLUr0PQ6rmdtpOQaQ_hDME7_Kd9HKW1YDRZItOnT06jzI0ph2Ck0Usw7qlEAlZv2P23Uutux0Osng5_rH0ESKdVeiTPFy_buXxz7Qk0pnEYeQFeiPVxx52U4anrSHGA8i3wybv4v9gI4uMH1P9pmapBt7Ll2zyOM85L2Uc6DPSkfX9QiNHB8oNrhq_82b6hA7ul1K29Dn9toZCzK6vHPxKknb0A50a1JZ-cm_XXACncaawuvQIod-209KNENh3EY3chHfN-emgdvg792u9Pq9FZBX5x56yV3GzoH8VyAQ.jpg",
+      "companion_text_id": 102984
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/102984",
+      "post_id": 102984,
+      "channel": "eRadarrua",
+      "ts": "2026-07-28T08:56:39+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/btF0tIptxD5FaoOTP6T9jfK-B6Ky-v-PujpJYltMc1Tbo8uPxpZysRRuTsGn0rZj0_eTLoblMVtG28LiehmDC547FSiAWj9Orm6ctKchmuID-644LFdZJeZVnS4QH7ybnYR7dDomFMajPTRB1n77Pwce9Uu_Pp7xS0oUevm9atTHZrD86xOR0N6b9YDUsu2UxToA2tq65teNlYVi5-CL1Zg9NbGR5L3XqKssjfcTKtMEtjKk-Ad0plYJ7jPL2lq4LC5uyqUBI1-1xyn1RyarF9PaitMovB2mmNyKMazaDJRn2W-SM8WsRVMGymqYwpt_vBs6CqhNkvfxgt5bhQQURA.jpg",
+      "companion_text_id": 102985
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82975",
+      "post_id": 82975,
+      "channel": "UkraineNow",
+      "ts": "2026-07-28T08:42:11+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387500",
+      "post_id": 387500,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T08:37:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82974",
+      "post_id": 82974,
+      "channel": "UkraineNow",
+      "ts": "2026-07-28T08:24:42+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/31971",
+      "post_id": 31971,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-28T08:04:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387493",
+      "post_id": 387493,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T07:54:37+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/82973",
+      "post_id": 82973,
+      "channel": "UkraineNow",
+      "ts": "2026-07-28T07:43:25+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/102975",
       "post_id": 102975,
@@ -97,262 +219,132 @@
       "post_id": 31969,
       "channel": "ukr_leaks_eng",
       "ts": "2026-07-28T07:03:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387480",
-      "post_id": 387480,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T06:45:20+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387479",
-      "post_id": 387479,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T06:41:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387474",
-      "post_id": 387474,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T06:12:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31967",
-      "post_id": 31967,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-28T06:02:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102968",
-      "post_id": 102968,
-      "channel": "eRadarrua",
-      "ts": "2026-07-28T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/An5U_Ile0B84pgTfrGrYv1JwPE3BsOd9iVxQ2U8rWkVQ4SzxVhUTWswhb5teCi-G7Cd55CWoXREoNMdnG8D2p1uZc5PvebbWo8Gs0NcZAKjgQwM9Z_wFugQC2XQe14i02ngsTsY-NNgvT_6oi5GM9sMQOBCLYfHQK7lDwFJShiJfWUKu-12yjfoNlEkxGMWFWlJwXn3RCLtIJPT_2qP0lvyUj3TVKLumOSo_-lywAQJpt_TJeX8iqZjxz8W9ZWoDBfdZwMr_Qb_4BIIQWY35TjPfMaIymwUX3P4tZjCwPDBUjTZSMHqD1I9RotxryjssQBspBA8pQq80yyjJwpJNNw.jpg",
-      "companion_text_id": 102967
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102967",
-      "post_id": 102967,
-      "channel": "eRadarrua",
-      "ts": "2026-07-28T05:57:54+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/IKpELNcACKP3sgiR99apemqElDCVwwPSD_bzlUvTlVuO-j0FHZknoLgxy3E1OpnIZv6I9zRmu7XNj2H3bF4Or2EHtMg6hzDYzu-Nck-DW2pqdT6o2K4ZMk4Q4udEHapM1dmUIkS8kfODLNchhGGVU6d5SFnGG3arxOZCNbhMRTPu-IX1yEBJjkdoznTW-l_fOUS_yjSlIYhggX4iKGCciHm9rYd7yvZQjZ-mWjnq5Bb3aqWE7r0KztI2iAJN36NIl4mlhCzVnX2aRCeSeC4D8Fva9OiYemeOFBkRdaAJEv1g6hG913im3XxmlAcYLbw1mshIjF1Psx9Xu2RU6Ky7fg.jpg",
-      "companion_text_id": 102968
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31966",
-      "post_id": 31966,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-28T05:34:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82968",
-      "post_id": 82968,
-      "channel": "UkraineNow",
-      "ts": "2026-07-28T05:16:31+00:00"
-    },
-    {
-      "post_url": "https://t.me/kpszsu/70462",
-      "post_id": 70462,
-      "channel": "kpszsu",
-      "ts": "2026-07-28T05:02:30+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Fbn9zMDqUxUxAY89GYvJjjHnrR7hZPq3TIwBesJClpDYOaRR13REkJMjfPWT9HeNFjb3xAC75lRkCSKdmqz4ZJbToLHGzklMnmz7wa64-YOuJ_k2un3NoVOaXRZyqqvoZqkl3YQw7bej7trgTvrUObC_ybyqmg9yIEDgzyG4hLv3a1r1MVOuxJkhGkm1yj-YLdNvVgfwHGQGudlpCXZw8cKIJA92XQq6Oxy7SYa1Tf9v_urxiIRBC_gZTRWd9sVTfvIsAYj5fGbEvuDVwFMZ1Wq3JgA4yCqNT1AyEoXq3uCx8c_pjZsAAmxir1J_PTmfcGftmp3Vg2rHeLIuMqTGVw.jpg",
-      "companion_text_id": 70463
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387467",
-      "post_id": 387467,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T04:59:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387464",
-      "post_id": 387464,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T04:39:08+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387459",
-      "post_id": 387459,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T04:01:48+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387432",
-      "post_id": 387432,
-      "channel": "tass_agency",
-      "ts": "2026-07-27T23:07:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387429",
-      "post_id": 387429,
-      "channel": "tass_agency",
-      "ts": "2026-07-27T22:45:52+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102947",
-      "post_id": 102947,
-      "channel": "eRadarrua",
-      "ts": "2026-07-27T22:02:15+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/UTBQ7PvMfuDfaZ20FO0cEJKpWInTYywSr5Xtsh39EQVNoqIQQqm-l0SlkEA3BA-wruJG7JDjKaOLN4IaqHqgcZO_7w7ZJybx9oOb_VZDEiVXFba0IH-NYwYFyIAIqhz6SLGGNBKos8vLhj5bKwgcgjRrS0lVBNK6oSEHziiLMm1DEOmCnWQImaIgFF_rTgDqd2yTzT3BMGr7meJBbuAop-MgfGgIlLpE7lGld28N_tdTkwVAsV4kK5PbxRqr8MgoDeikyOYl9IKfHoDEoKsliCLn3bVO49DWAkNEpyc4CtIdbtbvk2b9mx4-94-NKs430Vy-zhFhjk0spkju5UzdlQ.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102918",
-      "post_id": 102918,
-      "channel": "eRadarrua",
-      "ts": "2026-07-27T21:20:14+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Ivg8DwY2TqIdGrVdn1Q9Yqsl8JDrRjkIJZbggmdky8aNmfn7-r5SqNdTXgMVaR80H_q8PLs4HUxehb4Be9SJrm51M0Hm7Kew_URtXnIdSCrcU2kUsNqv2c2oVi-RK54Ub0rrrbbkOJRqUWuzAkmn6e1c0-F-wViIzdnhfccs8Sq20jCo8YU4kpWLCeNMOQ4SX5rR1ygGqzmWIQuxvosbkkpLK7fcdu4z_N2UkBeSZM50Py3wi5ZS9TC7T0UR5ETBoThR4FyZobON0cIZkqw1CvNlonGq0GKgL03c0YwefP4Jyb37_-PGTvkmqibSBS8w4jJoMOprmPqphYrjGS6bUw.jpg",
-      "companion_text_id": 102917
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/102913",
-      "post_id": 102913,
-      "channel": "eRadarrua",
-      "ts": "2026-07-27T20:23:12+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/fx9yAwpLbfy_-aMjhhBoPZI4L1OzLs7tkbcg4gI9_zARZWYIhrEJV5y3QIA8gPs20GqEPs8hypb4vjEsw62ttQLEr5Ej2XNLiFVOKgUBXdBYHq1CU6LLncvgPziKfAZpJZeuedJSJ4Sn7M20lkOf6Z5N6YefLxJFr6INTON4ssAqw5hJ--BUPOtqTN4-D2zSj9KMoIddToQgi-HM4cO3rcbGzhIDqCeG8E9yh15GHaHH8XBrr0OprAgInlRFgdgOAhtiBAgwRb_9Rgiy3pVeySKtiaie7w8sZNVOHNde_nd8ufsTI7Qg3EbaEV_ZyXLBc2B6V8X2iNyhijzSoTimzw.jpg",
-      "companion_text_id": 102912
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/82967",
-      "post_id": 82967,
-      "channel": "UkraineNow",
-      "ts": "2026-07-27T19:51:17+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/102967": "data/media/eRadarrua_102967.jpg",
-    "eRadarrua/102968": "data/media/eRadarrua_102968.jpg",
     "eRadarrua/102975": "data/media/eRadarrua_102975.jpg",
     "eRadarrua/102973": "data/media/eRadarrua_102975.jpg",
+    "eRadarrua/102984": "data/media/eRadarrua_102984.jpg",
+    "eRadarrua/102985": "data/media/eRadarrua_102985.jpg",
+    "eRadarrua/102988": "data/media/eRadarrua_102988.jpg",
+    "eRadarrua/102987": "data/media/eRadarrua_102988.jpg",
+    "eRadarrua/102991": "data/media/eRadarrua_102991.jpg",
+    "eRadarrua/102992": "data/media/eRadarrua_102991.jpg",
     "eRadarrua/102947": "data/media/eRadarrua_102947.jpg",
+    "eRadarrua/102967": "data/media/eRadarrua_102967.jpg",
+    "eRadarrua/102968": "data/media/eRadarrua_102968.jpg",
     "eRadarrua/102913": "data/media/eRadarrua_102913.jpg",
     "eRadarrua/102912": "data/media/eRadarrua_102913.jpg",
     "eRadarrua/102918": "data/media/eRadarrua_102918.jpg",
     "eRadarrua/102917": "data/media/eRadarrua_102918.jpg",
-    "eRadarrua/102883": "data/media/eRadarrua_102883.jpg",
-    "eRadarrua/102882": "data/media/eRadarrua_102883.jpg",
     "eRadarrua/102895": "data/media/eRadarrua_102895.jpg",
     "eRadarrua/102897": "data/media/eRadarrua_102895.jpg",
-    "eRadarrua/102862": "data/media/eRadarrua_102862.jpg",
-    "eRadarrua/102861": "data/media/eRadarrua_102862.jpg",
     "eRadarrua/102867": "data/media/eRadarrua_102867.jpg",
-    "eRadarrua/102865": "data/media/eRadarrua_102867.jpg",
     "eRadarrua/102869": "data/media/eRadarrua_102869.jpg",
     "eRadarrua/102870": "data/media/eRadarrua_102869.jpg",
     "eRadarrua/102872": "data/media/eRadarrua_102872.jpg",
     "eRadarrua/102871": "data/media/eRadarrua_102872.jpg",
     "eRadarrua/102873": "data/media/eRadarrua_102873.jpg",
-    "eRadarrua/102854": "data/media/eRadarrua_102854.jpg",
-    "eRadarrua/102852": "data/media/eRadarrua_102854.jpg",
     "kpszsu/70462": "data/media/kpszsu_70462.jpg",
     "kpszsu/70463": "data/media/kpszsu_70462.jpg"
   },
-  "summary": "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast, while Ukrainian drones targeted facilities in Chekhov and Odessa. Putin announced a 27,000-person increase to Russian armed forces, bringing total to 2.426 million. Attacks continued across multiple fronts with reports of civilian casualties in both countries.",
+  "summary": "Ukrainian forces conducted strikes against strategic fuel storage in Udmurtia and Crimea, targeting the 'Prioritet' plant and logistics depots. Russia launched a massive drone attack involving over 390 UAVs targeting the Moscow region, resulting in residential damage in Chekhov. Significant logistical disruptions are reported in the Kharkiv region following the destruction of over 80 gas stations.",
   "key_points": [
-    "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast, Belgorod, and Krasnodar Krai (Source: tass_agency/387478)",
-    "A Ukrainian drone with video camera attacked an ATB store in Chernihiv, described as terrorism by local police (Source: UkraineNow/82952)",
-    "Putin signed an order increasing the Russian armed forces by 27,000 personnel effective August 1, bringing total to 2.426 million (Source: UkraineNow/82965)",
-    "Ukrainian drones damaged the Hydrostroyconstruction plant in Chekhov, Moscow oblast, which manufactures components for power plants and hydro technical facilities (Source: UkraineNow/82968)",
-    "A drone struck a bus in Shebekino, Belgorod region, killing 19 civilians according to Russian operational headquarters (Source: tass_agency/387480)",
-    "Ukrainian drones attacked the Chernihiv region ATB store, with the drone equipped with a video camera (Source: UkraineNow/82952)",
-    "Romania expelled a Russian diplomat after drones violated Romanian airspace three times in two days (Source: UkraineNow/82959)"
+    "Ukrainian forces struck the 'Prioritet' plant in Udmurtia, a strategic facility used for long-term storage of fuel and petroleum products (Source: @UkraineNow/82973).",
+    "Over 390 drones were launched toward the Moscow region, causing residential damage in Chekhov (Source: @eRadarrua/102969).",
+    "Russian forces destroyed more than 80 gas stations in the Kharkiv region, leaving the Kharkiv–Poltava route without refueling stations (Source: @UkraineNow/82977).",
+    "A 'Forpost-R' reconnaissance UAV, capable of carrying guided aerial bombs, was shot down over the Kursk region by a 'Chaklun-KM' interceptor (Source: @UkraineNow/82960).",
+    "Ukrainian forces targeted fuel and logistics depots in the Ichki area of occupied Crimea (Source: @UkraineNow/82973).",
+    "A Russian drone warehouse in the Chernovopopivka area of the Luhansk region was struck (Source: @UkraineNow/82973).",
+    "More than 81 drones were intercepted approaching Moscow during the night (Source: @ukr_leaks_eng/31971).",
+    "A Russian drone warehouse in the Chernovopopivka area of the Luhansk region was struck (Source: @UkraineNow/82973)."
   ],
-  "sentiment": "escalating",
-  "intensity": 8,
+  "sentiment": "volatile",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast, Belgorod, and Krasnodar Krai. Putin announced a 27,000-person increase to Russian armed forces, bringing total to 2.426 million. Attacks continued across multiple fronts with reports of civilian casualties in both countries.",
+    "executive_summary": "Ukrainian forces conducted strikes against strategic fuel storage in Udmurtia and Crimea, targeting the 'Prioritet' plant and logistics depots. Russia launched a massive drone attack involving over 390 UAVs targeting the Moscow region, resulting in residential damage in Chekhov. Significant logistical disruptions are reported in the Kharkiv region following the destruction of over 80 gas stations.",
     "ukraine": {
       "points": [
-        "Ukrainian drones with video cameras attacked an ATB store in Chernihiv, with local police stating this was terrorism rather than military operations (Source: UkraineNow/82952)",
-        "Zelensky traveled to the UK to meet with new Prime Minister Andy Burnham, who is expected to announce transfer of intellectual property rights for the Stone Cloak electronic warfare system that can jam Russian air defense systems (Source: UkraineNow/82954)",
-        "Zelensky traveled to the US to meet with Donald Trump, with meetings scheduled with Trump and his team regarding anti-ballistic capabilities and strategic cooperation (Source: UkraineNow/82971)",
-        "Ukrainian drones attacked multiple locations including the Chernihiv region ATB store, with one drone equipped with a video camera (Source: UkraineNow/82952)",
-        "Ukrainian drones targeted facilities in Chekhov, Moscow oblast, including the Hydrostroyconstruction plant that manufactures components for power plants and hydro technical facilities (Source: UkraineNow/82968)"
+        "Ukrainian forces targeted the 'Prioritet' plant in Udmurtia, a strategic facility used for long-term storage of fuel and petroleum products (Source: @UkraineNow/82973).",
+        "Ukrainian forces struck logistics and fuel depots in the Ichki area within occupied Crimea (Source: @UkraineNow/82973).",
+        "A Russian drone warehouse located in the Chernovopopivka area of the Luhansk region was targeted (Source: @UkraineNow/82973).",
+        "Ukrainian forces conducted a strike on a plant in the Dnepropetrovsk region, resulting in a strong ammonia smell (Source: @ukr_leaks_eng/31954)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast, Belgorod, and Krasnodar Krai, with over 390 drones reported flying toward Moscow region between 20:30 and 06:30 (Source: tass_agency/387478)",
-        "Putin signed an order increasing the Russian armed forces by 27,000 personnel effective August 1, bringing total to 2.426 million (Source: UkraineNow/82965)",
-        "A drone struck a bus in Shebekino, Belgorod region, killing 19 civilians according to Russian operational headquarters (Source: tass_agency/387480)",
-        "Russian forces reported destroying 81 drones on approach to Moscow, with additional dozens destroyed over Podmoskovye cities (Source: tass_agency/387478)",
-        "Russian forces reported damaging civilian infrastructure including a residential area near Sumy with KAB bombs, resulting in 6 injuries including 3 children (Source: eRadarrua/102975)"
+        "Over 390 drones were launched toward the Moscow region, causing fires in residential buildings in Chekhov (Source: @eRadarrua/102969).",
+        "More than 81 drones were shot down as they approached Moscow during the night (Source: @ukr_leaks_eng/31971).",
+        "Dozens of drones were spotted over Domodedovo, Podolsk, Ramenskoye, and Kolomna (Source: @ukr_leaks_eng/31971).",
+        "Russian forces launched strikes using 'Geran-4' loitering munitions (Source: @ukr_leaks_eng/31971)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian drones with video cameras attacked the Chernihiv region ATB store, described as terrorism by local police (Source: UkraineNow/82952)",
-        "Ukrainian drones targeted the Chernihiv region ATB store, with one drone equipped with a video camera (Source: UkraineNow/82952)",
-        "Ukrainian drones attacked multiple locations including the Chernihiv region ATB store (Source: UkraineNow/82952)",
-        "Ukrainian drones targeted facilities in Chekhov, Moscow oblast, including the Hydrostroyconstruction plant (Source: UkraineNow/82968)",
-        "Ukrainian drones attacked the Chernihiv region ATB store, with one drone equipped with a video camera (Source: UkraineNow/82952)"
+        "Over 80 gas stations were destroyed in the Kharkiv region, leaving the Kharkiv–Poltava route without any refueling stations (Source: @UkraineNow/82977).",
+        "A drone warehouse in the Chernovopopivka area of the Luhansk region was struck (Source: @UkraineNow/82973).",
+        "UAVs were reported in the central and northern parts of the Kharkiv region, moving westward (Source: @kpszsu/70489)."
       ]
     },
     "northern_front": {
       "points": [
-        "Ukrainian drones attacked multiple locations including the Chernihiv region ATB store (Source: UkraineNow/82952)",
-        "Ukrainian drones targeted facilities in Chekhov, Moscow oblast, including the Hydrostroyconstruction plant (Source: UkraineNow/82968)",
-        "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast (Source: tass_agency/387478)",
-        "A drone struck a bus in Shebekino, Belgorod region, killing 19 civilians (Source: tass_agency/387480)",
-        "Russian forces reported damaging civilian infrastructure including a residential area near Sumy with KAB bombs (Source: eRadarrua/102975)"
+        "A 'Forpost-R' reconnaissance UAV, capable of carrying guided aerial bombs, was shot down over the Kursk region (Source: @UkraineNow/82960).",
+        "UAVs were reported in the Chernihiv region, specifically near Korop from Koryukivka (Source: @eRadarrua/102972)."
       ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian drones attacked multiple locations including the Chernihiv region ATB store (Source: UkraineNow/82952)",
-        "Ukrainian drones targeted facilities in Chekhov, Moscow oblast, including the Hydrostroyconstruction plant (Source: UkraineNow/82968)",
-        "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast (Source: tass_agency/387478)",
-        "A drone struck a bus in Shebekino, Belgorod region, killing 19 civilians (Source: tass_agency/387480)",
-        "Russian forces reported damaging civilian infrastructure including a residential area near Sumy with KAB bombs (Source: eRadarrua/102975)"
+        "Two reactive UAVs were spotted over the Kherson TOT heading toward Odesa (Source: @eRadarrua/102972).",
+        "Reactive UAVs were reported heading toward Odesa from the Black Sea (Source: @kpszsu/70481).",
+        "UAVs were reported in the Zaporizhzhia region from the southwest and south (Source: @kpszsu/70455)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast, Belgorod, and Krasnodar Krai (Source: tass_agency/387478)",
-        "A Ukrainian drone with video camera attacked an ATB store in Chernihiv (Source: UkraineNow/82952)",
-        "Ukrainian drones targeted facilities in Chekhov, Moscow oblast, including the Hydrostroyconstruction plant (Source: UkraineNow/82968)",
-        "Russian forces reported destroying 81 drones on approach to Moscow (Source: tass_agency/387478)",
-        "Ukrainian drones attacked multiple locations including the Chernihiv region ATB store (Source: UkraineNow/82952)"
+        "A 'Forpost-R' reconnaissance UAV was intercepted by a Ukrainian 'Chaklun-KM' interceptor over the Kursk region (Source: @UkraineNow/82960).",
+        "Su-34/35 aircraft conducted launch maneuvers near Crimea, posing a threat of cruise missile attacks to Odesa (Source: @mon1tor_ua/69418).",
+        "Three Russian drones were shot down by the Romanian army after violating its airspace (Source: @UkraineNow/82959)."
       ]
     },
     "key_developments": [
-      "Russian forces reported destroying 356 Ukrainian drones over multiple regions including Moscow oblast, Belgorod, and Krasnodar Krai, with over 390 drones reported flying toward Moscow region between 20:30 and 06:30 (Source: tass_agency/387478)",
-      "A Ukrainian drone with video camera attacked an ATB store in Chernihiv, with local police stating this was terrorism rather than military operations (Source: UkraineNow/82952)",
-      "Putin signed an order increasing the Russian armed forces by 27,000 personnel effective August 1, bringing total to 2.426 million (Source: UkraineNow/82965)",
-      "Ukrainian drones damaged the Hydrostroyconstruction plant in Chekhov, Moscow oblast, which manufactures components for power plants and hydro technical facilities (Source: UkraineNow/82968)",
-      "A drone struck a bus in Shebekino, Belgorod region, killing 19 civilians according to Russian operational headquarters (Source: tass_agency/387480)",
-      "Romania expelled a Russian diplomat after drones violated Romanian airspace three times in two days (Source: UkraineNow/82959)",
-      "Ukrainian drones attacked multiple locations including the Chernihiv region ATB store, with one drone equipped with a video camera (Source: UkraineNow/82952)"
+      "Ukrainian forces struck the 'Prioritet' plant in Udmurtia, a strategic facility used for long-term storage of fuel and petroleum products (Source: @UkraineNow/82973).",
+      "Russia launched a massive drone attack involving over 390 UAVs targeting the Moscow region, causing residential damage in Chekhov (Source: @eRadarrua/102969).",
+      "Russian forces destroyed over 80 gas stations in the Kharkiv region, leaving the Kharkiv–Poltava route without refueling stations (Source: @UkraineNow/82977).",
+      "A 'Forpost-R' reconnaissance UAV, capable of carrying guided aerial bombs, was shot down over the Kursk region (Source: @UkraineNow/82960).",
+      "Ukrainian forces targeted fuel and logistics depots in the Ichki area within occupied Crimea (Source: @UkraineNow/82973).",
+      "A Russian drone warehouse in the Chernovopopivka area of the Luhansk region was targeted (Source: @UkraineNow/82973).",
+      "More than 81 drones were intercepted approaching Moscow during the night (Source: @ukr_leaks_eng/31971)."
     ],
-    "threat_assessment": "Russian forces are escalating their response to Ukrainian drone attacks with reported destruction of over 350 drones across multiple regions, indicating increased air defense activity. The reported killing of 19 civilians in Shebekino suggests potential escalation in targeting of civilian infrastructure. Putin's recent order to increase military personnel by 27,000 indicates Russia is preparing for intensified conflict. The use of KAB bombs against residential areas near Sumy demonstrates targeting of civilian populations. These developments suggest both sides are preparing for increased military operations.",
-    "regional_response": "Romania took diplomatic action by expelling a Russian diplomat after repeated airspace violations, demonstrating European concern over escalating drone activity. The UK government is expected to transfer advanced electronic warfare technology to Ukraine, enhancing their ability to counter Russian air defenses. The US is engaging with both Ukrainian and Russian leadership on strategic cooperation and anti-ballistic capabilities. Poland has reported increased incidents of violence against Ukrainian citizens, with the Ukrainian General Consulate in Wroclaw demanding investigation of attacks on Ukrainian couples. These responses indicate growing international engagement in the conflict.",
-    "intelligence_notes": "The appearance of video-equipped drones in civilian attacks suggests potential escalation in terrorist tactics beyond traditional military targets. Russian reports of 356 drone interceptions require verification through independent sources to assess actual attack volume. The targeting of civilian infrastructure including ATB stores and residential areas indicates possible shift toward broader population targeting. Putin's personnel increase may signal preparation for major offensive operations or compensation for ongoing casualties. The involvement of Iranian drone technology continues to be confirmed through Zelensky's statements about Iranian vessel strikes."
+    "threat_assessment": "The operational environment is characterized by high-intensity UAV warfare targeting both civilian infrastructure and strategic logistics. Russia's massive drone strikes on Moscow indicate a continued capability to project power deep into Russian territory. Ukrainian strikes on fuel facilities in Udmurtia and Crimea demonstrate an ability to target strategic depth and supply lines.",
+    "regional_response": "Romania has responded to airspace violations by expelling a Russian diplomat and summoning its ambassador for consultations. The use of F-16 fighters for interception in Romania highlights increased NATO-aligned defensive measures in the region.",
+    "intelligence_notes": "The destruction of over 80 gas stations in the Kharkiv region represents a significant logistical blow to Ukrainian mobility along the Kharkiv–Poltava route. The use of 'Forpost-R' UAVs with laser-guided bombs indicates a sophisticated aerial threat in the Kursk direction."
   },
   "missiles": 0,
   "drones": 131,
   "kpszsu_timeline": [
-    4,
-    2,
-    1,
-    2,
-    2,
-    3,
-    1,
-    7,
-    1,
-    1,
-    2,
-    0,
     2,
     3,
     2,
-    0,
-    1,
-    2,
-    0,
+    3,
     5,
-    6,
+    1,
+    1,
+    2,
+    0,
     3,
+    4,
+    0,
+    0,
+    2,
+    1,
+    1,
+    4,
+    7,
+    2,
+    4,
+    4,
     3,
-    5
+    7,
+    1
   ]
 }
