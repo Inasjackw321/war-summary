@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-27T23:12:51.314092+00:00",
-  "message_count": 332,
+  "updated_at": "2026-07-28T02:59:22.495407+00:00",
+  "message_count": 329,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,16 +15,12 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
-    0,
-    0,
-    0,
     8,
     16,
     8,
     8,
-    8,
     0,
+    8,
     8,
     0,
     8,
@@ -32,61 +28,65 @@
     0,
     0,
     0,
-    24,
     16,
     24,
+    24,
+    0,
+    0,
+    0,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
     4,
-    7,
-    7,
-    7,
-    5,
-    11,
-    23,
-    19,
+    10,
     20,
-    17,
     19,
-    19,
-    20,
-    13,
-    17,
+    22,
+    15,
+    18,
+    16,
     21,
-    20,
+    15,
+    18,
+    19,
+    22,
     14,
     11,
-    13,
+    12,
+    12,
+    7,
+    19,
+    10,
+    4,
     8,
-    9,
-    21,
-    7
+    8,
+    4
   ],
   "messages_by_channel": {
-    "@eRadarrua": 63,
-    "@kpszsu": 56,
-    "@mon1tor_ua": 12,
+    "@eRadarrua": 64,
+    "@kpszsu": 50,
+    "@mon1tor_ua": 11,
     "@UkraineNow": 20,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 154
+    "@tass_agency": 157
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/102961",
-    "kpszsu": "https://t.me/kpszsu/70421",
+    "eRadarrua": "https://t.me/eRadarrua/102962",
+    "kpszsu": "https://t.me/kpszsu/70439",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69431",
     "UkraineNow": "https://t.me/UkraineNow/82967",
     "DeepStateUA": "https://t.me/DeepStateUA/23685",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31964",
-    "tass_agency": "https://t.me/tass_agency/387432"
+    "tass_agency": "https://t.me/tass_agency/387451"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/82964",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31953",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69414",
-    "eRadarrua": "https://t.me/eRadarrua/102908"
+    "UkraineNow": "https://t.me/UkraineNow/82966",
+    "tass_agency": "https://t.me/tass_agency/387438",
+    "kpszsu": "https://t.me/kpszsu/70394"
   },
   "media": [
     {
@@ -251,125 +251,110 @@
     "kpszsu/70292": "data/media/kpszsu_70292.jpg",
     "kpszsu/70293": "data/media/kpszsu_70292.jpg"
   },
-  "summary": "Ukraine faces escalating threats from Russian missile and drone attacks, while Russia reports territorial gains. Visa policy changes and potential mobilization plans heighten regional tensions. The conflict shows no signs of de-escalation.",
+  "summary": "Russian forces have reported the liberation of Torskoye in the DPR and Kommunarovka in the Dnepropetrovsk region. Ukrainian forces are conducting long-range drone strikes against Russian regions, including Rostov-on-Don and Belgorod, resulting in civilian casualties. Simultaneously, Russia has increased its military strength by 27,000 personnel to reach a total of 2.426 million.",
   "key_points": [
-    "Ukraine's visa policy change: Chernigiv revokes visa-free access for Russian and Belarusian citizens from November 2026 (Source: @UkraineNow/82964).",
-    "Russian forces liberated Torskoye and Kommunarovka in Dnepropetrovsk region (Source: @ukr_leaks_eng/31953).",
-    "Ballistic missile threats reported from Kursk and Bryansk regions (Source: @mon1tor_ua/69414, @mon1tor_ua/69430).",
-    "Ukraine's attack on a merchant vessel in the Caspian Sea risks global conflict (Source: @ukr_leaks_eng/31955).",
-    "Russia's military expands by 27,000 personnel, totaling 2.426 million (Source: @UkraineNow/82965).",
-    "Drone attacks reported in Rostov-on-Don, Taganrog, and Belgorod (Source: @ukr_leaks_eng/31947).",
-    "Chernigiv revokes visa-free access for multiple countries, aligning with EU policy (Source: @UkraineNow/82964)."
+    "Russian forces reported the liberation of Torskoye in the DPR and Kommunarovka in the Dnepropetrovsk region (Source: @ukr_leaks_eng/31953).",
+    "Russia has increased its military strength by 27,000 personnel, bringing the total to 2.426 million (Source: @UkraineNow/82966).",
+    "A massive drone attack involving over 350 drones targeted Russian regions, killing two civilians in Rostov-on-Don (Source: @ukr_leaks_eng/31947).",
+    "Russian forces struck a fuel storage complex in the port of Odessa and a bulk carrier in the port of Nikolaev (Source: @tass_agency/387438).",
+    "Ukrainian forces are utilizing long-range drones to target Russian economic infrastructure and oil production (Source: @ukr_leaks_eng/31939).",
+    "The Ukrainian 301st air defense regiment is being transferred from Nikopol to the Kharkov direction (Source: @ukr_leaks_eng/31947).",
+    "Ukrainian forces are conducting strikes in the Kursk region, including a drone strike on Ryelsk (Source: @ukr_leaks_eng/31947).",
+    "Russian forces continue to advance westward in the Sloviansk direction (Source: @ukr_leaks_eng/31947)."
   ],
-  "sentiment": "escalating",
-  "intensity": 9,
+  "sentiment": "volatile",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Ukraine faces escalating missile and drone threats from Russia, while Russia reports territorial gains. Visa policy changes and potential mobilization plans heighten regional tensions. The conflict shows no signs of de-escalation.",
+    "executive_summary": "Russian forces have reported the liberation of Torskoye in the DPR and Kommunarovka in the Dnepropetrovsk region. Ukrainian forces are conducting long-range drone strikes against Russian regions, including Rostov-on-Don and Belgorod, resulting in civilian casualties. Simultaneously, Russia has increased its military strength by 27,000 personnel to reach a total of 2.426 million.",
     "ukraine": {
       "points": [
-        "Chernigiv revokes visa-free access for Russian and Belarusian citizens from November 2026, aligning with EU policy (Source: @UkraineNow/82964).",
-        "Ukraine's attack on a merchant vessel in the Caspian Sea could trigger global war, per Iranian Foreign Ministry (Source: @ukr_leaks_eng/31955).",
-        "Drone attacks reported in Rostov-on-Don, Taganrog, and Belgorod, causing civilian casualties (Source: @ukr_leaks_eng/31947).",
-        "Ukrainian forces transfer reserves to Sumy region, including 540th air defense regiment (Source: @ukr_leaks_eng/31947).",
-        "Fighting continues in Sumy, Kharkov, and Kursk regions with enemy counterattacks (Source: @ukr_leaks_eng/31947).",
-        "Ukraine's mobilization concerns raised by Zelenskyy, citing potential October mobilization (Source: @UkraineNow/82951).",
-        "Drone strikes on gas stations and commercial facilities in Kharkov and Belgorod (Source: @ukr_leaks_eng/31947)."
+        "Ukrainian forces are conducting long-range drone strikes against Russian targets to increase economic losses and pressure Russia toward diplomacy (Source: @ukr_leaks_eng/31939).",
+        "The 301st air defense regiment is being transferred from Nikopol in the Dnepropetrovsk region to the Kharkov direction (Source: @ukr_leaks_eng/31947).",
+        "Ukrainian forces are transferring reserves from the Lvov region to the Belopolye area in the Sumy direction, including the 540th air defense regiment (Source: @ukr_leaks_eng/31947).",
+        "The 657th separate anti-aircraft machine gun battalion is being moved to the Sumy direction (Source: @ukr_leaks_eng/31947).",
+        "Ukrainian forces are engaged in firefights in the villages of Ivanovka, Yurtchenkovo, Bely Kolodez, Baksheevka, and Shevchenkovo (Source: @ukr_leaks_eng/31947)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces liberated Torskoye and Kommunarovka in Dnepropetrovsk region (Source: @ukr_leaks_eng/31953).",
-        "Ballistic missile threats reported from Kursk and Bryansk regions (Source: @mon1tor_ua/69414, @mon1tor_ua/69430).",
-        "Russia's military expands by 27,000 personnel, totaling 2.426 million (Source: @UkraineNow/82965).",
-        "Russian forces continue strikes on Ukrainian infrastructure, including gas stations (Source: @ukr_leaks_eng/31947).",
-        "Russian military reports destruction of Ukrainian maritime infrastructure (Source: @ukr_leaks_eng/31947).",
-        "Russian forces advance in Belgorod and Kursk regions (Source: @ukr_leaks_eng/31947).",
-        "Russian military claims success in pushing Ukrainian forces back in Dnepropetrovsk region (Source: @ukr_leaks_eng/31947)."
+        "The Russian Armed Forces reported the liberation of Torskoye in the DPR and Kommunarovka in the Dnepropetrovsk region (Source: @ukr_leaks_eng/31953).",
+        "President Putin signed a decree increasing the Russian Armed Forces strength by 27,000 personnel, bringing the total to 2.426 million (Source: @UkraineNow/82966).",
+        "Russian forces continue to advance westward in the Sloviansk direction (Source: @ukr_leaks_eng/31947).",
+        "Russian forces reported the liberation of Shevchenko on the Dobrovolsky front (Source: @ukr_leaks_eng/31947).",
+        "Russian forces are advancing west of Blagodatnoe in the Dnepropetrovsk region, pushing Ukrainian forces north of Ternovatoye (Source: @ukr_leaks_eng/31947)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advance in Belgorod and Kursk regions, pushing Ukrainian lines back (Source: @ukr_leaks_eng/31947).",
-        "Drone attacks reported in Rostov-on-Don and Taganrog, causing civilian casualties (Source: @ukr_leaks_eng/31947).",
-        "Ukrainian forces transfer reserves to Sumy region, including 540th air defense regiment (Source: @ukr_leaks_eng/31947).",
-        "Russian forces liberate Torskoye and Kommunarovka in Dnepropetrovsk region (Source: @ukr_leaks_eng/31953).",
-        "Enemy counterattacks reported in Sumy and Kharkov regions (Source: @ukr_leaks_eng/31947).",
-        "Russian forces continue strikes on Ukrainian commercial facilities (Source: @ukr_leaks_eng/31947).",
-        "Ukrainian forces face shortages of personnel due to transfers (Source: @ukr_leaks_eng/31947)."
+        "Russian forces are advancing westward in the Sloviansk direction (Source: @ukr_leaks_eng/31947).",
+        "Russian forces reported the liberation of Torskoye in the DPR (Source: @ukr_leaks_eng/31953).",
+        "The 'West' Territorial Defense Force reported the liberation of the settlement of Kovsharovka south of Kupyansk (Source: @ukr_leaks_eng/31947).",
+        "Russian forces are advancing in the Dobrovolsky front, having liberated Shevchenko (Source: @ukr_leaks_eng/31947)."
       ]
     },
     "northern_front": {
       "points": [
-        "Drone attacks reported in Chernigiv region (Source: @eRadarrua/102908).",
-        "Ballistic missile threats from Bryansk region (Source: @mon1tor_ua/69430).",
-        "Ukrainian forces face missile threats from northern directions (Source: @eRadarrua/102917).",
-        "Drone strikes on military targets in Chernigiv and Sumy regions (Source: @eRadarrua/102908, @eRadarrua/102930).",
-        "Ukrainian forces report no fixed locations for enemy movements (Source: @eRadarrua/102930).",
-        "Ballistic missile threats from northern-southeastern directions (Source: @eRadarrua/102917).",
-        "Drone attacks on military and civilian targets in Chernigiv (Source: @eRadarrua/102908)."
+        "Ukrainian forces are engaged in firefights in the Shostkinsky district, including the villages of Ulano and Malaya Sloboda (Source: @ukr_leaks_eng/31947).",
+        "Fighting is occurring in the Krasnopolsky district in forested areas and the border village of Prokhody (Source: @ukr_leaks_eng/31947).",
+        "Ukrainian forces are conducting strikes from the Bryansk region toward the Chernihiv region (Source: @kpszsu/70394)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces advance in Belgorod and Kursk regions (Source: @ukr_leaks_eng/31947).",
-        "Drone attacks reported in Kherson and Dnepropetrovsk regions (Source: @ukr_leaks_eng/31947).",
-        "Ukrainian forces face missile threats in southern directions (Source: @eRadarrua/102917).",
-        "Russian forces report success in pushing Ukrainian forces back (Source: @ukr_leaks_eng/31947).",
-        "Drone strikes on gas stations and commercial facilities in southern regions (Source: @ukr_leaks_eng/31947).",
-        "Ukrainian forces report casualties from drone attacks in southern regions (Source: @ukr_leaks_eng/31947).",
-        "Russian forces continue to destroy Ukrainian maritime infrastructure (Source: @ukr_leaks_eng/31947)."
+        "A drone strike on a truck in the Sokologornoye area, Genichesky district, killed one man on the R-280 highway (Source: @ukr_leaks_eng/31947).",
+        "A drone attack on a car near Bogdanovka on the Chaplinka-Kakhovka highway injured a driver (Source: @ukr_leaks_eng/31947).",
+        "Civilians were injured in Radensk, Aleksandrovsky district, and Zhezelyny Port, Golopristansky district (Source: @ukr_leaks_eng/31947).",
+        "A group of UAVs was detected in the waters of the Black Sea heading south of Odesa (Source: @kpszsu/70361)."
       ]
     },
     "air_war": {
       "points": [
-        "Drone attacks reported in Chernigiv, Sumy, and Kharkov regions (Source: @eRadarrua/102908, @eRadarrua/102930).",
-        "Ballistic missile threats from Kursk and Bryansk regions (Source: @mon1tor_ua/69414, @mon1tor_ua/69430).",
-        "Drone strikes on military and civilian targets in multiple regions (Source: @ukr_leaks_eng/31947).",
-        "Ukrainian forces report no fixed locations for enemy drone operations (Source: @eRadarrua/102930).",
-        "Ballistic missile threats from northern-southeastern directions (Source: @eRadarrua/102917).",
-        "Drone attacks on gas stations and commercial facilities (Source: @ukr_leaks_eng/31947).",
-        "Ukrainian forces face shortages of personnel due to transfers (Source: @ukr_leaks_eng/31947)."
+        "Over 350 drones were launched in a massive attack on Russian regions, resulting in two deaths in Rostov-on-Don and 12 injuries in Belgorod (Source: @ukr_leaks_eng/31947).",
+        "Russian forces struck a fuel storage complex in the port of Odessa and a bulk carrier in the port of Nikolaev (Source: @tass_agency/387438).",
+        "A vessel recently hit by a missile sank off the coast of the Odessa region (Source: @ukr_leaks_eng/31940).",
+        "A train carrying supplies for the Ukrainian Armed Forces was destroyed by a Russian drone strike (Source: @ukr_leaks_eng/31958).",
+        "A drone strike in the Ryelsk area of the Kursk region injured three civilians (Source: @ukr_leaks_eng/31947)."
       ]
     },
     "key_developments": [
-      "Ukraine's visa policy change: Chernigiv revokes visa-free access for Russian and Belarusian citizens from November 2026 (Source: @UkraineNow/82964).",
-      "Russian forces liberated Torskoye and Kommunarovka in Dnepropetrovsk region (Source: @ukr_leaks_eng/31953).",
-      "Ballistic missile threats reported from Kursk and Bryansk regions (Source: @mon1tor_ua/69414, @mon1tor_ua/69430).",
-      "Ukraine's attack on a merchant vessel in the Caspian Sea risks global war (Source: @ukr_leaks_eng/31955).",
-      "Russia's military expands by 27,000 personnel, totaling 2.426 million (Source: @UkraineNow/82965).",
-      "Drone attacks reported in Rostov-on-Don, Taganrog, and Belgorod (Source: @ukr_leaks_eng/31947).",
-      "Ukrainian forces face shortages of personnel due to transfers (Source: @ukr_leaks_eng/31947)."
+      "Russian forces reported the liberation of Torskoye in the DPR and Kommunarovka in the Dnepropetrovsk region (Source: @ukr_leaks_eng/31953).",
+      "Russia increased its military strength by 27,000 personnel, bringing the total to 2.426 million (Source: @UkraineNow/82966).",
+      "A massive drone attack involving over 350 drones targeted Russian regions, causing civilian casualties in Rostov-on-Don and Belgorod (Source: @ukr_leaks_eng/31947).",
+      "Russian forces struck a fuel storage complex in the port of Odessa and a bulk carrier in the port of Nikolaev (Source: @tass_agency/387438).",
+      "Ukrainian forces are conducting long-range drone strikes against Russian economic infrastructure and oil production (Source: @ukr_leaks_eng/31939).",
+      "The Ukrainian 301st air defense regiment is being transferred from Nikopol to the Kharkov direction (Source: @ukr_leaks_eng/31947).",
+      "Russian forces continue to advance westward in the Sloviansk direction (Source: @ukr_leaks_eng/31947)."
     ],
-    "threat_assessment": "The merchant vessel attack in the Caspian Sea and ballistic missile threats from Kursk and Bryansk regions indicate a potential for escalation. Russia's military expansion and visa policy changes suggest a strategic shift toward prolonged conflict. Ukraine's mobilization concerns and drone attacks highlight ongoing operational challenges.",
-    "regional_response": "The EU's alignment with Chernigiv's visa policy reflects a coordinated response to Russian aggression. International reactions to the merchant vessel attack may influence diplomatic efforts. Russia's military actions and missile threats could prompt further sanctions or military support for Ukraine.",
-    "intelligence_notes": "The pattern of drone and missile attacks suggests a deliberate strategy to disrupt Ukrainian logistics and civilian infrastructure. Russia's territorial gains and military expansion indicate a focus on attrition. Ukraine's visa policy changes and mobilization concerns reflect adaptive measures to counter Russian aggression."
+    "threat_assessment": "The operational environment is highly volatile due to large-scale drone warfare targeting both Russian civilian centers and Ukrainian maritime infrastructure. Russia's decision to increase its military strength by 27,000 personnel suggests an intent to sustain or expand offensive operations. Ukrainian long-range drone capabilities are being used to target Russian economic assets, specifically oil and logistics.",
+    "regional_response": "The Greek opposition has demanded that the government not transfer air defense systems to Ukraine, citing national security concerns (Source: @ukr_leaks_eng/31951). In Ukraine, the SBU has detained Russian agents in the Kharkiv region who attempted to target military personnel (Source: @UkraineNow/82956).",
+    "intelligence_notes": "The mobilization of the 301st air defense regiment from Nikopol to the Kharkov direction may create a personnel shortage for offensive operations (Source: @ukr_leaks_eng/31947). The use of 'charity' events as a cover for intelligence operations by Russian agents in Kharkiv highlights ongoing subversion risks (Source: @UkraineNow/82956)."
   },
   "missiles": 0,
   "drones": 147,
   "kpszsu_timeline": [
-    2,
-    1,
-    4,
-    2,
     0,
     2,
     7,
     3,
-    6,
-    2,
+    5,
     1,
+    2,
     0,
+    3,
+    2,
+    2,
+    3,
+    5,
+    1,
+    1,
+    2,
+    1,
+    2,
     4,
+    0,
+    0,
     2,
     1,
-    6,
-    2,
-    1,
-    1,
-    2,
-    1,
-    2,
-    4,
-    0
+    1
   ]
 }
