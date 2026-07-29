@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-28T23:10:19.645310+00:00",
-  "message_count": 307,
+  "updated_at": "2026-07-29T03:07:40.249352+00:00",
+  "message_count": 330,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,10 +15,6 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
-    0,
-    0,
-    0,
     33,
     16,
     0,
@@ -34,64 +30,80 @@
     0,
     33,
     16,
+    0,
+    0,
+    0,
+    0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    5,
-    8,
-    6,
-    5,
-    14,
-    14,
-    16,
-    23,
-    12,
-    28,
-    23,
-    16,
+    15,
+    13,
     17,
+    22,
+    12,
+    27,
+    24,
+    16,
+    18,
     11,
-    14,
+    13,
+    15,
     15,
     14,
-    14,
     13,
     13,
-    7,
     5,
+    6,
     8,
-    6
+    6,
+    8,
+    12,
+    12,
+    14
   ],
   "messages_by_channel": {
-    "@eRadarrua": 32,
-    "@kpszsu": 54,
+    "@eRadarrua": 33,
+    "@kpszsu": 63,
     "@mon1tor_ua": 16,
     "@UkraineNow": 24,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 152
+    "@tass_agency": 165
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/103013",
-    "kpszsu": "https://t.me/kpszsu/70540",
+    "eRadarrua": "https://t.me/eRadarrua/103015",
+    "kpszsu": "https://t.me/kpszsu/70564",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69448",
     "UkraineNow": "https://t.me/UkraineNow/82993",
     "DeepStateUA": "https://t.me/DeepStateUA/23689",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31996",
-    "tass_agency": "https://t.me/tass_agency/387603"
+    "tass_agency": "https://t.me/tass_agency/387635"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng",
-    "eRadarrua": "https://t.me/eRadarrua/102991",
-    "UkraineNow": "https://t.me/UkraineNow/82983",
+    "UkraineNow": "https://t.me/UkraineNow/82986",
+    "kpszsu": "https://t.me/kpszsu/70554",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31983",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69447",
+    "tass_agency": "https://t.me/tass_agency/387635",
     "DeepStateUA": "https://t.me/DeepStateUA/23686",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69448",
-    "tass_agency": "https://t.me/tass_agency/387568",
-    "kpszsu": "https://t.me/kpszsu/70483"
+    "eRadarrua": "https://t.me/eRadarrua/103015"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/387620",
+      "post_id": 387620,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T01:10:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387604",
+      "post_id": 387604,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T23:17:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/387602",
       "post_id": 387602,
@@ -183,12 +195,6 @@
       "ts": "2026-07-28T16:52:58+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/387568",
-      "post_id": 387568,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T16:45:54+00:00"
-    },
-    {
       "post_url": "https://t.me/DeepStateUA/23687",
       "post_id": 23687,
       "channel": "DeepStateUA",
@@ -205,18 +211,9 @@
       "post_id": 31993,
       "channel": "ukr_leaks_eng",
       "ts": "2026-07-28T16:32:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387565",
-      "post_id": 387565,
-      "channel": "tass_agency",
-      "ts": "2026-07-28T16:10:58+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/102994": "data/media/eRadarrua_102994.jpg",
-    "eRadarrua/102992": "data/media/eRadarrua_102994.jpg",
-    "eRadarrua/102995": "data/media/eRadarrua_102995.jpg",
     "eRadarrua/102996": "data/media/eRadarrua_102996.jpg",
     "eRadarrua/102997": "data/media/eRadarrua_102996.jpg",
     "eRadarrua/102975": "data/media/eRadarrua_102975.jpg",
@@ -226,106 +223,125 @@
     "eRadarrua/102988": "data/media/eRadarrua_102988.jpg",
     "eRadarrua/102987": "data/media/eRadarrua_102988.jpg",
     "eRadarrua/102991": "data/media/eRadarrua_102991.jpg",
+    "eRadarrua/102992": "data/media/eRadarrua_102991.jpg",
+    "eRadarrua/102994": "data/media/eRadarrua_102994.jpg",
+    "eRadarrua/102995": "data/media/eRadarrua_102995.jpg",
     "eRadarrua/102967": "data/media/eRadarrua_102967.jpg",
     "eRadarrua/102968": "data/media/eRadarrua_102968.jpg",
     "kpszsu/70462": "data/media/kpszsu_70462.jpg",
     "kpszsu/70463": "data/media/kpszsu_70462.jpg"
   },
-  "summary": "A senior officer of the Ukrainian Naval Forces Command Headquarters, Vyacheslav Sazonov, was targeted in an assassination attempt via a car bomb in Odessa. Concurrently, the U.S. Senate has reached an agreement on a bill regarding sanctions against Russia and Iran. Ukrainian officials are monitoring potential ballistic missile threats from Iran amid ongoing drone activity across several regions.",
+  "summary": "Zelensky arrived in the US and reportedly met with Trump to discuss Patriot interceptor production licenses and diplomatic efforts, while Iran ballistic missile threats against Ukraine emerged and were subsequently cancelled. Russia attacked a Liberian-flagged civilian vessel near Odesa port and liberated Krasny Kut in Donetsk Oblast. Ukrainian air defenses tracked multiple Shahed and jet drones across Kherson, Mykolaiv, Odesa, and Kharkiv directions.",
   "key_points": [
-    "A senior officer of the Ukrainian Naval Forces Command Headquarters, Vyacheslav Sazonov, survived an assassination attempt via a car bomb in Odessa (Source: @ukr_leaks_eng, @eRadarrua/102991).",
-    "The U.S. Senate reached an agreement on a bill regarding sanctions against Russia and Iran, targeting Russian oil and gas exports (Source: @UkraineNow/82983).",
-    "President Zelenskyy met with Donald Trump in Washington to discuss Patriot missile production licenses and diplomatic processes (Source: @UkraineNow/82986, @ukr_leaks_eng/31995).",
-    "Russian forces have reportedly advanced near Artilne (Source: @DeepStateUA/23686).",
-    "Ten Shahed drones were reported heading toward the Izmail district of the Odessa region (Source: @mon1tor_ua/69448).",
-    "Polish authorities arrested two men for assaulting a Ukrainian man and his girlfriend in Wroclaw (Source: @ukr_leaks_eng/31967).",
-    "A 61-year-old woman in the Khmelnytskyi district was sentenced to 15 years for attempting to prepare a terrorist attack (Source: @UkraineNow/82984).",
-    "Turkish Airlines is set to resume flights to Minsk from September 21 after a four-year hiatus (Source: @UkraineNow/82981)."
+    "Zelensky arrived in the US and held a meeting with Trump in the Oval Office to discuss Patriot interceptor production licenses and diplomatic activation. (Source: @UkraineNow/82986)",
+    "Iran ballistic missile threat against Ukraine was reported by monitoring channels but officially unconfirmed; Ukrainian air defense later announced cancellation of ballistic weapon threat. (Source: @UkraineNow/82988, @kpszsu/70554)",
+    "Russian forces attacked a Liberian-flagged civilian vessel approaching Odesa port, causing smoke in the bridge area; the ship was unloaded and without crew. (Source: @UkraineNow/82989)",
+    "Russian Ministry of Defense claimed liberation of Krasny Kut in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
+    "US Senate reached agreement on sanctions bill targeting Russia and Iran, including measures against top Russian oil buyers and sanctions evaders. (Source: @UkraineNow/82983)",
+    "Southern Mining and Processing Plant in Kryvyi Rih suspended extraction due to systematic Russian missile strikes on merchant ships carrying metallurgical products. (Source: @UkraineNow/82987)",
+    "Multiple Shahed and jet drones detected: Shaheds over Kherson heading to Black Sea; jet drones toward Mykolaiv from Black Sea, toward Kharkiv from north, and fast targets toward Vilshany in Kharkiv Oblast. (Source: @mon1tor_ua/69447, @kpszsu/70536, @mon1tor_ua/69442, @mon1tor_ua/69444)",
+    "Russia and North Korea constructing a $100+ million bridge potentially for military supply routes under guise of tourism and trade development. (Source: @UkraineNow/82985)"
   ],
   "sentiment": "volatile",
-  "intensity": 6,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "A high-ranking Ukrainian Naval Forces officer, Vyacheslav Sazonov, survived a targeted car bombing in Odessa. In the US, the Senate has agreed on new sanctions against Russia and Iran. Ukrainian officials are actively monitoring potential ballistic missile threats from Iran.",
+    "executive_summary": "Zelensky arrived in the US and met with Trump to discuss Patriot interceptor production licenses and diplomatic efforts, marking a critical diplomatic engagement. Iran ballistic missile threats against Ukraine emerged from monitoring channels but were officially unconfirmed and later cancelled by Ukrainian air defense. Russia attacked a Liberian-flagged civilian vessel near Odesa port and claimed liberation of Krasny Kut in Donetsk Oblast, while Ukrainian air defenses tracked extensive drone activity across southern and eastern fronts.",
     "ukraine": {
       "points": [
-        "In Odessa, a BMW X5 belonging to Vyacheslav Sazonov, a senior officer in the operations department of the logistics department of the Ukrainian Naval Forces Command Headquarters, was targeted by an explosive device under the front left wheel (Source: @ukr_leaks_eng/31981, @eRadarrua/102991).",
-        "A 61-year-old woman in the Khmelnytskyi district was sentenced to 15 years in prison for attempting to coordinate a terrorist attack on a military facility via Telegram (Source: @UkraineNow/82984).",
-        "SBU officers in Odessa detained a district military commissar on suspicion of accepting a bribe (Source: @ukr_leaks_eng/31990).",
-        "In the Kirovohrad region, two soldiers from the medical company of the 'Skala' regiment were detained for suspected abuse of fellow soldiers (Source: @ukr_leaks_eng/31976).",
-        "A woman in the Dnepropetrovsk region was reportedly shot by TCC employees while attempting to interfere with mobilization (Source: @ukr_leaks_eng/31965)."
+        "President Zelensky arrived in the United States and held a meeting with President Trump in the Oval Office, discussing licenses for production of Patriot interceptors and activation of diplomatic processes. (Source: @UkraineNow/82986)",
+        "Foreign Minister Sybiha called Iranian Foreign Minister to assure Ukraine's desire to avoid escalation, emphasizing Ukraine's actions are solely defensive against Russian aggression and denying involvement in recent incident involving Iranian citizen and vessel. (Source: @UkraineNow/82988)",
+        "Ukrainian air defense forces announced cancellation of ballistic weapon threat after monitoring channels reported potential Iranian missile strikes; Center for Countering Disinformation head Kovalenko stated no official confirmation of Iranian attack plans. (Source: @kpszsu/70554, @UkraineNow/82988)",
+        "Southern Mining and Processing Plant in Kryvyi Rih suspended extraction operations due to systematic Russian missile strikes on international merchant ships carrying Ukrainian metallurgical products since July 2026. (Source: @UkraineNow/82987)",
+        "A car explosion in Odesa targeted Vyacheslav Sazonov, senior officer in the operations department of the logistics department of the Ukrainian Naval Forces Command Headquarters. (Source: @ukr_leaks_eng/31981)",
+        "Ukraine must implement 25 reforms to receive €10 billion from EU by end of 2026 under updated Ukraine Facility plan; first tranche of €2.86 billion requires fulfilling seven conditions including transparent prosecutor selection and simplified SME procedures. (Source: @ukr_leaks_eng/31996)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces have achieved advances near the settlement of Artilne (Source: @DeepStateUA/23686).",
-        "Russian authorities in Yalta have begun deploying courtyard kitchens due to electricity shortages (Source: @eRadarrua/103002).",
-        "Russian President Putin granted citizenship to German trainer Martina Stemmler-Geruzel (Source: @tass_agency/387568, @tass_agency/387590)."
+        "Russian forces attacked a Liberian-flagged civilian vessel approaching Odesa port for the third time; the ship was without cargo and crew, with smoke reported in the bridge area. (Source: @UkraineNow/82989)",
+        "Russian Ministry of Defense announced liberation of Krasny Kut settlement in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
+        "Russia and North Korea constructing a bridge costing over $100 million officially for tourism and trade, but investigators assess it could simplify military equipment, ammunition, and personnel transfers; construction began after 2024 strategic partnership treaty. (Source: @UkraineNow/82985)",
+        "Russian attacks destroyed over 80 gas stations in Kharkiv Oblast, leaving the Kharkiv-Poltava route completely without fuel stations according to Kharkiv Oblast Council deputy Oleksandr Skorik. (Source: @UkraineNow/82977)",
+        "Russian missile debris fell on a residential building in Taganrog; authorities preparing temporary accommodation centers for residents. (Source: @tass_agency/387635)",
+        "German tank battalion redeployed to Lithuania by land due to alleged aggressive plans of German political elites against Russia, per Russian State Duma deputy Alexander Borodai citing TASS. (Source: @tass_agency/387618)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces have made advances in the vicinity of Artilne (Source: @DeepStateUA/23686)."
+        "Russian Ministry of Defense claimed liberation of Krasny Kut in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
+        "DeepState map updated showing enemy advancement near Artilne. (Source: @DeepStateUA/23686)",
+        "Multiple fast targets detected on Kharkiv Oblast heading toward Vilshany, indicating continued pressure on northern Kharkiv direction. (Source: @mon1tor_ua/69442, @mon1tor_ua/69444)",
+        "Russian forces destroyed over 80 gas stations in Kharkiv Oblast, completely eliminating fuel infrastructure on Kharkiv-Poltava highway. (Source: @UkraineNow/82977)"
       ]
     },
     "northern_front": {
       "points": [
-        "Reactive UAVs were reported on the demarcation line between the Kharkiv and Sumy regions to the north (Source: @kpszsu/70483).",
-        "UAV activity was reported in the vicinity of Krasnopavlivka in the Kharkiv region (Source: @kpszsu/70481)."
+        "Jet drones detected moving toward Kharkiv from the north. (Source: @kpszsu/70536)",
+        "Fast targets tracked on Kharkiv Oblast heading toward Vilshany in two separate instances within short timeframe. (Source: @mon1tor_ua/69442, @mon1tor_ua/69444)",
+        "Russian attacks destroyed over 80 gas stations in Kharkiv Oblast, leaving Kharkiv-Poltava route without any fuel stations. (Source: @UkraineNow/82977)"
       ]
     },
     "southern_front": {
       "points": [
-        "Ten Shahed drones were reported heading toward the Izmail district of the Odessa region (Source: @mon1tor_ua/69448).",
-        "Reactive UAVs were reported heading toward the Southern district of the Odessa region from the Black Sea (Source: @kpszsu/70484, @kpszsu/70481).",
-        "UAVs were reported in the Mykolaiv region, with one reactive Shahed causing a fire (Source: @mon1tor_ua/69434, @ukr_leaks_eng/31988)."
+        "Shahed drones over Kherson Oblast heading toward Black Sea waters. (Source: @mon1tor_ua/69447)",
+        "Jet drones detected moving toward Mykolaiv Oblast from Black Sea with northern course. (Source: @kpszsu/70536)",
+        "Two reactive Shaheds targeting Odesa detected. (Source: @mon1tor_ua/69432)",
+        "Jet drone in direction of Odesa Oblast from Black Sea. (Source: @kpszsu/70545)",
+        "Multiple drone activities over Mykolaiv: reactive drone through Mykolaiv past Chumaky; two reactive drones on Kherson/Bilozerske from south; reactive drone over sea area opposite Chornomorsk maneuvering. (Source: @eRadarrua/103015)",
+        "Two additional 'bandero' (likely Shahed) drones targeting Mykolaiv. (Source: @mon1tor_ua/69436)",
+        "Russian forces attacked Liberian-flagged civilian vessel approaching Odesa port, third such attack on civilian shipping. (Source: @UkraineNow/82989)"
       ]
     },
     "air_war": {
       "points": [
-        "Approximately 20 groups of Shahed UAVs were launched from Primorsko-Akhtarsk (Source: @eRadarrua/103010).",
-        "Reactive UAVs were reported in the vicinity of Tomakivka, Dnipropetrovsk region, heading northwest toward Kryvyi Rih (Source: @eRadarrua/103003, @kpszsu/70513).",
-        "UAV activity was reported in the Chernihiv region near Ponornytsia (Source: @eRadarrua/103003)."
+        "Shahed drones over Kherson Oblast heading toward Black Sea waters. (Source: @mon1tor_ua/69447)",
+        "Jet drones detected toward Mykolaiv from Black Sea (northern course) and toward Kharkiv from north. (Source: @kpszsu/70536)",
+        "Two reactive Shaheds targeting Odesa; jet drone toward Odesa from Black Sea. (Source: @mon1tor_ua/69432, @kpszsu/70545)",
+        "Multiple fast targets on Kharkiv Oblast heading toward Vilshany in two separate detections. (Source: @mon1tor_ua/69442, @mon1tor_ua/69444)",
+        "Detailed drone activity over Mykolaiv sector: reactive drone through Mykolaiv past Chumaky; two reactive drones on Kherson/Bilozerske from south; reactive drone over sea opposite Chornomorsk maneuvering. (Source: @eRadarrua/103015)",
+        "Two additional drones targeting Mykolaiv. (Source: @mon1tor_ua/69436)",
+        "Iranian ballistic missile threat analyzed: potential launch trajectory from northern Iran via Caspian Sea and Russian airspace (Volgograd region) to central Ukraine, 1900-2200 km range requiring MRBMs like Shahab-3, Sejjil, Ghadr-110, Kheibar/Khorramshahr; threat later cancelled. (Source: @eRadarrua/102997, @kpszsu/70554)"
       ]
     },
     "key_developments": [
-      "A targeted explosion occurred in Odessa involving a vehicle belonging to Vyacheslav Sazonov, a senior officer of the Ukrainian Naval Forces Command Headquarters (Source: @ukr_leaks_eng/31981).",
-      "The U.S. Senate reached an agreement on a bill to expand sanctions against Russia and Iran, specifically targeting Russian oil and gas exports (Source: @UkraineNow/82983).",
-      "President Zelenskyy met with Donald Trump in Washington to discuss Patriot missile production licenses and diplomatic processes (Source: @UkraineNow/82986).",
-      "Russian forces have reportedly advanced in the area near Artilne (Source: @DeepStateUA/23686).",
-      "Ten Shahed drones were detected heading toward the Izmail district in the Odessa region (Source: @mon1tor_ua/69448).",
-      "A 61-year-old woman in the Khmelnytskyi district was sentenced to 15 years for attempting to facilitate a terrorist attack (Source: @UkraineNow/82984).",
-      "Turkish Airlines is scheduled to resume flights from Istanbul to Minsk starting September 21 (Source: @UkraineNow/82981)."
+      "Zelensky met Trump in Oval Office discussing Patriot interceptor production licenses and diplomatic activation. (Source: @UkraineNow/82986)",
+      "Iran ballistic missile threat reported by monitoring channels but unconfirmed officially; Ukrainian air defense announced cancellation of ballistic weapon threat. (Source: @UkraineNow/82988, @kpszsu/70554)",
+      "Russia attacked Liberian-flagged civilian vessel near Odesa port, third such attack on civilian shipping. (Source: @UkraineNow/82989)",
+      "Russian MoD claimed liberation of Krasny Kut in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
+      "US Senate agreed on sanctions bill targeting Russia and Iran, including measures against top five Russian oil buyers and sanctions evaders. (Source: @UkraineNow/82983)",
+      "Southern Mining and Processing Plant in Kryvyi Rih suspended extraction due to Russian missile strikes on merchant ships carrying metallurgical products. (Source: @UkraineNow/82987)",
+      "Russia-North Korea bridge construction ($100M+) potentially for military supply routes under guise of tourism. (Source: @UkraineNow/82985)"
     ],
-    "threat_assessment": "The assassination attempt on a high-ranking Naval Forces officer in Odessa indicates ongoing targeted operations within Ukraine. The potential for ballistic missile strikes from Iran remains a significant threat that Ukrainian officials are monitoring. Additionally, the advancement of Russian forces near Artilne suggests continued operational pressure on the front lines.",
-    "regional_response": "The United States is increasing economic pressure through new Senate-approved sanctions against Russia and Iran. Ukraine is actively engaging in diplomatic efforts, including discussions with the U.S. regarding Patriot missile production and meetings with international leaders to seek a lasting peace.",
-    "intelligence_notes": "The mobilization of Russian personnel is anticipated to increase for an autumn-winter campaign. Ukrainian intelligence is focused on countering potential Iranian ballistic missile strikes and monitoring Russian troop redeployments. The use of reactive UAVs in multiple regions remains a consistent tactical threat."
+    "threat_assessment": "The simultaneous high-level diplomatic engagement (Zelensky-Trump) and Iranian ballistic missile threat cancellation indicate a volatile strategic environment where political signaling and military deterrence are tightly coupled. Russian attacks on civilian shipping near Odesa demonstrate continued escalation in Black Sea maritime warfare, directly impacting Ukraine's export economy as evidenced by the Southern Mining plant suspension. The liberation claim of Krasny Kut suggests ongoing Russian grinding advances in Donetsk Oblast despite Ukrainian drone defense activity across multiple fronts. The Iran threat trajectory analysis reveals a plausible launch corridor through Russian-controlled Caspian airspace, implying potential Russian-Iranian coordination that would significantly alter threat calculus.",
+    "regional_response": "US Senate sanctions bill targeting Russian energy exports and Iranian cooperation reflects sustained congressional pressure despite executive branch diplomatic shifts. Turkish Airlines resuming Minsk flights via EU airspace signals gradual normalization of Belarus connectivity despite sanctions regime. German tank battalion deployment to Lithuania demonstrates NATO's eastern flank reinforcement in response to perceived Russian aggression. Polish authorities prosecuting attackers of Ukrainian nationals shows continued rule-of-law enforcement amid refugee populations. EU's 25-reform conditionality for €10 billion Ukraine Facility tranche maintains structural reform pressure on Kyiv.",
+    "intelligence_notes": "The discrepancy between UkraineNow reporting Zelensky-Trump meeting and ukr_leaks_eng claiming no meeting with honor guard requires verification from official White House readouts. Iranian threat cancellation by Ukrainian air defense (kpszsu) within hours of monitoring channel reports suggests effective intelligence sharing or deterrence signaling. The detailed Caspian trajectory analysis from eRadarrua indicates sophisticated open-source intelligence capabilities tracking Iranian MRBM capabilities. Car bombing of Ukrainian naval logistics officer in Odesa points to targeted Russian HUMINT operations against command infrastructure. North Korea-Russia bridge construction timeline aligns with 2024 strategic partnership treaty implementation."
   },
   "missiles": 0,
   "drones": 131,
   "kpszsu_timeline": [
-    0,
-    3,
-    0,
-    1,
     7,
+    5,
+    2,
     6,
     1,
-    6,
-    2,
     7,
-    2,
+    3,
     1,
     2,
     1,
     3,
-    3,
     2,
+    3,
     2,
     1,
     1,
     0,
     0,
     1,
-    2
+    2,
+    1,
+    4,
+    5,
+    3
   ]
 }
