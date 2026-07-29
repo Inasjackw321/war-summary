@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-29T10:49:25.918234+00:00",
-  "message_count": 296,
+  "updated_at": "2026-07-29T14:50:31.804162+00:00",
+  "message_count": 300,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,14 +14,10 @@
   "red_alerts": 80,
   "red_alerts_timeline": [
     0,
+    10,
     0,
-    0,
-    0,
-    0,
-    16,
-    0,
-    32,
-    16,
+    20,
+    10,
     0,
     0,
     0,
@@ -31,66 +27,142 @@
     0,
     0,
     0,
-    16,
+    10,
     0,
     0,
     0,
     0,
-    0
+    0,
+    0,
+    0,
+    0,
+    30
   ],
   "combined_activity_timeline": [
-    16,
-    13,
-    12,
-    15,
     17,
     15,
     12,
     9,
     12,
-    3,
+    4,
     8,
-    6,
+    5,
     9,
     12,
-    6,
-    16,
-    11,
-    11,
-    15,
-    16,
+    8,
     14,
+    11,
+    11,
+    14,
+    18,
+    12,
     19,
+    13,
     15,
-    14
+    13,
+    18,
+    15,
+    16
   ],
   "messages_by_channel": {
-    "@eRadarrua": 26,
-    "@kpszsu": 49,
-    "@mon1tor_ua": 15,
-    "@UkraineNow": 22,
+    "@eRadarrua": 29,
+    "@kpszsu": 51,
+    "@mon1tor_ua": 11,
+    "@UkraineNow": 18,
     "@DeepStateUA": 4,
-    "@ukr_leaks_eng": 27,
-    "@tass_agency": 153
+    "@ukr_leaks_eng": 28,
+    "@tass_agency": 159
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/103040",
-    "kpszsu": "https://t.me/kpszsu/70611",
+    "eRadarrua": "https://t.me/eRadarrua/103057",
+    "kpszsu": "https://t.me/kpszsu/70630",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69451",
-    "UkraineNow": "https://t.me/UkraineNow/83000",
-    "DeepStateUA": "https://t.me/DeepStateUA/23689",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32009",
-    "tass_agency": "https://t.me/tass_agency/387715"
+    "UkraineNow": "https://t.me/UkraineNow/83002",
+    "DeepStateUA": "https://t.me/DeepStateUA/23690",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32017",
+    "tass_agency": "https://t.me/tass_agency/387753"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/70577",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31986",
-    "eRadarrua": "https://t.me/eRadarrua/103016",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32017",
+    "UkraineNow": "https://t.me/UkraineNow/82999",
+    "kpszsu": "https://t.me/kpszsu/70582",
+    "eRadarrua": "https://t.me/eRadarrua/103049",
     "DeepStateUA": "https://t.me/DeepStateUA/23689",
-    "tass_agency": "https://t.me/tass_agency/387696",
-    "UkraineNow": "https://t.me/UkraineNow/82989"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69450"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/387753",
+      "post_id": 387753,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T14:46:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387748",
+      "post_id": 387748,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T14:01:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387747",
+      "post_id": 387747,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T13:56:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387739",
+      "post_id": 387739,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T12:54:05+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32013",
+      "post_id": 32013,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-29T12:51:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387735",
+      "post_id": 387735,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T12:32:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387734",
+      "post_id": 387734,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T12:25:54+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387731",
+      "post_id": 387731,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T12:11:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32011",
+      "post_id": 32011,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-29T12:02:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387728",
+      "post_id": 387728,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T11:53:54+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387724",
+      "post_id": 387724,
+      "channel": "tass_agency",
+      "ts": "2026-07-29T11:34:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32010",
+      "post_id": 32010,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-29T11:31:05+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/83000",
       "post_id": 83000,
@@ -130,30 +202,6 @@
       "ts": "2026-07-29T09:29:58+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/387688",
-      "post_id": 387688,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T09:11:35+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387687",
-      "post_id": 387687,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T09:05:33+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387686",
-      "post_id": 387686,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T09:01:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387683",
-      "post_id": 387683,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T08:48:01+00:00"
-    },
-    {
       "post_url": "https://t.me/tass_agency/387682",
       "post_id": 387682,
       "channel": "tass_agency",
@@ -164,56 +212,6 @@
       "post_id": 32005,
       "channel": "ukr_leaks_eng",
       "ts": "2026-07-29T08:29:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387679",
-      "post_id": 387679,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T08:23:28+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387677",
-      "post_id": 387677,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T08:20:43+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387675",
-      "post_id": 387675,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T08:14:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387672",
-      "post_id": 387672,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T08:11:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387671",
-      "post_id": 387671,
-      "channel": "tass_agency",
-      "ts": "2026-07-29T08:09:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32004",
-      "post_id": 32004,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-29T08:03:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/103030",
-      "post_id": 103030,
-      "channel": "eRadarrua",
-      "ts": "2026-07-29T07:36:47+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Zggk3UXbrXTrrHoF3g7WLJj--sWtWwlizI4kuaNEoRvrPBM1TyMXkU0Egizi7s3bZgQPbyz-dHvfUQAn8BT4zb5cC-sWu_Joy7-_WyFYNN2odFZHIGMnTzrPGBvRLM4B047is0nHjdUFacC-n9UDOstAfq2hKHKRfZqlG5xDmPu3XhELPgYzRuE5LIxutm5OvyhKgXmX5obMr0zLkIVsTeH5C5GPo01qpGs-3TcDLmYUCARbHz5xTe5QtjyL70KUNqvZFs3cSh4W2Rx_BzRQK0vsBeaUDzeXl4gYKpl7coZXzRg5skF-u6NqsPIJLtwgQG0tgeKG-qTmqGoMoC2cpg.jpg",
-      "companion_text_id": 103028
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32003",
-      "post_id": 32003,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-29T07:29:58+00:00"
     }
   ],
   "post_images": {
@@ -225,132 +223,105 @@
     "eRadarrua/103030": "data/media/eRadarrua_103030.jpg",
     "eRadarrua/103036": "data/media/eRadarrua_103036.jpg",
     "eRadarrua/103034": "data/media/eRadarrua_103036.jpg",
-    "eRadarrua/102994": "data/media/eRadarrua_102994.jpg",
-    "eRadarrua/102996": "data/media/eRadarrua_102996.jpg",
-    "eRadarrua/102995": "data/media/eRadarrua_102995.jpg",
-    "eRadarrua/102997": "data/media/eRadarrua_102996.jpg",
     "kpszsu/70584": "data/media/kpszsu_70584.jpg",
     "kpszsu/70585": "data/media/kpszsu_70584.jpg"
   },
-  "summary": "Russian drones strike Kharkiv and Sumy regions; Iran threatens Ukraine with ballistic missiles; Ukrainian forces defend against Russian advances in Donbas.",
+  "summary": "Russian strikes on fuel storage in Odessa port and a ship burning off its coast highlight ongoing attacks. A company in Tula was attacked with casualties, and a ballistic missile threat from the northeast was reported. The conflict remains marked by frequent drone and missile assaults.",
   "key_points": [
-    "Russian drones strike Kharkiv and Sumy regions (Source: @kpszsu/70577)",
-    "Iran threatens Ukraine with three medium-range ballistic missiles (Source: @ukr_leaks_eng/31986)",
-    "Russian forces attack Wildberries logistics hub in Ryazan (Source: @eRadarrua/103016)",
-    "Russian drones target Dnipro and Chernihiv regions (Source: @eRadarrua/103003)",
-    "Russian forces intensify attacks on Sloviansk-Kramatorsk agglomeration (Source: @DeepStateUA/23689)",
-    "Russian strategic bombers deploy near Olenya airbase (Source: @eRadarrua/103033)",
-    "Russian attacks on Ukrainian ports and infrastructure continue (Source: @tass_agency/387696)"
+    "Russian drone operators issued fines to Ukrainian scooter riders for violating traffic regulations (Source: @ukr_leaks_eng/32017).",
+    "Russian strikes hit a fuel storage facility in Odessa port and a ship burning off its coast (Source: @ukr_leaks_eng/32016, @ukr_leaks_eng/32000).",
+    "A company in Tula was attacked with casualties, including a leader of a drone manufacturing firm (Source: @UkraineNow/82999).",
+    "A ballistic missile threat from the northeast was reported (Source: @kpszsu/70582).",
+    "A Russian strike on an Iranian vessel in the Caspian Sea was reported, though Ukraine denied intent (Source: @ukr_leaks_eng/31999).",
+    "Reactive BPLAs were reported in multiple regions, including Chernihiv, Dnipropetrovsk, and Nikopol (Source: @eRadarrua/103049, @kpszsu/70594, @kpszsu/70601).",
+    "A report detailed heavy attacks on Slovyansk-Kramatorsk, with cities being leveled and civilians at risk (Source: @DeepStateUA/23689).",
+    "A Tu-95MS bomber was reported to be moving from the Far East (Source: @mon1tor_ua/69450)."
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian drones strike Kharkiv and Sumy regions; Iran threatens Ukraine with ballistic missiles; Ukrainian forces defend against Russian advances in Donbas.",
+    "executive_summary": "Russian strikes on Odessa port infrastructure and a ship burning off its coast underscore persistent attacks. A Tula company attack with casualties and a ballistic missile threat from the northeast indicate escalating tensions. Drone and missile assaults remain frequent.",
     "ukraine": {
       "points": [
-        "Russian drones strike Kharkiv and Sumy regions, with attacks reported near Kharkiv and Sumy (Source: @kpszsu/70577)",
-        "Russian forces attack Wildberries logistics hub in Ryazan, causing fires and casualties (Source: @eRadarrua/103016)",
-        "Russian drones target Dnipro and Chernihiv regions, with strikes reported near Tomakivka and Ponorivka (Source: @eRadarrua/103003)",
-        "Russian forces intensify attacks on Sloviansk-Kramatorsk agglomeration, using drones and artillery (Source: @DeepStateUA/23689)",
-        "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)",
-        "Russian strategic bombers deploy near Olenya airbase, signaling increased aerial threat (Source: @eRadarrua/103033)",
-        "Russian forces continue attacks on Ukrainian cities, with strikes reported in Kharkiv, Sumy, and Dnipro (Source: @kpszsu/70576)"
+        "A company in Tula was attacked with casualties, including a leader of a drone manufacturing firm, resulting in hospitalizations (Source: @UkraineNow/82999).",
+        "A ship burned off the coast of Odessa after a Russian strike (Source: @ukr_leaks_eng/32000).",
+        "Reactive BPLAs were reported in Chernihiv, Dnipropetrovsk, and Nikopol, targeting various locations (Source: @eRadarrua/103049, @kpszsu/70594, @kpszsu/70601).",
+        "A ballistic missile threat from the northeast was reported, raising concerns about escalation (Source: @kpszsu/70582)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces attack Wildberries logistics hub in Ryazan, causing fires and casualties (Source: @eRadarrua/103016)",
-        "Russian strategic bombers deploy near Olenya airbase, signaling increased aerial threat (Source: @eRadarrua/103033)",
-        "Russian forces intensify attacks on Sloviansk-Kramatorsk agglomeration, using drones and artillery (Source: @DeepStateUA/23689)",
-        "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)",
-        "Russian forces continue attacks on Ukrainian cities, with strikes reported in Kharkiv, Sumy, and Dnipro (Source: @kpszsu/70576)",
-        "Russian forces use drones and artillery to target Ukrainian positions in Donbas (Source: @kpszsu/70563)",
-        "Russian forces deploy strategic bombers near Olenya airbase, indicating heightened aerial operations (Source: @eRadarrua/103033)"
+        "Russian strikes targeted a fuel storage facility in Odessa port and a ship off its coast (Source: @ukr_leaks_eng/32016, @ukr_leaks_eng/32000).",
+        "A reported strike on an Iranian vessel in the Caspian Sea was denied by Ukraine, though Iran called for compensation (Source: @ukr_leaks_eng/31999).",
+        "Reactive BPLAs were launched from Kharkiv, Dnipropetrovsk, and other regions (Source: @eRadarrua/103049, @kpszsu/70594, @kpszsu/70601).",
+        "A Tu-95MS bomber was reported to be moving from the Far East (Source: @mon1tor_ua/69450)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces intensify attacks on Sloviansk-Kramatorsk agglomeration, using drones and artillery (Source: @DeepStateUA/23689)",
-        "Russian forces target Ukrainian positions in Donbas, with strikes reported in Sloviansk and Kramatorsk (Source: @kpszsu/70565)",
-        "Russian forces use drones and artillery to target Ukrainian positions in Donbas (Source: @kpszsu/70563)",
-        "Russian forces continue attacks on Ukrainian cities, with strikes reported in Kharkiv, Sumy, and Dnipro (Source: @kpszsu/70576)",
-        "Russian forces deploy strategic bombers near Olenya airbase, indicating heightened aerial operations (Source: @eRadarrua/103033)",
-        "Russian forces attack Wildberries logistics hub in Ryazan, causing fires and casualties (Source: @eRadarrua/103016)",
-        "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)"
+        "Heavy attacks on Slovyansk-Kramatorsk led to cities being leveled, with civilians facing extreme danger (Source: @DeepStateUA/23689).",
+        "Reactive BPLAs were reported in Dnipropetrovsk and Nikopol, targeting specific areas (Source: @eRadarrua/103049, @kpszsu/70594, @kpszsu/70601).",
+        "A ballistic missile threat from the northeast was reported, indicating potential escalation (Source: @kpszsu/70582).",
+        "Russian artillery and drones were used to target logistics and civilian infrastructure in the region (Source: @DeepStateUA/23689)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian forces attack Kharkiv and Sumy regions with drones (Source: @kpszsu/70577)",
-        "Russian forces target Ukrainian positions in Kharkiv and Sumy, with strikes reported near Kharkiv and Sumy (Source: @kpszsu/70576)",
-        "Russian forces use drones and artillery to target Ukrainian positions in Kharkiv and Sumy (Source: @kpszsu/70563)",
-        "Russian forces continue attacks on Ukrainian cities, with strikes reported in Kharkiv, Sumy, and Dnipro (Source: @kpszsu/70576)",
-        "Russian forces deploy strategic bombers near Olenya airbase, indicating heightened aerial operations (Source: @eRadarrua/103033)",
-        "Russian forces attack Wildberries logistics hub in Ryazan, causing fires and casualties (Source: @eRadarrua/103016)",
-        "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)"
+        "Reactive BPLAs were reported in Kharkiv and Dnipropetrovsk, targeting northern areas (Source: @eRadarrua/103028, @kpszsu/70579, @kpszsu/70577).",
+        "A ballistic missile threat from the northeast was reported, suggesting potential targeting of northern regions (Source: @kpszsu/70582)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces attack Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)",
-        "Russian forces target Ukrainian positions in Dnipro and Zaporizhzhia, with strikes reported near Tomakivka and Ponorivka (Source: @eRadarrua/103003)",
-        "Russian forces use drones and artillery to target Ukrainian positions in Dnipro and Zaporizhzhia (Source: @eRadarrua/103028)",
-        "Russian forces continue attacks on Ukrainian cities, with strikes reported in Kharkiv, Sumy, and Dnipro (Source: @kpszsu/70576)",
-        "Russian forces deploy strategic bombers near Olenya airbase, indicating heightened aerial operations (Source: @eRadarrua/103033)",
-        "Russian forces attack Wildberries logistics hub in Ryazan, causing fires and casualties (Source: @eRadarrua/103016)",
-        "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)"
+        "A ship burned off the coast of Odessa after a Russian strike (Source: @ukr_leaks_eng/32000).",
+        "Reactive BPLAs were reported in southern regions, including Kharkiv and Dnipropetrovsk (Source: @eRadarrua/103049, @kpszsu/70594)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian strategic bombers deploy near Olenya airbase, signaling increased aerial threat (Source: @eRadarrua/103033)",
-        "Russian forces use drones and artillery to target Ukrainian positions in Donbas (Source: @kpszsu/70563)",
-        "Russian forces continue attacks on Ukrainian cities, with strikes reported in Kharkiv, Sumy, and Dnipro (Source: @kpszsu/70576)",
-        "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)",
-        "Russian forces deploy strategic bombers near Olenya airbase, indicating heightened aerial operations (Source: @eRadarrua/103033)",
-        "Russian forces attack Wildberries logistics hub in Ryazan, causing fires and casualties (Source: @eRadarrua/103016)",
-        "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)"
+        "A Tu-95MS bomber was reported to be moving from the Far East (Source: @mon1tor_ua/69450).",
+        "Reactive BPLAs were launched from multiple regions, including Kharkiv and Dnipropetrovsk (Source: @eRadarrua/103049, @kpszsu/70594)."
       ]
     },
     "key_developments": [
-      "Russian drones strike Kharkiv and Sumy regions, with attacks reported near Kharkiv and Sumy (Source: @kpszsu/70577)",
-      "Iran threatens Ukraine with three medium-range ballistic missiles (Source: @ukr_leaks_eng/31986)",
-      "Russian forces attack Wildberries logistics hub in Ryazan, causing fires and casualties (Source: @eRadarrua/103016)",
-      "Russian forces intensify attacks on Sloviansk-Kramatorsk agglomeration, using drones and artillery (Source: @DeepStateUA/23689)",
-      "Russian forces target Ukrainian ports and infrastructure, including a Liberian-flagged ship near Odesa (Source: @UkraineNow/82989)",
-      "Russian strategic bombers deploy near Olenya airbase, signaling increased aerial threat (Source: @eRadarrua/103033)",
-      "Russian forces continue attacks on Ukrainian cities, with strikes reported in Kharkiv, Sumy, and Dnipro (Source: @kpszsu/70576)"
+      "Russian strikes on Odessa port infrastructure and a ship burning off its coast highlight ongoing attacks (Source: @ukr_leaks_eng/32016, @ukr_leaks_eng/32000).",
+      "A company in Tula was attacked with casualties, including a leader of a drone manufacturing firm (Source: @UkraineNow/82999).",
+      "A ballistic missile threat from the northeast was reported, raising concerns about escalation (Source: @kpszsu/70582).",
+      "Reactive BPLAs were reported in multiple regions, including Chernihiv, Dnipropetrovsk, and Nikopol (Source: @eRadarrua/103049, @kpszsu/70594, @kpszsu/70601).",
+      "A report detailed heavy attacks on Slovyansk-Kramatorsk, with cities being leveled and civilians at risk (Source: @DeepStateUA/23689).",
+      "A Tu-95MS bomber was reported to be moving from the Far East (Source: @mon1tor_ua/69450).",
+      "A reported strike on an Iranian vessel in the Caspian Sea was denied by Ukraine, though Iran called for compensation (Source: @ukr_leaks_eng/31999)."
     ],
-    "threat_assessment": "Iran's threat of ballistic missile strikes adds a new dimension to the conflict, potentially escalating tensions. Russian forces continue to target Ukrainian infrastructure and cities, while Ukrainian defenses face sustained pressure in Donbas. The deployment of strategic bombers near Olenya airbase suggests a heightened Russian aerial campaign.",
-    "regional_response": "Ukrainian forces are defending against Russian advances in Donbas, with reports of counterattacks and artillery strikes. International sanctions against Russia and Iran are being reinforced, with the U.S. Senate advancing a bill to expand sanctions. Regional actors like Turkey are resuming flights to Ukraine, indicating diplomatic efforts to maintain stability.",
-    "intelligence_notes": "The use of drones by Russian forces highlights their reliance on asymmetric tactics, while Ukrainian defenses are adapting to counter these threats. The threat from Iran underscores the geopolitical complexity of the conflict, with potential for further escalation. The destruction of the Wildberries hub in Ryazan demonstrates the vulnerability of Russian logistics networks to Ukrainian strikes."
+    "threat_assessment": "The reported ballistic missile threat from the northeast and frequent drone and missile assaults indicate a heightened risk of escalation. Russian strikes on critical infrastructure, such as fuel storage and shipping, suggest a strategy to disrupt Ukrainian logistics and morale. The attack on a company in Tula with casualties underscores the human cost of these operations.",
+    "regional_response": "Ukrainian forces are responding to drone and missile attacks with countermeasures, including air defenses and ground operations. The attack on the Tula company has prompted calls for increased support for drone production. International attention on the Iranian vessel incident may influence diplomatic efforts to prevent further escalation.",
+    "intelligence_notes": "The ballistic missile threat from the northeast and the frequency of BPLAs suggest a coordinated Russian effort to apply pressure across multiple fronts. The attack on the Tula company highlights vulnerabilities in Ukrainian industrial infrastructure. The Iranian vessel incident, while denied by Ukraine, could complicate regional dynamics if not resolved diplomatically."
   },
   "missiles": 0,
   "drones": 80,
   "kpszsu_timeline": [
+    4,
+    2,
+    1,
+    1,
     0,
+    0,
+    1,
+    1,
     2,
+    4,
     2,
-    2,
+    4,
     3,
-    3,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    2,
-    4,
-    1,
-    4,
-    4,
     5,
     7,
+    2,
+    2,
+    2,
+    0,
+    0,
     1,
     2,
     3,
-    0,
-    0
+    2
   ]
 }
