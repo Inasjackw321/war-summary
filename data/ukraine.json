@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-29T03:07:40.249352+00:00",
-  "message_count": 330,
+  "updated_at": "2026-07-29T04:23:22.988012+00:00",
+  "message_count": 322,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,22 +14,22 @@
   "red_alerts": 131,
   "red_alerts_timeline": [
     0,
-    0,
-    33,
-    16,
-    0,
-    16,
-    0,
-    0,
-    0,
-    0,
-    0,
+    49,
     0,
     0,
     16,
     0,
-    33,
+    0,
+    0,
+    0,
+    0,
+    0,
     16,
+    0,
+    16,
+    16,
+    16,
+    0,
     0,
     0,
     0,
@@ -39,57 +39,56 @@
     0
   ],
   "combined_activity_timeline": [
-    15,
-    13,
-    17,
-    22,
-    12,
-    27,
-    24,
-    16,
-    18,
-    11,
-    13,
-    15,
-    15,
     14,
+    19,
+    21,
     13,
-    13,
+    29,
+    21,
+    16,
+    16,
+    12,
+    12,
+    18,
+    14,
+    12,
+    11,
+    14,
     5,
+    7,
+    7,
     6,
-    8,
-    6,
-    8,
-    12,
-    12,
-    14
+    11,
+    9,
+    11,
+    18,
+    5
   ],
   "messages_by_channel": {
     "@eRadarrua": 33,
-    "@kpszsu": 63,
+    "@kpszsu": 59,
     "@mon1tor_ua": 16,
     "@UkraineNow": 24,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 165
+    "@tass_agency": 161
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/103015",
-    "kpszsu": "https://t.me/kpszsu/70564",
+    "kpszsu": "https://t.me/kpszsu/70575",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69448",
     "UkraineNow": "https://t.me/UkraineNow/82993",
     "DeepStateUA": "https://t.me/DeepStateUA/23689",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31996",
-    "tass_agency": "https://t.me/tass_agency/387635"
+    "tass_agency": "https://t.me/tass_agency/387642"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/82986",
-    "kpszsu": "https://t.me/kpszsu/70554",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31983",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69447",
-    "tass_agency": "https://t.me/tass_agency/387635",
-    "DeepStateUA": "https://t.me/DeepStateUA/23686",
-    "eRadarrua": "https://t.me/eRadarrua/103015"
+    "eRadarrua": "https://t.me/eRadarrua/103010",
+    "tass_agency": "https://t.me/tass_agency/387609",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/31995",
+    "kpszsu": "https://t.me/kpszsu/70517",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69445"
   },
   "media": [
     {
@@ -195,6 +194,12 @@
       "ts": "2026-07-28T16:52:58+00:00"
     },
     {
+      "post_url": "https://t.me/tass_agency/387568",
+      "post_id": 387568,
+      "channel": "tass_agency",
+      "ts": "2026-07-28T16:45:54+00:00"
+    },
+    {
       "post_url": "https://t.me/DeepStateUA/23687",
       "post_id": 23687,
       "channel": "DeepStateUA",
@@ -205,12 +210,6 @@
       "post_id": 82987,
       "channel": "UkraineNow",
       "ts": "2026-07-28T16:32:24+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/31993",
-      "post_id": 31993,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-28T16:32:12+00:00"
     }
   ],
   "post_images": {
@@ -231,117 +230,119 @@
     "kpszsu/70462": "data/media/kpszsu_70462.jpg",
     "kpszsu/70463": "data/media/kpszsu_70462.jpg"
   },
-  "summary": "Zelensky arrived in the US and reportedly met with Trump to discuss Patriot interceptor production licenses and diplomatic efforts, while Iran ballistic missile threats against Ukraine emerged and were subsequently cancelled. Russia attacked a Liberian-flagged civilian vessel near Odesa port and liberated Krasny Kut in Donetsk Oblast. Ukrainian air defenses tracked multiple Shahed and jet drones across Kherson, Mykolaiv, Odesa, and Kharkiv directions.",
+  "summary": "Ukrainian President Zelensky met with former US President Trump in Washington to discuss Patriot missile production licenses and diplomatic efforts, while the US Senate advanced a sanctions bill targeting Russian energy exports and Iran. Russian forces launched approximately 20 Shahed drone groups from Primorsko-Akhtarsk alongside KAB guided bomb strikes on Donetsk and Zaporizhzhia regions, and attacked a Liberian-flagged civilian vessel near Odesa. Ukrainian drones struck Russian vessels in the Azov Sea, and the Southern Mining Plant in Kryvyi Rih suspended operations due to Russian attacks on merchant shipping.",
   "key_points": [
-    "Zelensky arrived in the US and held a meeting with Trump in the Oval Office to discuss Patriot interceptor production licenses and diplomatic activation. (Source: @UkraineNow/82986)",
-    "Iran ballistic missile threat against Ukraine was reported by monitoring channels but officially unconfirmed; Ukrainian air defense later announced cancellation of ballistic weapon threat. (Source: @UkraineNow/82988, @kpszsu/70554)",
-    "Russian forces attacked a Liberian-flagged civilian vessel approaching Odesa port, causing smoke in the bridge area; the ship was unloaded and without crew. (Source: @UkraineNow/82989)",
-    "Russian Ministry of Defense claimed liberation of Krasny Kut in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
-    "US Senate reached agreement on sanctions bill targeting Russia and Iran, including measures against top Russian oil buyers and sanctions evaders. (Source: @UkraineNow/82983)",
-    "Southern Mining and Processing Plant in Kryvyi Rih suspended extraction due to systematic Russian missile strikes on merchant ships carrying metallurgical products. (Source: @UkraineNow/82987)",
-    "Multiple Shahed and jet drones detected: Shaheds over Kherson heading to Black Sea; jet drones toward Mykolaiv from Black Sea, toward Kharkiv from north, and fast targets toward Vilshany in Kharkiv Oblast. (Source: @mon1tor_ua/69447, @kpszsu/70536, @mon1tor_ua/69442, @mon1tor_ua/69444)",
-    "Russia and North Korea constructing a $100+ million bridge potentially for military supply routes under guise of tourism and trade development. (Source: @UkraineNow/82985)"
+    "Zelensky met Trump in Washington to discuss Patriot missile production licenses and activating diplomatic processes (Source: @UkraineNow/82986)",
+    "US Senate agreed on sanctions bill targeting Russian oil/gas exports and Iranian sanctions with presidential authority to sanction top buyers (Source: @UkraineNow/82983)",
+    "Russian forces launched approximately 20 Shahed drone groups from Primorsko-Akhtarsk targeting multiple Ukrainian regions (Source: @eRadarrua/103010)",
+    "Russian drones attacked a Liberian-flagged civilian vessel near Odesa port causing fire in the bridge area (Source: @UkraineNow/82989)",
+    "Car bomb in Odesa targeted Ukrainian naval officer Sazonov's BMW X5, causing minor injuries (Source: @eRadarrua/102991)",
+    "Russian drone debris caused evacuation in Taganrog and fire at industrial facility in Ryazan after massive drone attack (Source: @tass_agency/387609, @tass_agency/387632)",
+    "Ukrainian drones attacked Russian vessels in the Azov Sea causing damage (Source: @eRadarrua/102979)",
+    "Southern Mining Plant in Kryvyi Rih suspended extraction due to Russian missile strikes on merchant ships carrying metallurgical products (Source: @UkraineNow/82987)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Zelensky arrived in the US and met with Trump to discuss Patriot interceptor production licenses and diplomatic efforts, marking a critical diplomatic engagement. Iran ballistic missile threats against Ukraine emerged from monitoring channels but were officially unconfirmed and later cancelled by Ukrainian air defense. Russia attacked a Liberian-flagged civilian vessel near Odesa port and claimed liberation of Krasny Kut in Donetsk Oblast, while Ukrainian air defenses tracked extensive drone activity across southern and eastern fronts.",
+    "executive_summary": "Ukrainian President Zelensky met with former US President Trump in Washington to discuss Patriot missile production licenses and diplomatic efforts, while the US Senate advanced a sanctions bill targeting Russian energy exports and Iran. Russian forces launched approximately 20 Shahed drone groups from Primorsko-Akhtarsk alongside KAB guided bomb strikes on Donetsk and Zaporizhzhia regions, and attacked a Liberian-flagged civilian vessel near Odesa. Ukrainian drones struck Russian vessels in the Azov Sea, and the Southern Mining Plant in Kryvyi Rih suspended operations due to Russian attacks on merchant shipping.",
     "ukraine": {
       "points": [
-        "President Zelensky arrived in the United States and held a meeting with President Trump in the Oval Office, discussing licenses for production of Patriot interceptors and activation of diplomatic processes. (Source: @UkraineNow/82986)",
-        "Foreign Minister Sybiha called Iranian Foreign Minister to assure Ukraine's desire to avoid escalation, emphasizing Ukraine's actions are solely defensive against Russian aggression and denying involvement in recent incident involving Iranian citizen and vessel. (Source: @UkraineNow/82988)",
-        "Ukrainian air defense forces announced cancellation of ballistic weapon threat after monitoring channels reported potential Iranian missile strikes; Center for Countering Disinformation head Kovalenko stated no official confirmation of Iranian attack plans. (Source: @kpszsu/70554, @UkraineNow/82988)",
-        "Southern Mining and Processing Plant in Kryvyi Rih suspended extraction operations due to systematic Russian missile strikes on international merchant ships carrying Ukrainian metallurgical products since July 2026. (Source: @UkraineNow/82987)",
-        "A car explosion in Odesa targeted Vyacheslav Sazonov, senior officer in the operations department of the logistics department of the Ukrainian Naval Forces Command Headquarters. (Source: @ukr_leaks_eng/31981)",
-        "Ukraine must implement 25 reforms to receive €10 billion from EU by end of 2026 under updated Ukraine Facility plan; first tranche of €2.86 billion requires fulfilling seven conditions including transparent prosecutor selection and simplified SME procedures. (Source: @ukr_leaks_eng/31996)"
+        "President Zelensky arrived in the US and met with Donald Trump in the Oval Office to discuss licenses for Patriot missile interceptor production and other ideas to strengthen Ukraine's air defense, while also agreeing to activate diplomatic processes for a just peace (Source: @UkraineNow/82986, @UkraineNow/82991, @ukr_leaks_eng/31995).",
+        "The US Senate reached agreement on a sanctions bill expanding sanctions against Iran and separately targeting Russian oil and gas exports, granting the president authority to impose tariffs on the five largest buyers of Russian energy and five countries helping Russia evade energy sanctions (Source: @UkraineNow/82983, @UkraineNow/82992).",
+        "Ukrainian drones attacked Russian vessels in the Azov Sea, with video evidence showing several damaged Russian cargo ships, continuing the campaign against Russian maritime logistics (Source: @eRadarrua/102979).",
+        "The Southern Mining and Processing Plant based in Kryvyi Rih suspended extraction operations due to systematic Russian missile strikes on international merchant ships in July 2026, including vessels carrying Ukrainian metallurgical products, citing safety concerns for logistics (Source: @UkraineNow/82987).",
+        "Ukrainian security services detained a 61-year-old woman from Khmelnytskyi region who was recruited by Russian special services via Telegram in March 2025; she transmitted data on her mobilized son and his acquaintance, received 4,500 UAH, and agreed to prepare a terrorist attack on a military facility for $5,000, resulting in a 15-year sentence (Source: @UkraineNow/82984).",
+        "Commander of the 'Skala' regiment Yuriy Harkavyi was suspended from duties pending a State Bureau of Investigation probe into the detention of two medical company soldiers accused of abusing fellow servicemen in Kirovohrad region, causing traumatic brain injuries (Source: @UkraineNow/82976, @ukr_leaks_eng/31979).",
+        "Territorial Recruitment Center employees in Dnipropetrovsk allegedly shot a woman who attempted to interfere with mobilization activities, according to reports (Source: @ukr_leaks_eng/31965)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces attacked a Liberian-flagged civilian vessel approaching Odesa port for the third time; the ship was without cargo and crew, with smoke reported in the bridge area. (Source: @UkraineNow/82989)",
-        "Russian Ministry of Defense announced liberation of Krasny Kut settlement in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
-        "Russia and North Korea constructing a bridge costing over $100 million officially for tourism and trade, but investigators assess it could simplify military equipment, ammunition, and personnel transfers; construction began after 2024 strategic partnership treaty. (Source: @UkraineNow/82985)",
-        "Russian attacks destroyed over 80 gas stations in Kharkiv Oblast, leaving the Kharkiv-Poltava route completely without fuel stations according to Kharkiv Oblast Council deputy Oleksandr Skorik. (Source: @UkraineNow/82977)",
-        "Russian missile debris fell on a residential building in Taganrog; authorities preparing temporary accommodation centers for residents. (Source: @tass_agency/387635)",
-        "German tank battalion redeployed to Lithuania by land due to alleged aggressive plans of German political elites against Russia, per Russian State Duma deputy Alexander Borodai citing TASS. (Source: @tass_agency/387618)"
+        "Russian forces launched approximately 20 groups of Shahed-type drones from Primorsko-Akhtarsk, with multiple reactive UAVs detected moving toward Mykolaiv, Odesa, Kherson, Zaporizhzhia, Dnipropetrovsk, and Kharkiv regions throughout the day (Source: @eRadarrua/103010, @kpszsu/70517, @kpszsu/70515, @kpszsu/70520, @kpszsu/70521, @kpszsu/70545, @kpszsu/70568, @kpszsu/70573, @kpszsu/70574).",
+        "Russian aviation conducted KAB guided bomb strikes on Donetsk and Zaporizhzhia regions, continuing the campaign of glide bomb attacks on frontline positions and rear areas (Source: @kpszsu/70565).",
+        "Russian Ministry of Defense claimed liberation of Krasny Kut settlement in the Donetsk People's Republic, according to official statements (Source: @ukr_leaks_eng/31983).",
+        "Russian drone debris fell on a multi-story building in Taganrog, prompting evacuation of residents, while a massive drone attack caused a fire at an industrial enterprise in Ryazan (Source: @tass_agency/387609, @tass_agency/387632).",
+        "Russian forces attacked a Liberian-flagged civilian vessel near Odesa port for the third time; the ship was unloaded and without crew at the moment of impact, with fire reported in the bridge area (Source: @UkraineNow/82989).",
+        "Iran detained three tankers attempting to pass through the Strait of Hormuz, according to the Iranian Coast Guard, amid regional tensions (Source: @tass_agency/387627).",
+        "Russia and North Korea are constructing a bridge costing over $100 million officially for tourism and trade, but investigators assess it could significantly simplify military equipment, ammunition, and personnel transfers, as truck shipments are harder to track than rail; construction began after the 2024 strategic partnership treaty (Source: @UkraineNow/82985)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian Ministry of Defense claimed liberation of Krasny Kut in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
-        "DeepState map updated showing enemy advancement near Artilne. (Source: @DeepStateUA/23686)",
-        "Multiple fast targets detected on Kharkiv Oblast heading toward Vilshany, indicating continued pressure on northern Kharkiv direction. (Source: @mon1tor_ua/69442, @mon1tor_ua/69444)",
-        "Russian forces destroyed over 80 gas stations in Kharkiv Oblast, completely eliminating fuel infrastructure on Kharkiv-Poltava highway. (Source: @UkraineNow/82977)"
+        "Russian Ministry of Defense claimed liberation of Krasny Kut in the Donetsk People's Republic, indicating continued incremental advances in the Donetsk sector (Source: @ukr_leaks_eng/31983).",
+        "Russian aviation conducted KAB guided bomb strikes on Donetsk and Zaporizhzhia regions, targeting frontline and near-rear positions with glide bombs (Source: @kpszsu/70565).",
+        "The Southern Mining and Processing Plant in Kryvyi Rih (Dnipropetrovsk region) suspended extraction operations due to systematic Russian missile strikes on merchant ships carrying metallurgical products since July 2026, affecting industrial output in the eastern industrial heartland (Source: @UkraineNow/82987).",
+        "Reactive UAVs were detected east of Zaporizhzhia moving north, and on the east of Dnipropetrovsk region moving west, indicating ongoing Russian drone reconnaissance and strike operations along the eastern front (Source: @kpszsu/70517, @kpszsu/70521).",
+        "Russian drone activity included reactive UAVs toward Zaporizhzhia from the south and toward Mykolaiv from the south, suggesting continued pressure on the Zaporizhzhia and southern approaches (Source: @kpszsu/70520, @kpszsu/70574)."
       ]
     },
     "northern_front": {
       "points": [
-        "Jet drones detected moving toward Kharkiv from the north. (Source: @kpszsu/70536)",
-        "Fast targets tracked on Kharkiv Oblast heading toward Vilshany in two separate instances within short timeframe. (Source: @mon1tor_ua/69442, @mon1tor_ua/69444)",
-        "Russian attacks destroyed over 80 gas stations in Kharkiv Oblast, leaving Kharkiv-Poltava route without any fuel stations. (Source: @UkraineNow/82977)"
+        "Reactive UAVs targeted Velyka Pysarivka in Sumy region and Huty, Krasnopavlivka in Kharkiv region, indicating continued Russian drone strikes on border settlements (Source: @eRadarrua/102984).",
+        "Kharkiv region experienced multiple drone threats: reactive UAV at Mala Danylivka, reconnaissance UAV at Zmiiv, three reactive UAVs at Krasnopavlivka, and activity at Lozova (Source: @eRadarrua/103014).",
+        "Additional banderol-type UAVs were reported on Kharkiv region, with monitoring channels noting increased aerial activity (Source: @mon1tor_ua/69445).",
+        "Chernihiv region recorded one UAV in the Semenivka area, showing northern border areas remain under drone surveillance (Source: @eRadarrua/102987)."
       ]
     },
     "southern_front": {
       "points": [
-        "Shahed drones over Kherson Oblast heading toward Black Sea waters. (Source: @mon1tor_ua/69447)",
-        "Jet drones detected moving toward Mykolaiv Oblast from Black Sea with northern course. (Source: @kpszsu/70536)",
-        "Two reactive Shaheds targeting Odesa detected. (Source: @mon1tor_ua/69432)",
-        "Jet drone in direction of Odesa Oblast from Black Sea. (Source: @kpszsu/70545)",
-        "Multiple drone activities over Mykolaiv: reactive drone through Mykolaiv past Chumaky; two reactive drones on Kherson/Bilozerske from south; reactive drone over sea area opposite Chornomorsk maneuvering. (Source: @eRadarrua/103015)",
-        "Two additional 'bandero' (likely Shahed) drones targeting Mykolaiv. (Source: @mon1tor_ua/69436)",
-        "Russian forces attacked Liberian-flagged civilian vessel approaching Odesa port, third such attack on civilian shipping. (Source: @UkraineNow/82989)"
+        "Car bomb in Odesa targeted senior Ukrainian naval officer Vyacheslav Sazonov's BMW X5; explosive device under front left wheel detonated upon movement, causing minor injuries (Source: @eRadarrua/102991, @ukr_leaks_eng/31975).",
+        "Second car explosion in Odesa on Nebesnoi Sotni Avenue killed the driver and hospitalized a passenger; explosion occurred as the SUV started moving, under investigation by police and explosives experts (Source: @UkraineNow/82990).",
+        "Russian drones attacked a Liberian-flagged civilian vessel near Odesa port for the third time; vessel was empty and without crew, fire reported in bridge area (Source: @UkraineNow/82989).",
+        "Multiple banderol-type UAVs targeted Mykolaiv region throughout the day, with at least four separate detections reported by monitoring channels (Source: @mon1tor_ua/69437, @mon1tor_ua/69436, @kpszsu/70574).",
+        "Reactive UAVs directed toward Mykolaiv from the Black Sea and from the south, and toward Kherson from the east, indicating sustained Russian drone pressure on southern Ukraine (Source: @kpszsu/70517, @kpszsu/70545, @kpszsu/70574).",
+        "Ukrainian drones struck Russian vessels in the Azov Sea, damaging several cargo ships, as shown in video footage (Source: @eRadarrua/102979)."
       ]
     },
     "air_war": {
       "points": [
-        "Shahed drones over Kherson Oblast heading toward Black Sea waters. (Source: @mon1tor_ua/69447)",
-        "Jet drones detected toward Mykolaiv from Black Sea (northern course) and toward Kharkiv from north. (Source: @kpszsu/70536)",
-        "Two reactive Shaheds targeting Odesa; jet drone toward Odesa from Black Sea. (Source: @mon1tor_ua/69432, @kpszsu/70545)",
-        "Multiple fast targets on Kharkiv Oblast heading toward Vilshany in two separate detections. (Source: @mon1tor_ua/69442, @mon1tor_ua/69444)",
-        "Detailed drone activity over Mykolaiv sector: reactive drone through Mykolaiv past Chumaky; two reactive drones on Kherson/Bilozerske from south; reactive drone over sea opposite Chornomorsk maneuvering. (Source: @eRadarrua/103015)",
-        "Two additional drones targeting Mykolaiv. (Source: @mon1tor_ua/69436)",
-        "Iranian ballistic missile threat analyzed: potential launch trajectory from northern Iran via Caspian Sea and Russian airspace (Volgograd region) to central Ukraine, 1900-2200 km range requiring MRBMs like Shahab-3, Sejjil, Ghadr-110, Kheibar/Khorramshahr; threat later cancelled. (Source: @eRadarrua/102997, @kpszsu/70554)"
+        "Russian forces launched approximately 20 groups of Shahed-type drones from Primorsko-Akhtarsk, with widespread detections across Ukraine including Kharkiv, Sumy, Chernihiv, Mykolaiv, Odesa, Kherson, Zaporizhzhia, and Dnipropetrovsk regions (Source: @eRadarrua/103010, @kpszsu/70517, @kpszsu/70515, @kpszsu/70520, @kpszsu/70521, @kpszsu/70545, @kpszsu/70568, @kpszsu/70573, @kpszsu/70574, @eRadarrua/102984, @eRadarrua/103014, @eRadarrua/102987, @mon1tor_ua/69437, @mon1tor_ua/69436, @mon1tor_ua/69445).",
+        "Russian aviation employed KAB guided bombs against Donetsk and Zaporizhzhia regions, continuing the tactic of stand-off glide bomb strikes (Source: @kpszsu/70565).",
+        "Reactive UAVs were detected in the Black Sea moving toward Chornomorsk (Odesa region), and toward Mykolaiv from the south, indicating maritime launch or transit routes (Source: @kpszsu/70515, @kpszsu/70545).",
+        "Ukrainian drones conducted strikes on Russian vessels in the Azov Sea, damaging multiple cargo ships, demonstrating continued Ukrainian naval drone capabilities (Source: @eRadarrua/102979).",
+        "Russian drone debris caused a fire at an industrial facility in Ryazan and fell on a residential building in Taganrog requiring evacuation, showing Ukrainian drone strikes reaching Russian rear areas (Source: @tass_agency/387632, @tass_agency/387609).",
+        "A fire at the 'Terminal' exhibition complex in Russia burned 2,000 sq. meters, destroying furniture and building materials, cause unknown (Source: @eRadarrua/103001)."
       ]
     },
     "key_developments": [
-      "Zelensky met Trump in Oval Office discussing Patriot interceptor production licenses and diplomatic activation. (Source: @UkraineNow/82986)",
-      "Iran ballistic missile threat reported by monitoring channels but unconfirmed officially; Ukrainian air defense announced cancellation of ballistic weapon threat. (Source: @UkraineNow/82988, @kpszsu/70554)",
-      "Russia attacked Liberian-flagged civilian vessel near Odesa port, third such attack on civilian shipping. (Source: @UkraineNow/82989)",
-      "Russian MoD claimed liberation of Krasny Kut in Donetsk People's Republic. (Source: @ukr_leaks_eng/31983)",
-      "US Senate agreed on sanctions bill targeting Russia and Iran, including measures against top five Russian oil buyers and sanctions evaders. (Source: @UkraineNow/82983)",
-      "Southern Mining and Processing Plant in Kryvyi Rih suspended extraction due to Russian missile strikes on merchant ships carrying metallurgical products. (Source: @UkraineNow/82987)",
-      "Russia-North Korea bridge construction ($100M+) potentially for military supply routes under guise of tourism. (Source: @UkraineNow/82985)"
+      "Zelensky-Trump meeting in Washington discussed Patriot missile production licenses and diplomatic activation for just peace (Source: @UkraineNow/82986)",
+      "US Senate sanctions bill targets Russian energy exports and Iran, grants presidential tariff authority on top buyers and sanctions evaders (Source: @UkraineNow/82983)",
+      "Russia launched ~20 Shahed drone groups from Primorsko-Akhtarsk targeting multiple Ukrainian regions simultaneously (Source: @eRadarrua/103010)",
+      "Russian drones attacked Liberian-flagged civilian vessel near Odesa port third time, causing bridge fire (Source: @UkraineNow/82989)",
+      "Car bomb in Odesa targeted Ukrainian naval officer Sazonov; second explosion killed driver on Nebesnoi Sotni Avenue (Source: @eRadarrua/102991, @UkraineNow/82990)",
+      "Ukrainian drones damaged Russian cargo ships in Azov Sea; Southern Mining Plant in Kryvyi Rih halted extraction due to shipping attacks (Source: @eRadarrua/102979, @UkraineNow/82987)",
+      "Russian KAB strikes hit Donetsk and Zaporizhzhia; MoD claims Krasny Kut liberation in DPR (Source: @kpszsu/70565, @ukr_leaks_eng/31983)"
     ],
-    "threat_assessment": "The simultaneous high-level diplomatic engagement (Zelensky-Trump) and Iranian ballistic missile threat cancellation indicate a volatile strategic environment where political signaling and military deterrence are tightly coupled. Russian attacks on civilian shipping near Odesa demonstrate continued escalation in Black Sea maritime warfare, directly impacting Ukraine's export economy as evidenced by the Southern Mining plant suspension. The liberation claim of Krasny Kut suggests ongoing Russian grinding advances in Donetsk Oblast despite Ukrainian drone defense activity across multiple fronts. The Iran threat trajectory analysis reveals a plausible launch corridor through Russian-controlled Caspian airspace, implying potential Russian-Iranian coordination that would significantly alter threat calculus.",
-    "regional_response": "US Senate sanctions bill targeting Russian energy exports and Iranian cooperation reflects sustained congressional pressure despite executive branch diplomatic shifts. Turkish Airlines resuming Minsk flights via EU airspace signals gradual normalization of Belarus connectivity despite sanctions regime. German tank battalion deployment to Lithuania demonstrates NATO's eastern flank reinforcement in response to perceived Russian aggression. Polish authorities prosecuting attackers of Ukrainian nationals shows continued rule-of-law enforcement amid refugee populations. EU's 25-reform conditionality for €10 billion Ukraine Facility tranche maintains structural reform pressure on Kyiv.",
-    "intelligence_notes": "The discrepancy between UkraineNow reporting Zelensky-Trump meeting and ukr_leaks_eng claiming no meeting with honor guard requires verification from official White House readouts. Iranian threat cancellation by Ukrainian air defense (kpszsu) within hours of monitoring channel reports suggests effective intelligence sharing or deterrence signaling. The detailed Caspian trajectory analysis from eRadarrua indicates sophisticated open-source intelligence capabilities tracking Iranian MRBM capabilities. Car bombing of Ukrainian naval logistics officer in Odesa points to targeted Russian HUMINT operations against command infrastructure. North Korea-Russia bridge construction timeline aligns with 2024 strategic partnership treaty implementation."
+    "threat_assessment": "The simultaneous high-level diplomatic engagement in Washington and massive Russian drone barrage indicates a dual-track conflict escalation: Ukraine seeks enhanced air defense production and diplomatic leverage while Russia intensifies aerial pressure across all fronts. The Shahed swarm of ~20 groups from Primorsko-Akhtarsk demonstrates sustained Russian drone production and willingness to saturate Ukrainian air defenses. Attacks on civilian shipping near Odesa and the Kryvyi Rih plant suspension reveal a deliberate Russian strategy to strangle Ukraine's export economy. The Odesa car bombings suggest active Russian sabotage networks targeting military personnel. Russian KAB strikes and claimed territorial gains in Donetsk show continued ground offensive momentum. Ukrainian strikes on Russian vessels and rear areas (Ryazan, Taganrog) demonstrate growing asymmetric reach.",
+    "regional_response": "The US Senate sanctions bill targeting Russian energy buyers and Iranian cooperation reflects bipartisan congressional resolve to increase economic pressure, potentially complicating Russian war financing. Poland's Prime Minister Tusk condemning violence against Ukrainians signals concern over domestic stability amid refugee populations. Iran's tanker detentions in Hormuz Strait indicate regional spillover risks. The Russia-North Korea bridge construction, while officially civilian, provides a strategic military logistics corridor that could accelerate North Korean arms deliveries. Ukraine's suspension of major metallurgical extraction due to shipping threats highlights the economic warfare dimension affecting global steel markets.",
+    "intelligence_notes": "The coordination of ~20 Shahed groups suggests improved Russian launch command and control. The targeting of a Liberian-flagged vessel for the third time indicates a pattern of disregarding maritime law. The Odesa car bombings using under-wheel explosives point to professional sabotage teams with access to military parking areas. The Southern Mining Plant closure represents a significant industrial capacity loss for Ukraine's defense industry supply chain. The US Senate bill's provision for tariffs on third-country sanctions evaders could reshape global energy trade flows. The Skala regiment commander suspension amid abuse allegations reveals ongoing disciplinary challenges within Ukrainian forces. The detained collaborator in Khmelnytskyi shows persistent Russian HUMINT recruitment via Telegram."
   },
   "missiles": 0,
   "drones": 131,
   "kpszsu_timeline": [
-    7,
-    5,
-    2,
     6,
-    1,
+    2,
+    5,
+    3,
     7,
-    3,
+    1,
     1,
     2,
     1,
-    3,
     2,
     3,
-    2,
+    3,
+    1,
     1,
     1,
     0,
-    0,
     1,
-    2,
+    1,
     1,
     4,
-    5,
-    3
+    1,
+    2,
+    8,
+    2
   ]
 }
