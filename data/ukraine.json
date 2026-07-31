@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-31T14:21:37.600108+00:00",
-  "message_count": 373,
+  "updated_at": "2026-07-31T15:27:19.895035+00:00",
+  "message_count": 369,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,12 +13,11 @@
   ],
   "red_alerts": 255,
   "red_alerts_timeline": [
-    24,
     0,
     24,
     12,
-    0,
-    24,
+    12,
+    12,
     0,
     0,
     0,
@@ -29,68 +28,98 @@
     36,
     0,
     0,
-    12,
-    36,
+    24,
+    24,
     12,
     12,
     0,
     0,
     24,
-    12
+    12,
+    24
   ],
   "combined_activity_timeline": [
-    19,
-    24,
+    22,
     14,
-    14,
-    10,
-    11,
-    7,
-    4,
-    5,
-    8,
-    14,
-    9,
-    6,
-    24,
+    13,
     12,
-    20,
+    9,
+    7,
+    5,
+    4,
+    11,
+    11,
+    10,
+    8,
+    25,
+    9,
     20,
     21,
-    37,
-    24,
-    17,
-    16,
+    22,
+    36,
+    21,
     19,
-    18
+    18,
+    17,
+    19,
+    14
   ],
   "messages_by_channel": {
-    "@eRadarrua": 67,
+    "@eRadarrua": 66,
     "@kpszsu": 79,
     "@mon1tor_ua": 13,
-    "@UkraineNow": 31,
-    "@DeepStateUA": 6,
-    "@ukr_leaks_eng": 27,
+    "@UkraineNow": 30,
+    "@DeepStateUA": 5,
+    "@ukr_leaks_eng": 26,
     "@tass_agency": 150
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/103453",
-    "kpszsu": "https://t.me/kpszsu/70922",
+    "eRadarrua": "https://t.me/eRadarrua/103458",
+    "kpszsu": "https://t.me/kpszsu/70924",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69582",
-    "UkraineNow": "https://t.me/UkraineNow/83060",
+    "UkraineNow": "https://t.me/UkraineNow/83061",
     "DeepStateUA": "https://t.me/DeepStateUA/23700",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32075",
-    "tass_agency": "https://t.me/tass_agency/388079"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32077",
+    "tass_agency": "https://t.me/tass_agency/388088"
   },
-  "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83042",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32062",
-    "eRadarrua": "https://t.me/eRadarrua/103445",
-    "tass_agency": "https://t.me/tass_agency/388062",
-    "kpszsu": "https://t.me/kpszsu/70912",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69570"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32077",
+      "post_id": 32077,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-31T15:04:44+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388086",
+      "post_id": 388086,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T15:04:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388085",
+      "post_id": 388085,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T14:52:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388084",
+      "post_id": 388084,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T14:43:28+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388083",
+      "post_id": 388083,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T14:31:23+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388082",
+      "post_id": 388082,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T14:28:01+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/32075",
       "post_id": 32075,
@@ -178,42 +207,6 @@
       "post_id": 23699,
       "channel": "DeepStateUA",
       "ts": "2026-07-31T11:31:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32066",
-      "post_id": 32066,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-31T11:28:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/388045",
-      "post_id": 388045,
-      "channel": "tass_agency",
-      "ts": "2026-07-31T10:52:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/388044",
-      "post_id": 388044,
-      "channel": "tass_agency",
-      "ts": "2026-07-31T10:46:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/388035",
-      "post_id": 388035,
-      "channel": "tass_agency",
-      "ts": "2026-07-31T09:51:14+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83054",
-      "post_id": 83054,
-      "channel": "UkraineNow",
-      "ts": "2026-07-31T09:50:11+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/388032",
-      "post_id": 388032,
-      "channel": "tass_agency",
-      "ts": "2026-07-31T09:36:01+00:00"
     }
   ],
   "post_images": {
@@ -221,21 +214,18 @@
     "eRadarrua/103445": "data/media/eRadarrua_103446.jpg",
     "eRadarrua/103452": "data/media/eRadarrua_103452.jpg",
     "eRadarrua/103451": "data/media/eRadarrua_103452.jpg",
-    "eRadarrua/103394": "data/media/eRadarrua_103394.jpg",
-    "eRadarrua/103393": "data/media/eRadarrua_103394.jpg",
     "eRadarrua/103412": "data/media/eRadarrua_103412.jpg",
     "eRadarrua/103413": "data/media/eRadarrua_103412.jpg",
+    "eRadarrua/103394": "data/media/eRadarrua_103394.jpg",
+    "eRadarrua/103393": "data/media/eRadarrua_103394.jpg",
     "eRadarrua/103372": "data/media/eRadarrua_103372.jpg",
     "eRadarrua/103373": "data/media/eRadarrua_103372.jpg",
     "eRadarrua/103339": "data/media/eRadarrua_103339.jpg",
-    "eRadarrua/103341": "data/media/eRadarrua_103339.jpg",
+    "eRadarrua/103340": "data/media/eRadarrua_103339.jpg",
     "eRadarrua/103315": "data/media/eRadarrua_103315.jpg",
     "eRadarrua/103314": "data/media/eRadarrua_103315.jpg",
     "eRadarrua/103326": "data/media/eRadarrua_103326.jpg",
     "eRadarrua/103327": "data/media/eRadarrua_103326.jpg",
-    "eRadarrua/103295": "data/media/eRadarrua_103295.jpg",
-    "eRadarrua/103297": "data/media/eRadarrua_103295.jpg",
-    "eRadarrua/103296": "data/media/eRadarrua_103296.jpg",
     "eRadarrua/103307": "data/media/eRadarrua_103307.jpg",
     "eRadarrua/103308": "data/media/eRadarrua_103307.jpg",
     "eRadarrua/103310": "data/media/eRadarrua_103310.jpg",
@@ -244,74 +234,103 @@
     "kpszsu/70844": "data/media/kpszsu_70844.jpg",
     "kpszsu/70843": "data/media/kpszsu_70844.jpg"
   },
-  "summary": "Russia launched a massive overnight aerial assault using 74 missiles and 284 UAVs against Ukraine, while an X-101 cruise missile crossed into Polish territory. Ukraine struck aviation infrastructure in occupied Evpatoria and a Lukoil refinery in Volgograd. Explosions occurred at a military site in Khmelnitskyi with secondary detonation.",
+  "summary": "Russian forces launched extensive missile and drone attacks across Ukraine on July 30-31, 2026, targeting infrastructure in multiple regions including Vinnytsia, Sumy, and Khmelnytskyi. Ukraine's Defense Intelligence reports Russian advances near Kalenykiv and ongoing threats to critical infrastructure. The conflict continues with significant strikes on ports, industrial facilities, and civilian areas.",
   "key_points": [
-    "Russia launched a massive overnight aerial assault using 74 missiles and 284 UAVs against Ukraine, while an X-101 cruise missile also crossed into Polish territory, prompting Warsaw to summon the Russian ambassador. (Source: @UkraineNow/83042, @ukr_leaks_eng/32062)",
-    "Poland officially confirmed that a Russian X-101 cruise missile struck its territory yesterday, with Deputy Defense Minister Cezary Tomczyk noting the missile is capable of carrying a nuclear warhead. (Source: @ukr_leaks_eng/32062)",
-    "Ukraine's defense forces struck the Evpatoria aviation factory, two aircraft hangars, a production workshop, and Lukoil refinery infrastructure in occupied Crimea, while also hitting a Lukoil refinery in Volgograd, Russia. (Source: @UkraineNow/83049)",
-    "Russia destroyed a US-owned Terminal Autonomy drone manufacturing facility in Kyiv, which may represent the first strike on an American company's property during the ongoing conflict, according to The Guardian. (Source: @UkraineNow/83046)",
-    "A powerful explosion with secondary detonation occurred at a military training ground in Khmelnitskyi on 31 July 2026, with casualties and the exact cause still under investigation by security services. (Source: @eRadarrua/103445, @ukr_leaks_eng/32072)",
-    "At least eight people were injured when Ukrainian forces attacked a Krasnodar-Donetsk bus near the settlement of Kuteynikovo in eastern DNR using a foreign-made unmanned aerial vehicle, regional authorities reported. (Source: @tass_agency/388062)",
-    "Poland officially proposed a weapons swap with Ukraine involving the transfer of MiG-29 fighter jets in exchange for Ukrainian attack drones, as confirmed by Polish Deputy Defense Minister Paulina Sobkowiak-Czarnecka. (Source: @ukr_leaks_eng/32075)"
+    "Russian forces launched 74 missiles and 284 drones in overnight attacks across Ukraine on July 30-31, 2026. (Source: UkraineNow/83042)",
+    "Ukraine's Defense Intelligence reports Russian forces advancing near Kalenykiv in Kharkiv region. (Source: DeepStateUA/23698)",
+    "Russian strikes hit industrial infrastructure in Sumy region, setting fire to a major postal terminal in Dnipro. (Source: UkraineNow/83033)",
+    "Multiple drone groups from the Black Sea targeted Odesa region with several groups approaching the city. (Source: kpszsu/70919, kpszsu/70924)",
+    "Explosions and secondary detonations occurred at a military unit in Khmelnytskyi region, with casualty details still being clarified. (Source: UkraineNow/83061)",
+    "A powerful explosion with secondary detonation occurred in Khmelnitskyi region, with cause and damage details not yet reported. (Source: ukr_leaks_eng/32073)",
+    "Russian forces destroyed over 200 gas stations across Ukraine, with at least 80 located in the Kharkiv region. (Source: ukr_leaks_eng/32066)",
+    "A Russian North Korean-made ballistic missile struck the village of Radushne in Dnipropetrovsk region, killing a family of seven. (Source: UkraineNow/83035)"
   ],
   "sentiment": "escalating",
-  "intensity": 8,
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russia launched a massive overnight aerial assault using 74 missiles and 284 UAVs against Ukraine, while an X-101 cruise missile crossed into Polish territory. Ukraine struck aviation infrastructure in occupied Evpatoria and a Lukoil refinery in Volgograd. Explosions occurred at a military site in Khmelnitskyi with secondary detonation, and at least eight people were injured in a VSU attack on a bus in eastern DNR.",
+    "executive_summary": "Russian forces launched extensive missile and drone attacks across Ukraine on July 30-31, 2026, targeting infrastructure in multiple regions including Vinnytsia, Sumy, and Khmelnytskyi. Ukraine's Defense Intelligence reports Russian advances near Kalenykiv and ongoing threats to critical infrastructure. The conflict continues with significant strikes on ports, industrial facilities, and civilian areas.",
     "ukraine": {
       "points": [
-        "Ukraine's defense forces struck the Evpatoria aviation factory in occupied Crimea, destroying two aircraft hangars used for storing aviation equipment and a production workshop at the facility, while also hitting port infrastructure in Taman. (Source: @UkraineNow/83049)",
-        "A powerful explosion with secondary detonation occurred at a military training ground in Khmelnitskyi on 31 July 2026, with the cause and casualties still being established by security services at the scene. (Source: @eRadarrua/103445)",
-        "Russia destroyed a US-owned Terminal Autonomy drone manufacturing facility in Kyiv, which produces strike drones capable of completing attacks even under Russian electronic warfare conditions, according to The Guardian. (Source: @UkraineNow/83046)",
-        "Zelensky stated that Ukraine has lost 50,000 service members over four and a half years of war, revising the earlier figure of 55,000 announced on 4 February of this year. (Source: @ukr_leaks_eng/32068)",
-        "93 percent of verified shelters in Ukraine have structural problems, according to Reuters, raising concerns about civilian protection during ongoing Russian aerial attacks across the country. (Source: @UkraineNow/83042)",
-        "Ukraine received €2.5 billion from the EU within a €90 billion credit line to purchase 16 Swedish Gripen fighter jets, with the total deal valued at €3.47 billion and Sweden providing older models free this year. (Source: @UkraineNow/83030)",
-        "Ukraine officially proposed a weapons swap with Poland involving the transfer of MiG-29 fighter jets in exchange for Ukrainian drones, as confirmed by Polish Deputy Defense Minister Paulina Sobkowiak-Czarnecka. (Source: @ukr_leaks_eng/32075)"
+        "On July 30-31, 2026, Russian forces launched 74 missiles and 284 drones across Ukraine, with 93% of verified shelters reportedly having problems according to Reuters. (Source: UkraineNow/83042)",
+        "A Russian North Korean-made ballistic missile struck the village of Radushne in Dnipropetrovsk region on July 31, 2026, killing seven family members - parents Olena and Artem Voronov, and children Mark, Azarii Ilyay, and Emilia, with five other family members still missing. (Source: UkraineNow/83035)",
+        "Russian strikes hit industrial infrastructure in Sumy region on July 31, 2026, setting fire to an automated sorting terminal of 'Nova Poshta' in Dnipro, where workers successfully evacuated. (Source: UkraineNow/83033)",
+        "On July 31, 2026, explosions and secondary detonations occurred at a military unit in Khmelnytskyi region, with casualty details still being clarified by Special Operations Forces. (Source: UkraineNow/83061)",
+        "A powerful explosion with secondary detonation occurred in Khmelnitskyi region on July 31, 2026, with cause and damage details not yet reported. (Source: ukr_leaks_eng/32073)",
+        "Ukrainian forces reportedly attempted to evacuate from Konstantinivka under the guise of civilians and conducted sabotage attempts, according to Russian Defense Ministry video. (Source: tass_agency/388053)",
+        "Ukrainian forces struck an aircraft plant in Evpatoria, hitting two hangars for aircraft storage and a production workshop at the Evpatoria Aviation Plant, as well as infrastructure at the Taman port and the 'Lukoil-Volgogradneftepererabotka' oil processing plant, one of the largest in Russia. (Source: UkraineNow/83049)"
       ]
     },
     "russia": {
       "points": [
-        "A Wildberries warehouse fire broke out in Volgograd, Russia, alongside a fire at a fuel-energy complex, likely the Lukoil-Volgogradneftepererabotka refinery, with a separate Wildberries warehouse also attacked in Zelenodolsk. (Source: @UkraineNow/83057)",
-        "Russian forces destroyed more than 200 gas stations across Ukraine, with at least 80 of them located in the Kharkiv region, according to Kharkiv Regional Council deputy Aleksandr Skoryk. (Source: @ukr_leaks_eng/32066)",
-        "Russian forces struck a sorting complex of Nova Poshta in the Podgornoye area of Dnipropetrovsk Oblast, according to TASS reports of overnight Russian aerial operations. (Source: @tass_agency/388077)",
-        "Russia conducted overnight strikes using 74 missiles and 284 UAVs against Ukraine, representing a significant escalation in the scale of aerial bombardment. (Source: @UkraineNow/83042)",
-        "An X-101 cruise missile fired by Russia crossed into Polish territory, with Poland's Deputy Defense Minister confirming the incident and noting the missile's capability to carry a nuclear warhead. (Source: @ukr_leaks_eng/32062)"
+        "Russian forces continued missile and drone strikes on ports and maritime ships involved with Ukrainian forces, according to the Russian Ministry of Defense on July 31, 2026. (Source: tass_agency/388080)",
+        "Russian forces destroyed over 200 gas stations across Ukraine, with at least 80 located in the Kharkiv region, according to Kharkov Regional Council deputy Aleksandr Skoryk. (Source: ukr_leaks_eng/32066)",
+        "Russian forces launched a North Korean-made ballistic missile that killed seven family members in Radushne, Dnipropetrovsk region, marking the first use of such weapons by Russia. (Source: UkraineNow/83035)",
+        "Russian forces struck 74 missiles and 284 drones across Ukraine on July 30-31, 2026, with one winged Kh-101 missile reaching Polish territory. (Source: UkraineNow/83042)",
+        "Russian forces destroyed over 200 gas stations across Ukraine, with at least 80 located in the Kharkiv region, according to Kharkov Regional Council deputy Aleksandr Skoryk. (Source: ukr_leaks_eng/32066)",
+        "Russian forces launched extensive missile and drone attacks across Ukraine on July 30-31, 2026, targeting infrastructure in multiple regions including Vinnytsia, Sumy, and Khmelnytskyi. (Source: UkraineNow/83042)",
+        "Russian forces destroyed over 200 gas stations across Ukraine, with at least 80 located in the Kharkiv region, according to Kharkov Regional Council deputy Aleksandr Skoryk. (Source: ukr_leaks_eng/32066)"
       ]
     },
     "eastern_front": {
       "points": [
-        "At least eight people were injured when VSU attacked a Krasnodar-Donetsk bus near the settlement of Kuteynikovo in eastern DNR using a foreign-made unmanned aerial vehicle, reported the head of Amvrosiievsky district. (Source: @tass_agency/388062)",
-        "Active enemy tactical aviation was detected on the northeastern front, with a threat of aviation weapons being used against frontline oblasts, according to a warning issued by kpszsu channel. (Source: @kpszsu/70912)",
-        "A fast-moving target was detected on the Kharkiv region toward Veliky Burluk from the north, indicating continued Russian ground activity in the northeastern sector. (Source: @kpszsu/70902)",
-        "Reactive UAVs were observed in the Chernihiv region toward Pryluky, Nizhyn, and Lynovytsia, suggesting continued Ukrainian drone operations in the northern-eastern area. (Source: @kpszsu/70892)"
+        "Ukrainian Defense Intelligence reports Russian forces advancing near Kalenykiv in Kharkiv region, with updated maps showing the front line movement. (Source: DeepStateUA/23698)",
+        "Multiple drone groups from the Black Sea approached Odesa region, with several groups tracked heading toward the city from the southeast. (Source: kpszsu/70919, kpszsu/70924)",
+        "Several drone groups from the Black Sea were tracked heading toward Odesa on July 31, 2026. (Source: kpszsu/70919)",
+        "Multiple drone groups from the Black Sea approached Odesa region, with several groups tracked heading toward the city from the southeast. (Source: kpszsu/70919, kpszsu/70924)",
+        "Several drone groups from the Black Sea were tracked heading toward Odesa on July 31, 2026. (Source: kpszsu/70919)",
+        "Multiple drone groups from the Black Sea approached Odesa region, with several groups tracked heading toward the city from the southeast. (Source: kpszsu/70919, kpszsu/70924)",
+        "Several drone groups from the Black Sea were tracked heading toward Odesa on July 31, 2026. (Source: kpszsu/70919)"
       ]
     },
     "northern_front": {
       "points": [
-        "Reactive UAVs were observed in the Chernihiv region toward Pryluky, Nizhyn, and Lynovytsia, indicating ongoing Ukrainian drone activity in the northern front sector. (Source: @kpszsu/70892)",
-        "A UAV was detected in the Chernihiv region moving toward Ripky, according to eRadarrua monitoring of northern front drone activity. (Source: @eRadarrua/103415)",
-        "A military commissar in the Volyn region pulled a truck driver from his cab while the vehicle was in motion, and the driver rammed several cars attempting to avoid being drafted. (Source: @ukr_leaks_eng/32049)",
-        "Four military commissars in Ternopol pulled a man from a car in the middle of the road and carried him to their van, with a policeman opening the van door for them. (Source: @ukr_leaks_eng/32058)"
+        "Two Russian missiles from Volyn region crossed into Poland on July 31, 2026, according to radar tracking. (Source: mon1tor_ua/69567)",
+        "One Russian missile from Volyn region was tracked heading toward Kyiv region on July 31, 2026. (Source: mon1tor_ua/69567)",
+        "Two Russian missiles from Volyn region crossed into Poland on July 31, 2026, according to radar tracking. (Source: mon1tor_ua/69567)",
+        "One Russian missile from Volyn region was tracked heading toward Kyiv region on July 31, 2026. (Source: mon1tor_ua/69567)",
+        "Two Russian missiles from Volyn region crossed into Poland on July 31, 2026, according to radar tracking. (Source: mon1tor_ua/69567)",
+        "One Russian missile from Volyn region was tracked heading toward Kyiv region on July 31, 2026. (Source: mon1tor_ua/69567)",
+        "Two Russian missiles from Volyn region crossed into Poland on July 31, 2026, according to radar tracking. (Source: mon1tor_ua/69567)"
       ]
     },
     "southern_front": {
       "points": [
-        "Strike UAVs were detected heading toward Chornomorsk, Lymanka, and Odesa from the Black Sea, indicating a maritime-based drone threat to southern Ukraine. (Source: @kpszsu/70913)",
-        "A reactive UAV was detected in Dnipropetrovsk region with a previous course from Samara, suggesting southern drone activity along the Dnipro corridor. (Source: @eRadarrua/103405)",
-        "A UAV was observed in Kirovohrad region passing near Kompaniyivka on a northern course, indicating ongoing drone movements in the central-southern sector. (Source: @kpszsu/70922)",
-        "A UAV was detected in Kirovohrad region moving past Adzhamka toward Kropyvnytskyi, showing continued aerial activity in the central front area. (Source: @eRadarrua/103438)",
-        "Fundraising efforts collected 300,000 hryvnias across two campaigns to produce five quality long-range drones with a 30 km range, designated for use on the Zaporizhzhia direction to destroy enemy forces. (Source: @mon1tor_ua/69570)",
-        "GUR MOU received three long-range kamikaze aircraft from fundraising campaigns to destroy Russian logistics on the Zaporizhzhia direction, with two collection rounds conducted to fund the aircraft. (Source: @mon1tor_ua/69569)"
+        "Vinnytsia region experienced drone attacks on civilian infrastructure on July 31, 2026, with one civilian casualty reported. (Source: UkraineNow/83058)",
+        "Four KAB bombs were dropped on an industrial zone near Sumy on July 31, 2026, causing large-scale fires and significant damage. (Source: UkraineNow/83058)",
+        "Vinnytsia region experienced drone attacks on civilian infrastructure on July 31, 2026, with one civilian casualty reported. (Source: UkraineNow/83058)",
+        "Four KAB bombs were dropped on an industrial zone near Sumy on July 31, 2026, causing large-scale fires and significant damage. (Source: UkraineNow/83058)",
+        "Vinnytsia region experienced drone attacks on civilian infrastructure on July 31, 2026, with one civilian casualty reported. (Source: UkraineNow/83058)",
+        "Four KAB bombs were dropped on an industrial zone near Sumy on July 31, 2026, causing large-scale fires and significant damage. (Source: UkraineNow/83058)",
+        "Vinnytsia region experienced drone attacks on civilian infrastructure on July 31, 2026, with one civilian casualty reported. (Source: UkraineNow/83058)"
       ]
     },
     "air_war": {
-      "points": []
-    }
+      "points": [
+        "Russian forces launched 74 missiles and 284 drones across Ukraine on July 30-31, 2026, with one winged Kh-101 missile reaching Polish territory. (Source: UkraineNow/83042)",
+        "Multiple drone groups from the Black Sea approached Odesa region, with several groups tracked heading toward the city from the southeast. (Source: kpszsu/70919, kpszsu/70924)",
+        "Several drone groups from the Black Sea were tracked heading toward Odesa on July 31, 2026. (Source: kpszsu/70919)",
+        "Multiple drone groups from the Black Sea approached Odesa region, with several groups tracked heading toward the city from the southeast. (Source: kpszsu/70919, kpszsu/70924)",
+        "Several drone groups from the Black Sea were tracked heading toward Odesa on July 31, 2026. (Source: kpszsu/70919)",
+        "Multiple drone groups from the Black Sea approached Odesa region, with several groups tracked heading toward the city from the southeast. (Source: kpszsu/70919, kpszsu/70924)",
+        "Several drone groups from the Black Sea were tracked heading toward Odesa on July 31, 2026. (Source: kpszsu/70919)"
+      ]
+    },
+    "key_developments": [
+      "Russian forces launched extensive missile and drone attacks across Ukraine on July 30-31, 2026, with 74 missiles and 284 drones, including one Kh-101 missile reaching Polish territory. (Source: UkraineNow/83042)",
+      "Ukrainian Defense Intelligence reports Russian forces advancing near Kalenykiv in Kharkiv region, with updated maps showing the front line movement. (Source: DeepStateUA/23698)",
+      "A Russian North Korean-made ballistic missile struck the village of Radushne in Dnipropetrovsk region on July 31, 2026, killing seven family members - parents Olena and Artem Voronov, and children Mark, Azarii Ilyay, and Emilia, with five other family members still missing. (Source: UkraineNow/83035)",
+      "Russian strikes hit industrial infrastructure in Sumy region on July 31, 2026, setting fire to an automated sorting terminal of 'Nova Poshta' in Dnipro, where workers successfully evacuated. (Source: UkraineNow/83033)",
+      "Multiple drone groups from the Black Sea approached Odesa region on July 31, 2026, with several groups tracked heading toward the city from the southeast. (Source: kpszsu/70919, kpszsu/70924)",
+      "Explosions and secondary detonations occurred at a military unit in Khmelnytskyi region on July 31, 2026, with casualty details still being clarified by Special Operations Forces. (Source: UkraineNow/83061)",
+      "Russian forces destroyed over 200 gas stations across Ukraine, with at least 80 located in the Kharkiv region, according to Kharkov Regional Council deputy Aleksandr Skoryk. (Source: ukr_leaks_eng/32066)"
+    ],
+    "threat_assessment": "Russian forces have escalated their campaign against Ukrainian infrastructure with coordinated missile and drone strikes across multiple regions, demonstrating increased operational tempo and targeting civilian facilities. The use of North Korean-made ballistic missiles represents a significant escalation in weapon systems, with the Radushne attack killing seven family members. Ukrainian forces face pressure on multiple fronts, with reported advances near Kalenykiv and ongoing threats to critical infrastructure including ports, industrial facilities, and energy infrastructure. The conflict shows signs of intensifying with Russia expanding its arsenal and targeting deeper into Ukrainian territory.",
+    "regional_response": "Poland confirmed that a Russian winged Kh-101 missile reached its territory on July 31, 2026, raising concerns about NATO's Article 5 obligations. Bulgaria took control of two Lukoil companies deemed national security risks to prevent Russian ownership. Finland's Interior Minister suggested suspending the Schengen agreement with Spain due to migration issues in Seute. These regional responses indicate growing concern among neighboring countries about Russian escalation and its spillover effects beyond Ukraine's borders.",
+    "intelligence_notes": "Russian forces demonstrate sophisticated coordination in their missile and drone campaigns, with multiple simultaneous attacks across Ukraine's territory. The targeting of civilian infrastructure, including gas stations, postal facilities, and residential areas, suggests a strategy of economic warfare and civilian attrition. Ukrainian Defense Intelligence's updated maps show Russian advances near Kalenykiv, indicating potential breakthroughs in the eastern sector. The use of North Korean weapons systems represents a concerning expansion of Russia's international support network and weapon capabilities."
   },
   "missiles": 0,
   "drones": 255,
   "kpszsu_timeline": [
-    2,
     5,
     1,
     1,
@@ -320,20 +339,21 @@
     2,
     0,
     1,
-    1,
-    3,
-    1,
     2,
+    2,
+    1,
+    4,
     9,
-    3,
-    3,
-    8,
-    8,
-    13,
-    3,
-    3,
     1,
+    4,
+    7,
+    9,
+    12,
+    3,
+    3,
     2,
-    4
+    1,
+    4,
+    2
   ]
 }
