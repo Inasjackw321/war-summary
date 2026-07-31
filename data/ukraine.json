@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-07-31T03:28:37.595622+00:00",
-  "message_count": 303,
+  "updated_at": "2026-07-31T07:00:07.239681+00:00",
+  "message_count": 324,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,91 +11,167 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 358,
+  "red_alerts": 255,
   "red_alerts_timeline": [
     0,
     0,
-    22,
-    0,
-    0,
-    44,
-    22,
+    48,
     0,
     0,
     0,
     0,
-    44,
+    32,
     0,
-    44,
-    22,
-    22,
-    22,
+    32,
+    16,
+    0,
+    16,
+    16,
     0,
     0,
     0,
-    22,
-    22,
+    32,
     0,
-    0
+    0,
+    32,
+    16,
+    0,
+    16
   ],
   "combined_activity_timeline": [
-    8,
-    8,
-    20,
-    17,
     12,
-    17,
     16,
-    16,
-    12,
     15,
-    16,
-    20,
-    22,
-    14,
-    13,
+    15,
+    15,
     12,
-    9,
-    8,
-    4,
-    4,
-    11,
+    17,
+    16,
+    27,
+    17,
     11,
     10,
-    7
+    14,
+    7,
+    5,
+    6,
+    6,
+    15,
+    8,
+    7,
+    19,
+    13,
+    18,
+    22
   ],
   "messages_by_channel": {
-    "@eRadarrua": 35,
-    "@kpszsu": 44,
-    "@mon1tor_ua": 9,
-    "@UkraineNow": 30,
+    "@eRadarrua": 51,
+    "@kpszsu": 55,
+    "@mon1tor_ua": 8,
+    "@UkraineNow": 29,
     "@DeepStateUA": 5,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 156
+    "@tass_agency": 152
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/103346",
-    "kpszsu": "https://t.me/kpszsu/70830",
+    "eRadarrua": "https://t.me/eRadarrua/103393",
+    "kpszsu": "https://t.me/kpszsu/70859",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69577",
-    "UkraineNow": "https://t.me/UkraineNow/83042",
+    "UkraineNow": "https://t.me/UkraineNow/83047",
     "DeepStateUA": "https://t.me/DeepStateUA/23697",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32053",
-    "tass_agency": "https://t.me/tass_agency/387990"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32057",
+    "tass_agency": "https://t.me/tass_agency/388013"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/83042",
-    "eRadarrua": "https://t.me/eRadarrua/103303",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32041",
-    "tass_agency": "https://t.me/tass_agency/387979",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69570",
-    "kpszsu": "https://t.me/kpszsu/70807"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32039",
+    "tass_agency": "https://t.me/tass_agency/387999",
+    "kpszsu": "https://t.me/kpszsu/70821",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69569",
+    "eRadarrua": "https://t.me/eRadarrua/103334"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/388013",
+      "post_id": 388013,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T06:52:43+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83047",
+      "post_id": 83047,
+      "channel": "UkraineNow",
+      "ts": "2026-07-31T06:33:15+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32057",
+      "post_id": 32057,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-31T06:31:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388010",
+      "post_id": 388010,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T06:21:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388007",
+      "post_id": 388007,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T06:11:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/103372",
+      "post_id": 103372,
+      "channel": "eRadarrua",
+      "ts": "2026-07-31T05:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Llvt6lMGWNdNwIACtdSYijaJJruSg7EZf2XL3_5alf2yY0cDS0PAz2IjhXHoHniG9mNKdzFoBOMYc7XOHCI4DB4uI32AjiEfarHBzWQAvQagaRvpuBuJ-7p7fcFweEjgI8z5voHG2ijcKjiWAzM654s1DH92MwEYCQFOiGL5AzAjOFKCw2RsT-M2kW1jY8mVmVH6URlZX49YqOMyc-4rWIcrd12YjeEMdlMqJmecVCG4mjkjuAWTM89Uc9EGnTbHwOfSiif1RQ1BH-eBybDlaalGWoK-ST5b_MlHdA8EmO66AvMe_8cCAFDDXx-9AEY_n05aNhI1l6qgjBi95bAdmA.jpg",
+      "companion_text_id": 103373
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83045",
+      "post_id": 83045,
+      "channel": "UkraineNow",
+      "ts": "2026-07-31T05:35:11+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83043",
+      "post_id": 83043,
+      "channel": "UkraineNow",
+      "ts": "2026-07-31T05:11:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32054",
+      "post_id": 32054,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-07-31T05:03:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/70844",
+      "post_id": 70844,
+      "channel": "kpszsu",
+      "ts": "2026-07-31T05:00:13+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/HoFPRwpIAb0JhLBnqS0WB6jQCUO_SS5Rrf8FQQOG3LLT_TEen-8P5hlSmLIY4_0adYIxcW0Fk-E5lUD6ph5FiX8GY1yiB9Nv3FTVjgJphk5Dnx3XT_SNCjXEZo4cogOxDSftgYYjDQq_n_hfiPuGT1AhGCbqumviIdZN6AsuN44YvMfXW9IoNy9CsVVO9X6Liv2iMJfm37pSIUVgCyUu9i6lGcCmKDSItkCMpibA_paL6dY53qnposFii8LrC-GkjWbt8revQhcyVPz5NbNZ50wWoRbc37ArTfConIeL5iRQMMbSDIgAwIVzN2IafSbSpssQQau6KQC61A5cSFSP2g.jpg",
+      "companion_text_id": 70843
+    },
+    {
+      "post_url": "https://t.me/tass_agency/387998",
+      "post_id": 387998,
+      "channel": "tass_agency",
+      "ts": "2026-07-31T04:59:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/387988",
       "post_id": 387988,
       "channel": "tass_agency",
       "ts": "2026-07-31T02:57:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83042",
+      "post_id": 83042,
+      "channel": "UkraineNow",
+      "ts": "2026-07-30T20:30:01+00:00"
     },
     {
       "post_url": "https://t.me/eRadarrua/103339",
@@ -104,6 +180,12 @@
       "ts": "2026-07-30T20:08:24+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/M-Pl3LgFz2igUmdDhOVE9UHIIPbQF6FY2aoZl91cFRGx7dgrKyRs74YCosDd5rsHt8Epj8ID6-4Fu-WVMzYjFheS5Z1JJh72K2v_ta7bWH038Ei_EunrWsGc6eOUXzDybd4q3B8Y4GKHCBBQZ7GViKKWNNs0gr59F_BAv1r8IIh3ZypK_02lpPFeNpPbFQkFcNhah2cmx-eYXDhnngkl5G1B-z3PtOgi5fVc8-oX78Blnu6omPrbCXIifadqXdNjodiSTYUSvMaPmYxFsfIccd0B60DxLKNiKzKi1o9FO_BWWPA5SW0BSetIeKGD-KSxOUySGGdyyM876077rPYHOg.jpg",
       "companion_text_id": 103341
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83040",
+      "post_id": 83040,
+      "channel": "UkraineNow",
+      "ts": "2026-07-30T19:54:03+00:00"
     },
     {
       "post_url": "https://t.me/UkraineNow/83039",
@@ -138,215 +220,155 @@
       "ts": "2026-07-30T18:39:26+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/gJrvoA24GuvOTnFMA9JsPO9yGlOD5vyze71OIqIcbSk_uXjaHJUBiMiRK-Z8C5YaeGcLPuJm084hoHohRZhX8NZwgnMxK1689qyXmRwwfkiRmTxQ01X1WBf6UcdIGlCpbJQ3DIRQkMisK3OH7152HkM6YinZYs5FCWTfLoa_4Qj4Gxz4NlAVFOKTWWsMQ6mrk5NoxRie6ijWcm8-sYvQa0QxJosBPqIWHtwWvaF2Sk1TahnpQzFxOf6rrDTOny7-WyVB3jC0uT4wrwAiYe2a9xqFUECqyCm0vPmMmIzgIHSkT1SP_2Fuepi8ZkMAjmPM1PlNyVtPAY0Yspo_1N6fUg.jpg",
       "companion_text_id": 103314
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83036",
-      "post_id": 83036,
-      "channel": "UkraineNow",
-      "ts": "2026-07-30T18:04:09+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23697",
-      "post_id": 23697,
-      "channel": "DeepStateUA",
-      "ts": "2026-07-30T18:04:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387946",
-      "post_id": 387946,
-      "channel": "tass_agency",
-      "ts": "2026-07-30T18:00:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387944",
-      "post_id": 387944,
-      "channel": "tass_agency",
-      "ts": "2026-07-30T17:59:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/69567",
-      "post_id": 69567,
-      "channel": "mon1tor_ua",
-      "ts": "2026-07-30T17:30:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/103311",
-      "post_id": 103311,
-      "channel": "eRadarrua",
-      "ts": "2026-07-30T17:27:10+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/rWzpMMtRiJlwIhhKTF--fvDkoczcPtkOJS7BSYzlCzYAR5qMdCcXNiV4CNxYm5YX8p_gTcOkzMLfLLFkbOYqQMX93hJCK2ehNnm9w55noTrVOuj86W1tc8GJXF9vkTixZ_5eMnChqo94layKSGdGs2195GyKzrNVUhzLPtsE0OuNeyTrMkJMEb7DVUnP7FhA7oYoUOJjC_hCsgCFPkakEVbes9RINXyJl5HYLtupxtEZ_VINypX5ueZl_ngcMnOhEGodExTd3UmqGHnuqFRtNvsHz4bKUasScKnApqq_PFhx9Yt0vX0Orui19l00jlBGPtwWRA0_q1GhrXDPrVtkDg.jpg",
-      "companion_text_id": 103310
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387940",
-      "post_id": 387940,
-      "channel": "tass_agency",
-      "ts": "2026-07-30T17:27:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23696",
-      "post_id": 23696,
-      "channel": "DeepStateUA",
-      "ts": "2026-07-30T17:02:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/387935",
-      "post_id": 387935,
-      "channel": "tass_agency",
-      "ts": "2026-07-30T16:44:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/103310",
-      "post_id": 103310,
-      "channel": "eRadarrua",
-      "ts": "2026-07-30T16:40:28+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/MkFLPW2rDquUqB6ylcIlGl17AkTcsWtUnqkWm1jG0R8Y5oXANsqPxHDnoeN-oG4dIUDfOge2t3wzcYnWetO6otvDPInNx3ncpn6G3xx_C8Z5rOOLfZIb1CPEUHfM_lGDca0al8YEKMQxDTPYFO3V9Rzm5PPN2J4-r8r7zFzw5fgG28IYQSfrL9WeyVl3zMkqIpqFQZ3BkU8CNawXRlEJYib0FNG2Qc1EJ4tDr-2dhhE9mMaQDRhuUisuizcRL6rPrhtQmxfRobBoxiZbLJR32y9pN5TOQqotcCtEmGHij4F2DxumPMA2URU3EuNJG5-aTBlnaQ5gqzpnu7tDLUWbFw.jpg",
-      "companion_text_id": 103309
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32053",
-      "post_id": 32053,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-30T16:38:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83034",
-      "post_id": 83034,
-      "channel": "UkraineNow",
-      "ts": "2026-07-30T16:30:50+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32052",
-      "post_id": 32052,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-07-30T16:17:58+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/103372": "data/media/eRadarrua_103372.jpg",
+    "eRadarrua/103373": "data/media/eRadarrua_103372.jpg",
     "eRadarrua/103339": "data/media/eRadarrua_103339.jpg",
     "eRadarrua/103341": "data/media/eRadarrua_103339.jpg",
+    "eRadarrua/103315": "data/media/eRadarrua_103315.jpg",
+    "eRadarrua/103314": "data/media/eRadarrua_103315.jpg",
+    "eRadarrua/103326": "data/media/eRadarrua_103326.jpg",
+    "eRadarrua/103327": "data/media/eRadarrua_103326.jpg",
+    "eRadarrua/103295": "data/media/eRadarrua_103295.jpg",
+    "eRadarrua/103297": "data/media/eRadarrua_103295.jpg",
+    "eRadarrua/103296": "data/media/eRadarrua_103296.jpg",
     "eRadarrua/103307": "data/media/eRadarrua_103307.jpg",
     "eRadarrua/103308": "data/media/eRadarrua_103307.jpg",
     "eRadarrua/103310": "data/media/eRadarrua_103310.jpg",
     "eRadarrua/103309": "data/media/eRadarrua_103310.jpg",
     "eRadarrua/103311": "data/media/eRadarrua_103311.jpg",
-    "eRadarrua/103315": "data/media/eRadarrua_103315.jpg",
-    "eRadarrua/103314": "data/media/eRadarrua_103315.jpg",
-    "eRadarrua/103326": "data/media/eRadarrua_103326.jpg",
-    "eRadarrua/103327": "data/media/eRadarrua_103326.jpg",
+    "eRadarrua/103271": "data/media/eRadarrua_103271.jpg",
+    "eRadarrua/103270": "data/media/eRadarrua_103271.jpg",
     "eRadarrua/103287": "data/media/eRadarrua_103287.jpg",
     "eRadarrua/103288": "data/media/eRadarrua_103287.jpg",
     "eRadarrua/103289": "data/media/eRadarrua_103289.jpg",
     "eRadarrua/103291": "data/media/eRadarrua_103291.jpg",
     "eRadarrua/103292": "data/media/eRadarrua_103292.jpg",
-    "eRadarrua/103295": "data/media/eRadarrua_103295.jpg",
-    "eRadarrua/103297": "data/media/eRadarrua_103295.jpg",
-    "eRadarrua/103296": "data/media/eRadarrua_103296.jpg",
-    "eRadarrua/103271": "data/media/eRadarrua_103271.jpg",
-    "eRadarrua/103270": "data/media/eRadarrua_103271.jpg",
-    "eRadarrua/103265": "data/media/eRadarrua_103265.jpg",
-    "eRadarrua/103264": "data/media/eRadarrua_103265.jpg",
-    "eRadarrua/103266": "data/media/eRadarrua_103266.jpg",
-    "kpszsu/70754": "data/media/kpszsu_70754.jpg",
-    "kpszsu/70755": "data/media/kpszsu_70754.jpg"
+    "kpszsu/70844": "data/media/kpszsu_70844.jpg",
+    "kpszsu/70843": "data/media/kpszsu_70844.jpg"
   },
-  "summary": "Russia launched a massive overnight strike using 74 missiles and 284 UAVs across Ukraine, with a Kh-101 missile crossing into Poland near Tarnava-Kolonia. Ukrainian air defenses attempted interceptions over Poland while strikes hit Pavlohrad, Kramatorsk, and Odesa port infrastructure. Russian forces claim liberation of villages in Sumy and Kharkiv regions, and new fiber-optic FPV drone tactics were observed in Chernihiv.",
+  "summary": "Russia launched a massive overnight barrage of 74 missiles and 284 UAVs on July 30, including the first confirmed use of a North Korean ballistic missile that killed a family of five in Radushne, Dnipropetrovsk region. A Russian Kh-101 cruise missile entered Polish airspace near Tarnava-Kolonia, approximately 100 km from the Ukrainian border, prompting Ukrainian fighter interception attempts. Ukrainian air defenses shot down or suppressed 195 enemy UAVs, though 22 strike drones hit 14 locations across the country.",
   "key_points": [
-    "Russia fired 74 missiles and 284 UAVs overnight, including a Kh-101 that entered Polish airspace near Tarnava-Kolonia, 100 km from the Ukrainian border. (Source: @UkraineNow/83042)",
-    "Strikes damaged a high-rise in Pavlohrad killing one, hit Kramatorsk residential area with four FABs injuring two, and targeted Odesa port infrastructure with UAV groups from the Black Sea. (Source: @UkraineNow/83027, @UkraineNow/83040, @eRadarrua/103303)",
-    "Russian MoD claims 'North' group liberated Mohrytsia, Malaya Sloboda (Sumy) and Yurchenkovo (Kharkiv); UAVs detected over Sumy and Kharkiv from the north. (Source: @ukr_leaks_eng/32041, @eRadarrua/103313)",
-    "Russian bomber fleet repositioned: six Tu-95MS landed at Olenya, three Tu-160 moved to Far East; Tu-95MS now arming there, complicating launch detection. (Source: @eRadarrua/103270)",
-    "Volgograd region suffered massive UAV attack: five injured, fires at industrial site and warehouses; Wildberries freezes investments to aid sellers. (Source: @tass_agency/387979, @tass_agency/387985)",
-    "Ukraine shelter crisis: 93% of inspected shelters problematic; Kyiv has 4,358 shelters for 3 million; 56,000 spent night in metro, one station blocked during alert. (Source: @UkraineNow/83037, @ukr_leaks_eng/32040)",
-    "SBU detained Odesa terrorist act perpetrators recruited via Telegram by Russian services; Poland detained man for incitement to kill Zelensky; TCC operator sold draft exemptions via Obereg system. (Source: @UkraineNow/83031, @UkraineNow/83029, @ukr_leaks_eng/32052)",
-    "Fiber-optic FPV 'waiter' drone found in Chernihiv region: lands on roofs, immune to EW, carries RPG tube, threatens logistics routes. (Source: @eRadarrua/103326)"
+    "Russia fired 74 missiles and 284 UAVs overnight July 30, with Ukrainian air defense destroying 195 drones but 22 striking 14 locations. (Source: @UkraineNow/83042)",
+    "Zelensky confirmed Russian use of a North Korean ballistic missile in Radushne, killing two parents and three children, with five family members missing. (Source: @UkraineNow/83035)",
+    "A Russian Kh-101 cruise missile violated Polish airspace, landing near Tarnava-Kolonia; Polish PM Tusk stated Poland was not the target. (Source: @ukr_leaks_eng/32039)",
+    "Russian forces struck Odesa port fuel tanks for AFU and hit a dry cargo ship delivering military cargo south of Odesa. (Source: @tass_agency/387999)",
+    "Russian drones attacked three more vessels in the Black Sea operating in Ukrainian interests. (Source: @ukr_leaks_eng/32037)",
+    "KAB guided bombs were launched against Zaporizhzhia, Dnipropetrovsk, and Donetsk regions. (Source: @kpszsu/70821)",
+    "Jet UAVs were detected across northern and central Ukraine from Chernihiv to Vinnytsia, including toward Kyiv from the northwest. (Source: @kpszsu/70848)",
+    "Ukraine's energy grid suffered severe damage in Sumy region with outages in five other oblasts. (Source: @UkraineNow/83021)"
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Russia launched a massive overnight strike using 74 missiles and 284 UAVs across Ukraine, with a Kh-101 missile crossing into Poland near Tarnava-Kolonia. Ukrainian air defenses attempted interceptions over Poland while strikes hit Pavlohrad, Kramatorsk, and Odesa port infrastructure. Russian forces claim liberation of villages in Sumy and Kharkiv regions, and new fiber-optic FPV drone tactics were observed in Chernihiv.",
+    "executive_summary": "Russia conducted its largest combined missile-drone attack of the war on July 30, employing 74 missiles and 284 UAVs including a North Korean ballistic missile that devastated a civilian home in Radushne. A Russian Kh-101 cruise missile penetrated Polish airspace, landing 100 km from the Ukrainian border, while Ukrainian air defenses intercepted 195 drones but recorded 22 strikes on 14 targets. Simultaneously, Russian naval and drone strikes targeted Odesa port infrastructure and Black Sea vessels supporting Ukrainian forces.",
     "ukraine": {
       "points": [
-        "Ukraine faces critical shelter deficiencies: 93% of inspected shelters have problems per Reuters; Kyiv officially has 4,358 shelters for 3 million residents, and a security guard blocked a metro station during an air raid while 56,000 civilians sheltered underground overnight. (Source: @UkraineNow/83037, @ukr_leaks_eng/32040)",
-        "Mobilization pressures intensify: Mykolaiv region farmers cultivating under 1,000 hectares lost special status, exposing them and workers to conscription; in Volyn, a military commissar pulled a moving truck driver from the cab, causing a multi-vehicle collision as the driver resisted drafting. (Source: @ukr_leaks_eng/32033, @ukr_leaks_eng/32049)",
-        "Corruption in conscription system exposed: a district TCC operator illegally edited Obereg data to sell draft exemptions — $2,500 for privates/sergeants, $3,000 for officers, $1,700 for medical exams without conscription — with 18 clients identified. (Source: @ukr_leaks_eng/32052)",
-        "Domestic security operations: SBU detained perpetrators of two July 28 terrorist acts in Odesa — students rigged a military vehicle with a hidden camera for remote detonation, and a recidivist placed an explosive under a civilian car detonated remotely by Russian services; all recruited via Telegram 'easy money' channels. (Source: @UkraineNow/83031)",
-        "Poland detained a 40-year-old man for public incitement to murder President Zelensky and insulting the Ukrainian president, based on social media evidence collected by Malopolska police. (Source: @UkraineNow/83029)",
-        "Ukrainian forces created camouflaged minefields in Konstantinovka using NATO-supplied mines, per Russian military expert Vitaly Kiselev citing TASS. (Source: @tass_agency/387972)",
-        "Crowdfunding for long-range drones continues: a 300,000 UAH fundraiser procured five 30-km range drones for use on the Zaporizhzhia front. (Source: @mon1tor_ua/69570)"
+        "Ukrainian air defense forces engaged 255 incoming strike UAVs (Shahed, Gerber, Irtlamas, Parody decoys) launched from Orel, Kursk, occupied Donetsk and Crimea, destroying or suppressing 195 drones with aviation, SAM systems, EW units, mobile fire groups and UAV detachments. (Source: @kpszsu/70844)",
+        "Ukrainian fighters attempted to intercept Russian missiles heading toward Poland, per Polish Armed Forces Commander General Ireneusz Novak's report to PM Tusk. (Source: @UkraineNow/83032)",
+        "SBU detained perpetrators of two July 28 terrorist acts in Odesa: two students recruited via Telegram who planted a remote-detonated device under a military vehicle, and a recidivist who placed explosives under a civilian car detonated by Russian special services, killing the driver and seriously injuring a passenger. (Source: @UkraineNow/83031)",
+        "A district TCC operator was caught illegally editing conscript data in the Obereg system for $2,500-$3,000 per person, with 18 individuals using the service to avoid mobilization. (Source: @ukr_leaks_eng/32052)",
+        "The 'Sky of Odesa' project, initiated by DBR and National Guard in September 2024, produced simple cheap drones to counter Shaheds using mobilized engineers, programmers and UAV specialists. (Source: @UkraineNow/83018)",
+        "GUR received three long-range kamikaze aircraft funded by public donations for operations against Russian logistics in Zaporizhzhia direction. (Source: @mon1tor_ua/69569)",
+        "Zelensky met Trump in Washington discussing licenses for Patriot interceptor production and other defense cooperation ideas. (Source: @UkraineNow/83045)"
       ]
     },
     "russia": {
       "points": [
-        "Massive UAV attack on Volgograd region: five injured, fires at an industrial enterprise and warehouse facilities; Governor confirmed the attack. (Source: @tass_agency/387979)",
-        "Wildberries freezes investment program to redirect funds to sellers affected by UAV attacks, per investment banker and company source. (Source: @tass_agency/387985)",
-        "Russian cyber threat: F6 detected AI-generated malicious sites mimicking the Russian Ministry of Defense to steal personal data of relatives of fallen soldiers, including passport details, SNILS, and INN. (Source: @tass_agency/387955)",
-        "Russian bomber fleet repositioning: six Tu-95MS landed at Olenya airfield (Kola Peninsula), three Tu-160 returned to Far East; Tu-95MS now arming at Far East bases, complicating launch observation; only 9 ballistic and 4 Zircon missiles used of 50+ ready, suggesting imminent new strike on Kyiv. (Source: @eRadarrua/103270)",
-        "Russian MoD claims 'North' group liberated Mohrytsia and Malaya Sloboda in Sumy region and Yurchenkovo in Kharkiv region. (Source: @ukr_leaks_eng/32041)",
-        "Russian ambassador to Germany Nechaev expressed concern over joint German-French nuclear exercises, citing the Two Plus Four Treaty prohibiting German nuclear weapons. (Source: @tass_agency/387954)",
-        "World Boxing admitted Russian boxers to compete under Russian flag and anthem, per Sports Minister Degtyarev. (Source: @tass_agency/387956)"
+        "Russian forces launched 74 missiles and 284 UAVs overnight July 30, including the first confirmed combat use of a North Korean ballistic missile striking Radushne in Dnipropetrovsk region. (Source: @UkraineNow/83042)",
+        "Russian naval vessels continued strikes on Ukrainian port infrastructure, hitting fuel tanks designated for AFU in Odesa port and a dry cargo ship delivering military cargo south of Odesa. (Source: @tass_agency/387999)",
+        "Russian drones struck three additional vessels in the Black Sea operating in Ukrainian interests. (Source: @ukr_leaks_eng/32037)",
+        "Russian 'Zapad' grouping shot down three Ukrainian 'Lyutiy' UAVs using ZU-23 anti-aircraft guns. (Source: @tass_agency/387995)",
+        "KAB guided bomb launches were conducted against Zaporizhzhia, Dnipropetrovsk and Donetsk regions. (Source: @kpszsu/70821)",
+        "Jet UAVs (likely Shahed variants) were launched from multiple directions: Orel, Kursk, occupied Donetsk and Crimea, with trajectories across Chernihiv, Sumy, Poltava, Kyiv, Zhytomyr, Vinnytsia, Mykolaiv and Kherson regions. (Source: @kpszsu/70844)",
+        "Russian tactical aviation activity increased in northeastern direction, posing air strike threat to frontline areas. (Source: @kpszsu/70845)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian strike on Kramatorsk residential area with four FAB guided bombs; one hit a high-rise building, injuring a woman and a girl per city council. (Source: @UkraineNow/83040)",
-        "Pavlohrad (Dnipropetrovsk region) struck by Russian missiles; apartments in a high-rise damaged, one killed, injuries being clarified per Dnipropetrovsk OVA. (Source: @UkraineNow/83027)",
-        "Russian MoD claims liberation of Yurchenkovo in Kharkiv region by 'North' group. (Source: @ukr_leaks_eng/32041)",
-        "UAV activity over Synelnykove (Dnipropetrovsk region): two UAVs detected. (Source: @eRadarrua/103313)",
-        "Groups of UAVs heading toward Kryvyi Rih from the south. (Source: @kpszsu/70807)",
-        "Reactive UAV heading toward Hadiach (Poltava region). (Source: @kpszsu/70800)",
-        "UAVs detected in Dnipro suburbs; group of UAVs heading toward Sumy. (Source: @kpszsu/70798)"
+        "KAB guided bombs targeted Zaporizhzhia, Dnipropetrovsk and Donetsk regions, indicating continued Russian glide bomb campaign against frontline cities and infrastructure. (Source: @kpszsu/70821)",
+        "GUR deployed three long-range kamikaze aircraft to destroy Russian logistics on Zaporizhzhia direction, funded by public crowdfunding. (Source: @mon1tor_ua/69569)",
+        "Russian 'Zapad' grouping operates in eastern sector, claiming downing of three Ukrainian 'Lyutiy' UAVs with ZU-23 guns. (Source: @tass_agency/387995)",
+        "Jet UAVs detected over eastern Poltava region moving westward, and over eastern Zhytomyr region heading toward Zhytomyr city. (Source: @kpszsu/70829)",
+        "Nova Poshta's largest automated sorting terminal in Dnipro was struck by Russian missiles; workers evacuated in time, no casualties reported. (Source: @UkraineNow/83033)",
+        "Russian missile strike on Radushne village in Dnipropetrovsk region used North Korean ballistic missile, killing five family members with five more missing. (Source: @UkraineNow/83035)",
+        "Energy infrastructure in Donetsk and Dnipropetrovsk regions suffered new power outages following massive July 30 attack. (Source: @UkraineNow/83021)"
       ]
     },
     "northern_front": {
       "points": [
-        "Russian MoD claims liberation of Mohrytsia and Malaya Sloboda in Sumy region by 'North' group. (Source: @ukr_leaks_eng/32041)",
-        "UAVs detected over Sumy from the north; UAVs over Kharkiv from the north; UAVs over Radushne. (Source: @eRadarrua/103313)",
-        "Group of UAVs heading toward Sumy region. (Source: @kpszsu/70798)",
-        "Reactive UAV detected east of Chernihiv. (Source: @kpszsu/70813)",
-        "Strike UAVs in Chernihiv region (Makoshyne) heading south toward Dnipropetrovsk region. (Source: @kpszsu/70822)",
-        "Fiber-optic FPV 'waiter' drone found on a roof in Chernihiv region: lands and waits for hours, immune to EW due to fiber-optic control, carries RPG tube for close-range strikes on vehicles. (Source: @eRadarrua/103326)",
-        "Two missiles launched from Volyn region toward Poland per monitoring channel. (Source: @mon1tor_ua/69567)"
+        "Jet UAVs launched from Bryansk region (Russia) toward Chernihiv region's Snovsk and Koryukivka, with two UAVs detected near Makiivka and Kulikivka. (Source: @eRadarrua/103334)",
+        "Seven Shahed-type UAVs launched from Chernihiv region toward Kyiv region. (Source: @mon1tor_ua/69577)",
+        "Jet UAVs observed in Chernihiv, Sumy and Poltava regions moving westward. (Source: @kpszsu/70848)",
+        "Ukrainian 'Kursk' grouping refuted Russian MoD claims of capturing a village in Sumy region, confirming Nova Sich remains under Ukrainian control. (Source: @UkraineNow/83023)",
+        "Jet UAVs detected approaching Kyiv from northwest direction. (Source: @kpszsu/70855)",
+        "One UAV tracked toward Borodianka (Kyiv region) from Zhytomyr region. (Source: @eRadarrua/103390)",
+        "Sumy region remains the most difficult for energy restoration after massive attack, with ongoing outages. (Source: @UkraineNow/83021)"
       ]
     },
     "southern_front": {
       "points": [
-        "Massive attack on Odesa region port infrastructure ongoing; tactical aviation activity over temporarily occupied Crimea. (Source: @eRadarrua/103303, @eRadarrua/103295)",
-        "Groups of enemy strike UAVs from Black Sea heading toward southern Odesa region near Romanian border. (Source: @kpszsu/70816)",
-        "Strike UAVs targeting Artsyz, Serhiivka, Tatarbunary, Chornomorske in Odesa region. (Source: @kpszsu/70803)",
-        "Reactive strike UAVs in southern Odesa region heading toward Artsyz. (Source: @kpszsu/70825)",
-        "Two reactive UAVs from the sea toward Serhiivka and Tatarbunary. (Source: @eRadarrua/103344)",
-        "14 Shahed UAVs heading toward Sarata, Odesa region. (Source: @mon1tor_ua/69576)",
-        "Reactive UAVs in Kherson region (Zelenivka) heading west; group of reactive UAVs in Kherson temporarily occupied territory heading west; reactive UAVs in Kherson TO. (Source: @"
+        "Russian naval strikes hit fuel tanks for AFU in Odesa port and a dry cargo ship delivering military cargo south of Odesa. (Source: @tass_agency/387999)",
+        "Russian drones struck three vessels in Black Sea operating in Ukrainian interests. (Source: @ukr_leaks_eng/32037)",
+        "Two jet UAVs detected in occupied Kherson region on western course into Black Sea waters. (Source: @eRadarrua/103336)",
+        "Jet UAV observed in eastern Mykolaiv region on northwestern course. (Source: @kpszsu/70840)",
+        "Jet UAVs detected in Vinnytsia region near Ladyzhyn from south, and near Dashiv on northwestern course. (Source: @kpszsu/70858)",
+        "Jet UAVs targeted Haisyn in Vinnytsia region. (Source: @eRadarrua/103390)",
+        "Odesa region shelters and infrastructure under strain; 93% of checked shelters nationwide have problems per Reuters. (Source: @UkraineNow/83037)"
       ]
-    }
+    },
+    "air_war": {
+      "points": [
+        "Massive Russian air attack July 30: 74 missiles + 284 UAVs (255 strike UAVs including Shahed, Gerber, Irtlamas, Parody decoys) launched from Orel, Kursk, occupied Donetsk and Crimea. (Source: @UkraineNow/83042)",
+        "Ukrainian air defense destroyed/suppressed 195 enemy UAVs; 22 strike UAVs hit 14 locations, debris fell at 4 locations; attack ongoing as of 08:00 July 31. (Source: @kpszsu/70844)",
+        "Russian Kh-101 cruise missile entered Polish airspace, landing near Tarnava-Kolonia ~100 km from Ukrainian border; Ukrainian fighters attempted interception. (Source: @ukr_leaks_eng/32039)",
+        "First confirmed use of North Korean ballistic missile by Russia in Ukraine, striking Radushne in Dnipropetrovsk region. (Source: @UkraineNow/83035)",
+        "Russian tactical aviation active in northeastern direction, threatening frontline areas with air strikes. (Source: @kpszsu/70845)",
+        "Jet UAVs (likely Shahed-136/131 variants with jet engines) detected across 10+ Ukrainian regions simultaneously, indicating saturation tactics. (Source: @kpszsu/70848)",
+        "93% of inspected Ukrainian shelters have deficiencies; Kyiv has 4,358 shelters for 3 million residents but most are inadequate. (Source: @UkraineNow/83037)"
+      ]
+    },
+    "key_developments": [
+      "Russia's largest combined strike: 74 missiles + 284 UAVs overnight July 30; AD downed 195 drones but 22 hit 14 targets nationwide. (Source: @UkraineNow/83042)",
+      "North Korean ballistic missile used in combat for first time, destroying home in Radushne (Dnipropetrovsk), killing 5 family members, 5 missing. (Source: @UkraineNow/83035)",
+      "Russian Kh-101 cruise missile violated Polish airspace, landed near Tarnava-Kolonia ~100 km from border; Ukrainian fighters attempted intercept. (Source: @ukr_leaks_eng/32039)",
+      "Russian naval/drone strikes hit Odesa port fuel tanks for AFU, a military cargo ship south of Odesa, and three Black Sea vessels. (Source: @tass_agency/387999)",
+      "KAB glide bombs launched against Zaporizhzhia, Dnipropetrovsk, Donetsk; jet UAVs saturated northern/central Ukraine from 10+ launch axes. (Source: @kpszsu/70821)",
+      "SBU uncovered Russian-recruited terrorist cells in Odesa via Telegram 'easy money' channels; two attacks July 28 killed one, injured two. (Source: @UkraineNow/83031)",
+      "EU disbursed €3.47B for drones/missiles/fighter jets; Zelensky discussed Patriot production licenses with Trump; Bulgaria seized Lukoil assets. (Source: @ukr_leaks_eng/32045)"
+    ],
+    "threat_assessment": "Russia has escalated to a new intensity threshold with the debut of North Korean ballistic missiles alongside massive saturation drone attacks, signaling deepening military-technical cooperation with Pyongyang. The Kh-101 incursion into NATO airspace, while likely unintentional, demonstrates degraded Russian missile discipline and raises Article 5 risks. Ukrainian air defense remains effective at high interception rates (76% of 255 UAVs) but leak-through strikes on energy, port infrastructure and civilian areas are degrading societal resilience. The simultaneous multi-axis UAV launches from Russian territory, occupied Crimea and Donbas indicate improved Russian launch coordination and platform standardization. Russian reliance on terrorist recruitment via Telegram for rear-area sabotage suggests a sustained campaign to destabilize Ukrainian rear logistics and morale.",
+    "regional_response": "Poland confirmed the missile incursion but downplayed intentional targeting, with PM Tusk emphasizing shared threat perception with Ukraine. Ukrainian fighters actively intercepted inbound Russian missiles toward Poland, demonstrating real-time allied air coordination. Bulgaria's nationalization of Lukoil assets reflects growing EU energy security measures against Russian leverage. The EU's €3.47 billion tranche for drones, missiles and fighter jets signals sustained military-industrial support. Trump's hesitation on Patriot production licenses introduces uncertainty in US-Ukraine defense industrial cooperation. Sikorski's historical framing of Polish-Russian confrontation underscores Warsaw's strategic resolve independent of NATO guarantees.",
+    "intelligence_notes": "The North Korean missile fragments in Radushne provide critical technical intelligence on Pyongyang's ballistic missile performance in combat conditions. Russian use of ZU-23 towed anti-aircraft guns against Ukrainian 'Lyutiy' UAVs indicates layered air defense deployment deep in rear areas. The 'Sky of Odesa' project's rapid fielding of low-cost interceptor drones by mobilized engineers demonstrates Ukrainian asymmetric innovation capacity. TCC corruption via Obereg system manipulation reveals systemic vulnerabilities in mobilization administration exploited at scale ($2,500-$3,000 per evasion). Russian terrorist recruitment via Telegram 'easy money' channels shows effective exploitation of socioeconomic desperation. US uranium enrichment dependence on Russia (26% in 2025) persists despite sanctions, highlighting strategic supply chain fragility."
   },
-  "missiles": 74,
-  "drones": 284,
+  "missiles": 0,
+  "drones": 255,
   "kpszsu_timeline": [
-    1,
-    0,
-    5,
-    5,
     2,
     3,
+    2,
+    2,
+    1,
+    0,
+    2,
+    1,
+    4,
+    3,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
     1,
     3,
     0,
     1,
-    2,
-    1,
+    8,
     5,
-    1,
-    1,
-    1,
-    2,
-    2,
-    0,
-    1,
-    2,
-    2,
-    1,
-    2
+    4,
+    5
   ]
 }
