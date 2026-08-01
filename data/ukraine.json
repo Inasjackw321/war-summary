@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-01T21:15:00.642596+00:00",
-  "message_count": 330,
+  "updated_at": "2026-08-01T23:12:25.617118+00:00",
+  "message_count": 293,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,74 +13,74 @@
   ],
   "red_alerts": 220,
   "red_alerts_timeline": [
-    21,
-    28,
-    7,
+    10,
     0,
     0,
     0,
     0,
     0,
     0,
-    7,
-    36,
-    7,
-    7,
+    10,
+    39,
+    19,
+    10,
     0,
     0,
     0,
     0,
     0,
-    43,
-    7,
-    21,
+    58,
+    10,
+    29,
+    0,
+    0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
     12,
-    39,
-    10,
-    13,
-    10,
-    10,
+    14,
+    9,
+    11,
     4,
     8,
     10,
-    20,
-    16,
-    16,
-    18,
+    19,
+    14,
+    19,
     17,
-    9,
+    17,
+    10,
     13,
     13,
     13,
     16,
     8,
     13,
-    19,
-    17,
+    18,
+    18,
+    6,
+    4,
     6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 69,
-    "@kpszsu": 87,
-    "@mon1tor_ua": 21,
+    "@eRadarrua": 58,
+    "@kpszsu": 81,
+    "@mon1tor_ua": 4,
     "@UkraineNow": 22,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 16,
-    "@tass_agency": 111
+    "@tass_agency": 108
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/103705",
-    "kpszsu": "https://t.me/kpszsu/71125",
+    "kpszsu": "https://t.me/kpszsu/71136",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69621",
     "UkraineNow": "https://t.me/UkraineNow/83098",
     "DeepStateUA": "https://t.me/DeepStateUA/23714",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32106",
-    "tass_agency": "https://t.me/tass_agency/388252"
+    "tass_agency": "https://t.me/tass_agency/388259"
   },
   "cited_post_urls": {
     "mon1tor_ua": "https://t.me/mon1tor_ua/69613",
@@ -88,6 +88,24 @@
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32087"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/388258",
+      "post_id": 388258,
+      "channel": "tass_agency",
+      "ts": "2026-08-01T22:49:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388257",
+      "post_id": 388257,
+      "channel": "tass_agency",
+      "ts": "2026-08-01T22:43:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/388254",
+      "post_id": 388254,
+      "channel": "tass_agency",
+      "ts": "2026-08-01T22:03:01+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/103695",
       "post_id": 103695,
@@ -200,25 +218,6 @@
       "post_id": 83091,
       "channel": "UkraineNow",
       "ts": "2026-08-01T15:45:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/103657",
-      "post_id": 103657,
-      "channel": "eRadarrua",
-      "ts": "2026-08-01T15:34:40+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Ut0RmY8oiIu_iuSlHq3DZmFCPSbQrTPnvcsSYJxLk5PWq_lTHDKPNhTXpJsr6exOpNBc-SNANoAQYkCxavlBwGztXK5Dm20ycSvaAI8uZR48q4btWukgKQUMy8gXBbt0vPsMXsRll-5AnjzYyR6CnW-vtPDnTKsoCDmcgxDjOjWTZp3aNh18FrHxeYSgE2zmrzhN3OmeJtdKiEjmCWsLK5T0ez4E0u-k8bFBbAt6qmuyvLk_asbpo_loaQlJjEb0M4n-Segu11iHUYO5nYq7Q73pvrxwSpyB4ZY9n4rtftng_dCiz61Zevn-GOtA5HXxpAwRZvDex2nK6BjZsVJqOw.jpg"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32102",
-      "post_id": 32102,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-01T15:16:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83090",
-      "post_id": 83090,
-      "channel": "UkraineNow",
-      "ts": "2026-08-01T15:08:42+00:00"
     }
   ],
   "post_images": {
@@ -330,11 +329,10 @@
     "regional_response": "US policy shifts, including SAG-U leadership transfer and rare earth resource agreements, signal changing strategic priorities. European NATO allies are likely to assume greater responsibility for Ukraine support. Domestic incidents in both countries highlight ongoing societal tensions and security challenges.",
     "intelligence_notes": "Russian psychological operations include AI-generated disinformation targeting Ukrainian officials. Drone warfare remains a key tactical element, with both sides employing evolving technologies. Infrastructure attacks on both sides suggest a broadening scope of conflict beyond traditional military targets."
   },
+  "stale_summary": true,
   "missiles": 35,
   "drones": 185,
   "kpszsu_timeline": [
-    5,
-    4,
     4,
     6,
     5,
@@ -343,10 +341,10 @@
     1,
     1,
     4,
-    4,
+    3,
     5,
     4,
-    4,
+    5,
     2,
     6,
     3,
@@ -356,6 +354,8 @@
     3,
     8,
     4,
-    2
+    2,
+    2,
+    1
   ]
 }
