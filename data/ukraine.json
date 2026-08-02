@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-02T10:09:53.525443+00:00",
-  "message_count": 282,
+  "updated_at": "2026-08-02T11:47:53.903579+00:00",
+  "message_count": 272,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -16,12 +16,10 @@
     0,
     0,
     0,
-    0,
-    0,
-    61,
+    48,
+    19,
     10,
-    31,
-    0,
+    19,
     0,
     0,
     0,
@@ -33,64 +31,76 @@
     0,
     0,
     0,
+    0,
     10,
     0,
     10,
-    0
+    0,
+    10
   ],
   "combined_activity_timeline": [
-    17,
-    12,
     13,
     14,
     11,
-    18,
-    8,
-    11,
-    18,
-    15,
+    19,
     7,
-    4,
-    9,
-    14,
-    14,
+    10,
+    18,
+    16,
+    10,
     5,
+    6,
     12,
-    9,
+    19,
     4,
-    11,
-    14,
+    10,
+    9,
+    7,
     8,
-    15,
-    18
+    13,
+    9,
+    12,
+    21,
+    9,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 56,
-    "@kpszsu": 70,
+    "@eRadarrua": 51,
+    "@kpszsu": 65,
     "@mon1tor_ua": 4,
-    "@UkraineNow": 27,
+    "@UkraineNow": 29,
     "@DeepStateUA": 3,
-    "@ukr_leaks_eng": 15,
-    "@tass_agency": 107
+    "@ukr_leaks_eng": 16,
+    "@tass_agency": 104
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/103745",
-    "kpszsu": "https://t.me/kpszsu/71202",
+    "eRadarrua": "https://t.me/eRadarrua/103746",
+    "kpszsu": "https://t.me/kpszsu/71211",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69625",
-    "UkraineNow": "https://t.me/UkraineNow/83110",
+    "UkraineNow": "https://t.me/UkraineNow/83114",
     "DeepStateUA": "https://t.me/DeepStateUA/23714",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32110",
-    "tass_agency": "https://t.me/tass_agency/388315"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32113",
+    "tass_agency": "https://t.me/tass_agency/388321"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83103",
-    "tass_agency": "https://t.me/tass_agency/388302",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32102",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69625",
-    "eRadarrua": "https://t.me/eRadarrua/103741",
-    "kpszsu": "https://t.me/kpszsu/71145"
+    "UkraineNow": "https://t.me/UkraineNow/83088",
+    "kpszsu": "https://t.me/kpszsu/71176",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32110",
+    "tass_agency": "https://t.me/tass_agency/388314"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/83112",
+      "post_id": 83112,
+      "channel": "UkraineNow",
+      "ts": "2026-08-02T10:29:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83111",
+      "post_id": 83111,
+      "channel": "UkraineNow",
+      "ts": "2026-08-02T10:09:38+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/388315",
       "post_id": 388315,
@@ -208,18 +218,6 @@
       "post_id": 388295,
       "channel": "tass_agency",
       "ts": "2026-08-02T06:16:33+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/388294",
-      "post_id": 388294,
-      "channel": "tass_agency",
-      "ts": "2026-08-02T06:08:48+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83101",
-      "post_id": 83101,
-      "channel": "UkraineNow",
-      "ts": "2026-08-02T06:01:19+00:00"
     }
   ],
   "post_images": {
@@ -253,97 +251,125 @@
     "kpszsu/71167": "data/media/kpszsu_71167.jpg",
     "kpszsu/71168": "data/media/kpszsu_71167.jpg"
   },
-  "summary": "Russian forces launched a wave of drone and missile attacks across multiple Ukrainian regions, including a refinery strike in Saratov and casualties in Odesa and Kyiv. Ukrainian air defenses reported intercepting numerous drones, while ground combat continued in the north-eastern direction near Kharkiv. Diplomatic and domestic developments included potential negotiation signals and internal Russian military innovations.",
+  "summary": "Ukrainian drone attacks on infrastructure in Kyiv region caused casualties and damage. Russia launched extensive drone and airstrike campaigns targeting Ukrainian logistics and military assets. Escalating attacks on civilian and military targets indicate heightened operational pressure.",
   "key_points": [
-    "Russian drones attacked the Saratov oil refinery, causing a fire at the ELOU-AVT6 unit, with the regional governor confirming casualties (Source: @UkraineNow/83103).",
-    "Ukrainian air defenses intercepted 25 drones over Bashkortostan, with one downed over Ufa causing a fire, according to the republic head (Source: @tass_agency/388302).",
-    "Two children were injured in a drone attack on Odesa's Podilsky District, with both hospitalized in serious and moderate condition (Source: @UkraineNow/83087).",
-    "Seven Russian assault groups were eliminated by Ukraine's 4th Border Guard Battalion near the village of Artylne on the North-Slobuzh direction (Source: @UkraineNow/83109).",
-    "President Zelenskyy stated that Russia fired approximately 1900 drones, 1600 aviation bombs, and 144 missiles at Ukraine in one week, damaging over 1500 civilian objects (Source: @UkraineNow/83107).",
-    "A nighttime ballistic missile attack on Kyiv killed nine people and injured 28, damaging residential buildings and infrastructure in Solomianskyi and Darnytskyi districts (Source: @UkraineNow/83093).",
-    "Ukrainian experts claim Russia has begun using a new type of drone with unknown characteristics (Source: @ukr_leaks_eng/32102)."
+    "Ukrainian drones attacked a warehouse in Kyiv region, killing one and injuring three (Source: @UkraineNow/83088)",
+    "Russia reported launching 1,900 drones, 1,600 airstrikes, and 144 rockets against Ukraine in a week (Source: @UkraineNow/83107)",
+    "Russian Orthodox Church mandated pro-war prayers, threatening clergy who refuse (Source: @UkraineNow/83108)",
+    "Russian forces struck a school in Mykolaiv, destroying a bus and damaging another (Source: @UkraineNow/83096)",
+    "Wildberries warehouse in Samara was attacked, causing fire (Source: @UkraineNow/83112)",
+    "Russian missiles hit a post office terminal in Kharkiv, killing one (Source: @UkraineNow/83112)",
+    "Ukrainian air defense downed 109 enemy drones in a night attack (Source: @kpszsu/71176)"
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Russian forces conducted widespread drone and missile strikes across Ukraine, targeting critical infrastructure including an oil refinery in Saratov and residential areas in Kyiv and Odesa. Ukrainian air defenses reported intercepting dozens of drones while ground operations continued near Kharkiv. President Zelenskyy confirmed a weekly average of nearly 2000 drones and 144 missiles launched by Russian forces.",
-    "ukraine": [
-      "President Zelenskyy reported that over the past week, Russia launched approximately 1900 drones, 1600 aviation bombs, and 144 missiles against Ukraine, damaging over 1500 civilian objects including hundreds of residential buildings (Source: @UkraineNow/83107).",
-      "A nighttime ballistic missile attack on Kyiv killed nine people and injured 28, causing partial collapse and fires in a five-story building in Solomianskyi District and damage to administrative and residential structures in Darnytskyi District (Source: @UkraineNow/83093).",
-      "Two children, a 12-year-old girl and her 6-year-old brother, were injured in a drone attack on Odesa's Podilsky District; both were hospitalized with the girl in serious condition (Source: @UkraineNow/83087).",
-      "Ukrainian air defenses destroyed over 445,000 aerial targets since February 2022, including 91 Kinzhal hypersonic missiles, 794 Kalibr cruise missiles, and 65,618 Shahed drones, according to Air Force data (Source: @mon1tor_ua/69625).",
-      "The Russian Orthodox Church officially approved at least 12 prayers related to the war, including a mandatory prayer for 'Holy Rus' requesting Russian victory, with clergy refusing to read it facing defrocking (Source: @UkraineNow/83108).",
-      "Ukrainian exports are being hampered or halted due to logistical disruptions caused by Russian attacks on the energy system, damaging logistics networks, warehouses, and port infrastructure (Source: @ukr_leaks_eng/32109)."
-    ],
-    "russia": [
-      "Russian forces attacked the Saratov oil refinery, operated by Rosneft, which processes around 7 million tons of oil annually and supplies the Russian military sector; the governor confirmed casualties (Source: @UkraineNow/83103).",
-      "Air defenses in Bashkortostan intercepted 25 drones during a mass attack, with one drone shot down over a Ufa industrial zone causing a fire that was still being extinguished (Source: @tass_agency/388302).",
-      "The Russian Ministry of Defense claimed its forces are using AI-guided drones that can identify Ukrainian military uniforms and unit numbers, according to a spokesperson for the 71st separate regiment of the Western group (Source: @tass_agency/388308).",
-      "Russia launched a coordinated drone offensive across multiple Ukrainian regions including Kharkiv, Dnipro, Poltava, and Chernihiv, with reconnaissance and attack drones detected moving toward key cities (Source: @eRadarrua/103741).",
-      "Russian forces targeted publishing infrastructure in Kharkiv, hitting the warehouse of the 'Morning' publishing house and the 'Bookland' bookstore chain with two guided drones, which the director called a planned destruction of textbooks (Source: @UkraineNow/83092)."
-    ],
-    "eastern_front": [
-      "Ukraine's 4th Border Guard Battalion eliminated seven Russian assault groups near the village of Artylne on the North-Slobuzh direction, destroying three vehicles and three enemy positions used for reinforcement and accumulation of forces (Source: @UkraineNow/83109).",
-      "Russian reconnaissance drones were detected moving from northern Chernihiv Oblast toward Kyiv Oblast, passing near the village of Oster en route to Velyka Dymerka and Brovary (Source: @kpszsu/71145).",
-      "Drone activity was reported over Kharkiv Oblast from the south, with a reconnaissance drone spotted north of Snovsk moving toward Horodni, and attack drones detected near Nova Vodolaga and Bohodukhiv (Source: @kpszsu/71148).",
-      "Russian attack drones were observed moving north from the occupied left bank of Kherson Oblast toward Zaporizhzhia, with additional drones detected near Nikopol and Kriviy Rig (Source: @eRadarrua/103726)."
-    ],
-    "northern_front": [
-      "Air raid alerts were activated in Kyiv at 03:13 on August 2, 2026, indicating ongoing Russian aerial threats to the capital region (Source: @eRadarrua/103713).",
-      "Russian reconnaissance drones were detected north of Snovsk in Chernihiv Oblast, moving in the direction of Horodni, with air defense systems engaged to intercept them (Source: @kpszsu/71200).",
-      "Attack drones were reported moving from Chernihiv Oblast toward Kyiv Oblast, passing near Oster and heading toward Velyka Dymerka and Brovary (Source: @kpszsu/71145)."
-    ],
-    "southern_front": [
-      "Russian attack drones struck Odesa's Podilsky District, injuring two children who were hospitalized in serious and moderate condition (Source: @UkraineNow/83087).",
-      "Drone activity was reported over Mykolaiv Oblast, with an attack drone detected near Bereznehuvate moving from the south (Source: @eRadarrua/103726).",
-      "Russian drones were observed over the occupied territory of Kherson Oblast and near Zaporizhzhia, with two attack drones detected near Voznesensk and one near Petropavlivka (Source: @eRadarrua/103723).",
-      "Attack drones were reported near Nikopol in Dnipro Oblast, moving northward, and another drone was detected over the southern Zaporizhzhia region moving westward (Source: @eRadarrua/103726)."
-    ],
-    "air_war": [
-      "Ukrainian air defenses destroyed over 445,000 aerial targets since February 2022, including 91 Kinzhal hypersonic missiles, 794 Kalibr cruise missiles, 2809 Kh-101/Kh-555 missiles, and 65,618 Shahed drones (Source: @mon1tor_ua/69625).",
-      "Air defenses in Bashkortostan intercepted 25 drones during a mass Russian attack, with one drone shot down over an industrial zone in Ufa causing a fire (Source: @tass_agency/388302).",
-      "Two attack drones targeted Kyiv and Brovary, with air defense systems engaged to intercept them (Source: @mon1tor_ua/69623).",
-      "Russian reconnaissance drones were detected over northern Chernihiv Oblast near Snovsk, with air defense systems activated to neutralize the threat (Source: @kpszsu/71200)."
-    ],
+    "executive_summary": "Ukrainian drone strikes on Kyiv region infrastructure resulted in fatalities and material damage. Russia escalated attacks with mass drone and airstrike campaigns targeting logistics and military assets. Civilian infrastructure remains a frequent target.",
+    "ukraine": {
+      "points": [
+        "Drone attacks on Kyiv region warehouses caused one death and three injuries (Source: @UkraineNow/83088)",
+        "School in Mykolaiv destroyed by Russian missiles, killing civilians (Source: @UkraineNow/83096)",
+        "Wildberries warehouse in Samara attacked, triggering fire (Source: @UkraineNow/83112)",
+        "Post office terminal in Kharkiv struck by missiles, one fatality (Source: @UkraineNow/83112)",
+        "Civilian infrastructure attacks persist despite international condemnation (Source: @UkraineNow/83107)",
+        "Ukrainian air defense systems intercepted 109 enemy drones in a single night (Source: @kpszsu/71176)",
+        "Russian strikes on logistics hubs in Kharkiv and Dnipro regions continue (Source: @UkraineNow/83095)"
+      ]
+    },
+    "russia": {
+      "points": [
+        "Launched 1,900 drones, 1,600 airstrikes, and 144 rockets against Ukraine in a week (Source: @UkraineNow/83107)",
+        "Mobilized Orthodox Church for pro-war propaganda (Source: @UkraineNow/83108)",
+        "Targeted military-industrial complexes in Kiev and Odessa regions (Source: @ukr_leaks_eng/32110)",
+        "Conducted combined strikes with Geran drones on Ukrainian infrastructure (Source: @ukr_leaks_eng/32110)",
+        "Reported losses of 1,415 Ukrainian personnel in recent operations (Source: @tass_agency/388314)",
+        "Destroyed 635 Ukrainian drones over Russian regions overnight (Source: @tass_agency/388287)",
+        "Attacked Ukrainian military production facilities in Kharkiv and Dnipro (Source: @ukr_leaks_eng/32110)"
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Russian forces captured 12 settlements including Shevchenko and Torskoe (Source: @ukr_leaks_eng/32110)",
+        "Advancing toward Druzhkovka and Kramatorsk-Slavyansk corridor (Source: @ukr_leaks_eng/32110)",
+        "Control expanded in Sumy, Kharkiv, and Zaporozhye regions (Source: @ukr_leaks_eng/32110)",
+        "Frontline progress limited by drone density and counter-battery fire (Source: @ukr_leaks_eng/32110)",
+        "Russian artillery and missile strikes disrupt Ukrainian supply lines (Source: @ukr_leaks_eng/32110)",
+        "Ukrainian counterattacks focus on reclaiming lost territories (Source: @ukr_leaks_eng/32110)",
+        "Russian forces maintain control of key logistics nodes in eastern Ukraine (Source: @ukr_leaks_eng/32110)"
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Russian attacks on Kharkiv region infrastructure continue (Source: @UkraineNow/83112)",
+        "Drone swarms target logistics hubs in Kharkiv and Sumy (Source: @UkraineNow/83089)",
+        "Russian forces maintain pressure on northern front through combined arms (Source: @ukr_leaks_eng/32110)",
+        "Ukrainian air defense systems engaged in frequent intercepts (Source: @kpszsu/71176)",
+        "Russian artillery strikes disrupt Ukrainian command structures (Source: @tass_agency/388314)",
+        "Frontline stability challenged by nighttime drone attacks (Source: @kpszsu/71176)",
+        "Russian advances in Kharkiv region face Ukrainian resistance (Source: @UkraineNow/83112)"
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Russian forces control key settlements in Donbas (Source: @ukr_leaks_eng/32110)",
+        "Drone attacks target Ukrainian energy infrastructure in south (Source: @UkraineNow/83107)",
+        "Russian missile strikes disrupt southern logistics (Source: @tass_agency/388314)",
+        "Ukrainian counterbattery fire limits Russian advance (Source: @ukr_leaks_eng/32110)",
+        "Russian forces consolidate control of Kherson region (Source: @UkraineNow/83095)",
+        "Drone swarms from Russia target southern ports (Source: @ukr_leaks_eng/32110)",
+        "Frontline dynamics remain fluid due to drone warfare (Source: @ukr_leaks_eng/32110)"
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Russia launched 1,900 drones and 1,600 airstrikes in a week (Source: @UkraineNow/83107)",
+        "Ukrainian air defense downed 109 drones in a single night (Source: @kpszsu/71176)",
+        "Russian Geran drones targeted military production facilities (Source: @ukr_leaks_eng/32110)",
+        "Ukrainian air defense systems engaged in sustained operations (Source: @kpszsu/71176)",
+        "Russian air attacks focus on logistics and energy infrastructure (Source: @UkraineNow/83107)",
+        "Ukrainian air defense reported 445,000+ air targets destroyed since 2022 (Source: @kpszsu/71187)",
+        "Russian air power remains a dominant factor in conflict (Source: @tass_agency/388314)"
+      ]
+    },
     "key_developments": [
-      "Russian forces launched a major drone and missile campaign across Ukraine, striking the Saratov oil refinery, residential areas in Kyiv and Odesa, and infrastructure in multiple regions, causing civilian casualties and fires (Source: @UkraineNow/83103).",
-      "Ukrainian air defenses reported intercepting 25 drones over Bashkortostan and destroying over 445,000 aerial targets since the start of the full-scale invasion, including advanced missile systems like Kinzhal and Kalibr (Source: @tass_agency/388302).",
-      "Seven Russian assault groups were eliminated by Ukraine's 4th Border Guard Battalion near Artylne on the North-Slobuzh direction, with three vehicles and three enemy positions destroyed (Source: @UkraineNow/83109).",
-      "President Zelenskyy confirmed that Russia fired approximately 1900 drones, 1600 aviation bombs, and 144 missiles in one week, damaging over 1500 civilian objects including residential buildings (Source: @UkraineNow/83107).",
-      "A nighttime ballistic missile attack on Kyiv killed nine people and injured 28, damaging residential buildings and infrastructure in Solomianskyi and Darnytskyi districts (Source: @UkraineNow/83093).",
-      "The Russian Orthodox Church officially approved at least 12 war-related prayers, including a mandatory prayer for Russian victory, with defrocking threats for non-compliant clergy (Source: @UkraineNow/83108).",
-      "Ukrainian experts identified a new type of Russian drone with unknown characteristics, suggesting ongoing technological advancements in unmanned warfare capabilities (Source: @ukr_leaks_eng/32102)."
+      "Ukrainian drone attack on Kyiv region warehouse killed one civilian (Source: @UkraineNow/83088)",
+      "Russia launched 1,900 drones and 1,600 airstrikes against Ukraine in a week (Source: @UkraineNow/83107)",
+      "Russian Orthodox Church mandated pro-war prayers with penalties for non-compliance (Source: @UkraineNow/83108)",
+      "Russian missile strike on Mykolaiv school killed civilians (Source: @UkraineNow/83096)",
+      "Wildberries warehouse in Samara attacked, causing fire (Source: @UkraineNow/83112)",
+      "Russian missiles hit Kharkiv post office terminal, killing one (Source: @UkraineNow/83112)",
+      "Ukrainian air defense downed 109 enemy drones in a night attack (Source: @kpszsu/71176)"
     ],
-    "threat_assessment": "Russian forces continue to escalate their aerial campaign with coordinated drone and missile strikes targeting critical infrastructure, civilian areas, and military positions across Ukraine. The use of AI-guided drones and new unidentified drone types indicates advancing technological capabilities that pose increased risks to Ukrainian defenses. Ground operations remain active in the eastern and northern directions, with repeated assault attempts being repelled. The scale of attacks, including nearly 2000 drones and 144 missiles in one week, demonstrates sustained offensive pressure. Civilian casualties, particularly among children, highlight the humanitarian impact of these intensified operations.",
-    "regional_response": "Ukrainian air defenses have successfully intercepted numerous Russian drones and missiles, though the volume of attacks continues to strain defensive capabilities. Ground forces have effectively countered Russian assault groups in the north-eastern direction, eliminating multiple enemy formations near Kharkiv. Domestically, Ukraine is addressing internal challenges such as anti-Ukrainian sentiment in Poland and conditions at the Artek children's camp. Internationally, the US has signaled potential negotiations while transferring NATO military aid coordination leadership to European allies. These responses reflect both military resilience and broader geopolitical adjustments to the ongoing conflict.",
-    "intelligence_notes": "Russian military innovations include AI-guided drones capable of identifying Ukrainian military uniforms and unit numbers, as claimed by the 71st separate regiment of the Western group. The Russian Orthodox Church has institutionalized war-related prayers, mandating clergy to pray for Russian victory under threat of defrocking. Ukrainian intelligence sources report that many Russian drone and missile component manufacturers remain unsanctioned, enabling continued production. Diplomatic channels suggest potential negotiations may resume in coming weeks, though current military operations show no signs of de-escalation. The conflict's technological dimension is expanding, with both sides deploying increasingly sophisticated unmanned systems."
+    "threat_assessment": "Russia's sustained drone and airstrike campaigns indicate a strategic effort to degrade Ukrainian logistics and morale. The scale of attacks suggests Russia is prioritizing attrition warfare. Civilian infrastructure remains a primary target, escalating humanitarian risks. Ukraine's air defense successes highlight vulnerabilities in Russian planning.",
+    "regional_response": "Ukraine has intensified air defense operations, intercepting hundreds of drones nightly. International partners are urged to increase sanctions pressure on Russia's military-industrial complex. Regional neighbors are monitoring cross-border drone incursions.",
+    "intelligence_notes": "Russia's use of Geran drones and mass drone swarms suggests coordinated targeting of high-value assets. The focus on logistics and energy infrastructure aims to cripple Ukrainian war effort. Ukraine's air defense successes demonstrate adaptive countermeasures but require sustained support. Civilian casualties from Russian strikes underscore the need for stricter enforcement of international law."
   },
   "missiles": 0,
   "drones": 133,
   "kpszsu_timeline": [
-    5,
-    2,
-    6,
-    3,
-    2,
-    2,
-    0,
-    2,
-    8,
-    3,
-    2,
+    4,
+    4,
     1,
-    3,
-    6,
     4,
     0,
-    3,
-    3,
+    0,
+    6,
+    6,
+    2,
+    2,
+    2,
+    4,
+    6,
     1,
+    1,
+    3,
     3,
     2,
-    1,
     3,
-    5
+    0,
+    2,
+    6,
+    1,
+    2
   ]
 }
