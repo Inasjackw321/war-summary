@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-02T21:06:09.442055+00:00",
-  "message_count": 276,
+  "updated_at": "2026-08-02T23:05:19.023447+00:00",
+  "message_count": 271,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 133,
   "red_alerts_timeline": [
-    0,
-    0,
     13,
     0,
     0,
@@ -36,11 +34,11 @@
     0,
     13,
     0,
-    13
+    13,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    4,
-    8,
     11,
     18,
     6,
@@ -48,12 +46,12 @@
     8,
     4,
     9,
-    15,
-    8,
     14,
+    7,
+    16,
     17,
     10,
-    14,
+    13,
     18,
     26,
     13,
@@ -62,35 +60,41 @@
     14,
     5,
     7,
-    5
+    5,
+    4,
+    4
   ],
   "messages_by_channel": {
     "@eRadarrua": 48,
-    "@kpszsu": 62,
+    "@kpszsu": 59,
     "@mon1tor_ua": 11,
     "@UkraineNow": 33,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 17,
-    "@tass_agency": 103
+    "@tass_agency": 101
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/103779",
-    "kpszsu": "https://t.me/kpszsu/71261",
+    "kpszsu": "https://t.me/kpszsu/71263",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69632",
     "UkraineNow": "https://t.me/UkraineNow/83132",
     "DeepStateUA": "https://t.me/DeepStateUA/23716",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32124",
-    "tass_agency": "https://t.me/tass_agency/388382"
+    "tass_agency": "https://t.me/tass_agency/388389"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32109",
-    "eRadarrua": "https://t.me/eRadarrua/103772",
-    "UkraineNow": "https://t.me/UkraineNow/83120",
-    "DeepStateUA": "https://t.me/DeepStateUA/23715",
-    "tass_agency": "https://t.me/tass_agency/388373",
-    "kpszsu": "https://t.me/kpszsu/71242"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32119",
+    "UkraineNow": "https://t.me/UkraineNow/83132",
+    "kpszsu": "https://t.me/kpszsu/71252",
+    "tass_agency": "https://t.me/tass_agency/388373"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/388384",
+      "post_id": 388384,
+      "channel": "tass_agency",
+      "ts": "2026-08-02T21:48:02+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/83132",
       "post_id": 83132,
@@ -210,12 +214,6 @@
       "ts": "2026-08-02T14:28:30+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/ZAfRXwyzYyd3TobrPdkx-4JVdVdnlg8qiRmZX0TOutBDS9Lswx5QfBHOxtqZjtKNG8gOXoqu4b9Id9iORhrStd4R46mMXZRmmz08Aa_tRXAfED3bb1oVeS2H2TPTWM2epzO4Y8I9BWvmqJzxjKsQhgTf42CNAwh0QU_NEYAI0HmKI7YA0DZeaRuWIdCbdEIEWUjQJImJSaU4nOrhkG6uTbUKNI_3_jyyyBCeI25ccLFpaeFHzSN8DEC9O74PV2OWTUBkGf80s2Q06f5cQ0iuvmSWZsnkSasPq47NoIqnOtKQSpYLXck5Zr2qkT4r4xT3kAx50YcthsiTXM8SV96HCw.jpg",
       "companion_text_id": 103758
-    },
-    {
-      "post_url": "https://t.me/tass_agency/388345",
-      "post_id": 388345,
-      "channel": "tass_agency",
-      "ts": "2026-08-02T14:14:05+00:00"
     }
   ],
   "post_images": {
@@ -248,92 +246,102 @@
     "kpszsu/71167": "data/media/kpszsu_71167.jpg",
     "kpszsu/71168": "data/media/kpszsu_71167.jpg"
   },
-  "summary": "Russian forces continue strikes on Ukrainian infrastructure, including energy facilities and ports, while Ukrainian drones target Russian logistics. Frontline advances are slow due to drone threats. Wildberries logistics centers face repeated attacks.",
+  "summary": "Ukrainian air defenses intercepted over 90% of incoming drones, demonstrating operational resilience. Russian forces conducted missile and drone strikes on Ukrainian infrastructure, including a Nova Poshta terminal. Reports indicate potential escalation in attacks on Ukrainian businesses following Wildberries warehouse incidents.",
   "key_points": [
-    "Russian strikes on Ukrainian energy infrastructure and ports cause logistical disruptions (Source: @ukr_leaks_eng/32109)",
-    "Wildberries warehouses in Russia attacked by Ukrainian drones, causing casualties (Source: @eRadarrua/103772)",
-    "Russian military buildup near Ukrainian border in Gomel (Source: @eRadarrua/103748)",
-    "Ukrainian STING drones destroy Russian reconnaissance UAV at 6,858m altitude (Source: @UkraineNow/83120)",
-    "Russian attacks on Odessa port infrastructure reduce grain exports by 33% (Source: @DeepStateUA/23715)",
-    "Russian forces capture 12 settlements in Donbas and Sumy regions (Source: @DeepStateUA/23715)",
-    "Ukrainian air defenses intercept 245 drones over Russian territory (Source: @tass_agency/388373)"
+    "Ukrainian air forces intercepted 90%+ of incoming drones, including Shahed and Lancet types, per military expert Ivan Stupak (Source: @ukr_leaks_eng/32119).",
+    "Russian forces attacked a Nova Poshta terminal in Kharkov region, causing fires but no casualties (Source: @ukr_leaks_eng/32116).",
+    "Russian missile attacks in July reached a record 376 launches, targeting Kyiv (Source: @ukr_leaks_eng/32112).",
+    "Chemical spill occurred in Poltava after Russian strikes, per UkraineNow (Source: @UkraineNow/83132).",
+    "Russian forces targeted Zaporižhzhia's private sector with air strikes, killing one civilian (Source: @UkraineNow/83121).",
+    "Reactionary drones operated from Mykolaiv and Kharkiv regions, targeting ports and logistics hubs (Source: @UkraineNow/83127, @kpszsu/71252).",
+    "Russian air strikes on Ukrainian logistics and command points continued, per Tass reports (Source: @tass_agency/388373)."
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces target Ukrainian energy infrastructure and ports, disrupting logistics. Ukrainian drones strike Russian military and economic targets. Frontline advances remain slow due to persistent drone threats.",
-    "ukraine": [
-      "Russian strikes on energy infrastructure and ports disrupt logistics, with $2.5B estimated export losses (Source: @ukr_leaks_eng/32109)",
-      "Kharkiv region experiences drone attacks near Derhachi (Source: @kpszsu/71242)",
-      "Zaporizhzhia hit by aviation bombs, 11 injured (Source: @UkraineNow/83125)",
-      "Sumy region sees BpLAs near Derhachi (Source: @kpszsu/71242)",
-      "Russian attacks on Odessa port reduce grain throughput by 33% (Source: @DeepStateUA/23715)",
-      "Russian strikes on Nikolaev port damage tugboat (Source: @DeepStateUA/23715)",
-      "Kharkiv region's logistics hub damaged by Russian strikes (Source: @eRadarrua/103741)"
-    ],
-    "russia": [
-      "Russian forces deploy new motorized brigade near Ukraine border (Source: @eRadarrua/103748)",
-      "Russian strikes on Odessa port infrastructure confirmed (Source: @DeepStateUA/23715)",
-      "Russian air defenses intercept 245 Ukrainian drones (Source: @tass_agency/388373)",
-      "Russian military buildup includes artillery and air defense units (Source: @eRadarrua/103748)",
-      "Russian forces capture 12 settlements in Donbas and Sumy (Source: @DeepStateUA/23715)",
-      "Russian strikes on Wildberries logistics centers cause casualties (Source: @eRadarrua/103772)",
-      "Russian military reports 5,103 Ukrainian UAVs destroyed (Source: @DeepStateUA/23715)"
-    ],
-    "eastern_front": [
-      "Russian forces capture Shevchenko, Torskoe, and Krasnoyarskoye (Source: @DeepStateUA/23715)",
-      "Russian advances near Druzhkovka and Kramatorsk-Slavyansk (Source: @DeepStateUA/23715)",
-      "Russian forces take control of Yurchynkovo and Verovka (Source: @DeepStateUA/23715)",
-      "Russian forces advance near Novaya Sech and Mogrytsa (Source: @DeepStateUA/23715)",
-      "Russian forces capture Olgovka and Lyubitskoye (Source: @DeepStateUA/23715)",
-      "Russian forces take control of Malaya Slobodka (Source: @DeepStateUA/23715)",
-      "Russian forces advance near Yurchynkovo and Verovka (Source: @DeepStateUA/23715)"
-    ],
-    "northern_front": [
-      "Russian forces advance near Novaya Sech and Mogrytsa (Source: @DeepStateUA/23715)",
-      "Russian forces capture Malaya Slobodka (Source: @DeepStateUA/23715)",
-      "Russian forces advance near Yurchynkovo and Verovka (Source: @DeepStateUA/23715)",
-      "Russian forces take control of Olgovka and Lyubitskoye (Source: @DeepStateUA/23715)",
-      "Russian forces capture Shevchenko, Torskoe, and Krasnoyarskoye (Source: @DeepStateUA/23715)",
-      "Russian forces advance near Druzhkovka and Kramatorsk-Slavyansk (Source: @DeepStateUA/23715)",
-      "Russian forces take control of Novaya Sech and Mogrytsa (Source: @DeepStateUA/23715)"
-    ],
-    "southern_front": [
-      "Russian forces capture Yurchynkovo and Verovka (Source: @DeepStateUA/23715)",
-      "Russian forces advance near Druzhkovka and Kramatorsk-Slavyansk (Source: @DeepStateUA/23715)",
-      "Russian forces take control of Olgovka and Lyubitskoye (Source: @DeepStateUA/23715)",
-      "Russian forces capture Malaya Slobodka (Source: @DeepStateUA/23715)",
-      "Russian forces advance near Novaya Sech and Mogrytsa (Source: @DeepStateUA/23715)",
-      "Russian forces take control of Shevchenko, Torskoe, and Krasnoyarskoye (Source: @DeepStateUA/23715)",
-      "Russian forces advance near Yurchynkovo and Verovka (Source: @DeepStateUA/23715)"
-    ],
-    "air_war": [
-      "Ukrainian STING drones destroy Russian ZALA Z-20 UAV (Source: @UkraineNow/83120)",
-      "Russian air defenses intercept 245 Ukrainian drones (Source: @tass_agency/388373)",
-      "Russian strikes on Odessa port infrastructure confirmed (Source: @DeepStateUA/23715)",
-      "Russian attacks on Wildberries logistics centers (Source: @eRadarrua/103772)",
-      "Ukrainian drones target Russian military enterprises (Source: @DeepStateUA/23715)",
-      "Russian strikes on Ukrainian energy infrastructure (Source: @ukr_leaks_eng/32109)",
-      "Ukrainian air defenses intercept drones over Russian territory (Source: @tass_agency/388373)"
-    ],
+    "executive_summary": "Ukrainian air defenses demonstrated high efficacy in intercepting drones, while Russian forces maintained sustained attacks on infrastructure. Reports suggest potential escalation in targeting Ukrainian businesses. Civilian casualties and infrastructure damage persist.",
+    "ukraine": {
+      "points": [
+        "Ukrainian air forces achieved over 90% interception rates against drones, including Shahed and Lancet models, through coordinated efforts with European partners (Source: @ukr_leaks_eng/32119).",
+        "A Nova Poshta terminal in Kharkov was destroyed by Russian drones, with trucks and containers on fire but no reported casualties (Source: @ukr_leaks_eng/32116).",
+        "Chemical substance leakage occurred in Poltava following Russian attacks, posing environmental and safety risks (Source: @UkraineNow/83132).",
+        "Russian air strikes on Zaporižhzhia's private sector resulted in one fatality and one injured (Source: @UkraineNow/83121).",
+        "Reactionary drones from Mykolaiv and Kharkiv regions targeted port infrastructure, damaging two civilian ships (Source: @UkraineNow/83127).",
+        "Russian forces attacked Kharkiv with drones, killing five people including two children (Source: @UkraineNow/83132).",
+        "Ukrainian military reported over 445,000 air defense engagements since 2022, including 65,618 Shahed drones (Source: @ukr_leaks_eng/32119)."
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian forces launched 376 missiles in July, primarily targeting Kyiv, exceeding June's numbers (Source: @ukr_leaks_eng/32112).",
+        "Russian air strikes targeted Ukrainian logistics and command points, including a Nova Poshta terminal (Source: @tass_agency/388373).",
+        "Russian military reported destroying 245 Ukrainian drones over Russian regions and the Black Sea (Source: @tass_agency/388373).",
+        "Russian forces conducted strikes on Ukrainian ports and logistics hubs, per Tass (Source: @tass_agency/388376).",
+        "Russian air attacks on Ukrainian infrastructure included chemical facility damage in Poltava (Source: @UkraineNow/83132).",
+        "Russian forces targeted Zaporižhzhia's private sector with air strikes, causing civilian casualties (Source: @UkraineNow/83121).",
+        "Russian military reported 71 migrant deaths in Mediterranean crossings, though unrelated to direct conflict (Source: @tass_agency/388385)."
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Russian missile and drone strikes targeted Kharkiv and Mykolaiv regions, causing infrastructure damage and civilian casualties (Source: @UkraineNow/83132, @UkraineNow/83127).",
+        "Reactionary drones operated from Kharkiv and Mykolaiv areas, targeting ports and logistics (Source: @kpszsu/71252, @kpszsu/71262).",
+        "Russian forces attacked Nova Poshta terminal in Kharkov, destroying equipment (Source: @ukr_leaks_eng/32116).",
+        "Chemical spill in Poltava resulted from Russian strikes, per UkraineNow (Source: @UkraineNow/83132).",
+        "Russian air strikes on Zaporižhzhia's private sector caused one fatality (Source: @UkraineNow/83121).",
+        "Russian forces reported destroying 245 drones over regional areas (Source: @tass_agency/388373).",
+        "Reactionary drones from Kharkiv and Mykolaiv regions targeted logistics hubs (Source: @kpszsu/71233, @kpszsu/71244)."
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Reactionary drones operated from Kharkiv and Mykolaiv regions, targeting ports and logistics (Source: @kpszsu/71252, @kpszsu/71262).",
+        "Russian missile attacks in July targeted Kyiv, per AFP reports (Source: @ukr_leaks_eng/32112).",
+        "Chemical spill in Poltava linked to Russian strikes (Source: @UkraineNow/83132).",
+        "Russian air strikes on Zaporižhzhia's private sector caused civilian casualties (Source: @UkraineNow/83121).",
+        "Reactionary drones from Kharkiv and Mykolaiv regions targeted logistics (Source: @kpszsu/71233, @kpszsu/71244).",
+        "Russian forces reported 245 drone destructions over regional areas (Source: @tass_agency/388373).",
+        "Ukrainian air defenses intercepted over 90% of incoming drones (Source: @ukr_leaks_eng/32119)."
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Reactionary drones from Mykolaiv and Kharkiv regions targeted ports and logistics (Source: @kpszsu/71252, @kpszsu/71262).",
+        "Russian missile attacks in July targeted Kyiv, per AFP (Source: @ukr_leaks_eng/32112).",
+        "Chemical spill in Poltava from Russian strikes (Source: @UkraineNow/83132).",
+        "Russian air strikes on Zaporižhzhia's private sector caused one death (Source: @UkraineNow/83121).",
+        "Reactionary drones from Kharkiv and Mykolaiv regions targeted logistics (Source: @kpszsu/71233, @kpszsu/71244).",
+        "Russian forces reported 245 drone destructions over regional areas (Source: @tass_agency/388373).",
+        "Ukrainian air defenses achieved 90%+ interception rates (Source: @ukr_leaks_eng/32119)."
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Ukrainian air forces intercepted 90%+ of incoming drones, including Shahed and Lancet models (Source: @ukr_leaks_eng/32119).",
+        "Russian forces launched 376 missiles in July, primarily targeting Kyiv (Source: @ukr_leaks_eng/32112).",
+        "Russian air strikes targeted Ukrainian logistics and command points (Source: @tass_agency/388373).",
+        "Russian forces destroyed 245 drones over regional areas (Source: @tass_agency/388373).",
+        "Ukrainian air defenses reported over 445,000 engagements since 2022 (Source: @ukr_leaks_eng/32119).",
+        "Reactionary drones from Kharkiv and Mykolaiv regions targeted logistics (Source: @kpszsu/71233, @kpszsu/71244).",
+        "Russian air attacks on Zaporižhzhia's private sector caused civilian casualties (Source: @UkraineNow/83121)."
+      ]
+    },
     "key_developments": [
-      "Russian forces capture 12 settlements in Donbas and Sumy regions, including Shevchenko and Krasnoyarskoye (Source: @DeepStateUA/23715)",
-      "Ukrainian STING drones destroy Russian reconnaissance UAV at 6,858m altitude (Source: @UkraineNow/83120)",
-      "Russian strikes on Odessa port reduce grain throughput by 33% (Source: @DeepStateUA/23715)",
-      "Wildberries logistics centers attacked by Ukrainian drones, causing 17 wounded and 1 death (Source: @eRadarrua/103772)",
-      "Russian military buildup near Ukraine border includes artillery and air defense units (Source: @eRadarrua/103748)",
-      "Ukrainian air defenses intercept 245 drones over Russian territory (Source: @tass_agency/388373)",
-      "Russian strikes on Wildberries warehouses disrupt logistics, with $2.5B estimated export losses (Source: @DeepStateUA/23715)"
+      "Russian missile attacks in July reached 376 launches, targeting Kyiv, exceeding June's numbers (Source: @ukr_leaks_eng/32112).",
+      "Ukrainian air defenses intercepted 90%+ of incoming drones, including Shahed and Lancet models (Source: @ukr_leaks_eng/32119).",
+      "Chemical spill in Poltava resulted from Russian strikes, per UkraineNow (Source: @UkraineNow/83132).",
+      "Russian air strikes on Zaporižhzhia's private sector caused one fatality (Source: @UkraineNow/83121).",
+      "Reactionary drones from Mykolaiv and Kharkiv regions targeted port infrastructure (Source: @UkraineNow/83127).",
+      "Russian forces attacked Nova Poshta terminal in Kharkov, destroying equipment (Source: @ukr_leaks_eng/32116).",
+      "Ukrainian military reported over 445,000 air defense engagements since 2022 (Source: @ukr_leaks_eng/32119)."
     ],
-    "threat_assessment": "Russian forces maintain pressure through infrastructure strikes and frontline advances, while Ukrainian drone campaigns target economic and military assets. The conflict remains volatile with no immediate resolution in sight.",
-    "regional_response": "Ukrainian authorities report $2.5B potential export losses from port disruptions, while Russian forces continue strikes on logistics hubs. International actors remain divided on escalation management.",
-    "intelligence_notes": "Persistent drone threats limit frontline advances, while economic warfare through infrastructure strikes creates long-term vulnerabilities. Russian military buildup near the border suggests sustained offensive capacity."
+    "threat_assessment": "Russian forces are escalating attacks on Ukrainian infrastructure, including ports and logistics hubs, while Ukrainian air defenses maintain high interception rates. The potential targeting of Ukrainian businesses following Wildberries incidents raises concerns for economic stability. Civilian casualties and chemical spills indicate ongoing operational risks.",
+    "regional_response": "Ukrainian authorities are coordinating air defense efforts with European partners to counter drone and missile threats. Civilian infrastructure remains vulnerable to Russian strikes, with chemical spills and attacks on ports requiring immediate mitigation. Regional allies are urged to enhance support for logistics and defense capabilities.",
+    "intelligence_notes": "The high frequency of Russian missile and drone attacks suggests a sustained offensive strategy. Ukrainian air defenses' effectiveness highlights the importance of continued Western military aid. The chemical spill in Poltava and attacks on ports underscore the need for rapid response mechanisms to minimize civilian and environmental impact."
   },
   "missiles": 0,
   "drones": 133,
   "kpszsu_timeline": [
-    1,
-    3,
     5,
     5,
     0,
@@ -344,8 +352,8 @@
     3,
     1,
     3,
-    3,
-    2,
+    4,
+    1,
     2,
     8,
     6,
@@ -353,6 +361,8 @@
     1,
     5,
     2,
+    1,
+    0,
     1,
     0,
     1
