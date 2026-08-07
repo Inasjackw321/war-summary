@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-07T09:23:10.655447+00:00",
-  "message_count": 324,
+  "updated_at": "2026-08-07T11:07:23.728995+00:00",
+  "message_count": 322,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,19 +13,19 @@
   ],
   "red_alerts": 3767,
   "red_alerts_timeline": [
-    0,
-    0,
     406,
     0,
     0,
     0,
-    812,
-    0,
+    406,
+    406,
     0,
     406,
     0,
-    1625,
+    1219,
     406,
+    406,
+    0,
     0,
     0,
     0,
@@ -39,57 +39,91 @@
     0
   ],
   "combined_activity_timeline": [
-    21,
-    17,
-    12,
     15,
-    10,
-    18,
-    19,
-    19,
-    13,
-    14,
-    10,
-    11,
-    11,
-    7,
     12,
-    8,
-    6,
-    8,
+    11,
+    19,
+    15,
+    24,
+    12,
+    10,
+    14,
+    11,
     9,
-    17,
+    10,
+    8,
+    12,
+    7,
+    5,
+    10,
+    14,
     16,
-    13,
-    17,
-    20
+    14,
+    16,
+    21,
+    20,
+    16
   ],
   "messages_by_channel": {
-    "@eRadarrua": 36,
-    "@kpszsu": 67,
+    "@eRadarrua": 39,
+    "@kpszsu": 63,
     "@mon1tor_ua": 8,
     "@UkraineNow": 26,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 28,
-    "@tass_agency": 158
+    "@tass_agency": 157
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/104336",
-    "kpszsu": "https://t.me/kpszsu/71844",
+    "eRadarrua": "https://t.me/eRadarrua/104341",
+    "kpszsu": "https://t.me/kpszsu/71849",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69832",
-    "UkraineNow": "https://t.me/UkraineNow/83273",
+    "UkraineNow": "https://t.me/UkraineNow/83276",
     "DeepStateUA": "https://t.me/DeepStateUA/23722",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32264",
-    "tass_agency": "https://t.me/tass_agency/389166"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32268",
+    "tass_agency": "https://t.me/tass_agency/389188"
   },
-  "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/71816",
-    "UkraineNow": "https://t.me/UkraineNow/83259",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32263",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/69827",
-    "DeepStateUA": "https://t.me/DeepStateUA/23722"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/104340",
+      "post_id": 104340,
+      "channel": "eRadarrua",
+      "ts": "2026-08-07T10:51:10+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/eeB-HnweAwWwFVfFxeQohDNVKp9CXzf2LLwetPtnksAJ941Cj3fGXKXVSBJRUJHwlzB68icM_u61ZykZpUR_z8wX4pNK5Cm83j4-1ldKRKpONEgTs-1oCEnZoU8pGdY98bgaKK7oeazFtUywhi7RQdXJvjXalEoyffQY94Ar2gfmJhd5k762xumuhsdELL2NJIPz9XycKHrydq_fKH97LMSjh6jxI5ecthl9kF47qvNK5_mBpZx2vhi5ociDxaxEr8MNXBOv3trAWQ--OM2s2FqJTw4hZnlzs_KveOJ3OETJhIlaZaYKaYWVVwyJm_ZyVIZ4JzOBI-RqPcN-K54ZBQ.jpg",
+      "companion_text_id": 104341
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389187",
+      "post_id": 389187,
+      "channel": "tass_agency",
+      "ts": "2026-08-07T10:48:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83276",
+      "post_id": 83276,
+      "channel": "UkraineNow",
+      "ts": "2026-08-07T10:30:55+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389182",
+      "post_id": 389182,
+      "channel": "tass_agency",
+      "ts": "2026-08-07T10:26:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32265",
+      "post_id": 32265,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-07T09:33:32+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/104337",
+      "post_id": 104337,
+      "channel": "eRadarrua",
+      "ts": "2026-08-07T09:32:31+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/LH97Vlll38VM6IhhCz-PilmGu4hRPGmBYrp2y2uWvMPNaTm6-1wYQn8bwVCE0T4pyzOxU7CEucjnhatOrIXvqQYj6ebQ33e78hv4Vrd6nb7a5ZeYNUyZqVYnU-aOfzxCbWAHPD1ACrMhKjNVouDQGcyN5hw2Q7sRC76pvIvjeAD9qNParYI_o3OW8Zz6trnri-gdlSB36FFyiWLds9oSzsaamXeL8PpYHvaXarjVfNQE1ialoxglISSwv3JebO2S01PikwwGCuv7us2Jf7ycl_vnz1xL5HvfhGWhZkPvragHSZy_SpS8iPHvkEOXC9aeDlYjrb-HH2MNE_i-HL8vAg.jpg",
+      "companion_text_id": 104336
+    },
     {
       "post_url": "https://t.me/tass_agency/389166",
       "post_id": 389166,
@@ -175,46 +209,6 @@
       "post_id": 32257,
       "channel": "ukr_leaks_eng",
       "ts": "2026-08-07T06:02:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83267",
-      "post_id": 83267,
-      "channel": "UkraineNow",
-      "ts": "2026-08-07T06:02:13+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/104324",
-      "post_id": 104324,
-      "channel": "eRadarrua",
-      "ts": "2026-08-07T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/NBClwUfZA1pI_bu0nR4Astd-jnj3_DusNYSKOCMPIyN-xGRRbwQNZ8MqpXLEuMc3xuGjlnHXd4mj980m0EnrM3eoP5nG6Y4L5rzNi7QFgCSOGJvN5JzwujXAnyQeUly9rNmlPO8uyx_D4FcY_ODaq5kz6KLfr-QrFSvgzde6M0by2RXMhELT30PzfiwwdbOZ3dHQIDjUZW63mgPHdi9-TV84veYugLiPS9iuEN-qvpEEwvaBZGwZQ-fQAy6uY5WZ5ElgAJDHLLIa_CGRLezj3E6a_MaOI6riMRf4_v0cLKaJ0_WHjWTO-5YRWAByC5mBEdJvmg74y9AOUbo9WHhUgQ.jpg",
-      "companion_text_id": 104323
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389131",
-      "post_id": 389131,
-      "channel": "tass_agency",
-      "ts": "2026-08-07T05:56:54+00:00"
-    },
-    {
-      "post_url": "https://t.me/kpszsu/71821",
-      "post_id": 71821,
-      "channel": "kpszsu",
-      "ts": "2026-08-07T05:30:28+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/B2LhQVQUSoEd3tYRIEav4Qin4qIAeWCWjgf4V0HZnqMIv0y_V3vZ9prrViiJ9yUuwZ3v1lJ-XqPW9LrLLJYqExQmuHG44FwqT7N0Cap47wYU1VkfY_4e-f7Wnm2uKHONqZiW030Of5uiAeg-tCX5VV87o2PZQub7o87V8sSAtLoeC-uXepd_g1ErIf5dJfqJEZq1fxRfgW_d2MHvuMiktoKjieXPh6ogUq_mfZpAmkMmBXhqtb_iFQnSRLcefENAuGf5dsExMUlnoddjvrQdpR3nckd67cnWWlbs6W5CgknwLJ5V_uXZ8V3dQe0MFAwaL60Z-tRE1OmtJT1MEKmmRw.jpg",
-      "companion_text_id": 71820
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32255",
-      "post_id": 32255,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-07T05:29:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389126",
-      "post_id": 389126,
-      "channel": "tass_agency",
-      "ts": "2026-08-07T05:00:27+00:00"
     }
   ],
   "post_images": {
@@ -222,125 +216,130 @@
     "eRadarrua/104323": "data/media/eRadarrua_104324.jpg",
     "eRadarrua/104332": "data/media/eRadarrua_104332.jpg",
     "eRadarrua/104333": "data/media/eRadarrua_104332.jpg",
-    "eRadarrua/104288": "data/media/eRadarrua_104288.jpg",
+    "eRadarrua/104337": "data/media/eRadarrua_104337.jpg",
+    "eRadarrua/104336": "data/media/eRadarrua_104337.jpg",
+    "eRadarrua/104340": "data/media/eRadarrua_104340.jpg",
+    "eRadarrua/104341": "data/media/eRadarrua_104340.jpg",
     "eRadarrua/104298": "data/media/eRadarrua_104298.jpg",
     "eRadarrua/104308": "data/media/eRadarrua_104308.jpg",
     "eRadarrua/104310": "data/media/eRadarrua_104308.jpg",
     "eRadarrua/104309": "data/media/eRadarrua_104309.jpg",
     "eRadarrua/104315": "data/media/eRadarrua_104315.jpg",
     "eRadarrua/104314": "data/media/eRadarrua_104315.jpg",
-    "eRadarrua/104269": "data/media/eRadarrua_104269.jpg",
-    "eRadarrua/104268": "data/media/eRadarrua_104269.jpg",
-    "eRadarrua/104270": "data/media/eRadarrua_104270.jpg",
-    "eRadarrua/104271": "data/media/eRadarrua_104271.jpg",
-    "eRadarrua/104273": "data/media/eRadarrua_104273.jpg",
-    "eRadarrua/104272": "data/media/eRadarrua_104273.jpg",
     "eRadarrua/104278": "data/media/eRadarrua_104278.jpg",
     "eRadarrua/104279": "data/media/eRadarrua_104279.jpg",
     "eRadarrua/104280": "data/media/eRadarrua_104280.jpg",
+    "eRadarrua/104288": "data/media/eRadarrua_104288.jpg",
+    "eRadarrua/104262": "data/media/eRadarrua_104262.jpg",
+    "eRadarrua/104264": "data/media/eRadarrua_104264.jpg",
+    "eRadarrua/104265": "data/media/eRadarrua_104265.jpg",
+    "eRadarrua/104266": "data/media/eRadarrua_104265.jpg",
     "kpszsu/71821": "data/media/kpszsu_71821.jpg",
     "kpszsu/71820": "data/media/kpszsu_71821.jpg"
   },
-  "summary": "Ukraine faces intensified drone and missile attacks from Russia, with significant military and civilian impacts. The Kherson power outage highlights infrastructure vulnerabilities. US intelligence indicates a rising threat of Russian aggression in Europe.",
+  "summary": "Ukrainian forces shot down record numbers of drones and missiles in July 2026, while Russia launched major Shahed drone attacks across northern and southern fronts. Norwegian Prime Minister Jonas Gahr Støre confirmed Norway's readiness to supply air defense systems to Ukraine. UN Secretary-General condemned Russian missile attacks on Kyiv and Ukrainian drone strikes on Russian regions causing civilian casualties.",
   "key_points": [
-    "Ukrainian forces report BpLA attacks from the Black Sea targeting Odesa and surrounding areas (Source: @kpszsu/71816).",
-    "Kherson lost all electricity after a Russian attack, requiring days for full restoration (Source: @UkraineNow/83259).",
-    "US intelligence assesses rising European threat from Russia, citing cyber and local provocations (Source: @ukr_leaks_eng/32263).",
-    "Azerbaijan confirms gas supply readiness to Ukraine via underground storage (Source: @UkraineNow/83257).",
-    "Military medical commission in Mukachevo investigates illegal removal of 1,500 conscripts (Source: @ukr_leaks_eng/32238).",
-    "Russian forces destroyed 5,300+ air targets in July, including 3,656 Shahed drones (Source: @kpszsu/71840).",
-    "Russian BpLA attacks reported in Kharkiv, Sumy, and Kyiv regions (Source: @mon1tor_ua/69827).",
-    "Ukrainian volunteers from 72 countries now number ~16,000 (Source: @DeepStateUA/23722)."
+    "Ukrainian forces destroyed over 5,300 aerial targets in July 2026, including 3,656 Shahed-type drones, 111 Kh-101 cruise missiles, 10 Iskander-M ballistic missiles, and 24 Kalibr cruise missiles (Source: kpszsu/71840).",
+    "Russian forces launched coordinated Shahed drone attacks involving 147 drones from multiple directions including Orel, Kursk, and Amur regions targeting northern, southern, and eastern Ukraine (Source: kpszsu/71821).",
+    "Norwegian Prime Minister Jonas Gahr Støre confirmed Norway's readiness to provide air defense systems to Ukraine, with President Zelenskyy thanking Norway for the commitment (Source: UkraineNow/83261).",
+    "UN Secretary-General condemned Russian missile attacks on Kyiv and Ukrainian drone strikes on Russian regions that caused civilian casualties and infrastructure damage (Source: UkraineNow/83270).",
+    "Market monitoring group eRadarrua reported drone activity targeting logistics hubs including Wildberries distribution center in Yekaterinburg, approximately 1,700-1,750 km from the Ukrainian border (Source: eRadarrua/104338).",
+    "Ukrainian forces reported shooting down 114 enemy drones including Shahed, Hermes, Italmast, and Parody types in a nighttime operation on August 7 (Source: kpszsu/71821).",
+    "Russian missile attacks damaged infrastructure in Kherson, leaving the city without electricity and requiring several days for full restoration (Source: UkraineNow/83252)."
   ],
   "sentiment": "escalating",
-  "intensity": 9,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukraine endures relentless BpLA and missile assaults, with Kherson's power grid critically damaged. US intelligence warns of escalating European threat. Azerbaijan's energy cooperation offers limited strategic relief.",
+    "executive_summary": "Ukrainian forces destroyed a record 5,300+ aerial targets in July 2026, demonstrating enhanced air defense capabilities against Russian missile and drone assaults. Russian forces escalated attacks with coordinated Shahed drone waves involving 147+ drones launched from multiple directions across northern and southern fronts. International support increased with Norway offering air defense systems while the UN condemned both Russian missile attacks on Kyiv and Ukrainian cross-border drone operations.",
     "ukraine": {
       "points": [
-        "Kherson's electricity outage follows Russian strikes on energy infrastructure, leaving 45,000 residents without power (Source: @UkraineNow/83259).",
-        "BpLA attacks from the Black Sea have targeted Odesa and Sumy regions, with 707 Lancet drones destroyed in July (Source: @kpszsu/71840).",
-        "Military medical commission in Mukachevo conducts searches after 1,500 conscripts were illegally removed from service lists (Source: @ukr_leaks_eng/32238).",
-        "Azerbaijan's gas supply agreement with Ukraine involves 12 EU countries and utilizes Ukrainian underground storage (Source: @UkraineNow/83257).",
-        "16,000+ foreign volunteers from 72 nations now support Ukraine's defense (Source: @DeepStateUA/23722).",
-        "Russian BpLA attacks in Kharkiv and Sumy regions have caused civilian casualties and infrastructure damage (Source: @mon1tor_ua/69827).",
-        "Ukrainian forces destroyed 4,800+ tactical BpLA in July, including 3656 Shahed-131/136/238 variants (Source: @kpszsu/71840)."
+        "In July 2026, Ukrainian forces destroyed over 5,300 aerial targets, including 3,656 tactical Shahed-type drones, 111 Kh-101 cruise missiles, 10 Iskander-M ballistic missiles, 24 Kalibr cruise missiles, 49 guided aviation missiles Kh-59/69, 1 Iskander-K cruise missile, 2 Bal anti-ship missiles, 888 Lancet loitering munitions, 707 reconnaissance drones, and 888 other Shahed variants (Source: kpszsu/71840).",
+        "Air Force operations conducted over 1,500 combat flights in July 2026, with approximately 1,100 fighter jets for air superiority and 300 for strike and support missions (Source: kpszsu/71840).",
+        "Ukrainian forces shot down 114 enemy drones including Shahed, Hermes, Italmast, and Parody types in a coordinated nighttime operation on August 7, with 29 confirmed hits on 15 locations and debris falling on 4 sites (Source: kpszsu/71821).",
+        "Russian missile attacks damaged critical infrastructure including the sorting depot in Pavlohrad, where two workers were killed, and Kherson lost electricity requiring several days for full restoration (Source: UkraineNow/83259, UkraineNow/83252).",
+        "Ukrainian forces reported intercepting 3 reactive Shahed drones from Poltava heading to Cherkasy, 2 from Chernihiv toward Poltava and Lubensky district, and 1 from Cherkasy toward Kyiv and Borispol districts, plus 3 from Orel region (Source: mon1tor_ua/69827)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched 111 Kh-101 cruise missiles and 10 Iskander-M/KN-23 ballistic missiles in July (Source: @kpszsu/71840).",
-        "BpLA attacks from the Black Sea and northern fronts target Ukrainian cities, including Odesa and Kharkiv (Source: @kpszsu/71816).",
-        "Russian military destroyed 707 Lancet drones in July, indicating sustained drone warfare (Source: @kpszsu/71840).",
-        "Russian propaganda claims readiness for prolonged war, citing European funding for Ukraine (Source: @UkraineNow/83255).",
-        "Russian strikes on Ukrainian energy infrastructure in Zaporizhzhia caused water shortages in Marhanets (Source: @UkraineNow/83248)."
+        "Russian forces launched major Shahed drone attacks involving 147 drones from multiple launch points including Orel, Kursk, Amur, and Tver regions, targeting locations across northern, southern, and eastern Ukraine (Source: kpszsu/71821).",
+        "Russian missile attacks damaged infrastructure including a Wildberries logistics hub in Yekaterinburg, approximately 1,700-1,750 km from the Ukrainian border, and destroyed Ukrainian warehouse facilities totaling over 400,000 square meters including Fozzy Group, Rozetka, Epicenter, Nova Poshta, and other major companies (Source: eRadarrua/104338, ukr_leaks_eng/32250).",
+        "Russian military claimed destruction of Ukrainian convoys with heavy equipment in Dnipropetrovsk region using Geran and Iskander missiles, with video evidence released by Ministry of Defense (Source: tass_agency/389155).",
+        "Russian authorities reported drone attacks on logistics infrastructure including a 'usual minibus' incident and ongoing operations targeting distribution centers in the Ural region (Source: eRadarrua/104283, eRadarrua/104338).",
+        "Russian law enforcement reported criminal cases including a man suspected of murdering his three-month-old son in Krasnoyarsk region and a woman accused of killing her infant in Irkutsk region due to crying (Source: tass_agency/389177, tass_agency/389154)."
       ]
     },
     "eastern_front": {
       "points": [
-        "BpLA attacks from the Black Sea and northern fronts have targeted Sumy, Kharkiv, and Kyiv regions (Source: @kpszsu/71813).",
-        "Russian forces destroyed 5,300+ air targets in July, including 24 Kalibr cruise missiles (Source: @kpszsu/71840).",
-        "Russian BpLA attacks in Kharkiv and Sumy regions have caused civilian casualties and infrastructure damage (Source: @mon1tor_ua/69827).",
-        "Russian military destroyed 3,656 Shahed drones in July, suggesting escalating drone warfare (Source: @kpszsu/71840)."
+        "Drone activity reported in Dnipro region with drones approaching from the north heading west, and in Kharkiv region with drones from the south heading toward Dnipropetrovsk region (Source: kpszsu/71842, kpszsu/71849).",
+        "Market monitoring reported drone attacks on logistics hubs including Wildberries distribution center in Yekaterinburg, approximately 1,700-1,750 km from the Ukrainian border (Source: eRadarrua/104338).",
+        "Ukrainian forces reported drone activity targeting Sumy region with drones approaching from the center heading west (Source: kpszsu/71842).",
+        "Russian forces launched coordinated attacks from Amur region with drones targeting areas approximately 1,700-1,750 km from the nearest Ukrainian border point (Source: eRadarrua/104338)."
       ]
     },
     "northern_front": {
       "points": [
-        "BpLA attacks from the Black Sea and northern fronts have targeted Sumy and Kharkiv regions (Source: @kpszsu/71813).",
-        "Russian forces destroyed 5,300+ air targets in July, including 111 Kh-101 cruise missiles (Source: @kpszsu/71840)."
+        "Ukrainian forces reported intercepting 3 reactive Shahed drones from Poltava region heading to Cherkasy and Zolotnytsky district (Source: mon1tor_ua/69827).",
+        "Drone activity detected in Chernihiv region with 2 reactive Shahed drones targeting Poltava region and Lubensky district (Source: mon1tor_ua/69827).",
+        "Market monitoring reported drone attacks on logistics infrastructure in Yekaterinburg, approximately 1,700-1,750 km from the Ukrainian border (Source: eRadarrua/104338).",
+        "Ukrainian forces reported drone activity in Sumy region with drones approaching from the center heading west (Source: kpszsu/71842)."
       ]
     },
     "southern_front": {
       "points": [
-        "BpLA attacks from the Black Sea have targeted Odesa and surrounding areas (Source: @kpszsu/71816).",
-        "Russian forces destroyed 3,656 Shahed drones in July, indicating sustained drone warfare (Source: @kpszsu/71840)."
+        "Drone activity reported in Mykolaiv region with drones approaching from the south heading north (Source: kpszsu/71842).",
+        "Market monitoring reported drone attacks on logistics hubs including Wildberries distribution center in Yekaterinburg, approximately 1,700-1,750 km from the Ukrainian border (Source: eRadarrua/104338).",
+        "Ukrainian forces reported drone activity in Kherson region with drones approaching from the south heading north (Source: kpszsu/71842).",
+        "Russian missile attacks damaged critical infrastructure in Kherson, leaving the city without electricity and requiring several days for full restoration (Source: UkraineNow/83252)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air forces conducted 1,500+ sorties in July, including 1,100 for air defense (Source: @kpszsu/71840).",
-        "Russian forces destroyed 3,656 Shahed drones in July, highlighting air superiority challenges (Source: @kpszsu/71840)."
+        "Ukrainian forces destroyed over 5,300 aerial targets in July 2026, including 3,656 Shahed-type tactical drones, 111 Kh-101 cruise missiles, 10 Iskander-M ballistic missiles, 24 Kalibr cruise missiles, 49 guided aviation missiles Kh-59/69, 1 Iskander-K cruise missile, 2 Bal anti-ship missiles, 888 Lancet loitering munitions, 707 reconnaissance drones, and 888 other Shahed variants (Source: kpszsu/71840).",
+        "Air Force operations conducted over 1,500 combat flights in July 2026, with approximately 1,100 fighter jets for air superiority and 300 for strike and support missions (Source: kpszsu/71840).",
+        "Ukrainian forces shot down 114 enemy drones including Shahed, Hermes, Italmast, and Parody types in a coordinated nighttime operation on August 7, with 29 confirmed hits on 15 locations and debris falling on 4 sites (Source: kpszsu/71821).",
+        "Russian forces launched coordinated Shahed drone waves involving 147 drones from multiple directions including Orel, Kursk, and Amur regions targeting northern, southern, and eastern Ukraine (Source: kpszsu/71821)."
       ]
     },
     "key_developments": [
-      "Ukrainian forces destroyed 3,656 Shahed drones in July, indicating sustained drone warfare (Source: @kpszsu/71840).",
-      "Kherson's power outage follows Russian strikes on energy infrastructure, leaving 45,000 residents without power (Source: @UkraineNow/83259).",
-      "US intelligence assesses rising European threat from Russia, citing cyber and local provocations (Source: @ukr_leaks_eng/32263).",
-      "Azerbaijan's gas supply agreement with Ukraine involves 12 EU countries and utilizes Ukrainian underground storage (Source: @UkraineNow/83257).",
-      "Russian BpLA attacks in Kharkiv and Sumy regions have caused civilian casualties and infrastructure damage (Source: @mon1tor_ua/69827).",
-      "Russian forces destroyed 5,300+ air targets in July, including 111 Kh-101 cruise missiles (Source: @kpszsu/71840).",
-      "16,000+ foreign volunteers from 72 nations now support Ukraine's defense (Source: @DeepStateUA/23722)."
+      "Ukrainian forces destroyed a record 5,300+ aerial targets in July 2026, including 3,656 Shahed-type drones, 111 Kh-101 cruise missiles, 10 Iskander-M ballistic missiles, and 24 Kalibr cruise missiles, demonstrating enhanced air defense capabilities (Source: kpszsu/71840).",
+      "Russian forces escalated attacks with coordinated Shahed drone operations involving 147+ drones launched from Orel, Kursk, Amur, and other regions across northern and southern fronts (Source: kpszsu/71821).",
+      "Norwegian Prime Minister Jonas Gahr Støre confirmed Norway's commitment to supply air defense systems to Ukraine, with President Zelenskyy thanking the Nordic nation for its support (Source: UkraineNow/83261).",
+      "UN Secretary-General condemned Russian missile attacks on Kyiv and Ukrainian drone strikes on Russian regions that caused civilian casualties and infrastructure damage (Source: UkraineNow/83270).",
+      "Russian missile attacks damaged critical infrastructure including Kherson's power grid and a Wildberries logistics hub in Yekaterinburg, approximately 1,700-1,750 km from the Ukrainian border (Source: UkraineNow/83252, eRadarrua/104338).",
+      "Ukrainian forces reported intercepting 3 reactive Shahed drones from Poltava region heading to Cherkasy and Zolotnytsky district, plus 2 from Chernihiv toward Poltava and Lubensky district (Source: mon1tor_ua/69827).",
+      "Market monitoring reported drone attacks on logistics infrastructure including a 'usual minibus' incident and ongoing operations targeting distribution centers in the Ural region (Source: eRadarrua/104283, eRadarrua/104338)."
     ],
-    "threat_assessment": "US intelligence warns of escalating Russian aggression in Europe, with cyberattacks and local provocations as primary vectors. The threat is projected to persist until 2029, driven by Russia's prolonged war in Ukraine and strategic recalibration.",
-    "regional_response": "Azerbaijan's energy cooperation with Ukraine offers limited strategic relief, while neighboring states remain cautious about Russian threats. Ukraine's reliance on foreign volunteers and military aid underscores its vulnerability to Russian escalation.",
-    "intelligence_notes": "The destruction of 3,656 Shahed drones in July suggests Russia's continued focus on drone warfare. US intelligence's revised threat assessment highlights the need for sustained Western support to counter potential Russian escalation in Europe."
+    "threat_assessment": "Russian forces are escalating their missile and drone campaign with coordinated Shahed operations involving 147+ drones launched from multiple directions, indicating increased operational tempo and capability deployment. Ukrainian forces have demonstrated enhanced air defense effectiveness by destroying record numbers of aerial targets, though infrastructure attacks continue to cause civilian casualties and service disruptions. The conflict is expanding geographically with drone activity reaching as far as Yekaterinburg in the Ural region, approximately 1,700-1,750 km from the Ukrainian border, suggesting broader operational reach.",
+    "regional_response": "Norway has offered to supply air defense systems to Ukraine, with Prime Minister Jonas Gahr Støre confirming the commitment and President Zelenskyy expressing gratitude for the support. The UN Secretary-General has condemned both Russian missile attacks on Kyiv and Ukrainian drone operations on Russian territory, highlighting international concern over the expanding scope of cross-border operations. German authorities have arrested a Ukrainian citizen suspected of espionage activities targeting a Bavarian defense company, indicating intelligence security concerns within the region.",
+    "intelligence_notes": "Market monitoring group eRadarrua has been tracking logistics infrastructure attacks including a Wildberries distribution center in Yekaterinburg, approximately 1,700-1,750 km from the Ukrainian border, suggesting operational expansion. Ukrainian intelligence reports indicate Russian forces are using captured Ukrainian soldiers in combat formations, potentially violating Geneva Convention provisions regarding prisoners of war. Fraud schemes have emerged where individuals pose as Shahed drone owners offering protection services to Ukrainian businesses, indicating exploitation of the conflict environment for criminal purposes."
   },
   "missiles": 111,
   "drones": 3656,
   "kpszsu_timeline": [
-    5,
-    2,
     0,
-    1,
+    0,
     1,
     7,
-    5,
-    5,
-    0,
-    3,
-    2,
+    4,
+    6,
     1,
     2,
-    2,
-    5,
-    4,
-    2,
+    1,
+    3,
+    1,
     3,
     2,
+    7,
+    2,
+    1,
     4,
+    3,
     2,
-    2,
-    5,
+    3,
+    4,
+    3,
+    1,
     2
   ]
 }
