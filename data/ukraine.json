@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-08T05:14:00.317393+00:00",
-  "message_count": 346,
+  "updated_at": "2026-08-08T07:24:44.027503+00:00",
+  "message_count": 348,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,76 +11,76 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 3767,
+  "red_alerts": 151,
   "red_alerts_timeline": [
     0,
     0,
     0,
-    0,
-    0,
-    406,
-    0,
-    406,
-    0,
-    0,
-    812,
-    0,
-    406,
-    812,
+    14,
+    14,
     0,
     0,
     0,
-    406,
-    406,
+    27,
+    0,
+    14,
+    27,
+    0,
+    0,
+    0,
+    14,
+    14,
     0,
     0,
     0,
     0,
-    0
+    0,
+    0,
+    27
   ],
   "combined_activity_timeline": [
-    14,
-    18,
-    13,
+    17,
     22,
-    19,
+    17,
+    21,
+    15,
     21,
     13,
-    23,
-    14,
-    17,
-    15,
+    18,
+    13,
     14,
     10,
-    9,
-    9,
-    13,
-    36,
-    9,
-    20,
+    8,
+    10,
+    12,
+    38,
+    8,
+    19,
     9,
     4,
-    5,
-    8,
-    11
+    6,
+    9,
+    10,
+    17,
+    15
   ],
   "messages_by_channel": {
-    "@eRadarrua": 49,
-    "@kpszsu": 67,
+    "@eRadarrua": 58,
+    "@kpszsu": 73,
     "@mon1tor_ua": 42,
-    "@UkraineNow": 24,
+    "@UkraineNow": 21,
     "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 25,
-    "@tass_agency": 137
+    "@ukr_leaks_eng": 24,
+    "@tass_agency": 128
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/104428",
-    "kpszsu": "https://t.me/kpszsu/71932",
+    "eRadarrua": "https://t.me/eRadarrua/104445",
+    "kpszsu": "https://t.me/kpszsu/71947",
     "mon1tor_ua": "https://t.me/mon1tor_ua/69882",
-    "UkraineNow": "https://t.me/UkraineNow/83288",
+    "UkraineNow": "https://t.me/UkraineNow/83291",
     "DeepStateUA": "https://t.me/DeepStateUA/23724",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32284",
-    "tass_agency": "https://t.me/tass_agency/389275"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32287",
+    "tass_agency": "https://t.me/tass_agency/389280"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/83277",
@@ -91,6 +91,34 @@
     "kpszsu": "https://t.me/kpszsu/71903"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/83291",
+      "post_id": 83291,
+      "channel": "UkraineNow",
+      "ts": "2026-08-08T07:13:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389280",
+      "post_id": 389280,
+      "channel": "tass_agency",
+      "ts": "2026-08-08T07:03:27+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/71936",
+      "post_id": 71936,
+      "channel": "kpszsu",
+      "ts": "2026-08-08T06:00:48+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Lg7nROT8UtZ2V_dJ0lxHt8-FLmbP08ZQPLpE9f33vnA46s2vraDAa3R2QBYaEHjWK_gCTuObQYoNEBmN8sOo8Sr7BhnwQ9GXpEUgtA2wRbjILtBgfm_o9_hUd0ONDPihx_-RZ5ghrrinp2ca8TMekoLCr2YFOJSsZK5114jmYonL-KL5t6pX1KViYerIbZXFYGB5sOvY2RgLrpz7xTDWIVlmlPa1nyb_dYZ6rdoj6SQArvII-SFOQByTCDDlKsDM7TI2f6Fdd6F_GOtDRaoB7YZ3UjeoXMzK_elwb5j6a4v61MLsUWSK_w4fiDTSHq29l6o-UAVv737rk6K41Ohx9Q.jpg",
+      "companion_text_id": 71935
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/104430",
+      "post_id": 104430,
+      "channel": "eRadarrua",
+      "ts": "2026-08-08T05:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/iUNyU4ArBG1Vab0g1Vn-DNiZRAzW70i1k61Lt7BSSazXlj4T4p1oXCe4I__VjyC_u1jLtXtdk2ZPmQKvjm7T5Ntdj9j2zmoho4QCYklBPsvXZopI45Bo-qLtTKnjQXth0SwwhS1Vx5QSYeUGW5KeXJ7SGQvQe1EhbVkBDLdWioz1zOwyVEUJFztOAe6JJBltbBCpEealSP8KeTPbm2DYelTbGKtm5LQwvE3uvAXObSudLjnTWH-4ud6pNKiYmfcjCClBNZSXgZD3a17TO5VtGBVqLOZdBRv1p7P_oIk-yni9HzTBTJvpCbhNoiLiL1eoreM7rYDLTf21TxBglzYo2g.jpg",
+      "companion_text_id": 104428
+    },
     {
       "post_url": "https://t.me/UkraineNow/83288",
       "post_id": 83288,
@@ -187,7 +215,7 @@
       "channel": "eRadarrua",
       "ts": "2026-08-07T18:52:26+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/kQoz8s-DcruOBA4iRUNNgyXV55Mopk9pbC0G84l6Zmp5_GZmNQ98A3MCLOAKy6QRrJHyxg3s5Gs-PQzhJpfdDlyaWPw7McBuFMt0IeOcFSzli7OlaZm8XlCKwjgi5mn5jb8dOKIMiA5Y9NQ12GnY9ZbCorxlg2EggcR1-uKvJqdZlBoU9SJ6ikCgGgwRxStt43BHhs9z7x0dxK2lrQxOFZlHu0zwqYfktL_l3sONh5ZocRGfwG6sAYaTiG7Jq9JwtjgWmv7c7a9gGhkJMON2HoPRayRgPw9qP5fiKG5j-TDQ_6V5y8CcKtnA6qlCSf96RarIOAbq9AAiU8xoQNPWAQ.jpg",
-      "companion_text_id": 104370
+      "companion_text_id": 104372
     },
     {
       "post_url": "https://t.me/UkraineNow/83285",
@@ -206,42 +234,16 @@
       "post_id": 32283,
       "channel": "ukr_leaks_eng",
       "ts": "2026-08-07T17:27:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83284",
-      "post_id": 83284,
-      "channel": "UkraineNow",
-      "ts": "2026-08-07T17:08:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/104363",
-      "post_id": 104363,
-      "channel": "eRadarrua",
-      "ts": "2026-08-07T16:57:44+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/HoUXG-HvYGlCYh1KRyOh1dpRple2kgl4tldw77zDgMuqdQJ0HQ4929jy7NiZaJtaj_XqQhljCMaflNow42Y7INS48f4DReBGmzbS0ZuJYcjtT1yKseEtp7iNjjMQMnFdIInazMwneaAhmVfj8z7H4zrXCyPMoCzCwVJ5IBEg0P0jVbXIIx30dA9TY7-T_sP1mhhffrs0f727jnurYw8CeFmVooYNNyVqH997X-XZNJPfeXNbyBBt2RNaVLgNyP_7nwRgl96stX9xxd2qd5PGFTFuElxFklb5SUzO6wmtuuyibEQxg03tLYOeJUWs_Hd4zPXnezQoWT3G5p-GGB15Dg.jpg"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389229",
-      "post_id": 389229,
-      "channel": "tass_agency",
-      "ts": "2026-08-07T16:30:24+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/104360",
-      "post_id": 104360,
-      "channel": "eRadarrua",
-      "ts": "2026-08-07T16:26:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/cq00CB_h_rQ2Yovpb7CDyhvkShWCESjlf7FI9cZNaA03ta6_L5wZLYraq8qZRyxc3vHHt_yQc9nvC2gJUZHQ1Zdt9HcdPwRvKeedZU3udAtu9jaur7c8aLSbkcdsw5DK6A3gyB5NSlVKZZdf-UmoEAq6KzymlUPZeUywZxYeCI_iG0ufsq0krz9I5j6ei17anzpJjR9VxcKrz8AoF7K4j8C9Dq6GiMNfxiy-iom2_muHQz4seTjJslOyQTXiVXUaf0VFdAgi2AW4f2vG9AV3qNiLk30LXuDPVNmy69XtAmzIJg8e58e6vPTCeuQw4w5SBFjo84FF4HpEovPMJh3Hvw.jpg",
-      "companion_text_id": 104359
     }
   ],
   "post_images": {
-    "eRadarrua/104404": "data/media/eRadarrua_104404.jpg",
-    "eRadarrua/104406": "data/media/eRadarrua_104404.jpg",
+    "eRadarrua/104430": "data/media/eRadarrua_104430.jpg",
+    "eRadarrua/104428": "data/media/eRadarrua_104430.jpg",
     "eRadarrua/104408": "data/media/eRadarrua_104408.jpg",
     "eRadarrua/104407": "data/media/eRadarrua_104408.jpg",
+    "eRadarrua/104404": "data/media/eRadarrua_104404.jpg",
+    "eRadarrua/104406": "data/media/eRadarrua_104404.jpg",
     "eRadarrua/104371": "data/media/eRadarrua_104371.jpg",
-    "eRadarrua/104370": "data/media/eRadarrua_104371.jpg",
     "eRadarrua/104372": "data/media/eRadarrua_104372.jpg",
     "eRadarrua/104374": "data/media/eRadarrua_104374.jpg",
     "eRadarrua/104373": "data/media/eRadarrua_104374.jpg",
@@ -252,13 +254,13 @@
     "eRadarrua/104381": "data/media/eRadarrua_104381.jpg",
     "eRadarrua/104382": "data/media/eRadarrua_104382.jpg",
     "eRadarrua/104383": "data/media/eRadarrua_104382.jpg",
+    "eRadarrua/104346": "data/media/eRadarrua_104346.jpg",
+    "eRadarrua/104345": "data/media/eRadarrua_104346.jpg",
     "eRadarrua/104350": "data/media/eRadarrua_104350.jpg",
     "eRadarrua/104351": "data/media/eRadarrua_104351.jpg",
     "eRadarrua/104352": "data/media/eRadarrua_104352.jpg",
-    "eRadarrua/104360": "data/media/eRadarrua_104360.jpg",
-    "eRadarrua/104359": "data/media/eRadarrua_104360.jpg",
-    "eRadarrua/104363": "data/media/eRadarrua_104363.jpg",
-    "kpszsu/71821": "data/media/kpszsu_71821.jpg"
+    "kpszsu/71936": "data/media/kpszsu_71936.jpg",
+    "kpszsu/71935": "data/media/kpszsu_71936.jpg"
   },
   "summary": "Russian forces attacked multiple Ukrainian cities including Kyiv, Chasiv Yar, and Izium, causing civilian casualties and infrastructure damage. Ukrainian air defenses shot down numerous drones and missiles across the country. The US Senate passed 'hell sanctions' legislation against Russia and Iran following the death of Senator Lindsey Graham.",
   "key_points": [
@@ -338,32 +340,33 @@
     "regional_response": "The United States Senate passed 'hell sanctions' legislation against Russia and Iran, demonstrating continued Western support for Ukraine despite escalating aggression. Polish authorities reported a 30% increase in attacks against Ukrainian citizens in the first half of 2026 compared to the same period in 2025. European Union discussions continue regarding financial aid packages for Ukrainian farmers affected by the conflict. Regional security cooperation appears to be strengthening in response to Russian provocations.",
     "intelligence_notes": "Russian military operations show increased coordination in targeting civilian infrastructure across multiple regions simultaneously. Intelligence indicates potential for expanded use of larger drone variants and ballistic missiles. The frequency of attacks on critical infrastructure suggests strategic targeting beyond tactical objectives. Ukrainian air defense systems are demonstrating resilience but may face capacity challenges with sustained high-volume attacks."
   },
-  "missiles": 111,
-  "drones": 3656,
+  "stale_summary": true,
+  "missiles": 0,
+  "drones": 151,
   "kpszsu_timeline": [
+    5,
     2,
+    1,
+    2,
+    2,
+    5,
+    3,
+    3,
+    2,
+    5,
+    1,
     2,
     4,
-    3,
-    1,
-    2,
-    1,
+    6,
     7,
-    3,
-    2,
-    3,
-    4,
-    2,
     2,
     4,
-    6,
-    6,
-    3,
-    4,
+    2,
     2,
     1,
-    2,
     0,
-    1
+    1,
+    6,
+    5
   ]
 }
