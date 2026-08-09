@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-09T03:57:21.729751+00:00",
-  "message_count": 408,
+  "updated_at": "2026-08-09T05:20:40.584981+00:00",
+  "message_count": 409,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,85 +11,94 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 151,
+  "red_alerts": 202,
   "red_alerts_timeline": [
     0,
-    0,
-    9,
-    19,
-    9,
-    19,
+    25,
+    13,
+    38,
     0,
     0,
     0,
-    19,
-    0,
-    9,
-    0,
-    9,
-    0,
-    9,
-    9,
+    13,
+    13,
+    13,
     0,
     0,
+    13,
     0,
-    9,
-    28,
+    25,
+    0,
+    0,
+    0,
+    13,
+    0,
+    38,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    9,
-    7,
-    23,
-    14,
-    10,
-    25,
-    19,
-    16,
-    16,
-    17,
     15,
-    22,
+    16,
+    10,
+    20,
+    25,
+    12,
+    18,
+    17,
+    14,
+    17,
+    23,
     11,
     22,
-    13,
-    19,
-    34,
-    19,
-    9,
-    7,
-    22,
+    15,
+    30,
     23,
-    27,
+    14,
+    8,
+    8,
+    30,
+    20,
+    24,
+    8,
     8
   ],
   "messages_by_channel": {
     "@eRadarrua": 104,
-    "@kpszsu": 79,
-    "@mon1tor_ua": 104,
-    "@UkraineNow": 19,
+    "@kpszsu": 80,
+    "@mon1tor_ua": 108,
+    "@UkraineNow": 18,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 13,
-    "@tass_agency": 88
+    "@ukr_leaks_eng": 14,
+    "@tass_agency": 84
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/104636",
-    "kpszsu": "https://t.me/kpszsu/72054",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70009",
+    "kpszsu": "https://t.me/kpszsu/72056",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70013",
     "UkraineNow": "https://t.me/UkraineNow/83307",
     "DeepStateUA": "https://t.me/DeepStateUA/23725",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32301",
-    "tass_agency": "https://t.me/tass_agency/389370"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32302",
+    "tass_agency": "https://t.me/tass_agency/389377"
   },
   "cited_post_urls": {
-    "tass_agency": "https://t.me/tass_agency/389337",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32288",
     "UkraineNow": "https://t.me/UkraineNow/83303",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32298",
-    "eRadarrua": "https://t.me/eRadarrua/104616",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70004"
+    "DeepStateUA": "https://t.me/DeepStateUA/23725",
+    "tass_agency": "https://t.me/tass_agency/389338",
+    "eRadarrua": "https://t.me/eRadarrua/104614",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/69978"
   },
   "media": [
+    {
+      "post_url": "https://t.me/kpszsu/72056",
+      "post_id": 72056,
+      "channel": "kpszsu",
+      "ts": "2026-08-09T05:06:37+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/u7Cux7wA2NmC2pe_VlH0JQ2r-4u7Yj-YQmlZwVdO8wrceKKaHxqa5Z5c8giZm-maMirHCGebh_9K9AI7sT1eb7HGJN_WlklUmF1vEBef630q0p-1eMDUXeq0yFJDz-A0mPsiEOa9WdoWMyNgO4dkFpLG_IG2wN_RgIYUzdKz5JkvJT95vqfyjH05HPP_JFwN6fXSvHbR4b_Fub8wZSKyqfjst5YQFxdyRHyfbpdQ0vbi1Xda1punbtWDWsXVtafnU30RwaZCuP9rUFasy4X2jH8c1mdLwBWShEPitA5RL7zlXc9WTLXcCsBRxSSLFKEjVXtFrskIqI10Ql4Qfzpu2A.jpg",
+      "companion_text_id": 72055
+    },
     {
       "post_url": "https://t.me/tass_agency/389369",
       "post_id": 389369,
@@ -215,12 +224,6 @@
       "post_id": 83305,
       "channel": "UkraineNow",
       "ts": "2026-08-08T18:41:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/69918",
-      "post_id": 69918,
-      "channel": "mon1tor_ua",
-      "ts": "2026-08-08T18:18:18+00:00"
     }
   ],
   "post_images": {
@@ -248,117 +251,117 @@
     "eRadarrua/104503": "data/media/eRadarrua_104504.jpg",
     "eRadarrua/104509": "data/media/eRadarrua_104509.jpg",
     "eRadarrua/104508": "data/media/eRadarrua_104509.jpg",
+    "kpszsu/72056": "data/media/kpszsu_72056.jpg",
+    "kpszsu/72055": "data/media/kpszsu_72056.jpg",
     "kpszsu/71936": "data/media/kpszsu_71936.jpg",
     "kpszsu/71935": "data/media/kpszsu_71936.jpg"
   },
-  "summary": "Russian forces have established control over Ivanivka in the Kharkiv region. Ukraine has received 70 ballistic missiles and 12 M270 MLRS systems from Turkey. Multiple regions, including Kyiv, Sumy, and Chernihiv, are facing ongoing drone and missile threats.",
+  "summary": "Russian forces conducted widespread missile and drone strikes targeting civilian infrastructure and transport across multiple Ukrainian regions, including Kherson, Sumy, and Dnipropetrovsk. Ukraine has secured significant military aid, including 70 ballistic missiles and 12 M270 MLRS systems from Turkey, while the US has committed to monthly Patriot missile deliveries. Russian forces continue offensive operations in the Sumy and Kharkiv directions, including infantry combat and tank brigade maneuvers.",
   "key_points": [
-    "Russian forces have established control over Ivanivka in the Kharkiv region (Source: @tass_agency/389337).",
-    "Ukraine acquired 70 ballistic missiles and 12 M270 MLRS systems from Turkey (Source: @UkraineNow/83303).",
-    "Russian forces struck the Ilysky oil refinery in the Krasnodar Krai region (Source: @UkraineNow/83293).",
-    "The Syzransk oil refinery in the Samara region was struck by Ukrainian forces (Source: @UkraineNow/83293).",
-    "A missile strike in Pavlohrad resulted in nine injuries, including four children (Source: @UkraineNow/83306).",
-    "Turkey has begun limiting commercial shipping toward the Black Sea (Source: @tass_agency/389337).",
-    "A drone exploded near a Trans-Balkan gas pipeline compressor station in Romania (Source: @UkraineNow/83301).",
-    "Russian forces struck commercial ships in the port of Mykolaiv and the Black Sea (Source: @tass_agency/389337)."
+    "Russia launched missile strikes against Kiev, Dnepropetrovsk, Sumy, and Odessa regions, including a major fire in the Kremenchuk area (Source: @ukr_leaks_eng/32288).",
+    "Ukraine received 70 ballistic missiles and 12 M270 MLRS systems from Turkey, including GMLRS and ATACMS capabilities (Source: @UkraineNow/83303).",
+    "Russian forces engaged in infantry combat in Ulanovo and Volnaya Sloboda within the Shostkinsky district of the Sumy direction (Source: @ukr_leaks_eng/32288).",
+    "The 11th Tank Brigade of the 'North' Ground Forces Group pushed back Ukrainian forces near Aniskino in the Kupiansky district (Source: @ukr_leaks_eng/32288).",
+    "Russian forces targeted a passenger train 'Sumy-Kyiv' in Sumy Oblast, resulting in a damaged locomotive and 21 casualties (Source: @UkraineNow/83290).",
+    "Russian forces are conducting 'free hunting' drone operations against civilian vehicles in Kherson (Source: @UkraineNow/83300).",
+    "The US has committed to monthly deliveries of Patriot interceptor missiles to Ukraine (Source: @UkraineNow/83298).",
+    "Russian forces struck the Syzransk oil refinery in the Samara region (Source: @ukr_leaks_eng/32288)."
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces have secured control over Ivanivka in the Kharkiv region. Ukraine has significantly bolstered its arsenal with 70 ballistic missiles and 12 M270 MLRS systems from Turkey. Ongoing drone and missile strikes continue to target multiple Ukrainian regions and Russian infrastructure.",
+    "executive_summary": "Russian forces conducted widespread missile and drone strikes targeting civilian infrastructure and transport across multiple Ukrainian regions, including Kherson, Sumy, and Dnipropetrovsk. Ukraine has secured significant military aid, including 70 ballistic missiles and 12 M270 MLRS systems from Turkey, while the US has committed to monthly Patriot missile deliveries. Russian forces continue offensive operations in the Sumy and Kharkiv directions, including infantry combat and tank brigade maneuvers.",
     "ukraine": {
       "points": [
-        "Ukraine has acquired 70 ballistic missiles and 12 M270 MLRS systems, utilizing GMLRS and ATACMS rockets, via Turkish, Bulgarian, and American companies (Source: @UkraineNow/83303).",
-        "The Ukrainian military struck the Ilysky oil refinery in the Krasnodar Krai and the Syzransk oil refinery in the Samara region (Source: @UkraineNow/83293).",
-        "Ukrainian forces struck a Russian technical observation post on the Sivash drilling rig in the Black Sea (Source: @UkraineNow/83293).",
-        "A drone exploded approximately one kilometer from a Trans-Balkan gas pipeline compressor station near Cardam, Romania (Source: @UkraineNow/83301).",
-        "A missile strike in Pavlohrad caused nine injuries, including four children, and damaged a private house and a vehicle (Source: @UkraineNow/83306).",
-        "In the Zaporizhzhia region, a state of emergency was declared due to attacks on critical infrastructure and water supply disruptions (Source: @ukr_leaks_eng/32298)."
+        "Ukraine's energy system maintained stability during record August heatwaves without power outages due to adjusted summer maintenance and increased imports (Source: @UkraineNow/83292).",
+        "The Ukrainian Armed Forces struck the Ilsky oil refinery in Krasnodar Krai and the Syzransk refinery in Samara (Source: @UkraineNow/83293).",
+        "Ukrainian forces targeted a Russian technical observation post on the 'Sivash' drilling rig in the Black Sea (Source: @UkraineNow/83293).",
+        "A Ukrainian drone entered Bulgarian airspace from Romania, exploding 100 meters from the border (Source: @ukr_leaks_eng/32302).",
+        "The Ukrainian military is utilizing 46th Separate Air Assault Brigade's optical cables for drone operations (Source: @DeepStateUA/23725)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces have established control over the village of Ivanivka in the Kharkiv region (Source: @tass_agency/389337).",
-        "The Ilysky oil refinery in the Krasnodar Krai was struck by Ukrainian forces (Source: @UkraineNow/83293).",
-        "The Syzransk oil refinery in the Samara region was targeted by Ukrainian strikes (Source: @UkraineNow/83293).",
-        "A drone strike in the Belgorod region injured 13 people, including two children, and damaged multiple apartment buildings (Source: @tass_agency/389354).",
-        "In the Belgorod region, a drone strike in Oktyabrsky caused multiple injuries to a man (Source: @ukr_leaks_eng/32298).",
-        "A drone strike in Shebekino, Belgorod region, injured a woman (Source: @ukr_leaks_eng/32298).",
-        "A drone strike in Zamostye killed a cyclist (Source: @ukr_leaks_eng/32298)."
+        "Russian air defenses intercepted 360 Ukrainian UAVs over Russian regions and Black/Azov Seas (Source: @tass_agency/389338).",
+        "Russian forces are engaged in fighting on the approaches to Dobropol using FAB bombs (Source: @ukr_leaks_eng/32288).",
+        "Russian military units are conducting counterattacks near Novogrigorovka and Raiskoye in the Druzhkovka direction (Source: @ukr_leaks_eng/32288).",
+        "Russian forces are conducting 'free hunting' drone operations against civilian vehicles in Kherson (Source: @UkraineNow/83300).",
+        "Russian forces are engaged in infantry combat in Ulanovo and Volnaya Sloboda (Source: @ukr_leaks_eng/32288)."
       ]
     },
     "eastern_front": {
       "points": [
-        "The 11th Tank Brigade of the 'North' Ground Forces Group pushed back the 1st Territorial Defense Battalion and the 129th Separate Motorized Rifle Brigade near Aniskino in the Kupiansky district (Source: @ukr_leaks_eng/32298).",
-        "Russian forces are engaged in fighting on the approaches to Dobropol using FAB bombs (Source: @ukr_leaks_eng/32298).",
-        "Fighting continues for Krasny Liman (Source: @ukr_leaks_eng/32298).",
-        "The enemy is organizing counterattacks near Novogrigorovka and Raiskoye in the Druzhkovka direction (Source: @ukr_leaks_eng/32298).",
-        "Russian forces are engaged in infantry combat in Ulanovo and the area of Volnaya Sloboda in the Shostkinsky district (Source: @ukr_leaks_eng/32298).",
-        "Fighting is occurring in Pisarevka, Maryino, and the village of Khoten in the Sumy district (Source: @ukr_leaks_eng/32298)."
+        "The 11th Tank Brigade of the 'North' Ground Forces Group pushed back the 1st Territorial Defense Battalion and 129th Separate Motorized Rifle Brigade near Aniskino (Source: @ukr_leaks_eng/32288).",
+        "Fighting continues for Krasny Liman (Source: @ukr_leaks_eng/32288).",
+        "Russian forces are organizing counterattacks near Novogrigorovka and Raiskoye in the Druzhkovka direction (Source: @ukr_leaks_eng/32288).",
+        "Russian forces are engaged in fighting on the approaches to Dobropol using FAB bombs (Source: @ukr_leaks_eng/32288).",
+        "Enemy forces have advanced near Kaleniki (Source: @DeepStateUA/23725)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian forces are engaged in infantry combat in the Sumy direction, specifically in Ulanovo and the area of Volnaya Sloboda (Source: @ukr_leaks_eng/32298).",
-        "The enemy is conducting drone operations in the Chernihiv region, including targets in Borzna, Nizhyn, and Snovsk (Source: @eRadarrua/104616)."
+        "Russian forces are engaged in infantry combat in Ulanovo and the area of Volnaya Sloboda in the Shostkinsky district (Source: @ukr_leaks_eng/32288).",
+        "Fighting is occurring in Pisarevka, Maryino, and the village of Khoten in the Sumy district (Source: @ukr_leaks_eng/32288).",
+        "Russian forces are conducting drone strikes in the Sumy, Chernihiv, and Kyiv regions (Source: @eRadarrua/104614)."
       ]
     },
     "southern_front": {
       "points": [
-        "A Russian missile boat (MRK) was destroyed in Yalta Bay (Source: @ukr_leaks_eng/32298).",
-        "In the Kherson direction, four civilians have been killed and 25 injured due to enemy attacks and mines since the start of the week (Source: @ukr_leaks_eng/32298).",
-        "Turkish authorities are limiting commercial vessel transit toward the Black Sea, including vessels bound for Ukraine (Source: @tass_agency/389337).",
-        "Ukrainian forces struck commercial ships in the Black Sea, southeast of Odessa, and near the pier in Chornomorsk (Source: @ukr_leaks_eng/32298)."
+        "A Russian missile boat (MRK) was destroyed in Yalta Bay (Source: @ukr_leaks_eng/32288).",
+        "A Russian strike on a passenger bus in Nikopol resulted in one death and one injury (Source: @UkraineNow/83299).",
+        "A state of emergency was declared in Zaporozhye due to attacks on critical infrastructure and water supply disruptions (Source: @ukr_leaks_eng/32288).",
+        "Russian forces attacked an apartment building in Energodar and a residential building in Velikaya Belozorka (Source: @ukr_leaks_eng/32288).",
+        "A civilian car was damaged in Melitopol due to enemy attacks (Source: @ukr_leaks_eng/32288)."
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine has secured an agreement for the monthly allocation of Patriot interceptor missiles from the United States (Source: @ukr_leaks_eng/32299).",
-        "Russia launched 1,984 UAVs toward the Moscow region over the course of one week (Source: @tass_agency/389337).",
-        "A Shahed drone was detected on a course toward Zhytomyr (Source: @mon1tor_ua/70004).",
-        "Multiple groups of reactive UAVs were reported in the Chernihiv and Kyiv regions (Source: @eRadarrua/104616).",
-        "Tactical aviation aircraft were reported on launch near the western Crimean coast (Source: @eRadarrua/104630)."
+        "Russia launched missile weapons against Kiev, Dnepropetrovsk, Sumy, and Odessa regions (Source: @ukr_leaks_eng/32288).",
+        "Three Su-34 tactical aircraft were spotted over Crimea, potentially launching Kh-59 missiles (Source: @mon1tor_ua/69978).",
+        "Turkey is restricting commercial vessel movement toward the Black Sea due to increased attacks (Source: @UkraineNow/83302).",
+        "Russian air defenses intercepted 153 Ukrainian UAVs overnight (Source: @tass_agency/389373).",
+        "Reactive UAVs were reported over Chernihiv, Kyiv, and Zhytomyr (Source: @eRadarrua/104614)."
       ]
     },
     "key_developments": [
-      "Russian forces have established control over Ivanivka in the Kharkiv region (Source: @tass_agency/389337).",
-      "Ukraine acquired 70 ballistic missiles and 12 M270 MLRS systems from Turkey (Source: @UkraineNow/83303).",
-      "Russian forces struck the Ilysky oil refinery in the Krasnodar Krai region (Source: @UkraineNow/83293).",
-      "The Syzransk oil refinery in the Samara region was targeted by Ukrainian strikes (Source: @UkraineNow/83293).",
-      "A missile strike in Pavlohrad resulted in nine injuries, including four children (Source: @UkraineNow/83306).",
-      "Turkey has begun limiting commercial shipping toward the Black Sea (Source: @tass_agency/389337).",
-      "A drone exploded near a Trans-Balkan gas pipeline compressor station in Romania (Source: @UkraineNow/83301)."
+      "Ukraine secured 70 ballistic missiles and 12 M270 MLRS systems from Turkey (Source: @UkraineNow/83303).",
+      "Russia conducted missile strikes on Kiev, Dnepropetrovsk, Sumy, and Odessa regions (Source: @ukr_leaks_eng/32288).",
+      "The US committed to monthly deliveries of Patriot interceptor missiles to Ukraine (Source: @UkraineNow/83298).",
+      "Russian forces engaged in infantry combat in Ulanovo and Volnaya Sloboda (Source: @ukr_leaks_eng/32288).",
+      "Russian forces are conducting 'free hunting' drone operations against civilian vehicles in Kherson (Source: @UkraineNow/83300).",
+      "Russian forces struck the Syzransk oil refinery in the Samara region (Source: @ukr_leaks_eng/32288).",
+      "The 11th Tank Brigade pushed back Ukrainian units near Aniskino in the Kupiansky district (Source: @ukr_leaks_eng/32288)."
     ],
-    "threat_assessment": "The operational environment is characterized by high intensity in both aerial and ground domains. Russian forces are making territorial gains in the Kharkiv direction, specifically near Ivanivka. Simultaneously, Ukrainian long-range strikes against Russian energy infrastructure, such as the Ilysky and Syzransk refineries, indicate a sustained campaign against Russian logistics.",
-    "regional_response": "Turkey has implemented restrictions on commercial shipping in the Black Sea, impacting vessels bound for both Russia and Ukraine. This move follows an increase in attacks on maritime targets in the region. Additionally, the United States has committed to monthly shipments of Patriot interceptor missiles to bolster Ukrainian air defenses.",
-    "intelligence_notes": "The acquisition of M270 MLRS systems and ATACMS missiles by Ukraine represents a significant increase in long-range strike capability. The reported strikes on the Sivash drilling rig suggest a focus on neutralizing Russian drone control and reconnaissance assets in the Black Sea. The declaration of a state of emergency in the Zaporizhzhia region highlights the impact of infrastructure attacks on civilian stability."
+    "threat_assessment": "The operational environment is highly volatile due to continuous Russian missile and drone strikes targeting civilian infrastructure and transport. The targeting of logistics centers and passenger transport in regions like Sumy and Kherson indicates a continued focus on disrupting civilian stability. Additionally, the use of 'free hunting' drone tactics against civilian vehicles in Kherson increases the risk to non-combatants.",
+    "regional_response": "Turkey has implemented restrictions on commercial vessel movement toward the Black Sea to mitigate risks from increased attacks. The US and European partners, including Germany, Poland, the Netherlands, and Nordic countries, are actively supporting Ukraine's air defense through Patriot missile supplies. Serbia's leadership has expressed concerns regarding the potential for a difficult winter in Europe due to the ongoing conflict.",
+    "intelligence_notes": "The delivery of M270 MLRS systems with ATACMS capabilities from Turkey represents a significant enhancement to Ukraine's long-range strike capabilities. Russian tactical aviation, specifically Su-34s, remains active over Crimea, posing a threat to regional security. The reported strikes on the Syzransk and Ilsky refineries demonstrate the ongoing impact of Ukrainian long-range strikes on Russian energy infrastructure."
   },
   "missiles": 0,
-  "drones": 151,
+  "drones": 202,
   "kpszsu_timeline": [
-    1,
-    1,
-    9,
-    3,
-    1,
-    6,
-    2,
-    4,
-    2,
-    2,
-    2,
     5,
-    2,
     6,
     2,
     2,
-    3,
-    4,
-    3,
-    4,
     7,
     2,
+    3,
+    2,
+    2,
+    4,
+    4,
+    3,
+    4,
+    3,
+    2,
+    2,
     5,
-    1
+    3,
+    3,
+    7,
+    4,
+    3,
+    0,
+    2
   ]
 }
