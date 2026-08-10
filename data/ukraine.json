@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-10T07:54:45.211774+00:00",
-  "message_count": 315,
+  "updated_at": "2026-08-10T09:57:31.634058+00:00",
+  "message_count": 325,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 126,
   "red_alerts_timeline": [
-    10,
-    0,
     0,
     0,
     0,
@@ -24,8 +22,8 @@
     0,
     10,
     10,
-    32,
-    10,
+    21,
+    21,
     0,
     0,
     0,
@@ -36,60 +34,94 @@
     10,
     0,
     0,
-    0
+    0,
+    0,
+    10
   ],
   "combined_activity_timeline": [
-    13,
-    18,
-    11,
-    7,
-    14,
-    10,
-    13,
-    17,
-    13,
     12,
-    18,
-    16,
-    14,
-    16,
-    11,
-    12,
-    17,
     8,
-    7,
-    11,
+    13,
+    10,
+    14,
     17,
+    12,
+    12,
+    18,
+    17,
+    13,
+    17,
+    10,
+    12,
+    16,
     9,
-    17,
-    13
+    9,
+    8,
+    18,
+    10,
+    19,
+    12,
+    21,
+    18
   ],
   "messages_by_channel": {
-    "@eRadarrua": 54,
+    "@eRadarrua": 55,
     "@kpszsu": 91,
-    "@mon1tor_ua": 20,
-    "@UkraineNow": 18,
+    "@mon1tor_ua": 18,
+    "@UkraineNow": 19,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 17,
-    "@tass_agency": 114
+    "@tass_agency": 124
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/104764",
-    "kpszsu": "https://t.me/kpszsu/72231",
+    "eRadarrua": "https://t.me/eRadarrua/104775",
+    "kpszsu": "https://t.me/kpszsu/72244",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70034",
-    "UkraineNow": "https://t.me/UkraineNow/83333",
+    "UkraineNow": "https://t.me/UkraineNow/83336",
     "DeepStateUA": "https://t.me/DeepStateUA/23727",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32322",
-    "tass_agency": "https://t.me/tass_agency/389523"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32327",
+    "tass_agency": "https://t.me/tass_agency/389547"
   },
-  "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32310",
-    "tass_agency": "https://t.me/tass_agency/389517",
-    "UkraineNow": "https://t.me/UkraineNow/83333",
-    "kpszsu": "https://t.me/kpszsu/72195",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70024"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/83336",
+      "post_id": 83336,
+      "channel": "UkraineNow",
+      "ts": "2026-08-10T09:49:33+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389542",
+      "post_id": 389542,
+      "channel": "tass_agency",
+      "ts": "2026-08-10T09:00:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389538",
+      "post_id": 389538,
+      "channel": "tass_agency",
+      "ts": "2026-08-10T08:39:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389536",
+      "post_id": 389536,
+      "channel": "tass_agency",
+      "ts": "2026-08-10T08:33:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389529",
+      "post_id": 389529,
+      "channel": "tass_agency",
+      "ts": "2026-08-10T08:14:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/104765",
+      "post_id": 104765,
+      "channel": "eRadarrua",
+      "ts": "2026-08-10T07:57:43+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/lGqDaCnLV_qY0esp7J9CNDyT86zNrMv9wu4c6LPT-W_aqlNIGQuyxDdWm0l2AKNQrBURqn4eQVF3N9PwmRkHbEsHOSY2Ztd0i835sv0ShIfGpGSyMYzWxPfH1oe-XZojAxQ4xPgy4Am9kPKQaTCe-G9hsv0r4QbLNdDXdrd09-H5p_CooNmuQPNhbIzLY37dqH6tzmd6q6B8quqLlH8Oh8LhZZglt2iLHqBbzfJfXt0fzfTKY7sLtPG0BfukQGLoy_UtF_mt8nH67gDN7V2E_0Yi1rNWTIe8gh79aL-p5yMDNqzw1ALZiGTO7_XbUSw08Zs8D7rGH-ghWBn9ynYNLA.jpg",
+      "companion_text_id": 104763
+    },
     {
       "post_url": "https://t.me/tass_agency/389522",
       "post_id": 389522,
@@ -176,58 +208,24 @@
       "post_id": 389505,
       "channel": "tass_agency",
       "ts": "2026-08-10T05:03:09+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389491",
-      "post_id": 389491,
-      "channel": "tass_agency",
-      "ts": "2026-08-10T03:35:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389476",
-      "post_id": 389476,
-      "channel": "tass_agency",
-      "ts": "2026-08-10T01:15:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389470",
-      "post_id": 389470,
-      "channel": "tass_agency",
-      "ts": "2026-08-10T00:22:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389464",
-      "post_id": 389464,
-      "channel": "tass_agency",
-      "ts": "2026-08-09T23:15:17+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389461",
-      "post_id": 389461,
-      "channel": "tass_agency",
-      "ts": "2026-08-09T22:49:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389460",
-      "post_id": 389460,
-      "channel": "tass_agency",
-      "ts": "2026-08-09T22:26:01+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/104748": "data/media/eRadarrua_104748.jpg",
-    "eRadarrua/104747": "data/media/eRadarrua_104748.jpg",
     "eRadarrua/104760": "data/media/eRadarrua_104760.jpg",
     "eRadarrua/104759": "data/media/eRadarrua_104760.jpg",
-    "eRadarrua/104725": "data/media/eRadarrua_104725.jpg",
-    "eRadarrua/104726": "data/media/eRadarrua_104726.jpg",
+    "eRadarrua/104765": "data/media/eRadarrua_104765.jpg",
+    "eRadarrua/104763": "data/media/eRadarrua_104765.jpg",
     "eRadarrua/104741": "data/media/eRadarrua_104741.jpg",
     "eRadarrua/104740": "data/media/eRadarrua_104741.jpg",
+    "eRadarrua/104748": "data/media/eRadarrua_104748.jpg",
+    "eRadarrua/104747": "data/media/eRadarrua_104748.jpg",
+    "eRadarrua/104715": "data/media/eRadarrua_104715.jpg",
+    "eRadarrua/104713": "data/media/eRadarrua_104715.jpg",
+    "eRadarrua/104725": "data/media/eRadarrua_104725.jpg",
+    "eRadarrua/104726": "data/media/eRadarrua_104726.jpg",
     "eRadarrua/104696": "data/media/eRadarrua_104696.jpg",
     "eRadarrua/104694": "data/media/eRadarrua_104696.jpg",
     "eRadarrua/104706": "data/media/eRadarrua_104706.jpg",
-    "eRadarrua/104715": "data/media/eRadarrua_104715.jpg",
-    "eRadarrua/104713": "data/media/eRadarrua_104715.jpg",
     "eRadarrua/104683": "data/media/eRadarrua_104683.jpg",
     "eRadarrua/104684": "data/media/eRadarrua_104683.jpg",
     "eRadarrua/104685": "data/media/eRadarrua_104685.jpg",
@@ -235,111 +233,131 @@
     "eRadarrua/104688": "data/media/eRadarrua_104687.jpg",
     "eRadarrua/104690": "data/media/eRadarrua_104690.jpg",
     "eRadarrua/104691": "data/media/eRadarrua_104690.jpg",
-    "eRadarrua/104656": "data/media/eRadarrua_104656.jpg",
-    "eRadarrua/104657": "data/media/eRadarrua_104656.jpg",
-    "eRadarrua/104660": "data/media/eRadarrua_104660.jpg",
-    "eRadarrua/104661": "data/media/eRadarrua_104661.jpg",
+    "eRadarrua/104664": "data/media/eRadarrua_104664.jpg",
+    "eRadarrua/104665": "data/media/eRadarrua_104665.jpg",
+    "eRadarrua/104667": "data/media/eRadarrua_104665.jpg",
     "kpszsu/72214": "data/media/kpszsu_72214.jpg"
   },
-  "summary": "Russian forces conducted strikes on the Odessa port complex, targeting fuel and military equipment depots in Odessa and Chernomorsk. Simultaneously, a massive drone attack targeted the Nizhnekamsk oil refinery cluster in Tatarstan, resulting in casualties. Ukrainian forces launched a large-scale UAV operation, with Russian air defenses reporting the interception of 456 drones across multiple regions.",
+  "summary": "Russia intensified missile and drone attacks on Ukrainian infrastructure, including oil and chemical facilities. Ukraine's air defense systems intercepted numerous drones and missiles. Russia increased ballistic missile production by 110-120%, focusing on critical infrastructure targets.",
   "key_points": [
-    "Russian forces struck fuel and military equipment depots and a port transshipment complex in the port of Odessa (Source: @ukr_leaks_eng/32310).",
-    "Russian forces struck fuel tanks intended for the Ukrainian Armed Forces in Belyary and Novi Belyary, 28 km from the port of Odessa (Source: @ukr_leaks_eng/32310).",
-    "A massive UAV attack on the Nizhnekamsk oil refinery cluster in Tatarstan resulted in 12 deaths and 39 injuries (Source: @tass_agency/389517).",
-    "Russian air defenses reported intercepting 456 Ukrainian UAVs over various Russian regions, including Bryansk, Kursk, and Tatarstan (Source: @tass_agency/389506).",
-    "Russian forces attacked a Ukrainian bulk carrier as it exited the Danube (Source: @ukr_leaks_eng/32316).",
-    "Ukrainian strikes have reportedly taken out 43% of Russian refinery capacities since the beginning of the year (Source: @UkraineNow/83333).",
-    "Russian forces reported the liberation of the villages of Vasyutinskoye and Toretskoye in the DPR (Source: @ukr_leaks_eng/32307).",
-    "Russian forces attacked the Odessa TPP and seven electrical substations (Source: @tass_agency/389505)."
+    "Russia launched 96 targets against Ukrainian air defenses, including Shahed drones and ballistic missiles, with 92 intercepted (Source: kpszsu/72214).",
+    "A ballistic missile attack on Chernihiv was reported, with specific locations and countermeasures (Source: mon1tor_ua/70025).",
+    "Reactive drones targeted Poltava, Sumy, and other regions, with specific coordinates and counteractions (Source: kpszsu/72225, kpszsu/72219).",
+    "Russia produced 198 ballistic missiles in July, exceeding plans by 140% for Kh-101 and 111% for Kalibr (Source: eRadarrua/104769).",
+    "Ukraine's air defense systems shot down 92 Shahed drones and 3 ballistic missiles in a single night (Source: kpszsu/72214).",
+    "A Shahed drone attack on Nizhnokamsk's oil cluster caused a fire, with 48 casualties (Source: tass_agency/389547).",
+    "Russia shifted tactics to focus on precise ballistic missiles and Kh-35 anti-aircraft systems (Source: eRadarrua/104769).",
+    "Ukraine's long-range strikes may shift to defense-industrial facilities, per Western reports (Source: ukr_leaks_eng/32326)."
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Russian forces conducted strikes on the Odessa port complex, targeting fuel and military equipment depots in Odessa and Chernomorsk. Simultaneously, a massive drone attack targeted the Nizhnekamsk oil refinery cluster in Tatarstan, resulting in casualties. Ukrainian forces launched a large-scale UAV operation, with Russian air defenses reporting the interception of 456 drones across multiple regions.",
+    "executive_summary": "Russia escalated attacks on Ukrainian infrastructure, including oil and chemical facilities. Ukraine's air defenses intercepted significant drone and missile strikes. Russia increased ballistic missile production by 110-120%, targeting critical infrastructure.",
     "ukraine": {
       "points": [
-        "Russian forces struck fuel and military equipment depots and a port transshipment complex in the port of Odessa (Source: @ukr_leaks_eng/32310).",
-        "Fuel tanks intended for the Ukrainian Armed Forces were destroyed in Belyary and Novi Belyary, located 28 km from the port of Odessa (Source: @ukr_leaks_eng/32310).",
-        "Russian forces attacked a Ukrainian bulk carrier as it exited the Danube (Source: @ukr_leaks_eng/32316).",
-        "In Odessa, 8 people were injured following a Russian attack that caused a fire in a four-story residential building (Source: @UkraineNow/83335).",
-        "In Kharkiv, 12 people were reported injured (Source: @UkraineNow/83335).",
-        "The German company Kromberg & Schubert, specializing in electrical cable systems for automotive brands, was destroyed in Zhytomir (Source: @ukr_leaks_eng/32314)."
+        "Ukraine's air defense systems intercepted 92 Shahed drones and 3 ballistic missiles in a single night, with specific locations like Chornomorsk and Dnipropetrovsk (Source: kpszsu/72214).",
+        "Reactive drones targeted Poltava, Sumy, and other regions, with specific coordinates and counteractions (Source: kpszsu/72225, kpszsu/72219).",
+        "Ukraine reported attacks on oil and chemical facilities in Nizhnokamsk, with 48 casualties (Source: tass_agency/389547).",
+        "Ukraine's long-range strikes may shift to defense-industrial facilities, per Western reports (Source: ukr_leaks_eng/32326).",
+        "Ukraine's military reported 1,300 Ukrainian casualties in a day due to Russian attacks (Source: tass_agency/389544).",
+        "Ukraine's air defense systems shot down over 1,100 drones in a day (Source: tass_agency/389544).",
+        "Ukraine's military emphasized the need for Western support to counter Russian missile production (Source: ukr_leaks_eng/32316)."
       ]
     },
     "russia": {
       "points": [
-        "A massive UAV attack on the Nizhnekamsk oil refinery cluster in Tatarstan, including the TANEKO, TAIFF-NK, and Nizhnekamskneftekhim plants, resulted in 12 deaths and 39 injuries (Source: @tass_agency/389517).",
-        "Russian air defenses intercepted 456 Ukrainian UAVs over various regions including Bryansk, Kursk, Kaluga, Tula, Belgorod, Oryol, Voronezh, Rostov, Penza, Ulyanovsk, Saratov, Orenburg, Samara, Moscow, Krasnodar Krai, Tatarstan, and Crimea (Source: @tass_agency/389506).",
-        "In the Rostov region, over 70 drones were destroyed in Kamensk-Shakhtinsky, Chertkovsky, Millerovsky, Kamensky, Sholokhovo, Verkhnedonsky, Belokalitvinsky, and Tarasovsky districts (Source: @tass_agency/389506).",
-        "Russian air defenses intercepted seven UAVs over Sevastopol (Source: @tass_agency/389486).",
-        "In the Voronezh region, a drone strike caused a fire in a utility building and damaged several private houses (Source: @tass_agency/389506)."
+        "Russia produced 198 ballistic missiles in July, exceeding plans by 140% for Kh-101 and 111% for Kalibr (Source: eRadarrua/104769).",
+        "Russia shifted tactics to focus on precise ballistic missiles and Kh-35 anti-aircraft systems (Source: eRadarrua/104769).",
+        "Russia attacked oil and chemical facilities in Nizhnokamsk, causing a fire and 48 casualties (Source: tass_agency/389547).",
+        "Russia targeted energy and transportation infrastructure, including ports and fuel depots (Source: ukr_leaks_eng/32310).",
+        "Russia's military reported 1,300 Ukrainian casualties in a day (Source: tass_agency/389544).",
+        "Russia's military destroyed a Ukrainian armored vehicle and two VSU positions (Source: tass_agency/389511).",
+        "Russia's military emphasized the need for diplomatic solutions while continuing attacks (Source: tass_agency/389538)."
       ]
     },
     "eastern_front": {
       "points": [
-        "The Russian Ministry of Defense reported that Russian Armed Forces liberated the villages of Vasyutinskoye and Toretskoye in the DPR (Source: @ukr_leaks_eng/32307)."
+        "Russian forces attacked Ukrainian positions in Donbas, including Kharkiv and Luhansk regions (Source: kpszsu/72233).",
+        "Russian Shahed drones targeted areas near Kramatorsk and Poltava (Source: mon1tor_ua/70017).",
+        "Russian ballistic missiles struck Ukrainian logistics centers in the east (Source: ukr_leaks_eng/32310).",
+        "Russian forces focused on energy infrastructure in the eastern front (Source: eRadarrua/104769).",
+        "Russian attacks on eastern front locations included Shahed drones and ballistic missiles (Source: mon1tor_ua/70022).",
+        "Russian missile production increased by 110-120%, targeting critical infrastructure (Source: eRadarrua/104769).",
+        "Russian forces used reactive drones and ballistic missiles in eastern front operations (Source: kpszsu/72214)."
       ]
     },
     "northern_front": {
       "points": [
-        "A drone was reported in the vicinity of Shtefan-Vodă, Moldova, causing a fire after an explosion (Source: @UkraineNow/83319)."
+        "Russian Shahed drones targeted areas near Chernihiv and Poltava (Source: mon1tor_ua/70025).",
+        "Russian ballistic missiles struck northern regions, including Chernihiv (Source: mon1tor_ua/70025).",
+        "Russian forces focused on energy infrastructure in the north (Source: eRadarrua/104769).",
+        "Russian attacks on northern front locations included Shahed drones and ballistic missiles (Source: mon1tor_ua/70022).",
+        "Russian missile production increased by 110-120%, targeting critical infrastructure (Source: eRadarrua/104769).",
+        "Russian forces used reactive drones in northern front operations (Source: kpszsu/72225).",
+        "Russian attacks on northern front locations included ballistic missiles and Shahed drones (Source: mon1tor_ua/70017)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces attacked a Ukrainian bulk carrier exiting the Danube, contributing to a maritime trade blockade (Source: @ukr_leaks_eng/32316).",
-        "A drone was reported in the Black Sea heading toward the Izmail district of the Odessa region (Source: @kpszsu/72195)."
+        "Russian Shahed drones targeted areas near Odesa and Kherson (Source: mon1tor_ua/70022).",
+        "Russian ballistic missiles struck southern regions, including Odesa (Source: mon1tor_ua/70025).",
+        "Russian forces focused on energy infrastructure in the south (Source: eRadarrua/104769).",
+        "Russian attacks on southern front locations included Shahed drones and ballistic missiles (Source: mon1tor_ua/70022).",
+        "Russian missile production increased by 110-120%, targeting critical infrastructure (Source: eRadarrua/104769).",
+        "Russian forces used reactive drones in southern front operations (Source: kpszsu/72225).",
+        "Russian attacks on southern front locations included ballistic missiles and Shahed drones (Source: mon1tor_ua/70017)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian tactical aviation launched guided aerial bomb strikes on the Synelnykove district of the Dnipropetrovsk region (Source: @kpszsu/72198).",
-        "Ukrainian strikes using Deep Strike systems have reportedly targeted 697 targets in Russia during the first half of 2026 (Source: @UkraineNow/83333).",
-        "Russian forces struck the Odessa TPP and seven electrical substations (Source: @tass_agency/389505).",
-        "A ballistic missile threat was reported for Kyiv (Source: @mon1tor_ua/70024).",
-        "A ballistic missile threat was reported for Chernihiv (Source: @mon1tor_ua/70025).",
-        "A ballistic missile threat was reported from Bryansk (Source: @mon1tor_ua/70032)."
+        "Ukraine's air defense systems intercepted 92 Shahed drones and 3 ballistic missiles in a single night (Source: kpszsu/72214).",
+        "Russian Shahed drones targeted multiple regions, including Poltava and Sumy (Source: kpszsu/72225).",
+        "Russian ballistic missiles struck oil and chemical facilities in Nizhnokamsk (Source: tass_agency/389547).",
+        "Russian forces used reactive drones and ballistic missiles in air warfare (Source: eRadarrua/104769).",
+        "Ukraine's air defense systems shot down over 1,100 drones in a day (Source: tass_agency/389544).",
+        "Russian missile production increased by 110-120%, focusing on air warfare (Source: eRadarrua/104769).",
+        "Russian attacks on air targets included ballistic missiles and Shahed drones (Source: mon1tor_ua/70017)."
       ]
     },
     "key_developments": [
-      "Russian forces targeted the Odessa port complex, striking fuel and military equipment depots in Odessa and Chernomorsk (Source: @ukr_leaks_eng/32310).",
-      "A massive UAV attack on the Nizhnekamsk oil refinery cluster in Tatarstan caused 12 deaths and 39 injuries (Source: @tass_agency/389517).",
-      "Russian air defenses intercepted 456 Ukrainian UAVs across multiple Russian regions including Tatarstan and Crimea (Source: @tass_agency/389506).",
-      "Russian forces reported the liberation of Vasyutinskoye and Toretskoye villages in the DPR (Source: @ukr_leaks_eng/32307).",
-      "Ukrainian Deep Strike systems have reportedly targeted 697 objectives in Russia, impacting 43% of Russian refinery capacity (Source: @UkraineNow/83333).",
-      "Russian forces struck the Odessa TPP and seven electrical substations (Source: @tass_agency/389505).",
-      "Russian forces attacked a Ukrainian bulk carrier exiting the Danube, impacting maritime trade (Source: @ukr_leaks_eng/32316)."
+      "Russia launched 96 targets against Ukrainian air defenses, including Shahed drones and ballistic missiles, with 92 intercepted (Source: kpszsu/72214).",
+      "Russia produced 198 ballistic missiles in July, exceeding plans by 140% for Kh-101 and 111% for Kalibr (Source: eRadarrua/104769).",
+      "A ballistic missile attack on Chernihiv was reported, with specific locations and countermeasures (Source: mon1tor_ua/70025).",
+      "Reactive drones targeted Poltava, Sumy, and other regions, with specific coordinates and counteractions (Source: kpszsu/72225, kpszsu/72219).",
+      "A Shahed drone attack on Nizhnokamsk's oil cluster caused a fire, with 48 casualties (Source: tass_agency/389547).",
+      "Ukraine's air defense systems shot down over 1,100 drones in a day (Source: tass_agency/389544).",
+      "Ukraine's long-range strikes may shift to defense-industrial facilities, per Western reports (Source: ukr_leaks_eng/32326)."
     ],
-    "threat_assessment": "The operational environment is characterized by high-intensity strikes against critical infrastructure, specifically targeting energy and logistics hubs. Russian strikes on the Odessa port and electrical substations aim to disrupt Ukrainian maritime trade and power supply. Simultaneously, Ukrainian long-range UAV strikes are successfully targeting Russian refinery clusters, causing significant casualties and economic disruption in Tatarstan.",
-    "regional_response": "Turkey's Foreign Minister has called for a moratorium on strikes against merchant vessels in the Black Sea due to the impact on Turkish-owned and flagged ships. In Ukraine, President Zelensky has indicated that new contacts regarding diplomacy and air defense will occur soon. In the US, manufacturers like Raytheon and Lockheed are reportedly hesitant to license Patriot interceptor missiles due to intellectual property concerns.",
-    "intelligence_notes": "The scale of UAV deployment is significant, with Russia reporting 456 interceptions in a single night. The use of 'Deep Strike' capabilities by Ukraine is showing measurable impact on Russian industrial capacity, specifically refineries. The targeting of humanitarian supplies, such as the WHO warehouse in Dnipro, indicates a focus on disrupting logistics and emergency medical support."
+    "threat_assessment": "Russia's increased ballistic missile production and targeted attacks on critical infrastructure pose a significant threat to Ukraine's energy and industrial sectors. The use of reactive drones and Shahed drones indicates a shift toward precision strikes, complicating Ukrainian defense. The potential shift in Ukraine's long-range strikes to defense-industrial facilities could escalate the conflict further.",
+    "regional_response": "International partners may need to increase support for Ukraine's air defense systems to counter Russia's missile and drone production. The attack on Nizhnokamsk highlights the vulnerability of energy infrastructure, prompting potential regional energy security measures. Russia's diplomatic efforts may be undermined by continued military actions, affecting international perceptions.",
+    "intelligence_notes": "Russia's focus on critical infrastructure and missile production suggests a strategic intent to weaken Ukraine's war capacity. The use of reactive drones and Shahed drones indicates a high level of operational flexibility. Ukraine's potential shift in targeting defense-industrial facilities could alter the conflict's dynamics, requiring adaptive countermeasures."
   },
   "missiles": 0,
   "drones": 126,
   "kpszsu_timeline": [
-    2,
-    6,
     4,
-    1,
+    2,
+    4,
+    3,
+    4,
+    6,
     5,
-    3,
-    3,
-    6,
-    6,
     4,
     3,
-    3,
-    8,
-    2,
-    6,
+    4,
     7,
     3,
-    3,
+    5,
+    7,
     2,
-    2,
     3,
+    3,
+    1,
+    4,
     0,
-    6,
-    3
+    7,
+    2,
+    2,
+    5
   ]
 }
