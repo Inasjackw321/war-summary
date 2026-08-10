@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-10T03:09:46.680966+00:00",
-  "message_count": 308,
+  "updated_at": "2026-08-10T05:57:29.412027+00:00",
+  "message_count": 315,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,83 +15,119 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
-    0,
-    0,
-    18,
-    0,
-    0,
-    0,
-    0,
-    18,
-    0,
-    55,
-    0,
-    18,
-    37,
-    55,
+    17,
     0,
     0,
     0,
     0,
     0,
+    17,
+    50,
     0,
+    17,
+    17,
+    50,
+    17,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
     0
   ],
   "combined_activity_timeline": [
-    10,
-    9,
-    10,
+    14,
+    15,
     13,
     18,
+    11,
+    8,
+    13,
+    10,
+    14,
+    17,
+    12,
+    12,
+    17,
+    19,
     12,
     17,
     10,
+    12,
+    16,
     10,
-    14,
-    10,
-    13,
-    15,
-    13,
+    9,
+    9,
     17,
-    15,
-    17,
-    10,
-    19,
-    10,
-    11,
-    17,
-    8,
-    10
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 49,
+    "@eRadarrua": 55,
     "@kpszsu": 83,
-    "@mon1tor_ua": 27,
+    "@mon1tor_ua": 20,
     "@UkraineNow": 18,
     "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 15,
-    "@tass_agency": 114
+    "@ukr_leaks_eng": 16,
+    "@tass_agency": 121
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/104753",
-    "kpszsu": "https://t.me/kpszsu/72201",
+    "eRadarrua": "https://t.me/eRadarrua/104759",
+    "kpszsu": "https://t.me/kpszsu/72212",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70034",
-    "UkraineNow": "https://t.me/UkraineNow/83328",
+    "UkraineNow": "https://t.me/UkraineNow/83330",
     "DeepStateUA": "https://t.me/DeepStateUA/23727",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32316",
-    "tass_agency": "https://t.me/tass_agency/389487"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32318",
+    "tass_agency": "https://t.me/tass_agency/389509"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83308",
-    "tass_agency": "https://t.me/tass_agency/389473",
+    "UkraineNow": "https://t.me/UkraineNow/83328",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32318",
+    "tass_agency": "https://t.me/tass_agency/389495",
+    "eRadarrua": "https://t.me/eRadarrua/104734",
     "DeepStateUA": "https://t.me/DeepStateUA/23726",
-    "eRadarrua": "https://t.me/eRadarrua/104735",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32306",
-    "kpszsu": "https://t.me/kpszsu/72198",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70022"
+    "kpszsu": "https://t.me/kpszsu/72178",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70016"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/83330",
+      "post_id": 83330,
+      "channel": "UkraineNow",
+      "ts": "2026-08-10T05:42:44+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32318",
+      "post_id": 32318,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-10T05:34:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83329",
+      "post_id": 83329,
+      "channel": "UkraineNow",
+      "ts": "2026-08-10T05:09:44+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32317",
+      "post_id": 32317,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-10T05:03:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389505",
+      "post_id": 389505,
+      "channel": "tass_agency",
+      "ts": "2026-08-10T05:03:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389491",
+      "post_id": 389491,
+      "channel": "tass_agency",
+      "ts": "2026-08-10T03:35:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/389476",
       "post_id": 389476,
@@ -185,50 +221,6 @@
       "channel": "eRadarrua",
       "ts": "2026-08-09T19:19:01+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/M6_5c5uA4I7OqKtFOzHdXdOvlKHpGest331ECw3pd6qxzIT4ol_8pZIP3nPACW6QM81VWY7s-gRfj6STTvkBSPeLuR6mo865HQ_cgXPdt09FZQSiRYQtLLcDV9TV3IiiTjTH1hQuFxrDLk5DwNyaHEQPwJFN8wGTdsnIL2VMcCvVlL1MnqZhl4cBuKs61lTUVR-2x-Tedq8RBVC3w9yqpnmad7aTLcy5E6DO-32dc-no0kpsi8bQuUXDaIFiiPMLQ0V8i-mWyJbtywQ3Y9h-l9YUGmb5XdjHRKHsSpBUwB7Y69solcNURig5URykoidjlrsh3rXLfhkkgVoA-G7uhQ.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/104696",
-      "post_id": 104696,
-      "channel": "eRadarrua",
-      "ts": "2026-08-09T19:18:37+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/tJOvi-1RAf3U9mL-qTKwZHdY3Z8feB48JNLCLLuM-KYhrPW5qVbr0JnJ0Heyrt37hMScotq01G1kSbyRlLWKHgTxiGuSW7sZmLvEzqvvxjU0VjX8oNEVPb1RLw-bR59sboexae0RMeEFxl_12FMTWoNtTbDD-e4xvXT2k9DhlCs4QgN6Junbzeq5eqvNzuEJ8S-Q49pMri-GlmIu4bmZvbxqQifs37GY4iAWodkeXL0lrW8mNXTAqD0Nlsc1-mJP59-2dcaBxvg4LZ8_QQQ0hDuUh3O7gkNL5hpHN_xLBbkH8OtFRl99Od_x1ro4-8AjtiTjWkCXjnLpLovKiufO8g.jpg",
-      "companion_text_id": 104694
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/104690",
-      "post_id": 104690,
-      "channel": "eRadarrua",
-      "ts": "2026-08-09T18:49:56+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/LiS0uGRc4GWZ4_Bm0PsxAvBIMVp5Uy3tp8xlVrhAaI-FO2U4kVl-Tb6xmGgJ_pN9TwMN3iCtbE-zACALxyugDxeBzEUirsufH-P6IjsceIwPVLe7jpQ__V0PTWiJ6De9PdlP62dTVgVZ0Y25YB2L0lbTq4joLuYoyt5z9yiT_gQ42fJFGiRWFdqfikPJOCBDCZTK9Z9WzXNxaHbQWwBfCaaUCVUrUm5a83cl89QR4eGfLJ5cgYeOR3igjBB3XDIpxmkH3SEv5K7-xN0ItzN_VQzvSWEJ8RJS4LhLgQb3-NOEvBGA_KArvMHSFSD4kaWPPZxZYuWdLACAsvSHXwT-tQ.jpg",
-      "companion_text_id": 104691
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/104687",
-      "post_id": 104687,
-      "channel": "eRadarrua",
-      "ts": "2026-08-09T18:26:06+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/AY3aI_c4e8qmoh9DI8ppL4iIGVOUgtkgK0FACjQ2hb3AZ2yXPkNVvSAUYEU3H5ZV522POqTvI0gDwRx-t-MuYPmZVZsI5X6GBrqAsJnOX9do6dk1JhHtRA5oj5u8pTKosZ6VYEsxar06aX13uh0x1wHiy6uKKRuSxXv_qos1UuNHVJ9WX2_1OT2LCMeINsNac2bkMunYgRjEqr5eUe-ZdW1_9-hzya65UN5dO3qRgCNlzMyQu8K-J4UQxJ3f10PcHyMjP1DCps_T2k1fDjIofvud6VaPqVFzEpX8_R88BjhwMAXc--QzPD88QmIEdHovNl3rJgtX1Gwk8RJuH0WgLg.jpg",
-      "companion_text_id": 104688
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/104685",
-      "post_id": 104685,
-      "channel": "eRadarrua",
-      "ts": "2026-08-09T18:11:23+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/fLrRYW4Q08ikNpGNtR0nMZetuMnOWsvLizrBbmmVPtVlHV8xbdgafrOZkB_j3tcK6aOQFFZvn3TQ5ZEprie1F4ikbYbwafoM1mg0ySszaWi7fzdheDro0ffeFKRuLFNxwjAF9xZqvWw6cjLpLVuKTvsJ59NHPVQkQRtzULRBHZ8eqC2kBnKJoWhSjlnKUHyLbqFTAYf5H1xLxQJfpy1xv0EuH_JgTlbJnH6bTZKAN754gjUIeBMh3UDWdD0ugFhcV48KT_7Z40M76-EngusQOaO2cpcfq5ZoZu8YShiriEaVtTyGtBGWKEUzZxvEiR4bZT1dHZu0hZZAKthmxu_33w.jpg",
-      "companion_text_id": 104684
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83326",
-      "post_id": 83326,
-      "channel": "UkraineNow",
-      "ts": "2026-08-09T18:01:44+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389446",
-      "post_id": 389446,
-      "channel": "tass_agency",
-      "ts": "2026-08-09T17:59:01+00:00"
     }
   ],
   "post_images": {
@@ -250,110 +242,119 @@
     "eRadarrua/104688": "data/media/eRadarrua_104687.jpg",
     "eRadarrua/104690": "data/media/eRadarrua_104690.jpg",
     "eRadarrua/104691": "data/media/eRadarrua_104690.jpg",
-    "eRadarrua/104654": "data/media/eRadarrua_104654.jpg",
-    "eRadarrua/104653": "data/media/eRadarrua_104654.jpg",
     "eRadarrua/104656": "data/media/eRadarrua_104656.jpg",
     "eRadarrua/104657": "data/media/eRadarrua_104656.jpg",
     "eRadarrua/104660": "data/media/eRadarrua_104660.jpg",
     "eRadarrua/104661": "data/media/eRadarrua_104661.jpg",
-    "kpszsu/72056": "data/media/kpszsu_72056.jpg",
-    "kpszsu/72055": "data/media/kpszsu_72056.jpg"
+    "eRadarrua/104662": "data/media/eRadarrua_104662.jpg"
   },
-  "summary": "Russian forces conducted multiple drone and missile strikes across Ukraine overnight, targeting cities including Kyiv, Odesa, Kharkiv, and Zhytomyr, resulting in civilian casualties and infrastructure damage. Ukrainian air defenses intercepted several drones and missiles, while Russian forces claimed advances near Ilyinivka and Chasiv Yar. Diplomatic activity continues with Zelensky announcing upcoming contacts on defense aid and negotiations.",
+  "summary": "Russian forces continued strikes across Ukraine overnight, hitting Odesa, Kharkiv, and Zhytomyr regions with casualties and infrastructure damage reported. Ukraine's President Zelenskyy announced plans for new diplomatic and air defense contacts this week. Protests erupted in 22 Polish cities against violence targeting Ukrainians, with over 11,000 signatures collected for a petition to the Polish government.",
   "key_points": [
-    "Russian overnight strikes hit Kyiv, Odesa, Kharkiv, and Zhytomyr regions, causing civilian casualties and infrastructure damage. (Source: @UkraineNow/83308)",
-    "Ukrainian air defenses intercepted eight drones approaching Moscow, according to Russian officials. (Source: @tass_agency/389473)",
-    "Russian forces advanced near Ilyinivka and Chasiv Yar, according to DeepState map updates. (Source: @DeepStateUA/23726)",
-    "A fire at the 'Sirius' animal shelter in Kyiv region killed eight dogs; 70 were rescued by volunteers. (Source: @UkraineNow/83324)",
-    "Russian attacks on Sumy region targeted Ukrnafta infrastructure, part of a systematic campaign against oil facilities. (Source: @eRadarrua/104735)",
-    "Zelensky announced upcoming diplomatic contacts regarding defense aid and negotiations within the week. (Source: @UkraineNow/83325)",
-    "Finland declined to provide Patriot missiles to Ukraine, citing national defense readiness concerns. (Source: @ukr_leaks_eng/32306)"
+    "Russian overnight strikes hit Odesa, Kharkiv, and Zhytomyr regions with casualties and infrastructure damage reported. (Source: @UkraineNow/83328)",
+    "In Odesa, 8 people were injured in a Russian attack; a four-story residential building caught fire, and two private homes burned. (Source: @UkraineNow/83315)",
+    "In Kharkiv, 12 people were reported injured following Russian attacks. (Source: @UkraineNow/83315)",
+    "Ukraine's President Zelenskyy announced new diplomatic and air defense contacts planned for the coming week. (Source: @UkraineNow/83328)",
+    "Protests against violence targeting Ukrainians took place in 22 Polish cities, with over 11,000 signatures collected for a petition to the Polish government. (Source: @UkraineNow/83326)",
+    "Russian forces destroyed a C-400 air defense system position in Gelendzhik and struck four additional air defense elements and three Black Sea Fleet vessels. (Source: @UkraineNow/83311)",
+    "Ukrainian drones attacked the Turkish bulk carrier MV Reyhan Sarı off Novorossiysk on July 22, leading to an ICC lawsuit filed by the ship's owner. (Source: @ukr_leaks_eng/32318)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces launched coordinated drone and missile strikes across multiple Ukrainian regions overnight, causing civilian casualties and infrastructure damage. Ukrainian air defenses reported intercepting several projectiles, including eight drones near Moscow. Ground operations saw Russian advances near Ilyinivka and Chasiv Yar, while diplomatic efforts continue with Zelensky announcing upcoming contacts on defense aid.",
+    "executive_summary": "Russian forces conducted overnight strikes across multiple Ukrainian regions, causing casualties and infrastructure damage in Odesa, Kharkiv, and Zhytomyr. Ukraine's President Zelenskyy announced upcoming diplomatic and air defense contacts. Protests against violence targeting Ukrainians occurred in 22 Polish cities with over 11,000 petition signatures.",
     "ukraine": [
-      "Overnight Russian strikes hit Kyiv, Odesa, Kharkiv, and Zhytomyr regions, causing civilian casualties and infrastructure damage. In Odesa, eight people were injured and a four-story residential building caught fire. In Kharkiv, twelve people were injured and two fatalities were reported in Saltivsky district. (Source: @UkraineNow/83308)",
-      "A fire at the 'Sirius' animal shelter in the Kyiv region killed eight dogs; 70 were rescued by volunteers. The fire destroyed 20 aviaries, a kitchen, workshop, and food supplies. The shelter is seeking donations for reconstruction materials and pet food. (Source: @UkraineNow/83324)",
-      "Zelensky announced upcoming diplomatic contacts regarding defense aid and negotiations within the week. He emphasized Ukraine's active role in diplomacy and ongoing discussions with mediators for additional air defense packages. (Source: @UkraineNow/83325)",
-      "Ukrainian MP Aleksandr Fediyenko stated there are approximately two million draft dodgers in Ukraine who are invisible to the state. He called for creating conditions to detect them before assessing mobilization resources and deferments. (Source: @ukr_leaks_eng/32313)",
-      "Protests occurred in 22 Polish cities against violence targeting Ukrainians. Organizers distributed stickers and submitted a petition with over 11,000 signatures to the Polish Prime Minister's office demanding action against attacks on Ukrainians and minorities. (Source: @UkraineNow/83326)"
+      "Russian overnight strikes hit Odesa, Kharkiv, and Zhytomyr regions with casualties and infrastructure damage reported. (Source: @UkraineNow/83328)",
+      "In Odesa, 8 people were injured in a Russian attack; a four-story residential building caught fire, and two private homes burned. (Source: @UkraineNow/83315)",
+      "In Kharkiv, 12 people were reported injured following Russian attacks. (Source: @UkraineNow/83315)",
+      "Ukraine's President Zelenskyy announced new diplomatic and air defense contacts planned for the coming week. (Source: @UkraineNow/83328)",
+      "Protests against violence targeting Ukrainians took place in 22 Polish cities, with over 11,000 signatures collected for a petition to the Polish government. (Source: @UkraineNow/83326)",
+      "Ukrainian drones attacked the Turkish bulk carrier MV Reyhan Sarı off Novorossiysk on July 22, leading to an ICC lawsuit filed by the ship's owner. (Source: @ukr_leaks_eng/32318)",
+      "Russia has destroyed the German company Kromberg & Schubert in Zhytomir, which specialized in electrical cable systems for major car manufacturers. (Source: @ukr_leaks_eng/32314)"
     ],
     "russia": [
-      "Russian air defenses intercepted eight drones approaching Moscow, according to Mayor Sergei Sobyanin. The drones were reportedly launched toward the capital. (Source: @tass_agency/389473)",
-      "Russian forces destroyed infrastructure at the 'Bugrovoye' gas field in Sumy region using drones, according to the Russian Ministry of Defense. Video footage was released showing the strikes. (Source: @tass_agency/389451)",
-      "Russian air force conducted guided aviation bomb strikes on Dnipropetrovsk region, specifically Sinelnykivsky district. The attacks were carried out by tactical aviation. (Source: @kpszsu/72198)",
-      "Russian forces have been systematically targeting Ukrnafta infrastructure in Sumy, Poltava, and Kharkiv regions. Previous attacks forced temporary suspension of several extraction facilities. (Source: @eRadarrua/104735)",
-      "Russian airborne troops (despite unclear designation) claimed that junior sergeant Alexander Ilyin single-handedly repelled two Ukrainian counterattacks and held positions until reinforcements arrived. (Source: @tass_agency/389468)"
+      "Russian forces destroyed a C-400 air defense system position in Gelendzhik and struck four additional air defense elements and three Black Sea Fleet vessels. (Source: @UkraineNow/83311)",
+      "Over 70 UAVs were destroyed in Rostov region, according to the regional governor. (Source: @tass_agency/389495)",
+      "A drone struck a private home in Belgorod region, killing a woman, according to the regional operations center. (Source: @tass_agency/389503)",
+      "Casualties were reported after a massed drone attack on Nizhnekamsk, according to the press service of the head of Tatarstan. (Source: @tass_agency/389507)",
+      "Russian forces struck Odessa TES and seven electrical substations during recent mass attacks on the Odessa region. (Source: @eRadarrua/104734)",
+      "Russian forces are systematically targeting port infrastructure in the Greater Odessa region, including Chornomorsk, Yuzhny, Nikolaev, and Danube ports. (Source: @ukr_leaks_eng/32303)",
+      "Russian forces continue striking logistics centers in Kiev and surrounding areas. (Source: @ukr_leaks_eng/32303)"
     ],
     "eastern_front": [
-      "DeepState map updates indicate Russian forces advanced near Ilyinivka and Chasiv Yar. These locations are in the Donetsk region. (Source: @DeepStateUA/23726)",
-      "Russian drone activity was reported over Bozhedarivka in Dnipropetrovsk region, with a reactive drone circling the area. (Source: @eRadarrua/104676)",
-      "Ukrainian monitoring systems tracked a drone near Slavutych moving in a likely reconnaissance capacity. (Source: @eRadarrua/104674)",
-      "Russian drone strikes targeted Sumy region, with reports of attacks near Khotin and movement toward Mykolaivka and Stepanivka. (Source: @kpszsu/72168)",
-      "Air raid alerts were active in Sumy region with reports of multiple drone launches from various directions including Kotelva, Opishnya, and Khotin. (Source: @eRadarrua/104739)"
+      "Russian forces have liberated the villages of Vasyutinskoye and Toretskoye in the DPR, according to the Russian Ministry of Defense. (Source: @ukr_leaks_eng/32307)",
+      "Russian forces are exerting main pressure on the Dobropillya and Konstyantynivka fronts. (Source: @ukr_leaks_eng/32303)",
+      "The 'North' group has taken control of several settlements in the past week. (Source: @ukr_leaks_eng/32303)",
+      "Ukrainian reconnaissance and strike drones targeted areas near Bakhmut and Chasiv Yar. (Source: @DeepStateUA/23726)",
+      "Russian forces advanced near Illyinivka and in Chasiv Yar. (Source: @DeepStateUA/23726)",
+      "Air defense systems tracked multiple UAV incursions from the north-eastern direction toward Kharkiv and Sumy regions. (Source: @kpszsu/72178)",
+      "UAV activity was reported east of Sumy moving southward toward Poltava region. (Source: @kpszsu/72153)"
     ],
     "northern_front": [
-      "Russian drone activity was reported north of Chernihiv, with a drone moving southwest past Losynivka toward Kyiv region. (Source: @kpszsu/72177)",
-      "Air raid alerts were active in Kyiv with air raid sirens sounding at 00:16. The alert was later canceled at 03:57. (Source: @eRadarrua/104742, @eRadarrua/104753)",
-      "Russian drone activity was tracked near Mala Danylivka in Kharkiv region moving southward. (Source: @kpszsu/72190)",
-      "Russian drone strikes were reported in northern Kyiv region near Parafiivka moving southwest. (Source: @kpszsu/72171)",
-      "Air raid alerts were active in Chernihiv region with reports of drone activity near Kulykivka and Nizhyn. (Source: @eRadarrua/104749)"
+      "Air raid sirens sounded in Kyiv at 07:11 and 00:16, with the second alert lifted at 07:22. (Source: @eRadarrua/104754)",
+      "A ballistic missile threat was reported for Kyiv, remaining at medium-high levels. (Source: @mon1tor_ua/70016)",
+      "Three cruise missiles targeted the Zaporizhzhia and Odesa regions, with three 'Banderol' missiles aimed at the Odesa region. (Source: @mon1itor_ua/70015)",
+      "UAVs were tracked from the north-eastern direction toward Chernihiv and Kyiv regions. (Source: @kpszsu/72185)",
+      "A ballistic threat was reported from the north-eastern direction. (Source: @eRadarrua/104751)",
+      "UAVs were detected moving from the north-east toward Kharkiv and Sumy regions. (Source: @kpszsu/72157)",
+      "A ballistic threat was reported from the Bryansk region. (Source: @mon1itor_ua/70028)"
     ],
     "southern_front": [
-      "Russian drone activity was reported in Dnipropetrovsk region near Yuriiivka moving southwest. (Source: @kpszsu/72174)",
-      "Russian drone strikes were reported in Zaporizhzhia region with three drones launched from Poltava region. (Source: @mon1tor_ua/70022)",
-      "Russian drone activity was tracked in Odesa region with a reactive drone moving toward Bilhorod-Dnistrovsky district. (Source: @kpszsu/72200)",
-      "Russian drone strikes were reported in Kirovohrad region with four drones launched toward Cherkasy region. (Source: @mon1tor_ua/70021)",
-      "Russian drone activity was reported in Mykolaiv region with one drone launched from Kirovohrad region toward Bashkan district. (Source: @mon1tor_ua/70021)"
+      "Russian forces destroyed a C-400 air defense system position in Gelendzhik and struck four additional air defense elements and three Black Sea Fleet vessels. (Source: @UkraineNow/83311)",
+      "Three shadow fleet vessels were struck by drones in the Black Sea, including one tanker and two dry cargo ships. (Source: @UkraineNow/83311)",
+      "UAVs were tracked in the Black Sea moving toward the Odesa region, specifically the Izmail district. (Source: @kpszsu/72195)",
+      "Russian forces are systematically targeting port infrastructure in the Greater Odessa region, including Chornomorsk, Yuzhny, Nikolaev, and Danube ports. (Source: @ukr_leaks_eng/32303)",
+      "Russian forces struck Odessa TES and seven electrical substations during recent mass attacks on the Odessa region. (Source: @eRadarrua/104734)",
+      "Movement restrictions were imposed on sections of the Odesa-Renii highway due to enemy strikes, affecting border crossings with Moldova. (Source: @UkraineNow/83312)",
+      "Residents of Zaporozhye were advised to temporarily leave the city for 48 hours due to security concerns. (Source: @ukr_leaks_eng/32308)"
     ],
     "air_war": [
-      "Russian tactical aviation conducted guided aviation bomb strikes on Dnipropetrovsk region, specifically Sinelnykivsky district. (Source: @kpszsu/72198)",
-      "Ukrainian air defenses intercepted eight drones approaching Moscow, according to Russian officials. (Source: @tass_agency/389473)",
-      "Russian drone activity was reported across multiple regions including Chernihiv, Dnipropetrovsk, Sumy, and Kharkiv. (Source: @kpszsu/72177, @eRadarrua/104676)",
-      "Air raid alerts were active in Kyiv with sirens sounding at 00:16 and later canceled at 03:57. (Source: @eRadarrua/104742, @eRadarrua/104753)",
-      "Russian drone strikes were reported in various directions including from Poltava to Cherkasy, Kirovohrad to Cherkasy, and Sumy to Kharkiv. (Source: @mon1tor_ua/70021, @mon1tor_ua/70022)"
+      "Over 70 UAVs were destroyed in Rostov region, according to the regional governor. (Source: @tass_agency/389495)",
+      "Sixteen Ukrainian UAVs were destroyed over Kaluga region overnight. (Source: @tass_agency/389500)",
+      "Air raid sirens sounded in Kyiv at 07:11 and 00:16, with the second alert lifted at 07:22. (Source: @eRadarrua/104754)",
+      "A ballistic missile threat was reported for Kyiv, remaining at medium-high levels. (Source: @mon1itor_ua/70016)",
+      "UAVs were tracked from the north-eastern direction toward Kharkiv and Sumy regions. (Source: @kpszsu/72178)",
+      "Air defense systems tracked multiple UAV incursions from the north-eastern direction toward Kharkiv and Sumy regions. (Source: @kpszsu/72178)",
+      "A ballistic threat was reported from the north-eastern direction. (Source: @eRadarrua/104751)"
     ],
     "key_developments": [
-      "Russian overnight strikes hit Kyiv, Odesa, Kharkiv, and Zhytomyr regions, causing civilian casualties and infrastructure damage. (Source: @UkraineNow/83308)",
-      "Russian forces advanced near Ilyinivka and Chasiv Yar, according to DeepState map updates. (Source: @DeepStateUA/23726)",
-      "Ukrainian air defenses intercepted eight drones approaching Moscow, according to Russian officials. (Source: @tass_agency/389473)",
-      "Russian forces destroyed infrastructure at the 'Bugrovoye' gas field in Sumy region using drones. (Source: @tass_agency/389451)",
-      "Zelensky announced upcoming diplomatic contacts regarding defense aid and negotiations within the week. (Source: @UkraineNow/83325)",
-      "Finland declined to provide Patriot missiles to Ukraine, citing national defense readiness concerns. (Source: @ukr_leaks_eng/32306)",
-      "Russian air force conducted guided aviation bomb strikes on Dnipropetrovsk region, specifically Sinelnykivsky district. (Source: @kpszsu/72198)"
+      "Russian overnight strikes hit Odesa, Kharkiv, and Zhytomyr regions with casualties and infrastructure damage reported. (Source: @UkraineNow/83328)",
+      "In Odesa, 8 people were injured in a Russian attack; a four-story residential building caught fire, and two private homes burned. (Source: @UkraineNow/83315)",
+      "In Kharkiv, 12 people were reported injured following Russian attacks. (Source: @UkraineNow/83315)",
+      "Russian forces destroyed a C-400 air defense system position in Gelendzhik and struck four additional air defense elements and three Black Sea Fleet vessels. (Source: @UkraineNow/83311)",
+      "Ukraine's President Zelenskyy announced new diplomatic and air defense contacts planned for the coming week. (Source: @UkraineNow/83328)",
+      "Protests against violence targeting Ukrainians took place in 22 Polish cities, with over 11,000 signatures collected for a petition to the Polish government. (Source: @UkraineNow/83326)",
+      "Ukrainian drones attacked the Turkish bulk carrier MV Reyhan Sarı off Novorossiysk on July 22, leading to an ICC lawsuit filed by the ship's owner. (Source: @ukr_leaks_eng/32318)"
     ],
-    "threat_assessment": "Russian forces continue to apply pressure across multiple fronts with coordinated drone and missile strikes targeting civilian infrastructure and energy facilities. The systematic attacks on Ukrnafta infrastructure in Sumy, Poltava, and Kharkiv regions indicate a deliberate campaign to disrupt Ukraine's energy production capabilities. Ground operations show Russian advances near key positions in Donetsk region, suggesting sustained offensive operations. The involvement of Russian air defenses intercepting drones near Moscow highlights the expanding scope of the conflict. Western allies remain cautious about providing advanced weaponry, with Finland declining Patriot missile transfers.",
-    "regional_response": "Ukrainian air defenses have demonstrated capability to intercept incoming threats, including eight drones near Moscow, though civilian casualties persist from successful strikes. Diplomatic efforts are intensifying with Zelensky announcing upcoming contacts on defense aid and negotiations. Poland has seen protests against violence targeting Ukrainians, with organizers submitting petitions to government officials. Western nations continue to balance support for Ukraine with national defense priorities, as evidenced by Finland's refusal to transfer Patriot systems. The European continent lacks a unified air defense system capable of intercepting ballistic missiles, according to Zelensky.",
-    "intelligence_notes": "Russian forces are adapting military equipment for new roles, including converting 'Vikhr' missiles originally designed for armored targets to counter UAVs. Ukrainian intelligence indicates approximately two million draft dodgers remain undetected by state systems, complicating mobilization efforts. Russian propaganda highlights individual soldier heroism, such as a junior sergeant allegedly repelling two counterattacks single-handedly. The conflict is expanding beyond traditional battlefields with attacks on civilian infrastructure including animal shelters and residential buildings. Information warfare remains active with both sides disseminating claims about battlefield successes and diplomatic developments."
+    "threat_assessment": "Russian forces continue systematic strikes on Ukrainian infrastructure and civilian areas, with recent attacks causing casualties in Odesa and Kharkiv. The destruction of a C-400 system and Black Sea Fleet vessels indicates ongoing naval and air defense engagements. Ballistic missile threats remain elevated over Kyiv and surrounding regions. Ukrainian drone strikes on Russian oil refineries and port infrastructure suggest reciprocal escalation. The involvement of international actors, including Turkey and Germany, highlights the expanding scope of the conflict.",
+    "regional_response": "Polish citizens organized protests in 22 cities against violence targeting Ukrainians, collecting over 11,000 signatures for a petition to the Polish government. Turkey's Foreign Minister called for a mechanism to impose a moratorium on attacks against commercial ships in the Black Sea. Germany is likely to respond only with formal measures regarding the Nord Stream pipeline incident. International shipping companies, including Turkish operators, are increasingly affected by the conflict's reach into the Black Sea.",
+    "intelligence_notes": "Russian forces are systematically targeting port infrastructure in the Greater Odessa region, including Chornomorsk, Yuzhny, Nikolaev, and Danube ports, to disrupt maritime trade. Strikes on logistics centers in Kiev and surrounding areas indicate a broader campaign against supply chains. Ukrainian drone attacks on Russian oil refineries and marketplaces suggest efforts to degrade economic capacity. The involvement of international legal mechanisms, such as the ICC lawsuit filed by the Turkish shipowner, reflects the conflict's global implications. Continued escalation in both kinetic and diplomatic domains is expected."
   },
   "missiles": 0,
   "drones": 202,
   "kpszsu_timeline": [
     1,
-    2,
     0,
-    1,
-    1,
-    1,
-    7,
-    3,
     2,
-    5,
+    6,
+    4,
+    2,
+    4,
     3,
+    4,
+    6,
     5,
     4,
-    5,
-    5,
-    2,
-    5,
-    6,
-    5,
-    5,
-    6,
-    2,
     3,
-    4
+    4,
+    7,
+    3,
+    5,
+    7,
+    2,
+    4,
+    3,
+    1,
+    3,
+    0
   ]
 }
