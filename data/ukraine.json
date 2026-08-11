@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-11T03:05:56.503491+00:00",
-  "message_count": 381,
+  "updated_at": "2026-08-11T05:31:01.168441+00:00",
+  "message_count": 372,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,24 +14,24 @@
   "red_alerts": 126,
   "red_alerts_timeline": [
     0,
-    10,
     0,
     0,
+    11,
+    11,
     0,
-    10,
-    10,
-    0,
-    10,
-    10,
+    23,
     0,
     0,
     0,
     0,
-    21,
-    10,
+    11,
+    11,
+    11,
+    23,
+    11,
+    11,
     0,
-    21,
-    21,
+    0,
     0,
     0,
     0,
@@ -39,48 +39,48 @@
     0
   ],
   "combined_activity_timeline": [
-    11,
-    17,
-    11,
-    18,
-    12,
-    22,
-    18,
+    15,
+    16,
+    14,
+    19,
     24,
+    22,
     19,
     20,
     24,
-    22,
-    22,
-    13,
-    17,
-    10,
-    4,
-    10,
-    34,
-    10,
-    8,
-    14,
+    23,
+    20,
     12,
+    19,
+    4,
+    9,
+    15,
+    25,
+    10,
+    16,
+    8,
+    11,
+    7,
+    11,
     9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 59,
+    "@eRadarrua": 53,
     "@kpszsu": 74,
     "@mon1tor_ua": 26,
     "@UkraineNow": 20,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 174
+    "@tass_agency": 171
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/104887",
-    "kpszsu": "https://t.me/kpszsu/72355",
+    "kpszsu": "https://t.me/kpszsu/72366",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70063",
-    "UkraineNow": "https://t.me/UkraineNow/83348",
+    "UkraineNow": "https://t.me/UkraineNow/83349",
     "DeepStateUA": "https://t.me/DeepStateUA/23729",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32347",
-    "tass_agency": "https://t.me/tass_agency/389682"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32348",
+    "tass_agency": "https://t.me/tass_agency/389701"
   },
   "cited_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/104887",
@@ -91,6 +91,24 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/70049"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/83349",
+      "post_id": 83349,
+      "channel": "UkraineNow",
+      "ts": "2026-08-11T05:17:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389699",
+      "post_id": 389699,
+      "channel": "tass_agency",
+      "ts": "2026-08-11T04:59:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389684",
+      "post_id": 389684,
+      "channel": "tass_agency",
+      "ts": "2026-08-11T03:17:54+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/389679",
       "post_id": 389679,
@@ -152,18 +170,6 @@
       "ts": "2026-08-10T21:11:02+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/389636",
-      "post_id": 389636,
-      "channel": "tass_agency",
-      "ts": "2026-08-10T20:08:56+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/389635",
-      "post_id": 389635,
-      "channel": "tass_agency",
-      "ts": "2026-08-10T19:31:51+00:00"
-    },
-    {
       "post_url": "https://t.me/UkraineNow/83348",
       "post_id": 83348,
       "channel": "UkraineNow",
@@ -206,12 +212,6 @@
       "post_id": 83346,
       "channel": "UkraineNow",
       "ts": "2026-08-10T17:31:25+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32345",
-      "post_id": 32345,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-10T17:05:17+00:00"
     }
   ],
   "post_images": {
@@ -242,7 +242,7 @@
     "eRadarrua/104806": "data/media/eRadarrua_104806.jpg",
     "eRadarrua/104805": "data/media/eRadarrua_104806.jpg",
     "eRadarrua/104760": "data/media/eRadarrua_104760.jpg",
-    "eRadarrua/104759": "data/media/eRadarrua_104760.jpg",
+    "eRadarrua/104762": "data/media/eRadarrua_104760.jpg",
     "kpszsu/72214": "data/media/kpszsu_72214.jpg"
   },
   "summary": "Ukraine conducts systematic drone strikes on Russian oil infrastructure, causing significant economic damage. Russia reports losses of military assets and risks of encirclement in eastern regions. Moldova confirms first drone attack on its territory linked to the war.",
@@ -293,32 +293,33 @@
       ]
     }
   },
+  "stale_summary": true,
   "missiles": 0,
   "drones": 126,
   "kpszsu_timeline": [
     3,
-    2,
-    1,
-    6,
-    4,
-    1,
-    5,
     6,
     2,
-    3,
-    5,
+    1,
     7,
-    8,
-    1,
+    6,
     1,
     2,
+    5,
+    10,
+    6,
+    0,
+    3,
     0,
     1,
-    4,
-    2,
+    1,
+    3,
+    3,
+    3,
     1,
     2,
+    3,
     4,
-    3
+    1
   ]
 }
