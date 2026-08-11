@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-08-11T02:00:14.003837+00:00",
-  "message_count": 848,
+  "updated_at": "2026-08-11T03:02:42.698143+00:00",
+  "message_count": 850,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -56,33 +56,33 @@
   ],
   "combined_activity_timeline": [
     8,
-    7,
-    27,
-    23,
-    31,
+    29,
+    21,
+    32,
     50,
     36,
-    50,
-    43,
+    53,
+    39,
     31,
     37,
-    47,
-    63,
-    69,
+    48,
     62,
-    45,
-    43,
-    43,
-    39,
-    20,
-    30,
+    68,
+    64,
+    46,
+    41,
+    42,
+    40,
+    21,
+    28,
     26,
     9,
-    9
+    9,
+    10
   ],
   "messages_by_channel": {
-    "@N12chat": 131,
-    "@asafroz": 13,
+    "@N12chat": 132,
+    "@asafroz": 14,
     "@yediotnews25": 33,
     "@SharghDaily": 172,
     "@amitsegal": 20,
@@ -95,22 +95,22 @@
     "@VahidOnline": 11,
     "@idf_telegram": 4,
     "@lelotsenzura": 6,
-    "@rasedal3ado138e": 147,
-    "@shin_persian": 8,
+    "@rasedal3ado138e": 148,
+    "@shin_persian": 6,
     "@almogboker78": 3,
     "@New_security8200": 9,
     "@inon_yttach": 2,
     "@redlinkleb": 30,
-    "@pkpoi": 15
+    "@pkpoi": 16
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/221442",
+    "N12chat": "https://t.me/N12chat/221445",
     "manniefabian": "https://t.me/manniefabian/58944",
-    "asafroz": "https://t.me/asafroz/52383",
+    "asafroz": "https://t.me/asafroz/52385",
     "yediotnews25": "https://t.me/yediotnews25/133784",
     "SharghDaily": "https://t.me/SharghDaily/177337",
     "amitsegal": "https://t.me/amitsegal/63784",
-    "presstv": "https://t.me/presstv/202302",
+    "presstv": "https://t.me/presstv/202305",
     "mamlekate": "https://t.me/mamlekate/104115",
     "kianmeli1": "https://t.me/kianmeli1/90807",
     "Faytuks_Network": "https://t.me/Faytuks_Network/6220",
@@ -120,13 +120,13 @@
     "VahidOnline": "https://t.me/VahidOnline/77810",
     "idf_telegram": "https://t.me/idf_telegram/24860",
     "lelotsenzura": "https://t.me/lelotsenzura/94119",
-    "rasedal3ado138e": "https://t.me/rasedal3ado138e/383910",
+    "rasedal3ado138e": "https://t.me/rasedal3ado138e/383912",
     "shin_persian": "https://t.me/shin_persian/8936",
     "almogboker78": "https://t.me/almogboker78/17936",
     "New_security8200": "https://t.me/New_security8200/203267",
     "inon_yttach": "https://t.me/inon_yttach/9825",
     "redlinkleb": "https://t.me/redlinkleb/35753",
-    "pkpoi": "https://t.me/pkpoi/143581"
+    "pkpoi": "https://t.me/pkpoi/143582"
   },
   "cited_post_urls": {
     "asafroz": "https://t.me/asafroz/52378",
@@ -141,6 +141,12 @@
     "shin_persian": "https://t.me/shin_persian/8928"
   },
   "media": [
+    {
+      "post_url": "https://t.me/presstv/202303",
+      "post_id": 202303,
+      "channel": "presstv",
+      "ts": "2026-08-11T02:10:03+00:00"
+    },
     {
       "post_url": "https://t.me/N12chat/221442",
       "post_id": 221442,
@@ -258,12 +264,6 @@
       "post_id": 202284,
       "channel": "presstv",
       "ts": "2026-08-10T21:59:36+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/35748",
-      "post_id": 35748,
-      "channel": "redlinkleb",
-      "ts": "2026-08-10T21:57:02+00:00"
     }
   ],
   "post_images": {
@@ -394,5 +394,6 @@
     "threat_assessment": "Escalating tensions between Iran and the United States over compensation demands pose significant risks of military escalation across multiple regional fronts. The postponement of Lebanese-Israeli negotiations indicates deteriorating diplomatic relations and potential for increased hostilities. Precise military strikes by Yemeni forces against Saudi targets demonstrate growing regional instability and the potential for broader conflict involvement.",
     "regional_response": "Regional negotiations face significant delays due to mutual distrust and external pressures from both sides. The involvement of multiple actors including Iran, Israel, Lebanon, and Yemen indicates a complex web of interdependent conflicts requiring careful diplomatic management. The potential for escalation remains high given the recent military actions and diplomatic breakdowns.",
     "intelligence_notes": "Iranian officials are leveraging diplomatic channels to secure compensation while maintaining military pressure capabilities. The postponement of Lebanese-Israeli negotiations suggests internal political pressures are affecting diplomatic processes. Regional military activities indicate a pattern of escalating tensions requiring close monitoring for potential flashpoints."
-  }
+  },
+  "stale_summary": true
 }

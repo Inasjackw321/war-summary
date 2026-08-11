@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-11T02:05:05.742010+00:00",
+  "updated_at": "2026-08-11T03:05:56.503491+00:00",
   "message_count": 381,
   "channels": [
     "eRadarrua",
@@ -14,7 +14,6 @@
   "red_alerts": 126,
   "red_alerts_timeline": [
     0,
-    0,
     10,
     0,
     0,
@@ -33,6 +32,7 @@
     0,
     21,
     21,
+    0,
     0,
     0,
     0,
@@ -40,7 +40,6 @@
   ],
   "combined_activity_timeline": [
     11,
-    10,
     17,
     11,
     18,
@@ -48,21 +47,22 @@
     22,
     18,
     24,
-    17,
-    22,
+    19,
+    20,
     24,
-    23,
-    21,
-    12,
+    22,
+    22,
+    13,
     17,
     10,
     4,
-    12,
-    32,
     10,
-    9,
-    15,
-    10
+    34,
+    10,
+    8,
+    14,
+    12,
+    9
   ],
   "messages_by_channel": {
     "@eRadarrua": 59,
@@ -75,22 +75,34 @@
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/104887",
-    "kpszsu": "https://t.me/kpszsu/72350",
+    "kpszsu": "https://t.me/kpszsu/72355",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70063",
     "UkraineNow": "https://t.me/UkraineNow/83348",
     "DeepStateUA": "https://t.me/DeepStateUA/23729",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32347",
-    "tass_agency": "https://t.me/tass_agency/389675"
+    "tass_agency": "https://t.me/tass_agency/389682"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70035",
-    "eRadarrua": "https://t.me/eRadarrua/104808",
-    "kpszsu": "https://t.me/kpszsu/72343",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32317",
-    "DeepStateUA": "https://t.me/DeepStateUA/23728",
-    "tass_agency": "https://t.me/tass_agency/389671"
+    "eRadarrua": "https://t.me/eRadarrua/104887",
+    "tass_agency": "https://t.me/tass_agency/389666",
+    "UkraineNow": "https://t.me/UkraineNow/83338",
+    "kpszsu": "https://t.me/kpszsu/72302",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32346",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70049"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/389679",
+      "post_id": 389679,
+      "channel": "tass_agency",
+      "ts": "2026-08-11T02:14:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/389676",
+      "post_id": 389676,
+      "channel": "tass_agency",
+      "ts": "2026-08-11T02:03:58+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/389671",
       "post_id": 389671,
@@ -196,22 +208,10 @@
       "ts": "2026-08-10T17:31:25+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/389620",
-      "post_id": 389620,
-      "channel": "tass_agency",
-      "ts": "2026-08-10T17:06:52+00:00"
-    },
-    {
       "post_url": "https://t.me/ukr_leaks_eng/32345",
       "post_id": 32345,
       "channel": "ukr_leaks_eng",
       "ts": "2026-08-10T17:05:17+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83345",
-      "post_id": 83345,
-      "channel": "UkraineNow",
-      "ts": "2026-08-10T16:27:30+00:00"
     }
   ],
   "post_images": {
@@ -245,104 +245,58 @@
     "eRadarrua/104759": "data/media/eRadarrua_104760.jpg",
     "kpszsu/72214": "data/media/kpszsu_72214.jpg"
   },
-  "summary": "Ballistic missile threats from Kursk and Zaporizhzhia regions escalate tensions. Drone attacks target logistics routes and civilian infrastructure. Multiple BPLAs (reactionary BPLAs) are reported moving toward key Ukrainian areas.",
+  "summary": "Ukraine conducts systematic drone strikes on Russian oil infrastructure, causing significant economic damage. Russia reports losses of military assets and risks of encirclement in eastern regions. Moldova confirms first drone attack on its territory linked to the war.",
   "key_points": [
-    "Ballistic rockets launched from Kursk region toward Zaporizhzhia (Source: @mon1tor_ua/70035).",
-    "Two ballistic rockets hit Kyiv (Source: @mon1tor_ua/70039).",
-    "Drone attacks reported in Dnipropetrovska, Poltava, and Chernihiv regions (Source: @eRadarrua/104808).",
-    "BPLAs from Black Sea targeting Odeshchyna (Source: @kpszsu/72343).",
-    "12 BPLAs detected near Mykolaiv airport (Source: @eRadarrua/104879).",
-    "Enemy drones strike oil refineries in Tatarstan (Source: @ukr_leaks_eng/32317).",
-    "Russian forces advance near Sumy and Kharkov fronts (Source: @DeepStateUA/23728)."
+    "Ukrainian drones strike Russian oil infrastructure, reducing refining capacity by 43% and causing $6.1B in damages (Source: @eRadarrua/104887)",
+    "Russian VSU garrison near Ivanovka risks encirclement after losing control (Source: @tass_agency/389666)",
+    "Moldova reports first drone attack on its soil, damaging homes with no casualties (Source: @UkraineNow/83338)",
+    "MiG-29 pilot ejected after crash during combat mission in Odesa (Source: @kpszsu/72302)",
+    "Turkey plans to supply Ukraine with ATACMS missiles despite Black Sea tensions (Source: @ukr_leaks_eng/32346)",
+    "Multiple ballistic missiles target Kyiv region, including 4 strikes reported (Source: @mon1tor_ua/70049)",
+    "Ukraine reinforces Chornobyl zone with defenses against potential northern attacks (Source: @UkraineNow/83336)"
   ],
   "sentiment": "escalating",
-  "intensity": 8,
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Ballistic missile threats from Kursk and Zaporizhzhia regions escalate tensions. Drone attacks target logistics routes and civilian infrastructure. Multiple BPLAs (reactionary BPLAs) are reported moving toward key Ukrainian areas.",
+    "executive_summary": "Ukraine's drone campaign against Russian oil infrastructure has crippled 43% of refining capacity, causing $6.1B in damages. Russia faces military setbacks in the east, including encirclement risks. Moldova confirms its first drone attack linked to the conflict.",
     "ukraine": {
       "points": [
-        "Drone attacks reported in Dnipropetrovska, Poltava, and Chernihiv regions, targeting logistics routes (Source: @eRadarrua/104808).",
-        "BPLAs from Black Sea moving toward Odeshchyna, indicating potential escalation in southern front (Source: @kpszsu/72343).",
-        "Ballistic rockets launched from Kursk region toward Zaporizhzhia (Source: @mon1tor_ua/70035).",
-        "Drone strikes on oil refineries in Tatarstan reported, suggesting cross-border targeting (Source: @ukr_leaks_eng/32317).",
-        "BPLAs detected near Mykolaiv airport, raising concerns about air defense vulnerabilities (Source: @eRadarrua/104879).",
-        "Enemy drones strike infrastructure in Zaporozhye region, including gas fields (Source: @DeepStateUA/23728).",
-        "Russian forces engage in combat near Sumy and Kharkov fronts, with reports of firefights in multiple villages (Source: @DeepStateUA/23728)."
+        "Systematic drone strikes target Russian oil refineries, reducing capacity by 43% and causing $6.1B in damages (Source: @eRadarrua/104887)",
+        "Strikes on defense-industrial facilities may shift focus from oil to missile production (Source: @ukr_leaks_eng/32326)",
+        "Chornobyl zone fortified with trenches and barriers to counter potential northern attacks (Source: @UkraineNow/83336)",
+        "Ukraine may seek Turkish MLRS and ATACMS missiles despite Black Sea tensions (Source: @ukr_leaks_eng/32346)"
       ]
     },
     "russia": {
       "points": [
-        "Ballistic rockets launched from Kursk region toward Zaporizhzhia (Source: @mon1tor_ua/70035).",
-        "Two ballistic rockets hit Kyiv, indicating potential escalation in northern front (Source: @mon1tor_ua/70039).",
-        "Drone attacks reported in Belgorod and Shebekino, with civilian casualties (Source: @tass_agency/389671).",
-        "Russian forces repel Ukrainian attacks near Redkodub and Orekhov (Source: @DeepStateUA/23728).",
-        "BPLAs from Black Sea targeting Odeshchyna, suggesting coordinated strikes (Source: @kpszsu/72343).",
-        "Russian military conducts operations in Belgorod, including cleanup of debris after drone attacks (Source: @tass_agency/389672).",
-        "Russian forces advance near Zaporozhye front, with reports of intensified fighting in Malaya Tokmachka (Source: @DeepStateUA/23728)."
+        "9 Ukrainian drones destroyed over Tulsk region, first such incident in Moldova (Source: @tass_agency/389677)",
+        "VSU garrison near Ivanovka at risk of encirclement after losing control (Source: @tass_agency/389666)",
+        "MiG-29 pilot ejected after crash during combat mission (Source: @kpszsu/72302)",
+        "Ballistic missiles target Kyiv region, with 4 strikes reported (Source: @mon1tor_ua/70049)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advance near Sumy front, engaging in combat in Shostkinsky district and Volnaya Sloboda (Source: @DeepStateUA/23728).",
-        "Ukrainian forces repel attacks near Kupyansk-Uzlovaya and Kovsharovka (Source: @DeepStateUA/23728).",
-        "Russian forces liberate Vasyutinskoye on Kramatorsk front (Source: @DeepStateUA/23728).",
-        "Enemy drones strike infrastructure in Zaporozhye region, including gas fields (Source: @DeepStateUA/23728).",
-        "Russian forces focus on destroying enemy logistics near Redkodub (Source: @DeepStateUA/23728).",
-        "Ukrainian forces engage in firefights in Pisarevka, Maryino, and Khoten (Source: @DeepStateUA/23728).",
-        "Russian forces repel attacks near Velikoburluk direction, targeting enemy logistics (Source: @DeepStateUA/23728)."
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Ballistic rockets hit Kyiv, indicating potential escalation in northern front (Source: @mon1tor_ua/70039).",
-        "Enemy drones strike infrastructure in Kyiv region (Source: @mon1tor_ua/70043).",
-        "Russian forces conduct operations near Shevchenkovo and Petropavlovka (Source: @DeepStateUA/23728).",
-        "Ukrainian forces engage in combat near Kazachya Lopan and Goptovka (Source: @DeepStateUA/23728).",
-        "Russian forces advance near Volchansk section, with fighting in Vasilievka (Source: @DeepStateUA/23728).",
-        "Enemy drones strike commercial facilities in Shebekino, injuring three (Source: @tass_agency/389671).",
-        "Russian forces repel attacks near Vodyanoye and Ustinovka (Source: @DeepStateUA/23728)."
+        "Russian forces near Ivanovka face encirclement risks after losing control (Source: @tass_agency/389666)",
+        "Ukrainian drones target oil infrastructure in eastern regions (Source: @eRadarrua/104887)"
       ]
     },
     "southern_front": {
       "points": [
-        "BPLAs from Black Sea targeting Odeshchyna, indicating southern front escalation (Source: @kpszsu/72343).",
-        "Enemy drones strike infrastructure in Zaporozhye region, including gas fields (Source: @DeepStateUA/23728).",
-        "Russian forces advance near Malaya Tokmachka, with intensified fighting (Source: @DeepStateUA/23728).",
-        "Enemy drones target logistics along R-280 highway from Zaporozhye to Crimea (Source: @eRadarrua/104879).",
-        "Russian forces repel attacks near Redkodub (Source: @DeepStateUA/23728).",
-        "Ukrainian forces engage in firefights in Kupyansk-Uzlovaya and Kovsharovka (Source: @DeepStateUA/23728).",
-        "BPLAs detected near Mykolaiv airport, raising concerns about southern front vulnerabilities (Source: @eRadarrua/104879)."
+        "Chornobyl zone reinforced with defenses against northern attacks (Source: @UkraineNow/83336)"
       ]
     },
     "air_war": {
       "points": [
-        "Ballistic rockets launched from Kursk region toward Zaporizhzhia (Source: @mon1tor_ua/70035).",
-        "Two ballistic rockets hit Kyiv (Source: @mon1tor_ua/70039).",
-        "Enemy drones strike infrastructure in Kyiv region (Source: @mon1tor_ua/70043).",
-        "BPLAs from Black Sea targeting Odeshchyna (Source: @kpszsu/72343).",
-        "Enemy drones strike oil refineries in Tatarstan (Source: @ukr_leaks_eng/32317).",
-        "BPLAs detected near Mykolaiv airport (Source: @eRadarrua/104879).",
-        "Russian forces conduct airstrikes near Sumy and Kharkov fronts (Source: @DeepStateUA/23728)."
+        "Ukrainian drones strike Russian oil infrastructure, causing $6.1B in damages (Source: @eRadarrua/104887)",
+        "Multiple ballistic missiles target Kyiv region (Source: @mon1tor_ua/70049)"
       ]
-    },
-    "key_developments": [
-      "Ballistic rockets launched from Kursk region toward Zaporizhzhia, indicating potential escalation (Source: @mon1tor_ua/70035).",
-      "Two ballistic rockets hit Kyiv, raising concerns about northern front stability (Source: @mon1tor_ua/70039).",
-      "BPLAs from Black Sea targeting Odeshchyna, suggesting coordinated southern front operations (Source: @kpszsu/72343).",
-      "Enemy drones strike oil refineries in Tatarstan, highlighting cross-border targeting (Source: @ukr_leaks_eng/32317).",
-      "BPLAs detected near Mykolaiv airport, indicating potential air defense challenges (Source: @eRadarrua/104879).",
-      "Russian forces advance near Sumy front, engaging in combat in Shostkinsky district (Source: @DeepStateUA/23728).",
-      "Enemy drones target logistics along R-280 highway from Zaporozhye to Crimea, disrupting supply chains (Source: @eRadarrua/104879)."
-    ],
-    "threat_assessment": "The escalation of ballistic missile threats from Kursk and Zaporizhzhia, combined with BPLAs from the Black Sea, suggests a coordinated Russian effort to target key Ukrainian infrastructure. Drone attacks on logistics routes and civilian areas further complicate Ukrainian defense, while the use of BPLAs indicates a shift toward more mobile, hard-to-intercept threats.",
-    "regional_response": "Ukrainian forces are deploying drones with fiber optic cables to target Russian logistics, while Russian forces are advancing near Sumy and Kharkov fronts. The use of BPLAs from the Black Sea suggests a focus on southern front operations, requiring Ukraine to reinforce air defense and logistics in that region.",
-    "intelligence_notes": "The presence of BPLAs from the Black Sea and ballistic missile threats from Kursk highlights the need for Ukraine to prioritize air defense and counter-drone capabilities. The cross-border targeting of Tatarstan refineries indicates potential for escalation beyond traditional front lines, necessitating coordinated international support for Ukraine."
+    }
   },
   "missiles": 0,
   "drones": 126,
   "kpszsu_timeline": [
-    4,
-    2,
+    3,
     2,
     1,
     6,
@@ -353,17 +307,18 @@
     2,
     3,
     5,
-    6,
-    9,
+    7,
+    8,
     1,
     1,
     2,
     0,
-    2,
-    3,
+    1,
+    4,
     2,
     1,
-    3,
+    2,
+    4,
     3
   ]
 }
