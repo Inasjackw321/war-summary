@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-13T07:49:27.312046+00:00",
-  "message_count": 407,
+  "updated_at": "2026-08-13T09:25:10.634447+00:00",
+  "message_count": 394,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,13 +13,11 @@
   ],
   "red_alerts": 133,
   "red_alerts_timeline": [
-    0,
-    0,
     12,
     0,
     0,
-    12,
-    12,
+    0,
+    24,
     12,
     0,
     0,
@@ -30,66 +28,110 @@
     12,
     0,
     0,
+    0,
+    24,
+    0,
+    0,
+    0,
+    0,
+    0,
     12,
-    12,
-    0,
-    0,
-    0,
-    0,
-    12
+    0
   ],
   "combined_activity_timeline": [
-    21,
-    29,
-    110,
-    24,
-    14,
-    15,
+    89,
+    47,
     16,
     16,
     15,
-    10,
-    7,
-    18,
-    4,
+    17,
+    15,
+    9,
+    11,
+    11,
+    13,
+    5,
     5,
     6,
     11,
+    4,
     7,
-    5,
+    8,
     7,
-    7,
-    9,
-    14,
-    16,
-    19
+    12,
+    13,
+    22,
+    18,
+    14
   ],
   "messages_by_channel": {
-    "@eRadarrua": 59,
-    "@kpszsu": 58,
-    "@mon1tor_ua": 91,
-    "@UkraineNow": 23,
+    "@eRadarrua": 56,
+    "@kpszsu": 59,
+    "@mon1tor_ua": 89,
+    "@UkraineNow": 22,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 146
+    "@tass_agency": 138
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105236",
-    "kpszsu": "https://t.me/kpszsu/72610",
+    "eRadarrua": "https://t.me/eRadarrua/105239",
+    "kpszsu": "https://t.me/kpszsu/72622",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70179",
-    "UkraineNow": "https://t.me/UkraineNow/83398",
+    "UkraineNow": "https://t.me/UkraineNow/83400",
     "DeepStateUA": "https://t.me/DeepStateUA/23736",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32415",
-    "tass_agency": "https://t.me/tass_agency/390081"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32419",
+    "tass_agency": "https://t.me/tass_agency/390100"
   },
-  "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83388",
-    "kpszsu": "https://t.me/kpszsu/72591",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70144",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32388",
-    "tass_agency": "https://t.me/tass_agency/390069"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32419",
+      "post_id": 32419,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-13T09:02:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390098",
+      "post_id": 390098,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T09:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390097",
+      "post_id": 390097,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T08:52:20+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83400",
+      "post_id": 83400,
+      "channel": "UkraineNow",
+      "ts": "2026-08-13T08:49:28+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32417",
+      "post_id": 32417,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-13T08:32:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390091",
+      "post_id": 390091,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T08:15:00+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83399",
+      "post_id": 83399,
+      "channel": "UkraineNow",
+      "ts": "2026-08-13T08:08:57+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390090",
+      "post_id": 390090,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T08:06:45+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/32415",
       "post_id": 32415,
@@ -167,56 +209,6 @@
       "post_id": 32407,
       "channel": "ukr_leaks_eng",
       "ts": "2026-08-13T05:31:56+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83394",
-      "post_id": 83394,
-      "channel": "UkraineNow",
-      "ts": "2026-08-13T05:22:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83393",
-      "post_id": 83393,
-      "channel": "UkraineNow",
-      "ts": "2026-08-13T05:06:25+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32406",
-      "post_id": 32406,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-13T05:03:55+00:00"
-    },
-    {
-      "post_url": "https://t.me/kpszsu/72591",
-      "post_id": 72591,
-      "channel": "kpszsu",
-      "ts": "2026-08-13T04:59:22+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/X7NOuTx5BDVMAQM1_ZB8lHv_o3e9eLvIdojWhU4glBnt78AhnlJj-i3N_0VEZ30SDWrd-witnsegahaTv_OAidUYwSlmce-C2U1liouHA1LUKwKMYinrJyStUErMW9nDXuRKExtHbwQdLWvvoAg1vJcJO7w0wOesav9XAFXmo-Vq6FmWwbgbVr-0Dj4Lb0ScRvjBicfyfb-th4v10MhViNdfNqs65p6qwBbesA4AoiC2jelLv0Rt5mj-L3-eDSR8M_VHcDTUrbKQZ_Ay1qt060OkPmEfOq2SRSoTYEoR--fUfWDtJrRf8U_Lb6oKwkCppgLgjD2BteaqVq5qaZL8Og.jpg",
-      "companion_text_id": 72590
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390063",
-      "post_id": 390063,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T04:59:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390060",
-      "post_id": 390060,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T04:39:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390057",
-      "post_id": 390057,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T04:23:17+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390055",
-      "post_id": 390055,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T04:03:55+00:00"
     }
   ],
   "post_images": {
@@ -246,110 +238,101 @@
     "kpszsu/72591": "data/media/kpszsu_72591.jpg",
     "kpszsu/72590": "data/media/kpszsu_72591.jpg"
   },
-  "summary": "Ukrainian forces struck four Russian warships in Novorossiysk, marking a significant naval success. Russia has amassed approximately 6,200 kamikaze drones, intensifying aerial threats. A Shahed drone attack on a passenger train in the Odesa region killed two crew members and forced the evacuation of 340 passengers.",
+  "summary": "Reactive Shakhid missiles are repeatedly launched from Kirovsk toward Poltava, indicating sustained Russian offensive capability across western Ukraine. Concurrently, drone attacks target critical infrastructure including the Black Sea waters near Odessa and logistics hubs like the Wildberries warehouse in Bashkortostan. These combined missile and drone strikes demonstrate persistent Russian pressure on both land and sea fronts despite Ukrainian defensive deployments.",
   "key_points": [
-    "Ukrainian forces hit four Russian warships in Novorossiysk: frigates \"Admiral Makaryov\" and \"Admiral Essen\", missile ship \"Bulyan-M\", and guard ship \"Vasyl Bikov\" (Source: @UkraineNow/83388).",
-    "Russia has stockpiled about 6,200 kamikaze drones for attacks on Ukraine, according to Ukrainian intelligence (Source: @UkraineNow/83392).",
-    "A Shahed drone struck a passenger train in the Odesa region, killing the driver and assistant; 340 passengers were evacuated with no injuries reported (Source: @UkraineNow/83396).",
-    "During the night of 13 August, Ukrainian air defense shot down 111 enemy drones, including Shahed, Gerber, and Parodia types, from multiple directions (Source: @kpszsu/72591).",
-    "The new Russian missile S‑71 \"Monochrom\" contains an Nvidia Jetson Orin microcomputer, indicating AI technology use in the weapon system (Source: @UkraineNow/83381).",
-    "A drone attack on Kyiv’s Brovar district caused a warehouse fire and injured a 65‑year‑old man (Source: @UkraineNow/83383).",
-    "There is a threat of ballistic weapons from the east, as reported by the Ukrainian military (Source: @kpszsu/72573).",
-    "Multiple Shahed drones flew over Darnytskyi and Holosiivskyi districts, with nine flights each (Source: @mon1tor_ua/70144)."
+    "A reactive Shakhid missile was launched from Pozhnekiv toward Kirovsk, triggering radar alerts and signaling continued Russian long-range strike activity against Ukrainian territory.",
+    "Shakhid aircraft flew over the Darnitskyi district and Holosiosivskyi area, reinforcing the pattern of repeated missile launches targeting central Ukrainian regions.",
+    "A drone was observed moving north of Kharkiv heading toward the south-eastern direction, expanding the geographic reach of Ukrainian air defense engagement zones.",
+    "Unidentified drones attacked the Black Sea waters near Odessa, suggesting attempts to disrupt maritime traffic and coastal security operations.",
+    "A drone strike targeted a large logistics facility—the Wildberries warehouse located in an agricultural park in Bashkortostan—demonstrating precision strikes on commercial infrastructure.",
+    "Russian forces conducted a missile strike on the Izmail port, damaging a temporary deployment point for a Ukrainian military unit stationed at the port.",
+    "Russian authorities claimed the liberation of the settlement of Vodianoye in the Kharkiv region, though independent verification remains pending."
   ],
   "sentiment": "tense",
-  "intensity": 8,
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Ukrainian forces struck four Russian warships in Novorossiysk, marking a significant naval success. Russia has amassed approximately 6,200 kamikaze drones, intensifying aerial threats. A Shahed drone attack on a passenger train in the Odesa region killed two crew members and forced the evacuation of 340 passengers.",
-    "ukraine": {
-      "points": [
-        "Ukrainian forces conducted a unique operation on the naval base in Novorossiysk, damaging four Russian warships: two frigates \"Admiral Makaryov\" and \"Admiral Essen\", a missile ship \"Bulyan-M\", and a guard ship \"Vasyl Bikov\" (Source: @UkraineNow/83388).",
-        "The Ukrainian air defense system shot down 111 enemy drones during the night of 13 August, including Shahed, Gerber, and Parodia types, from directions such as Kursk, Orel, Millerovo, and Donetsk (Source: @kpszsu/72591).",
-        "A Shahed drone hit a passenger train in the Odesa region, killing the driver and assistant; 340 passengers were evacuated with no injuries (Source: @UkraineNow/83396).",
-        "Drone attacks over Kyiv’s Brovar district caused a warehouse fire and injured a 65‑year‑old man (Source: @UkraineNow/83383).",
-        "Ukrainian citizens with military obligations abroad will be automatically registered with the military upon contacting a consulate or embassy (Source: @ukr_leaks_eng/32388).",
-        "Zelensky stated that Russia is preparing for mobilization in the fall and that Ukraine will disrupt its implementation in Russian regions (Source: @ukr_leaks_eng/32389).",
-        "Ukraine has reduced grain export significantly in August, impacting global markets (Source: @UkraineNow/83392)."
-      ]
-    },
-    "russia": {
-      "points": [
-        "Russia has stockpiled approximately 6,200 kamikaze drones for attacks on Ukraine, according to Ukrainian intelligence (Source: @UkraineNow/83392).",
-        "The new Russian missile S‑71 \"Monochrom\" contains an Nvidia Jetson Orin microcomputer, indicating AI technology use (Source: @UkraineNow/83381).",
-        "Russia’s air defense reportedly shot down 362 Ukrainian drones over Russian regions and the Black and Azov Seas during a night operation (Source: @tass_agency/390069).",
-        "There is a threat of ballistic weapons from the east, as reported by the Ukrainian military (Source: @kpszsu/72573).",
-        "Russia’s Ministry of Defense claimed to have captured a non‑existent village in Kharkiv region, a claim debunked by the Center for Counter‑Disinformation (Source: @UkraineNow/83386).",
-        "Russia has deployed drones near the Black Sea, heading toward Bilhorod‑Dnistrovskyi and Izmail districts (Source: @kpszsu/72589, @kpszsu/72588)."
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Multiple drone attacks originated from the east, including Shahed drones heading toward Odesa and Kharkiv regions (Source: @kpszsu/72590).",
-        "A threat of ballistic weapons from the east has been reported, indicating potential missile activity (Source: @kpszsu/72573).",
-        "Drones were observed near the Black Sea, heading toward Bilhorod‑Dnistrovskyi district (Source: @kpszsu/72589)."
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Shahed drones flew over Darnytskyi and Holosiivskyi districts in Kyiv, with nine flights each (Source: @mon1tor_ua/70144).",
-        "A Shahed drone from Chernihiv region targeted the Vyshhorod district in Kyiv region (Source: @mon1tor_ua/70173).",
-        "No Shahed drones were observed in the air over the capital during the night, and ballistic threat remained medium‑high (Source: @mon1tor_ua/70175)."
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "A Shahed drone struck a passenger train in the Odesa region, killing two crew members and evacuating 340 passengers (Source: @UkraineNow/83396).",
-        "Drone attacks were reported over Odesa, with a drone heading toward Vilkove and several groups targeting the south of Odesa (Source: @kpszsu/72584, @kpszsu/72557).",
-        "Drones were observed in the Black Sea, heading toward Izmail district (Source: @kpszsu/72588)."
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Ukrainian air defense shot down 111 enemy drones during the night of 13 August, including Shahed, Gerber, and Parodia types (Source: @kpszsu/72591).",
-        "Russian air defense reportedly shot down 362 Ukrainian drones over Russian regions and the Black and Azov Seas during a night operation (Source: @tass_agency/390069).",
-        "The new missile S‑71 \"Monochrom\" contains an Nvidia Jetson Orin microcomputer, indicating AI technology use (Source: @UkraineNow/83381).",
-        "Multiple Shahed drones flew over Darnytskyi and Holosiivskyi districts, with nine flights each (Source: @mon1tor_ua/70144)."
-      ]
-    },
-    "key_developments": [
-      "Ukrainian forces struck four Russian warships in Novorossiysk, damaging frigates \"Admiral Makaryov\" and \"Admiral Essen\", missile ship \"Bulyan-M\", and guard ship \"Vasyl Bikov\" (Source: @UkraineNow/83388).",
-      "Russia has amassed approximately 6,200 kamikaze drones for attacks on Ukraine, intensifying aerial threats (Source: @UkraineNow/83392).",
-      "A Shahed drone hit a passenger train in the Odesa region, killing the driver and assistant; 340 passengers were evacuated with no injuries (Source: @UkraineNow/83396).",
-      "During the night of 13 August, Ukrainian air defense shot down 111 enemy drones, including Shahed, Gerber, and Parodia types, from multiple directions (Source: @kpszsu/72591).",
-      "The new Russian missile S‑71 \"Monochrom\" contains an Nvidia Jetson Orin microcomputer, indicating AI technology use in the weapon system (Source: @UkraineNow/83381).",
-      "A drone attack on Kyiv’s Brovar district caused a warehouse fire and injured a 65‑year‑old man (Source: @UkraineNow/83383).",
-      "There is a threat of ballistic weapons from the east, as reported by the Ukrainian military (Source: @kpszsu/72573)."
+    "executive_summary": "Reactive Shakhid missiles are repeatedly launched from Kirovsk toward Poltava, indicating sustained Russian offensive capability across western Ukraine. Concurrently, drone attacks target critical infrastructure including the Black Sea waters near Odessa and logistics hubs like the Wildberries warehouse in Bashkortostan. These combined missile and drone strikes demonstrate persistent Russian pressure on both land and sea fronts despite Ukrainian defensive deployments.",
+    "ukraine": [
+      "National Mobile Tank Brigade (NMT) is preparing to conduct attacks on technically equipped fortifications as planned during recent meetings.",
+      "Ukrainian authorities announced mobilization of women for participation in national defense efforts ahead of upcoming mobilization phases.",
+      "The Ukrainian armed forces have reduced wheat export volumes significantly, cutting barley exports by 5.6 times and corn exports by 2.7 times in August.",
+      "Ukrainian President Zelenskyy rejected territorial concessions to Russia while proposing new peace process proposals to the United States.",
+      "Multiple drone sightings and strikes indicate ongoing aerial combat activity along the southern and eastern fronts."
     ],
-    "threat_assessment": "The deployment of AI‑enabled missiles such as the S‑71 Monochrom and the large stockpile of kamikaze drones pose a significant escalation risk to Ukrainian airspace and critical infrastructure. The threat of ballistic weapons from the east further complicates defense planning, requiring enhanced early warning and interception capabilities. Continued drone activity over key urban and transport nodes indicates persistent pressure on Ukrainian logistics and civilian morale.",
-    "regional_response": "Ukraine’s mobilization plans and Zelensky’s statements aim to disrupt Russian mobilization efforts, while the government’s automatic registration of overseas conscripts seeks to strengthen manpower. Internationally, Poland’s threat to halt Starlink payments reflects growing pressure on Russia’s digital infrastructure. The Ukrainian Navy’s successful strike on Novorossiysk demonstrates a shift toward offensive maritime operations.",
-    "intelligence_notes": "The presence of an Nvidia Jetson Orin microcomputer in the S‑71 missile suggests a shift toward autonomous targeting, raising concerns about compliance with international norms. The reported 6,200 kamikaze drones indicate a large-scale, low‑cost attack strategy that could overwhelm air defenses if not countered. The frequent Shahed strikes over transport hubs highlight the need for robust civil protection and rapid evacuation protocols."
+    "russia": [
+      "Russian forces continue launching strikes against Ukrainian naval assets and port infrastructure, including the Izmail port in Crimea.",
+      "Russian missile attacks have damaged the Gazprom Neft complex in Salavat, Bashkortostan, destroying valuable petroleum processing equipment.",
+      "Drone operations have targeted the Wildberries e-commerce warehouse in Bashkortostan's agricultural park complex, causing significant logistical disruption.",
+      "Russian missile fire reached the Izmail port, affecting a temporary deployment site for Ukrainian military units stationed at the port.",
+      "Russian Ministry of Defense claimed the liberation of the settlement of Vodianoye in the Kharkiv region, though this assertion requires further verification."
+    ],
+    "eastern_front": [
+      "Reactive Shakhid missiles have been launched from Kirovsk toward the Poltava direction, representing a direct threat to central Ukrainian cities.",
+      "Drone activity continues over the eastern sector, with unidentified platforms moving north of Kharkiv toward southeastern coordinates.",
+      "Multiple Shakhid launches over Darnitskyi and Holosiosivskyi districts indicate sustained missile fire targeting urban centers.",
+      "Russian missile strikes on the Izmail port have disrupted maritime logistics and potentially affected Crimean coast guard operations.",
+      "Drone attacks on the Wildberries warehouse in Bashkortostan highlight the targeting of commercial supply chains in the east."
+    ],
+    "northern_front": [
+      "Reactive Shakhid missiles have been detected flying over the Brovary district, extending Russian strike capabilities to the northern outskirts of Kyiv.",
+      "Two additional reactive Shakhids were reported over the Brovary region, increasing the frequency of long-range missile engagements.",
+      "Drone incursions near the northern frontier have been observed, with platforms approaching the Odessa coastline.",
+      "Ukrainian air defense systems remain active but face challenges indicated by reduced public reporting on missile launch statistics.",
+      "The eastern front shows intensified drone and missile activity, while northern sectors experience sporadic but persistent strikes."
+    ],
+    "southern_front": [
+      "A missile was launched through Sumchina (Sumy) heading toward the Poltava region, extending Russian firepower deep into southern Ukraine.",
+      "Drone attacks on the Black Sea waters near Odessa suggest attempts to neutralize coastal defense assets.",
+      "Ukrainian forces have secured 745 km² of territory along the Alexandrovka direction between January and August, reversing Russian gains.",
+      "Russian missile strikes on port infrastructure have forced Ukrainian maritime ports to operate under restricted conditions.",
+      "Logistics disruptions caused by Russian strikes on grain export facilities have impacted food security in the region."
+    ],
+    "air_war": [
+      "Unidentified drones are actively patrolling the Black Sea area, with reported movements toward Odessa and surrounding waters.",
+      "Reactive Shakhid missiles have been tracked over multiple Ukrainian districts, including Darnitskyi and Holosiosivskyi, demonstrating persistent aerial threat.",
+      "Drone strikes on the Wildberries warehouse in Bashkortostan represent a new vector of economic warfare targeting commercial logistics.",
+      "Russian missile fire on the Izmail port indicates continued targeting of critical maritime nodes essential for Crimean operations.",
+      "Ukrainian air defense systems are engaged but facing limitations evidenced by reduced transparency regarding launch counts and effectiveness."
+    ],
+    "key_developments": [
+      "A reactive Shakhid missile was launched from Pozhnekiv toward Kirovsk, confirming ongoing Russian long-range strike activity against western Ukrainian territory.",
+      "Shakhid aircraft flew over the Darnitskyi district and Holosiosivskyi area, showing repeated missile launches targeting central urban centers.",
+      "A drone was observed moving north of Kharkiv heading toward the south-eastern direction, expanding the geographic scope of Ukrainian air defense engagement.",
+      "Unidentified drones attacked the Black Sea waters near Odessa, indicating attempts to disrupt maritime traffic and coastal security operations.",
+      "A drone strike targeted a large logistics facility—the Wildberries warehouse located in an agricultural park in Bashkortostan—demonstrating precision strikes on commercial infrastructure.",
+      "Russian forces conducted a missile strike on the Izmail port, damaging a temporary deployment point for a Ukrainian military unit stationed at the port.",
+      "Russian authorities claimed the liberation of the settlement of Vodianoye in the Kharkiv region, though independent verification remains pending."
+    ],
+    "threat_assessment": "The combination of reactive Shakhid missile launches from Kirovsk and persistent drone incursions into Ukrainian coastal waters presents a severe threat to both land and sea operations. Russian missile strikes on critical infrastructure such as the Izmail port and the Gazprom Neft complex in Bashkortostan indicate deliberate attempts to degrade Ukrainian economic resilience and maritime capabilities. These actions occur alongside Ukrainian countermeasures including increased drone patrols and fortified positions, creating a dynamic environment of escalation. The targeting of commercial logistics hubs suggests a broader strategy to disrupt supply chains and weaken economic support for the armed forces. Continued Russian pressure on multiple fronts increases the risk of localized escalation and complicates Ukrainian defensive coordination.",
+    "regional_response": "Ukrainian leadership has responded to mounting threats by announcing expanded mobilization of women and preparations for attacks on technologically equipped fortifications. International actors, including the United States, have been assessed as having limited influence over Russian decision-making processes regarding ceasefire negotiations. Diplomatic channels remain strained as Russia continues its campaign of strikes on critical infrastructure. Domestic authorities emphasize resilience but acknowledge the strain on air defense resources and logistical networks. Regional stability depends on sustained Ukrainian defensive posture and effective international support for counteroffensive operations.",
+    "intelligence_notes": "Pattern analysis reveals a shift toward multi-vector attacks combining ballistic missiles, tactical drones, and conventional artillery. The frequency of Shakhid launches from Kirovsk suggests established launch sites and logistical support. Drone targeting of the Wildberries warehouse demonstrates adaptation to evolving battlefield conditions. Russian claims of territorial gains require cross-verification given the contested nature of the frontlines. Intelligence indicates Russian forces maintain flexibility in selecting optimal strike objectives across different operational domains."
   },
   "missiles": 0,
   "drones": 133,
   "kpszsu_timeline": [
-    4,
-    4,
     6,
-    1,
+    2,
     3,
+    3,
+    1,
+    1,
+    1,
+    1,
     2,
     1,
-    1,
-    1,
+    2,
+    2,
+    2,
+    2,
     3,
     0,
-    2,
     1,
-    2,
-    2,
-    4,
-    1,
-    1,
-    3,
-    2,
-    2,
-    3,
     5,
-    4
+    1,
+    3,
+    2,
+    6,
+    4,
+    5
   ]
 }
