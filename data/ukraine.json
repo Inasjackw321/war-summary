@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-13T21:02:51.036064+00:00",
-  "message_count": 319,
+  "updated_at": "2026-08-13T23:04:57.638405+00:00",
+  "message_count": 323,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 133,
   "red_alerts_timeline": [
-    10,
-    0,
     0,
     0,
     20,
@@ -36,51 +34,53 @@
     10,
     10,
     41,
-    10
+    20,
+    0,
+    0
   ],
   "combined_activity_timeline": [
+    9,
     6,
-    7,
-    10,
-    5,
     7,
     8,
     5,
-    12,
     13,
     13,
-    21,
-    21,
-    18,
-    15,
-    15,
-    18,
-    17,
-    17,
+    13,
     20,
+    22,
+    18,
+    14,
     15,
+    20,
     16,
+    17,
+    21,
+    14,
+    15,
     9,
     25,
-    6
+    8,
+    6,
+    8
   ],
   "messages_by_channel": {
     "@eRadarrua": 42,
-    "@kpszsu": 74,
+    "@kpszsu": 76,
     "@mon1tor_ua": 10,
     "@UkraineNow": 23,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 142
+    "@tass_agency": 144
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105309",
-    "kpszsu": "https://t.me/kpszsu/72694",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70185",
+    "eRadarrua": "https://t.me/eRadarrua/105312",
+    "kpszsu": "https://t.me/kpszsu/72710",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70186",
     "UkraineNow": "https://t.me/UkraineNow/83416",
     "DeepStateUA": "https://t.me/DeepStateUA/23738",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32441",
-    "tass_agency": "https://t.me/tass_agency/390198"
+    "tass_agency": "https://t.me/tass_agency/390204"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/83406",
@@ -92,6 +92,18 @@
     "tass_agency": "https://t.me/tass_agency/390169"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/390202",
+      "post_id": 390202,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T22:26:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390199",
+      "post_id": 390199,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T21:05:01+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/105307",
       "post_id": 105307,
@@ -209,18 +221,6 @@
       "post_id": 390179,
       "channel": "tass_agency",
       "ts": "2026-08-13T16:11:47+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390176",
-      "post_id": 390176,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T15:34:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32435",
-      "post_id": 32435,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-13T15:14:59+00:00"
     }
   ],
   "post_images": {
@@ -326,13 +326,12 @@
     "threat_assessment": "Russian drone campaign demonstrates sustained capacity for mass Shahed/jet UAV launches across broad front, targeting civilian infrastructure (train, logistics) and military assets (airfields, ports). The Iskander-M threat from Taganrog indicates continued ballistic missile readiness. SBU's exposure of 14-agent network targeting F-16/Mirage 2000 suggests Russian intelligence prioritizing attrition of Western-supplied air assets. Russia's border zone abolition signals administrative consolidation of occupied territories. Ukrainian DSU gains in east (745 sq km) show offensive momentum but at high cost (9,550 Russian KIA claimed). Western partner policy shifts (Germany, Czechia) may pressure Ukrainian manpower.",
     "regional_response": "Germany's termination of temporary protection for non-compliant Ukrainian men aligns with EU Council decision, potentially increasing pressure on Kyiv to mobil"
   },
+  "stale_summary": true,
   "missiles": 0,
   "drones": 133,
   "kpszsu_timeline": [
-    3,
-    3,
-    3,
-    0,
+    2,
+    1,
     1,
     5,
     0,
@@ -340,18 +339,20 @@
     2,
     3,
     6,
-    5,
     6,
-    2,
+    6,
+    1,
     3,
     5,
     1,
     4,
-    2,
-    2,
+    3,
+    1,
     5,
     2,
     5,
-    2
+    3,
+    4,
+    3
   ]
 }
