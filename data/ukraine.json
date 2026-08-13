@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-13T09:25:10.634447+00:00",
-  "message_count": 394,
+  "updated_at": "2026-08-13T11:18:58.961593+00:00",
+  "message_count": 293,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,77 +13,131 @@
   ],
   "red_alerts": 133,
   "red_alerts_timeline": [
-    12,
+    0,
+    0,
+    27,
+    13,
     0,
     0,
     0,
-    24,
-    12,
-    0,
-    0,
-    12,
-    0,
-    24,
-    0,
-    12,
+    13,
+    13,
+    13,
+    13,
     0,
     0,
     0,
-    24,
-    0,
+    27,
     0,
     0,
     0,
     0,
-    12,
+    0,
+    13,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    89,
-    47,
     16,
     16,
-    15,
     17,
-    15,
-    9,
-    11,
-    11,
     13,
-    5,
-    5,
-    6,
-    11,
-    4,
-    7,
-    8,
-    7,
+    18,
+    9,
+    10,
     12,
     13,
+    4,
+    6,
+    7,
+    10,
+    5,
+    6,
+    8,
+    6,
+    12,
+    14,
+    20,
+    19,
+    15,
     22,
-    18,
-    14
+    15
   ],
   "messages_by_channel": {
-    "@eRadarrua": 56,
-    "@kpszsu": 59,
-    "@mon1tor_ua": 89,
+    "@eRadarrua": 41,
+    "@kpszsu": 61,
+    "@mon1tor_ua": 6,
     "@UkraineNow": 22,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 138
+    "@tass_agency": 133
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105239",
-    "kpszsu": "https://t.me/kpszsu/72622",
+    "eRadarrua": "https://t.me/eRadarrua/105245",
+    "kpszsu": "https://t.me/kpszsu/72637",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70179",
-    "UkraineNow": "https://t.me/UkraineNow/83400",
+    "UkraineNow": "https://t.me/UkraineNow/83403",
     "DeepStateUA": "https://t.me/DeepStateUA/23736",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32419",
-    "tass_agency": "https://t.me/tass_agency/390100"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32422",
+    "tass_agency": "https://t.me/tass_agency/390120"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "UkraineNow": "https://t.me/UkraineNow/83392",
+    "eRadarrua": "https://t.me/eRadarrua/105245",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32417",
+    "tass_agency": "https://t.me/tass_agency/390104",
+    "DeepStateUA": "https://t.me/DeepStateUA/23733",
+    "kpszsu": "https://t.me/kpszsu/72620",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70176"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/390118",
+      "post_id": 390118,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T11:02:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390114",
+      "post_id": 390114,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T10:39:46+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/105244",
+      "post_id": 105244,
+      "channel": "eRadarrua",
+      "ts": "2026-08-13T10:35:19+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/V5I3n-T-KHSIjFfJi-qsL9KLiGNqBQh0Lli5hjVPLCBappwFRVGFI51a-vTyw9T6gG5zZGPXxWMI663zsCtQPubB2THZPhxWulJZCiJtN9GSAqa5pRWJ03YZMZaAuUhuBDG6jaXpC_kOopzioljm5IGnPR1TG_uo0ygXzl1Miuvpnk973_BbctINxpTa_mU98DBxuXyce0cYH72IAXQQdSz1dx3qPxswWoFgbHXATNrVdczI7cyOs9JkAUmYyZvwLI4711V0Oat-ZmLoo8leCN_KN4XghHk5afPqHY7rXm0-If_I9M4ktjNyQZJykj9BlevRivoh2RsyGB6CWNEsqw.jpg",
+      "companion_text_id": 105243
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83403",
+      "post_id": 83403,
+      "channel": "UkraineNow",
+      "ts": "2026-08-13T10:28:00+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390107",
+      "post_id": 390107,
+      "channel": "tass_agency",
+      "ts": "2026-08-13T09:45:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/105241",
+      "post_id": 105241,
+      "channel": "eRadarrua",
+      "ts": "2026-08-13T09:29:45+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Ig9f-itV5zGKGnW8hR7sCskR6DdUsrTGQZ1v_Id9EDec25_BEIGEvUt6q8F3y6Y0TGeCz9Nm-A4hS2wYvTL4Iqk7rylHgDYHZMSri-19G8aLn_ql4dQnjCaPa6A_EbKL1O4JDDVbtrg1z1aPK_rUkxZUtdyIfHNrY5Q3_5Rr3c3DfWVuuGStyl_67UxNYEZOEg1l_ihB1fMeXAS5PZTrKhFhLx5ID4yzf2a7qgscTwZeqJSUK1zRBWoY-DZ4gEZnae-zVKvsc6sC7swnoWOEdHQhDYCOLwh27gyUJFRf-oqZTxdjTwX0bNAyIdYt-fCAKcKGBO2uX8AKsTxEsWvyYA.jpg",
+      "companion_text_id": 105240
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83401",
+      "post_id": 83401,
+      "channel": "UkraineNow",
+      "ts": "2026-08-13T09:25:52+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/32419",
       "post_id": 32419,
@@ -165,63 +219,25 @@
       "post_id": 390078,
       "channel": "tass_agency",
       "ts": "2026-08-13T07:12:15+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32413",
-      "post_id": 32413,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-13T07:03:56+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83397",
-      "post_id": 83397,
-      "channel": "UkraineNow",
-      "ts": "2026-08-13T06:55:22+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390074",
-      "post_id": 390074,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T06:40:29+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390072",
-      "post_id": 390072,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T06:31:11+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83395",
-      "post_id": 83395,
-      "channel": "UkraineNow",
-      "ts": "2026-08-13T06:14:33+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105224",
-      "post_id": 105224,
-      "channel": "eRadarrua",
-      "ts": "2026-08-13T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/X_d8ETU-lRetsC30CLjv2OwH3J-JCz486M7r7s5iGgYUZDDlkeFAVDu9yBv61d14i-eDtV9LTPYCX_PUIFHhTmNa3AMkk7kVxrotlGA_tIJTEgZnLUP2RoBqTqjo7c0kSXdqsEj5KJVn6ZDtc6L25Z_YjcpS0RmAMBkS0v7Hgg1rTRYqGQxEAPxiIPbHuIQqvFCNWOdy51VmRLyTLnQzNocgis2Mw4xQriOHY76Fw8LotC305qPmk29_XuHYMQ4t8ebgAjlzzW-5GDNZaD5LkJEd1Ni26_9hzfdC_EQQTeFBMVmReDFfqiz0r3UTGcQF8IQve1hPE4hIsFzojHvUmA.jpg",
-      "companion_text_id": 105225
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32407",
-      "post_id": 32407,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-13T05:31:56+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/105224": "data/media/eRadarrua_105224.jpg",
-    "eRadarrua/105225": "data/media/eRadarrua_105224.jpg",
     "eRadarrua/105229": "data/media/eRadarrua_105229.jpg",
     "eRadarrua/105230": "data/media/eRadarrua_105229.jpg",
     "eRadarrua/105231": "data/media/eRadarrua_105231.jpg",
+    "eRadarrua/105241": "data/media/eRadarrua_105241.jpg",
+    "eRadarrua/105240": "data/media/eRadarrua_105241.jpg",
+    "eRadarrua/105244": "data/media/eRadarrua_105244.jpg",
+    "eRadarrua/105243": "data/media/eRadarrua_105244.jpg",
+    "eRadarrua/105224": "data/media/eRadarrua_105224.jpg",
+    "eRadarrua/105225": "data/media/eRadarrua_105224.jpg",
+    "eRadarrua/105183": "data/media/eRadarrua_105183.jpg",
     "eRadarrua/105193": "data/media/eRadarrua_105193.jpg",
     "eRadarrua/105201": "data/media/eRadarrua_105201.jpg",
     "eRadarrua/105202": "data/media/eRadarrua_105201.jpg",
+    "eRadarrua/105165": "data/media/eRadarrua_105165.jpg",
+    "eRadarrua/105163": "data/media/eRadarrua_105165.jpg",
     "eRadarrua/105173": "data/media/eRadarrua_105173.jpg",
-    "eRadarrua/105183": "data/media/eRadarrua_105183.jpg",
     "eRadarrua/105154": "data/media/eRadarrua_105154.jpg",
     "eRadarrua/105153": "data/media/eRadarrua_105154.jpg",
     "eRadarrua/105155": "data/media/eRadarrua_105155.jpg",
@@ -230,99 +246,105 @@
     "eRadarrua/105157": "data/media/eRadarrua_105158.jpg",
     "eRadarrua/105161": "data/media/eRadarrua_105161.jpg",
     "eRadarrua/105160": "data/media/eRadarrua_105161.jpg",
-    "eRadarrua/105162": "data/media/eRadarrua_105162.jpg",
-    "eRadarrua/105165": "data/media/eRadarrua_105165.jpg",
-    "eRadarrua/105163": "data/media/eRadarrua_105165.jpg",
-    "eRadarrua/105140": "data/media/eRadarrua_105140.jpg",
-    "eRadarrua/105139": "data/media/eRadarrua_105140.jpg",
     "kpszsu/72591": "data/media/kpszsu_72591.jpg",
     "kpszsu/72590": "data/media/kpszsu_72591.jpg"
   },
-  "summary": "Reactive Shakhid missiles are repeatedly launched from Kirovsk toward Poltava, indicating sustained Russian offensive capability across western Ukraine. Concurrently, drone attacks target critical infrastructure including the Black Sea waters near Odessa and logistics hubs like the Wildberries warehouse in Bashkortostan. These combined missile and drone strikes demonstrate persistent Russian pressure on both land and sea fronts despite Ukrainian defensive deployments.",
+  "summary": "Ukrainian forces conducted a unique operation striking the Novorossiysk naval base, the Russian Black Sea Fleet's last main foothold. Russia has stockpiled approximately 6,200 Geran drones for potential massive winter attacks. Widespread drone activity continues across northern, eastern, and southern Ukrainian regions with both reconnaissance and strike UAVs.",
   "key_points": [
-    "A reactive Shakhid missile was launched from Pozhnekiv toward Kirovsk, triggering radar alerts and signaling continued Russian long-range strike activity against Ukrainian territory.",
-    "Shakhid aircraft flew over the Darnitskyi district and Holosiosivskyi area, reinforcing the pattern of repeated missile launches targeting central Ukrainian regions.",
-    "A drone was observed moving north of Kharkiv heading toward the south-eastern direction, expanding the geographic reach of Ukrainian air defense engagement zones.",
-    "Unidentified drones attacked the Black Sea waters near Odessa, suggesting attempts to disrupt maritime traffic and coastal security operations.",
-    "A drone strike targeted a large logistics facility—the Wildberries warehouse located in an agricultural park in Bashkortostan—demonstrating precision strikes on commercial infrastructure.",
-    "Russian forces conducted a missile strike on the Izmail port, damaging a temporary deployment point for a Ukrainian military unit stationed at the port.",
-    "Russian authorities claimed the liberation of the settlement of Vodianoye in the Kharkiv region, though independent verification remains pending."
+    "Ukrainian defense forces executed a unique operation targeting the Russian naval base in Novorossiysk, the Black Sea Fleet's last primary stronghold. (Source: @UkraineNow/83392)",
+    "Russian forces have accumulated roughly 6,200 Geran kamikaze drones, with potential massive attacks involving 600-1,000 drones simultaneously. (Source: @UkraineNow/83392)",
+    "A Shahed drone struck a passenger train in Odesa region, killing the driver and assistant while 340 passengers were evacuated. (Source: @UkraineNow/83396)",
+    "Ukrainian strikes halted operations at Russia's Orsk refinery, with repairs estimated up to six months causing fuel shortages and rationing. (Source: @eRadarrua/105245)",
+    "Russian assault units of the 11th Tank Brigade liberated Vodyanoye village in Kharkiv direction, pushing out the 129th Territorial Defense Battalion. (Source: @ukr_leaks_eng/32417)",
+    "Russia returned 261 bodies of fallen Ukrainian soldiers in exchange for 24 Russian military bodies. (Source: @tass_agency/390104)",
+    "Ukrainian drones struck the Salavat petrochemical complex in Bashkortostan, approximately 1,400 km from the Ukrainian border. (Source: @eRadarrua/105231)",
+    "DeepState mapping shows enemy advancement near Privillya with unprecedented operational activity levels. (Source: @DeepStateUA/23733)"
   ],
-  "sentiment": "tense",
-  "intensity": 9,
+  "sentiment": "escalating",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Reactive Shakhid missiles are repeatedly launched from Kirovsk toward Poltava, indicating sustained Russian offensive capability across western Ukraine. Concurrently, drone attacks target critical infrastructure including the Black Sea waters near Odessa and logistics hubs like the Wildberries warehouse in Bashkortostan. These combined missile and drone strikes demonstrate persistent Russian pressure on both land and sea fronts despite Ukrainian defensive deployments.",
-    "ukraine": [
-      "National Mobile Tank Brigade (NMT) is preparing to conduct attacks on technically equipped fortifications as planned during recent meetings.",
-      "Ukrainian authorities announced mobilization of women for participation in national defense efforts ahead of upcoming mobilization phases.",
-      "The Ukrainian armed forces have reduced wheat export volumes significantly, cutting barley exports by 5.6 times and corn exports by 2.7 times in August.",
-      "Ukrainian President Zelenskyy rejected territorial concessions to Russia while proposing new peace process proposals to the United States.",
-      "Multiple drone sightings and strikes indicate ongoing aerial combat activity along the southern and eastern fronts."
-    ],
-    "russia": [
-      "Russian forces continue launching strikes against Ukrainian naval assets and port infrastructure, including the Izmail port in Crimea.",
-      "Russian missile attacks have damaged the Gazprom Neft complex in Salavat, Bashkortostan, destroying valuable petroleum processing equipment.",
-      "Drone operations have targeted the Wildberries e-commerce warehouse in Bashkortostan's agricultural park complex, causing significant logistical disruption.",
-      "Russian missile fire reached the Izmail port, affecting a temporary deployment site for Ukrainian military units stationed at the port.",
-      "Russian Ministry of Defense claimed the liberation of the settlement of Vodianoye in the Kharkiv region, though this assertion requires further verification."
-    ],
-    "eastern_front": [
-      "Reactive Shakhid missiles have been launched from Kirovsk toward the Poltava direction, representing a direct threat to central Ukrainian cities.",
-      "Drone activity continues over the eastern sector, with unidentified platforms moving north of Kharkiv toward southeastern coordinates.",
-      "Multiple Shakhid launches over Darnitskyi and Holosiosivskyi districts indicate sustained missile fire targeting urban centers.",
-      "Russian missile strikes on the Izmail port have disrupted maritime logistics and potentially affected Crimean coast guard operations.",
-      "Drone attacks on the Wildberries warehouse in Bashkortostan highlight the targeting of commercial supply chains in the east."
-    ],
-    "northern_front": [
-      "Reactive Shakhid missiles have been detected flying over the Brovary district, extending Russian strike capabilities to the northern outskirts of Kyiv.",
-      "Two additional reactive Shakhids were reported over the Brovary region, increasing the frequency of long-range missile engagements.",
-      "Drone incursions near the northern frontier have been observed, with platforms approaching the Odessa coastline.",
-      "Ukrainian air defense systems remain active but face challenges indicated by reduced public reporting on missile launch statistics.",
-      "The eastern front shows intensified drone and missile activity, while northern sectors experience sporadic but persistent strikes."
-    ],
-    "southern_front": [
-      "A missile was launched through Sumchina (Sumy) heading toward the Poltava region, extending Russian firepower deep into southern Ukraine.",
-      "Drone attacks on the Black Sea waters near Odessa suggest attempts to neutralize coastal defense assets.",
-      "Ukrainian forces have secured 745 km² of territory along the Alexandrovka direction between January and August, reversing Russian gains.",
-      "Russian missile strikes on port infrastructure have forced Ukrainian maritime ports to operate under restricted conditions.",
-      "Logistics disruptions caused by Russian strikes on grain export facilities have impacted food security in the region."
-    ],
-    "air_war": [
-      "Unidentified drones are actively patrolling the Black Sea area, with reported movements toward Odessa and surrounding waters.",
-      "Reactive Shakhid missiles have been tracked over multiple Ukrainian districts, including Darnitskyi and Holosiosivskyi, demonstrating persistent aerial threat.",
-      "Drone strikes on the Wildberries warehouse in Bashkortostan represent a new vector of economic warfare targeting commercial logistics.",
-      "Russian missile fire on the Izmail port indicates continued targeting of critical maritime nodes essential for Crimean operations.",
-      "Ukrainian air defense systems are engaged but facing limitations evidenced by reduced transparency regarding launch counts and effectiveness."
-    ],
+    "executive_summary": "Ukrainian forces conducted a unique operation striking the Novorossiysk naval base, the Russian Black Sea Fleet's last main foothold. Russia has stockpiled approximately 6,200 Geran drones for potential massive winter attacks. Widespread drone activity continues across northern, eastern, and southern Ukrainian regions with both reconnaissance and strike UAVs.",
+    "ukraine": {
+      "points": [
+        "Ukrainian defense forces executed a unique operation targeting the Russian naval base in Novorossiysk, described as the Black Sea Fleet's last primary stronghold in the Black Sea, demonstrating long-range strike capability against strategic maritime infrastructure. (Source: @UkraineNow/83392)",
+        "Ukrainian strikes have completely halted operations at Russia's Orsk refinery in Orenburg region, with the governor confirming repairs to damaged key infrastructure may take up to six months due to sanctioned import equipment, causing 20% of gas stations to close and fuel rationing of 30 liters gasoline and 60 liters diesel per person. (Source: @eRadarrua/105245)",
+        "Ukrainian drones struck the Gazprom Neftkhim Salavat petrochemical complex in Bashkortostan, one of Russia's largest oil refining and petrochemical facilities with 10 million tons annual capacity, located approximately 1,400 kilometers from the Ukrainian border. (Source: @eRadarrua/105231)",
+        "Ukrainian forces continue offensive operations on the Orikhiv direction in Zaporizhzhia region, with fighting reported in Stepnohorsk, southern Primorske, Lukianivske area, and toward Yurkyvka, while Russian forces use FABs against Ukrainian logistics bridges in the Krasnolimansk direction. (Source: @ukr_leaks_eng/32417)",
+        "Ukrainian sappers from the Norwegian NGO Norsk Folkehjelp were killed in a missile strike in Kherson region on June 24, 2026, with Russian sources alleging the organization supports Ukrainian Armed Forces landing preparations in Crimea rather than purely humanitarian work. (Source: @ukr_leaks_eng/32405)"
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian Ministry of Defense claimed capture of Shcherbakyka village in Kharkiv region, though Ukrainian Center for Countering Disinformation confirmed the settlement was liquidated in 1997 with no remaining residents, indicating fabricated territorial claims. (Source: @UkraineNow/83386)",
+        "Russian forces have stockpiled over 6,200 Geran kamikaze drones before winter, with typical attacks launching 150-200 drones during stockpiling periods and maximum single attacks reaching approximately 300 drones, while massive attacks could involve 600-1,000 drones simultaneously. (Source: @ukr_leaks_eng/32394)",
+        "Russian assault units of the 11th Tank Brigade from the \"North\" Group of Forces drove the 129th Territorial Defense Battalion out of Vodyanoye village in Olkhovatska rural community, Kharkiv direction, and liberated the settlement. (Source: @ukr_leaks_eng/32417)",
+        "Russian forces struck a fuel depot in Kyiv region using precision-guided weapons and drones, and destroyed bases storing fuel and lubricants, a tanker, a cargo ship carrying military equipment, and a Ukrainian patrol boat in Odesa, Chornomorsk, and Ochakiv according to Russian MoD. (Source: @ukr_leaks_eng/32417)",
+        "Russia returned 261 bodies of fallen Ukrainian soldiers in exchange for 24 Russian military bodies, with war correspondent Alexander Kots reporting the exchange. (Source: @tass_agency/390104)"
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Russian forces advanced near Privillya in Donetsk region according to DeepState map update, with the mapping project noting unprecedented operational activity levels exceeding even the Kursk operation period. (Source: @DeepStateUA/23733)",
+        "In the Krasnolimansk direction, fighting focuses on logistics as Ukrainian forces restore a bridge while Russian forces drop FAB high-explosive aerial bombs on it, with heavy FAB bombing of Druzhkivka destroying shelters with enemy personnel and drone operator stations in apartment buildings. (Source: @ukr_leaks_eng/32417)",
+        "On the Zaporizhzhia front, fighting continues in Stepnohorsk, southern Primorske, Lukianivske area, and toward Yurkyvka, while in Tokmak private homes were damaged by enemy drone attack injuring one resident, with additional civilian injuries in Tymoshivka and Mykhailivka. (Source: @ukr_leaks_eng/32417)",
+        "Russian reconnaissance and strike drones operate in Kharkiv region around Bohodukhiv and Shevchenkove areas, with Ukrainian air defense assets engaged to intercept potential target designators for Russian strike systems. (Source: @kpszsu/72620)",
+        "A jet-type UAV was observed moving northwest in southern Kharkiv region, indicating continued Russian aerial reconnaissance and potential strike preparation in the sector. (Source: @kpszsu/72581)"
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Three jet-powered Shahed drones launched from Chernihiv region toward Vyshhorod district in Kyiv region, prompting air defense alerts in the capital's northern approaches. (Source: @mon1tor_ua/70176)",
+        "Two Banderoil-type jet UAVs targeted Balakliia and Donets from the south, with one Ruska Lozova also reporting drone activity in Kharkiv region. (Source: @eRadarrua/105215)",
+        "A probable reconnaissance drone was detected over Horodnia and another over Kholmy in Chernihiv region, while Chernihiv city itself reported very low-flying Banderoil drones forcing sheltering. (Source: @eRadarrua/105240, @eRadarrua/105232)",
+        "Jet-powered UAVs moved toward Chernihiv/Kulykivka area from the east, indicating continued Russian aerial pressure on northern Ukrainian regions. (Source: @kpszsu/72605)",
+        "A UAV was detected moving toward Stepanivka/Sumy from the north, maintaining pressure on Sumy region's northern approaches. (Source: @kpszsu/72618)"
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "A Shahed drone struck a passenger train in Odesa region, killing the driver and his assistant while the train was heading to a station for passenger evacuation; approximately 340 passengers and crew were evacuated without injuries. (Source: @UkraineNow/83396)",
+        "A UAV bypassed Apostolove in Kryvyi Rih district, Dnipropetrovsk region, on a northern course, while a jet UAV passed Ochakiv (Mykolaiv region) heading toward Dobroslav (Odesa region). (Source: @kpszsu/72621)",
+        "Barrage munitions of Banderoil type were launched toward Odesa from the Black Sea water area, indicating continued Russian naval-based drone operations against southern Ukrainian ports. (Source: @kpszsu/72611)",
+        "A UAV moved toward Vylkove (Odesa region) from the east, while a jet UAV in Ochakiv area (Mykolaiv region) was observed on a variable course. (Source: @kpszsu/72628, @kpszsu/72603)",
+        "In Kherson region, serious electricity and water supply problems persist, with Russian forces using FABs to strike rear areas of Ukrainian-held Kherson, destroying a major logistics hub between Cherepakhivka and Stepankivka according to the 18th Combined Arms Army. (Source: @ukr_leaks_eng/32417)"
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Russia has stockpiled over 6,200 Geran kamikaze drones before winter, with Ukrainian Defense Intelligence reporting the most massive attacks could involve 600-1,000 drones while typical stockpiling-period attacks launch 150-200 drones with a maximum of approximately 300. (Source: @UkraineNow/83392, @ukr_leaks_eng/32394)",
+        "Over the past 24 hours, more than a thousand Ukrainian drones were shot down over Russian regions according to Russian sources, indicating massive Ukrainian drone operations against Russian rear areas. (Source: @ukr_leaks_eng/32417)",
+        "A massive Ukrainian drone attack on Sevastopol during the night caused a complete power outage in the city, while in Rostov region a young woman was injured at a recreation center near Donetsk from drone activity. (Source: @ukr_leaks_eng/32417)",
+        "Multiple Banderoil-type jet drones and Shaheds operate simultaneously across Kharkiv, Chernihiv, Sumy, Kyiv, Mykolaiv, Odesa, and Dnipropetrovsk regions, demonstrating coordinated Russian aerial pressure on multiple fronts. (Source: @kpszsu/72620, @kpszsu/72581, @kpszsu/72618, @kpszsu/72605, @kpszsu/72621, @kpszsu/72603, @kpszsu/72628, @kpszsu/72611, @eRadarrua/105215, @eRadarrua/105240, @eRadarrua/105232, @mon1tor_ua/70176)",
+        "Ukrainian strikes on Russian strategic energy infrastructure include the Novorossiysk naval base, Orsk refinery (completely halted, 6-month repair estimate), and Salavat petrochemical complex (1,400 km from border), demonstrating extended reach. (Source: @UkraineNow/83392, @eRadarrua/105245, @eRadarrua/105231)"
+      ]
+    },
     "key_developments": [
-      "A reactive Shakhid missile was launched from Pozhnekiv toward Kirovsk, confirming ongoing Russian long-range strike activity against western Ukrainian territory.",
-      "Shakhid aircraft flew over the Darnitskyi district and Holosiosivskyi area, showing repeated missile launches targeting central urban centers.",
-      "A drone was observed moving north of Kharkiv heading toward the south-eastern direction, expanding the geographic scope of Ukrainian air defense engagement.",
-      "Unidentified drones attacked the Black Sea waters near Odessa, indicating attempts to disrupt maritime traffic and coastal security operations.",
-      "A drone strike targeted a large logistics facility—the Wildberries warehouse located in an agricultural park in Bashkortostan—demonstrating precision strikes on commercial infrastructure.",
-      "Russian forces conducted a missile strike on the Izmail port, damaging a temporary deployment point for a Ukrainian military unit stationed at the port.",
-      "Russian authorities claimed the liberation of the settlement of Vodianoye in the Kharkiv region, though independent verification remains pending."
+      "Ukrainian forces struck the Russian naval base in Novorossiysk, the Black Sea Fleet's last main foothold, in a unique operation demonstrating long-range maritime strike capability. (Source: @UkraineNow/83392)",
+      "Russia accumulated approximately 6,200 Geran kamikaze drones for winter, with potential massive attacks involving 600-1,000 drones simultaneously against Ukrainian targets. (Source: @UkraineNow/83392)",
+      "Ukrainian drones completely halted Russia's Orsk refinery operations, with repairs estimated up to six months causing 20% gas station closures and fuel rationing of 30L gasoline/60L diesel per person. (Source: @eRadarrua/105245)",
+      "A Shahed drone struck a passenger train in Odesa region killing the driver and assistant, while 340 passengers were evacuated from the train heading to an evacuation station. (Source: @UkraineNow/83396)",
+      "Russian 11th Tank Brigade liberated Vodyanoye village in Kharkiv direction, expelling the 129th Territorial Defense Battalion from Olkhovatska rural community. (Source: @ukr_leaks_eng/32417)",
+      "Ukrainian drones struck the Gazprom Neftkhim Salavat complex in Bashkortostan, one of Russia's largest refineries with 10M tons annual capacity, located 1,400 km from the Ukrainian border. (Source: @eRadarrua/105231)",
+      "Russia returned 261 bodies of fallen Ukrainian soldiers in exchange for 24 Russian military bodies, per war correspondent Alexander Kots. (Source: @tass_agency/390104)"
     ],
-    "threat_assessment": "The combination of reactive Shakhid missile launches from Kirovsk and persistent drone incursions into Ukrainian coastal waters presents a severe threat to both land and sea operations. Russian missile strikes on critical infrastructure such as the Izmail port and the Gazprom Neft complex in Bashkortostan indicate deliberate attempts to degrade Ukrainian economic resilience and maritime capabilities. These actions occur alongside Ukrainian countermeasures including increased drone patrols and fortified positions, creating a dynamic environment of escalation. The targeting of commercial logistics hubs suggests a broader strategy to disrupt supply chains and weaken economic support for the armed forces. Continued Russian pressure on multiple fronts increases the risk of localized escalation and complicates Ukrainian defensive coordination.",
-    "regional_response": "Ukrainian leadership has responded to mounting threats by announcing expanded mobilization of women and preparations for attacks on technologically equipped fortifications. International actors, including the United States, have been assessed as having limited influence over Russian decision-making processes regarding ceasefire negotiations. Diplomatic channels remain strained as Russia continues its campaign of strikes on critical infrastructure. Domestic authorities emphasize resilience but acknowledge the strain on air defense resources and logistical networks. Regional stability depends on sustained Ukrainian defensive posture and effective international support for counteroffensive operations.",
-    "intelligence_notes": "Pattern analysis reveals a shift toward multi-vector attacks combining ballistic missiles, tactical drones, and conventional artillery. The frequency of Shakhid launches from Kirovsk suggests established launch sites and logistical support. Drone targeting of the Wildberries warehouse demonstrates adaptation to evolving battlefield conditions. Russian claims of territorial gains require cross-verification given the contested nature of the frontlines. Intelligence indicates Russian forces maintain flexibility in selecting optimal strike objectives across different operational domains."
+    "threat_assessment": "The operational tempo is escalating with Ukraine demonstrating strategic reach through strikes on Novorossiysk, Orsk, and Salavat — targets 1,400 km from the front. Russia's stockpiling of 6,200+ Geran drones signals preparation for massive winter aerial campaigns potentially involving 600-1,000 drones per wave. Simultaneous multi-axis drone pressure across northern, eastern, and southern fronts indicates Russian intent to overwhelm Ukrainian air defenses while probing for gaps. The fabricated claim of capturing a non-existent village (Shcherbakyka) suggests Russian information operations to manufacture tactical successes. Ukrainian logistics in Kherson face degradation from FAB strikes on rear hubs, while Russian advances near Privillya and Vodyanoye show incremental ground pressure.",
+    "regional_response": "Poland is actively considering transferring another batch of Patriot missiles to Ukraine within days, influenced by a recent Russian missile incursion into Polish territory, with Deputy Defense Minister Magdalena Sobkowiak-Charniecka confirming the decision is imminent. NATO monitoring of Russian drone production and stockpiling continues as the 6,200 Geran figure represents a significant escalation in long-range strike capacity. The body exchange mechanism (261:24) remains a rare functional humanitarian channel amid escalating kinetic operations. International attention to Ukrainian strikes on Russian energy infrastructure (Orsk, Salavat) may prompt discussions on proportionality and escalation management among Western partners.",
+    "intelligence_notes": "DeepState mapping reports unprecedented operational activity levels exceeding even the Kursk operation, with enemy advancement confirmed near Privillya. The widespread deployment of Banderoil-type jet drones alongside Shaheds across seven Ukrainian regions suggests Russian doctrinal evolution toward mixed swarm tactics. Ukrainian targeting of export-oriented energy infrastructure (Orsk, Salavat) aims to degrade Russian revenue streams under sanctions pressure. The NATO-reported 1,000+ Ukrainian drones shot down over Russian regions in 24 hours indicates a massive Ukrainian aerial campaign against Russian rear logistics. Russian MoD claims of destroying Ukrainian fuel depots, a tanker, cargo ship, and patrol boat in Odesa/Chornomorsk/Ochakiv require verification but suggest intensified Russian maritime interdiction."
   },
   "missiles": 0,
   "drones": 133,
   "kpszsu_timeline": [
-    6,
     2,
+    4,
+    1,
+    0,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
     3,
-    3,
-    1,
-    1,
-    1,
-    1,
-    2,
-    1,
-    2,
-    2,
-    2,
     2,
     3,
     0,
@@ -333,6 +355,8 @@
     2,
     6,
     4,
-    5
+    5,
+    7,
+    3
   ]
 }
