@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-14T03:32:09.062024+00:00",
-  "message_count": 329,
+  "updated_at": "2026-08-14T06:03:13.527559+00:00",
+  "message_count": 326,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,26 +11,26 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 133,
+  "red_alerts": 112,
   "red_alerts_timeline": [
     0,
-    0,
-    0,
-    0,
-    12,
+    10,
     0,
     0,
     0,
     0,
-    12,
+    10,
     0,
-    12,
     0,
-    12,
+    10,
     0,
-    60,
-    12,
-    12,
+    10,
+    10,
+    41,
+    10,
+    10,
+    0,
+    0,
     0,
     0,
     0,
@@ -39,48 +39,48 @@
     0
   ],
   "combined_activity_timeline": [
-    7,
-    13,
-    13,
-    20,
-    20,
-    19,
-    16,
-    14,
+    12,
+    21,
+    21,
+    18,
+    15,
     15,
     17,
-    14,
-    25,
-    14,
-    15,
-    13,
+    17,
+    17,
     22,
     14,
-    5,
+    15,
     9,
-    8,
+    25,
+    6,
     8,
     9,
-    10,
-    7
+    7,
+    9,
+    7,
+    13,
+    8,
+    7,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 41,
-    "@kpszsu": 81,
+    "@eRadarrua": 42,
+    "@kpszsu": 82,
     "@mon1tor_ua": 7,
-    "@UkraineNow": 23,
+    "@UkraineNow": 22,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 26,
-    "@tass_agency": 149
+    "@tass_agency": 145
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105318",
-    "kpszsu": "https://t.me/kpszsu/72730",
+    "eRadarrua": "https://t.me/eRadarrua/105320",
+    "kpszsu": "https://t.me/kpszsu/72743",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70186",
-    "UkraineNow": "https://t.me/UkraineNow/83416",
+    "UkraineNow": "https://t.me/UkraineNow/83417",
     "DeepStateUA": "https://t.me/DeepStateUA/23738",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32441",
-    "tass_agency": "https://t.me/tass_agency/390232"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32443",
+    "tass_agency": "https://t.me/tass_agency/390246"
   },
   "cited_post_urls": {
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32441",
@@ -91,6 +91,38 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/70183"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32443",
+      "post_id": 32443,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-14T05:31:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83417",
+      "post_id": 83417,
+      "channel": "UkraineNow",
+      "ts": "2026-08-14T05:22:28+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/72740",
+      "post_id": 72740,
+      "channel": "kpszsu",
+      "ts": "2026-08-14T05:09:00+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/kFhMaZFjRLwux4a4pXG-4wrp2mDL1JrG2a1UF73vQvGityau4G-RJfCIdTBbLJ6lXXUEeBv-ANpBkFyIeXssawT0UPHco3cGe8CJAET1BlRI0Hzygmre7ksW-0AbRPaB7f41fKUIbVs0h6NvKIkcclbSY5mER8rCE2PKrl2ZMkk3oUxz9M2Mu29mLDuh4dkqzHaacrwtHp0KiWrOxFGCoFMhX1QhyB7S0vdzo2sRkM1hBv2vznnT42SphfR-fBOZnCxYMQAcqiy1Obrv7mKOxnrgzSL2J0x9KybRH98_4flcnk3FERzzIEjlNQZM_nRVnMTRcFxRRe2XPdyCgyu9Ow.jpg",
+      "companion_text_id": 72741
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32442",
+      "post_id": 32442,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-14T05:03:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390242",
+      "post_id": 390242,
+      "channel": "tass_agency",
+      "ts": "2026-08-14T05:00:26+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/390224",
       "post_id": 390224,
@@ -187,40 +219,6 @@
       "post_id": 390191,
       "channel": "tass_agency",
       "ts": "2026-08-13T18:19:44+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390190",
-      "post_id": 390190,
-      "channel": "tass_agency",
-      "ts": "2026-08-13T18:00:26+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83413",
-      "post_id": 83413,
-      "channel": "UkraineNow",
-      "ts": "2026-08-13T17:28:32+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105258",
-      "post_id": 105258,
-      "channel": "eRadarrua",
-      "ts": "2026-08-13T17:02:49+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/itU-aULXIp1sUwDJvlryQPiMWSFA_4zxW-8SaFdAiYTmrwph_O_lXvRgtWbM08p-JfJNsLrCW97JC_yAhEQ48_NoXN1Eb4C08oZhx2AKUpTkwZXpXOl6cC_iU-t1WjuTMW1miTdaBD9R96wrMipogoyhpbmat9DvlUCFRnRy3jopWtkuMCxudH_HQg55sO0e2CIFyFxUwanrbgzLfuc1YwSsC5r4Y0VDAcGj3HZsvNftBeLRaOgSXBrXtIzAr7SF_4X8yMJ5kzJbCPqnhiiAN4ZqzuOsS9b3Iu9cSuCwZLlun704Xtm1auwiUmKrS6zX54KHMJ6gx2MSD_CCgSZWhg.jpg",
-      "companion_text_id": 105256
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105257",
-      "post_id": 105257,
-      "channel": "eRadarrua",
-      "ts": "2026-08-13T17:01:03+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/UGF91GcSg9LYx_TvHsdoWYQbBP0Q_-UquPjdtZsR0uIwya1AfoJt7YzYxTwEusUByUNJYZlK4F49faMuXAZmhaRCnWeAx0GfMY3qmqVHYKvV0S4bPOSYTonsE-bdGEFxEXXHUQjeypQoSpWulgbiII07XAkDRCQiu3Qlo2geF6sFTAuYpGUBEeLMeXV2AOvq2PikBYglnLjwWba5bfs0CVJfI6PpWTB3oZWj3FW4hFZVj8kHt75LtARbPAQBYZ4LG0Xgxx2M0dQl9qTNjFHguWCfN2X_qwd197LANiT0TjozPnGdIld0krJG-LZF-8CqCtw7ZcxKgdOztq5SAm3Pfg.jpg",
-      "companion_text_id": 105256
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23738",
-      "post_id": 23738,
-      "channel": "DeepStateUA",
-      "ts": "2026-08-13T16:42:38+00:00"
     }
   ],
   "post_images": {
@@ -229,21 +227,21 @@
     "eRadarrua/105307": "data/media/eRadarrua_105307.jpg",
     "eRadarrua/105288": "data/media/eRadarrua_105288.jpg",
     "eRadarrua/105287": "data/media/eRadarrua_105288.jpg",
-    "eRadarrua/105258": "data/media/eRadarrua_105258.jpg",
-    "eRadarrua/105256": "data/media/eRadarrua_105258.jpg",
     "eRadarrua/105268": "data/media/eRadarrua_105268.jpg",
     "eRadarrua/105241": "data/media/eRadarrua_105241.jpg",
     "eRadarrua/105240": "data/media/eRadarrua_105241.jpg",
     "eRadarrua/105244": "data/media/eRadarrua_105244.jpg",
     "eRadarrua/105243": "data/media/eRadarrua_105244.jpg",
     "eRadarrua/105257": "data/media/eRadarrua_105257.jpg",
+    "eRadarrua/105256": "data/media/eRadarrua_105257.jpg",
+    "eRadarrua/105258": "data/media/eRadarrua_105258.jpg",
     "eRadarrua/105224": "data/media/eRadarrua_105224.jpg",
     "eRadarrua/105225": "data/media/eRadarrua_105224.jpg",
     "eRadarrua/105229": "data/media/eRadarrua_105229.jpg",
     "eRadarrua/105230": "data/media/eRadarrua_105229.jpg",
     "eRadarrua/105231": "data/media/eRadarrua_105231.jpg",
-    "kpszsu/72591": "data/media/kpszsu_72591.jpg",
-    "kpszsu/72590": "data/media/kpszsu_72591.jpg"
+    "kpszsu/72740": "data/media/kpszsu_72740.jpg",
+    "kpszsu/72741": "data/media/kpszsu_72740.jpg"
   },
   "summary": "Ukraine has proposed a ceasefire to Russia regarding strikes on civilian targets in the Black Sea, though no response has been received. Russian Shahed drones attacked passenger trains in Odesa, resulting in two fatalities including a driver and assistant. Multiple UAV incursions were reported across various regions including Chernihiv, Kharkiv, and Zaporizhzhia.",
   "key_points": [
@@ -327,31 +325,31 @@
   },
   "stale_summary": true,
   "missiles": 0,
-  "drones": 133,
+  "drones": 112,
   "kpszsu_timeline": [
+    3,
+    6,
+    5,
+    6,
+    2,
+    3,
+    5,
+    1,
+    4,
+    3,
+    1,
+    5,
+    2,
+    5,
+    2,
+    5,
+    4,
+    3,
+    2,
+    2,
+    6,
     1,
     3,
-    3,
-    5,
-    5,
-    7,
-    3,
-    3,
-    4,
-    3,
-    0,
-    5,
-    2,
-    2,
-    4,
-    5,
-    4,
-    2,
-    5,
-    3,
-    2,
-    4,
-    3,
-    3
+    2
   ]
 }
