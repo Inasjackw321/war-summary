@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-14T15:04:08.634385+00:00",
-  "message_count": 311,
+  "updated_at": "2026-08-14T17:04:30.215427+00:00",
+  "message_count": 301,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 112,
   "red_alerts_timeline": [
-    11,
-    0,
     11,
     11,
     45,
@@ -36,12 +34,12 @@
     0,
     0,
     0,
+    0,
+    11,
     0
   ],
   "combined_activity_timeline": [
-    22,
-    14,
-    15,
+    16,
     9,
     25,
     8,
@@ -49,47 +47,94 @@
     9,
     7,
     9,
-    7,
-    12,
     8,
+    11,
     7,
+    8,
     17,
-    15,
+    14,
     17,
     19,
-    15,
+    16,
     13,
-    18,
+    17,
     13,
     10,
-    16
+    17,
+    14,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 38,
-    "@kpszsu": 72,
-    "@mon1tor_ua": 10,
-    "@UkraineNow": 21,
+    "@eRadarrua": 33,
+    "@kpszsu": 79,
+    "@mon1tor_ua": 9,
+    "@UkraineNow": 20,
     "@DeepStateUA": 3,
-    "@ukr_leaks_eng": 24,
-    "@tass_agency": 143
+    "@ukr_leaks_eng": 22,
+    "@tass_agency": 135
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105357",
-    "kpszsu": "https://t.me/kpszsu/72813",
+    "eRadarrua": "https://t.me/eRadarrua/105361",
+    "kpszsu": "https://t.me/kpszsu/72827",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70189",
-    "UkraineNow": "https://t.me/UkraineNow/83430",
-    "DeepStateUA": "https://t.me/DeepStateUA/23740",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32461",
-    "tass_agency": "https://t.me/tass_agency/390326"
+    "UkraineNow": "https://t.me/UkraineNow/83432",
+    "DeepStateUA": "https://t.me/DeepStateUA/23741",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32470",
+    "tass_agency": "https://t.me/tass_agency/390334"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83427",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32449",
-    "kpszsu": "https://t.me/kpszsu/72801",
-    "eRadarrua": "https://t.me/eRadarrua/105302",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70182"
+    "UkraineNow": "https://t.me/UkraineNow/83418",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70182",
+    "kpszsu": "https://t.me/kpszsu/72795",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32459",
+    "tass_agency": "https://t.me/tass_agency/390296",
+    "eRadarrua": "https://t.me/eRadarrua/105354"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/105361",
+      "post_id": 105361,
+      "channel": "eRadarrua",
+      "ts": "2026-08-14T16:58:39+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/NtGuyp6gITZhrjVQGwxxqaplo0BurH_HNKYJFbVcxr5LpOo061dsUvRrK8Hbkoo3pEJSjids60IIgZrsZEU_tBB7xOi_-7edcS98dNBLc9oGclKqWDtR8Y55HcuncWrFF56sWjPnLwQLyd2fOENOJ14TZSFDERV7gql1jv85kfUx075BQ_gHMyqOMGOPtR67NW07MmZCJ5NKSegtrmVK5UtY3m3UHVgKUq0gOGtKjIOBn__QkQIvkRMyEtnX1zMVaGM4vPbh3QkFOEjjmBiRikTIccLL9PXskHpm2ocRZL4exPhUPm7D1WgRfB_L1_fGmYncXMRI0lQiRvYv62M3fw.jpg",
+      "companion_text_id": 105360
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390334",
+      "post_id": 390334,
+      "channel": "tass_agency",
+      "ts": "2026-08-14T16:50:51+00:00"
+    },
+    {
+      "post_url": "https://t.me/DeepStateUA/23741",
+      "post_id": 23741,
+      "channel": "DeepStateUA",
+      "ts": "2026-08-14T16:33:29+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390332",
+      "post_id": 390332,
+      "channel": "tass_agency",
+      "ts": "2026-08-14T16:01:16+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83431",
+      "post_id": 83431,
+      "channel": "UkraineNow",
+      "ts": "2026-08-14T15:34:05+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32467",
+      "post_id": 32467,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-14T15:31:56+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32464",
+      "post_id": 32464,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-14T15:02:59+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/390323",
       "post_id": 390323,
@@ -174,60 +219,11 @@
       "channel": "eRadarrua",
       "ts": "2026-08-14T11:44:32+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/fKcBD6_UyMB5MpUOFgZxGKyQH8Bv0TFQUAtF_SGVLPiwGD6oOFAeH3DeJZM3ksszpPAnB1f-4zh1ec58Ofg-lLJjEc61B3Z2tsSqC4gspnyJnORUSjNYKOCXuhcJ9QsRt-FoCeS9rt-VWSJpC6DN35GC1pj--caxeQTaJwGh6zf4E7sFG3R6XQhHCbQS9uGRiY_1461DQflKvB9NYFnvHteAFYretlY3LuotKVgwwblnst0eic41OAVJA56tdwFzchp73vWlagpYW2dyELkuK5kfr06oDMDw1zIYgdeOvmypPDCmEXf37XTQa2mkGOIP9KgdVs7mmt7bgc4ll9yt_w.jpg"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390306",
-      "post_id": 390306,
-      "channel": "tass_agency",
-      "ts": "2026-08-14T11:41:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32455",
-      "post_id": 32455,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-14T11:31:55+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105346",
-      "post_id": 105346,
-      "channel": "eRadarrua",
-      "ts": "2026-08-14T11:25:16+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/qJsfmePYgbIY6Zd6xbr7TPlKFmTy3g9qpUEEdwPD07D7Ki3hQ816MB8iIu-E1ObasBKyY18rC5Liby6TeQEzZOGZF37Ucv-IRLUfbSaSL3Yd36WvnFnMTnCAz3v3CGIY8tHD5RWKoYzlNOWmQZwEKJOzjIA56tUKX8KKwjnfEcBYNX91O0SLJAGYWxutKVjkmNEeIxP1ve7QugWqED8U1YboAH2HA8OZ4xihQA8svdxDAi6JvaW1zZWFTArVdqk5dfGm8PLri-BCDiY554mQXQPXS1H-L60jJ6ymksNXVPdkPViy_qsDI2j3GmBrImoV3aW4_msHmvk-qj-BVWobdw.jpg",
-      "companion_text_id": 105347
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83426",
-      "post_id": 83426,
-      "channel": "UkraineNow",
-      "ts": "2026-08-14T11:22:37+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105345",
-      "post_id": 105345,
-      "channel": "eRadarrua",
-      "ts": "2026-08-14T11:09:55+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/dZ5Q5AJlDaZYgs2K-rx97sQ-N73UJcGdvmL1J2dFwyvUtYfqqToiGoopcUR5FMJxwpBcM03dBiGI83ncVvKtOjy3ewG0jqTaTBKCR5tMT9tD4ZDIq897K3sgYSC-NXUVFLm3Tn82GrQ_nkbEt5TQ6afv-4J7id_S_AL_tm8ktskv8EKfh2ORhM6fRnumrqr8u1mVukeBhaVoK4eQ2Hbbhib1ytYDGnAsXBIg2tHF-mkD-1jSSnZduu3BzXNcPi69D82F6WUe0rfTr3Xjf2v6gDXzmPoR4a30g1_S7sRLV0jQoMJOYWHk0ueKSUqRKxW4ux6pHVBot_hbuZpWRKX-2A.jpg",
-      "companion_text_id": 105347
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105344",
-      "post_id": 105344,
-      "channel": "eRadarrua",
-      "ts": "2026-08-14T10:51:06+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/ViSuegcNkgbaWfE0U5UNaQDl3X7Rbr1IzZyPvy5wf3gQsLRT7Y3_x2u0Qt942Swl1xOQ6vrqt118O0sPISe6s5txJe4NC11HB0c9RPHjoeLKYtc7McRrDnWXvpjWXsXfF_t9bkEtuq_Flxp-YrJEdtlr3Akds2jcjy88IFF4XzO_p3whvZoETHM2U9wgwzttAZxJbRwlUGw7K4dx4gBvFFSZPPuCmj8yX0YImu16Re8USjlD9iP6kfQePALTWse_9WWoUxwdPAPaK5lyQD5TJg09RznhHJh5Mm7NGLWvtgI_P1UnEO-VS8FDzTJ8BYjVl1arwMGt1F50DAfFl3-4YA.jpg"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390299",
-      "post_id": 390299,
-      "channel": "tass_agency",
-      "ts": "2026-08-14T10:48:02+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/105340": "data/media/eRadarrua_105340.jpg",
-    "eRadarrua/105338": "data/media/eRadarrua_105340.jpg",
-    "eRadarrua/105341": "data/media/eRadarrua_105341.jpg",
     "eRadarrua/105342": "data/media/eRadarrua_105342.jpg",
+    "eRadarrua/105340": "data/media/eRadarrua_105340.jpg",
     "eRadarrua/105343": "data/media/eRadarrua_105343.jpg",
     "eRadarrua/105344": "data/media/eRadarrua_105344.jpg",
     "eRadarrua/105345": "data/media/eRadarrua_105345.jpg",
@@ -236,95 +232,102 @@
     "eRadarrua/105352": "data/media/eRadarrua_105352.jpg",
     "eRadarrua/105354": "data/media/eRadarrua_105354.jpg",
     "eRadarrua/105355": "data/media/eRadarrua_105355.jpg",
-    "eRadarrua/105321": "data/media/eRadarrua_105321.jpg",
-    "eRadarrua/105320": "data/media/eRadarrua_105321.jpg",
+    "eRadarrua/105361": "data/media/eRadarrua_105361.jpg",
+    "eRadarrua/105360": "data/media/eRadarrua_105361.jpg",
     "eRadarrua/105328": "data/media/eRadarrua_105328.jpg",
     "eRadarrua/105332": "data/media/eRadarrua_105332.jpg",
     "eRadarrua/105331": "data/media/eRadarrua_105332.jpg",
     "eRadarrua/105335": "data/media/eRadarrua_105335.jpg",
+    "eRadarrua/105338": "data/media/eRadarrua_105340.jpg",
+    "eRadarrua/105341": "data/media/eRadarrua_105341.jpg",
     "kpszsu/72740": "data/media/kpszsu_72740.jpg",
     "kpszsu/72741": "data/media/kpszsu_72740.jpg"
   },
-  "summary": "Ukraine conducted drone strikes targeting Russian logistics and energy infrastructure, including the NOVATEK-Ust-Luga complex and command posts in the Kursk and Sumy regions. Russian forces reported advances near Bilytske and Petrovka, while cross-border drone activity increased across multiple fronts. International developments included Poland considering Patriot missile transfers to Ukraine and Germany ending temporary protection for Ukrainian men of conscription age.",
+  "summary": "Ukrainian drones attacked Moscow and Leningrad region, damaging the Ust-Luga port complex and causing fires. Russian forces reported shooting down dozens of drones while Ukraine targeted Black Sea terminals, reducing oil exports. Ukraine proposed a Black Sea ceasefire, while Russia planned maritime administration reforms.",
   "key_points": [
-    "Ukrainian SBU Alpha special forces destroyed nearly 2,400 enemy transport vehicles, command vehicles, and special equipment over the past month, disrupting enemy logistics. (Source: @UkraineNow/83427)",
-    "A nighttime Ukrainian attack struck the NOVATEK-Ust-Luga gas processing facility in Leningrad Oblast, causing a fire and damaging two processing units with annual capacity of about 8 million tons. (Source: @UkraineNow/83428)",
-    "Russian forces advanced near Bilytske and liberated the settlement of Petrovka on the Druzhkivka axis, while continuing offensive operations in Kharkiv Oblast near Kazachya Lopan. (Source: @ukr_leaks_eng/32449)",
-    "Polish Deputy Defense Minister indicated Warsaw may transfer new Patriot missiles to Ukraine within days, with Defense Minister leaning toward approval to prevent missiles from threatening Polish territory. (Source: @ukr_leaks_eng/32442)",
-    "Germany will no longer grant temporary protection to Ukrainian men of conscription age who failed to fulfill military duty, requiring documentation of legal border crossing or official exemption. (Source: @UkraineNow/83415)",
-    "Multiple groups of Ukrainian drones launched from the Black Sea targeted Odesa and Mykolaiv regions, with additional drone activity reported across Sumy, Chernihiv, and Kyiv oblasts. (Source: @kpszsu/72801)",
-    "Ukraine proposed a Black Sea grain corridor ceasefire to Russia through a third party, but no Russian response had been received at the time of reporting. (Source: @UkraineNow/83411)"
+    "Ukrainian drones attacked Moscow and Leningrad region, damaging the Ust-Luga port complex and causing fires. (Source: @UkraineNow/83418)",
+    "Explosions reported near Balaklava TET in Crimea. (Source: @UkraineNow/83418)",
+    "Wildberries warehouse damaged in Tver region due to drone attack. (Source: @UkraineNow/83418)",
+    "Reactivniy Shakhed drones targeted Kyiv and Zhytomyr regions. (Source: @mon1tor_ua/70182)",
+    "Reactivniy drone from Black Sea targeted Odesa region near Porto. (Source: @kpszsu/72795)",
+    "31 terrorist acts registered in Ukraine in 2026, 80% solved. (Source: @UkraineNow/83424)",
+    "Drone crash in Romania near Ukrainian border caused fire. (Source: @ukr_leaks_eng/32459)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "active",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukraine conducted coordinated drone strikes against Russian energy infrastructure and logistics nodes, including the NOVATEK-Ust-Luga gas processing facility and multiple command posts across border regions. Russian forces reported territorial gains near Bilytske and Petrovka while maintaining offensive operations in Kharkiv Oblast. International partners are divided on military support, with Poland considering Patriot missile transfers and Germany restricting refugee protections for draft-age Ukrainians.",
-    "ukraine": [
-      "Ukrainian SBU Alpha special forces destroyed nearly 2,400 enemy transport vehicles, command vehicles, and special equipment over the past month, severely degrading enemy logistics capabilities for fuel, ammunition, and personnel resupply. (Source: @UkraineNow/83427)",
-      "A nighttime Ukrainian attack struck the NOVATEK-Ust-Luga gas processing facility in Leningrad Oblast, causing a fire and damaging two processing units with annual capacity of about 8 million tons of raw materials. (Source: @UkraineNow/83428)",
-      "Ukraine proposed a Black Sea ceasefire to Russia through a third party, offering to halt attacks on civilian vessels, but no Russian response had been received at the time of reporting. (Source: @UkraineNow/83411)",
-      "Ukrainian drones targeted two ground-based retransmitters for controlling Geran/Gerbera attack drones on the left bank of Kherson region, along with five additional UAV control points. (Source: @UkraineNow/83425)",
-      "Germany ended temporary protection for Ukrainian men of conscription age who failed to fulfill military duty, requiring documentation of legal border crossing or official exemption from Ukrainian authorities. (Source: @UkraineNow/83415)",
-      "Ukraine established an international database for documenting war damages exceeding $1 trillion, with a compensation fund being created to directly pay reparations for losses caused by Russian aggression. (Source: @UkraineNow/83429)"
-    ],
-    "russia": [
-      "Russian forces advanced near Bilytske and liberated the settlement of Petrovka on the Druzhkivka axis, while continuing offensive operations in Kharkiv Oblast near Kazachya Lopan. (Source: @ukr_leaks_eng/32449)",
-      "On the Dobropillya axis, Russian Armed Forces advanced in the direction of Mezhovaya, continuing ground offensive operations in the Donetsk region. (Source: @ukr_leaks_eng/32449)",
-      "Russian air defenses shot down at least 51 drones during overnight attacks across multiple regions including Moscow, Sevastopol, and the Leningrad region. (Source: @ukr_leaks_eng/32449)",
-      "In the LPR, 11 civilians including a teenager were injured in Ukrainian attacks on residential buildings, infrastructure, and utility companies across several districts. (Source: @ukr_leaks_eng/32449)",
-      "In the DPR, 6 people were injured when Ukrainian strike drones attacked a passenger electric train at the Kuteinikovo railway station in Ilovaysk, bringing total daily casualties to 17 including two minors. (Source: @ukr_leaks_eng/32449)",
-      "Russian forces continued breaking through the built-up area of Kupyansk toward the southeastern part of the city, maintaining pressure on Ukrainian defensive positions. (Source: @ukr_leaks_eng/32449)"
-    ],
-    "eastern_front": [
-      "Russian assault units of the Sever Ground Reconnaissance Unit continued offensive operations in the village of Kazachya Lopan on the Kharkiv front, with firefights also occurring in Kudiivka and near Goptovka. (Source: @ukr_leaks_eng/32449)",
-      "On the Volchansk section, battles took place in the village of Vasylivka, near Shevchenkove and Petropavlivka, with Ukrainian National Guard assault groups attempting breakthroughs near Ternova and Rubizhne. (Source: @ukr_leaks_eng/32449)",
-      "On the Velikoburluk section, Russian forces engaged in firefights in the area of the village of Olkhovatka and west of Ustinovka, maintaining active combat operations. (Source: @ukr_leaks_eng/32449)",
-      "Russian forces liberated the settlement of Petrovka on the Druzhkivka axis, marking a significant territorial gain in the Donetsk region. (Source: @ukr_leaks_eng/32449)",
-      "On the Dobropillya axis, Russian Armed Forces advanced in the direction of Mezhovaya, continuing their push through the eastern front. (Source: @ukr_leaks_eng/32449)",
-      "Fighting continued in Kupyansk, with Russian troops breaking through the built-up area toward the southeastern part of the city. (Source: @ukr_leaks_eng/32449)"
-    ],
-    "northern_front": [
-      "Drone attacks were repelled in the Leningrad region overnight, with fighting continuing into the morning and at least 51 drones shot down, including a dozen approaching Moscow. (Source: @ukr_leaks_eng/32449)",
-      "In the Kursk region, a 47-year-old woman was injured when debris from a drone fell in the village of Reutchansky, highlighting ongoing cross-border drone activity. (Source: @ukr_leaks_eng/32449)",
-      "In the Belgorod region, three men were injured by shrapnel from an FPV drone detonation in the village of Krasnaya Yaruga, with additional casualties from drone attacks on vehicles and residential buildings. (Source: @ukr_leaks_eng/32449)",
-      "In the Sumy region, a reactive drone was launched toward Kharkiv from the north, indicating continued cross-border drone operations from Russian territory. (Source: @eRadarrua/105302)",
-      "Multiple groups of Ukrainian drones launched from the Black Sea targeted Odesa and Mykolaiv regions, with additional drone activity reported across Sumy, Chernihiv, and Kyiv oblasts. (Source: @kpszsu/72801)"
-    ],
-    "southern_front": [
-      "Several groups of Ukrainian drones flew through Kherson region toward Dnipro region, indicating coordinated cross-regional drone operations. (Source: @kpszsu/72801)",
-      "Ukrainian drones launched from the Black Sea targeted Odesa and Mykolaiv regions, with specific routes toward Ochakiv and Pivdenne, demonstrating maritime-based drone capabilities. (Source: @kpszsu/72775)",
-      "In the Zaporizhzhia region, two reactive drones were launched toward Novomikolayivka from the south, showing continued drone activity in the southern front. (Source: @eRadarrua/105305)",
-      "Ukrainian drones targeted the Kherson region with routes toward Kharkiv and Krasnohorivka, indicating multi-directional drone deployment from the south. (Source: @kpszsu/72734)",
-      "A group of reactive drones launched from the Black Sea targeted the southern part of Odesa region toward Tatarbunary, demonstrating naval-based drone strike capabilities. (Source: @kpszsu/72792)",
-      "Two reactive drones were launched toward Zhytomyr region from the north, with drones approaching Zhytomyr, indicating continued drone pressure from the southern direction. (Source: @mon1tor_ua/70182)"
-    ],
-    "air_war": [
-      "Ukrainian SBU Alpha special forces destroyed nearly 2,400 enemy transport vehicles, command vehicles, and special equipment over the past month, disrupting enemy logistics capabilities. (Source: @UkraineNow/83427)",
-      "Russian air defenses shot down at least 51 drones during overnight attacks across multiple regions including Moscow, Sevastopol, and the Leningrad region. (Source: @ukr_leaks_eng/32449)",
-      "Ukrainian drones targeted two ground-based retransmitters for controlling Geran/Gerbera attack drones on the left bank of Kherson region, along with five additional UAV control points. (Source: @UkraineNow/83425)",
-      "In the Kursk region, a 47-year-old woman was injured when debris from a drone fell in the village of Reutchansky, highlighting ongoing cross-border drone activity. (Source: @ukr_leaks_eng/32449)",
-      "In the Belgorod region, three men were injured by shrapnel from an FPV drone detonation in the village of Krasnaya Yaruga, with additional casualties from drone attacks on vehicles and residential buildings. (Source: @ukr_leaks_eng/32449)",
-      "In the DPR, 6 people were injured when Ukrainian strike drones attacked a passenger electric train at the Kuteinikovo railway station in Ilovaysk, bringing total daily casualties to 17 including two minors. (Source: @ukr_leaks_eng/32449)"
-    ],
+    "executive_summary": "Ukrainian drones attacked Moscow and Leningrad region, damaging the Ust-Luga port complex and causing fires. Russian forces reported shooting down dozens of drones while Ukraine targeted Black Sea terminals, reducing oil exports. Ukraine proposed a Black Sea ceasefire, while Russia planned maritime administration reforms.",
+    "ukraine": {
+      "points": [
+        "Ukrainian drones attacked Moscow and Leningrad region, damaging the Ust-Luga port complex and causing fires. (Source: @UkraineNow/83418)",
+        "Ukrainian drones targeted Black Sea terminals in Russia, reducing oil exports. (Source: @UkraineNow/83431)",
+        "Ukraine proposed a Black Sea ceasefire to Russia regarding strikes on civilian targets. (Source: @ukr_leaks_eng/32441)",
+        "Counterintelligence exposed conscription evasion schemes in Kiev region involving fake employment. (Source: @ukr_leaks_eng/32455)",
+        "Ukrainian drones targeted Odesa and Mykolaiv regions from the Black Sea. (Source: @kpszsu/72775, @kpszsu/72818)"
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian forces reported shooting down dozens of drones in Moscow and Leningrad region. (Source: @ukr_leaks_eng/32449)",
+        "Russia planned to create a Marine Administration for maritime coordination. (Source: @tass_agency/390296)",
+        "Fuel supply issues reported in several Russian regions. (Source: @tass_agency/390331)",
+        "Russian attacks on Ukrainian infrastructure caused civilian casualties in Cherkasy, Sumy, Dnipro, and Zaporizhzhia. (Source: @UkraineNow/83417)",
+        "Russian forces advanced in Kharkiv region, targeting Balaklava TET and other infrastructure. (Source: @tass_agency/390321)"
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Fighting continued in Kharkiv region, with Russian assault units targeting villages like Kazachya Lopan and Goptovka. (Source: @ukr_leaks_eng/32449)",
+        "Ukrainian National Guard attempted a breakthrough near Ternova and Rubizhne. (Source: @ukr_leaks_eng/32449)",
+        "Russian forces advanced in Dobropillya axis toward Mezhovaya. (Source: @ukr_leaks_eng/32449)",
+        "Ukrainian drones targeted Kupyansk, with Russian forces breaking through the city. (Source: @ukr_leaks_eng/32449)",
+        "Reactivniy Shakhed drones targeted Kharkiv region toward Balaklava TET. (Source: @kpszsu/72816)"
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Drone attacks targeted Kyiv and Zhytomyr regions, with Reactivniy Shakhed drones reported. (Source: @mon1tor_ua/70182, @mon1tor_ua/70181)",
+        "Controlled Shakhed drone from Belarus targeted Kyiv/Zhytomyr. (Source: @mon1tor_ua/70188)",
+        "Drone attacks in Chernihiv region caused civilian injuries. (Source: @eRadarrua/105354)",
+        "Ukrainian drones targeted Kiev region infrastructure. (Source: @ukr_leaks_eng/32449)",
+        "Russian attacks on Kyiv region caused civilian casualties. (Source: @UkraineNow/83417)"
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Ukrainian drones targeted Odesa and Mykolaiv regions from the Black Sea. (Source: @kpszsu/72775, @kpszsu/72818)",
+        "Russian attacks on Odesa region killed two civilians and damaged locomotives. (Source: @UkraineNow/83416)",
+        "Drone attacks in Kherson region targeted Apostove and Kruvi Rih. (Source: @mon1tor_ua/70187)",
+        "Ukrainian drones targeted Zaporizhzhia region, causing civilian casualties. (Source: @UkraineNow/83417)",
+        "Russian attacks on Nikopol district caused injuries including minors. (Source: @UkraineNow/83417)"
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Ukrainian drones attacked Moscow, Leningrad, and Crimea, with Russian forces shooting down dozens. (Source: @ukr_leaks_eng/32449)",
+        "Reactivniy Shakhed drones targeted Kyiv and Zhytomyr regions. (Source: @mon1tor_ua/70182, @mon1tor_ua/70181)",
+        "Ukrainian drones from Black Sea targeted Odesa and Mykolaiv. (Source: @kpszsu/72775, @kpszsu/72818)",
+        "Drone attacks in Kharkiv region targeted Balaklava TET. (Source: @kpszsu/72816)",
+        "Romanian drone crashed near Ukrainian border, causing fire. (Source: @ukr_leaks_eng/32459)"
+      ]
+    },
     "key_developments": [
-      "Ukrainian SBU Alpha special forces destroyed nearly 2,400 enemy transport vehicles, command vehicles, and special equipment over the past month, severely degrading enemy logistics capabilities for fuel, ammunition, and personnel resupply. (Source: @UkraineNow/83427)",
-      "A nighttime Ukrainian attack struck the NOVATEK-Ust-Luga gas processing facility in Leningrad Oblast, causing a fire and damaging two processing units with annual capacity of about 8 million tons of raw materials. (Source: @UkraineNow/83428)",
-      "Russian forces advanced near Bilytske and liberated the settlement of Petrovka on the Druzhkivka axis, while continuing offensive operations in Kharkiv Oblast near Kazachya Lopan. (Source: @ukr_leaks_eng/32449)",
-      "Polish Deputy Defense Minister indicated Warsaw may transfer new Patriot missiles to Ukraine within days, with Defense Minister leaning toward approval to prevent missiles from threatening Polish territory. (Source: @ukr_leaks_eng/32442)",
-      "Germany ended temporary protection for Ukrainian men of conscription age who failed to fulfill military duty, requiring documentation of legal border crossing or official exemption from Ukrainian authorities. (Source: @UkraineNow/83415)",
-      "Russian air defenses shot down at least 51 drones during overnight attacks across multiple regions including Moscow, Sevastopol, and the Leningrad region. (Source: @ukr_leaks_eng/32449)",
-      "Ukraine proposed a Black Sea ceasefire to Russia through a third party, offering to halt attacks on civilian vessels, but no Russian response had been received at the time of reporting. (Source: @UkraineNow/83411)"
+      "Ukrainian drones attacked Moscow and Leningrad region, damaging the Ust-Luga port complex and causing fires. (Source: @UkraineNow/83418)",
+      "Russian forces reported shooting down dozens of drones in Moscow and Leningrad region. (Source: @ukr_leaks_eng/32449)",
+      "Ukrainian drones targeted Black Sea terminals in Russia, reducing oil exports. (Source: @UkraineNow/83431)",
+      "Ukraine proposed a Black Sea ceasefire to Russia regarding strikes on civilian targets. (Source: @ukr_leaks_eng/32441)",
+      "Fighting continued in Kharkiv region, with Russian assault units targeting villages like Kazachya Lopan. (Source: @ukr_leaks_eng/32449)",
+      "Drone attacks in Romania near Ukrainian border caused fire. (Source: @ukr_leaks_eng/32459)",
+      "Russian attacks on Ukrainian infrastructure caused civilian casualties in Cherkasy, Sumy, Dnipro, and Zaporizhzhia. (Source: @UkraineNow/83417)"
     ],
-    "threat_assessment": "The operational environment remains highly volatile with intensified drone warfare on both sides. Ukraine's targeting of critical Russian energy infrastructure, including the NOVATEK-Ust-Luga facility, poses significant strategic risks to Russia's energy export capabilities and military supply chains. Russian forces continue advancing in eastern Ukraine, particularly around Bilytske and Petrovka, indicating sustained offensive momentum. Cross-border drone attacks are increasing, with incidents reported in Kursk, Belgorod, and Leningrad regions, suggesting escalation beyond traditional front lines. The potential transfer of Patriot missiles from Poland to Ukraine could significantly alter the regional air defense balance, prompting strong opposition from former Polish defense officials who view it as compromising national security.",
-    "regional_response": "International partners are showing divergent approaches to supporting Ukraine. Poland is considering transferring Patriot missiles to Ukraine, with the Defense Minister arguing it is preferable for missiles to be intercepted over Ukrainian territory rather than Polish airspace, though former Defense Minister Błaszczak strongly opposes this as jeopardizing Polish security. Germany has implemented restrictive measures by ending temporary protection for Ukrainian men of conscription age who failed to fulfill military obligations, requiring documentation of legal border crossing or official exemption. Meanwhile, the International Automobile Federation has lifted restrictions on Russian and Belarusian drivers, allowing them to compete under national flags following the start of the SMO in Ukraine. These varied responses reflect the complex geopolitical landscape surrounding the conflict.",
-    "intelligence_notes": "Ukrainian special operations capabilities are demonstrating increased sophistication, with SBU Alpha conducting systematic disruption of Russian logistics networks, destroying nearly 2,400 vehicles and equipment units in a single month. The targeting of the NOVATEK-Ust-Luga facility represents a strategic shift toward energy infrastructure attacks, which could have cascading effects on Russia's economic and military operations given the facility's 8 million ton annual capacity. Polish internal political divisions are evident regarding military aid to Ukraine, with current and former defense officials holding opposing views on Patriot missile transfers, potentially affecting future NATO coordination. The establishment of Ukraine's international war damage database exceeding $1 trillion indicates long-term planning for post-conflict reconstruction and reparations, with a dedicated compensation fund being created for direct payments. Additionally, the discovery of a conscription evasion scheme in the Kiev region involving 165 fictitious teachers at four lyceums with only 50 students reveals systemic corruption and the lengths individuals will go to avoid military service."
+    "threat_assessment": "Ukrainian drone operations are expanding across Russian territory, targeting critical infrastructure like the Ust-Luga port complex and Black Sea terminals. Russian forces are responding with increased air defenses and retaliatory strikes on Ukrainian cities. The use of Reactivniy Shakhed drones indicates a shift toward more sophisticated weaponry. Civilian casualties in multiple regions suggest a hardening of frontlines and increased collateral damage. Ukraine's proposed Black Sea ceasefire may signal a strategic pivot toward de-escalation, but Russian maritime reforms indicate continued aggression.",
+    "regional_response": "Germany announced it will no longer provide temporary protection to Ukrainian men of conscription age who evaded military service. Romania reported a drone crash near its border with Ukraine. Estonia demanded Ukraine install self-destruct mechanisms on combat UAVs. Poland detained a man suspected of plotting against a US-Ukrainian citizen. NATO allies are monitoring the situation closely, with increased scrutiny on Ukrainian drone operations near allied territories.",
+    "intelligence_notes": "Ukrainian drone operations are expanding across Russian territory, targeting critical infrastructure like the Ust-Luga port complex and Black Sea terminals. Russian forces are responding with increased air defenses and retaliatory strikes on Ukrainian cities. The use of Reactivniy Shakhed drones indicates a shift toward more sophisticated weaponry. Civilian casualties in multiple regions suggest a hardening of frontlines and increased collateral damage. Ukraine's proposed Black Sea ceasefire may signal a strategic pivot toward de-escalation, but Russian maritime reforms indicate continued aggression."
   },
   "missiles": 0,
   "drones": 112,
   "kpszsu_timeline": [
-    3,
-    1,
-    5,
+    6,
     2,
     5,
     3,
@@ -345,6 +348,8 @@
     5,
     2,
     1,
-    6
+    6,
+    6,
+    4
   ]
 }
