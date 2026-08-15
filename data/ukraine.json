@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-15T16:42:10.113554+00:00",
-  "message_count": 246,
+  "updated_at": "2026-08-15T17:14:21.392147+00:00",
+  "message_count": 244,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 152,
   "red_alerts_timeline": [
-    0,
     0,
     0,
     0,
@@ -32,7 +31,8 @@
     0,
     0,
     25,
-    76,
+    51,
+    25,
     0,
     0,
     0,
@@ -40,33 +40,33 @@
   ],
   "combined_activity_timeline": [
     11,
-    9,
-    13,
     10,
-    8,
-    5,
+    11,
+    11,
     5,
     5,
     4,
-    9,
-    9,
+    3,
     10,
-    6,
-    14,
-    13,
-    11,
-    11,
     10,
-    15,
-    30,
-    13,
-    8,
     7,
-    8
+    8,
+    12,
+    12,
+    13,
+    11,
+    11,
+    10,
+    30,
+    17,
+    9,
+    8,
+    9,
+    6
   ],
   "messages_by_channel": {
     "@eRadarrua": 33,
-    "@kpszsu": 51,
+    "@kpszsu": 49,
     "@mon1tor_ua": 17,
     "@UkraineNow": 16,
     "@DeepStateUA": 1,
@@ -74,13 +74,13 @@
     "@tass_agency": 114
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105431",
-    "kpszsu": "https://t.me/kpszsu/72941",
+    "eRadarrua": "https://t.me/eRadarrua/105432",
+    "kpszsu": "https://t.me/kpszsu/72942",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70207",
-    "UkraineNow": "https://t.me/UkraineNow/83448",
+    "UkraineNow": "https://t.me/UkraineNow/83450",
     "DeepStateUA": "https://t.me/DeepStateUA/23742",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32485",
-    "tass_agency": "https://t.me/tass_agency/390460"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32486",
+    "tass_agency": "https://t.me/tass_agency/390462"
   },
   "cited_post_urls": {
     "kpszsu": "https://t.me/kpszsu/72905",
@@ -89,6 +89,18 @@
     "eRadarrua": "https://t.me/eRadarrua/105387"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/390462",
+      "post_id": 390462,
+      "channel": "tass_agency",
+      "ts": "2026-08-15T17:05:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83450",
+      "post_id": 83450,
+      "channel": "UkraineNow",
+      "ts": "2026-08-15T16:57:19+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/83448",
       "post_id": 83448,
@@ -207,20 +219,6 @@
       "post_id": 390427,
       "channel": "tass_agency",
       "ts": "2026-08-15T10:01:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105394",
-      "post_id": 105394,
-      "channel": "eRadarrua",
-      "ts": "2026-08-15T09:54:38+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/vSH7X-r5zIcIAETCcWcDhADT3RCuppnXCS-P9leSmmpHVdm8ZILMBFLPL3JidsYok7Ad-0VdYF3NsQPLYSatYH3WboMguJwMdeGux_zHBwHeT5IYMYu4JXdj8dN2FrxYC8fsNDV94ijBp4V2HvDxf3J59geghrMSsB3mIXlQxzhwjrQos9uJ4TGbN0SzYZPKA6OKcAVD-s4v3LU4XlhVwrcAVspEYBnhBJoeJIqV5JnxKqzMQwGlVEl1L-egDZ7sDfp28dH95myAkEtYVbk9MxhJe6EfZTXC1MZEXzYz-ZQA6hUtvP_Nk0HQBZd-vah8olVYSDgH_bL3XGu7ivLWcw.jpg",
-      "companion_text_id": 105393
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390425",
-      "post_id": 390425,
-      "channel": "tass_agency",
-      "ts": "2026-08-15T09:44:01+00:00"
     }
   ],
   "post_images": {
@@ -239,8 +237,6 @@
     "eRadarrua/105378": "data/media/eRadarrua_105377.jpg",
     "eRadarrua/105388": "data/media/eRadarrua_105388.jpg",
     "eRadarrua/105387": "data/media/eRadarrua_105388.jpg",
-    "eRadarrua/105361": "data/media/eRadarrua_105361.jpg",
-    "eRadarrua/105360": "data/media/eRadarrua_105361.jpg",
     "eRadarrua/105362": "data/media/eRadarrua_105362.jpg",
     "eRadarrua/105363": "data/media/eRadarrua_105362.jpg",
     "eRadarrua/105367": "data/media/eRadarrua_105367.jpg",
@@ -348,28 +344,28 @@
   "drones": 152,
   "kpszsu_timeline": [
     2,
-    4,
-    4,
-    1,
-    1,
-    0,
-    2,
+    3,
     3,
     1,
     1,
-    5,
-    1,
-    1,
-    4,
-    4,
-    1,
+    2,
     2,
     1,
-    4,
-    6,
+    2,
+    5,
+    1,
     0,
+    4,
+    3,
+    3,
+    2,
+    1,
+    2,
+    7,
+    1,
     0,
     1,
-    2
+    2,
+    0
   ]
 }
