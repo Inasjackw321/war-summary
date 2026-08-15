@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-15T03:07:25.024138+00:00",
-  "message_count": 274,
+  "updated_at": "2026-08-15T04:53:26.486684+00:00",
+  "message_count": 277,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 112,
   "red_alerts_timeline": [
-    0,
-    0,
     0,
     28,
     0,
@@ -36,51 +34,53 @@
     0,
     0,
     0,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    7,
-    8,
-    17,
     14,
-    18,
-    19,
+    17,
+    17,
     15,
+    19,
+    14,
+    15,
+    14,
+    11,
+    17,
     12,
-    18,
-    12,
-    9,
-    18,
     13,
-    12,
-    12,
-    12,
-    11,
-    11,
-    4,
-    4,
+    10,
+    15,
     8,
-    3,
+    12,
+    6,
+    4,
     7,
-    10
+    5,
+    4,
+    9,
+    10,
+    8
   ],
   "messages_by_channel": {
     "@eRadarrua": 22,
-    "@kpszsu": 64,
+    "@kpszsu": 65,
     "@mon1tor_ua": 10,
     "@UkraineNow": 19,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 132
+    "@tass_agency": 134
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/105376",
-    "kpszsu": "https://t.me/kpszsu/72885",
+    "kpszsu": "https://t.me/kpszsu/72894",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70196",
     "UkraineNow": "https://t.me/UkraineNow/83436",
     "DeepStateUA": "https://t.me/DeepStateUA/23742",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32472",
-    "tass_agency": "https://t.me/tass_agency/390375"
+    "tass_agency": "https://t.me/tass_agency/390390"
   },
   "cited_post_urls": {
     "UkraineNow": "https://t.me/UkraineNow/83418",
@@ -91,6 +91,12 @@
     "kpszsu": "https://t.me/kpszsu/72846"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/390379",
+      "post_id": 390379,
+      "channel": "tass_agency",
+      "ts": "2026-08-15T03:40:02+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/390366",
       "post_id": 390366,
@@ -212,12 +218,6 @@
       "post_id": 390323,
       "channel": "tass_agency",
       "ts": "2026-08-14T14:33:52+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83430",
-      "post_id": 83430,
-      "channel": "UkraineNow",
-      "ts": "2026-08-14T14:28:04+00:00"
     }
   ],
   "post_images": {
@@ -316,32 +316,33 @@
     "regional_response": "Russian regional authorities have implemented enhanced security protocols including transportation restrictions and emergency response deployments during drone attack periods. Ukrainian intelligence services are actively monitoring and disrupting enemy logistics networks through special operations targeting transportation infrastructure. International partners continue diplomatic engagement regarding military aid transfers, though negotiations face challenges in fulfillment commitments. Local populations in affected regions experience ongoing disruption to daily life and essential services due to persistent aerial threats. Emergency services across multiple jurisdictions coordinate response efforts to contain infrastructure fires and assess damage from drone strikes.",
     "intelligence_notes": "Recent battlefield reports indicate shifting tactical focus toward drone warfare and special operations rather than large-scale conventional engagements. Ukrainian special forces demonstrate increasing effectiveness in targeting high-value logistics assets, significantly degrading enemy supply chain capabilities. Russian forces appear to be adapting their defensive strategies in response to persistent Ukrainian drone campaigns penetrating previously secure territories. Intelligence gathering efforts by both sides emphasize electronic warfare and reconnaissance capabilities to support precision targeting operations. The frequency and coordination of cross-border attacks suggest improved operational planning and resource allocation by Ukrainian military leadership."
   },
+  "stale_summary": true,
   "missiles": 0,
   "drones": 112,
   "kpszsu_timeline": [
-    1,
-    3,
-    3,
-    3,
-    3,
-    1,
-    3,
-    1,
-    5,
-    1,
-    1,
-    7,
-    5,
-    4,
     3,
     4,
+    1,
+    2,
+    4,
+    1,
+    3,
+    3,
+    1,
+    6,
+    6,
+    4,
+    1,
+    6,
     3,
     1,
     1,
-    1,
+    0,
     4,
+    3,
+    0,
     1,
-    1,
-    4
+    6,
+    0
   ]
 }
