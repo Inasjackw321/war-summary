@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-15T01:38:44.780650+00:00",
-  "message_count": 276,
+  "updated_at": "2026-08-15T03:07:25.024138+00:00",
+  "message_count": 274,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -16,7 +16,6 @@
     0,
     0,
     0,
-    0,
     28,
     0,
     0,
@@ -27,7 +26,6 @@
     0,
     0,
     28,
-    0,
     0,
     0,
     0,
@@ -36,57 +34,61 @@
     0,
     0,
     0,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    9,
-    10,
-    6,
-    10,
-    18,
-    16,
-    17,
-    18,
-    15,
-    13,
-    16,
-    14,
-    12,
-    16,
-    10,
-    11,
-    12,
-    13,
-    10,
-    8,
-    5,
-    5,
     7,
-    4
+    8,
+    17,
+    14,
+    18,
+    19,
+    15,
+    12,
+    18,
+    12,
+    9,
+    18,
+    13,
+    12,
+    12,
+    12,
+    11,
+    11,
+    4,
+    4,
+    8,
+    3,
+    7,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 23,
-    "@kpszsu": 66,
+    "@eRadarrua": 22,
+    "@kpszsu": 64,
     "@mon1tor_ua": 10,
     "@UkraineNow": 19,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 131
+    "@tass_agency": 132
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/105376",
-    "kpszsu": "https://t.me/kpszsu/72867",
+    "kpszsu": "https://t.me/kpszsu/72885",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70196",
     "UkraineNow": "https://t.me/UkraineNow/83436",
     "DeepStateUA": "https://t.me/DeepStateUA/23742",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32472",
-    "tass_agency": "https://t.me/tass_agency/390366"
+    "tass_agency": "https://t.me/tass_agency/390375"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83429",
-    "tass_agency": "https://t.me/tass_agency/390362",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32461",
-    "eRadarrua": "https://t.me/eRadarrua/105363"
+    "UkraineNow": "https://t.me/UkraineNow/83418",
+    "tass_agency": "https://t.me/tass_agency/390340",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32449",
+    "DeepStateUA": "https://t.me/DeepStateUA/23740",
+    "eRadarrua": "https://t.me/eRadarrua/105340",
+    "kpszsu": "https://t.me/kpszsu/72846"
   },
   "media": [
     {
@@ -242,125 +244,104 @@
     "kpszsu/72740": "data/media/kpszsu_72740.jpg",
     "kpszsu/72741": "data/media/kpszsu_72740.jpg"
   },
-  "summary": "Ukraine reports significant losses exceeding $1 trillion due to Russian aggression, with compensation funds established. Drone attacks on Moscow and Odessa region highlight ongoing aerial threats. Russian oil export reductions from Ukrainian strikes impact energy markets.",
+  "summary": "Drone activity intensified across multiple fronts with Ukrainian and Russian forces exchanging strikes on infrastructure and military targets. Ukrainian intelligence reported detecting Russian plans for retaliation while Russian air defenses claimed downing hundreds of drones overnight. Fighting continued in eastern Ukraine with advances reported near Bilytske and Petrovka.",
   "key_points": [
-    "Ukraine reports losses exceeding $1 trillion from Russian aggression, prompting establishment of a compensation fund (Source: @UkraineNow/83429).",
-    "Seven drones attacked Moscow, with reports of fires in the area (Source: @tass_agency/390362).",
-    "Ukrainian aircraft intercepted Russian drones over Odessa region (Source: @ukr_leaks_eng/32461).",
-    "Russian oil exports from Black Sea terminals dropped 80% in May due to Ukrainian attacks (Source: @UkraineNow/83431).",
-    "Missile threats from Russia's T-22M3 bombers pose elevated risk to Kyiv and surrounding areas (Source: @eRadarrua/105363).",
-    "Drone attacks in Belgorod region killed one civilian and injured multiple others (Source: @ukr_leaks_eng/32447).",
-    "Ukrainian forces liberated Petrovka settlement on the Druzhkivka axis (Source: @ukr_leaks_eng/32449)."
+    "Ukrainian drones attacked Moscow and Leningrad regions overnight, causing fires and port disruptions (Source: @UkraineNow/83418).",
+    "Russian air defenses shot down 221 Ukrainian drones in one day over Russian regions and maritime areas (Source: @tass_agency/390340).",
+    "Fighting continues in Kharkiv direction with assault units operating in Kazachya Lopan and other villages (Source: @ukr_leaks_eng/32449).",
+    "Ukrainian SBU Alpha group destroyed nearly 2400 enemy transport vehicles and equipment units in one month (Source: @UkraineNow/83427).",
+    "Russian forces advanced near Bilytske and Petrovka on eastern fronts (Source: @DeepStateUA/23740).",
+    "Drone attacks targeted infrastructure in Kursk, Belgorod, and Odessa regions with civilian casualties reported (Source: @ukr_leaks_eng/32449).",
+    "Ukrainian military intelligence identified Russian retaliation plans amid ongoing battlefield developments (Source: @UkraineNow/83430)."
   ],
-  "sentiment": "escalating",
-  "intensity": 9,
+  "sentiment": "volatile",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Ukraine's $1 trillion losses and compensation fund establishment mark a critical financial milestone. Drone attacks on Moscow and Odessa underscore persistent aerial threats. Russian oil export cuts from Ukrainian strikes disrupt energy markets.",
-    "ukraine": {
-      "points": [
-        "Ukraine established a compensation fund to document and repay losses from Russian aggression, including housing, infrastructure, and humanitarian costs (Source: @UkraineNow/83429).",
-        "Drone attacks in Odessa region demonstrate Ukraine's active air defense efforts against Russian unmanned systems (Source: @ukr_leaks_eng/32461).",
-        "Ukrainian forces liberated Petrovka settlement on the Druzhkivka axis, advancing territorial control (Source: @ukr_leaks_eng/32449).",
-        "Ukraine is systematically tracking and publicizing every expense caused by Russian aggression, including humanitarian and demining costs (Source: @UkraineNow/83417).",
-        "Ukrainian air defense systems shot down 51 drones overnight in Leningrad region, indicating sustained combat pressure (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian strikes on Russian Black Sea oil terminals reduced exports by 80% in May, impacting Russia's energy revenue (Source: @UkraineNow/83431).",
-        "Ukrainian forces continue offensive operations in Kupyansk, breaking through built-up areas toward southeastern parts of the city (Source: @ukr_leaks_eng/32449)."
-      ]
-    },
-    "russia": {
-      "points": [
-        "Russian oil exports from Black Sea terminals declined sharply due to Ukrainian attacks, reducing CPC pipeline volumes by 80% in May (Source: @UkraineNow/83431).",
-        "Russian forces struck locomotives in Zhytomyr and Odessa regions, targeting critical infrastructure (Source: @ukr_leaks_eng/32449).",
-        "Russian military advanced in Mezhovaya on the Dobropillya axis, indicating continued offensive efforts (Source: @ukr_leaks_eng/32449).",
-        "Russian attacks on civilian infrastructure in Belgorod region caused multiple injuries, including a fatality from an FPV drone (Source: @ukr_leaks_eng/32447).",
-        "Russian military used Crimea's territory to launch high-altitude drone strikes on Sevastopol (Source: @ukr_leaks_eng/32449).",
-        "Russian forces maintained active combat in Belgorod, targeting residential areas and causing civilian casualties (Source: @ukr_leaks_eng/32447).",
-        "Russian military conducted drone and aircraft strikes in multiple regions, including Kharkov and Belgorod, disrupting local operations (Source: @ukr_leaks_eng/32449)."
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Ukrainian assault units of the 'Sever' GRV engaged in firefights in Kazachya Lopan, advancing toward Russian positions (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian forces conducted operations near Goptovka and Velikoburluk, facing Russian counterattacks (Source: @ukr_leaks_eng/32449).",
-        "Russian military maintained defensive lines in the Velikoburluk sector, resisting Ukrainian advances (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian National Guard attempted but failed to break through Russian lines near Ternova and Rubizhne (Source: @ukr_leaks_eng/32449).",
-        "Russian forces inflicted casualties on Ukrainian troops in the Velikoburluk and Olkhovátka areas (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian troops in Kupyansk broke through built-up areas, signaling potential breakthroughs (Source: @ukr_leaks_eng/32449).",
-        "Russian military used mines and drones in the Druzhkivka axis, causing civilian casualties in Ilovaysk (Source: @ukr_leaks_eng/32449)."
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Ukrainian forces faced Russian drone and aircraft strikes in the Leningrad region, including attacks near Ust-Luga port (Source: @ukr_leaks_eng/32449).",
-        "Russian military conducted nighttime operations in the Leningrad region, targeting Ukrainian positions (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian air defense systems intercepted multiple drones approaching Moscow from the north (Source: @ukr_leaks_eng/32449).",
-        "Russian forces maintained pressure on Ukrainian lines in the Velikoburluk and Olkhovátka sectors (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian troops in the Velikoburluk area engaged in sustained firefights with Russian forces (Source: @ukr_leaks_eng/32449).",
-        "Russian military used long-range drones and aircraft to target Ukrainian positions in the northern front (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian forces in the northern front faced coordinated Russian attacks involving drones and artillery (Source: @ukr_leaks_eng/32449)."
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Ukrainian forces launched drone strikes on Russian Black Sea oil terminals, reducing exports by 80% in May (Source: @UkraineNow/83431).",
-        "Russian military conducted drone and aircraft attacks in the southern front, targeting Ukrainian infrastructure (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian forces in the southern front faced increased Russian drone and missile threats (Source: @eRadarrua/105331).",
-        "Russian forces used Crimea's territory to launch high-altitude drone strikes on Sevastopol (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian air defense systems intercepted drones over the Black Sea, indicating active combat (Source: @eRadarrua/105331).",
-        "Russian military maintained offensive operations in the southern front, targeting Ukrainian positions (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian forces in the southern front conducted counterattacks against Russian drone and artillery strikes (Source: @ukr_leaks_eng/32449)."
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Ukrainian aircraft intercepted Russian drones over Odessa region, demonstrating active air defense (Source: @ukr_leaks_eng/32461).",
-        "Russian military launched seven drones at Moscow, causing fires in the area (Source: @tass_agency/390362).",
-        "Russian T-22M3 bombers posed elevated missile threat to Kyiv and surrounding regions (Source: @eRadarrua/105363).",
-        "Ukrainian air defense systems shot down 51 drones overnight in Leningrad region (Source: @ukr_leaks_eng/32449).",
-        "Russian military used long-range drones and aircraft to target Ukrainian positions across multiple fronts (Source: @ukr_leaks_eng/32449).",
-        "Ukrainian forces in the southern front faced coordinated Russian drone and missile attacks (Source: @eRadarrua/105331).",
-        "Russian military conducted nighttime drone and aircraft operations in the northern and southern fronts (Source: @ukr_leaks_eng/32449)."
-      ]
-    },
-    "key_developments": [
-      "Ukraine established a $1 trillion compensation fund to document and repay losses from Russian aggression, including infrastructure and humanitarian costs (Source: @UkraineNow/83429).",
-      "Russian oil exports from Black Sea terminals dropped 80% in May due to Ukrainian strikes, disrupting energy markets (Source: @UkraineNow/83431).",
-      "Russian military launched seven drones at Moscow, causing fires and prompting air defense responses (Source: @tass_agency/390362).",
-      "Ukrainian forces liberated Petrovka settlement on the Druzhkivka axis, advancing territorial control (Source: @ukr_leaks_eng/32449).",
-      "Russian attacks in Belgorod region killed one civilian and injured multiple others via FPV drones (Source: @ukr_leaks_eng/32447).",
-      "Ukrainian air defense systems intercepted 51 drones overnight in Leningrad region, indicating sustained combat pressure (Source: @ukr_leaks_eng/32449).",
-      "Russian military used Crimea's territory to launch high-altitude drone strikes on Sevastopol, bypassing Ukrainian defenses (Source: @ukr_leaks_eng/32449)."
+    "executive_summary": "Drone warfare escalated across multiple regions with both sides claiming successful intercepts and infrastructure strikes. Ukrainian forces conducted coordinated drone attacks on Russian territory including Moscow and Leningrad regions, while Russian air defenses reported downing 221 Ukrainian drones in a single day. Ground operations intensified in eastern Ukraine with reported advances near Bilytske and Petrovka, alongside continued fighting in Kharkiv and other frontline areas.",
+    "ukraine": [
+      "Ukrainian military intelligence identified Russian retaliation plans and is preparing countermeasures following strategic assessments (Source: @UkraineNow/83430).",
+      "SBU Alpha special forces destroyed nearly 2400 enemy transport vehicles, command vehicles, and specialized equipment units in one month (Source: @UkraineNow/83427).",
+      "Ukrainian drones attacked Moscow and Leningrad regions overnight, with Russian authorities reporting fires at Ust-Luga port and airport disruptions (Source: @UkraineNow/83418).",
+      "National Police recorded 31 terrorist acts since early 2026, with 80% solved and 14 attacks prevented during preparation stages (Source: @UkraineNow/83424).",
+      "Ukrainian aircraft attempted to intercept Russian drones over Odessa region skies (Source: @ukr_leaks_eng/32461).",
+      "On the Druzhkivka axis, Ukrainian forces reportedly liberated the settlement of Petrovka (Source: @ukr_leaks_eng/32449)."
     ],
-    "threat_assessment": "Russia's continued use of drones and long-range aircraft against Ukrainian positions, coupled with missile threats from T-22M3 bombers, indicates a sustained effort to degrade Ukrainian defenses. The $1 trillion loss figure underscores the economic pressure Ukraine is exerting, while Russia's oil export reductions suggest vulnerability in its energy revenue stream.",
-    "regional_response": "Ukraine has intensified air defense operations, intercepting drones and missiles across multiple regions. Russia's oil export cuts may prompt diplomatic or economic countermeasures, while Ukraine's compensation fund could serve as leverage in future negotiations. The threat of Russian missile use remains a critical concern for Ukrainian security.",
-    "intelligence_notes": "The $1 trillion loss figure and compensation fund establishment represent a significant shift in Ukraine's strategy to hold Russia accountable. Russia's reliance on Black Sea oil exports makes it susceptible to Ukrainian targeting, while its use of Crimea for drone launches highlights operational vulnerabilities. The persistent drone and missile threats across fronts indicate a high-intensity conflict with no immediate resolution."
+    "russia": [
+      "Russian air defense systems shot down 221 Ukrainian drones in one day over Russian regions and Black and Azov sea areas (Source: @tass_agency/390340).",
+      "Russian forces repelled Ukrainian attacks on Sevastopol, shooting down five drones as reported by the city governor (Source: @tass_agency/390363).",
+      "Russian military struck Zhytomyr and Odessa regions, hitting locomotives according to battlefield reports (Source: @ukr_leaks_eng/32449).",
+      "Russian air defenses shot down 51 drones during night attacks in Leningrad region with fighting continuing into morning hours (Source: @ukr_leaks_eng/32449).",
+      "Russian forces are advancing on the Dobropillya axis toward Mezhovaya settlement (Source: @ukr_leaks_eng/32449).",
+      "Russian Ground Reconnaissance Unit 'Sever' continues offensive operations in Kharkiv direction near Kazachya Lopan (Source: @ukr_leaks_eng/32449)."
+    ],
+    "eastern_front": [
+      "Enemy forces advanced near Bilytske settlement as shown on updated DeepState map (Source: @DeepStateUA/23740).",
+      "On the Druzhkivka axis, Russian forces liberated the settlement of Petrovka (Source: @ukr_leaks_eng/32449).",
+      "On the Dobropillya axis, Russian Armed Forces are advancing in the direction of Mezhovaya (Source: @ukr_leaks_eng/32449).",
+      "Fighting continues in Kupyansk with Ukrainian troops breaking through built-up areas toward southeastern parts of the city (Source: @ukr_leaks_eng/32449).",
+      "On the Velikoburluk section, Russian forces engage in firefights near Olkhovatka and west of Ustinovka (Source: @ukr_leaks_eng/32449).",
+      "On the Kharkiv front, assault units of 'Sever' GRU continue offensive operations in Kazachya Lopan village (Source: @ukr_leaks_eng/32449)."
+    ],
+    "northern_front": [
+      "Drone activity detected approaching Moscow with Russian authorities reporting dozens of downed drones and port fires (Source: @UkraineNow/83418).",
+      "Movement of transport vehicles temporarily blocked on highway exiting Yaroslavl toward Moscow during drone attack (Source: @tass_agency/390365).",
+      "Agricultural enterprise in Penza region industrial zone attacked by drone causing fire on facility grounds (Source: @tass_agency/390361).",
+      "Container fire at oil storage facility in Belgorod region involved six fire brigades for containment efforts (Source: @eRadarrua/105340)."
+    ],
+    "southern_front": [
+      "Drone group from Kherson region moved toward Mykolaiv region with course set for Snihurivka (Source: @kpszsu/72846).",
+      "Two ground repeaters for controlling Geran/Gerbil attack drones were hit on left-bank Kherson region (Source: @UkraineNow/83425).",
+      "Five enemy drone control points were also struck by Ukrainian military forces (Source: @UkraineNow/83425).",
+      "Drone attacks in Odessa region involved Ukrainian aircraft attempting to catch Russian drones in regional skies (Source: @ukr_leaks_eng/32461).",
+      "Warehouse explosion occurred in Odessa region following Russian military strike (Source: @ukr_leaks_eng/32470)."
+    ],
+    "air_war": [
+      "Russian air defenses shot down 221 Ukrainian drones in one day over Russian regions and maritime areas (Source: @tass_agency/390340).",
+      "Ukrainian drones attacked Moscow and Leningrad regions overnight with Russian authorities reporting fires and infrastructure damage (Source: @UkraineNow/83418).",
+      "Russian forces repelled Ukrainian attacks on Sevastopol shooting down six drones as reported by local governor (Source: @ukr_leaks_eng/32449).",
+      "Fifty-one drones were shot down during night attacks in Leningrad region with combat continuing into morning hours (Source: @ukr_leaks_eng/32449).",
+      "Aircraft from Ukrainian forces attempted to intercept Russian drones over Odessa region skies (Source: @ukr_leaks_eng/32461).",
+      "Tactical aviation activity increased on northern-eastern direction with threat of combat aircraft deployment against frontline areas (Source: @kpszsu/72832)."
+    ],
+    "key_developments": [
+      "Ukrainian drones attacked Moscow and Leningrad regions overnight causing fires at Ust-Luga port and airport disruptions (Source: @UkraineNow/83418).",
+      "Russian air defenses shot down 221 Ukrainian drones in one day over Russian regions and Black and Azov sea areas (Source: @tass_agency/390340).",
+      "SBU Alpha special forces destroyed nearly 2400 enemy transport vehicles and equipment units in one month of operations (Source: @UkraineNow/83427).",
+      "Fighting continues in Kharkiv direction with assault units operating in Kazachya Lopan, Kudiivka, and near Goptovka (Source: @ukr_leaks_eng/32449).",
+      "On the Druzhkivka axis, Russian forces liberated the settlement of Petrovka according to battlefield reports (Source: @ukr_leaks_eng/32449).",
+      "Ukrainian military intelligence identified Russian retaliation plans and is preparing countermeasures and defensive measures (Source: @UkraineNow/83430).",
+      "Two ground repeaters for controlling Geran/Gerbil attack drones were hit on left-bank Kherson region territory (Source: @UkraineNow/83425)."
+    ],
+    "threat_assessment": "The operational environment remains highly volatile with intensified drone warfare across multiple domains. Both sides demonstrate enhanced capabilities in long-range strike operations, with Ukrainian forces successfully penetrating deep into Russian territory while Russian air defenses maintain robust interception rates. Ground operations in eastern Ukraine show continued momentum with territorial gains reported by both parties. The escalation in drone technology and tactics suggests increasing sophistication in asymmetric warfare methods. Civilian infrastructure remains vulnerable to repeated attacks, indicating sustained pressure on population centers.",
+    "regional_response": "Russian regional authorities have implemented enhanced security protocols including transportation restrictions and emergency response deployments during drone attack periods. Ukrainian intelligence services are actively monitoring and disrupting enemy logistics networks through special operations targeting transportation infrastructure. International partners continue diplomatic engagement regarding military aid transfers, though negotiations face challenges in fulfillment commitments. Local populations in affected regions experience ongoing disruption to daily life and essential services due to persistent aerial threats. Emergency services across multiple jurisdictions coordinate response efforts to contain infrastructure fires and assess damage from drone strikes.",
+    "intelligence_notes": "Recent battlefield reports indicate shifting tactical focus toward drone warfare and special operations rather than large-scale conventional engagements. Ukrainian special forces demonstrate increasing effectiveness in targeting high-value logistics assets, significantly degrading enemy supply chain capabilities. Russian forces appear to be adapting their defensive strategies in response to persistent Ukrainian drone campaigns penetrating previously secure territories. Intelligence gathering efforts by both sides emphasize electronic warfare and reconnaissance capabilities to support precision targeting operations. The frequency and coordination of cross-border attacks suggest improved operational planning and resource allocation by Ukrainian military leadership."
   },
   "missiles": 0,
   "drones": 112,
   "kpszsu_timeline": [
+    1,
+    3,
+    3,
+    3,
+    3,
+    1,
+    3,
+    1,
     5,
     1,
-    2,
+    1,
+    7,
+    5,
+    4,
+    3,
     4,
     3,
     1,
-    3,
-    3,
     1,
-    3,
-    3,
-    2,
-    3,
-    9,
-    2,
-    2,
-    6,
+    1,
     4,
     1,
     1,
-    0,
-    2,
-    5,
-    0
+    4
   ]
 }
