@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-17T10:46:41.996925+00:00",
-  "message_count": 281,
+  "updated_at": "2026-08-17T13:02:43.995236+00:00",
+  "message_count": 292,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,83 +13,129 @@
   ],
   "red_alerts": 128,
   "red_alerts_timeline": [
-    0,
-    7,
-    0,
-    21,
-    0,
-    0,
-    0,
-    14,
-    7,
-    14,
-    7,
-    0,
-    0,
-    7,
-    0,
-    0,
-    0,
-    0,
-    7,
-    21,
-    7,
-    7,
-    7,
-    0
-  ],
-  "combined_activity_timeline": [
-    14,
-    14,
-    8,
-    17,
-    9,
-    5,
     7,
     13,
-    12,
-    3,
-    4,
-    3,
-    3,
-    6,
-    9,
-    6,
+    0,
+    0,
+    7,
+    7,
+    13,
+    13,
+    0,
+    0,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    7,
+    27,
+    0,
+    13,
+    0,
+    0,
+    7,
+    7
+  ],
+  "combined_activity_timeline": [
+    10,
+    13,
+    10,
+    5,
+    8,
     12,
     10,
-    21,
+    4,
+    3,
+    2,
+    4,
+    5,
+    10,
+    7,
+    12,
+    12,
     18,
     25,
     23,
-    26,
-    11
+    29,
+    19,
+    9,
+    21,
+    21
   ],
   "messages_by_channel": {
-    "@eRadarrua": 48,
-    "@kpszsu": 75,
+    "@eRadarrua": 49,
+    "@kpszsu": 70,
     "@mon1tor_ua": 6,
-    "@UkraineNow": 19,
+    "@UkraineNow": 21,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 19,
-    "@tass_agency": 113
+    "@tass_agency": 126
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105717",
-    "kpszsu": "https://t.me/kpszsu/73176",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70253",
-    "UkraineNow": "https://t.me/UkraineNow/83485",
+    "eRadarrua": "https://t.me/eRadarrua/105730",
+    "kpszsu": "https://t.me/kpszsu/73192",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70254",
+    "UkraineNow": "https://t.me/UkraineNow/83491",
     "DeepStateUA": "https://t.me/DeepStateUA/23744",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32521",
-    "tass_agency": "https://t.me/tass_agency/390663"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32524",
+    "tass_agency": "https://t.me/tass_agency/390688"
   },
   "cited_post_urls": {
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32515",
-    "kpszsu": "https://t.me/kpszsu/73149",
     "UkraineNow": "https://t.me/UkraineNow/83470",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70253",
-    "tass_agency": "https://t.me/tass_agency/390644"
+    "eRadarrua": "https://t.me/eRadarrua/105715"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/390686",
+      "post_id": 390686,
+      "channel": "tass_agency",
+      "ts": "2026-08-17T12:43:28+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32524",
+      "post_id": 32524,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-17T12:33:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83488",
+      "post_id": 83488,
+      "channel": "UkraineNow",
+      "ts": "2026-08-17T12:08:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390676",
+      "post_id": 390676,
+      "channel": "tass_agency",
+      "ts": "2026-08-17T11:54:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390674",
+      "post_id": 390674,
+      "channel": "tass_agency",
+      "ts": "2026-08-17T11:41:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390668",
+      "post_id": 390668,
+      "channel": "tass_agency",
+      "ts": "2026-08-17T11:10:10+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83486",
+      "post_id": 83486,
+      "channel": "UkraineNow",
+      "ts": "2026-08-17T10:59:11+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/390664",
+      "post_id": 390664,
+      "channel": "tass_agency",
+      "ts": "2026-08-17T10:46:01+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/32521",
       "post_id": 32521,
@@ -161,193 +207,125 @@
       "post_id": 390620,
       "channel": "tass_agency",
       "ts": "2026-08-17T07:46:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32514",
-      "post_id": 32514,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-17T07:42:23+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105707",
-      "post_id": 105707,
-      "channel": "eRadarrua",
-      "ts": "2026-08-17T07:23:07+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/tofCpnDSyiYu514y-PFeLfnG82KGllgfq3bahw6bstUzjekZZa_O25jmUSE24yTjbYmVyu7M-HrUQ6C9VPocFIPmDtM1HpD-6qeIDrPd2MtY971_ppENz7CBSpA4Drt3w1U_h5vKDswZg9-mnM2c5myksECEZmt-WtU0rDcXLJONpRSaeFVex9vV4UmpWoRtJC75VPfztxmwZu-9GbSjVGu4rpplri7BuFouvjcfVQWYnNJ_akojvPtH39j018dw6PxBESmgsHXetIl9Eb4AJMOuvOeavlfUa6-1NRz7_2RwdkUpOAOS3-f00s6SKP-TwFvVhM5Mxz3Cq-St9xLHDg.jpg",
-      "companion_text_id": 105706
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105702",
-      "post_id": 105702,
-      "channel": "eRadarrua",
-      "ts": "2026-08-17T06:59:14+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/qFxqNNp0cWF1N-sF4tlSeD4scaGvUk-pi2hwTxNBgU2Jnu-20cNNXzuJ_yyw0Pivk7NZUSx3y6D9M-oEALJIQZIRmoc-fW0WhR5KR8vAczmKJVjPz0Y9NAKT75mCEk3dseH9bvJFe4DfAQS5FQG2hX6USEQzppFveTdKBERd9YkbNTm_JMQgLkVmE4c7OQ544luny_C4JE-uCrj3jh5E2KzhZWP66jALWfXl9W9nFQ2KzPd2t3J5M0yQsX9yzK82w0G5Qt-uMwLSVnKA32jy5M-XnVmDEwbjIBD40CUGbMFj0VcDiHxBLhZ-ABvuvm7V_Q7LYOD2Sk7aPxUbmIJNog.jpg",
-      "companion_text_id": 105701
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390608",
-      "post_id": 390608,
-      "channel": "tass_agency",
-      "ts": "2026-08-17T06:44:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105694",
-      "post_id": 105694,
-      "channel": "eRadarrua",
-      "ts": "2026-08-17T06:24:03+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/urrszrKZh8-7BZ2Jy-7yuaQjCVWnCAh6UWeThoGcuL3x1kidLgfbveHWhBIByIhAOcHkJoVHMKiASS7sFdlOq7rrorv4Hicj_43ipje1fp8WbDYBNflzI6ENvFAqq48DwdAYo8rP6kYqdCb2jlDUcIzkfnTcS8ki34wBtIEjbncEIGhc_MEuG9r7Ptra2lS8hqVaq3CPiXvjESpyajBawZXb8WEePusVSZGZbvKCsPhPQQkVcffdzDLoEAfg1ZxIgsh5OUkMOby6J3rW905EpjsQjlbmjUTdlt8HLr7OoTwkcQIk4X73qyuVyKp_eXWHMV108NzPHGvK-vVuWuIsrA.jpg",
-      "companion_text_id": 105693
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390602",
-      "post_id": 390602,
-      "channel": "tass_agency",
-      "ts": "2026-08-17T06:06:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/105693",
-      "post_id": 105693,
-      "channel": "eRadarrua",
-      "ts": "2026-08-17T05:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Z24r5lrXlQTjSJFWDSDTdNL9S1EUXzzkaQc4beOR87KeyCymXPesQVgD-955Tudy_i-DXUPtyZ4K-oCJ15wor9WvXP2g6JoF_GvYFuzfhpQDrgZNjycSG0whF3K0EgcTOtHCzTs0Nj4j-7Ca_JG2qlWzgsizN-UKAmBgxp7kBJKjmrzz9kN0liX8-vbdsGmWhxiWtodg_Q01E8KaMZmIf9P1tRMIQbVEWXabr89dNddiIH5AcTGRyPJgr6eoJ7bIduvmt83e9DB77ARMLhAlU4cH220EuCHES8vgH41J6IiX7zDcwS0r-QLW4bW0Rlo1orIUtP7SgVRGc-7GObvLFQ.jpg",
-      "companion_text_id": 105692
-    },
-    {
-      "post_url": "https://t.me/kpszsu/73149",
-      "post_id": 73149,
-      "channel": "kpszsu",
-      "ts": "2026-08-17T05:36:46+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/cVkRXM7WSlVZgEsF8b4zKP1j4lCeTqjzaszUbSFP4huY7GI-rx_ELx0meatut2qM3d2ZMaq7qTLiDT-e7TARjqr9Ds9Zl0Nn5jcc4i78JLK5qYlj52nGmJR06dkrgwGWsSd8HMhKwlXy3eY9acYoXETEtSO7FaAKdBYbSrLXAA9_sVRMqa4hT1ZFl37cImMTpBZ6xG3HV2HaHQRRaxxmdijtx4CopEwbE8FKOfEWLNxXSDYiax-UIRkKnmvlxt2O9dB8qjuGFzqHXzkgUQpgrvG_fj12lR5wUMIHc57zyOjukdEnLg-0zzVrhvvOtWawQ5fmmLfXlEbDNBwTXoqVOQ.jpg",
-      "companion_text_id": 73148
     }
   ],
   "post_images": {
+    "eRadarrua/105693": "data/media/eRadarrua_105693.jpg",
+    "eRadarrua/105692": "data/media/eRadarrua_105693.jpg",
+    "eRadarrua/105694": "data/media/eRadarrua_105694.jpg",
     "eRadarrua/105702": "data/media/eRadarrua_105702.jpg",
     "eRadarrua/105701": "data/media/eRadarrua_105702.jpg",
     "eRadarrua/105707": "data/media/eRadarrua_105707.jpg",
     "eRadarrua/105706": "data/media/eRadarrua_105707.jpg",
     "eRadarrua/105681": "data/media/eRadarrua_105681.jpg",
     "eRadarrua/105682": "data/media/eRadarrua_105681.jpg",
-    "eRadarrua/105693": "data/media/eRadarrua_105693.jpg",
-    "eRadarrua/105692": "data/media/eRadarrua_105693.jpg",
-    "eRadarrua/105694": "data/media/eRadarrua_105694.jpg",
     "eRadarrua/105650": "data/media/eRadarrua_105650.jpg",
     "eRadarrua/105660": "data/media/eRadarrua_105660.jpg",
     "eRadarrua/105661": "data/media/eRadarrua_105661.jpg",
     "eRadarrua/105663": "data/media/eRadarrua_105661.jpg",
     "eRadarrua/105637": "data/media/eRadarrua_105637.jpg",
     "eRadarrua/105636": "data/media/eRadarrua_105637.jpg",
-    "eRadarrua/105620": "data/media/eRadarrua_105620.jpg",
-    "eRadarrua/105619": "data/media/eRadarrua_105620.jpg",
     "eRadarrua/105626": "data/media/eRadarrua_105626.jpg",
     "eRadarrua/105627": "data/media/eRadarrua_105626.jpg",
     "kpszsu/73149": "data/media/kpszsu_73149.jpg",
     "kpszsu/73148": "data/media/kpszsu_73149.jpg"
   },
-  "summary": "Russian forces conducted drone and missile strikes across multiple regions, including Odessa and Sumy, while Ukraine reported counterattacks and drone defenses. Territorial changes in DNR and military recruitment from Africa were noted. The conflict remains active with ongoing strikes and countermeasures.",
+  "summary": "Russian forces have conducted strikes on port infrastructure in the Odessa region, including a cargo ship in the Black Sea. Ukrainian forces are utilizing British-made jet drones, such as the Nyan, for strikes deep into Russian territory. Significant drone activity is reported across multiple fronts, including Sumy, Zaporizhzhya, and Dnipropetrovsk.",
   "key_points": [
-    "Russian forces struck port infrastructure and naval vessels in Odessa region, including Vilkovo and Belgorod-Dnistrovskyi, with explosions reported in multiple cities (Source: @ukr_leaks_eng/32515).",
-    "Ukrainian troops repelled Russian counterattacks near Sadki village in Sumy region, involving 47th and 68th brigades (Source: @ukr_leaks_eng/32515).",
-    "106 enemy drones were shot down in a night attack on 17 August, targeting multiple regions (Source: @kpszsu/73149).",
-    "Russian military liberated Pershomaryevka in DNR and Novosoloshino near Orekhovo in Zaporozhye region (Source: @ukr_leaks_eng/32503, @ukr_leaks_eng/32519).",
-    "Russian forces used British Nyan drones to strike oil refineries near Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
-    "A Spanish F-18 shot down a Russian drone over Romania, with debris falling near Beleni and Kudalbi (Source: @UkraineNow/83480).",
-    "Russian military recruited 2982 citizens from 37 African countries, with 486 casualties (Source: @UkraineNow/83472)."
+    "Russian forces struck port infrastructure in the Odessa region, hitting Vilkovo, Belgorod-Dnistrovskyi, and the port of Odessa, including a cargo ship in the Black Sea (Source: @ukr_leaks_eng/32515).",
+    "Ukraine is using British jet drones, specifically the Nyan from BAE Systems, to strike targets deep in Russia, including Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
+    "In the Sumy region, Russian attacks with jet UAVs killed a 75-year-old man and a 72-year-old woman and destroyed two houses (Source: @UkraineNow/83478).",
+    "Russian forces have constructed at least 10 military bases along the borders with Ukraine and Belarus designed for mass launches of jet UAVs (Source: @UkraineNow/83477).",
+    "The Russian 42nd Guards Motorized Rifle Division confirmed fighting in Orekhov with forward assault groups present in the settlement (Source: @ukr_leaks_eng/32515).",
+    "Russian forces have liberated the village of Pershomarivka in the DNR (Source: @ukr_leaks_eng/32515).",
+    "Russian forces have liberated the village of Rybalskoe in the Zaporizhzhya region (Source: @ukr_leaks_eng/32515).",
+    "An explosion occurred in occupied Sevastopol, resulting in the death of a man suspected to be a Ukrainian officer (Source: @UkraineNow/83469)."
   ],
-  "sentiment": "escalating",
-  "intensity": 8,
+  "sentiment": "volatile",
+  "intensity": 7,
   "sections": {
-    "executive_summary": "Russian forces conducted widespread drone and missile strikes, targeting infrastructure and military assets. Ukraine reported counterattacks and drone defenses. Territorial gains in DNR and military recruitment from Africa were noted. The conflict remains active with ongoing strikes and countermeasures.",
+    "executive_summary": "Russian forces have conducted strikes on port infrastructure in the Odessa region, including a cargo ship in the Black Sea. Ukrainian forces are utilizing British-made jet drones, such as the Nyan, for strikes deep into Russian territory. Significant drone activity is reported across multiple fronts, including Sumy, Zaporizhzhya, and Dnipropetrovsk.",
     "ukraine": {
       "points": [
-        "Ukrainian troops repelled Russian counterattacks near Sadki village in Sumy region, involving 47th and 68th motorized rifle brigades (Source: @ukr_leaks_eng/32515).",
-        "106 enemy drones were shot down in a night attack on 17 August, targeting multiple regions (Source: @kpszsu/73149).",
-        "Ukrainian forces liberated Pershomaryevka in DNR and Novosoloshino near Orekhovo in Zaporozhye region (Source: @ukr_leaks_eng/32503, @ukr_leaks_eng/32519).",
-        "British Nyan drones were used to strike oil refineries near Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
-        "A Spanish F-18 shot down a Russian drone over Romania, with debris falling near Beleni and Kudalbi (Source: @UkraineNow/83480).",
-        "Russian military recruited 2982 citizens from 37 African countries, with 486 casualties (Source: @UkraineNow/83472).",
-        "Ukrainian police canceled 6,500 illegal decisions in VLC, citing falsified medical diagnoses (Source: @UkraineNow/83479)."
+        "Ukrainian forces are employing British-manufactured jet drones, including the Nyan from BAE Systems, to conduct strikes deep within Russian territory, targeting locations such as Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
+        "The largest metallurgical plant in Ukraine, ArcelorMittal Krivoy Rog, has partially suspended production following strikes by the Russian Armed Forces that damaged energy and blast furnace facilities (Source: @ukr_leaks_eng/32504).",
+        "Ukrainian forces have engaged in infantry fighting in Pisarevka, Maryino, Khrapovshchyna, Khoten, and south of Ivolzhansky in the Sumy district (Source: @ukr_leaks_eng/32515).",
+        "The Ukrainian military is facing challenges with mobilization, with the police investigating over 1.5 million requests from the TCC regarding draft evasion (Source: @UkraineNow/83491)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces liberated Pershomaryevka in DNR and Novosoloshino near Orekhovo in Zaporozhye region (Source: @ukr_leaks_eng/32503, @ukr_leaks_eng/32519).",
-        "Russian military used British Nyan drones to strike oil refineries near Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
-        "Russian forces conducted drone and missile strikes across multiple regions, including Odessa and Sumy (Source: @ukr_leaks_eng/32515).",
-        "Russian military recruited 2982 citizens from 37 African countries, with 486 casualties (Source: @UkraineNow/83472).",
-        "Russian forces launched ballistic missile attacks near Kyiv, with a Kalibr missile reported (Source: @mon1tor_ua/70253).",
-        "Russian forces freed Andreyevskaya Obshchina in DNR (Source: @tass_agency/390644).",
-        "Russian forces attacked a civilian car in Zaporozhye region, injuring a man (Source: @ukr_leaks_eng/32515)."
+        "Russian forces attacked the Sumy region with jet UAVs, resulting in the deaths of a 75-year-old man and a 72-year-old woman (Source: @UkraineNow/83478).",
+        "Russian forces have constructed at least 10 military bases along the borders with Ukraine and Belarus, featuring at least 59 new mechanical launch rails for UAVs (Source: @UkraineNow/83477).",
+        "In the Belgorod region, drone strikes caused multiple injuries, including one person killed in a car attack in the village of Rzhevka (Source: @ukr_leaks_eng/32515).",
+        "Russian forces have engaged in fighting in the Zaporizhzhya region, specifically near the villages of Lunacharskoye and Shevchenko (Source: @ukr_leaks_eng/32515)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces launched counterattacks near Sadki village in Sumy region, involving 47th and 68th brigades (Source: @ukr_leaks_eng/32515).",
-        "Ukrainian troops repelled Russian counterattacks near Sadki village in Sumy region (Source: @ukr_leaks_eng/32515).",
-        "Russian forces liberated Pershomaryevka in DNR and Novosoloshino near Orekhovo in Zaporozhye region (Source: @ukr_leaks_eng/32503, @ukr_leaks_eng/32519).",
-        "Russian forces conducted drone and missile strikes across multiple regions, including Odessa and Sumy (Source: @ukr_leaks_eng/32515).",
-        "Russian forces used British Nyan drones to strike oil refineries near Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
-        "Russian forces launched ballistic missile attacks near Kyiv, with a Kalibr missile reported (Source: @mon1tor_ua/70253).",
-        "Russian forces attacked a civilian car in Zaporozhye region, injuring a man (Source: @ukr_leaks_eng/32515)."
+        "Russian forces have liberated the village of Pershomarivka in the DNR (Source: @ukr_leaks_eng/32515).",
+        "Russian forces have liberated the village of Rybalskoe in the Zaporizhzhya region (Source: @ukr_leaks_eng/32515).",
+        "Russian forces have taken control of strongholds west of the Alexandrovka-Kommunarovka line in the Zaporizhzhya region (Source: @ukr_leaks_eng/32515)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian forces launched ballistic missile attacks near Kyiv, with a Kalibr missile reported (Source: @mon1tor_ua/70253).",
-        "Russian forces conducted drone and missile strikes across multiple regions, including Odessa and Sumy (Source: @ukr_leaks_eng/32515)."
+        "Assault units of the 11th Army Corps of the 'North' group of forces pushed back the 58th motorized infantry brigade and the 475th separate helicopter assault unit from Kudiivka (Source: @ukr_leaks_eng/32515).",
+        "The 'North' group of forces is engaged in fighting in Ulanovo and the area around Volna Sloboda in the Shostkinsky district (Source: @ukr_leaks_eng/32515)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces conducted drone and missile strikes across multiple regions, including Odessa and Sumy (Source: @ukr_leaks_eng/32515)."
+        "Russian forces struck port infrastructure in the Odessa region, including Vilkovo, Belgorod-Dnistrovskyi, and the port of Odessa, hitting warehouses and a cargo ship (Source: @ukr_leaks_eng/32515).",
+        "A cargo ship flying the flag of the Republic of Togo was struck in the Black Sea during Russian attacks on Odessa's port infrastructure (Source: @UkraineNow/83478)."
       ]
     },
     "air_war": {
       "points": [
-        "106 enemy drones were shot down in a night attack on 17 August (Source: @kpszsu/73149).",
-        "British Nyan drones were used to strike oil refineries near Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
-        "A Spanish F-18 shot down a Russian drone over Romania (Source: @UkraineNow/83480)."
+        "A Tu-22M3 aircraft was reported in the southern direction, posing a threat of Kh-22 missile launches (Source: @eRadarrua/105715).",
+        "Ukrainian forces are using British jet drones, such as the Nyan from BAE Systems, to strike targets deep in Russia (Source: @UkraineNow/83470).",
+        "Russian forces are utilizing jet UAVs to attack the Sumy region (Source: @UkraineNow/83478)."
       ]
     },
     "key_developments": [
-      "Russian forces conducted widespread drone and missile strikes, targeting infrastructure and military assets in Odessa and Sumy regions (Source: @ukr_leaks_eng/32515).",
-      "Ukrainian troops repelled Russian counterattacks near Sadki village in Sumy region, involving 47th and 68th brigades (Source: @ukr_leaks_eng/32515).",
-      "106 enemy drones were shot down in a night attack on 17 August (Source: @kpszsu/73149).",
-      "Russian military liberated Pershomaryevka in DNR and Novosoloshino near Orekhovo in Zaporozhye region (Source: @ukr_leaks_eng/32503, @ukr_leaks_eng/32519).",
-      "British Nyan drones were used to strike oil refineries near Belgorod, Moscow, Yaroslavl, and Volgograd (Source: @UkraineNow/83470).",
-      "A Spanish F-18 shot down a Russian drone over Romania, with debris falling near Beleni and Kudalbi (Source: @UkraineNow/83480).",
-      "Russian military recruited 2982 citizens from 37 African countries, with 486 casualties (Source: @UkraineNow/83472)."
+      "Russian forces struck port infrastructure in the Odessa region, including Vilkovo and the port of Odessa, hitting a cargo ship in the Black Sea (Source: @ukr_leaks_eng/32515).",
+      "Ukraine is utilizing British jet drones, specifically the Nyan from BAE Systems, for strikes deep into Russian territory (Source: @UkraineNow/83470).",
+      "Russian forces have constructed at least 10 military bases along the borders with Ukraine and Belarus designed for mass UAV launches (Source: @UkraineNow/83477).",
+      "The ArcelorMittal Krivoy Rog plant partially suspended production after Russian strikes damaged energy and blast furnace facilities (Source: @ukr_leaks_eng/32504).",
+      "Russian forces attacked the Sumy region with jet UAVs, killing a 75-year-old man and a 72-year-old woman (Source: @UkraineNow/83478).",
+      "Russian forces have liberated the village of Pershomarivka in the DNR (Source: @ukr_leaks_eng/32515).",
+      "An explosion in occupied Sevastopol resulted in the death of a man suspected to be a Ukrainian officer (Source: @UkraineNow/83469)."
     ],
-    "threat_assessment": "The increased use of British Nyan drones by Ukraine against Russian oil infrastructure indicates a shift in targeting strategies, potentially escalating economic pressure on Russia. The recruitment of African citizens by Russian forces suggests efforts to bolster manpower, though high casualties may indicate operational challenges. The night drone attack resulting in 106 strikes highlights the intensity of aerial warfare, posing significant risks to both military and civilian infrastructure.",
-    "regional_response": "Ukraine's deployment of British Nyan drones against Russian oil refineries demonstrates a coordinated effort to disrupt Russian energy supplies. Russia's recruitment of African citizens, despite high casualties, may reflect desperation to maintain frontline strength. The night drone attack with 106 strikes underscores the need for enhanced air defense systems to counter asymmetric threats.",
-    "intelligence_notes": "The use of British Nyan drones by Ukraine suggests access to advanced technology, which could be a strategic advantage. Russia's reliance on African recruits may indicate logistical or manpower shortages. The night drone attack with 106 strikes highlights the vulnerability of both military and civilian targets to precision strikes, necessitating improved counter-drone capabilities."
+    "threat_assessment": "The escalation of long-range drone warfare is evident through the use of British jet drones by Ukraine and Russian jet UAVs against civilian infrastructure in Sumy. The targeting of port infrastructure in Odessa and the Black Sea indicates a sustained effort to disrupt maritime logistics. Additionally, the construction of specialized UAV launch bases along the borders suggests preparations for increased aerial incursions.",
+    "regional_response": "The Ukrainian government is addressing internal challenges, including corruption concerns in the military-industrial complex and the management of Western aid. In Poland, tensions have risen following reports of physical attacks on Ukrainian minors. Meanwhile, Switzerland has committed $730,000 to preserve Ukrainian cultural heritage, specifically the Kyiv-Pechersk Lavra.",
+    "intelligence_notes": "The use of 'inventory numbers' for foreign mercenaries by Russia is a noted tactic to avoid paying compensation and to classify casualties as 'issing.' The Russian military is also increasing its logistical footprint through the construction of specialized UAV launch facilities. Ukrainian mobilization efforts are facing scrutiny as police investigate potential abuses within the TCC and VLK structures."
   },
   "missiles": 0,
   "drones": 128,
   "kpszsu_timeline": [
     5,
-    5,
-    6,
-    5,
+    4,
     3,
     1,
-    1,
-    4,
+    3,
+    2,
     2,
     0,
     0,
     1,
     0,
-    3,
-    3,
     4,
-    6,
+    3,
     3,
     7,
     3,
+    6,
+    4,
     3,
     4,
-    5,
-    1
+    4,
+    1,
+    4,
+    3
   ]
 }
