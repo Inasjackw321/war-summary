@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-18T03:17:52.058769+00:00",
-  "message_count": 376,
+  "updated_at": "2026-08-18T04:52:26.579690+00:00",
+  "message_count": 397,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,80 +13,80 @@
   ],
   "red_alerts": 128,
   "red_alerts_timeline": [
+    8,
+    24,
+    8,
+    8,
+    8,
     0,
     0,
-    9,
-    34,
-    9,
-    9,
+    8,
+    8,
+    8,
+    0,
+    8,
+    0,
+    16,
     0,
     0,
     0,
-    9,
-    17,
+    0,
+    8,
     0,
     0,
-    9,
-    9,
-    9,
+    8,
     0,
-    0,
-    0,
-    9,
-    0,
-    0,
-    9,
-    0
+    8
   ],
   "combined_activity_timeline": [
-    10,
-    15,
-    20,
-    25,
-    23,
-    30,
-    12,
+    19,
+    19,
+    26,
+    26,
+    22,
     11,
+    18,
     20,
-    21,
-    20,
-    28,
-    15,
-    12,
-    10,
+    16,
+    31,
     13,
-    9,
-    5,
-    14,
+    16,
+    10,
+    7,
+    16,
+    6,
+    4,
     17,
-    11,
-    14,
-    9,
-    12
+    18,
+    17,
+    7,
+    8,
+    29,
+    19
   ],
   "messages_by_channel": {
     "@eRadarrua": 53,
-    "@kpszsu": 74,
-    "@mon1tor_ua": 37,
+    "@kpszsu": 71,
+    "@mon1tor_ua": 59,
     "@UkraineNow": 22,
     "@DeepStateUA": 5,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 160
+    "@tass_agency": 162
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/105816",
-    "kpszsu": "https://t.me/kpszsu/73268",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70288",
+    "eRadarrua": "https://t.me/eRadarrua/105817",
+    "kpszsu": "https://t.me/kpszsu/73274",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70311",
     "UkraineNow": "https://t.me/UkraineNow/83500",
     "DeepStateUA": "https://t.me/DeepStateUA/23748",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32535",
-    "tass_agency": "https://t.me/tass_agency/390762"
+    "tass_agency": "https://t.me/tass_agency/390779"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32515",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70275",
-    "tass_agency": "https://t.me/tass_agency/390753",
-    "UkraineNow": "https://t.me/UkraineNow/83482"
+    "DeepStateUA": "https://t.me/DeepStateUA/23747",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70272",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32531",
+    "UkraineNow": "https://t.me/UkraineNow/83486"
   },
   "media": [
     {
@@ -245,107 +245,112 @@
     "kpszsu/73149": "data/media/kpszsu_73149.jpg",
     "kpszsu/73148": "data/media/kpszsu_73149.jpg"
   },
-  "summary": "Russian forces struck port infrastructure in the Odessa region, targeting Vilkovo, Belgorod-Dnistrovskyi, and the port of Odessa with explosions reported overnight. Ukrainian forces reported liberating the village of Pershomarivka in the DNR and Rybalskoe in the Zaporozhye region. Multiple drone attacks targeted Kyiv, Cherkasy, and other regions with intercepted ordnance detected.",
+  "summary": "Ukrainian forces report multiple drone and missile attacks across frontlines, including strikes on Black Sea infrastructure and military targets. Russia's use of A-50U aircraft to intercept Ukrainian Flamingo missiles has disrupted Ukrainian strikes on Russian industrial sites. Ukrainian military updates highlight ongoing combat in Sumy, Belgorod, and Zaporozhye regions.",
   "key_points": [
-    "Russian forces struck port infrastructure in the Odessa region, including Vilkovo, Belgorod-Dnistrovskyi, and the port of Odessa, with explosions reported overnight (Source: @ukr_leaks_eng/32515).",
-    "Ukrainian forces reported liberating the village of Pershomarivka in the DNR and Rybalskoe in the Zaporozhye region (Source: @ukr_leaks_eng/32515).",
-    "Multiple drone attacks targeted Kyiv, Cherkasy, and other regions with intercepted ordnance detected (Source: @mon1tor_ua/70275).",
-    "Russian air defenses intercepted nine drones heading toward Moscow overnight (Source: @tass_agency/390753).",
-    "Ukrainian forces destroyed an enterprise in the Rostov region, Russia, with fires reported at the Komsomolsky plant (Source: @UkraineNow/83482).",
-    "A Spanish F-18 shot down an unknown drone over Romania, with debris found between Beleni and Kudalbi (Source: @UkraineNow/83480).",
-    "CNN reports Ukraine has nearly exhausted its stock of Patriot missile interceptors, rendering some systems unusable (Source: @ukr_leaks_eng/32531)."
+    "Russian tanker carrying oil attacked in Black Sea, disrupting exports (Source: @DeepStateUA/23747)",
+    "Reactive Shahed drones strike Boryspil and Obukhiv, 42-45 km from Kyiv (Source: @mon1tor_ua/70272, 70293)",
+    "Ukrainian Patriot missile systems report shortages, limiting interception of ballistic threats (Source: @ukr_leaks_eng/32531)",
+    "A-50U early-warning aircraft intercept nearly all Flamingo cruise missiles (Source: @ukr_leaks_eng/32529)",
+    "Explosions reported in Odessa, Sumy, and Belgorod regions (Source: @ukr_leaks_eng/32515)",
+    "Ukrainian troops repel Russian counterattacks near Sadki village in Sumy (Source: @ukr_leaks_eng/32515)",
+    "Drone strikes damage infrastructure in 16 LNR municipalities (Source: @ukr_leaks_eng/32515)"
   ],
   "sentiment": "escalating",
-  "intensity": 8,
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russian forces struck port infrastructure in the Odessa region, including Vilkovo, Belgorod-Dnistrovskyi, and the port of Odessa, with explosions reported overnight. Ukrainian forces reported liberating the village of Pershomarivka in the DNR and Rybalskoe in the Zaporozhye region. Multiple drone attacks targeted Kyiv, Cherkasy, and other regions with intercepted ordnance detected.",
+    "executive_summary": "Russian attacks on Black Sea oil infrastructure threaten energy logistics. Ukrainian drone strikes target key military and civilian sites. Russia deploys A-50U aircraft to counter Flamingo missile threats.",
     "ukraine": {
       "points": [
-        "In the Sumy region, Ukrainian forces engaged in infantry fighting in Pisarevka, Maryino, Khrapovshchyna, and the village of Khoten, south of Ivolzhansky (Source: @ukr_leaks_eng/32515).",
-        "The 'North' group of forces pushed back the 58th motorized infantry brigade and 475th separate helicopter assault unit from the village of Kudiivka (Source: @ukr_leaks_eng/32515).",
-        "Ukrainian forces destroyed an enterprise in the Rostov region, Russia, with fires reported at the Komsomolsky plant (Source: @UkraineNow/83482).",
-        "A Spanish F-18 shot down an unknown drone over Romania, with debris found between Beleni and Kudalbi (Source: @UkraineNow/83480)."
+        "Ukrainian forces repel Russian counterattacks near Sadki village in Sumy using infantry units (Source: @ukr_leaks_eng/32515)",
+        "Patriot missile system shortages force Ukraine to conserve interceptors against ballistic threats (Source: @ukr_leaks_eng/32531)",
+        "Drone strikes in Odessa region damage port infrastructure and civilian vessels (Source: @ukr_leaks_eng/32512, 32530)",
+        "A-50U aircraft enable Russia to detect and intercept Flamingo missiles earlier than ground radar (Source: @ukr_leaks_eng/32529)",
+        "Ukrainian troops liberate Rybalskoe village in Zaporozhye region (Source: @DeepStateUA/23748)",
+        "Drone attacks in Belgorod region injure 10 people on Rakitnoe-Proletarsky highway (Source: @ukr_leaks_eng/32515)",
+        "Ukrainian military reports drone strikes on 16 LNR municipalities, damaging infrastructure (Source: @ukr_leaks_eng/32515)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces struck port infrastructure in the Odessa region, including Vilkovo, Belgorod-Dnistrovskyi, and the port of Odessa, with explosions reported overnight (Source: @ukr_leaks_eng/32515).",
-        "In the Belgorod region, drone strikes injured multiple civilians, including a man in a FPV drone strike on a truck and 10 people on a bus in Shebekino (Source: @ukr_leaks_eng/32515).",
-        "Russian air defenses intercepted nine drones heading toward Moscow overnight (Source: @tass_agency/390753).",
-        "Russian forces destroyed two cargo ships in the ports of Odessa and Nikolaev (Source: @tass_agency/390725)."
+        "Russian tanker attack in Black Sea highlights targeting of energy logistics (Source: @DeepStateUA/23747)",
+        "A-50U aircraft deployed to counter Flamingo missile threats, reducing Ukrainian strike effectiveness (Source: @ukr_leaks_eng/32529)",
+        "Russian forces advance near Novooleksandrivka, engaging Ukrainian troops (Source: @DeepStateUA/23744)",
+        "Drone strikes in LNR kill driver of 'Gazelle' vehicle and injure civilians (Source: @ukr_leaks_eng/32515)",
+        "Russian forces establish military bases along Ukraine-Belarus border for Shahed launches (Source: @UkraineNow/83486)",
+        "Russian air defenses intercept Flamingo missiles with high success rate (Source: @ukr_leaks_eng/32529)",
+        "Russian forces destroy Ukrainian Patriot systems in cornfield near Kiev (Source: @ukr_leaks_eng/32535)"
       ]
     },
     "eastern_front": {
       "points": [
-        "In the Sumy region, the 'North' group of forces engaged in fighting in Ulanovo and the area around Volna Sloboda (Source: @ukr_leaks_eng/32515).",
-        "In the LNR, a driver of a 'Gazelle' was killed in drone strikes, with infrastructure damaged in 16 municipalities (Source: @ukr_leaks_eng/32515).",
-        "In the DNR, the village of Pershomarivka was liberated, with one person killed and ten civilians injured in Ukrainian UAV attacks (Source: @ukr_leaks_eng/32515).",
-        "In the Zaporozhye region, Ukrainian forces took control of strongholds west of Alexandrovka-Kommunarovka and liberated Rybalskoe (Source: @ukr_leaks_eng/32515)."
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Drone attacks targeted Kyiv and Brovary, with a Geran-4 drone detected 42 km from Kyiv and 45 km from Brovary (Source: @mon1tor_ua/70272).",
-        "A drone strike hit a truck on the Rakitnoe-Proletarsky highway in the Belgorod region, injuring a man (Source: @ukr_leaks_eng/32515).",
-        "In Shebekino, a woman was injured in a drone strike on a bus in the Rakityansky district (Source: @ukr_leaks_eng/32515).",
-        "A drone attacked a car near Dmitrievka on the Rakitnoe-Belgorod highway, injuring two people (Source: @ukr_leaks_eng/32515)."
+        "Ukrainian troops engage Russian 47th and 68th brigades near Sadki village (Source: @ukr_leaks_eng/32515)",
+        "Russian forces advance near Novooleksandrivka, threatening Ukrainian positions (Source: @DeepStateUA/23744)",
+        "Ukrainian 11th Army Corps pushes back Russian 58th brigade near Kudiivka (Source: @ukr_leaks_eng/32515)",
+        "Drone strikes in Sumy region target Shostkinsky district (Source: @ukr_leaks_eng/32515)",
+        "Ukrainian forces liberate Rybalskoe village in Zaporozhye (Source: @DeepStateUA/23748)",
+        "Russian attacks on LNR infrastructure damage 16 municipalities (Source: @ukr_leaks_eng/32515)",
+        "Ukrainian troops destroy enemy strongholds west of Alexandrovka-Kommunarovka line (Source: @DeepStateUA/23744)"
       ]
     },
     "southern_front": {
       "points": [
-        "Explosions were heard in Odessa, Pavlograd, Sumy, Slaviansk, and Zaporozhye overnight (Source: @ukr_leaks_eng/32515).",
-        "In the Kherson region, drone strikes injured civilians, including a man in a car attack in Dneprorudny (Source: @ukr_leaks_eng/32515).",
-        "A civilian car was attacked by a UAV between Lunacharskoye and Shevchenko in the Zaporozhye region, injuring a man (Source: @ukr_leaks_eng/32515).",
-        "The 42nd Guards Motorized Rifle Division confirmed forward assault groups in Orekhov (Source: @ukr_leaks_eng/32515)."
+        "Russian tanker attack in Black Sea disrupts oil exports (Source: @DeepStateUA/23747)",
+        "Drone strikes in Odessa region target port infrastructure (Source: @ukr_leaks_eng/32512, 32530)",
+        "Ukrainian forces report drone attacks on civilian vessels in Black Sea (Source: @ukr_leaks_eng/32512)"
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Reactive Shahed drones strike Boryspil and Obukhiv (Source: @mon1tor_ua/70272, 70293)",
+        "Ukrainian troops engage Russian forces near Lviv region (Source: @mon1tor_ua/70302)"
       ]
     },
     "air_war": {
       "points": [
-        "Multiple drone attacks targeted Kyiv, Cherkasy, and other regions, with intercepted ordnance detected (Source: @mon1tor_ua/70275).",
-        "A Geran-4 drone was detected 42 km from Kyiv and 45 km from Brovary (Source: @mon1tor_ua/70272).",
-        "A Spanish F-18 shot down an unknown drone over Romania (Source: @UkraineNow/83480).",
-        "CNN reports Ukraine has nearly exhausted its stock of Patriot missile interceptors (Source: @ukr_leaks_eng/32531)."
+        "A-50U aircraft intercept Flamingo missiles, altering strike patterns (Source: @ukr_leaks_eng/32529)",
+        "Patriot missile system shortages limit Ukraine's air defense capabilities (Source: @ukr_leaks_eng/32531)",
+        "Russian air defenses target Ukrainian Flamingo cruise missiles (Source: @ukr_leaks_eng/32529)"
       ]
-    },
-    "key_developments": [
-      "Russian forces struck port infrastructure in the Odessa region, including Vilkovo, Belgorod-Dnistrovskyi, and the port of Odessa, with explosions reported overnight (Source: @ukr_leaks_eng/32515).",
-      "Ukrainian forces reported liberating the village of Pershomarivka in the DNR and Rybalskoe in the Zaporozhye region (Source: @ukr_leaks_eng/32515).",
-      "Multiple drone attacks targeted Kyiv, Cherkasy, and other regions with intercepted ordnance detected (Source: @mon1tor_ua/70275).",
-      "Russian air defenses intercepted nine drones heading toward Moscow overnight (Source: @tass_agency/390753).",
-      "Ukrainian forces destroyed an enterprise in the Rostov region, Russia, with fires reported at the Komsomolsky plant (Source: @UkraineNow/83482).",
-      "A Spanish F-18 shot down an unknown drone over Romania, with debris found between Beleni and Kudalbi (Source: @UkraineNow/83480).",
-      "CNN reports Ukraine has nearly exhausted its stock of Patriot missile interceptors, rendering some systems unusable (Source: @ukr_leaks_eng/32531)."
-    ],
-    "threat_assessment": "Russian forces are escalating attacks on Ukrainian infrastructure, including port facilities and civilian areas, with increased drone activity targeting Kyiv and other regions. Ukrainian forces are advancing in the DNR and Zaporozhye regions, liberating key villages and strongholds. The depletion of Patriot missile interceptors poses a significant risk to Ukraine's air defense capabilities, potentially increasing vulnerability to Russian missile and drone attacks.",
-    "regional_response": "International support continues with Spain providing F-18s to intercept drones over Romania and OKKO donating 4 million hryvnia for robotic defense systems. Poland faces tensions with reports of attacks on Ukrainian speakers, while Binance provided Russian authorities with donor data for Ukrainian aid. The global shortage of Patriot interceptors highlights the need for accelerated Western military aid deliveries.",
-    "intelligence_notes": "Russian forces are utilizing advanced drone networks and early-warning aircraft to intercept Ukrainian missiles, as evidenced by the interception of Flamingo cruise missiles. Ukrainian forces are demonstrating improved coordination in liberating territories in the DNR and Zaporozhye regions. The depletion of Patriot interceptors underscores the urgency of replenishing Western-supplied air defense systems to maintain Ukraine's defensive posture."
+    }
   },
+  "key_developments": [
+    "Russian tanker attack in Black Sea disrupts oil exports, raising logistical risks (Source: @DeepStateUA/23747)",
+    "Reactive Shahed drones strike Boryspil and Obukhiv, 42-45 km from Kyiv (Source: @mon1tor_ua/70272, 70293)",
+    "Ukrainian Patriot missile shortages force conservation of interceptors against ballistic threats (Source: @ukr_leaks_eng/32531)",
+    "A-50U aircraft enable Russia to detect and intercept Flamingo missiles earlier than ground radar (Source: @ukr_leaks_eng/32529)",
+    "Ukrainian troops repel Russian counterattacks near Sadki village in Sumy (Source: @ukr_leaks_eng/32515)",
+    "Drone strikes in Odessa region damage port infrastructure and civilian vessels (Source: @ukr_leaks_eng/32512, 32530)",
+    "Ukrainian forces liberate Rybalskoe village in Zaporozhye region (Source: @DeepStateUA/23748)"
+  ],
+  "threat_assessment": "Russia's deployment of A-50U aircraft significantly reduces Ukrainian Flamingo missile effectiveness, potentially shifting strategic advantage. Continued Black Sea attacks on energy infrastructure could escalate economic warfare. Ukraine's Patriot missile shortages may limit counteroffensive capabilities.",
+  "regional_response": "EU prepares largest sanctions package against Russia since 2022, targeting energy and military sectors. Ukraine appeals for international support to replenish missile stocks. Russia accelerates Shahed drone production to counter Ukrainian air defenses.",
+  "intelligence_notes": "Russia's A-50U deployment suggests increased focus on early-warning systems. Ukraine's Patriot missile shortages highlight vulnerabilities in air defense. Black Sea attacks indicate Russia's targeting of energy infrastructure as a strategic priority.",
   "missiles": 0,
   "drones": 128,
   "kpszsu_timeline": [
-    4,
     6,
-    5,
+    3,
+    3,
     4,
-    2,
-    6,
+    4,
+    1,
+    3,
+    3,
+    3,
+    8,
     1,
     1,
-    4,
-    3,
-    4,
-    6,
+    1,
     1,
     2,
-    0,
     2,
-    2,
-    2,
-    3,
+    1,
+    4,
     6,
-    3,
-    3,
+    4,
     2,
-    2
+    2,
+    1,
+    4
   ]
 }
