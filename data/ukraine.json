@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-19T01:32:49.583905+00:00",
-  "message_count": 495,
+  "updated_at": "2026-08-19T03:25:57.766070+00:00",
+  "message_count": 488,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,77 +13,91 @@
   ],
   "red_alerts": 147,
   "red_alerts_timeline": [
-    10,
+    0,
+    11,
+    23,
     0,
     0,
-    21,
-    10,
-    0,
-    0,
-    10,
-    10,
+    11,
+    11,
     0,
     0,
     0,
-    21,
-    10,
-    21,
-    10,
+    11,
+    23,
+    23,
+    11,
     0,
     0,
-    10,
-    10,
+    11,
+    11,
+    0,
+    0,
     0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    10,
-    19,
-    20,
-    26,
-    17,
-    24,
-    13,
-    33,
-    27,
+    22,
     23,
+    19,
+    24,
+    14,
+    29,
+    29,
+    21,
     31,
-    26,
-    34,
-    50,
-    47,
-    27,
-    20,
+    30,
+    28,
+    43,
+    51,
+    35,
+    16,
+    13,
     7,
     8,
     6,
-    7,
+    5,
     4,
-    6,
-    10
+    10,
+    10,
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 91,
-    "@kpszsu": 70,
-    "@mon1tor_ua": 115,
+    "@eRadarrua": 90,
+    "@kpszsu": 69,
+    "@mon1tor_ua": 107,
     "@UkraineNow": 14,
     "@DeepStateUA": 7,
     "@ukr_leaks_eng": 23,
-    "@tass_agency": 175
+    "@tass_agency": 178
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/105999",
-    "kpszsu": "https://t.me/kpszsu/73391",
+    "kpszsu": "https://t.me/kpszsu/73396",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70424",
     "UkraineNow": "https://t.me/UkraineNow/83519",
     "DeepStateUA": "https://t.me/DeepStateUA/23755",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32560",
-    "tass_agency": "https://t.me/tass_agency/390948"
+    "tass_agency": "https://t.me/tass_agency/390962"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "kpszsu": "https://t.me/kpszsu/73368",
+    "eRadarrua": "https://t.me/eRadarrua/105980",
+    "tass_agency": "https://t.me/tass_agency/390954",
+    "DeepStateUA": "https://t.me/DeepStateUA/23749",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70423",
+    "UkraineNow": "https://t.me/UkraineNow/83505",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32546"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/390952",
+      "post_id": 390952,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T01:42:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/390947",
       "post_id": 390947,
@@ -155,30 +169,12 @@
       "ts": "2026-08-18T19:23:26+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/390920",
-      "post_id": 390920,
-      "channel": "tass_agency",
-      "ts": "2026-08-18T19:18:00+00:00"
-    },
-    {
       "post_url": "https://t.me/eRadarrua/105994",
       "post_id": 105994,
       "channel": "eRadarrua",
       "ts": "2026-08-18T18:36:30+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/BUvrEarGuLziyolaC9WARuVD07SrUA-q6HzFidtAerPc_SqM7qa_CE8k1dUKHu6NZpQfZbAnVupwZtKfjz96f2-3JQR7Gdr9hSSAOO_0-I-c4bFizSTR7-y5WkvrlND1_4CHkDTJ1Ct15Ld8HAXCxKjl3W8MB85Y1krnDSp7lEDzZjWxX7B2p9O2_TAMOPmsrKfH_9ESOiBURynPdqCb54RWgYOAVdqbTI58l_wLSmjw0YX5gFnkVcoaWAjzqe3ALlTF0d6cCqZrhdv2jN7mcNY5ZgZVyeEjPPH6xEYH1JFaMmwsSaCt36PKenWcZohy-B-FpMpucout7KRMSKVW-g.jpg",
       "companion_text_id": 105995
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390916",
-      "post_id": 390916,
-      "channel": "tass_agency",
-      "ts": "2026-08-18T18:18:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/390915",
-      "post_id": 390915,
-      "channel": "tass_agency",
-      "ts": "2026-08-18T18:15:59+00:00"
     },
     {
       "post_url": "https://t.me/DeepStateUA/23754",
@@ -211,6 +207,20 @@
       "post_id": 390910,
       "channel": "tass_agency",
       "ts": "2026-08-18T17:38:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/105980",
+      "post_id": 105980,
+      "channel": "eRadarrua",
+      "ts": "2026-08-18T17:37:16+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/QIQIY5v1bikpEyCPIWwnWgPHYXkL4JoEPVqiGBuQIJCWqWDCsyRKT-_ZmZMvZAwjXO6YDxuZJEfQI0KnFSdnuJwGqqGYkxy3yfYTiVM15Rvo-GKlxx_Cd-c03rbMaPhDpqyCOjA7_IryASOcEKyRB8kD9vs3MfQJyMsZYyv6tUy-mjW2Z0B9o5DmJZaURRdd1muO1WT0RsDO2s5ZZDZucsCvcFuB4zMbvDX1gdMyMbLB-U4VJ-LAIiJbkwRT7g7MSPHKhLfuG9iu5Tos456bABb6uJ8QQ0ka3fPewvjNp3M8Ov4WTgKQlkYcJ1BFEwRxiwKaWfTWH5Abe3LhTf_wiw.jpg",
+      "companion_text_id": 105981
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32560",
+      "post_id": 32560,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-18T17:33:01+00:00"
     }
   ],
   "post_images": {
@@ -237,90 +247,128 @@
     "eRadarrua/105954": "data/media/eRadarrua_105954.jpg",
     "eRadarrua/105953": "data/media/eRadarrua_105954.jpg",
     "kpszsu/73277": "data/media/kpszsu_73277.jpg",
-    "kpszsu/73276": "data/media/kpszsu_73277.jpg"
+    "kpszsu/73278": "data/media/kpszsu_73277.jpg"
   },
-  "summary": "The UK is escalating drone deliveries to Ukraine, including long-range systems, prompting Russian accusations of escalation. Russia continues missile attacks on Ukrainian and Russian territories, with heightened threats to Kyiv. Recent missile threats from multiple regions indicate ongoing operational tensions.",
+  "summary": "Russia launched a massive Shahed drone attack on Ukraine with over 76 UAVs targeting primarily Kyiv region, while striking DTEK thermal power plant infrastructure. Russian forces advanced near Svyatopetrivka and claimed liberation of Novonikolayevka in Donetsk region. Ukrainian air defenses intercepted over 70 drones but recorded hits and debris falls across multiple locations.",
   "key_points": [
-    "The UK has increased drone deliveries to Ukraine to 150,000 by 2026, including long-range systems, as reported by DeepStateUA/23754.",
-    "Russia accuses the UK of escalating the conflict through drone deliveries, citing Reuters and Russian Ministry of Defense statements (DeepStateUA/23754).",
-    "Project Brakestop involves British companies developing a 225kg payload strike system for Ukraine, with testing in Ukraine (DeepStateUA/23754).",
-    "Multiple missile threats targeting Kyiv, Kharkiv, and other regions were reported by mon1tor_ua/70424 and mon1tor_ua/70419.",
-    "Reactionary drones were detected in Kyiv, Kharkiv, and Chernihiv regions, as per mon1tor_ua/70411 and eRadarrua/105949.",
-    "Russia launched missile attacks on the Black Sea and regional areas, including a sukhogruz with military cargo (Tass_agency/390912).",
-    "Ukrainian officials warn of no imminent ceasefire, citing no Russian indications of willingness to stop (UkraineNow/83502)."
+    "Russia fired 76+ Shahed drones at Ukraine on 18 August 2026, mainly targeting Kyiv region, with air defense downing over 70 but confirming hits at several locations. (Source: @kpszsu/73368)",
+    "Russian strike hit a DTEK thermal power plant, forcing generation shutdown, per Ukrainian monitoring channel. (Source: @eRadarrua/105980)",
+    "Russian MoD announced liberation of Novonikolayevka in Donetsk People's Republic. (Source: @tass_agency/390954)",
+    "DeepState map shows Russian forces advanced near Svyatopetrivka on eastern front. (Source: @DeepStateUA/23749)",
+    "High ballistic missile threat reported for Kyiv and Brovary overnight, with two Shaheds entering Brovary. (Source: @mon1tor_ua/70423, @mon1tor_ua/70395)",
+    "Ten Odesa district TCC employees suspected of torture and illegal detention, seven mobilized in spring 2025. (Source: @UkraineNow/83505, @ukr_leaks_eng/32546)",
+    "GUR deputy Skibitsky stated no signs Russia ready for ceasefire by year-end. (Source: @UkraineNow/83502)",
+    "Russian tactical aviation active on eastern, southeastern, and northeastern fronts with air strike threat. (Source: @kpszsu/73381, @kpszsu/73384)"
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "The UK's escalation of drone deliveries to Ukraine, including long-range systems, has prompted Russian accusations of escalation. Russia continues missile attacks on Ukrainian and Russian territories, with heightened threats to Kyiv. Recent missile threats from multiple regions indicate ongoing operational tensions.",
+    "executive_summary": "Russia conducted its largest single-day Shahed drone barrage of the war on 18 August 2026, launching over 76 UAVs primarily at Kyiv region with additional waves after 18:30. Ukrainian air defenses intercepted over 70 drones but confirmed hits and debris falls at multiple locations, while a separate strike disabled generation at a DTEK thermal power plant. Simultaneously, Russian ground forces advanced near Svyatopetrivka and claimed capture of Novonikolayevka in Donetsk region, as GUR intelligence assessed no Russian willingness for ceasefire before year-end.",
     "ukraine": {
       "points": [
-        "The UK has delivered 150,000 drones to Ukraine by 2026, including long-range systems, as part of a £752 million package (DeepStateUA/23754).",
-        "Project Brakestop involves British companies developing a 225kg payload strike system for Ukraine, with testing in Ukraine (DeepStateUA/23754).",
-        "Reactionary drones were detected in Kyiv, Kharkiv, and Chernihiv regions, with heights up to 6,100 meters (mon1tor_ua/70411).",
-        "Ukrainian officials state there are no signs of Russian willingness to cease hostilities (UkraineNow/83502)."
+        "Ukrainian air defense intercepted over 70 of 76+ Shahed drones launched 18 August 2026, with main attack vector on Kyiv region and additional 20+ UAVs entering after 18:30, though hits and debris falls recorded at several unspecified locations. (Source: @kpszsu/73368)",
+        "DTEK thermal power plant struck by Russian forces, causing complete generation shutdown at the facility, per Ukrainian monitoring channel eRadar. (Source: @eRadarrua/105980)",
+        "Ten employees of Odesa district Territorial Recruitment Center (TCC) formally notified of suspicion for illegal detention, torture, and in one case running over a detainee with official vehicle; seven of ten were mobilized in spring 2025 and assigned directly to TCC duties. (Source: @UkraineNow/83505, @ukr_leaks_eng/32546)",
+        "GUR Deputy Chief Skibitsky stated in RBC-Ukraine interview that no indicators exist of Russian readiness for ceasefire before end of 2026. (Source: @UkraineNow/83502)",
+        "Verkhovna Rada deputies returning from summer recess met by protesters chanting \"shame\" in support of dismissed Defense Minister Fedorov. (Source: @UkraineNow/83503, @ukr_leaks_eng/32543)",
+        "Former banker and AFU officer Andrey Onistrat predicted Ukrainian banks that lent to businesses destroyed by Russian strikes will face bankruptcy in 2027. (Source: @ukr_leaks_eng/32541)",
+        "Polish Foreign Minister Sikorski called for Poland and European nations to be included in Ukraine war negotiation process with significant influence on outcome. (Source: @ukr_leaks_eng/32557)"
       ]
     },
     "russia": {
       "points": [
-        "Russia accuses the UK of escalating the conflict through drone deliveries, citing Reuters and Russian Ministry of Defense statements (DeepStateUA/23754).",
-        "Russia launched missile attacks on the Black Sea and regional areas, including a sukhogruz with military cargo (Tass_agency/390912).",
-        "Russia issued warnings about missile threats targeting Kyiv and Kharkiv (mon1tor_ua/70424).",
-        "Russian military actions include attacks on Ukrainian military infrastructure in the Black Sea (Tass_agency/390912)."
+        "Russian Ministry of Defense announced liberation of Novonikolayevka settlement in Donetsk People's Republic. (Source: @tass_agency/390954)",
+        "Russian forces launched 76+ Shahed-type loitering munitions from Black Sea azimuths targeting Kyiv, Mykolaiv, Zaporizhzhia, and Dnipropetrovsk regions throughout 18 August 2026. (Source: @kpszsu/73368, @kpszsu/73357, @kpszsu/73358, @kpszsu/73390)",
+        "Russian tactical aviation active on eastern, southeastern, and northeastern fronts posing air strike threat to frontline areas per Ukrainian Air Force alerts. (Source: @kpszsu/73381, @kpszsu/73384)",
+        "Ballistic missile threat declared from northeastern direction for Kyiv and Brovary overnight 18-19 August. (Source: @kpszsu/73371, @mon1tor_ua/70423)",
+        "Russian propaganda utilizing AI-generated video fabricating infiltration near Oskil settlement, per DeepState analysis. (Source: @DeepStateUA/23755)",
+        "Putin warned of response to attempts to seize Russian vessels, prompting German maritime security expert Moritz Brake to urge serious attention. (Source: @tass_agency/390950)",
+        "Russian Health Ministry expanding nurse positions including feldsher and laboratory roles effective 1 September. (Source: @tass_agency/390957)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Reactionary drones were detected in Kyiv, Kharkiv, and Chernihiv regions, with specific locations like Darnytsia and Borispil (mon1tor_ua/70411).",
-        "Missile threats from the southern and eastern fronts targeted Kyiv, Kharkiv, and Pavlograd (mon1tor_ua/70424).",
-        "Russian missile attacks on the Black Sea and regional areas indicate ongoing eastern front operations (Tass_agency/390912)."
+        "DeepState map update 18 August shows Russian forces advanced near Svyatopetrivka in Donetsk region. (Source: @DeepStateUA/23749)",
+        "Russian MoD claimed capture of Novonikolayevka in DNR. (Source: @tass_agency/390954)",
+        "Russian tactical aviation active on eastern front with threat of guided aerial bomb strikes on forward positions. (Source: @kpszsu/73381)",
+        "AI-generated propaganda video circulated by Russian forces falsely depicting infiltration on outskirts of Oskil settlement. (Source: @DeepStateUA/23755)",
+        "Shahed drones from Black Sea directed toward Mykolaiv region as part of mass 18 August attack. (Source: @kpszsu/73357)",
+        "Reactive UAVs tracked south of Zaporizhzhia heading toward Dnipropetrovsk region (Synelnykove/Vasylkivka). (Source: @kpszsu/73358)",
+        "Zaporizhzhia city targeted by UAVs from southern direction. (Source: @kpszsu/73390)"
       ]
     },
     "northern_front": {
       "points": [
-        "Reactionary drones were reported in Chernihiv and Poltava regions, targeting Kyiv (eRadarrua/105949).",
-        "Missile threats from the northern front targeted Kyiv and Kharkiv (mon1tor_ua/70424)."
+        "Chernihiv region detected strike UAV groups (2) and reactive UAV groups (3) moving through area. (Source: @eRadarrua/105940)",
+        "Chernihiv region UAV tracks: 3 past Desna/Oster, 1 at Sedniv, 1 at Snovsk, new track toward Horodnia. (Source: @eRadarrua/105938)",
+        "Ballistic missile threat from northeast declared for Kyiv and Brovary overnight. (Source: @kpszsu/73371, @mon1tor_ua/70423)",
+        "Two Shahed drones entered Brovary area per monitoring channel. (Source: @mon1tor_ua/70395)",
+        "EVA distribution center in Brovary hit by strike, causing delivery delays per company statement. (Source: @ukr_leaks_eng/32544)",
+        "Kyiv air raid alert ended 20:15 on 18 August 2026 after daytime mass drone attack. (Source: @eRadarrua/105977)",
+        "Ternopil region: UAV tracked toward Kremenets, continuing course to Dubno in Rivne region. (Source: @eRadarrua/105942)"
       ]
     },
     "southern_front": {
       "points": [
-        "Reactionary drones were detected in Zaporizhzhia and Kherson regions, targeting Kyiv (eRadarrua/105946).",
-        "Missile threats from the southern front targeted Kyiv and Kharkiv (mon1tor_ua/70424)."
+        "Shahed UAVs launched from Black Sea waters toward Mykolaiv region. (Source: @kpszsu/73357)",
+        "Reactive UAVs detected south of Zaporizhzhia city heading toward Dnipropetrovsk region (Synelnykove/Vasylkivka). (Source: @kpszsu/73358)",
+        "UAV from southern direction approaching Zaporizhzhia city. (Source: @kpszsu/73390)",
+        "Russian tactical aviation active on southeastern front with air strike threat. (Source: @kpszsu/73384)",
+        "Odesa district TCC torture case involves 10 employees, 7 mobilized spring 2025. (Source: @UkraineNow/83505, @ukr_leaks_eng/32546)",
+        "Polish PM Tusk condemned attack on Ukrainian children in Bydgoszcz; suspects (46-year-old woman, 34-year-old man) detained. (Source: @UkraineNow/83516)",
+        "UAE suspended all trade and financial operations with Iran per Arab state MFA. (Source: @tass_agency/390924)"
       ]
     },
     "air_war": {
       "points": [
-        "Reactionary drones and missile threats were reported in multiple regions, including Kyiv, Kharkiv, and Chernihiv (mon1tor_ua/70411).",
-        "Russian missile attacks on the Black Sea and regional areas indicate air warfare escalation (Tass_agency/390912)."
+        "Mass Shahed attack 18 August 2026: 76+ UAVs launched 07:00-18:30, main axis Kyiv region; air defense claimed 70+ intercepted/suppressed; hits and debris falls at multiple locations; 20+ additional UAVs entered after 18:30. (Source: @kpszsu/73368)",
+        "DTEK thermal power plant struck, generation halted. (Source: @eRadarrua/105980)",
+        "Ballistic missile threat from northeast for Kyiv/Brovary overnight. (Source: @kpszsu/73371, @mon1tor_ua/70423)",
+        "Two Shaheds penetrated to Brovary. (Source: @mon1tor_ua/70395)",
+        "Russian tactical aviation active on eastern, southeastern, northeastern fronts with guided bomb threat. (Source: @kpszsu/73381, @kpszsu/73384)",
+        "UAV tracks from Black Sea toward Mykolaiv, Zaporizhzhia, Dnipropetrovsk regions. (Source: @kpszsu/73357, @kpszsu/73358, @kpszsu/73390)",
+        "Chernihiv region: multiple UAV groups (strike and reactive) transiting toward Kyiv. (Source: @eRadarrua/105940, @eRadarrua/105938)"
       ]
-    }
+    },
+    "key_developments": [
+      "Russia launched 76+ Shahed drones at Ukraine 18 August 2026, primarily targeting Kyiv region; air defense downed 70+ but confirmed hits and debris falls at multiple locations; 20+ additional UAVs entered after 18:30. (Source: @kpszsu/73368)",
+      "Russian strike disabled generation at DTEK thermal power plant, per Ukrainian monitoring. (Source: @eRadarrua/105980)",
+      "Russian MoD announced capture of Novonikolayevka in Donetsk People's Republic. (Source: @tass_agency/390954)",
+      "DeepState map shows Russian advance near Svyatopetrivka in Donetsk region. (Source: @DeepStateUA/23749)",
+      "High ballistic missile threat for Kyiv and Brovary overnight; two Shaheds entered Brovary. (Source: @mon1tor_ua/70423, @mon1tor_ua/70395)",
+      "Ten Odesa TCC employees suspected of torture and illegal detention; seven mobilized spring 2025. (Source: @UkraineNow/83505, @ukr_leaks_eng/32546)",
+      "GUR Deputy Skibitsky: no signs Russia ready for ceasefire by year-end. (Source: @UkraineNow/83502)"
+    ],
+    "threat_assessment": "The 18 August mass Shahed attack represents a significant escalation in Russian long-range strike intensity, with over 76 UAVs launched in a single daylight period and sustained waves into evening. Despite high interception rates, confirmed hits on energy infrastructure (DTEK TPP) and population centers (Brovary, Kyiv region) demonstrate persistent penetration capability. Concurrent ground advances near Svyatopetrivka and Novonikolayevka capture indicate continued Russian offensive pressure in Donetsk. Ballistic missile threats to Kyiv and tactical aviation activity across three front sectors suggest coordinated multi-domain pressure. GUR assessment of no Russian ceasefire intent through 2026 implies sustained high-tempo operations.",
+    "regional_response": "Poland detained suspects in anti-Ukrainian hate crime in Bydgoszcz with PM Tusk demanding accountability and FM Sikorski advocating European inclusion in peace negotiations. Germany expressed alarm over Putin's maritime threats, with insurance experts urging serious preparation. UAE suspended all trade and financial operations with Iran, reflecting Gulf alignment with Western pressure. US-ROK Ulchi Freedom Shield exercises proceed despite Trump's reported order to reduce scale, signaling alliance cohesion. These developments indicate broadening geopolitical friction around the Ukraine conflict.",
+    "intelligence_notes": "Russian information operations now employ AI-generated video fabrications (Oskil infiltration) to simulate tactical successes, suggesting declining genuine operational footage availability. Ukrainian domestic stability concerns mount with TCC abuse scandals (Odesa, Brovary) and parliamentary protests against defense leadership changes. Potential appointment of SBU general Khmara as civilian Defense Minister raises questions about military-civilian chain of command and presidential control over security apparatus. Ukrainian banking sector faces systemic risk from war-damaged loan portfolios per industry expert warning. These factors compound operational challenges for Ukrainian defense management."
   },
   "missiles": 0,
   "drones": 147,
   "kpszsu_timeline": [
-    3,
-    1,
     2,
     5,
     1,
     2,
     1,
-    7,
-    3,
-    1,
-    3,
     6,
-    8,
-    8,
     4,
+    0,
+    2,
+    8,
+    7,
+    7,
+    6,
     5,
-    1,
     0,
     1,
     0,
     1,
+    1,
     0,
     1,
-    6
+    5,
+    2,
+    2
   ]
 }
