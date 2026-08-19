@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-19T13:10:33.514578+00:00",
-  "message_count": 437,
+  "updated_at": "2026-08-19T14:48:31.326328+00:00",
+  "message_count": 413,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,15 +13,12 @@
   ],
   "red_alerts": 65,
   "red_alerts_timeline": [
-    7,
-    14,
-    7,
-    14,
+    16,
+    8,
+    8,
     0,
     0,
-    0,
-    14,
-    0,
+    16,
     0,
     0,
     0,
@@ -34,61 +31,121 @@
     0,
     0,
     0,
-    7,
     0,
-    0
+    8,
+    0,
+    0,
+    0,
+    8
   ],
   "combined_activity_timeline": [
-    30,
-    35,
-    56,
-    39,
-    18,
-    15,
+    51,
+    40,
+    27,
+    19,
+    8,
+    10,
+    4,
+    5,
+    4,
     5,
     12,
-    5,
-    3,
-    3,
-    9,
+    8,
+    8,
     11,
-    7,
     11,
-    9,
-    13,
     14,
     19,
-    15,
-    22,
+    11,
+    23,
     26,
-    13,
-    43
+    18,
+    39,
+    26,
+    12
   ],
   "messages_by_channel": {
-    "@eRadarrua": 64,
-    "@kpszsu": 67,
-    "@mon1tor_ua": 76,
+    "@eRadarrua": 56,
+    "@kpszsu": 56,
+    "@mon1tor_ua": 72,
     "@UkraineNow": 19,
-    "@DeepStateUA": 6,
-    "@ukr_leaks_eng": 22,
-    "@tass_agency": 183
+    "@DeepStateUA": 5,
+    "@ukr_leaks_eng": 23,
+    "@tass_agency": 182
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/106035",
-    "kpszsu": "https://t.me/kpszsu/73429",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70437",
-    "UkraineNow": "https://t.me/UkraineNow/83540",
+    "eRadarrua": "https://t.me/eRadarrua/106042",
+    "kpszsu": "https://t.me/kpszsu/73437",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70441",
+    "UkraineNow": "https://t.me/UkraineNow/83541",
     "DeepStateUA": "https://t.me/DeepStateUA/23755",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32576",
-    "tass_agency": "https://t.me/tass_agency/391082"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32581",
+    "tass_agency": "https://t.me/tass_agency/391101"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32548",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70421",
-    "tass_agency": "https://t.me/tass_agency/391043",
-    "UkraineNow": "https://t.me/UkraineNow/83528"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32568",
+    "kpszsu": "https://t.me/kpszsu/73403",
+    "eRadarrua": "https://t.me/eRadarrua/106003",
+    "tass_agency": "https://t.me/tass_agency/391070",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70429"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32581",
+      "post_id": 32581,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-19T14:29:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391101",
+      "post_id": 391101,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T14:26:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391098",
+      "post_id": 391098,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T14:00:28+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391097",
+      "post_id": 391097,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T13:52:15+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83541",
+      "post_id": 83541,
+      "channel": "UkraineNow",
+      "ts": "2026-08-19T13:43:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391089",
+      "post_id": 391089,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T13:24:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391088",
+      "post_id": 391088,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T13:20:17+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391085",
+      "post_id": 391085,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T13:12:42+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/106037",
+      "post_id": 106037,
+      "channel": "eRadarrua",
+      "ts": "2026-08-19T13:07:21+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/hCLmq_RZLN5cEGCzBymzdAmSy6FMqLwDEAh3AeaVCHNL3TJZhDUfwfEpsH8advIxkJpQ5r54DZWtVInq1o7wXg-X5mjDxTejA-lkK4OCKQ6X4sKRFqXh0fzrsRF1rEFuH-u9G-oK4CxhQ_h6wegpSPONNZoyLRIQeadiUXW7EqNfgFi-zBb6bXmDOcIgSFREMjMNdqEibe-idoddS0ZqDtobxpze4WKsx8HtAxE3pGqxeRjSKbHS5tYCbzQC2Qu1MMPiJBgmla0uhy9x6NmGuMaluJvTEmA87Pqky0eWiC4oOWtiSTa7ZpaIDNwr6HGt6aBPkZu4OqXCrT8yH8UNDA.jpg",
+      "companion_text_id": 106035
+    },
     {
       "post_url": "https://t.me/eRadarrua/106034",
       "post_id": 106034,
@@ -160,183 +217,142 @@
       "post_id": 83538,
       "channel": "UkraineNow",
       "ts": "2026-08-19T11:05:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391055",
-      "post_id": 391055,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T10:52:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83528",
-      "post_id": 83528,
-      "channel": "UkraineNow",
-      "ts": "2026-08-19T10:31:27+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391038",
-      "post_id": 391038,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T09:52:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32570",
-      "post_id": 32570,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-19T09:20:11+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83526",
-      "post_id": 83526,
-      "channel": "UkraineNow",
-      "ts": "2026-08-19T09:16:34+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391020",
-      "post_id": 391020,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T09:01:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391017",
-      "post_id": 391017,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T08:49:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32568",
-      "post_id": 32568,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-19T08:44:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391010",
-      "post_id": 391010,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T08:16:00+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/106034": "data/media/eRadarrua_106034.jpg",
+    "eRadarrua/106035": "data/media/eRadarrua_106034.jpg",
+    "eRadarrua/106037": "data/media/eRadarrua_106037.jpg",
+    "eRadarrua/106007": "data/media/eRadarrua_106007.jpg",
+    "eRadarrua/106008": "data/media/eRadarrua_106007.jpg",
     "eRadarrua/106016": "data/media/eRadarrua_106016.jpg",
     "eRadarrua/106014": "data/media/eRadarrua_106016.jpg",
     "eRadarrua/106020": "data/media/eRadarrua_106020.jpg",
     "eRadarrua/106019": "data/media/eRadarrua_106020.jpg",
-    "eRadarrua/106034": "data/media/eRadarrua_106034.jpg",
-    "eRadarrua/106035": "data/media/eRadarrua_106034.jpg",
+    "eRadarrua/105994": "data/media/eRadarrua_105994.jpg",
+    "eRadarrua/105995": "data/media/eRadarrua_105994.jpg",
     "eRadarrua/105996": "data/media/eRadarrua_105996.jpg",
-    "eRadarrua/105995": "data/media/eRadarrua_105996.jpg",
     "eRadarrua/105998": "data/media/eRadarrua_105998.jpg",
     "eRadarrua/105997": "data/media/eRadarrua_105998.jpg",
     "eRadarrua/106002": "data/media/eRadarrua_106002.jpg",
     "eRadarrua/106003": "data/media/eRadarrua_106002.jpg",
-    "eRadarrua/106007": "data/media/eRadarrua_106007.jpg",
-    "eRadarrua/106008": "data/media/eRadarrua_106007.jpg",
-    "eRadarrua/105980": "data/media/eRadarrua_105980.jpg",
-    "eRadarrua/105981": "data/media/eRadarrua_105981.jpg",
-    "eRadarrua/105994": "data/media/eRadarrua_105994.jpg",
-    "eRadarrua/105954": "data/media/eRadarrua_105954.jpg",
-    "eRadarrua/105953": "data/media/eRadarrua_105954.jpg",
-    "eRadarrua/105955": "data/media/eRadarrua_105955.jpg",
     "eRadarrua/105961": "data/media/eRadarrua_105961.jpg",
     "eRadarrua/105970": "data/media/eRadarrua_105970.jpg",
     "eRadarrua/105971": "data/media/eRadarrua_105971.jpg",
+    "eRadarrua/105980": "data/media/eRadarrua_105980.jpg",
+    "eRadarrua/105981": "data/media/eRadarrua_105981.jpg",
+    "eRadarrua/105941": "data/media/eRadarrua_105941.jpg",
+    "eRadarrua/105940": "data/media/eRadarrua_105941.jpg",
     "kpszsu/73403": "data/media/kpszsu_73403.jpg",
     "kpszsu/73402": "data/media/kpszsu_73403.jpg"
   },
-  "summary": "Russian forces have liberated villages in DPR and destroyed Ukrainian drones and a MiG-29. Ballistic missile threats persist across multiple regions, including Kharkiv and Kyiv. Ukrainian military returns include 103 soldiers from Russian captivity.",
+  "summary": "On August 19, 2026, Russia launched its largest drone barrage of the war, with over 1,600 UAVs shot down in 24 hours, followed by overnight attacks across multiple regions including Moscow, Sevastopol, and Yaroslavl. Ukrainian forces reported continued advances in the Donetsk and Zaporizhzhia directions, claiming liberation of Krasnopollye and Orekhovtka in the DPR. A major power outage struck Moscow after a substation explosion, disrupting internet infrastructure and causing widespread blackouts across central districts.",
   "key_points": [
-    "Russian army liberated Orekhovtka and Krasnopollye in DPR and shot down 1,671 Ukrainian drones and a MiG-29 (Source: @ukr_leaks_eng/32548).",
-    "Ballistic missile threats reported in Kharkiv, Kyiv, and Dnipro regions (Sources: @mon1tor_ua/70421, @mon1tor_ua/70411, @mon1tor_ua/70422).",
-    "Russian troops reported to have liberated Vodiane in DNR (Source: @tass_agency/391043).",
-    "Ukrainian military returned 103 soldiers from Russian captivity, including defenders from Mariupol and Kharkiv (Source: @UkraineNow/83528).",
-    "Russian strikes caused significant financial losses for Ukrainian companies, equating to annual GDP (Source: @ukr_leaks_eng/32571).",
-    "Khmara appointed as acting Minister of Defense, raising questions about political control (Source: @ukr_leaks_eng/32560).",
-    "Ballistic missile threats escalated with reports of Iskander-M rocket launches (Source: @mon1tor_ua/70419)."
+    "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions (Source: @ukr_leaks_eng/32568)",
+    "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones (Source: @kpszsu/73403)",
+    "Russia's strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
+    "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
+    "A major power outage hit Moscow after a substation explosion, affecting central districts and disrupting internet infrastructure (Source: @eRadarrua/105996)",
+    "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)",
+    "Former Ukrainian Defense Minister Mikhail Fedorov declared opposition to Zelensky, demanding immediate elections and calling for a new government (Source: @ukr_leaks_eng/32581)"
   ],
   "sentiment": "escalating",
-  "intensity": 8,
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russian military actions in DPR and missile threats across regions highlight ongoing escalation. Ukrainian military returns and financial strain underscore operational challenges.",
+    "executive_summary": "On August 19, 2026, Russia launched its largest drone barrage of the war, with over 1,600 UAVs shot down in 24 hours, followed by overnight attacks across multiple regions including Moscow, Sevastopol, and Yaroslavl. Ukrainian forces reported continued advances in the Donetsk and Zaporizhzhia directions, claiming liberation of Krasnopollye and Orekhovtka in the DPR. A major power outage struck Moscow after a substation explosion, disrupting internet infrastructure and causing widespread blackouts across central districts.",
     "ukraine": {
       "points": [
-        "Russian forces liberated Orekhovtka and Krasnopollye in DPR, destroying 1,671 drones and a MiG-29 (Source: @ukr_leaks_eng/32548).",
-        "Ballistic missile threats in Kharkiv and Kyiv regions reported, with rockets reaching 6,100m and 4,300m altitudes (Source: @mon1tor_ua/70411).",
-        "103 Ukrainian soldiers returned from Russian captivity, including defenders from Mariupol and Kharkiv (Source: @UkraineNow/83528).",
-        "Financial losses from Russian strikes estimated at Ukraine's annual GDP, threatening companies like Nova Poshta and Silpo (Source: @ukr_leaks_eng/32571).",
-        "Khmara's appointment as acting Minister of Defense raises concerns about political influence over military decisions (Source: @ukr_leaks_eng/32560)."
+        "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones launched from multiple directions (Source: @kpszsu/73403)",
+        "A massive power outage struck Moscow after a substation explosion, affecting central districts and disrupting internet infrastructure across Russia (Source: @eRadarrua/105996)",
+        "Former Ukrainian Defense Minister Mikhail Fedorov declared opposition to Zelensky, demanding immediate elections and calling for a new government (Source: @ukr_leaks_eng/32581)",
+        "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)",
+        "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
+        "A Ukrainian citizen was arrested in Croatia, suspected of being linked to the Nord Stream pipeline sabotage in September 2022 (Source: @ukr_leaks_eng/32575)"
       ]
     },
     "russia": {
       "points": [
-        "Russian army liberated Vodiane in DNR, per MO reports (Source: @tass_agency/391043).",
-        "Ballistic missile threats from Vorozhenskaya region reported, indicating potential Iskander-M launches (Source: @mon1tor_ua/70419).",
-        "Russian troops reported to have liberated areas in DPR, including Orekhovtka and Krasnopollye (Source: @ukr_leaks_eng/32548).",
-        "Russian military actions include air strikes and missile attacks in Kharkiv and Dnipro regions (Sources: @mon1tor_ua/70421, @mon1tor_ua/70411)."
+        "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions (Source: @ukr_leaks_eng/32568)",
+        "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
+        "Russian forces continue tightening control in the Donetsk and Zaporizhzhia directions, with reports of forward units entering settlements near Orekhov (Source: @ukr_leaks_eng/32568)",
+        "Russian Air Force is using FABs to destroy multi-story buildings in Druzhkovka where Ukrainian positions have been detected (Source: @ukr_leaks_eng/32568)",
+        "Russian Ministry of Defense claims liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
+        "Russian President Putin stated that Russia's GDP growth in 2026 is around 1% (Source: @tass_agency/391070)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces liberated Orekhovtka and Krasnopollye in DPR, with significant drone and aircraft losses (Source: @ukr_leaks_eng/32548).",
-        "Ballistic missile threats in Kharkiv and Dnipro regions, with rockets detected near Darnytskyi and Kyiv (Sources: @mon1tor_ua/70411, @mon1tor_ua/70422).",
-        "Russian troops reported to have liberated Vodiane in DNR, per MO statements (Source: @tass_agency/391043)."
+        "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
+        "On the Zaporozhye front, units of the 42nd Guards Motor Rifle Division are destroying enemy movements between Orekhov and Novopavlovka with artillery and drone strikes (Source: @ukr_leaks_eng/32568)",
+        "Reports indicate Russian forward units are entering settlements near Orekhov, while Ukrainian positions remain active in the area (Source: @ukr_leaks_eng/32568)",
+        "In the DPR, Russian forces continue offensive operations with claims of territorial gains in Krasnopollye and Orekhovtka (Source: @ukr_leaks_eng/32568)",
+        "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)"
       ]
     },
     "northern_front": {
       "points": [
-        "Ballistic missile threats reported in Kharkiv and Kyiv regions, with rockets reaching high altitudes (Sources: @mon1tor_ua/70411, @mon1tor_ua/70422)."
+        "In the Bryansk region, drone attacks injured residents in the villages of Zapesochye and Pervomaysky in the Pogarsky district (Source: @ukr_leaks_eng/32568)",
+        "In the Sumy and Kharkov directions, the 'Sever' group is engaged in fighting along the same lines, with increased use of heavy drones by enemy units (Source: @ukr_leaks_eng/32568)",
+        "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones (Source: @kpszsu/73403)",
+        "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces liberated areas in DPR, including Orekhovtka and Krasnopollye (Source: @ukr_leaks_eng/32548)."
+        "Southeast of Odessa, a cargo ship was hit during the day, with reports of several explosions in Odessa and Chornomorsk at night (Source: @ukr_leaks_eng/32568)",
+        "On the Zaporozhye front, units of the 42nd Guards Motor Rifle Division are destroying enemy movements between Orekhov and Novopavlovka with artillery and drone strikes (Source: @ukr_leaks_eng/32568)",
+        "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)",
+        "Most of the Zaporozhye region remains without electricity following recent combat operations (Source: @ukr_leaks_eng/32568)"
       ]
     },
     "air_war": {
       "points": [
-        "Ballistic missile threats in Kharkiv and Kyiv regions, with rockets detected at 6,100m and 4,300m altitudes (Sources: @mon1tor_ua/70411).",
-        "Russian air activity reported near Kharkiv and Dnipro, with potential for tactical aviation use (Sources: @mon1tor_ua/70410, @mon1tor_ua/70414)."
+        "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones (Source: @kpszsu/73403)",
+        "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions (Source: @ukr_leaks_eng/32568)",
+        "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
+        "Ukrainian air defenses intercepted four cruise missiles targeting Zhytomyr overnight (Source: @mon1tor_ua/70429)",
+        "A Geran-type missile reached the Rivne region for the first time, over 900 km from its launch point (Source: @ukr_leaks_eng/32568)"
       ]
     },
     "key_developments": [
-      "Russian army liberated Orekhovtka and Krasnopollye in DPR, destroying 1,671 drones and a MiG-29 (Source: @ukr_leaks_eng/32548).",
-      "Ballistic missile threats in Kharkiv and Kyiv regions, with rockets reaching 6,100m and 4,300m altitudes (Source: @mon1tor_ua/70411).",
-      "103 Ukrainian soldiers returned from Russian captivity, including defenders from Mariupol and Kharkiv (Source: @UkraineNow/83528).",
-      "Khmara appointed as acting Minister of Defense, raising questions about political control (Source: @ukr_leaks_eng/32560).",
-      "Financial losses from Russian strikes estimated at Ukraine's annual GDP, threatening key companies (Source: @ukr_leaks_eng/32571).",
-      "Russian troops reported to have liberated Vodiane in DNR, per MO statements (Source: @tass_agency/391043).",
-      "Ballistic missile threats escalated with reports of Iskander-M rocket launches (Source: @mon1tor_ua/70419)."
+      "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions including Moscow, Sevastopol, and Yaroslavl (Source: @ukr_leaks_eng/32568)",
+      "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones launched from multiple directions (Source: @kpszsu/73403)",
+      "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
+      "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
+      "A major power outage struck Moscow after a substation explosion, affecting central districts and disrupting internet infrastructure across Russia (Source: @eRadarrua/105996)",
+      "Former Ukrainian Defense Minister Mikhail Fedorov declared opposition to Zelensky, demanding immediate elections and calling for a new government (Source: @ukr_leaks_eng/32581)",
+      "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)"
     ],
-    "threat_assessment": "Russian military actions in DPR and missile threats across regions indicate a sustained offensive. The destruction of drones and aircraft suggests attempts to degrade Ukrainian air defenses. Financial strain on Ukrainian companies may limit their ability to sustain operations.",
-    "regional_response": "Ukrainian military returns and financial reports highlight vulnerabilities. Russian missile threats in multiple regions suggest coordinated attacks. Political appointments like Khmara's may signal efforts to consolidate control over security apparatus.",
-    "intelligence_notes": "The liberation of DPR villages and missile threats reflect Russian strategic objectives. Khmara's role as Minister of Defense raises concerns about political interference. Financial losses from strikes could exacerbate Ukraine's operational challenges."
+    "threat_assessment": "The situation is rapidly escalating with Russia preparing a mass missile strike using strategic aviation, including up to 40 Kh-101 cruise missiles, 20 Iskander-M ballistic missiles, and 6 hypersonic Zircon missiles. Ukrainian air defenses face an unprecedented volume of attacks, with over 1,600 drones launched in 24 hours. Internal political tensions in Ukraine are rising with former Defense Minister Fedorov declaring opposition to Zelensky. The power outage in Moscow demonstrates Russia's vulnerability to infrastructure attacks. The conflict is entering a critical phase with both sides escalating their operational tempo.",
+    "regional_response": "Ukrainian air defenses are actively intercepting Russian drone and missile attacks across multiple regions, with successful shoot-downs reported in Kyiv, Zhytomyr, and other areas. The Ukrainian government continues to receive military support from Western allies, with Britain reaffirming its commitment to Ukraine's defense. Regional authorities in Russia are reporting civilian casualties from drone attacks in Belgorod, Bryansk, and Kursk regions. The European Union and NATO allies are monitoring the escalation closely, with potential implications for regional security. Cross-border attacks continue to affect civilian populations on both sides.",
+    "intelligence_notes": "Russian military intelligence appears to be coordinating a multi-domain attack campaign involving drones, missiles, and strategic aviation. The relocation of Tu-95MS bombers suggests preparation for a significant offensive operation within the next 48 hours. Ukrainian forces are leveraging drone warfare effectively, with Geran-type missiles reaching targets over 900 km from launch points. Political instability within Ukraine is evident with high-profile defections and public declarations of opposition. Infrastructure targeting on both sides indicates a shift toward strategic disruption campaigns. The involvement of Western-supplied weapons and systems is becoming more pronounced in recent engagements."
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 65,
   "kpszsu_timeline": [
-    10,
-    8,
     6,
     4,
+    5,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    6,
+    1,
+    3,
+    1,
+    4,
+    0,
     2,
     1,
     0,
-    1,
-    1,
-    0,
-    0,
     3,
-    4,
-    2,
     3,
-    1,
-    3,
-    1,
-    1,
-    1,
-    0,
-    6,
-    0,
-    8
+    7,
+    5,
+    1
   ]
 }
