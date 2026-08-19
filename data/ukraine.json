@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-19T16:52:32.458435+00:00",
-  "message_count": 358,
+  "updated_at": "2026-08-19T18:51:22.381285+00:00",
+  "message_count": 337,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,10 +13,8 @@
   ],
   "red_alerts": 65,
   "red_alerts_timeline": [
-    6,
     0,
-    0,
-    12,
+    10,
     0,
     0,
     0,
@@ -30,57 +28,59 @@
     0,
     0,
     0,
-    6,
+    5,
     0,
     0,
     0,
-    6,
-    18,
-    18
+    5,
+    15,
+    15,
+    0,
+    15
   ],
   "combined_activity_timeline": [
-    28,
-    17,
-    7,
-    10,
+    8,
+    9,
     4,
     5,
-    3,
-    7,
+    5,
+    6,
     11,
-    8,
-    10,
+    9,
+    9,
     9,
     11,
     14,
     21,
-    11,
+    10,
     22,
     27,
-    15,
-    42,
-    26,
-    12,
     16,
-    21
+    41,
+    26,
+    13,
+    16,
+    21,
+    11,
+    12
   ],
   "messages_by_channel": {
-    "@eRadarrua": 41,
-    "@kpszsu": 50,
-    "@mon1tor_ua": 38,
-    "@UkraineNow": 18,
-    "@DeepStateUA": 5,
+    "@eRadarrua": 38,
+    "@kpszsu": 49,
+    "@mon1tor_ua": 26,
+    "@UkraineNow": 20,
+    "@DeepStateUA": 3,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 182
+    "@tass_agency": 177
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/106054",
-    "kpszsu": "https://t.me/kpszsu/73443",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70445",
-    "UkraineNow": "https://t.me/UkraineNow/83546",
+    "eRadarrua": "https://t.me/eRadarrua/106077",
+    "kpszsu": "https://t.me/kpszsu/73449",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70449",
+    "UkraineNow": "https://t.me/UkraineNow/83552",
     "DeepStateUA": "https://t.me/DeepStateUA/23757",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32586",
-    "tass_agency": "https://t.me/tass_agency/391120"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32587",
+    "tass_agency": "https://t.me/tass_agency/391126"
   },
   "cited_post_urls": {
     "mon1tor_ua": "https://t.me/mon1tor_ua/70440",
@@ -90,6 +90,46 @@
     "tass_agency": "https://t.me/tass_agency/391101"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/106067",
+      "post_id": 106067,
+      "channel": "eRadarrua",
+      "ts": "2026-08-19T18:42:36+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/R7uAVgfJxkptc7p6J2SSCZkQQYKNLEysslS_Ayw74wjQa0MfGgYS8iiX2xeCxZzYS5JkgdfYWQLZC5lumwLdXji9PF3Zw6bhkeK_n-xljpWVtyHq5U-XkWLIRc0Mae-mGSr7L0Gq2-7EEl3OCCDn89EmKYRz1t1xxBIZhLs_gACU5dnwTt-cIr_b1hvnjr10Bo19bHd0d2heubJqazG5FTKy0FgnQI3JFw_tu1auonyytRq_Cq4hPcdQeLGLRIISGVXKfLgLS38Z4VJmXDtd9BJ9j4wGxISVp-KpK5a0xYXteJVhuID7FLbuiVi2VcjMjL2RG-e2Lvi63kHZC_wiNQ.jpg",
+      "companion_text_id": 106066
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83552",
+      "post_id": 83552,
+      "channel": "UkraineNow",
+      "ts": "2026-08-19T18:24:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391123",
+      "post_id": 391123,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T18:00:18+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83551",
+      "post_id": 83551,
+      "channel": "UkraineNow",
+      "ts": "2026-08-19T17:45:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/106058",
+      "post_id": 106058,
+      "channel": "eRadarrua",
+      "ts": "2026-08-19T17:23:15+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/FRPK8IVQRDLuEYaw0Gm4j1BQEYIgo6Br-MZBOOQWwc3zIgjdVkX-aAV9xyEqMpI76ZAmvGJ-aZCDt5g03g8ThIl45ytf0byTv5tSN-OgoMniftgr_ltwCxpLR2EhX7f8c2knKw5rQmK_3XTdMwBsMvMH2k1u70YwDTnpSa0Ro85I_a6chlorP0D2Z9XsomYmpDM3uIbdBEhevoNPpstnzvE8ZrOiYvLN0-l6a08R_SS4uKSZ1p_09cSrpNJqIjgY8AIgMLxw9wEnyH_OXC_KZfyKTwu2NTvIseh1HdusXUCG-ZAU1bTeAfDrjZoZzI_3k-8K7V_XiVhxqqATriNm6Q.jpg",
+      "companion_text_id": 106057
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83547",
+      "post_id": 83547,
+      "channel": "UkraineNow",
+      "ts": "2026-08-19T17:21:39+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/391120",
       "post_id": 391120,
@@ -173,69 +213,28 @@
       "post_id": 83541,
       "channel": "UkraineNow",
       "ts": "2026-08-19T13:43:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391089",
-      "post_id": 391089,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T13:24:03+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391088",
-      "post_id": 391088,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T13:20:17+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391085",
-      "post_id": 391085,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T13:12:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/106037",
-      "post_id": 106037,
-      "channel": "eRadarrua",
-      "ts": "2026-08-19T13:07:21+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/hCLmq_RZLN5cEGCzBymzdAmSy6FMqLwDEAh3AeaVCHNL3TJZhDUfwfEpsH8advIxkJpQ5r54DZWtVInq1o7wXg-X5mjDxTejA-lkK4OCKQ6X4sKRFqXh0fzrsRF1rEFuH-u9G-oK4CxhQ_h6wegpSPONNZoyLRIQeadiUXW7EqNfgFi-zBb6bXmDOcIgSFREMjMNdqEibe-idoddS0ZqDtobxpze4WKsx8HtAxE3pGqxeRjSKbHS5tYCbzQC2Qu1MMPiJBgmla0uhy9x6NmGuMaluJvTEmA87Pqky0eWiC4oOWtiSTa7ZpaIDNwr6HGt6aBPkZu4OqXCrT8yH8UNDA.jpg",
-      "companion_text_id": 106035
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/106034",
-      "post_id": 106034,
-      "channel": "eRadarrua",
-      "ts": "2026-08-19T12:52:34+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/d-FWGXzOs6zVc9OYePrc6XLXeCbYrUHT2QhI3vUeGaKcOIA6k9OEQ6Hy8oMExI0ihtFcLsMcJNByQwtY4Gl2lHYWFH9-R_wPXsuRZEbpVPSWeqGmo1Sy1gWAMpgUrXV0tpbcIG032eYZui2Dc9YJaT4St-V_hQZVmbEydatt6R4zuTQOgGqiyy-JoGyvEkKHQKUvbTzTIzU6pZa6yvRpK-lwsQYQBItzqVMtuZXAkAZr53Wp3JwZ9aIFrzxfUi-pIQN5tCE7SIk9rWsDvgF0AHd3TdkM99Vr0cjaVINiZJDc1eNp9eNX-hF8GYDCCz6hYvF8S1XLH9GWp1p9Mw80pw.jpg",
-      "companion_text_id": 106035
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391081",
-      "post_id": 391081,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T12:35:29+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/106037": "data/media/eRadarrua_106037.jpg",
-    "eRadarrua/106035": "data/media/eRadarrua_106037.jpg",
-    "eRadarrua/106016": "data/media/eRadarrua_106016.jpg",
-    "eRadarrua/106014": "data/media/eRadarrua_106016.jpg",
+    "eRadarrua/106058": "data/media/eRadarrua_106058.jpg",
+    "eRadarrua/106057": "data/media/eRadarrua_106058.jpg",
+    "eRadarrua/106067": "data/media/eRadarrua_106067.jpg",
+    "eRadarrua/106066": "data/media/eRadarrua_106067.jpg",
     "eRadarrua/106020": "data/media/eRadarrua_106020.jpg",
     "eRadarrua/106019": "data/media/eRadarrua_106020.jpg",
     "eRadarrua/106034": "data/media/eRadarrua_106034.jpg",
-    "eRadarrua/105996": "data/media/eRadarrua_105996.jpg",
-    "eRadarrua/105995": "data/media/eRadarrua_105996.jpg",
+    "eRadarrua/106035": "data/media/eRadarrua_106034.jpg",
+    "eRadarrua/106037": "data/media/eRadarrua_106037.jpg",
     "eRadarrua/105998": "data/media/eRadarrua_105998.jpg",
     "eRadarrua/105997": "data/media/eRadarrua_105998.jpg",
     "eRadarrua/106002": "data/media/eRadarrua_106002.jpg",
     "eRadarrua/106003": "data/media/eRadarrua_106002.jpg",
     "eRadarrua/106007": "data/media/eRadarrua_106007.jpg",
     "eRadarrua/106008": "data/media/eRadarrua_106007.jpg",
-    "eRadarrua/105980": "data/media/eRadarrua_105980.jpg",
-    "eRadarrua/105981": "data/media/eRadarrua_105981.jpg",
-    "eRadarrua/105994": "data/media/eRadarrua_105994.jpg",
-    "eRadarrua/105970": "data/media/eRadarrua_105970.jpg",
-    "eRadarrua/105971": "data/media/eRadarrua_105971.jpg",
+    "eRadarrua/106016": "data/media/eRadarrua_106016.jpg",
+    "eRadarrua/106014": "data/media/eRadarrua_106016.jpg",
+    "eRadarrua/105996": "data/media/eRadarrua_105996.jpg",
+    "eRadarrua/105995": "data/media/eRadarrua_105996.jpg",
     "kpszsu/73403": "data/media/kpszsu_73403.jpg",
     "kpszsu/73402": "data/media/kpszsu_73403.jpg"
   },
@@ -332,12 +331,11 @@
     "regional_response": "Ukrainian authorities have issued air raid alerts for Kyiv microdistricts, while the Air Force has intensified strikes on enemy positions in Druzhkovka. The British government has reaffirmed its commitment to supporting Ukraine, dismissing Russian threats as politically motivated. Russian officials have continued to frame their military actions as defensive, despite targeting civilian and commercial infrastructure.",
     "intelligence_notes": "The Russian military's focus on Kyiv and Kyiv Oblast suggests a renewed effort to destabilize the capital, potentially in preparation for a larger offensive. The use of hypersonic and long-range missiles indicates a shift toward more advanced weaponry. Ukrainian forces' reported advances near Kalynivka and Tsvitkove highlight the fluidity of the frontlines. The British government's military support for Ukraine, including drone deliveries, has become a focal point of Russian propaganda and threats."
   },
+  "stale_summary": true,
   "missiles": 0,
   "drones": 65,
   "kpszsu_timeline": [
-    4,
     1,
-    0,
     1,
     0,
     1,
@@ -357,6 +355,8 @@
     7,
     6,
     0,
+    1,
+    3,
     1,
     3
   ]
