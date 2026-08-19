@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-19T14:48:31.326328+00:00",
-  "message_count": 413,
+  "updated_at": "2026-08-19T16:52:32.458435+00:00",
+  "message_count": 358,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,12 +13,10 @@
   ],
   "red_alerts": 65,
   "red_alerts_timeline": [
-    16,
-    8,
-    8,
+    6,
     0,
     0,
-    16,
+    12,
     0,
     0,
     0,
@@ -32,64 +30,120 @@
     0,
     0,
     0,
-    8,
+    6,
     0,
     0,
     0,
-    8
+    6,
+    18,
+    18
   ],
   "combined_activity_timeline": [
-    51,
-    40,
-    27,
-    19,
-    8,
+    28,
+    17,
+    7,
     10,
     4,
     5,
-    4,
-    5,
-    12,
-    8,
-    8,
+    3,
+    7,
     11,
+    8,
+    10,
+    9,
     11,
     14,
-    19,
+    21,
     11,
-    23,
+    22,
+    27,
+    15,
+    42,
     26,
-    18,
-    39,
-    26,
-    12
+    12,
+    16,
+    21
   ],
   "messages_by_channel": {
-    "@eRadarrua": 56,
-    "@kpszsu": 56,
-    "@mon1tor_ua": 72,
-    "@UkraineNow": 19,
+    "@eRadarrua": 41,
+    "@kpszsu": 50,
+    "@mon1tor_ua": 38,
+    "@UkraineNow": 18,
     "@DeepStateUA": 5,
-    "@ukr_leaks_eng": 23,
+    "@ukr_leaks_eng": 24,
     "@tass_agency": 182
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/106042",
-    "kpszsu": "https://t.me/kpszsu/73437",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70441",
-    "UkraineNow": "https://t.me/UkraineNow/83541",
-    "DeepStateUA": "https://t.me/DeepStateUA/23755",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32581",
-    "tass_agency": "https://t.me/tass_agency/391101"
+    "eRadarrua": "https://t.me/eRadarrua/106054",
+    "kpszsu": "https://t.me/kpszsu/73443",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70445",
+    "UkraineNow": "https://t.me/UkraineNow/83546",
+    "DeepStateUA": "https://t.me/DeepStateUA/23757",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32586",
+    "tass_agency": "https://t.me/tass_agency/391120"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32568",
-    "kpszsu": "https://t.me/kpszsu/73403",
-    "eRadarrua": "https://t.me/eRadarrua/106003",
-    "tass_agency": "https://t.me/tass_agency/391070",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70429"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70440",
+    "DeepStateUA": "https://t.me/DeepStateUA/23757",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32562",
+    "eRadarrua": "https://t.me/eRadarrua/106043",
+    "tass_agency": "https://t.me/tass_agency/391101"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/391120",
+      "post_id": 391120,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T16:47:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391117",
+      "post_id": 391117,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T16:16:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32584",
+      "post_id": 32584,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-19T16:04:04+00:00"
+    },
+    {
+      "post_url": "https://t.me/DeepStateUA/23756",
+      "post_id": 23756,
+      "channel": "DeepStateUA",
+      "ts": "2026-08-19T16:01:49+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391114",
+      "post_id": 391114,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T15:54:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391111",
+      "post_id": 391111,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T15:39:22+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391105",
+      "post_id": 391105,
+      "channel": "tass_agency",
+      "ts": "2026-08-19T15:07:14+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/32582",
+      "post_id": 32582,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-08-19T15:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83542",
+      "post_id": 83542,
+      "channel": "UkraineNow",
+      "ts": "2026-08-19T14:44:19+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/32581",
       "post_id": 32581,
@@ -159,188 +213,137 @@
       "post_id": 391081,
       "channel": "tass_agency",
       "ts": "2026-08-19T12:35:29+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32576",
-      "post_id": 32576,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-19T12:32:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/106020",
-      "post_id": 106020,
-      "channel": "eRadarrua",
-      "ts": "2026-08-19T12:22:15+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/l1S1kCdHS27KDBdG77GEO56e6weVgAGF9kEuJTon_rGQxLSK7CCK-s9hoqL5eh3kpy5WXNKMw3ro_tkreYT2633EJrvkYDfpKM41zMkfKifKYnYQR4azqhxAVj0jPACsTeqHT2YFRZZnK-6-Jrta18yerZiPzY-3NmxsGMuNcnGspt3qVayvmFlN1d8RaKicBVYRbPHchdv3DdhBBfiBs4LkQWOFNeoQJpS3Y0t5UWVLyrcy1HutsyzalMJtpy5GL4U6LVzemo8_Ovc4F63uvXb9d8BkXynfcFQiHzN8CinX6vZqi3wP2FefuVD6mzkbZL0XOZMf53SLerqyDCTXRg.jpg",
-      "companion_text_id": 106019
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391068",
-      "post_id": 391068,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T12:11:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32575",
-      "post_id": 32575,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-19T12:04:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391067",
-      "post_id": 391067,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T11:57:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391061",
-      "post_id": 391061,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T11:28:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391060",
-      "post_id": 391060,
-      "channel": "tass_agency",
-      "ts": "2026-08-19T11:22:51+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/106016",
-      "post_id": 106016,
-      "channel": "eRadarrua",
-      "ts": "2026-08-19T11:11:46+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/O_Ekte-yAW37MWqaPnSoYH5pdO6QITgSlL4wjBDcIfb1Fmjo1NXLp_WazszGTwugJtX_oWm3okKIppbh2r6j6JG3_sUMYIdMDOpdWJY8U5B0ITCQhR19r6cBgpOWDbnAXSkYbYFEawzSJSamOQVYRhcBve76N9I7eMidFRduLeoKK5Dp7Tyz9JBkopuKcOqFvA_8rg390DqsMTitnRFVYPbw3fV6cJTCfD9zzuoGNZEfZEYq7UHPmlwRFWkGoFnncwhqMoHXtTju4FZmASaZ3_Mu2fnE7wq3lcyocUzbeaGqpLMt_tHvSw5jSlzTYIBVHbRrTrA8o_4NgFRbYE8GQQ.jpg",
-      "companion_text_id": 106014
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83538",
-      "post_id": 83538,
-      "channel": "UkraineNow",
-      "ts": "2026-08-19T11:05:59+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/106034": "data/media/eRadarrua_106034.jpg",
-    "eRadarrua/106035": "data/media/eRadarrua_106034.jpg",
     "eRadarrua/106037": "data/media/eRadarrua_106037.jpg",
-    "eRadarrua/106007": "data/media/eRadarrua_106007.jpg",
-    "eRadarrua/106008": "data/media/eRadarrua_106007.jpg",
+    "eRadarrua/106035": "data/media/eRadarrua_106037.jpg",
     "eRadarrua/106016": "data/media/eRadarrua_106016.jpg",
     "eRadarrua/106014": "data/media/eRadarrua_106016.jpg",
     "eRadarrua/106020": "data/media/eRadarrua_106020.jpg",
     "eRadarrua/106019": "data/media/eRadarrua_106020.jpg",
-    "eRadarrua/105994": "data/media/eRadarrua_105994.jpg",
-    "eRadarrua/105995": "data/media/eRadarrua_105994.jpg",
+    "eRadarrua/106034": "data/media/eRadarrua_106034.jpg",
     "eRadarrua/105996": "data/media/eRadarrua_105996.jpg",
+    "eRadarrua/105995": "data/media/eRadarrua_105996.jpg",
     "eRadarrua/105998": "data/media/eRadarrua_105998.jpg",
     "eRadarrua/105997": "data/media/eRadarrua_105998.jpg",
     "eRadarrua/106002": "data/media/eRadarrua_106002.jpg",
     "eRadarrua/106003": "data/media/eRadarrua_106002.jpg",
-    "eRadarrua/105961": "data/media/eRadarrua_105961.jpg",
-    "eRadarrua/105970": "data/media/eRadarrua_105970.jpg",
-    "eRadarrua/105971": "data/media/eRadarrua_105971.jpg",
+    "eRadarrua/106007": "data/media/eRadarrua_106007.jpg",
+    "eRadarrua/106008": "data/media/eRadarrua_106007.jpg",
     "eRadarrua/105980": "data/media/eRadarrua_105980.jpg",
     "eRadarrua/105981": "data/media/eRadarrua_105981.jpg",
-    "eRadarrua/105941": "data/media/eRadarrua_105941.jpg",
-    "eRadarrua/105940": "data/media/eRadarrua_105941.jpg",
+    "eRadarrua/105994": "data/media/eRadarrua_105994.jpg",
+    "eRadarrua/105970": "data/media/eRadarrua_105970.jpg",
+    "eRadarrua/105971": "data/media/eRadarrua_105971.jpg",
     "kpszsu/73403": "data/media/kpszsu_73403.jpg",
     "kpszsu/73402": "data/media/kpszsu_73403.jpg"
   },
-  "summary": "On August 19, 2026, Russia launched its largest drone barrage of the war, with over 1,600 UAVs shot down in 24 hours, followed by overnight attacks across multiple regions including Moscow, Sevastopol, and Yaroslavl. Ukrainian forces reported continued advances in the Donetsk and Zaporizhzhia directions, claiming liberation of Krasnopollye and Orekhovtka in the DPR. A major power outage struck Moscow after a substation explosion, disrupting internet infrastructure and causing widespread blackouts across central districts.",
+  "summary": "Russia plans a large-scale attack on Kyiv and Kyiv Oblast using up to 40 H-101 cruise missiles, 20 Iskander-M ballistic missiles, 8 Kalibr cruise missiles, 6 Zircon hypersonic missiles, and 6 Iskander-K cruise missiles. Kyiv microdistricts and industrial sites are prioritized targets. Ukrainian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @mon1tor_ua/70440)",
   "key_points": [
-    "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions (Source: @ukr_leaks_eng/32568)",
-    "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones (Source: @kpszsu/73403)",
-    "Russia's strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
-    "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
-    "A major power outage hit Moscow after a substation explosion, affecting central districts and disrupting internet infrastructure (Source: @eRadarrua/105996)",
-    "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)",
-    "Former Ukrainian Defense Minister Mikhail Fedorov declared opposition to Zelensky, demanding immediate elections and calling for a new government (Source: @ukr_leaks_eng/32581)"
+    "Russia plans a large-scale attack on Kyiv and Kyiv Oblast using up to 40 H-101 cruise missiles, 20 Iskander-M ballistic missiles, 8 Kalibr cruise missiles, 6 Zircon hypersonic missiles, and 6 Iskander-K cruise missiles. (Source: @mon1tor_ua/70440)",
+    "Kyiv microdistricts including Kozyubynske, Sviatoshyn, and Darnytsia face heightened threat levels. (Source: @mon1tor_ua/70440)",
+    "Ukrainian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+    "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+    "British defense minister confirms continued support for Ukraine despite Russian threats over drone deliveries. (Source: @eRadarrua/106043)",
+    "Russian Ministry of Defense claims liberation of Krasnopolye and Orekhovtka in DPR. (Source: @tass_agency/391101)",
+    "Ukrainian anti-corruption authorities dismiss Iryna Mudraya amid corruption investigations. (Source: @ukr_leaks_eng/32577)"
   ],
-  "sentiment": "escalating",
-  "intensity": 9,
+  "sentiment": "volatile",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "On August 19, 2026, Russia launched its largest drone barrage of the war, with over 1,600 UAVs shot down in 24 hours, followed by overnight attacks across multiple regions including Moscow, Sevastopol, and Yaroslavl. Ukrainian forces reported continued advances in the Donetsk and Zaporizhzhia directions, claiming liberation of Krasnopollye and Orekhovtka in the DPR. A major power outage struck Moscow after a substation explosion, disrupting internet infrastructure and causing widespread blackouts across central districts.",
+    "executive_summary": "Russia plans a large-scale attack on Kyiv and Kyiv Oblast using up to 40 H-101 cruise missiles, 20 Iskander-M ballistic missiles, 8 Kalibr cruise missiles, 6 Zircon hypersonic missiles, and 6 Iskander-K cruise missiles. Kyiv microdistricts and industrial sites are prioritized targets. Ukrainian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @mon1mor_ua/70440)",
     "ukraine": {
       "points": [
-        "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones launched from multiple directions (Source: @kpszsu/73403)",
-        "A massive power outage struck Moscow after a substation explosion, affecting central districts and disrupting internet infrastructure across Russia (Source: @eRadarrua/105996)",
-        "Former Ukrainian Defense Minister Mikhail Fedorov declared opposition to Zelensky, demanding immediate elections and calling for a new government (Source: @ukr_leaks_eng/32581)",
-        "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)",
-        "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
-        "A Ukrainian citizen was arrested in Croatia, suspected of being linked to the Nord Stream pipeline sabotage in September 2022 (Source: @ukr_leaks_eng/32575)"
+        "Ukrainian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+        "Ukrainian anti-corruption authorities dismiss Iryna Mudraya amid corruption investigations. (Source: @ukr_leaks_eng/32577)",
+        "Russian Ministry of Defense claims liberation of Krasnopolye and Orekhovtka in DPR. (Source: @tass_agency/391101)",
+        "Ukrainian Air Force uses FABs to destroy multi-story buildings in Druzhkovka. (Source: @tass_agency/391101)",
+        "Russian attacks on Ukrainian cities injure 17 civilians and kill one in Energodar. (Source: @tass_agency/391101)",
+        "Ukrainian forces report increased use of heavy drones by enemy units in Kharkov area. (Source: @tass_agency/391101)"
       ]
     },
     "russia": {
       "points": [
-        "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions (Source: @ukr_leaks_eng/32568)",
-        "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
-        "Russian forces continue tightening control in the Donetsk and Zaporizhzhia directions, with reports of forward units entering settlements near Orekhov (Source: @ukr_leaks_eng/32568)",
-        "Russian Air Force is using FABs to destroy multi-story buildings in Druzhkovka where Ukrainian positions have been detected (Source: @ukr_leaks_eng/32568)",
-        "Russian Ministry of Defense claims liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
-        "Russian President Putin stated that Russia's GDP growth in 2026 is around 1% (Source: @tass_agency/391070)"
+        "Russian Ministry of Defense claims liberation of Krasnopolye and Orekhovtka in DPR. (Source: @tass_agency/391101)",
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+        "Russian officials threaten consequences for British drone deliveries to Ukraine. (Source: @eRadarrua/106043)",
+        "Russian attacks on Ukrainian cities injure 17 civilians and kill one in Energodar. (Source: @tass_agency/391101)",
+        "Russian officials report 103 Ukrainian soldiers returned from captivity. (Source: @ukr_leaks_eng/32572)",
+        "Russian officials claim 103 Ukrainian soldiers returned from captivity. (Source: @ukr_leaks_eng/32572)",
+        "Russian officials report 103 Ukrainian soldiers returned from captivity. (Source: @ukr_leaks_eng/32572)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
-        "On the Zaporozhye front, units of the 42nd Guards Motor Rifle Division are destroying enemy movements between Orekhov and Novopavlovka with artillery and drone strikes (Source: @ukr_leaks_eng/32568)",
-        "Reports indicate Russian forward units are entering settlements near Orekhov, while Ukrainian positions remain active in the area (Source: @ukr_leaks_eng/32568)",
-        "In the DPR, Russian forces continue offensive operations with claims of territorial gains in Krasnopollye and Orekhovtka (Source: @ukr_leaks_eng/32568)",
-        "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)"
+        "Russian forces continue fighting along the Sumy and Kharkov directions. (Source: @tass_agency/391101)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)"
       ]
     },
     "northern_front": {
       "points": [
-        "In the Bryansk region, drone attacks injured residents in the villages of Zapesochye and Pervomaysky in the Pogarsky district (Source: @ukr_leaks_eng/32568)",
-        "In the Sumy and Kharkov directions, the 'Sever' group is engaged in fighting along the same lines, with increased use of heavy drones by enemy units (Source: @ukr_leaks_eng/32568)",
-        "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones (Source: @kpszsu/73403)",
-        "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)"
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)"
       ]
     },
     "southern_front": {
       "points": [
-        "Southeast of Odessa, a cargo ship was hit during the day, with reports of several explosions in Odessa and Chornomorsk at night (Source: @ukr_leaks_eng/32568)",
-        "On the Zaporozhye front, units of the 42nd Guards Motor Rifle Division are destroying enemy movements between Orekhov and Novopavlovka with artillery and drone strikes (Source: @ukr_leaks_eng/32568)",
-        "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)",
-        "Most of the Zaporozhye region remains without electricity following recent combat operations (Source: @ukr_leaks_eng/32568)"
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+        "Russian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)"
       ]
     },
     "air_war": {
       "points": [
-        "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones (Source: @kpszsu/73403)",
-        "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions (Source: @ukr_leaks_eng/32568)",
-        "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
-        "Ukrainian air defenses intercepted four cruise missiles targeting Zhytomyr overnight (Source: @mon1tor_ua/70429)",
-        "A Geran-type missile reached the Rivne region for the first time, over 900 km from its launch point (Source: @ukr_leaks_eng/32568)"
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+        "Russian attacks on Ukrainian cities injure 17 civilians and kill one in Energodar. (Source: @tass_agency/391101)",
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+        "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)"
       ]
     },
     "key_developments": [
-      "Russia launched over 1,600 UAVs in 24 hours, the largest drone barrage since the war began, with attacks reported across multiple regions including Moscow, Sevastopol, and Yaroslavl (Source: @ukr_leaks_eng/32568)",
-      "Ukrainian air defenses shot down or suppressed 58 enemy targets overnight, including two Iskander-M ballistic missiles and 65 Shahed drones launched from multiple directions (Source: @kpszsu/73403)",
-      "Russian strategic aviation is relocating Tu-95MS bombers to airfields 'Olenya' and 'Engels', preparing for a mass missile strike on Ukraine within days (Source: @eRadarrua/106003)",
-      "Ukrainian forces claim liberation of Krasnopollye and Orekhovtka in the Donetsk People's Republic (Source: @ukr_leaks_eng/32568)",
-      "A major power outage struck Moscow after a substation explosion, affecting central districts and disrupting internet infrastructure across Russia (Source: @eRadarrua/105996)",
-      "Former Ukrainian Defense Minister Mikhail Fedorov declared opposition to Zelensky, demanding immediate elections and calling for a new government (Source: @ukr_leaks_eng/32581)",
-      "Ukrainian MP Yaroslav Kondrakhin was killed in a drone strike near a public transport stop in Energodar, Zaporizhzhia region (Source: @ukr_leaks_eng/32568)"
+      "Russia plans a large-scale attack on Kyiv and Kyiv Oblast using up to 40 H-101 cruise missiles, 20 Iskander-M ballistic missiles, 8 Kalibr cruise missiles, 6 Zircon hypersonic missiles, and 6 Iskander-K cruise missiles. (Source: @mon1mor_ua/70440)",
+      "Kyiv microdistricts including Kozyubynske, Sviatoshyn, and Darnytsia face heightened threat levels. (Source: @mon1mor_ua/70440)",
+      "Ukrainian forces report enemy advances near Kalynivka and Tsvitkove. (Source: @DeepStateUA/23757)",
+      "Russian attacks on Ukrainian ports and logistics have caused $500 million in damages to businesses. (Source: @ukr_leaks_eng/32562)",
+      "British defense minister confirms continued support for Ukraine despite Russian threats over drone deliveries. (Source: @eRadarrua/106043)",
+      "Russian Ministry of Defense claims liberation of Krasnopolye and Orekhovtka in DPR. (Source: @tass_agency/391101)",
+      "Ukrainian anti-corruption authorities dismiss Iryna Mudraya amid corruption investigations. (Source: @ukr_leaks_eng/32577)"
     ],
-    "threat_assessment": "The situation is rapidly escalating with Russia preparing a mass missile strike using strategic aviation, including up to 40 Kh-101 cruise missiles, 20 Iskander-M ballistic missiles, and 6 hypersonic Zircon missiles. Ukrainian air defenses face an unprecedented volume of attacks, with over 1,600 drones launched in 24 hours. Internal political tensions in Ukraine are rising with former Defense Minister Fedorov declaring opposition to Zelensky. The power outage in Moscow demonstrates Russia's vulnerability to infrastructure attacks. The conflict is entering a critical phase with both sides escalating their operational tempo.",
-    "regional_response": "Ukrainian air defenses are actively intercepting Russian drone and missile attacks across multiple regions, with successful shoot-downs reported in Kyiv, Zhytomyr, and other areas. The Ukrainian government continues to receive military support from Western allies, with Britain reaffirming its commitment to Ukraine's defense. Regional authorities in Russia are reporting civilian casualties from drone attacks in Belgorod, Bryansk, and Kursk regions. The European Union and NATO allies are monitoring the escalation closely, with potential implications for regional security. Cross-border attacks continue to affect civilian populations on both sides.",
-    "intelligence_notes": "Russian military intelligence appears to be coordinating a multi-domain attack campaign involving drones, missiles, and strategic aviation. The relocation of Tu-95MS bombers suggests preparation for a significant offensive operation within the next 48 hours. Ukrainian forces are leveraging drone warfare effectively, with Geran-type missiles reaching targets over 900 km from launch points. Political instability within Ukraine is evident with high-profile defections and public declarations of opposition. Infrastructure targeting on both sides indicates a shift toward strategic disruption campaigns. The involvement of Western-supplied weapons and systems is becoming more pronounced in recent engagements."
+    "threat_assessment": "Russia's planned multi-wave missile attack on Kyiv and Kyiv Oblast represents a significant escalation, targeting critical infrastructure and industrial sites. The use of hypersonic Zircon and Iskander-K missiles suggests increased tactical sophistication. Ukrainian forces' reported advances near Kalynivka and Tsvitkove indicate ongoing frontline instability. The British government's continued military support for Ukraine, including drone deliveries, has provoked Russian threats of retaliation, further complicating the security landscape.",
+    "regional_response": "Ukrainian authorities have issued air raid alerts for Kyiv microdistricts, while the Air Force has intensified strikes on enemy positions in Druzhkovka. The British government has reaffirmed its commitment to supporting Ukraine, dismissing Russian threats as politically motivated. Russian officials have continued to frame their military actions as defensive, despite targeting civilian and commercial infrastructure.",
+    "intelligence_notes": "The Russian military's focus on Kyiv and Kyiv Oblast suggests a renewed effort to destabilize the capital, potentially in preparation for a larger offensive. The use of hypersonic and long-range missiles indicates a shift toward more advanced weaponry. Ukrainian forces' reported advances near Kalynivka and Tsvitkove highlight the fluidity of the frontlines. The British government's military support for Ukraine, including drone deliveries, has become a focal point of Russian propaganda and threats."
   },
   "missiles": 0,
   "drones": 65,
   "kpszsu_timeline": [
-    6,
     4,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    2,
     5,
-    1,
-    0,
-    1,
-    0,
-    1,
-    0,
-    1,
-    6,
     1,
     3,
     1,
@@ -349,10 +352,12 @@
     2,
     1,
     0,
-    3,
-    3,
+    4,
+    2,
     7,
-    5,
-    1
+    6,
+    0,
+    1,
+    3
   ]
 }
