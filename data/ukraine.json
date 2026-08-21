@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-21T08:53:04.350158+00:00",
-  "message_count": 391,
+  "updated_at": "2026-08-21T10:42:35.612954+00:00",
+  "message_count": 354,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,81 +14,89 @@
   "red_alerts": 135,
   "red_alerts_timeline": [
     0,
-    14,
     0,
     0,
     0,
-    14,
+    15,
     0,
     0,
-    0,
-    40,
-    14,
-    0,
-    0,
-    0,
-    0,
-    14,
+    45,
+    15,
     0,
     0,
     0,
     0,
-    14,
-    14,
-    14,
+    0,
+    15,
+    0,
+    0,
+    0,
+    15,
+    0,
+    30,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    46,
-    25,
+    13,
+    20,
+    15,
+    45,
+    20,
+    23,
+    37,
+    20,
+    9,
+    2,
     12,
-    19,
-    18,
-    44,
-    21,
-    35,
-    24,
-    19,
-    7,
     4,
-    10,
-    4,
+    2,
+    9,
+    2,
+    8,
     5,
     8,
-    2,
-    7,
-    4,
-    9,
-    15,
+    14,
+    14,
     16,
-    19,
-    18
+    22,
+    16,
+    15
   ],
   "messages_by_channel": {
-    "@eRadarrua": 72,
-    "@kpszsu": 79,
-    "@mon1tor_ua": 72,
-    "@UkraineNow": 19,
+    "@eRadarrua": 61,
+    "@kpszsu": 72,
+    "@mon1tor_ua": 50,
+    "@UkraineNow": 18,
     "@DeepStateUA": 2,
-    "@ukr_leaks_eng": 25,
-    "@tass_agency": 122
+    "@ukr_leaks_eng": 26,
+    "@tass_agency": 125
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/106503",
-    "kpszsu": "https://t.me/kpszsu/73733",
+    "eRadarrua": "https://t.me/eRadarrua/106505",
+    "kpszsu": "https://t.me/kpszsu/73744",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70857",
-    "UkraineNow": "https://t.me/UkraineNow/83584",
+    "UkraineNow": "https://t.me/UkraineNow/83585",
     "DeepStateUA": "https://t.me/DeepStateUA/23759",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32626",
-    "tass_agency": "https://t.me/tass_agency/391347"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32634",
+    "tass_agency": "https://t.me/tass_agency/391364"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83581",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70850",
-    "tass_agency": "https://t.me/tass_agency/391312",
-    "eRadarrua": "https://t.me/eRadarrua/106493"
+    "UkraineNow": "https://t.me/UkraineNow/83579",
+    "tass_agency": "https://t.me/tass_agency/391350",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70844",
+    "eRadarrua": "https://t.me/eRadarrua/106487",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32612",
+    "kpszsu": "https://t.me/kpszsu/73710"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/391349",
+      "post_id": 391349,
+      "channel": "tass_agency",
+      "ts": "2026-08-21T09:01:02+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/32626",
       "post_id": 32626,
@@ -220,12 +228,6 @@
       "post_id": 83579,
       "channel": "UkraineNow",
       "ts": "2026-08-21T05:15:07+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32619",
-      "post_id": 32619,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-21T05:03:56+00:00"
     }
   ],
   "post_images": {
@@ -257,110 +259,112 @@
     "kpszsu/73699": "data/media/kpszsu_73699.jpg",
     "kpszsu/73698": "data/media/kpszsu_73699.jpg"
   },
-  "summary": "Russian forces conducted a large-scale coordinated strike on the Odesa border crossing with Moldova on the night of August 21, damaging the Shahadym checkpoint and suspending movement of personnel and transport. Simultaneously, a systematic campaign targeted Ukrainian civilian infrastructure including oil refineries, supermarket distribution networks, and retail warehouses across multiple regions. A massive drone offensive on August 20 killed 15 people in Kyiv, marking escalating attacks on critical urban centers.",
+  "summary": "Russian forces conducted extensive missile and drone attacks across multiple Ukrainian regions overnight, targeting infrastructure and populated areas. Ukrainian air defenses reportedly intercepted numerous threats while Russian media claimed successful strikes on Ukrainian military positions. Multiple civilian casualties were reported from attacks on infrastructure in several regions.",
   "key_points": [
-    "On the night of August 21, Russian forces launched a coordinated assault on the international border crossing with Moldova, damaging the Shahadym checkpoint in Bolgrad and Izmayil districts of Odesa Oblast while suspending movement of personnel and transport (Source: @UkraineNow/83581).",
-    "A systematic campaign has targeted Ukrainian civilian infrastructure, including the KLO oil refinery, major supermarket distribution networks, craft freeze warehouses, and French retail facilities, resulting in widespread property destruction across multiple regions (Source: @UkraineNow/83571).",
-    "A massive drone strike on August 20 killed 15 people in the Holosievsky district of Kyiv, marking a significant escalation in attacks on critical urban centers following earlier combined assaults on the capital (Source: @UkraineNow/83578).",
-    "Repeated Shakhad missile attacks have struck multiple locations along the Kharkiv direction, including Vishgorod, Pogrebys, and Shevchenkove, demonstrating persistent aerial aggression toward northern Ukrainian territory (Source: @mon1tor_ua/70850).",
-    "Russian aviation successfully destroyed Soviet-era underground tunnels in Orekhovo that had been used for motorized vehicle transport, disrupting potential logistical routes within the front line (Source: @tass_agency/391312).",
-    "Over 100 Shakhad-type unmanned aerial vehicles were reportedly intercepted across northern and central Ukraine, indicating intensified defensive responses and ongoing drone warfare operations (Source: @mon1tor_ua/70853).",
-    "Drone activity has expanded into southern regions such as Zaporizhzhia and Kherson, with multiple groups targeting coastal areas and industrial zones under sustained bombardment (Source: @eRadarrua/106493)."
+    "Russian forces launched over 1,000 strikes across 51 populated areas in Zaporizhzhia region overnight, resulting in four civilian casualties (Source: @UkraineNow/83579).",
+    "Ukrainian pilots from 'Khortytsia' destroyed 630 enemy targets in the first half of August, including 469 aircraft-type drones and 161 helicopter drones over Zaporizhzhia (Source: @UkraineNow/83583).",
+    "Russian Aerospace Forces used air bombs to destroy Ukrainian military positions in Kramatorsk, Raigorodke and Kherson (Source: @tass_agency/391350).",
+    "Ukrainian air defenses intercepted multiple Russian Shahed drones targeting various locations including Holosiivka/Teremky, Rusanivka, Vokzal, Troieshchyna, Zhukany, Obukhiv/UKrainka, Vyshgorod/ Pogrebky, and other areas (Source: @mon1tor_ua/70844, @mon1tor_ua/70839, @mon1tor_ua/70822, @mon1tor_ua/70849, @mon1tor_ua/70838, @mon1tor_ua/70845, @mon1tor_ua/70842, @mon1tor_ua/70846).",
+    "Russian forces struck the port of Reni, destroying Ukrainian ammunition and military equipment storage facilities (Source: @tass_agency/391325).",
+    "Ukrainian drones successfully attacked a major Lukoil fuel processing plant in Perm, Russia causing it to suspend operations (Source: @eRadarrua/106487).",
+    "Russian attacks on Sumy region resulted in six confirmed injuries, including a 16-year-old girl (Source: @UkraineNow/83579)."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted a large-scale coordinated strike on the Odesa border crossing with Moldova on the night of August 21, damaging the Shahadym checkpoint and suspending movement of personnel and transport. Simultaneously, a systematic campaign targeted Ukrainian civilian infrastructure including oil refineries, supermarket distribution networks, and retail warehouses across multiple regions. A massive drone offensive on August 20 killed 15 people in Kyiv, marking escalating attacks on critical urban centers.",
+    "executive_summary": "Russian forces conducted massive overnight missile and drone attacks across multiple Ukrainian regions, targeting infrastructure and populated areas. Ukrainian air defenses reportedly intercepted numerous threats while Russian media claimed successful strikes on Ukrainian military positions. Multiple civilian casualties were reported from attacks on infrastructure in several regions.",
     "ukraine": {
       "points": [
-        "On the night of August 21, Russian forces launched a coordinated assault on the international border crossing with Moldova, damaging the Shahadym checkpoint in Bolgrad and Izmayil districts of Odesa Oblast while suspending movement of personnel and transport.",
-        "A systematic campaign has targeted Ukrainian civilian infrastructure, including the KLO oil refinery, major supermarket distribution networks, craft freeze warehouses, and French retail facilities, resulting in widespread property destruction across multiple regions.",
-        "A massive drone strike on August 20 killed 15 people in the Holosievsky district of Kyiv, marking a significant escalation in attacks on critical urban centers following earlier combined assaults on the capital.",
-        "Repeated Shakhad missile attacks have struck multiple locations along the Kharkiv direction, including Vishgorod, Pogrebys, and Shevchenkove, demonstrating persistent aerial aggression toward northern Ukrainian territory.",
-        "Russian aviation successfully destroyed Soviet-era underground tunnels in Orekhovo that had been used for motorized vehicle transport, disrupting potential logistical routes within the front line.",
-        "Over 100 Shakhad-type unmanned aerial vehicles were reportedly intercepted across northern and central Ukraine, indicating intensified defensive responses and ongoing drone warfare operations."
+        "Ukrainian air defenses successfully intercepted multiple Russian Shahed drones targeting civilian infrastructure in Kyiv and surrounding areas including Holosiivka/Teremky, Rusanivka, Vokzal, Troieshchyna, Zhukany, Obukhiv/UKrainka, Vyshgorod/Pogrebky, and other locations (Source: @mon1tor_ua/70844, @mon1tor_ua/70839, @mon1tor_ua/70822, @mon1tor_ua/70849, @mon1tor_ua/70838, @mon1tor_ua/70845, @mon1tor_ua/70842, @mon1tor_ua/70846).",
+        "Ukrainian pilots from 'Khortytsia' air defense unit destroyed 630 enemy targets in the first half of August 2026, including 469 aircraft-type drones and 161 helicopter drones over Zaporizhzhia region (Source: @UkraineNow/83583).",
+        "A fire broke out in Kyiv's Holosiivskyi district following a drone attack, resulting in one injured person (Source: @UkraineNow/83576).",
+        "Ukrainian MP Kozyr warned of difficult winter conditions for residents of high-rise buildings in Kyiv due to destroyed thermal power plants that cannot be restored quickly (Source: @ukr_leaks_eng/32612).",
+        "Ukrainian Defense Intelligence estimates Russian forces possess over 600 'Oniks' missiles, more than 450 'Kalibr' missiles, over 120 'Zirkon' missiles, approximately 130 'Iskander-M' system missiles, and hundreds of other missile types (Source: @ukr_leaks_eng/32604).",
+        "Ukrainian citizens represent the largest group of illegal entry attempts into Germany, with 7,515 cases detected from May 2025 to August 2026, followed by Afghanistan (4,842) and Turkey (4,834) (Source: @ukr_leaks_eng/32632)."
       ]
     },
     "russia": {
       "points": [
-        "Russian forces conducted a large-scale coordinated strike on the Odesa border crossing with Moldova on the night of August 21, damaging the Shahadym checkpoint in Bolgrad and Izmayil districts of Odesa Oblast while suspending movement of personnel and transport.",
-        "A systematic campaign has targeted Ukrainian civilian infrastructure, including the KLO oil refinery, major supermarket distribution networks, craft freeze warehouses, and French retail facilities, resulting in widespread property destruction across multiple regions.",
-        "Repeated Shakhad missile attacks have struck multiple locations along the Kharkiv direction, including Vishgorod, Pogrebys, and Shevchenkove, demonstrating persistent aerial aggression toward northern Ukrainian territory.",
-        "Russian aviation successfully destroyed Soviet-era underground tunnels in Orekhovo that had been used for motorized vehicle transport, disrupting potential logistical routes within the front line.",
-        "Over 100 Shakhad-type unmanned aerial vehicles were reportedly intercepted across northern and central Ukraine, indicating intensified defensive responses and ongoing drone warfare operations."
+        "Russian Aerospace Forces used air bombs to destroy Ukrainian military positions in Kramatorsk, Raigorodke and Kherson, with video evidence published by Russian Ministry of Defense (Source: @tass_agency/391350).",
+        "Russian forces struck the port of Reni, destroying Ukrainian ammunition storage facilities, military equipment, and other property (Source: @tass_agency/391325).",
+        "Ukrainian drones successfully attacked a major Lukoil fuel processing plant in Perm, causing it to suspend operations after previous spring and June long-range drone attacks (Source: @eRadarrua/106487).",
+        "Russian attacks on Sumy region resulted in six confirmed injuries, including a 16-year-old girl (Source: @UkraineNow/83579).",
+        "Russian forces launched over 1,000 strikes across 51 populated areas in Zaporizhzhia region overnight, resulting in four civilian casualties (Source: @UkraineNow/83579).",
+        "Russian Defense Ministry reported successful strikes on Ukrainian military storage facilities in multiple locations (Source: @tass_agency/391325)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Multiple UAV attacks have been reported in the Chernihivshchyna region, with drones observed approaching the city of Sum and moving southward toward the Black Sea coast.",
-        "Strikes targeting the Kharkiv direction continue with Shakhad missiles hitting Vishgorod, Pogrebys, and Shevchenkove, maintaining pressure on northern supply lines.",
-        "Drone groups operating from the Dnipro and Zaporizhzhia areas have engaged Ukrainian defensive systems, contributing to sustained airspace congestion.",
-        "Recent reports indicate increased drone activity near the southern flank, with multiple sorties targeting coastal industrial zones in Zaporizhzhia and Kherson."
+        "Ukrainian drones launched attacks from Zaporizhzhia region toward Dnipro and Dnipropropetrovsk region, with reports of combat drones and reconnaissance units active in the area (Source: @kpszsu/73710, @eRadarrua/106493).",
+        "Multiple drone attacks reported from eastern Dnipropetrovsk region targeting Shakhtarske and Pavlograd areas (Source: @kpszsu/73713, @kpszsu/73687).",
+        "Russian forces conducted over 1,000 strikes across 51 populated areas in Zaporizhzhia region overnight, resulting in four civilian casualties (Source: @UkraineNow/83579).",
+        "Ukrainian air defenses successfully intercepted multiple Russian Shahed drones targeting various locations in the region (Source: @mon1tor_ua series).",
+        "Ukrainian pilots from 'Khortytsia' destroyed 630 enemy targets in the first half of August, including 469 aircraft-type drones and 161 helicopter drones over Zaporizhzhia (Source: @UkraineNow/83583)."
       ]
     },
     "northern_front": {
       "points": [
-        "Repeated Shakhad missile attacks have struck the Artsiz-Tatarbunary-Odesa corridor, with multiple strikes recorded on Vishgorod, Pogrebys, and Shevchenkove.",
-        "Russian forces have deployed Shakhad missiles repeatedly along the northern approach routes, targeting logistics hubs and residential sectors near the border.",
-        "Drone swarms have been observed operating in the northern sector, engaging Ukrainian air defense assets and testing new tactical configurations.",
-        "The northern front remains active with continuous missile fire, complementing the broader campaign of infrastructure degradation and civilian targeting."
+        "Multiple drone attacks reported in northern Chernihiv region, with new reactive drones detected (Source: @eRadarrua/106474, @eRadarrua/106485).",
+        "Ukrainian air defenses intercepted Russian Shahed drones targeting Vokzal in Kyiv region (Source: @mon1tor_ua/70820).",
+        "Russian attacks on Sumy region resulted in six confirmed injuries, including a 16-year-old girl (Source: @UkraineNow/83579).",
+        "Ukrainian air defenses successfully intercepted multiple Russian Shahed drones targeting various locations in northern regions (Source: @mon1tor_ua series)."
       ]
     },
     "southern_front": {
       "points": [
-        "Drone activity has expanded into southern regions such as Zaporizhzhia and Kherson, with multiple groups targeting coastal areas and industrial zones under sustained bombardment.",
-        "Reports indicate strikes on the southern flank of the front, including targets near the Black Sea coast and inland logistics nodes.",
-        "Ukrainian defensive systems have engaged numerous incoming drones from the southern direction, highlighting the persistence of aerial threats.",
-        "The southern theater continues to experience high levels of drone traffic, with frequent engagements between Russian UAVs and Ukrainian air defense platforms."
+        "Multiple drone attacks reported from Black Sea area targeting Odesa region, including attacks on Odesa, Ovidiopol, and Chornomorsk (Source: @kpszsu/73717, @kpszsu/73725, @kpszsu/73694).",
+        "Drone attacks reported from Kherson region toward Mykolaiv region, targeting Mykolaiv (Source: @kpszsu/73726).",
+        "Ukrainian air defenses intercepted Russian Shahed drones targeting Vyshgorod/ Pogrebky in Kyiv region (Source: @mon1tor_ua/70846).",
+        "Russian forces struck the port of Reni, destroying Ukrainian military positions (Source: @tass_agency/391325)."
       ]
     },
     "air_war": {
       "points": [
-        "Over 100 Shakhad-type unmanned aerial vehicles were reportedly intercepted across northern and central Ukraine, indicating intensified defensive responses and ongoing drone warfare operations.",
-        "Ballistic missiles and Shakhad missiles have been used in combination to overwhelm air defense systems, particularly in the Kyiv region and northern approaches.",
-        "Russian aviation has demonstrated capability to destroy Soviet-era underground tunnels in Orekhovo, disrupting potential logistical corridors.",
-        "Drone swarms have overwhelmed air defense coverage in multiple sectors, forcing Ukrainian forces to shift resources to intercept missions."
+        "Ukrainian air defenses successfully intercepted multiple Russian Shahed drones targeting civilian infrastructure across multiple regions (Source: @mon1tor_ua series).",
+        "Ukrainian pilots from 'Khortytsia' destroyed 630 enemy targets in the first half of August, including 469 aircraft-type drones and 161 helicopter drones over Zaporizhzhia (Source: @UkraineNow/83583).",
+        "Russian forces launched over 1,000 strikes across 51 populated areas in Zaporizhzhia region overnight using missiles and drones (Source: @UkraineNow/83579).",
+        "Ukrainian air defenses intercepted Russian drones targeting multiple locations including Holosiivka/Teremky, Rusanivka, Vokzal, Troieshchyna, Zhukany, Obukhiv/UKrainka, Vyshgorod/Pogrebky, and other areas (Source: @mon1tor_ua series).",
+        "Ukrainian drones launched attacks from multiple directions including Zaporizhzhia, Black Sea area, and Kherson region (Source: @kpszsu series, @eRadarrua/106493)."
       ]
     },
     "key_developments": [
-      "On the night of August 21, Russian forces launched a coordinated assault on the international border crossing with Moldova, damaging the Shahadym checkpoint in Bolgrad and Izmayil districts of Odesa Oblast while suspending movement of personnel and transport (Source: @UkraineNow/83581).",
-      "A systematic campaign has targeted Ukrainian civilian infrastructure, including the KLO oil refinery, major supermarket distribution networks, craft freeze warehouses, and French retail facilities, resulting in widespread property destruction across multiple regions (Source: @UkraineNow/83571).",
-      "A massive drone strike on August 20 killed 15 people in the Holosievsky district of Kyiv, marking a significant escalation in attacks on critical urban centers following earlier combined assaults on the capital (Source: @UkraineNow/83578).",
-      "Repeated Shakhad missile attacks have struck multiple locations along the Kharkiv direction, including Vishgorod, Pogrebys, and Shevchenkove, demonstrating persistent aerial aggression toward northern Ukrainian territory (Source: @mon1tor_ua/70850).",
-      "Russian aviation successfully destroyed Soviet-era underground tunnels in Orekhovo that had been used for motorized vehicle transport, disrupting potential logistical routes within the front line (Source: @tass_agency/391312).",
-      "Over 100 Shakhad-type unmanned aerial vehicles were reportedly intercepted across northern and central Ukraine, indicating intensified defensive responses and ongoing drone warfare operations (Source: @mon1tor_ua/70853).",
-      "Drone activity has expanded into southern regions such as Zaporizhzhia and Kherson, with multiple groups targeting coastal areas and industrial zones under sustained bombardment (Source: @eRadarrua/106493)."
+      "Russian forces launched over 1,000 missile and drone strikes across 51 populated areas in Zaporizhzhia region overnight, resulting in four civilian casualties according to regional military administration reports (Source: @UkraineNow/83579).",
+      "Ukrainian air defenses successfully intercepted multiple Russian Shahed drones targeting civilian infrastructure in Kyiv and surrounding areas including Holosiivka/Teremky, Rusanivka, Vokzal, Troieshchyna, Zhukany, Obukhiv/UKrainka, Vyshgorod/Pogrebky, and other locations (Source: @mon1tor_ua/70844, @mon1tor_ua/70839, @mon1tor_ua/70822, @mon1tor_ua/70849, @mon1tor_ua/70838, @mon1tor_ua/70845, @mon1tor_ua/70842, @mon1tor_ua/70846).",
+      "Ukrainian pilots from 'Khortytsia' air defense unit destroyed 630 enemy targets in the first half of August 2026, including 469 aircraft-type drones and 161 helicopter drones over Zaporizhzhia region (Source: @UkraineNow/83583).",
+      "Russian Aerospace Forces used air bombs to destroy Ukrainian military positions in Kramatorsk, Raigorodke and Kherson, with video evidence published by Russian Ministry of Defense (Source: @tass_agency/391350).",
+      "Ukrainian drones successfully attacked a major Lukoil fuel processing plant in Perm, Russia causing it to suspend operations after previous spring and June long-range drone attacks (Source: @eRadarrua/106487).",
+      "Russian forces struck the port of Reni, destroying Ukrainian ammunition storage facilities, military equipment, and other property according to Russian Ministry of Defense reports (Source: @tass_agency/391325).",
+      "Russian attacks on Sumy region resulted in six confirmed injuries, including a 16-year-old girl, according to Ukrainian police reports (Source: @UkraineNow/83579)."
     ],
-    "threat_assessment": "Russia is conducting a multi-pronged strategy combining conventional artillery, precision-guided munitions, and massed unmanned systems to degrade Ukrainian capacity and test Western support mechanisms. The systematic destruction of civilian infrastructure and repeated drone offensives suggest a deliberate effort to erode morale and disrupt economic functions. With over 100 Shakhad drones neutralized and tunnels destroyed, Russia maintains significant kinetic reach despite Ukrainian air defense improvements. The escalation pattern indicates a transition from localized strikes to sustained attrition aimed at forcing strategic concessions.",
-    "regional_response": "Ukrainian DPSU has responded to cross-border threats by closing the Moldovan border checkpoint and suspending movement at the Tabaki point, limiting Russian access to the frontier. The military has intensified air defense deployments across northern and central Ukraine to intercept incoming drones and protect critical infrastructure. Civilian authorities are coordinating evacuation efforts and communication channels amid the rising threat level, emphasizing resilience and continuity of essential services.",
-    "intelligence_notes": "The data reveals a clear trend of Russian forces prioritizing both kinetic and asymmetric tactics to maximize impact on civilian populations. Intercept statistics suggest Russian UAV production and deployment remain robust, though Ukrainian air defense has adapted with effective interception rates. The targeting of energy and transport infrastructure aligns with broader strategic goals of weakening Ukrainian state capacity. Intelligence indicates continued coordination between Russian proxy forces and local operators in the Odesa and Kharkiv regions."
+    "threat_assessment": "Russian forces are escalating their missile and drone campaign across Ukraine, with coordinated attacks targeting both military positions and civilian infrastructure. The scale of overnight strikes involving over 1,000 missiles and drones across 51 populated areas indicates a significant escalation in offensive capabilities. Ukrainian air defenses are successfully intercepting many threats, but civilian casualties continue to mount, suggesting vulnerabilities in air defense coverage. The targeting of critical infrastructure like Lukoil facilities in Russia demonstrates the reach of Ukrainian drone operations beyond the immediate conflict zone.",
+    "regional_response": "European nations are monitoring the escalating situation with concern, particularly regarding attacks on critical infrastructure. Germany has detected significant numbers of Ukrainian citizens attempting illegal entry, with 7,515 cases reported from May 2025 to August 2026, indicating ongoing humanitarian and security considerations. NATO allies are likely assessing the implications of these large-scale attacks on regional stability and potential escalation pathways. The international community is watching diplomatic developments, including potential negotiations referenced in Chinese media reports."
   },
   "missiles": 0,
   "drones": 135,
   "kpszsu_timeline": [
+    3,
+    4,
+    2,
+    6,
+    2,
+    2,
     8,
-    6,
-    2,
+    8,
+    0,
+    1,
+    3,
+    1,
+    1,
+    3,
+    0,
+    3,
+    1,
     4,
-    4,
-    4,
-    2,
+    3,
+    3,
+    3,
     5,
-    6,
-    7,
-    0,
-    1,
-    4,
-    0,
-    3,
-    1,
-    1,
     2,
-    1,
-    4,
-    3,
-    3,
-    6,
-    2
+    3
   ]
 }
