@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-21T03:17:34.667251+00:00",
-  "message_count": 596,
+  "updated_at": "2026-08-21T05:02:39.437728+00:00",
+  "message_count": 540,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,83 +11,84 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 176,
+  "red_alerts": 135,
   "red_alerts_timeline": [
     0,
+    29,
+    10,
+    29,
     0,
-    0,
-    36,
-    12,
-    36,
-    0,
-    12,
+    10,
     0,
     0,
     0,
-    12,
+    10,
     0,
     0,
-    24,
-    12,
-    12,
+    0,
+    29,
+    10,
     0,
     0,
     0,
     0,
-    12,
+    10,
+    0,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    53,
-    21,
-    36,
-    69,
-    56,
-    62,
+    27,
+    67,
+    55,
+    72,
     42,
-    17,
-    17,
-    17,
-    29,
-    35,
     20,
-    33,
-    26,
-    13,
-    3,
-    11,
+    16,
+    17,
+    18,
+    46,
+    20,
+    35,
+    24,
+    16,
     6,
+    8,
+    8,
+    2,
+    6,
+    7,
     3,
-    5,
     6,
     4,
-    6
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 105,
-    "@kpszsu": 96,
-    "@mon1tor_ua": 217,
+    "@eRadarrua": 98,
+    "@kpszsu": 94,
+    "@mon1tor_ua": 175,
     "@UkraineNow": 19,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 132
+    "@tass_agency": 127
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/106486",
-    "kpszsu": "https://t.me/kpszsu/73688",
+    "kpszsu": "https://t.me/kpszsu/73697",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70857",
     "UkraineNow": "https://t.me/UkraineNow/83578",
     "DeepStateUA": "https://t.me/DeepStateUA/23759",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32618",
-    "tass_agency": "https://t.me/tass_agency/391309"
+    "tass_agency": "https://t.me/tass_agency/391317"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83572",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32617",
-    "tass_agency": "https://t.me/tass_agency/391301",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70844",
-    "eRadarrua": "https://t.me/eRadarrua/106441"
+    "UkraineNow": "https://t.me/UkraineNow/83567",
+    "kpszsu": "https://t.me/kpszsu/73677",
+    "tass_agency": "https://t.me/tass_agency/391316",
+    "eRadarrua": "https://t.me/eRadarrua/106453",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32616",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70844"
   },
   "media": [
     {
@@ -250,125 +251,121 @@
     "kpszsu/73563": "data/media/kpszsu_73563.jpg",
     "kpszsu/73562": "data/media/kpszsu_73563.jpg"
   },
-  "summary": "Russia launched a massive strike on Kyiv with ballistic missiles, damaging defense industry facilities and causing power outages. Ukrainian forces repelled multiple assaults in Sumy and Kharkov directions. Civilian casualties reported in Belgorod and Krasnodar regions from drone strikes.",
+  "summary": "Russia launched a massive combined attack on Kyiv lasting over 18 hours involving ballistic missiles and Shahed drones, killing at least 15 people and damaging a business center in Holosiivskyi district. Ukraine retaliated with drone strikes on Russian oil refineries in Tatarstan and Krasnodar Krai, the Primorsko-Akhtarsk airfield, and energy infrastructure in Tambov and Moscow regions, causing a blackout in Crimea. Russian glide bombs struck Sumy and Donetsk regions while Ukrainian special forces suffered losses near Mala Volchya attempting to evacuate surrounded personnel.",
   "key_points": [
-    "Russian ballistic missile strike on Kyiv damaged defense industry facilities and caused power outages (Source: @UkraineNow/83572)",
-    "Russian assault groups attacked near Sadki (Sumy) and Ternovaya (Kharkov) but were repelled (Source: @ukr_leaks_eng/32617)",
-    "Civilian casualties reported in Belgorod and Krasnodar regions from drone strikes (Source: @tass_agency/391301)",
-    "Ukrainian strikes targeted Russian logistics warehouses in Boryspol (Source: @ukr_leaks_eng/32605)",
-    "Russian Ministry of Defense claims capture of Vodnyanskoye in DNR (Source: @ukr_leaks_eng/32601)",
-    "Ukrainian kindergarteners to study English starting September 1 (Source: @ukr_leaks_eng/32614)",
-    "Russian strikes on Ukrainian energy infrastructure in Crimea caused blackouts (Source: @UkraineNow/83563)"
+    "Russia conducted an 18+ hour combined ballistic and Shahed drone attack on Kyiv resulting in at least 15 deaths and multiple injuries in Holosiivskyi district (Source: @UkraineNow/83567)",
+    "Ukrainian drones struck Russian oil refineries in Tatarstan and Krasnodar Krai, Primorsko-Akhtarsk airfield, and energy facilities in Tambov and Moscow regions causing Crimean blackout (Source: @UkraineNow/83563)",
+    "Russian KAB glide bombs targeted northern Sumy region and Donetsk region (Source: @kpszsu/73677)",
+    "Ukrainian special forces incurred losses near Mala Volchya while attempting to evacuate surrounded personnel (Source: @tass_agency/391316)",
+    "Russian aviation destroyed underground tunnels used by Ukrainian forces for armor movement in Orikhiv (Source: @tass_agency/391312)",
+    "Multiple Shahed drone groups detected across Chernihiv, Zhytomyr, Kyiv, Dnipropetrovsk, Odesa, Sumy, and Poltava regions (Source: @eRadarrua/106453)",
+    "KLO oil depot in Brovary district, Kyiv region, damaged by overnight Russian attack (Source: @ukr_leaks_eng/32616)",
+    "Two Russian POWs escaped from Petrivske colony in Kharkiv region, killing a Ukrainian soldier and seizing weapon and vehicle (Source: @ukr_leaks_eng/32589)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia conducted a massive ballistic missile strike on Kyiv targeting defense industry facilities, causing power outages and civilian casualties. Ukrainian forces repelled multiple assaults in Sumy and Kharkov directions. Civilian casualties reported in Belgorod and Krasnodar regions from drone strikes.",
+    "executive_summary": "Russia launched a massive combined attack on Kyiv lasting over 18 hours involving ballistic missiles and Shahed drones, killing at least 15 people and damaging a business center in Holosiivskyi district. Ukraine retaliated with drone strikes on Russian oil refineries in Tatarstan and Krasnodar Krai, the Primorsko-Akhtarsk airfield, and energy infrastructure in Tambov and Moscow regions, causing a blackout in Crimea. Russian glide bombs struck Sumy and Donetsk regions while Ukrainian special forces suffered losses near Mala Volchya attempting to evacuate surrounded personnel.",
     "ukraine": {
       "points": [
-        "Russian ballistic missile strike on Kyiv damaged defense industry facilities including Fire Point and Antonov assembly plant (Source: @ukr_leaks_eng/32596)",
-        "Power outages reported in Kiev region following Russian strikes (Source: @UkraineNow/83572)",
-        "Ukrainian strikes targeted Russian logistics warehouses in Boryspol (Source: @ukr_leaks_eng/32605)",
-        "Kharkov region experienced continued Russian drone attacks (Source: @mon1tor_ua/70844)",
-        "Sumy front saw repelled assaults near Sadki (Source: @ukr_leaks_eng/32617)",
-        "Zaporozhye front reported progress toward Malaya Tokmachka (Source: @tass_agency/391309)",
-        "Ukrainian kindergarteners to study English starting September 1 (Source: @ukr_leaks_eng/32614)"
+        "Ukrainian air defense monitored and engaged multiple Shahed drone groups across Chernihiv, Zhytomyr, Kyiv, Dnipropetrovsk, Odesa, Sumy, and Poltava regions throughout the night, with monitoring channels reporting reactive Shaheds over Vyshhorod, Troieshchyna, and Holosiivskyi/Teremky districts of Kyiv (Source: @mon1tor_ua/70844, @mon1tor_ua/70848, @mon1tor_ua/70838, @mon1tor_ua/70846, @eRadarrua/106453, @kpszsu/73658, @kpszsu/73659, @kpszsu/73671, @kpszsu/73674, @kpszsu/73672, @kpszsu/73684, @eRadarrua/106474, @eRadarrua/106486, @eRadarrua/106484).",
+        "Ukrainian drones conducted retaliatory strikes on Russian energy infrastructure including oil refineries in Tatarstan and Krasnodar Krai, the Primorsko-Akhtarsk military airfield used for Shahed launches, a substation in Krasnodar Krai, and energy facilities in Tambov and Moscow regions, resulting in a reported blackout in Crimea (Source: @UkraineNow/83563).",
+        "Ukrainian special forces attempted to evacuate surrounded personnel near Mala Volchya but suffered losses according to Russian security sources cited by TASS (Source: @tass_agency/391316).",
+        "A KLO oil depot in Brovary district, Kyiv region, was damaged by Russian overnight attack with images showing significant fire damage (Source: @ukr_leaks_eng/32616).",
+        "Supermarket 'Fora' warehouses in Martusivtsi, Kyiv region, were attacked overnight; the facility had only been put into use last week after a previous attack on logistics infrastructure (Source: @UkraineNow/83570).",
+        "Ukrainian MP Kozyr warned of a difficult winter for residents of high-rise buildings in cities like Kyiv due to destroyed thermal power plants that cannot be quickly restored (Source: @ukr_leaks_eng/32612).",
+        "The launch of a Ukrainian solid fuel plant for Flamingo rockets in Denmark has been postponed until end of 2027 with project costs nearly tripling to over €150 million (Source: @ukr_leaks_eng/32618)."
       ]
     },
     "russia": {
       "points": [
-        "Russian Ministry of Defense claims liberation of Matiashevo and Nikolaypolye in Donetsk (Source: @ukr_leaks_eng/32601)",
-        "Russian strikes on Ukrainian energy infrastructure in Crimea caused blackouts (Source: @UkraineNow/83563)",
-        "Russian assault groups attacked near Sadki and Ternovaya but were repelled (Source: @ukr_leaks_eng/32617)",
-        "Russian strikes damaged warehouses storing drone components in Kiev (Source: @ukr_leaks_eng/32596)",
-        "Russian forces reported destroying 90 Ukrainian drones in Rostov region (Source: @eRadarrua/106441)",
-        "Russian strikes on Ukrainian logistics facilities in Boryspol (Source: @ukr_leaks_eng/32605)",
-        "Russian attacks on Ukrainian energy infrastructure in Krasnodar region (Source: @UkraineNow/83563)"
+        "Russia launched a massive combined attack on Kyiv lasting over 18 hours involving ballistic missiles from Kursk direction and multiple waves of Shahed drones, with air alerts active across Kyiv, Zhytomyr, and Chernihiv regions (Source: @mon1tor_ua/70850, @eRadarrua/106416, @eRadarrua/106441, @eRadarrua/106447, @mon1tor_ua/70851).",
+        "The attack killed at least 15 people in Kyiv with rescuers still working at impact sites, and damaged a business center building in Holosiivskyi district with two injured reported (Source: @UkraineNow/83572, @UkraineNow/83567, @UkraineNow/83576).",
+        "Russian KAB glide bombs struck northern Sumy region and Donetsk region (Source: @kpszsu/73677).",
+        "Russian aviation destroyed underground tunnels in Orikhiv used by Ukrainian forces for moving armored vehicles, according to military expert Kiselyov cited by TASS (Source: @tass_agency/391312).",
+        "Multiple Shahed drone groups launched from Black Sea area toward southern Odesa region targeting Vilkove/Katlabuh, Tatarbunary, Bolgrad, and Reni areas (Source: @kpszsu/73679, @kpszsu/73694, @kpszsu/73671, @kpszsu/73674, @eRadarrua/106486).",
+        "Reconnaissance and strike drones operated over Dnipropetrovsk region near Petrykivka, Piatykhatky, and Solonyi, with two drones over Zaporizhzhia city (Source: @kpszsu/73659, @eRadarrua/106484, @eRadarrua/106473).",
+        "Russian forces maintain ballistic missile threat from Kursk direction at medium-high level for the capital according to monitoring channels (Source: @mon1tor_ua/70851, @eRadarrua/106416)."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian assault groups attacked near Sadki (Sumy) and Ternovaya (Kharkov) but were repelled (Source: @ukr_leaks_eng/32617)",
-        "Russian forces captured Vodnyanskoye in DNR (Source: @ukr_leaks_eng/32601)",
-        "Russian strikes damaged warehouses storing drone components in Kiev (Source: @ukr_leaks_eng/32596)",
-        "Russian attacks on Ukrainian energy infrastructure in Krasnodar region (Source: @UkraineNow/83563)",
-        "Russian strikes on Ukrainian logistics facilities in Boryspol (Source: @ukr_leaks_eng/32605)",
-        "Russian forces reported destroying 90 Ukrainian drones in Rostov region (Source: @eRadarrua/106441)",
-        "Russian attacks on Ukrainian energy infrastructure in Crimea caused blackouts (Source: @UkraineNow/83563)"
+        "Russian KAB glide bombs struck Donetsk region (Source: @kpszsu/73677).",
+        "Russian aviation destroyed underground tunnels in Orikhiv used by Ukrainian forces for moving armored vehicles, according to military expert Kiselyov cited by TASS (Source: @tass_agency/391312).",
+        "Ukrainian special forces incurred losses near Mala Volchya while attempting to evacuate surrounded personnel according to Russian security sources (Source: @tass_agency/391316).",
+        "Reconnaissance and strike drones operated over Dnipropetrovsk region near Petrykivka, Piatykhatky, and Solonyi (Source: @kpszsu/73659, @eRadarrua/106484, @eRadarrua/106473).",
+        "Two drones detected over Zaporizhzhia city (Source: @eRadarrua/106484)."
       ]
     },
     "northern_front": {
       "points": [
-        "Russian strikes on Ukrainian energy infrastructure in Crimea caused blackouts (Source: @UkraineNow/83563)",
-        "Russian assault groups attacked near Sadki (Sumy) and Ternovaya (Kharkov) but were repelled (Source: @ukr_leaks_eng/32617)",
-        "Russian strikes damaged warehouses storing drone components in Kiev (Source: @ukr_leaks_eng/32596)",
-        "Russian attacks on Ukrainian logistics facilities in Boryspol (Source: @ukr_leaks_eng/32605)",
-        "Russian forces reported destroying 90 Ukrainian drones in Rostov region (Source: @eRadarrua/106441)",
-        "Russian attacks on Ukrainian energy infrastructure in Krasnodar region (Source: @UkraineNow/83563)",
-        "Russian strikes on Ukrainian defense industry facilities in Kyiv (Source: @ukr_leaks_eng/32596)"
+        "Ballistic missile threat from Kursk direction maintained at medium-high level for Kyiv according to monitoring channels (Source: @mon1tor_ua/70851, @eRadarrua/106416).",
+        "Multiple Shahed drones detected over Chernihiv region with reactive Shahed groups reported, including new reactive UAV in northern Chernihivshchyna moving toward Horodnia (Source: @eRadarrua/106453, @eRadarrua/106474, @kpszsu/73658, @kpszsu/73684).",
+        "Reactive Shahed drones targeted Vyshhorod near Kyiv multiple times (Source: @mon1tor_ua/70848, @mon1tor_ua/70849, @mon1tor_ua/70846).",
+        "Reactive Shahed drone on course toward Kyiv/Brovary from north detected over Kyiv region (Source: @kpszsu/73642).",
+        "Reactive Shahed drone on Sumy region heading toward Poltava region (Source: @kpszsu/73672).",
+        "Russian KAB glide bombs struck northern Sumy region (Source: @kpszsu/73677).",
+        "Belarus-Ukraine border analysis indicates Kiev maintains perception of constant threat from Belarus despite Lukashenko's offer to open border for civilian travel, with Ukrainian Border Service reporting no direct Russian sabotage activity near border in July (Source: @ukr_leaks_eng/32594)."
       ]
     },
     "southern_front": {
       "points": [
-        "Russian strikes on Ukrainian energy infrastructure in Crimea caused blackouts (Source: @UkraineNow/83563)",
-        "Russian assault groups attacked near Sadki (Sumy) and Ternovaya (Kharkov) but were repelled (Source: @ukr_leaks_eng/32617)",
-        "Russian strikes damaged warehouses storing drone components in Kiev (Source: @ukr_leaks_eng/32596)",
-        "Russian attacks on Ukrainian logistics facilities in Boryspol (Source: @ukr_leaks_eng/32605)",
-        "Russian forces reported destroying 90 Ukrainian drones in Rostov region (Source: @eRadarrua/106441)",
-        "Russian attacks on Ukrainian energy infrastructure in Krasnodar region (Source: @UkraineNow/83563)",
-        "Russian strikes on Ukrainian defense industry facilities in Kyiv (Source: @ukr_leaks_eng/32596)"
+        "Multiple Shahed drone groups launched from Black Sea area toward southern Odesa region targeting Vilkove/Katlabuh, Tatarbunary, Bolgrad, and Reni areas (Source: @kpszsu/73679, @kpszsu/73694, @kpszsu/73671, @kpszsu/73674, @eRadarrua/106486).",
+        "Ukrainian drones struck Russian oil refineries in Tatarstan and Krasnodar Krai, Primorsko-Akhtarsk military airfield, and energy infrastructure causing blackout in Crimea (Source: @UkraineNow/83563).",
+        "Reconnaissance drone detected near Petrykivka in Dnipropetrovsk region (Source: @kpszsu/73673, @eRadarrua/106484).",
+        "Explosions reported in Tambov and Moscow regions following Ukrainian drone strikes (Source: @UkraineNow/83563)."
       ]
     },
     "air_war": {
       "points": [
-        "Russian ballistic missile strike on Kyiv damaged defense industry facilities (Source: @UkraineNow/83572)",
-        "Russian strikes on Ukrainian energy infrastructure in Crimea caused blackouts (Source: @UkraineNow/83563)",
-        "Russian attacks on Ukrainian logistics facilities in Boryspol (Source: @ukr_leaks_eng/32605)",
-        "Russian forces reported destroying 90 Ukrainian drones in Rostov region (Source: @eRadarrua/106441)",
-        "Russian attacks on Ukrainian energy infrastructure in Krasnodar region (Source: @UkraineNow/83563)",
-        "Russian strikes on Ukrainian defense industry facilities in Kyiv (Source: @ukr_leaks_eng/32596)",
-        "Russian strikes on Ukrainian logistics warehouses in Boryspol (Source: @ukr_leaks_eng/32605)"
+        "Russia conducted massive combined attack on Kyiv lasting over 18 hours involving ballistic missiles from Kursk and multiple Shahed drone waves (Source: @mon1tor_ua/70850, @eRadarrua/106416, @mon1tor_ua/70851).",
+        "At least 15 killed in Kyiv with business center damaged in Holosiivskyi district and fires reported (Source: @UkraineNow/83572, @UkraineNow/83567, @UkraineNow/83576).",
+        "Multiple reactive Shahed drones engaged over Kyiv districts including Holosiivskyi/Teremky, Vyshhorod, Troieshchyna, and Pogreby (Source: @mon1tor_ua/70844, @mon1tor_ua/70848, @mon1tor_ua/70838, @mon1tor_ua/70846, @mon1tor_ua/70849).",
+        "Shahed drone groups detected across Chernihiv, Zhytomyr, Kyiv, Dnipropetrovsk, Odesa, Sumy, and Poltava regions (Source: @eRadarrua/106453, @kpszsu/73658, @kpszsu/73659, @kpszsu/73671, @kpszsu/73674, @kpszsu/73672, @kpszsu/73684, @eRadarrua/106474, @eRadarrua/106486, @eRadarrua/106484).",
+        "Ukrainian drones struck Russian oil refineries in Tatarstan and Krasnodar Krai, Primorsko-Akhtarsk airfield, and energy facilities in Tambov and Moscow regions (Source: @UkraineNow/83563).",
+        "12 Shahed drones reported heading toward Izmail/Kiliya in Odesa region (Source: @mon1tor_ua/70857).",
+        "Reactive UAV detected on northern Chernihivshchyna and reconnaissance drones over Dnipropetrovsk and Chernihiv regions (Source: @eRadarrua/106474, @eRadarrua/106473, @kpszsu/73684, @eRadarrua/106484)."
       ]
     },
     "key_developments": [
-      "Russian ballistic missile strike on Kyiv damaged defense industry facilities including Fire Point and Antonov assembly plant (Source: @ukr_leaks_eng/32596)",
-      "Russian assault groups attacked near Sadki (Sumy) and Ternovaya (Kharkov) but were repelled (Source: @ukr_leaks_eng/32617)",
-      "Civilian casualties reported in Belgorod and Krasnodar regions from drone strikes (Source: @tass_agency/391301)",
-      "Ukrainian strikes targeted Russian logistics warehouses in Boryspol (Source: @ukr_leaks_eng/32605)",
-      "Russian Ministry of Defense claims capture of Vodnyanskoye in DNR (Source: @ukr_leaks_eng/32601)",
-      "Ukrainian kindergarteners to study English starting September 1 (Source: @ukr_leaks_eng/32614)",
-      "Russian strikes on Ukrainian energy infrastructure in Crimea caused blackouts (Source: @UkraineNow/83563)"
+      "Russia's 18+ hour combined ballistic and Shahed attack on Kyiv killed at least 15, damaged Holosiivskyi business center, and triggered city-wide air alerts (Source: @UkraineNow/83567, @mon1tor_ua/70850)",
+      "Ukraine retaliated with drone strikes on Tatarstan and Krasnodar refineries, Primorsko-Akhtarsk airfield, and energy sites in Tambov/Moscow causing Crimean blackout (Source: @UkraineNow/83563)",
+      "Russian KAB glide bombs struck Sumy and Donetsk regions while aviation destroyed Ukrainian tunnels in Orikhiv (Source: @kpszsu/73677, @tass_agency/391312)",
+      "Ukrainian special forces suffered losses near Mala Volchya during evacuation attempt of surrounded personnel (Source: @tass_agency/391316)",
+      "KLO oil depot in Brovary district, Kyiv region, destroyed by overnight Russian strike (Source: @ukr_leaks_eng/32616)",
+      "Two Russian POWs escaped Kharkiv region colony, killed Ukrainian soldier, seized weapon and Mercedes (Source: @ukr_leaks_eng/32589)",
+      "Ukrainian Flamingo rocket plant in Denmark delayed to 2027 with costs tripling to €150M+ (Source: @ukr_leaks_eng/32618)"
     ],
-    "threat_assessment": "Russia's continued use of ballistic missiles and drone strikes against Ukrainian infrastructure and defense facilities demonstrates escalating aggression. The targeting of energy grids and industrial sites suggests preparation for winter warfare. Ukrainian counterattacks in Sumy and Kharkov directions indicate sustained resistance capabilities.",
-    "regional_response": "Ukrainian authorities are implementing mandatory English education for kindergarteners as part of wartime adaptation measures. Civilian casualties in Russian-occupied territories highlight the humanitarian impact of cross-border strikes. Energy infrastructure remains a critical vulnerability for both sides.",
-    "intelligence_notes": "Russian military reports indicate significant losses in drone strikes against their positions in Rostov and Tula regions. The targeting of Ukrainian defense industry facilities suggests Russia's focus on degrading Ukrainian military production capacity. Ukrainian counterstrikes on Russian logistics facilities demonstrate attempts to disrupt supply chains."
+    "threat_assessment": "Russia's sustained 18-hour combined attack on Kyiv demonstrates continued capacity for large-scale missile-drone operations despite Ukrainian air defenses. The simultaneous Ukrainian strikes on multiple Russian energy facilities indicate growing long-range strike capabilities targeting strategic logistics. Russian glide bomb usage in Sumy and Donetsk suggests continued tactical air superiority in frontline areas. The ballistic missile threat from Kursk remains elevated, requiring sustained air defense readiness. Ukrainian special forces losses near Mala Volchya reveal risks in forward operations. The Belarus border narrative continues to justify northern force concentrations despite no detected sabotage activity.",
+    "regional_response": "Ukrainian monitoring networks maintained continuous tracking of Shahed groups across seven regions, demonstrating robust early warning integration. Civilian air alerts functioned repeatedly in Kyiv, Zhytomyr, and Chernihiv regions. Ukrainian retaliatory strikes show coordinated targeting of Russian energy infrastructure supporting Shahed operations. The Danish Flamingo rocket plant delay indicates Western production timeline challenges. TCC confrontations in Vinnytsia and Dnipropetrovsk reflect domestic mobilization tensions. Hungarian closure of 'gold convoy' case suggests limited appetite for investigating Ukrainian financial flows.",
+    "intelligence_notes": "The discrepancy between Belarusian border offers and Ukrainian threat perception highlights information warfare dynamics. Russian use of Primorsko-Akhtarsk airfield for Shahed launches confirms its role as a key drone hub. Underground tunnel destruction in Orikhiv suggests Russian targeting of Ukrainian logistical adaptations. POW escape in Kharkiv reveals detention security vulnerabilities. Supermarket warehouse re-targeting indicates Russian focus on civilian supply chains. MP Kozyr's winter warning signals government preparation for energy crisis. Monitoring channel's 18-hour continuous coverage demonstrates open-source intelligence value."
   },
-  "missiles": 8,
-  "drones": 168,
+  "missiles": 0,
+  "drones": 135,
   "kpszsu_timeline": [
-    6,
-    3,
-    5,
-    7,
+    2,
     10,
     8,
-    8,
-    4,
+    10,
+    6,
+    6,
     5,
-    1,
-    4,
+    2,
+    3,
     5,
     1,
     6,
-    9,
-    2,
+    7,
+    5,
     0,
     3,
     2,
+    0,
+    3,
+    1,
     1,
     2,
     1,
-    1,
-    2
+    4
   ]
 }
