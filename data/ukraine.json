@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-23T03:20:06.130086+00:00",
-  "message_count": 325,
+  "updated_at": "2026-08-23T04:53:42.110959+00:00",
+  "message_count": 318,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,14 +15,12 @@
   "red_alerts_timeline": [
     0,
     0,
+    93,
+    0,
+    0,
+    0,
     0,
     31,
-    62,
-    0,
-    0,
-    0,
-    31,
-    0,
     0,
     0,
     0,
@@ -31,6 +29,8 @@
     0,
     62,
     31,
+    0,
+    0,
     0,
     0,
     0,
@@ -39,57 +39,72 @@
     0
   ],
   "combined_activity_timeline": [
-    11,
+    15,
     13,
-    17,
-    13,
-    22,
-    30,
-    17,
-    32,
     20,
+    32,
     18,
-    10,
-    23,
-    12,
-    13,
-    7,
-    11,
-    7,
-    11,
-    3,
-    3,
-    5,
-    9,
+    19,
+    35,
+    17,
+    14,
+    21,
+    17,
     8,
-    10
+    10,
+    5,
+    16,
+    9,
+    4,
+    3,
+    1,
+    12,
+    8,
+    6,
+    9,
+    6
   ],
   "messages_by_channel": {
     "@eRadarrua": 49,
-    "@kpszsu": 97,
+    "@kpszsu": 91,
     "@mon1tor_ua": 14,
     "@UkraineNow": 19,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 15,
-    "@tass_agency": 130
+    "@tass_agency": 129
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/106790",
-    "kpszsu": "https://t.me/kpszsu/74089",
+    "eRadarrua": "https://t.me/eRadarrua/106791",
+    "kpszsu": "https://t.me/kpszsu/74097",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70951",
     "UkraineNow": "https://t.me/UkraineNow/83627",
     "DeepStateUA": "https://t.me/DeepStateUA/23761",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32667",
-    "tass_agency": "https://t.me/tass_agency/391594"
+    "tass_agency": "https://t.me/tass_agency/391603"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32656",
-    "UkraineNow": "https://t.me/UkraineNow/83621",
-    "DeepStateUA": "https://t.me/DeepStateUA/23761",
-    "kpszsu": "https://t.me/kpszsu/74057",
-    "tass_agency": "https://t.me/tass_agency/391593"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/70942",
+    "UkraineNow": "https://t.me/UkraineNow/83616",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32652",
+    "tass_agency": "https://t.me/tass_agency/391597",
+    "kpszsu": "https://t.me/kpszsu/74059",
+    "eRadarrua": "https://t.me/eRadarrua/106789"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/106791",
+      "post_id": 106791,
+      "channel": "eRadarrua",
+      "ts": "2026-08-23T04:27:35+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/lSowiuSTPlNXsx_Ubga7DkGFjYHLM0ZQyCG16X_2afUCQkCj9LvTPHIr95JByimivw87TG9r3e8vbSRtkmc72m_9naQ0spX_FjAp7OoB9OThRCEJ362PuZDDnANml2xvHPbA7UQw5FwWHO7WNraa5hss6HqR-DArhUKtLgtbrv_WfxysnuNbg3gvuH6s03bZu4_WXnVwwOUh8Qf6Cwx9EEd_ErUqTWu54hrQOQj30UwMa2jNsTdbAoThhTUB11cx6DDT_tkCf0li5Dj-RtA1VyE2zRrirL_j-OlFwA4TP_SJzb10MWZcVpBJGcd_L8IoNAk85EECmtni2D-UsHkFAg.jpg",
+      "companion_text_id": 106789
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391596",
+      "post_id": 391596,
+      "channel": "tass_agency",
+      "ts": "2026-08-23T03:42:02+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/391586",
       "post_id": 391586,
@@ -207,18 +222,6 @@
       "post_id": 391540,
       "channel": "tass_agency",
       "ts": "2026-08-22T14:39:10+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391536",
-      "post_id": 391536,
-      "channel": "tass_agency",
-      "ts": "2026-08-22T14:34:13+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391534",
-      "post_id": 391534,
-      "channel": "tass_agency",
-      "ts": "2026-08-22T13:50:59+00:00"
     }
   ],
   "post_images": {
@@ -226,6 +229,8 @@
     "eRadarrua/106764": "data/media/eRadarrua_106765.jpg",
     "eRadarrua/106777": "data/media/eRadarrua_106777.jpg",
     "eRadarrua/106776": "data/media/eRadarrua_106777.jpg",
+    "eRadarrua/106791": "data/media/eRadarrua_106791.jpg",
+    "eRadarrua/106789": "data/media/eRadarrua_106791.jpg",
     "eRadarrua/106752": "data/media/eRadarrua_106752.jpg",
     "eRadarrua/106753": "data/media/eRadarrua_106752.jpg",
     "eRadarrua/106760": "data/media/eRadarrua_106760.jpg",
@@ -245,102 +250,95 @@
     "eRadarrua/106705": "data/media/eRadarrua_106707.jpg",
     "eRadarrua/106721": "data/media/eRadarrua_106721.jpg",
     "eRadarrua/106722": "data/media/eRadarrua_106722.jpg",
-    "eRadarrua/106685": "data/media/eRadarrua_106685.jpg",
     "kpszsu/73939": "data/media/kpszsu_73939.jpg",
     "kpszsu/73940": "data/media/kpszsu_73939.jpg"
   },
-  "summary": "Russian forces conducted nighttime strikes on Odessa's port facilities, while Ukrainian officials reported civilian casualties in Kyiv and Kharkiv. French President Macron confirmed missile defense system support for Ukraine. (Source: @ukr_leaks_eng/32656) (Source: @UkraineNow/83621)",
+  "summary": "Russian forces launched massive combined strikes across Ukraine overnight, including ballistic missiles on Kyiv region (Boryspil, Brovary) and a deadly strike on Kryvyi Rih killing 16. Ukrainian drones struck multiple Russian targets including oil refineries in Novokuybyshevsk and Perm, Ozon warehouses in Samara and Orenburg, while Russian air defenses downed dozens of UAVs over Rostov and Moscow regions. On the ground, Russian forces liberated Zelenye village in Zaporizhzhia region and continue fighting in Kupyansk and Kharkiv directions.",
   "key_points": [
-    "Russian forces launched nighttime strikes targeting Odessa's port facilities. (Source: @ukr_leaks_eng/32656)",
-    "French President Macron confirmed Ukraine's readiness to receive Patriot missile system interceptors. (Source: @UkraineNow/83621)",
-    "Russian attacks on civilian infrastructure in Kyiv and Kharkiv resulted in 16 deaths and 130 injuries. (Source: @UkraineNow/83620)",
-    "Russian forces advanced near Rodyne and Artillerne in Donetsk Oblast. (Source: @DeepStateUA/23761)",
-    "Ukrainian forces destroyed two locomotives carrying military cargo in Lviv. (Source: @ukr_leaks_eng/32666)",
-    "Russian strikes on Kharkiv and Dnipro regions involved multiple drones and ballistic missiles. (Source: @kpszsu/74057)",
-    "Ukrainian officials warned of potential heating and electricity shortages starting November. (Source: @ukr_leaks_eng/32667)"
+    "Russian ballistic missiles hit Boryspil and Brovary districts in Kyiv region, killing one and injuring five, damaging a warehouse, parking, cars, and a gas station. (Source: @mon1tor_ua/70942, @UkraineNow/83616)",
+    "Russian strike on Kryvyi Rih shopping center killed 16, left 9 missing including 2 children, injured 130 including 25 children. (Source: @UkraineNow/83608)",
+    "Ukrainian drones attacked Ozon warehouses in Chapayevsk (Samara region) and Novokuybyshevsk oil refinery, also struck Perm oil refinery later. (Source: @UkraineNow/83617, @ukr_leaks_eng/32652)",
+    "Russian air defenses destroyed approximately 30 UAVs over three districts of Rostov region overnight. (Source: @tass_agency/391597)",
+    "Moscow air defenses shot down six drones approaching the capital. (Source: @tass_agency/391584)",
+    "Russian forces liberated Zelenye village in Zaporizhzhia region after breaking through defenses near Rybal'ske and Blahodatne by 36th separate motorized infantry brigade of 29th Army. (Source: @ukr_leaks_eng/32652)",
+    "In Kupyansk, Russian troops control Central and Jubilee districts with fighting continuing. (Source: @ukr_leaks_eng/32652)",
+    "Ukrainian strikes in Belgorod region killed two civilians and injured at least 10 in past 24 hours, including a man in Nikolskoye and a woman near Razumnoye. (Source: @ukr_leaks_eng/32652, @tass_agency/391570)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted nighttime strikes on Odessa's port facilities. French President Macron confirmed Ukraine's readiness to receive Patriot missile system interceptors. Civilian casualties reported in Kyiv and Kharkiv from Russian attacks. (Source: @ukr_leaks_eng/32656) (Source: @UkraineNow/83621) (Source: @UkraineNow/83620)",
+    "executive_summary": "Russian forces launched massive combined strikes across Ukraine overnight, including ballistic missiles on Kyiv region (Boryspil, Brovary) and a deadly strike on Kryvyi Rih killing 16. Ukrainian drones struck multiple Russian targets including oil refineries in Novokuybyshevsk and Perm, Ozon warehouses in Samara and Orenburg, while Russian air defenses downed dozens of UAVs over Rostov and Moscow regions. On the ground, Russian forces liberated Zelenye village in Zaporizhzhia region and continue fighting in Kupyansk and Kharkiv directions.",
     "ukraine": {
       "points": [
-        "Russian ballistic missiles struck Kyiv's Brovary district, killing one civilian and injuring five others. (Source: @UkraineNow/83616)",
-        "Kharkiv region experienced multiple drone strikes, including a reactive UAV targeting Staryi Merchyk. (Source: @kpszsu/74070)",
-        "Ukrainian forces targeted Russian logistics in Krasnodar Krai, damaging an industrial facility. (Source: @UkraineNow/83622)",
-        "Zelenskyy emphasized the importance of air defense systems for winter preparedness. (Source: @UkraineNow/83626)",
-        "Russian forces advanced near Rodyne and Artillerne in Donetsk Oblast. (Source: @DeepStateUA/23761)",
-        "Ukrainian officials warned of potential heating and electricity shortages starting November. (Source: @ukr_leaks_eng/32667)",
-        "Russian strikes on Kharkiv and Dnipro regions involved multiple drones and ballistic missiles. (Source: @kpszsu/74057)"
+        "President Zelensky met with former US special envoy Keith Kellogg in Kyiv, discussing Ukraine's readiness to purchase Patriot missiles for winter air defense and the priority of anti-ballistic capabilities against intensified Russian strikes on infrastructure and civilians. (Source: @UkraineNow/83620)",
+        "Ukrainian MP Nina Yuzhanina warned the state budget is not being replenished and the situation will worsen, citing loss of large taxpayers, export-oriented industries, and logistics routes. (Source: @ukr_leaks_eng/32651)",
+        "In Lviv, a man fatally stabbed a 55-year-old TCR serviceman; a police officer shot the attacker in the leg, who was hospitalized. The TCR refuted rumors of a death near their premises, stating the individual is alive with high blood pressure. (Source: @UkraineNow/83607, @UkraineNow/83625)",
+        "A fire at the former Iskra plant in Lviv killed three people; the blaze erupted in a warehouse storing aerosol cans. (Source: @UkraineNow/83624)",
+        "Ukrainian drones conducted deep strikes into Russia: Ozon warehouses burned in Chapayevsk (Samara region), Novokuybyshevsk oil refinery hit, and later a strike on Perm oil refinery reported. (Source: @UkraineNow/83617, @ukr_leaks_eng/32652)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched nighttime strikes targeting Odessa's port facilities. (Source: @ukr_leaks_eng/32656)",
-        "Russian strikes on Kyiv and Kharkiv resulted in 16 deaths and 130 injuries. (Source: @UkraineNow/83620)",
-        "Russian forces advanced near Rodyne and Artillerne in Donetsk Oblast. (Source: @DeepStateUA/23761)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian forces conducted strikes on Kharkiv and Dnipro regions using drones and ballistic missiles. (Source: @kpszsu/74057)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)"
+        "Putin claimed Russian strikes on Ukraine are 'effective' and help Russian troops on the front, asserting attacks on food warehouses and logistics centers support combat tasks, and stated Russia is ready for dialogue only 'based on realities on the ground'. (Source: @UkraineNow/83623)",
+        "Russian air defenses intercepted approximately 30 UAVs over three districts of Rostov region overnight, per Governor Slyusar. (Source: @tass_agency/391597)",
+        "Moscow Mayor Sobyanin reported air defenses shot down six drones heading toward the capital. (Source: @tass_agency/391584)",
+        "In Belgorod region, three people including a 17-year-old girl were injured from AFU attacks, per operational headquarters. (Source: @tass_agency/391570)",
+        "UAV debris fell on Ozon logistics complex in Orenburg causing a fire, per city head. (Source: @tass_agency/391601)",
+        "Russian official Miroshnik accused Kyiv of striking civilian objects for political pressure on Russia. (Source: @tass_agency/391599)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advanced near Rodyne and Artillerne in Donetsk Oblast. (Source: @DeepStateUA/23761)",
-        "Russian strikes on Kharkiv and Dnipro regions involved multiple drones and ballistic missiles. (Source: @kpszsu/74057)",
-        "Russian forces conducted strikes on Kharkiv and Dnipro regions using drones and ballistic missiles. (Source: @kpszsu/74057)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)"
+        "In Zaporizhzhia region, soldiers of the 36th separate motorized infantry brigade of the 29th Army ('East' group) broke through enemy defenses north of Rybal'ske and west of Blahodatne, liberating the village of Zelenye. (Source: @ukr_leaks_eng/32652)",
+        "In the same region, two civilians were killed and five injured yesterday from Ukrainian Armed Forces strikes. (Source: @ukr_leaks_eng/32652)",
+        "In Kupyansk, Russian troops control the Central and Jubilee districts; fighting for the city continues. (Source: @ukr_leaks_eng/32652)",
+        "In the LPR, one person was killed and eight injured (including a minor) in Severodonetsk, Svatove district, and Lysychansk; infrastructure damaged in Stakhanov, Rubizhne, and Rovenky. (Source: @ukr_leaks_eng/32652)",
+        "South of Druzhkivka, Russian forces are fighting in the area of the liberated Nikolopol. (Source: @ukr_leaks_eng/32652)",
+        "In the DPR, one person including a teenager was killed and 13 civilians injured yesterday from Ukrainian attacks; roads, minibuses, and trucks were under fire. (Source: @ukr_leaks_eng/32652)"
       ]
     },
     "northern_front": {
       "points": [
-        "Russian forces conducted strikes on Kharkiv and Dnipro regions using drones and ballistic missiles. (Source: @kpszsu/74057)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)"
+        "In Sumy region, the 'North' group of forces conducts the most active fighting near Pysarivka and Ulianovo. (Source: @ukr_leaks_eng/32652)",
+        "In Kursk region, a Ukrainian drone attacked a garage attached to a private house in Rzhava village, injuring a man. (Source: @ukr_leaks_eng/32652)",
+        "In Belgorod region, two civilians killed in past 24 hours: a man in Nikolskoye died from drone detonation, a woman killed when an FPV drone struck a car near Razumnoye; at least 10 injured, two hospitalized in serious condition. (Source: @ukr_leaks_eng/32652)",
+        "Civilians injured in Shebekino, Ustinka, Volokonovka, Nikolskoye, Pyatnitskoye, and Otradnoye; private homes, cars, businesses, and infrastructure damaged across Belgorod, Valuisky, Volokonovsky, Graivoronsky, Ivnyansky, Krasnoyaruzhsky, Rakityansky, and Shebekinsky districts. (Source: @ukr_leaks_eng/32652)",
+        "In Kharkiv region, on the Volchansk section, the 'North' group continues to push back the enemy; a counterattack by a battalion of the 23rd separate mechanized infantry battalion was forced to retreat. (Source: @ukr_leaks_eng/32652)",
+        "On the Velikoburluk section, Russian forces continue fighting in Dolzhanka where the enemy transferred additional reserves. (Source: @ukr_leaks_eng/32652)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces launched nighttime strikes targeting Odessa's port facilities. (Source: @ukr_leaks_eng/32656)",
-        "Russian strikes on Kyiv and Kharkiv resulted in 16 deaths and 130 injuries. (Source: @UkraineNow/83620)",
-        "Russian forces advanced near Rodyne and Artillerne in Donetsk Oblast. (Source: @DeepStateUA/23761)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)"
+        "Russian forces launched nighttime strikes targeting facilities in the port of Odesa. (Source: @ukr_leaks_eng/32656)",
+        "In Kherson region, constant mutual strikes across the Dnipro River; Russian sources estimate eight civilians killed on their side of the river in the past week, 30 injured including one child. (Source: @ukr_leaks_eng/32652)",
+        "Reactive UAVs from Black Sea heading toward Mykolaiv region reported. (Source: @kpszsu/74059)",
+        "UAVs in Kherson region heading toward Mykolaiv region; UAV north of Kremenchuk heading west; UAV in south of Dnipropetrovsk region from Kherson region. (Source: @kpszsu/74069)",
+        "Reactive UAV in direction of Zatoka from Black Sea. (Source: @kpszsu/74075)",
+        "Zaporizhzhia city: UAV past airport toward city; two reactive UAVs from sea toward Ochakiv. (Source: @eRadarrua/106789)"
       ]
     },
     "air_war": {
       "points": [
-        "Russian forces launched nighttime strikes targeting Odessa's port facilities. (Source: @ukr_leaks_eng/32656)",
-        "Russian strikes on Kyiv and Kharkiv resulted in 16 deaths and 130 injuries. (Source: @UkraineNow/83620)",
-        "Russian forces conducted strikes on Kharkiv and Dnipro regions using drones and ballistic missiles. (Source: @kpszsu/74057)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-        "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)"
+        "Overnight massive combined strike threat: ballistic missiles launched at Kyiv region (Boryspil, Brovary) with confirmed hits; ballistic threat to capital remains at medium-high level. (Source: @mon1tor_ua/70939, @mon1tor_ua/70941, @mon1tor_ua/70942, @mon1tor_ua/70946)",
+        "Widespread reactive UAV (Shahed) activity across Ukraine: from Chernihiv region toward Poltava region (Lubny district), from Chernihiv toward Sumy, from Chernihiv toward Ichnya/Parafiyivka, from Black Sea toward Mykolaiv and Odesa, over Kharkiv, Dnipropetrovsk, Zaporizhzhia regions. (Source: @kpszsu/74068, @kpszsu/74065, @kpszsu/74077, @kpszsu/74086, @kpszsu/74072, @kpszsu/74050, @kpszsu/74059, @kpszsu/74080, @kpszsu/74061, @kpszsu/74063, @kpszsu/74069, @kpszsu/74075, @kpszsu/74070, @eRadarrua/106764, @eRadarrua/106736, @eRadarrua/106789, @eRadarrua/106755, @eRadarrua/106753, @mon1tor_ua/70950, @mon1tor_ua/70951, @mon1tor_ua/70948)",
+        "KAB guided bombs used on eastern Dnipropetrovsk region. (Source: @kpszsu/74070)",
+        "Ukrainian deep strikes: drones hit Ozon warehouses in Chapayevsk (Samara) and Novokuybyshevsk oil refinery; later strike on Perm oil refinery; UAV debris caused fire at Ozon logistics in Orenburg. (Source: @UkraineNow/83617, @ukr_leaks_eng/32652, @tass_agency/391601)",
+        "Russian air defense interceptions: ~30 UAVs destroyed over Rostov region; 6 drones shot down over Moscow. (Source: @tass_agency/391597, @tass_agency/391584)",
+        "Kyiv air raid alert ended at 13:03 on 22.08.2026. (Source: @eRadarrua/106728)"
       ]
     },
     "key_developments": [
-      "Russian forces launched nighttime strikes targeting Odessa's port facilities. (Source: @ukr_leaks_eng/32656)",
-      "French President Macron confirmed Ukraine's readiness to receive Patriot missile system interceptors. (Source: @UkraineNow/83621)",
-      "Russian strikes on Kyiv and Kharkiv resulted in 16 deaths and 130 injuries. (Source: @UkraineNow/83620)",
-      "Russian forces advanced near Rodyne and Artillerne in Donetsk Oblast. (Source: @DeepStateUA/23761)",
-      "Ukrainian forces destroyed two locomotives carrying military cargo in Lviv. (Source: @ukr_leaks_eng/32666)",
-      "Russian military expert Vitaly Kiselev claimed Ukraine lacks sufficient air defense systems. (Source: @tass_agency/391593)",
-      "Ukrainian officials warned of potential heating and electricity shortages starting November. (Source: @ukr_leaks_eng/32667)"
+      "Russian ballistic missiles struck Boryspil and Brovary districts in Kyiv region, killing one civilian and injuring five, damaging a warehouse, parking lot, vehicles, and a gas station. (Source: @mon1tor_ua/70942, @UkraineNow/83616)",
+      "Russian strike on a shopping center in Kryvyi Rih killed 16 people, left 9 missing including two children, and injured 130 including 25 children. (Source: @UkraineNow/83608)",
+      "Ukrainian drones attacked Ozon warehouses in Chapayevsk (Samara region) and Novokuybyshevsk oil refinery, with a later reported strike on Perm oil refinery. (Source: @UkraineNow/83617, @ukr_leaks_eng/32652)",
+      "Russian air defenses destroyed approximately 30 UAVs over three districts of Rostov region overnight. (Source: @tass_agency/391597)",
+      "Moscow air defenses shot down six drones approaching the capital. (Source: @tass_agency/391584)",
+      "Russian forces liberated Zelenye village in Zaporizhzhia region after 36th separate motorized infantry brigade of 29th Army broke through defenses near Rybal'ske and Blahodatne. (Source: @ukr_leaks_eng/32652)",
+      "In Belgorod region, Ukrainian strikes killed two civilians and injured at least 10 in the past 24 hours, including a man in Nikolskoye and a woman near Razumnoye. (Source: @ukr_leaks_eng/32652, @tass_agency/391570)"
     ],
-    "threat_assessment": "Russian forces continue to target Ukrainian civilian infrastructure and military logistics, demonstrating persistent aggression despite international support. The use of ballistic missiles and drones indicates escalating tactical capabilities, while Ukrainian warnings about energy shortages highlight systemic vulnerabilities. (Source: @ukr_leaks_eng/32656) (Source: @UkraineNow/83620) (Source: @tass_agency/391593)",
-    "regional_response": "Ukrainian officials emphasize the need for enhanced air defense systems to counter Russian strikes, while French support for Patriot missile interceptors underscores international efforts to bolster Ukraine's defenses. (Source: @UkraineNow/83621) (Source: @tass_agency/391593)",
-    "intelligence_notes": "Russian military strategy appears focused on disrupting Ukrainian logistics and civilian infrastructure, with recent strikes on Odessa and Kharkiv regions suggesting coordinated efforts to weaken resistance. Ukrainian warnings about energy shortages indicate potential long-term operational challenges. (Source: @ukr_leaks_eng/32656) (Source: @UkraineNow/83620) (Source: @tass_agency/391593)"
+    "threat_assessment": "The intensity of Russian long-range strikes remains high, with ballistic missiles penetrating Kyiv region defenses and causing civilian casualties, indicating sustained pressure on Ukrainian air defense and critical infrastructure ahead of winter. Ukrainian deep-strike capabilities continue to expand, hitting strategic energy and logistics targets deep inside Russia (Samara, Perm, Orenburg), forcing Russian air defense to cover vast areas. The liberation of Zelenye and ongoing fighting in Kupyansk suggest Russian offensive momentum in the Zaporizhzhia and Kharkiv directions, while the 'North' group's activity in Sumy and Kursk regions signals a persistent northern threat. The combination of mass UAV waves and ballistic missiles creates a complex air defense challenge for Ukraine, especially with reported shortages of anti-ballistic interceptors.",
+    "regional_response": "Zelensky's meeting with Kellogg underscores urgent efforts to secure Patriot systems and enhance air defense before winter, reflecting Kyiv's reliance on Western partners for critical missile interceptors. Russian business engagement with US and European chambers at SPIEF suggests Moscow seeks to maintain economic channels despite sanctions, potentially to sustain defense industrial output. The reported budget shortfall in Ukraine, highlighted by MP Yuzhanina, may constrain sustainment of military operations and social stability. Meanwhile, Russian narrative framing strikes as 'effective' and linking dialogue to 'realities on the ground' indicates a strategy to leverage battlefield gains for political concessions.",
+    "intelligence_notes": "The high volume of reactive UAV (Shahed) launches from multiple vectors (Chernihiv, Black Sea, Belgorod/Kursk border areas) suggests Russian use of dispersed launch sites to saturate Ukrainian air defense. Ukrainian strikes on Russian oil refineries (Novokuybyshevsk, Perm) and logistics hubs (Ozon warehouses) demonstrate growing reach and targeting of economic infrastructure. The specific mention of the 23rd separate mechanized infantry battalion's failed counterattack near Volchansk provides a rare unit-level detail for Russian force tracking. Civilian casualty patterns in Belgorod and Kursk regions indicate Ukrainian use of FPV drones and UAVs for precision strikes on soft targets. The liberation of Zelenye by the 36th brigade confirms the 'East' group's operational role in the"
   },
   "missiles": 3,
   "drones": 217,
@@ -348,26 +346,26 @@
     6,
     4,
     6,
+    9,
+    2,
+    3,
+    6,
     4,
     6,
-    8,
+    6,
+    5,
+    4,
+    2,
     2,
     4,
-    4,
-    6,
-    6,
-    4,
-    4,
-    6,
-    1,
-    4,
-    1,
     5,
     1,
     1,
-    2,
+    0,
     4,
-    3,
-    5
+    4,
+    2,
+    5,
+    0
   ]
 }
