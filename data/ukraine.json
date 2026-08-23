@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-23T14:45:48.624875+00:00",
-  "message_count": 253,
+  "updated_at": "2026-08-23T15:21:01.092268+00:00",
+  "message_count": 241,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -27,11 +27,11 @@
     0,
     0,
     0,
-    0,
     36,
-    18,
     0,
     18,
+    18,
+    0,
     0,
     0,
     0,
@@ -39,56 +39,62 @@
     0
   ],
   "combined_activity_timeline": [
-    15,
-    10,
-    11,
-    6,
-    16,
+    13,
+    13,
     7,
-    5,
+    11,
+    7,
+    11,
     3,
-    2,
-    10,
+    3,
+    5,
     9,
-    7,
     8,
-    6,
-    16,
-    19,
+    10,
+    5,
     14,
-    11,
+    19,
+    13,
+    13,
     15,
     9,
-    14,
+    15,
+    9,
+    8,
     11,
-    7,
-    10
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 32,
+    "@eRadarrua": 29,
     "@kpszsu": 86,
     "@mon1tor_ua": 7,
     "@UkraineNow": 12,
-    "@DeepStateUA": 1,
+    "@DeepStateUA": 2,
     "@ukr_leaks_eng": 14,
-    "@tass_agency": 101
+    "@tass_agency": 91
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/106823",
-    "kpszsu": "https://t.me/kpszsu/74183",
+    "kpszsu": "https://t.me/kpszsu/74187",
     "mon1tor_ua": "https://t.me/mon1tor_ua/70952",
-    "UkraineNow": "https://t.me/UkraineNow/83633",
-    "DeepStateUA": "https://t.me/DeepStateUA/23762",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32676",
+    "UkraineNow": "https://t.me/UkraineNow/83634",
+    "DeepStateUA": "https://t.me/DeepStateUA/23763",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32677",
     "tass_agency": "https://t.me/tass_agency/391650"
   },
   "cited_post_urls": {
-    "kpszsu": "https://t.me/kpszsu/74113",
     "eRadarrua": "https://t.me/eRadarrua/106813",
-    "tass_agency": "https://t.me/tass_agency/391610",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32671"
+    "UkraineNow": "https://t.me/UkraineNow/83634",
+    "tass_agency": "https://t.me/tass_agency/391639",
+    "kpszsu": "https://t.me/kpszsu/74129"
   },
   "media": [
+    {
+      "post_url": "https://t.me/DeepStateUA/23763",
+      "post_id": 23763,
+      "channel": "DeepStateUA",
+      "ts": "2026-08-23T15:01:31+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/106823",
       "post_id": 106823,
@@ -214,12 +220,6 @@
       "ts": "2026-08-23T08:35:06+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/Ct9LfEnYQ0oiNSE-6ITFB0tx5afLmvfIa8lXb34l9hqb1zKFoXo7XEOxunvzqw1cjPEyhsC9BP0Glqwem8aeHmLSWH5UloT4916Lo2mjjbjOR6nAlKMJAZxsfZj4MuGJTaQfkuzu5_WwSRhOyD7IRw4cj3D2VPTMIc0NP8kxLq2Xh85N9ypZJBG6874DRMaC4zVS5x2DTkgYCTuZkjzPzPzOVRaIEVBRWdkcUtlHxEXKexgwaen5O4CUcguw_2RES24WinGvSYVVaAnjT5oZXjO9REAsRbbQcCRcPAKZWRxC9RnjakA00xOBGmLfsTNbqUWqx6o5J6PMIohf6BeQoQ.jpg",
       "companion_text_id": 106816
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391622",
-      "post_id": 391622,
-      "channel": "tass_agency",
-      "ts": "2026-08-23T08:28:05+00:00"
     }
   ],
   "post_images": {
@@ -245,126 +245,126 @@
     "kpszsu/74113": "data/media/kpszsu_74113.jpg",
     "kpszsu/74112": "data/media/kpszsu_74113.jpg"
   },
-  "summary": "Russian forces conducted extensive drone strikes across Ukraine, targeting infrastructure and military positions. Ukrainian air defenses intercepted numerous attacks, while ground operations saw limited territorial changes. The conflict remains marked by persistent aerial and artillery engagements.",
+  "summary": "Russian forces reported destroying Ukrainian drone units near the Dnipro River and striking an Ozon warehouse in Orenburg. Ukrainian forces attacked a high-voltage substation in Kursk region and a passenger train near Zhytomyr. Putin claimed fuel supply issues are resolved while Ukraine faces potential bankruptcy due to unpaid military wages.",
   "key_points": [
-    "Russian forces launched 127 Shahed drones and other UAVs from Kursk, Millerovo, and Crimea, with 97 intercepted and 27 hitting 22 locations (Source: @kpszsu/74113).",
-    "Ukrainian air defenses reported downing a Su-24M and destroying four pieces of Russian airbase equipment near Saky airfield in Crimea (Source: @eRadarrua/106813).",
-    "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-    "Ukrainian long-range strikes targeted Russian fuel depots and logistics hubs, including a Zaporizhzhia oil refinery and Belgorod factories (Source: @ukr_leaks_eng/32671).",
-    "Russian forces attacked Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-    "Russian air forces intensified attacks on Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-    "Ukrainian forces reported liberating 10 settlements in Kharkiv, Donetsk, and Zaporizhzhia regions between August 16-23 (Source: @ukr_leaks_eng/32671)."
+    "Ukrainian forces destroyed one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+    "Russian forces struck a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)",
+    "Ukrainian drones attacked an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+    "A passenger train 'Zhytomyr-Odessa' was struck in Ukraine, with local media confirming the impact. (Source: @UkraineNow/83634)",
+    "Russian forces reported destroying Ukrainian drone units attacking energy infrastructure on the right bank of the Dnipro River. (Source: @tass_agency/391639)",
+    "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+    "Denmark plans to restrict asylum for Ukrainian refugees from 14 regions considered relatively safe. (Source: @tass_agency/391634)",
+    "Putin stated Russia is prepared for dialogue with Ukraine only 'based on ground realities' and finds some proposals 'unacceptable' and 'exotic'. (Source: @UkraineNow/83623)"
   ],
-  "sentiment": "volatile",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted large-scale drone strikes across Ukraine, targeting infrastructure and military positions. Ukrainian air defenses intercepted most attacks, while ground operations saw limited territorial changes. The conflict remains marked by persistent aerial and artillery engagements.",
+    "executive_summary": "Russian forces reported destroying Ukrainian drone units near the Dnipro River and striking an Ozon warehouse in Orenburg. Ukrainian forces attacked a high-voltage substation in Kursk region and a passenger train near Zhytomyr. Putin claimed fuel supply issues are resolved while Ukraine faces potential bankruptcy due to unpaid military wages.",
     "ukraine": {
       "points": [
-        "Ukrainian air defenses intercepted 97 Shahed drones and other UAVs, with 27 hitting 22 locations across the country (Source: @kpszsu/74113).",
-        "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-        "Ukrainian long-range strikes targeted Russian fuel depots and logistics hubs, including a Zaporizhzhia oil refinery and Belgorod factories (Source: @ukr_leaks_eng/32671).",
-        "Russian forces attacked Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-        "Ukrainian air defenses reported downing a Su-24M and destroying four pieces of Russian airbase equipment near Saky airfield in Crimea (Source: @eRadarrua/106813).",
-        "Russian air forces intensified attacks on Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-        "Ukrainian forces reported liberating 10 settlements in Kharkiv, Donetsk, and Zaporizhzhia regions between August 16-23 (Source: @ukr_leaks_eng/32671)."
+        "Ukrainian forces destroyed one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+        "A passenger train 'Zhytomyr-Odessa' was struck in Ukraine, with local media confirming the impact. (Source: @UkraineNow/83634)",
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)",
+        "Ukrainian drones struck an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+        "Ukrainian forces reported destroying one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched 127 Shahed drones and other UAVs from Kursk, Millerovo, and Crimea, with 97 intercepted and 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-        "Russian air forces attacked Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-        "Russian forces targeted Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-        "Russian long-range strikes damaged Ukrainian oil refineries and factories, including in Zaporizhzhia and Belgorod (Source: @ukr_leaks_eng/32671).",
-        "Russian forces conducted artillery and missile strikes on Ukrainian cities, causing civilian casualties and infrastructure damage (Source: @eRadarrua/106797).",
-        "Russian military reported 97 UAVs and drones intercepted by Ukrainian air defenses, with 27 hitting 22 locations (Source: @kpszsu/74113)."
+        "Russian forces reported destroying Ukrainian drone units attacking energy infrastructure on the right bank of the Dnipro River. (Source: @tass_agency/391639)",
+        "Putin stated Russia is prepared for dialogue with Ukraine only 'based on ground realities' and finds some proposals 'unacceptable' and 'exotic'. (Source: @UkraineNow/83623)",
+        "Putin claimed fuel supply issues are resolved while Ukraine faces potential bankruptcy due to unpaid military wages. (Source: @tass_agency/391633)",
+        "Russian forces struck a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)",
+        "Ukrainian drones attacked an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+        "Russian forces reported destroying Ukrainian drone units attacking energy infrastructure on the right bank of the Dnipro River. (Source: @tass_agency/391639)",
+        "Putin stated Russia is prepared for dialogue with Ukraine only 'based on ground realities' and finds some proposals 'unacceptable' and 'exotic'. (Source: @UkraineNow/83623)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces launched 127 Shahed drones and other UAVs from Kursk, Millerovo, and Crimea, with 97 intercepted and 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-        "Russian air forces attacked Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-        "Russian forces targeted Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-        "Russian long-range strikes damaged Ukrainian oil refineries and factories, including in Zaporizhzhia and Belgorod (Source: @ukr_leaks_eng/32671).",
-        "Russian military reported 97 UAVs and drones intercepted by Ukrainian air defenses, with 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian forces conducted artillery and missile strikes on Ukrainian cities, causing civilian casualties and infrastructure damage (Source: @eRadarrua/106797)."
+        "Ukrainian drones targeted a reactive drone near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)",
+        "Ukrainian drones struck an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces reported destroying one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+        "Ukrainian drones targeted a reactive drone near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)"
       ]
     },
     "northern_front": {
       "points": [
-        "Russian forces launched 127 Shahed drones and other UAVs from Kursk, Millerovo, and Crimea, with 97 intercepted and 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-        "Russian air forces attacked Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-        "Russian forces targeted Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-        "Russian long-range strikes damaged Ukrainian oil refineries and factories, including in Zaporizhzhia and Belgorod (Source: @ukr_leaks_eng/32671).",
-        "Russian military reported 97 UAVs and drones intercepted by Ukrainian air defenses, with 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian forces conducted artillery and missile strikes on Ukrainian cities, causing civilian casualties and infrastructure damage (Source: @eRadarrua/106797)."
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)",
+        "Ukrainian drones struck an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces reported destroying one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+        "Ukrainian drones targeted a reactive drone near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian forces launched 127 Shahed drones and other UAVs from Kursk, Millerovo, and Crimea, with 97 intercepted and 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-        "Russian air forces attacked Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-        "Russian forces targeted Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-        "Russian long-range strikes damaged Ukrainian oil refineries and factories, including in Zaporizhzhia and Belgorod (Source: @ukr_leaks_eng/32671).",
-        "Russian military reported 97 UAVs and drones intercepted by Ukrainian air defenses, with 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian forces conducted artillery and missile strikes on Ukrainian cities, causing civilian casualties and infrastructure damage (Source: @eRadarrua/106797)."
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)",
+        "Ukrainian drones struck an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces reported destroying one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+        "Ukrainian drones targeted a reactive drone near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)"
       ]
     },
     "air_war": {
       "points": [
-        "Russian forces launched 127 Shahed drones and other UAVs from Kursk, Millerovo, and Crimea, with 97 intercepted and 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-        "Russian air forces attacked Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-        "Russian forces targeted Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-        "Russian long-range strikes damaged Ukrainian oil refineries and factories, including in Zaporizhzhia and Belgorod (Source: @ukr_leaks_eng/32671).",
-        "Russian military reported 97 UAVs and drones intercepted by Ukrainian air defenses, with 27 hitting 22 locations (Source: @kpszsu/74113).",
-        "Russian forces conducted artillery and missile strikes on Ukrainian cities, causing civilian casualties and infrastructure damage (Source: @eRadarrua/106797)."
+        "Ukrainian forces destroyed one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian drones struck an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+        "Ukrainian drones targeted a reactive drone near Dobroslav in Odessa region and another near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces reported destroying one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+        "Ukrainian drones targeted a reactive drone near Kupiansk in Kharkiv region. (Source: @kpszsu/74129)",
+        "Ukrainian forces attacked a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)"
       ]
     },
     "key_developments": [
-      "Russian forces launched 127 Shahed drones and other UAVs from Kursk, Millerovo, and Crimea, with 97 intercepted and 27 hitting 22 locations (Source: @kpszsu/74113).",
-      "Ukrainian air defenses downed a Su-24M and destroyed four pieces of Russian airbase equipment near Saky airfield in Crimea (Source: @eRadarrua/106813).",
-      "Russian strikes damaged five fuel reservoirs and port infrastructure in Sevastopol, disrupting military supply operations (Source: @tass_agency/391610).",
-      "Russian air forces intensified attacks on Ukrainian air defense systems, including Patriot batteries, to weaken air protection (Source: @ukr_leaks_eng/32671).",
-      "Ukrainian long-range strikes targeted Russian fuel depots and logistics hubs, including a Zaporizhzhia oil refinery and Belgorod factories (Source: @ukr_leaks_eng/32671).",
-      "Russian forces attacked Ukrainian border crossings, including a bridge near Izmail, to block trade routes (Source: @ukr_leaks_eng/32671).",
-      "Ukrainian forces reported liberating 10 settlements in Kharkiv, Donetsk, and Zaporizhzhia regions between August 16-23 (Source: @ukr_leaks_eng/32671)."
+      "Ukrainian forces destroyed one Su-24M aircraft and four airport equipment units at the Sakhi airbase in occupied Crimea on August 20. (Source: @eRadarrua/106813)",
+      "Russian forces struck a high-voltage substation in Kursk region on August 23, causing a fire that is burning to ashes. (Source: @eRadarrua/106821)",
+      "Ukrainian drones attacked an Ozon warehouse in Orenburg, causing a fire that is burning to ashes. (Source: @eRadarrua/106798)",
+      "A passenger train 'Zhytomyr-Odessa' was struck in Ukraine, with local media confirming the impact. (Source: @UkraineNow/83634)",
+      "Russian forces reported destroying Ukrainian drone units attacking energy infrastructure on the right bank of the Dnipro River. (Source: @tass_agency/391639)",
+      "Denmark plans to restrict asylum for Ukrainian refugees from 14 regions considered relatively safe. (Source: @tass_agency/391634)",
+      "Putin stated Russia is prepared for dialogue with Ukraine only 'based on ground realities' and finds some proposals 'unacceptable' and 'exotic'. (Source: @UkraineNow/83623)"
     ],
-    "threat_assessment": "Russian forces continue to prioritize aerial and artillery strikes to degrade Ukrainian infrastructure and military capabilities. The use of Shahed drones and targeted attacks on air defense systems suggests a strategy to overwhelm Ukrainian defenses. Ukrainian countermeasures, including Patriot systems and long-range strikes, aim to disrupt Russian logistics and supply chains. The conflict remains highly volatile, with both sides incurring significant losses.",
-    "regional_response": "Ukrainian authorities have emphasized the need for continued international support to sustain air defense systems and counter Russian strikes. The government has also highlighted the importance of protecting critical infrastructure and maintaining territorial integrity. Regional allies, including the EU and NATO, are urged to provide additional military and economic aid to counter Russian aggression.",
-    "intelligence_notes": "The increased use of Shahed drones by Russian forces indicates a shift toward precision strikes on high-value targets. Ukrainian air defense systems, including Patriot batteries, are under sustained pressure, highlighting vulnerabilities in air protection. The targeting of border crossings and fuel infrastructure suggests Russian efforts to isolate Ukraine economically. The liberation of settlements in eastern regions underscores ongoing ground operations, though progress remains slow."
+    "threat_assessment": "The conflict is escalating with increased drone activity targeting critical infrastructure in both Ukraine and Russian territory. Ukrainian forces are effectively using drones to strike high-value targets, including military aircraft and logistics hubs. Russian forces are responding with strikes on Ukrainian infrastructure, including energy facilities and transportation networks. The economic impact is growing, with both sides targeting supply chains and energy systems. The potential for a broader escalation remains high, particularly with the use of ballistic missiles and the targeting of civilian infrastructure.",
+    "regional_response": "Denmark's decision to restrict asylum for Ukrainian refugees from 14 regions reflects growing European concerns about security and resource allocation. This move may impact the flow of refugees and the political dynamics within the EU. The international community is closely monitoring the conflict, with statements from Western leaders emphasizing support for Ukraine while calling for restraint. The economic implications of the conflict are affecting global markets, particularly in energy and grain prices. Diplomatic efforts remain stalled, with both sides maintaining hardline positions.",
+    "intelligence_notes": "Ukrainian forces are leveraging drone technology effectively to target Russian infrastructure, including military assets and commercial facilities. The use of reactivniy BpLa and other drone types indicates a focus on precision strikes. Russian forces are responding with their own drone attacks and strikes on Ukrainian infrastructure, creating a cycle of retaliation. The targeting of energy infrastructure suggests a strategy to degrade the opponent's economic and military capabilities. The potential for increased civilian casualties and infrastructure damage remains a significant concern."
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 127,
   "kpszsu_timeline": [
+    4,
+    6,
+    1,
+    4,
+    1,
+    5,
+    1,
+    1,
+    2,
+    4,
+    3,
+    4,
+    2,
+    4,
+    7,
+    4,
+    4,
+    2,
+    2,
+    7,
+    6,
     3,
     5,
-    3,
-    2,
-    4,
-    3,
-    2,
-    1,
-    1,
-    4,
-    4,
-    2,
-    4,
-    1,
-    6,
-    6,
-    6,
-    1,
-    3,
-    4,
-    6,
-    5,
-    3,
-    5
+    3
   ]
 }
