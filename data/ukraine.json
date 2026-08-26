@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-25T22:45:02.729721+00:00",
-  "message_count": 329,
+  "updated_at": "2026-08-26T01:37:16.338146+00:00",
+  "message_count": 332,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 150,
   "red_alerts_timeline": [
-    25,
-    0,
     0,
     0,
     0,
@@ -22,7 +20,6 @@
     0,
     0,
     25,
-    0,
     25,
     0,
     0,
@@ -36,61 +33,91 @@
     25,
     0,
     0,
+    0,
+    0,
+    25,
     0
   ],
   "combined_activity_timeline": [
-    8,
-    6,
+    11,
     8,
     9,
-    8,
-    10,
     9,
-    12,
-    23,
-    23,
-    29,
-    22,
-    18,
+    14,
+    19,
     24,
-    14,
-    14,
+    28,
+    24,
     16,
-    17,
-    13,
-    10,
-    7,
-    10,
+    27,
     15,
-    4
+    14,
+    14,
+    18,
+    14,
+    10,
+    6,
+    11,
+    14,
+    5,
+    7,
+    8,
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 55,
+    "@eRadarrua": 56,
     "@kpszsu": 68,
-    "@mon1tor_ua": 16,
-    "@UkraineNow": 18,
+    "@mon1tor_ua": 15,
+    "@UkraineNow": 17,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 144
+    "@tass_agency": 148
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/107144",
-    "kpszsu": "https://t.me/kpszsu/74487",
+    "eRadarrua": "https://t.me/eRadarrua/107146",
+    "kpszsu": "https://t.me/kpszsu/74498",
     "mon1tor_ua": "https://t.me/mon1tor_ua/71021",
     "UkraineNow": "https://t.me/UkraineNow/83690",
     "DeepStateUA": "https://t.me/DeepStateUA/23778",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32741",
-    "tass_agency": "https://t.me/tass_agency/391991"
+    "tass_agency": "https://t.me/tass_agency/392006"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/107073",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/71015",
+    "eRadarrua": "https://t.me/eRadarrua/107146",
+    "tass_agency": "https://t.me/tass_agency/391999",
+    "UkraineNow": "https://t.me/UkraineNow/83690",
     "DeepStateUA": "https://t.me/DeepStateUA/23778",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32720",
-    "UkraineNow": "https://t.me/UkraineNow/83681",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/70978",
-    "kpszsu": "https://t.me/kpszsu/74431"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32740",
+    "kpszsu": "https://t.me/kpszsu/74473"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/392006",
+      "post_id": 392006,
+      "channel": "tass_agency",
+      "ts": "2026-08-26T01:20:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/107146",
+      "post_id": 107146,
+      "channel": "eRadarrua",
+      "ts": "2026-08-26T00:07:18+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/QLjDd5OGcSPe6VG2mVgiJ6u6ZSsdBiNV0Sl9pTDYkX9FBSvHzLT4ORm9NR0uhiILjzcNvr1rARFTAzt20OpN2fAJohEl22uNy4nhEfTjkZY5URzi_Tk42DniaJw3C-VzDT_1MIv5z6ugaQg3lsF6nQQD_kDDHE1sFi0Qrlb2kby-kKYCuS5EaNaI0G4cf1nBDpGBn8V1ad4ajO8xj_GASo_1FD1KyvxvKj-HOOgJui4g2obOhPCh2v_mhtUuOJi-7r3iMXKnZXxKTyoVaLjYkqRifFqLPMA53PY_nKpAJDOKGwEntmbI1TryBYA1OHq_4F9rvRIXKKdBPoZXqlsLdQ.jpg",
+      "companion_text_id": 107145
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391997",
+      "post_id": 391997,
+      "channel": "tass_agency",
+      "ts": "2026-08-25T23:25:14+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/391995",
+      "post_id": 391995,
+      "channel": "tass_agency",
+      "ts": "2026-08-25T23:10:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/391991",
       "post_id": 391991,
@@ -196,36 +223,6 @@
       "ts": "2026-08-25T16:55:03+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/vzSDDQ4Fcq59X5PRqwCob2JrxVPG0LteM2C2qOi5Vgi5J8wcbxslpMS8U9lWjPVEfkQBP4mHEczJCpF3kfElCHfA03cG5u2iXPAJ270iRWB1zzYBuY_f97QyonhkPWyzWeuoZ2ZRz_PvwekMe3GqWJ1aSyRcs7BBHU-_N56xJJT10BnlNrZEAEicchZ7YP_8cOMaatXp6iBbR6ZzaV3tjOk-0AGkC4-rigxxJRpOlbplg4qS4iN72XT7Sdo0g3FsAqjaerwzPk_Klsd3rLljRvVMUfb-2RMtaJb94b8igdu0oK-Yywe9sjI_U_Ztb3uXLy04des608dvVaULSVgVrg.jpg",
       "companion_text_id": 107107
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/107107",
-      "post_id": 107107,
-      "channel": "eRadarrua",
-      "ts": "2026-08-25T16:37:23+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/cgdtV0_naFfZD0vqlK-FHqR2QVqHBC2J_lt61l7Ex9ZObDPKyDFfeGgiDvN5DZ7CTIRF-ksdAq5ZedP2djc_3LUAf1-7XK-Wm6fUtbR6Fna6uwyWoQkwwtTQQ3qhvZ177dl8VnfTVcR4sJrz5Jxbemf_189GEHGbvkyIUKgO9cmY9v3GZrWokNR3mj4DN02g5lnr2y75M_13ZdotJYWoTZKhMgUqYk6-kQGAsitRZFNGlspIl5xFyt3w9EhRglDqyCEOHMCZ9X3FsJvc9G8tXNplWg183B410Yw8m20qpHh-XZK3TGvY8KUGhmt7rh1izeFm3b0aeHIplkFbP2ENzQ.jpg",
-      "companion_text_id": 107106
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/107106",
-      "post_id": 107106,
-      "channel": "eRadarrua",
-      "ts": "2026-08-25T16:36:12+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/pJP2fe7WoH8sAjCdnWoF9YihQQ9iJQTphOknupQaKSniONxi8ESOjE5odIHpAX7ZP-2eLBctkvdr3sw__4ddxafAPI82r3dKyc42pWcm9nLisI0YQ55BsMlgNqe7kqieGQHsgQI1WN_lNL8Ws7HqAz_WIRrcqVUGcr5OLHgejC3VaXXtXi42lcQAXijhfw7mTRrI_6RAYihwOk_3yh3NVhZQ3jm1nYNfAHYUhXes5yE0xzwI_wxJW0owuJAVRLw0aMuYD6SekKKinNr_O7FzUOz-tbwiTNoJXANlQhSMD-PmmfCPSPUspHaqp6zYCwOowstjUl3Y5dhUmEO5feuUzg.jpg",
-      "companion_text_id": 107107
-    },
-    {
-      "post_url": "https://t.me/tass_agency/391968",
-      "post_id": 391968,
-      "channel": "tass_agency",
-      "ts": "2026-08-25T16:26:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/107105",
-      "post_id": 107105,
-      "channel": "eRadarrua",
-      "ts": "2026-08-25T16:21:04+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/t9lyD7uPATJRLkHRbrqQteY3HLUD8d17celxN_OBE9cobxQlY2kK21NGo6cbeDBtTNQ4NYjSflwLzCOgSRGVcMt_sFXidOj7ft0A71nfSLWZQw48s3S_LcC8tQKemZovDlD-v2XYnqOkjjARQrm-I3qhl9hYkH0A-AHUPx3QTWwFuZ928F4EQx1kuFkIdQ8dnk2WZ1Jg_iqYwt6uk1SiVlLkoyX4MoGZfm1DH5OOTIVWdN9o7OYCEkRnieEfkaRB0RqBBnzW4MHIfeRmulpes8sUTSJbmvRWF3uuklcnS1yOAqluQiN_UIpdnENZaCluy0afQr1Kltx5gghUB35r1A.jpg",
-      "companion_text_id": 107106
     }
   ],
   "post_images": {
@@ -233,15 +230,16 @@
     "eRadarrua/107136": "data/media/eRadarrua_107135.jpg",
     "eRadarrua/107142": "data/media/eRadarrua_107142.jpg",
     "eRadarrua/107143": "data/media/eRadarrua_107142.jpg",
-    "eRadarrua/107105": "data/media/eRadarrua_107105.jpg",
-    "eRadarrua/107106": "data/media/eRadarrua_107106.jpg",
+    "eRadarrua/107146": "data/media/eRadarrua_107146.jpg",
+    "eRadarrua/107145": "data/media/eRadarrua_107146.jpg",
     "eRadarrua/107107": "data/media/eRadarrua_107107.jpg",
+    "eRadarrua/107106": "data/media/eRadarrua_107106.jpg",
     "eRadarrua/107108": "data/media/eRadarrua_107108.jpg",
     "eRadarrua/107109": "data/media/eRadarrua_107109.jpg",
     "eRadarrua/107113": "data/media/eRadarrua_107113.jpg",
     "eRadarrua/107114": "data/media/eRadarrua_107113.jpg",
-    "eRadarrua/107086": "data/media/eRadarrua_107086.jpg",
     "eRadarrua/107087": "data/media/eRadarrua_107087.jpg",
+    "eRadarrua/107086": "data/media/eRadarrua_107087.jpg",
     "eRadarrua/107088": "data/media/eRadarrua_107088.jpg",
     "eRadarrua/107097": "data/media/eRadarrua_107097.jpg",
     "eRadarrua/107095": "data/media/eRadarrua_107097.jpg",
@@ -249,115 +247,112 @@
     "eRadarrua/107100": "data/media/eRadarrua_107098.jpg",
     "eRadarrua/107103": "data/media/eRadarrua_107103.jpg",
     "eRadarrua/107101": "data/media/eRadarrua_107103.jpg",
+    "eRadarrua/107105": "data/media/eRadarrua_107105.jpg",
     "eRadarrua/107068": "data/media/eRadarrua_107068.jpg",
     "eRadarrua/107066": "data/media/eRadarrua_107068.jpg",
     "kpszsu/74399": "data/media/kpszsu_74399.jpg",
     "kpszsu/74398": "data/media/kpszsu_74399.jpg"
   },
-  "summary": "Russian forces launched massive drone and missile strikes across Ukraine targeting retail infrastructure in Kryvyi Rih, Odesa, Dnipro, and Slovyansk, causing dozens of casualties. Ukrainian defenses regained ground near Zakhidne in Donetsk region while Russian units advanced near Novokonstantinovka in Sumy region and liberated Dolynka in Zaporizhzhia region. Ukrainian drones struck Russian oil infrastructure in Krasnodar and Rostov regions, and attacked Belgorod and Kursk border areas.",
+  "summary": "Russian forces launched ballistic missile threats including Iskander-M from Taganrog and Zircon from Sumy region toward Chernihiv, alongside widespread UAV attacks across Odesa, Mykolaiv, Zaporizhzhia, Dnipropetrovsk, Kharkiv, and Poltava regions. Ukrainian long-range drones struck a Wildberries sorting center in Kotovsk, Tambov region, causing a massive fire, while Russian sources claimed no motivated AFU units remain in Sumy and Kharkiv directions. Ukraine received a small batch of Patriot missiles, AIM-120 AMRAAM, and several Crotale air defense systems, and CIA Director Ratcliffe visited Moscow.",
   "key_points": [
-    "Russian Shahed drones and missiles struck shopping centers in Kryvyi Rih, Odesa, Dnipro, and Slovyansk between August 20-25, killing at least 15 and wounding over 130 civilians. (Source: @eRadarrua/107073)",
-    "Ukrainian forces restored control near Zakhidne in Donetsk region according to DeepState map update. (Source: @DeepStateUA/23778)",
-    "Russian 145th motorized infantry battalion advanced in Sumy region, pushing Ukrainian 5th mechanized brigade from Novokonstantinovka. (Source: @ukr_leaks_eng/32720)",
-    "Russian 394th motorized infantry regiment broke through defenses southwest of Rovnoye and liberated Dolynka in Zaporizhzhia region. (Source: @ukr_leaks_eng/32720)",
-    "Ukrainian drones attacked Afipsky railway station and oil refinery in Krasnodar region, causing two deaths and damaging 10 houses. (Source: @ukr_leaks_eng/32720)",
-    "Russian KAB strikes on Kramatorsk residential buildings injured 24 people including a two-month-old infant. (Source: @UkraineNow/83681)",
-    "Multiple reactive UAVs (Shaheds) detected heading toward Kyiv, Poltava, Kremenchuk, Mykolaiv, and Sumy regions. (Source: @mon1tor_ua/70978, @mon1tor_ua/70972, @kpszsu/74431, @kpszsu/74437, @kpszsu/74430)",
-    "Budanov stated Russian campaign since July targets Ukrainian ports to stop exports, affecting state budget and army resources. (Source: @UkraineNow/83685)"
+    "Ballistic missile threat: Iskander-M launch from Taganrog, Rostov region detected. (Source: @mon1tor_ua/71015)",
+    "Zircon missile launched from Sumy region toward Nizhyn district, Chernihiv region. (Source: @mon1tor_ua/71016)",
+    "Ballistic missile targeted Poltava region. (Source: @mon1tor_ua/71019)",
+    "Ballistic missile from Kursk region targeted Sumy/outskirts. (Source: @mon1tor_ua/71021)",
+    "Ukrainian drones struck Wildberries sorting center in Kotovsk, Tambov region, causing large fire. (Source: @eRadarrua/107146)",
+    "Russian sources claim no motivated AFU units remain in Sumy and Kharkiv directions. (Source: @tass_agency/391999)",
+    "Ukraine received Patriot missiles, AIM-120 AMRAAM, and Crotale air defense systems. (Source: @UkraineNow/83690)",
+    "DeepState map shows Ukrainian forces restored control near Zakhidne. (Source: @DeepStateUA/23778)"
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces intensified strikes on Ukrainian civilian and commercial infrastructure across multiple cities, with devastating attacks on shopping centers in Kryvyi Rih, Odesa, Dnipro, and Slovyansk causing mass casualties. Simultaneously, Russian ground forces made tactical gains in Sumy and Zaporizhzhia regions while Ukrainian forces recaptured positions near Zakhidne in Donetsk. Ukrainian long-range drones struck Russian oil facilities in Krasnodar and Rostov regions, marking a significant escalation in energy infrastructure targeting.",
+    "executive_summary": "Russian forces launched ballistic missile threats including Iskander-M from Taganrog and Zircon from Sumy region toward Chernihiv, alongside widespread UAV attacks across Odesa, Mykolaiv, Zaporizhzhia, Dnipropetrovsk, Kharkiv, and Poltava regions. Ukrainian long-range drones struck a Wildberries sorting center in Kotovsk, Tambov region, causing a massive fire, while Russian sources claimed no motivated AFU units remain in Sumy and Kharkiv directions. Ukraine received a small batch of Patriot missiles, AIM-120 AMRAAM, and several Crotale air defense systems, and CIA Director Ratcliffe visited Moscow.",
     "ukraine": {
       "points": [
-        "Ukrainian air defenses engaged multiple Shahed drone waves targeting Kyiv (Darnytskyi district), Poltava, Kremenchuk, Obukhiv, and Sumy regions overnight, with at least two drones reported over Kyiv and reactive UAVs approaching Poltava from the east. (Source: @mon1tor_ua/70978, @mon1tor_ua/70972, @kpszsu/74430, @kpszsu/74431)",
-        "Ukrainian long-range drones struck the Afipsky railway station and oil refinery in Krasnodar region, killing two and injuring two, damaging at least 10 private houses, and reportedly hitting the Novoshakhtinsk oil refinery in Rostov region. (Source: @ukr_leaks_eng/32720)",
-        "Ukrainian forces restored control near Zakhidne in Donetsk region per DeepState map update, indicating a localized counterattack success. (Source: @DeepStateUA/23778)",
-        "Ukrainian strikes reported in Odesa region and Konotop (Sumy region) by Russian-affiliated sources, while explosions occurred in Pavlohrad and industrial zone of Osnovyansky district in Kharkiv. (Source: @ukr_leaks_eng/32720)",
-        "Ukrainian Territorial Conscription Center personnel detained and transported a handcuffed man, reflecting ongoing mobilization enforcement. (Source: @ukr_leaks_eng/32727)",
-        "Ukrainian retail sector continues operating despite systematic attacks; major hits on Aurora mall in Slovyansk (Aug 20), JYSK in Kryvyi Rih (Aug 21), two Epicentr hypermarkets in Odesa (Aug 24), and Karavan mall in Dnipro (Aug 25) caused dozens of casualties and widespread destruction. (Source: @eRadarrua/107073)"
+        "Ukrainian long-range drones conducted a strike on the Wildberries sorting center in Kotovsk, Tambov region, Russian Federation, resulting in a massive fire; the attack was confirmed by Ukrainian monitoring channels. (Source: @eRadarrua/107146)",
+        "Ukrainian air defense forces intercepted all incoming missiles locally, according to monitoring channel reports following ballistic missile alerts across multiple regions. (Source: @mon1tor_ua/71020)",
+        "Ukraine received a small batch of Patriot missiles, AIM-120 AMRAAM missiles, and several Crotale air defense systems, per official Ukrainian news summary. (Source: @UkraineNow/83690)",
+        "Ukrainian Defense Forces restored control near Zakhidne, per updated DeepState map. (Source: @DeepStateUA/23778)",
+        "Ukrainian MP Yuzhanina predicted mass business closures in Ukraine, indicating economic strain. (Source: @ukr_leaks_eng/32740)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched eight KAB guided bomb strikes on residential buildings in Kramatorsk, injuring 24 civilians including a two-month-old infant. (Source: @UkraineNow/83681)",
-        "Russian Shahed drones struck Chernihiv, wounding three and hitting critical infrastructure; two drones fell in the city. (Source: @UkraineNow/83681)",
-        "Russian UAV attack on Zaporizhzhia wounded three civilians. (Source: @UkraineNow/83681)",
-        "Russian 145th motorized infantry battalion of the \"North\" group advanced near Novokonstantinovka (formerly Pershe Travnya) in Sumy region, displacing Ukrainian 5th separate mechanized brigade after fighting since 2025. (Source: @ukr_leaks_eng/32720)",
-        "Russian 394th motorized infantry regiment of the 5th army \"Vostok\" group broke through defenses southwest of Rovnoye and liberated Dolynka village in Zaporizhzhia region. (Source: @ukr_leaks_eng/32720)",
-        "Russian forces conducted strikes across the Dnieper in Kherson region using aviation, while FPV operators burned equipment in Slavyansk suburbs and fighting continued near Nikanovka and Vasylivka. (Source: @ukr_leaks_eng/32720)",
-        "Russian aircraft-type UAVs attacked Peschanoye village in Belgorod region's Belovsky district, injuring four men and destroying a house and outbuilding. (Source: @ukr_leaks_eng/32720)"
+        "Russian forces prepared Iskander-M ballistic missile launch from Taganrog, Rostov region, per Ukrainian monitoring. (Source: @mon1tor_ua/71015)",
+        "Russian forces launched Zircon missile from Sumy region toward Nizhyn district, Chernihiv region. (Source: @mon1tor_ua/71016)",
+        "Russian forces launched ballistic missile from Kursk region toward Sumy/outskirts. (Source: @mon1tor_ua/71021)",
+        "Russian forces launched ballistic missile toward Poltava region. (Source: @mon1tor_ua/71019)",
+        "Russian government imposed temporary ban on gasoline, diesel, and other fuel exports until January 31, 2027. (Source: @tass_agency/391972)",
+        "Russian special forces and military equipment deployed to Ternopil during spontaneous protest against Territorial Recruitment Center (TCC). (Source: @tass_agency/391988)",
+        "Russian sources claimed no motivated AFU units remain in Sumy and Kharkiv directions. (Source: @tass_agency/391999)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Heavy fighting continues near Vasylivka on the Volchansk front in Kharkiv region, with Russian \"North\" group reporting advances on outskirts of Kazachya Lopana and capturing one serviceman from Ukrainian 58th separate motorized infantry brigade. (Source: @ukr_leaks_eng/32720)",
-        "Russian offensive from the east continues on Slavyansk front with fighting near Nikanovka; FPV operators active in Slavyansk suburbs. (Source: @ukr_leaks_eng/32720)",
-        "Units of Russian \"Center\" group liberated Kucherov Yar settlement in DPR between Druzhkivka and Dobropillia per Russian Ministry of Defense. (Source: @ukr_leaks_eng/32720)",
-        "Ukrainian forces restored control near Zakhidne in Donetsk region, per DeepState map update. (Source: @DeepStateUA/23778)",
-        "Russian strikes targeted retail infrastructure in Slovyansk (Aurora mall, Aug 20) and Kramatorsk (KAB strikes on residential buildings), causing civilian casualties. (Source: @eRadarrua/107073, @UkraineNow/83681)"
+        "DeepState map update indicates Ukrainian Defense Forces restored control near Zakhidne in eastern Ukraine. (Source: @DeepStateUA/23778)",
+        "Donetsk region recorded one jet UAV group operating per monitoring data. (Source: @eRadarrua/107068)",
+        "Zaporizhzhia region recorded one reconnaissance UAV, one strike UAV group, and one jet UAV group. (Source: @eRadarrua/107068)",
+        "Zaporizhzhia region later recorded one strike UAV group and two jet UAV groups. (Source: @eRadarrua/107107)",
+        "Ukrainian MP Yuzhanina predicted mass business closures, reflecting rear-area economic pressure. (Source: @ukr_leaks_eng/32740)"
       ]
     },
     "northern_front": {
       "points": [
-        "Russian 145th motorized infantry battalion advanced in Sumy region, pushing Ukrainian 5th mechanized brigade from Novokonstantinovka after prolonged fighting since 2025. (Source: @ukr_leaks_eng/32720)",
-        "Reactive UAVs (Shaheds) detected heading toward Sumy from the north, and toward Chernihiv and Poltava regions. (Source: @kpszsu/74430, @eRadarrua/107095)",
-        "Russian aircraft-type UAVs attacked Peschanoye in Kursk region's Belovsky district, injuring four men and destroying residential buildings. (Source: @ukr_leaks_eng/32720)",
-        "Belgorod region suffered three civilian deaths and at least four injuries in past 24 hours from FPV drone strikes on vehicles and commercial facilities in multiple districts. (Source: @ukr_leaks_eng/32720)",
-        "Ukrainian strikes reported on Konotop in Sumy region and industrial zone of Osnovyansky district in Kharkiv. (Source: @ukr_leaks_eng/32720)"
+        "Ballistic missile launched from Kursk region toward Sumy city and outskirts. (Source: @mon1tor_ua/71021)",
+        "Zircon missile launched from Sumy region toward Nizhyn district, Chernihiv region. (Source: @mon1tor_ua/71016)",
+        "Chernihiv region: UAV activity reported between Horodnia and Snovsk. (Source: @eRadarrua/107117)",
+        "Kharkiv: UAV detected heading toward city from north. (Source: @kpszsu/74473)",
+        "Russian sources claim no motivated AFU units remain in Sumy and Kharkiv directions. (Source: @tass_agency/391999)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian 394th motorized infantry regiment broke through Ukrainian defenses southwest of Rovnoye and liberated Dolynka village in Zaporizhzhia region. (Source: @ukr_leaks_eng/32720)",
-        "Reactive UAV from Black Sea waters heading toward Mykolaiv region, then Odesa region. (Source: @kpszsu/74437)",
-        "Russian missile and drone strikes on two Epicentr hypermarkets in Odesa and suburbs on August 24 caused large fires, destruction of goods, and at least five wounded. (Source: @eRadarrua/107073)",
-        "Kherson front sees mutual strikes across Dnieper with Russian aviation employed. (Source: @ukr_leaks_eng/32720)",
-        "Budanov stated Russian campaign since July targets Ukrainian ports to halt exports, reducing state budget revenues and military resources. (Source: @UkraineNow/83685)"
+        "UAV from Black Sea heading toward southern Odesa region (Vylkove). (Source: @kpszsu/74487)",
+        "Jet UAV from Black Sea toward Odesa region (Zatoka). (Source: @kpszsu/74443)",
+        "Jet UAV in Mykolaiv region toward Pervomaisk. (Source: @kpszsu/74446)",
+        "Jet UAV from Black Sea toward Mykolaiv region. (Source: @kpszsu/74461)",
+        "Zaporizhzhia: UAV heading toward city from south. (Source: @kpszsu/74473)",
+        "Jet UAV from north toward Zaporizhzhia city. (Source: @kpszsu/74493)"
       ]
     },
     "air_war": {
       "points": [
-        "Massive Shahed drone waves overnight: two over Kyiv (Darnytskyi district), reactive Shaheds entering Kryvyi Rih, Poltava, Kremenchuk, Globino, and heading to Sumy, Mykolaiv, and Odesa regions. (Source: @mon1tor_ua/70978, @mon1tor_ua/70994, @mon1tor_ua/70972, @kpszsu/74431, @kpszsu/74437, @kpszsu/74430)",
-        "Russian KAB guided bombs used in eight strikes on Kramatorsk residential buildings. (Source: @UkraineNow/83681)",
-        "Ukrainian drones struck Afipsky railway station and oil refinery in Krasnodar region, and reportedly Novoshakhtinsk refinery in Rostov region. (Source: @ukr_leaks_eng/32720)",
-        "Russian Shahed drones hit Chernihiv (two drones, three wounded, critical infrastructure) and Zaporizhzhia (three wounded). (Source: @UkraineNow/83681)",
-        "eRadarrua reported guided UAV in Dnipropetrovsk region, reactive UAV group in Donetsk, reconnaissance and strike UAV groups in Zaporizhzhia, reactive group in Poltava. (Source: @eRadarrua/107068)",
-        "Double Shahed strike destroyed JYSK store in Kryvyi Rih's Soniachna Galeria mall on August 21, killing 15 and wounding 130+. (Source: @eRadarrua/107073)"
+        "Multiple UAV groups detected: Dnipropetrovsk region (1 guided), Donetsk region (1 jet group), Zaporizhzhia region (1 recon, 1 strike group, 1 jet group), Poltava region (1 jet group). (Source: @eRadarrua/107068)",
+        "Additional UAV activity: Zaporizhzhia region (1 strike group, 2 jet groups), Mykolaiv region (1 guided). (Source: @eRadarrua/107107)",
+        "Jet UAV toward Kremenchuk from east. (Source: @kpszsu/74444)",
+        "UAV in Dnipropetrovsk region heading to Synelnykove. (Source: @kpszsu/74453)",
+        "Zaporizhzhia: 2 UAVs over city. (Source: @eRadarrua/107117)",
+        "Kyiv air raid alert ended at 00:42 on August 26, 2026. (Source: @eRadarrua/107144)",
+        "Ukraine received Patriot missiles, AIM-120 AMRAAM, and Crotale systems. (Source: @UkraineNow/83690)"
       ]
     },
     "key_developments": [
-      "Russian Shahed and missile strikes on shopping centers in Kryvyi Rih, Odesa, Dnipro, Slovyansk (Aug 20-25) killed 15+, wounded 130+, systematically targeting retail infrastructure nationwide. (Source: @eRadarrua/107073)",
-      "Ukrainian forces regained control near Zakhidne in Donetsk region per DeepState map update. (Source: @DeepStateUA/23778)",
-      "Russian 145th motorized infantry battalion advanced in Sumy region, displacing Ukrainian 5th mechanized brigade from Novokonstantinovka. (Source: @ukr_leaks_eng/32720)",
-      "Russian 394th motorized infantry regiment liberated Dolynka in Zaporizhzhia region after breaking through near Rovnoye. (Source: @ukr_leaks_eng/32720)",
-      "Ukrainian drones attacked Afipsky oil refinery and railway station in Krasnodar region, causing two deaths, two injuries, 10 houses damaged. (Source: @ukr_leaks_eng/32720)",
-      "Russian KAB strikes on Kramatorsk residential buildings injured 24 including infant; Shaheds hit Chernihiv (3 wounded) and Zaporizhzhia (3 wounded). (Source: @UkraineNow/83681)",
-      "Budanov: Russian Black Sea port blockade since July aims to stop Ukrainian exports, reducing budget revenues and military resources. (Source: @UkraineNow/83685)"
+      "Russian ballistic missile barrage: Iskander-M threat from Taganrog, Zircon launch from Sumy toward Chernihiv, and missiles from Kursk toward Sumy and toward Poltava indicate coordinated multi-axis strike capability. (Source: @mon1tor_ua/71015, @mon1tor_ua/71016, @mon1tor_ua/71019, @mon1tor_ua/71021)",
+      "Ukrainian long-range drone strike hit Wildberries sorting center in Kotovsk, Tambov region, causing massive fire, demonstrating extended strike reach into Russian rear logistics. (Source: @eRadarrua/107146)",
+      "Russian sources claim zero motivated AFU units remain in Sumy and Kharkiv directions, suggesting potential frontline fragility or psychological operation. (Source: @tass_agency/391999)",
+      "Ukraine received Patriot missiles, AIM-120 AMRAAM, and Crotale air defense systems, bolstering air defense amid intensified missile threats. (Source: @UkraineNow/83690)",
+      "DeepState map confirms Ukrainian forces restored control near Zakhidne, indicating localized tactical gains in eastern sector. (Source: @DeepStateUA/23778)",
+      "Widespread UAV activity across Odesa, Mykolaiv, Zaporizhzhia, Dnipropetrovsk, Kharkiv, Poltava, and Chernihiv regions shows persistent Russian aerial reconnaissance and strike pressure. (Source: @kpszsu/74487, @kpszsu/74443, @kpszsu/74446, @kpszsu/74461, @kpszsu/74473, @kpszsu/74493, @kpszsu/74453, @kpszsu/74444, @eRadarrua/107117, @eRadarrua/107068, @eRadarrua/107107)",
+      "Russian fuel export ban until January 2027 and CIA Director Ratcliffe's Moscow visit signal economic and diplomatic dimensions paralleling military escalation. (Source: @tass_agency/391972, @UkraineNow/83690)"
     ],
-    "threat_assessment": "Russian forces are executing a coordinated campaign of exhaustion against Ukrainian civilian and commercial infrastructure, using mass Shahed drone waves and guided bombs to degrade economic capacity and terrorize urban populations. Simultaneously, Russian ground forces are making incremental gains in Sumy and Zaporizhzhia regions while Ukrainian forces hold and locally counterattack in Donetsk. Ukrainian long-range strikes on Russian oil infrastructure demonstrate growing capability to impose costs on Russian economic war-making. The intensity of air attacks across multiple Ukrainian regions nightly indicates sustained high-tempo operations likely to continue.",
-    "regional_response": "Ukrainian civil defense authorities issued specific warnings for Chernihiv and Poltava residents to avoid large shopping centers due to elevated threat intelligence. The \"Brama\" project mobilizes citizens to counter disinformation and illegal content. International partners including European defense ministries and media utilize Ukrainian air target mapping data. Finnish President Stubb advocated striking Russian commercial warehouses to pressure negotiations. UK Prime Minister engaged symbolically with Ukrainian troops.",
-    "intelligence_notes": "The Two Majors summary (ukr_leaks_eng/32720) provides detailed frontline claims including specific unit designations (145th motorized infantry battalion, 394th motorized infantry regiment, 5th separate mechanized brigade) and territorial changes, though as a partisan source requires verification. eRadarrua's retail attack timeline (107073) documents a clear pattern of targeting commercial hubs. Drone tracking channels (mon1tor_ua, kpszsu) provide real-time air threat vectors. DeepState map update confirms Ukrainian tactical success near Zakhidne. Budanov's statement links maritime blockade to battlefield resource constraints."
+    "threat_assessment": "The simultaneous ballistic missile threats from multiple launch sites (Taganrog, Sumy, Kursk) combined with Zircon hypersonic employment indicate a deliberate Russian strategy to overwhelm Ukrainian air defense across northern and central sectors. Ukrainian strike on Kotovsk logistics hub demonstrates growing long-range penetration capability targeting Russian economic infrastructure. Russian claim of demoralized AFU units in Sumy/Kharkiv may precede offensive probing or reflect information warfare. New Western air defense deliveries (Patriot, AMRAAM, Crotale) arrive at critical juncture but integration timelines remain uncertain. Sustained UAV swarms across seven oblasts confirm persistent ISR-strike cycle degrading Ukrainian rear-area security.",
+    "regional_response": "CIA Director Ratcliffe's unannounced Moscow visit coincides with Russian fuel export restrictions through January 2027, suggesting high-level diplomatic engagement amid economic warfare measures. Kazakhstan's agreement to refine Russian oil for return export illustrates Central Asian sanctions evasion pathways sustaining Russian war economy. Ukrainian Black Sea port campaign since July, per Budanov, links maritime blockade to battlefield resource constraints. Absence of women's mobilization announcement addresses domestic stability concerns. NYT assessment of Western tanks idled"
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 150,
   "kpszsu_timeline": [
-    3,
-    2,
-    2,
-    5,
+    6,
     1,
     3,
-    3,
+    2,
+    5,
+    10,
     4,
-    11,
-    3,
     3,
     1,
-    5,
-    5,
+    2,
+    8,
     1,
     1,
     4,
@@ -367,6 +362,9 @@
     1,
     2,
     1,
-    1
+    1,
+    0,
+    3,
+    2
   ]
 }
