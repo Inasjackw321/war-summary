@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-08-26T23:00:18.250778+00:00",
-  "message_count": 447,
+  "updated_at": "2026-08-27T03:50:15.423751+00:00",
+  "message_count": 592,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,81 +14,130 @@
   "red_alerts": 162,
   "red_alerts_timeline": [
     0,
-    7,
+    0,
+    10,
+    10,
+    5,
+    21,
+    5,
     0,
     0,
     0,
-    0,
-    14,
-    14,
-    14,
-    20,
-    14,
-    7,
+    5,
+    5,
     0,
     0,
+    5,
+    10,
+    10,
+    21,
     0,
-    7,
-    7,
+    10,
+    26,
+    16,
     0,
-    0,
-    7,
-    14,
-    20,
-    20,
     0
   ],
   "combined_activity_timeline": [
-    7,
     9,
-    5,
-    10,
-    9,
-    10,
-    13,
-    10,
-    29,
-    21,
-    28,
-    19,
-    17,
-    15,
     11,
+    10,
+    25,
+    20,
+    28,
+    23,
+    13,
+    17,
+    12,
     20,
     17,
-    18,
+    16,
+    23,
+    28,
     31,
-    25,
-    29,
-    26,
-    27,
-    40
+    24,
+    32,
+    33,
+    52,
+    51,
+    44,
+    13,
+    37
   ],
   "messages_by_channel": {
-    "@eRadarrua": 75,
-    "@kpszsu": 96,
-    "@mon1tor_ua": 66,
+    "@eRadarrua": 105,
+    "@kpszsu": 123,
+    "@mon1tor_ua": 156,
     "@UkraineNow": 21,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 160
+    "@tass_agency": 158
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/107294",
-    "kpszsu": "https://t.me/kpszsu/74651",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/71089",
+    "eRadarrua": "https://t.me/eRadarrua/107390",
+    "kpszsu": "https://t.me/kpszsu/74731",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/71182",
     "UkraineNow": "https://t.me/UkraineNow/83714",
     "DeepStateUA": "https://t.me/DeepStateUA/23782",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32776",
-    "tass_agency": "https://t.me/tass_agency/392173"
+    "tass_agency": "https://t.me/tass_agency/392199"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32774",
-    "UkraineNow": "https://t.me/UkraineNow/83705",
-    "DeepStateUA": "https://t.me/DeepStateUA/23779",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/71086"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/71173",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/32762",
+    "UkraineNow": "https://t.me/UkraineNow/83691",
+    "kpszsu": "https://t.me/kpszsu/74705",
+    "eRadarrua": "https://t.me/eRadarrua/107338"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/392197",
+      "post_id": 392197,
+      "channel": "tass_agency",
+      "ts": "2026-08-27T03:25:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/392193",
+      "post_id": 392193,
+      "channel": "tass_agency",
+      "ts": "2026-08-27T02:55:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/mon1tor_ua/71152",
+      "post_id": 71152,
+      "channel": "mon1tor_ua",
+      "ts": "2026-08-27T02:18:12+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/392187",
+      "post_id": 392187,
+      "channel": "tass_agency",
+      "ts": "2026-08-27T01:20:12+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/392182",
+      "post_id": 392182,
+      "channel": "tass_agency",
+      "ts": "2026-08-27T00:55:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/392179",
+      "post_id": 392179,
+      "channel": "tass_agency",
+      "ts": "2026-08-27T00:21:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/392176",
+      "post_id": 392176,
+      "channel": "tass_agency",
+      "ts": "2026-08-26T23:25:11+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/392175",
+      "post_id": 392175,
+      "channel": "tass_agency",
+      "ts": "2026-08-26T23:13:02+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/392169",
       "post_id": 392169,
@@ -176,77 +225,24 @@
       "ts": "2026-08-26T19:48:44+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/rhKuFoE-jBkIPJOSzHdp5k7DYBXdSvJMFlFE_HeZ1XOtSf_BEwQmUnqElDEILDTvYg1kDI-byB-hC8vn_5COIN_3JIN4U5E4YzTWiRXJzgMECJVjSbryydUpR96o7aS2FoBPiOk-m5r0eaTgUsK2b2fvV_CORfyBV1AC_0wqw2rFUI9cqI_hAo2dTu3JVySZT05_lfIMe2dGztWhUOStjQm9RyxZCfDaKRXKcw9CaLtPQVj8o3zemQXDH4RRLK1KsDY0g_OptOs_6-2jCsghwH3D2te1DAbvh4-FHIar7NJitOkucR766qvDDDaNbBawGY8u7q5sMfTe-oBqLMFEnA.jpg",
       "companion_text_id": 107261
-    },
-    {
-      "post_url": "https://t.me/mon1tor_ua/71046",
-      "post_id": 71046,
-      "channel": "mon1tor_ua",
-      "ts": "2026-08-26T19:47:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/392156",
-      "post_id": 392156,
-      "channel": "tass_agency",
-      "ts": "2026-08-26T19:43:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83714",
-      "post_id": 83714,
-      "channel": "UkraineNow",
-      "ts": "2026-08-26T19:38:51+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/107238",
-      "post_id": 107238,
-      "channel": "eRadarrua",
-      "ts": "2026-08-26T18:53:59+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/i9Q1SU8TyW_f8S8eMZgOgD8rd9fyZ3E27Ce6SIjlj0cH47Q-J1bizyFWlKmr6d3kDeTmIk2VAdkMWnVnXfGVenneL91BBbVjj7H_sVoY0Pu_n0eplzNO6CcvekpBveqcY5pbc0srVPzWlgH9IqgHXqExhGbYoS1JVSplWwZKGzhR7ucI7GztJaZihb6xCJww8XkCdYQvNcSLhMpGUqsTU2_CQAzl-5g1rOCcQjN1kCNL0xZYMwgme6q7GzVbW0x-rig04jmw_tA0n5ZuO9f-7uxjPRVJiihwru--wSSyYPThXqihKgq06g6P4-A_dJY1AGgCOHCffAWaIwBF1cFQjw.jpg",
-      "companion_text_id": 107237
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/107229",
-      "post_id": 107229,
-      "channel": "eRadarrua",
-      "ts": "2026-08-26T18:46:30+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/S81JhGhDh6NdkoLkP4tTnPev2Po2XQDx9Sis6Jf2SPcs-z4PxL64swp2vbicWuJy6J5ZuCF6xjgH5byR5EX_Q33FKhxWGwnOjhy6DOFnBTsACOIMRjqs4pDJfnIjpMeUpTroB71CXcXg32rgxtvVfQshXZ-Q97SZA0eSDoc_kNgEUMdxqbOkg1eyqXfSrMwQjpVE6GTcFbyE4aJx1Pl7e8tDi--7BLHfxvEKJYwiyccRkNUG5AqbF6dj_DRi8Pr7mxXuKVieOyqcT8VUVEHdU1qgBqU1HivmPL6snwLNDAXS65y6hK-jqRi7JumLmj-_j9Z5F5K7V3gjG2oitKWETQ.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/107224",
-      "post_id": 107224,
-      "channel": "eRadarrua",
-      "ts": "2026-08-26T18:18:29+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/UwDge9xf4kQhTM5l8QBecuEh90l5qNZwOX8FSAz8RhqGtwjZVD4QpnY2i4wKZXeLa1GQHaqpyUN83RCVX-vvdvYSVz58EAIVI3UWbXp8H-r1GydT0fjfiaOCGnqyTOU9VZpynHxkbcU0o2PVX4e3rdK9ryRu2MUd39LQTEnEijplTJKpntNhYCMxOq_UkMRjqt4B3gtuEqmP7p_8ogkGnNIW4o5S-QUqwFJfWOZLBTpkkUpTy9ox3ICVNXNth4BCSh1_KJzSZb1mi0HJegnyuYzvFk9S3afRAdsvZUKM5lLx8ExRUk4-2HyiMBZe2JlysqGli5qZSYrAADipg7Uwlg.jpg",
-      "companion_text_id": 107225
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/32776",
-      "post_id": 32776,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-08-26T18:03:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/392151",
-      "post_id": 392151,
-      "channel": "tass_agency",
-      "ts": "2026-08-26T18:02:37+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/107293": "data/media/eRadarrua_107293.jpg",
+    "eRadarrua/107292": "data/media/eRadarrua_107293.jpg",
+    "eRadarrua/107271": "data/media/eRadarrua_107271.jpg",
+    "eRadarrua/107272": "data/media/eRadarrua_107271.jpg",
     "eRadarrua/107278": "data/media/eRadarrua_107278.jpg",
     "eRadarrua/107277": "data/media/eRadarrua_107278.jpg",
     "eRadarrua/107280": "data/media/eRadarrua_107280.jpg",
     "eRadarrua/107279": "data/media/eRadarrua_107280.jpg",
     "eRadarrua/107286": "data/media/eRadarrua_107286.jpg",
     "eRadarrua/107287": "data/media/eRadarrua_107286.jpg",
-    "eRadarrua/107293": "data/media/eRadarrua_107293.jpg",
-    "eRadarrua/107292": "data/media/eRadarrua_107293.jpg",
     "eRadarrua/107260": "data/media/eRadarrua_107260.jpg",
     "eRadarrua/107261": "data/media/eRadarrua_107260.jpg",
     "eRadarrua/107262": "data/media/eRadarrua_107262.jpg",
     "eRadarrua/107266": "data/media/eRadarrua_107266.jpg",
     "eRadarrua/107265": "data/media/eRadarrua_107266.jpg",
-    "eRadarrua/107271": "data/media/eRadarrua_107271.jpg",
-    "eRadarrua/107272": "data/media/eRadarrua_107271.jpg",
     "eRadarrua/107229": "data/media/eRadarrua_107229.jpg",
     "eRadarrua/107238": "data/media/eRadarrua_107238.jpg",
     "eRadarrua/107237": "data/media/eRadarrua_107238.jpg",
@@ -262,84 +258,104 @@
     "kpszsu/74509": "data/media/kpszsu_74509.jpg",
     "kpszsu/74508": "data/media/kpszsu_74509.jpg"
   },
-  "summary": "Russia launched a large-scale drone assault across multiple Ukrainian oblasts overnight, with jet drones tracked over Kyiv, Cherkasy, Kirovohrad, Poltava, Vinnytsia, Odesa, and Dnipropetrovsk regions, originating from Crimea and Donetsk. Heavy combat continues in the Slovyansk-Kramatorsk agglomeration where Russian forces are infiltrating Kostiantynivka and threatening Chasiv Yar. Bloomberg reports Russia is preparing to escalate ballistic missile strikes on Kyiv as peace talks stall, while Budanov warned Patriot ammunition shortages will worsen in 2026.",
+  "summary": "Russia launched a massive overnight aerial assault across Ukraine involving dozens of jet-powered Shahed drones, ballistic and cruise missiles, and cluster munitions targeting Kyiv, Chernihiv, Sumy, Poltava, Dnipropetrovsk, and Odesa regions. Russian ground forces claimed liberation of Pisarevka in Sumy region and Nezhenka in Zaporizhzhia region while advancing near Dobropillia, Volchansk, and Zaporizhzhia front. Ukraine struck Russian energy infrastructure, causing a major fire at Wildberries warehouse in Tambov region and halting operations at Lukoil's Nizhegorodnefteorgsintez refinery.",
   "key_points": [
-    "Bloomberg reports Russia is preparing to intensify ballistic missile strikes on Kyiv's center and infrastructure in other major Ukrainian cities as peace talks stall. (Source: @ukr_leaks_eng/32774)",
-    "Budanov stated Patriot system ammunition deliveries in 2026 will be less than in 2025 and insufficient to withstand the pace of Russian attacks. (Source: @ukr_leaks_eng/32745)",
-    "Zelensky announced two new groupings will strengthen Ukrainian positions in the Donetsk region, led by Denys Prokopenko and Andriy Biletsky. (Source: @UkraineNow/83705)",
-    "DeepState reports Russian forces are actively infiltrating Kostiantynivka and surrounding Chasiv Yar with envelopment maneuvers, amid a change in 11th Corps leadership. (Source: @DeepStateUA/23779)",
-    "Multiple jet drones were tracked across Kyiv, Cherkasy, Kirovohrad, Poltava, Vinnytsia, and Odesa oblasts, with launches originating from Crimea and Donetsk. (Source: @mon1tor_ua/71086)",
-    "Reuters reports all main Lukoil refineries in Russia have been disabled, with Lukoil-Nizhegorodnefteorgsintez halting processing after an August 26 attack. (Source: @UkraineNow/83712)",
-    "Ukrainian authorities ordered evacuation of children from nine villages in Zaporizhzhia region within 30 days, located south of Zaporizhzhia between Kamyshevakha and Orekhovoye. (Source: @ukr_leaks_eng/32767)",
-    "A preliminary strike was reported on warehouse premises in Kalynivka, Kyiv region. (Source: @mon1tor_ua/71071)"
+    "Russia launched over 15 jet-powered Shahed drones and a ballistic missile toward Kyiv region from Chernihiv and Bryansk directions overnight. (Source: @mon1tor_ua/71173)",
+    "Russian forces claimed capture of Pisarevka in Sumy region and Nezhenka in Zaporizhzhia region per Russian MoD. (Source: @ukr_leaks_eng/32762)",
+    "Ukrainian drones attacked Wildberries warehouse in Kotovsk, Tambov region, burning over 100,000 sq m, and hit Kstovo refinery in Nizhny Novgorod region. (Source: @UkraineNow/83691)",
+    "Lukoil's Nizhegorodnefteorgsintez refinery, Russia's fourth largest, fully halted oil processing after August 26 attack. (Source: @UkraineNow/83712)",
+    "Russian 'Sever' group repelled Ukrainian 68th Brigade counterattack near Sadki, Sumy direction, with heavy fighting near Pisarevka. (Source: @ukr_leaks_eng/32755)",
+    "Russian 'Tsentr' group captured Annovka near Dobropillia; 'Vostok' group penetrated defenses near Zarnitsa and expanded control near Dolinka in Zaporizhzhia region. (Source: @ukr_leaks_eng/32755)",
+    "Two Zaporizhzhia NPP employees injured by Ukrainian drone attack on hydraulic structures. (Source: @ukr_leaks_eng/32755)",
+    "Belarus constructing new military training ground with 60-wagon railway siding in Gomel region for 37th Separate Airborne Assault Brigade near Ukrainian border. (Source: @UkraineNow/83695)"
   ],
   "sentiment": "escalating",
-  "intensity": 9,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russia launched a large-scale overnight drone assault across at least seven Ukrainian oblasts with jet drones tracked over Kyiv, Cherkasy, Kirovohrad, Poltava, Vinnytsia, Odesa, and Dnipropetrovsk regions, with launches reported from Crimea and Donetsk. Heavy combat continues in the Slovyansk-Kramatorsk agglomeration where Russian forces are infiltrating Kostiantynivka and threatening Chasiv Yar. Bloomberg reports Russia is preparing to escalate ballistic missile strikes on Kyiv as peace talks stall, while Budanov warned Patriot ammunition shortages will worsen in 2026.",
+    "executive_summary": "Russia conducted a large-scale combined aerial attack across Ukraine overnight, employing over 15 jet-powered Shahed drones, a ballistic missile toward Kyiv, Kh-59 cruise missiles, and cluster munitions against Dnipropetrovsk region. Russian ground offensives continue on multiple axes: 'Sever' group fighting near Volchansk and Sumy direction, 'Tsentr' group capturing Annovka near Dobropillia, and 'Vostok' group advancing near Zarnitsa and Dolinka in Zaporizhzhia region. Ukraine retaliated with deep strikes on Russian energy infrastructure, destroying a massive Wildberries logistics hub in Tambov region and forcing shutdown of Lukoil's major Nizhegorodnefteorgsintez refinery.",
     "ukraine": {
       "points": [
-        "Zelensky announced two new military groupings will strengthen Ukrainian positions in the Donetsk region, to be led by Denys Prokopenko and Andriy Biletsky, during a visit to Zaporizhzhia. (Source: @UkraineNow/83705)"
-      ],
-      "key_developments": null
+        "Ukrainian air defense engaged over 15 jet-powered Shahed drones across Kyiv, Chernihiv, Sumy, Poltava, Dnipropetrovsk, and Odesa regions overnight, with multiple drones reported over Brovary, Boryspil, Vasylkiv, Fastiv, and Kyiv city districts. (Source: @mon1tor_ua/71173, @mon1tor_ua/71175, @mon1tor_ua/71178, @mon1tor_ua/71179, @kpszsu/74705, @kpszsu/74712, @kpszsu/74724)",
+        "Ukrainian drones struck Wildberries warehouse in Kotovsk, Tambov region, igniting fire exceeding 100,000 sq m on 108,000 sq m facility, and attacked Kstovo refinery in Nizhny Novgorod region, one of Russia's largest. (Source: @UkraineNow/83691)",
+        "Lukoil's Nizhegorodnefteorgsintez refinery, Russia's fourth largest and second largest gasoline producer, completely halted oil processing following August 26 drone attack. (Source: @UkraineNow/83712)",
+        "Zelensky awarded Elon Musk Order of Freedom for contributions to Ukraine's defense and US-Ukraine relations. (Source: @ukr_leaks_eng/32761)",
+        "Ukrainian MP Vasily Mokan stated budget exhausted for military salaries. (Source: @ukr_leaks_eng/32773)",
+        "Budanov warned Patriot missile ammunition shortages worsening, with 2026 deliveries expected below 2025 levels. (Source: @ukr_leaks_eng/32745)",
+        "Mandatory evacuation of children ordered in nine Ukrainian-controlled settlements in Zaporizhzhia region. (Source: @ukr_leaks_eng/32770)"
+      ]
     },
     "russia": {
       "points": [
-        "Bloomberg reports Russia is preparing to escalate attacks on Ukraine, likely intensifying ballistic missile strikes on Kyiv including the capital's center and infrastructure in other major cities as peace talks stall. (Source: @ukr_leaks_eng/32774)"
-      ],
-      "key_developments": null
+        "Russian forces launched massed Shahed drone waves from multiple axes: Chernihiv region (4+ drones toward Kyiv region), Bryansk region (toward Chernihiv), Crimea (toward Black Sea), and internal Russian territory (toward Kyiv via Kursk/Belgorod). (Source: @mon1tor_ua/71173, @mon1tor_ua/71182, @eRadarrua/107338, @eRadarrua/107349)",
+        "Ballistic missile launched from Chernihiv region toward Kyiv; Kh-59 cruise missile targeted Dnipro/Samar area; cluster munitions 'Banderyol' fired at Kamyanske, Dnipropetrovsk region. (Source: @kpszsu/74672, @mon1tor_ua/71176, @kpszsu/74703)",
+        "Russian MoD claimed liberation of Pisarevka (Sumy region) and Nezhenka (Zaporizhzhia region). (Source: @ukr_leaks_eng/32762)",
+        "Russian 'Sever' group repelled 68th Ukrainian Brigade counterattack near Sadki, Sumy direction, with heavy fighting near Pisarevka; fighting in Kazachya Lopana and heavy battles near Vasilevka on Volchansk axis. (Source: @ukr_leaks_eng/32755)",
+        "Russian 'Tsentr' group captured Annovka near Dobropillia; 'Vostok' group penetrated defenses near Zarnitsa and expanding control near Dolinka in Zaporizhzhia region. (Source: @ukr_leaks_eng/32755)",
+        "Belgorod region suffered 1 civilian killed, 13 injured from Ukrainian drone strikes across multiple districts including Graivoron, Valuyki, Shebekino, Krasnaya Yaruga. (Source: @ukr_leaks_eng/32755)",
+        "CIA Director John Ratcliffe visited Moscow; US reportedly asked Ukraine not to attack Moscow during visit. (Source: @UkraineNow/83693)"
+      ]
     },
     "eastern_front": {
       "points": [
-        "DeepState reports the most active fighting in the Slovyansk-Kramatorsk agglomeration is around Kostiantynivka, where Russian forces are conducting active infiltration into the city after taking Illinivka, with Ukrainian forces conducting continuous clearing operations of enemy troops hiding in buildings and basements. (Source: @DeepStateUA/23779)"
-      ],
-      "key_developments": null
+        "Russian 'Tsentr' group captured Annovka village near Dobropillia, Donetsk region. (Source: @ukr_leaks_eng/32755)",
+        "Heavy offensive battles reported from Sloviansk direction toward Nikanorovka. (Source: @ukr_leaks_eng/32755)",
+        "Russian 'Vostok' group penetrated Ukrainian defenses near Zarnitsa and expanding control near Dolinka, captured yesterday, in eastern Zaporizhzhia region. (Source: @ukr_leaks_eng/32755)",
+        "Two Zaporizhzhia NPP employees injured by targeted Ukrainian drone attack on hydraulic structures. (Source: @ukr_leaks_eng/32755)",
+        "Secondary detonations observed in Peschanovka, Dnipropetrovsk region, after Russian strike. (Source: @ukr_leaks_eng/32755)",
+        "Fires reported in Chernihiv and Kyiv following Russian strikes. (Source: @ukr_leaks_eng/32755)"
+      ]
     },
     "northern_front": {
       "points": [
-        "Multiple jet drones were tracked over Kyiv, Cherkasy, Kirovohrad, Poltava, and Vinnytsia oblasts overnight, with one drone reportedly striking warehouse premises in Kalynivka, Kyiv region. (Source: @mon1tor_ua/71071)"
-      ],
-      "key_developments": null
+        "Russian 'Sever' group repelled counterattack by two assault groups of Ukrainian 68th Separate Motor Rifle Brigade near Sadki, Sumy direction, forcing retreat to initial positions. (Source: @ukr_leaks_eng/32755)",
+        "Heavy fighting ongoing near Pisarevka, Sumy region; Russian assault units engaged in firefights near Ulanovo, Shostka district. (Source: @ukr_leaks_eng/32755)",
+        "Russian drone struck residential building in Demyanki village, Starodubsky district, Bryansk region, killing owner and injuring resident; another drone explosion injured man in Sopychi, Pogarsky district. (Source: @ukr_leaks_eng/32755)",
+        "Belarus constructing new military training ground with 60-wagon railway siding and ramp platform in Gomel region for 37th Separate Airborne Assault Brigade of Belarusian Special Forces near Ukrainian border. (Source: @UkraineNow/83695)",
+        "Multiple Shahed drones launched from Bryansk region toward Chernihiv region and from Chernihiv region toward Kyiv region (Vyshhorod, Brovary districts). (Source: @mon1tor_ua/71173, @mon1tor_ua/71182)"
+      ]
     },
     "southern_front": {
       "points": [
-        "Ukrainian authorities ordered the evacuation of children from nine villages in Zaporizhzhia region within 30 days, including Belenky Pervye, Lysogorka, Novotroitske, Golube, Veseloe, Zhelta Krucha, Novorozovka, and Slavne, located south of Zaporizhzhia between Kamyshevakha and Orekhovoye. (Source: @ukr_leaks_eng/32767)"
-      ],
-      "key_developments": null
+        "Ukrainian drones attacked energy infrastructure in Crimea overnight. (Source: @ukr_leaks_eng/32755)",
+        "Russian forces striking Odesa and Zaporizhzhia regions; UAV groups approaching Odesa/Chornomorsk from Black Sea waters. (Source: @ukr_leaks_eng/32755, @kpszsu/74716, @kpszsu/74695, @eRadarrua/107349)",
+        "Kherson region experiencing constant drone strikes and aerial mining with camouflaged munitions resembling wood pieces containing 'joink' detonators. (Source: @ukr_leaks_eng/32755)",
+        "Drone fragment with explosives found on beach in Olimp, Romania, washed ashore from Black Sea. (Source: @UkraineNow/83704)",
+        "Zaporizhzhia NPP hydraulic structures targeted by Ukrainian drone, injuring two employees. (Source: @ukr_leaks_eng/32755)"
+      ]
     },
     "air_war": {
       "points": [
-        "Russia launched jet drones from Crimea and Donetsk, with multiple drones tracked across Kyiv, Cherkasy, Kirovohrad, Poltava, Vinnytsia, Odesa, and Dnipropetrovsk oblasts overnight, targeting areas including Kyiv's Bortnychi, Osokorky, and Boryspil districts. (Source: @mon1tor_ua/71086)"
-      ],
-      "key_developments": null
+        "Over 15 jet-powered Shahed drones detected simultaneously across northern and central Ukraine: 4 from Chernihiv to Kyiv (Vyshhorod, Brovary), 3 toward Brovary/Boryspil/Kyiv, 1 circling over Vasylkiv, 1 from Bryansk to Chernihiv, 1 toward Odesa. (Source: @mon1tor_ua/71173, @mon1tor_ua/71182)",
+        "Ballistic missile launched from Chernihiv region toward Kyiv at 04:14; air raid alert in Kyiv expected to last at least 2 hours. (Source: @kpszsu/74672, @eRadarrua/107375, @mon1tor_ua/71180)",
+        "Kh-59 cruise missile targeted Dnipro/Samar area. (Source: @mon1tor_ua/71176)",
+        "Cluster munitions 'Banderyol' fired at Kamyanske, Dnipropetrovsk region. (Source: @kpszsu/74703)",
+        "At least 16 Ukrainian drones shot down over Tambov region during Wildberries warehouse attack; 10 drones toward Moscow destroyed. (Source: @ukr_leaks_eng/32755)",
+        "Ukrainian drone crashed into private house in Lipetsk region, killing child and adult, injuring 2. (Source: @ukr_leaks_eng/32755)",
+        "Shahed drones flying at 5,900 meters altitude, making them difficult to detect visually or audibly. (Source: @mon1tor_ua/71171)"
+      ]
     },
     "key_developments": [
-      "Bloomberg reports Russia is preparing to intensify ballistic missile strikes on Kyiv's center and infrastructure in other major Ukrainian cities as peace talks stall. (Source: @ukr_leaks_eng/32774)",
-      "Budanov stated Patriot system ammunition deliveries in 2026 will be less than 2025 and insufficient to withstand the pace of Russian attacks, in an interview with La Stampa. (Source: @ukr_leaks_eng/32745)",
-      "DeepState reports Russian forces are actively infiltrating Kostiantynivka and threatening to envelop Chasiv Yar, with leadership change at 11th Corps expected to improve the situation. (Source: @DeepStateUA/23779)",
-      "Zelensky announced two new groupings led by Denys Prokopenko and Andriy Biletsky will strengthen Ukrainian positions in the Donetsk region. (Source: @UkraineNow/83705)",
-      "Multiple jet drones launched from Crimea and Donetsk targeted at least seven Ukrainian oblasts overnight, with a strike reported on warehouse premises in Kalynivka, Kyiv region. (Source: @mon1tor_ua/71086)",
-      "Reuters reports all main Lukoil refineries in Russia have been disabled, with the fourth-largest Nizhny Novgorod refinery halting processing after an August 26 attack. (Source: @UkraineNow/83712)",
-      "Ukrainian authorities ordered evacuation of children from nine villages in Zaporizhzhia region within 30 days, located south of Zaporizhzhia between Kamyshevakha and Orekhovoye. (Source: @ukr_leaks_eng/32767)"
+      "Massed Russian aerial attack: 15+ jet-powered Shahed drones, ballistic missile, Kh-59 cruise missile, and cluster munitions struck Kyiv, Chernihiv, Sumy, Poltava, Dnipropetrovsk, Odesa regions overnight. (Source: @mon1tor_ua/71173, @kpszsu/74672, @mon1tor_ua/71176, @kpszsu/74703)",
+      "Russian MoD claims capture of Pisarevka (Sumy) and Nezhenka (Zaporizhzhia); 'Tsentr' group takes Annovka near Dobropillia; 'Vostok' group advances near Zarnitsa and Dolinka. (Source: @ukr_leaks_eng/32762, @ukr_leaks_eng/32755)",
+      "Ukrainian deep strikes: Wildberries warehouse in Tambov region (100,000+ sq m fire) and Kstovo refinery hit; Lukoil's Nizhegorodnefteorgsintez refinery fully halted. (Source: @UkraineNow/83691, @UkraineNow/83712)",
+      "Sumy direction: Russian 'Sever' group repels 68th Ukrainian Brigade counterattack near Sadki; heavy fighting at Pisarevka and Ulanovo. (Source: @ukr_leaks_eng/32755)",
+      "Zaporizhzhia NPP attacked: Ukrainian drone hits hydraulic structures, injuring two plant employees. (Source: @ukr_leaks_eng/32755)",
+      "Belarus builds new military training ground with rail infrastructure in Gomel region for 37th Airborne Assault Brigade near Ukrainian border. (Source: @UkraineNow/83695)",
+      "CIA Director Ratcliffe in Moscow; US reportedly requested Ukraine pause strikes on Moscow during visit. (Source: @UkraineNow/83693)"
     ],
-    "threat_assessment": "The operational picture suggests Russia is entering a phase of intensified combined arms strikes against Ukrainian urban centers and critical infrastructure. Bloomberg's reporting on imminent ballistic missile escalation against Kyiv's center, combined with the overnight saturation drone attack across at least seven oblasts, indicates a deliberate campaign to degrade Ukrainian air defense and civil resilience. The Patriot ammunition shortfall acknowledged by Budanov compounds this vulnerability, as Ukrainian air defenders must increasingly prioritize high-value targets over civilian areas. On the ground, the infiltration tactics observed in Kostiantynivka combined with the envelopment threat to Chasiv Yar suggest Russian forces are preparing conditions for a larger offensive toward the last major Donbas cities of Slovyansk and Kramatorsk.",
-    "regional_response": "The broader regional security implications were highlighted by the reported GRU-linked drone discovered near a Ukrainian cargo plane at Leipzig/Halle Airport on August 4, which US intelligence assesses bears hallmarks of Russian military intelligence devices. This incident, part of 18 drone-related disruptions at the airport since early 2026, suggests Russia is expanding its sabotage campaign into NATO territory to disrupt arms supply chains to Ukraine. Meanwhile, Armenia's National Security Council Secretary Alen Simonyan stated Armenia will not hinder Russians fleeing mobilization, indicating growing discomfort in Moscow's near-abroad with Russian wartime policies. Belarus is constructing a new military polygon with railway infrastructure in Gomel Oblast near the Ukrainian border, where the 37th Separate Air Assault Brigade of Belarusian SSO will be deployed to reinforce the southern axis.",
-    "intelligence_notes": "The convergence of the Bloomberg escalation warning, the Budanov Patriot shortage admission, and the multi-oblast drone barrage overnight is consistent with a coordinated Russian campaign to overwhelm Ukrainian air defenses ahead of anticipated peace negotiations. The deployment of two new Ukrainian groupings under Prokopenko and Biletsky to the Donetsk sector, combined with the 11th Corps leadership change, indicates Kyiv recognizes the severity of the threat to the Slovyansk-Kramatorsk agglomeration and is taking structural corrective action. The reported disabling of all main Lukoil refineries represents a significant degradation of Russian domestic refining capacity that may influence Kremlin war-sustaining calculations, though the absence of specific damage assessments limits analysis of operational impact on fuel availability for Russian forces."
+    "threat_assessment": "Russia is executing a coordinated escalation combining massed Shahed drone swarms with ballistic and cruise missiles to overwhelm Ukrainian air defense across multiple regions simultaneously. Ground offensives are advancing on three axes: Sumy direction toward Pisarevka, Donetsk toward Dobropillia, and Zaporizhzhia toward Zarnitsa/Dolinka, indicating a broad front pressure campaign. Ukrainian strikes on Russian energy infrastructure are inflicting significant economic damage, but Russian retaliation capacity remains high. The Belarusian military buildup near the northern border adds a potential new vector for escalation. Patriot missile shortages reported by Budanov suggest Ukrainian air defense sustainability is degrading.",
+    "regional_response": "US diplomatic engagement continues with CIA Director Ratcliffe's Moscow visit, reportedly seeking Ukrainian restraint on Moscow strikes. Former US envoy Kellogg assesses Putin aims to seize Odesa and Zaporizhzhia regions, ruling out near-term peace. Romania discovered armed drone fragment on Black Sea coast, highlighting spillover risks. Bloomberg reports Russia preparing intensified ballistic missile campaign against Kyiv and major Ukrainian cities as peace talks stall. European support faces growing Ukrainian domestic criticism over corruption and leadership appointments.",
+    "intelligence_notes": "Russian use of jet-powered Shahed variants at 5,900m altitude demonstrates adaptation to evade visual/acoustic detection. Cluster munition 'Banderyol' employment against Dnipropetrovsk indicates expanded weapon palette. Ukrainian targeting of Lukoil's fourth-largest refinery shows strategic energy interdiction capability. Russian claim of eliminating 77th Brigade reconnaissance chief in Kryvyi Rih shopping center suggests HUMINT penetration. Belarusian 37th Brigade deployment near border warrants monitoring for potential northern front activation. Ukrainian budget crisis for military salaries may force mobilization or resource reallocation decisions."
   },
   "missiles": 0,
   "drones": 162,
   "kpszsu_timeline": [
-    2,
-    3,
-    2,
-    4,
+    1,
     1,
     2,
-    0,
-    3,
     8,
-    5,
-    1,
+    4,
+    3,
     4,
     2,
     3,
@@ -347,11 +363,16 @@
     5,
     3,
     3,
+    6,
     8,
+    11,
+    5,
     9,
-    8,
-    8,
-    7,
-    4
+    4,
+    11,
+    11,
+    12,
+    3,
+    2
   ]
 }
