@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-04T22:27:20.515501+00:00",
-  "message_count": 518,
+  "updated_at": "2026-09-05T00:24:51.203414+00:00",
+  "message_count": 532,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,8 +13,6 @@
   ],
   "red_alerts": 25,
   "red_alerts_timeline": [
-    0,
-    0,
     0,
     0,
     0,
@@ -36,54 +34,71 @@
     1,
     1,
     4,
-    2
+    2,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    7,
-    17,
-    15,
-    25,
+    14,
+    26,
     2,
-    16,
+    14,
     19,
     24,
-    39,
-    42,
+    37,
+    43,
     25,
-    36,
-    14,
-    23,
-    12,
+    35,
+    15,
+    24,
+    11,
     18,
     20,
+    25,
+    31,
     26,
-    30,
-    27,
-    18,
+    19,
     7,
-    33,
-    23
+    31,
+    25,
+    23,
+    18
   ],
   "messages_by_channel": {
-    "@eRadarrua": 101,
-    "@kpszsu": 111,
-    "@mon1tor_ua": 102,
-    "@UkraineNow": 20,
+    "@eRadarrua": 103,
+    "@kpszsu": 120,
+    "@mon1tor_ua": 109,
+    "@UkraineNow": 19,
     "@DeepStateUA": 2,
     "@ukr_leaks_eng": 25,
-    "@tass_agency": 157
+    "@tass_agency": 154
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/110879",
-    "kpszsu": "https://t.me/kpszsu/76465",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/73747",
+    "eRadarrua": "https://t.me/eRadarrua/110892",
+    "kpszsu": "https://t.me/kpszsu/76490",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/73759",
     "UkraineNow": "https://t.me/UkraineNow/83893",
     "DeepStateUA": "https://t.me/DeepStateUA/23799",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33015",
-    "tass_agency": "https://t.me/tass_agency/393825"
+    "tass_agency": "https://t.me/tass_agency/393832"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "kpszsu": "https://t.me/kpszsu/76484",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/73741",
+    "UkraineNow": "https://t.me/UkraineNow/83881",
+    "tass_agency": "https://t.me/tass_agency/393832",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33000",
+    "eRadarrua": "https://t.me/eRadarrua/110856"
+  },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/110881",
+      "post_id": 110881,
+      "channel": "eRadarrua",
+      "ts": "2026-09-04T22:28:25+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/REwmqkSqMlx2AeFrgPXqBNMq2gyhviYQrleJdFxy8vnBLKV0K66CIuL3d9v0N8JVwITd7_iXDvarr8arhaTBY32VN1uBqP6I9LxDPlVtVyVixbp72_sGWH1AVmcfp89JeteJcfwWRr_96bkgjpnZcNuUUQM9cXb2Z11tfNgzFRuuacn30HPbYi24FdriU-KsdjB7uqzqirOA9sHSvtSVQNPRZVDUC5Aw92kHdSFdZBDlnVrl1GSI4yxebF2Ib0Fuz4HP31gqZCoBtg5g_vpQwXvoBmr9Pt9d6KiCOcebPMffgA8TqcRwfPdZ8fd_HBOzSO8Q9cw9t7JjF_fgNkusMg.jpg",
+      "companion_text_id": 110880
+    },
     {
       "post_url": "https://t.me/tass_agency/393825",
       "post_id": 393825,
@@ -217,143 +232,148 @@
       "ts": "2026-09-04T16:10:42+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/EtTQ5OVHRdRzR9zIVO3RGK-HMLCVPV0W21l6dM6e-4RvAj97V8pv_t1jSYCy-tpae7e5gUV6QnUfOQl75cmOJDwWUUeMhCU_w-icAqOsKMLYXQYN4mpk3h5BD5vNpJcZR4CysJKGJlLMD2xIqpY9kbvmlRTJ0SGUcRLan6fR1kssDOfygjR0WEwpStNg01PKs2kHCP07KVx0VaJgC1ajgnkhvXqnVDc5q5Zl9wcHh4pJ58tMN7iS4x2CW3FTlfGOEVytqhL3KSKn8fxnf7SljZi2Q8FoTd5hUD3jb_U6-2EVDxQdodLRnh9VcTU4HKm2kxAJ29T6m2Wp8WCCrlTt-g.jpg",
       "companion_text_id": 110770
-    },
-    {
-      "post_url": "https://t.me/tass_agency/393801",
-      "post_id": 393801,
-      "channel": "tass_agency",
-      "ts": "2026-09-04T16:00:30+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/110823": "data/media/eRadarrua_110823.jpg",
-    "eRadarrua/110822": "data/media/eRadarrua_110823.jpg",
+    "eRadarrua/110881": "data/media/eRadarrua_110881.jpg",
+    "eRadarrua/110880": "data/media/eRadarrua_110881.jpg",
     "eRadarrua/110824": "data/media/eRadarrua_110824.jpg",
+    "eRadarrua/110822": "data/media/eRadarrua_110824.jpg",
     "eRadarrua/110834": "data/media/eRadarrua_110834.jpg",
     "eRadarrua/110835": "data/media/eRadarrua_110834.jpg",
-    "eRadarrua/110800": "data/media/eRadarrua_110800.jpg",
-    "eRadarrua/110798": "data/media/eRadarrua_110800.jpg",
-    "eRadarrua/110801": "data/media/eRadarrua_110801.jpg",
-    "eRadarrua/110802": "data/media/eRadarrua_110801.jpg",
     "eRadarrua/110808": "data/media/eRadarrua_110808.jpg",
     "eRadarrua/110807": "data/media/eRadarrua_110808.jpg",
     "eRadarrua/110809": "data/media/eRadarrua_110809.jpg",
     "eRadarrua/110813": "data/media/eRadarrua_110813.jpg",
     "eRadarrua/110811": "data/media/eRadarrua_110813.jpg",
+    "eRadarrua/110823": "data/media/eRadarrua_110823.jpg",
     "eRadarrua/110799": "data/media/eRadarrua_110799.jpg",
-    "eRadarrua/110759": "data/media/eRadarrua_110759.jpg",
-    "eRadarrua/110760": "data/media/eRadarrua_110759.jpg",
+    "eRadarrua/110798": "data/media/eRadarrua_110799.jpg",
+    "eRadarrua/110800": "data/media/eRadarrua_110800.jpg",
+    "eRadarrua/110801": "data/media/eRadarrua_110801.jpg",
+    "eRadarrua/110802": "data/media/eRadarrua_110801.jpg",
     "eRadarrua/110768": "data/media/eRadarrua_110768.jpg",
     "eRadarrua/110767": "data/media/eRadarrua_110768.jpg",
     "eRadarrua/110771": "data/media/eRadarrua_110771.jpg",
     "eRadarrua/110770": "data/media/eRadarrua_110771.jpg",
-    "eRadarrua/110722": "data/media/eRadarrua_110722.jpg",
-    "eRadarrua/110721": "data/media/eRadarrua_110722.jpg",
-    "eRadarrua/110699": "data/media/eRadarrua_110699.jpg",
-    "eRadarrua/110698": "data/media/eRadarrua_110699.jpg",
-    "eRadarrua/110702": "data/media/eRadarrua_110702.jpg",
+    "eRadarrua/110759": "data/media/eRadarrua_110759.jpg",
+    "eRadarrua/110760": "data/media/eRadarrua_110759.jpg",
+    "eRadarrua/110703": "data/media/eRadarrua_110703.jpg",
+    "eRadarrua/110702": "data/media/eRadarrua_110703.jpg",
+    "eRadarrua/110704": "data/media/eRadarrua_110704.jpg",
+    "eRadarrua/110705": "data/media/eRadarrua_110704.jpg",
     "kpszsu/76336": "data/media/kpszsu_76336.jpg",
     "kpszsu/76335": "data/media/kpszsu_76336.jpg"
   },
-  "summary": "Russian forces continue missile and drone attacks across Ukraine, targeting key infrastructure including Kyiv, Dnipro, and Odesa. The US House considers sanctions against Russia amid ongoing negotiations. Ukrainian officials report casualties from recent strikes on civilian areas.",
+  "summary": "Multiple drone and missile attacks reported across Ukraine targeting infrastructure and population centers. Russian forces claim territorial advances in several directions while Ukrainian officials report damage to logistics facilities. Air raid warnings and public transportation disruptions implemented in Kyiv during moments of silence.",
   "key_points": [
-    "Russian drone struck the SBU building in Kyiv, damaging the office of head Alexander Pokladov and destroying a bakery near St. Sophia Cathedral. (Source: UkraineNow/83887)",
-    "Ballistic missiles targeted Dnipro and Kamianets-Podilskyi, with threats to Kyiv remaining at medium-high levels. (Source: mon1tor_ua/73710)",
-    "Russian drone attack on Odesa killed one person and injured two, including a child, while police casualties occurred in Dnipro region. (Source: UkraineNow/83877)",
-    "Russian forces liberated the village of Gruzskoye northeast of Dobropolye, according to Russian Ministry of Defense. (Source: uk_leaks_eng/32998)",
-    "US House considering 'hellish sanctions' against Russia, delayed until November midterm elections due to concerns over tariff expansion. (Source: uk_leaks_eng/32989)",
-    "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare a response. (Source: UkraineNow/83890)",
-    "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare a response. (Source: UkraineNow/83890)"
+    "Reactive drones reported in northern Dnipropetrovsk region heading toward Poltava region. (Source: @kpszsu/76484)",
+    "Ballistic missiles targeting Dnipro and Kamianske reported by monitoring channels. (Source: @mon1tor_ua/73741, @mon1tor_ua/73746)",
+    "Reactive drones detected across multiple regions including Chernihiv, Kharkiv, and Odesa oblasts. (Source: @kpszsu/76472, @kpszsu/76487, @kpszsu/76473)",
+    "Kyiv public transportation suspended at 9:00 during nationwide moment of silence. (Source: @UkraineNow/83881)",
+    "Russian forces claim control over Novohryshyn in DPR and advances in Kharkiv direction. (Source: @tass_agency/393832)",
+    "Large ATB warehouse in Odesa region destroyed according to Ukrainian intelligence sources. (Source: @ukr_leaks_eng/33000)",
+    "Drone attacks reported in Sumy region targeting civilian infrastructure. (Source: @eRadarrua/110856, @eRadarrua/110868)"
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces intensified missile and drone attacks across Ukraine, targeting critical infrastructure in Kyiv, Dnipro, and Odesa. The US House of Representatives is considering harsher sanctions against Russia, with legislative delays expected until November. Ukrainian officials confirmed casualties from recent strikes, including fatalities in Odesa and police deaths in Dnipro region.",
+    "executive_summary": "Multiple drone and missile attacks continue across Ukraine targeting infrastructure and population centers. Russian forces report territorial advances in eastern and southern directions while Ukrainian officials confirm damage to logistics facilities. Kyiv implements public transportation suspension during moments of silence for national remembrance.",
     "ukraine": {
       "points": [
-        "Russian drone attacked the SBU building in Kyiv, damaging the office of head Alexander Pokladov and destroying a bakery near St. Sophia Cathedral. President Zelensky confirmed the attack was directed at Pokladov's office. (Source: UkraineNow/83887)",
-        "In Odesa region, Russian strike killed one person and injured two, including a child. In Dnipro region, two police officers were killed and another injured in critical condition. (Source: UkraineNow/83877)",
-        "Ukrainian officials announced plans to create a separate app for air raid alerts and drone activity notifications. Government will provide three-month transition period for businesses to install shelters. (Source: UkraineNow/83878)",
-        "President Zelensky confirmed Russian drone attack on SBU building in Kyiv, killing 12 people. Ukraine preparing response to the attack. (Source: UkraineNow/83890)",
-        "Ukrainian Foreign Minister revealed living in bunker with Zelensky for a year and a half, 100 meters underground, recalling Russian proposals for capitulation as unacceptable. (Source: uk_leaks_eng/33013)"
+        "Public transportation in Kyiv suspended at 9:00 during nationwide moment of silence, with traffic lights set to red for all. Mayor Klitschko announced the measure, which will not affect operations during air raid warnings. (Source: @UkraineNow/83881, @ukr_leaks_eng/32990)",
+        "Major logistics facility 'Biocon' in Kiev region struck by Russian forces, described by Russian Ministry of Defense as military cargo storage. Ukrainian sources characterize it as pharmaceutical warehouse. (Source: @ukr_leaks_eng/33000)",
+        "Nova Poshta logistics center in Odesa region destroyed along with two dry cargo ships and port infrastructure according to Russian military reports. Ukrainian intelligence confirms large ATB warehouse destruction in Odesa region. (Source: @ukr_leaks_eng/33000)",
+        "Dniepropetrovsk region reports strike on depot and Nova Poshta branch facility. Kropyvnytsky reports enterprise damage and apartment building roof damage with one civilian injury. Zaporozhye reports apartment building fire with no casualties. (Source: @ukr_leaks_eng/33000)",
+        "Kharkiv region reports serviceman and spouse charged with treason for allegedly passing military position information to Russian intelligence. Charges relate to personnel, equipment, and fortification locations. (Source: @ukr_leaks_eng/33003)",
+        "Kyiv air defense intercepted Geran-5 drone targeting Brovary area. Multiple reactive drone attacks detected approaching Kyiv from various directions including Velyka Dumka. (Source: @mon1tor_ua/73751, @kpszsu/76471)",
+        "Odessa region reports destruction of large ATB warehouse and several trucks according to Ukrainian intelligence sources. Northern Odesa region drone attack reported heading toward Odesa/Chornomorsky areas. (Source: @ukr_leaks_eng/33000, @kpszsu/76487)"
       ]
     },
     "russia": {
       "points": [
-        "Russian Ministry of Defense reported liberation of Gruzskoye village northeast of Dobropolye. (Source: uk_leaks_eng/32998)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian forces launched missile attacks on Dnipro and Kamianets-Podilskyi, with threats to Kyiv remaining at medium-high levels. (Source: mon1tor_ua/73710)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)"
+        "Russian Ministry of Defense reports destruction of 426 Ukrainian aircraft-type UAVs across 12 regions, Moscow region, and Crimea during 08:00-20:00 period. Additional 35 UAVs destroyed over Moscow overnight. (Source: @ukr_leaks_eng/33000)",
+        "Russian forces claim control over Novohryshyn in DNR, village reported as gray zone by TASS military expert. Advances reported in Vasilevka, Blagodatnoye, and Dolzhanka in Kharkiv direction. (Source: @tass_agency/393832, @ukr_leaks_eng/33000)",
+        "Strikes reported on Ukrainian logistics facilities including 'Biocon' center in Kiev region, Nova Poshta facilities in Odesa and Dnipropetrovsk regions. Port infrastructure and cargo ships targeted in Odesa area. (Source: @ukr_leaks_eng/33000)",
+        "Belgorod region reports civilian casualties from FPV drone attacks including bus attack in Shebekino killing one passenger and wounding driver. Additional four civilian deaths reported in evening attacks. (Source: @ukr_leaks_eng/33000)",
+        "DPR reports three civilian deaths and 14 wounded from attack UAVs in 24-hour period. Strikes hit municipal transport company, warehouse facilities, passenger bus, and garbage truck causing structural damage. (Source: @ukr_leaks_eng/33000)",
+        "LNR reports two civilian deaths including 14-year-old girl, with teenager and nine adults wounded. Attacks targeted cars, minibus, and residential buildings across multiple districts. (Source: @ukr_leaks_eng/33000)",
+        "Sochi and Sirius Federal Territory report oil depot fire damage to residential building windows with no reported casualties following UAV attack. (Source: @UkraineNow/83871)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)"
+        "Kharkiv direction reports Russian advances near Bochkove in Volchansk direction and Ivashino in Velikoburluk direction. Fighting continues for Kazachya Lopan with Russian units present in northern part according to Dergachi administration. (Source: @ukr_leaks_eng/33000)",
+        "Kupyansk direction confirms Russian group actions west of Oskol River in central Kupyansk and near Moskovka. Fighting reported near Kovsharovka and Kurilovka with Russian units taking positions in multi-story building. (Source: @ukr_leaks_eng/33000)",
+        "Krasnolimansky and Slavyansky directions report seven Russian attacks recorded by Ukrainian General Staff by 22:00. Nikolayevka reported as area of Russian penetration south of Slavyansk. (Source: @ukr_leaks_eng/33000)",
+        "Druzhkovka direction sees Russian claim of Izhevka liberation with Ukrainian confirmation of southern Chervonoye advance and Russian flags appearing in village. Most of village considered gray zone without full control. (Source: @ukr_leaks_eng/33000)",
+        "Pokrovsk direction records 26 attacks in 24-hour period, highest intensity among all directions. Russian advances reported north of Krasnoyarsk in Dobropolsky direction. (Source: @ukr_leaks_eng/33000)",
+        "Zaporozhye front reports Russian advances north of Lugovskoye and east of Gulyaipole according to Ukrainian sources. (Source: @ukr_leaks_eng/33000)",
+        "Baltic missile attacks on Dniepro and Kamianske reported with multiple missiles striking target areas. (Source: @mon1tor_ua/73741, @mon1tor_ua/73746)"
       ]
     },
     "northern_front": {
       "points": [
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)"
+        "Kyiv region reports multiple reactive drone attacks including targeting Velyka Dumka and approaching from Chernihiv direction. Geran-5 drone intercepted over Kyiv/Brovar area. (Source: @mon1tor_ua/73751, @kpszsu/76479)",
+        "Chernihiv region reports reactive drone near Bobrovytsia heading toward Kyiv region. Northern Dnipropetrovsk region drones detected near Lozova heading south. (Source: @kpszsu/76454, @kpszsu/76472)",
+        "Sumy region reports six drones between Boromlya and Trastyanets with two near Krasnopil. Five peaceful drones reported heading toward Trastyanets. (Source: @eRadarrua/110868, @eRadarrua/110856)",
+        "Poltava region reports drone activity with two drones passing Kozelshchyna from northern Dnipropetrovsk region. Northern drone approach to Poltava confirmed. (Source: @eRadarrua/110885, @kpszsu/76461)",
+        "Chernihiv region reports reactive drone near Bobrovytsia targeting Kyiv region. Northern approach to Chernihiv from Slavutych direction detected. (Source: @kpszsu/76454, @kpszsu/76486)",
+        "Kyiv city implements public transportation suspension at 9:00 during moment of silence. Air raid warnings will resume normal operations if activated during suspension period. (Source: @UkraineNow/83881)",
+        "Multiple reactive drone attacks detected across northern oblasts including Chernihiv, Sumy, and Poltava regions with various directional approaches toward Kyiv and other population centers. (Source: @kpszsu/76479, @kpszsu/76461, @kpszsu/76486)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)"
+        "Odesa region reports destruction of large ATB warehouse and several trucks according to Ukrainian intelligence. Reactive drone attack from northern direction targeting Odesa/Chornomorsky areas. (Source: @ukr_leaks_eng/33000, @kpszsu/76487)",
+        "Mykolaiv region reports reactive drone southward movement. Southern Dnipropetrovsk region drones detected heading northwest. (Source: @kpszsu/76473, @kpszsu/76479)",
+        "Zaporizhzhia region reports reactive drones from west heading toward Kharkiv region. Western Zaporizhzhia drones targeting Kherson region direction. (Source: @kpszsu/76478)",
+        "Kherson direction reports Russian strikes on Ukrainian Armed Forces units in Novodmitrovka and Kherson areas with claimed enemy losses. (Source: @ukr_leaks_eng/33000)",
+        "Dniepropetrovsk region reports multiple missile attacks including four ballistic missiles on Dnipro and additional missiles targeting Kamianske. Reactive drone activity near Pyatykhatky. (Source: @mon1tor_ua/73743, @eRadarrua/110879)",
+        "Mykolaiv region confirms reactive drone movement southward. Southern attack vectors from Dnipropetrovsk region detected. (Source: @kpszsu/76473, @kpszsu/76479)",
+        "Kherson region reports Russian claims of up to 55 enemy losses in Dnieper Group of Forces area of responsibility. (Source: @ukr_leaks_eng/33000)"
       ]
     },
     "air_war": {
       "points": [
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-        "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)"
+        "Russian Ministry of Defense reports destruction of 426 Ukrainian aircraft-type UAVs across 12 regions, Moscow region, and Crimea during 08:00-20:00 period. Additional 35 UAVs destroyed over Moscow overnight. (Source: @ukr_leaks_eng/33000)",
+        "Multiple ballistic missile attacks on Dniepro with five missiles reported. Kamianske also targeted with ballistic missiles. Kyiv area Geran-5 drone intercepted. (Source: @mon1tor_ua/73741, @mon1tor_ua/73746, @mon1tor_ua/73751)",
+        "Reactive drone attacks detected across multiple regions including northern Dnipropetrovsk, Chernihiv, Odesa, and Sumy oblasts. Various directional approaches reported. (Source: @kpszsu/76484, @kpszsu/76472, @kpszsu/76487, @kpszsu/76473)",
+        "Sochi and Sirius Federal Territory report oil depot fire damage following UAV attack. Windows damaged in residential buildings with no casualties. (Source: @UkraineNow/83871)",
+        "Shebekino bus attack in Belgorod region kills one passenger and wounds driver. Additional drone attacks in region kill four civilians including doctor and paramedic. (Source: @ukr_leaks_eng/33000)",
+        "DPR reports three civilian deaths and 14 wounded from attack UAVs. LNR reports two deaths including 14-year-old girl with additional casualties. (Source: @ukr_leaks_eng/33000)",
+        "Massive overnight attack continues with destruction of 35 UAVs flying toward Moscow capital area. Sochi oil depot damage reported. (Source: @ukr_leaks_eng/33000)"
       ]
     },
     "key_developments": [
-      "Russian drone attacked SBU building in Kyiv, killing 12 people and damaging Pokladov's office near St. Sophia Cathedral. (Source: UkraineNow/83887)",
-      "Ballistic missiles targeted Dnipro and Kamianets-Podilskyi, with threats to Kyiv remaining at medium-high levels. (Source: mon1tor_ua/73710)",
-      "Russian drone strike on Odesa killed one person and injured two, including a child, while police casualties occurred in Dnipro region. (Source: UkraineNow/83877)",
-      "Russian forces liberated Gruzskoye village northeast of Dobropolye, according to Russian Ministry of Defense. (Source: uk_leaks_eng/32998)",
-      "US House considering 'hellish sanctions' against Russia, delayed until November midterm elections due to concerns over tariff expansion. (Source: uk_leaks_eng/32989)",
-      "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)",
-      "Russian drone attack on SBU building in Kyiv killed 12 people, prompting Ukraine to prepare response. (Source: UkraineNow/83890)"
+      "Russian forces claim territorial advances in Kharkiv direction including Vasilevka, Blagodatnoye, and Dolzhanka while Ukrainian sources report fighting near Bochkove and Ivashino. (Source: @ukr_leaks_eng/33000)",
+      "Massive drone campaign reports show Russian Ministry of Defense claiming destruction of 426 Ukrainian UAVs across 12 regions, Moscow region, and Crimea during daytime hours. (Source: @ukr_leaks_eng/33000)",
+      "Kyiv implements public transportation suspension at 9:00 during nationwide moment of silence with traffic lights set to red for all vehicles. (Source: @UkraineNow/83881, @ukr_leaks_eng/32990)",
+      "Large ATB warehouse in Odesa region destroyed according to Ukrainian intelligence sources alongside Nova Poshta logistics facilities in multiple regions. (Source: @ukr_leaks_eng/33000)",
+      "Multiple ballistic missile attacks on Dniepro with five missiles reported and additional missiles targeting Kamianske area. (Source: @mon1tor_ua/73741, @mon1tor_ua/73746)",
+      "Civilian casualties reported across multiple regions including Belgorod region bus attack killing one passenger and additional four civilian deaths from evening attacks. (Source: @ukr_leaks_eng/33000)",
+      "Drone attacks cause damage in Sochi and Sirius Federal Territory with oil depot fire damaging residential building windows and no reported casualties. (Source: @UkraineNow/83871)"
     ],
-    "threat_assessment": "Russian forces continue to escalate attacks on Ukrainian infrastructure, with ballistic missiles and drones targeting critical facilities including government buildings and energy infrastructure. The attack on the SBU building in Kyiv represents a significant escalation, potentially targeting high-value individuals. The threat to Kyiv remains at medium-high levels, with ongoing risks to civilian areas and military installations.",
-    "regional_response": "The US House of Representatives is considering harsher sanctions against Russia, with legislative delays expected until November. Ukrainian officials are implementing new measures, including a dedicated app for air raid alerts and drone activity notifications. President Zelensky confirmed the SBU building attack and stated Ukraine is preparing a response. The international community continues to monitor the situation, with ongoing peace negotiations involving US officials.",
-    "intelligence_notes": "Russian forces have demonstrated capability to strike high-value targets in Kyiv, including government facilities. The attack on the SBU building suggests possible targeting of leadership figures. Ukrainian countermeasures include enhanced air defense systems and public alert mechanisms. The demographic concerns raised by Ukrainian economist Aleksey Kushch indicate long-term strategic challenges. Russian advances in drone technology, including neural network integration, may enhance targeting capabilities."
+    "threat_assessment": "Russian forces maintain high-intensity campaign combining ballistic missiles, cruise missiles, and tactical drones across Ukraine. Eastern front sees sustained pressure with reported advances in multiple directions including Kharkiv and Donetsk regions. Civilian infrastructure remains primary target with logistics facilities, oil depots, and residential areas experiencing direct attacks. Kyiv faces continuous drone threat requiring robust air defense deployment. Escalation risk remains high with potential for deeper strikes into critical infrastructure zones.",
+    "regional_response": "Ukrainian government implements nationwide transportation suspension during moments of silence demonstrating resolve to maintain civilian morale. Air defense systems actively engage incoming threats with reported interceptions over Kyiv and other major cities. Public awareness campaigns warn citizens about potential casualties and infrastructure damage. International monitoring continues with detailed reporting on both military and civilian impacts. Government agencies coordinate emergency response for reported damage and casualties across multiple regions.",
+    "intelligence_notes": "Russian operational tempo indicates systematic campaign targeting logistics networks and civilian infrastructure. Multiple intelligence sources confirm coordinated attacks across all front sectors simultaneously. Ukrainian countermeasures show adaptation with public transportation protocols and air raid procedures. Civilian casualty reports suggest reduced discrimination in target selection. Monitoring indicates potential escalation toward energy infrastructure given reported oil depot damage in Russian territory."
   },
   "missiles": 25,
   "drones": 0,
   "kpszsu_timeline": [
-    0,
-    9,
     4,
     8,
     0,
-    6,
-    10,
-    7,
-    11,
     4,
+    12,
+    7,
+    10,
+    5,
     4,
     7,
     0,
     5,
-    1,
+    0,
     1,
     5,
     4,
@@ -362,6 +382,8 @@
     4,
     2,
     3,
-    3
+    3,
+    9,
+    10
   ]
 }
