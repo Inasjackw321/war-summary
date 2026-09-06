@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-06T08:44:20.983283+00:00",
+  "updated_at": "2026-09-06T11:13:20.950933+00:00",
   "message_count": 352,
   "channels": [
     "eRadarrua",
@@ -14,11 +14,8 @@
   "red_alerts": 108,
   "red_alerts_timeline": [
     0,
-    0,
-    0,
-    0,
-    40,
-    0,
+    14,
+    27,
     0,
     0,
     0,
@@ -28,7 +25,10 @@
     0,
     14,
     0,
+    0,
     27,
+    0,
+    0,
     0,
     0,
     0,
@@ -39,57 +39,111 @@
     0
   ],
   "combined_activity_timeline": [
-    11,
-    16,
-    26,
+    33,
     32,
-    38,
+    32,
+    16,
+    19,
+    11,
     21,
+    11,
     12,
     13,
-    25,
-    9,
-    9,
-    15,
     16,
-    16,
-    10,
     11,
-    9,
+    12,
     10,
+    7,
+    10,
+    4,
+    9,
     5,
-    9,
-    6,
-    6,
-    9,
-    17
+    7,
+    16,
+    20,
+    13,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 64,
-    "@kpszsu": 106,
+    "@eRadarrua": 60,
+    "@kpszsu": 112,
     "@mon1tor_ua": 22,
-    "@UkraineNow": 14,
+    "@UkraineNow": 17,
     "@ukr_leaks_eng": 15,
-    "@tass_agency": 131
+    "@tass_agency": 126
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/111096",
-    "kpszsu": "https://t.me/kpszsu/76775",
+    "eRadarrua": "https://t.me/eRadarrua/111102",
+    "kpszsu": "https://t.me/kpszsu/76801",
     "mon1tor_ua": "https://t.me/mon1tor_ua/73799",
-    "UkraineNow": "https://t.me/UkraineNow/83917",
+    "UkraineNow": "https://t.me/UkraineNow/83923",
     "DeepStateUA": "https://t.me/DeepStateUA/23799",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33042",
-    "tass_agency": "https://t.me/tass_agency/394018"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33044",
+    "tass_agency": "https://t.me/tass_agency/394033"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/83908",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33026",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/73778",
-    "eRadarrua": "https://t.me/eRadarrua/111030",
-    "tass_agency": "https://t.me/tass_agency/394004",
-    "kpszsu": "https://t.me/kpszsu/76751"
+    "kpszsu": "https://t.me/kpszsu/76746",
+    "UkraineNow": "https://t.me/UkraineNow/83916",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33031",
+    "eRadarrua": "https://t.me/eRadarrua/111094",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/73799",
+    "tass_agency": "https://t.me/tass_agency/394016"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/83923",
+      "post_id": 83923,
+      "channel": "UkraineNow",
+      "ts": "2026-09-06T10:58:06+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/394031",
+      "post_id": 394031,
+      "channel": "tass_agency",
+      "ts": "2026-09-06T10:29:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33044",
+      "post_id": 33044,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-09-06T10:22:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/394029",
+      "post_id": 394029,
+      "channel": "tass_agency",
+      "ts": "2026-09-06T10:19:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/394026",
+      "post_id": 394026,
+      "channel": "tass_agency",
+      "ts": "2026-09-06T10:04:13+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83919",
+      "post_id": 83919,
+      "channel": "UkraineNow",
+      "ts": "2026-09-06T09:56:14+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/394023",
+      "post_id": 394023,
+      "channel": "tass_agency",
+      "ts": "2026-09-06T09:38:45+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33043",
+      "post_id": 33043,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-09-06T09:23:41+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/83918",
+      "post_id": 83918,
+      "channel": "UkraineNow",
+      "ts": "2026-09-06T08:45:54+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/111096",
       "post_id": 111096,
@@ -165,64 +219,6 @@
       "ts": "2026-09-06T05:59:01+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/chMyOllAugOa2jLt4C9Qj4L3H5ojYwg_EL3AAps3nysuUTA_f3eJib77pn8kJkgHhgdexDAALYEDcRQUpwpuB_PUd7YWJUFviDdIWmFywpRG4wJ0awMPouvbfCDpDFO0q7oeK0kAvztYdjekNkVL3_T95oTFO3KH-0b94vMXYm5L9fYHL0k2iGVLd4g3kYmGrJ2nlbp4lqFHkbxQObWDNs81Nz4TDiJycAshYVC6zpgnhjihs0IIjjNLq_30IhRraD48S33zfcoA3vJEV0McCifEGnsuF03143aUbGoaauj8wYWdPzxYYZxsL5PnKSY9tMD9r_K3mry8f9-hq9WmyQ.jpg",
       "companion_text_id": 111091
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33039",
-      "post_id": 33039,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-09-06T05:04:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/394002",
-      "post_id": 394002,
-      "channel": "tass_agency",
-      "ts": "2026-09-06T04:49:12+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/393981",
-      "post_id": 393981,
-      "channel": "tass_agency",
-      "ts": "2026-09-05T23:22:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/393974",
-      "post_id": 393974,
-      "channel": "tass_agency",
-      "ts": "2026-09-05T21:29:25+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/111071",
-      "post_id": 111071,
-      "channel": "eRadarrua",
-      "ts": "2026-09-05T21:08:21+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/ZhzpDROrwim_guxtx9uo6PxRdwul2mvWgMrBzh-X_YvwXR9wBk8HdI2XoBLwE5NZkwWatUEvqZ5iJf_bVb-HMA7iO01GHlFG8w-Lon9AmjUg-VIECZCCbfapf34v_4tmPqtVKDbmAysn3uK00oeAH27wUlCDTBvu66iGc3YtlyA3LhtkFIPZktQEnyXPRGEQoTnnauoXu0dByB7HDl0goM96aemkPD7IKrznMhYRnQH3YRds1pfz6-v2m2J0YetkQ0BdaE3I5CKeVqxStRghtIjPuhuO2x0bTgMKLM0m5lhoVOAKZadBCh2ICKTtqExdz1m2cJ77nUPyIssSnG4pzw.jpg",
-      "companion_text_id": 111069
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/111069",
-      "post_id": 111069,
-      "channel": "eRadarrua",
-      "ts": "2026-09-05T21:05:16+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Wd-NInrSaD2NGFy-aOeF-WVt2aEYwUeh3Hy6kfeXNkJpYnwU8XC72928VKIfW1eJj_JblxHlct711uGYkjqk857C8Iw1fnGbzJMG9ydTXDhLx0rIlOW3e3pP-fQdCD4d_RDr2N090j2QAKzpUdP6z_7GCP4fW2X-vSnasXFWVxY22KBuK4b0OUeWFm76D6zf3l16vgEemuZTyISO_oEO2tm5pG5a6RzemXJXzx97Ay5SbA3XhYEKzBj-etG3hIV90NITdwwLHWOIV9dJaZmgtcG1Sn29BIW6AsLZ5UrdfOz55w0lG4gLjXus6TIChDBL9q849zLRo-M5EOQohWPqAQ.jpg",
-      "companion_text_id": 111068
-    },
-    {
-      "post_url": "https://t.me/tass_agency/393970",
-      "post_id": 393970,
-      "channel": "tass_agency",
-      "ts": "2026-09-05T20:56:32+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/393967",
-      "post_id": 393967,
-      "channel": "tass_agency",
-      "ts": "2026-09-05T20:17:47+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/83916",
-      "post_id": 83916,
-      "channel": "UkraineNow",
-      "ts": "2026-09-05T20:07:16+00:00"
     }
   ],
   "post_images": {
@@ -232,110 +228,128 @@
     "eRadarrua/111095": "data/media/eRadarrua_111095.jpg",
     "eRadarrua/111094": "data/media/eRadarrua_111095.jpg",
     "eRadarrua/111096": "data/media/eRadarrua_111096.jpg",
-    "eRadarrua/111049": "data/media/eRadarrua_111049.jpg",
     "eRadarrua/111069": "data/media/eRadarrua_111069.jpg",
     "eRadarrua/111068": "data/media/eRadarrua_111069.jpg",
     "eRadarrua/111071": "data/media/eRadarrua_111071.jpg",
+    "eRadarrua/111039": "data/media/eRadarrua_111039.jpg",
+    "eRadarrua/111038": "data/media/eRadarrua_111039.jpg",
+    "eRadarrua/111049": "data/media/eRadarrua_111049.jpg",
+    "eRadarrua/111026": "data/media/eRadarrua_111026.jpg",
+    "eRadarrua/111027": "data/media/eRadarrua_111026.jpg",
     "eRadarrua/111029": "data/media/eRadarrua_111029.jpg",
     "eRadarrua/111030": "data/media/eRadarrua_111029.jpg",
     "eRadarrua/111031": "data/media/eRadarrua_111031.jpg",
     "eRadarrua/111035": "data/media/eRadarrua_111035.jpg",
     "eRadarrua/111034": "data/media/eRadarrua_111035.jpg",
     "eRadarrua/111036": "data/media/eRadarrua_111036.jpg",
-    "eRadarrua/111039": "data/media/eRadarrua_111039.jpg",
-    "eRadarrua/111038": "data/media/eRadarrua_111039.jpg",
-    "eRadarrua/111010": "data/media/eRadarrua_111010.jpg",
-    "eRadarrua/111009": "data/media/eRadarrua_111010.jpg",
-    "eRadarrua/111026": "data/media/eRadarrua_111026.jpg",
-    "eRadarrua/111027": "data/media/eRadarrua_111026.jpg",
     "eRadarrua/111001": "data/media/eRadarrua_111001.jpg",
     "eRadarrua/111002": "data/media/eRadarrua_111001.jpg",
+    "eRadarrua/111004": "data/media/eRadarrua_111004.jpg",
+    "eRadarrua/111003": "data/media/eRadarrua_111004.jpg",
     "kpszsu/76746": "data/media/kpszsu_76746.jpg",
     "kpszsu/76747": "data/media/kpszsu_76746.jpg"
   },
-  "summary": "Russia launched a massive overnight barrage of \"Banderyol\" cruise missiles and Shahed drones across Ukraine on 6 September 2026, killing two in Kyiv region and injuring seven in Khmelnytskyi, while Putin ordered a 72-hour halt on Kyiv strikes and met US envoys Witkoff and Kushner in Moscow. Ukrainian strikes killed a Russian occupation official in Crimea and halted production at a major metallurgical plant in Dnipropetrovsk region. Russian forces claim capture of Kurtovka near Druzhkovka in Donetsk region and report shooting down 258 Ukrainian UAVs overnight.",
+  "summary": "Massive overnight drone assault involving 108 Shahed-type drones targeted Ukraine, with 82 shot down and hits on 11 locations. US envoys Witkoff and Kushner arrived in Moscow for peace talks, with Putin ordering a 3-day Kyiv strike suspension during their visit, while the Kremlin signaled no retreat from military objectives. Tu-95MS bombers redeployed toward launch positions, indicating preparation for another massive missile strike.",
   "key_points": [
-    "Putin ordered a three-day halt on strikes against Kyiv from midnight 6 September 2026 while meeting US special envoys Witkoff and Kushner in Moscow. (Source: @UkraineNow/83908)",
-    "Ukrainian air strike killed Russian occupation official Oleksiy Chernyshov near Skvortsove, Crimea, per Ukrainian sources. (Source: @UkraineNow/83909)",
-    "Russian MoD claims liberation of Kurtovka settlement near Druzhkovka in Donetsk People's Republic. (Source: @ukr_leaks_eng/33026)",
-    "Overnight 6 September, Russian \"Banderyol\" cruise missiles and Shahed drones attacked multiple Ukrainian regions including Kyiv, Chernihiv, Sumy, Kharkiv, Khmelnytskyi, Odesa, causing casualties and infrastructure damage. (Source: @mon1tor_ua/73778, @eRadarrua/111030, @UkraineNow/83911)",
-    "Russian strike on Khmelnytskyi 5 September hit residential building, injuring seven; explosions also reported in Zhytomyr and Khmelnytskyi 6 September targeting Nova Poshta facilities. (Source: @eRadarrua/111031, @UkraineNow/83906)",
-    "Russian air defense claims 258 Ukrainian UAVs shot down overnight over Russian regions and Black/Azov seas. (Source: @tass_agency/394004)",
-    "Ukrainian missile strike on night of 5 September halted production at Metinvest's Kametstal plant in Kamenske, Dnipropetrovsk region. (Source: @ukr_leaks_eng/33033)",
-    "Russian strikes on Odesa region border infrastructure 6 September damaged Orlivka ferry complex and checkpoint in Izmail district, suspending crossing operations. (Source: @eRadarrua/111088)"
+    "108 Shahed-type drones (incl. reactive, Gerber, Parodia imitators, 6 S8000 Banderol) launched from Millerovo, Orel, Kursk, TOT Donetsk, Gvardiyske-TOT Crimea; 82 shot down, 11 locations hit (Source: @kpszsu/76746)",
+    "US envoys Witkoff and Kushner arrived in Moscow for peace talks; Kyiv and Moscow agreed mutual strike pause for safe passage; envoys expected in Kyiv Sept 6 (Source: @UkraineNow/83916)",
+    "Putin ordered no strikes on Kyiv for 3 days due to US negotiator visit; Peskov confirmed suspension (Source: @ukr_leaks_eng/33031)",
+    "Tu-95MS redeployed from Far East to Engels then Olenya airbase; 5 more armed in Far East; next massive missile strike likely end of next week (Source: @eRadarrua/111094)",
+    "Threat of Iskander-M ballistic missile launch detected from Taganrog, Rostov region (Source: @mon1tor_ua/73799)",
+    "Ukrainian F-16 pilots forced to engage only with onboard cannon, conserving AIM-9 Sidewinder and AIM-120 AMRAAM missiles (Source: @ukr_leaks_eng/33037)",
+    "Southern Group drone operators involved in liberation of Kurtovka in DPR (Source: @ukr_leaks_eng/33032)",
+    "Kremlin refuses to abandon military objectives; Putin ready to end war only on his terms; Ushakov cited Russian army 'tangible successes' (Source: @UkraineNow/83918)"
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia launched a massive overnight aerial assault on 6 September 2026 employing \"Banderyol\" cruise missiles and Shahed drones across at least eight Ukrainian regions, resulting in two deaths in Kyiv region's Lisne village and seven injuries in Khmelnytskyi from a prior strike. Simultaneously, Putin announced a 72-hour pause on Kyiv strikes while hosting US special envoys Witkoff and Kushner in Moscow, who are expected in Kyiv the same day. Ukrainian forces struck a Russian occupation official in Crimea and a major metallurgical plant in Dnipropetrovsk region, while Russian forces claim territorial gains near Druzhkovka.",
-    "ukraine": {
-      "points": [
-        "Ukrainian air defense engaged a massive Russian aerial attack overnight 6 September involving numerous \"Banderyol\" cruise missiles and Shahed drones across Kyiv, Chernihiv, Sumy, Kharkiv, Khmelnytskyi, Odesa, Dnipropetrovsk, and Mykolaiv regions; at least two killed and one injured in Lisne, Bucha district, Kyiv region; seven injured in Khmelnytskyi residential building strike on 5 September. (Source: @UkraineNow/83911, @eRadarrua/111031, @mon1tor_ua/73778)",
-        "Ukrainian strike eliminated Russian occupation official Oleksiy Chernyshov, director of Putin's movement in Crimea, near Skvortsove village, Simferopol district, via air attack. (Source: @UkraineNow/83909)",
-        "Ukrainian missile strike on night of 5 September halted production at Metinvest's Kametstal plant in Kamenske, Dnipropetrovsk region. (Source: @ukr_leaks_eng/33033)",
-        "Ukrainian Prosecutor General Ruslan Kravchenko reportedly missing since Friday amid anti-corruption investigation into call center protection schemes. (Source: @ukr_leaks_eng/33039)",
-        "Ukrainian air defense activity recorded across multiple regions: air raid alert in Kyiv 02:22-02:44 on 6 September; Shahed drones tracked over Kharkiv, Cherkasy, Khmelnytskyi, Vinnytsia, Kyiv, Chernihiv, Poltava, Sumy regions overnight. (Source: @eRadarrua/111085, @eRadarrua/111086, @mon1tor_ua/73778)"
-      ]
-    },
-    "russia": {
-      "points": [
-        "Russian President Putin ordered three-day cessation of strikes on Kyiv from midnight 6 September 2026, announced by Kremlin spokesman Peskov, coinciding with meeting of US special envoys Witkoff and Kushner in Moscow. (Source: @UkraineNow/83908, @UkraineNow/83903)",
-        "Russian forces launched large-scale overnight aerial attack 6 September employing \"Banderyol\" cruise missiles and Shahed drones against multiple Ukrainian regions, utilizing low-altitude flight profiles to evade detection, per Ukrainian monitoring channels. (Source: @eRadarrua/111091, @mon1tor_ua/73778)",
-        "Russian Ministry of Defense claims liberation of Kurtovka settlement near Druzhkovka in Donetsk People's Republic. (Source: @ukr_leaks_eng/33026)",
-        "Russian air defense systems reportedly destroyed 258 Ukrainian UAVs overnight over Russian regions and Black/Azov seas, per MoD statement. (Source: @tass_agency/394004)",
-        "Russian strikes on Odesa region border infrastructure 6 September damaged Orlivka ferry complex and checkpoint in Izmail district, suspending crossing operations. (Source: @eRadarrua/111088)",
-        "Three civilians injured in Rostov-on-Don from Ukrainian attack, per regional governor. (Source: @tass_agency/394006)",
-        "Russian tactical aviation active on eastern and southeastern fronts, posing threat of air strikes on frontline areas. (Source: @kpszsu/76751)"
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Russian MoD claims capture of Kurtovka near Druzhkovka in Donetsk region. (Source: @ukr_leaks_eng/33026)",
-        "Russian tactical aviation active on eastern and southeastern directions, threatening frontline areas with air strikes. (Source: @kpszsu/76751)",
-        "UAV activity reported in Kramatorsk area. (Source: @kpszsu/76764)",
-        "Russian forces struck Ukrainian positions in southern grouping zone, destroying shelter with personnel, pickup truck, and radar per Russian MoD video. (Source: @tass_agency/394016)"
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Multiple \"Banderyol\" cruise missiles transited Chernihiv region toward Kyiv region (Boryspil, Brovary districts) and Sumy region (Okhtyrka district) overnight 6 September. (Source: @mon1tor_ua/73778, @kpszsu/76729, @kpszsu/76731)",
-        "Jet UAVs detected in Kharkiv region: near Zmiiv heading to Merefa, in Berestynsky district heading northeast, and on Sakhnovshchyna. (Source: @eRadarrua/111064, @kpszsu/76775, @eRadarrua/111030)",
-        "Threat of Iskander-M ballistic missile launch from Taganrog, Rostov region, reported by Ukrainian monitoring. (Source: @mon1tor_ua/73799)",
-        "Two hits reported in Lubny (Poltava region) from downed Shahed drone, with cruise missile also targeting city. (Source: @mon1tor_ua/73785, @mon1tor_ua/73787)"
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Russian strikes on Odesa region border infrastructure 6 September damaged Orlivka"
-      ]
-    }
+    "executive_summary": "Massive overnight drone assault involving 108 Shahed-type drones targeted Ukraine, with 82 shot down and hits on 11 locations. US envoys Witkoff and Kushner arrived in Moscow for peace talks, with Putin ordering a 3-day Kyiv strike suspension during their visit, while the Kremlin signaled no retreat from military objectives. Tu-95MS bombers redeployed toward launch positions, indicating preparation for another massive missile strike.",
+    "ukraine": [
+      "2 killed in Russian drone attack on Lisne village, Bucha district, Kyiv region; 2 private houses on fire, 5 residential buildings and 3 cars damaged (Source: @UkraineNow/83911)",
+      "4 wounded in Khmelnytsya region attack, including child; multi-story building and enterprises damaged (Source: @UkraineNow/83907)",
+      "2 cruise missiles Banderol flew through Nizhyn toward Kyiv region, Borispol/Brovary districts, corrected course toward Pryluky (Source: @mon1tor_ua/73790)",
+      "2 Banderol cruise missiles past Romny district, Sumy region heading to Chernihiv region, Pryluky (Source: @mon1tor_ua/73789)",
+      "New Banderol drone near Putyvl, Sumy region (Source: @eRadarrua/111078)",
+      "Reactive drone along Dnipropetrovsk-Kharkiv border heading northwest (Source: @kpszsu/76782)",
+      "Reactive drone toward Lozova, Kharkiv region (Source: @kpszsu/76744)"
+    ],
+    "russia": [
+      "108 Shahed-type drones launched from Millerovo, Orel, Kursk, TOT Donetsk, Gvardiyske-TOT Crimea (Source: @kpszsu/76746)",
+      "Iskander-M ballistic missile threat detected from Taganrog, Rostov region (Source: @mon1tor_ua/73799)",
+      "Tu-95MS redeployed from Far East to Engels then Olenya; 5 more armed in Far East (Source: @eRadarrua/111094)",
+      "Russia prevented American delegation from flying, though Ukrainian airports were ready (Source: @UkraineNow/83921)",
+      "VSU lost shelter with personnel, pickup and NRTC in Southern group zone (Source: @tass_agency/394016)",
+      "Germany cannot confirm drone in Leipzig was Russian, Lavrov stated (Source: @tass_agency/394021)"
+    ],
+    "eastern_front": [
+      "Drone operators from Southern Group of Forces during liberation of Kurtovka in DPR (Source: @ukr_leaks_eng/33032)",
+      "Reactive drone in Synelnykove district, Dnipropetrovsk, northwest direction (Source: @kpszsu/76795)",
+      "Reactive drone near Pavlohrad at Dnipropetrovsk-Kharkiv border (Source: @eRadarrua/111099)",
+      "Reactive drone past Solone heading to Krynichky, Dnipropetrovsk; reactive from Zaporizhzhia direction toward Solone (Source: @eRadarrua/111063)"
+    ],
+    "northern_front": [
+      "7 reactive Shaheds toward Kyiv region: 3 from Chernihiv to Vyshgorod, 3 from Chernihiv to Brovary, 1 from Cherkasy to Bila Tserkva (Source: @mon1tor_ua/73780)",
+      "Reactive Shahed at Khmelnytsky airport (Source: @mon1tor_ua/73774)",
+      "1 reactive Shahed entering Khmelnytsky (Source: @mon1tor_ua/73773)",
+      "Reactive Shahed on Kyiv/Irpin (Source: @mon1tor_ua/73777)",
+      "Reactive Shahed fell in Lubny, hit houses; 2 hits, targeted strike on city (Source: @mon1tor_ua/73782, @mon1tor_ua/73785)",
+      "Cruise missile on Lubny (Source: @mon1tor_ua/73786)"
+    ],
+    "southern_front": [
+      "Reactive drone to Southern/Black Sea direction in Odesa region from northwest (Source: @kpszsu/76783)",
+      "Reactive drone in Odesa district, southern direction (Source: @kpszsu/76791)",
+      "Reactive drone to Dobroslav, Odesa region from southeast (Source: @kpszsu/76784)",
+      "Reactive drone to Chornomorsk, Odesa region from Black Sea (Source: @kpszsu/76743)",
+      "Reactive drone to Berezneguvate, Mykolaiv region from south (Source: @kpszsu/76768)",
+      "6 non-reactive drones from sea area south of Odesa, previously from Saratoo; controlled drone circling over sea (Source: @eRadarrua/111066)",
+      "Odesa region border infrastructure attacked: ferry complex and Orlivka crossing hit, border operations suspended (Source: @eRadarrua/111088)",
+      "3 drones on right bank and outskirts of Zaporizhzhia (Source: @eRadarrua/111065)"
+    ],
+    "air_war": [
+      "108 Shahed-type drones launched overnight; 82 shot down/suppressed by aviation, air defense, EW, drone systems, mobile fire groups (Source: @kpszsu/76746)",
+      "Ukrainian F-16 pilots forced to engage with onboard cannon only, conserving AIM-9 Sidewinder and AIM-120 AMRAAM (Source: @ukr_leaks_eng/33037)",
+      "Tu-95MS redeployed from Far East to Engels then Olenya; next massive missile strike likely end of next week (Source: @eRadarrua/111094)",
+      "Iskander-M ballistic missile threat from Taganrog, Rostov region (Source: @mon1tor_ua/73799)"
+    ],
+    "key_developments": [
+      "Massive overnight drone attack: 108 Shahed-type drones (incl. reactive, Gerber, Parodia, 6 S8000 Banderol) launched from Millerovo, Orel, Kursk, TOT Donetsk, Gvardiyske-TOT Crimea; 82 shot down, 11 locations hit, attack ongoing (Source: @kpszsu/76746)",
+      "US envoys Witkoff and Kushner arrived in Moscow for peace talks; Kyiv-Moscow mutual strike pause agreed for safe passage; envoys to visit Kyiv Sept 6 (Source: @UkraineNow/83916)",
+      "Putin ordered 3-day Kyiv strike suspension during US visit; Peskov confirmed; Kremlin signals no retreat from military objectives (Source: @ukr_leaks_eng/33031)",
+      "Tu-95MS bombers redeployed Far East to Engels then Olenya; 5 more armed; next massive missile strike likely end of next week (Source: @eRadarrua/111094)",
+      "Iskander-M ballistic missile launch threat detected from Taganrog, Rostov region (Source: @mon1tor_ua/73799)",
+      "Ukrainian F-16 pilots forced to use onboard cannon only, conserving AIM-9 and AIM-120 missiles (Source: @ukr_leaks_eng/33037)",
+      "Southern Group drone operators participated in liberation of Kurtovka in DPR (Source: @ukr_leaks_eng/33032)"
+    ],
+    "threat_assessment": "Russia launched 108 Shahed-type drones overnight from multiple axes (Millerovo, Orel, Kursk, Donetsk, Crimea), indicating sustained high-tempo aerial campaign. Iskander-M threat from Taganrog and Tu-95MS redeployment signal preparation for another massive missile strike. F-16 ammunition conservation suggests Ukrainian air defense is under severe strain. The Kremlin's refusal to abandon military objectives despite US diplomatic engagement indicates negotiations may stall.",
+    "regional_response": "Kyiv and Moscow agreed mutual strike pause for US envoy safe passage, though Russia blocked American delegation flights. Israel sent police to Uman for Rosh Hashan security. Germany could not confirm Russian drone in Leipzig. Ukrainian prosecutors launched anti-corruption investigation into fraudulent call centers; Prosecutor General Kravchenko reported missing.",
+    "intelligence_notes": "Tu-95MS redeployment pattern suggests coordinated mass missile strike preparation. Multiple Banderol cruise missile tracks (Nizhyn, Romny, Putyvl, Zmiiv) indicate sustained precision strike campaign. Odesa border infrastructure attacks (ferry complex, Orlivka crossing) suggest disruption of logistics. VSU losses in Southern group zone warrant further confirmation. Israel's alleged secret operations in Ukraine including special forces training and drone tactics represent significant undisclosed involvement."
   },
   "missiles": 0,
   "drones": 108,
   "kpszsu_timeline": [
-    0,
-    2,
-    15,
-    13,
-    7,
-    3,
-    3,
-    2,
-    4,
-    2,
-    3,
+    14,
+    14,
     5,
-    5,
-    7,
-    4,
-    2,
-    5,
-    5,
-    2,
-    4,
-    2,
     1,
+    4,
     3,
-    7
+    3,
+    3,
+    5,
+    3,
+    7,
+    5,
+    3,
+    3,
+    4,
+    6,
+    0,
+    4,
+    2,
+    2,
+    5,
+    9,
+    5,
+    1
   ]
 }
