@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-06T03:55:08.850932+00:00",
-  "message_count": 380,
+  "updated_at": "2026-09-06T04:58:17.315893+00:00",
+  "message_count": 377,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,7 +14,6 @@
   "red_alerts": 167,
   "red_alerts_timeline": [
     0,
-    0,
     19,
     0,
     0,
@@ -28,68 +27,75 @@
     0,
     0,
     0,
-    0,
     37,
+    0,
     19,
     0,
     0,
     37,
+    0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    9,
-    17,
-    20,
+    19,
+    19,
     18,
-    10,
-    11,
-    14,
-    31,
-    31,
+    9,
+    13,
+    12,
+    32,
+    30,
     37,
-    18,
+    19,
     16,
+    9,
+    25,
+    9,
+    13,
+    14,
+    17,
     10,
-    26,
-    9,
-    11,
-    12,
-    18,
     12,
     12,
-    12,
-    9,
     8,
-    6
+    9,
+    7,
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 79,
-    "@kpszsu": 112,
-    "@mon1tor_ua": 25,
+    "@eRadarrua": 78,
+    "@kpszsu": 111,
+    "@mon1tor_ua": 22,
     "@UkraineNow": 17,
     "@ukr_leaks_eng": 16,
-    "@tass_agency": 131
+    "@tass_agency": 133
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/111091",
-    "kpszsu": "https://t.me/kpszsu/76736",
+    "kpszsu": "https://t.me/kpszsu/76742",
     "mon1tor_ua": "https://t.me/mon1tor_ua/73799",
     "UkraineNow": "https://t.me/UkraineNow/83916",
     "DeepStateUA": "https://t.me/DeepStateUA/23799",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33038",
-    "tass_agency": "https://t.me/tass_agency/393997"
+    "tass_agency": "https://t.me/tass_agency/394002"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/111035",
-    "UkraineNow": "https://t.me/UkraineNow/83912",
-    "tass_agency": "https://t.me/tass_agency/393961",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33031",
+    "UkraineNow": "https://t.me/UkraineNow/83894",
+    "eRadarrua": "https://t.me/eRadarrua/111031",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33037",
     "mon1tor_ua": "https://t.me/mon1tor_ua/73780",
-    "kpszsu": "https://t.me/kpszsu/76703"
+    "tass_agency": "https://t.me/tass_agency/393991",
+    "kpszsu": "https://t.me/kpszsu/76704"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/394002",
+      "post_id": 394002,
+      "channel": "tass_agency",
+      "ts": "2026-09-06T04:49:12+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/393981",
       "post_id": 393981,
@@ -216,12 +222,6 @@
       "ts": "2026-09-05T15:53:27+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/AZIBVawW62_7XWgSXvi5eTpDZ8ODdsEcAggBPWWzm26gNir5emLyH6Ft_0z7FKsiSnqpm3plozzvK370uMOlL5iM_E3lMnnPnhDbOCF2b_W1XXXW6UC7bfMUOqh1c4iv3GD7_fCoRnaxzQM9qnC6_mD4-reNfcorpceeTMdKPnDRLCkduL8yBjg-EZEWyMsiEkdHraXpDkWgT2yuRsEPGwmObViC-7xVu0CHHu4wkLc89zomiRv7H3SHxg_s0mSEs84viU7kE-hfHSM9wKRjQo2J7eOzOO4SGdz-Z3lMxvQoh5dogGH4bLFcMM46yEQwTY90yMYUcFludy_ZXei9Sg.jpg",
       "companion_text_id": 111030
-    },
-    {
-      "post_url": "https://t.me/tass_agency/393939",
-      "post_id": 393939,
-      "channel": "tass_agency",
-      "ts": "2026-09-05T15:52:45+00:00"
     }
   ],
   "post_images": {
@@ -254,92 +254,93 @@
     "kpszsu/76541": "data/media/kpszsu_76541.jpg",
     "kpszsu/76539": "data/media/kpszsu_76541.jpg"
   },
-  "summary": "Russian forces launched massive drone and missile strikes across Kyiv, Kharkiv, Dnipropetrovsk, Odesa, and other regions overnight, killing civilians and damaging infrastructure. Putin held three-hour talks with US envoys Witkoff and Kushner in Moscow, stating a request to pause strikes on Kyiv came through official channels, and reportedly ordered a three-day halt on Kyiv strikes during their visit. Ukrainian forces reportedly received unofficial orders for a ceasefire along the contact line from September 5-8, while Russian forces claimed control of key supply routes near Orikhiv and liberation of Kurtovka near Druzhkivka.",
+  "summary": "Russia continues heavy aerial strikes on Ukrainian cities despite reported ceasefire intentions, with Banderol loitering munitions and Shahed drones targeting multiple regions including Kyiv, Dnipropetrovsk, and Kharkiv. Ukrainian F-16 pilots are conserving air-to-air missiles and relying on cannon fire against incoming threats. Russia liberated Kurtovka settlement near Druzhkovka in DPR according to Russian Ministry of Defense. Civilian casualties reported in Chuhuiv (3 killed) and Khmelnytskyi (7 injured) from Russian strikes.",
   "key_points": [
-    "Russian drone/missile barrage hit Kyiv region killing two and damaging 28 objects across five districts on September 5. (Source: @eRadarrua/111035)",
-    "Russian attack on Chuhuiv, Kharkiv region killed three family members and injured a woman. (Source: @UkraineNow/83912)",
-    "Putin held three-hour talks with US envoys Witkoff and Kushner in Moscow, stating Kyiv strike pause request came via official channels. (Source: @tass_agency/393961)",
-    "Putin ordered three-day halt on Kyiv strikes during US envoys' visit to Kyiv, per Peskov. (Source: @ukr_leaks_eng/33031)",
-    "Ukrainian forces reportedly ordered to observe ceasefire along contact line September 5-8, unconfirmed officially. (Source: @ukr_leaks_eng/33016)",
-    "Russian MoD claims control of key AFU equipment routes near Orikhiv and liberation of Kurtovka near Druzhkivka. (Source: @tass_agency/393992, @ukr_leaks_eng/33026)",
-    "Missile strike on Kametstal plant in Kamensk, Dnipropetrovsk region halted production, shut down two blast furnaces. (Source: @ukr_leaks_eng/33020, @ukr_leaks_eng/33033)",
-    "Russian strikes on Odesa region border infrastructure damaged Orlivka checkpoint and ferry complex, halting crossing operations. (Source: @eRadarrua/111088)"
+    "Russian forces struck civilian infrastructure in Kamianske (Dnipropetrovsk), killing 4 people, and in Khmelnytskyi, wounding 7 residents in a residential building on September 5, 2026. (Source: @UkraineNow/83894, @eRadarrua/111031)",
+    "Ukraine proposed a ceasefire in air and on the front lines to Putin personally, but Moscow refused as drones continued flying, according to Budanov. (Source: @UkraineNow/83901)",
+    "Ukrainian F-16 pilots are forced to engage Russian missiles and drones using only onboard cannon due to conserved AIM-9 Sidewinder and AIM-120 AMRAAM missiles. (Source: @ukr_leaks_eng/33037)",
+    "Russian Armed Forces have liberated Kurtovka settlement near Druzhkovka in DPR, confirmed by Russian Ministry of Defense and drone operators from Southern Group of Forces. (Source: @ukr_leaks_eng/33026, @ukr_leaks_eng/33032)",
+    "Putin ordered a three-day halt to strikes on Kyiv from midnight, coinciding with his meeting with Trump representatives Witkoff and Kushner lasting over three hours at the Kremlin. (Source: @UkraineNow/83908, @eRadarrua/111069, @eRadarrua/111037)",
+    "Metinvest Group's Kametstal plant in Kamenskoye completely halted production following a missile strike on the night of September 5. (Source: @ukr_leaks_eng/33033)",
+    "Multiple waves of Shahed drones (10+) and Banderol cruise missiles targeted Kyiv region, Chernihiv region, and central Ukraine, with civilian infrastructure damaged in Bucha district (2 killed, 28 objects hit across 5 districts). (Source: @mon1tor_ua/73780, @mon1tor_ua/73790, @eRadarrua/111035)",
+    "Marine Le Pen's National Rally party announced plans to cut financial support for Ukraine if winning the 2027 French presidential election, citing exhausted healthcare, education, and economy. (Source: @ukr_leaks_eng/33036)"
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces launched massive drone and missile strikes across Kyiv, Kharkiv, Dnipropetrovsk, Odesa, and other regions overnight, killing civilians and damaging infrastructure. Putin held three-hour talks with US envoys Witkoff and Kushner in Moscow, stating a request to pause strikes on Kyiv came through official channels, and reportedly ordered a three-day halt on Kyiv strikes during their visit. Ukrainian forces reportedly received unofficial orders for a ceasefire along the contact line from September 5-8, while Russian forces claimed control of key supply routes near Orikhiv and liberation of Kurtovka near Druzhkivka.",
+    "executive_summary": "Russia continues intensive aerial bombardment of Ukrainian territory with loitering munitions and Shahed drones despite diplomatic activity. Ukrainian air defense faces critical missile shortages, forcing F-16 pilots to use cannon fire against incoming threats. Ground fighting persists along the front lines, with Russian forces reporting advances in DPR. Civilian casualties mount from strikes on residential areas in Khmelnytskyi, Chuhuiv, and Kyiv region. Diplomatic talks involving US envoys Witkoff and Kushner in Moscow and Kyiv represent the most significant recent development.",
     "ukraine": {
       "points": [
-        "Ukrainian air defense monitored over 20 incoming threats overnight including Shahed-type UAVs, cruise missiles \"Banderyol\", and reactive drones across Kyiv, Chernihiv, Poltava, Sumy, Kharkiv, Dnipropetrovsk, Mykolaiv, and Odesa regions. (Source: @mon1tor_ua/73780, @kpszsu/76703, @kpszsu/76734, @kpszsu/76715, @kpszsu/76698, @kpszsu/76728, @kpszsu/76735, @kpszsu/76713, @kpszsu/76717, @kpszsu/76719, @kpszsu/76681, @kpszsu/76731, @kpszsu/76679, @kpszsu/76732, @kpszsu/76680, @kpszsu/76705, @mon1tor_ua/73788, @mon1tor_ua/73796, @mon1tor_ua/73798, @mon1tor_ua/73774, @mon1tor_ua/73775, @mon1tor_ua/73787, @mon1tor_ua/73782, @mon1tor_ua/73770, @eRadarrua/111087)",
-        "Kyiv region suffered a massive strike on September 5: two killed in Bucha district, 28 objects damaged across five districts including residential buildings, warehouses, railway track, agricultural enterprise, and vehicles; fires reported in Fastiv district. (Source: @eRadarrua/111035, @UkraineNow/83911)",
-        "Chuhuiv, Kharkiv region attack killed a 19-year-old woman, 11-year-old boy, 45-year-old man; a 40-year-old woman injured. (Source: @UkraineNow/83912)",
-        "Kametstal metallurgical plant in Kamensk, Dnipropetrovsk region, hit by missile strike night of September 5; two blast furnaces shut down, production completely halted; plant part of Metinvest owned by Rinat Akhmetov. (Source: @ukr_leaks_eng/33020, @ukr_leaks_eng/33033)",
-        "Ukrainian military reportedly received unofficial orders to maintain ceasefire along contact line from 00:00 September 5 to 23:59 September 8, coinciding with US envoys' visits to Kyiv and Moscow; not officially confirmed. (Source: @ukr_leaks_eng/33016)",
-        "Ukraine secured $1.7 billion of $6.2 billion needed for winter preparation: $1.5 billion from state budget, $200 million from local budgets. (Source: @tass_agency/393991)",
-        "Ukrainian Embassy in US requested cancellation of Russian violinist Vadim Repin's performance with Annapolis Symphony Orchestra; collaboration canceled. (Source: @ukr_leaks_eng/33030)"
+        "Ukrainian F-16 pilots are forced to engage Russian missiles and drones exclusively with onboard cannon due to conserved AIM-9 Sidewinder and AIM-120 AMRAAM missile stocks, according to The War Zone reporting via ukr_leaks_eng. (Source: @ukr_leaks_eng/33037)",
+        "President Budanov confirmed Ukraine proposed a ceasefire in airspace and on the front line directly to Putin, but the proposal was rejected and Russian drone strikes continued as observed. (Source: @UkraineNow/83901)",
+        "Ukraine has secured $1.7 billion of the $6.2 billion needed for winter preparation, with $1.5 billion from state budget and $200 million from local budgets, according to TASS calculations. (Source: @tass_agency/393991)",
+        "Ukrainian Armed Forces state defensive operations continue in full scope despite media reports of a ceasefire, declaring unilateral or asymmetric cessation would endanger personnel lives. (Source: @UkraineNow/83900)",
+        "Zelenskiy announced Witkoff and Kushner will visit Kyiv on Sunday following their Moscow meetings, noting Ukraine has no plans to attack. (Source: @UkraineNow/83899)",
+        "Russia disabled approximately the same number of warehouses in Ukraine in two months of Wildberries attacks as since February 2022, with Kiev region fires in August 2026 ten times higher than previous year. (Source: @ukr_leaks_eng/33023)"
       ]
     },
     "russia": {
       "points": [
-        "Putin met with US Presidential Envoys Witkoff and Kushner in Kremlin for over three hours; stated request to cease strikes on Kyiv came through official channels; claimed strikes on Kyiv not conducted from midnight. (Source: @tass_agency/393961, @eRadarrua/111069, @ukr_leaks_eng/33029)",
-        "Putin ordered three-day pause on strikes against Kyiv during US envoys' visit to Kyiv, per Kremlin spokesman Peskov. (Source: @ukr_leaks_eng/33031)",
-        "Russian MoD claims control of key movement routes of AFU equipment near Orikhiv, Zaporizhzhia region. (Source: @tass_agency/393992)",
-        "Russian MoD claims liberation of settlement Kurtovka near Druzhkivka in Donetsk People's Republic. (Source: @ukr_leaks_eng/33026)",
-        "Russian forces launched coordinated drone/missile barrage overnight September 5-6: multiple Shahed-type UAVs from Chernihiv, Cherkasy, and Kursk directions; cruise missiles \"Banderyol\" from Chernihiv, Sumy, and Poltava regions; reactive UAVs from Belgorod, Donetsk, and Black Sea areas targeting Kyiv, Kharkiv, Poltava, Sumy, Dnipropetrovsk, Mykolaiv, Odesa, Khmelnytskyi, and Zaporizhzhia regions. (Source: @mon1tor_ua/73780, @mon1tor_ua/73788, @mon1tor_ua/73796, @mon1tor_ua/73798, @mon1tor_ua/73774, @mon1tor_ua/73775, @mon1tor_ua/73787, @mon1tor_ua/73782, @mon1tor_ua/73770, @kpszsu/76703, @kpszsu/76734, @kpszsu/76715, @kpszsu/76698, @kpszsu/76728, @kpszsu/76735, @kpszsu/76713, @kpszsu/76717, @kpszsu/76719, @kpszsu/76681, @kpszsu/76731, @kpszsu/76679, @kpszsu/76732, @kpszsu/76680, @kpszsu/76705, @eRadarrua/111066, @eRadarrua/111087)",
-        "Russian strike on Odesa region border infrastructure night of September 6 damaged ferry complex and checkpoint \"Orlivka\" in Izmail district; crossing operations temporarily fully suspended. (Source: @eRadarrua/111088)",
-        "Russian strike on truck parking in Zaporizhzhia destroyed all vehicles. (Source: @UkraineNow/83897)"
+        "Russian Armed Forces liberated Kurtovka settlement near Druzhkovka in DPR, confirmed by Russian Ministry of Defense with drone operators from Southern Group of Forces participating in the operation. (Source: @ukr_leaks_eng/33026, @ukr_leaks_eng/33032)",
+        "Putin met with US Special Representatives Witkoff and Kushner at the Kremlin for over three hours, with a convoy entering the Kremlin compound and subsequently announcing a three-day suspension of strikes on Kyiv. (Source: @eRadarrua/111037, @eRadarrua/111069, @UkraineNow/83908)",
+        "NATO military planners express concern that Europe cannot sustain a war with Russia due to rising popularity of right-wing parties and reduced US support, according to The Guardian sources. (Source: @tass_agency/393964)",
+        "One civilian was killed and one injured in Ukrainian attacks on Belgorod region according to the operational headquarters report. (Source: @tass_agency/393998)",
+        "Italian General Roberto Vannacci advocates halting weapons and money to Kiev, restoring trade with Russia, and reviewing Italy's NATO obligations, with his party Futuro Nazionale polling at 7.6%. (Source: @ukr_leaks_eng/33024)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian MoD claims control of key AFU equipment movement routes near Orikhiv, Zaporizhzhia region, indicating pressure on Ukrainian logistics in western Zaporizhzhia. (Source: @tass_agency/393992)",
-        "Russian MoD claims liberation of Kurtovka settlement near Druzhkivka in Donetsk People's Republic, suggesting incremental advances north of Donetsk city. (Source: @ukr_leaks_eng/33026)",
-        "Missile strike on Kametstal plant in Kamensk (Kamianske), Dnipropetrovsk region, halted production and shut down two blast furnaces, degrading Ukrainian metallurgical capacity. (Source: @ukr_leaks_eng/33020, @ukr_leaks_eng/33033)",
-        "Reactive UAVs targeted Pavlohrad, Synelnykove, Kryvyi Rih, and Dnipro city in Dnipropetrovsk region from multiple vectors including Zaporizhzhia and southern directions. (Source: @kpszsu/76703, @kpszsu/76715, @kpszsu/76717, @kpszsu/76719, @eRadarrua/111063)",
-        "Reactive UAVs detected on Kharkiv region near Krasnopavlivka course Zlatopil, and from Belgorod area toward Berezyn and Poltava region. (Source: @kpszsu/76735, @kpszsu/76713, @eRadarrua/111087)",
-        "KAB guided bombs reported striking Kharkiv region from Belarusian territory. (Source: @eRadarrua/111087)",
-        "Russian strike on truck parking in Zaporizhzhia destroyed all transport, targeting rear logistics. (Source: @UkraineNow/83897)"
+        "Russian forces liberated Kurtovka settlement near Druzhkovka in DPR, with drone operators from Southern Group of Forces documented during the operation. (Source: @ukr_leaks_eng/33026, @ukr_leaks_eng/33032)",
+        "Reactive drones from Donetsk region are targeting southern Zaporizhzhia direction according to current monitoring data. (Source: @eRadarrua/111087)",
+        "Three UAVs are detected on the right bank of Zaporizhzhia city and surrounding areas. (Source: @eRadarrua/111065)",
+        "Russian forces struck a truck parking lot in Zaporizhzhia destroying all vehicles, with similar strikes conducted on Pavlohrad in Dnipropetrovsk region. (Source: @UkraineNow/83897)"
       ]
     },
     "northern_front": {
       "points": [
-        "Massive Russian strike on Kyiv region September 5: two killed in Bucha district, 28 objects damaged across five districts (Bucha, Fastiv, others) including residential buildings, warehouses, railway track, agricultural enterprise, vehicles; fires in Fastiv district. (Source: @eRadarrua/111035, @UkraineNow/83911)",
-        "Seven reactive Shaheds launched toward Kyiv region overnight: three from Chernihiv to Vyshhorod district, three from Chernihiv to Brovary district, one from Cherkasy to Bila Tserkva district. (Source: @mon1tor_ua/73780)",
-        "Cruise missiles \"Banderyol\" launched from Chernihiv region (Nizhyn district, Pryluky district, near Sribne, Talalaivka) toward Kyiv region (Brovary, Boryspil, Nosivka). (Source: @mon1tor_ua/73788, @mon1tor_ua/73796, @mon1tor_ua/73798, @eRadarrua/111078, @kpszsu/76681, @kpszsu/76680, @kpszsu/76731, @kpszsu/76732, @kpszsu/76705)",
-        "Reactive UAVs and cruise missiles targeted Poltava region (Lubny, east Poltava) and Sumy region (near Terny, near Putyvl) with vectors toward Chernihiv and Kyiv regions. (Source: @mon1tor_ua/73787, @mon1tor_ua/73785, @mon1tor_ua/73782, @kpszsu/76698, @kpszsu/76728, @eRadarrua/111078)",
-        "Threat of Iskander-M ballistic missile launch from Taganrog, Rostov region, reported. (Source: @mon1tor_ua/73799)",
-        "UAV fixation reported on Chernihiv, Kyiv, Poltava, Sumy regions overnight. (Source: @eRadarrua/111087)",
-        "Reactive UAV detected on Kharkiv region near Krasnopavlivka course Zlatopil, and from Belgorod area toward Berezyn and Poltava region. (Source: @kpszsu/76735, @kpszsu/76713, @eRadarrua/111087)"
+        "Seven reactive Shahed drones from Chernihiv region are targeting Kyiv region, with three each to Vyshhorod and Brovary districts and one from Cherkasy to Bilotserkivka district. (Source: @mon1tor_ua/73780)",
+        "Multiple Banderol cruise missiles flew past Nizhyn toward Kyiv region, Boryspil/Brovary districts, with missiles adjusting course past/around Pryluky toward Kyiv region. (Source: @mon1tor_ua/73790, @mon1tor_ua/73795)",
+        "Banderol loitering munitions are targeting Boryspil and Kyiv region from Chernihiv direction, with threats also from southern Chernihiv region. (Source: @kpszsu/76704, @kpszsu/76729, @kpszsu/76732)",
+        "In Chuhuiv, Kharkiv region, a Russian strike killed a 19-year-old girl, 11-year-old boy, and 45-year-old man, with a 40-year-old woman injured. (Source: @UkraineNow/83912)",
+        "Russian Iskander-M ballistic missile launch threat detected from Taganrog, Rostov region, posing immediate danger to front-line regions. (Source: @mon1tor_ua/73799)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian strikes on Odesa region border infrastructure night of September 6 damaged ferry complex and checkpoint \"Orlivka\" in Izmail district; crossing operations temporarily fully suspended. (Source: @eRadarrua/111088)",
-        "Six non-reactive UAVs from Black Sea area toward south Odesa region, preliminarily toward Sarata; controlled UAV circling over sea; UAV near Tuzly Lagoons park northwest direction; UAV from sea to Vylkove. (Source: @eRadarrua/111066, @kpszsu/76681, @kpszsu/76679, @eRadarrua/111087)",
-        "Reactive UAV targeted Mykolaiv city in Mykolaiv region. (Source: @kpszsu/76734)",
-        "Reactive UAV from Donetsk area toward south Zaporizhzhia region. (Source: @eRadarrua/111087)",
-        "Russian strike on truck parking in Zaporizhzhia destroyed all vehicles. (Source: @UkraineNow/83897)",
-        "Russian MoD claims control of key AFU equipment routes near Orikhiv, Zaporizhzhia region. (Source: @tass_agency/393992)",
-        "Reactive UAVs targeted Dnipropetrovsk region (Pavlohrad, Synelnykove, Kryvyi Rih, Dnipro) from Zaporizhzhia and southern vectors. (Source: @kpszsu/76703, @kpszsu/76715, @kpszsu/76717, @kpszsu/76719, @eRadarrua/111063)"
+        "Reactive UAVs are targeting Dnipropetrovsk region including Pavlohrad, Synelnykove, Kamiansk, and Tomakivka from southwestern directions. (Source: @kpszsu/76703, @kpszsu/76715, @kpszsu/76741, @kpszsu/76742)",
+        "Explosions reported in Zhitomir and Khmelnytskyi from reactive drone attacks on Nova Poshta facilities according to local media. (Source: @UkraineNow/83906)",
+        "A Banderol loitering munition was detected near Buryń in Sumy region heading southwestern direction. (Source: @kpszsu/76685)",
+        "Reactive UAVs are targeting Odesa region, Chornomorск, from Black Sea direction. (Source: @kpszsu/76721)",
+        "Reactive UAVs from Chernihiv region are targeting Sumy region, Okhtyrka district, and Poltava region, Lubny district. (Source: @mon1tor_ua/73778)"
       ]
     },
     "air_war": {
       "points": [
-        "Overnight September 5-6: Russian forces launched at least 7 reactive Shaheds toward Kyiv region from Chernihiv (6) and Cherkasy (1); multiple cruise missiles \"Banderyol\" from Chernihiv (Nizhyn, Pryluky, Sribne, Talalaivka), Sumy (Terny), and Poltava regions toward Kyiv, Chernihiv, Poltava, Sumy; reactive UAVs from Belgorod (Kharkiv), Donetsk (Zaporizhzhia), and Black Sea (Odesa); KAB guided bombs on Kharkiv from Belarus. (Source: @mon1tor_ua/73780, @mon1tor_ua/73788, @mon1tor_ua/73796, @mon1tor_ua/73798, @mon1tor_ua/73774, @mon1tor_ua/73775, @mon1tor_ua/73787, @mon1tor_ua/73782, @mon1tor_ua/73770, @kpszsu/76703, @kpszsu/76734, @kpszsu/76715, @kpszsu/76698, @kpszsu/76728, @kpszsu/76735, @kpszsu/76713, @kpszsu/76717, @kpszsu/76719, @kpszsu/76681, @kpszsu/76731, @kpszsu/76679, @kpszsu/76732, @kpszsu/76680, @kpszsu/76705, @eRadarrua/111066, @eRadarrua/111087, @eRadarrua/111078)",
-        "Kyiv region September 5: massive strike damaged 28 objects across five districts, killed two in Bucha district, fires in Fastiv district. (Source: @eRadarrua/111035, @UkraineNow/83911)",
-        "Kharkiv region: Chuhuiv attack killed three civilians, injured one; reactive UAVs near Krasnopavlivka course Zlatopil, near Berezyn course Poltava; KAB strikes from Belarus. (Source: @UkraineNow/83912, @kpszsu/76735, @kpszsu/76713, @eRadarrua/111087)",
-        "Dnipropetrovsk region: Kametstal plant hit, two blast furnaces shut down, production halted; reactive UAVs on Pavlohrad, Synelnykove, Kryvyi Rih, Dnipro. (Source: @ukr_leaks_eng/33020, @ukr_leaks_eng/33033, @kpszsu/76703, @kpszsu/76715, @kpszsu/76717, @kpszsu/76719, @eRadarrua/111063)",
-        "Odesa region: border infrastructure hit, Orlivka checkpoint and ferry complex damaged, crossings suspended; multiple UAVs from Black Sea toward Sarata, Vylkove, Tuzly Lagoons. (Source: @eRadarrua/111088, @eRadarrua/111066, @kpszsu/76681, @kpszsu/76679, @eRadar"
+        "Ten reactive Shahed drones are currently targeting multiple Ukrainian regions including Kyiv, Chernihiv, Cherkasy, and Kharkiv directions from Russian territory and occupied regions. (Source: @mon1tor_ua/73778, @mon1tor_ua/73780)",
+        "Multiple Banderol cruise missiles are flying toward Kyiv region targets including Boryspil, Vasylkiv, and surrounding districts from various approach vectors. (Source: @mon1tor_ua/73793, @mon1tor_ua/73796, @kpszsu/76705)",
+        "Enemy tactical aviation activity is elevated on southeastern direction with threat of air-delivered weapons against front-line regions. (Source: @kpszsu/76720)",
+        "Ukrainian F-16 pilots face critical missile shortages forcing use of onboard cannon against Russian missiles and drones. (Source: @ukr_leaks_eng/33037)",
+        "Reactive drones and KABs (guided bombs) are targeting Kharkiv region from Belarus and Russian territory. (Source: @eRadarrua/111087)"
       ]
-    }
+    },
+    "key_developments": [
+      "Putin ordered three-day suspension of strikes on Kyiv from midnight following talks with Trump envoys Witkoff and Kushner at Kremlin for over three hours, with US representatives subsequently visiting Kyiv. (Source: @UkraineNow/83908, @eRadarrua/111069, @UkraineNow/83899)",
+      "Ukraine proposed airspace and front-line ceasefire to Putin personally which was rejected, with Budanov stating drones continue flying despite diplomatic efforts. (Source: @UkraineNow/83901)",
+      "Russian forces liberated Kurtovka settlement near Druzhkovka in DPR using Southern Group of Forces drone operators. (Source: @ukr_leaks_eng/33026, @ukr_leaks_eng/33032)",
+      "Ukrainian F-16 pilots forced to engage Russian threats with cannon only due to conserved AIM-9 and AIM-120 missiles, indicating severe air defense missile shortage. (Source: @ukr_leaks_eng/33037)",
+      "Metinvest's Kametstal plant in Kamenskoye halted production after September 5 missile strike, impacting Ukraine's metallurgical sector. (Source: @ukr_leaks_eng/33033)",
+      "Massive aerial bombardment of Kyiv region resulted in 2 killed, 28 damaged objects across 5 districts including residential buildings, warehouses, railway, and agricultural facilities. (Source: @eRadarrua/111035)",
+      "NATO military planners express concern Europe cannot sustain war with Russia due to right-wing party growth and reduced US support, with Marine Le Pen's party planning to cut Ukraine funding if winning 2027 election. (Source: @tass_agency/393964, @ukr_leaks_eng/33036)"
+    ],
+    "threat_assessment": "The air threat to Ukraine remains extremely high with sustained waves of Shahed drones and Banderol cruise missiles targeting civilian infrastructure across multiple regions. Ukrainian air defense faces critical constraints with F-16 pilots conserving missiles, reducing engagement capability against cruise missiles and ballistic threats. The Iskander-M launch warning from Taganrog indicates potential high-precision strikes against front-line targets. Russian tactical aviation activity on the southeastern front suggests preparation for increased air-delivered weapon strikes against Ukrainian defensive positions.",
+    "regional_response": "Germany is pushing the EU to severely restrict tourist visas for Russians, arguing excessive visa issuance contradicts European isolation strategy and creates false normalization for wealthy Russians benefiting from Kremlin policies. Marine Le Pen's National Rally party announced plans to end financial support for Ukraine if winning the 2027 French presidential election, citing exhausted social services and economy. Italy's General Vannacci advocates halting weapons transfers and reviewing NATO obligations, with his party polling at 7.6%. Ukraine secured $1.7 billion of the $6.2 billion required for winter preparation.",
+    "intelligence_notes": "The three-day ceasefire on Kyiv appears tied to diplomatic signaling rather than genuine de-escalation intent, as strikes continue on other regions. Russian warehouse destruction campaign against Wildberries has disabled as many facilities in two months as since February 2022, suggesting systematic infrastructure targeting. Ground advances in DPR near Druzhkovka indicate continued Russian pressure in eastern sector. F-16 missile conservation suggests either supply constraints or planned retention for higher-value threats."
   },
   "missiles": 0,
   "drones": 167,
   "kpszsu_timeline": [
-    4,
-    5,
     6,
+    5,
     5,
     1,
     0,
@@ -352,14 +353,15 @@
     2,
     3,
     3,
-    4,
-    4,
     5,
+    3,
     6,
-    4,
-    4,
     5,
     4,
-    2
+    4,
+    3,
+    6,
+    2,
+    4
   ]
 }
