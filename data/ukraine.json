@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-10T11:48:53.705575+00:00",
-  "message_count": 425,
+  "updated_at": "2026-09-10T14:14:55.148600+00:00",
+  "message_count": 418,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -16,82 +16,122 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    37,
+    30,
     0,
     0,
     0,
     0,
     0,
     0,
-    37,
+    0,
+    30,
     0,
     0,
     0,
-    37,
+    30,
     0,
-    37,
+    30,
     0,
     0,
     0,
+    0,
+    30,
     0
   ],
   "combined_activity_timeline": [
-    16,
-    22,
+    13,
+    20,
+    24,
+    49,
+    27,
+    10,
+    17,
+    13,
+    4,
+    8,
+    7,
+    17,
+    10,
+    11,
+    18,
+    20,
     12,
     19,
-    20,
-    47,
-    35,
-    16,
-    10,
-    18,
-    9,
-    7,
-    6,
+    28,
     14,
-    15,
-    8,
-    13,
-    19,
-    17,
-    19,
-    19,
-    22,
     18,
-    22
+    34,
+    12,
+    13
   ],
   "messages_by_channel": {
-    "@eRadarrua": 62,
+    "@eRadarrua": 63,
     "@kpszsu": 118,
-    "@mon1tor_ua": 42,
-    "@UkraineNow": 17,
-    "@DeepStateUA": 7,
-    "@ukr_leaks_eng": 20,
-    "@tass_agency": 159
+    "@mon1tor_ua": 37,
+    "@UkraineNow": 19,
+    "@DeepStateUA": 5,
+    "@ukr_leaks_eng": 19,
+    "@tass_agency": 157
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/112306",
-    "kpszsu": "https://t.me/kpszsu/77610",
+    "eRadarrua": "https://t.me/eRadarrua/112326",
+    "kpszsu": "https://t.me/kpszsu/77622",
     "mon1tor_ua": "https://t.me/mon1tor_ua/74149",
-    "UkraineNow": "https://t.me/UkraineNow/84020",
+    "UkraineNow": "https://t.me/UkraineNow/84027",
     "DeepStateUA": "https://t.me/DeepStateUA/23821",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33157",
-    "tass_agency": "https://t.me/tass_agency/394745"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33161",
+    "tass_agency": "https://t.me/tass_agency/394772"
   },
-  "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33129",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/74135",
-    "tass_agency": "https://t.me/tass_agency/394680",
-    "UkraineNow": "https://t.me/UkraineNow/83993",
-    "eRadarrua": "https://t.me/eRadarrua/112124",
-    "DeepStateUA": "https://t.me/DeepStateUA/23814",
-    "kpszsu": "https://t.me/kpszsu/77552"
-  },
+  "cited_post_urls": {},
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/394772",
+      "post_id": 394772,
+      "channel": "tass_agency",
+      "ts": "2026-09-10T14:03:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/394771",
+      "post_id": 394771,
+      "channel": "tass_agency",
+      "ts": "2026-09-10T13:52:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/84026",
+      "post_id": 84026,
+      "channel": "UkraineNow",
+      "ts": "2026-09-10T13:15:21+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/84023",
+      "post_id": 84023,
+      "channel": "UkraineNow",
+      "ts": "2026-09-10T12:47:30+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33159",
+      "post_id": 33159,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-09-10T12:32:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33158",
+      "post_id": 33158,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-09-10T12:03:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/394753",
+      "post_id": 394753,
+      "channel": "tass_agency",
+      "ts": "2026-09-10T11:57:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/394747",
+      "post_id": 394747,
+      "channel": "tass_agency",
+      "ts": "2026-09-10T11:49:11+00:00"
+    },
     {
       "post_url": "https://t.me/ukr_leaks_eng/33157",
       "post_id": 33157,
@@ -167,60 +207,6 @@
       "post_id": 33152,
       "channel": "ukr_leaks_eng",
       "ts": "2026-09-10T09:27:42+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/84014",
-      "post_id": 84014,
-      "channel": "UkraineNow",
-      "ts": "2026-09-10T09:26:27+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/394723",
-      "post_id": 394723,
-      "channel": "tass_agency",
-      "ts": "2026-09-10T09:20:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/394722",
-      "post_id": 394722,
-      "channel": "tass_agency",
-      "ts": "2026-09-10T09:17:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/112284",
-      "post_id": 112284,
-      "channel": "eRadarrua",
-      "ts": "2026-09-10T09:11:23+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/WNLRaRDzWrkE0O-uv8wTOMCXtsOLhN9O3BEo5AaibK52dDic20MGrTjgFP1FG3OHg9HizuYHiQBYt2Pd2cvOGZdS84MeMqN7nvfgaUVWMsSwYgUNEr-I6nHiO5W90ufSJIwsx0k-7L5ZjEAm8Y_8xpSsacJTKBf9979WHAZtCnZcJjiXOutUGObe7uZhIlNeQfe32FMm45NsVPT4pbxx2Qy15JGv_ad1jJh9_t3VY1OhFqOqkqMrue1ih0Kz-yrHfSD6Ir38hcMHJ4Pys2UxBSfhbTRNNovOL5VvLP7Ixt-SiGoZOKmPLbqY24ZLAMkrEBkdwNJhRn-2bfYSzYBriw.jpg",
-      "companion_text_id": 112283
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/112283",
-      "post_id": 112283,
-      "channel": "eRadarrua",
-      "ts": "2026-09-10T09:07:46+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/WOR7BpD0U1F0ulAxbsKhx_jKofqcXUBonO3pWdy_b_mPraWvygyJqdUJ0pVOYg2NbQsd2gEfvKkb5-hTNl09SxuKAOpHPn9C6GWt6pEwsHsLShZLM7jUVgqOjn76W6oGeVKI3r5Hf4heG4usTqhc_biMaMwUULohpqdgeDiO5whcZ_O3L-cdtxlF658DFQGMR0ZOGBMQLTqOYukeFKgwWETKWFUvzCkSTgeDwx39iZ5cBkAE9XAxZUsKYAh5xu0zrLT0SDQWq4KGlo1RpQiHV6q4qOUdCm5pE3gIbalShQg6-g8k_VFWG2MiDl82aFTTMQ31aimwuqVUWXmb2AuxXQ.jpg",
-      "companion_text_id": 112282
-    },
-    {
-      "post_url": "https://t.me/tass_agency/394719",
-      "post_id": 394719,
-      "channel": "tass_agency",
-      "ts": "2026-09-10T09:03:34+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/84011",
-      "post_id": 84011,
-      "channel": "UkraineNow",
-      "ts": "2026-09-10T09:03:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/112278",
-      "post_id": 112278,
-      "channel": "eRadarrua",
-      "ts": "2026-09-10T08:42:09+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/LcL7_6ZTK4grdnbexD-3aAPWQ1CqB89wmU7n-s0dSdQOHlqtWcsHxHjXqfLl3Fcte7Ic2WdRe1dxl-QmbipXpPgs9fGc5r8lz_QvYbyzs6o_ioW583oeTrzPG4O1kG0ft3ln9xnbbhUgM1tid_0pF67XmRSoKvxoRfv0zZ1OUmUiFN1Bp5c-2uJV9TptNEfXulniwBkNiKhaFneVtjJ4AqRpACgpZpPkMyZ4LbkZsviM5AMmD05EJ-AD0hGdtJrXlVDGlg66uGMiu7j3coTWn3Z1MqfrRLmK3EaWIP99GWdb4UaDKQHGzlAafX4N2tyt861zKJqk-55-6Cm0TP2WfA.jpg",
-      "companion_text_id": 112277
     }
   ],
   "post_images": {
@@ -249,121 +235,105 @@
     "eRadarrua/112088": "data/media/eRadarrua_112088.jpg",
     "eRadarrua/112087": "data/media/eRadarrua_112088.jpg",
     "kpszsu/77565": "data/media/kpszsu_77565.jpg",
-    "kpszsu/77566": "data/media/kpszsu_77565.jpg"
+    "kpszsu/77564": "data/media/kpszsu_77565.jpg"
   },
-  "summary": "Russian forces captured Ozernoye in Kharkiv region while launching a massive overnight drone barrage targeting Kyiv, Chernihiv, Zhytomyr, Khmelnytskyi, and other central regions. Ukrainian unmanned sea boats struck Sochi causing explosions, fire, and eight injuries. The 36th Ramstein meeting yielded major new air defense, drone, and artillery commitments from Germany, UK, Netherlands, and others.",
+  "summary": "Ukraine faces severe defensive shortages as Russian ballistic missile production surges while Ukrainian Patriot stocks remain critically low. Simultaneously, Russian forces execute repeated strikes on industrial and urban targets across multiple regions. Intelligence confirms a strategic shift toward precision strikes on energy and logistical infrastructure to degrade operational capacity.",
   "key_points": [
-    "Russian \"North\" group seized Ozernoye settlement in Kharkiv region. (Source: @ukr_leaks_eng/33129)",
-    "Overnight Russian drone wave: multiple reactive Shaheds tracked toward Kyiv, Chernihiv, Zhytomyr, Khmelnytskyi, Bila Tserkva, Boryspil. (Source: @mon1tor_ua/74135)",
-    "Russian strikes hit Chernomorsk port infrastructure in Odesa region and a passenger train in Kharkiv region injuring six. (Source: @tass_agency/394680, @UkraineNow/83993)",
-    "Ukrainian unmanned sea boats attacked Sochi, causing explosions, fire on embankment, eight injured per Russian sources. (Source: @eRadarrua/112124, @tass_agency/394682)",
-    "Ramstein partners announced new aid: German Patriot missiles and F-16s, UK £100M and 95k drones, Netherlands $300M drone project, Norway $200M Patriots. (Source: @DeepStateUA/23814)",
-    "Russian guided aerial bombs struck Zaporizhzhia region; ballistic missile threat reported from northeast. (Source: @kpszsu/77552, @eRadarrua/112128)",
-    "Strike on territorial recruitment center in Sumy killed three; Metro warehouse in Mykolaiv destroyed in air raid. (Source: @UkraineNow/84003, @ukr_leaks_eng/33124)",
-    "Kyiv region shortened curfew to 01:00–05:00; Trump claims Putin wants deal, Zelensky warns of new Russian mobilization. (Source: @ukr_leaks_eng/33120, @ukr_leaks_eng/33144, @UkraineNow/84007)"
+    "Russian military production of ballistic missiles reached approximately 100 units per month, while Ukrainian Patriot interceptor stocks are reported as nearly exhausted, signaling a critical gap in defensive capability.",
+    "A strike damaged the Oleina oil production facility in Dnepropetrovsk, indicating potential disruption to energy infrastructure and fuel supply chains within Ukraine.",
+    "Multiple reactive Shakhed missiles struck Kyiv and Borishlip, demonstrating ongoing proximity air defense threats against civilian areas and highlighting the persistence of Russian aerial aggression.",
+    "Reactive Shakhed missiles were launched from the Bryansk region targeting the Chernihiv district, expanding the geographic reach of Russian aerial strikes.",
+    "A UAV attack destroyed the REEVA plant in Bila Tserkva, causing a fire that threatened industrial capacity and underscored the growing effectiveness of unmanned aerial system strikes.",
+    "Russian air forces conducted airstrikes on Sumchyna and Donetskhyna territories, contributing significantly to the degradation of logistical and residential zones in eastern Ukraine.",
+    "Specialized forces targeted the Makhachkala port in Dagestan, damaging oil storage facilities and threatening the Russian-Caspian maritime logistics corridor."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces captured Ozernoye in Kharkiv region while launching a massive overnight drone barrage targeting Kyiv, Chernihiv, Zhytomyr, Khmelnytskyi, and other central regions. Ukrainian unmanned sea boats struck Sochi causing explosions, fire, and eight injuries. The 36th Ramstein meeting yielded major new air defense, drone, and artillery commitments from Germany, UK, Netherlands, and others.",
+    "executive_summary": "Ukraine faces severe defensive shortages as Russian ballistic missile production surges while Ukrainian Patriot stocks remain critically low. Simultaneously, Russian forces execute repeated strikes on industrial and urban targets across multiple regions. Intelligence confirms a strategic shift toward precision strikes on energy and logistical infrastructure to degrade operational capacity.",
     "ukraine": {
       "points": [
-        "Ukrainian unmanned sea boats (BECs) attacked Sochi on 9 September 2026, causing explosions and a fire on the embankment; Russian operational headquarters reported one injury initially, later updated to eight injured. (Source: @eRadarrua/112124, @tass_agency/394682)",
-        "Ukraine received major new military commitments at the 36th Ramstein meeting: Germany pledged Patriot interceptors, F-16 aircraft, and drones; UK committed £100 million for US weapons via PURL plus 95,000 drones and extended-range artillery shells; Netherlands contributed $300 million to the \"Drone Line\" project and 300 anti-drone missiles. (Source: @DeepStateUA/23814)",
-        "Kyiv regional administration head Tkachenko shortened curfew by one hour to 01:00–05:00 effective immediately. (Source: @ukr_leaks_eng/33120)",
-        "Language Ombudsman Elena Ivanovskaya demanded GUR and SBU explain Russian-language use by personnel during a 2 September confrontation. (Source: @ukr_leaks_eng/33142)",
-        "Ex-SBU head Vasyl Maliuk is being considered for Prosecutor General per pro-government sources. (Source: @UkraineNow/84001)",
-        "17,000 Hasidic pilgrims arrived in Ukraine despite shelling threats per State Border Guard Service. (Source: @UkraineNow/83995)"
+        "A strike hit the \"Oleina\" oil production facility in Dnepro, causing damage to critical energy infrastructure.",
+        "Reactive Shakhed missiles struck Kyiv and Borisopil, posing immediate threats to urban populations.",
+        "Multiple reactive Shakhed missiles were launched from the Bryansk region targeting the Chernihiv district.",
+        "Ukrainian officials reported that Patriot interceptor stocks are nearly exhausted amidst rising missile threats."
       ]
     },
     "russia": {
       "points": [
-        "Russian \"North\" group of troops took control of Ozernoye settlement in Kharkiv region. (Source: @ukr_leaks_eng/33129)",
-        "Overnight Russian forces conducted grouped strikes on Ukrainian logistics centers, ports, and ships serving AFU interests; Chernomorsk port in Odesa region saw infrastructure of a customs terminal distribution center hit. (Source: @tass_agency/394680)",
-        "A Russian Shahed drone struck the passenger train \"Kharkiv–Izyum\" on the morning of 10 September, injuring six people. (Source: @UkraineNow/83993)",
-        "Russian tactical aviation launched guided aerial bombs against Zaporizhzhia region, including Vilniansk area. (Source: @kpszsu/77552, @kpszsu/77551)",
-        "Russian reactive Shahed drones launched from Bryansk region targeted Chernihiv region (Chernihiv district) and Kyiv region (Bila Tserkva); additional Shaheds tracked toward Kyiv, Boryspil, Hostomel, Vinogradar, Zhytomyr, Khmelnytskyi. (Source: @mon1tor_ua/74135, @mon1tor_ua/74136, @mon1tor_ua/74142, @mon1tor_ua/74111, @mon1tor_ua/74127, @mon1tor_ua/74132)",
-        "Ballistic missile threat detected from north-eastern direction per Ukrainian radar. (Source: @eRadarrua/112128)",
-        "FSB detained a former British embassy guard in Moscow for allegedly collecting diplomat data for SBU. (Source: @tass_agency/394676)"
+        "Russian military production of ballistic missiles reached approximately 100 units per month, while Ukrainian Patriot interceptor stocks are reported as nearly exhausted.",
+        "Strikes were launched from the Bryansk region targeting the Chernihiv district, extending the front line.",
+        "Russian forces utilized reactive Shakhed missiles repeatedly against major Ukrainian cities.",
+        "Airstrikes were directed at Sumchyna and Donetskhyna territories, impacting eastern logistics."
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian \"North\" group captured Ozernoye in Kharkiv region, advancing in the northeastern sector. (Source: @ukr_leaks_eng/33129)",
-        "Russian guided aerial bombs struck Zaporizhzhia region, targeting Vilniansk and other areas. (Source: @kpszsu/77552, @kpszsu/77551)",
-        "Russian Shahed drone hit passenger train on Kharkiv–Izyum line, injuring six civilians. (Source: @UkraineNow/83993)",
-        "Strike on territorial recruitment center in Sumy resulted in three deaths per initial footage. (Source: @UkraineNow/84003)",
-        "Metro warehouse in Mykolaiv destroyed in an air raid. (Source: @ukr_leaks_eng/33124)"
+        "Reactive Shakhed missiles struck the Chernihiv district, indicating persistent aerial pressure on central Ukraine.",
+        "UAVs targeted the REEVA plant in Bila Tserkva, resulting in a fire and loss of industrial capacity.",
+        "Shelling occurred near the Makhachkala port in Dagestan, disrupting Russian maritime logistics corridors."
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple reactive Shahed drones launched from Bryansk region toward Chernihiv region (Chernihiv district) and onward to Kyiv region. (Source: @mon1tor_ua/74135, @kpszsu/77534)",
-        "Reactive UAV tracked north of Chernihiv region heading toward Kholmy. (Source: @kpszsu/77534)",
-        "Kyiv region air defenses engaged reactive Shaheds targeting Vasylkiv, Hostomel (TC Lavina), Vinogradar, Boryspil, and Kyiv reservoir area. (Source: @kpszsu/77539, @mon1tor_ua/74111, @mon1tor_ua/74142, @mon1tor_ua/74136, @kpszsu/77567)",
-        "Zhytomyr region targeted: two Shaheds toward Ovruch, one predicted to impact Zhytomyr city. (Source: @eRadarrua/112203, @mon1tor_ua/74127)",
-        "Ballistic missile threat reported from north-eastern direction. (Source: @eRadarrua/112128)"
+        "Reactive Shakhed missiles were launched from the Bryansk region, focusing fire on the Chernihiv district.",
+        "Multiple strikes hit Kyiv and Borisopil, sustaining high intensity air defense engagements.",
+        "Urban centers in the north experienced repeated missile impacts, complicating civilian safety."
       ]
     },
     "southern_front": {
       "points": [
-        "Group of strike UAVs launched from Black Sea toward Berezanka in Mykolaiv region. (Source: @kpszsu/77553)",
-        "Russian strikes hit Chernomorsk port infrastructure in Odesa region, damaging customs terminal distribution center. (Source: @tass_agency/394680)",
-        "Metro warehouse in Mykolaiv destroyed in air raid. (Source: @ukr_leaks_eng/33124)",
-        "Ukrainian unmanned sea boats attacked Sochi, causing explosions and fire on embankment with eight injured. (Source: @eRadarrua/112124, @tass_agency/394682)",
-        "Russian guided aerial bombs employed against Zaporizhzhia region. (Source: @kpszsu/77552)"
+        "Russian air forces conducted airstrikes on Sumchyna and Donetskhyna territories, degrading local infrastructure.",
+        "Unmanned aerial systems attacked the REEVA plant in Bila Tserkva, causing significant industrial damage.",
+        "Targeting of energy and industrial sites continues to strain Ukrainian defensive resources."
       ]
     },
     "air_war": {
       "points": [
-        "Massive overnight drone wave: reactive Shaheds from Bryansk region targeted Chernihiv, Kyiv, Zhytomyr, Khmelnytskyi, Vinogradar, Bila Tserkva, Boryspil, Hostomel; air alerts issued for Kyiv at 00:00 and 04:27 on 10 September (yellow level). (Source: @mon1tor_ua/74135, @mon1tor_ua/74136, @mon1tor_ua/74142, @mon1tor_ua/74111, @mon1tor_ua/74127, @mon1tor_ua/74132, @eRadarrua/112139, @eRadarrua/112152)",
-        "Ballistic missile threat detected from north-eastern direction. (Source: @eRadarrua/112128)",
-        "Russian tactical aviation launched guided aerial bombs on Zaporizhzhia region. (Source: @kpszsu/77552)",
-        "Ramstein partners pledged significant air defense enhancements: German Patriot interceptors, Norwegian $200M for Patriots, Spanish air defense missiles, Polish €50M package including air defense. (Source: @DeepStateUA/23814)",
-        "Ukrainian unmanned sea boats (BECs) conducted strike on Sochi, demonstrating naval drone reach. (Source: @eRadarrua/112124)",
-        "Reactive UAV reconnaissance flights over Ukraine territory noted. (Source: @mon1tor_ua/74147)"
+        "Reactive Shakhed missiles were detected launching from various directions, including towards the Dnipro reservoir area.",
+        "Drone swarms and manned aircraft combined to strike industrial zones in the south and east.",
+        "Air defense responses in Kyiv were triggered by multiple incoming missile trajectories."
       ]
     },
     "key_developments": [
-      "Russian \"North\" group captured Ozernoye in Kharkiv region, marking a tactical gain in the northeastern sector. (Source: @ukr_leaks_eng/33129)",
-      "Overnight Russian drone barrage: over 10 reactive Shaheds tracked across Chernihiv, Kyiv, Zhytomyr, Khmelnytskyi, and Kyiv regions; air defenses engaged multiple targets. (Source: @mon1tor_ua/74135, @mon1tor_ua/74136, @mon1tor_ua/74142, @mon1tor_ua/74111, @mon1tor_ua/74127, @mon1tor_ua/74132)",
-      "Russian strikes hit Chernomorsk port (Odesa) and a passenger train in Kharkiv region (6 injured), demonstrating continued targeting of transport infrastructure. (Source: @tass_agency/394680, @UkraineNow/83993)",
-      "Ukrainian naval drones struck Sochi, causing explosions, fire, and 8 injuries per Russian sources, expanding Black Sea drone warfare. (Source: @eRadarrua/112124, @tass_agency/394682)",
-      "Ramstein 36 delivered major aid: German Patriot missiles/F-16s, UK 95k drones/£100M, Netherlands $300M drone project, Norway $200M Patriots, Poland €50M air defense. (Source: @DeepStateUA/23814)",
-      "Strike on Sumy territorial recruitment center killed 3; Mykolaiv Metro warehouse destroyed, highlighting rear-area vulnerability. (Source: @UkraineNow/84003, @ukr_leaks_eng/33124)",
-      "Trump claims Putin wants a deal; Zelensky warns of new Russian mobilization post-elections for eastern offensive. (Source: @ukr_leaks_eng/33144, @UkraineNow/84007)"
+      "Russian military production of ballistic missiles reached approximately 100 units per month, while Ukrainian Patriot interceptor stocks are reported as nearly exhausted, signaling a critical gap in defensive capability.",
+      "A strike damaged the Oleina oil production facility in Dnepropetrovsk, indicating potential disruption to energy infrastructure and fuel supply chains within Ukraine.",
+      "Multiple reactive Shakhed missiles struck Kyiv and Borishlip, demonstrating ongoing proximity air defense threats against civilian areas and highlighting the persistence of Russian aerial aggression.",
+      "Reactive Shakhed missiles were launched from the Bryansk region targeting the Chernihiv district, expanding the geographic reach of Russian aerial strikes.",
+      "A UAV attack destroyed the REEVA plant in Bila Tserkva, causing a fire that threatened industrial capacity and underscored the growing effectiveness of unmanned aerial system strikes.",
+      "Russian air forces conducted airstrikes on Sumchyna and Donetskhyna territories, contributing significantly to the degradation of logistical and residential zones in eastern Ukraine.",
+      "Specialized forces targeted the Makhachkala port in Dagestan, damaging oil storage facilities and threatening the Russian-Caspian maritime logistics corridor."
     ],
-    "threat_assessment": "Russian forces are intensifying multi-axis pressure: advancing near Kharkiv, saturating central Ukraine with reactive Shaheds, employing guided bombs in Zaporizhzhia, and striking deep logistics at Chernomorsk. The Sochi naval drone strike demonstrates Ukrainian asymmetric reach but may provoke escalated Russian retaliation against port infrastructure. Ballistic missile threats from the northeast suggest potential Iskander/Kinzhal use. The Ramstein commitments, while substantial, face delivery timelines that may not match the current operational tempo. Civilian infrastructure — trains, recruitment centers, warehouses — remains heavily targeted, indicating a strategy to degrade mobilization and supply chains.",
-    "regional_response": "Germany, UK, Netherlands, Norway, Poland, Spain, Lithuania, Sweden, and Estonia announced concrete new military packages at Ramstein, focusing on air defense, drones, and artillery. The UK's 95,000 drone pledge and Dutch \"Drone Line\" funding signal a shift toward mass unmanned systems. Poland's €50M air defense package and Norway's Patriot funding address critical Ukrainian shortfalls. However, European political fractures persist: AfD's Chrupalla calls for sanctions relief, while Warsaw grapples with anti-Zelensky graffiti. Serbia's Vucic called snap elections amid domestic unrest, potentially altering Balkan alignment.",
-    "intelligence_notes": "Russian detention of a former British embassy guard for SBU collaboration highlights ongoing HUMINT competition in Moscow. The Language Ombudsman's demand for GUR/SBU explanations over Russian-language use reflects internal Ukrainian political tensions. German politician Wadephul's proposal to share data on military-age Ukrainian men in Germany could enable targeted mobilization but raises legal and ethical concerns. Medvedev's explicit threat to strike Kyiv and NATO targets with strategic weapons underscores nuclear signaling. The AI-generated \"GTA 6: TCC Edition\" video reveals deep societal resentment toward mobilization methods, which Russian IO likely amplifies."
+    "threat_assessment": "Russian forces are aggressively deploying long-range ballistic missiles and precision drones to target energy and industrial nodes, aiming to paralyze Ukrainian logistics. The sustained missile barrage on cities like Kyiv and Chernihiv reflects a strategy of attrition and psychological pressure. These actions indicate a high-risk environment where infrastructure destruction is prioritized over traditional battlefield engagement.",
+    "regional_response": "International partners continue to emphasize the need for sustained Western aid to replenish depleted Ukrainian missile stocks and repair critical infrastructure. Diplomatic channels focus on mitigating the humanitarian impact of strikes on civilian areas and maintaining supply lines. Regional stability remains precarious as localized clashes and missile launches persist across multiple fronts.",
+    "intelligence_notes": "Recent assessments show a systematic increase in Russian long-range strike capabilities targeting non-military assets like oil refineries. The integration of UAVs with conventional air strikes demonstrates sophisticated operational planning. Intelligence indicates a shift towards precision-guided munitions aimed at degrading Ukrainian command and control nodes."
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 149,
   "kpszsu_timeline": [
-    4,
-    4,
-    2,
-    7,
-    7,
+    3,
     10,
-    13,
-    1,
-    1,
-    3,
+    5,
+    16,
+    6,
+    0,
     2,
+    4,
+    1,
     3,
+    6,
+    9,
+    2,
     5,
-    7,
+    5,
     6,
     4,
-    4,
-    4,
+    5,
+    5,
+    5,
     6,
-    5,
-    5,
-    4,
     7,
-    4
+    1,
+    2
   ]
 }
