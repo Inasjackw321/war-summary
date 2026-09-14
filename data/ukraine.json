@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-13T22:24:57.583131+00:00",
-  "message_count": 371,
+  "updated_at": "2026-09-14T00:22:15.727755+00:00",
+  "message_count": 354,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -16,8 +16,6 @@
     0,
     0,
     0,
-    0,
-    0,
     46,
     46,
     0,
@@ -34,60 +32,62 @@
     0,
     0,
     0,
-    92,
+    46,
+    46,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    12,
-    10,
     7,
     29,
-    10,
-    34,
-    27,
-    26,
-    18,
-    22,
+    11,
+    31,
+    28,
+    24,
+    20,
     21,
-    9,
+    22,
+    11,
     8,
     16,
     6,
-    12,
-    16,
+    11,
     17,
-    12,
+    17,
+    11,
     9,
-    8,
+    7,
     31,
+    6,
     5,
+    1,
     5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 71,
-    "@kpszsu": 90,
-    "@mon1tor_ua": 76,
-    "@UkraineNow": 12,
+    "@eRadarrua": 67,
+    "@kpszsu": 83,
+    "@mon1tor_ua": 75,
+    "@UkraineNow": 11,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 16,
-    "@tass_agency": 103
+    "@tass_agency": 99
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/113188",
-    "kpszsu": "https://t.me/kpszsu/78144",
+    "kpszsu": "https://t.me/kpszsu/78149",
     "mon1tor_ua": "https://t.me/mon1tor_ua/74470",
     "UkraineNow": "https://t.me/UkraineNow/84084",
     "DeepStateUA": "https://t.me/DeepStateUA/23830",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33230",
-    "tass_agency": "https://t.me/tass_agency/395231"
+    "tass_agency": "https://t.me/tass_agency/395234"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/113188",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/74469",
-    "UkraineNow": "https://t.me/UkraineNow/84073",
-    "kpszsu": "https://t.me/kpszsu/78140",
-    "tass_agency": "https://t.me/tass_agency/395230"
+    "kpszsu": "https://t.me/kpszsu/78115",
+    "UkraineNow": "https://t.me/UkraineNow/84074",
+    "eRadarrua": "https://t.me/eRadarrua/113150",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/74467",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33229"
   },
   "media": [
     {
@@ -259,107 +259,125 @@
     "kpszsu/78070": "data/media/kpszsu_78070.jpg",
     "kpszsu/78071": "data/media/kpszsu_78070.jpg"
   },
-  "summary": "Russian forces launched coordinated Shahed drone attacks across multiple Ukrainian regions including Kyiv, Kharkiv, and Odesa, targeting infrastructure and civilian areas. Ukrainian forces reported destroying a Russian patrol boat in the Black Sea, marking the first naval engagement between patrol boats. Multiple guided aviation bombs were launched by Russian tactical aviation against Zaporizhzhia region.",
+  "summary": "Russian forces launched 323 drone attacks across Ukraine on September 13, with 10 drones hitting targets despite air defenses downing 310. Strikes hit facilities in Volgograd, Kharkiv, and Odesa, targeting chemical plants and infrastructure. Air threats remain high-level for Kyiv with potential for combined strikes.",
   "key_points": [
-    "2 Shahed drones from Kherson region targeted Berezne, Mykolaiv region (Source: @eRadarrua/113188).",
-    "10 Shahed drones from Kherson region targeted Mykolaiv region, Bashkutiv district; 1 drone targeted Priluki, Chernihiv region (Source: @mon1tor_ua/74469).",
-    "Ukrainian military-naval forces destroyed Russian unarmored boat in Black Sea operation (Source: @UkraineNow/84073).",
-    "Guided aviation bombs launched by Russian tactical aviation against Zaporizhzhia region (Source: @kpszsu/78140).",
-    "1 Shahed drone targeted Kyiv/Viskhorod area (Source: @mon1tor_ua/74455).",
-    "1 controlled drone targeted Dnipro district of Kyiv (Source: @mon1tor_ua/74431).",
-    "Drone strike on passenger train locomotive near Polish border, 2km from border (Source: @mon1tor_ua/74449)."
+    "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+    "Air defenses downed 310 drones during the period, with 10 drones hitting targets in Ukraine (Source: @kpszsu/78115).",
+    "Ukrainian forces struck the Slavynsk-EKO oil refinery in Volgograd, damaging key chemical processing equipment (Source: @UkraineNow/84074).",
+    "Russian drones attacked a fuel depot near the Poland border on Volyn, approximately two kilometers from the border (Source: @eRadarrua/113150).",
+    "Multiple reactive drones launched from Kharkiv region heading toward Kyiv and Chernihiv regions (Source: @kpszsu/78137, @kpszsu/78119).",
+    "Air threat level for Kyiv remains at medium-high, with potential for combined strikes (Source: @mon1tor_ua/74467).",
+    "Ukrainian drone collection campaign launched for military units in Zaporizhzhia direction (Source: @mon1tor_ua/74453)."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces intensified drone warfare across Ukraine with coordinated Shahed attacks targeting Kyiv, Kharkiv, and southern regions. Ukrainian forces conducted successful Black Sea operations destroying a Russian patrol boat. Multiple guided aviation bomb launches were reported against Zaporizhzhia, indicating expanded Russian operational reach.",
+    "executive_summary": "Russian forces launched 323 drone attacks across Ukraine on September 13, with Ukrainian air defenses downing 310 drones but 10 reaching targets. Strikes hit critical infrastructure including the Slavynsk-EKO oil refinery in Volgograd and fuel depots near the Polish border. Air threats for Kyiv remain at high level with potential for combined strikes.",
     "ukraine": {
       "points": [
-        "Ukrainian military-naval forces conducted successful operation in Black Sea, destroying Russian unarmored boat - first naval engagement between patrol boats in history (Source: @UkraineNow/84073).",
-        "Drone collection campaign launched for 7 FPV drones for GUR MOU to counter enemy assaults in Zaporizhzhia direction, seeking 2,700 donors for 50 UAH contributions (Source: @mon1tor_ua/74453).",
-        "Prime Minister Krovytskyi reported approximately 70 billion UAH in tax revenues may not reach budget due to Russian attacks on businesses (Source: @UkraineNow/84071).",
-        "Deputy head of German AfD party called for return of Ukrainian men home, stating it primarily concerns young Ukrainian men of conscription age who wish to stop payments to Ukraine and any support for the war (Source: @UkraineNow/84084)."
+        "Ukrainian forces targeted the Slavynsk-EKO oil refinery in Volgograd, damaging key chemical processing equipment and storage tanks that produce chemicals for Russian industry (Source: @UkraineNow/84074).",
+        "Ukrainian forces struck an oil depot near the Poland border in Volyn region, approximately two kilometers from the border (Source: @eRadarrua/113150).",
+        "Ukrainian forces attacked a fuel depot near the Poland border on Volyn, approximately two kilometers from the border (Source: @eRadarrua/113150).",
+        "Ukrainian forces damaged a multi-story building, private houses, two educational institutions, and infrastructure objects in Odesa following a night attack (Source: @UkraineNow/84072).",
+        "One person was injured in Ivano-Frankivsk due to a hostile attack (Source: @UkraineNow/84072).",
+        "Ukrainian forces attacked a fuel depot near the Poland border on Volyn, approximately two kilometers from the border (Source: @eRadarrua/113150).",
+        "Ukrainian forces struck a fuel depot near the Poland border on Volyn, approximately two kilometers from the border (Source: @eRadarrua/113150)."
       ]
     },
     "russia": {
       "points": [
-        "Russian tactical aviation launched guided aviation bombs against Zaporizhzhia region (Source: @kpszsu/78140).",
-        "Russian forces launched 10 Shahed drones from Kherson region targeting Mykolaiv region, Bashkutiv district (Source: @mon1tor_ua/74469).",
-        "Russian forces launched 2 Shahed drones from Chernihiv region targeting Kyiv region, Vyshhorod district (Source: @mon1tor_ua/74452).",
-        "Russian Foreign Ministry official Galuzin stated Europe accepts peace settlement proposals from Ukraine, claiming Europe supplies Kyiv with everything needed including weapons and intelligence data with intent to strike Russian territory (Source: @tass_agency/395230)."
+        "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+        "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+        "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+        "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+        "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+        "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+        "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115)."
       ]
     },
     "eastern_front": {
       "points": [
-        "2 Shahed drones launched from Kherson region targeted Berezne, Mykolaiv region (Source: @eRadarrua/113188).",
-        "10 Shahed drones from Kherson region targeted Mykolaiv region, Bashkutiv district; 1 drone targeted Priluki, Chernihiv region (Source: @mon1tor_ua/74469).",
-        "1 Shahed drone targeted Chernihiv region, Kyiv region, Vyshhorod district (Source: @mon1tor_ua/74452).",
-        "Drone group launched from northern Chernihiv region toward Kyiv region, Vyshhorod district (Source: @eRadarrua/113148)."
+        "Reactive drones launched from Kharkiv region heading toward Kyiv and Chernihiv regions (Source: @kpszsu/78137, @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119)."
       ]
     },
     "northern_front": {
       "points": [
-        "1 Shahed drone targeted Kyiv/Viskhorod area (Source: @mon1tor_ua/74455).",
-        "1 controlled drone targeted Dnipro district of Kyiv (Source: @mon1tor_ua/74431).",
-        "2 Shahed drones from Chernihiv region targeted Kyiv region, Vyshhorod district (Source: @mon1tor_ua/74452).",
-        "Drone launched from Lviv region targeting Zakarpattia region, Strij direction (Source: @mon1tor_ua/74430)."
+        "Reactive drone launched from Kharkiv region heading toward Kyiv region (Source: @kpszsu/78137).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119)."
       ]
     },
     "southern_front": {
       "points": [
-        "10 Shahed drones from Kherson region targeted Mykolaiv region, Bashkutiv district (Source: @mon1tor_ua/74469).",
-        "1 Shahed drone targeted Priluki, Chernihiv region (Source: @mon1tor_ua/74469).",
-        "Drone group launched from boundary of Mykolaiv and Kherson regions toward north (Source: @kpszsu/78143).",
-        "1 Shahed drone targeted Lviv region, Strij direction (Source: @mon1tor_ua/74430)."
+        "Two drones from Kherson region targeting Berezne and Mykolaiv regions (Source: @eRadarrua/113188).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119).",
+        "Reactive drone launched from Kharkiv region passing through Ripa heading southwest (Source: @kpszsu/78119)."
       ]
     },
     "air_war": {
       "points": [
-        "2 Shahed drones from Kherson region targeted Berezne, Mykolaiv region (Source: @eRadarrua/113188).",
-        "10 Shahed drones from Kherson region targeted Mykolaiv region, Bashkutiv district; 1 drone targeted Priluki, Chernihiv region (Source: @mon1tor_ua/74469).",
-        "Guided aviation bombs launched by Russian tactical aviation against Zaporizhzhia region (Source: @kpszsu/78140).",
-        "Drone launched from Lukianivka targeting Kyiv, Vokzal, Pechersk (Source: @mon1tor_ua/74462)."
+        "Ukrainian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones (Source: @kpszsu/78115).",
+        "Air defenses downed 310 drones during the period, with 10 drones reaching targets in Ukraine (Source: @kpszsu/78115).",
+        "Air threat level for Kyiv remains at medium-high, with potential for combined strikes (Source: @mon1tor_ua/74467).",
+        "Air threat level for Kyiv remains at medium-high, with potential for combined strikes (Source: @mon1tor_ua/74467).",
+        "Air threat level for Kyiv remains at medium-high, with potential for combined strikes (Source: @mon1tor_ua/74467).",
+        "Air threat level for Kyiv remains at medium-high, with potential for combined strikes (Source: @mon1tor_ua/74467).",
+        "Air threat level for Kyiv remains at medium-high, with potential for combined strikes (Source: @mon1tor_ua/74467)."
       ]
     },
     "key_developments": [
-      "Russian forces launched coordinated Shahed drone attacks across multiple Ukrainian regions including Kyiv, Kharkiv, and southern regions, targeting infrastructure and civilian areas (Source: @mon1tor_ua/74469).",
-      "Ukrainian military-naval forces conducted successful operation in Black Sea, destroying Russian unarmored boat - first naval engagement between patrol boats in history (Source: @UkraineNow/84073).",
-      "Guided aviation bombs launched by Russian tactical aviation against Zaporizhzhia region, indicating expanded Russian operational reach (Source: @kpszsu/78140).",
-      "Drone strike on passenger train locomotive near Polish border, 2km from border, demonstrating Russian targeting of critical infrastructure (Source: @mon1tor_ua/74449).",
-      "Multiple Shahed drone attacks launched from Kherson region targeting Mykolaiv and Chernihiv regions, showing Russian operational coordination (Source: @mon1tor_ua/74469).",
-      "Drone collection campaign launched for 7 FPV drones for GUR MOU to counter enemy assaults in Zaporizhzhia direction, seeking 2,700 donors (Source: @mon1tor_ua/74453).",
-      "Russian Foreign Ministry official claimed Europe supplies Kyiv with weapons and intelligence data with intent to strike Russian territory (Source: @tass_agency/395230)."
+      "Russian forces launched 323 drone attacks across Ukraine on September 13 between 6:30 and 18:00, including 14 reactive drones, with air defenses downing 310 but 10 reaching targets (Source: @kpszsu/78115).",
+      "Ukrainian forces struck the Slavynsk-EKO oil refinery in Volgograd, damaging key chemical processing equipment and storage tanks that produce chemicals for Russian industry (Source: @UkraineNow/84074).",
+      "Russian drones attacked a fuel depot near the Poland border on Volyn, approximately two kilometers from the border (Source: @eRadarrua/113150).",
+      "Multiple reactive drones launched from Kharkiv region heading toward Kyiv and Chernihiv regions (Source: @kpszsu/78137, @kpszsu/78119).",
+      "Air threat level for Kyiv remains at medium-high, with potential for combined strikes (Source: @mon1tor_ua/74467).",
+      "Ukrainian drone collection campaign launched for military units in Zaporizhzhia direction (Source: @mon1tor_ua/74453).",
+      "Ukrainian forces damaged a multi-story building, private houses, two educational institutions, and infrastructure objects in Odesa following a night attack (Source: @UkraineNow/84072)."
     ],
-    "threat_assessment": "Russian forces are escalating drone warfare across Ukraine with coordinated Shahed attacks targeting multiple regions simultaneously. The destruction of a Russian patrol boat in the Black Sea indicates Ukrainian naval operations are expanding into contested waters. Guided aviation bomb launches against Zaporizhzhia suggest increased Russian air operations and potential escalation risks for civilian infrastructure.",
-    "regional_response": "International response includes German AfD party calling for return of Ukrainian men and cessation of payments to Ukraine. UN Development Programme warns Ukraine faces its most difficult winter since war start, with risk of humanitarian catastrophe if Russian strikes cut electricity and water supplies. Peace talks expected to resume in October according to Ukrainian negotiator David Arakhamia.",
-    "intelligence_notes": "Russian operational coordination evident through simultaneous drone launches from multiple regions targeting infrastructure and civilian areas. Ukrainian drone collection efforts indicate adaptive response to Russian tactics. Foreign intelligence claims suggest Western support enables targeting of Russian territory. Naval operations expansion signals potential broader conflict dimensions."
+    "threat_assessment": "Russian forces are escalating drone attacks across Ukraine with 323 launches on September 13, overwhelming Ukrainian air defenses despite downing 310 drones. The targeting of critical infrastructure including oil refineries and fuel depots indicates a strategy to degrade Russia's war machine while creating humanitarian crisis conditions. Air threats for Kyiv remain at high level with potential for combined kinetic strikes, suggesting coordinated operations with potential negotiating implications.",
+    "regional_response": "International response includes Polish Foreign Minister confirming Poland will not block Ukraine's EU accession, with potential cluster munition discussions in negotiations (Source: @UkraineNow/84080). UN Development Programme warns Ukraine faces its most difficult winter since war start, with risk of humanitarian catastrophe if Russian strikes cut electricity and water supplies (Source: @ukr_leaks_eng/33229). German AfD leader demands return of Ukrainian men, threatening to end payments and support (Source: @UkraineNow/84084).",
+    "intelligence_notes": "Ukrainian drone collection campaign specifically targets military units in Zaporizhzhia direction, indicating operational focus on defending against Russian assaults (Source: @mon1tor_ua/74453). Trump's son-in-law Jared Kushner stated Ukraine needs to retreat to Moscow-designated lines for agreement (Source: @ukr_leaks_eng/33216). Zelensky ranked 21st on Jerusalem Post's list of most influential Jews, described as Jewish face of Ukrainian resistance (Source: @ukr_leaks_eng/33224). Ukrainian budget could lose 70 billion hryvnias due to Russian strikes on businesses (Source: @ukr_leaks_eng/33215)."
   },
   "missiles": 0,
   "drones": 323,
   "kpszsu_timeline": [
+    3,
+    6,
     4,
     5,
-    3,
+    6,
+    4,
+    5,
     7,
-    3,
-    5,
     6,
-    4,
     5,
-    8,
-    6,
-    4,
     0,
     3,
     0,
     2,
     2,
     7,
-    3,
+    2,
     4,
     3,
     4,
     1,
-    1
+    1,
+    1,
+    2
   ]
 }
