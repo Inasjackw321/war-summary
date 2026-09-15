@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-15T17:10:23.129724+00:00",
-  "message_count": 564,
+  "updated_at": "2026-09-15T21:13:49.274973+00:00",
+  "message_count": 550,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,74 +13,74 @@
   ],
   "red_alerts": 200,
   "red_alerts_timeline": [
-    33,
-    0,
-    17,
     0,
     0,
-    0,
-    17,
+    22,
     0,
     0,
     0,
     0,
     0,
-    17,
-    33,
-    17,
+    22,
+    44,
+    22,
     0,
     0,
-    17,
+    22,
     0,
-    17,
+    22,
     0,
-    17,
-    17,
+    22,
+    22,
+    0,
+    0,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    25,
-    12,
-    12,
-    2,
-    10,
+    9,
     5,
-    10,
-    16,
+    12,
+    13,
     21,
-    47,
+    45,
     10,
-    37,
-    51,
+    44,
+    46,
     40,
-    29,
-    29,
+    31,
+    27,
+    25,
+    19,
+    36,
+    37,
+    27,
+    19,
     24,
-    21,
-    32,
-    42,
-    26,
-    16,
-    30,
-    13
+    22,
+    12,
+    13,
+    7,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 86,
-    "@kpszsu": 125,
-    "@mon1tor_ua": 168,
+    "@eRadarrua": 82,
+    "@kpszsu": 117,
+    "@mon1tor_ua": 166,
     "@UkraineNow": 19,
-    "@DeepStateUA": 5,
-    "@ukr_leaks_eng": 25,
-    "@tass_agency": 136
+    "@DeepStateUA": 4,
+    "@ukr_leaks_eng": 24,
+    "@tass_agency": 138
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/113499",
-    "kpszsu": "https://t.me/kpszsu/78402",
+    "eRadarrua": "https://t.me/eRadarrua/113531",
+    "kpszsu": "https://t.me/kpszsu/78418",
     "mon1tor_ua": "https://t.me/mon1tor_ua/74733",
-    "UkraineNow": "https://t.me/UkraineNow/84119",
+    "UkraineNow": "https://t.me/UkraineNow/84122",
     "DeepStateUA": "https://t.me/DeepStateUA/23837",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33283",
-    "tass_agency": "https://t.me/tass_agency/395521"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33286",
+    "tass_agency": "https://t.me/tass_agency/395539"
   },
   "cited_post_urls": {
     "mon1tor_ua": "https://t.me/mon1tor_ua/74674",
@@ -92,6 +92,121 @@
     "kpszsu": "https://t.me/kpszsu/78336"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/395539",
+      "post_id": 395539,
+      "channel": "tass_agency",
+      "ts": "2026-09-15T20:52:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/395538",
+      "post_id": 395538,
+      "channel": "tass_agency",
+      "ts": "2026-09-15T20:30:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/113529",
+      "post_id": 113529,
+      "channel": "eRadarrua",
+      "ts": "2026-09-15T20:26:55+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/tO1ec4Aa8VW9S9Zok0MJq6qVEHLuJOuuAh_z3d1vTtt8P4LRF5TXxaRVMadwz_vYwI3q7ew2h33c4F1nBGSOnl5m91gCmukdLXyQ5PVnhVlRLNkUKluCXhtmK0pEq8pkKKySS5R09MgoudIjj2H1oAzd6L1qJjn32gwQyokBT1txY56_SSnV9STvpCG8dF50kpZmChjWN_kW-tXWWDem6n8BNo09pfO6-Nh-sHQjrEc5xl6cr8KpFKBRrFwqJODMJzLOVk4UKoXRODeOwhFjRDExKQhqSFXoO9k6XWN9QMG5ADkO5ihGpNT5LcEVvO-soA-jQA8v33-Yu80U1gvkGw.jpg"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/84122",
+      "post_id": 84122,
+      "channel": "UkraineNow",
+      "ts": "2026-09-15T19:32:22+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/113516",
+      "post_id": 113516,
+      "channel": "eRadarrua",
+      "ts": "2026-09-15T19:21:38+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/BQZlkZzIeYOTcttwnFR6qvOWfgbd5MN5fr-XvP-R0aS4c1N-qcbSKOIjmgZIkASjPujpC4PkNK9VTYAPqIX97p6cJzWh7jX_K_adYK_hLqprO6ghJyXFcb-KYhPtDtltO5wKTjKUvdQiRUYouHG9e1Tzb9aK8gVAflOsQUhBaXYOoUj_Vz4fR_v7S7j0Qw3qumtcqASNuGmTWfJvWHwrxZn4zs3WENC0T7YpGNLqR4aOgTOhJciaLYCsDhB48bcM0BoTXCvuIyYC0W_k5W7fFSAA-ZBJSXsSBR4P0535uQF61Z5qzaFGOEAxzBdcKsmGBTzG7e9_8q9XQab2aK4AsQ.jpg",
+      "companion_text_id": 113514
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/84121",
+      "post_id": 84121,
+      "channel": "UkraineNow",
+      "ts": "2026-09-15T19:12:19+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/395535",
+      "post_id": 395535,
+      "channel": "tass_agency",
+      "ts": "2026-09-15T19:08:58+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/113512",
+      "post_id": 113512,
+      "channel": "eRadarrua",
+      "ts": "2026-09-15T19:07:03+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/p4D8u4Qo-Dg4cKSyYnZGqTVIB6r9mVKme4DPwhQp6-mW_KbAE4DUrdjARPRRj51sl21oZL97C_JnKO0yn318vqcllnKKA2xDiYEv0i0_v734CFxylkEYF8WV4WUvA15vUgsOwFIwAUlwxxpVJDKY0WOojf7ezGFPAsI_vQIFcBsgEsuV2hQgnKPLqPkZ--vxgJxLehodWOQhtYAwyznalLjBUuJIq-lLIhsajddheVt_6LHIQOLgi8lPEPTFK5mkY3hFkhpA_Arp15o4UBuviIVTxm_XcwnaRwiZwMbP72AsTczUzxPc9-0QDYhGHh7SNmKD4aD4gn6JXBfjoR-vtg.jpg",
+      "companion_text_id": 113511
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/113511",
+      "post_id": 113511,
+      "channel": "eRadarrua",
+      "ts": "2026-09-15T19:03:33+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/jK6X3VT3U22atOcoCqs8xZPP8016vwpz0945dWnXZjMEniIkRh7bHqUFwFTdJmy0Zw1HCBxBPhZKMWx_yCiaiLedjjGxKWNpocI7KBaiE1G1pu4KxxKN4JDka3ubMvTEPlVXj4p-0Ze1MPduyunf6jOKoml6jLg5PSZD6AC8qzK2f897hPSWGAAGjyAarh4r0a38daiK0OhMPTcS4HHWgtJmHWnR66VB9nLL_c5Sb44JmS8cxsIk0fx-2wgs8himomkiAELk3HlnOd96WiWp-k-nyyefEKhsZSNCanWrAEnMAcGTdZfbnKhfB0Qv50fg86DgHhwiMoEnllvUefUg7A.jpg",
+      "companion_text_id": 113512
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/113506",
+      "post_id": 113506,
+      "channel": "eRadarrua",
+      "ts": "2026-09-15T18:37:59+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/RORFLUwDFP0rmYV7IccrmE1pd8K8Tl5lGdHIeFBof0L22NSZ2j0J6L0ncJFygy8G8xF05ClXCf3oMNkalVCesAD6tIWy8000gwzliG8iQDTCc_F25i9g9-jkLeQibtHONt35uV-onvHKbz8dfmWaIhVPNg8aY5cqp4xLX06LIEPZ8n2eMgGJo48THzXGScrV3nWDNxcsI0gTQ5lNu00D43KJi_xI4btcO6rbut2j8g-G2g0CU0z4MrGy_KLntQ7DnLuaXsy79tSBUtfMD8HE_Vq_qDM7AVRRxsCmL-qwVMTK4wvmRB9OzIyqme-c4vCnCzYODRP-oJzTTIREGKGTvA.jpg",
+      "companion_text_id": 113505
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/84120",
+      "post_id": 84120,
+      "channel": "UkraineNow",
+      "ts": "2026-09-15T18:28:24+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/395529",
+      "post_id": 395529,
+      "channel": "tass_agency",
+      "ts": "2026-09-15T18:24:03+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/395526",
+      "post_id": 395526,
+      "channel": "tass_agency",
+      "ts": "2026-09-15T18:00:34+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/395525",
+      "post_id": 395525,
+      "channel": "tass_agency",
+      "ts": "2026-09-15T17:29:04+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33284",
+      "post_id": 33284,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-09-15T17:06:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/113501",
+      "post_id": 113501,
+      "channel": "eRadarrua",
+      "ts": "2026-09-15T17:02:26+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/WNMzli4It_R29CiQOFVF7c6Zg6zs5bkpkffK8-b17R054DllxYWWXzmCiRATUpGY2xjOYs5-0oUgxBZ_in3Wc1nn-NgJPZi6nC2SJSlBGfRdz04r5O8HA17epLjzSO8zt07pq9dmL7fiWJoRF1vw16d8l7has2jaacokZYlh5tYKuEB1He3OrtQppcRH6NyU0K92Zndp39xeuRj1dukMQ2D6brcCvauI0oDnVBtDl7ACPVusTEz6mtO7QYUpIsr2Q9hvhrcT1osujAw05BrRgWB0GyoSd0_2Us_qXKc2Hg7ZCCa7GyKeFn_u6EweUzx1fwtyA0WkeJh1xTnxZN9tZQ.jpg",
+      "companion_text_id": 113500
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/113500",
+      "post_id": 113500,
+      "channel": "eRadarrua",
+      "ts": "2026-09-15T17:00:54+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/OsLNQxRkLVtKSgLOszMx7Odtuuhb8oSG8ift6kei8MR9O17ke4ocT5EN64EzpUxbAlWqHQG0tZxCoxgjFImJWbAwkjLNg9IUJzsv6oX2rHcL2SnNmf21iCbU0Oo-ibLN676swFmOZmfn1CWSHpnh71sc-pPTMhRdwi3RFooKF7rgXubZLwHlzBuh1LSlOszEpdAx1o3Hahmrpkqq9qyxcy2POfG88U1IqZbKtds3rvE9XDBnc2qDclNO4FUcSbKteT5Jwf0pKptw08l3Juk8LLHC5p40tTYGAIyUtRV7GD1KVBOsZ8nCSaQhrHFR73KaEyBTN83JdbMD7LUiOYyPgw.jpg",
+      "companion_text_id": 113501
+    },
     {
       "post_url": "https://t.me/tass_agency/395517",
       "post_id": 395517,
@@ -109,140 +224,32 @@
       "post_id": 395516,
       "channel": "tass_agency",
       "ts": "2026-09-15T15:53:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33280",
-      "post_id": 33280,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-09-15T15:35:31+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395512",
-      "post_id": 395512,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T15:34:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395509",
-      "post_id": 395509,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T15:13:38+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33279",
-      "post_id": 33279,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-09-15T15:03:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23837",
-      "post_id": 23837,
-      "channel": "DeepStateUA",
-      "ts": "2026-09-15T15:01:33+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/84118",
-      "post_id": 84118,
-      "channel": "UkraineNow",
-      "ts": "2026-09-15T14:54:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/113482",
-      "post_id": 113482,
-      "channel": "eRadarrua",
-      "ts": "2026-09-15T14:45:40+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/FSZvyiQ3RsyHxqfOvVWiD4OASRBicutF5oLg5srAXjj21nnFSGBj-l5mRsdZcBPJ7xmmWG01VObA7lcwarXDDotpUWpPLyqft8fBTBhr2x9Sq1kLfNm_fjIPNS6X64ICUqDbQ2jLi6-iudn1vCZ559aQFc23OjkoX58_S4iPclPZ5-dpAwh3zMLY76XFysUWzBrTCqjwWECas74SFb1-foE58_AGm8o-utO5FeG6u79J3CbcH-dvLWWcCqPFmNHj4NRduXN9o-sjqxqcGdCqgMftysMWvZob6mQDjsb52JptSkWhVmBcYWVezQzCNCOyX1ZeNdOcGZFZIkHgaQB-Cg.jpg",
-      "companion_text_id": 113481
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395505",
-      "post_id": 395505,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T14:39:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33278",
-      "post_id": 33278,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-09-15T14:32:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395504",
-      "post_id": 395504,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T14:26:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/113478",
-      "post_id": 113478,
-      "channel": "eRadarrua",
-      "ts": "2026-09-15T14:16:20+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/sFS8UjZWo0LNWFvWjWUBioLvdGUO_HKLdyKRTtLsHEvPKNssVomnMmaEi0lRsUcBJZc-jYVa5hMCbXFCCbEuW05yDDukJeD0OxXIb_5Sx25afQhUj7p9b_s101SrqPIXD5Ik-s5e2J7sY1tPXl42V5a2ZJQUV0oxy1s7wqIi5o8W1vLiNE5cHrxm5sA3gk6l_sSauw0urgfMGEloc6BDTQFLQyb0HFE2wtSLSSmnxDlgZZfqWoPcjR3ML4m41XdrnFccJZgr2xKPn-5i-ZXMWGY0eP1yFIoK2Bn5-_Epy1ptx-eeTcr6JMLLE4Z89OblRat8D5hcbE5MNi7pZPInNw.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/113475",
-      "post_id": 113475,
-      "channel": "eRadarrua",
-      "ts": "2026-09-15T14:13:45+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/YINE2gdaw4M_rlG3TkiuFtLB6zq77wOW6wFsjfkURjgVo2E7SGx1II6mZcXsdfDs7xMBf69rSrby2Ql1UurovE4Q1U33_Es9vFHmm1crsCuQzuQieDNHeLOPiUTWNpR2EoR1Jf44YCd5ILS65pYIfIaMssk2zVYqpgRsGHaghlEoiimrYhYwoS7-TU0pvC9wnzIN_LdDCtQawJnZQQA26xbSSNkHU9JKZHKi7Efme81prxadJOmTdwgMT3v4qR75I0FCqg5-FmZDCrcAGWZ4ZsC6OGPA7TDR2uoyZtZImWaTpwENE5tFP6JTJDlcj4sIyl4U0aZ3Gl-ZMHsghNcojw.jpg",
-      "companion_text_id": 113473
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395501",
-      "post_id": 395501,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T14:01:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395498",
-      "post_id": 395498,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T13:31:41+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395497",
-      "post_id": 395497,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T13:21:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395496",
-      "post_id": 395496,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T13:08:02+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/113465",
-      "post_id": 113465,
-      "channel": "eRadarrua",
-      "ts": "2026-09-15T13:07:30+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/BKIVgFvaMItu2zGfgq_87EeSAsFNNJzpewYuFFUBdsRlEfXNXCm78bBkoSk3awqWX7l1UAla0fjg5VlPUnAek-eets7FLcBw9V_qODAYsclRz2_Nv8gF1QPO7n7JZpoQ_mfJ7NU4g4e6aHQnnj5wEkxT__Zo7-4Q8T3McOmmyv56KlpFuxCccNo5aCiBiZzl6-HZOBWY_FppqgzjW68y6UzmYJ4gweV_A83JAJ7odDK1PieTV0ARz5gG0CZkrMIg-ZdKukry3xPwN11JsYOvANSQIrRO51hcJN106YApvTUlG7FsHvt-ElT2X1L8IlpPqv3buZ4BEyWx7oUUz5FzNg.jpg",
-      "companion_text_id": 113466
     }
   ],
   "post_images": {
+    "eRadarrua/113512": "data/media/eRadarrua_113512.jpg",
+    "eRadarrua/113511": "data/media/eRadarrua_113511.jpg",
+    "eRadarrua/113516": "data/media/eRadarrua_113516.jpg",
+    "eRadarrua/113514": "data/media/eRadarrua_113516.jpg",
+    "eRadarrua/113529": "data/media/eRadarrua_113529.jpg",
+    "eRadarrua/113500": "data/media/eRadarrua_113500.jpg",
+    "eRadarrua/113501": "data/media/eRadarrua_113501.jpg",
+    "eRadarrua/113506": "data/media/eRadarrua_113506.jpg",
+    "eRadarrua/113505": "data/media/eRadarrua_113506.jpg",
+    "eRadarrua/113475": "data/media/eRadarrua_113475.jpg",
+    "eRadarrua/113473": "data/media/eRadarrua_113475.jpg",
     "eRadarrua/113478": "data/media/eRadarrua_113478.jpg",
     "eRadarrua/113482": "data/media/eRadarrua_113482.jpg",
     "eRadarrua/113481": "data/media/eRadarrua_113482.jpg",
     "eRadarrua/113459": "data/media/eRadarrua_113459.jpg",
     "eRadarrua/113465": "data/media/eRadarrua_113465.jpg",
     "eRadarrua/113466": "data/media/eRadarrua_113465.jpg",
-    "eRadarrua/113475": "data/media/eRadarrua_113475.jpg",
-    "eRadarrua/113473": "data/media/eRadarrua_113475.jpg",
     "eRadarrua/113440": "data/media/eRadarrua_113440.jpg",
     "eRadarrua/113442": "data/media/eRadarrua_113440.jpg",
     "eRadarrua/113449": "data/media/eRadarrua_113449.jpg",
     "eRadarrua/113448": "data/media/eRadarrua_113449.jpg",
-    "eRadarrua/113419": "data/media/eRadarrua_113419.jpg",
-    "eRadarrua/113420": "data/media/eRadarrua_113420.jpg",
-    "eRadarrua/113421": "data/media/eRadarrua_113421.jpg",
-    "eRadarrua/113423": "data/media/eRadarrua_113423.jpg",
-    "eRadarrua/113422": "data/media/eRadarrua_113423.jpg",
-    "eRadarrua/113424": "data/media/eRadarrua_113424.jpg",
-    "eRadarrua/113425": "data/media/eRadarrua_113425.jpg",
-    "eRadarrua/113397": "data/media/eRadarrua_113397.jpg",
-    "eRadarrua/113398": "data/media/eRadarrua_113397.jpg",
-    "eRadarrua/113399": "data/media/eRadarrua_113399.jpg",
+    "eRadarrua/113407": "data/media/eRadarrua_113407.jpg",
+    "eRadarrua/113406": "data/media/eRadarrua_113407.jpg",
     "kpszsu/78302": "data/media/kpszsu_78302.jpg",
     "kpszsu/78303": "data/media/kpszsu_78302.jpg"
   },
@@ -329,29 +336,29 @@
   "missiles": 0,
   "drones": 200,
   "kpszsu_timeline": [
-    10,
-    3,
-    2,
-    2,
     5,
+    2,
+    7,
+    2,
+    8,
+    8,
     2,
     6,
-    4,
-    8,
-    10,
-    2,
-    5,
     2,
     6,
     6,
     2,
     3,
     8,
-    12,
-    11,
+    13,
+    10,
     6,
     2,
+    3,
+    6,
     5,
-    3
+    3,
+    1,
+    1
   ]
 }
