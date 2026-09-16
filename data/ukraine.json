@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-15T21:13:49.274973+00:00",
-  "message_count": 550,
+  "updated_at": "2026-09-16T00:22:00.564909+00:00",
+  "message_count": 543,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,23 +15,23 @@
   "red_alerts_timeline": [
     0,
     0,
-    22,
     0,
     0,
     0,
+    25,
+    50,
+    25,
     0,
     0,
-    22,
-    44,
-    22,
+    25,
+    0,
+    25,
+    25,
+    0,
+    25,
     0,
     0,
-    22,
     0,
-    22,
-    0,
-    22,
-    22,
     0,
     0,
     0,
@@ -39,59 +39,64 @@
     0
   ],
   "combined_activity_timeline": [
-    9,
-    5,
-    12,
-    13,
-    21,
-    45,
-    10,
+    23,
+    15,
     44,
-    46,
-    40,
-    31,
-    27,
-    25,
-    19,
-    36,
-    37,
-    27,
-    19,
-    24,
-    22,
     12,
-    13,
-    7,
-    5
+    53,
+    32,
+    42,
+    32,
+    26,
+    25,
+    22,
+    34,
+    42,
+    22,
+    18,
+    26,
+    19,
+    12,
+    14,
+    6,
+    6,
+    3,
+    8,
+    7
   ],
   "messages_by_channel": {
-    "@eRadarrua": 82,
-    "@kpszsu": 117,
+    "@eRadarrua": 80,
+    "@kpszsu": 109,
     "@mon1tor_ua": 166,
     "@UkraineNow": 19,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 138
+    "@tass_agency": 141
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/113531",
-    "kpszsu": "https://t.me/kpszsu/78418",
+    "kpszsu": "https://t.me/kpszsu/78427",
     "mon1tor_ua": "https://t.me/mon1tor_ua/74733",
     "UkraineNow": "https://t.me/UkraineNow/84122",
     "DeepStateUA": "https://t.me/DeepStateUA/23837",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33286",
-    "tass_agency": "https://t.me/tass_agency/395539"
+    "tass_agency": "https://t.me/tass_agency/395553"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/74674",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33254",
-    "UkraineNow": "https://t.me/UkraineNow/84113",
-    "eRadarrua": "https://t.me/eRadarrua/113395",
-    "tass_agency": "https://t.me/tass_agency/395482",
-    "DeepStateUA": "https://t.me/DeepStateUA/23833",
-    "kpszsu": "https://t.me/kpszsu/78336"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/74733",
+    "eRadarrua": "https://t.me/eRadarrua/113496",
+    "UkraineNow": "https://t.me/UkraineNow/84103",
+    "kpszsu": "https://t.me/kpszsu/78412",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33285",
+    "tass_agency": "https://t.me/tass_agency/395514"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/395543",
+      "post_id": 395543,
+      "channel": "tass_agency",
+      "ts": "2026-09-15T22:10:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/395539",
       "post_id": 395539,
@@ -218,12 +223,6 @@
       "post_id": 33281,
       "channel": "ukr_leaks_eng",
       "ts": "2026-09-15T15:59:23+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/395516",
-      "post_id": 395516,
-      "channel": "tass_agency",
-      "ts": "2026-09-15T15:53:01+00:00"
     }
   ],
   "post_images": {
@@ -253,112 +252,114 @@
     "kpszsu/78302": "data/media/kpszsu_78302.jpg",
     "kpszsu/78303": "data/media/kpszsu_78302.jpg"
   },
-  "summary": "Russia launched a massive multi-axis drone and missile strike targeting Kyiv and multiple Ukrainian oblasts on September 15, 2026, with Geran-5 missiles striking multiple Kyiv districts and Shahed drones hitting targets across central and southern Ukraine. Ukraine's Verkhovna Rada voted 317-0 to dismiss Prosecutor General Kravchenko, deepening political upheaval amid internal power struggles between the Prosecutor General's Office and NABU. A reported Ukraine-Russia energy infrastructure ceasefire brokered by Trump remains unconfirmed by either side, while Russian forces continue offensive operations in Donetsk and southern directions.",
+  "summary": "Russia launched coordinated multi-axis drone and missile strikes across Ukraine while MiG-31K carriers of Kh-47M2 Kinzhal aeroballistic missiles triggered nationwide alarms. Russian tactical aviation dropped guided aerial bombs on Zaporizhzhia, Dnipropetrovsk, and Donetsk oblasts. Negotiations to halt energy infrastructure strikes continue, but Putin reportedly seeks no agreement before winter.",
   "key_points": [
-    "Russia struck Kyiv with multiple Geran-5 missiles hitting Solomyanka, Shulyavka, Pechersk, and Boryspil districts, with at least one shot down over Boryspil (Source: @mon1tor_ua/74674, @mon1tor_ua/74675, @mon1tor_ua/74651, @mon1tor_ua/74689).",
-    "Shahed drones launched from multiple axes struck targets across Kirovohrad, Cherkasy, Poltava, Kharkiv, Mykolaiv, Zaporizhzhia, and Kherson oblasts on September 15, 2026 (Source: @mon1tor_ua/74682, @mon1tor_ua/74681).",
-    "Ukraine's Verkhovna Rada dismissed Prosecutor General Kravchenko with 317 votes; the PG Office subsequently revoked a suspicion notice against NABU Director Krivonos amid claims of NABU pressure (Source: @ukr_leaks_eng/33254, @ukr_leaks_eng/33262, @UkraineNow/84113).",
-    "Ukraine and Russia reportedly agreed not to strike energy infrastructure, per Trump, though neither Kyiv nor Moscow has officially confirmed the arrangement (Source: @UkraineNow/84098).",
-    "Ukraine struck Russian facilities in Taganrog, Rostov Oblast, including military airfield Taganrog-Centralny, the 325th aviation repair plant, and the Beriev aviation complex (Source: @eRadarrua/113395).",
-    "Russian Southern grouping forces are reportedly breaking through Ukrainian fortifications via ventilation channels, according to a battalion assistant commander from the 242nd Guards Motorized Rifle Regiment (Source: @tass_agency/395482).",
-    "Russia's weapons supply corridor through Poland and Romania is now at risk of disruption, warned former Polish Chief of General Staff Cieniuch, potentially hindering Western arms deliveries (Source: @ukr_leaks_eng/33248).",
-    "A Russian drone struck a gas station in Kyiv's Demeevka district, and a separate attack killed one person and wounded eight in Kyiv (Source: @ukr_leaks_eng/33266, @UkraineNow/84109)."
+    "MiG-31K fighters departed Savasleyka airfield carrying Kh-47M2 Kinzhal aeroballistic missiles, triggering nationwide air alarms and elevating ballistic threat levels for Kyiv and Chernihiv oblasts to medium-high. (Source: @mon1tor_ua/74733, @eRadarrua/113496)",
+    "Multiple waves of rocket drones targeted Kyiv from Bryansk oblast, Black Sea, and Mykolaivshchyna directions, striking Darnytskyi district gas station and Obolon district warehouses, wounding at least one person seriously. (Source: @UkraineNow/84103, @mon1tor_ua/74726)",
+    "Russian tactical aviation launched controlled aerial bombs at Zaporizhzhia, Dnipropetrovsk, and Donetsk oblasts from enemy aircraft. (Source: @kpszsu/78412)",
+    "Ukraine's summer interceptor drone tests against Russian jet-powered drones ended in failure due to control issues and limited interception effectiveness. (Source: @ukr_leaks_eng/33285)",
+    "Russia twice attempted to attack President Zelensky's aircraft in recent weeks, confirmed by Zelensky personally to CBS News. (Source: @eRadarrua/113508)",
+    "Negotiations to stop strikes on energy infrastructure continue but Putin aims to delay any agreement until winter to maintain pressure on Kyiv. (Source: @UkraineNow/84106)",
+    "A Russian drone struck a locomotive at Yagodin railway station in Volyn region, 5 km from the Ukrainian-Polish border. (Source: @ukr_leaks_eng/33268)",
+    "Russian forces hit ferries used by AFU in Chornomorsk port and a tanker in Izmail port, according to Russian Ministry of Defense. (Source: @tass_agency/395514)"
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russia launched a large-scale multi-axis drone and missile assault on September 15, 2026, targeting Kyiv with Geran-5 ballistic missiles and deploying Shahed drones across central, southern, and eastern Ukraine. Simultaneously, Ukraine's political leadership underwent significant upheaval as the Verkhovna Rada dismissed Prosecutor General Kravchenko, triggering a power struggle between the Prosecutor General's Office and NABU. A reported energy infrastructure ceasefire brokered by Trump remains unconfirmed, while Russian forces continue offensive operations on multiple front sectors.",
-    "ukraine": [
-      "Kyiv was struck by multiple Geran-5 missiles targeting Solomyanka, Shulyavka, Pechersk (Nova Zabudova), and Boryspil districts; at least one Shahed over Boryspil was intercepted. A drone also struck a gas station in the Demeevka district, and one person was killed with eight wounded in Kyiv from a separate Russian attack (Source: @mon1tor_ua/74674, @mon1tor_ua/74675, @mon1tor_ua/74651, @mon1tor_ua/74689, @ukr_leaks_eng/33266, @UkraineNow/84109).",
-      "In Vinnytsia, young men in tracksuits mobilized a civilian man in the presence of military enlistment officers, highlighting ongoing issues with mobilization practices (Source: @ukr_leaks_eng/33264).",
-      "Zelensky stated Ukraine is ready to ensure a corresponding absence of strikes if partners secure a genuine commitment from Russia not to strike power grids, energy facilities, critical infrastructure, or food supply routes (Source: @ukr_leaks_eng/33257).",
-      "Ukraine and Russia reportedly agreed not to strike energy infrastructure per Trump, though neither side has officially confirmed this arrangement (Source: @UkraineNow/84098).",
-      "Developments and testing of countermeasures against reactive Shahed drones are underway, with Zelensky stating all processes are being accelerated and financing is secured (Source: @UkraineNow/84097).",
-      "On Volyn, a Russian drone struck a passenger train locomotive, but no casualties were reported (Source: @eRadarrua/113397, @UkraineNow/84109).",
-      "In Odesa, a Russian missile attack on September 13 destroyed the EVA sorting center, which supplied stores in Mykolaiv, Odesa, and Kherson oblasts (Source: @UkraineNow/84101)."
-    ],
-    "russia": [
-      "Ukrainian forces struck Taganrog in Rostov Oblast, targeting military airfield Taganrog-Centralny, the 325th aviation repair plant, and the Taganrog Aviation Scientific-Technical Complex named after G.M. Beriev, where military and transport aircraft are repaired and modernized; fires broke out at the struck objects (Source: @eRadarrua/113395).",
-      "Russia's Southern grouping troops are reportedly breaking through VSU fortifications in pillboxes via ventilation channels, according to Fedya, an assistant battalion commander of the 242nd Guards Motorized Rifle Regiment (Source: @tass_agency/395482).",
-      "Russia's Valdai conference was moved from Sochi to the Moscow region due to the threat of Ukrainian drones; Putin has not visited Sochi since October 2025 and increasingly avoids cities within range of Ukrainian UAVs (Source: @eRadarrua/113398).",
-      "Lavrov stated Russia is ready for negotiations on Ukraine and has never attempted to complicate the process, saying Russia can resume talks if the other side is ready (Source: @tass_agency/395458).",
-      "Russia launched Shahed drones from multiple directions including the Black Sea, Zaporizhzhia, Kharkiv, Mykolaiv, and Kirovohrad oblasts toward targets across central Ukraine on September 15, 2026 (Source: @mon1tor_ua/74682, @mon1tor_ua/74681).",
-      "A Russian frigate in the Baltic Sea fired two signal rockets at a Danish Air Force AS-550 Fennec helicopter conducting a planned flyby and aerial photography of the Russian ship in international waters near Gedser; Denmark condemned the incident and summoned the Russian ambassador (Source: @eRadarrua/113419)."
-    ],
-    "eastern_front": [
-      "Enemy forces advanced near Novyi Shakhov according to the DeepState map update (Source: @DeepStateUA/23833).",
-      "Strike UAVs operated on the west of Donetsk Oblast with a course toward Mnohove on Dnipropetrovsk Oblast (Source: @kpszsu/78336).",
-      "Strike UAVs operated on the west of Kharkiv Oblast with a course toward Poltava Oblast, while a reactive UAV operated from the west of Mykolaiv toward Odesa Oblast (Source: @kpszsu/78346).",
-      "Reactive UAVs launched from the north of Dnipropetrovsk Oblast toward Poltava Oblast in the direction of Kremenchuk (Source: @kpszsu/78344).",
-      "A UAV operated south of Kremenchuk with a southwesterly course (Source: @kpszsu/78320).",
-      "Shahed drones targeted multiple locations in Poltava Oblast including a strike toward Kremenchuk, and one Shahed struck Novoukrainka in Kirovohrad Oblast (Source: @mon1tor_ua/74682)."
-    ],
-    "northern_front": [
-      "A Geran-5 missile was detected flying from Chernihiv Oblast toward Kyiv Oblast, Boryspil district (Source: @mon1tor_ua/74653).",
-      "Two reactive Shaheds were detected heading toward Kyiv/Vyshhorod (Source: @mon1tor_ua/74688).",
-      "Five Shaheds were detected at the border of Kirovohrad and Cherkasy oblasts with a westerly course; three Shaheds from Poltava Oblast targeted Cherkasy Oblast, Zolotonosha district (Source: @mon1tor_ua/74681).",
-      "Two Shaheds from Cherkasy Oblast targeted Kyiv Oblast, Obukhov district (Source: @mon1tor_ua/74681).",
-      "Two Shaheds from Kharkiv Oblast targeted Poltava Oblast, Poltava district (Source: @mon1tor_ua/74681).",
-      "One Shahed from Mykolaiv Oblast targeted Kirovohrad Oblast, Kropyvnytskyi district (Source: @mon1tor_ua/74681).",
-      "Kyiv was expecting a repel of the drone threat, with no further threats to the city reported after the air alert was lifted (Source: @mon1tor_ua/74678, @eRadarrua/113393)."
-    ],
-    "southern_front": [
-      "A reactive Shahed from Zaporizhzhia targeted Kherson Oblast (Source: @mon1tor_ua/74682).",
-      "Two reactive Shaheds from the Black Sea area targeted Mykolaiv Oblast, Mykolaiv district (Source: @mon1tor_ua/74682).",
-      "One Shahed struck Oleksandria in Kirovohrad Oblast (Source: @mon1tor_ua/74682).",
-      "One Shahed struck at the border of Cherkasy and Kirovohrad oblasts with a westerly course (Source: @mon1tor_ua/74682).",
-      "One Shahed from Kirovohrad Oblast targeted Dnipropetrovsk Oblast, Kryvyi Rih district (Source: @mon1tor_ua/74682).",
-      "Ukraine struck the EVA sorting center in Odesa with a Russian missile attack on September 13, destroying a facility that supplied stores across Mykolaiv, Odesa, and Kherson oblasts (Source: @UkraineNow/84101).",
-      "A reactive UAV from the west of Mykolaiv operated toward Odesa Oblast (Source: @kpszsu/78346)."
-    ],
-    "air_war": [
-      "Russia launched Geran-5 ballistic missiles at Kyiv hitting multiple districts: Solomyanka (Shulyavka and Vokzal areas), Pechersk (Nova Zabudova), and Boryspil; at least one Shahed over Boryspil was shot down (Source: @mon1tor_ua/74674, @mon1tor_ua/74675, @mon1tor_ua/74651, @mon1tor_ua/74689).",
-      "Multiple Shahed drones were launched across a wide front: from the Black Sea toward Mykolaiv, from Kharkiv toward Poltava, from Zaporizhzhia toward Kherson, from Cherkasy toward Kyiv and Kirovohrad, and from Poltava toward Cherkasy and Kremenchuk (Source: @mon1tor_ua/74682, @mon1tor_ua/74681).",
-      "The air alert in Kyiv was lifted at 09:57 on September 15, 2026, with the drone threat reduced to a yellow level; Kyiv was subsequently expecting a repel with no further threats reported (Source: @eRadarrua/113393, @mon1tor_ua/74678).",
-      "Drone strikes were recorded across multiple oblasts including Dnipropetrovsk, Kirovohrad, Poltava, Sumy, Kharkiv, Cherkasy, and Chernihiv, with both strike UAVs and reactive UAVs deployed (Source: @eRadarrua/113423).",
-      "Ukraine is developing and testing countermeasures against reactive Shahed drones, with Zelensky confirming financing is secured and all processes are being accelerated (Source: @UkraineNow/84097).",
-      "A drone struck a passenger train locomotive in Volyn Oblast with no casualties reported (Source: @eRadarrua/113397)."
-    ],
+    "executive_summary": "Russia launched coordinated multi-axis drone and missile strikes across Ukraine while MiG-31K carriers of Kh-47M2 Kinzhal aeroballistic missiles triggered nationwide alarms and elevated ballistic threat levels. Russian tactical aviation dropped guided aerial bombs on Zaporizhzhia, Dnipropetrovsk, and Donetsk oblasts. Negotiations to halt energy infrastructure strikes continue, but Putin reportedly seeks no agreement before winter.",
+    "ukraine": {
+      "points": [
+        "Multiple waves of rocket drones and cruise missiles struck targets across Ukraine from multiple directions including Bryansk oblast, Black Sea, Mykolaivshchyna, and Kirovohradshchyna, targeting Kyiv, Chernihiv, Odesa, Mykolaiv, Kropyvnytskyi, and other regions. A rocket drone struck a gas station in Kyiv's Darnytskyi district, injuring one person seriously, while another hit warehouse buildings in Obolon district. (Source: @UkraineNow/84103, @mon1tor_ua/74726, @mon1tor_ua/74728)",
+        "According to the Kyiv International Institute of Sociology, 77% of Ukrainians believe Ukraine should continue resistance even if Russia destroys all energy infrastructure during winter. This reflects strong public resolve despite sustained targeting of power and heating systems. (Source: @ukr_leaks_eng/33283)",
+        "Ukraine officially confirmed 20,000 deported and forcibly displaced Ukrainian children, with Russian businessman Gazprom funding their extraction to Russia. Children undergo identity changes, language imposition, and forced militarization through Yunarmiya programs, constituting systematic erasure of Ukrainian identity. (Source: @UkraineNow/84121)",
+        "Negotiations to cease strikes on energy infrastructure have been ongoing for some time, but Putin does not want to reach an agreement before winter, believing energy attacks can pressure Kyiv into concessions. (Source: @UkraineNow/84106)",
+        "US House Democrats proposed allocating $15 billion in military aid to Kyiv as part of hellish sanctions legislation against Russia, sponsored by Congressmen Meeks, Keating, and Quigley. Germany's Sonderstab Ukraine maintains an €11.5 billion annual weapons supply budget with a 20-person staff. (Source: @ukr_leaks_eng/33263, @ukr_leaks_eng/33267)"
+      ]
+    },
+    "russia": {
+      "points": [
+        "Major General Anton Grunis, who reported Putin about the liberation of Kostyantynivka and was awarded the Gold Star Hero of Russia two weeks prior, was killed in action. His death was reported by Ukrainian media outlet Zemlia sklovata. (Source: @eRadarrua/113512)",
+        "Russia's Ministry of Defense reported that Russian forces hit ferries used by AFU in Chornomorsk port and a tanker in Izmail port. These operations target Ukrainian military logistics and maritime infrastructure in the southwestern theater. (Source: @tass_agency/395514)",
+        "A burned bulk carrier Matros Koshka was found at Novorossiysk port, which Russian occupiers had used to transport stolen Ukrainian grain from temporarily occupied territories. The vessel's superstructure suffered significant destruction and complete burning. (Source: @eRadarrua/113473)",
+        "Russia's embassy in Berlin will fully assume consular functions from September 19 following Germany's decision to close Russia's consulate general in Bonn. This diplomatic shift affects Russian consular services in Germany. (Source: @tass_agency/395552)",
+        "Slovak EU deputy Lubos Blaha sharply accused EU High Representative Kallas of inciting war against Russia in the European Parliament, stating that Russia is not the greatest threat to Europe but rather EU policies driving toward nuclear war. (Source: @tass_agency/395548)"
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Russian tactical aviation launched controlled aerial bombs at Zaporizhzhia oblast, Dnipropetrovsk oblast, and Donetsk oblast from enemy aircraft, representing sustained offensive operations across the eastern and southern axes. (Source: @kpszsu/78412)",
+        "Major General Anton Grunis, who commanded forces involved in the reported liberation of Kostyantynivka in the eastern theater, was killed in action after being decorated with the Gold Star Hero of Russia just two weeks earlier. (Source: @eRadarrua/113512)",
+        "Rocket drones from the Black Sea and Mykolaivshchyna targeted areas along the southern-eastern corridor, with one drone crossing toward the border of Vinnychchyna, Odeshchyna, and Kirovohradshchyna regions, indicating extended operational reach. (Source: @mon1tor_ua/74728)",
+        "A Russian drone struck a locomotive at Yagodin railway station in the Volyn region, 5 km from the Ukrainian-Polish border, disrupting rail logistics in the northern-eastern supply corridor. (Source: @ukr_leaks_eng/33268)"
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Rocket drones from Bryansk oblast targeted Chernihivshchyna, specifically the Chernihiv district, in multiple waves. Two rocket drones from Bryansk were detected heading toward Chernihiv, and additional drones from the Black Sea targeted Mykolaivshchyna simultaneously. (Source: @mon1tor_ua/74726, @mon1tor_ua/74728)",
+        "Rocket drones passed through Slavutych heading toward Kyivshchyna, and another was detected over Boryspil heading toward Kyiv on a western course, indicating multi-directional drone penetration of the northern defense perimeter. (Source: @kpszsu/78408, @kpszsu/78417)",
+        "A rocket drone was detected at the border of Zhytomyr and Kyiv oblasts heading north, and another rocket drone traveled from Borshchahivka toward Shuliavka and Nyvky in Kyiv, demonstrating sustained northern aerial pressure. (Source: @kpszsu/78410, @mon1tor_ua/74713)",
+        "A rocket drone passed Bila Tserkva toward Kyiv and Vasylkiv, and two rocket drones targeted Bila Tserkva directly, representing concentrated northern front aerial activity. (Source: @mon1tor_ua/74724, @mon1tor_ua/74696)",
+        "The ballistic threat to Kyiv and Chernihiv oblasts was elevated to a heightened level for the night of September 16, with a red-level missile threat alert active in Kyiv on September 15 at 20:09. (Source: @eRadarrua/113483, @eRadarrua/113503)"
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Drone strikes from Khersonshchyna targeted Mykolaivshchyna with a course toward Snihurivka, representing continued southern offensive operations using UAV assets deployed from occupied Kherson territories. (Source: @kpszsu/78423)",
+        "A rocket UAV targeted Odeshchyna at Chornomorsk from the Black Sea, and another rocket UAV struck at Berezivka and Raukhivka on Odeshchyna from Mykolaivshchyna heading north, demonstrating multi-axis southern drone operations. (Source: @kpszsu/78394, @kpszsu/78392)",
+        "A rocket UAV was detected at the border of Odeshchyna and Mykolaivshchyna on a northern course, and another targeted Odeshchyna from Mykolaivshchyna, indicating sustained aerial pressure on the southern front. (Source: @kpszsu/78395, @mon1tor_ua/74728)",
+        "Russian forces hit ferries used by AFU in Chornomorsk port and a tanker in Izmail port, according to the Russian Ministry of Defense, targeting Ukrainian southern maritime logistics. (Source: @tass_agency/395514)",
+        "A rocket drone from the Black Sea targeted Chornomorsk in Odeshchyna, and one rocket drone from the Black Sea was detected heading toward Odesa, Chornomorsk, and Zatoka, representing direct southern coastal threats. (Source: @mon1tor_ua/74729, @kpszsu/78394)"
+      ]
+    },
+    "air_war": {
+      "points": [
+        "MiG-31K fighters departed from Savasleyka airfield as carriers of Kh-47M2 Kinzhal aeroballistic missiles, which cannot be intercepted in most regions. This deployment triggered a nationwide air alarm across Ukraine. (Source: @mon1tor_ua/74733, @eRadarrua/113496)",
+        "Ukraine's summer tests of interceptor drones against Russian jet-powered drones ended in failure, revealing control issues and limited interception effectiveness, according to Reuters reporting on trials conducted in July. (Source: @ukr_leaks_eng/33285)",
+        "Russia twice attempted to attack President Zelensky's aircraft in recent weeks, with the President personally confirming the incidents to CBS News, indicating dedicated aerial assassination operations. (Source: @eRadarrua/113508)",
+        "Iran is reportedly preparing to supply Geran-5 drones to Russia, with potential ranges of up to 950 km reaching bases in Qatar, Saudi Arabia, Jordan, and potentially over 950 km to Israeli and British airbases, creating a new regional threat. (Source: @ukr_leaks_eng/33270)",
+        "A rocket drone from the Black Sea targeted Odeshchyna at Chornomorsk, and multiple rocket drones from various directions targeted Ukrainian territory, with the last rocket UAV detected at the border of Kyivshchyna in the Barishivka area. (Source: @kpszsu/78394, @eRadarrua/113514)",
+        "The ballistic threat level for Kyiv remained at medium-high overnight, with a red-level missile threat alert active on September 15, 2026 at 20:09 before being dismissed. (Source: @mon1tor_ua/74727, @eRadarrua/113503)"
+      ]
+    },
     "key_developments": [
-      "Russia launched a mass Shahed and Geran-5 strike on Kyiv and central Ukraine on September 15, hitting Solomyanka, Shulyavka, Pechersk, and Boryspil districts; at least one Shahed was shot down over Boryspil, while Kyiv's air alert was eventually lifted (Source: @mon1tor_ua/74674, @mon1tor_ua/74675, @mon1tor_ua/74651, @mon1tor_ua/74689).",
-      "Ukraine's Verkhovna Rada dismissed Prosecutor General Kravchenko with 317 votes; the PG Office then revoked a suspicion notice against NABU Director Krivonos amid allegations of NABU intermediaries pressuring the Office (Source: @ukr_leaks_eng/33254, @ukr_leaks_eng/33262, @UkraineNow/84113).",
-      "Ukraine and Russia reportedly agreed not to strike energy infrastructure per Trump, though neither side has officially confirmed the arrangement, while Zelensky conditioned Ukraine's restraint on partner guarantees (Source: @UkraineNow/84098, @ukr_leaks_eng/33257).",
-      "Ukrainian forces struck Russian military facilities in Taganrog, Rostov Oblast, including airfield Taganrog-Centralny, the 325th aviation repair plant, and the Beriev aviation complex, causing fires (Source: @eRadarrua/113395).",
-      "Russia's Southern grouping is reportedly breaking through Ukrainian fortifications via ventilation channels, according to a battalion assistant commander from the 242nd Guards Motorized Rifle Regiment (Source: @tass_agency/395482).",
-      "Russia's Valdai conference was relocated from Sochi to the Moscow region due to Ukrainian drone threats; Putin has avoided Sochi since October 2025 (Source: @eRadarrua/113398).",
-      "Former Polish Chief of General Staff Cieniuch warned that the weapons supply corridor through Poland and Romania is now in Russia's crosshairs, potentially hindering Western arms deliveries as winter approaches (Source: @ukr_leaks_eng/33248)."
+      "MiG-31K fighters launched from Savasleyka airfield carrying Kh-47M2 Kinzhal aeroballistic missiles, triggering nationwide alarms. These missiles cannot be intercepted in most regions, significantly escalating the aerial threat to Ukrainian infrastructure and population centers. (Source: @mon1tor_ua/74733)",
+      "Multiple rocket drone waves targeted Kyiv from Bryansk oblast, Black Sea, and Mykolaivshchyna, striking Darnytskyi district gas station and Obolon warehouses, wounding one person seriously. This demonstrates sustained multi-axis aerial pressure on the capital. (Source: @UkraineNow/84103)",
+      "Ukraine's interceptor drone tests against Russian jet drones failed due to control issues, revealing critical gaps in air defense capabilities against modern aerial threats just as MiG-31K deployments intensify. (Source: @ukr_leaks_eng/33285)",
+      "Russia twice attempted to attack Zelensky's aircraft in recent weeks, confirmed by the President to CBS News, indicating dedicated aerial assassination operations against Ukrainian leadership. (Source: @eRadarrua/113508)",
+      "Russian tactical aviation dropped guided aerial bombs on Zaporizhzhia, Dnipropetrovsk, and Donetsk oblasts, representing sustained conventional bombing operations across the eastern and southern fronts. (Source: @kpszsu/78412)",
+      "A Russian drone struck a locomotive at Yagodin railway station in Volyn region, 5 km from the Polish border, disrupting critical rail supply lines. (Source: @ukr_leaks_eng/33268)",
+      "Putin seeks to delay any agreement on energy infrastructure strikes until winter, using sustained attacks as leverage for potential Kyiv concessions while negotiations continue. (Source: @UkraineNow/84106)"
     ],
-    "threat_assessment": "Russia's multi-axis Shahed and Geran-5 strike on September 15 demonstrates sustained capacity to target Ukrainian cities across a wide front, with Kyiv bearing the brunt of ballistic missile attacks while Shaeds saturate central and southern oblasts. The reported energy infrastructure ceasefire, if genuine, could reduce escalation but remains unconfirmed and fragile. Russia's Southern grouping offensive operations through ventilation channels suggest continued efforts to breach Ukrainian defensive lines in the Donetsk direction. The threat to Western weapons supply corridors via Poland and Romania, as warned by former Polish military leadership, could degrade Ukraine's defensive capabilities as winter approaches.",
-    "regional_response": "Denmark condemned a Russian naval incident in the Baltic Sea where a Russian frigate fired signal rockets at a Danish helicopter, summoning the Russian ambassador in protest. Lavrov stated Russia is ready for negotiations but conditioned resumption on the other side's willingness. Zelensky linked Ukraine's potential restraint on strikes to concrete partner commitments regarding energy infrastructure protection. The political upheaval in Ukraine's Prosecutor General's Office, with Kravchenko's dismissal and the NABU-PG power struggle, may affect institutional capacity for wartime governance and anti-corruption enforcement.",
-    "intelligence_notes": "The pattern of Shahed launches from multiple axes including the Black Sea, Zaporizhzhia, Kharkiv, and central oblasts suggests Russia maintains a distributed launch capability that complicates Ukrainian air defense prioritization. The relocation of Russia's Valdai conference from Sochi to Moscow due to Ukrainian drone reach indicates growing operational constraints on Russian leadership mobility. The internal political crisis between the Prosecutor General's Office and NABU, with allegations of intermediary pressure, may signal broader institutional instability that could affect Ukraine's governance during active hostilities. The destruction of the EVA sorting center in Odesa and the attack on the Volyn passenger train demonstrate Russia's continued targeting of civilian logistics infrastructure."
+    "threat_assessment": "Russia is conducting simultaneous multi-axis drone and missile operations across Ukraine while deploying MiG-31K carriers of Kh-47M2 Kinzhal aeroballistic missiles that cannot be intercepted in most regions, elevating ballistic threat levels to medium-high for Kyiv and Chernihiv oblasts. Ukraine's failed interceptor drone tests against Russian jet drones reveal critical air defense gaps precisely as aerial threats intensify. Iran's potential acquisition of Geran-5 drones through Russia could extend threat ranges up to 950+ km against Western bases in the Middle East, creating a significant regional escalation vector. Russia's deliberate targeting of energy infrastructure as winter approaches represents a sustained coercive strategy aimed at breaking Ukrainian resolve.",
+    "regional_response": "Germany's Sonderstab Ukraine maintains an €11.5 billion annual weapons supply budget with a 20-person staff processing Ukraine's weapon requests within two weeks, representing the most structured European military support mechanism. US House Democrats proposed $15 billion in military aid to Kyiv under hellish sanctions legislation. Polish Defense Minister Kosiniak-Kamysz expressed pessimism about Polish public willingness to defend their homeland following a meeting with Italian Defence Minister Crosetto. Slovakia's EU deputy Blaha accused EU High Representative Kallas of inciting war against Russia, arguing EU policies drive toward nuclear confrontation rather than Russian aggression.",
+    "intelligence_notes": "Russian forces have targeted Ukrainian maritime infrastructure at Chornomorsk and Izmail ports while a burned bulk carrier Matros Koshka was discovered at Novorossiysk carrying stolen Ukrainian grain, indicating continued exploitation of occupied territories. Major General Anton Grunis, who reported the liberation of Kostyantynivka, was killed in action just two weeks after receiving the Gold Star Hero of"
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 200,
   "kpszsu_timeline": [
+    6,
     5,
-    2,
-    7,
-    2,
-    8,
     8,
     2,
     6,
-    2,
+    1,
     6,
-    6,
-    2,
+    5,
     3,
-    8,
-    13,
+    3,
+    11,
     10,
-    6,
+    12,
+    4,
     2,
-    3,
-    6,
+    5,
+    4,
     5,
     3,
     1,
-    1
+    1,
+    0,
+    3,
+    3
   ]
 }
