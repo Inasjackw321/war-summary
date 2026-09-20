@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-19T22:47:43.734603+00:00",
-  "message_count": 434,
+  "updated_at": "2026-09-20T00:30:30.456284+00:00",
+  "message_count": 436,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,16 +13,14 @@
   ],
   "red_alerts": 174,
   "red_alerts_timeline": [
-    29,
-    29,
     0,
-    29,
+    44,
     0,
     0,
     0,
     0,
     0,
-    29,
+    44,
     0,
     0,
     0,
@@ -31,65 +29,72 @@
     0,
     0,
     0,
-    29,
+    44,
     0,
     0,
     0,
     0,
-    29
+    44,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    9,
-    8,
-    18,
-    19,
-    11,
-    10,
-    10,
-    25,
-    34,
-    31,
-    17,
     16,
-    26,
-    27,
-    24,
-    20,
     17,
-    15,
-    33,
-    16,
     13,
+    11,
+    11,
+    22,
+    25,
+    37,
+    20,
     15,
-    15,
-    5
+    27,
+    22,
+    29,
+    18,
+    21,
+    11,
+    34,
+    19,
+    12,
+    12,
+    18,
+    7,
+    10,
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 96,
-    "@kpszsu": 126,
+    "@eRadarrua": 99,
+    "@kpszsu": 123,
     "@mon1tor_ua": 61,
     "@UkraineNow": 14,
     "@ukr_leaks_eng": 14,
-    "@tass_agency": 123
+    "@tass_agency": 125
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/114594",
-    "kpszsu": "https://t.me/kpszsu/79084",
+    "eRadarrua": "https://t.me/eRadarrua/114599",
+    "kpszsu": "https://t.me/kpszsu/79093",
     "mon1tor_ua": "https://t.me/mon1tor_ua/75197",
     "UkraineNow": "https://t.me/UkraineNow/84193",
     "DeepStateUA": "https://t.me/DeepStateUA/23844",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33377",
-    "tass_agency": "https://t.me/tass_agency/396264"
+    "tass_agency": "https://t.me/tass_agency/396271"
   },
   "cited_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/114533",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/75192",
-    "UkraineNow": "https://t.me/UkraineNow/84191",
-    "tass_agency": "https://t.me/tass_agency/396225",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33364",
-    "kpszsu": "https://t.me/kpszsu/79041"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/75160",
+    "kpszsu": "https://t.me/kpszsu/79058",
+    "UkraineNow": "https://t.me/UkraineNow/84187",
+    "tass_agency": "https://t.me/tass_agency/396229"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/396270",
+      "post_id": 396270,
+      "channel": "tass_agency",
+      "ts": "2026-09-20T00:05:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/396263",
       "post_id": 396263,
@@ -222,138 +227,119 @@
       "post_id": 396235,
       "channel": "tass_agency",
       "ts": "2026-09-19T17:26:50+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33376",
-      "post_id": 33376,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-09-19T17:20:31+00:00"
     }
   ],
   "post_images": {
     "eRadarrua/114562": "data/media/eRadarrua_114562.jpg",
     "eRadarrua/114561": "data/media/eRadarrua_114562.jpg",
-    "eRadarrua/114538": "data/media/eRadarrua_114538.jpg",
-    "eRadarrua/114537": "data/media/eRadarrua_114538.jpg",
     "eRadarrua/114542": "data/media/eRadarrua_114542.jpg",
-    "eRadarrua/114518": "data/media/eRadarrua_114518.jpg",
-    "eRadarrua/114516": "data/media/eRadarrua_114518.jpg",
-    "eRadarrua/114519": "data/media/eRadarrua_114519.jpg",
     "eRadarrua/114520": "data/media/eRadarrua_114520.jpg",
     "eRadarrua/114521": "data/media/eRadarrua_114520.jpg",
     "eRadarrua/114522": "data/media/eRadarrua_114522.jpg",
     "eRadarrua/114523": "data/media/eRadarrua_114523.jpg",
     "eRadarrua/114524": "data/media/eRadarrua_114524.jpg",
     "eRadarrua/114526": "data/media/eRadarrua_114526.jpg",
-    "eRadarrua/114479": "data/media/eRadarrua_114479.jpg",
-    "eRadarrua/114480": "data/media/eRadarrua_114479.jpg",
+    "eRadarrua/114538": "data/media/eRadarrua_114538.jpg",
+    "eRadarrua/114537": "data/media/eRadarrua_114538.jpg",
+    "eRadarrua/114518": "data/media/eRadarrua_114518.jpg",
+    "eRadarrua/114516": "data/media/eRadarrua_114518.jpg",
+    "eRadarrua/114519": "data/media/eRadarrua_114519.jpg",
     "eRadarrua/114482": "data/media/eRadarrua_114482.jpg",
     "eRadarrua/114483": "data/media/eRadarrua_114482.jpg",
     "eRadarrua/114484": "data/media/eRadarrua_114484.jpg",
     "eRadarrua/114485": "data/media/eRadarrua_114485.jpg",
     "eRadarrua/114490": "data/media/eRadarrua_114490.jpg",
+    "eRadarrua/114491": "data/media/eRadarrua_114491.jpg",
     "kpszsu/78956": "data/media/kpszsu_78956.jpg",
     "kpszsu/78955": "data/media/kpszsu_78956.jpg"
   },
-  "summary": "Russia launched massive coordinated drone and missile strikes across at least 12 Ukrainian oblasts on 19 September 2026, killing at least five civilians near Kyiv and wounding three in Dnipro. Ukraine deployed a new interceptor drone, claiming success against Russian Geran-5 jets, while the US approved a $2.68 billion arms package. Poland joined a ballistic missile defense coalition as Ukraine faces record casualty rates and new Russian jet-powered UAVs.",
+  "summary": "Russia launched a massive overnight combined strike across Ukraine employing ballistic missiles and reactive Shahed drones, killing a mother and two children in Fastiv, Kyiv region, while Ukrainian air defenses engaged targets over at least eight oblasts. Kyiv region endured near-continuous air alerts for 24 hours with nine civilian objects damaged across four districts, including warehouses, production facilities, and an apartment building. President Zelensky unveiled a new interceptor drone system designed specifically to counter reactive Shahed UAVs. (Sources: @eRadarrua/114533, @UkraineNow/84181, @UkraineNow/84187)",
   "key_points": [
-    "Russian strikes killed a mother and two children near Fastiv in Kyiv Oblast and caused a strike on Boyarka, while a separate attack on a Dnipro shopping center wounded three people. (Source: @eRadarrua/114533) (Source: @mon1tor_ua/75192) (Source: @eRadarrua/114516)",
-    "Ukraine successfully deployed a new interceptor drone, with President Zelensky confirming a second successful engagement against a Russian Geran-5 jet-powered drone in a single day. (Source: @UkraineNow/84191) (Source: @UkraineNow/84187)",
-    "The US State Department approved a potential $2.68 billion arms sale to Ukraine including long-range air defense systems, mobile launchers, radars, and spare parts, funded by European partners. (Source: @UkraineNow/84179)",
-    "Russia claimed its forces struck two logistics centers in Odesa Oblast and one in Kharkiv Oblast using Geran-4 SICER combat drones, targeting Ukrainian military storage facilities. (Source: @tass_agency/396225)",
-    "Poland joined a ballistic missile defense coalition with Ukraine and eleven other European states and defense companies, announced by Polish Prime Minister Donald Tusk. (Source: @ukr_leaks_eng/33364)",
-    "Ukrainian monitors reported that approximately 42,000 square meters of underground space has been built at Alabuga for future Shahed drone production facilities. (Source: @UkraineNow/84186)",
-    "Polish Prime Minister Donald Tusk stated Ukrainian casualties have reached approximately 27,000 killed and wounded per month, attributing the rise to Russia's new jet-powered drone strategy and warning of a potentially catastrophic winter. (Source: @ukr_leaks_eng/33371)"
+    "Russian forces struck Fastiv, Kyiv region, killing a mother and two children on 19 September 2026. (Source: @eRadarrua/114533)",
+    "Overnight air alerts included missile threat (red level) and repeated drone threats (yellow level) over Kyiv, with reactive Shaheds targeting Kyiv, Irpin, Vyshhorod, Glevaха, Chabany, and TRC Lavina/Vynohradar. (Sources: @eRadarrua/114565, @eRadarrua/114574, @mon1tor_ua/75160, @mon1tor_ua/75182, @mon1tor_ua/75188, @kpszsu/79058, @kpszsu/79082, @kpszsu/79091)",
+    "Ballistic missile threat detected against Dnipro and Zaporizhzhia, with Iskander-M launch threat from Voronezh region. (Sources: @mon1tor_ua/75179, @mon1tor_ua/75197)",
+    "Reactive Shahed drones launched from multiple directions: Chernihiv region to Kyiv region, Bryansk region to Chernihiv region, Black Sea towards Tatarbunary, and across central Ukraine regions. (Sources: @mon1tor_ua/75181, @kpszsu/79084, @kpszsu/79055, @kpszsu/79060, @kpszsu/79064, @kpszsu/79076)",
+    "Ukrainian air defense engaged targets; Zelensky demonstrated new interceptor drone against reactive Shaheds. (Source: @UkraineNow/84187)",
+    "Russian Ministry of Defense claimed liberation of Zelena Dibrova, Maryevka, and Gulevo. (Source: @tass_agency/396229)",
+    "Nine civilian objects damaged in four Kyiv-region districts during near-continuous air alerts, including warehouses, production facilities, transport, and an apartment building. (Source: @UkraineNow/84181)",
+    "Russian official Rodion Miroshnik accused Ukraine of activating terrorist activity ahead of Russian elections. (Source: @tass_agency/396271)"
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Russia conducted massive multi-axis drone and missile strikes across at least twelve Ukrainian oblasts on 19 September 2026, killing five civilians near Kyiv and wounding three in Dnipro. Ukraine achieved a second successful intercept of a Russian Geran-5 jet-powered drone with a new counter-system, while the US approved a $2.68 billion arms package. Poland joined a ballistic missile defense coalition as Ukraine reports record monthly casualty figures of approximately 27,000.",
-    "ukraine": [
-      "Ukrainian forces successfully intercepted a Russian Geran-5 jet-powered drone using a newly developed Ukrainian interceptor system, with President Zelensky confirming the second successful deployment of this counter-drone technology in a single day on 19 September 2026. This represents a significant indigenous defense capability against Russia's increasingly sophisticated UAV fleet. (Source: @UkraineNow/84191) (Source: @UkraineNow/84187)",
-      "The US State Department approved a potential $2.68 billion arms sale to Ukraine encompassing long-range air defense systems, mobile launcher platforms, radar systems, spare parts, software, and technical support. Funding will come from European partner nations, underscoring continued Western military commitment despite reported supply chain delays of up to five years. (Source: @UkraineNow/84179)",
-      "Ukraine returned fifteen Ukrainian civilians from Russian occupation, including a 96-year-old woman, her daughter, and son-in-law from the occupied village of Zaliznyi Port in Kherson Oblast. The youngest returnee was 49 years old, as reported by Ombudsman Lubinets. (Source: @UkraineNow/84188)",
-      "Ukrainian monitors reported that approximately 42,000 square meters of underground space has already been constructed at the Alabuga facility for future Shahed drone production capacity, indicating a significant expansion of Russian drone manufacturing infrastructure buried underground to protect against strikes. (Source: @UkraineNow/84186)",
-      "Polish Prime Minister Donald Tusk stated that Ukrainian casualties have reached approximately 27,000 killed and wounded per month, attributing the surge to Russia's new strategy employing jet-powered drones. Tusk warned that the winter in Ukraine could prove catastrophic given these record figures. (Source: @ukr_leaks_eng/33371)",
-      "The US warned allies about potential delays in weapons deliveries lasting up to five years as the United States replenishes its own depleted military stockpiles, according to Bloomberg reporting cited by UkraineNow. This creates a critical gap in sustained support timelines. (Source: @UkraineNow/84189)",
-      "Ukraine's State Department disclosure of the $2.68 billion arms package, combined with Poland's ballistic missile defense coalition joining, signals a dual-track approach of immediate procurement and long-term collective defense architecture building against Russian aerial threats. (Source: @UkraineNow/84179) (Source: @ukr_leaks_eng/33364)"
-    ],
-    "russia": [
-      "Russian Ministry of Defense claimed that Russian forces struck two logistics centers in Odesa Oblast and one logistics center in Kharkiv Oblast using Geran-4 SICER combat drones, targeting facilities used for storing Ukrainian military equipment and property. (Source: @tass_agency/396225)",
-      "Russian Ministry of Defense reported that Russian air defense systems shot down 288 Ukrainian drones across Russian regions during a single day, indicating a sustained high-tempo Ukrainian drone campaign targeting Russian territory. (Source: @tass_agency/396244)",
-      "Russian Ministry of Defense claimed Russian forces destroyed a fuel tanker delivering fuel for the Ukrainian Armed Forces at the port of Chernomorsk, as reported by the Russian MOD, targeting critical maritime supply infrastructure. (Source: @tass_agency/396224)",
-      "Russian forces are deploying newly manufactured jet-powered UAVs of recent assembly-line origin, according to Ukrainian advisor Sergey Flash Beskrestnov, who displayed photographs of downed drone components bearing recent manufacture dates, indicating accelerated Russian drone production. (Source: @ukr_leaks_eng/33377)",
-      "Russian authorities reported a 44.38% voter turnout by end of the second day of State Duma elections, with over 5.8 million votes cast electronically, a record for Russian elections, though these elections are not directly related to frontline operations. (Source: @tass_agency/396247)",
-      "Russian President Putin congratulated Kambolov on his election as president of South Ossetia, reflecting continued Russian political influence-building in occupied Georgian territories, which remains relevant to the broader conflict context. (Source: @tass_agency/396229)",
-      "Russian forces reportedly maintained sustained aerial pressure across multiple Ukrainian oblasts on 19 September 2026, with drone and missile launches from multiple directions including the Black Sea, Bryansk, and internal Russian territory, as tracked by Ukrainian monitoring channels."
-    ],
-    "eastern_front": [
-      "Russian ballistic missile activity was detected over Dnipro in Dnipropetrovsk Oblast, with a Banderol cruise missile tracked heading toward the city, as reported by Kyiv Monitor 1 tracking channels monitoring ballistic threats. (Source: @mon1tor_ua/75156)",
-      "A Russian strike on a shopping center in Dnipro caused a fire and wounded three people, as confirmed by the Dnipropetrovsk Regional Administration head Mykola Lukashuk, with information on casualties still being compiled at the time of reporting. (Source: @eRadarrua/114516) (Source: @UkraineNow/84190)",
-      "Russian drone activity was reported near the border of Dnipropetrovsk and Poltava Oblasts heading toward the village of Bilyky, with reactive drones tracked in the area, indicating cross-oblast aerial incursions. (Source: @kpszsu/79041)",
-      "Russian drone threats were reported in the Kharkiv direction with high-speed targets moving northeast on a southern course, as tracked by Ukrainian monitoring channels, suggesting potential offensive operations toward the northeastern front. (Source: @kpszsu/79074)",
-      "Reactive drones were tracked over Poltava Oblast near the village of Chornukhy, and additional drone activity was reported near Novi Sanzhary in Poltava Oblast on a northwestern course, indicating sustained eastern aerial pressure. (Source: @eRadarrua/114483) (Source: @kpszsu/79060)",
-      "A ballistic missile alert was issued for the Zaporizhzhia and Dnipro areas, with ballistic tracking channels reporting missile activity in the Zaporizhzhia direction, though specific impact details were not immediately available. (Source: @mon1tor_ua/75178) (Source: @mon1tor_ua/75179)",
-      "Russian Geran-4 SICER combat drones were claimed to have struck logistics centers in Kharkiv Oblast by Russian sources, targeting Ukrainian military storage facilities, though independent verification of strike outcomes was not available from the messages. (Source: @tass_agency/396225)"
-    ],
-    "northern_front": [
-      "A Russian Shahed drone struck the Fastiv district in Kyiv Oblast, killing a mother and her two young children, a girl and a boy, as reported by Ukrainian emergency services and the eRadarrua monitoring channel. (Source: @eRadarrua/114533) (Source: @mon1tor_ua/75192)",
-      "Kyiv city and surrounding areas including Irpin were targeted by Shahed drones, with one tracked from the Glevakh direction, triggering sustained air defense responses throughout the day on 19 September 2026. (Source: @mon1tor_ua/75182) (Source: @mon1tor_ua/75159)",
-      "A pack of four Shahed drones was tracked over Chernihiv Oblast heading toward the Vyshhorod district of Kyiv Oblast, indicating coordinated multi-drone northern attack packages targeting the Kyiv metropolitan area. (Source: @mon1tor_ua/75183)",
-      "Ukrainian emergency services reported that Russian attacks on Kyiv Oblast damaged nine civilian objects across four districts, including five warehouses, industrial and garage facilities, transport infrastructure, and a residential apartment building, with air alarms active nearly continuously throughout the day. (Source: @UkraineNow/84181)",
-      "A Russian strike damaged a MasterZoo pet market warehouse in Kyiv Oblast, destroying goods under multiple international pet food and supply brands including Royal Canin, Whiskas, and Brit, though no casualties were reported. (Source: @UkraineNow/84184)",
-      "Drone activity was tracked near the Chernobyl exclusion zone heading west, and additional drones were reported near Vasylkiv in Kyiv Oblast, indicating northern aerial incursions approaching the capital from multiple vectors. (Source: @kpszsu/79075) (Source: @eRadarrua/114506)",
-      "Russian drone movements were tracked over Zhytomyr Oblast heading toward Ovruch and Korosten, and a Shahed drone was tracked from Zhytomyr Oblast toward Rivne Oblast in the Sarnensky district, indicating northwestern front activity extending into western Ukraine. (Source: @eRadarrua/114508) (Source: @mon1tor_ua/75191)"
-    ],
-    "southern_front": [
-      "A reactive drone was tracked over Odesa heading toward the Ovidiopol direction from the Black Sea coastline, triggering air defense alerts and indicating sustained southern maritime drone threat from Black Sea operations. (Source: @kpszsu/79061)",
-      "Reactive drones were tracked heading toward Mykolaiv Oblast from the Black Sea, indicating continued southern maritime aerial attacks targeting Ukrainian infrastructure and defense positions along the coastline. (Source: @kpszsu/79042)",
-      "Reactive drones were reported in the Kirovohrad Oblast area near Dolynska heading toward Kropyvnytskyi, and another drone was tracked from the south toward Dolynska in Kirovohrad Oblast, indicating sustained southern aerial activity. (Source: @kpszsu/79071) (Source: @eRadarrua/114554)",
-      "A Shahed drone was tracked over Kropyvnytskyi in Kirovohrad Oblast heading from the east, and another was tracked in the southern Cherkasy Oblast area toward Tsvitkove on a northern course, indicating central-southern front drone activity. (Source: @kpszsu/79046) (Source: @kpszsu/79070)",
-      "A Shahed drone was tracked over Semenivka in Poltava Oblast from the east, and another drone was tracked near the Dnipro city area heading northwest from Yuriyivka, indicating central front aerial activity. (Source: @kpszsu/79064) (Source: @kpszsu/79039)",
-      "A Shahed drone was tracked over Chernihiv Oblast near Slavutych heading toward Kyiv Oblast, and another drone was tracked near Nosivka in Chernihiv Oblast, indicating sustained northern aerial pressure from the Chernihiv sector. (Source: @eRadarrua/114494) (Source: @eRadarrua/114483)",
-      "Russian forces claimed to have struck logistics centers in Odesa Oblast using Geran-4 SICER combat drones, targeting Ukrainian military storage facilities, as reported by the Russian Ministry of Defense via TASS. (Source: @tass_agency/396225)"
-    ],
-    "air_war": [
-      "On 19 September 2026, Ukrainian air defense tracked Shahed drones targeting Kyiv, Irpin, and the Glevakh direction simultaneously, with multiple Shahed drones also tracked from Zhytomyr Oblast toward Rivne Oblast in the Sarnensky district, indicating a coordinated multi-vector aerial assault. (Source: @mon1tor_ua/75182) (Source: @mon1tor_ua/75159) (Source: @mon1tor_ua/75191)",
-      "Reactive drones were tracked across at least eight Ukrainian oblasts simultaneously on 19 September 2026, including Dnipropetrovsk, Poltava, Kirovohrad, Mykolaiv, Chernihiv, Kyiv, Zhytomyr, and Cherkasy Oblasts, demonstrating the breadth of Russia's aerial campaign. (Source: @eRadarrua/114554) (Source: @eRadarrua/114520) (Source: @eRadarrua/114490)",
-      "Ukraine successfully deployed a new interceptor drone system against Russian Geran-5 jet-powered UAVs, achieving a second successful engagement in a single day, as confirmed by President Zelensky, marking an indigenous counter-UAV breakthrough. (Source: @UkraineNow/84191) (Source: @UkraineNow/84187)",
-      "Russia is deploying jet-powered UAVs of very recent assembly-line manufacture in Ukraine, according to Ukrainian advisor Sergey Flash Beskrestnov, who published photographs of downed drone components with recent production dates, indicating accelerated Russian UAV production cycles. (Source: @ukr_leaks_eng/33377)",
-      "Russian Ministry of Defense claimed Russian air defense shot down 288 Ukrainian drones over Russian regions in a single day, while Ukrainian channels tracked incoming Shahed drones targeting multiple Ukrainian cities and oblasts simultaneously. (Source: @tass_agency/396244)",
-      "A ballistic missile alert was issued for the Dnipro and Zaporizhzhia areas, and a Banderol cruise missile was tracked over Dnipro, while ballistic threats were also tracked from Chernihiv Oblast toward Kyiv's Vyshhorod district, indicating mixed ballistic and drone threats. (Source: @mon1tor_ua/75178) (Source: @mon1tor_ua/75177) (Source: @mon1tor_ua/75181)",
-      "Drone activity was tracked from the Black Sea coastline targeting Odesa toward Ovidiopol and Mykolaiv Oblast, while a drone was tracked near the Chernobyl exclusion zone heading west, indicating both maritime and northern aerial vectors being employed simultaneously. (Source: @kpszsu/79061) (Source: @kpszsu/79042) (Source: @kpszsu/79075)"
-    ],
-    "threat_assessment": "Russia is conducting sustained multi-axis aerial attacks across at least twelve Ukrainian oblasts simultaneously, combining Shahed drones, ballistic missiles including Banderol cruise missiles, and newly deployed jet-powered UAVs of recent manufacture. The use of recently assembled jet-powered drones represents a qualitative escalation in Russian aerial capability, while civilian infrastructure targeting in Kyiv, Dnipro, and Kherson oblasts indicates deliberate terror tactics. Ukraine's new interceptor drone capability offers a potential counterbalance, but Polish Prime Minister Tusk's reported assessment of 27,000 monthly Ukrainian casualties suggests the conflict intensity is reaching critical thresholds.",
-    "regional_response": "Poland has joined a ballistic missile defense coalition alongside Ukraine with eleven other European states and defense companies, announced by Prime Minister Donald Tusk, representing a significant collective defense initiative. The US State Department approved a $2.68 billion arms package to Ukraine including long-range air defense systems, though the US has warned allies of potential supply delays up to five years due to domestic stockpile replenishment. Latvia's President Rinkēvičs warned that Europe has fallen behind in air defense capabilities and faces shared vulnerabilities against modern drone and missile threats.",
-    "intelligence_notes": "Russian drone manufacturing is expanding rapidly, with approximately 42,000 square meters of underground production space constructed at Alabuga for Shahed drone manufacturing, while components from downed drones show recent assembly dates indicating accelerated production cycles. The deployment of jet-powered UAVs of recent manufacture suggests Russia has overcome prior technical barriers in UAV propulsion. Ukraine's successful indigenous interceptor drone program, confirmed by Zelensky with multiple Geran-5 engagements in a single day, represents a significant asymmetric counter-capability that may alter the aerial attrition dynamic."
+    "executive_summary": "Russia launched a massive overnight combined strike across Ukraine employing ballistic missiles and reactive Shahed drones, killing a mother and two children in Fastiv, Kyiv region, while Ukrainian air defenses engaged targets over at least eight oblasts. Kyiv region endured near-continuous air alerts for 24 hours with nine civilian objects damaged across four districts, including warehouses, production facilities, and an apartment building. President Zelensky unveiled a new interceptor drone system designed specifically to counter reactive Shahed UAVs.",
+    "ukraine": {
+      "points": [
+        "Ukrainian air defenses actively engaged reactive Shahed drones over Kyiv, Irpin, Vyshhorod, and central Kyiv districts throughout the night, with monitoring channels reporting multiple intercepts near TRC Lavina/Vynohradar and Bucha. (Sources: @mon1tor_ua/75188, @kpszsu/79082, @kpszsu/79053)",
+        "President Zelensky publicly demonstrated a new interceptor drone system designed specifically to counter reactive Shahed-type UAVs, signaling accelerated development of dedicated counter-drone capabilities. (Source: @UkraineNow/84187)",
+        "Kyiv regional authorities confirmed nine civilian infrastructure objects damaged across four districts due to Russian attacks, including five warehouses, production and garage facilities, vehicles, and a residential apartment building, with air alerts persisting nearly continuously for 24 hours. (Source: @UkraineNow/84181)",
+        "Monitoring channels tracked reactive Shahed drones entering Ukrainian airspace from northern, eastern, and southern vectors, with specific sightings over Chernihiv, Poltava, Kirovohrad, and Mykolaiv regions, indicating broad front coverage. (Sources: @mon1tor_ua/75181, @kpszsu/79055, @kpszsu/79060, @kpszsu/79064, @kpszsu/79076)"
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian forces conducted a large-scale combined overnight strike employing both ballistic missiles (Iskander-M threat from Voronezh region) and reactive Shahed drones launched from multiple axes including Bryansk region, Chernihiv region, and the Black Sea. (Sources: @mon1tor_ua/75179, @mon1tor_ua/75197, @mon1tor_ua/75181, @kpszsu/79084)",
+        "A Russian strike on Fastiv, Kyiv region, on 19 September 2026 killed three civilians — a mother and two children — according to Ukrainian monitoring channels, highlighting continued targeting of populated areas. (Source: @eRadarrua/114533)",
+        "The Russian Ministry of Defense claimed its forces liberated the settlements of Zelena Dibrova, Maryevka, and Gulevo, though no specific front or date was provided in the statement. (Source: @tass_agency/396229)",
+        "Russian official Rodion Miroshnik alleged that Ukraine intensified \"terrorist activity\" ahead of Russia's State Duma elections, framing Ukrainian strikes as politically timed provocations. (Source: @tass_agency/396271)"
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "Ballistic missile threat reported against Dnipro and Zaporizhzhia cities, with monitoring channels issuing specific alerts for Iskander-M launches from Voronezh region targeting the eastern industrial heartland. (Sources: @mon1tor_ua/75179, @mon1tor_ua/75197)",
+        "Reactive Shahed drones detected over Dnipropetrovsk and Kirovohrad regions, with groups tracked near Oleksandrivka past Dolynska and near Novyi Sanzhary, Poltava region, moving northwest. (Sources: @eRadarrua/114524, @kpszsu/79060)",
+        "Multiple reactive UAVs observed in Poltava region: near Novyi Sanzhary heading northwest, and towards Semenivka from the east, suggesting coordinated penetration of central-eastern airspace. (Sources: @kpszsu/79060, @kpszsu/79064)",
+        "Reactive UAV flew past Kropyvnytskyi towards Znamianka in Kirovohrad region, indicating continued pressure on central Ukrainian logistics and infrastructure. (Source: @kpszsu/79076)"
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Reactive Shahed drone launched from Bryansk region (Russia) entered Chernihiv region, Chernihiv district, while another from Chernihiv region crossed into Kyiv region, Vyshhorod district, demonstrating cross-border northern axis activity. (Source: @mon1tor_ua/75181)",
+        "Reactive UAV transited through Chornobyl exclusion zone towards Zhytomyr region, and another approached Kyiv from north targeting Vyshhorod/Kyiv area, per monitoring reports. (Sources: @kpszsu/79055, @kpszsu/79053)",
+        "Kyiv region experienced near-continuous air alerts for 24 hours with missile (red) and drone (yellow) threats, including reactive Shaheds targeting Glevaха, Chabany, Bucha, and central Kyiv districts. (Sources: @eRadarrua/114565, @eRadarrua/114574, @kpszsu/79058, @kpszsu/79082, @kpszsu/79091)",
+        "Monitoring channel assessed ballistic threat to capital remains at medium-high level overnight, warning of potential massive combined strike. (Source: @mon1tor_ua/75194)"
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Strike UAVs directed towards Tatarbunary from the Black Sea, indicating continued Russian use of naval launch platforms for southern Ukraine targets. (Source: @kpszsu/79084)",
+        "Reactive Shahed drone circling on the border of Mykolaiv and Odesa regions, with another reactive UAV on course to Voznesensk in Mykolaiv region. (Sources: @mon1tor_ua/75181, @kpszsu/79066)",
+        "Two reactive UAVs detected on Chernihiv region near Slavutych, moving southward, potentially linking northern and central axes. (Source: @eRadarrua/114554)"
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Kyiv experienced multiple air alert cycles: missile threat (red level) at 00:12, cancelled at 00:24; drone threat (yellow level) at 00:45, 02:14, with final cancellation at 03:06 on 20 September 2026. (Sources: @eRadarrua/114565, @eRadarrua/114569, @eRadarrua/114574, @eRadarrua/114596, @eRadarrua/114597, @eRadarrua/114599)",
+        "Reactive"
+      ]
+    }
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 174,
   "kpszsu_timeline": [
-    7,
-    1,
-    11,
-    9,
-    5,
-    1,
-    6,
     10,
     7,
-    1,
-    2,
+    5,
     4,
     5,
+    7,
+    9,
+    2,
+    1,
+    5,
+    5,
+    6,
     9,
     6,
-    7,
-    4,
     5,
+    3,
     8,
-    6,
+    8,
     2,
-    6,
+    3,
+    5,
     2,
-    2
+    3,
+    3
   ]
 }
