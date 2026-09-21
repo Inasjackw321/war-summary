@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-21T04:18:06.265353+00:00",
-  "message_count": 448,
+  "updated_at": "2026-09-21T05:23:40.583611+00:00",
+  "message_count": 445,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,7 +11,7 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 138,
+  "red_alerts": 172,
   "red_alerts_timeline": [
     0,
     0,
@@ -26,61 +26,61 @@
     0,
     0,
     0,
+    25,
     0,
-    20,
-    0,
-    39,
+    49,
     0,
     0,
-    39,
-    39,
+    49,
+    49,
+    0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
+    15,
+    24,
+    21,
+    18,
     19,
     14,
-    27,
-    19,
-    17,
-    21,
-    13,
-    17,
-    21,
-    24,
-    27,
-    26,
-    38,
-    29,
-    28,
+    18,
     16,
+    27,
+    27,
+    27,
+    38,
+    28,
+    28,
+    14,
     19,
     8,
-    7,
+    5,
     12,
     17,
-    6,
+    7,
+    12,
     11,
-    12
+    16
   ],
   "messages_by_channel": {
-    "@eRadarrua": 61,
+    "@eRadarrua": 62,
     "@kpszsu": 95,
-    "@mon1tor_ua": 102,
-    "@UkraineNow": 11,
+    "@mon1tor_ua": 94,
+    "@UkraineNow": 12,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 9,
-    "@tass_agency": 169
+    "@ukr_leaks_eng": 10,
+    "@tass_agency": 171
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/114983",
-    "kpszsu": "https://t.me/kpszsu/79264",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/75344",
-    "UkraineNow": "https://t.me/UkraineNow/84207",
+    "eRadarrua": "https://t.me/eRadarrua/114987",
+    "kpszsu": "https://t.me/kpszsu/79269",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/75345",
+    "UkraineNow": "https://t.me/UkraineNow/84209",
     "DeepStateUA": "https://t.me/DeepStateUA/23845",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33387",
-    "tass_agency": "https://t.me/tass_agency/396511"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33388",
+    "tass_agency": "https://t.me/tass_agency/396519"
   },
   "cited_post_urls": {
     "mon1tor_ua": "https://t.me/mon1tor_ua/75308",
@@ -92,6 +92,38 @@
     "DeepStateUA": "https://t.me/DeepStateUA/23845"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/84209",
+      "post_id": 84209,
+      "channel": "UkraineNow",
+      "ts": "2026-09-21T05:12:20+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33388",
+      "post_id": 33388,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-09-21T05:05:13+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/79268",
+      "post_id": 79268,
+      "channel": "kpszsu",
+      "ts": "2026-09-21T05:00:23+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/IfAfoocPYImo4zyVLUZKYmm9cl_uHbvbFjzQcJmUYU_7SD0wtyJ-JAt6Nyz9yfPVwQcpqKuckcMW_20HNqj8wLPPDsuOdyhhAyeX07Ng-pLLN93z_HvQf1fH5M8ouwemxenBY6azjw8CJYO2dFX7CTusfvI09il2o7CLTPZkAQpyTD7RpQ9LqHNIlrMUoRP9I1sDJUSL2b6AlG-3b2tJGKNxD9Bvwts9-YWaS4NEMsEdUKIQWsLHUovfnVb4uKcV17lggO77R4Z6n-SbkKndZ5HogiP4LiBy5ONgQhYQoXPEBbJq8e2rjP4ZBgvQiAqeXo3eQ1Uj1up2pVapAMoKhA.jpg",
+      "companion_text_id": 79269
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396515",
+      "post_id": 396515,
+      "channel": "tass_agency",
+      "ts": "2026-09-21T04:59:04+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396514",
+      "post_id": 396514,
+      "channel": "tass_agency",
+      "ts": "2026-09-21T04:47:25+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/396511",
       "post_id": 396511,
@@ -143,22 +175,34 @@
       "ts": "2026-09-20T20:50:29+00:00"
     },
     {
-      "post_url": "https://t.me/tass_agency/396478",
-      "post_id": 396478,
-      "channel": "tass_agency",
-      "ts": "2026-09-20T20:31:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/396477",
-      "post_id": 396477,
-      "channel": "tass_agency",
-      "ts": "2026-09-20T20:24:04+00:00"
-    },
-    {
       "post_url": "https://t.me/tass_agency/396473",
       "post_id": 396473,
       "channel": "tass_agency",
       "ts": "2026-09-20T20:01:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396471",
+      "post_id": 396471,
+      "channel": "tass_agency",
+      "ts": "2026-09-20T19:44:53+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396469",
+      "post_id": 396469,
+      "channel": "tass_agency",
+      "ts": "2026-09-20T19:37:51+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396465",
+      "post_id": 396465,
+      "channel": "tass_agency",
+      "ts": "2026-09-20T19:22:48+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396464",
+      "post_id": 396464,
+      "channel": "tass_agency",
+      "ts": "2026-09-20T19:18:34+00:00"
     },
     {
       "post_url": "https://t.me/tass_agency/396463",
@@ -171,51 +215,6 @@
       "post_id": 396462,
       "channel": "tass_agency",
       "ts": "2026-09-20T19:06:38+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/114908",
-      "post_id": 114908,
-      "channel": "eRadarrua",
-      "ts": "2026-09-20T19:05:02+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/YjpKnbV63VJLv2QauV43xuzo_xIy05Q9HmhLGbiN33ML5nZrmDD-uo6jCLVk-UFTUjUPvdsffA0eopDA2EkD1gQDtx1BL8f8xy14QOf9wZWZuM_OGdAc9SVJPSCbyy3vGA-_YJQ0TDnqLXDY1oX0Jq4zORPiQAqpBCWocszzjOVGCgvCUTcz-60oRtGFPf3bujKnQr64zCuuKRH4c4kZafHUZbBXcNXWR3u5qMqUGwHCMbeWrw9LhBdf9toIvb0xistl8D183T43ZLuaea39uQVIM8fK-knR5epjUtaCq8vN_Q4MxFk93fyD9o-xlnUnhjzkEdXrG9iYADck2LDsMA.jpg"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/396461",
-      "post_id": 396461,
-      "channel": "tass_agency",
-      "ts": "2026-09-20T19:04:46+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/396459",
-      "post_id": 396459,
-      "channel": "tass_agency",
-      "ts": "2026-09-20T19:01:34+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/396457",
-      "post_id": 396457,
-      "channel": "tass_agency",
-      "ts": "2026-09-20T18:58:46+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/114900",
-      "post_id": 114900,
-      "channel": "eRadarrua",
-      "ts": "2026-09-20T18:56:14+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/I2tDsrdGJ40ob2BXf54mk4koPOMgYw801I1osdABTJMJn0fZtyoOhxqebiZAgmyap20w37dal0nybdF6bXkj9g3_-O413ASODcwSTavqZ8G-cqL2eFBMT-tlv9yCfcHS41JpWiNeJQy-XuyygFSFhkDeZjZkbj2StwNIcVEJdDC4N5YVkJo37LMph-F-KHxBSDBqirtVwXA-90rM8gLOcmYsXBOFFMn2esPSBM4NKFSfJD7fAdfzgt_PRcC7J9V9DaZWzf6w6BIv7ikurXI6umy4wihfjmYleaHTcuatkOArtSAkP7ludKGcdqyqcIWgrhoTXH8vsi5YmkRP6ZANRQ.jpg"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/396455",
-      "post_id": 396455,
-      "channel": "tass_agency",
-      "ts": "2026-09-20T18:49:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/114894",
-      "post_id": 114894,
-      "channel": "eRadarrua",
-      "ts": "2026-09-20T18:48:21+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/hwzk__zFHXiRFkjbZcR971-9cUkO9hFDgiiAN6uiKubWp9sZ0cZz_MevKkg2etai2XxT5Ls5TyTbX8lqLVuCYb6ritiAom1AHPD_O97DIEcTNcWnl1_FfU2rVEteOWwKo8m1U0LmlxJqEK-qnrv-HAWOw8VGB0CvfCHuAeKncAmruNVLb1-EkJvwBcgKIOQcwquIDAVrLbNoxoX5VB4a78Uo068mh-3Xp9BTta28Aepqqu5_59ttzERDD5v2X3oLtVqoQtJLRMwLeunPZ9eykuCltMyCCFu8cD7KlDsVWqLmNYphTyA9G1Lvl1ud4LpyZWFd0GtvztNeR_z0N4otOg.jpg"
     }
   ],
   "post_images": {
@@ -224,16 +223,16 @@
     "eRadarrua/114908": "data/media/eRadarrua_114908.jpg",
     "eRadarrua/114894": "data/media/eRadarrua_114894.jpg",
     "eRadarrua/114900": "data/media/eRadarrua_114900.jpg",
-    "eRadarrua/114867": "data/media/eRadarrua_114867.jpg",
-    "eRadarrua/114866": "data/media/eRadarrua_114867.jpg",
-    "eRadarrua/114847": "data/media/eRadarrua_114847.jpg",
-    "eRadarrua/114849": "data/media/eRadarrua_114847.jpg",
     "eRadarrua/114850": "data/media/eRadarrua_114850.jpg",
+    "eRadarrua/114849": "data/media/eRadarrua_114850.jpg",
     "eRadarrua/114855": "data/media/eRadarrua_114855.jpg",
     "eRadarrua/114856": "data/media/eRadarrua_114855.jpg",
+    "eRadarrua/114867": "data/media/eRadarrua_114867.jpg",
+    "eRadarrua/114866": "data/media/eRadarrua_114867.jpg",
     "eRadarrua/114832": "data/media/eRadarrua_114832.jpg",
     "eRadarrua/114831": "data/media/eRadarrua_114832.jpg",
     "eRadarrua/114839": "data/media/eRadarrua_114839.jpg",
+    "eRadarrua/114847": "data/media/eRadarrua_114847.jpg",
     "eRadarrua/114813": "data/media/eRadarrua_114813.jpg",
     "eRadarrua/114812": "data/media/eRadarrua_114813.jpg",
     "eRadarrua/114817": "data/media/eRadarrua_114817.jpg",
@@ -242,8 +241,8 @@
     "eRadarrua/114787": "data/media/eRadarrua_114788.jpg",
     "eRadarrua/114795": "data/media/eRadarrua_114795.jpg",
     "eRadarrua/114794": "data/media/eRadarrua_114795.jpg",
-    "kpszsu/79128": "data/media/kpszsu_79128.jpg",
-    "kpszsu/79127": "data/media/kpszsu_79128.jpg"
+    "kpszsu/79268": "data/media/kpszsu_79268.jpg",
+    "kpszsu/79269": "data/media/kpszsu_79268.jpg"
   },
   "summary": "A massive wave of Russian drone and missile strikes hit Kyiv and multiple Ukrainian oblasts on September 21, 2026, targeting residential areas with Shahed drones and Geran-5 missiles. Ukrainian forces reported liberating two settlements in Donetsk as part of Operation Vivaldi, expanding liberated territory to 43.5 km². The Russian Ministry of Defense announced intensified strikes on Kyiv military objects in retaliation for Ukrainian attacks on Russian civilian infrastructure.",
   "key_points": [
@@ -329,32 +328,33 @@
     "regional_response": "Ukrainian air defense systems across multiple oblasts engaged incoming drones and missiles, with confirmed interceptions near Borshchahivka and in the Kyiv area. Ukrainian Railways reported delays of up to 14 hours nationwide due to attack disruptions. The Ukrainian military's simultaneous liberation of settlements in Donetsk under Operation Vivaldi indicates that Ukrainian offensive operations continue despite the heavy aerial bombardment. The AFU's attempted Flamingo missile and UAV attack on Russian election infrastructure represents a significant escalation in targeting Russian domestic political processes.",
     "intelligence_notes": "The coordinated nature of the September 21 attacks, spanning at least ten oblasts with multiple drone types (Shaheds, reactive UAVs, regular UAVs) and guided bombs, suggests a centralized Russian operational command directing simultaneous strikes across multiple axes. The Russian MoD's claim of destroying Ukrainian personnel at Krasnooskolske reservoir via UAVs, combined with the reported Flamingo missile attack on election infrastructure, indicates a dual-track strategy of battlefield attrition and political disruption. The winter assessment regarding potential Russian infantry entry into Zaporozhye should be monitored as a possible indicator of forthcoming ground operations."
   },
+  "stale_summary": true,
   "missiles": 0,
-  "drones": 138,
+  "drones": 172,
   "kpszsu_timeline": [
-    3,
-    4,
-    7,
-    3,
-    7,
     5,
-    4,
-    2,
-    3,
+    5,
     4,
     6,
     5,
     4,
-    2,
+    3,
     1,
-    2,
+    6,
+    6,
     4,
+    3,
+    2,
     1,
+    2,
+    3,
+    3,
+    3,
+    6,
     5,
+    3,
     6,
-    6,
-    1,
-    7,
-    3
+    3,
+    4
   ]
 }
