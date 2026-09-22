@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-09-22T04:23:45.054675+00:00",
-  "message_count": 544,
+  "updated_at": "2026-09-22T05:29:14.351535+00:00",
+  "message_count": 538,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,7 +11,7 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 172,
+  "red_alerts": 212,
   "red_alerts_timeline": [
     0,
     0,
@@ -25,72 +25,105 @@
     0,
     0,
     0,
+    30,
     0,
-    25,
-    0,
-    25,
-    0,
+    30,
     0,
     0,
-    25,
-    74,
-    25,
+    0,
+    30,
+    121,
+    0,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    21,
-    13,
-    17,
-    24,
-    26,
-    25,
-    29,
-    15,
-    26,
-    21,
-    20,
-    24,
+    10,
+    19,
     22,
     28,
+    27,
+    26,
+    16,
+    26,
     20,
-    24,
+    19,
+    25,
+    21,
+    27,
+    23,
+    20,
     18,
     19,
-    21,
-    39,
-    28,
+    22,
+    43,
+    27,
     32,
-    17,
-    14
+    15,
+    15,
+    16
   ],
   "messages_by_channel": {
-    "@eRadarrua": 95,
-    "@kpszsu": 135,
-    "@mon1tor_ua": 115,
+    "@eRadarrua": 96,
+    "@kpszsu": 136,
+    "@mon1tor_ua": 112,
     "@UkraineNow": 18,
     "@DeepStateUA": 3,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 154
+    "@tass_agency": 149
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/115365",
-    "kpszsu": "https://t.me/kpszsu/79449",
+    "eRadarrua": "https://t.me/eRadarrua/115375",
+    "kpszsu": "https://t.me/kpszsu/79455",
     "mon1tor_ua": "https://t.me/mon1tor_ua/75474",
-    "UkraineNow": "https://t.me/UkraineNow/84226",
+    "UkraineNow": "https://t.me/UkraineNow/84227",
     "DeepStateUA": "https://t.me/DeepStateUA/23848",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33413",
-    "tass_agency": "https://t.me/tass_agency/396686"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33414",
+    "tass_agency": "https://t.me/tass_agency/396694"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/84210",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/75441",
-    "eRadarrua": "https://t.me/eRadarrua/115363",
-    "tass_agency": "https://t.me/tass_agency/396667",
+    "tass_agency": "https://t.me/tass_agency/396693",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/75468",
+    "UkraineNow": "https://t.me/UkraineNow/84216",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33399",
-    "kpszsu": "https://t.me/kpszsu/79433"
+    "eRadarrua": "https://t.me/eRadarrua/115337",
+    "kpszsu": "https://t.me/kpszsu/79438",
+    "DeepStateUA": "https://t.me/DeepStateUA/23848"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/84227",
+      "post_id": 84227,
+      "channel": "UkraineNow",
+      "ts": "2026-09-22T05:17:14+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33414",
+      "post_id": 33414,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-09-22T05:04:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/79455",
+      "post_id": 79455,
+      "channel": "kpszsu",
+      "ts": "2026-09-22T05:01:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Ifmmg83BzK7pNM52lgClMW7uucYtDb2AaKu02_F7YKPVzuEeCu1tIzMmFzeLI8qShFztzt1hVdrMctLEgEvu6QJiA53csooKZu5dnCe_aAp6wbfAnrwV4d75PJDqS5cpw0B8VOQBYYA5uHEJKeZLNkqWchAP1hFzvP5wiawIn6wt_3baiA8URL-ahDcWvQ-nZQu6za_8Z68oP-gpp_OIsiIzCcyTDFRSnKXyq1oxZY0pXjBlCIk31Vc29RyXosJGLy8unQ2LximPtMYEK8xHpJ7XZmrTOQ2-_-qG-rqb8NrxDHz3kn4FFJDirBdee1Hjlq2DYKAwVcr8tkR8dzePfg.jpg",
+      "companion_text_id": 79454
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396692",
+      "post_id": 396692,
+      "channel": "tass_agency",
+      "ts": "2026-09-22T04:59:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/396689",
+      "post_id": 396689,
+      "channel": "tass_agency",
+      "ts": "2026-09-22T04:44:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/396677",
       "post_id": 396677,
@@ -192,181 +225,140 @@
       "channel": "eRadarrua",
       "ts": "2026-09-21T18:17:16+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/DvH1_WWUOzltdALGTB2773Zk2KCQ1B1WAvyR6qxGF8uHOiXKMZHL3KBVzziNsWHAhKTjNlr6Rs0LNvQTbZkrEcrpPhwvUqiHp_rSMLIx2J0tYI9Ts3118OLpoBwrM-VDv3gwMSnCR4skCjZHEd30H01NQ4vwkrvp7D5OemVdv4kLl-GorN6I8Q0c3xHflehE9Ptza20pmr75mXo0JQgs65mtoF--DLR78zsv54qE6pqAjYJ_68vJNVVrbonTZ6jWskQ1gdbmaU1s3NXS9v9F-QKOYX6veUqlMFtjXFi_psDUD3AxfmXtbjsPJOjdYiBNhoHIr5EUN8HxIw74891O2w.jpg"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/84223",
-      "post_id": 84223,
-      "channel": "UkraineNow",
-      "ts": "2026-09-21T18:01:19+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/396642",
-      "post_id": 396642,
-      "channel": "tass_agency",
-      "ts": "2026-09-21T18:00:24+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33413",
-      "post_id": 33413,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-09-21T17:56:01+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/396641",
-      "post_id": 396641,
-      "channel": "tass_agency",
-      "ts": "2026-09-21T17:52:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33412",
-      "post_id": 33412,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-09-21T17:32:58+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/115354": "data/media/eRadarrua_115354.jpg",
-    "eRadarrua/115353": "data/media/eRadarrua_115354.jpg",
     "eRadarrua/115337": "data/media/eRadarrua_115337.jpg",
     "eRadarrua/115335": "data/media/eRadarrua_115337.jpg",
+    "eRadarrua/115354": "data/media/eRadarrua_115354.jpg",
+    "eRadarrua/115353": "data/media/eRadarrua_115354.jpg",
+    "eRadarrua/115255": "data/media/eRadarrua_115255.jpg",
     "eRadarrua/115245": "data/media/eRadarrua_115245.jpg",
     "eRadarrua/115244": "data/media/eRadarrua_115245.jpg",
-    "eRadarrua/115255": "data/media/eRadarrua_115255.jpg",
-    "eRadarrua/115210": "data/media/eRadarrua_115210.jpg",
-    "eRadarrua/115211": "data/media/eRadarrua_115211.jpg",
     "eRadarrua/115202": "data/media/eRadarrua_115202.jpg",
     "eRadarrua/115204": "data/media/eRadarrua_115204.jpg",
+    "eRadarrua/115210": "data/media/eRadarrua_115210.jpg",
+    "eRadarrua/115211": "data/media/eRadarrua_115211.jpg",
+    "eRadarrua/115176": "data/media/eRadarrua_115176.jpg",
+    "eRadarrua/115175": "data/media/eRadarrua_115176.jpg",
+    "eRadarrua/115157": "data/media/eRadarrua_115157.jpg",
+    "eRadarrua/115158": "data/media/eRadarrua_115157.jpg",
     "eRadarrua/115165": "data/media/eRadarrua_115165.jpg",
     "eRadarrua/115164": "data/media/eRadarrua_115165.jpg",
     "eRadarrua/115166": "data/media/eRadarrua_115166.jpg",
     "eRadarrua/115168": "data/media/eRadarrua_115168.jpg",
     "eRadarrua/115167": "data/media/eRadarrua_115168.jpg",
-    "eRadarrua/115176": "data/media/eRadarrua_115176.jpg",
-    "eRadarrua/115175": "data/media/eRadarrua_115176.jpg",
-    "eRadarrua/115151": "data/media/eRadarrua_115151.jpg",
-    "eRadarrua/115152": "data/media/eRadarrua_115151.jpg",
-    "eRadarrua/115157": "data/media/eRadarrua_115157.jpg",
-    "eRadarrua/115158": "data/media/eRadarrua_115157.jpg",
     "eRadarrua/115139": "data/media/eRadarrua_115139.jpg",
     "eRadarrua/115140": "data/media/eRadarrua_115139.jpg",
-    "kpszsu/79268": "data/media/kpszsu_79268.jpg",
-    "kpszsu/79267": "data/media/kpszsu_79268.jpg"
+    "eRadarrua/115143": "data/media/eRadarrua_115143.jpg",
+    "kpszsu/79455": "data/media/kpszsu_79455.jpg",
+    "kpszsu/79454": "data/media/kpszsu_79455.jpg"
   },
-  "summary": "Ukrainian forces struck strategic Russian targets including the Bashneft oil refinery in Bashkortostan, a 'Kasta-2E2' radar worth $60 million in Donetsk region, and the main 'Tsymbulovo' drone base in Oryol region. Russia launched a massive combined attack with ballistic missiles on Kamianetske, Pavlohrad, and Zaporizhzhia, Zircon missiles on Kremenchuk, and widespread Shahed drone incursions across central and northern Ukraine. Russian forces claimed liberation of Polnaya and Novoaleksandrovka in Kharkiv region while Ukrainian casualties reportedly reach 27,000 per month.",
+  "summary": "Russia launched a massive coordinated strike on Ukrainian metallurgical, chemical, fuel-energy, and defense industry enterprises across multiple regions on September 22, 2026. Reconnaissance Shahed drones and Zircon missiles targeted Kyiv, Dnipropetrovsk, Poltava, Kirovohrad, Chernihiv, Mykolaiv, and Odesa regions simultaneously. Ukrainian forces struck a Russian mobile radar 'Kasta-2E2' in Donetsk and destroyed a drone control point, while also hitting enemy force concentrations in Belgorod.",
   "key_points": [
-    "Ukrainian drones attacked Bashneft oil refinery in Bashkortostan, one of Russia's largest refining centers. (Source: @UkraineNow/84210)",
-    "Ukrainian strikes destroyed Russian 'Kasta-2E2' radar ($60M), UAV control point, and manpower in Donetsk and Belgorod regions. (Source: @UkraineNow/84216)",
-    "Ukrainian forces hit main Russian reactive drone base 'Tsymbulovo' in Oryol region, damaging bunkers, warehouses, and Geran-5 launch pads. (Source: @UkraineNow/84223)",
-    "Russia fired 2 ballistic missiles at Kamianetske, 1 at Pavlohrad, 1 at Zaporizhzhia, and 2 Zircon missiles at Kremenchuk. (Source: @mon1tor_ua/75441, @mon1tor_ua/75462)",
-    "Widespread Shahed drone attacks targeted Kyiv, Chernihiv, Cherkasy, Kirovohrad, Odesa, Kherson, and other regions overnight. (Source: @mon1tor_ua/75468, @eRadarrua/115363)",
-    "Russian 'Sever' artillery destroyed Ukrainian stronghold in Sumy region per Russian MoD. (Source: @tass_agency/396667)",
-    "Russian MoD claims liberation of Polnaya and Novoaleksandrovka settlements in Kharkiv region. (Source: @ukr_leaks_eng/33399)",
-    "Polish PM Tusk stated Ukrainian partners reported 27,000 monthly casualties; body exchange ratios show 11:1 recent, 19:1 in 2026. (Source: @ukr_leaks_eng/33397)"
+    "Russian Armed Forces launched a massive strike on Ukrainian metallurgical, chemical, fuel-energy, and defense industry enterprises, according to the Russian Ministry of Defense (Source: @tass_agency/396693).",
+    "Reconnaissance Shahed drones and Zircon missiles struck multiple Ukrainian regions including Kyiv, Dnipropetrovsk, Poltava, Kirovohrad, Chernihiv, Mykolaiv, and Odesa on September 22, 2026 (Source: @mon1tor_ua/75468).",
+    "Ukrainian forces destroyed a mobile radar 'Kasta-2E2' worth $60 million in Donetsk region and a drone control point, plus struck enemy force concentration at Staroye Khutor in Belgorod (Source: @UkraineNow/84216).",
+    "Russian troops liberated settlements of Polnaya and Novoaleksandrovka in Kharkov region, according to the Russian Ministry of Defense (Source: @ukr_leaks_eng/33399).",
+    "Industrial enterprises burned in Dnipropetrovsk, Kryvyi Rih, and Pavlograd in southeast Ukraine, reported by regional administration head Ganzha (Source: @tass_agency/396686).",
+    "Russia struck fuel stations in Zhytomyr region for the second time in one day, damaging an AZS in Zvyagelsky district and a WOG gas station on the Kyiv-Chop highway (Source: @UkraineNow/84215).",
+    "Over 50 passenger trains were delayed due to Russian attacks, with delays exceeding 16 hours on routes including Mykolaiv-Kyiv and Mykolaiv-Lviv (Source: @UkraineNow/84212).",
+    "Production of 'Geran'-type strike drones is set to increase by approximately 28,000 units per year by 2029 through expansion of the 'Alabuga-Volokno' plant in Tatarstan, currently producing ~36,000 units annually (Source: @ukr_leaks_eng/33393)."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Ukrainian forces conducted significant strategic strikes on Russian territory, hitting the Bashneft oil refinery in Bashkortostan, a high-value 'Kasta-2E2' radar system in Donetsk region, and the primary 'Tsymbulovo' drone launch base in Oryol region. Russia responded with a large-scale missile and drone barrage including ballistic missiles on central Ukrainian cities, Zircon hypersonic missiles on Kremenchuk, and widespread Shahed deployments across northern and central Ukraine. Russian forces claimed tactical gains in Kharkiv region while Ukrainian casualty rates reportedly reach 27,000 per month according to Polish PM Tusk.",
-    "ukraine": {
-      "points": [
-        "Ukrainian drones struck Bashneft oil refinery in Bashkortostan on September 21, targeting one of Russia's largest oil refining centers. (Source: @UkraineNow/84210)",
-        "Ukrainian forces destroyed a mobile 'Kasta-2E2' radar system valued at $60 million, a UAV control point, and a concentration of Russian manpower in Donetsk region and near Starokhutir in Belgorod region. (Source: @UkraineNow/84216)",
-        "A precision strike hit the main Russian reactive drone base 'Tsymbulovo' in Oryol region, destroying two drone bunkers, two warehouses, and a Geran-5 launch platform with multiple detonations visible on satellite imagery. (Source: @UkraineNow/84223)",
-        "Ukraine has lost over 600 locomotives since February 2022, creating urgent need for partner assistance per Restoration Minister Kalashnyk. (Source: @ukr_leaks_eng/33405)",
-        "Polish PM Tusk revealed Ukrainian partners reported 27,000 monthly casualties (killed and wounded), with body exchange ratios of 11:1 in recent swaps and 19:1 in 2026, indicating severe manpower shortages. (Source: @ukr_leaks_eng/33397)",
-        "Trump reportedly asked Zelensky to halt strikes on Russian oil refineries to prevent diesel price increases during their UNGA meeting. (Source: @ukr_leaks_eng/33388)"
-      ]
-    },
-    "russia": {
-      "points": [
-        "Russian forces launched 2 ballistic missiles at Kamianetske, 1 at Pavlohrad, and 1 at Zaporizhzhia, plus 2 Zircon hypersonic missiles at Kremenchuk. (Source: @mon1tor_ua/75441, @mon1tor_ua/75462)",
-        "Massive Shahed drone wave targeted multiple regions: 2 from Mykolaiv to Kirovohrad, 2 from Black Sea to Odesa (Zatoka), 1 past Kremenchuk to Kirovohrad (Oleksandriia), 1 from Mykolaiv to Kherson, 1 circling in Chernihiv. (Source: @mon1tor_ua/75468)",
-        "Russian tactical aviation launched guided aerial bombs against Zaporizhzhia region and Donbas. (Source: @kpszsu/79433)",
-        "Russian 'Sever' artillery group destroyed a Ukrainian stronghold in Sumy region per Russian MoD video release. (Source: @tass_agency/396667)",
-        "Russian MoD claims liberation of Polnaya and Novoaleksandrovka settlements in Kharkiv region. (Source: @ukr_leaks_eng/33399)",
-        "Rostec delivered new 'Zubr' anti-drone systems to Russian MoD for protection of critical infrastructure against small low-flying targets. (Source: @tass_agency/396684)",
-        "Russian air defenses eliminated dozens of UAVs in Samara region overnight with damage to civilian objects and vehicles reported. (Source: @tass_agency/396682)"
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Ukrainian strike destroyed 'Kasta-2E2' radar ($60M) and UAV control point in Donetsk region per Ukrainian military sources. (Source: @UkraineNow/84216)",
-        "Russian tactical aviation conducted guided bomb strikes on Zaporizhzhia region and Donbas. (Source: @kpszsu/79433)",
-        "Russian MoD claims liberation of Polnaya and Novoaleksandrovka in Kharkiv region. (Source: @ukr_leaks_eng/33399)",
-        "Russian artillery ('Sever' group) eliminated Ukrainian stronghold in Sumy region. (Source: @tass_agency/396667)",
-        "Industrial enterprises burning in Dnipro, Kryvyi Rih, and Pavlohrad per Dnipropetrovsk region head Hanzha. (Source: @tass_agency/396686)",
-        "Ballistic missile threat reported from northeast direction (Kursk axis). (Source: @eRadarrua/115325, @kpszsu/79413)"
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Extensive Shahed drone activity across Chernihiv region: UAVs near Nosivka, Horodnia, Kulikivka, Ichnia, Slavutych, and north Chernihiv (2 UAVs). (Source: @eRadarrua/115352, @eRadarrua/115355, @eRadarrua/115365)",
-        "Drone incursions into Kyiv region: UAV near Zhurivka, past Korsun-Shevchenkivskyi toward Myronivka, over Chornobyl zone, and toward Pereiaslav. (Source: @eRadarrua/115344, @eRadarrua/115363, @eRadarrua/115365)",
-        "Reactive UAVs from Chernihiv region (Honcharivske, Kozelats, Honcharivske) moving southwest toward Kyiv region. (Source: @kpszsu/79434, @kpszsu/79440, @kpszsu/79445)",
-        "Ballistic missile threat from Kursk direction reported by monitoring channels. (Source: @eRadarrua/115325, @kpszsu/79413)",
-        "Kyiv air defenses engaged Shaheds over Holosiivskyi district, left bank, Boryspil, and Brovary; alerts lifted at 04:42 (missile) and 06:14 (drone) on Sept 22. (Source: @mon1tor_ua/75471, @mon1tor_ua/75464, @mon1tor_ua/75474, @mon1tor_ua/75463, @eRadarrua/115341, @eRadarrua/115361)"
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Shahed drones launched from Black Sea: 2 toward Odesa region (Zatoka district), 1 toward Chornomorsk/Lymanka. (Source: @mon1tor_ua/75468, @kpszsu/79430)",
-        "Shahed from Mykolaiv region targeted Kherson. (Source: @mon1tor_ua/75468)",
-        "Guided UAV from Mykolaiv region toward Bashtanka; 2 guided UAVs from sea toward Odesa; 1 UAV toward Reni. (Source: @eRadarrua/115328)",
-        "Reactive UAV in Dolynska (Kirovohrad region) from south; 2 Shaheds from Mykolaiv to Kirovohrad (Kropyvnytskyi district); 1 past Kremenchuk to Oleksandriia district. (Source: @kpszsu/79416, @mon1tor_ua/75468)",
-        "Industrial fires in Dnipro, Kryvyi Rih, Pavlohrad after strikes per regional administration. (Source: @tass_agency/396686)",
-        "Gas station on fire on Kyiv-Chop highway in Zhytomyr region after Russian strike. (Source: @ukr_leaks_eng/33410)"
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Ukrainian strike on 'Tsymbulovo' drone base in Oryol region destroyed Geran-5 launch infrastructure, bunkers, and warehouses per OSINT satellite analysis. (Source: @UkraineNow/84223)",
-        "Russia deployed new 'Zubr' anti-drone systems to protect critical infrastructure against small low-flying targets. (Source: @tass_agency/396684)",
-        "Massive overnight drone attack on Samara region with dozens of UAVs eliminated and civilian damage. (Source: @tass_agency/396682, @eRadarrua/115354)",
-        "Zircon hypersonic missiles used against Kremenchuk (2 missiles). (Source: @mon1tor_ua/75462)",
-        "Guided aerial bombs employed by Russian tactical aviation on Zaporizhzhia and Donbas. (Source: @kpszsu/79433)",
-        "Widespread reactive Shahed deployments across 8+ Ukrainian regions with multiple vectors from Black Sea, Mykolaiv, and Chernihiv. (Source: @mon1tor_ua/75468, @eRadarrua/115363)",
-        "Kyiv air defense activity: missile threat (red level) alert lifted 04:42, drone threat (yellow level) lifted 06:14 on Sept 22. (Source: @eRadarrua/115341, @eRadarrua/115361)"
-      ]
-    },
-    "key_developments": [
-      "Ukrainian drones struck Bashneft refinery in Bashkortostan, a major Russian oil processing hub, on September 21. (Source: @UkraineNow/84210)",
-      "Ukrainian precision strike destroyed 'Kasta-2E2' radar ($60M), UAV control point, and Russian manpower in Donetsk and Belgorod regions. (Source: @UkraineNow/84216)",
-      "Ukrainian attack on 'Tsymbulovo' drone base in Oryol region eliminated Geran-5 launch pads, bunkers, and warehouses per satellite confirmation. (Source: @UkraineNow/84223)",
-      "Russia launched 4 ballistic missiles (2 Kamianetske, 1 Pavlohrad, 1 Zaporizhzhia) and 2 Zircon hypersonic missiles at Kremenchuk. (Source: @mon1tor_ua/75441, @mon1tor_ua/75462)",
-      "Massive Shahed drone wave hit 8+ Ukrainian regions from multiple vectors including Black Sea, Mykolaiv, and Chernihiv. (Source: @mon1tor_ua/75468)",
-      "Russian MoD claims liberation of Polnaya and Novoaleksandrovka in Kharkiv region; 'Sever' artillery destroyed Ukrainian stronghold in Sumy. (Source: @ukr_leaks_eng/33399, @tass_agency/396667)",
-      "Polish PM Tusk disclosed 27,000 monthly Ukrainian casualties from Ukrainian partners; body exchange ratios 19:1 in 2026. (Source: @ukr_leaks_eng/33397)"
+    "executive_summary": "Russia launched a massive coordinated strike on Ukrainian metallurgical, chemical, fuel-energy, and defense industry enterprises across multiple regions on September 22, 2026. Reconnaissance Shahed drones and Zircon missiles simultaneously targeted Kyiv and numerous oblasts, while Ukrainian forces struck back at Russian radar and drone infrastructure in Donetsk and Belgorod. The scale of attacks on both energy infrastructure and military targets indicates a significant escalation in hostilities.",
+    "ukraine": [
+      "Russian strikes damaged industrial enterprises in Dnipropetrovsk, Kryvyi Rih, and Pavlograd in southeast Ukraine, according to regional administration head Ganzha (Source: @tass_agency/396686).",
+      "A Russian strike hit a residential five-story building in Kyiv's Dniprovsky district, causing a fire in the basement, destroying one floor and damaging the facade; DSNS rescued 15 people, 4 were injured with 3 hospitalized, no fatalities (Source: @eRadarrua/115337).",
+      "Over 50 passenger trains experienced delays exceeding 16 hours due to Russian attacks, affecting routes Mykolaiv-Kyiv (#121/122), Mykolaiv-Lviv (#109/110), and trains from Kryvyi Rih, Dnipro, and Truskavets (Source: @UkraineNow/84212).",
+      "Russia struck fuel stations in Zhytomyr region for the second time in one day, damaging an AZS in Zvyagelsky district and a WOG gas station on the Kyiv-Chop highway (Source: @UkraineNow/84215).",
+      "Air raid alerts were active across Kyiv from 04:59 to 06:14 on September 22, 2026, with drone threat at yellow level (Source: @eRadarrua/115347).",
+      "Reconnaissance Shahed drones fell on TEC-5 and warehouses in Kyiv's Darnytsky district (Source: @mon1tor_ua/75473).",
+      "Ivano-Frankivsk Mayor Martsinkiv predicted increased air raid alerts in western Ukraine, with energy facilities, transport infrastructure, and large supermarkets as potential targets (Source: @ukr_leaks_eng/33396)."
     ],
-    "threat_assessment": "Ukraine's demonstrated ability to strike strategic Russian targets deep inside Russia — oil refineries, high-value radar systems, and primary drone launch infrastructure — represents a significant escalation in long-range strike capability. Russia's response with combined ballistic, hypersonic, and mass drone attacks across Ukraine's northern and central regions indicates intent to degrade Ukrainian air defenses and critical infrastructure before winter. The reported 27,000 monthly Ukrainian casualties and 19:1 body exchange ratio in 2026 suggest unsustainable attrition that could force mobilization expansion or operational contractions. Russian deployment of 'Zubr' anti-drone systems and continued guided bomb usage shows adaptation to Ukrainian drone threats.",
-    "regional_response": "EU foreign policy chief Kallas condemned Russian elections in occupied territories as a blow to democracy and proposed sanctions against facilitators, signaling continued political pressure. Polish leadership's public disclosure of Ukrainian casualty figures reveals growing NATO concern over Ukraine's manpower sustainability and potential friction between Kyiv and Warsaw. Trump's reported request to halt refinery strikes highlights U.S. economic concerns over energy markets ahead of UNGA meetings. Ivano-Frankivsk mayor's warning of increased western region alerts suggests expectation of expanded Russian targeting of energy and transport infrastructure.",
-    "intelligence_notes": "The 'Tsymbulovo' drone base strike confirms Ukrainian ISR capability to locate and hit hardened Russian UAV infrastructure using satellite-guided munitions. Simultaneous Shahed launches from Black Sea, Mykolaiv, and Chernihiv vectors indicate Russian command's ability to coordinate complex multi-axis drone operations. Zircon deployment against Kremenchuk signals operational use of hypersonic weapons for time-sensitive targets. The 600+ locomotive loss figure reveals severe Ukrainian rail logistics degradation affecting military sustainment. Civilian casualties in Kharkiv region (woman killed, teen burned) and gas station strike on Kyiv-Chop highway demonstrate continued Russian targeting of civilian-adjacent infrastructure."
+    "russia": [
+      "Russian Armed Forces launched a massive strike on Ukrainian metallurgical, chemical, fuel-energy, and defense industry enterprises, according to the Russian Ministry of Defense (Source: @tass_agency/396693).",
+      "Russian troops liberated settlements of Polnaya and Novoaleksandrovka in Kharkov region, according to the Russian Ministry of Defense (Source: @ukr_leaks_eng/33399).",
+      "Russian forces struck a mobile radar 'Kasta-2E2' worth $60 million in Donetsk region and destroyed a drone control point, plus hit enemy force concentration at Staroye Khutor in Belgorod (Source: @UkraineNow/84216).",
+      "Russian tactical aviation launched guided aerial bombs on Zaporizhzhia region (Source: @kpszsu/79438).",
+      "A massive drone attack in Samara region caused a series of explosions and massive fire on the night of September 22, damaging civilian objects and vehicles (Source: @tass_agency/396692).",
+      "Russia held elections on occupied Ukrainian territories; United Russia received 355 of 450 seats, Kadyrov 99.85%; EU's Kallas announced sanctions and refused to recognize the elections (Source: @UkraineNow/84217).",
+      "Production of 'Geran'-type strike drones is set to increase by approximately 28,000 units per year by 2029 through expansion of the 'Alabuga-Volokno' plant in Tatarstan (Source: @ukr_leaks_eng/33393)."
+    ],
+    "eastern_front": [
+      "Ukrainian forces struck a mobile radar 'Kasta-2E2' worth $60 million in Donetsk region and destroyed a Russian drone control point (Source: @UkraineNow/84216).",
+      "Ukrainian forces hit a concentration of enemy live force in the Staroye Khutor area of Belgorod region (Source: @UkraineNow/84216).",
+      "Russian troops liberated settlements of Polnaya and Novoaleksandrovka in Kharkov region, according to the Russian Ministry of Defense (Source: @ukr_leaks_eng/33399).",
+      "Russian tactical aviation launched guided aerial bombs on Zaporizhzhia region (Source: @kpszsu/79438).",
+      "Fighters of 33 OShP operated in the Huliaipole sector, with Russian command desperately attempting to reduce offensive intensity through counterattacks, all meeting dense FPV fire at distant approaches (Source: @DeepStateUA/23848).",
+      "DPR head Pushilin stated that stretching out time in Druzhkivka for AFU has a political character (Source: @tass_agency/396660)."
+    ],
+    "northern_front": [
+      "Reconnaissance Shahed drones were detected heading toward Kyiv from multiple directions including Brovary, Holosiivsky district, Darnytsky district, and the left bank of the capital (Source: @mon1tor_ua/75463).",
+      "Reconnaissance Shahed drones fell on TEC-5 and warehouses in Kyiv (Source: @mon1tor_ua/75473).",
+      "Reconnaissance drones were detected in Chernihiv region heading toward Slavutych and in suburbs of Chernihiv (Source: @eRadarrua/115340).",
+      "Reconnaissance drones from Bryansk region targeted Nizhyn in Chernihiv region (Source: @eRadarrua/115345).",
+      "Reconnaissance drones were detected in Cherkasy region heading toward Smila, Vasylkiv, and Zolotonosha (Source: @eRadarrua/115363).",
+      "Reconnaissance drones from Chernihiv region targeted Kyiv area near Yagotin (Source: @kpszsu/79452)."
+    ],
+    "southern_front": [
+      "Reconnaissance Shahed drones from Mykolaiv region targeted Kirovohrad region (Kropyvnytskyi district) and Kherson (Source: @mon1tor_ua/75468).",
+      "Reconnaissance Shahed drones from Black Sea waters targeted Odesa region (Zatoka district) (Source: @mon1tor_ua/75468).",
+      "Reconnaissance drones were detected heading toward South from Black Sea (Source: @kpszsu/79444).",
+      "Reconnaissance drones in Vinnytsia region near Oratova and Kryzhopil moved northward (Source: @kpszsu/79447).",
+      "Reconnaissance drones were detected in Kalynivka area heading toward Vinnytsia (Source: @kpszsu/79448).",
+      "Russia struck fuel stations in Zhytomyr region, damaging an AZS in Zvyagelsky district and a WOG gas station on the Kyiv-Chop highway (Source: @UkraineNow/84215)."
+    ],
+    "air_war": [
+      "Reconnaissance Shahed drones and Zircon missiles targeted multiple Ukrainian regions on September 22, 2026, including Kyiv, Dnipropetrovsk, Poltava, Kirovohrad, Chernihiv, Mykolaiv, and Odesa (Source: @mon1tor_ua/75468).",
+      "Two Zircon missiles were detected heading toward Kremenchuk, Poltava region (Source: @mon1tor_ua/75462).",
+      "A Zircon missile was detected from Kursk heading toward Kremenchuk, Poltava region (Source: @mon1tor_ua/75469).",
+      "Reconnaissance Shahed drones were detected from Dnipropetrovsk region through northern area heading toward Poltava (Source: @eRadarrua/115353).",
+      "Reconnaissance Shahed drones were detected from Bryansk region heading toward Chernihiv region (Source: @mon1tor_ua/75466).",
+      "Air raid alerts were active across Kyiv from 04:59 to 06:14 on September 22, 2026, with drone threat at yellow level (Source: @eRadarrua/115347).",
+      "Russian tactical aviation launched guided aerial bombs on Zaporizhzhia region (Source: @kpszsu/79438)."
+    ],
+    "key_developments": [
+      "Russia launched a massive strike on Ukrainian metallurgical, chemical, fuel-energy, and defense industry enterprises across multiple regions, according to the Russian Ministry of Defense (Source: @tass_agency/396693).",
+      "Ukrainian forces destroyed a mobile radar 'Kasta-2E2' worth $60 million in Donetsk and a drone control point, plus struck enemy force concentration at Staroye Khutor in Belgorod (Source: @UkraineNow/84216).",
+      "Reconnaissance Shahed drones and Zircon missiles simultaneously targeted Kyiv and multiple oblasts including Dnipropetrovsk, Poltava, Kirovohrad, Chernihiv, Mykolaiv, and Odesa (Source: @mon1tor_ua/75468).",
+      "Russia struck fuel stations in Zhytomyr region for the second time in one day, damaging an AZS and a WOG gas station on the Kyiv-Chop highway (Source: @UkraineNow/84215).",
+      "Russian troops liberated settlements of Polnaya and Novoaleksandrovka in Kharkov region, according to the Russian Ministry of Defense (Source: @ukr_leaks_eng/33399).",
+      "Over 50 passenger trains were delayed due to Russian attacks, with delays exceeding 16 hours on key routes including Mykolaiv-Kyiv and Mykolaiv-Lviv (Source: @UkraineNow/84212).",
+      "Production of 'Geran'-type strike drones is set to increase by approximately 28,000 units per year by 2029 through expansion of the 'Alabuga-Volokno' plant in Tatarstan (Source: @ukr_leaks_eng/33393)."
+    ],
+    "threat_assessment": "Russia's massive multi-vector strike on September 22, 2026, targeting Ukrainian metallurgical, chemical, fuel-energy, and defense industry infrastructure represents a significant escalation. The simultaneous use of reconnaissance Shahed drones and Zircon missiles across at least seven oblasts demonstrates Russia's capacity for sustained, geographically dispersed attacks. The strike on fuel infrastructure in Zhytomyr for the second time in one day, combined with attacks on rail infrastructure causing delays exceeding 16 hours, suggests Russia is targeting Ukraine's logistical backbone. The expansion of 'Geran'-type drone production at the Alabuga-Volokno plant in Tatarstan signals Russia's intent to sustain and increase drone warfare tempo through 2029.",
+    "regional_response": "EU foreign policy chief Kallas condemned Russia's elections on occupied Ukrainian territories and proposed sanctions against those facilitating them, while the EU refused to recognize the elections or their results. German AfD co-leader Chrupalla called for dialogue with Moscow, suggesting a potential divergence in European political responses to the conflict. Trump is scheduled to meet Zelensky in New York on September 22 at the UN General Assembly, and Macron discussed supplying interceptors to Ukraine with Trump. Domestically, Ukraine's SBU detained a Moscow-recruited hitman who attempted to assassinate a Ukrainian soldier, highlighting ongoing hybrid threats behind the front lines.",
+    "intelligence_notes": "The conflict between Ukraine's GRU and SBU is described as 'steeped in blood' with personal enmity between their heads, potentially subsiding under Western influence but unlikely to cease entirely. TASS characterized Ukraine as a 'gray zone' where security forces fight each other for money. Russian forces are employing counterattacks near Huliaipole to reduce the intensity of Ukrainian 33 OShP and 1 OShP offensive actions, but these are consistently met with dense FPV fire at distant approaches. The political dimension of military operations is evident in DPR head Pushilin's comments about Druzhkivka and LDPR's criticism of Zelensky's refusal to hold elections."
   },
   "missiles": 0,
-  "drones": 172,
+  "drones": 212,
   "kpszsu_timeline": [
-    5,
-    1,
-    6,
-    3,
-    2,
-    4,
-    9,
-    5,
-    7,
-    3,
-    5,
-    6,
-    7,
-    4,
+    0,
     7,
     2,
+    2,
+    6,
+    8,
+    5,
+    6,
+    4,
+    5,
+    6,
+    7,
+    3,
+    7,
+    2,
     4,
     6,
     7,
-    16,
-    7,
-    7,
+    18,
     6,
-    6
+    7,
+    7,
+    7,
+    3
   ]
 }
