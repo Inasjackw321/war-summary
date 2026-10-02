@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-10-02T05:04:55.687235+00:00",
-  "message_count": 447,
+  "updated_at": "2026-10-02T06:08:45.156288+00:00",
+  "message_count": 448,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -13,7 +13,6 @@
   ],
   "red_alerts": 108,
   "red_alerts_timeline": [
-    0,
     0,
     0,
     0,
@@ -36,12 +35,12 @@
     11,
     0,
     0,
+    0,
     0
   ],
   "combined_activity_timeline": [
+    6,
     8,
-    11,
-    12,
     18,
     19,
     19,
@@ -49,48 +48,68 @@
     17,
     19,
     28,
-    44,
-    48,
-    41,
-    35,
+    45,
+    49,
+    38,
+    36,
     12,
     23,
-    12,
-    7,
+    11,
+    8,
     11,
     7,
-    14,
+    13,
     8,
-    9,
-    9
+    10,
+    11,
+    16
   ],
   "messages_by_channel": {
-    "@eRadarrua": 86,
+    "@eRadarrua": 88,
     "@kpszsu": 85,
-    "@mon1tor_ua": 14,
-    "@UkraineNow": 22,
+    "@mon1tor_ua": 13,
+    "@UkraineNow": 21,
     "@DeepStateUA": 4,
     "@ukr_leaks_eng": 20,
-    "@tass_agency": 216
+    "@tass_agency": 217
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/119598",
-    "kpszsu": "https://t.me/kpszsu/82252",
+    "eRadarrua": "https://t.me/eRadarrua/119601",
+    "kpszsu": "https://t.me/kpszsu/82254",
     "mon1tor_ua": "https://t.me/mon1tor_ua/76025",
-    "UkraineNow": "https://t.me/UkraineNow/84432",
+    "UkraineNow": "https://t.me/UkraineNow/84434",
     "DeepStateUA": "https://t.me/DeepStateUA/23875",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33660",
-    "tass_agency": "https://t.me/tass_agency/398438"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33663",
+    "tass_agency": "https://t.me/tass_agency/398450"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/84430",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/76021",
-    "kpszsu": "https://t.me/kpszsu",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33639",
-    "tass_agency": "https://t.me/tass_agency/398420",
-    "eRadarrua": "https://t.me/eRadarrua/119588"
+    "UkraineNow": "https://t.me/UkraineNow/84425",
+    "tass_agency": "https://t.me/tass_agency/398449",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33662",
+    "kpszsu": "https://t.me/kpszsu/82203",
+    "eRadarrua": "https://t.me/eRadarrua/119578"
   },
   "media": [
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33663",
+      "post_id": 33663,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-10-02T06:02:02+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/119600",
+      "post_id": 119600,
+      "channel": "eRadarrua",
+      "ts": "2026-10-02T05:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/LVUej0ol0Hvd6Mf9hcaPaKTZHBr2OG9wFhxQz7Ftx9DEC_y3xCXtCUoY6PBm51sHgmGm4Og0itheyVZpGT3dEP842PPVPVv_fC1NLTm_nz0AUHX0mASoJUWSdshv1lhsKHk58fNfwu14JE5nciTFBnaluA6byfm6mXBXyaJD8UNmDS_ifnD3lmIkzmzplugHbrrEgNcI9Pn4Z0_wwOejV6nnB2u86IKzb79K82EpjBR57IVnMYktzuA8rbGTcXcBYaQk-c5qAUwgpEEjHprlB9-ZWJlP4jchP_bBNKh6Lo1yePUQwYMpNFGo81qHYtpziJUtsijlsCXXT0DMiWaarw.jpg",
+      "companion_text_id": 119599
+    },
+    {
+      "post_url": "https://t.me/tass_agency/398444",
+      "post_id": 398444,
+      "channel": "tass_agency",
+      "ts": "2026-10-02T05:37:24+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/398438",
       "post_id": 398438,
@@ -102,7 +121,8 @@
       "post_id": 82252,
       "channel": "kpszsu",
       "ts": "2026-10-02T04:59:25+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/EnEGMrSjsLVoWUBWQbE_JPHXMbypBFTBLx8VJoMqtxf2hGsCAiBTnxMbovNdjhufo9B799C_2AmWgOQ5KbqVoTTfnyY8UQbJivhMoclj8lXxVS7iOGpdnDLj4VX7Ttq7nMwQiZaaCOsYlItRrXTFIZMDLUGQjvFMugghnIEpAbH4fxC1dJEUtc8KsxyPbdXvPTowyPQNRHDtgf6YfbVnG1siPtG9QxBR9pa3-qM3jr5NoP0EnzHEj_yRGoDO6JahMJQmt9l2sxzqEOu31k-wDfUf3Yl-9RLUk8TtBaScOdWNuBexpXi-x20dXuWILHhBIi_aBdyIClpxi6Ljp-sKdQ.jpg"
+      "cdn_url": "https://cdn4.telesco.pe/file/EnEGMrSjsLVoWUBWQbE_JPHXMbypBFTBLx8VJoMqtxf2hGsCAiBTnxMbovNdjhufo9B799C_2AmWgOQ5KbqVoTTfnyY8UQbJivhMoclj8lXxVS7iOGpdnDLj4VX7Ttq7nMwQiZaaCOsYlItRrXTFIZMDLUGQjvFMugghnIEpAbH4fxC1dJEUtc8KsxyPbdXvPTowyPQNRHDtgf6YfbVnG1siPtG9QxBR9pa3-qM3jr5NoP0EnzHEj_yRGoDO6JahMJQmt9l2sxzqEOu31k-wDfUf3Yl-9RLUk8TtBaScOdWNuBexpXi-x20dXuWILHhBIi_aBdyIClpxi6Ljp-sKdQ.jpg",
+      "companion_text_id": 82254
     },
     {
       "post_url": "https://t.me/tass_agency/398431",
@@ -205,38 +225,22 @@
       "ts": "2026-10-01T19:18:59+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/URjHegY9L9wiIK-l42L_ojtxO3h8ihTF41Oq2Ojn_wS4f2azZq6BLr7DLS0aev6iliYEbMd21UwM6x0mVnlHsUtKPaHlU8v1VqiE3hJvyEWwXnGCzM5jRh5iexB23A8OhfkZkd6XgH-ZaDzRqREKh8NnzqtIQ4o0MlaEy1BKPEECB0nDxOY9Ypf1LiTjkHwkh9W7DiI-cYwTA-QQGAQNLfJtAwr-8Y85z4U_x2metHC1_fBlY4hfNQxujXQv_3Dh_7jizArB1efGNa7P8J73H04kWLZ4_2rJeoyvqZmVak4lmLy3Z6v8HR6p1Q3CAg83YP-y7q7_4yY_cZDRE_OquA.jpg",
       "companion_text_id": 119517
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/84428",
-      "post_id": 84428,
-      "channel": "UkraineNow",
-      "ts": "2026-10-01T18:57:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/398393",
-      "post_id": 398393,
-      "channel": "tass_agency",
-      "ts": "2026-10-01T18:44:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/398391",
-      "post_id": 398391,
-      "channel": "tass_agency",
-      "ts": "2026-10-01T18:32:21+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/119600": "data/media/eRadarrua_119600.jpg",
+    "eRadarrua/119599": "data/media/eRadarrua_119600.jpg",
     "eRadarrua/119575": "data/media/eRadarrua_119575.jpg",
     "eRadarrua/119574": "data/media/eRadarrua_119575.jpg",
     "eRadarrua/119544": "data/media/eRadarrua_119544.jpg",
     "eRadarrua/119555": "data/media/eRadarrua_119555.jpg",
     "eRadarrua/119554": "data/media/eRadarrua_119555.jpg",
-    "eRadarrua/119518": "data/media/eRadarrua_119518.jpg",
-    "eRadarrua/119517": "data/media/eRadarrua_119518.jpg",
     "eRadarrua/119519": "data/media/eRadarrua_119519.jpg",
+    "eRadarrua/119518": "data/media/eRadarrua_119518.jpg",
     "eRadarrua/119523": "data/media/eRadarrua_119523.jpg",
     "eRadarrua/119527": "data/media/eRadarrua_119527.jpg",
     "eRadarrua/119528": "data/media/eRadarrua_119527.jpg",
+    "eRadarrua/119517": "data/media/eRadarrua_119518.jpg",
     "eRadarrua/119486": "data/media/eRadarrua_119486.jpg",
     "eRadarrua/119487": "data/media/eRadarrua_119486.jpg",
     "eRadarrua/119490": "data/media/eRadarrua_119490.jpg",
@@ -247,110 +251,88 @@
     "eRadarrua/119431": "data/media/eRadarrua_119431.jpg",
     "eRadarrua/119432": "data/media/eRadarrua_119431.jpg",
     "eRadarrua/119433": "data/media/eRadarrua_119433.jpg",
-    "eRadarrua/119408": "data/media/eRadarrua_119408.jpg",
-    "eRadarrua/119407": "data/media/eRadarrua_119408.jpg",
     "kpszsu/82252": "data/media/kpszsu_82252.jpg",
+    "kpszsu/82254": "data/media/kpszsu_82252.jpg",
     "kpszsu/82155": "data/media/kpszsu_82155.jpg",
     "kpszsu/82154": "data/media/kpszsu_82155.jpg",
     "kpszsu/82167": "data/media/kpszsu_82167.jpg",
     "kpszsu/82166": "data/media/kpszsu_82167.jpg"
   },
-  "summary": "Russia launched coordinated missile and drone strikes across multiple Ukrainian regions including Kyiv, with Geran-5 missiles, Shahed drones, and an FP-7 ballistic missile. Ukraine struck Russian naval and infrastructure targets in Orlovskaya, Samara, and Bryansk oblasts. A Ukrainian MiG-29 pilot was killed in combat.",
+  "summary": "Russian and Ukrainian drone activity continues across multiple regions, with reports of Shahed and tactical UAVs targeting areas in Kyiv, Dnipro, and Chernihiv. A chemical plant explosion in Krasnoyarsk, Moscow Oblast, killed at least seven workers and damaged a facility producing warhead components. Ukrainian President Zelenskyy honored defenders in the Lyman direction amid ongoing frontline tensions.",
   "key_points": [
-    "Russia attacked Kyiv's Southern Bridge twice and a school; drone strike hit nuclear research institute, no casualties reported (Source: @UkraineNow/84430).",
-    "Ukrainian pilot Marat Mambetov, commander of flight section 40th Tactical Aviation Brigade, killed in MiG-29 during combat mission (Source: @UkraineNow/84422).",
-    "Geran-5 missile launched from Zhytomyr toward Rivne; Shahed drones from Cherkasy toward Kyiv and Poltava toward Kirovohrad (Source: @mon1tor_ua/76021).",
-    "Ukraine struck Russian ship in Black Sea and targets in Orlovskaya, Samara, Bryansk oblasts including drone launch sites (Source: @UkraineNow/84414).",
-    "Drones detected over Poltava, Chernihiv near Novhorod-Siverskyi and Nizhyn, Cherkasy toward Kaniv, Dnipropetrovsk toward Pavlohrad (Source: @kpszsu).",
-    "Data center Parkovyi critically damaged by Russian strikes, fully ceased operations (Source: @UkraineNow/84418).",
-    "Russia plans attack on Lutsk with Geran-5 missiles and Geran-4 drones within the week (Source: @mon1tor_ua/76016)."
+    "A chemical plant in Krasnoyarsk, Moscow Oblast, exploded, killing at least seven workers and damaging a facility producing warhead components for Shahed drones. (Source: @UkraineNow/84425)",
+    "Multiple reactive UAVs were detected across Kyiv, Dnipro, and Chernihiv regions, with some targeting civilian infrastructure including schools and energy facilities. (Source: @mon1itor_ua/76018)",
+    "Ukrainian President Zelenskyy honored defenders in the Lyman direction during a video address on Defenders' Day, emphasizing national resilience. (Source: @UkraineNow/84411)",
+    "Russian air defenses reportedly shot down 646 Ukrainian drones overnight, according to the Russian Ministry of Defense. (Source: @tass_agency/398449)",
+    "A Geran drone crashed on a building in Kyiv, highlighting ongoing air threats to the capital. (Source: @ukr_leaks_eng/33662)",
+    "A court in Lviv sentenced Vyacheslav Zinchenko to life imprisonment for the murder of former MP Iryna Farion, citing ethnic intolerance as motivation. (Source: @ukr_leaks_eng/33657)",
+    "Ukrainian forces reportedly used tactical ballistic missiles (FP-7) for the first time in combat operations. (Source: @UkraineNow/84423)"
   ],
-  "sentiment": "escalating",
-  "intensity": 7,
+  "sentiment": "volatile",
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russia launched coordinated missile and drone strikes across multiple Ukrainian regions including Kyiv, with Geran-5 missiles, Shahed drones, and an FP-7 ballistic missile. Ukraine struck Russian naval and infrastructure targets in Orlovskaya, Samara, and Bryansk oblasts. A Ukrainian MiG-29 pilot was killed in combat.",
-    "ukraine": {
-      "points": [
-        "Data center Parkovyi suffered critical damage from Russian strikes and fully ceased operations, disrupting services (Source: @UkraineNow/84418).",
-        "Russia attacked Southern Bridge in Kyiv twice and struck a school; FP-7 ballistic missile used in combat first time (Source: @UkraineNow/84430).",
-        "Drone strike on nuclear research institute in Kyiv on September 30; reactor and safety systems undamaged, no casualties (Source: @UkraineNow/84417).",
-        "Business center in Moldavanka district of Odessa caught fire after drone hit (Source: @ukr_leaks_eng/33639).",
-        "Three Shahed drones struck Nalyvaykivka on Kyiv region, targeting energy infrastructure (Source: @mon1tor_ua/76011).",
-        "Pilot Marat Mambetov, flight section commander of 40th Tactical Aviation Brigade, killed in MiG-29 during combat mission (Source: @UkraineNow/84422).",
-        "GUR MOU requesting public to collect drone parts, specifically fiber optic cable, for military use (Source: @mon1tor_ua/76010)."
-      ]
-    },
-    "russia": {
-      "points": [
-        "Geran-5 missile launched from Zhytomyr region toward Rivne, Sarny district (Source: @mon1tor_ua/76021).",
-        "Shahed drone from Cherkasy region toward Kyiv, Obukhiv district (Source: @mon1tor_ua/76021).",
-        "Shahed drone from Poltava region toward Kirovohrad, Oleksandriia district (Source: @mon1tor_ua/76021).",
-        "Drone attack caused fire in apartment building in Volgograd, one hospitalized (Source: @tass_agency/398420).",
-        "Over 110 drones destroyed in Kamensk-Shakhtinsky and nine districts of Rostov region (Source: @tass_agency/398434).",
-        "Military helicopter lost in Voronezh region, crew of three, call sign 200 (Source: @UkraineNow/84427).",
-        "Planned attack on Lutsk with Geran-5 missiles and Geran-4 reconnaissance-strike drones within the week (Source: @mon1tor_ua/76016)."
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Zelensky visited Lyman direction on Day of Defenders, addressing troops (Source: @UkraineNow/84411).",
-        "Limited specific eastern front operational data in current messages; GUR MOU collecting drone parts for Zaporizhzhia front (Source: @mon1tor_ua/76010).",
-        "Russian forces attempting breakthrough at Zaporizhzhia direction, state-provided drones partially inadequate quality (Source: @mon1tor_ua/76010).",
-        "Shahed drone from Poltava region toward Kirovohrad, Oleksandriia district (Source: @mon1tor_ua/76021).",
-        "Reconnaissance-strike drones Geran-4 and Geran-5 referenced in planned operations (Source: @mon1tor_ua/76016)."
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Reconnaissance drone over Chernihiv region near Novhorod-Siverskyi, southwest course (Source: @kpszsu/82225).",
-        "Reconnaissance drones over Chernihiv region near Nizhyn, southwest course toward Kyiv region (Source: @kpszsu/82234).",
-        "Reconnaissance drone through Chernobyl exclusion zone heading toward Zhytomyr region (Source: @kpszsu/82193).",
-        "Drone over Zhytomyr region near Boyarka toward Vasylkiv/Kyiv (Source: @kpszsu/82246).",
-        "Two drones entering capital near Brovary and Boryspil districts (Source: @eRadarrua/119588)."
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Reconnaissance drone from Black Sea waters toward southern Mykolaiv region (Source: @kpszsu/82229).",
-        "Business center in Moldavanka district of Odessa caught fire after drone hit (Source: @ukr_leaks_eng/33639).",
-        "Ukraine struck Russian ship in Black Sea (Source: @UkraineNow/84414).",
-        "Shahed drone from Poltava toward Kirovohrad region (Source: @mon1tor_ua/76021).",
-        "Reconnaissance drone over Dnipropetrovsk region toward Pavlohrad from east (Source: @kpszsu/82203)."
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Geran-5 missile launched from Zhytomyr toward Rivne (Source: @mon1tor_ua/76021).",
-        "Multiple Shahed drones from Cherkasy, Poltava, and Chernobyl exclusion zone toward Kyiv and Zhytomyr (Source: @mon1tor_ua/76021, @kpszsu).",
-        "FP-7 Ukrainian ballistic missile first combat use demonstrated by Zelensky (Source: @UkraineNow/84430).",
-        "MiG-29 shot down, pilot killed; 40th Brigade tactical aviation engaged (Source: @UkraineNow/84422).",
-        "Ukraine struck Russian ship in Black Sea (Source: @UkraineNow/84414).",
-        "Reconnaissance-strike drones Geran-4 and Geran-5 referenced in planned Lutsk attack (Source: @mon1tor_ua/76016).",
-        "Over 110 drones destroyed in Kamensk-Shakhtinsky and Rostov region by air defense (Source: @tass_agency/398434)."
-      ]
-    },
-    "key_developments": [
-      "Russia launched Geran-5 missile from Zhytomyr toward Rivne alongside Shahed drones from Cherkasy toward Kyiv and Poltava toward Kirovohrad in coordinated strikes (Source: @mon1tor_ua/76021).",
-      "Ukrainian pilot Marat Mambetov, flight section commander of 40th Tactical Aviation Brigade, killed when MiG-29 was shot down by enemy missile during combat mission (Source: @UkraineNow/84422).",
-      "Russia attacked Kyiv Southern Bridge twice and a school; drone strike hit nuclear research institute in Kyiv, reactor safe, no casualties (Source: @UkraineNow/84430, @UkraineNow/84417).",
-      "Ukraine struck Russian ship in Black Sea and targets in Orlovskaya, Samara, and Bryansk oblasts including drone launch sites and oil facility (Source: @UkraineNow/84414).",
-      "Reconnaissance drones detected across multiple regions: Poltava, Chernihiv near Novhorod-Siverskyi and Nizhyn, Cherkasy toward Kaniv, Dnipropetrovsk toward Pavlohrad, Zhytomyr from Chernobyl zone (Source: @kpszsu).",
-      "Russia plans attack on Lutsk with Geran-5 missiles and Geran-4 reconnaissance-strike drones within the week (Source: @mon1tor_ua/76016).",
-      "Data center Parkovyi critically damaged by Russian strikes, fully ceased operations; Nova Poshta services disrupted by DDoS attack (Source: @UkraineNow/84418, @UkraineNow/84421)."
+    "executive_summary": "Russian and Ukrainian drone activity continues across multiple regions, with reports of Shahed and tactical UAVs targeting areas in Kyiv, Dnipro, and Chernihiv. A chemical plant explosion in Krasnoyarsk, Moscow Oblast, killed at least seven workers and damaged a facility producing warhead components. Ukrainian President Zelenskyy honored defenders in the Lyman direction amid ongoing frontline tensions.",
+    "ukraine": [
+      "President Zelenskyy honored defenders in the Lyman direction during a video address on Defenders' Day, emphasizing national resilience and sovereignty. (Source: @UkraineNow/84411)",
+      "A court in Lviv sentenced Vyacheslav Zinchenko to life imprisonment for the murder of former MP Iryna Farion, citing ethnic intolerance as motivation. (Source: @ukr_leaks_eng/33657)",
+      "Ukrainian forces reportedly used tactical ballistic missiles (FP-7) for the first time in combat operations. (Source: @UkraineNow/84423)",
+      "A data center named 'Parkovyi' sustained critical damage from Russian shelling and ceased operations entirely. (Source: @UkraineNow/84418)",
+      "A Russian drone struck a school in Kyiv's Solomianskyi District while children were in shelter. (Source: @UkraineNow/84412)",
+      "Fire Point head Denis Shtilerman denied rumors of serious injuries following an alleged assassination attempt near Kyiv. (Source: @ukr_leaks_eng/33653)"
     ],
-    "threat_assessment": "Russia is conducting multi-axis drone and missile operations simultaneously targeting Kyiv, Zhytomyr, Rivne, Kirovohrad, and Dnipropetrovsk regions with Geran-5 missiles and Shahed drones. The planned attack on Lutsk with Geran-5 and Geran-4 systems within the week indicates expanding operational reach. Ukrainian air defense faces sustained pressure from volumetric drone attacks originating from multiple directions including the Chernobyl exclusion zone and Black Sea. The strike on a nuclear research institute in Kyiv, while causing no casualties, represents a dangerous escalation in targeting sensitivity.",
-    "regional_response": "Ukraine's GUR MOU has publicly appealed for drone parts collection, specifically fiber optic cable, indicating supply chain strain on the front line. Ukrainian forces struck Russian targets in Orlovskaya, Samara, and Bryansk oblasts, demonstrating continued deep-strike capability. Zelensky's visit to the Lyman direction and display of FP-7 ballistic missile combat use signal continued offensive operations. The destruction of the Parkovyi data center and DDoS attacks on Nova Poshta suggest Russian hybrid warfare targeting civilian infrastructure and logistics.",
-    "intelligence_notes": "The simultaneous launch of Geran-5 missiles and Shahed drones from multiple oblasts suggests coordinated Russian operational planning. The loss of a MiG-29 with call sign details indicates Russian air defense improvements. Drone traffic through the Chernobyl exclusion zone toward Zhytomyr represents a novel infiltration route requiring monitoring. The Volgograd apartment fire from drone attack and Voronezh helicopter loss confirm Russian territory vulnerability. The GUR MOU drone parts request suggests quality and quantity shortages in state-provided unmanned systems."
+    "russia": [
+      "A chemical plant in Krasnoyarsk, Moscow Oblast, exploded, killing at least seven workers and damaging a facility producing warhead components for Shahed drones. (Source: @UkraineNow/84425)",
+      "Russian air defenses reportedly shot down 646 Ukrainian drones overnight, according to the Russian Ministry of Defense. (Source: @tass_agency/398449)",
+      "Russian President Putin claimed Ukraine initiated the war and warned of unpredictable consequences, including potential nuclear escalation. (Source: @UkraineNow/84424)",
+      "Russia plans to allocate $6 billion in state loans annually to foreign states from 2027 to 2029, per draft budget documents. (Source: @tass_agency/398442)",
+      "An open fire at a private residence in St. Petersburg linked to Miller was extinguished with no casualties reported. (Source: @tass_agency/398447)"
+    ],
+    "eastern_front": [
+      "Reactive UAVs were detected moving from east toward Pavlohrad in Dnipro Oblast. (Source: @kpszsu/82203)",
+      "Reactive UAVs were observed flying past Zarichne in Dnipro Oblast heading west. (Source: @kpszsu/82224)",
+      "Reactive UAVs were detected moving from east toward Kaniv in Cherkasy Oblast. (Source: @kpszsu/82195)",
+      "Reactive UAVs were observed flying past Novi Sanzhary in Poltava Oblast heading northwest. (Source: @kpszsu/82226)"
+    ],
+    "northern_front": [
+      "Reactive UAVs were detected moving from east toward Fastiv in Kyiv Oblast. (Source: @kpszsu/82233)",
+      "Reactive UAVs were observed flying past Obukhiv in Kyiv Oblast heading toward Kyiv. (Source: @kpszsu/82196)",
+      "Reactive UAVs were detected moving from east toward Zolotynshchyna in Cherkasy Oblast. (Source: @kpszsu/82254)",
+      "A Geran drone was launched from the south toward Kyiv via Borispyl. (Source: @kpszsu/82202)"
+    ],
+    "southern_front": [
+      "Reactive UAVs were detected moving from east toward Kropyvnytskyi in Kirovohrad Oblast. (Source: @mon1itor_ua/76021)",
+      "Reactive UAVs were observed flying past Nizhyn in Chernihiv Oblast. (Source: @eRadarrua/119578)",
+      "Reactive UAVs were detected moving from east toward Novaya Haleshchyna in Poltava Oblast. (Source: @eRadarrua/119556)",
+      "Reactive UAVs were observed flying past Men in Chernihiv Oblast heading toward Nizhyn. (Source: @kpszsu/82247)"
+    ],
+    "air_war": [
+      "Russian air defenses reportedly shot down 646 Ukrainian drones overnight, according to the Russian Ministry of Defense. (Source: @tass_agency/398449)",
+      "Multiple reactive UAVs were detected across Kyiv, Dnipro, and Chernihiv regions, with some targeting civilian infrastructure. (Source: @mon1itor_ua/76018)",
+      "A Geran drone crashed on a building in Kyiv. (Source: @ukr_leaks_eng/33662)",
+      "Air raid alerts were issued in Kyiv due to drone threats, with yellow-level warnings activated. (Source: @eRadarrua/119569)",
+      "Launches of Shahed and reactive UAVs were reported from Oryol and Primorsky-Akhtarsk. (Source: @eRadarrua/119554)"
+    ],
+    "key_developments": [
+      "A chemical plant in Krasnoyarsk, Moscow Oblast, exploded, killing at least seven workers and damaging a facility producing warhead components for Shahed drones. (Source: @UkraineNow/84425)",
+      "Russian air defenses reportedly shot down 646 Ukrainian drones overnight, according to the Russian Ministry of Defense. (Source: @tass_agency/398449)",
+      "Multiple reactive UAVs were detected across Kyiv, Dnipro, and Chernihiv regions, with some targeting civilian infrastructure including schools and energy facilities. (Source: @mon1itor_ua/76018)",
+      "Ukrainian forces reportedly used tactical ballistic missiles (FP-7) for the first time in combat operations. (Source: @UkraineNow/84423)",
+      "A court in Lviv sentenced Vyacheslav Zinchenko to life imprisonment for the murder of former MP Iryna Farion, citing ethnic intolerance as motivation. (Source: @ukr_leaks_eng/33657)",
+      "President Zelenskyy honored defenders in the Lyman direction during a video address on Defenders' Day, emphasizing national resilience. (Source: @UkraineNow/84411)",
+      "A data center named 'Parkovyi' sustained critical damage from Russian shelling and ceased operations entirely. (Source: @UkraineNow/84418)"
+    ],
+    "threat_assessment": "The operational environment remains highly volatile with sustained drone warfare on both sides. Russia's reported downing of 646 Ukrainian drones indicates robust air defense capabilities, while Ukraine's first use of tactical ballistic missiles (FP-7) suggests advancing indigenous weapons development. Civilian infrastructure continues to be targeted, raising concerns over escalation. The explosion at a Krasnoyarsk chemical plant producing Shahed components highlights vulnerabilities in Russia's domestic military supply chain. These developments suggest a prolonged and intensifying conflict with increasing reliance on unmanned systems.",
+    "regional_response": "Ukraine's military and civilian leadership continue to emphasize resilience and international support. President Zelenskyy's public recognition of defenders underscores morale efforts amid ongoing attacks. The Ukrainian government is actively fundraising for fiber-optic drones to support forces in the Zaporizhzhia direction, indicating resource constraints. Internationally, Bulgaria's Prime Minister called for a balanced approach combining military, economic, and diplomatic tools to resolve the conflict. The EU has reiterated that Ukraine's accession timeline remains unchanged despite political pressures.",
+    "intelligence_notes": "Open-source intelligence indicates a growing trend in the use of commercial and modified UAVs by both parties. The first combat deployment of Ukraine's FP-7 tactical ballistic missile system marks a significant shift in offensive capability. Russia's claim of downing 646 drones may be inflated but reflects active engagement. The Lviv court sentencing related to Iryna Farion's murder points to internal societal tensions. Continued monitoring of drone launch sites and air defense intercepts is essential for situational awareness."
   },
   "missiles": 0,
   "drones": 108,
   "kpszsu_timeline": [
-    1,
     2,
-    3,
+    4,
     6,
     4,
-    7,
+    6,
     4,
     2,
     5,
@@ -360,14 +342,15 @@
     1,
     2,
     0,
-    6,
-    3,
-    4,
-    4,
+    7,
     2,
     4,
+    4,
+    3,
+    3,
     5,
     4,
+    1,
     1
   ]
 }
