@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-10-03T21:43:09.453518+00:00",
-  "message_count": 264,
+  "updated_at": "2026-10-03T23:07:11.483409+00:00",
+  "message_count": 263,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -15,19 +15,16 @@
   "red_alerts_timeline": [
     0,
     0,
-    0,
-    0,
-    31,
+    26,
     0,
     0,
     0,
-    31,
+    26,
     0,
-    31,
     0,
-    31,
-    31,
+    26,
     0,
+    52,
     0,
     0,
     0,
@@ -36,59 +33,63 @@
     0,
     0,
     0,
+    0,
+    0,
+    26,
     0
   ],
   "combined_activity_timeline": [
-    9,
     4,
     4,
     3,
     6,
+    11,
+    17,
+    17,
+    15,
+    11,
     9,
-    13,
-    18,
+    7,
+    9,
+    22,
+    5,
+    5,
+    24,
+    11,
+    15,
     12,
-    18,
-    6,
-    10,
+    14,
+    21,
+    7,
     9,
-    14,
-    14,
-    4,
-    19,
-    14,
-    13,
-    16,
-    13,
-    14,
-    16,
-    5
+    4
   ],
   "messages_by_channel": {
-    "@eRadarrua": 73,
-    "@kpszsu": 72,
-    "@mon1tor_ua": 7,
+    "@eRadarrua": 78,
+    "@kpszsu": 66,
+    "@mon1tor_ua": 10,
     "@UkraineNow": 16,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 15,
-    "@tass_agency": 80
+    "@tass_agency": 77
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/119894",
-    "kpszsu": "https://t.me/kpszsu/82629",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/76041",
+    "eRadarrua": "https://t.me/eRadarrua/119912",
+    "kpszsu": "https://t.me/kpszsu/82631",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/76045",
     "UkraineNow": "https://t.me/UkraineNow/84468",
     "DeepStateUA": "https://t.me/DeepStateUA/23879",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33710",
-    "tass_agency": "https://t.me/tass_agency/398663"
+    "tass_agency": "https://t.me/tass_agency/398665"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/84454",
-    "tass_agency": "https://t.me/tass_agency/398619",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33708",
-    "kpszsu": "https://t.me/kpszsu/82559",
-    "eRadarrua": "https://t.me/eRadarrua/119796",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/76034"
+    "tass_agency": "https://t.me/tass_agency/398652",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/76038",
+    "kpszsu": "https://t.me/kpszsu/82572",
+    "UkraineNow": "https://t.me/UkraineNow/84457",
+    "DeepStateUA": "https://t.me/DeepStateUA/23879",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33694",
+    "eRadarrua": "https://t.me/eRadarrua/119883"
   },
   "media": [
     {
@@ -239,11 +240,11 @@
     }
   ],
   "post_images": {
+    "eRadarrua/119893": "data/media/eRadarrua_119893.jpg",
+    "eRadarrua/119892": "data/media/eRadarrua_119893.jpg",
     "eRadarrua/119870": "data/media/eRadarrua_119870.jpg",
     "eRadarrua/119880": "data/media/eRadarrua_119880.jpg",
     "eRadarrua/119882": "data/media/eRadarrua_119880.jpg",
-    "eRadarrua/119893": "data/media/eRadarrua_119893.jpg",
-    "eRadarrua/119892": "data/media/eRadarrua_119893.jpg",
     "eRadarrua/119847": "data/media/eRadarrua_119847.jpg",
     "eRadarrua/119846": "data/media/eRadarrua_119847.jpg",
     "eRadarrua/119848": "data/media/eRadarrua_119848.jpg",
@@ -266,114 +267,110 @@
     "kpszsu/82542": "data/media/kpszsu_82542.jpg",
     "kpszsu/82541": "data/media/kpszsu_82542.jpg"
   },
-  "summary": "Russian forces struck Kiev's Northern Bridge and energy infrastructure, prompting Mayor Klitschko to warn residents that peacetime living conditions are over. Ukrainian forces conducted strikes on Russian command posts, crossings, and depots in Belgorod, Bryansk, and Kherson regions using Iskander missiles. Russian Ministry of Defense claimed control of Novaya Kazachya in Kharkiv region while reporting 244 Ukrainian drones shot down over Russian regions in a single day.",
+  "summary": "Russian forces launched a massive overnight combined strike using Kh-101/555 \"Banderoil\" cruise missiles and Shahed/Geran-5 drones against targets across Ukraine, including Kyiv, Pryluky, and multiple oblasts, while Ukrainian forces struck Russian command posts, river crossings, and logistics in Belgorod, Kherson, and Donetsk regions. Russian MoD claimed capture of Novaya Kazachya in Kharkiv region. Moldova reported three missiles and two drones striking its territory.",
   "key_points": [
-    "Russian strike damaged Kiev's Northern Bridge, halting traffic and damaging trolleybus network (Source: @UkraineNow/84454).",
-    "Ukrainian Iskander strikes hit Russian command post near Novaya Tavolzhanka in Belgorod region and crossing over Mokri Yaly river near Novochechetovatoe (Source: @UkraineNow/84457).",
-    "Russian MoD announced capture of Novaya Kazachya in Kharkiv region (Source: @tass_agency/398619).",
-    "Russian air defenses claimed 244 Ukrainian drones shot down over Russian regions in one day (Source: @tass_agency/398654).",
-    "Zaporizhzhia TPP equipment damaged by Ukrainian shelling, station switched to emergency power sources (Source: @tass_agency/398645).",
-    "Construction of backup earthen causeways across Dnieper in Kiev to begin next week, aiming for half current capacity (Source: @ukr_leaks_eng/33708).",
-    "China helping Russia create Starlink analogue 'Rassvet' operational by late 2026 or early 2027, enhancing Russian drone and strike capabilities (Source: @UkraineNow/84460).",
-    "Western countries preparing embassy relocation plans from Kiev to Lviv or eastern Poland in case of Russian attacks (Source: @UkraineNow/84452)."
+    "Russian MoD claims control of Novaya Kazachya village in Kharkiv region. (Source: @tass_agency/398652)",
+    "Massive Russian cruise missile and drone attack targets Kyiv, Chernihiv, Dnipropetrovsk, Mykolaiv regions overnight. (Source: @mon1tor_ua/76038, @kpszsu/82572)",
+    "Ukrainian strikes hit Russian command post near Novaya Tavolzhanka (Belgorod), river crossing near Novoocheretuvate, repair base near Hromivka (Kherson), ammo depot near Voznesenivka (Belgorod). (Source: @UkraineNow/84457)",
+    "Drone strike damages Kyiv's Northern Bridge, blocking traffic, damaging roadway and trolleybus lines. (Source: @UkraineNow/84454)",
+    "Moldova reports 3 missiles and 2 drones struck its territory overnight. (Source: @UkraineNow/84459)",
+    "Russian air defense claims 244 Ukrainian drones shot down over Russian regions in one day. (Source: @tass_agency/398654)",
+    "Russian Foreign Ministry warns foreign diplomats to leave Ukraine, threatens continued massive retaliation strikes. (Source: @tass_agency/398627)",
+    "DeepState map shows Russian advances near Kotlyne in Donetsk region. (Source: @DeepStateUA/23879)"
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces struck Kiev's Northern Bridge and energy infrastructure, prompting Mayor Klitschko to warn residents that peacetime living conditions are over. Ukrainian forces conducted strikes on Russian command posts, crossings, and depots in Belgorod, Bryansk, and Kherson regions using Iskander missiles. Russian Ministry of Defense claimed control of Novaya Kazachya in Kharkiv region while reporting 244 Ukrainian drones shot down over Russian regions in a single day.",
+    "executive_summary": "Russian forces executed a large-scale combined missile-drone barrage overnight October 3-4, launching at least four Kh-101/555 \"Banderoil\" cruise missiles from Chernihiv region toward Kyiv, Pryluky, Vyshhorod, and Brovary, alongside massed Shahed/Geran-5 drones from six axes including the Black Sea, Bryansk, Chernihiv, Kirovohrad, Cherkasy, and Kyiv reservoir. Ukrainian defenses engaged targets across Kyiv, Chernihiv, Cherkasy, Kirovohrad, Dnipropetrovsk, Mykolaiv, and Odesa regions. Simultaneously, Ukrainian precision strikes degraded Russian rear logistics in Belgorod, Kherson, and Donetsk oblasts. Russian MoD announced seizure of Novaya Kazachya in Kharkiv region, while DeepState mapping confirms further gains near Kotlyne.",
     "ukraine": {
       "points": [
-        "Ukrainian forces struck Russian command post near Novaya Tavolzhanka in Belgorod region and crossing over Mokri Yaly river near Novochechetovatoe using Iskander missiles, also hitting repair base near Gromovka in Kherson region and ammunition depot near Voznesenovka in Belgorod region (Source: @UkraineNow/84457).",
-        "Ukrainian strikes reached Samara region according to President Zelensky, with new results also reported in Black Sea (Source: @UkraineNow/84464).",
-        "Ukrainian soldier allegedly refused shelter to wounded comrade, pointing assault rifle at bleeding fellow soldier (Source: @ukr_leaks_eng/33698).",
-        "Nova Poshta reduced free storage period from 7 to 5 days due to air strikes on infrastructure (Source: @ukr_leaks_eng/33707).",
-        "TCK officers forced entry into private home in Khmelnytskyi region (Source: @ukr_leaks_eng/33700)."
+        "Ukrainian forces conducted precision strikes on Russian rear logistics: command post near Novaya Tavolzhanka (Belgorod region), pontoon crossing over Mokri Yaly river near Novoocheretuvate, repair base near Hromivka (Kherson region), ammunition depot near Voznesenivka (Belgorod region), and drone launch/storage site near Donetsk city. (Source: @UkraineNow/84457)",
+        "A Russian drone struck Kyiv's Northern Bridge (formerly Moskovsky), damaging roadway and trolleybus overhead lines, blocking traffic from Left Bank to Right Bank. (Source: @UkraineNow/84454, @ukr_leaks_eng/33694)",
+        "Ukrainian Infrastructure Minister Kalashnik announced construction of backup Dnieper crossings (earthen causeways) in Kyiv starting next week, aiming to provide at least half current capacity, with tunnel option under consideration. (Source: @ukr_leaks_eng/33708)",
+        "Power outages continue in occupied Crimea: Simferopol, Simferopol district, and southern coast settlements lost electricity overnight October 3, with restrictions across the peninsula. (Source: @UkraineNow/84462)"
       ]
     },
     "russia": {
       "points": [
-        "Russian MoD claimed capture of Novaya Kazachya in Kharkiv region (Source: @tass_agency/398619).",
-        "Russian air defenses shot down 244 Ukrainian drones over Russian regions in one day (Source: @tass_agency/398654).",
-        "Russian strike hit Kiev's Northern Bridge across Dnieper, used for troop transfers (Source: @tass_agency/398643).",
-        "Russian MFA warned of continued massive retaliatory strikes on Ukrainian objects (Source: @tass_agency/398652).",
-        "Medvedev accused EU of manipulating public opinion under pretext of 'Russian threat' (Source: @tass_agency/398658)."
+        "Russian Ministry of Defense announced capture of Novaya Kazachya village in Kharkiv region by \"North\" group forces. (Source: @tass_agency/398652, @ukr_leaks_eng/33701)",
+        "Russian forces launched massive overnight combined strike: multiple Kh-101/555 \"Banderoil\" cruise missiles from Chernihiv region toward Kyiv, Pryluky, and Kyiv region districts (Vyshhorod, Brovary), plus Shahed/Geran-5 drones from multiple axes including Black Sea, Bryansk, Chernihiv, Kirovohrad, Cherkasy regions. (Source: @mon1tor_ua/76038, @mon1tor_ua/76040, @mon1tor_ua/76042, @mon1tor_ua/76043, @kpszsu/82572, @kpszsu/82616)",
+        "Russian air defense claimed destruction of 244 Ukrainian drones over Russian regions during the day. (Source: @tass_agency/398654)",
+        "Russian Foreign Ministry warned foreign citizens and diplomatic personnel to leave Ukraine immediately, stating those who ignore warnings \"consciously expose their lives to deadly danger,\" and vowed continued massive retaliation strikes. (Source: @tass_agency/398627, @tass_agency/398628)",
+        "Ukrainian shelling of Belgorod city injured six people including three children, per Belgorod region official Shuvayev. (Source: @tass_agency/398660)",
+        "DPR authorities reported one killed and nine wounded from Ukrainian drone attacks and shelling over past day. (Source: @tass_agency/398662)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces captured Novaya Kazachya in Kharkiv region per MoD claim (Source: @tass_agency/398619).",
-        "Ukrainian forces struck Russian ammunition storage, preparation and launch site for strike UAVs near Donetsk (Source: @UkraineNow/84457).",
-        "Barrage munition 'Banderoil' observed near Barvinkove heading toward Donbas (Source: @kpszsu/82559).",
-        "Reactive UAVs reported over Dnipropetrovsk region heading toward Magdalinovka and Solone (Source: @kpszsu/82604, @kpszsu/82562)."
+        "DeepState map update indicates Russian forces advanced near Kotlyne in Donetsk region, with frontline changes reflected in latest mapping. (Source: @DeepStateUA/23879)",
+        "Ukrainian strike targeted Russian drone launch and storage site near Donetsk city. (Source: @UkraineNow/84457)",
+        "Russian \"North\" group captured Novaya Kazachya in Kharkiv region, per Russian MoD. (Source: @tass_agency/398652)",
+        "Ongoing fighting in Donetsk direction with Ukrainian strikes on Russian drone infrastructure. (Source: @UkraineNow/84457)"
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple reactive UAVs detected over Chernihiv region heading toward Slavutych and Kyiv reservoir (Source: @kpszsu/82605, @kpszsu/82617, @eRadarrua/119796).",
-        "Four 'Banderoil' cruise missiles launched from Chernihiv region toward Kyiv region, Vyshhorod district (Source: @mon1tor_ua/76034).",
-        "Reactive UAV from Chernihiv region toward Kyiv region, Vyshhorod direction from Kyiv reservoir (Source: @kpszsu/82601, @kpszsu/82590).",
-        "Reactive UAV from Chernihiv region toward Zhytomyr region (Source: @kpszsu/82585)."
+        "Russian cruise missiles (\"Banderoil\") launched from Chernihiv region flew toward Kyiv, Vyshhorod district, Brovary district, and Pryluky (Chernihiv region). (Source: @mon1tor_ua/76038, @mon1tor_ua/76040, @mon1tor_ua/76042, @eRadarrua/119883)",
+        "Shahed/Geran drones entered Kyiv region from Chernihiv region along Belarus border toward Slavutych, from Kyiv reservoir toward Vyshhorod, from Cherkasy region via Korsun-Shevchenkivskyi, and from Kirovohrad region toward Bila Tserkva. (Source: @mon1tor_ua/76036, @kpszsu/82572, @kpszsu/82617, @eRadarrua/119882)",
+        "Multiple air raid alerts in Kyiv: drone threat (yellow level) at 22:26 Oct 3, 00:51 Oct 4, 01:31 Oct 4; all-clear at 23:51 Oct 3, 00:56 Oct 4, 01:36 Oct 4. (Source: @eRadarrua/119852, @eRadarrua/119892, @eRadarrua/119900, @eRadarrua/119906, @eRadarrua/119912)",
+        "New groups of jet-powered drones detected from Bryansk region into northern Chernihiv region toward Slavutych. (Source: @kpszsu/82623)"
       ]
     },
     "southern_front": {
       "points": [
-        "Reactive UAV detected on border of Mykolaiv and Odesa regions, heading northwest (Source: @kpszsu/82582).",
-        "Reactive UAV from Black Sea toward Mykolaiv region (Source: @kpszsu/82586).",
-        "Reactive UAV from Black Sea toward Zatoka (Source: @kpszsu/82613).",
-        "Ukrainian strike hit Russian repair base near Gromovka in Kherson region (Source: @UkraineNow/84457).",
-        "Odesa region: 1 guided UAV; Kherson region: 1 strike UAV group (Source: @eRadarrua/119798)."
+        "Shahed/Geran drones launched from Black Sea waters targeted Odesa region: at least 6 drones heading toward Tatarbunary, plus drones toward Mykolaiv region (Berezhneguvate, toward Dnipropetrovsk), and toward Zatoka (Odesa region). (Source: @kpszsu/82595, @kpszsu/82597, @kpszsu/82613, @eRadarrua/119895)",
+        "Ukrainian strike hit Russian repair base near Hromivka in Kherson region. (Source: @UkraineNow/84457)",
+        "Power outages in occupied Crimea: Simferopol, Simferopol district, and southern coast settlements lost electricity overnight Oct 3. (Source: @UkraineNow/84462)",
+        "Drone activity from Black Sea toward Mykolaiv-Odesa border region, northwest course. (Source: @kpszsu/82582)"
       ]
     },
     "air_war": {
       "points": [
-        "Russian strike damaged Kiev's Northern Bridge, road surface and trolleybus contact network damaged, traffic between banks blocked (Source: @UkraineNow/84454).",
-        "Multiple air raid alerts in Kiev due to drone threat at 17:32, 18:52, 20:19 on 03.10.2026 (Source: @eRadarrua/119799, @eRadarrua/119815, @eRadarrua/119827).",
-        "Cruise missile 'Banderoil' threat toward Kiev/Boryspil (Source: @mon1tor_ua/76040).",
-        "Reactive UAVs detected over Kyiv region: near Obukhiv/Ukrainka, Boguslav, Rzhyshchiv circling over reservoir (Source: @eRadarrua/119832, @eRadarrua/119828, @eRadarrua/119830).",
-        "Warning of ballistic missile threat to Kiev, Kyiv, Poltava, Dnipropetrovsk regions remains actual (Source: @eRadarrua/119837).",
-        "Ukrainian strike hit Russian 'Tsymbulova' UAV launch base in Oryol region, NASA FIRMS detected fire hotspots (Source: @UkraineNow/84455)."
+        "Overnight Oct 3-4: Russian forces employed Kh-101/555 \"Banderoil\" cruise missiles and Shahed/Geran-5 drones in massed waves. Missiles entered from Chernihiv region toward Kyiv, Pryluky, Vyshhorod, Brovary. Drones launched from Black Sea, Bryansk, Chernihiv, Kirovohrad, Cherkasy, Kyiv reservoir. (Source: @mon1tor_ua/76038, @mon1tor_ua/76039, @mon1tor_ua/76040, @mon1tor_ua/76042, @mon1tor_ua/76043, @kpszsu/82572, @kpszsu/82573, @kpszsu/82586, @kpszsu/82616)",
+        "Ukrainian air defense engaged targets over Kyiv, Kyiv region, Chernihiv, Cherkasy, Kirovohrad, Dnipropetrovsk, Mykolaiv, Odesa regions. (Source: @mon1tor_ua/76036, @eRadarrua/119887, @eRadarrua/119895)",
+        "Russian air defense claimed 244 Ukrainian drones destroyed over Russian regions in 24 hours. (Source: @tass_agency/398654)",
+        "FPV drone detonation near Shebekino (Belgorod region) injured 11-year-old boy. (Source: @tass_agency/398651)",
+        "Kyiv air raid alerts: three separate drone threat alerts (yellow level) overnight with all-clears. (Source: @eRadarrua/119852, @eRadarrua/119892, @eRadarrua/119900, @eRadarrua/119906, @eRadarrua/119912)",
+        "eRadar warning of ballistic missile threat to Kyiv, Kyiv, Poltava, Dnipropetrovsk regions remained active. (Source: @eRadarrua/119837)"
       ]
     },
     "key_developments": [
-      "Russian strike destroyed Kiev's Northern Bridge across Dnieper, severing left-right bank traffic and damaging trolleybus infrastructure (Source: @UkraineNow/84454).",
-      "Ukrainian Iskander missiles struck Russian command post near Novaya Tavolzhanka (Belgorod) and river crossing near Novochechetovatoe, plus repair base near Gromovka (Kherson) and depot near Voznesenovka (Belgorod) (Source: @UkraineNow/84457).",
-      "Russian MoD announced capture of Novaya Kazachya in Kharkiv region (Source: @tass_agency/398619).",
-      "Russian air defenses claimed 244 Ukrainian drones shot down over Russian regions in 24 hours (Source: @tass_agency/398654).",
-      "Zaporizhzhia TPP equipment damaged by Ukrainian shelling, station operating on emergency power (Source: @tass_agency/398645).",
-      "Construction of backup earthen causeways across Dnieper in Kiev to begin next week, targeting 50% capacity within 3 months (Source: @ukr_leaks_eng/33708).",
-      "China assisting Russia with 'Rassvet' satellite constellation to rival Starlink, operational by late 2026/early 2027, enhancing Russian drone and strike precision (Source: @UkraineNow/84460)."
+      "Russian combined strike: 4+ Kh-101/555 \"Banderoil\" cruise missiles from Chernihiv region targeted Kyiv, Pryluky, Vyshhorod, Brovary; mass Shahed/Geran-5 drones from 6+ axes including Black Sea, Bryansk, Chernihiv, Kirovohrad, Cherkasy, Kyiv reservoir. (Source: @mon1tor_ua/76038, @mon1tor_ua/76040, @mon1tor_ua/76042, @mon1tor_ua/76043, @kpszsu/82572, @kpszsu/82616)",
+      "Ukrainian deep strikes: command post near Novaya Tavolzhanka (Belgorod), Mokri Yaly river crossing near Novoocheretuvate, repair base near Hromivka (Kherson), ammo depot near Voznesenivka (Belgorod), drone launch site near Donetsk. (Source: @UkraineNow/84457)",
+      "Critical infrastructure hit: Russian drone struck Kyiv Northern Bridge, severing Left-Right Bank traffic, damaging roadway and trolleybus network; Ukraine accelerating backup Dnieper crossings (earthen causeways) starting next week. (Source: @UkraineNow/84454, @ukr_leaks_eng/33708)",
+      "Russian territorial gain: MoD claims \"North\" group captured Novaya Kazachya in Kharkiv region; DeepState confirms Russian advances near Kotlyne (Donetsk). (Source: @tass_agency/398652, @DeepStateUA/23879)",
+      "Moldova strike spillover: 3 missiles and 2 drones hit Moldovan territory overnight, per Moldovan Defense Ministry. (Source: @UkraineNow/84459)",
+      "Russian diplomatic escalation: MFA warns all foreign diplomats/citizens to leave Ukraine immediately, threatens continued massive retaliation strikes; Western embassies preparing evacuation plans to Lviv/eastern Poland per Guardian. (Source: @tass_agency/398627, @tass_agency/398628, @UkraineNow/84452)",
+      "Russian air defense saturation: claimed 244 Ukrainian drones downed over Russian regions in 24 hours; Ukrainian strikes hit Belgorod (6 injured including 3 children), Shebekino (1 child injured by FPV), DPR (1 killed, 9 wounded). (Source: @tass_agency/398654, @tass_agency/398660, @tass_agency/398651, @tass_agency/398662)"
     ],
-    "threat_assessment": "Russian strikes on Kiev's critical bridges and energy infrastructure signal intensified campaign to degrade Ukrainian logistics and civilian resilience ahead of winter. Ukrainian long-range strikes using Iskanders demonstrate growing capability to hit Russian command, control, and logistics deep in rear areas including Belgorod, Bryansk, and Samara regions. The reported Russian capture of Novaya Kazachya in Kharkiv region suggests continued incremental advances in the northeast. China's 'Rassvet' satellite program could significantly enhance Russian ISR and drone guidance by 2027, altering the air-war balance. Western embassy contingency planning indicates expectation of further escalation.",
-    "regional_response": "Albanian PM Edi Rama dismissed Ukraine's EU accession promises as 'a lie' known to all, reflecting growing European skepticism about enlargement timelines. Western governments are quietly preparing embassy relocation plans from Kiev to Lviv or eastern Poland while publicly maintaining presence. US-Russia discussions reportedly include potential Lukoil asset sales involving Trump-linked investors, suggesting sanctions relief negotiations may be advancing. Madrid housing protests (70,000+) show domestic pressures in NATO countries unrelated to war but affecting political bandwidth.",
-    "intelligence_notes": "Multiple monitoring channels report dense reactive UAV activity across northern, central, and southern Ukraine, with Chernihiv region serving as launch corridor for both 'Banderoil' cruise missiles and Shahed-type drones toward Kiev. Kyiv reservoir area remains key transit route for aerial threats. Ukrainian air defense alerts in Kiev occurred three times within hours on 03.10.2026. Ballistic missile threat warning remains active for Kiev, Kyiv, Poltava, and Dnipropetrovsk regions. Nova Poshta logistics disruption (storage cut from 7 to 5 days) indicates cascading infrastructure degradation effects."
+    "threat_assessment": "The scale and coordination of Russia's overnight missile-drone barrage — combining strategic cruise missiles with massed Shahed/Geran-5 waves from six launch axes — indicates a deliberate campaign to saturate Ukrainian air defenses and strike critical infrastructure nationwide. Simultaneous Ukrainian deep strikes into Belgorod, Kherson, and Donetsk rear areas demonstrate growing long-range precision capability. Russian territorial gains near Novaya Kazachya and Kotlyne suggest continued offensive pressure in Kh"
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 157,
   "kpszsu_timeline": [
-    6,
-    2,
-    2,
-    1,
-    2,
     3,
-    8,
-    7,
-    1,
+    2,
+    0,
+    3,
+    4,
+    9,
+    5,
     3,
     0,
     1,
     0,
+    0,
+    11,
+    1,
+    1,
     8,
+    3,
     4,
     1,
-    8,
-    3,
-    2,
-    2,
     2,
     3,
-    2,
-    1
+    1,
+    1,
+    0
   ]
 }
