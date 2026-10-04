@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-10-04T05:09:03.072645+00:00",
-  "message_count": 272,
+  "updated_at": "2026-10-04T06:32:54.546613+00:00",
+  "message_count": 270,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,16 +11,13 @@
     "ukr_leaks_eng",
     "tass_agency"
   ],
-  "red_alerts": 157,
+  "red_alerts": 135,
   "red_alerts_timeline": [
-    31,
     0,
     0,
-    31,
-    0,
-    63,
-    0,
-    0,
+    34,
+    34,
+    34,
     0,
     0,
     0,
@@ -29,7 +26,10 @@
     0,
     0,
     0,
-    31,
+    0,
+    0,
+    34,
+    0,
     0,
     0,
     0,
@@ -39,59 +39,99 @@
     0
   ],
   "combined_activity_timeline": [
-    17,
-    14,
-    11,
+    18,
+    4,
     10,
-    7,
     9,
+    14,
+    15,
+    4,
+    14,
     19,
-    5,
-    7,
-    23,
     11,
     16,
+    13,
+    13,
+    15,
+    6,
+    10,
+    6,
     11,
-    14,
-    21,
-    7,
-    9,
     4,
-    13,
-    3,
-    13,
-    9,
-    3,
-    14
+    14,
+    5,
+    6,
+    17,
+    15
   ],
   "messages_by_channel": {
-    "@eRadarrua": 89,
-    "@kpszsu": 56,
+    "@eRadarrua": 91,
+    "@kpszsu": 57,
     "@mon1tor_ua": 16,
     "@UkraineNow": 15,
     "@DeepStateUA": 1,
-    "@ukr_leaks_eng": 16,
-    "@tass_agency": 79
+    "@ukr_leaks_eng": 15,
+    "@tass_agency": 75
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/119945",
-    "kpszsu": "https://t.me/kpszsu/82675",
+    "eRadarrua": "https://t.me/eRadarrua/119950",
+    "kpszsu": "https://t.me/kpszsu/82686",
     "mon1tor_ua": "https://t.me/mon1tor_ua/76051",
-    "UkraineNow": "https://t.me/UkraineNow/84469",
+    "UkraineNow": "https://t.me/UkraineNow/84471",
     "DeepStateUA": "https://t.me/DeepStateUA/23879",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33711",
-    "tass_agency": "https://t.me/tass_agency/398687"
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33712",
+    "tass_agency": "https://t.me/tass_agency/398693"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/119942",
-    "UkraineNow": "https://t.me/UkraineNow/84456",
-    "tass_agency": "https://t.me/tass_agency/398674",
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33708",
-    "DeepStateUA": "https://t.me/DeepStateUA/23879",
-    "kpszsu": "https://t.me/kpszsu/82600",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/76048"
+    "kpszsu": "https://t.me/kpszsu/82680",
+    "UkraineNow": "https://t.me/UkraineNow/84471",
+    "tass_agency": "https://t.me/tass_agency/398689",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33706",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/76034",
+    "eRadarrua": "https://t.me/eRadarrua/119940",
+    "DeepStateUA": "https://t.me/DeepStateUA/23879"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/398693",
+      "post_id": 398693,
+      "channel": "tass_agency",
+      "ts": "2026-10-04T06:25:33+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/84471",
+      "post_id": 84471,
+      "channel": "UkraineNow",
+      "ts": "2026-10-04T06:21:33+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/398692",
+      "post_id": 398692,
+      "channel": "tass_agency",
+      "ts": "2026-10-04T06:08:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/ukr_leaks_eng/33712",
+      "post_id": 33712,
+      "channel": "ukr_leaks_eng",
+      "ts": "2026-10-04T06:03:59+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/119947",
+      "post_id": 119947,
+      "channel": "eRadarrua",
+      "ts": "2026-10-04T05:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Rib99a_hBtITl9gmyLqol0NDOZoa8JNluHsr2VYICfoHNQ7mH9PKTz3q3IaiT1vTlpY0_ktHNtQ9OOS3CzIKA2HVRKuXuVvA6HHN2dFzkdBE33dnpmDcalqNVE7HRr4y3XWCVkdmC7uyl4-Bc7mZw-FavgpmEccRsIHQ47r8uSimI-bgrajA9B2Iv0T8F4KoKqf7wbPAzktm4XxaxJM_nNayhH2Lccsr_3Dbqep2vCBDpmuoMScHj8CzN49QrB12tgv5EPcjUOdb1Bx0s8lNIgLA84AoyP12DKQQoqfbVn7_ZXRxIFT7BDfzuYcOwkUWBhy18FKWRyIg4Rs1p8nUeA.jpg",
+      "companion_text_id": 119946
+    },
+    {
+      "post_url": "https://t.me/kpszsu/82681",
+      "post_id": 82681,
+      "channel": "kpszsu",
+      "ts": "2026-10-04T05:42:00+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/uUhFH1mc_SZ2V4OCltfCVBaHNUMH0oi_AWEXMVBN7hje6yLzPe4Zh9Un_iRqkIQcF10hY8Da6G_Caa1b4kvsIwQJ37E4MPyV4BgYDAYMH2g3EAORJ0OzLUNKKQAaT-wrExtp_-hgJ6dztji9oVN9DgKNygDsRVqFsMjc5cUvRn1OZk4TqOvhqwQt7ush5YgKSVy3qeDeJXIiqAzNLrjDg7PEO3ZzH4CYWGcF9bqfWDzPmPfLwvbPkoY1Ns6bfTMtBoz9A_9UfwrdBjXKdEQCxEzXWNbhXxJI8qr6ugaXpdA6yLf1dwZZoOXGmn4FUivB6wa06_oLjRMV3X3Qsa4jAQ.jpg",
+      "companion_text_id": 82680
+    },
     {
       "post_url": "https://t.me/UkraineNow/84469",
       "post_id": 84469,
@@ -131,8 +171,7 @@
       "post_id": 119870,
       "channel": "eRadarrua",
       "ts": "2026-10-03T19:48:20+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/vh3nAHxnZi9O8XzhQ255PgLuV_8Dp5C1hng9rdzD-Va0JTsEFWs96SjdGG4LB_qxHLemS6NAflNz7hocqEpbnTzMBZflSKGQaWyG-G-QgKPSDDl87sdFFjifFK4Q37VkomeUzzix0R0opmVJdLrHRzduI2JCIB_bmxJUiJqO1AkEjkoxZpgI6ZKqRZ_YtijtxS78EVzH4j1lKQIqcWrSUnQpQxQ_l_vIKSeJNLG1Zk66loxmnNnWttoP5HrNHrrFlygNCW_4maxwF9ezVXAJDIPfTU7Ffi3RvP9RG976CFERqSBs3O8trIGOoHOEIoMyGj_2GVVtvBkwxQaf2tPw0Q.jpg",
-      "companion_text_id": 119868
+      "cdn_url": "https://cdn4.telesco.pe/file/vh3nAHxnZi9O8XzhQ255PgLuV_8Dp5C1hng9rdzD-Va0JTsEFWs96SjdGG4LB_qxHLemS6NAflNz7hocqEpbnTzMBZflSKGQaWyG-G-QgKPSDDl87sdFFjifFK4Q37VkomeUzzix0R0opmVJdLrHRzduI2JCIB_bmxJUiJqO1AkEjkoxZpgI6ZKqRZ_YtijtxS78EVzH4j1lKQIqcWrSUnQpQxQ_l_vIKSeJNLG1Zk66loxmnNnWttoP5HrNHrrFlygNCW_4maxwF9ezVXAJDIPfTU7Ffi3RvP9RG976CFERqSBs3O8trIGOoHOEIoMyGj_2GVVtvBkwxQaf2tPw0Q.jpg"
     },
     {
       "post_url": "https://t.me/eRadarrua/119848",
@@ -189,174 +228,139 @@
       "post_id": 398646,
       "channel": "tass_agency",
       "ts": "2026-10-03T15:52:04+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/119812",
-      "post_id": 119812,
-      "channel": "eRadarrua",
-      "ts": "2026-10-03T15:29:10+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/HKwHvvZdgSI2YIlWHdSeRRHRCrWqqclDYGmK4wqmxgxAEESeP3LjhHBOAtRaumONVvzX9ROzpvNjr7fxg8QMZ0j6sboLgoIJtJeiCPwVCgd0OoAM8NBHmyaKwLj0XZFQAtaj97GRjufpuuyXOok8jgiv0_V4tE1Nj6OhJCJQyQEYJvYkh0RppVswrD2qbCCy0axTuXziQD4Zo4yGdhPAsWMac_u4yqTo5OStZvjxAgBxiKxQBzabFO49A_-8ljzUDGrMy-8MD3LUJBQZ3Sw8BWUp16CBjQrzGD8xp5x1SGzWSYBY2Lu6QPChvq3JY3owvHXwxMeOC1IFt-rECG2t0g.jpg",
-      "companion_text_id": 119813
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/119811",
-      "post_id": 119811,
-      "channel": "eRadarrua",
-      "ts": "2026-10-03T15:28:34+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/WASNn23iz-DvtdMP0iWvKlUA-5oWQJ2rFUXICzMMkLrNONVtqUYcCjFtE5Bfmit47agB5SllnGcbQxFSALlf1hgdbDYhWwonziIo7UoncsUirRSey6A7ELSbBHj_4XjEdF5UNxE6sgUFx1nhUfKhbs2eSHA-WK_E8fLTMT9Imq3MaH0m9Rncm6fkc302jTIh-D9pntfwvwNBuzOJu-du4tR6KTC2WB2-DXJDaP6_sdvSnZ51k0j7erqhx9di_1ywNwjTsCCgptn7UjixwTc3K4rKuxmlgE8VtaQmbZ2DfgTLwJlaTpwa6EJV4yj-x6vDfFtuJjkasWaCbryYpPrnhQ.jpg",
-      "companion_text_id": 119809
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/119810",
-      "post_id": 119810,
-      "channel": "eRadarrua",
-      "ts": "2026-10-03T15:27:59+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/DM5Wj8UkRmQloRnVmUl-15pGqqFE1YJD9RfkZxjaPXGLGw2Vwj1lQKTb0klI6LVcsrsIYT2tzk_nj9sso-m7z8ihS1ZTgGfG0_Xw4pXka7ci-Tl87OHPqYgH6PAfXFvdfRWttZ88kIwHhVJPnUqFEF5YwZKfRKYg4h0u1LJW88cDkK5YIIzYrghOMijk-pr_-m9vB_-3FyWLgtE95EVaATMOXm7cTK-0ABQJmn0lZKPmYEoEOxUp9yh72A0aEonY7cbOGd5WBKZCkGK503Llq7TWS5s0vEAVLh5pUl8Mhh8P5yYqHiQczvn5FUTM5EjJrAlyubOhCOC6rGi7T4TMDw.jpg",
-      "companion_text_id": 119809
-    },
-    {
-      "post_url": "https://t.me/ukr_leaks_eng/33707",
-      "post_id": 33707,
-      "channel": "ukr_leaks_eng",
-      "ts": "2026-10-03T15:24:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/119809",
-      "post_id": 119809,
-      "channel": "eRadarrua",
-      "ts": "2026-10-03T15:00:51+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/f_ZEcEw8lRC1HnS5QrbA0JtAgzjLUzOlUuHyPsk_MKp-dVJ5D33xSZOGSuegZ-iqRgg4jMu6naw8_dqlqoshk1DAPaTbDZOSan2yVVN3an36833blb-3w4ERUDVGs9u4_d_vh0sHTyfINYx0w6Q_Ie9a3rUSY2yjSaTGrgpFZJDt87lfa-nkUCAIoj8iZJbxjU-Um9VGue1KGc5b2fuw9yokYKeYiMmB_qOoyTM3KrTx1WPoFbcpqLoQD8swAx_81Qyz4HDyIBukyM03Hj7Xxd_ymtdnEQdu2GEbOaOpPSdnL7whfDi3KBWp0baO-xNht6vljw3B6uPrrqtPlK2gRw.jpg",
-      "companion_text_id": 119807
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/119808",
-      "post_id": 119808,
-      "channel": "eRadarrua",
-      "ts": "2026-10-03T14:59:50+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/fL9pC5vJq0W2VgLo1H1sPm-IVkJpMKKFe13aBH5Kx5EqcadM_wqY_maCOjd1WvrmM0vnE55nvH8f38lMwLQ8MfQbPk_fze-gvSf9qkeELkJFD55ozFGLl7V54yMc95ijYmdiLOONq0J-ja5nXwI-8w5WNTkKkotvAJaOdU7WHhsay2uKhRkZlU14IBa8VSVYpfsz5GlBazdbVcoLipF9J-UVpiWjq7ufg271MiyuG1TiaWkwMu9yZ9wZ__NhbOReF86VcBi-APd2C4VO_GSG8zypVd1qnJnaAoku26yM3h2RF_wV_xIB-iVohjvRrJfYMjkMk5YmLo_qPYVSDltUAA.jpg",
-      "companion_text_id": 119807
     }
   ],
   "post_images": {
+    "eRadarrua/119947": "data/media/eRadarrua_119947.jpg",
+    "eRadarrua/119946": "data/media/eRadarrua_119947.jpg",
     "eRadarrua/119893": "data/media/eRadarrua_119893.jpg",
     "eRadarrua/119892": "data/media/eRadarrua_119893.jpg",
     "eRadarrua/119870": "data/media/eRadarrua_119870.jpg",
-    "eRadarrua/119868": "data/media/eRadarrua_119870.jpg",
     "eRadarrua/119880": "data/media/eRadarrua_119880.jpg",
     "eRadarrua/119882": "data/media/eRadarrua_119880.jpg",
     "eRadarrua/119847": "data/media/eRadarrua_119847.jpg",
     "eRadarrua/119846": "data/media/eRadarrua_119847.jpg",
     "eRadarrua/119848": "data/media/eRadarrua_119848.jpg",
-    "eRadarrua/119824": "data/media/eRadarrua_119824.jpg",
-    "eRadarrua/119823": "data/media/eRadarrua_119824.jpg",
-    "eRadarrua/119826": "data/media/eRadarrua_119826.jpg",
-    "eRadarrua/119825": "data/media/eRadarrua_119826.jpg",
-    "eRadarrua/119806": "data/media/eRadarrua_119806.jpg",
-    "eRadarrua/119807": "data/media/eRadarrua_119806.jpg",
-    "eRadarrua/119808": "data/media/eRadarrua_119808.jpg",
     "eRadarrua/119809": "data/media/eRadarrua_119809.jpg",
+    "eRadarrua/119807": "data/media/eRadarrua_119809.jpg",
     "eRadarrua/119810": "data/media/eRadarrua_119810.jpg",
     "eRadarrua/119811": "data/media/eRadarrua_119811.jpg",
     "eRadarrua/119812": "data/media/eRadarrua_119812.jpg",
     "eRadarrua/119813": "data/media/eRadarrua_119812.jpg",
-    "eRadarrua/119784": "data/media/eRadarrua_119784.jpg",
-    "eRadarrua/119785": "data/media/eRadarrua_119785.jpg",
-    "eRadarrua/119787": "data/media/eRadarrua_119785.jpg",
-    "kpszsu/82542": "data/media/kpszsu_82542.jpg",
-    "kpszsu/82541": "data/media/kpszsu_82542.jpg"
+    "eRadarrua/119824": "data/media/eRadarrua_119824.jpg",
+    "eRadarrua/119823": "data/media/eRadarrua_119824.jpg",
+    "eRadarrua/119826": "data/media/eRadarrua_119826.jpg",
+    "eRadarrua/119825": "data/media/eRadarrua_119826.jpg",
+    "eRadarrua/119790": "data/media/eRadarrua_119790.jpg",
+    "eRadarrua/119792": "data/media/eRadarrua_119792.jpg",
+    "eRadarrua/119797": "data/media/eRadarrua_119797.jpg",
+    "eRadarrua/119796": "data/media/eRadarrua_119797.jpg",
+    "kpszsu/82681": "data/media/kpszsu_82681.jpg",
+    "kpszsu/82680": "data/media/kpszsu_82681.jpg"
   },
-  "summary": "Russian forces conducted drone and missile strikes across multiple Ukrainian regions including Kyiv, Chernihiv, and Odesa, with air raid alerts reported throughout the day. Ukrainian air defenses reportedly shot down 131 of 157 Russian drones, with 45 being cruise missiles. Russia claimed strikes on logistics centers in Zaporizhzhia and Odesa, while Ukraine reported advances on the eastern front near Lyman.",
+  "summary": "Russia launched a massive overnight aerial attack with 135 strike UAVs including 52 jet-powered Shaheds and cruise missiles targeting Kyiv and multiple Ukrainian regions; Ukrainian air defenses reported downing 123 UAVs and two cruise missiles with impacts at five locations. Ukraine struck the Khanskaya airfield in Russia's Adygea Republic and conducted Iskander missile strikes on Russian positions in Bryansk region. German Chancellor Friedrich Merz made an unannounced visit to Kyiv pledging continued support. (Source: @kpszsu/82680, @UkraineNow/84471, @UkraineNow/84464, @UkraineNow/84469)",
   "key_points": [
-    "Russian forces launched coordinated drone and missile attacks across Kyiv, Chernihiv, and Odesa regions, triggering repeated air raid alerts throughout the day. (Source: @eRadarrua/119942)",
-    "Ukrainian air defenses shot down 131 of 157 Russian drones, including 45 cruise missiles, with impacts reported at 12 locations. (Source: @UkraineNow/84456)",
-    "Russian MoD claimed destruction of Ukrainian reserve groups in Zaporizhzhia region using attack drones. (Source: @tass_agency/398674)",
-    "Russian forces struck logistics center 'Nova Pochta' in Chernomorsk and data center in Odesa using 'Geran' drones. (Source: @tass_agency/398684)",
-    "Ukrainian military reported advances on multiple sectors, particularly near Lyman where they reclaimed at least 200 sq km. (Source: @UkraineNow/84458)",
-    "Air raid alerts were active in Kyiv region throughout the morning and evening, with drone threats reported at yellow level. (Source: @eRadarrua/119937)",
-    "Russian Foreign Ministry warned foreign diplomats in Kyiv to leave Ukraine, stating continued military strikes. (Source: @UkraineNow/84468)"
+    "Russian forces launched 135 strike UAVs (52 jet-powered) and cruise missiles from multiple directions including Russian territory and occupied Crimea/Donetsk, with Ukrainian air defense claiming 123 UAVs and 2 cruise missiles destroyed. (Source: @kpszsu/82680)",
+    "Ukrainian drones attacked the Khanskaya airfield in Russia's Adygea Republic, where Su-34 and Su-27 aircraft were based in 2024, causing a probable fire. (Source: @UkraineNow/84471)",
+    "Ukrainian forces struck Russian positions in Bryansk region with Iskander missiles and extended sanctions effects to Samara region. (Source: @UkraineNow/84464)",
+    "Russian air defense claimed shooting down 559 Ukrainian UAVs over Russian regions overnight. (Source: @tass_agency/398689)",
+    "Russian forces used FAB-250 and FAB-500 bombs to strike UAV control points and AFU temporary deployment locations in DNR and Sumy region. (Source: @tass_agency/398688)",
+    "German Chancellor Friedrich Merz arrived in Kyiv on an unannounced visit, stating Germany's support is crucial in coming weeks. (Source: @UkraineNow/84469)",
+    "Ukraine faces a $15 billion shortfall of $27 billion in additional defense needs for the year, per Finance Minister Marchenko. (Source: @ukr_leaks_eng/33706)",
+    "Remote-controlled Geran drones struck dry-cargo ships in Chernomorsk port, Bug Estuary, and Black Sea waters. (Source: @ukr_leaks_eng/33705)"
   ],
-  "sentiment": "active",
+  "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces conducted widespread drone and missile strikes across central and southern Ukraine, with air raid alerts active throughout Kyiv, Chernihiv, and Odesa regions. Ukrainian air defenses reported shooting down 131 of 157 Russian drones, including 45 cruise missiles, with impacts at 12 locations. Russia claimed successful strikes on logistics infrastructure in Zaporizhzhia and Odesa, while Ukraine reported territorial advances near Lyman.",
-    "ukraine": [
-      "Multiple air raid alerts were issued throughout the day across Kyiv, Chernihiv, and surrounding regions, with drone threats reported at yellow level. Air defense systems were actively engaged against incoming aerial targets. (Source: @eRadarrua/119942)",
-      "Ukrainian air defenses shot down 131 of 157 Russian drones, including 45 cruise missiles, with impacts reported at 12 different locations across the country. The air campaign involved various drone types including Geran-5 variants. (Source: @UkraineNow/84456)",
-      "Infrastructure Minister Kalashnik announced plans to construct backup crossings across the Dnieper River in the form of earthen causeways, intended to provide at least half of current traffic capacity. The project is expected to take up to three months. (Source: @ukr_leaks_eng/33708)",
-      "Mayor Klitschko stated that residents of Kyiv will have to forget about peaceful life as the enemy continues destroying infrastructure, critical facilities, logistics, housing, and social facilities. The energy sector has also come under attack. (Source: @ukr_leaks_eng/33695)",
-      "Finance Minister Marchenko reported Ukraine faces a shortfall of approximately $15 billion out of $27 billion in additional defense needs for the remainder of the year. Domestic resources are expected to cover about $7 billion. (Source: @ukr_leaks_eng/33706)"
-    ],
-    "russia": [
-      "Russian Ministry of Defense claimed that attack drones destroyed Ukrainian reserve groups in Zaporizhzhia region, with video footage provided by the ministry. (Source: @tass_agency/398674)",
-      "Russian forces struck logistics center 'Nova Pochta' in Chernomorsk and a data center in Odesa using 'Geran' drones, according to Russian MoD statements. (Source: @tass_agency/398684)",
-      "Russian Foreign Ministry openly threatened foreign diplomats in Kyiv, calling on them to leave Ukraine, and stated that the Russian army will continue to deliver strikes. (Source: @UkraineNow/84468)",
-      "Russian Security Council Deputy Medvedev stated that Russian-produced weapons are primarily aimed at achieving victory in the special military operation, and he personally oversees this area. (Source: @tass_agency/398671)",
-      "Russian military expert Marochko claimed Ukraine has lost more than 80% of its exports that previously went through Odesa following Russian strikes, making large-scale Western shipments impossible. (Source: @tass_agency/398668)"
-    ],
-    "eastern_front": [
-      "Ukrainian military reported advances on multiple sectors, particularly near Lyman where they reclaimed at least 200 square kilometers of territory. (Source: @UkraineNow/84458)",
-      "DeepState map updates indicated Russian forces made advances near Kotlyarovsk, with ongoing positional fighting in the area. (Source: @DeepStateUA/23879)",
-      "Drone activity was reported along the Chernihiv region border with Belarus, with reconnaissance drones flying toward Kyiv region. (Source: @kpszsu/82600)",
-      "Railway infrastructure in the eastern regions continued to face threats from drone attacks, with reports of drone flights near key transportation hubs. (Source: @kpszsu/82637)"
-    ],
-    "northern_front": [
-      "Air raid alerts were active in Kyiv region throughout the morning and evening hours, with drone threats reported at yellow level. (Source: @eRadarrua/119942)",
-      "Two cruise missiles were reported heading toward Kyiv from the north, with air defense systems engaged. (Source: @mon1tor_ua/76048)",
-      "A Geran-5 drone was reported approaching Kyiv from the north, with air defense systems tracking the threat. (Source: @mon1tor_ua/76042)",
-      "Drone activity was detected near Borovary district of Kyiv region, with one drone reported flying toward the city from the north. (Source: @mon1tor_ua/76036)"
-    ],
-    "southern_front": [
-      "Russian forces struck logistics center 'Nova Pochta' in Chernomorsk using 'Geran' drones, according to Russian MoD statements. (Source: @tass_agency/398684)",
-      "Remote-controlled 'Geran' drones are striking dry-cargo ships in the port of Chernomorsk, as well as in the waters of the Bug Estuary and the Black Sea. (Source: @ukr_leaks_eng/33705)",
-      "Drone activity was reported in Odesa region, with one drone reported flying from Odesa region toward Moldova. (Source: @mon1tor_ua/76035)",
-      "Container shipping through Odesa port has been significantly disrupted, with Russian military expert Marochko claiming Ukraine has lost more than 80% of its exports through this route. (Source: @tass_agency/398668)"
-    ],
-    "air_war": [
-      "Ukrainian air defenses shot down 131 of 157 Russian drones, including 45 cruise missiles, with impacts reported at 12 locations. (Source: @UkraineNow/84456)",
-      "Air raid alerts were issued multiple times throughout the day across Kyiv, Chernihiv, and surrounding regions, with drone threats at yellow level. (Source: @eRadarrua/119942)",
-      "Two cruise missiles were reported heading toward Kyiv from the north, with air defense systems engaged. (Source: @mon1tor_ua/76048)",
-      "A Geran-5 drone was reported approaching Kyiv from the north, with air defense systems tracking the threat. (Source: @mon1tor_ua/76042)",
-      "Drone activity was detected near various locations including Borovary district, Vyshgorod, and along the Dnipro reservoir. (Source: @mon1tor_ua/76036)"
-    ],
+    "executive_summary": "Russia launched a massive overnight aerial attack with 135 strike UAVs including 52 jet-powered Shaheds and cruise missiles targeting Kyiv and multiple Ukrainian regions; Ukrainian air defenses reported downing 123 UAVs and two cruise missiles with impacts at five locations. Ukraine struck the Khanskaya airfield in Russia's Adygea Republic and conducted Iskander missile strikes on Russian positions in Bryansk region. German Chancellor Friedrich Merz made an unannounced visit to Kyiv pledging continued support. (Source: @kpszsu/82680, @UkraineNow/84471, @UkraineNow/84464, @UkraineNow/84469)",
+    "ukraine": {
+      "points": [
+        "Ukrainian drones attacked the Khanskaya airfield in Russia's Adygea Republic, where Su-34 and Su-27 fighters were based in 2024, with OSINT channels reporting a probable fire in the airfield area. (Source: @UkraineNow/84471)",
+        "Ukrainian forces launched Iskander missile strikes on Russian positions in Bryansk region, with President Zelensky stating sanctions effects have reached Samara region and new results achieved in the Black Sea. (Source: @UkraineNow/84464)",
+        "Construction of backup crossings across the Dnieper in Kyiv, including earthen causeways and a potential tunnel, is set to begin next week to provide at least half of current traffic capacity, per Infrastructure Minister Kalashnik. (Source: @ukr_leaks_eng/33708)",
+        "Nova Poshta reduced free storage period for parcels from 7 to 5 days due to air strikes on infrastructure, according to company announcement. (Source: @ukr_leaks_eng/33707)",
+        "The Guardian reports Western nations have drawn up contingency plans to relocate embassies from Kyiv to Lviv or eastern Poland if security deteriorates further. (Source: @ukr_leaks_eng/33711)"
+      ]
+    },
+    "russia": {
+      "points": [
+        "Russian forces launched 135 strike UAVs (52 jet-powered Shaheds, Gerbera, Banderoil/Dan-T, and Parody decoys) from Orel, Kursk, Millerovo, Primorsko-Akhtarsk, occupied Donetsk, and occupied Crimea (Guardianskoye) overnight. (Source: @kpszsu/82680)",
+        "Russian air defense claimed shooting down 559 Ukrainian UAVs over Russian regions overnight, per Ministry of Defense statement. (Source: @tass_agency/398689)",
+        "Russian forces struck UAV control points and AFU temporary deployment locations in DNR and Sumy region using FAB-250 and FAB-500 aerial bombs, per Russian Ministry of Defense video. (Source: @tass_agency/398688)",
+        "Russian cruise missiles (Banderoil) were launched from Chernihiv region toward Kyiv region, Vyshhorod district, and from northern Chernihiv region toward Slavutych, per monitoring channels. (Source: @mon1tor_ua/76034, @kpszsu/82607)",
+        "Russian Su-34 aircraft launched KAB guided bombs from Bryansk region toward Chernihiv region, course Semenivka, per radar tracking. (Source: @eRadarrua/119940)"
+      ]
+    },
+    "eastern_front": {
+      "points": [
+        "DeepStateMap reports Russian forces advanced near Kotlyne in the eastern front sector, with map updated to reflect positional changes. (Source: @DeepStateUA/23879)",
+        "Russian forces conducted FAB-250 and FAB-500 strikes on UAV control points and AFU temporary deployment locations in the Donetsk People's Republic (DNR). (Source: @tass_agency/398688)",
+        "Ukrainian forces reportedly advanced on the Lyman sector, retaking at least 200 square kilometers according to Espreso data cited by UkraineNow. (Source: @UkraineNow/84458)",
+        "Russian strike UAVs were launched from occupied Donetsk territory as part of the mass overnight attack on Ukraine. (Source: @kpszsu/82680)"
+      ]
+    },
+    "northern_front": {
+      "points": [
+        "Multiple jet-powered Shahed UAVs were detected over northern Chernihiv region heading toward Slavutych and Kyiv region, with monitoring channels tracking their courses. (Source: @kpszsu/82607, @kpszsu/82617)",
+        "Russian cruise missiles (Banderoil) launched from Chernihiv region targeted Kyiv region, Vyshhorod district, and Brovary district, per monitoring reports. (Source: @mon1tor_ua/76034, @mon1tor_ua/76045)",
+        "Russian Su-34 aircraft launched KAB guided bombs from Bryansk region toward Chernihiv region, course Semenivka, per radar tracking. (Source: @eRadarrua/119940)",
+        "Air alerts and drone threats were active over Kyiv and Chernihiv regions throughout the night, with multiple air raid warnings issued and lifted. (Source: @eRadarrua/119918, @eRadarrua/119912, @eRadarrua/119925, @eRadarrua/119945)"
+      ]
+    },
+    "southern_front": {
+      "points": [
+        "Russian Geran-5 missiles struck the Nova Poshta logistics center in Chornomorsk and a data center in Odesa, per Russian Ministry of Defense video. (Source: @tass_agency/398684)",
+        "Remote-controlled Geran drones attacked dry-cargo ships in the port of Chornomorsk, the Bug Estuary, and Black Sea waters. (Source: @ukr_leaks_eng/33705)",
+        "Ukrainian strikes achieved new results in the Black Sea, per President Zelensky's statement. (Source: @UkraineNow/84464)",
+        "Moldovan authorities reported missile and drone debris found in multiple districts after overnight explosions, with three missiles and two drones hitting Moldovan territory. (Source: @UkraineNow/84458)"
+      ]
+    },
+    "air_war": {
+      "points": [
+        "Ukraine's air defense reported destroying 123 Shahed, Gerbera, and other type UAVs plus two Banderoil/Dan-T cruise missiles during the overnight mass attack, with impacts at five locations and debris at five locations. (Source: @kpszsu/82680)",
+        "Monitoring channels tracked multiple jet-powered Shahed UAVs from Kirovohrad region to Cherkasy region, from Cherkasy region to Kyiv region (Bila Tserkva district), from Chernihiv region to Kyiv region (Vyshhorod district), and from north toward Kyiv. (Source: @mon1tor_ua/76036)",
+        "Geran-5 missiles were launched toward Kyiv from the north, with one striking the Northern Bridge in Kyiv causing traffic disruptions. (Source: @mon1tor_ua/76046, @ukr_leaks_eng/33696)",
+        "Kyiv experienced multiple air raid alerts overnight (01:31, 02:57, 04:47) with drone threat yellow level, all cleared by 07:49. (Source: @eRadarrua/119909, @eRadarrua/119918, @eRadarrua/119925, @eRadarrua/119945)",
+        "Russian air defense claimed 559 Ukrainian UAVs shot down over Russian regions overnight, per Ministry of Defense. (Source: @tass_agency/398689)"
+      ]
+    },
     "key_developments": [
-      "Russian forces launched coordinated drone and missile strikes across Kyiv, Chernihiv, and Odesa regions, triggering repeated air raid alerts throughout the day. (Source: @eRadarrua/119942)",
-      "Ukrainian air defenses shot down 131 of 157 Russian drones, including 45 cruise missiles, with impacts reported at 12 locations. (Source: @UkraineNow/84456)",
-      "Russian MoD claimed destruction of Ukrainian reserve groups in Zaporizhzhia region using attack drones. (Source: @tass_agency/398674)",
-      "Russian forces struck logistics center 'Nova Pochta' in Chernomorsk and data center in Odesa using 'Geran' drones. (Source: @tass_agency/398684)",
-      "Ukrainian military reported advances on multiple sectors, particularly near Lyman where they reclaimed at least 200 sq km. (Source: @UkraineNow/84458)",
-      "Russian Foreign Ministry warned foreign diplomats in Kyiv to leave Ukraine, stating continued military strikes. (Source: @UkraineNow/84468)",
-      "Infrastructure Minister Kalashnik announced plans to construct backup crossings across the Dnieper River in the form of earthen causeways. (Source: @ukr_leaks_eng/33708)"
+      "Russia conducted a mass overnight aerial attack with 135 strike UAVs (52 jet-powered) and cruise missiles from six launch directions; Ukrainian air defense intercepted 123 UAVs and two cruise missiles, with five impact sites confirmed. (Source: @kpszsu/82680)",
+      "Ukrainian drones struck Khanskaya airfield in Russia's Adygea Republic, targeting a base for Su-34/Su-27 fighters, demonstrating extended strike reach into Russian rear areas. (Source: @UkraineNow/84471)",
+      "Ukrainian Iskander missiles hit Russian positions in Bryansk region, while Zelensky reported sanctions effects reaching Samara region and new Black Sea results. (Source: @UkraineNow/84464)",
+      "Russian forces used FAB-250/500 bombs to strike UAV control points and AFU positions in DNR and Sumy region, indicating continued guided bomb usage on near-front targets. (Source: @tass_agency/398688)",
+      "German Chancellor Friedrich Merz made unannounced Kyiv visit, signaling high-level political commitment amid concerns of a fifth war winter and Russian terror bombing. (Source: @UkraineNow/84469)",
+      "Ukraine faces $15B defense funding shortfall of $27B total needs; Finance Minister Marchenko outlined $7B domestic coverage and $12B expected from EU cooperation. (Source: @ukr_leaks_eng/33706)",
+      "Geran drones attacked commercial shipping in Chornomorsk port, Bug Estuary, and Black Sea, while Russian missiles hit Nova Poshta logistics center in Chornomorsk and Odesa data center. (Source: @ukr_leaks_eng/33705, @tass_agency/398684)"
     ],
-    "threat_assessment": "Russian forces continue to conduct widespread drone and missile campaigns targeting critical infrastructure across central and southern Ukraine. The scale of attacks, with 157 aerial targets launched in a single day, indicates sustained offensive capability and intent to degrade Ukrainian defensive capacity. Ukrainian air defenses are effectively countering a significant portion of these attacks but remain under pressure from coordinated multi-vector assaults. The targeting of logistics hubs and data centers suggests an effort to disrupt both military and civilian supply chains. Continued escalation in strike intensity poses risks to regional stability and civilian populations.",
-    "regional_response": "Western nations have reportedly drawn up contingency plans to relocate their embassies from Kyiv should the security situation deteriorate further, with potential relocation sites including Lviv or eastern Poland. Ukrainian leadership continues to request additional military and financial support from Western partners, with Finance Minister Marchenko reporting a $15 billion shortfall in defense funding. Diplomatic tensions are rising as Russia openly threatens foreign diplomats in Kyiv. The European Union faces pressure to address concerns raised by Albanian Prime Minister Edi Rama regarding Ukraine's accession prospects. Regional security coordination among NATO members remains focused on supporting Ukrainian air defense capabilities.",
-    "intelligence_notes": "Russian domestic security services are investigating potential corruption within the command structure of Ukraine's 116th Mechanized Brigade in Sumy region, according to Russian state media. Russian military expenditure planning shows Ukraine allocating 131% of projected budget revenues to defense spending in 2027, requiring substantial Western financial support. Social engineering tactics are being used in personalized attacks against Russian citizens, with fraudsters studying victims' social media profiles and personal circumstances. A car chase incident in Kharkiv involving TCC officers resulted in a crash with a child inside the vehicle. Satellite monitoring detected fires at a drone launch base in Oryol region following a Ukrainian strike."
+    "threat_assessment": "The massive scale of Russia's overnight aerial attack—135 UAVs including 52 jet-powered variants plus cruise missiles—demonstrates sustained long-range strike capacity and intent to overwhelm Ukrainian air defenses across multiple regions. Ukraine's successful interception of 123 UAVs and two cruise missiles indicates effective air defense coordination, but confirmed impacts at five locations reveal penetration risks. Ukrainian strikes on Khanskaya airfield and Bryansk region with Iskanders show growing deep-strike capability, while Geran attacks on Black Sea shipping signal escalation in maritime economic warfare. German Chancellor Merz's visit underscores Western political resolve, yet the $15 billion defense funding gap threatens sustainment of Ukrainian operations. Russian FAB-guided bomb strikes on UAV control points in DNR and Sumy region reflect continued adaptation of tactical aviation for precision"
   },
   "missiles": 0,
-  "drones": 157,
+  "drones": 135,
   "kpszsu_timeline": [
-    4,
     3,
     0,
+    1,
+    0,
+    6,
+    6,
+    1,
+    6,
+    5,
+    1,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
     2,
     0,
-    0,
-    9,
-    1,
-    3,
-    7,
-    3,
-    4,
-    1,
     2,
-    3,
-    1,
-    1,
-    0,
-    3,
-    0,
-    4,
-    0,
-    0,
-    3
+    5,
+    4
   ]
 }
