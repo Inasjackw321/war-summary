@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-10-05T23:02:38.339054+00:00",
-  "message_count": 404,
+  "updated_at": "2026-10-06T01:35:01.058977+00:00",
+  "message_count": 400,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -14,16 +14,16 @@
   "red_alerts": 205,
   "red_alerts_timeline": [
     0,
-    29,
     0,
     0,
+    68,
+    34,
     0,
-    29,
-    29,
-    29,
+    68,
     0,
-    59,
-    29,
+    34,
+    0,
+    0,
     0,
     0,
     0,
@@ -39,59 +39,70 @@
     0
   ],
   "combined_activity_timeline": [
-    3,
-    9,
-    9,
-    10,
-    12,
-    11,
-    11,
-    25,
-    20,
-    25,
-    33,
-    19,
-    14,
-    22,
-    34,
-    21,
-    32,
-    20,
-    15,
-    13,
-    11,
-    17,
+    4,
     7,
-    10
+    7,
+    10,
+    14,
+    25,
+    22,
+    31,
+    23,
+    18,
+    16,
+    29,
+    27,
+    27,
+    29,
+    15,
+    9,
+    14,
+    19,
+    8,
+    12,
+    5,
+    15,
+    14
   ],
   "messages_by_channel": {
-    "@eRadarrua": 77,
-    "@kpszsu": 122,
-    "@mon1tor_ua": 23,
+    "@eRadarrua": 70,
+    "@kpszsu": 110,
+    "@mon1tor_ua": 27,
     "@UkraineNow": 18,
     "@DeepStateUA": 1,
     "@ukr_leaks_eng": 24,
-    "@tass_agency": 139
+    "@tass_agency": 150
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/120367",
-    "kpszsu": "https://t.me/kpszsu/83154",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/76090",
+    "kpszsu": "https://t.me/kpszsu/83183",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/76096",
     "UkraineNow": "https://t.me/UkraineNow/84506",
     "DeepStateUA": "https://t.me/DeepStateUA/23883",
     "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33754",
-    "tass_agency": "https://t.me/tass_agency/398917"
+    "tass_agency": "https://t.me/tass_agency/398936"
   },
   "cited_post_urls": {
-    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33734",
+    "tass_agency": "https://t.me/tass_agency/398926",
     "eRadarrua": "https://t.me/eRadarrua/120295",
-    "tass_agency": "https://t.me/tass_agency/398898",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/76085",
-    "UkraineNow": "https://t.me/UkraineNow/84488",
-    "kpszsu": "https://t.me/kpszsu/83066",
-    "DeepStateUA": "https://t.me/DeepStateUA/23882"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/76088",
+    "ukr_leaks_eng": "https://t.me/ukr_leaks_eng/33746",
+    "UkraineNow": "https://t.me/UkraineNow/84504",
+    "kpszsu": "https://t.me/kpszsu/83149"
   },
   "media": [
+    {
+      "post_url": "https://t.me/tass_agency/398932",
+      "post_id": 398932,
+      "channel": "tass_agency",
+      "ts": "2026-10-06T00:59:01+00:00"
+    },
+    {
+      "post_url": "https://t.me/tass_agency/398930",
+      "post_id": 398930,
+      "channel": "tass_agency",
+      "ts": "2026-10-06T00:53:01+00:00"
+    },
     {
       "post_url": "https://t.me/tass_agency/398916",
       "post_id": 398916,
@@ -214,18 +225,6 @@
       "ts": "2026-10-05T16:46:47+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/HcJcIBAwOrnTpHM40fZ3ld4wK0EfNgzYsY-quGgNqPX4JL71sgecL_UhtT03Fp1awSxbB68JoRHZVIC2MUdiuJxhFtjP-DjwFacjnzz4enlT9l8SCHHdy51uoXD9lznaCnSDhp9hPQGdE9OEylr8l08QPxjRar5FCaS9g3nHKBPkvpbBi9MPcNHL0m7ykquVYBu9hLWUyFVcn2EJYZg1XHApQNOGGOKyBozTGPFulfqH5W9tix5tjr2u2xAKm8_DeDl3wSDQDLyiXsFTNQhr85D5Jj1JtjaAUliPACnyyhhOROl4HSMH_4SIyf2FgHuYXEBypEuhRSnmj8DH0s_jBQ.jpg",
       "companion_text_id": 120316
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/84503",
-      "post_id": 84503,
-      "channel": "UkraineNow",
-      "ts": "2026-10-05T16:33:27+00:00"
-    },
-    {
-      "post_url": "https://t.me/tass_agency/398895",
-      "post_id": 398895,
-      "channel": "tass_agency",
-      "ts": "2026-10-05T16:29:02+00:00"
     }
   ],
   "post_images": {
@@ -249,109 +248,102 @@
     "eRadarrua/120286": "data/media/eRadarrua_120286.jpg",
     "eRadarrua/120288": "data/media/eRadarrua_120288.jpg",
     "eRadarrua/120289": "data/media/eRadarrua_120289.jpg",
-    "eRadarrua/120291": "data/media/eRadarrua_120291.jpg",
-    "kpszsu/82937": "data/media/kpszsu_82937.jpg",
-    "kpszsu/82936": "data/media/kpszsu_82937.jpg"
+    "eRadarrua/120291": "data/media/eRadarrua_120291.jpg"
   },
-  "summary": "Russian forces liberated Samoylovka in Zaporizhzhia region while launching massive drone and missile barrages across Ukraine, including deadly strikes on Kharkiv and Berdychiv. Ukraine deployed AI-controlled automatic turrets in Kyiv to counter jet-powered Shahed drones as winter readiness lags at 40%. Russian air defense claimed 343 Ukrainian drones shot down in 24 hours, and a Tu-95 bomber crashed in Amur region killing six crew.",
+  "summary": "Russia is redeploying 10 Tu-95MS and 3 Tu-160 bombers to Olenya and Belaya airfields, threatening a massive combined strike on Ukraine by October 10. Multiple Shahed and Geran-5 missile attacks hit Kyiv, Kropyvnytskyi, Dnipro, Vinnytsia, Poltava, Kharkiv, and southern regions simultaneously. Ukraine-Germany signed 15 defense and energy agreements worth €8.5 billion, while Poland deploys Patriot near the border.",
   "key_points": [
-    "Russian Vostok group liberated Samoylovka in Zaporizhzhia region, advancing on eastern front. (Source: @ukr_leaks_eng/33734)",
-    "Russian strike on Kharkiv high-rise and sewing workshop killed 5 civilians, injured 35. (Source: @eRadarrua/120295)",
-    "Russian strike drone hit Berdychiv residential building, damaging floors 4-9, 65 rescuers deployed. (Source: @eRadarrua/120266)",
-    "Russian air defense claims 343 Ukrainian drones shot down over Russian regions and Black Sea. (Source: @tass_agency/398898)",
-    "Massive Russian drone/missile barrage across 10+ Ukrainian regions using Geran-5, Shahed, Banderoil. (Source: @mon1tor_ua/76085)",
-    "Ukraine operationalized 12 AI-controlled automatic turrets in Kyiv to intercept jet-powered Shaheds. (Source: @UkraineNow/84488)",
-    "Russian strikes destroyed over 500 Ukrainian locomotives since war start, crippling railway logistics. (Source: @ukr_leaks_eng/33736)",
-    "Kyiv only 40% winter-ready; defensive lines with 35 rows of barbed wire constructed. (Source: @ukr_leaks_eng/33747, @ukr_leaks_eng/33749)"
+    "Russia claims strike on Northern auto bridge over Dnipro in Kyiv, a key logistics route (Source: @tass_agency/398926).",
+    "Kharkiv struck: multi-story building and sewing workshop hit, 5 killed, 35 injured (Source: @eRadarrua/120295).",
+    "10 Tu-95MS and 3 Tu-160 bombers redeploying to Olenya and Belaya; massive combined strike possible by Oct 10 (Source: @mon1tor_ua/76088).",
+    "Ukraine-Germany concluded 15 defense and energy agreements worth €8.5 billion, including Patriot production and air defense (Source: @ukr_leaks_eng/33746).",
+    "Poland deploying Patriot battery in Lublin voivodeship near Ukrainian border and forming new drone brigade (Source: @UkraineNow/84504).",
+    "12 automated turrets installed in Kyiv to counter jet-powered Shahed drones (Source: @UkraineNow/84498).",
+    "Dense defensive lines with up to 35 rows of barbed wire being built in Kyiv region anticipating Russian offensive from north (Source: @ukr_leaks_eng/33749)."
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces liberated Samoylovka in Zaporizhzhia region while launching massive drone and missile barrages across Ukraine, including deadly strikes on Kharkiv and Berdychiv. Ukraine deployed AI-controlled automatic turrets in Kyiv to counter jet-powered Shahed drones as winter readiness lags at 40%. Russian air defense claimed 343 Ukrainian drones shot down in 24 hours, and a Tu-95 bomber crashed in Amur region killing six crew.",
-    "ukraine": {
-      "points": [
-        "Ukraine installed 12 AI-controlled automatic turrets in Kyiv using machine guns to intercept jet-powered Shahed drones, with plans for further deployment across the capital. (Source: @UkraineNow/84488)",
-        "Ukrainian railway locomotive reserve depleted after Russian strikes destroyed over 500 locomotives since conflict began, per Financial Times reporting. (Source: @ukr_leaks_eng/33736)",
-        "Kyiv's winter readiness only 40% complete due to late funding allocation and contractor payments, risking 14-16 hour power outages if energy strikes continue. (Source: @ukr_leaks_eng/33747, @ukr_leaks_eng/33732)",
-        "Dense defensive fortifications constructed in Kyiv region including up to 35 rows of barbed wire anticipating potential Russian northern offensive. (Source: @ukr_leaks_eng/33749)",
-        "Ukrainian drone activity remains high: Russian MoD claims 343 Ukrainian UAVs shot down over Russian regions and Black Sea in single day. (Source: @tass_agency/398898)"
-      ]
-    },
-    "russia": {
-      "points": [
-        "Russian Vostok group of forces liberated Samoylovka village in Zaporizhzhia region, indicating continued offensive operations on eastern front. (Source: @ukr_leaks_eng/33734)",
-        "Russian forces conducted strike on Kharkiv residential high-rise and sewing workshop, killing 5 civilians and injuring 35, with rescue operations ongoing. (Source: @eRadarrua/120295)",
-        "Russian strike drone attacked Berdychiv, Zhytomyr region, hitting residential building floors 4-9, requiring 17 equipment units and 65 rescuers. (Source: @eRadarrua/120266)",
-        "Russian missile and drone barrage launched from multiple directions: Geran-5 missiles from Bryansk, Chernihiv, Kyiv, Zhytomyr; Shahed drones from Sumy, Poltava, Cherkasy, Mykolaiv, Dnipropetrovsk targeting Kyiv, Zhytomyr, Rivne, Kryvyi Rih, Mykolaiv, Odesa, Kropyvnytskyi, Vinnytsia, Cherkasy. (Source: @mon1tor_ua/76085, @mon1tor_ua/76082, @mon1tor_ua/76064, @mon1tor_ua/76065, @kpszsu/83066, @kpszsu/83085, @kpszsu/83092, @kpszsu/83115, @eRadarrua/120283, @eRadarrua/120300, @eRadarrua/120336)",
-        "Russian strikes targeted energy and port infrastructure: Kochetok electrical substation (Kharkiv), Vilkovo port facility, fuel storage at Chornomorsk port, dry cargo ship in Odesa region. (Source: @ukr_leaks_eng/33729)",
-        "Russian Tu-95 strategic bomber crashed in Amur region during training, 6 of 7 crew members killed. (Source: @UkraineNow/84496)",
-        "Russian air defense claims 343 Ukrainian drones intercepted in 24 hours over Russian territory and Black Sea. (Source: @tass_agency/398898)"
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Russian Vostok group liberated Samoylovka in Zaporizhzhia region, confirming continued offensive operations in eastern Ukraine. (Source: @ukr_leaks_eng/33734)",
-        "DeepState map update confirms Russian forces advanced near Tsvitkove in Donetsk/Zaporizhzhia area. (Source: @DeepStateUA/23882)",
-        "Russian strikes hit Kochetok electrical substation in Kharkiv region, part of systematic energy infrastructure targeting. (Source: @ukr_leaks_eng/33729)",
-        "Russian forces employed Banderoil missiles and reactive UAVs against targets in Cherkasy region (Tsvitkove/Shpola) and Kirovohrad region (Nova Praha). (Source: @kpszsu/83069, @kpszsu/83092)",
-        "Russian jet-powered Shahed drones attacked industrial targets in Dnipropetrovsk region (Kryvyi Rih, Lykhivka) from southern and northern directions. (Source: @mon1tor_ua/76085, @eRadarrua/120300)"
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Russian Geran-5 missiles launched from Bryansk region toward Chernihiv region (Chernihiv district) and from Chernihiv region toward Kyiv region (Vyshhorod district). (Source: @mon1tor_ua/76085, @mon1tor_ua/76074)",
-        "Russian Shahed drones launched from Sumy region toward Chernihiv region (Pryluky, Nizhyn districts) with 10 drones reported in one wave. (Source: @mon1tor_ua/76064, @mon1tor_ua/76065)",
-        "Russian strike drone hit Berdychiv in Zhytomyr region, damaging residential building. (Source: @eRadarrua/120266)",
-        "Ukrainian defensive preparations in Kyiv region include 12 AI turrets and extensive barbed wire obstacles (35 rows) anticipating northern offensive. (Source: @UkraineNow/84488, @ukr_leaks_eng/33749)",
-        "Russian controlled jet Shahed drones maneuvered over Cherkasy region changing course toward Kyiv region (Obukhiv district). (Source: @mon1tor_ua/76074)"
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Russian strikes targeted port infrastructure: Vilkovo port facility, fuel storage at Chornomorsk port, and dry cargo ship in Odesa region. (Source: @ukr_leaks_eng/33729)",
-        "Russian Banderoil missile launched toward Nova Odesa in Mykolaiv region from southeast. (Source: @kpszsu/83066, @mon1tor_ua/76068)",
-        "Russian reactive UAVs detected in Berezivskyi district of Odesa region moving northwest, and over Mykolaiv region (Nova Praha, Kirovohrad). (Source: @kpszsu/83085, @kpszsu/83092)",
-        "Russian jet-powered Shahed drones attacked Mykolaiv and Odesa, with controlled drone circling over Odesa. (Source: @mon1tor_ua/76085, @eRadarrua/120336)",
-        "Radiation check conducted after strike on industrial infrastructure in Odesa region; no hazardous substances detected. (Source: @ukr_leaks_eng/33723)"
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Massive Russian aerial attack wave: multiple Geran-5 missiles, Shahed-136/131 drones, and Banderoil missiles launched simultaneously across Ukraine from Bryansk, Chernihiv, Kyiv, Zhytomyr, Sumy, Poltava, Cherkasy, Mykolaiv, Dnipropetrovsk regions. (Source: @mon1tor_ua/76085, @mon1tor_ua/76082, @mon1tor_ua/76064, @mon1tor_ua/76065, @kpszsu/83066, @kpszsu/83085, @kpszsu/83092, @kpszsu/83115)",
-        "Ukraine deployed 12 AI-controlled automatic turrets in Kyiv using machine guns to intercept jet-powered Shahed drones, representing innovative air defense adaptation. (Source: @UkraineNow/84488)",
-        "Russian air defense claims 343 Ukrainian drones shot down in 24 hours over Russian regions and Black Sea. (Source: @tass_agency/398898)",
-        "Russian Su-34 fighter-bomber observed in Bryansk region preparing KAB guided bomb strikes on Chernihiv region. (Source: @eRadarrua/120316)",
-        "Russian Tu-95 strategic bomber crashed"
-      ]
-    }
+    "executive_summary": "Russia is redeploying strategic bombers to Olenya and Belaya, threatening a massive combined strike on Ukraine by October 10. Simultaneous Shahed and Geran-5 attacks target Kyiv, Kropyvnytskyi, Dnipro, Vinnytsia, Poltava, Kharkiv, and southern regions. Ukraine-Germany signed 15 defense agreements worth €8.5 billion while Poland deploys Patriot near the border.",
+    "ukraine": [
+      "Kyiv under multiple drone and missile threats: 12 automated turrets installed to counter Shaheds, air raid alerts active, Geran-5 spotted over right bank of capital (Source: @UkraineNow/84498, @eRadarrua/120321, @mon1tor_ua/76086).",
+      "Defensive lines in Kyiv region with up to 35 rows of barbed wire anticipating Russian offensive from north (Source: @ukr_leaks_eng/33749).",
+      "US analyzing security situation around diplomatic missions, no plans to recall diplomats from Kyiv despite Russian threats (Source: @UkraineNow/84505).",
+      "Reconnaissance ongoing in Kyiv and Chernihiv regions (Source: @eRadarrua/120341).",
+      "Internal displacement: Kyiv apartment rentals up 66%, Odesa up over 3x, western Ukraine sharply down ahead of winter (Source: @UkraineNow/84503)."
+    ],
+    "russia": [
+      "Russian MoD claims strike on Northern auto bridge over Dnipro in Kyiv for troop and logistics transfer (Source: @tass_agency/398926).",
+      "Russian storming unit carried wounded comrade 9+ km while hiding from Ukrainian drones (Source: @tass_agency/398928).",
+      "Moscow: 13 drones destroyed heading to city; earlier 11 drones destroyed (Source: @tass_agency/398920, @tass_agency/398927).",
+      "Tu-95 crash in Amur region: 7 personnel aboard, 6 killed (Source: @UkraineNow/84496).",
+      "Telegram fines for violating Russian laws exceeded 45 million rubles (Source: @tass_agency/398925)."
+    ],
+    "eastern_front": [
+      "VSU exposed position on Zaporizhzhia direction to Russian stormers via generator noise (Source: @tass_agency/398921).",
+      "Russian fighter 'Malysh' reported repelling VSU counterattack on Zaporizhzhia direction (Source: @tass_agency/398917).",
+      "VSU drone strike Oct 4 killed driver delivering products to Zaporizhzhia TES; systematic shelling of TES territory for 2 weeks (Source: @tass_agency/398899).",
+      "Conventional strike drone over Kaniv reservoir, another heading from Poltava region toward Lubny (Source: @eRadarrua/120347)."
+    ],
+    "northern_front": [
+      "Geran-5 missile from Chernihiv region to Kyiv region, Vyshgorod district; also camera-guided control (Source: @mon1tor_ua/76096, @mon1tor_ua/76084).",
+      "Shahed from Chernihiv region to Kyiv region, Vyshgorod district (Source: @mon1tor_ua/76071).",
+      "Jet drone on Kyiv region heading toward Vyshneve/Boyarka and Obukhiv/Vasylkiv (Source: @kpszsu/83149, @kpszsu/83134).",
+      "Non-jet drone near Snovsk, Chernihiv region (Source: @eRadarrua/120367).",
+      "Reconnaissance ongoing in Kyiv and Chernihiv regions (Source: @eRadarrua/120341)."
+    ],
+    "southern_front": [
+      "3 jet Shaheds from Mykolaiv region to Kirovohrad region, Kropyvnytskyi district; 2 from Zaporizhzhia to Kherson then Mykolaiv (Source: @mon1tor_ua/76091).",
+      "Jet drone on Ochakiv, Mykolaiv region from Black Sea (Source: @kpszsu/83172).",
+      "Guided drone + strike drone group in Mykolaiv region; jet group in Odesa region (Source: @eRadarrua/120336).",
+      "Drone from Black Sea to Odesa region heading toward Tatarbunary (Source: @kpszsu/83148).",
+      "Jet drone on Odesa from Black Sea waters (Source: @kpszsu/83183).",
+      "3 jet Shaheds on Kropyvnytskyi (Source: @mon1tor_ua/76092)."
+    ],
+    "air_war": [
+      "10 Tu-95MS and 3 Tu-160 redeploying to Olenya and Belaya airfields; massive combined strike possible by Oct 10 (Source: @mon1tor_ua/76088).",
+      "Multiple Shahed launches: Poltava, Vinnytsia, Dnipropetrovsk, Kirovohrad, Chernihiv, Dnipropetrovsk regions (Source: @mon1tor_ua/76070, @kpszsu/83133, @eRadarrua/120307).",
+      "13 drones destroyed heading to Moscow; 11 drones destroyed earlier (Source: @tass_agency/398920, @tass_agency/398927).",
+      "Tu-95 crash in Amur region, 6 of 7 personnel killed (Source: @UkraineNow/84496)."
+    ],
+    "key_developments": [
+      "Russia redeploying 10 Tu-95MS and 3 Tu-160 bombers to Olenya and Belaya airbases, threatening massive combined strike on Ukraine by October 10 (Source: @mon1tor_ua/76088).",
+      "Russian forces claim strike on Northern auto bridge over Dnipro in Kyiv, a critical logistics and troop transfer route (Source: @tass_agency/398926).",
+      "Kharkiv attacked: multi-story building and sewing workshop hit, 5 killed and 35 injured, rescue operations ongoing (Source: @eRadarrua/120295).",
+      "Ukraine and Germany signed 15 defense and energy agreements worth €8.5 billion covering air defense, drone interceptors, Patriot production, and energy sector (Source: @ukr_leaks_eng/33746).",
+      "Poland deploying Patriot battery in Lublin voivodeship near Ukrainian border and establishing new drone brigade (Source: @UkraineNow/84504).",
+      "VSU drone strike on Oct 4 killed driver delivering products to Zaporizhzhia TES; systematic shelling of TES territory for past 2 weeks (Source: @tass_agency/398899).",
+      "Dense defensive lines with up to 35 rows of barbed wire constructed in Kyiv region anticipating potential Russian offensive from north (Source: @ukr_leaks_eng/33749)."
+    ],
+    "threat_assessment": "Russia is concentrating strategic aviation (10 Tu-95MS, 3 Tu-160) at Olenya and Belaya for a potential massive combined strike by October 10, signaling a significant escalation. Multiple Shahed and Geran-5 attacks across northern, central, and southern Ukraine indicate sustained high-tempo missile and drone operations. The strike on the Northern auto bridge in Kyiv, if confirmed, would threaten critical logistics. Kharkiv's 5 dead and 35 injured demonstrate continued Russian targeting of civilian infrastructure.",
+    "regional_response": "Poland is deploying a Patriot battery in Lublin voivodeship near the Ukrainian border and forming a new drone brigade, signaling enhanced frontline support. Ukraine-Germany agreements worth €8.5 billion cover air defense strengthening, drone interceptors, Patriot missile production in Germany, and energy sector support. The US maintains diplomatic presence in Kyiv despite Russian threats, with Rubio confirming daily security assessments. EU proposes limiting Ukraine's agricultural market access post-accession, adding economic friction.",
+    "intelligence_notes": "Russian claims of striking the Northern auto bridge in Kyiv require independent verification; the bridge is a key logistics artery. VSU exposure of positions via generator noise on Zaporizhzhia direction indicates tactical discipline issues. The Tu-95 crash in Amur region (6 killed) may affect Russian long-range aviation readiness. Zaporizhzhia TES under systematic VSU shelling for 2 weeks suggests energy infrastructure targeting. Internal Ukrainian displacement ahead of winter may strain resources in Kyiv and Odesa."
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 205,
   "kpszsu_timeline": [
     0,
-    1,
-    5,
-    5,
-    4,
-    3,
-    1,
-    9,
-    5,
+    0,
+    0,
+    0,
+    0,
+    10,
     4,
     8,
-    6,
     3,
-    5,
-    7,
-    7,
-    14,
-    9,
+    6,
     4,
-    5,
-    4,
-    9,
+    10,
+    6,
+    10,
+    10,
+    7,
     2,
-    2
+    5,
+    10,
+    2,
+    3,
+    1,
+    4,
+    5
   ]
 }
