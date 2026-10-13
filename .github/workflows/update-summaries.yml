@@ -6,6 +6,14 @@ on:
     - cron: "20 */2 * * *"   # :20 safety net
     - cron: "45 */2 * * *"   # :45 safety net
   workflow_dispatch:        # allow manual trigger
+  push:
+    branches: [main]
+    # Run on script/workflow/requirements changes only — NOT on the Action's
+    # own data commits (which only touch data/), so there is no trigger loop.
+    paths:
+      - "scripts/**"
+      - "requirements.txt"
+      - ".github/workflows/update-summaries.yml"
 
 permissions:
   contents: write
