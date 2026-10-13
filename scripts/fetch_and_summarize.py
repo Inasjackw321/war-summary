@@ -41,13 +41,10 @@ CONFLICTS = {
         "title": "Middle-East War",
         "alert_channel": "tzevaadom_en",
         "channels": [
-            "N12chat", "manniefabian", "asafroz", "yediotnews25",
-            "SharghDaily", "amitsegal", "presstv", "mamlekate",
-            "kianmeli1", "Faytuks_Network", "rodast_omiddana",
-            "naya_foriraq", "tzevaadom_en", "VahidOnline", "idf_telegram",
-            "lelotsenzura", "rasedal3ado138e", "shin_persian",
-            "almogboker78", "New_security8200", "inon_yttach",
-            "redlinkleb", "pkpoi"
+            "N12chat", "manniefabian", "yediotnews25",
+            "amitsegal", "Faytuks_Network",
+            "tzevaadom_en", "shin_persian",
+            "redlinkleb"
         ],
         "section_keys": [
             "executive_summary", "iran", "israel", "gaza_west_bank",
@@ -60,7 +57,7 @@ CONFLICTS = {
         "alert_channel": "eRadarrua",
         "channels": [
             "eRadarrua", "kpszsu", "mon1tor_ua",
-            "UkraineNow", "DeepStateUA", "ukr_leaks_eng", "tass_agency"
+            "UkraineNow", "DeepStateUA"
         ],
         "section_keys": [
             "executive_summary", "ukraine", "russia", "eastern_front",
@@ -70,7 +67,7 @@ CONFLICTS = {
     },
 }
 
-MEDIA_CHANNELS = {"Faytuks_Network", "manniefabian", "idf_telegram", "kpszsu", "eRadarrua", "VahidOnline", "amitsegal"}
+MEDIA_CHANNELS = {"Faytuks_Network", "manniefabian", "kpszsu", "eRadarrua", "amitsegal"}
 
 HEADERS = {
     "User-Agent": (
