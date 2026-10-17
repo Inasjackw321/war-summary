@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-10-17T07:12:09.929490+00:00",
-  "message_count": 193,
+  "updated_at": "2026-10-17T08:27:38.474009+00:00",
+  "message_count": 185,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -40,48 +40,48 @@
     0
   ],
   "combined_activity_timeline": [
+    12,
+    6,
+    9,
+    15,
+    6,
     8,
-    11,
-    7,
-    9,
     13,
-    9,
-    7,
-    12,
-    9,
-    13,
+    8,
+    14,
+    18,
     16,
+    8,
     12,
-    14,
     9,
-    14,
-    1,
-    3,
-    3,
     1,
     4,
+    3,
+    1,
+    3,
     2,
-    2,
-    9,
-    2
+    3,
+    8,
+    3,
+    3
   ],
   "messages_by_channel": {
-    "@N12chat": 69,
+    "@N12chat": 66,
     "@manniefabian": 3,
-    "@yediotnews25": 8,
-    "@amitsegal": 10,
+    "@yediotnews25": 5,
+    "@amitsegal": 9,
     "@Faytuks_Network": 29,
-    "@shin_persian": 34,
-    "@redlinkleb": 40
+    "@shin_persian": 35,
+    "@redlinkleb": 38
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/230379",
+    "N12chat": "https://t.me/N12chat/230382",
     "manniefabian": "https://t.me/manniefabian/59364",
     "yediotnews25": "https://t.me/yediotnews25/136360",
     "amitsegal": "https://t.me/amitsegal/65872",
     "Faytuks_Network": "https://t.me/Faytuks_Network/8482",
     "tzevaadom_en": "https://t.me/tzevaadom_en/68568",
-    "shin_persian": "https://t.me/shin_persian/11207",
+    "shin_persian": "https://t.me/shin_persian/11208",
     "redlinkleb": "https://t.me/redlinkleb/48288"
   },
   "cited_post_urls": {
@@ -93,6 +93,18 @@
     "Faytuks_Network": "https://t.me/Faytuks_Network/8465"
   },
   "media": [
+    {
+      "post_url": "https://t.me/N12chat/230382",
+      "post_id": 230382,
+      "channel": "N12chat",
+      "ts": "2026-10-17T07:49:53+00:00"
+    },
+    {
+      "post_url": "https://t.me/shin_persian/11208",
+      "post_id": 11208,
+      "channel": "shin_persian",
+      "ts": "2026-10-17T07:28:08+00:00"
+    },
     {
       "post_url": "https://t.me/N12chat/230379",
       "post_id": 230379,
@@ -200,18 +212,6 @@
       "post_id": 48225,
       "channel": "redlinkleb",
       "ts": "2026-10-16T19:01:10+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/48223",
-      "post_id": 48223,
-      "channel": "redlinkleb",
-      "ts": "2026-10-16T18:43:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/48222",
-      "post_id": 48222,
-      "channel": "redlinkleb",
-      "ts": "2026-10-16T18:37:28+00:00"
     }
   ],
   "post_images": {
@@ -285,5 +285,6 @@
     "threat_assessment": "Regional tensions are escalating with simultaneous military activities across Iran, Lebanon, and the Gulf. Iran reported launch-like blasts and military jet activity, suggesting potential internal or external military operations. Cross-border exchanges between Hezbollah and Israeli forces along the Lebanon-Israel border indicate rising volatility. The Saudi-led coalition continues intercepting missiles and drones, highlighting ongoing regional instability. These concurrent developments suggest a high-risk environment with potential for rapid escalation.",
     "regional_response": "Israeli political leaders are engaged in intense pre-election maneuvering, with public disputes over coalition formation strategies. The IDF maintains active defense operations along the Lebanon border, launching interceptor missiles against suspicious aerial targets. The Saudi-led coalition continues robust air defense operations, intercepting multiple missile and drone threats. U.S. Central Command remains actively monitoring regional developments, though specific operational details were not disclosed.",
     "intelligence_notes": "Multiple intelligence sources report concurrent military activities across the region, with Iran experiencing unexplained launch-like events and sonic booms. The timing of these events alongside cross-border tensions in Lebanon suggests possible coordination or reaction between regional actors. Political developments in Israel indicate significant pre-election instability, with internal party conflicts potentially affecting national security posture. The Strait of Hormuz remains a critical flashpoint with recent attacks on commercial shipping."
-  }
+  },
+  "stale_summary": true
 }
