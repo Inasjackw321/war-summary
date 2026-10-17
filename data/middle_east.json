@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-10-16T22:43:12.276559+00:00",
-  "message_count": 229,
+  "updated_at": "2026-10-17T00:52:55.666150+00:00",
+  "message_count": 219,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -40,48 +40,48 @@
     0
   ],
   "combined_activity_timeline": [
-    9,
     7,
-    9,
     3,
-    3,
+    5,
     7,
-    14,
-    8,
-    10,
-    8,
+    12,
     9,
-    7,
     11,
-    13,
-    7,
     8,
-    14,
+    8,
+    9,
+    12,
+    10,
+    7,
+    7,
+    16,
     6,
     19,
+    14,
+    17,
+    5,
     15,
-    18,
-    4,
-    12,
-    8
+    5,
+    1,
+    4
   ],
   "messages_by_channel": {
-    "@N12chat": 74,
+    "@N12chat": 73,
     "@manniefabian": 4,
     "@yediotnews25": 13,
     "@amitsegal": 12,
-    "@Faytuks_Network": 58,
-    "@shin_persian": 29,
+    "@Faytuks_Network": 45,
+    "@shin_persian": 33,
     "@redlinkleb": 39
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/230365",
+    "N12chat": "https://t.me/N12chat/230367",
     "manniefabian": "https://t.me/manniefabian/59364",
     "yediotnews25": "https://t.me/yediotnews25/136360",
     "amitsegal": "https://t.me/amitsegal/65872",
     "Faytuks_Network": "https://t.me/Faytuks_Network/8480",
     "tzevaadom_en": "https://t.me/tzevaadom_en/68568",
-    "shin_persian": "https://t.me/shin_persian/11201",
+    "shin_persian": "https://t.me/shin_persian/11206",
     "redlinkleb": "https://t.me/redlinkleb/48271"
   },
   "cited_post_urls": {
@@ -93,6 +93,12 @@
     "amitsegal": "https://t.me/amitsegal/65862"
   },
   "media": [
+    {
+      "post_url": "https://t.me/shin_persian/11205",
+      "post_id": 11205,
+      "channel": "shin_persian",
+      "ts": "2026-10-17T00:07:13+00:00"
+    },
     {
       "post_url": "https://t.me/N12chat/230365",
       "post_id": 230365,
@@ -208,12 +214,6 @@
       "post_id": 48217,
       "channel": "redlinkleb",
       "ts": "2026-10-16T16:31:53+00:00"
-    },
-    {
-      "post_url": "https://t.me/shin_persian/11183",
-      "post_id": 11183,
-      "channel": "shin_persian",
-      "ts": "2026-10-16T15:47:10+00:00"
     }
   ],
   "post_images": {
@@ -226,9 +226,7 @@
     "Faytuks_Network/8447": "data/media/Faytuks_Network_8447.jpg",
     "Faytuks_Network/8446": "data/media/Faytuks_Network_8447.jpg",
     "Faytuks_Network/8458": "data/media/Faytuks_Network_8458.jpg",
-    "Faytuks_Network/8457": "data/media/Faytuks_Network_8458.jpg",
-    "Faytuks_Network/8426": "data/media/Faytuks_Network_8426.jpg",
-    "Faytuks_Network/8425": "data/media/Faytuks_Network_8426.jpg"
+    "Faytuks_Network/8457": "data/media/Faytuks_Network_8458.jpg"
   },
   "summary": "Israeli political tensions intensified ahead of upcoming elections, with Avigdor Lieberman criticizing Gadi Eisenkot's alleged plans to form a government with Netanyahu. Artillery fire and airstrikes were reported in southern Lebanon and Gaza, while Iran experienced unexplained blasts and military aircraft activity. The Saudi-led coalition claimed to have intercepted missiles and drones over Saudi Arabia.",
   "key_points": [
@@ -316,5 +314,6 @@
     "threat_assessment": "Regional tensions remain high with active military exchanges in Lebanon and Gaza, alongside political instability in Israel ahead of elections. Iran's military activities, including unexplained explosions and aircraft movements, suggest potential escalation. The Saudi-led coalition's successful interceptions indicate ongoing threats from Yemeni forces. These developments pose significant risks to regional stability and security.",
     "regional_response": "Israeli political leaders are focusing on post-election governance amid internal divisions, while military operations continue in Gaza and along the Lebanese border. The Saudi-led coalition is actively defending against missile and drone attacks, highlighting ongoing security challenges in the Gulf. International actors, including the U.S. and UN, are monitoring regional developments closely, particularly regarding Iran's nuclear program and military activities.",
     "intelligence_notes": "Delayed reporting from Iran via FromIran indicates potential restrictions on information dissemination. Political infighting in Israel may impact security coordination and operational effectiveness. Regional actors are leveraging military capabilities to assert influence, with implications for broader conflict dynamics. Continued monitoring of Iran's defense minister nomination and nuclear activities is essential for assessing future threats."
-  }
+  },
+  "stale_summary": true
 }
