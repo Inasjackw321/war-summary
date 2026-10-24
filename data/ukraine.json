@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-10-24T05:04:55.554291+00:00",
-  "message_count": 257,
+  "updated_at": "2026-10-24T07:42:16.921710+00:00",
+  "message_count": 242,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -9,15 +9,12 @@
     "UkraineNow",
     "DeepStateUA"
   ],
-  "red_alerts": 176,
+  "red_alerts": 126,
   "red_alerts_timeline": [
+    21,
     0,
     0,
-    29,
-    0,
-    0,
-    0,
-    29,
+    21,
     0,
     0,
     0,
@@ -32,57 +29,91 @@
     0,
     0,
     0,
-    59,
-    29,
-    29
+    42,
+    0,
+    42,
+    0,
+    0,
+    0
   ],
   "combined_activity_timeline": [
-    15,
-    1,
+    14,
+    12,
     5,
+    20,
+    20,
+    10,
+    17,
+    14,
+    20,
     18,
-    6,
-    11,
-    29,
-    15,
+    7,
+    9,
+    4,
+    7,
+    1,
     12,
     16,
-    17,
-    23,
-    8,
     9,
-    7,
-    4,
     6,
-    9,
-    8,
-    16,
-    8,
     4,
     4,
-    3
+    3,
+    3,
+    7
   ],
   "messages_by_channel": {
-    "@eRadarrua": 85,
-    "@kpszsu": 110,
-    "@mon1tor_ua": 43,
-    "@UkraineNow": 13,
+    "@eRadarrua": 80,
+    "@kpszsu": 113,
+    "@mon1tor_ua": 28,
+    "@UkraineNow": 15,
     "@DeepStateUA": 6
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/125981",
-    "kpszsu": "https://t.me/kpszsu/90002",
+    "eRadarrua": "https://t.me/eRadarrua/125988",
+    "kpszsu": "https://t.me/kpszsu/90017",
     "mon1tor_ua": "https://t.me/mon1tor_ua/77504",
-    "UkraineNow": "https://t.me/UkraineNow/84867",
+    "UkraineNow": "https://t.me/UkraineNow/84870",
     "DeepStateUA": "https://t.me/DeepStateUA/23930"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/77495",
-    "eRadarrua": "https://t.me/eRadarrua/125927",
-    "UkraineNow": "https://t.me/UkraineNow/84853",
-    "kpszsu": "https://t.me/kpszsu/89945"
+    "UkraineNow": "https://t.me/UkraineNow/84869",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/77496",
+    "eRadarrua": "https://t.me/eRadarrua/125984",
+    "DeepStateUA": "https://t.me/DeepStateUA/23926",
+    "kpszsu": "https://t.me/kpszsu/90012"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/84870",
+      "post_id": 84870,
+      "channel": "UkraineNow",
+      "ts": "2026-10-24T06:43:16+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/125985",
+      "post_id": 125985,
+      "channel": "eRadarrua",
+      "ts": "2026-10-24T05:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/ER7ajbf_ntIlEDrSJ3OYqIrh-7yZZ-6sX6qY_79g42XX-qxC6MPCF97_ilJi8_RAXAU1LDSV4wOpoWSxOZFnu76kpWi_irCR16ros1rYtcPp7qTO7HusxXQCHaVROfRXXwNxkNMFTGyMEqnj6KUTsNe-z16ABs948fDyZI0aNlOjVo-oDXsGbRMXqex3FTdVqrYuwV8k58R4jNi35TBfmfLvuYhhrSzNRV721LpKBOWZHNoC-NpXLRgWBcQvX1BQ2DbZVo_Y9YpCZFrz6bWy7g0pWHlmyJvjmb-Ow8Emv4ZQ9RD-CmPsQ0PQeUQ-U-gNUurN-PpdDQsSQ4yZaMPO0Q.jpg",
+      "companion_text_id": 125984
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/125984",
+      "post_id": 125984,
+      "channel": "eRadarrua",
+      "ts": "2026-10-24T05:57:18+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/HpwRpJ5Z00L53lZI7IU6GDWCIAKODfPs94iAcTmbWTbTJSNotGQZY_Zi4h5eEXMfGSKCJE7THTYDdFk7S4meuQktHiVKgMJhEdyElym_1jIz6Y0ni8QXNq9cl1bc-fT4B1drPnh1hLtwd3Q7VZZEpG-0fKS_Sex0yEb9XooSiQDM7v8mEWIBsjfmjzLvhCoZuvLVighSw-6a80jylbOX-NuTo2SZUCCzGwZEZaPIypwbhslN_nberZarr2OyTpwuPd4uvWb3OcoX_cGRR4rhLXAQ1Qol0zQkyy-1afr3Fmt59EvCExU3kkFX90Kf46pULHLhOAKF98L6Kv7MBEoGBQ.jpg",
+      "companion_text_id": 125985
+    },
+    {
+      "post_url": "https://t.me/kpszsu/90004",
+      "post_id": 90004,
+      "channel": "kpszsu",
+      "ts": "2026-10-24T05:16:13+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/MEOoChkRQ2bGgUurcWmIiLCXa7-YWr65-F7v6UvkBenvTn15Sbqni24K6DeIJSdmpHLZL5r3YBlhT-7aX1Ydc6hYyGj9J28s3fYUqYQaNZWBo9112LQT4fvJ0F9UMsjv5VJHzUF5l6-f5O0N0Lu75nntu9pGWqUYQk1iJ8q3fqeqW-iahNA7ml0WnCkXzGBJBQrpeKRJZ-1R_Xao2XsCSe-hY7HqGyJhMvUi1hW566GKYm16a-QGBaOq_9VFtEt4J2hwMJk-2cODYw54AxOLjnwsqDurv_wHG43K_JGhbX-IHd7wJnvVQDmST-ONxnYL1tcpjSjYllK2TwuMEesUGA.jpg",
+      "companion_text_id": 90003
+    },
     {
       "post_url": "https://t.me/eRadarrua/125978",
       "post_id": 125978,
@@ -128,7 +159,7 @@
       "channel": "eRadarrua",
       "ts": "2026-10-23T19:31:23+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/u6ZmuLKnRErnShx62Ot_A6mGcxF9bXJGiGQQZGaO5VFEKkrDrCFG751YaxmW2d-LhvzEucUnc3Ql7vyJ6N9BkD_ta0YACmROByL1wEvYAjPAWKYv4H1Re9AlEIi2aaBJ-A_dYR3hmWDVIhJQV4ucmboco62hD00YImw1NhuGvZdIzBH9k8pjyPm8YWnIiJ0vMgmQvwsK8nreky2-OhK8vv7jG669u8nryQpTOH1ftaXBJn7Hj3gAsmwsYH0YE3zAH4KPsHCirwqYv0bsEiAbVmo-7EOViTe1VFZtPAx0LnanT-e4b-xJJ9i5uXcW6Y09ZaTtH941wT373wHMlFHhnQ.jpg",
-      "companion_text_id": 125888
+      "companion_text_id": 125887
     },
     {
       "post_url": "https://t.me/DeepStateUA/23930",
@@ -197,168 +228,132 @@
       "post_id": 23927,
       "channel": "DeepStateUA",
       "ts": "2026-10-23T17:00:00+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23926",
-      "post_id": 23926,
-      "channel": "DeepStateUA",
-      "ts": "2026-10-23T16:53:47+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/125866",
-      "post_id": 125866,
-      "channel": "eRadarrua",
-      "ts": "2026-10-23T15:50:34+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Kh47_FQUBlDaM4JhcPH5GZYraIPpvJngJnuNWwMg5MdjeMn4fcDXCBs7706PxhC31c6pfSOK7x5SGhYGOUovJ_0CDPkAmyn-WMBi1rICEfsPdWeKJ2yZvZ-t18eqiY9MG3buyyN0S8CTUN5jSPwrwlPF6TbYKT1xO9VAPrMSLcrZa4MnPQ33ZeS0t9MKCXXlvLREpsTmSp1ftdN4uBUQIeqY2_F0m4od2EiWU4qzJh_1hOpNYIQw94_cn7VdzZ3Rhnx_rbfzHoFR9Ci3QaGd0V9-v7ztnVIlB1-Dw9_SePJFwVxR2wjR-77IE_yZ8Lg2dVFKvTUb0cY_XkspJqpikQ.jpg",
-      "companion_text_id": 125865
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/125865",
-      "post_id": 125865,
-      "channel": "eRadarrua",
-      "ts": "2026-10-23T15:42:52+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/e2V0fnjDbBDINzhXLitJ1crYXLb1FvJJhVGr5kRcofnCzWUqqHMGeh4mb942hPGNbKdjm0ytYvotuLKGiPaClsvjpTfnJZHER9rRydEY1GyLU5bLDcgNGcnxJK5CecW4ZxhM3l5i_6YqZKIOuyjteaBNr5Y87jFWV3vbPUx2NhB7Yv8G8fWDcFJPYUn5FUBcLYjl7fwxx2ZFsLIqh-OSdRTwK2L6Vntgy_h9w2S90wlPjfCbaQ49l_ZplgvmXgchIqtW02pnUYKqEbJxwhwu_vCoLIhhmeNakb-8_4lJOCwnjc8gjBbk1w1SDaf9-gkvwMAA1sU-pmB1VMTp-fFz1A.jpg",
-      "companion_text_id": 125864
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/125863",
-      "post_id": 125863,
-      "channel": "eRadarrua",
-      "ts": "2026-10-23T15:14:37+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/K9-VCfCquqlI7p07xO0zLjeXV7GowaTmXdv2f3o1za3XGDEpuvc3Adse1jpEszuTFTkUczjDp1KT2QskvW-MGGjhMJTbvrsiSevL93TGFbWSwS9zsv1L9JkdX8qJu-lIXE972PJcoUGJ_8W-h3zRwj65ZPURhIEeb9HBxI2TwNpGeWyiiUe7ty8ScxysJMIONEWL3pTLJDc4MgvtmZ4rj9AVhaoUSsWMTyoQGWRD05BPl6OaopIdxiYtMRX_e-LbhxOGfz_3w_Q-z2EE55AUJ7fE3OSA2Cu00Sn12T49CRT-3-sRGICSmZiQqyi5yfuFiXAz84FSJQYMAN4ck6BeZA.jpg",
-      "companion_text_id": 125862
     }
   ],
   "post_images": {
     "eRadarrua/125978": "data/media/eRadarrua_125978.jpg",
     "eRadarrua/125977": "data/media/eRadarrua_125978.jpg",
-    "eRadarrua/125925": "data/media/eRadarrua_125925.jpg",
-    "eRadarrua/125924": "data/media/eRadarrua_125925.jpg",
-    "eRadarrua/125899": "data/media/eRadarrua_125899.jpg",
+    "eRadarrua/125984": "data/media/eRadarrua_125984.jpg",
+    "eRadarrua/125985": "data/media/eRadarrua_125985.jpg",
     "eRadarrua/125909": "data/media/eRadarrua_125909.jpg",
     "eRadarrua/125910": "data/media/eRadarrua_125909.jpg",
     "eRadarrua/125918": "data/media/eRadarrua_125918.jpg",
     "eRadarrua/125917": "data/media/eRadarrua_125918.jpg",
+    "eRadarrua/125925": "data/media/eRadarrua_125925.jpg",
+    "eRadarrua/125924": "data/media/eRadarrua_125925.jpg",
+    "eRadarrua/125889": "data/media/eRadarrua_125889.jpg",
+    "eRadarrua/125887": "data/media/eRadarrua_125887.jpg",
+    "eRadarrua/125899": "data/media/eRadarrua_125899.jpg",
+    "eRadarrua/125872": "data/media/eRadarrua_125872.jpg",
+    "eRadarrua/125871": "data/media/eRadarrua_125872.jpg",
+    "eRadarrua/125873": "data/media/eRadarrua_125873.jpg",
     "eRadarrua/125879": "data/media/eRadarrua_125879.jpg",
     "eRadarrua/125877": "data/media/eRadarrua_125879.jpg",
     "eRadarrua/125884": "data/media/eRadarrua_125884.jpg",
     "eRadarrua/125885": "data/media/eRadarrua_125885.jpg",
-    "eRadarrua/125887": "data/media/eRadarrua_125887.jpg",
     "eRadarrua/125886": "data/media/eRadarrua_125887.jpg",
-    "eRadarrua/125889": "data/media/eRadarrua_125889.jpg",
-    "eRadarrua/125888": "data/media/eRadarrua_125889.jpg",
-    "eRadarrua/125861": "data/media/eRadarrua_125861.jpg",
-    "eRadarrua/125860": "data/media/eRadarrua_125861.jpg",
-    "eRadarrua/125863": "data/media/eRadarrua_125863.jpg",
-    "eRadarrua/125862": "data/media/eRadarrua_125863.jpg",
-    "eRadarrua/125865": "data/media/eRadarrua_125865.jpg",
-    "eRadarrua/125864": "data/media/eRadarrua_125865.jpg",
-    "eRadarrua/125866": "data/media/eRadarrua_125866.jpg"
+    "eRadarrua/125849": "data/media/eRadarrua_125849.jpg",
+    "eRadarrua/125847": "data/media/eRadarrua_125849.jpg",
+    "kpszsu/90004": "data/media/kpszsu_90004.jpg",
+    "kpszsu/90003": "data/media/kpszsu_90004.jpg"
   },
-  "summary": "Multiple drone and missile attacks reported across Ukraine from Belarusian and Russian territories. Large-scale Geran-5 missile strikes targeted western regions including Lviv, Rivne, and Chernihiv. Ukrainian forces conducted drone operations against Russian and Crimean infrastructure.",
+  "summary": "Ukrainian drones attacked the Russian Tolyatti chemical plant and Moscow airports, causing fires and disruptions. Russian forces launched multiple Geran-5 and reactive UAVs across northern Ukraine, triggering air raids and power outages. Ukraine announced a local ceasefire in occupied Oleshky and is preparing for potential escalation.",
   "key_points": [
-    "14 Geran-5 missiles launched from Brynolskaya oblast targeting Rivnenskaya oblast (Source: @mon1tor_ua/77495).",
-    "Multiple Geran-5 missiles flying from Kyiv region toward Zhytomyr region, Korosten district (Source: @mon1tor_ua/77503).",
-    "Drone threat detected over Kyiv with yellow alert level at 03:40 (Source: @eRadarrua/125927).",
-    "16 Geran-5/reactive drones targeting western Ukraine reported (Source: @mon1tor_ua/77493).",
-    "Ukranian drones attacked Perm region chemical plant 'Ammonia' in Russia (Source: @UkraineNow/84853).",
-    "Guided aviation bombs launched by Russian tactical aviation on Kharkiv region toward Izium (Source: @kpszsu/89945).",
-    "Threat of Iskander-M/S-300/Cirkon missiles from Kursk oblast detected (Source: @mon1tor_ua/77503)."
+    "Ukrainian drones attacked the Tolyatti chemical plant in Russia, causing a large fire and smoke plume over the city. (Source: @UkraineNow/84869)",
+    "Russian forces launched multiple Geran-5 and reactive UAVs toward Kyiv, Zhytomyr, Rivne, and Chernihiv regions, triggering air alerts and power outages. (Source: @mon1tor_ua/77496)",
+    "Ukrainian drones attacked Moscow, forcing all airports to suspend operations, according to Russian media. (Source: @UkraineNow/84854)",
+    "Ukraine announced a local ceasefire in occupied Oleshky starting at 03:00 on October 27 for a humanitarian operation. (Source: @UkraineNow/84864)",
+    "Power outages were reported in Kyiv and Vyshgorod following drone attacks, with infrastructure disruptions noted. (Source: @mon1tor_ua/77479)",
+    "Over 90% of Crimea and parts of Rostov region lost power after Ukrainian strikes on key infrastructure. (Source: @eRadarrua/125984)",
+    "Germany plans to establish space forces within the Luftwaffe, with at least 1000 personnel and satellite operations by 2027. (Source: @DeepStateUA/23926)"
   ],
   "sentiment": "volatile",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Multiple missile and drone attacks continue across Ukraine with significant activity in western and northern regions. Russian forces launched 14 Geran-5 missiles from Brynolskaya oblast targeting Rivnenskaya oblast. Ukrainian forces conducted drone operations against Russian infrastructure including a chemical plant in Perm region.",
-    "ukraine": {
-      "points": [
-        "Multiple Geran-5 missiles launched from Kyiv region toward Zhytomyr region, Korosten district (Source: @mon1tor_ua/77503).",
-        "14 Geran-5 missiles launched from Brynolskaya oblast targeting Rivnenskaya oblast (Source: @mon1tor_ua/77495).",
-        "Drone attacks reported on Vinnytsia region targeting Kamianets-Podilskyi district (Source: @mon1tor_ua/77492).",
-        "Multiple missile attacks on Lviv region with Geran-5 missiles descending toward city (Source: @mon1tor_ua/77464).",
-        "Drone operations conducted against Russian infrastructure including Perm region chemical plant (Source: @UkraineNow/84853)."
-      ]
-    },
-    "russia": {
-      "points": [
-        "Threat of Iskander-M/S-300/Cirkon missiles detected from Kursk oblast (Source: @mon1tor_ua/77503).",
-        "Guided aviation bombs launched by Russian tactical aviation on Kharkiv region toward Izium (Source: @kpszsu/89945).",
-        "Drone attacks launched from Brynolskaya oblast targeting Ukrainian regions (Source: @mon1tor_ua/77495).",
-        "Multiple missile launches from Kyiv region toward Zhytomyr region (Source: @mon1tor_ua/77503).",
-        "90% of Crimea and parts of Rostov region left without power supply after Ukrainian attacks (Source: @eRadarrua/125919)."
-      ]
-    },
-    "eastern_front": {
-      "points": [
-        "Guided aviation bombs launched by Russian tactical aviation on Kharkiv region toward Izium (Source: @kpszsu/89945).",
-        "Multiple missile attacks on Dnipro region with 3 reactive drones reported (Source: @mon1tor_ua/77499).",
-        "Drone attacks targeting Sumy region from northern direction (Source: @kpszsu/89920).",
-        "Multiple missile launches from Chernihiv region toward Kyiv region (Source: @mon1tor_ua/77502)."
-      ]
-    },
-    "northern_front": {
-      "points": [
-        "Multiple Geran-5 missiles launched from Kyiv region toward Zhytomyr region, Korosten district (Source: @mon1tor_ua/77503).",
-        "Drone threat detected over Kyiv with yellow alert level at 03:40 (Source: @eRadarrua/125927).",
-        "Multiple missile attacks on Kyiv region with 3 Geran-5 missiles reported (Source: @mon1tor_ua/77503).",
-        "Reactive drone attacks on Chernihiv region from northern direction (Source: @kpszsu/89920)."
-      ]
-    },
-    "southern_front": {
-      "points": [
-        "Drone attacks reported on Vinnytsia region targeting Kamianets-Podilskyi district (Source: @mon1tor_ua/77492).",
-        "Multiple missile attacks on Dnipro region with 3 reactive drones reported (Source: @mon1tor_ua/77499).",
-        "Drone attacks targeting Mykolaiv region from Black Sea aquatoria (Source: @mon1tor_ua/77499).",
-        "Multiple missile launches from Kharkiv region toward Izium (Source: @kpszsu/89945)."
-      ]
-    },
-    "air_war": {
-      "points": [
-        "Guided aviation bombs launched by Russian tactical aviation on Kharkiv region toward Izium (Source: @kpszsu/89945).",
-        "Multiple Geran-5 missile attacks across Ukraine from various launch points (Source: @mon1tor_ua/77503).",
-        "Drone operations conducted by Ukrainian forces against Russian infrastructure (Source: @UkraineNow/84853).",
-        "Multiple air raid alerts detected in Kyiv region (Source: @eRadarrua/125927)."
-      ]
-    },
-    "key_developments": [
-      "14 Geran-5 missiles launched from Brynolskaya oblast targeting Rivnenskaya oblast, representing significant missile activity in western Ukraine (Source: @mon1tor_ua/77495).",
-      "Multiple Geran-5 missiles flying from Kyiv region toward Zhytomyr region, Korosten district, indicating coordinated missile strikes (Source: @mon1tor_ua/77503).",
-      "Drone threat detected over Kyiv with yellow alert level at 03:40, followed by red alert at 01:48, showing escalating air defense concerns (Source: @eRadarrua/125927).",
-      "16 Geran-5/reactive drones targeting western Ukraine reported, indicating large-scale missile campaign (Source: @mon1tor_ua/77493).",
-      "Ukranian drones attacked Perm region chemical plant 'Ammonia' in Russia, demonstrating cross-border drone operations (Source: @UkraineNow/84853).",
-      "Guided aviation bombs launched by Russian tactical aviation on Kharkiv region toward Izium, showing continued eastern front activity (Source: @kpszsu/89945).",
-      "Threat of Iskander-M/S-300/Circon missiles from Kursk oblast detected, indicating potential advanced missile deployment (Source: @mon1tor_ua/77503)."
+    "executive_summary": "Ukrainian drones struck the Russian Tolyatti chemical plant and Moscow airports, causing fires and operational shutdowns. Russian forces launched waves of Geran-5 and reactive UAVs across northern Ukraine, triggering air raids and power outages. Ukraine announced a local ceasefire in occupied Oleshky and is preparing for potential escalation.",
+    "ukraine": [
+      "Multiple Geran-5 and reactive UAVs were launched from various directions toward Kyiv, Zhytomyr, Rivne, and Chernihiv regions, triggering air alerts and defensive responses. (Source: @mon1tor_ua/77496)",
+      "Power outages were reported in Kyiv and Vyshgorod following drone attacks, with infrastructure disruptions noted in the capital region. (Source: @mon1tor_ua/77479)",
+      "Ukrainian drones attacked Moscow, forcing all airports to suspend operations, according to Russian media reports. (Source: @UkraineNow/84854)",
+      "Ukraine announced a local ceasefire in occupied Oleshky starting at 03:00 on October 27 for a humanitarian operation in the Kherson region. (Source: @UkraineNow/84864)",
+      "The Ukrainian government finalized changes to the enterprise booking system, reducing maximum booking levels for critical sectors and increasing accountability for draft evasion. (Source: @DeepStateUA/23929)",
+      "The Agency for Defense Procurement (AOZ) began purchasing aircraft and tactical missiles for the Defense Forces, expanding contracts for drones, quadcycles, and protective gear. (Source: @DeepStateUA/23928)"
     ],
-    "threat_assessment": "Russian forces are conducting large-scale missile and drone attacks across Ukraine, with particular focus on western regions. The deployment of Geran-5 missiles from multiple launch points indicates coordinated offensive operations. Ukrainian forces are responding with cross-border drone strikes against Russian infrastructure, including chemical facilities. The threat of advanced Iskander-M missiles from Kursk oblast represents a significant escalation risk.",
-    "regional_response": "International monitoring systems have detected and reported multiple air raid alerts across Ukrainian territory. Ukrainian air defense systems are actively responding to missile threats from Russian and Belarusian territories. The cross-border drone operations against Russian infrastructure suggest an escalation in the scope of the conflict beyond traditional front lines.",
-    "intelligence_notes": "The volume and coordination of missile attacks indicate sophisticated command and control capabilities by Russian forces. Ukrainian drone operations targeting Russian infrastructure demonstrate capability for cross-border strikes. The detection of advanced missile threats from Kursk oblast requires heightened monitoring and preparedness measures."
+    "russia": [
+      "Ukrainian drones attacked the Tolyatti chemical plant in Russia, causing a large fire and smoke plume over the city, according to OSINT reports. (Source: @UkraineNow/84869)",
+      "Russian state media reported that Ukrainian drones attacked Moscow, forcing all airports to suspend operations for arrivals and departures. (Source: @UkraineNow/84854)",
+      "Over 90% of Crimea and parts of Rostov region lost power after Ukrainian strikes on key electrical infrastructure. (Source: @eRadarrua/125984)",
+      "Russia launched multiple Geran-5 and reactive UAVs from Bryansk and other regions toward northern Ukraine, including Kyiv, Chernihiv, and Zhytomyr areas. (Source: @mon1tor_ua/77495)",
+      "Russian forces issued threats of ballistic missile launches from Kursk region, including Iskander-M and S-300 systems. (Source: @mon1tor_ua/77503)",
+      "Five tankers carrying Russian diesel fuel were reported heading toward the eastern coast of the Atlantic Ocean, according to hostile sources. (Source: @eRadarrua/125910)"
+    ],
+    "eastern_front": [
+      "Reactive UAVs were observed moving from eastern Rivne region toward western areas, indicating continued pressure along the northern axis. (Source: @kpszsu/90012)",
+      "Reactive UAVs were detected near Narodychi in Zhytomyr region, moving westward, suggesting ongoing reconnaissance or strike activity. (Source: @kpszsu/89941)",
+      "Reactive UAVs were reported in the direction of Zaporizhzhia from the south and north of the city, with additional activity noted in Mykolaiv region. (Source: @kpszsu/90015)",
+      "Repeated KAB (bomb) launches were reported toward Zaporizhzhia, indicating sustained aerial bombardment in the eastern front. (Source: @kpszsu/89984)",
+      "Reactive UAVs were observed moving from Zhytomyr region toward Rivne, with a western course, reflecting continued cross-regional drone activity. (Source: @kpszsu/89939)"
+    ],
+    "northern_front": [
+      "Multiple Geran-5 and reactive UAVs were launched from Bryansk region toward Chernihiv and Kyiv regions, with several intercepted or tracked by air defenses. (Source: @mon1tor_ua/77496)",
+      "Reactive UAVs were detected moving from northern Chernihiv region toward Slavutych and Mykolaivka, indicating continued infiltration attempts. (Source: @eRadarrua/125913)",
+      "Air alerts were active in Kyiv and surrounding areas, with reactive UAVs detected over the city and nearby Vyshgorod, prompting defensive responses. (Source: @eRadarrua/125973)",
+      "Reactive UAVs were launched from Bryansk region toward northern Chernihiv, with additional groups detected moving toward Kyiv from the north. (Source: @kpszsu/89998)",
+      "A reactive UAV was detected moving from Kyiv region toward Brovary, with another tracked from the north toward Makariv, indicating coordinated northern axis activity. (Source: @kpszsu/90000)"
+    ],
+    "southern_front": [
+      "Reactive UAVs were detected in Mykolaiv region moving toward the regional center, with additional activity noted near Odesa and Vinnytsia. (Source: @eRadarrua/125977)",
+      "Reactive UAVs were observed moving from Vinnytsia toward Odesa region, with a separate group detected near Mykolaiv heading toward the city center. (Source: @kpszsu/90015)",
+      "Reactive UAVs were reported moving from Vinnytsia toward Odesa, with a controlled UAV detected over the sea near Odesa, indicating maritime surveillance. (Source: @eRadarrua/125977)",
+      "Reactive UAVs were detected over Vinnnytsia moving toward Odesa, with additional activity noted in the southern direction from Dnipro region. (Source: @kpszsu/90013)",
+      "Reactive UAVs were observed moving from Dnipro region toward Zaporizhzhia, with additional groups detected near Kryvyi Rih and Nikopol. (Source: @kpszsu/90015)"
+    ],
+    "air_war": [
+      "Multiple Geran-5 and reactive UAVs were launched from Bryansk and other Russian regions toward northern Ukraine, triggering widespread air alerts. (Source: @mon1tor_ua/77496)",
+      "Air alerts were active in Kyiv and surrounding areas, with reactive UAVs detected over the city and nearby Vyshgorod, prompting defensive responses. (Source: @eRadarrua/125973)",
+      "Reactive UAVs were detected over Kyiv and moving toward Vasylkiv, with additional groups tracked toward Zhytomyr and Rivne regions. (Source: @mon1tor_ua/77504)",
+      "Reactive UAVs were observed moving from Kyiv region toward Makariv and from Zhytomyr toward Rivne, indicating coordinated aerial infiltration. (Source: @kpszsu/89973)",
+      "Reactive UAVs were detected near Sumy moving toward Chernihiv, with additional groups tracked from Chernihiv toward Kyiv and from Vinnytsia toward Odesa. (Source: @eRadarrua/125920)"
+    ],
+    "key_developments": [
+      "Ukrainian drones attacked the Tolyatti chemical plant in Russia, causing a large fire and smoke plume over the city. (Source: @UkraineNow/84869)",
+      "Russian forces launched multiple Geran-5 and reactive UAVs toward Kyiv, Zhytomyr, Rivne, and Chernihiv regions, triggering air alerts and power outages. (Source: @mon1tor_ua/77496)",
+      "Ukrainian drones attacked Moscow, forcing all airports to suspend operations, according to Russian media reports. (Source: @UkraineNow/84854)",
+      "Over 90% of Crimea and parts of Rostov region lost power after Ukrainian strikes on key electrical infrastructure. (Source: @eRadarrua/125984)",
+      "Ukraine announced a local ceasefire in occupied Oleshky starting at 03:00 on October 27 for a humanitarian operation. (Source: @UkraineNow/84864)",
+      "Russian forces issued threats of ballistic missile launches from Kursk region, including Iskander-M and S-300 systems. (Source: @mon1tor_ua/77503)",
+      "Germany plans to establish space forces within the Luftwaffe, with at least 1000 personnel and satellite operations by 2027. (Source: @DeepStateUA/23926)"
+    ],
+    "threat_assessment": "The threat level remains high with ongoing drone warfare on both sides. Russian forces continue launching Geran-5 and reactive UAVs across northern Ukraine, targeting critical infrastructure and triggering air alerts. Ukrainian strikes on Russian soil, including the Tolyatti chemical plant and Moscow airports, indicate an escalation in cross-border operations. The announced ceasefire in Oleshky may provide temporary relief but does not address broader frontline tensions. Continued air raids and infrastructure attacks suggest sustained volatility in the coming days.",
+    "regional_response": "Regional authorities in northern Ukraine have activated air defense systems in response to repeated drone incursions from Belarus and Russia. Power outages in Kyiv and Vyshgorod have prompted emergency restoration efforts. In Russia, the Tolyatti plant fire has raised concerns about disruptions to synthetic rubber production used in military applications. German defense planners are moving forward with space force development, signaling a new domain of potential conflict. International observers are monitoring the Oleshky ceasefire for compliance and humanitarian access.",
+    "intelligence_notes": "Ukrainian procurement agencies are rapidly expanding acquisition of aircraft, tactical missiles, and unmanned systems, reflecting a shift toward enhanced aerial capabilities. The Agency for Defense Procurement reported a 300% increase in drone contracts compared to 2025, with FPV procurement rising 54%. Government reforms to enterprise booking systems aim to prevent abuse while maintaining critical sector operations. Cross-border drone activity remains intense, with both sides employing reactive UAVs for reconnaissance and strikes. Open-source intelligence continues to play a key role in tracking infrastructure damage and military movements."
   },
-  "stale_summary": true,
   "missiles": 0,
-  "drones": 176,
+  "drones": 126,
   "kpszsu_timeline": [
     0,
     0,
     0,
-    0,
-    0,
-    3,
-    14,
-    8,
-    8,
+    5,
+    11,
+    9,
+    9,
+    9,
     10,
     10,
-    12,
-    4,
     2,
     4,
     1,
-    3,
-    3,
+    4,
+    0,
     6,
-    9,
+    10,
     7,
-    2,
     3,
-    1
+    4,
+    1,
+    2,
+    0,
+    6
   ]
 }
