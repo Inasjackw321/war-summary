@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-10-30T05:09:51.248125+00:00",
-  "message_count": 236,
+  "updated_at": "2026-10-30T06:13:10.285120+00:00",
+  "message_count": 237,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -9,7 +9,7 @@
     "UkraineNow",
     "DeepStateUA"
   ],
-  "red_alerts": 112,
+  "red_alerts": 113,
   "red_alerts_timeline": [
     0,
     0,
@@ -21,13 +21,13 @@
     0,
     0,
     0,
+    38,
+    19,
     0,
     19,
-    37,
     0,
+    38,
     0,
-    19,
-    37,
     0,
     0,
     0,
@@ -38,52 +38,59 @@
   ],
   "combined_activity_timeline": [
     2,
-    3,
-    8,
-    5,
     8,
     6,
+    7,
+    6,
     6,
     5,
-    6,
+    5,
     3,
-    9,
-    11,
+    10,
+    13,
+    10,
+    14,
+    18,
+    23,
+    20,
+    13,
+    6,
     12,
-    13,
-    16,
-    26,
-    19,
-    13,
-    6,
     11,
+    18,
     13,
-    19,
-    13,
-    3
+    4,
+    4
   ],
   "messages_by_channel": {
     "@eRadarrua": 93,
-    "@kpszsu": 104,
-    "@mon1tor_ua": 15,
+    "@kpszsu": 106,
+    "@mon1tor_ua": 14,
     "@UkraineNow": 20,
     "@DeepStateUA": 4
   },
   "recent_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/127125",
-    "kpszsu": "https://t.me/kpszsu/91424",
+    "kpszsu": "https://t.me/kpszsu/91433",
     "mon1tor_ua": "https://t.me/mon1tor_ua/77623",
     "UkraineNow": "https://t.me/UkraineNow/84998",
     "DeepStateUA": "https://t.me/DeepStateUA/23948"
   },
   "cited_post_urls": {
-    "UkraineNow": "https://t.me/UkraineNow/84974",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/77611",
+    "kpszsu": "https://t.me/kpszsu/91428",
+    "UkraineNow": "https://t.me/UkraineNow/84972",
     "eRadarrua": "https://t.me/eRadarrua/127078",
-    "DeepStateUA": "https://t.me/DeepStateUA/23948",
-    "kpszsu": "https://t.me/kpszsu/91299"
+    "mon1tor_ua": "https://t.me/mon1tor_ua/77619"
   },
   "media": [
+    {
+      "post_url": "https://t.me/kpszsu/91428",
+      "post_id": 91428,
+      "channel": "kpszsu",
+      "ts": "2026-10-30T05:31:55+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Nrk6Z6kzFfl6WQ4nWmmMrjsbn9HJepI2ORyFsIhXWC3pTA7JYK271NXQ38SC8HR3WHWrGVnKF53CDOUIOnndAsoAl5-NqTrrgfv6yADDyez4LYgjlgwvJ3X-sPm9qaC1JGi5Qkot1FQMfkfn-NgNir_q22xxwo-IqIkkq4OYEIRS-pYHzyXep4W0DN9NtowM2xnr6T6qozpJs0WX5p9xugQT0BHwxvhGF8Edk-Yqh5Dr_k96f9xyLUDPl6YbZ3IN1ll-5LR_lAhB58uA7pNgKrRXQZPp0BRyTnfcGywL9NNX0C46bQ6JxmR8T-TucyWVZsao5UNp5I48KxGBL5cbFQ.jpg",
+      "companion_text_id": 91429
+    },
     {
       "post_url": "https://t.me/eRadarrua/127078",
       "post_id": 127078,
@@ -221,12 +228,6 @@
       "post_id": 84990,
       "channel": "UkraineNow",
       "ts": "2026-10-29T12:48:59+00:00"
-    },
-    {
-      "post_url": "https://t.me/DeepStateUA/23946",
-      "post_id": 23946,
-      "channel": "DeepStateUA",
-      "ts": "2026-10-29T12:06:36+00:00"
     }
   ],
   "post_images": {
@@ -250,118 +251,116 @@
     "eRadarrua/126892": "data/media/eRadarrua_126892.jpg",
     "eRadarrua/126898": "data/media/eRadarrua_126898.jpg",
     "eRadarrua/126899": "data/media/eRadarrua_126898.jpg",
+    "kpszsu/91428": "data/media/kpszsu_91428.jpg",
+    "kpszsu/91429": "data/media/kpszsu_91428.jpg",
     "kpszsu/91282": "data/media/kpszsu_91282.jpg",
-    "kpszsu/91281": "data/media/kpszsu_91282.jpg",
-    "kpszsu/91189": "data/media/kpszsu_91189.jpg"
+    "kpszsu/91281": "data/media/kpszsu_91282.jpg"
   },
-  "summary": "Russian drone and missile strikes targeted multiple Ukrainian regions including Kyiv, Dnipro, Chernihiv, and Sumy, causing civilian casualties and infrastructure damage. Ukraine reported downing two Su-34 fighters and striking an Iskander launcher. Diplomatic tensions rose as South Korea restored ties with Russia amid ongoing battlefield losses.",
+  "summary": "Russian forces launched a large-scale drone and missile attack across multiple Ukrainian regions on October 30, 2026, targeting critical infrastructure and civilian areas. Ukrainian air defenses intercepted 99 enemy targets, including ballistic missiles and Shahed drones. Strikes hit Kyiv, Dnipro, Kharkiv, and other cities, causing casualties and widespread power outages.",
   "key_points": [
-    "Russian drone struck a train station in Dnipro, killing 13 civilians and injuring 13 others (Source: @UkraineNow/84974).",
-    "Two Russian Su-34 fighters were destroyed at the Marinovka airfield in Volgograd region (Source: @UkraineNow/84992).",
-    "Air raid alerts activated across Kyiv and surrounding areas due to incoming Shahed and ballistic threats (Source: @mon1tor_ua/77611).",
-    "Over 350,000 consumers lost power in Dnipro after a drone attack on energy infrastructure (Source: @eRadarrua/127078).",
-    "South Korea restored diplomatic contacts with Russia while reducing ties with Ukraine (Source: @DeepStateUA/23948).",
-    "Poland approved transfer of two additional MiG-29 fighter jets to Ukraine (Source: @DeepStateUA/23946).",
-    "Ukraine requested stronger EU and US sanctions in response to escalating Russian attacks (Source: @UkraineNow/84974)."
+    "Russian forces launched a major overnight drone and missile attack on October 30, 2026, targeting multiple Ukrainian regions including Kyiv, Dnipro, and Kharkiv. (Source: @kpszsu/91428)",
+    "Ukrainian air defenses intercepted 99 enemy targets, including 3 Kh-59/69 missiles and 96 Shahed and other drones, during the overnight attack. (Source: @kpszsu/91428)",
+    "A Russian drone strike on a railway station in Dnipro killed at least 13 civilians and injured over 20 others, according to Ukrainian officials. (Source: @UkraineNow/84972)",
+    "Russian attacks on October 30 caused power outages affecting over 350,000 subscribers in Dnipro and surrounding areas, with emergency services working to restore electricity. (Source: @eRadarrua/127078)",
+    "Kyiv was hit by multiple ballistic missiles, including Iskander-M and Tsirkon, with explosions reported in the Darnytskyi and Dnipro districts. (Source: @mon1tor_ua/77619)",
+    "Ukrainian President Zelenskyy confirmed the destruction of two Russian Su-34 fighter jets at the Marinovka airbase in Volgograd region and a ballistic missile launcher. (Source: @UkraineNow/84996)",
+    "Russian forces used cumulative warheads in drones to target bridge piers, including the North Bridge, with Geran-5 drones now capable of reaching speeds up to 1,000 km/h. (Source: @UkraineNow/84994)"
   ],
   "sentiment": "escalating",
   "intensity": 9,
   "sections": {
-    "executive_summary": "Russian drone and missile strikes hit multiple Ukrainian cities including Kyiv, Dnipro, and Chernihiv, causing significant civilian casualties and infrastructure damage. Ukraine claimed destruction of two Russian Su-34 fighters and an Iskander launcher. Diplomatic tensions increased as South Korea moved closer to Russia despite Western pressure.",
+    "executive_summary": "Russian forces launched a major overnight drone and missile attack on October 30, 2026, targeting multiple Ukrainian regions including Kyiv, Dnipro, and Kharkiv. Ukrainian air defenses intercepted 99 enemy targets, including ballistic missiles and Shahed drones. Strikes hit civilian infrastructure and critical facilities, causing casualties and widespread power outages.",
     "ukraine": {
       "points": [
-        "A Russian drone attacked a train station in Dnipro, killing 13 civilians and injuring 13 others, including children (Source: @UkraineNow/84974).",
-        "In Chernihiv, a Russian drone strike killed two people and injured four, sparking fires in commercial buildings (Source: @UkraineNow/84983).",
-        "Kyiv faced repeated air raid alerts with reports of incoming Shahed and ballistic missiles from multiple directions (Source: @mon1tor_ua/77611).",
-        "Ukrzaliznytsia confirmed a drone strike on a passenger train platform in Dnipro, resulting in at least 13 deaths and 10 injuries (Source: @UkraineNow/84972).",
-        "President Zelenskyy called for stronger sanctions and military support from the US and EU following intensified Russian attacks (Source: @UkraineNow/84974)."
+        "Russian forces conducted a large-scale drone and missile attack on October 30, 2026, targeting multiple regions including Kyiv, Dnipro, and Kharkiv. Ukrainian air defenses intercepted 99 enemy targets, including 3 Kh-59/69 missiles and 96 Shahed and other drones. (Source: @kpszsu/91428)",
+        "A Russian drone strike on a railway station in Dnipro killed at least 13 civilians and injured over 20 others, according to Ukrainian officials. The attack occurred while a passenger train was on the platform. (Source: @UkraineNow/84972)",
+        "Russian attacks on October 30 caused power outages affecting over 350,000 subscribers in Dnipro and surrounding areas. Emergency services worked to restore electricity and prevent water supply collapse. (Source: @eRadarrua/127078)",
+        "Kyiv was hit by multiple ballistic missiles, including Iskander-M and Tsirkon, with explosions reported in the Darnytskyi and Dnipro districts. Air raid sirens were activated multiple times throughout the night. (Source: @mon1tor_ua/77619)",
+        "Ukrainian President Zelenskyy confirmed the destruction of two Russian Su-34 fighter jets at the Marinovka airbase in Volgograd region and a ballistic missile launcher. (Source: @UkraineNow/84996)",
+        "Russian forces used cumulative warheads in drones to target bridge piers, including the North Bridge, with Geran-5 drones now capable of reaching speeds up to 1,000 km/h. (Source: @UkraineNow/84994)"
       ]
     },
     "russia": {
       "points": [
-        "Two Russian Su-34 fighters were destroyed at the Marinovka airfield in Volgograd region, killing two pilots and injuring two others (Source: @UkraineNow/84992).",
-        "Russian forces launched coordinated Shahed drone attacks from Kursk and Donetsk directions targeting central and eastern Ukraine (Source: @eRadarrua/127040).",
-        "Airports in Penza and Saratov suspended operations due to ongoing Ukrainian drone activity (Source: @eRadarrua/127085).",
-        "Russia reportedly developed a new combat drone equipped with cumulative warheads capable of cutting through bridge piers (Source: @UkraineNow/84994).",
-        "Putin declined to discuss ceasefire terms during talks with Finnish and Norwegian leaders, instead delivering a lecture on Slavic history (Source: @UkraineNow/84969)."
+        "Russian forces launched a coordinated drone and missile attack on October 30, 2026, from Voronezh, Kursk, and Bryansk regions, targeting Ukrainian cities including Kyiv, Dnipro, and Kharkiv. (Source: @kpszsu/91428)",
+        "Two Russian Su-34 fighter jets were destroyed at the Marinovka airbase in Volgograd region, with two pilots killed and two injured, according to Ukrainian officials. (Source: @UkraineNow/84992)",
+        "Russian forces deployed Shahed and other drones from occupied Crimea and Donetsk, with 113 attack drones launched during the overnight assault. (Source: @kpszsu/91428)",
+        "Russian military intelligence reportedly prepared new ballistic missile strikes, prompting heightened air alert levels across Ukraine. (Source: @UkraineNow/84996)",
+        "Russian forces used Iskander-M and Tsirkon ballistic missiles in the attack on Kyiv, with multiple warheads impacting residential areas. (Source: @mon1tor_ua/77619)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian drones targeted Dnipro and Zaporizhzhia with multiple Shahed attacks, causing power outages affecting over 350,000 consumers (Source: @eRadarrua/127078).",
-        "A drone strike hit a residential building in Kremenchuk, injuring several people including children (Source: @UkraineNow/84986).",
-        "Ukrainian forces reported intercepting Russian reconnaissance drones over Sumy and Chernihiv regions (Source: @eRadarrua/127079).",
-        "Shahed drones were tracked moving from Chernihiv toward Poltava and Lubny districts (Source: @mon1tor_ua/77610).",
-        "Russian forces continued launching drones from eastern directions toward Kharkiv and Dnipro regions (Source: @kpszsu/91299)."
+        "Russian forces launched drones from Donetsk and Crimea toward Ukrainian cities, with attack routes passing through the eastern front regions. (Source: @kpszsu/91428)",
+        "A Russian drone strike on a railway station in Dnipro killed at least 13 civilians and injured over 20 others, according to Ukrainian officials. (Source: @UkraineNow/84972)",
+        "Russian attacks on October 30 caused power outages affecting over 350,000 subscribers in Dnipro and surrounding areas. (Source: @eRadarrua/127078)",
+        "Ukrainian air defenses intercepted multiple Shahed drones and missiles launched from the eastern front direction during the overnight attack. (Source: @kpszsu/91428)"
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple Shahed drones were detected approaching Kyiv from the north, flying between Brovary and Boryspil (Source: @mon1tor_ua/77611).",
-        "Air raid alerts sounded in Kyiv and surrounding areas as drones approached from Chernihiv and Sumy regions (Source: @eRadarrua/127075).",
-        "Russian drones flew from Bryansk region toward northern Chernihiv, crossing near Bobrovitsa (Source: @kpszsu/91271).",
-        "A drone was tracked flying from Chernihiv toward Korjukivka and Berezna on the northern front (Source: @eRadarrua/127079).",
-        "Kyiv residents sought shelter during heightened air alert periods triggered by incoming drone swarms (Source: @UkraineNow/84991)."
+        "Russian forces launched drones from Bryansk and Sumy regions toward northern Ukraine, including attacks on Kyiv and Chernihiv. (Source: @kpszsu/91428)",
+        "A reactive drone was detected moving from Bryansk region toward northern Chernihiv region during the overnight attack. (Source: @kpszsu/91429)",
+        "Ukrainian air defenses intercepted multiple drones launched from the northern front direction, including Shahed and other attack drones. (Source: @kpszsu/91428)",
+        "Air raid sirens were activated multiple times in Kyiv and surrounding areas due to drone and missile threats from the northern front. (Source: @eRadarrua/127119)"
       ]
     },
     "southern_front": {
       "points": [
-        "Russian drones targeted Kherson region with attacks directed toward Barvinkove (Source: @kpszsu/91294).",
-        "Shahed drones were launched from Crimea and southern front areas toward Kryvyi Rih and Nikopol (Source: @kpszsu/91276).",
-        "Ukrainian air defenses intercepted multiple drones over Dnipro and Zaporizhzhia regions (Source: @mon1tor_ua/77606).",
-        "Russian forces continued drone incursions from the south toward Vinnytsia and Kirovohrad regions (Source: @kpszsu/91280).",
-        "Air raid alerts were issued across southern Ukraine following reports of incoming missile threats (Source: @mon1tor_ua/77607)."
+        "Russian forces launched drones from occupied Crimea and Donetsk toward southern Ukrainian regions, including attacks on Kharkiv and Dnipro. (Source: @kpszsu/91428)",
+        "A reactive drone was detected moving from the south of Zaporizhzhia near Tokmak, moving westward during the overnight attack. (Source: @eRadarrua/127068)",
+        "Ukrainian air defenses intercepted multiple Shahed drones launched from the southern front direction during the overnight assault. (Source: @kpszsu/91428)",
+        "Russian forces used Geran-5 drones with enhanced capabilities, including speeds up to 1,000 km/h, in attacks on southern Ukrainian cities. (Source: @UkraineNow/84994)"
       ]
     },
     "air_war": {
       "points": [
-        "Ukraine claimed destruction of two Russian Su-34 fighters at Marinovka airfield in Volgograd region (Source: @UkraineNow/84992).",
-        "An Iskander missile launcher was reportedly struck by Ukrainian forces, though location details were not specified (Source: @UkraineNow/84996).",
-        "Air raid alerts were activated across Kyiv, Dnipro, and surrounding regions due to incoming drone and missile threats (Source: @eRadarrua/127075).",
-        "Ukrainian forces reported intercepting Shahed drones over Kyiv, Zhytomyr, and Poltava regions (Source: @mon1tor_ua/77610).",
-        "Pskov and Saratov airports suspended flights due to persistent drone threats (Source: @eRadarrua/127085)."
+        "Ukrainian air defenses intercepted 99 enemy targets during the overnight attack on October 30, 2026, including 3 Kh-59/69 missiles and 96 Shahed and other drones. (Source: @kpszsu/91428)",
+        "Russian forces launched 113 attack drones, including 83 Shahed variants, from multiple directions during the coordinated overnight assault. (Source: @kpszsu/91428)",
+        "Kyiv was hit by multiple ballistic missiles, including Iskander-M and Tsirkon, with explosions reported in the Darnytskyi and Dnipro districts. (Source: @mon1tor_ua/77619)",
+        "Ukrainian air defenses successfully intercepted and destroyed two Russian Su-34 fighter jets at the Marinovka airbase in Volgograd region. (Source: @UkraineNow/84992)",
+        "Russian forces used Iskander-M and Tsirkon ballistic missiles in the attack on Kyiv, with multiple warheads impacting residential areas. (Source: @mon1tor_ua/77619)"
       ]
     },
     "key_developments": [
-      "Russian drone strike on Dnipro train station killed 13 civilians and injured 13 others, including children (Source: @UkraineNow/84974).",
-      "Two Russian Su-34 fighters destroyed at Marinovka airfield in Volgograd region, two pilots killed (Source: @UkraineNow/84992).",
-      "Over 350,000 consumers lost power in Dnipro after drone attack on energy infrastructure (Source: @eRadarrua/127078).",
-      "South Korea restored diplomatic contacts with Russia while reducing ties with Ukraine (Source: @DeepStateUA/23948).",
-      "Poland approved transfer of two additional MiG-29 fighter jets to Ukraine (Source: @DeepStateUA/23946).",
-      "Air raid alerts activated across Kyiv and surrounding regions due to incoming Shahed and ballistic threats (Source: @mon1tor_ua/77611).",
-      "President Zelenskyy requested stronger sanctions and military support from US and EU (Source: @UkraineNow/84974)."
+      "Russian forces launched a coordinated drone and missile attack on October 30, 2026, from Voronezh, Kursk, and Bryansk regions, targeting Ukrainian cities including Kyiv, Dnipro, and Kharkiv. (Source: @kpszsu/91428)",
+      "Ukrainian air defenses intercepted 99 enemy targets, including 3 Kh-59/69 missiles and 96 Shahed and other drones, during the overnight attack. (Source: @kpszsu/91428)",
+      "A Russian drone strike on a railway station in Dnipro killed at least 13 civilians and injured over 20 others, according to Ukrainian officials. (Source: @UkraineNow/84972)",
+      "Russian attacks on October 30 caused power outages affecting over 350,000 subscribers in Dnipro and surrounding areas, with emergency services working to restore electricity. (Source: @eRadarrua/127078)",
+      "Kyiv was hit by multiple ballistic missiles, including Iskander-M and Tsirkon, with explosions reported in the Darnytskyi and Dnipro districts. (Source: @mon1tor_ua/77619)",
+      "Ukrainian President Zelenskyy confirmed the destruction of two Russian Su-34 fighter jets at the Marinovka airbase in Volgograd region and a ballistic missile launcher. (Source: @UkraineNow/84996)",
+      "Russian forces used cumulative warheads in drones to target bridge piers, including the North Bridge, with Geran-5 drones now capable of reaching speeds up to 1,000 km/h. (Source: @UkraineNow/84994)"
     ],
-    "threat_assessment": "Russian forces are conducting sustained drone and missile campaigns against Ukrainian urban centers, infrastructure, and transportation hubs. The use of modified combat drones and Iskander systems indicates evolving tactical capabilities. Civilian casualties are rising, particularly in Dnipro and Chernihiv. Air defenses remain active but overwhelmed by volume. Continued escalation likely without enhanced Western military support.",
-    "regional_response": "European allies are responding with increased military aid, including Poland’s commitment of additional MiG-29s and the EU’s proposed €21.3 billion defense fund. The US faces domestic pressure to investigate Starlink restrictions affecting Ukrainian air defense. South Korea’s rapprochement with Russia complicates regional alignment. NATO members are urged to maintain unified support for Ukraine amid growing geopolitical friction.",
-    "intelligence_notes": "Ukrainian intelligence has confirmed Russian preparations for new ballistic strikes, prompting heightened alert levels. Coordination between Ukrainian and US intelligence remains strong through personal networks established under former GUR leadership. Disinformation campaigns are being used to obscure Russian attacks on civilian infrastructure. Monitoring of Russian drone production and deployment patterns is critical for anticipating future threats."
+    "threat_assessment": "Russian forces have escalated their drone and missile campaign with coordinated attacks across multiple fronts, demonstrating increased operational reach and capability. The use of advanced ballistic missiles like Iskander-M and Tsirkon, along with enhanced Geran-5 drones, indicates a significant upgrade in strike capacity. Ukrainian air defenses remain effective but face sustained pressure from large-scale assaults. The targeting of civilian infrastructure, including railway stations and power grids, suggests a strategy aimed at degrading morale and critical services. Continued escalation is likely as both sides prepare for winter warfare.",
+    "regional_response": "Ukrainian authorities have maintained air raid protocols and emergency response measures across affected regions, with power restoration efforts underway in Dnipro and other impacted areas. President Zelenskyy has called for increased Western military support, particularly air defense systems, to counter the intensified Russian campaign. European officials have expressed concern over the scale of attacks, with the EU proposing additional defense funding packages. The United States has faced criticism over Starlink restrictions that may have hampered Ukrainian drone interception efforts. Regional governments are coordinating humanitarian aid for affected civilians and reinforcing critical infrastructure protection measures.",
+    "intelligence_notes": "Russian forces appear to be leveraging increased drone production capabilities, with reports of up to 3,000 Shahed variants manufactured monthly for winter operations. Intelligence indicates preparation for further ballistic missile strikes, prompting heightened alert levels across Ukraine. Ukrainian special operations and air defense units have demonstrated improved interception rates, though the volume of attacks continues to strain defensive capabilities. Cross-border drone activity from Belarusian territory has been detected, suggesting potential expansion of attack vectors. Western intelligence sharing remains critical for Ukrainian air defense coordination, with ongoing discussions about additional military aid packages."
   },
-  "stale_summary": true,
   "missiles": 0,
-  "drones": 112,
+  "drones": 113,
   "kpszsu_timeline": [
     1,
-    2,
     5,
+    5,
+    5,
+    2,
+    3,
+    3,
+    3,
+    2,
+    6,
+    4,
+    3,
     4,
     6,
-    2,
-    3,
-    3,
-    4,
-    2,
-    5,
-    3,
-    4,
-    4,
-    5,
-    3,
     1,
-    3,
+    2,
+    4,
     2,
     5,
-    9,
-    18,
     8,
-    2
+    17,
+    8,
+    3,
+    4
   ]
 }
