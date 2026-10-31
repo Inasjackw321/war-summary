@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-10-30T23:41:15.249208+00:00",
-  "message_count": 236,
+  "updated_at": "2026-10-31T04:54:15.628753+00:00",
+  "message_count": 219,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,11 +11,6 @@
   ],
   "red_alerts": 113,
   "red_alerts_timeline": [
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     28,
     0,
@@ -34,49 +29,60 @@
     56,
     0,
     0,
+    0,
+    0,
+    0,
+    0,
+    0,
     0
   ],
   "combined_activity_timeline": [
-    1,
+    2,
+    8,
+    8,
+    20,
+    6,
+    15,
+    16,
+    9,
+    9,
+    2,
+    11,
+    5,
     7,
     13,
-    14,
-    11,
-    4,
-    7,
-    4,
-    24,
-    6,
-    12,
+    20,
     16,
-    10,
-    10,
+    11,
+    6,
     4,
     8,
     5,
-    7,
-    15,
-    12,
-    25,
-    13,
-    6,
-    2
+    8,
+    4,
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 79,
-    "@kpszsu": 122,
-    "@mon1tor_ua": 22,
-    "@UkraineNow": 11,
+    "@eRadarrua": 72,
+    "@kpszsu": 114,
+    "@mon1tor_ua": 19,
+    "@UkraineNow": 12,
     "@DeepStateUA": 2
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/127295",
-    "kpszsu": "https://t.me/kpszsu/91595",
+    "eRadarrua": "https://t.me/eRadarrua/127323",
+    "kpszsu": "https://t.me/kpszsu/91651",
     "mon1tor_ua": "https://t.me/mon1tor_ua/77642",
-    "UkraineNow": "https://t.me/UkraineNow/85017",
+    "UkraineNow": "https://t.me/UkraineNow/85018",
     "DeepStateUA": "https://t.me/DeepStateUA/23950"
   },
-  "cited_post_urls": {},
+  "cited_post_urls": {
+    "mon1tor_ua": "https://t.me/mon1tor_ua/77642",
+    "eRadarrua": "https://t.me/eRadarrua/127245",
+    "kpszsu": "https://t.me/kpszsu/91600",
+    "DeepStateUA": "https://t.me/DeepStateUA/23950",
+    "UkraineNow": "https://t.me/UkraineNow/85004"
+  },
   "media": [
     {
       "post_url": "https://t.me/UkraineNow/85016",
@@ -233,16 +239,16 @@
     "eRadarrua/127285": "data/media/eRadarrua_127285.jpg",
     "eRadarrua/127284": "data/media/eRadarrua_127285.jpg",
     "eRadarrua/127287": "data/media/eRadarrua_127287.jpg",
-    "eRadarrua/127258": "data/media/eRadarrua_127258.jpg",
-    "eRadarrua/127257": "data/media/eRadarrua_127258.jpg",
-    "eRadarrua/127259": "data/media/eRadarrua_127259.jpg",
-    "eRadarrua/127239": "data/media/eRadarrua_127239.jpg",
-    "eRadarrua/127240": "data/media/eRadarrua_127240.jpg",
     "eRadarrua/127250": "data/media/eRadarrua_127250.jpg",
     "eRadarrua/127251": "data/media/eRadarrua_127251.jpg",
     "eRadarrua/127252": "data/media/eRadarrua_127252.jpg",
     "eRadarrua/127253": "data/media/eRadarrua_127253.jpg",
     "eRadarrua/127254": "data/media/eRadarrua_127253.jpg",
+    "eRadarrua/127258": "data/media/eRadarrua_127258.jpg",
+    "eRadarrua/127257": "data/media/eRadarrua_127258.jpg",
+    "eRadarrua/127259": "data/media/eRadarrua_127259.jpg",
+    "eRadarrua/127239": "data/media/eRadarrua_127239.jpg",
+    "eRadarrua/127240": "data/media/eRadarrua_127240.jpg",
     "eRadarrua/127211": "data/media/eRadarrua_127211.jpg",
     "eRadarrua/127210": "data/media/eRadarrua_127211.jpg",
     "eRadarrua/127187": "data/media/eRadarrua_127187.jpg",
@@ -255,113 +261,108 @@
     "kpszsu/91428": "data/media/kpszsu_91428.jpg",
     "kpszsu/91426": "data/media/kpszsu_91428.jpg"
   },
-  "summary": "Russian forces launched multiple Shahed-5 drone and missile attacks across Ukraine on October 30, 2026, targeting energy infrastructure in Kyiv, Dnipro, and other cities. The attacks caused blackouts in parts of Kyiv and damaged a power substation in Dnipro, with emergency services responding to incidents. Ukrainian authorities reported ongoing air raid alerts and confirmed strikes on thermal power plants and railway stations.",
+  "summary": "Russian forces conducted a large-scale overnight drone offensive on 30-31 October 2026, striking Kyiv's TEC-6 thermal power plant with at least three Geran-5 drones causing widespread power and water outages, while dozens of reactive UAVs penetrated airspace across Sumy, Poltava, Chernihiv, Kyiv, and Dnipropetrovsk regions. Simultaneously, Russian forces executed a double strike on Dnipro's energy infrastructure and railway station, damaging a substation and generating a large smoke column. A ballistic missile launch threat from Russia's Kursk region was also reported, alongside confirmed Russian territorial gains near Hranove in the east. (Source: @mon1tor_ua/77642, @eRadarrua/127245, @mon1tor_ua/77632, @DeepStateUA/23950)",
   "key_points": [
-    "Multiple Shahed-5 drones and missiles targeted Kyiv, Dnipro, and other Ukrainian cities on October 30, 2026. (Source: mon1tor_ua/77635)",
-    "Shahed-5 drones struck Kyiv's Brovary district and a thermal power plant in Dnipro, causing blackouts in parts of the capital. (Source: mon1tor_ua/77642)",
-    "Russian forces attacked Dnipro's railway station and a power substation, creating smoke clouds and power outages. (Source: eRadarrua/127245)",
-    "Ukrainian forces reportedly struck Russian refineries in Samar after a 20-day pause. (Source: UkraineNow/85004)",
-    "Evacuation buses from Oleshok began moving to Ukraine, with 17 buses heading to Ukrainian territory and 4 to Russia. (Source: UkraineNow/85009)",
-    "Ukraine secured Patriot missile systems sale from the US for $2.1 billion. (Source: UkraineNow/85014)",
-    "DeepStateUA updated its map showing Russian forces advancing near Graniv. (Source: DeepStateUA/23949)"
+    "At least three Geran-5 drones struck Kyiv's TEC-6 facility in Desnyansky district, causing power and water outages across parts of the capital. (Source: @mon1tor_ua/77642)",
+    "Russian forces executed a double strike on Dnipro, damaging an electrical substation and striking near the railway station, creating a large smoke column. (Source: @eRadarrua/127245)",
+    "Dozens of reactive UAVs were tracked crossing from Sumy region through Poltava toward Kyiv and Cherkasy regions, targeting multiple towns including Romny, Buryn, Lohvytsia, and Pyriatyn. (Source: @kpszsu/91600, @kpszsu/91601, @kpszsu/91611, @eRadarrua/127300)",
+    "Geran-5 drones targeted Kyiv suburbs including Brovary, Vyshhorod, Bucha, and Bila Tserkva, with one drone reported at 200m altitude over Brovary. (Source: @mon1tor_ua/77625, @mon1tor_ua/77628, @mon1tor_ua/77629, @mon1tor_ua/77639)",
+    "A ballistic missile launch threat (Iskander-M/S-300/Tsirkon) was reported from Russia's Kursk region toward Ukrainian territory. (Source: @mon1tor_ua/77632)",
+    "Ukrainian air raid alerts sounded repeatedly in Kyiv overnight 30-31 October, with all-clear periods at 21:51, 22:35, 23:29, 05:07, and 06:23 local time. (Source: @eRadarrua/127267, @eRadarrua/127284, @eRadarrua/127293, @eRadarrua/127322, @eRadarrua/127323)",
+    "Russian forces advanced near Hranove in the eastern front, per updated DeepState map. (Source: @DeepStateUA/23950)",
+    "Ukraine resumed strikes on Russian oil refineries after a 20-day pause, hitting Samara region facilities. (Source: @UkraineNow/85004)"
   ],
   "sentiment": "escalating",
   "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces launched coordinated Shahed-5 drone and missile attacks across Ukraine on October 30, 2026, targeting energy infrastructure in Kyiv, Dnipro, and other cities. The attacks caused blackouts in parts of Kyiv and damaged a power substation in Dnipro, with emergency services responding to incidents. Ukrainian authorities reported ongoing air raid alerts and confirmed strikes on thermal power plants and railway stations.",
+    "executive_summary": "Russian forces launched a coordinated multi-axis drone assault overnight 30-31 October 2026, achieving direct hits on Kyiv's critical TEC-6 thermal power plant with three Geran-5 drones that disrupted electricity and water supply to parts of the capital. Concurrently, waves of jet-powered reactive UAVs transited from Sumy and Poltava regions toward Kyiv and Cherkasy oblasts, while a double strike on Dnipro damaged a substation and the railway station. The operation coincided with a reported ballistic missile threat from Kursk region and confirmed Russian tactical gains near Hranove, indicating an escalation in both intensity and geographic scope of Russian long-range strikes. (Source: @mon1tor_ua/77642, @eRadarrua/127245, @kpszsu/91600, @mon1tor_ua/77632, @DeepStateUA/23950)",
     "ukraine": {
       "points": [
-        "Ukrainian forces reportedly struck Russian refineries in Samar after a 20-day pause, according to UkraineNow/85004.",
-        "The Ukrainian military issued an order to strengthen control over military medical commission operations to prevent corruption during mobilization, as reported by DeepStateUA/23950.",
-        "Ukraine secured approval for the sale of 500 Patriot surface-to-air missile systems from the US for $2.1 billion, according to UkraineNow/85014.",
-        "Evacuation buses from Oleshok began moving to Ukraine, with 17 buses heading to Ukrainian territory and 4 to Russia, as reported by UkraineNow/85009.",
-        "Ukrainian authorities reported that evacuation buses from Oleshok stretched for kilometers, with the Ukrainian delegation safely reaching Oleshok, according to UkraineNow/85006 and UkraineNow/85009."
+        "Ukrainian air defenses engaged multiple Shahed-type drones over Kyiv, Brovary, Bila Tserkva, and Rivne, with monitoring channels reporting at least one reactive Shahed circling over Dnipro and another approaching Kremenchuk in Poltava region. (Source: @mon1tor_ua/77634, @mon1tor_ua/77633, @kpszsu/91626, @mon1tor_ua/77635)",
+        "Ukrainian authorities managed the evacuation of residents from Oleshky in Kherson region, with a column of 17 buses heading to Ukraine and 4 to Russia; the Ukrainian delegation accompanied evacuees to Anapa for flights to Belarus and onward bus transport home. (Source: @UkraineNow/85009, @UkraineNow/85006)",
+        "Commander-in-Chief General-Major Mykhailo Drapatyi signed an order significantly strengthening control over military medical commissions (VLK) at territorial recruitment centers, mandating continuous monitoring of commission decisions, personal liability for fraudulent conclusions, and enhanced scrutiny for chronic conditions. (Source: @DeepStateUA/23949)",
+        "The United States approved a potential Foreign Military Sale of 500 Patriot missiles to Ukraine valued at $2.1 billion, bolstering Ukrainian air defense capabilities against ballistic and cruise missile threats. (Source: @UkraineNow/85014)",
+        "Ukrainian forces resumed strikes on Russian energy infrastructure after a 20-day hiatus, targeting oil refineries in Samara region, signaling a renewed campaign against Russian economic assets. (Source: @UkraineNow/85004)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched multiple Shahed-5 drone attacks on Ukrainian energy infrastructure, including thermal power plants in Kyiv and Dnipro, as reported by mon1tor_ua/77635 and mon1tor_ua/77642.",
-        "Russian troops conducted a terrorist attack on Dnipro, striking the city's power substation and railway station, causing blackouts and smoke clouds, according to eRadarrua/127245.",
-        "Russian forces advanced near Graniv, prompting an update to the DeepStateUA operational map, as reported by DeepStateUA/23949.",
-        "Russian forces launched Iskander-M ballistic missiles from Bryansk region, creating high threat alerts for Ukrainian forces, according to mon1tor_ua/77622.",
-        "Russian forces launched Iskander-K missiles on Kremenchuk in Poltava region, as reported by mon1tor_ua/77623."
+        "Russian forces deployed at least 6 Geran-5 drones against Kyiv oblast targets including TEC-6 in Desnyansky district, Brovary (at 200m altitude), Vyshhorod substation, Bucha, and Bila Tserkva, with monitoring channels tracking individual drone tracks from Chernihiv and Bryansk regions. (Source: @mon1tor_ua/77641, @mon1tor_ua/77639, @mon1tor_ua/77630, @mon1tor_ua/77629, @mon1tor_ua/77635)",
+        "Russian forces launched a double strike on Dnipro on 30 October 2026, first hitting an electrical substation causing a massive smoke column and power disruptions, then striking near the railway station endangering passengers and workers; emergency services and energy crews responded to both impact sites. (Source: @eRadarrua/127245)",
+        "Waves of jet-powered reactive UAVs (likely Shahed-238 variants) were launched from multiple axes: from Sumy region through Poltava toward Kyiv and Cherkasy, from Kharkiv region toward Poltava (Dykanka), and from Bryansk region into Chernihiv region, with altitudes as low as 100m near Bereznytske. (Source: @kpszsu/91600, @kpszsu/91647, @eRadarrua/127289, @eRadarrua/127278)",
+        "A ballistic missile launch threat involving Iskander-M, S-300, or Tsirkon systems was detected from Russia's Kursk region, prompting heightened alert status across northern and central Ukraine. (Source: @mon1tor_ua/77632)",
+        "Russian ground forces advanced near Hranove in the eastern theater, per the latest DeepState map update, indicating continued offensive operations in Donetsk region. (Source: @DeepStateUA/23950)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Russian forces advanced near Graniv, prompting an update to the DeepStateUA operational map, as reported by DeepStateUA/23949.",
-        "Shahed-5 drones were detected approaching from the north and southeast toward Dnipro, according to kpszsu/91569 and kpszsu/91565.",
-        "Russian forces launched attacks on Dnipro's railway station and power substation, causing infrastructure damage, as reported by eRadarrua/127245.",
-        "Multiple Shahed-5 drones were detected over Dnipro, with some circling the area, according to mon1tor_ua/77635 and mon1tor_ua/77641.",
-        "Russian forces launched attacks on Sumy region, targeting Vorozhba, as reported by eRadarrua/127289."
+        "Russian forces made tactical gains near Hranove in Donetsk region, per DeepState map update, suggesting ongoing pressure on Ukrainian defensive lines in the area. (Source: @DeepStateUA/23950)",
+        "Dnipro, a key logistical and industrial hub in central-eastern Ukraine, suffered a coordinated double strike on energy and transport infrastructure, damaging a substation and the railway station, which may degrade Ukrainian rear-area sustainment. (Source: @eRadarrua/127245)",
+        "Reactive UAVs were tracked over Dnipropetrovsk region, including near Magdalynivka, Vilnohirsk, Bozhedarivka, and Pavlohrad, indicating persistent Russian aerial reconnaissance and strike capability deep behind the front lines. (Source: @kpszsu/91596, @kpszsu/91620, @kpszsu/91617)",
+        "A reactive Shahed was reported circling over Dnipro city, while another targeted Kremenchuk in Poltava region, demonstrating the reach of Russian long-range drone operations into central Ukraine. (Source: @mon1tor_ua/77634, @mon1tor_ua/77635)"
       ]
     },
     "northern_front": {
       "points": [
-        "Shahed-5 drones were detected approaching Kyiv from the north, with multiple alerts for Brovary and Vyshgorod districts, according to mon1tor_ua/77625, mon1tor_ua/77628, and mon1tor_ua/77639.",
-        "A Shahed-5 drone was detected near Berizna, northeast of Kyiv, at an altitude of 100 meters, as reported by eRadarrua/127278.",
-        "Russian forces launched attacks on Kyiv's thermal power plant TEC-6 in the Desniansky district, causing blackouts, according to mon1tor_ua/77642.",
-        "Multiple air raid alerts were issued for Kyiv, with yellow-level drone threats reported at 21:42 and 23:23, according to eRadarrua/127263 and eRadarrua/127292.",
-        "A missile attack warning was issued for Bryansk region targeting northern Ukraine, as reported by mon1tor_ua/77632."
+        "Multiple reactive UAVs entered Ukrainian airspace from Russia's Bryansk region into Chernihiv region, with tracks reported near Nizhyn, Oster, and Berezna, and a non-reactive UAV noted near Berezna at low altitude. (Source: @eRadarrua/127273, @eRadarrua/127266, @eRadarrua/127289)",
+        "From Sumy region, waves of reactive UAVs transited through Romny and Buryn toward Poltava region, with specific tracks toward Lohvytsia, Hadiach, Pyriatyn, Kobeliaky, Shyshaky, and Lubny, indicating a northern approach vector toward Kyiv. (Source: @kpszsu/91600, @kpszsu/91614, @kpszsu/91621, @kpszsu/91642, @eRadarrua/127300)",
+        "Chernihiv region air defenses engaged UAVs near Bereznytske (flight altitude 100m) and tracked a reactive UAV from Bryansk region, while Kyiv region faced Geran-5 drones approaching from Chernihiv region toward Vyshhorod district. (Source: @eRadarrua/127278, @mon1tor_ua/77627)",
+        "Kyiv oblast experienced sustained drone pressure with Geran-5 drones targeting Brovary, Vyshhorod substation, Bucha, Bila Tserkva, and reactive UAVs approaching Borodianka, Vyshneve/Boiarka, Pereiaslav, and Yahotyn, plus a UAV circling near Hlevakha moving from Lebedivka to Dymer. (Source: @mon1tor_ua/77625, @mon1tor_ua/77628, @mon1tor_ua/77629, @mon1tor_ua/77635, @kpszsu/91633, @kpszsu/91648, @kpszsu/91649, @eRadarrua/127308)"
       ]
     },
     "southern_front": {
       "points": [
-        "Shahed-5 drones were detected approaching from the south toward Kharkiv, targeting cities like Lubotin, as reported by kpszsu/91588 and kpszsu/91590.",
-        "Russian forces launched attacks on Kharkiv region, with drones approaching from the north toward cities like Lubotin and Zlatopyl, according to kpszsu/91565 and kpszsu/91590.",
-        "Shahed-5 drones were detected approaching from the southwest toward Kharkiv, as reported by kpszsu/91565.",
-        "Russian forces launched attacks on Sumy region, with drones approaching from the southwest toward cities like Lubotin, according to eRadarrua/127289.",
-        "Shahed-5 drones were detected approaching from the southwest toward Kharkiv, as reported by kpszsu/91565."
+        "Ukrainian authorities conducted a civilian evacuation from Oleshky in Russian-occupied Kherson region, with 17 buses transporting evacuees to Ukrainian-controlled territory via Anapa, Belarus, while 4 buses moved toward Russia; Ukrainian ombudsman Dmytro Lubinets and Russian ombudswoman Tatiana Moskalkova were present. (Source: @UkraineNow/85009, @UkraineNow/85007)",
+        "No direct combat activity in southern Ukraine was reported in the monitored messages; the primary southern development was the humanitarian evacuation coordinated between Ukrainian and Russian representatives. (Source: @UkraineNow/85009, @UkraineNow/85007)"
       ]
     },
     "air_war": {
       "points": [
-        "Multiple Shahed-5 drones were launched from various directions, including from Bryansk region, Chernihiv region, and Kharkiv region, targeting Ukrainian cities, according to mon1tor_ua/77635 and mon1tor_ua/77637.",
-        "Russian forces launched Iskander-M ballistic missiles from Bryansk and Kursk regions, creating high threat alerts for Ukrainian forces, as reported by mon1tor_ua/77622 and mon1tor_ua/77632.",
-        "Ukrainian forces launched attacks on Russian refineries in Samar after a 20-day pause, according to UkraineNow/85004.",
-        "Russian forces launched coordinated attacks using multiple Shahed-5 drones and Iskander missiles across Ukraine, as reported by mon1tor_ua/77635 and mon1tor_ua/77622.",
-        "Ukrainian air defenses intercepted multiple Shahed-5 drones over Kyiv and other cities, according to mon1tor_ua/77635 and mon1tor_ua/77639."
+        "Kyiv endured multiple air raid alerts overnight 30-31 October: alerts at 22:20, 23:23 (30 Oct), 04:17, and 06:23 (31 Oct) with all-clears at 21:51, 22:35, 23:29, 05:07, and 06:23, all driven by drone threats at yellow alert level. (Source: @eRadarrua/127276, @eRadarrua/127292, @eRadarrua/127297, @eRadarrua/127323, @eRadarrua/127267, @eRadarrua/127284, @eRadarrua/127293, @eRadarrua/127322)",
+        "At least 6 Geran-5 (Shahed-136/131) drones were simultaneously tracked targeting Kyiv oblast: one on TEC-6 (Desnyansky district), one on Vyshhorod substation, one on Brovary (200m altitude), one on Bucha, one on Bila Tserkva, and one on Rivne; monitoring channels reported 3 confirmed hits on TEC-6/power lines. (Source: @mon1tor_ua/77641, @mon1tor_ua/77630, @mon1tor_ua/77639, @mon1tor_ua/77629, @mon1tor_ua/77635, @mon1tor_ua/77633, @mon1tor_ua/77642)",
+        "Dozens of jet-powered reactive UAVs (likely Shahed-238) penetrated northern and central Ukraine: from Sumy region through Poltava toward Kyiv and Cherkasy, from Kharkiv region toward Poltava, from Bryansk region into Chernihiv region, with specific tracks over Romny, Buryn, Lohvytsia, Hadiach, Pyriatyn, Kobeliaky, Shyshaky, Lubny, Khorol, and across the Chornobyl exclusion zone toward western Kyiv region. (Source: @kpszsu/91600, @kpszsu/91601, @kpszsu/91611, @kpszsu/91645, @kpszsu/91646, @kpszsu/91647, @kpszsu/91650, @eRadarrua/127306, @eRadarrua/127289)",
+        "Reactive UAVs were observed over Dnipropetrovsk region near Magdalynivka, Vilnohirsk, Bozhedarivka, Pavlohrad, and Kamianetske, with one circling over Dnipro city and another approaching Kremenchuk, indicating a broad front of aerial penetration. (Source: @kpszsu/91596, @kpszsu/91620, @kpszsu/91617, @kpszsu/91626, @mon1tor_ua/77634, @mon1tor_ua/77635)",
+        "A UAV circled near Hlevakha (Kyiv region) moving from Lebedivka to Dymer, and another circled over Kyiv at high altitude, suggesting possible reconnaissance or loitering munition tactics. (Source: @eRadarrua/127308, @eRadarrua/127318)"
       ]
     },
     "key_developments": [
-      "Russian forces launched coordinated Shahed-5 drone and missile attacks across Ukraine on October 30, 2026, targeting energy infrastructure in Kyiv, Dnipro, and other cities, causing blackouts and infrastructure damage. (Source: mon1tor_ua/77635)",
-      "Shahed-5 drones struck Kyiv's Brovary district and a thermal power plant in Dnipro, causing blackouts in parts of the capital, with emergency services responding to incidents. (Source: mon1tor_ua/77642)",
-      "Russian forces attacked Dnipro's railway station and power substation, creating smoke clouds and power outages, with local reports confirming terrorist attack claims. (Source: eRadarrua/127245)",
-      "Ukrainian forces reportedly struck Russian refineries in Samar after a 20-day pause, marking a significant development in the energy warfare campaign. (Source: UkraineNow/85004)",
-      "Evacuation buses from Oleshok began moving to Ukraine, with 17 buses heading to Ukrainian territory and 4 to Russia, indicating ongoing civilian evacuation operations. (Source: UkraineNow/85009)",
-      "Ukraine secured approval for the sale of 500 Patriot surface-to-air missile systems from the US for $2.1 billion, enhancing air defense capabilities. (Source: UkraineNow/85014)",
-      "DeepStateUA updated its operational map showing Russian forces advancing near Graniv, indicating continued ground operations in eastern Ukraine. (Source: DeepStateUA/23949)"
+      "Three Geran-5 drones struck Kyiv's TEC-6 thermal power plant in Desnyansky district, causing power and water outages across parts of the capital. (Source: @mon1tor_ua/77642)",
+      "Russian forces conducted a double strike on Dnipro, damaging an electrical substation and striking near the railway station, creating a large smoke column and disrupting power and transport. (Source: @eRadarrua/127245)",
+      "Waves of jet-powered reactive UAVs transited from Sumy region through Poltava toward Kyiv and Cherkasy oblasts, with tracks over Romny, Buryn, Lohvytsia, Hadiach, Pyriatyn, Kobeliaky, Shyshaky, and Lubny. (Source: @kpszsu/91600, @eRadarrua/127300)",
+      "Geran-5 drones targeted Kyiv suburbs Brovary (200m altitude), Vyshhorod substation, Bucha, Bila Tserkva, and Rivne, indicating a coordinated saturation attack on the capital region. (Source: @mon1tor_ua/77639, @mon1tor_ua/77630, @mon1tor_ua/77629, @mon1tor_ua/77635, @mon1tor_ua/77633)",
+      "A ballistic missile launch threat (Iskander-M/S-300/Tsirkon) was detected from Russia's Kursk region, raising the risk of high-speed missile strikes on northern and central Ukraine. (Source: @mon1tor_ua/77632)",
+      "Russian forces advanced near Hranove in Donetsk region per DeepState map update, confirming ongoing ground offensive operations in the eastern theater. (Source: @DeepStateUA/23950)",
+      "Ukraine resumed strikes on Russian oil refineries after a 20-day pause, hitting facilities in Samara region, signaling a renewed strategic bombing campaign. (Source: @UkraineNow/85004)"
     ],
-    "threat_assessment": "Russian forces escalated attacks using Shahed-5 drones and Iskander missiles across Ukraine, targeting critical energy infrastructure and civilian areas. The coordinated strikes on Kyiv and Dnipro demonstrate Russia's focus on degrading Ukrainian infrastructure and creating humanitarian impact. Ukrainian air defenses successfully intercepted multiple threats, but the volume and coordination of attacks pose significant challenges for Ukrainian forces. The use of ballistic missiles from cross-border launch sites indicates Russia's willingness to conduct cross-border operations. These attacks suggest a potential escalation in Russia's military strategy ahead of potential negotiations or operational developments.",
-    "regional_response": "The United States and Ukraine reportedly agreed on British, French, and German participation in peace negotiations, though some European countries may remain outside the process, according to UkraineNow/85008. The US State Department approved the sale of 500 Patriot missile systems to Ukraine for $2.1 billion, enhancing air defense capabilities. Ukrainian authorities implemented emergency response measures, including air raid alerts and evacuation procedures for civilians in affected areas. The Ukrainian military strengthened oversight of medical commission operations to prevent corruption during mobilization efforts. Regional cooperation appears to be strengthening Ukrainian defense capabilities in response to Russian escalation.",
-    "intelligence_notes": "Russian forces demonstrated increased coordination in their use of Shahed-5 drones and Iskander missiles, suggesting improved intelligence sharing and operational planning. The targeting of energy infrastructure in multiple cities indicates a strategic shift toward broader humanitarian impact operations. Ukrainian air defense systems showed effectiveness in intercepting threats, but the volume of attacks strained available resources. The evacuation operations from Oleshok suggest ongoing humanitarian crises in occupied territories. Intelligence reports indicate potential ground advances near Graniv, requiring continued monitoring of eastern front developments."
+    "threat_assessment": "The overnight operation demonstrates a significant escalation in Russian long-range strike capacity, combining massed Geran-5 attacks on critical energy infrastructure in Kyiv with widespread reactive UAV penetration across northern and central Ukraine. The simultaneous threat of ballistic missile launches from Kursk region adds a high-speed dimension that could overwhelm air defenses during drone saturation. The double strike on Dnipro's energy and transport nodes suggests a deliberate campaign to degrade Ukrainian logistics and industrial resilience. Russian tactical gains near Hranove indicate continued ground pressure that may be synchronized with aerial interdiction. Ukrainian air defenses face a multi-layered threat requiring prioritized allocation of limited interceptor stocks.",
+    "regional_response": "Ukraine's diplomatic efforts continue with the evacuation of civilians from occupied Oleshky facilitated by ombudsman Lubinets and Russian counterpart Moskalkova, showing a rare humanitarian channel. The U.S. approval of 500 Patriot missiles ($2.1B) signals sustained Western commitment to bolstering Ukrainian air defense against ballistic and cruise missile threats. European involvement in peace"
   },
   "missiles": 0,
   "drones": 113,
   "kpszsu_timeline": [
-    0,
-    0,
-    11,
-    13,
-    4,
-    4,
+    2,
     3,
-    0,
-    16,
+    2,
+    15,
     4,
-    6,
-    4,
-    3,
-    4,
-    1,
-    3,
-    4,
-    5,
     8,
+    3,
+    2,
+    3,
+    1,
+    5,
+    5,
+    4,
     7,
     11,
-    4,
+    5,
+    3,
     6,
-    1
+    3,
+    8,
+    4,
+    2,
+    3,
+    5
   ]
 }
