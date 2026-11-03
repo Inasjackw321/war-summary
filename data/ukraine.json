@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-03T19:30:19.479801+00:00",
-  "message_count": 386,
+  "updated_at": "2026-11-03T23:58:45.347549+00:00",
+  "message_count": 389,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -12,11 +12,7 @@
   "red_alerts": 81,
   "red_alerts_timeline": [
     0,
-    0,
-    0,
-    14,
-    0,
-    40,
+    12,
     0,
     0,
     0,
@@ -26,55 +22,59 @@
     0,
     0,
     0,
-    0,
-    14,
-    0,
-    0,
-    14,
+    6,
     0,
     0,
     0,
+    6,
+    0,
+    0,
+    0,
+    12,
+    0,
+    25,
+    19,
     0
   ],
   "combined_activity_timeline": [
-    7,
-    13,
     4,
-    16,
-    9,
-    38,
-    19,
-    9,
-    50,
     34,
-    16,
+    6,
+    14,
+    63,
     19,
-    13,
-    9,
-    4,
-    11,
-    11,
     17,
-    12,
     16,
+    12,
+    6,
+    7,
     11,
-    5,
-    24,
-    17
+    15,
+    15,
+    14,
+    11,
+    6,
+    14,
+    27,
+    18,
+    12,
+    28,
+    13,
+    7
   ],
   "messages_by_channel": {
-    "@eRadarrua": 105,
-    "@kpszsu": 137,
-    "@mon1tor_ua": 123,
-    "@UkraineNow": 17,
+    "@eRadarrua": 121,
+    "@kpszsu": 141,
+    "@mon1tor_ua": 107,
+    "@UkraineNow": 16,
     "@DeepStateUA": 4
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/128488",
-    "kpszsu": "https://t.me/kpszsu/92865",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/77913",
-    "UkraineNow": "https://t.me/UkraineNow/85101",
-    "DeepStateUA": "https://t.me/DeepStateUA/23972"
+    "eRadarrua": "https://t.me/eRadarrua/128546",
+    "kpszsu": "https://t.me/kpszsu/92907",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/77932",
+    "UkraineNow": "https://t.me/UkraineNow/85103",
+    "DeepStateUA": "https://t.me/DeepStateUA/23973"
   },
   "cited_post_urls": {
     "mon1tor_ua": "https://t.me/mon1tor_ua/77898",
@@ -84,42 +84,108 @@
   },
   "media": [
     {
+      "post_url": "https://t.me/mon1tor_ua/77925",
+      "post_id": 77925,
+      "channel": "mon1tor_ua",
+      "ts": "2026-11-03T22:08:51+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128527",
+      "post_id": 128527,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T21:41:24+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/hEEgQNS0nHJlo9ZpGujMux7k3hLLLJzc-f09C83cfBaBcCHYv1vVsOJiZmf6Lo9CJkFWn2tb3lPAAVwMzx7yRZfjjQ0-KaGk0BVrPV9j65rTar6jGAx4Sj2RgmdtG58gI_u_x7ESZaOrdGRH91hyISRVgIzEKZvv9WGHyoKZXGG0mAJl1v-7zC-xSNM5z-0UJ4YUQs64b3XgGTNZqZaNgZ-ijJzRohc-ypbSUKN23petttEzY_FeZnmpVZdp7DK5Pf67SR0cp4dg6l7nzqu5_ghlfwoPfy0OW009tXzpD9EYHD_0j80LmqKJqbdPKpAqvCVx562b5bzBd73DZ222zA.jpg",
+      "companion_text_id": 128526
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128526",
+      "post_id": 128526,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T21:41:08+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/nwjXpuZ87tvpk1jZlMe7ORCJ7fSqZDOMVYy5ncIIY0DKzkh8GCCUQGuLXy8986WawbY87P8ix9Qq2-qE4bN3FQYxwRqdvYmE-rdZQGH6PFYMHryRZDDWZKC0uM4LYaiBK053glFK-4UgwVLdsfUKQLSny8XaoVHyu3OQy28A6HRl6DsJe-EI6OW9776L-AD1EGrKPFXhYfWW9D5dln3cX-bJ74gX-lSz0D-WzUaLlMppYcAoLVdYSRsKTuPBtTQOEb0SzijfYE4SJ_IhnuuCp3eHA5mpqKWkYoPVBy3-9RRoRAKJ2GEohWkfMUNHwV8P-sSA93pSqPOMzo6TD0z1jg.jpg",
+      "companion_text_id": 128525
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128525",
+      "post_id": 128525,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T21:39:34+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/RhKJ57TQVDnNYDuhvsvAn1lGzkPEXmS__A86n9GB3Ag8T8E0j5rbH7EPbX0YB4tF4-IiS3n50rKATpfnXbq_89Elmspyb16zF3OvMgRE3rPLS2TjS75NrX6CDk4TQdKI1g9Kz7RllamrutKZacAyR4pd-hswaxAZ8Q5MxR3NUnVy9ro9ToKv_h-qFzwsfh4YbPX6jGqukcDGmn-EKXrAIBIdiCTpTG0IZs-owPUELbxfVvc-F3CeaD-44Y06LOXffp-Ks8EyT-jjuex6TiUydO8MjFS4EtIObEk_p_wW8_2avOxH99b7HoyL4LpETLxY9iwy8FWwWXFzweG-AD94HA.jpg",
+      "companion_text_id": 128524
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128524",
+      "post_id": 128524,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T21:36:27+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/KDrb67ok6DPhyeCYkbR9ovYC3b6DJ3N3POUC6TBKimUFSXi4i5_2ro8IjnqhXY7pka0kFWpEwzmaq7gVqLLRAjeb6WJWMPlehO0HoxXjck95nH4rtqH4UJbjjNjE7nJhd1uk_0IcPGU2oFDoDt5Alrb1aymagA4IOqW7N5TQ0QS0TBjat-ZJvzZPVN1tEkaE1x6X88q07oTwZsFdfdf-_951ffM2BGdor1nnmvf1aNXKJDZ5jcaASchjCl6tI3GMbbfVYQYWHMJWkc8QQ5VmeB35GfDjTyFR_YVuQzmtCmfOH4vcijzwQ893IilPwNi0FBCI5isxTOwv1aSriCU2ZQ.jpg",
+      "companion_text_id": 128523
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128507",
+      "post_id": 128507,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T20:51:32+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/CeDGDMFvEqpBrw-MW0gmeZKCnoMIA7TzIIF8C9TvRCX8LLiYOd2_Neznd_EWsB0qASURWkH28BFQFuLAtPiLAc6wFt1jPoC3VII4O-id-FxdrYp9yEKh05fP9nRWocm8aQbDl-Y2jF9FURKjoWCWzhuIisG981in8K9rrmxrkOHM0PJeePAtgGtayFCh0ODit9JbG_NQeJcqhJe94yTWw5CanTklmq4miguWR0MPZkx7drLqcLgO5teejzv1yOIIxz-QgvdZWRUrGJdeUIaM2lP2Xvxm5E1oMny59CF4kArNCSAaRP8upLBNKENTKRZIv_MBUdXLMU7Ecnm_uEx07Q.jpg",
+      "companion_text_id": 128506
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128504",
+      "post_id": 128504,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T20:41:30+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/KjcFB2KUjuq_BY9doO90unNdJUx1VVRNKuPVQFDqNQRQSGKbB4ifhZVQmtBW9P0vU-ojZGpHs1ApoR6i2z-M8wtM5mD16GdYIjipb2F2QdvvSBPkuim9dpYv9urLxAPB8y60_vq5Bbz-lVzSCNOL2ZhojBxm7AsadFDivdRWhCzc_9xugT09CUc8KogLQrWgTL3WY8vqEK7Yyu2LRrg4dU4DWakw07lJYk-Iqb8jalAjnKOH4e4X8hV78bDFF9xUpsMwX8cY5WrEfxZp-ZjGayun2PZLtRRAvPwnT0mGSVj6FSpaA29x1oFiGHyhtOaJ6SVKUJ82aJAaSo3pffrhmw.jpg",
+      "companion_text_id": 128503
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128503",
+      "post_id": 128503,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T20:29:50+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/AW7FT4LHwvt2c5kVRHVkbhk6vtPD405AHk4FAZOqfdgnIHSOheBSoLb_MgmD9OYA7QV97XEtqsfFSue3rddktntpQUfc8xGqPOyllZ10ZP-tiFUMT_pL0k1yE-p6yle3Jym-NHhqE-dVaEDTKoTgExqFj1n0oI3aVCFrOPDjjS6G6qXMtnzqotLSvfrkawcMIjb8wq5v7OlBOqjywW6NXzTiVrfSzc22_of05iGHWIRlPcpbb0JqOgkBywvX-mhtJUXjiOIeOuAwchz_jzLTSSV5opvsYmhnXH3Iou5R0aRNHMQcP7ahzfTP_N99acC4YG-Y6VgJJ-5skEjlfmSPjg.jpg",
+      "companion_text_id": 128501
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128496",
+      "post_id": 128496,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T20:00:04+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/mHc7xS_qtGb3gVRsOZVNG-ZJcrMMBiyTMQm3ED-b_gsaJQin6I5QF4gIOI7Uh6HyNiY1VtN7hzvnFZe948FBKb7b5l_ReYXzhyPo-e6UVyR6j3KOwMCTvYSVF6S7l-8KBkZej8enL3hQzDK4yhfEbMXiQYaHpOsIp5SNbt4ZSCN03w-SnDUMilcezqlLD4fRhqgli7GA5JwXI557IAVZ33eIeIF-VM2cUuJku5sPPcgRCA6rvHAtvzGvzH8RmGpPS_lfRdQ0N5AmW1r07kHl5EiUjzwyMwK_WKJ9UgsqdMUGin4cNsyWMcVf-l7nqPh448Lv41r-jIHZ8mYDJi_c9Q.jpg",
+      "companion_text_id": 128497
+    },
+    {
+      "post_url": "https://t.me/mon1tor_ua/77916",
+      "post_id": 77916,
+      "channel": "mon1tor_ua",
+      "ts": "2026-11-03T19:53:21+00:00"
+    },
+    {
+      "post_url": "https://t.me/DeepStateUA/23973",
+      "post_id": 23973,
+      "channel": "DeepStateUA",
+      "ts": "2026-11-03T19:33:08+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/128489",
+      "post_id": 128489,
+      "channel": "eRadarrua",
+      "ts": "2026-11-03T19:21:56+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/GK1Zjq8_0K1Eeqvexokk_05hxpHj90gF-QQBWdlzi-0_EKutK5Bzc53vDn32COICBJMEL3Ym9ZS6qhoSkWnvWHxAM8sb6xyhua9q1Z_1bLMJYFsnBjE4F2adNeQYqfJWWg2Af6M-ua7SiC5Uor2St2gMtdeAm1Lj53yP52Pj2IHvzzvXYf_MjZxd-G1NzOgrj7VtlClfuRVjD9OiUbd8R0XcFURUQgscZzaJkSODXRwH3TIUjH9ZEChfbyHWhRLrSl1aAd3KB8XDEj9xweyx1YudR6Ie37A47cZKAqZopxbWiy4IrxAK9iVWCD-4iEKU9XIhRcwpbldI-YCOLRCQKw.jpg",
+      "companion_text_id": 128490
+    },
+    {
       "post_url": "https://t.me/eRadarrua/128488",
       "post_id": 128488,
       "channel": "eRadarrua",
       "ts": "2026-11-03T19:18:38+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/POiMhq2sc4KWCOzUTUJX_g0lHOCjepcB1Vyu16D3YxgWq-dYbf-Icif4smUTeIYExMzUQ0JbieGPwQMdigyJl18dNxPF96rI5vWlciie0JrvzY_xIQ45eW_-9m24tV38s5hcYJYH_GGslgfXPzg84QA7lD2fCXtQMzJkQO_FuLuXTM7lnqNh7aMc3IHxyVynQawv-y4RtSVlzMxiv675K76mKD7VLxdJeFXp1vyP3bKPTLsiZOUP-pDkb7Yx8pOhDYQFWgoP1ddA_EdsO-MfdX9SOpXOiSPTF8pEGgtHfcrIiRKPydylKoI8NarXnNmDlP_t-aBLIdyZqYuOfZkNFw.jpg",
-      "companion_text_id": 128486
+      "companion_text_id": 128489
     },
     {
       "post_url": "https://t.me/DeepStateUA/23972",
       "post_id": 23972,
       "channel": "DeepStateUA",
       "ts": "2026-11-03T19:00:55+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128481",
-      "post_id": 128481,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T18:37:33+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/K2y3uh1UVA56BOM-hpUO_S07taXmtVA05c9H7neLFnebqq5BPoBYIQQBd56RC-O_K0k-yqNFoffHVFJK9yxTi0-vkHZyqBW0M_xD5CRLqsNeJmGhvFrRilLffb_QMEbjiVAiC1Kv0VQSRVUlmZh997lCSi2G5XiUmg-MFC2QgKp6WQJHF_zj2XDPiyNTi5A-B0QSInep9I3iA16kEJq_e5dvNV4_h9Sw_h9Kw5-Z85iUJve6_Ne6HLzoFIS2ycDPdHhLx3Dfe_8bxyj65MLvJo6Cm7Tz2Qg0DJ2g0vJ_VoxwyU2gtQqePfbIh8s7mGXvQqx6SPDVESHNmWTaLvH2fA.jpg",
-      "companion_text_id": 128483
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128478",
-      "post_id": 128478,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T18:24:53+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Rbva6-iASNs8AdA5c__RS0ONYDR_5U8RPuckl7WcnUU33HzhgeNtFwDzCi7CVWkYVHWM3KtE4haI1nwYWEfWMWz0Du3Qeza6BwCX5Kn1-T8-nxudCDnYjSrpMu1GZ-0vAAUPUfhbOfuDnuyAWZ2m-VC_-EQz0fBAg6l__AYglFAY2IU5j7YRcVqybrsZ3Ww8pIiTh1LpqD9hwlTmo3WhmSbC8s8_SWhL3XUgPn85H0Ey76_8r_TLc5M1Lren_UwvOiBkXpTX1mAenCInCK0HOraSQZPtB3LFghVPmwsU7AhZ1ghpdr_ELoPPi63d2krTHFVuxcfJPWRQi8ZQAbaAzA.jpg",
-      "companion_text_id": 128477
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128477",
-      "post_id": 128477,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T18:18:21+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/rX6Tn0ZHs4HR4v7HkQSPj_aaPNzbkpTohBlf22IzLmDt_MVxl-gk8CnCDeZXXNyuWK7nRw52a2qj06ksTpREIzep3TzOr8aboYN3TY_rXLHYc9-IOdR9JipIQkFK5grZ6ls2pUc3Ie6V_GirkTR6kM3eSTd29ruRV7MITpYaqm2xT0CxZsDvSo6HZLSnYjrNHOgvmp3tLeByvnmDokeTuB7b0_9Fn4HFax8EHMMO2u_BilkoKLS6XXjdn3y4EHg8nAZXPfP4ilOeEGiMCTCMHflk6ZA-JguA21ytTU4olwByveX564L20VHs1lbIFnAnAPXBOvziNHIbLc8a9hswGA.jpg",
-      "companion_text_id": 128476
     },
     {
       "post_url": "https://t.me/eRadarrua/128476",
@@ -164,103 +230,32 @@
       "ts": "2026-11-03T17:03:18+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/VSH03-_i65YbPtkZ4BbYo7mm4qbnpqHK42PHCDYeMd4TcIkUvBdnp48ahxWmRbAXgXiRV7jgDzYdu7AUpHf6NgnQYPu3u-PouqnbWvyRss6P8813I6isMV4V2K91LD4OD9YWl3WMTrNNyShJ2cVUhJ9QEXKJQPEnEed09XmYvFeZUwsfC4Kuuu8uUEkgkaQ26zmzmlF0u40jNCyTryZMaMM7gRjL0jhknkXvHu-OcdcXBnIUVJDHfH1MbgVWKgXCbvPgsuQket-FXsnDZk6zlulvHkValPvlVoC57xaVNQrTu_mR7xkJT6jXGn00WA5Tii2cdVe5Ltw6boew9bUMUQ.jpg",
       "companion_text_id": 128471
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128469",
-      "post_id": 128469,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T17:02:38+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/CHfnjZ0U_jjWz-_bXSCt8ZMZNXrlsv48Ng8R4HKS_vDFhQWVvWL48oGyvbzyI0rUwuQmgRv052sLuzjV4psdeJtsZdEVA9zRYWOdLbuC7f-SYVzhUyczs2aeu3W1pwpSn05gEx5_rkxERtc9DdJXP4wbA6UeOuAPDspCVbSVA2HgLWhkmFplZDren8J--wOHYmYZ0LC05XgGbqzKE8f16Db3Aw-twJ1qOlNQRgDJ1_VlzX0TNoIBuXnFLBxiqrnliRoPZhOabsNqeb6muHsP6hC1-YY4FP-0eBLAUYTIVCwH-HMdfvRb8kbakGOY1PwvNXpPAQss3AxNxyRcaYlF9w.jpg",
-      "companion_text_id": 128467
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128462",
-      "post_id": 128462,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T15:38:48+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Uruw85Ei2emN-I9LII0uXRgIDGXPjSIE6ZpfE-IB7m00X7nJ-w7y3HERatGA9EbVCCcEL2W-ICL_tDFkRsDS3JXF1fmvk5OdlvDReh7x9u7lNIP7Fz9tsbt10NnWZVP5GVGaOLKNUQQMsRMWPDwxlQTGJQqqYxtpc69QaePzqxcr--67iXn8w0ti9rcsQGEcGLGFng6QFXoz0Vjhai8ub3gwW-eGZ65AKqUPnGygDDu8yLZ1wW2URKzJUq1CyqEd-LWYOW1DxtNssZTUKJLaRJXYh68PvEC350VFpeJQXZSr7ZnqvmBO_oo_ExE9PRkjKBH0_SONG5GUW9j4XZZKLw.jpg",
-      "companion_text_id": 128463
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128461",
-      "post_id": 128461,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T15:36:58+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/b5UtaZNnwHRGwevrDJ6qf31fjO57w86ugFSVYN1gPWAgq9QRZtFYNTx6U9deGTGNTUfo2sRjFbwpGpL-kJL_ImvPfplrfQseN69S8jS1gJCkV-ifpvsuJQbpRT4o48l7XT9m5m4USqtgWzrGdBWdWsx1XNTC_4VhOREOZ80IULn7DZA7oZVhjS5mLKZ8hOKofE0S6qfD3zrHoVNI82ja-tQwGl3nkZMt2p-cmSBqceN2ovqWkYBhm242-H1vLT0VkMhSME5gTg8-RHPnL5IrlVNEiINSRHybIGSg_mEynrJsMqxRPbDUX-B8cg_I8N_Ob4GVkcVLqQtTRb_FvlDaIg.jpg",
-      "companion_text_id": 128460
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128460",
-      "post_id": 128460,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T15:22:46+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/IPL-Gx2HGlHvWsZE_OqXOI6A9f3SOXDQ8eDfRGdkNn5nzblttErUw3Pcgi76drTMu_MQBho-iuTItk1myqVVtggBPzP3HPTR-sAWEmQcOrG3LXOz0v4zuUEtJCmiwd7UkeeY1nnA5gxYI_8tXgCygBScpwCamYAJ49nN8aBTTFUh41lXDxKP4RUTS1hnodSiHF_zyM_-iZS3HNlgo73mOsROkXe6LXPVUehxjcrHDVJXx-XreI9UAQwhcUJfG7Z1WSkUdQkv4_yfGcMqvzQYfFNrqTL5DD2YjZxMozHQFfobhp14m8IPYEYMgU5nmc9_w62wpoj45Luuae4nK5Xe6w.jpg",
-      "companion_text_id": 128459
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128459",
-      "post_id": 128459,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T15:12:28+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/uHej0kwuMNCPeI-qHmosZy8t6VWH7brvprLwfmxlxrx-Hue1vJL8rokMAgPHADORWo4ZLc59G4tx6C1KKsdt64FONLTt67cIEotAvUnGRNPAjEqlmNiCPeDK35cHwvWQu4NMer9wMnIufwyDoANnPpb4yegv16Q16zrIJt4m4-yGG7Bk6_u71bDFxEXeYvflUpBK4kZ_x-5Cc55FIZILNHRcBOEAPfvwptYfJReHoo-N0nVdjhrj9VApx4m3Aw2lBltXQUH6zxKQAnJDwD42iBpiO2k6LBDTtaOpOtcq8Y7M9bNmd7kLF6UIVtLethcjQYa8xWm9_i8sfmGwqJjfnw.jpg",
-      "companion_text_id": 128460
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128456",
-      "post_id": 128456,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T15:01:54+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/pnZ4wuAT_kIZBePfhXsIg_asVfzriZ0-y09PKJlgJjsMN8zzybyEoM15a4heMZdDPVAfHkgF30ELI_FNl_AYFOiHyEhW9GL4EQkpGAMy8587efKVAHiMiRWFbxdEgRAEDluQVqjFtKsrSHAO9JPAUmeuEOJPaawwcPHQ75T-bLBqqMi7-8wmb5iGN7vbW7XxwNV5QoT4lDHJEHZTzAxoC-9N6VvbZa5Pf7zEqpyL14ywpn5irNLera7NIBiYA5e0DYgWWqO1y_-Qa56a6yADFi5vcafBu2FdxudNPoZxrr0uZnlnbGaHh7NioafFpcMh51HMyyxuJScleb7clpXubw.jpg",
-      "companion_text_id": 128455
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128454",
-      "post_id": 128454,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T14:28:26+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/KMMyfqbKbekk_djp6sk_jVWSdHFcOT3aJPe17KJVfYwMm0thM6eO9_Jz9V3hu944j08Z-vQoRfjkt8My92NRWkkaxcG_IM31pLIywLwIWeo_6-dTsGENiJcOVLgp5hNxMsGhHPbfBeOg75m-3QLPSaoqe7XweGB-hAclqzDm_esr3EjtVUY6NmIoULMR75Uguc-mL3MQO4kn9xKV6Sdx94qNcBa-C4NwkkOa2KiHXx-EFZvA6H1cXM0Dr9gpUh3iV6O-Un_mPVUzGKzxvAZI59-pON0p7KGGR4RvgJjoMLAYlDPKyb6NVFBDXk07V2Ww9BG-PNzesauAjIj7I2mVFg.jpg",
-      "companion_text_id": 128455
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128447",
-      "post_id": 128447,
-      "channel": "eRadarrua",
-      "ts": "2026-11-03T13:52:14+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/HAP_cgpWuN3rfiqrBcu3d5XKgO6M_Ai7IM4dJLXuZQJA37XF_wtjco6Md2awXTLH_r8cRoThStThL9eEBZiiO-eiRfz5mR2K9PjYzCLO5GxMqxknUc3Htz52NZbC7hlN_pI0_ZhVRoUvQPnB4N4E9672jsgqAwgK2KOJ3cJepnNLTAEWM6GFXR8xgl-QgZ7Gwchhc6sJeEBDMkDXAcK8oh2eTqahrxaz6csKqqV2Cwy061yemkfl1vbRA1ZzG_0R2B3r0_2-Lw_el1PTrw0EnPwQgHTCxM__dLkUBfN7EaUZg2MU4vPn1ZTdeVl7XQcLd0-T0bY7OFBaw8Z67SXkSg.jpg",
-      "companion_text_id": 128446
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85097",
-      "post_id": 85097,
-      "channel": "UkraineNow",
-      "ts": "2026-11-03T13:46:10+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/128527": "data/media/eRadarrua_128527.jpg",
+    "eRadarrua/128526": "data/media/eRadarrua_128526.jpg",
+    "eRadarrua/128507": "data/media/eRadarrua_128507.jpg",
+    "eRadarrua/128506": "data/media/eRadarrua_128507.jpg",
+    "eRadarrua/128524": "data/media/eRadarrua_128524.jpg",
+    "eRadarrua/128523": "data/media/eRadarrua_128524.jpg",
+    "eRadarrua/128525": "data/media/eRadarrua_128525.jpg",
+    "eRadarrua/128488": "data/media/eRadarrua_128488.jpg",
+    "eRadarrua/128489": "data/media/eRadarrua_128489.jpg",
+    "eRadarrua/128490": "data/media/eRadarrua_128489.jpg",
+    "eRadarrua/128496": "data/media/eRadarrua_128496.jpg",
+    "eRadarrua/128497": "data/media/eRadarrua_128496.jpg",
+    "eRadarrua/128503": "data/media/eRadarrua_128503.jpg",
+    "eRadarrua/128501": "data/media/eRadarrua_128503.jpg",
+    "eRadarrua/128504": "data/media/eRadarrua_128504.jpg",
+    "eRadarrua/128467": "data/media/eRadarrua_128467.jpg",
     "eRadarrua/128469": "data/media/eRadarrua_128469.jpg",
-    "eRadarrua/128467": "data/media/eRadarrua_128469.jpg",
     "eRadarrua/128470": "data/media/eRadarrua_128470.jpg",
     "eRadarrua/128471": "data/media/eRadarrua_128470.jpg",
     "eRadarrua/128473": "data/media/eRadarrua_128473.jpg",
     "eRadarrua/128474": "data/media/eRadarrua_128473.jpg",
     "eRadarrua/128476": "data/media/eRadarrua_128476.jpg",
     "eRadarrua/128475": "data/media/eRadarrua_128476.jpg",
-    "eRadarrua/128477": "data/media/eRadarrua_128477.jpg",
-    "eRadarrua/128478": "data/media/eRadarrua_128478.jpg",
-    "eRadarrua/128481": "data/media/eRadarrua_128481.jpg",
-    "eRadarrua/128483": "data/media/eRadarrua_128481.jpg",
-    "eRadarrua/128488": "data/media/eRadarrua_128488.jpg",
-    "eRadarrua/128486": "data/media/eRadarrua_128488.jpg",
-    "eRadarrua/128447": "data/media/eRadarrua_128447.jpg",
-    "eRadarrua/128446": "data/media/eRadarrua_128447.jpg",
-    "eRadarrua/128454": "data/media/eRadarrua_128454.jpg",
-    "eRadarrua/128455": "data/media/eRadarrua_128454.jpg",
-    "eRadarrua/128456": "data/media/eRadarrua_128456.jpg",
-    "eRadarrua/128459": "data/media/eRadarrua_128459.jpg",
-    "eRadarrua/128460": "data/media/eRadarrua_128460.jpg",
-    "eRadarrua/128461": "data/media/eRadarrua_128461.jpg",
-    "eRadarrua/128462": "data/media/eRadarrua_128462.jpg",
-    "eRadarrua/128463": "data/media/eRadarrua_128462.jpg",
     "kpszsu/92838": "data/media/kpszsu_92838.jpg",
     "kpszsu/92837": "data/media/kpszsu_92838.jpg",
     "kpszsu/92751": "data/media/kpszsu_92751.jpg",
@@ -353,26 +348,26 @@
     0,
     0,
     0,
-    0,
-    0,
-    2,
-    9,
-    4,
-    20,
+    10,
+    18,
     8,
     12,
-    13,
+    11,
     8,
-    6,
     3,
     3,
-    2,
-    6,
     4,
+    3,
     5,
-    7,
     4,
-    10,
-    11
+    6,
+    3,
+    7,
+    14,
+    6,
+    5,
+    6,
+    2,
+    3
   ]
 }
