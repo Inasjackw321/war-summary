@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-06T02:41:14.499534+00:00",
-  "message_count": 233,
+  "updated_at": "2026-11-06T07:17:27.609070+00:00",
+  "message_count": 254,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -9,17 +9,13 @@
     "UkraineNow",
     "DeepStateUA"
   ],
-  "red_alerts": 128,
+  "red_alerts": 227,
   "red_alerts_timeline": [
+    45,
     0,
     0,
+    45,
     0,
-    0,
-    0,
-    26,
-    0,
-    0,
-    26,
     0,
     0,
     0,
@@ -29,51 +25,55 @@
     0,
     0,
     0,
-    26,
-    26,
+    45,
+    45,
+    45,
     0,
-    26,
+    0,
+    0,
+    0,
+    0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    0,
-    1,
-    0,
-    1,
-    5,
-    8,
-    10,
+    7,
+    7,
     4,
+    1,
+    4,
+    8,
     7,
-    7,
+    8,
     12,
-    21,
-    11,
-    18,
+    17,
+    9,
+    9,
+    24,
+    17,
+    10,
+    9,
+    12,
+    16,
+    12,
     9,
     10,
-    18,
-    18,
-    18,
-    10,
-    5,
-    18,
-    12,
-    10
+    14,
+    21,
+    7
   ],
   "messages_by_channel": {
-    "@eRadarrua": 63,
-    "@kpszsu": 141,
+    "@eRadarrua": 67,
+    "@kpszsu": 157,
     "@mon1tor_ua": 12,
-    "@UkraineNow": 16,
+    "@UkraineNow": 17,
     "@DeepStateUA": 1
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/128933",
-    "kpszsu": "https://t.me/kpszsu/93516",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/77963",
-    "UkraineNow": "https://t.me/UkraineNow/85135",
+    "eRadarrua": "https://t.me/eRadarrua/128954",
+    "kpszsu": "https://t.me/kpszsu/93583",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/77964",
+    "UkraineNow": "https://t.me/UkraineNow/85137",
     "DeepStateUA": "https://t.me/DeepStateUA/23978"
   },
   "cited_post_urls": {
@@ -84,6 +84,28 @@
     "kpszsu": "https://t.me/kpszsu/93296"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/128954",
+      "post_id": 128954,
+      "channel": "eRadarrua",
+      "ts": "2026-11-06T06:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/c38xHJ7xYDB63uEz69-5AsrLbOlXgpwUP5zl1IgmsEl8AAecMb2QWJphh263jRjgz1Q9JQ8kYwYF_otorELJe1hkri96AFmUz3XoNxLa3dAcEUSbv83MhktLWzJfcrM8ksEr9J2mncV_IEfyISdNA7Pj25NiXfO9JVi1wycrM7EG3uJhr4XVn1Fi2b-RDhOVwQUESp7pVR_9BD96MNzVPL2ALlYa0yr8701ZnpMqt0fBW0dpXYOhIRl4bHmd2PZ1Ax3v6TsGEBXdM9iJ2s3awqDHnPe-kjesd22WgZu99oE8RgQT2V9t-X4tU_NzsVEVj6oNolUTZR7-23pRWNjMWA.jpg",
+      "companion_text_id": 128952
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85137",
+      "post_id": 85137,
+      "channel": "UkraineNow",
+      "ts": "2026-11-06T06:28:25+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/93571",
+      "post_id": 93571,
+      "channel": "kpszsu",
+      "ts": "2026-11-06T06:02:21+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/jb_fgusjr_rRvP0Jz2iJ-8MrUBzgNHAYuibn1bIki_dhJNeJ4bGDYUfiN5Fo4EiGj73q_sGN0QpF6PYnmvaQuWK2jjgbu9bhGwP8xp6DQmZ-uDp2rYjEBNUUVrBrZqe_hiGsHWfWuA1yQgYf484oMZtxXRl8gjjEighqrV4IZPOI3eD5NqwxB9AteuOV5U_VcwEbSiTtJ-fdHHOj9bwv-PU_8zzf7tj6Nfa00XT9dEbZmtNkjP_KcrNQCjaa5izGVaU6AUgzAA4H_Csykb7VIUuClDtY71u2PycICw0-P8NVfWTsPxwm29UuGwOQQcqxO0T523KrH0I0D84FuIWQbw.jpg",
+      "companion_text_id": 93569
+    },
     {
       "post_url": "https://t.me/eRadarrua/128918",
       "post_id": 128918,
@@ -211,29 +233,11 @@
       "post_id": 85127,
       "channel": "UkraineNow",
       "ts": "2026-11-05T12:44:16+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85126",
-      "post_id": 85126,
-      "channel": "UkraineNow",
-      "ts": "2026-11-05T11:50:22+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/128809",
-      "post_id": 128809,
-      "channel": "eRadarrua",
-      "ts": "2026-11-05T11:44:37+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/R9jz_L33bopeV16jGMtZHuVhxsVcACj5RnWnLXdTjdoXkir5G93q4OBZFkZjt5GqbzmBoNY6mmuYn_8mM-0O9vfmuM5SUvrayACIjJJ1SR1Lk1wXA4Cc9j2XfvdOw5S5huj3cEc7qPpUMc3f1DbEq0uBGI3csSMlWNpQ6tQOOLBVabIejhp_O0gFtRptmn3OhsB71A3tzgGJI28x9t22HSBy-osurN5WkaXvsGTyzc106WxaXBWPwUIXxDuewOsDhxPzqaOYK6R_nYV7eBni4rFZHdHB0tLGDe9iXd6A2xhFdG3BYeZ2jLoBf4aaMkqk1O4GTv4d0-TSjKrWAIqIlQ.jpg",
-      "companion_text_id": 128808
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85125",
-      "post_id": 85125,
-      "channel": "UkraineNow",
-      "ts": "2026-11-05T11:28:27+00:00"
     }
   ],
   "post_images": {
+    "eRadarrua/128954": "data/media/eRadarrua_128954.jpg",
+    "eRadarrua/128952": "data/media/eRadarrua_128954.jpg",
     "eRadarrua/128906": "data/media/eRadarrua_128906.jpg",
     "eRadarrua/128905": "data/media/eRadarrua_128906.jpg",
     "eRadarrua/128917": "data/media/eRadarrua_128917.jpg",
@@ -257,8 +261,8 @@
     "eRadarrua/128808": "data/media/eRadarrua_128809.jpg",
     "eRadarrua/128819": "data/media/eRadarrua_128819.jpg",
     "eRadarrua/128818": "data/media/eRadarrua_128819.jpg",
-    "eRadarrua/128786": "data/media/eRadarrua_128786.jpg",
-    "eRadarrua/128785": "data/media/eRadarrua_128786.jpg"
+    "kpszsu/93571": "data/media/kpszsu_93571.jpg",
+    "kpszsu/93569": "data/media/kpszsu_93571.jpg"
   },
   "summary": "Russia struck Ukrainian energy infrastructure with 15 Shahed drones targeting Dnipro and multiple Geran-5 missiles hitting Kyiv, Chernihiv, and surrounding regions. Simultaneously, Ukrainian drones attacked the Ryazan oil refinery and sank a Russian refrigeration vessel off Kamchatka. DeepState maps confirm Russian forces advanced near Rusyn Yar on the eastern front.",
   "key_points": [
@@ -337,7 +341,7 @@
   },
   "stale_summary": true,
   "missiles": 0,
-  "drones": 128,
+  "drones": 227,
   "kpszsu_timeline": [
     0,
     0,
@@ -345,23 +349,23 @@
     0,
     0,
     0,
-    3,
-    2,
+    0,
     4,
-    1,
-    7,
-    12,
-    10,
+    9,
     11,
     5,
-    6,
-    10,
-    10,
-    13,
+    4,
+    14,
+    11,
+    7,
     8,
-    5,
+    8,
+    14,
     12,
+    7,
+    9,
     12,
-    10
+    17,
+    5
   ]
 }
