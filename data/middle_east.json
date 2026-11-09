@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-11-09T01:56:21.807718+00:00",
-  "message_count": 342,
+  "updated_at": "2026-11-09T05:34:40.095489+00:00",
+  "message_count": 331,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -12,23 +12,23 @@
     "shin_persian",
     "redlinkleb"
   ],
-  "red_alerts": 4,
+  "red_alerts": 2,
   "red_alerts_timeline": [
     0,
     0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     2,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
     0,
     0,
     0,
@@ -40,50 +40,50 @@
     0
   ],
   "combined_activity_timeline": [
+    11,
+    17,
+    18,
+    16,
+    19,
+    17,
+    18,
+    20,
+    22,
+    30,
+    14,
+    16,
+    16,
+    28,
+    14,
+    10,
+    8,
+    6,
+    13,
+    5,
+    1,
     1,
     4,
-    8,
-    14,
-    11,
-    22,
-    14,
-    22,
-    17,
-    14,
-    18,
-    22,
-    21,
-    35,
-    10,
-    16,
-    15,
-    28,
-    13,
-    7,
-    9,
-    6,
-    14,
-    1
+    4
   ],
   "messages_by_channel": {
-    "@N12chat": 162,
+    "@N12chat": 153,
     "@manniefabian": 4,
     "@yediotnews25": 59,
-    "@amitsegal": 33,
+    "@amitsegal": 35,
     "@Faytuks_Network": 19,
-    "@tzevaadom_en": 4,
-    "@shin_persian": 35,
+    "@tzevaadom_en": 2,
+    "@shin_persian": 33,
     "@redlinkleb": 26
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/234042",
+    "N12chat": "https://t.me/N12chat/234050",
     "manniefabian": "https://t.me/manniefabian/59489",
     "yediotnews25": "https://t.me/yediotnews25/137495",
-    "amitsegal": "https://t.me/amitsegal/66981",
+    "amitsegal": "https://t.me/amitsegal/66983",
     "Faytuks_Network": "https://t.me/Faytuks_Network/9789",
     "tzevaadom_en": "https://t.me/tzevaadom_en/68578",
     "shin_persian": "https://t.me/shin_persian/12165",
-    "redlinkleb": "https://t.me/redlinkleb/52188"
+    "redlinkleb": "https://t.me/redlinkleb/52193"
   },
   "cited_post_urls": {
     "shin_persian": "https://t.me/shin_persian/12150",
@@ -95,6 +95,20 @@
     "N12chat": "https://t.me/N12chat/234015"
   },
   "media": [
+    {
+      "post_url": "https://t.me/amitsegal/66983",
+      "post_id": 66983,
+      "channel": "amitsegal",
+      "ts": "2026-11-09T04:33:48+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/YsYhmpVQSQJ_OIk_X9t17GhkoT1rHVGTH6qYBqDn6gXWbkho_rbVVZhg0ZHiWiym3wnf6fUo15qEJuefEbDGTjoGNnE3QumzIDvN6wrGQdlyHDJH_NjSxWLoXPcPwooAuTP1-FCyfagGZjFclVAe2WRvD946sSAxyD3tUZ44tB0paukT4Fhwg_lpYMULl3cbfz8knYNPkg9nPjrSCFm0YY6Vh6xdPibBtjQefPJHzz75V3ahg-8_DruvRgIeCdGGLAXnCRlO4hI2mACEBv9jdMBQ5LeIrrFvOxNksRUBz9mV-XZ6qcofDzsl5CcsSFLakpMXz_aZj9q41vpFljUhKg.jpg",
+      "companion_text_id": 66982
+    },
+    {
+      "post_url": "https://t.me/redlinkleb/52189",
+      "post_id": 52189,
+      "channel": "redlinkleb",
+      "ts": "2026-11-09T02:20:17+00:00"
+    },
     {
       "post_url": "https://t.me/Faytuks_Network/9785",
       "post_id": 9785,
@@ -206,18 +220,6 @@
       "post_id": 12161,
       "channel": "shin_persian",
       "ts": "2026-11-08T20:42:15+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/52173",
-      "post_id": 52173,
-      "channel": "redlinkleb",
-      "ts": "2026-11-08T20:34:40+00:00"
-    },
-    {
-      "post_url": "https://t.me/N12chat/234023",
-      "post_id": 234023,
-      "channel": "N12chat",
-      "ts": "2026-11-08T20:15:54+00:00"
     }
   ],
   "post_images": {
@@ -246,7 +248,9 @@
     "Faytuks_Network/9774": "data/media/Faytuks_Network_9774.jpg",
     "Faytuks_Network/9773": "data/media/Faytuks_Network_9774.jpg",
     "Faytuks_Network/9781": "data/media/Faytuks_Network_9781.jpg",
-    "Faytuks_Network/9780": "data/media/Faytuks_Network_9781.jpg"
+    "Faytuks_Network/9780": "data/media/Faytuks_Network_9781.jpg",
+    "Faytuks_Network/9785": "data/media/Faytuks_Network_9785.jpg",
+    "Faytuks_Network/9784": "data/media/Faytuks_Network_9785.jpg"
   },
   "summary": "Multiple explosions reported across southern Iran including Qeshm Island, Bandar Abbas, Mahshahr, and Haftkel, with air defense activity at Omidiyeh and Ahvaz. Israeli forces conducted airstrikes and artillery shelling across southern Lebanon, with 6 airstrikes and 21 artillery incidents recorded. Hostile aircraft intrusion triggered alerts in northern Israel while sirens sounded in Nir Oz near Gaza.",
   "key_points": [
