@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-11-10T02:58:26.331669+00:00",
-  "message_count": 378,
+  "updated_at": "2026-11-10T04:20:08.962782+00:00",
+  "message_count": 386,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -40,48 +40,48 @@
     0
   ],
   "combined_activity_timeline": [
-    1,
-    7,
     5,
+    12,
     19,
     16,
+    16,
+    18,
+    15,
     17,
-    15,
-    19,
-    15,
-    29,
     31,
-    27,
-    24,
     33,
-    23,
+    27,
     25,
-    15,
-    20,
-    14,
-    8,
+    30,
+    26,
+    19,
+    16,
+    16,
+    17,
     5,
+    3,
     5,
     4,
-    1
+    2,
+    8
   ],
   "messages_by_channel": {
-    "@N12chat": 183,
+    "@N12chat": 190,
     "@manniefabian": 3,
     "@yediotnews25": 69,
     "@amitsegal": 24,
     "@Faytuks_Network": 25,
-    "@shin_persian": 37,
+    "@shin_persian": 38,
     "@redlinkleb": 37
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/234229",
+    "N12chat": "https://t.me/N12chat/234238",
     "manniefabian": "https://t.me/manniefabian/59493",
     "yediotnews25": "https://t.me/yediotnews25/137565",
     "amitsegal": "https://t.me/amitsegal/67021",
     "Faytuks_Network": "https://t.me/Faytuks_Network/9818",
     "tzevaadom_en": "https://t.me/tzevaadom_en/68578",
-    "shin_persian": "https://t.me/shin_persian/12207",
+    "shin_persian": "https://t.me/shin_persian/12208",
     "redlinkleb": "https://t.me/redlinkleb/52379"
   },
   "cited_post_urls": {
@@ -92,6 +92,24 @@
     "redlinkleb": "https://t.me/redlinkleb/52346"
   },
   "media": [
+    {
+      "post_url": "https://t.me/N12chat/234234",
+      "post_id": 234234,
+      "channel": "N12chat",
+      "ts": "2026-11-10T03:43:33+00:00"
+    },
+    {
+      "post_url": "https://t.me/N12chat/234232",
+      "post_id": 234232,
+      "channel": "N12chat",
+      "ts": "2026-11-10T03:25:12+00:00"
+    },
+    {
+      "post_url": "https://t.me/N12chat/234231",
+      "post_id": 234231,
+      "channel": "N12chat",
+      "ts": "2026-11-10T03:07:00+00:00"
+    },
     {
       "post_url": "https://t.me/shin_persian/12207",
       "post_id": 12207,
@@ -197,24 +215,6 @@
       "post_id": 52365,
       "channel": "redlinkleb",
       "ts": "2026-11-09T20:45:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/shin_persian/12202",
-      "post_id": 12202,
-      "channel": "shin_persian",
-      "ts": "2026-11-09T20:40:57+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/52360",
-      "post_id": 52360,
-      "channel": "redlinkleb",
-      "ts": "2026-11-09T20:05:49+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/52358",
-      "post_id": 52358,
-      "channel": "redlinkleb",
-      "ts": "2026-11-09T20:04:29+00:00"
     }
   ],
   "post_images": {
@@ -322,5 +322,6 @@
     "threat_assessment": "Iran retains missile launch capability from Khuzestan despite US claims of 85% production degradation, and has demonstrated willingness to strike strategic maritime infrastructure in the Strait of Hormuz via the Didamar island attack. Israeli forces maintain high operational tempo in the West Bank and northern sectors with Apache and Black Hawk movements, while artillery shelling continues in southern Lebanon. US force posture shifts in the UK and \"locked and loaded\" rhetoric indicate readiness for further strikes, but diplomatic channels via Qatar and UAE show active de-escalation efforts. The IRGC's cyber operations against NATO-aligned infrastructure (France) suggest asymmetric retaliation capacity remains.",
     "regional_response": "Gulf states (Qatar, Saudi Arabia, UAE, Bahrain, Kuwait) uniformly prefer maintaining the naval blockade and Operation Iron Gate status quo, rejecting Iranian nuclearization while urging against escalation. Oman absorbed a direct Iranian strike on its territory (Didamar) without immediate public retaliation, likely coordinating with US/GCC partners. UAE played a direct mediation role by relaying Trump's 48-hour strike warning to Tehran. Qatar's PM serves as the primary diplomatic conduit for US-Iran communication. France publicly attributed cyberattacks to the IRGC, aligning with Western pressure campaigns.",
     "intelligence_notes": "Satellite confirmation (Sentinel-2, 08/11/2026) of burn scars on Didamar island at precise radar infrastructure coordinates validates Iranian strike claims. The 120-second delayed missile launch reporting from Omidiyeh via FromIran suggests monitoring of Iranian test or operational launches. US congressional Gang of Eight briefing focused on Iran with Nvidia supply chain implications noted, indicating interagency focus on both military and technological dimensions. Israeli counterterrorism operation in Arraba demonstrates high-fidelity intelligence penetration of PIJ networks in Jenin area. Enhanced UK base force protection implies anticipation of Iranian or proxy retaliation against US assets in Europe."
-  }
+  },
+  "stale_summary": true
 }
