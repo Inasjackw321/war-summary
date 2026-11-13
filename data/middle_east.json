@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-11-12T23:58:24.027526+00:00",
-  "message_count": 413,
+  "updated_at": "2026-11-13T01:21:27.544834+00:00",
+  "message_count": 415,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -12,7 +12,7 @@
     "shin_persian",
     "redlinkleb"
   ],
-  "red_alerts": 0,
+  "red_alerts": 2,
   "red_alerts_timeline": [
     0,
     0,
@@ -37,50 +37,51 @@
     0,
     0,
     0,
-    0
+    2
   ],
   "combined_activity_timeline": [
-    5,
-    2,
-    1,
-    1,
     3,
-    12,
+    0,
+    2,
+    3,
+    15,
     14,
-    18,
-    25,
-    25,
-    24,
-    31,
-    21,
-    35,
+    23,
     26,
+    32,
+    21,
+    26,
+    21,
+    33,
+    28,
+    22,
+    27,
+    25,
     22,
     25,
-    25,
-    19,
-    29,
-    22,
-    18,
-    9,
-    1
+    21,
+    16,
+    3,
+    0,
+    7
   ],
   "messages_by_channel": {
     "@N12chat": 220,
     "@manniefabian": 9,
     "@yediotnews25": 49,
     "@amitsegal": 25,
-    "@Faytuks_Network": 34,
-    "@shin_persian": 43,
+    "@Faytuks_Network": 37,
+    "@tzevaadom_en": 2,
+    "@shin_persian": 40,
     "@redlinkleb": 33
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/234848",
+    "N12chat": "https://t.me/N12chat/234851",
     "manniefabian": "https://t.me/manniefabian/59513",
     "yediotnews25": "https://t.me/yediotnews25/137772",
     "amitsegal": "https://t.me/amitsegal/67187",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/9910",
-    "tzevaadom_en": "https://t.me/tzevaadom_en/68582",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/9913",
+    "tzevaadom_en": "https://t.me/tzevaadom_en/68585",
     "shin_persian": "https://t.me/shin_persian/12309",
     "redlinkleb": "https://t.me/redlinkleb/52949"
   },
@@ -94,6 +95,12 @@
   },
   "media": [
     {
+      "post_url": "https://t.me/tzevaadom_en/68584",
+      "post_id": 68584,
+      "channel": "tzevaadom_en",
+      "ts": "2026-11-13T00:56:09+00:00"
+    },
+    {
       "post_url": "https://t.me/N12chat/234848",
       "post_id": 234848,
       "channel": "N12chat",
@@ -105,7 +112,7 @@
       "channel": "Faytuks_Network",
       "ts": "2026-11-12T22:44:32+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/RPqIIDki_IrdV5b0FPNVaIJCo_vW56Qvk4ezAGKhqV3WvPLMNOQ1zSTFXsvjMFWvhks9qbp4qigGZxO_DmszeF3WL-LUrfsUY95ZfwVDYLER2gwxeqV8ll6W7nzn_bA4EmCRnpE2CKCdhjuR-R9EyLMMVzLXcETnOG9veqGEVVKzd4Bw1KppY_Zhg-O5QKA5UKqs6VCFAUXzLQkpOYtwzPP7Fvp_9QGg7b8yViY1--VQe8C0D5IkbXlKDmXusboR7noTBUAHoyP8zgPTwrk1Y681iQs-z7AugWbuLcw-dUs6FyxIPJr5L_04_8-JL0z1VWTAapklf9yne8s955xqMQ.jpg",
-      "companion_text_id": 9908
+      "companion_text_id": 9911
     },
     {
       "post_url": "https://t.me/redlinkleb/52938",
@@ -210,12 +217,6 @@
       "post_id": 52913,
       "channel": "redlinkleb",
       "ts": "2026-11-12T20:10:58+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/52910",
-      "post_id": 52910,
-      "channel": "redlinkleb",
-      "ts": "2026-11-12T19:55:09+00:00"
     }
   ],
   "post_images": {
@@ -237,18 +238,18 @@
     "amitsegal/67166": "data/media/amitsegal_67166.jpg",
     "amitsegal/67165": "data/media/amitsegal_67166.jpg",
     "amitsegal/67167": "data/media/amitsegal_67167.jpg",
-    "Faytuks_Network/9888": "data/media/Faytuks_Network_9888.jpg",
-    "Faytuks_Network/9887": "data/media/Faytuks_Network_9888.jpg",
     "Faytuks_Network/9900": "data/media/Faytuks_Network_9900.jpg",
     "Faytuks_Network/9899": "data/media/Faytuks_Network_9900.jpg",
     "Faytuks_Network/9910": "data/media/Faytuks_Network_9910.jpg",
-    "Faytuks_Network/9908": "data/media/Faytuks_Network_9910.jpg",
-    "Faytuks_Network/9866": "data/media/Faytuks_Network_9866.jpg",
-    "Faytuks_Network/9865": "data/media/Faytuks_Network_9866.jpg",
+    "Faytuks_Network/9911": "data/media/Faytuks_Network_9910.jpg",
     "Faytuks_Network/9875": "data/media/Faytuks_Network_9875.jpg",
     "Faytuks_Network/9874": "data/media/Faytuks_Network_9875.jpg",
     "Faytuks_Network/9885": "data/media/Faytuks_Network_9885.jpg",
-    "Faytuks_Network/9884": "data/media/Faytuks_Network_9885.jpg"
+    "Faytuks_Network/9884": "data/media/Faytuks_Network_9885.jpg",
+    "Faytuks_Network/9888": "data/media/Faytuks_Network_9888.jpg",
+    "Faytuks_Network/9887": "data/media/Faytuks_Network_9888.jpg",
+    "Faytuks_Network/9866": "data/media/Faytuks_Network_9866.jpg",
+    "Faytuks_Network/9865": "data/media/Faytuks_Network_9866.jpg"
   },
   "summary": "U.S. Central Command has instructed the IDF to prepare for a possible renewed military campaign in Iran, backed by a massive regional force buildup including approximately 200 tanker aircraft and three aircraft carriers. Simultaneously, Israeli forces struck the Nasser Hospital complex in Khan Younis, eliminating Hamas's Khan Younis Brigade commander Muhammad Abu Ismail and five others, while Iranian air defense systems registered heightened activity across six provinces. Houthi forces claimed attacks on Saudi energy infrastructure as Riyadh presses the EU for a terrorist designation.",
   "key_points": [
@@ -307,5 +308,6 @@
         "Iraqi paramilitary leader Al-Zaidi reportedly paused the Jurf al-Sakhar operation temporarily to allow Framework political leaders to negotiate a deal with factions, aiming to enable Defense and Interior Ministry forces"
       ]
     }
-  }
+  },
+  "stale_summary": true
 }
