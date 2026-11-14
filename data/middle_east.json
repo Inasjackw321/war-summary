@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-11-14T00:59:44.346693+00:00",
-  "message_count": 284,
+  "updated_at": "2026-11-14T02:50:03.905309+00:00",
+  "message_count": 279,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -12,9 +12,9 @@
     "shin_persian",
     "redlinkleb"
   ],
-  "red_alerts": 2,
+  "red_alerts": 0,
   "red_alerts_timeline": [
-    1,
+    0,
     0,
     0,
     0,
@@ -40,58 +40,65 @@
     0
   ],
   "combined_activity_timeline": [
-    7,
-    6,
-    3,
+    2,
     1,
-    1,
-    7,
-    9,
-    7,
-    13,
-    10,
-    16,
-    13,
-    17,
-    10,
-    21,
-    5,
+    2,
     7,
     8,
+    8,
+    13,
+    10,
+    15,
+    11,
     18,
-    22,
-    27,
-    35,
-    14,
-    5
+    12,
+    21,
+    3,
+    8,
+    7,
+    18,
+    21,
+    25,
+    37,
+    15,
+    7,
+    6,
+    4
   ],
   "messages_by_channel": {
-    "@N12chat": 104,
+    "@N12chat": 108,
     "@manniefabian": 3,
     "@yediotnews25": 23,
     "@amitsegal": 5,
-    "@Faytuks_Network": 80,
-    "@tzevaadom_en": 2,
+    "@Faytuks_Network": 73,
     "@shin_persian": 36,
     "@redlinkleb": 31
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/234956",
+    "N12chat": "https://t.me/N12chat/234963",
     "manniefabian": "https://t.me/manniefabian/59516",
     "yediotnews25": "https://t.me/yediotnews25/137798",
     "amitsegal": "https://t.me/amitsegal/67192",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/10005",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/10008",
     "tzevaadom_en": "https://t.me/tzevaadom_en/68585",
     "shin_persian": "https://t.me/shin_persian/12347",
     "redlinkleb": "https://t.me/redlinkleb/53101"
   },
   "cited_post_urls": {
-    "shin_persian": "https://t.me/shin_persian/12328",
+    "yediotnews25": "https://t.me/yediotnews25/137780",
     "manniefabian": "https://t.me/manniefabian/59516",
-    "yediotnews25": "https://t.me/yediotnews25/137792",
-    "redlinkleb": "https://t.me/redlinkleb/53072"
+    "shin_persian": "https://t.me/shin_persian/12334",
+    "redlinkleb": "https://t.me/redlinkleb/53095"
   },
   "media": [
+    {
+      "post_url": "https://t.me/Faytuks_Network/10007",
+      "post_id": 10007,
+      "channel": "Faytuks_Network",
+      "ts": "2026-11-14T01:22:03+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/OQRw68_oxgQIXoR8Oxc-qUtIKFwidq6sv8DcK-kPAf9Y0CvwVPP4Ha5vmbBH-kIxW04PTohi1rSJ0ozW3tb66bpYJSvTkdTzPK9lgt7YJdNday86Ii5bVySDZ2VZF1gR8sLn6Dt5IQCGBvpwHM7r48gO9Nr7vkCjloPaXtiAW4r3KzxQoA9Q_26XvRcrLL5Q-0Nn4hOfhOx93eAEUynNynMhh2Qi3ti3uHS1x6W5ulnaTeerJMWa2B7oMIfEqurjruCN0y31drv70rSyJz5lutbMBW8OQ_H6LgCw2Ts8r5aZPSsvRfFCtgpBVtyWdldsgSrS50n3N6U7UnYs-Zeh2g.jpg",
+      "companion_text_id": 10006
+    },
     {
       "post_url": "https://t.me/redlinkleb/53100",
       "post_id": 53100,
@@ -217,12 +224,6 @@
       "post_id": 53073,
       "channel": "redlinkleb",
       "ts": "2026-11-13T18:00:05+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/53071",
-      "post_id": 53071,
-      "channel": "redlinkleb",
-      "ts": "2026-11-13T17:41:54+00:00"
     }
   ],
   "post_images": {
@@ -231,106 +232,92 @@
     "manniefabian/59516": "data/media/manniefabian_59516.jpg",
     "amitsegal/67190": "data/media/amitsegal_67190.jpg",
     "amitsegal/67189": "data/media/amitsegal_67190.jpg",
-    "Faytuks_Network/9987": "data/media/Faytuks_Network_9987.jpg",
-    "Faytuks_Network/9986": "data/media/Faytuks_Network_9987.jpg",
     "Faytuks_Network/9995": "data/media/Faytuks_Network_9995.jpg",
     "Faytuks_Network/9994": "data/media/Faytuks_Network_9995.jpg",
     "Faytuks_Network/9996": "data/media/Faytuks_Network_9996.jpg",
-    "Faytuks_Network/9965": "data/media/Faytuks_Network_9965.jpg",
-    "Faytuks_Network/9964": "data/media/Faytuks_Network_9965.jpg",
+    "Faytuks_Network/10007": "data/media/Faytuks_Network_10007.jpg",
+    "Faytuks_Network/10006": "data/media/Faytuks_Network_10007.jpg",
+    "Faytuks_Network/9987": "data/media/Faytuks_Network_9987.jpg",
+    "Faytuks_Network/9986": "data/media/Faytuks_Network_9987.jpg",
     "Faytuks_Network/9951": "data/media/Faytuks_Network_9951.jpg",
     "Faytuks_Network/9952": "data/media/Faytuks_Network_9951.jpg",
     "Faytuks_Network/9954": "data/media/Faytuks_Network_9954.jpg",
     "Faytuks_Network/9953": "data/media/Faytuks_Network_9954.jpg",
+    "Faytuks_Network/9965": "data/media/Faytuks_Network_9965.jpg",
+    "Faytuks_Network/9964": "data/media/Faytuks_Network_9965.jpg",
     "Faytuks_Network/9930": "data/media/Faytuks_Network_9930.jpg",
     "Faytuks_Network/9929": "data/media/Faytuks_Network_9930.jpg",
     "Faytuks_Network/9933": "data/media/Faytuks_Network_9933.jpg",
-    "Faytuks_Network/9932": "data/media/Faytuks_Network_9933.jpg",
-    "Faytuks_Network/9914": "data/media/Faytuks_Network_9914.jpg",
-    "Faytuks_Network/9913": "data/media/Faytuks_Network_9914.jpg",
-    "Faytuks_Network/9920": "data/media/Faytuks_Network_9920.jpg",
-    "Faytuks_Network/9919": "data/media/Faytuks_Network_9920.jpg"
+    "Faytuks_Network/9932": "data/media/Faytuks_Network_9933.jpg"
   },
-  "summary": "Iran experienced multiple ballistic missile tests from Sanandaj and a third explosion at the 15 Khordad military barracks in Isfahan, alongside UAV activity over the Fifth Base in Omidiyeh. Israel struck more than 10 Hamas operatives in Gaza over the past week, including October 7 participants, and destroyed a weapons production site. Artillery shelling and Israeli warplanes were reported across southern Lebanon in Wadi al-Hujeir, Zoutar al-Sharqiyah, Kfar Tibnit, and Wadi al-Salouqi.",
+  "summary": "Iran held mass funerals for 350 unidentified battle casualties with the president and IRGC commander attending, signaling major undisclosed losses. Iran claimed responsibility for attacking a US early-warning radar in Bahrain, citing retaliation for an airstrike on a communications tower in Sirik, Iran. The IDF reported killing over 10 terror operatives in Gaza over the past week, including October 7 participants, and destroying a Hamas weapons production site.",
   "key_points": [
-    "Two ballistic missiles were test-launched from Sanandaj in Iran's Kurdistan Province at 1316Z. (Source: @shin_persian/12328)",
-    "A third explosion occurred at the 15 Khordad military barracks in Isfahan, specifically in the warehouse area at 1324Z. (Source: @shin_persian/12330)",
-    "UAV activity was observed over the Fifth Base in Omidiyeh, Khuzestan Province at 1727Z. (Source: @shin_persian/12339)",
-    "The IDF killed more than 10 terror operatives in Gaza over the past week, including Hamas Nukhba Force member Muhammad Atta Zaki Qishawi. (Source: @manniefabian/59516)",
-    "Israeli airstrikes hit the Zeitoun neighborhood in Gaza City, wounding two people. (Source: @yediotnews25/137792)",
-    "Artillery shelling was reported in Wadi al-Hujeir, Zoutar al-Sharqiyah, Kfar Tibnit, and Wadi al-Salouqi in southern Lebanon. (Source: @redlinkleb/53072)",
-    "Israeli warplanes were observed flying over southern Lebanon. (Source: @redlinkleb/53063)",
-    "US 5th Fleet commander Vice Adm. Curt Renshaw visited Israel and met with Israeli Navy chief Vice Adm. Eyal Harel to discuss regional operations. (Source: @manniefabian/59514)"
+    "Iran conducted nationwide funerals for 350 unidentified 'battle casualties' with top leadership attendance. (Source: @yediotnews25/137780)",
+    "Iran's IRGC claimed a missile attack on a US early-warning radar in Bahrain. (Source: @yediotnews25/137782)",
+    "IDF announced killing more than 10 Gaza terror operatives and destroying a Hamas weapons workshop. (Source: @manniefabian/59516)",
+    "Secondhand reports indicate a large number of missiles launched in western Iran around 1400Z. (Source: @shin_persian/12334)",
+    "Israeli airstrikes hit Gaza City's Zeitoun neighborhood, wounding two Palestinians. (Source: @yediotnews25/137792)",
+    "Lebanon daily report: 125 alerts, 61 drone sightings, 3 airstrikes, 33 artillery shellings across southern villages. (Source: @redlinkleb/53095)",
+    "Israeli Paratroopers detained four terror suspects in Jenin, West Bank, two linked to Islamic State. (Source: @manniefabian/59515)",
+    "IAEA expressed growing concern over Iran blocking inspections at an underground Isfahan enrichment facility since June 2025. (Source: @yediotnews25/137790)"
   ],
-  "sentiment": "active",
+  "sentiment": "volatile",
   "intensity": 7,
   "sections": {
-    "executive_summary": "Iran conducted two ballistic missile test launches from Sanandaj in Kurdistan Province and experienced a third explosion at the 15 Khordad military barracks in Isfahan's warehouse area, while UAVs operated over the Fifth Base in Omidiyeh. Israel eliminated over 10 Hamas operatives in Gaza, including October 7 attackers Muhammad Atta Zaki Qishawi and Hani Ibrahim Said Khudari, and destroyed a Hamas weapons production headquarters. Simultaneously, artillery shelling and Israeli warplane activity intensified across southern Lebanon in Wadi al-Hujeir, Zoutar al-Sharqiyah, Kfar Tibnit, and Wadi al-Salouqi.",
+    "executive_summary": "Iran held mass funerals for 350 unidentified battle casualties with the president and IRGC commander attending, signaling major undisclosed losses. Iran claimed responsibility for attacking a US early-warning radar in Bahrain, citing retaliation for an airstrike on a communications tower in Sirik, Iran. The IDF reported killing over 10 terror operatives in Gaza over the past week, including October 7 participants, and destroying a Hamas weapons production site.",
     "iran": {
       "points": [
-        "Two ballistic missiles were test-launched from Sanandaj in Kurdistan Province at 1316Z (16:46 Tehran time), as reported by the FromIran monitoring network with a 120-second delay. (Source: @shin_persian/12328)",
-        "A third explosion occurred at the 15 Khordad military barracks in Isfahan Province at 1324Z, precisely in the barracks' warehouse area, marking the third such incident at this facility. (Source: @shin_persian/12330)",
-        "Jet activity was detected over Saqqez in Kurdistan Province at 1436Z (18:06 local time), reported via the FromIran delayed posting system. (Source: @shin_persian/12332)",
-        "A missile launcher was observed on the road from Baharestan to Mohammadabad in Isfahan Province, indicating potential mobile missile deployment movements. (Source: @shin_persian/12342)",
-        "Secondhand information indicates a large number of missiles were launched in western Iran around 1400Z (17:30 Tehran time), though exact locations and quantities remain unconfirmed. (Source: @shin_persian/12333)",
-        "UAV activity was recorded over the Fifth Base in Omidiyeh, Khuzestan Province at 1727Z (20:57 Tehran time), suggesting surveillance or operational drone flights near strategic infrastructure. (Source: @shin_persian/12339)",
-        "The USS Theodore Roosevelt (CVN-71) carrier strike group was last tracked northwest of Kuala Lumpur on November 8 at 18.5 knots and is estimated to have entered the Arabian Sea, possibly west of Mumbai, per open-source maritime tracking. (Source: @shin_persian/12338)"
+        "Nationwide funerals were held for 350 unidentified 'battle casualties' across Iran, with the central ceremony at Tehran University for 110 bodies attended by the Iranian president and IRGC commander General Vahidi, indicating significant unreported military losses. (Source: @yediotnews25/137780)",
+        "A missile launcher was observed on the road from Baharestan to Mohammadabad in Isfahan Province, suggesting active missile deployment or movement in central Iran. (Source: @shin_persian/12342)",
+        "UAV activity was detected over Piranshahr in West Azerbaijan Province at 20:48 local time, and over the Fifth Base in Omidiyeh, Khuzestan Province at 1727Z, indicating persistent drone operations near western and southwestern borders. (Source: @shin_persian/12337, @shin_persian/12339)",
+        "Secondhand information reports a large number of missiles launched in western Iran around 1400Z, while a single ballistic missile was confirmed launched from Urmia, West Azerbaijan Province at 19:07 local time. (Source: @shin_persian/12334, @shin_persian/12335)",
+        "Hormozgan Governor's office stated no impacts or explosions occurred in Jask as of 22:25 local time, amid heightened alert. A jet departed Doran Air Base at 21:00 local heading south, possibly related to air defense or patrol missions. (Source: @shin_persian/12340, @shin_persian/12341)",
+        "The IAEA confidential report expresses growing concern over Iran preventing inspector access to an underground uranium enrichment facility in Isfahan since June 2025, noting the exact location and status are unclear, raising serious nuclear proliferation concerns. (Source: @yediotnews25/137790)"
       ]
     },
     "israel": {
       "points": [
-        "The IDF announced it struck and killed more than 10 terror operatives in the Gaza Strip over the past week, including participants in the October 7 onslaught, and bombed a Hamas weapons production site. (Source: @manniefabian/59516)",
-        "Among those killed: Muhammad Atta Zaki Qishawi, identified as a Hamas Nukhba Force member who invaded Israel on October 7, 2023; Ali Naim Ayesh Abu Osai of the Saif al-Islam faction involved in weapons manufacturing; and Hani Ibrahim Said Khudari, commander of a supply platoon in Hamas's Sabra Battalion in Gaza City who also infiltrated on October 7. (Source: @manniefabian/59516)",
-        "The destroyed workshop belonged to Hamas's weapons production headquarters, and the IDF stated all operatives were advancing attacks on troops and civilians in systematic violation of the ceasefire. (Source: @manniefabian/59516)",
-        "Israeli airstrikes continued targeting the Zeitoun neighborhood in Gaza City, with Palestinian media reporting two wounded at the scene. (Source: @yediotnews25/137792)",
-        "An IED exploded on the roof of the Hassan Allah family home in the Zeitoun neighborhood of southeast Gaza City, per Palestinian media reports. (Source: @yediotnews25/137791)",
-        "US 5th Fleet commander Vice Adm. Curt Renshaw completed a visit to Israel, meeting with Israeli Navy chief Vice Adm. Eyal Harel and senior naval officers to discuss operations across multiple arenas, regional stability, maritime security, fleet coordination, and technological knowledge-sharing. (Source: @manniefabian/59514)",
-        "Yisrael Beiteinu leader Avigdor Lieberman announced he will officially assume the role of Foreign Affairs and Defense Committee chair on Monday, stating the committee will oversee the defense establishment and prevent military actions for political purposes. (Source: @yediotnews25/137788)"
+        "Israeli warplanes were observed over southern Lebanon, indicating ongoing aerial presence and potential strike operations in the area. (Source: @redlinkleb/53063)",
+        "The IDF announced it struck and killed more than 10 terror operatives in the Gaza Strip over the past week, including participants in the October 7 onslaught, and destroyed a Hamas weapons production site belonging to the group's weapons headquarters. (Source: @manniefabian/59516)",
+        "Named operatives killed include Muhammad Atta Zaki Qishawi, a Hamas Nukhba Force member who invaded Israel on October 7; Ali Naim Ayesh Abu Osai of the Saif al-Islam faction involved in weapons manufacturing; and Hani Ibrahim Said Khudari, a supply platoon commander. (Source: @manniefabian/59516)",
+        "Israeli Paratroopers Brigade soldiers conducted an overnight raid in the Jenin area of the West Bank, detaining four wanted Palestinian terror suspects based on Shin Bet intelligence, two of whom are affiliated with the Islamic State jihadist movement. (Source: @manniefabian/59515)"
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "IDF strikes over the past week killed more than 10 Hamas operatives in the Gaza Strip, including Nukhba Force member Muhammad Atta Zaki Qishawi and Sabra Battalion supply platoon commander Hani Ibrahim Said Khudari, both October 7 infiltrators. (Source: @manniefabian/59516)",
-        "A Hamas weapons production headquarters workshop was destroyed in an Israeli strike, targeting the Saif al-Islam faction's Ali Naim Ayesh Abu Osai who manufactured weapons for Hamas. (Source: @manniefabian/59516)",
-        "Israeli airstrikes hit the Zeitoun neighborhood in Gaza City, with Palestinian media confirming two casualties at the location. (Source: @yediotnews25/137792)",
-        "An improvised explosive device detonated on the roof of a residential building belonging to the Hassan Allah family in the Zeitoun neighborhood of southeast Gaza City. (Source: @yediotnews25/137791)",
-        "The IDF stated all targeted operatives were actively advancing attacks on Israeli troops and civilians and working to restore Hamas capabilities in systematic ceasefire violation. (Source: @manniefabian/59516)"
+        "Palestinian media reported Israeli airstrikes in the Zeitoun neighborhood of Gaza City, resulting in two wounded Palestinians, indicating continued Israeli air operations in northern Gaza. (Source: @yediotnews25/137792)",
+        "The IDF confirmed killing over 10 terror operatives in Gaza during the past week, including several who participated in the October 7 attacks, and destroying a Hamas weapons production workshop in a targeted strike. (Source: @manniefabian/59516)",
+        "In the West Bank, Israeli forces detained four terror suspects in the Jenin area during an overnight raid by the Paratroopers Brigade acting on Shin Bet intelligence; two detainees are linked to the Islamic State, highlighting IS presence in the area. (Source: @manniefabian/59515)"
       ]
     },
     "lebanon": {
       "points": [
-        "Artillery shelling was reported in Wadi al-Hujeir, with live map tracking indicating ongoing fire missions. (Source: @redlinkleb/53072)",
-        "Artillery shelling targeted Zoutar al-Sharqiyah in southern Lebanon, recorded on live mapping systems. (Source: @redlinkleb/53046)",
-        "Artillery shelling struck Kfar Tibnit, per live map monitoring of the area. (Source: @redlinkleb/53078)",
-        "Fire sweeping operations were conducted in Wadi al-Salouqi, suggesting combined artillery and incendiary effects. (Source: @redlinkleb/53040)",
-        "Additional artillery shelling was reported in Zoutar al-Sharqiyah, indicating repeated targeting of this location. (Source: @redlinkleb/53083)",
-        "Further artillery shelling occurred in Wadi al-Salouqi, marking a second reported engagement in this valley. (Source: @redlinkleb/53075)",
-        "Israeli warplanes were observed flying over southern Lebanon, per live air tracking with the <HJ> identifier. (Source: @redlinkleb/53063)"
+        "Israeli warplanes were active over southern Lebanon, with live mapping showing their presence, suggesting ongoing surveillance or strike missions. (Source: @redlinkleb/53063)",
+        "Artillery shelling was reported in Wadi al-Salouqi, with additional firefighting or artillery activity noted in the same area, indicating ground-based fire exchanges. (Source: @redlinkleb/53075, @redlinkleb/53040)",
+        "Daily statistics for November 13, 2026 show 125 total alerts, 61 drone sightings (most in Kfar Djal, Jibchit, Abba, Qabrikha, Selaa), 3 airstrikes (2 in Kfar Tibnit, 1 in Khiam), and 33 artillery shellings across 17 villages including Mayfadoun (6), Hadatha (5), Wadi al-Salouqi (5), and Zoutar al-Sharqiyah (4). (Source: @redlinkleb/53095)"
       ]
     },
     "syria_iraq": {
       "points": [
-        "No operational activity reported in Syria or Iraq from the provided messages during this period."
+        "No explicit reports of military activity in Syria or Iraq were present in the provided messages. Iranian missile launches in western Iran (West Azerbaijan, Khuzestan) may relate to regional posture but no direct Syria/Iraq events were documented. (Source: @shin_persian/12334, @shin_persian/12335, @shin_persian/12339)"
       ]
     },
     "gulf_states": {
       "points": [
-        "The US 5th Fleet, headquartered in Bahrain, has been engaged in low-level fighting against Iran in the Gulf and Strait of Hormuz in recent months amid an American naval blockade of Iranian ports. (Source: @manniefabian/59514)",
-        "USS Theodore Roosevelt (CVN-71) carrier strike group is estimated to be operating in the Arabian Sea, possibly west of Mumbai, after transiting from the Malacca Strait at 18.5 knots. (Source: @shin_persian/12338)",
-        "US 5th Fleet commander Vice Adm. Curt Renshaw visited Israel to coordinate with Israeli Navy on regional maritime security, fleet interoperability, and technology sharing across operational arenas. (Source: @manniefabian/59514)"
+        "Iran's Islamic Revolutionary Guard Corps claimed responsibility for attacking a US early-warning radar in Bahrain early morning, stating it was retaliation for an airstrike against a communications tower in the city of Sirik, Iran. (Source: @yediotnews25/137782)"
       ]
     },
     "key_developments": [
-      "Iran test-launched two ballistic missiles from Sanandaj, Kurdistan Province at 1316Z, with a third explosion at the 15 Khordad barracks warehouse in Isfahan at 1324Z. (Source: @shin_persian/12328)",
-      "UAV activity detected over the Fifth Base in Omidiyeh, Khuzestan Province at 1727Z, indicating drone operations near strategic Iranian military infrastructure. (Source: @shin_persian/12339)",
-      "IDF eliminated over 10 Hamas operatives in Gaza this week, including Nukhba Force member Muhammad Atta Zaki Qishawi and Sabra Battalion commander Hani Ibrahim Said Khudari, both October 7 attackers. (Source: @manniefabian/59516)",
-      "Israeli airstrikes struck the Zeitoun neighborhood in Gaza City, wounding two, while an IED exploded on a residential roof in the same area. (Source: @yediotnews25/137792)",
-      "Artillery shelling hit four locations in southern Lebanon: Wadi al-Hujeir, Zoutar al-Sharqiyah (twice), Kfar Tibnit, and Wadi al-Salouqi (twice), with Israeli warplanes overhead. (Source: @redlinkleb/53072)",
-      "US 5th Fleet commander Vice Adm. Curt Renshaw met Israeli Navy chief Vice Adm. Eyal Harel in Israel to discuss multi-arena operations, maritime security, and tech sharing. (Source: @manniefabian/59514)",
-      "USS Theodore Roosevelt carrier group estimated in Arabian Sea west of Mumbai, positioning within strike range of Iranian coastal targets. (Source: @shin_persian/12338)"
+      "Iran held mass funerals for 350 unidentified battle casualties with president and IRGC commander attending, signaling major undisclosed losses. (Source: @yediotnews25/137780)",
+      "IRGC claimed missile attack on US early-warning radar in Bahrain, citing retaliation for airstrike on Sirik communications tower. (Source: @yediotnews25/137782)",
+      "IDF killed over 10 Gaza terror operatives in past week, including October 7 participants, and destroyed Hamas weapons production site. (Source: @manniefabian/59516)",
+      "Secondhand reports indicate large missile launches in western Iran ~1400Z; confirmed ballistic missile launch from Urmia, West Azerbaijan. (Source: @shin_persian/12334, @shin_persian/12335)",
+      "Israeli airstrikes hit Gaza City's Zeitoun neighborhood, wounding two Palestinians. (Source: @yediotnews25/137792)",
+      "Lebanon daily report: 125 alerts, 61 drone sightings, 3 airstrikes, 33 artillery shellings across southern villages. (Source: @redlinkleb/53095)",
+      "Israeli Paratroopers detained four terror suspects in Jenin, West Bank, two affiliated with Islamic State. (Source: @manniefabian/59515)"
     ],
-    "threat_assessment": "Iran's simultaneous ballistic missile tests from Sanandaj, explosions at the 15 Khordad barracks in Isfahan, and UAV activity over the Omidiyeh Fifth Base suggest heightened military readiness and potential testing of integrated air defense and missile systems. The reported large-scale missile launches in western Iran at 1400Z, if confirmed, would indicate a significant force demonstration. Israel's targeted killings of senior Hamas operatives in Gaza, including October 7 attackers, combined with continued airstrikes in Zeitoun, signal an intent to degrade Hamas's reconstituted capabilities despite ceasefire frameworks. The convergence of US 5th Fleet coordination with Israeli Navy and the Theodore Roosevelt's approach to the Arabian Sea creates a triad of naval pressure on Iran's southern flank.",
-    "regional_response": "Lebanon's southern frontier absorbs sustained artillery barrages across Wadi al-Hujeir, Zoutar al-Sharqiyah, Kfar Tibnit, and Wadi al-Salouqi, with Israeli warplanes operating overhead, suggesting a deliberate campaign to disrupt Hezbollah's border infrastructure. The US 5th Fleet's explicit acknowledgment of low-level fighting against Iran in the Gulf and Strait of Hormuz, coupled with Vice Adm. Renshaw's Israel visit for multi-arena coordination, indicates an emerging US-Israeli naval doctrine for simultaneous pressure on Iranian maritime and proxy networks. Bahrain's hosting of the 5th Fleet headquarters places it at the center of this operational architecture.",
-    "intelligence_notes": "The 120-second delayed reporting from Iran's FromIran network provides a near-real-time window into missile test timelines and explosion sequences at known military facilities, enabling pattern-of-life analysis for the 15 Khordad barracks and Sanandaj launch sites. The specific naming of Hamas operatives — Qishawi (Nukhba), Khudari (Sabra Battalion), Abu Osai (Saif al-Islam) — by the IDF allows for tracking of Hamas's command regeneration across Gaza's battalions. The live-map artillery reporting from southern Lebanon (redlinkleb) offers geolocated strike data for correlating with Hezbollah's forward positions. The Theodore Roosevelt's transit speed of 18.5 knots from the Malacca Strait provides a predictable arrival window in CENTCOM AOR for force posture assessments."
+    "threat_assessment": "Iran's mass funerals for 350 unidentified casualties suggest significant unreported combat losses, possibly from Israeli strikes or internal instability, while its claimed attack on a US radar in Bahrain marks a direct escalation against American assets in the Gulf. Simultaneous missile launches and UAV activity across western and southwestern Iran indicate heightened military readiness or ongoing operations. The IDF's sustained lethal operations in Gaza and West Bank, including targeting senior Hamas operatives and IS-linked cells, demonstrate continued high-tempo counterterrorism pressure. Lebanon's daily alert volume and artillery exchanges reflect persistent cross-border tension. The IAEA's warning on Iran's hidden enrichment facility adds a nuclear dimension to regional volatility.",
+    "regional_response": "Iran's public funeral ceremonies and leadership attendance serve domestic signaling of resolve despite losses, while its Bahrain strike claim aims to project deterrence against US-Israeli coordination. Israel maintains multi-front pressure: degrading Hamas military infrastructure in Gaza, disrupting West Bank terror networks, and sustaining aerial and artillery presence in southern Lebanon. Gulf states, particularly Bahrain, face direct Iranian missile threats, likely prompting enhanced US-GCC air defense cooperation. The IAEA's alarm over Isfahan may drive renewed diplomatic pressure on Iran's nuclear program, though no immediate joint statement was noted in the data.",
+    "intelligence_notes": "The concentration of Iranian missile and UAV activity in West Azerbaijan, Khuzestan, and Isfahan provinces suggests a dispersed force posture, possibly protecting strategic depth or preparing for retaliation. The IRGC's specific claim of a US radar strike in Bahrain — if verified — would represent a rare direct kinetic action against US assets, altering escalation calculus. Israel's naming of killed operatives indicates precise intelligence penetration of Hamas and allied factions. The detention of IS-affiliated suspects in Jenin highlights the persistent but underreported Islamic State foothold in the northern West Bank. Lebanon's granular daily statistics reflect robust monitoring by local actors, providing a reliable baseline for cross-border fire trends."
   }
 }
