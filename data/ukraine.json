@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-16T05:49:14.913830+00:00",
-  "message_count": 283,
+  "updated_at": "2026-11-16T07:04:17.758062+00:00",
+  "message_count": 280,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -9,11 +9,9 @@
     "UkraineNow",
     "DeepStateUA"
   ],
-  "red_alerts": 132,
+  "red_alerts": 158,
   "red_alerts_timeline": [
-    0,
-    44,
-    0,
+    53,
     0,
     0,
     0,
@@ -24,7 +22,9 @@
     0,
     0,
     0,
-    88,
+    0,
+    105,
+    0,
     0,
     0,
     0,
@@ -37,43 +37,43 @@
     0
   ],
   "combined_activity_timeline": [
-    5,
+    4,
     6,
-    6,
-    2,
-    11,
-    13,
-    12,
-    13,
-    28,
-    11,
-    8,
     5,
-    25,
-    22,
-    29,
+    7,
     14,
-    6,
-    12,
-    7,
-    7,
     15,
-    13,
+    9,
+    30,
+    9,
+    7,
     8,
-    4
+    24,
+    31,
+    22,
+    10,
+    7,
+    14,
+    3,
+    9,
+    18,
+    8,
+    8,
+    6,
+    5
   ],
   "messages_by_channel": {
-    "@eRadarrua": 92,
-    "@kpszsu": 117,
-    "@mon1tor_ua": 59,
-    "@UkraineNow": 13,
+    "@eRadarrua": 89,
+    "@kpszsu": 118,
+    "@mon1tor_ua": 57,
+    "@UkraineNow": 14,
     "@DeepStateUA": 2
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/130952",
-    "kpszsu": "https://t.me/kpszsu/96504",
+    "eRadarrua": "https://t.me/eRadarrua/130955",
+    "kpszsu": "https://t.me/kpszsu/96517",
     "mon1tor_ua": "https://t.me/mon1tor_ua/78310",
-    "UkraineNow": "https://t.me/UkraineNow/85325",
+    "UkraineNow": "https://t.me/UkraineNow/85327",
     "DeepStateUA": "https://t.me/DeepStateUA/24003"
   },
   "cited_post_urls": {
@@ -84,6 +84,20 @@
     "kpszsu": "https://t.me/kpszsu/96417"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/85327",
+      "post_id": 85327,
+      "channel": "UkraineNow",
+      "ts": "2026-11-16T06:34:20+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/96507",
+      "post_id": 96507,
+      "channel": "kpszsu",
+      "ts": "2026-11-16T06:00:16+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/qjGF05me6C0anizEUU8ZAN2ZmZKGu6QITI4YC-xF6bE10R4m29ABiuvi6m9ALWxfnlx0M3OGISPDe0jcn1ZW6y0Rho6tys6k1ODmPlTPxqwgCNCLEds1i-q0280M8MbNwSUYsOOZZaaAAX-hsNgbDLhZjLU7wHAcPc9-AbVYdT5oW6amOE-COaDNjodzW051izlfURLxscjJODFxiefg4fRxXWFXVj-nIhUgSrqF9iEC0NZG3DQ31pozY2s6VU17875hmO9XouTuJW7xjekntsuyglF_ToKKuLTfvPHOqxrv6N-T_lFQ8LxWDZpwRo5x3nnGstxtLRhZbXOGcnQxpw.jpg",
+      "companion_text_id": 96508
+    },
     {
       "post_url": "https://t.me/eRadarrua/130921",
       "post_id": 130921,
@@ -179,6 +193,14 @@
       "ts": "2026-11-15T17:10:07+00:00"
     },
     {
+      "post_url": "https://t.me/eRadarrua/130820",
+      "post_id": 130820,
+      "channel": "eRadarrua",
+      "ts": "2026-11-15T15:59:22+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/RfQSPKoqgMXcfzD6xTBrX01nqkyzhTWSJB2HJCRujv1VYB8tVjyBdhDOSc52LJWk2xMa2IyK7NctCDDEvY7hJqfq0gdFtBdVM98dlMG3BUC9MOLwSs7m-iWkS113fDndtDOh6DlDAgaqkZL4Q7YmvypWWbRBLH_Tu8JICNTYqe6B-ORyKGMVPlfFfOElhhgzlXbDe4obnsdpon31F9fGaK_zk-3574CTx_uHpsfpuZlkXAAW2BYBgllTuV8DnpKx1z4kjo7aV1nbRu2RJy6iV_U_VUmah03wzA5xSJgvd4aMmdn6XqCg1hYOsEUm2Tkf_njgCzhvyqW2kS6wY9hGxg.jpg",
+      "companion_text_id": 130819
+    },
+    {
       "post_url": "https://t.me/UkraineNow/85321",
       "post_id": 85321,
       "channel": "UkraineNow",
@@ -209,30 +231,10 @@
       "companion_text_id": 130818
     },
     {
-      "post_url": "https://t.me/eRadarrua/130815",
-      "post_id": 130815,
-      "channel": "eRadarrua",
-      "ts": "2026-11-15T14:45:06+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/F-vpVEt70iq52SXbQ7eD3SJRvZizeGevZ6ZcwL2XxFK8mBJhC15fNpS8CdxtlO9KelDV0B2RAO4B3JC1z3JFbqFe6EC8DlcsnYtUWmpwzIXriEsmb85UiUQOLJS5MCidrELVzeEN2C6qFofwLhYP7UJ2up3EgNJBwuYALOZYJsV27DR1Te7sH5wuY9AovSdxptaUtPQucEmnj0zGC_4JXhKKvL0TMXsyJnR5OT9RVCUQCY5m1xdQ3Rb_Mh5C38cOX6cP63GCmz-xMwmTLdotcQ_4NbQZ_VuwcndkjsV8Fv62UGcc4u6aSxvtlRTwJJUGAtF-zEm0aNlZ8sgKfp6Waw.jpg",
-      "companion_text_id": 130813
-    },
-    {
       "post_url": "https://t.me/DeepStateUA/24002",
       "post_id": 24002,
       "channel": "DeepStateUA",
       "ts": "2026-11-15T12:59:21+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85313",
-      "post_id": 85313,
-      "channel": "UkraineNow",
-      "ts": "2026-11-15T08:10:56+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85312",
-      "post_id": 85312,
-      "channel": "UkraineNow",
-      "ts": "2026-11-15T07:23:16+00:00"
     }
   ],
   "post_images": {
@@ -240,8 +242,6 @@
     "eRadarrua/130922": "data/media/eRadarrua_130921.jpg",
     "eRadarrua/130904": "data/media/eRadarrua_130904.jpg",
     "eRadarrua/130905": "data/media/eRadarrua_130904.jpg",
-    "eRadarrua/130874": "data/media/eRadarrua_130874.jpg",
-    "eRadarrua/130873": "data/media/eRadarrua_130874.jpg",
     "eRadarrua/130879": "data/media/eRadarrua_130879.jpg",
     "eRadarrua/130878": "data/media/eRadarrua_130879.jpg",
     "eRadarrua/130880": "data/media/eRadarrua_130880.jpg",
@@ -251,13 +251,16 @@
     "eRadarrua/130884": "data/media/eRadarrua_130884.jpg",
     "eRadarrua/130870": "data/media/eRadarrua_130870.jpg",
     "eRadarrua/130869": "data/media/eRadarrua_130870.jpg",
+    "eRadarrua/130874": "data/media/eRadarrua_130874.jpg",
+    "eRadarrua/130873": "data/media/eRadarrua_130874.jpg",
     "eRadarrua/130847": "data/media/eRadarrua_130847.jpg",
     "eRadarrua/130848": "data/media/eRadarrua_130848.jpg",
-    "eRadarrua/130815": "data/media/eRadarrua_130815.jpg",
-    "eRadarrua/130813": "data/media/eRadarrua_130815.jpg",
     "eRadarrua/130817": "data/media/eRadarrua_130817.jpg",
     "eRadarrua/130818": "data/media/eRadarrua_130818.jpg",
-    "eRadarrua/130819": "data/media/eRadarrua_130819.jpg"
+    "eRadarrua/130819": "data/media/eRadarrua_130819.jpg",
+    "eRadarrua/130820": "data/media/eRadarrua_130820.jpg",
+    "kpszsu/96507": "data/media/kpszsu_96507.jpg",
+    "kpszsu/96508": "data/media/kpszsu_96507.jpg"
   },
   "summary": "Russia launched a massive overnight drone and missile attack across Ukraine targeting energy infrastructure including substations near Kyiv, Kitsman, and the Kremenchuk oil refinery. Ukraine struck Russia's Akhtubinsk airfield in Astrakhan region with at least 30 explosions. The EU intercepted a Russian shadow fleet tanker in the Mediterranean while Estonia detained suspects linked to GRU sabotage at a drone factory.",
   "key_points": [
@@ -346,31 +349,31 @@
   },
   "stale_summary": true,
   "missiles": 0,
-  "drones": 132,
+  "drones": 158,
   "kpszsu_timeline": [
     0,
     0,
     0,
     0,
-    3,
-    9,
+    11,
+    7,
     6,
-    8,
-    13,
-    6,
+    15,
     4,
-    2,
-    6,
-    9,
-    16,
-    6,
+    4,
     1,
-    4,
+    8,
+    11,
+    14,
+    3,
     3,
     6,
-    5,
-    8,
+    0,
+    7,
+    6,
+    6,
     2,
-    0
+    1,
+    3
   ]
 }
