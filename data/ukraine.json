@@ -1,6 +1,6 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-19T03:13:01.455985+00:00",
+  "updated_at": "2026-11-19T10:48:52.798615+00:00",
   "message_count": 234,
   "channels": [
     "eRadarrua",
@@ -9,9 +9,17 @@
     "UkraineNow",
     "DeepStateUA"
   ],
-  "red_alerts": 141,
+  "red_alerts": 98,
   "red_alerts_timeline": [
     0,
+    20,
+    20,
+    0,
+    0,
+    0,
+    20,
+    0,
+    20,
     0,
     0,
     0,
@@ -19,71 +27,111 @@
     0,
     0,
     0,
-    0,
-    28,
-    28,
-    0,
-    0,
-    28,
-    0,
-    0,
-    28,
+    20,
     0,
     0,
     0,
     0,
     0,
     0,
-    28
+    0
   ],
   "combined_activity_timeline": [
-    0,
-    7,
+    8,
     11,
-    3,
-    8,
-    17,
-    14,
-    8,
-    16,
     9,
     10,
-    15,
-    20,
-    9,
-    10,
-    5,
+    21,
+    13,
+    8,
+    11,
     12,
-    4,
-    5,
-    16,
-    17,
     3,
+    3,
+    14,
+    13,
+    10,
     6,
-    9
+    6,
+    11,
+    8,
+    5,
+    8,
+    10,
+    6,
+    15,
+    12
   ],
   "messages_by_channel": {
-    "@eRadarrua": 81,
-    "@kpszsu": 119,
-    "@mon1tor_ua": 13,
+    "@eRadarrua": 85,
+    "@kpszsu": 117,
+    "@mon1tor_ua": 11,
     "@UkraineNow": 20,
     "@DeepStateUA": 1
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/131683",
-    "kpszsu": "https://t.me/kpszsu/97309",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/78434",
-    "UkraineNow": "https://t.me/UkraineNow/85387",
+    "eRadarrua": "https://t.me/eRadarrua/131729",
+    "kpszsu": "https://t.me/kpszsu/97385",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/78436",
+    "UkraineNow": "https://t.me/UkraineNow/85395",
     "DeepStateUA": "https://t.me/DeepStateUA/24013"
   },
   "cited_post_urls": {
-    "mon1tor_ua": "https://t.me/mon1tor_ua/78423",
-    "eRadarrua": "https://t.me/eRadarrua/131651",
-    "UkraineNow": "https://t.me/UkraineNow/85369",
-    "DeepStateUA": "https://t.me/DeepStateUA/24013",
-    "kpszsu": "https://t.me/kpszsu/97271"
+    "eRadarrua": "https://t.me/eRadarrua/131698",
+    "kpszsu": "https://t.me/kpszsu/97361",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/78428",
+    "UkraineNow": "https://t.me/UkraineNow/85375",
+    "DeepStateUA": "https://t.me/DeepStateUA/24013"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/85395",
+      "post_id": 85395,
+      "channel": "UkraineNow",
+      "ts": "2026-11-19T10:02:07+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85394",
+      "post_id": 85394,
+      "channel": "UkraineNow",
+      "ts": "2026-11-19T09:20:42+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85392",
+      "post_id": 85392,
+      "channel": "UkraineNow",
+      "ts": "2026-11-19T08:50:09+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/131699",
+      "post_id": 131699,
+      "channel": "eRadarrua",
+      "ts": "2026-11-19T06:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/uXxclJ3OEhNh2u0KOickcj2Dgld-Og7rLvMmfuLSyNJc0Gk-AoILSFRWqeS64hpj0XwafIb5rfykQZsKOoa3XiYWRm-7E9qCQUpGzFE-zRlj8ZMfHHCOuJ0ekYgUlRq-yxcPZiy90tD5pBlypqHL7Af69_F30XCvgHWgkJHO-K1KjP0ZFOhPJyaXTNpJbVs5cuPUVEy92n6RC0cs0IVEsN_Ys8hTnmSpoXLi7RqGsfPsYNNctQaYYvdSvY6z--O82vy_V4rdvdEW--Ri8B-cNICJYxWj1XwppdygX9bYhxaNiCWxkbsqes5SwEWDC6V68Nz4onxb5AIoiV9I15ltCA.jpg",
+      "companion_text_id": 131698
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/131698",
+      "post_id": 131698,
+      "channel": "eRadarrua",
+      "ts": "2026-11-19T06:23:59+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/LeQiF1aID6X--VNc8-hTajzp3MhboQQB-WqDcTWtSVPZn-fZX_JF8uv-MakUvLNq0eItKZ040XOPFcdMFNvrtSOoXqwX17CjHIgx2--86MpcT5uZx9g7HlWYfmB2HVKd48JDyNXuVDPKnav8AJbyNLCrMRuJSZlrHrY4zAu1pIyIUT9W-1bABT0xglDBdTZBukTtzSju4tAmLb_V81qSkZYdevRctnet-HcpDimRFtAP-McPrcROPSzC6Dhgm6t2ak-AC4efy3tBjWugjpe8g88Vmhdeph7mAB3Y2ZgOcZeCtycK7qGYSbdhy5LeIlKgg1cEBqkIeNWPIiPASy16dQ.jpg",
+      "companion_text_id": 131697
+    },
+    {
+      "post_url": "https://t.me/kpszsu/97342",
+      "post_id": 97342,
+      "channel": "kpszsu",
+      "ts": "2026-11-19T06:07:21+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/ECL0abpqsjBzVRBrXOStpQ6EGfACFo79ALekKKOK2SM5k48-9MXR-6_Do5aqQVV3_Ae5Dr-zHIMPgzm6QoyXKAw0sAOOb0iScE2ZiJ7qP1VI44gBlgilR6ASurkQYzaoMDEHxqq9NUo1f14WXssW1dCfneYCD19WPLC9ipYfn7Emic591lrjsv23m6Nfun3ztWslrdVvYHavthGCOgWVFndUDH5HK4sUHdeUPN9ysSyjNDBahRAYtLc2CNrJV2Q6XzMX72uXelaNTzGAvCVrqvk-8xDlV34g7oIoizdwiQw3Q9A8MVbILV0qodTdYIqLXrD5ZHkIheSzCysSYzzgxA.jpg",
+      "companion_text_id": 97343
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85388",
+      "post_id": 85388,
+      "channel": "UkraineNow",
+      "ts": "2026-11-19T06:01:41+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/85387",
       "post_id": 85387,
@@ -179,63 +227,12 @@
       "channel": "eRadarrua",
       "ts": "2026-11-18T19:27:39+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/ev0A6BurbuGwwiK60qFoug_ifo2Jkt4wrA1r5n2X53wQQeWKlwnuaOy5ipF5zoMGurhB56flT0KW33-Gl8Xon-iwSFIIiV2YMcyu-Oyy7DBMDm8_BmdHvtYQmNiqqAi4x9yrR64B86x_qyAjsKdnGr4Y2rHJ7HUTS1NakHkhtcZWzqy2tLCnD269pPX9R8kLVLO1ikMvtrv8TEFLoIoFVw6S5sa55QcrsC3xZtK6ywjHxXcdyGS6QlAR6QBQGzl9vFAvawvcE1fmHBBv7fsQOSXNIllhOKaDNZBiAPoRPmXGnuNuHkZsaNkjPEa7tfR86zvPdKU8_Wz9Z2ayf5xCEQ.jpg"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/131602",
-      "post_id": 131602,
-      "channel": "eRadarrua",
-      "ts": "2026-11-18T19:24:29+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/rKI6oAhjHtebZbLSp7D21XJ2y6BAuLgLhbVj_Unz3QKSy4BUXjb8Ojc4iR7wWVvyTG_OVv-tb-F3H9mAmEhOZpJ8VTVF4gUrNFOHhumT3Unlegd8s8esPhXb7eVHBbENPVSsg1pUD5ooOR0SMCdkmzVZcLYEXK-2clj7ADovBfNaxjgd46yTBmk2oFaYXaqhOENK6FLcHRs18NmbUHH77wePOVoCMVrlDogF078Koc9bQmu6HSKqOgk24cFqiEH3tjru3gvUIwXwCr99WOML5W5dCdIXN1IgZ-qTcT8aNHewvLQPIf7gv1mMkIdXl3Q5xYamUiMqSuZ7zYFJuNbHEw.jpg",
-      "companion_text_id": 131600
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85382",
-      "post_id": 85382,
-      "channel": "UkraineNow",
-      "ts": "2026-11-18T18:40:53+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/131591",
-      "post_id": 131591,
-      "channel": "eRadarrua",
-      "ts": "2026-11-18T17:11:44+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/i17RNN1xhAiUsdKOqC_o5i4EVE4nZyDx4lbA099leFlTTMX3CrxHW2Uuy5EZYdojUejYxgQ8NgDVk_zU_60ckuYLQfldz35sfA3LHoUTCU7O80bQBoZXnc8wRprBu9EOuugrJ4dkdJfQj4uyTs8j1MdFDeBDQStL1h92toRqPVSRGleno72eJLl6X25Zrx6S5LTc7ivYQM4CpgoESYp11odu9GToVW_CNqvGSmcqpcBVgJBJPJdV7GdbJUupNPfTjwptyYxMaf9REe1dV_M4m1SCykSAhfd86bcofzmVC2ahK59aBsu0mJ0YUkJ4qgA8FCVxHySZnLrc4s8SKywkSA.jpg",
-      "companion_text_id": 131593
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/131585",
-      "post_id": 131585,
-      "channel": "eRadarrua",
-      "ts": "2026-11-18T17:01:16+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/VosZZBNaW3vuWcrNhFGGqwLJ3VkL5_vOv7PtWubxzTNQm2ylWkfnXVEwZWZHbpBThQu6wmAQVjhREhyDqbBWCYUGoM0lpxFwUBzay-Xzpwa1UWGW0oFz8MftYcT3yASGgeFTleR1hbc9pPPg2TSq_Px7Ashu5IT3awc67nY9frRm0kLRlLXgPN-5ccHXH3f2uohB9fRKkQVUHGK8X8Gkxn0eUD1gY-EGxMg_YN7ub1SRD_BJE6XkdDJGrqJQTFBxJuAMu9XSszvi-CSfV-COQOqCqMBCyfk6RqIVm5rY4a61kYcm2AcQvdjMVHzggBm8UQe5N6rIocADErEFkstlyw.jpg",
-      "companion_text_id": 131584
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/131582",
-      "post_id": 131582,
-      "channel": "eRadarrua",
-      "ts": "2026-11-18T16:50:43+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/EXI70ORLd1D2Txy-3eES98x5A8eG_wMxAB478L9Wry3OBCJCxkspB7bZXMot98f6ihzAMaPNWUIg4bQUatH4BtH6XYmjFo1mZ_FgESaH7irP1S8A7goP1LdIsFd9Dqbp58tWAWwjd2OIkK6YCE7AVG9cLWAnbbnJD6CvjNCwIjKSxwo56U8QNPWJAnyueigV8X4AfJiJeqlaxLYOd44xn4weFVTxvDzTTABhSW4ggNToC6Y9FKK6B0zz6jPf24up91n-vOBYPM9Ex2YGALR598wXDgsWE89dG4uUFSk2VnA6--VGwcloX1JEy33EWCWCA-cejMBIqof9CY47mtCgmQ.jpg",
-      "companion_text_id": 131581
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/131581",
-      "post_id": 131581,
-      "channel": "eRadarrua",
-      "ts": "2026-11-18T16:44:47+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/OqLQaqwuOgx29FeUNq1BV1Cf9M3tqUqrOhumJPPUB-2sd9b85y-zNKl84mfQXrA6JbX4uBxH67PnJ7X660SPThjFnrJCtRbwY76KSadylVAfhVy2nAIS3RCVg1RVIzj5KHb8pmflwux9e1ITFcMEyHjX3fqc2JSmTFhsMnbDdAnvkoaugyS_uw9dI-v6akLP4y01ed_zygU0P2MUoz7x-kO5zighJQ-WsQQGsz6v2-L7ltQxmTCK9eshjSy4-8oc-lSqm6KfqnOe2yaEz3XlBz40CHGavQNG2mgcVfTf6Ny3USKCr9nNwtcqCKv0j-hT2ydUj4oVsbgmaS216FIiKw.jpg",
-      "companion_text_id": 131580
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85380",
-      "post_id": 85380,
-      "channel": "UkraineNow",
-      "ts": "2026-11-18T16:42:36+00:00"
     }
   ],
   "post_images": {
-    "eRadarrua/131647": "data/media/eRadarrua_131647.jpg",
-    "eRadarrua/131645": "data/media/eRadarrua_131647.jpg",
+    "eRadarrua/131698": "data/media/eRadarrua_131698.jpg",
+    "eRadarrua/131697": "data/media/eRadarrua_131698.jpg",
+    "eRadarrua/131699": "data/media/eRadarrua_131699.jpg",
     "eRadarrua/131650": "data/media/eRadarrua_131650.jpg",
     "eRadarrua/131649": "data/media/eRadarrua_131650.jpg",
     "eRadarrua/131652": "data/media/eRadarrua_131652.jpg",
@@ -247,115 +244,109 @@
     "eRadarrua/131636": "data/media/eRadarrua_131636.jpg",
     "eRadarrua/131637": "data/media/eRadarrua_131636.jpg",
     "eRadarrua/131638": "data/media/eRadarrua_131638.jpg",
+    "eRadarrua/131647": "data/media/eRadarrua_131647.jpg",
+    "eRadarrua/131645": "data/media/eRadarrua_131647.jpg",
     "eRadarrua/131602": "data/media/eRadarrua_131602.jpg",
     "eRadarrua/131600": "data/media/eRadarrua_131602.jpg",
     "eRadarrua/131612": "data/media/eRadarrua_131612.jpg",
     "eRadarrua/131581": "data/media/eRadarrua_131581.jpg",
     "eRadarrua/131580": "data/media/eRadarrua_131581.jpg",
     "eRadarrua/131582": "data/media/eRadarrua_131582.jpg",
-    "eRadarrua/131585": "data/media/eRadarrua_131585.jpg",
-    "eRadarrua/131584": "data/media/eRadarrua_131585.jpg",
-    "eRadarrua/131591": "data/media/eRadarrua_131591.jpg",
-    "eRadarrua/131593": "data/media/eRadarrua_131591.jpg",
-    "kpszsu/97092": "data/media/kpszsu_97092.jpg",
-    "kpszsu/97091": "data/media/kpszsu_97092.jpg"
+    "kpszsu/97342": "data/media/kpszsu_97342.jpg",
+    "kpszsu/97343": "data/media/kpszsu_97342.jpg"
   },
-  "summary": "Russia launched a massive overnight drone and missile barrage across Ukraine employing Geran-5 rockets, reactive Shaheds, and Banderoil cruise missiles targeting at least ten oblasts including Kyiv, Vinnytsia, and Dnipropetrovsk. Ukrainian forces struck the Crimean Bridge railway section with at least two hits and attacked the Ilsky and Afipsky refineries in Krasnodar Krai, contributing to a reported 45% drop in Russian refining capacity. Russian strikes hit Naftogaz facilities in Dnipropetrovsk and Poltava oblasts and killed four civilians in Odesa.",
+  "summary": "Russian forces are finalizing preparations for a massive missile strike on Ukraine within 48 hours involving up to 45 Kh-101 cruise missiles from strategic bombers plus ballistic missiles from multiple axes targeting energy and logistics infrastructure. Simultaneously, waves of Shahed/Geran-5 drones penetrated at least nine Ukrainian oblasts on November 19, triggering repeated air raid alerts in Kyiv with impacts reported in Vyshhorod and Darnytsia. Ukrainian forces struck a key logistics bridge over the Siversky Donets near Stanytsia Luhanska and damaged a Russian repair base in Kursk region.",
   "key_points": [
-    "Russia conducted a coordinated overnight strike using Geran-5 rockets, reactive Shaheds, and Banderoil cruise missiles against at least ten Ukrainian oblasts. (Source: @mon1tor_ua/78423)",
-    "Ukrainian forces struck the Crimean Bridge railway section with at least two hits, per local Crimean Wind channel, while road spans remain destroyed. (Source: @eRadarrua/131651)",
-    "Ukrainian drones hit the Ilsky and Afipsky refineries in Krasnodar Krai, causing intense explosions; Reuters reports 15 of 35 major Russian refineries damaged in November, cutting refining by 45%. (Source: @UkraineNow/85369, @UkraineNow/85384)",
-    "Russian missiles struck Naftogaz facilities in Dnipropetrovsk and Poltava oblasts; damage assessment ongoing. (Source: @UkraineNow/85382)",
-    "Russian attacks on Odesa's historic center killed four and injured nine civilians in three strikes on the same day. (Source: @UkraineNow/85374)",
-    "Poland thwarted a Russian diversion plot from Kaliningrad Oblast intended to attack Russian territory and frame Ukraine. (Source: @UkraineNow/85373)",
-    "DeepState map confirms Russian tactical advance near Rai-Oleksandrivka in Donetsk Oblast. (Source: @DeepStateUA/24013)",
-    "Next prisoner exchange to involve 1,000+ persons prioritizing seriously ill, women, and longest-held captives. (Source: @UkraineNow/85381)"
+    "Russia preparing massive missile strike with 6 Tu-95MS and 2 Tu-160 bombers, up to 45 Kh-101 missiles, plus Iskander, Zircon, KN-23, Kalibr from multiple regions within 48 hours. (Source: @eRadarrua/131698)",
+    "Ukrainian air defenses tracking multiple Shahed/Geran-5 drone waves across Chernihiv, Kyiv, Zhytomyr, Dnipropetrovsk, Zaporizhzhia, Poltava, Vinnytsia, Cherkasy, Odesa regions. (Source: @kpszsu/97361, @mon1tor_ua/78428)",
+    "Ukrainian forces destroyed bridge over Siversky Donets near Stanytsia Luhanska used for Russian logistics and damaged three Russian aircraft and a repair base in Kursk region. (Source: @UkraineNow/85375)",
+    "Russian forces advanced near Rai-Oleksandrivka on eastern front. (Source: @DeepStateUA/24013)",
+    "Russian attacks on Odesa historic center killed four civilians and injured nine. (Source: @UkraineNow/85374)",
+    "Fifteen of 35 major Russian refineries damaged or halted in November, reducing oil refining by 45% per Reuters. (Source: @UkraineNow/85384)",
+    "EU preparing 45 billion euro loan for Ukraine in 2027: 20 billion for budget, 25 billion for military aid, repayment after reparations. (Source: @UkraineNow/85376)",
+    "Ukraine's DOT-Chain Defence system procured 1.5 million drones from 300 producers with average 9-day delivery, studied by NATO countries. (Source: @UkraineNow/85395)"
   ],
-  "sentiment": "active",
-  "intensity": 8,
+  "sentiment": "escalating",
+  "intensity": 9,
   "sections": {
-    "executive_summary": "Russia launched a massive overnight drone and missile barrage across Ukraine employing Geran-5 rockets, reactive Shaheds, and Banderoil cruise missiles targeting at least ten oblasts including Kyiv, Vinnytsia, and Dnipropetrovsk. Ukrainian forces struck the Crimean Bridge railway section with at least two hits and attacked the Ilsky and Afipsky refineries in Krasnodar Krai, contributing to a reported 45% drop in Russian refining capacity. Russian strikes hit Naftogaz facilities in Dnipropetrovsk and Poltava oblasts and killed four civilians in Odesa.",
+    "executive_summary": "Russian forces are finalizing preparations for a massive missile strike on Ukraine within 48 hours involving up to 45 Kh-101 cruise missiles from strategic bombers plus ballistic missiles from multiple axes targeting energy and logistics infrastructure. Simultaneously, waves of Shahed/Geran-5 drones penetrated at least nine Ukrainian oblasts on November 19, triggering repeated air raid alerts in Kyiv with impacts reported in Vyshhorod and Darnytsia. Ukrainian forces struck a key logistics bridge over the Siversky Donets near Stanytsia Luhanska and damaged a Russian repair base in Kursk region.",
     "ukraine": {
       "points": [
-        "Ukrainian forces conducted strikes on the Crimean Bridge railway section, with at least two hits reported by the Crimean Wind channel, while automobile spans and arches were previously destroyed. (Source: @UkraineNow/85370, @eRadarrua/131651)",
-        "Ukrainian drones attacked the Ilsky and Afipsky oil refineries in Krasnodar Krai overnight, with explosions heard every 30 seconds in Krasnodar; both are among the largest refineries in the region. (Source: @UkraineNow/85369)",
-        "Ukrainian forces destroyed a road bridge over the Siversky Donets near Stanytsia Luhanska used by Russians for ammunition, fuel, and equipment transport, and struck a repair base in Kursk Oblast. (Source: @UkraineNow/85375)",
-        "Ukraine's allies announced new military aid packages at the Ramstein meeting, with 15 countries contributing to the PURL fund, fighter jet supplies, and air defense strengthening. (Source: @UkraineNow/85371)",
-        "The next prisoner exchange will involve over 1,000 persons, with priority given to the seriously ill, women, and those held longest in Russian captivity. (Source: @UkraineNow/85381)"
+        "Ukrainian forces struck a road bridge over the Siversky Donets River near Stanytsia Luhanska in Luhansk region, disrupting Russian ammunition, fuel, and equipment transport, and also hit a repair base in Russia's Kursk region, damaging three Russian aircraft. (Source: @UkraineNow/85375)",
+        "Ukraine's defense procurement agency DOT-Chain Defence has delivered 1.5 million drones to the military since launch, offering nearly 1,200 items from 300 domestic producers including FPV, bomber, interceptor drones, and electronic warfare systems with average 9-day delivery. (Source: @UkraineNow/85395)",
+        "The next prisoner exchange will involve over 1,000 personnel, prioritizing seriously ill, women, and those held longest in Russian captivity. (Source: @UkraineNow/85381)",
+        "Russian strikes on Naftogaz energy infrastructure in Dnipropetrovsk and Poltava regions are under assessment by specialists. (Source: @UkraineNow/85382)",
+        "Ukrainian air defense units engaged multiple Shahed/Geran-5 drones over Kyiv, Chernihiv, Zhytomyr, Dnipropetrovsk, Zaporizhzhia, Poltava, Vinnytsia, Cherkasy, and Odesa regions throughout the day. (Source: @kpszsu/97361, @mon1tor_ua/78428)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched a massive overnight barrage employing Geran-5 rockets, reactive Shahed drones, and Banderoil cruise missiles targeting Kyiv, Vinnytsia, Dnipropetrovsk, Kharkiv, Poltava, Zhytomyr, Chernihiv, and Odesa regions. (Source: @mon1tor_ua/78423)",
-        "Russian strikes hit Naftogaz energy infrastructure facilities in Dnipropetrovsk and Poltava oblasts; specialists are assessing consequences. (Source: @UkraineNow/85382)",
-        "Russian forces attacked the historic center of Odesa three times on the same day, killing four civilians and injuring nine per the Odesa OVA. (Source: @UkraineNow/85374)",
-        "Russian intelligence planned a large-scale diversion operation across the Polish border from Kaliningrad Oblast, intending to attack a target in Russia and plant false evidence of Ukrainian involvement; Polish services thwarted the plot. (Source: @UkraineNow/85373)",
-        "Russian reactive UAVs (БпЛА) were tracked in multiple directions: from Crimea toward Odesa, from Bryansk toward Chernihiv, from Kursk toward Sumy, and across central and eastern Ukraine. (Source: @eRadarrua/131640, @eRadarrua/131637, @kpszsu/97271)"
+        "Russian strategic aviation has redeployed six Tu-95MS bombers from Ukrainka airfield to Olenya and Engels airbases, with some already armed with Kh-101 missiles, and two Tu-160 bombers in the Far East will join a massive strike expected within 48 hours. (Source: @eRadarrua/131698)",
+        "The planned Russian missile barrage may include up to 45 Kh-101 cruise missiles, Iskander-M and S-400 ballistic missiles from Bryansk, Zircon/Onyx-M from Kursk and Rostov (Millerovo), KN-23 from Voronezh, and Kalibr missiles from Black and Caspian seas. (Source: @eRadarrua/131698)",
+        "Russian forces launched guided aerial bombs from tactical aviation against Zaporizhzhia region. (Source: @kpszsu/97367)",
+        "Russian attacks on the historic center of Odesa on November 19 killed four civilians and injured nine, marking the third strike on the area that day. (Source: @UkraineNow/85374)",
+        "Fifteen of Russia's 35 large oil refineries were damaged or forced to halt operations in November due to Ukrainian drone attacks, cutting national oil refining throughput by approximately 45 percent according to Reuters. (Source: @UkraineNow/85384)",
+        "Western intelligence assesses Putin intends to continue the war at least through winter, seeking territorial gains in eastern Ukraine while using winter strikes to degrade Ukrainian infrastructure and betting on reduced European support after 2027 elections. (Source: @UkraineNow/85377)"
       ]
     },
     "eastern_front": {
       "points": [
-        "DeepState map update indicates Russian forces advanced near the settlement of Rai-Oleksandrivka in Donetsk Oblast. (Source: @DeepStateUA/24013)",
-        "Russian KAB guided bombs were employed against Donetsk Oblast positions per monitoring channels. (Source: @kpszsu/97291)",
-        "Reactive UAVs were observed in the direction of Zaporizhzhia from the south and toward Kropyvnytskyi from the east. (Source: @kpszsu/97290, @kpszsu/97291)",
-        "Banderoil cruise missiles struck targets in Dnipropetrovsk Oblast, including Pavlohrad and Dnipro, launched from Zaporizhzhia and Dnipropetrovsk directions. (Source: @mon1tor_ua/78423)"
+        "Russian forces advanced near Rai-Oleksandrivka in Donetsk region per frontline mapping updates. (Source: @DeepStateUA/24013)",
+        "Ukrainian forces destroyed a key logistics bridge over the Siversky Donets River near Stanytsia Luhanska in Luhansk region, disrupting Russian supply lines. (Source: @UkraineNow/85375)",
+        "Russian tactical aviation employed guided aerial bombs against targets in Zaporizhzhia region, indicating continued pressure on the southern flank of the eastern front. (Source: @kpszsu/97367)",
+        "Russian missile and drone strikes targeted energy infrastructure in Dnipropetrovsk and Poltava regions, hitting Naftogaz facilities. (Source: @UkraineNow/85382)"
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple reactive UAVs entered Chernihiv Oblast from Bryansk Oblast (Russia), passing near Berezna, Olyshivka, Honcharivske, and moving south toward Kyiv Oblast. (Source: @kpszsu/97271, @kpszsu/97273, @eRadarrua/131637)",
-        "Geran-5 rockets launched from Chernihiv Oblast toward Kyiv Oblast's Vyshhorod and Boryspil districts; reactive Shaheds from Cherkasy toward Kyiv's Bila Tserkva district. (Source: @mon1tor_ua/78423, @mon1tor_ua/78428)",
-        "Russian UAVs tracked near the Chornobyl Exclusion Zone moving westward across Kyiv Oblast. (Source: @kpszsu/97275)",
-        "Air defense activity reported in Kyiv, Vyshhorod, and surrounding districts with multiple Geran-5 impacts observed. (Source: @mon1tor_ua/78432, @mon1tor_ua/78433, @mon1tor_ua/78434)"
+        "Multiple Shahed/Geran-5 drones entered Kyiv region from Chernihiv region via Horodnia, Ripky, Honcharivske, and Slavutych, heading toward Kyiv and Boryspil districts. (Source: @kpszsu/97361, @eRadarrua/131705)",
+        "Russian strategic bombers redeployed from Ukrainka (Amur region) to Olenya (Murmansk) and Engels (Saratov) airbases, positioning for missile launches against northern and central Ukraine. (Source: @eRadarrua/131698)",
+        "Ballistic missile threats from Bryansk (Iskander-M/S-400), Voronezh (KN-23), and Kursk (Zircon/Onyx-M) regions directly threaten Kyiv and Poltava regions. (Source: @eRadarrua/131698)",
+        "Air raid alerts sounded repeatedly in Kyiv throughout November 19 as drones approached from Chernihiv, Cherkasy, and southern directions. (Source: @eRadarrua/131700, @eRadarrua/131707, @eRadarrua/131717)"
       ]
     },
     "southern_front": {
       "points": [
-        "The Crimean Bridge railway section sustained at least two hits during a repeated attack; automobile spans and arches were previously destroyed. (Source: @UkraineNow/85370, @eRadarrua/131651, @mon1tor_ua/78431)",
-        "Russian forces launched three attacks on Odesa's historic center in one day, resulting in four dead and nine injured civilians. (Source: @UkraineNow/85374)",
-        "Approximately seven UAVs were observed loitering over the Black Sea waters near Crimea. (Source: @eRadarrua/131683)",
-        "Reactive UAVs from Crimea headed toward Odesa Oblast; additional UAVs tracked near Mykolaiv (Snigurivka) and Kherson direction. (Source: @eRadarrua/131640, @eRadarrua/131682)"
+        "Russian forces launched three strikes on Odesa's historic center on November 19, killing four civilians and injuring nine. (Source: @UkraineNow/85374)",
+        "Shahed/Geran-5 drones launched from the Black Sea targeted Odesa region, specifically Zatoka area, and from occupied Zaporizhzhia toward occupied Kherson. (Source: @kpszsu/97378, @mon1tor_ua/78428)",
+        "Ukrainian drones attacked the Crimean Bridge again, continuing pressure on Russian logistics across the Kerch Strait. (Source: @mon1tor_ua/78431)",
+        "Russian guided aerial bombs struck Zaporizhzhia region from tactical aviation. (Source: @kpszsu/97367)",
+        "Ukrainian strikes damaged a Russian repair base in Kursk region, extending reach into Russian rear areas. (Source: @UkraineNow/85375)"
       ]
     },
     "air_war": {
       "points": [
-        "Overnight mass attack: at least 10 Geran-5 rockets, 8 reactive Shahed drones, and 4 Banderoil cruise missiles launched across Ukraine per monitoring data. (Source: @mon1tor_ua/78423)",
-        "Geran-5 rockets targeted Kyiv/Vyshhorod, Zhytomyr (Korosten), Chernihiv to Kyiv, Kharkiv to Poltava; reactive Shaheds from Cherkasy to Vinnytsia (Haisyn), Kirovohrad to Vinnytsia, Crimea to Odesa, Cherkasy to Kyiv (Boryspil, Bila Tserkva). (Source: @mon1tor_ua/78423, @mon1tor_ua/78428)",
-        "Banderoil cruise missiles struck Pavlohrad, Dnipro, and Lozova (Kharkiv) launched from Zaporizhzhia and Dnipropetrovsk areas. (Source: @mon1tor_ua/78423)",
-        "Reactive UAVs (БпЛА) detected in multiple vectors: from Crimea to Odesa, Bryansk to Chernihiv, Kursk to Sumy, Poltava to Cherkasy, Kirovohrad to Cherkasy and Vinnytsia, Kharkiv westward, Zaporizhzhia southward. (Source: @kpszsu/97269, @kpszsu/97270, @kpszsu/97272, @kpszsu/97274, @kpszsu/97276, @kpszsu/97277, @kpszsu/97278, @kpszsu/97279, @kpszsu/97281, @kpszsu/97290, @kpszsu/97291, @kpszsu/97292, @kpszsu/97293, @kpszsu/97294, @kpszsu/97296, @kpszsu/97298, @kpszsu/97300, @kpszsu/97301, @kpszsu/97304, @kpszsu/97305, @kpszsu/97306, @eRadarrua/131637, @eRadarrua/131640, @eRadarrua/131645, @eRadarrua/131654, @eRadarrua/131656, @eRadarrua/131659, @eRadarrua/131663, @eRadarrua/131665, @eRadarrua/131679, @eRadarrua/131682, @eRadarrua/131683)",
-        "Ukrainian air defense engaged targets over Kyiv, Vyshhorod, and other regions; air raid alerts sounded in multiple oblasts. (Source: @mon1tor_ua/78425, @mon1tor_ua/78427, @mon1tor_ua/78429, @mon1tor_ua/78432, @eRadarrua/131675, @eRadarrua/131681)"
+        "Russia is finalizing a massive combined missile strike involving up to 45 Kh-101 cruise missiles from 6 Tu-95MS and 2 Tu-160 strategic bombers, supplemented by Iskander-M, S-400, Zircon/Onyx-M, KN-23 ballistic missiles, and Kalibr sea-launched missiles, expected within 48 hours. (Source: @eRadarrua/131698)",
+        "Primary targets include energy and logistics infrastructure in western Ukraine (likely Burs"
       ]
-    },
-    "key_developments": [
-      "Russia conducted a coordinated overnight strike"
-    ]
+    }
   },
   "missiles": 0,
-  "drones": 141,
+  "drones": 98,
   "kpszsu_timeline": [
-    1,
     6,
-    10,
-    0,
+    6,
     5,
-    11,
-    8,
+    5,
+    6,
+    3,
+    3,
+    6,
+    3,
+    0,
     2,
-    10,
+    5,
+    7,
+    4,
+    6,
+    6,
+    7,
+    8,
     3,
     4,
-    7,
-    5,
-    2,
-    6,
+    4,
     3,
-    2,
-    1,
-    2,
-    9,
-    7,
-    2,
-    6,
-    7
+    8,
+    6
   ]
 }
