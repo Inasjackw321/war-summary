@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-20T12:50:36.089818+00:00",
-  "message_count": 498,
+  "updated_at": "2026-11-20T13:55:01.555444+00:00",
+  "message_count": 497,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -25,55 +25,55 @@
     0,
     0,
     0,
+    50,
+    101,
+    50,
+    50,
     0,
-    58,
-    115,
     0,
-    115,
+    50,
+    50,
     0,
-    0,
-    58,
-    58,
-    0
+    50
   ],
   "combined_activity_timeline": [
+    6,
+    6,
+    4,
     3,
     8,
-    5,
-    5,
     3,
-    8,
-    0,
-    10,
+    7,
     4,
     2,
+    4,
+    24,
+    38,
+    52,
+    28,
+    62,
+    106,
+    21,
+    28,
+    27,
     3,
-    34,
-    36,
-    54,
-    29,
-    58,
-    105,
-    26,
-    25,
-    30,
-    5,
     14,
     16,
-    15
+    16,
+    10
   ],
   "messages_by_channel": {
-    "@eRadarrua": 96,
-    "@kpszsu": 155,
+    "@eRadarrua": 97,
+    "@kpszsu": 151,
     "@mon1tor_ua": 221,
-    "@UkraineNow": 23,
+    "@UkraineNow": 25,
     "@DeepStateUA": 3
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/132335",
-    "kpszsu": "https://t.me/kpszsu/97764",
+    "eRadarrua": "https://t.me/eRadarrua/132342",
+    "kpszsu": "https://t.me/kpszsu/97776",
     "mon1tor_ua": "https://t.me/mon1tor_ua/78689",
-    "UkraineNow": "https://t.me/UkraineNow/85431",
+    "UkraineNow": "https://t.me/UkraineNow/85433",
     "DeepStateUA": "https://t.me/DeepStateUA/24016"
   },
   "cited_post_urls": {
@@ -84,6 +84,18 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/78670"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/85433",
+      "post_id": 85433,
+      "channel": "UkraineNow",
+      "ts": "2026-11-20T13:22:31+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85432",
+      "post_id": 85432,
+      "channel": "UkraineNow",
+      "ts": "2026-11-20T13:02:40+00:00"
+    },
     {
       "post_url": "https://t.me/eRadarrua/132335",
       "post_id": 132335,
@@ -213,20 +225,6 @@
       "post_id": 78668,
       "channel": "mon1tor_ua",
       "ts": "2026-11-20T07:00:08+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132272",
-      "post_id": 132272,
-      "channel": "eRadarrua",
-      "ts": "2026-11-20T06:59:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/QgtY8G1NEGLs6rooxBJWTkuP4dpP_lRnosOgtjD1WX4Vh70F3eI0kQX7582HAc4giDomHsoIkxIRJ4U-BjTGcdSujh-dgw2U0MTkZHmdEDSD5Li7Ufpzh5n4LQwBuujMoQy8mKQPjzpEdPcgJoQEia4bIXpeQQ4fJ7umHxL39ho7E8qWshGYHF2Rogu9yE4-87EdZK5wdUIeXnvpRs_stjMnNQBRd1V1e9vPRqAmbFI72aEZKxmDZGk3p8cDkezOvfqlgnFKkvNB_1Nvz4U9L1r3MHlRkPnZBkgZ8yoJn2xqFKZ3iaV-Q1QwRs9g31wexLbwXJMqOUqNK10F90dSvg.jpg",
-      "companion_text_id": 132271
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85417",
-      "post_id": 85417,
-      "channel": "UkraineNow",
-      "ts": "2026-11-20T06:09:42+00:00"
     }
   ],
   "post_images": {
@@ -240,12 +238,12 @@
     "eRadarrua/132332": "data/media/eRadarrua_132332.jpg",
     "eRadarrua/132335": "data/media/eRadarrua_132335.jpg",
     "eRadarrua/132334": "data/media/eRadarrua_132335.jpg",
-    "eRadarrua/132276": "data/media/eRadarrua_132276.jpg",
-    "eRadarrua/132274": "data/media/eRadarrua_132276.jpg",
     "eRadarrua/132272": "data/media/eRadarrua_132272.jpg",
     "eRadarrua/132271": "data/media/eRadarrua_132272.jpg",
     "eRadarrua/132273": "data/media/eRadarrua_132273.jpg",
     "eRadarrua/132275": "data/media/eRadarrua_132275.jpg",
+    "eRadarrua/132274": "data/media/eRadarrua_132275.jpg",
+    "eRadarrua/132276": "data/media/eRadarrua_132276.jpg",
     "eRadarrua/132151": "data/media/eRadarrua_132151.jpg",
     "eRadarrua/132149": "data/media/eRadarrua_132151.jpg",
     "kpszsu/97713": "data/media/kpszsu_97713.jpg",
@@ -315,6 +313,7 @@
       ]
     }
   },
+  "stale_summary": true,
   "missiles": 79,
   "drones": 404,
   "kpszsu_timeline": [
@@ -329,18 +328,18 @@
     0,
     0,
     0,
-    7,
-    15,
-    18,
     16,
+    16,
+    16,
+    25,
     24,
-    24,
-    5,
+    4,
     6,
-    7,
+    6,
     2,
     9,
     10,
-    12
+    12,
+    5
   ]
 }
