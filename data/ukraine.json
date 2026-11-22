@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-22T16:57:30.057018+00:00",
-  "message_count": 238,
+  "updated_at": "2026-11-22T17:57:30.246640+00:00",
+  "message_count": 240,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -11,69 +11,69 @@
   ],
   "red_alerts": 186,
   "red_alerts_timeline": [
-    0,
-    16,
-    0,
-    0,
-    16,
-    16,
-    16,
+    14,
     0,
     0,
-    16,
+    14,
+    14,
+    14,
     0,
+    0,
+    14,
     0,
     0,
     0,
     0,
-    16,
+    0,
+    14,
     0,
     0,
     0,
-    31,
+    29,
     0,
-    31,
+    29,
     0,
-    31
+    29,
+    14
   ],
   "combined_activity_timeline": [
-    2,
     12,
     2,
     6,
     2,
     2,
     8,
-    5,
-    9,
+    3,
+    6,
     7,
     6,
-    3,
-    8,
-    10,
     4,
+    7,
     10,
-    15,
-    12,
+    5,
+    8,
+    17,
+    10,
     19,
     15,
-    25,
-    25,
+    24,
+    26,
     22,
-    9
+    10,
+    8
   ],
   "messages_by_channel": {
-    "@eRadarrua": 78,
-    "@kpszsu": 139,
+    "@eRadarrua": 80,
+    "@kpszsu": 138,
     "@mon1tor_ua": 8,
-    "@UkraineNow": 12,
+    "@UkraineNow": 13,
     "@DeepStateUA": 1
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/132682",
-    "kpszsu": "https://t.me/kpszsu/98526",
+    "eRadarrua": "https://t.me/eRadarrua/132687",
+    "kpszsu": "https://t.me/kpszsu/98533",
     "mon1tor_ua": "https://t.me/mon1tor_ua/78726",
-    "UkraineNow": "https://t.me/UkraineNow/85464",
+    "UkraineNow": "https://t.me/UkraineNow/85465",
     "DeepStateUA": "https://t.me/DeepStateUA/24018"
   },
   "cited_post_urls": {
@@ -84,6 +84,28 @@
     "kpszsu": "https://t.me/kpszsu/98504"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/85465",
+      "post_id": 85465,
+      "channel": "UkraineNow",
+      "ts": "2026-11-22T17:02:35+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/132684",
+      "post_id": 132684,
+      "channel": "eRadarrua",
+      "ts": "2026-11-22T17:02:05+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/nl1lv9eewmHM1UmmLxSRLWSwKYfKMEFFvnTXQh99BSczfg1p8KcJLXux4Ggmi5GUs-x_YDei6gD0gMQsQV0z0sdXqgJbS3y9CHr0VMg5ksQkRU5PYOYUPAI5_OAzBAbmngd0YzqtEqBRiYL7vM4veh6SC_JdfxvP4lTHljcKlCDQLoDcBVSjq1BTJpZoQ7F212CnIKKPZw7_e-VaJT7vdiq0xSScnRA8pThs2pNRQ1aFliD3UrpFMW39BJorb3Z8CaYwlAtEJBE0uNGcjaKDR9RD2oqarjD1H1Ii2ykciNH0lD-0N6WQ1ZXBaONpLh2Qhn121owNn7RF9IXiNgjkUA.jpg",
+      "companion_text_id": 132685
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/132683",
+      "post_id": 132683,
+      "channel": "eRadarrua",
+      "ts": "2026-11-22T16:57:19+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/Qe05bkVU7LfgEuAAi7Eu6bToVTqY8w5dVnBWsDGbfjxtF-3OTOPNwmmvxA-Ikbuq3sGkr4F2juWmnBfeMKLjinWNuqibvYmBHclc_2rx3heDari5bO2PqaDfw2FCQaV0kAEpkvro0uoEYf5FI9cbHbaEQ0iwO1tKKfOTxsz-oROpxlXlasaBrA-GMyOeHX7E4gPNX0oKqdDccmoH6DvLk_DCb-297zOJdoO6qILSfxasx1y8w8vf7IvpZ9MbyPrZzlq5pyFXVm7ckBEpbFhss8w3_PjmxEHNFXZOpFCOX8e8BuiEUOKu-VjwIW4_jqyMTGojAXJCZtKHUEGJb2CmZw.jpg",
+      "companion_text_id": 132682
+    },
     {
       "post_url": "https://t.me/eRadarrua/132680",
       "post_id": 132680,
@@ -163,22 +185,6 @@
       "companion_text_id": 132626
     },
     {
-      "post_url": "https://t.me/eRadarrua/132624",
-      "post_id": 132624,
-      "channel": "eRadarrua",
-      "ts": "2026-11-22T12:55:07+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/esR4nYdkVPFxDX9eGzGDoAQNe0L0g9D__jkgBXdXqFHW9qw2xHRF3UZhNpS3ukENIZ5cS60m7krRSZEgX69boDmh0l-0B7SNFSeBUpBpsjGb1WTZn75VkS81B8Tjq_CR_UL53FVWd8ZRyV1JHl5BiFCl4n9AILLohxbdOG_mP1qVzBt1n86kmdR_119etFz-rXMZLjwPgSWUKCGRch43lnDt-AQfF504QZ5RRWkowJdz2duiPrK3DU6iH8JGldPo5RlK9jhcEszz5EmPmNTkq6LKZ8fK-NqEfqU1DaMIwnJyy1APbLjFqy900pSGEI9Y_ljRusNSm8QyTlpTfXL_yw.jpg",
-      "companion_text_id": 132623
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132623",
-      "post_id": 132623,
-      "channel": "eRadarrua",
-      "ts": "2026-11-22T12:53:55+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/D3UfhI_xI8cWmv7fs8pfxOuHtuxVpq4QrH1eXDQlPN32o3XAF0DV0ti5hm83wQ4x4vSEy7SN7uyBAxURDkUW9yvh_UiWUX5hn9_K9ETMcGyDtR4KV-fXtA-fw1l35pLuoDVu_z-gt0GNSZ0Jc8RcRYa891Zd_U2mTmB5347US8IkwNnfSmSrhxl7cOwAnJ4_M-gyFKLcDooUY75kZXriXISpEvYSuslR-RfciLYttbVXX2uD4OpfQuR_tZOt75Fgn0wmgAQoHE1ge1P4DzASum9ejSxsmGnKK2nEvVC1CA51EUUvN491sAz5_S-my3bjV2dHfTFWXwrQxzMeSHLonw.jpg",
-      "companion_text_id": 132622
-    },
-    {
       "post_url": "https://t.me/eRadarrua/132619",
       "post_id": 132619,
       "channel": "eRadarrua",
@@ -228,28 +234,23 @@
       "channel": "kpszsu",
       "ts": "2026-11-22T06:00:36+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/nnmsWIpOyE-OYph2la_MnfuCvZXvQOIBd72VdZsDPKGV87iDIR9cIQz3f98b8X3RW1KYNxpS69zFPAyWtaMq4rnsoWebwYaBfCfBWnPMs8JGXxeMyqVJsH_H5otgI09NyEPzKG35O7701z-VAEJrul16kkeAerfcKnpaEswxzQOnGgcVOw7iWXwrLSvsC0tpQN36Bwcs0vHQqmvYpaxDCXHMk9AVL_djpgo9UQ1GWttyphxbUxmWQpMuCn280jVGsbomdXumZD9_DjXtrvTglzn3XPv9VFyB5gUVFX4j3_53aIRABgoTPTI-7HO_PUB_AuxFi925Mmm1-LgEqs-dpg.jpg",
-      "companion_text_id": 98360
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85455",
-      "post_id": 85455,
-      "channel": "UkraineNow",
-      "ts": "2026-11-21T21:09:30+00:00"
+      "companion_text_id": 98363
     }
   ],
   "post_images": {
-    "eRadarrua/132667": "data/media/eRadarrua_132667.jpg",
-    "eRadarrua/132668": "data/media/eRadarrua_132667.jpg",
     "eRadarrua/132677": "data/media/eRadarrua_132677.jpg",
     "eRadarrua/132676": "data/media/eRadarrua_132677.jpg",
     "eRadarrua/132680": "data/media/eRadarrua_132680.jpg",
     "eRadarrua/132679": "data/media/eRadarrua_132680.jpg",
-    "eRadarrua/132647": "data/media/eRadarrua_132647.jpg",
+    "eRadarrua/132683": "data/media/eRadarrua_132683.jpg",
+    "eRadarrua/132682": "data/media/eRadarrua_132683.jpg",
+    "eRadarrua/132684": "data/media/eRadarrua_132684.jpg",
+    "eRadarrua/132685": "data/media/eRadarrua_132684.jpg",
     "eRadarrua/132648": "data/media/eRadarrua_132648.jpg",
+    "eRadarrua/132647": "data/media/eRadarrua_132647.jpg",
     "eRadarrua/132649": "data/media/eRadarrua_132649.jpg",
-    "eRadarrua/132623": "data/media/eRadarrua_132623.jpg",
-    "eRadarrua/132622": "data/media/eRadarrua_132623.jpg",
-    "eRadarrua/132624": "data/media/eRadarrua_132624.jpg",
+    "eRadarrua/132667": "data/media/eRadarrua_132667.jpg",
+    "eRadarrua/132668": "data/media/eRadarrua_132667.jpg",
     "eRadarrua/132628": "data/media/eRadarrua_132628.jpg",
     "eRadarrua/132626": "data/media/eRadarrua_132628.jpg",
     "eRadarrua/132638": "data/media/eRadarrua_132638.jpg",
@@ -263,7 +264,7 @@
     "eRadarrua/132618": "data/media/eRadarrua_132618.jpg",
     "eRadarrua/132619": "data/media/eRadarrua_132619.jpg",
     "kpszsu/98362": "data/media/kpszsu_98362.jpg",
-    "kpszsu/98360": "data/media/kpszsu_98362.jpg"
+    "kpszsu/98363": "data/media/kpszsu_98362.jpg"
   },
   "summary": "Russian forces launched a large-scale drone attack across Ukraine with over 30 Shahed/Geran-5 and reactive UAVs targeting Kyiv, Chernihiv, Zhytomyr, Vinnytsia, Cherkasy, Poltava, Dnipropetrovsk, and other regions, striking a shopping center in Vyshneve. Ukrainian air defenses engaged multiple groups launched from Kursk, Shatalovo, Orel, Millerovo, and Gvardeyskoye. Meanwhile, Russian troops advanced near Novomarkove and Mykolaivka in Donetsk Oblast.",
   "key_points": [
@@ -349,6 +350,7 @@
     "regional_response": "Slovakia's Fico explicitly rejects new EU macro-financial assistance for Ukraine, linking it to budget negotiations and questioning Ukraine's repayment capacity. Czech PM Babiš threatens veto on €100B EU support package. Conversely, UK deepens defense industrial cooperation with Ukraine via joint drone production. NATO Secretary General Rutte reaffirmed Article 5 commitment to Poland after Russian missile airspace violations. Visegrád Four plus Austria meeting Monday will test regional unity on Ukraine support.",
     "intelligence_notes": "Drone launch pattern shows diversification: Kursk (primary), Shatalovo (strategic bombers base), Orel, Millerovo, Gvardeyskoye (Crimea) — indicating full western military district involvement. Reactive UAVs flying at 4000m/555 km/h suggest improved performance. Targeting of commercial infrastructure (TC Novus) marks shift to economic terror. DeepState map updates confirm incremental Russian gains in Donetsk sector. Baltiysk incident, if confirmed, would represent significant Ukrainian reach to Baltic Fleet headquarters."
   },
+  "stale_summary": true,
   "missiles": 0,
   "drones": 186,
   "kpszsu_timeline": [
@@ -359,22 +361,22 @@
     0,
     0,
     0,
-    2,
-    9,
     6,
     6,
-    3,
-    8,
-    9,
-    3,
     6,
+    4,
+    7,
     9,
-    9,
+    4,
+    4,
     11,
-    10,
-    17,
+    7,
+    11,
+    9,
+    16,
+    15,
     13,
-    13,
-    5
+    6,
+    4
   ]
 }
