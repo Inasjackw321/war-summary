@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-23T03:08:34.933998+00:00",
-  "message_count": 245,
+  "updated_at": "2026-11-23T06:52:23.462266+00:00",
+  "message_count": 254,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -9,72 +9,72 @@
     "UkraineNow",
     "DeepStateUA"
   ],
-  "red_alerts": 186,
+  "red_alerts": 153,
   "red_alerts_timeline": [
     0,
+    12,
     0,
     0,
     0,
+    24,
     0,
-    14,
+    24,
+    0,
+    24,
+    12,
+    0,
+    12,
+    12,
+    0,
+    24,
+    12,
     0,
     0,
     0,
-    29,
-    14,
-    14,
-    14,
-    29,
-    0,
-    14,
-    0,
-    14,
-    0,
-    43,
     0,
     0,
     0,
     0
   ],
   "combined_activity_timeline": [
-    0,
-    0,
-    2,
+    1,
+    9,
+    14,
+    6,
+    19,
+    14,
+    23,
+    31,
+    20,
     11,
+    8,
+    8,
+    8,
+    10,
+    4,
+    4,
+    9,
+    5,
+    16,
+    9,
+    3,
     4,
     12,
-    11,
-    13,
-    15,
-    19,
-    31,
-    17,
-    20,
-    13,
-    7,
-    9,
-    7,
-    8,
-    3,
-    9,
-    6,
-    4,
-    21,
-    3
+    6
   ],
   "messages_by_channel": {
-    "@eRadarrua": 70,
-    "@kpszsu": 152,
-    "@mon1tor_ua": 6,
-    "@UkraineNow": 15,
-    "@DeepStateUA": 2
+    "@eRadarrua": 73,
+    "@kpszsu": 149,
+    "@mon1tor_ua": 11,
+    "@UkraineNow": 17,
+    "@DeepStateUA": 4
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/132712",
-    "kpszsu": "https://t.me/kpszsu/98599",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/78729",
-    "UkraineNow": "https://t.me/UkraineNow/85471",
-    "DeepStateUA": "https://t.me/DeepStateUA/24020"
+    "eRadarrua": "https://t.me/eRadarrua/132729",
+    "kpszsu": "https://t.me/kpszsu/98628",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/78734",
+    "UkraineNow": "https://t.me/UkraineNow/85474",
+    "DeepStateUA": "https://t.me/DeepStateUA/24022"
   },
   "cited_post_urls": {
     "eRadarrua": "https://t.me/eRadarrua/132685",
@@ -84,6 +84,32 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/78725"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/85474",
+      "post_id": 85474,
+      "channel": "UkraineNow",
+      "ts": "2026-11-23T06:38:15+00:00"
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85473",
+      "post_id": 85473,
+      "channel": "UkraineNow",
+      "ts": "2026-11-23T06:06:00+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/98624",
+      "post_id": 98624,
+      "channel": "kpszsu",
+      "ts": "2026-11-23T06:02:02+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/t9jlAs2phNT202-kC-gsgjDCFN1bwAzBy0yp6mV1QPDVJUU4tOonuWuW4uPQqTFvnY5GzxSO2TxSf5L3YKzwy7qV-BU4DJjo9dRKi6X-0EUB64EXsCCn3RsYAm3_OVLOGMWMca7773BhItuthNtGl6FEntXvPnNyIpkDjw1deRwmvuQ1_QSbbOwJ_-q0iFMpsOE28RjBLjW6PnEs7i589Pd_p7O23CU_dyH0vrDebWhLyQ1NiChT3nZUGpCMThpiFpuWsaN6sSAEwTm2quNxOoQSr8fQ6YXvniaICwkxpbxWIIeuGgegqKleGShWupEwv9KLKL1MqG3EiGvONNk_WA.jpg",
+      "companion_text_id": 98626
+    },
+    {
+      "post_url": "https://t.me/DeepStateUA/24022",
+      "post_id": 24022,
+      "channel": "DeepStateUA",
+      "ts": "2026-11-23T05:52:01+00:00"
+    },
     {
       "post_url": "https://t.me/DeepStateUA/24019",
       "post_id": 24019,
@@ -197,38 +223,6 @@
       "ts": "2026-11-22T14:04:06+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/PsmEV-ufsS9xAtPnc3ZZK_IV1boe_GC7tGFYLFDSPHmIxhAytMXTPqz744l6lcmh6PxbgwITZHo4ZEvUirr34oue97EJYXq9LAKioqwxH9Om_vvib_5vfdEi78jOH4QXFDmrPT_Pk7YlHw3QRJG3OyTGHLMy9YwWFaqk8a4rh2DVDsBHwUpWsL14jojmXYyqbWOt1i77bJH7c8Da_CLaGDvja32HFXshXJIbStt2DNyIlqSU159lvTkSEuSL3pv7MLWXlLR1I4hAPyQ7xacyhFuNR6OOyake6k898kfwp_7f9_nGe2Dn-pW4xi5yujxyU_tiHoJ1Ggb2QHm272GjLA.jpg",
       "companion_text_id": 132643
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132638",
-      "post_id": 132638,
-      "channel": "eRadarrua",
-      "ts": "2026-11-22T14:00:45+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/bsc20WVjK3ZN0jMw2jS65hcLivH9m5wDCU8XxU5dfDu0ldE12xJTjg6bPhs63Z0jBBPM2gmcQslWAT3xAS91smVh-BWr3l2d3L9i7zXtkLK-H_8pKBGi_MznJ1SGchhCNo0-n5FELgypEyLCAx-x04uA0v1aHVBLh7gVUT1EKjFTcrFqQkYe4NEBUSBt43g3MnW0VG-mBMWEJJKgLUabeINwze0sJxfSPwLfjxbHq4T_lRf9ooDdMEfaR9Z1msIN4EOd8Bs_rXlMrIyVLIlmGVwQSizSef19Ne0CMYbnoJ1YU5Kzv85M_U3X4WPIkBHgzuDOUXEpNV48HXYI3bgRDg.jpg",
-      "companion_text_id": 132639
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132623",
-      "post_id": 132623,
-      "channel": "eRadarrua",
-      "ts": "2026-11-22T12:53:55+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/D3UfhI_xI8cWmv7fs8pfxOuHtuxVpq4QrH1eXDQlPN32o3XAF0DV0ti5hm83wQ4x4vSEy7SN7uyBAxURDkUW9yvh_UiWUX5hn9_K9ETMcGyDtR4KV-fXtA-fw1l35pLuoDVu_z-gt0GNSZ0Jc8RcRYa891Zd_U2mTmB5347US8IkwNnfSmSrhxl7cOwAnJ4_M-gyFKLcDooUY75kZXriXISpEvYSuslR-RfciLYttbVXX2uD4OpfQuR_tZOt75Fgn0wmgAQoHE1ge1P4DzASum9ejSxsmGnKK2nEvVC1CA51EUUvN491sAz5_S-my3bjV2dHfTFWXwrQxzMeSHLonw.jpg",
-      "companion_text_id": 132622
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132619",
-      "post_id": 132619,
-      "channel": "eRadarrua",
-      "ts": "2026-11-22T12:13:44+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/FA0kUod8UKYMe2RkiEe08zL_3f_iinaUDil3eYap_t6SpNeeQosbo3N7Lgh46hn5VqNVPd2aayjE-Nw4R6J9hx6XMH7DwrkSoQTJMrDGgaWb_j3hOVPtUmtHBuSMdbGxNzjDXYEDRxmwGsndEhwso4QKVfZFWSnjeeTvPXJwF1TCg_QSI3h4xM_xKrkQr3RoFNIh_UFMjwzQ9kVOyPUC3Q4vf8I88fOdifvj1YilawM5WOUJu5D5s6LPXse4qGscLP1-tDVd3UiKR_g9ZlEEHRXV9ZOLPkhtr4Ej9xb8EZdf1mS8I4W_L8jX76Ch50Mfs3kJM09XyIK7MFVefIXmsw.jpg",
-      "companion_text_id": 132618
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132618",
-      "post_id": 132618,
-      "channel": "eRadarrua",
-      "ts": "2026-11-22T11:40:01+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/vWe3mbi-ITHw3N6PHeg4FSnD4198We2rENuVh5mQrGaF-j2tWR94kjEkOSW4ITWktQNSURc6uObfco7KObA6pb4HUX50qeeTZiZZVVvzLaGfqZXOq6yqwxF7OsUghsClKHog59X97HoXBiFLafxijYKTyfQy-6JEEx1svNfs6ZZMN2uK26TdzWIeuyrOk81bNOkq24n7ZidtEqiB5k6uls_7YUkFA6OnaJF3aRGtOFDrr-gPaNB9TIU3rWDb35WexX_9Flz7u7viluyvtPZzSkdD27sD82j9FRvoQWlyQih17BRHbFb5ivpOEXo5B2vWDBtpyUBuMT0rXt-WH1bo7A.jpg",
-      "companion_text_id": 132619
     }
   ],
   "post_images": {
@@ -257,8 +251,8 @@
     "eRadarrua/132619": "data/media/eRadarrua_132619.jpg",
     "eRadarrua/132623": "data/media/eRadarrua_132623.jpg",
     "eRadarrua/132622": "data/media/eRadarrua_132623.jpg",
-    "kpszsu/98362": "data/media/kpszsu_98362.jpg",
-    "kpszsu/98363": "data/media/kpszsu_98362.jpg"
+    "kpszsu/98624": "data/media/kpszsu_98624.jpg",
+    "kpszsu/98626": "data/media/kpszsu_98624.jpg"
   },
   "summary": "Russian forces launched a massive coordinated drone assault across Ukraine overnight, with over 30 Shahed and reactive UAV groups targeting Kyiv, Vinnytsia, Dnipropetrovsk, Kharkiv, Odesa, and other regions, resulting in a strike on the Novus shopping center in Vyshneve. Ukrainian air defenses engaged numerous targets, while search-and-rescue operations recovered a live child from Vyshneve rubble. On the ground, Ukrainian forces pushed back Russian troops near Ustynivka, though the enemy advanced near Verkhnya Tersa.",
   "key_points": [
@@ -344,31 +338,31 @@
   },
   "stale_summary": true,
   "missiles": 0,
-  "drones": 186,
+  "drones": 153,
   "kpszsu_timeline": [
     0,
-    0,
-    2,
-    9,
-    4,
-    8,
     5,
     8,
-    9,
-    12,
-    21,
+    5,
     9,
     10,
-    7,
-    5,
+    15,
+    18,
+    12,
+    6,
     4,
+    5,
     3,
+    4,
+    2,
+    2,
+    6,
+    4,
+    15,
     4,
     1,
-    5,
-    5,
-    3,
-    17,
-    1
+    4,
+    4,
+    3
   ]
 }
