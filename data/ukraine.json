@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-24T15:22:15.510235+00:00",
-  "message_count": 237,
+  "updated_at": "2026-11-24T17:21:49.550037+00:00",
+  "message_count": 234,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -12,11 +12,9 @@
   "red_alerts": 96,
   "red_alerts_timeline": [
     0,
-    0,
-    0,
-    16,
-    16,
-    16,
+    14,
+    14,
+    14,
     0,
     0,
     0,
@@ -25,27 +23,27 @@
     0,
     0,
     0,
-    16,
+    14,
     0,
     0,
-    16,
+    14,
     0,
     0,
     0,
     0,
-    16,
-    0
+    14,
+    0,
+    0,
+    14
   ],
   "combined_activity_timeline": [
-    8,
-    12,
     6,
     10,
-    14,
-    9,
+    13,
+    10,
     16,
-    10,
-    10,
+    8,
+    11,
     5,
     6,
     10,
@@ -53,37 +51,75 @@
     5,
     8,
     10,
-    19,
-    17,
-    9,
+    20,
     16,
+    9,
+    15,
     9,
     8,
     6,
-    5
+    6,
+    6,
+    11
   ],
   "messages_by_channel": {
-    "@eRadarrua": 66,
-    "@kpszsu": 126,
+    "@eRadarrua": 64,
+    "@kpszsu": 125,
     "@mon1tor_ua": 17,
     "@UkraineNow": 25,
     "@DeepStateUA": 3
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/133033",
-    "kpszsu": "https://t.me/kpszsu/98964",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/78754",
-    "UkraineNow": "https://t.me/UkraineNow/85520",
+    "eRadarrua": "https://t.me/eRadarrua/133047",
+    "kpszsu": "https://t.me/kpszsu/98970",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/78755",
+    "UkraineNow": "https://t.me/UkraineNow/85523",
     "DeepStateUA": "https://t.me/DeepStateUA/24025"
   },
   "cited_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/132685",
-    "UkraineNow": "https://t.me/UkraineNow/85466",
-    "DeepStateUA": "https://t.me/DeepStateUA/24020",
-    "kpszsu": "https://t.me/kpszsu/98530",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/78725"
+    "kpszsu": "https://t.me/kpszsu/98938",
+    "eRadarrua": "https://t.me/eRadarrua/133041",
+    "UkraineNow": "https://t.me/UkraineNow/85502",
+    "DeepStateUA": "https://t.me/DeepStateUA/24024",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/78738"
   },
   "media": [
+    {
+      "post_url": "https://t.me/UkraineNow/85523",
+      "post_id": 85523,
+      "channel": "UkraineNow",
+      "ts": "2026-11-24T17:12:31+00:00"
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/133040",
+      "post_id": 133040,
+      "channel": "eRadarrua",
+      "ts": "2026-11-24T16:47:50+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/AZyPMYc4CSzvNK_Qet7JkPkijeqFimEkHyAeAu12ssQMfVIEiS8MuHXAaQ2xYAYfA2MIKAIBTmeCjUB4NqEUPjXPcC0KM2noJhjnXyP8ovO_B9F9mnuNbQECh_9gTdfk58G2xzeRJxhJjPBgqDIoITDlZzAeXTSwgw-r5wIaqC_If1bZcJqi-9j3UBOb1RMr3NizRdtA7nEXJysXPQ6fwGpoGZrRmD0mfuhRh8LzxPL6WcIZEDc9J9F5euXZKp-BUKbv_Z1I0vB29oRDMUu-3eAvoENdzZCUGbQidCSkEH8sVptzYjvw8v2MKvSXA5EojXO9ufcuG8KbxlKQI7f4wg.jpg",
+      "companion_text_id": 133039
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/133039",
+      "post_id": 133039,
+      "channel": "eRadarrua",
+      "ts": "2026-11-24T16:43:42+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/fXEqFfLsZjw9ABBFWNt1q0jtnwnNcKzDnKL7XmRDuuHYTPoOJ4ZJ1VGnlNEud-sB2MIaeb1qDMtS6k0qChc_YT_FV82oFr31GcnUCj-so8K6pJ-HHlW042XBG30IqcVt_BgHPfA066BaEFKee-HtuFzw_TIqcidq9bWu_LmCEJ7ltWh4pq5UlwLGImTayZnor2qD1Sew9usTwssybxyzoy7zKE0PooedhTvifyM73RnFRdLnbQHXYird9U4xvXwezfcf7vw7EqrHNajVuqS9_OBNJQYZw9wcw6cyukiG4HYscD684tfRaJ8jduOz0n0E7nYUkg1O2meD6MMIMSMV3A.jpg",
+      "companion_text_id": 133040
+    },
+    {
+      "post_url": "https://t.me/eRadarrua/133038",
+      "post_id": 133038,
+      "channel": "eRadarrua",
+      "ts": "2026-11-24T16:42:44+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/jj7QT3dGNfa4t4mZ0jDP76NvfxiJyLTcg2-CcBZDX9xCOqskUGu4PCrYmuxYI1AVOkLKt1Q5fWVqhOqhQMJwEy61KixzQwT-k_TPd8d0-HAwx6bTBCi-KAFVBcRXwU54se9ZkVOGB-WtKjJpFCwAg_HBpgfJ63k-j3DXum5Glc0iJAFCK816OPOEiN0YIbpoLzAKC2mwBtOpjj3monlgZytdQ9gOE9uCZV4mCy31TFfibK2p-w-oS2s5HErmmsE6_L_t4htUn7xOx1r9GudDalhSUdWOCQ2Uub02kaDQAcLcwv3cmi8ur_QWLRHcDw7B7YKMLAAuu9F_hMt4iJhHSg.jpg",
+      "companion_text_id": 133037
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85522",
+      "post_id": 85522,
+      "channel": "UkraineNow",
+      "ts": "2026-11-24T16:37:42+00:00"
+    },
     {
       "post_url": "https://t.me/UkraineNow/85519",
       "post_id": 85519,
@@ -183,165 +219,119 @@
       "ts": "2026-11-24T06:59:01+00:00",
       "cdn_url": "https://cdn4.telesco.pe/file/rRdG7NuNig78vlTiYuiaaQphlSo_HINHuC7XwQWMklQRDvov4jYjD0h-bHX3oXs7Lwi2Bj60pI9JrYv2l7oUa0FHSwF03u3WFs93DqiVaR39y8r8Ner94dn_2PpOh5yBTmeGMNFNoDnUiifIWLWg6FAB9_DRlptU3fzNwhNvBA7VTYzg2qgCSiTuMBA2_QH9z-XyiTMUcT4igceO73xRQYCbjcIAMGyNuSWlvksUGT8snogqFU_Wr38J5EumKMmUH1a3k9waDgMtAqdI3HgON3_JCW1lyZm4XBNeh9tOSI66UFfnZB9QQ2tymGJcrl6O61jJr_2lenRTle9X5UBvHA.jpg",
       "companion_text_id": 132961
-    },
-    {
-      "post_url": "https://t.me/kpszsu/98867",
-      "post_id": 98867,
-      "channel": "kpszsu",
-      "ts": "2026-11-24T06:19:56+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/Ncx6TG3kW1aSiwVyCswyBdf9PtQ_efYl_wIKXnwMdCZ6A1GfQnGE03od3KqmOCt5PNV53rqLkC2zyOIMGe1cdrlRIPo0HK_HaOqY7nqtuovv0qX1-bmqRZWzd8VtLQBMUvtl7xo3hsxiP4Q41gCeiKMX-mK4CdFyLrwM9du3dVHQLLIRVQHJMI_a2QipinWKTu8Z-vE-63hMXV_nK3lzKlPuDGJ4Jn3up4qZ_DR7yZTqm1IOLnIC58VG2hW_jpagYuP71hWvCFwPYaKQOJz4QwbhbdU6LP8Vf1QADoomeKhmIa19_bKm0FW0k-L8TfSmnETODQ1bGSyKF5dZ3jUwjQ.jpg",
-      "companion_text_id": 98866
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85502",
-      "post_id": 85502,
-      "channel": "UkraineNow",
-      "ts": "2026-11-24T06:03:43+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132892",
-      "post_id": 132892,
-      "channel": "eRadarrua",
-      "ts": "2026-11-23T20:41:45+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/a0yHMZ2weUo_yWxh-HoKHEQ3oz4hPbXEte_qJlfiUfgPTK9oXm30EOt2Wp5Vf_k6x1tILLBSiJJnedqqOPAtMemV0pKFC3dxI4OdyI5-xHo37H28Y2j_d0Pel1NnKnjCUDA67nB2NgdHiTjaV5QSCVSSpL9zHESZB4Dx3HzCftz3bzbORlYmZj4fOrD7y3Mw7KROAhAZZToWrJsbaNwBw_e4pKjcrjuRtRGT9ls3mYQ653cMcAEsnNkqZTpQGrTbiaEOkch7g-tiPGcsKVbgbmR7RBviXjuIEhQ-1lbugXFqcbERdb5uVHyyvU-OXZD-16rgAFsVJ0HUvsFrBrdPWw.jpg",
-      "companion_text_id": 132891
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85500",
-      "post_id": 85500,
-      "channel": "UkraineNow",
-      "ts": "2026-11-23T20:16:36+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/132863",
-      "post_id": 132863,
-      "channel": "eRadarrua",
-      "ts": "2026-11-23T19:14:08+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/uNqEzc2Ijdc3OqzR4hzgthnuS4hJ0anyB201INohc4D_ifziaYWqRSNcGApaqzFNXQs5nZe95X7L-bZP39ngYfh0wDRIvFgM9pOQ9F3pUJrsMh-4wyHuRWnqWraWb22X0qizeA0GJRw2IXubt2fGAZsO06kAywoa4mtlrysB2owPRsgqfwtVmAzIwocTecgY5KT4ITbP7wmBLbD_GEtnB3Vdy3RWRZhnBOgGc4HcqCZd7ghWMSBicwIDYQKIm5KX8HChlU2WHYzrDVCPmXMypEkwHAw18RGo6MHdm1IEwk-FIVRJr1BBADmQ_2nmznSlAT7fYwylTIq50ei72sgGaw.jpg",
-      "companion_text_id": 132862
     }
   ],
   "post_images": {
-    "eRadarrua/133014": "data/media/eRadarrua_133014.jpg",
-    "eRadarrua/133013": "data/media/eRadarrua_133013.jpg",
-    "eRadarrua/133015": "data/media/eRadarrua_133015.jpg",
+    "eRadarrua/133038": "data/media/eRadarrua_133038.jpg",
+    "eRadarrua/133037": "data/media/eRadarrua_133038.jpg",
+    "eRadarrua/133039": "data/media/eRadarrua_133039.jpg",
+    "eRadarrua/133040": "data/media/eRadarrua_133040.jpg",
     "eRadarrua/133012": "data/media/eRadarrua_133012.jpg",
     "eRadarrua/133011": "data/media/eRadarrua_133012.jpg",
+    "eRadarrua/133013": "data/media/eRadarrua_133013.jpg",
+    "eRadarrua/133014": "data/media/eRadarrua_133014.jpg",
+    "eRadarrua/133015": "data/media/eRadarrua_133015.jpg",
     "eRadarrua/132960": "data/media/eRadarrua_132960.jpg",
     "eRadarrua/132961": "data/media/eRadarrua_132960.jpg",
     "eRadarrua/132892": "data/media/eRadarrua_132892.jpg",
     "eRadarrua/132891": "data/media/eRadarrua_132892.jpg",
-    "eRadarrua/132856": "data/media/eRadarrua_132856.jpg",
     "eRadarrua/132857": "data/media/eRadarrua_132857.jpg",
     "eRadarrua/132858": "data/media/eRadarrua_132858.jpg",
     "eRadarrua/132862": "data/media/eRadarrua_132862.jpg",
     "eRadarrua/132863": "data/media/eRadarrua_132863.jpg",
-    "eRadarrua/132844": "data/media/eRadarrua_132844.jpg",
-    "eRadarrua/132846": "data/media/eRadarrua_132844.jpg",
-    "eRadarrua/132851": "data/media/eRadarrua_132851.jpg",
-    "eRadarrua/132849": "data/media/eRadarrua_132851.jpg",
-    "eRadarrua/132821": "data/media/eRadarrua_132821.jpg",
-    "eRadarrua/132822": "data/media/eRadarrua_132821.jpg",
-    "eRadarrua/132828": "data/media/eRadarrua_132828.jpg",
-    "eRadarrua/132829": "data/media/eRadarrua_132828.jpg",
     "kpszsu/98867": "data/media/kpszsu_98867.jpg",
     "kpszsu/98866": "data/media/kpszsu_98867.jpg"
   },
-  "summary": "Russian forces launched a massive coordinated drone assault across Ukraine overnight, with over 30 Shahed and reactive UAV groups targeting Kyiv, Vinnytsia, Dnipropetrovsk, Kharkiv, Odesa, and other regions, resulting in a strike on the Novus shopping center in Vyshneve. Ukrainian air defenses engaged numerous targets, while search-and-rescue operations recovered a live child from Vyshneve rubble. On the ground, Ukrainian forces pushed back Russian troops near Ustynivka, though the enemy advanced near Verkhnya Tersa.",
+  "summary": "Russia launched a massive wave of reactive UAVs across northern, central, and southern Ukraine on 24 November 2026, striking Zaporizhzhia and Dnipro critical infrastructure with casualties and power outages. The Pentagon is delaying delivery of 60 Patriot interceptors already paid for by European allies. Ukraine confirmed destruction of a Russian corvette near Libya and signed a joint drone production agreement with Germany.",
   "key_points": [
-    "Russian forces launched Shahed and reactive UAVs from at least six airbases including Primorsko-Akhtarsk (10 groups), Orel, Millerovo, Gvardeyskoye, Shatalovo, and Kursk, targeting multiple Ukrainian regions simultaneously. (Source: @eRadarrua/132685)",
-    "A reactive Shahed struck the Novus shopping center in Vyshneve, Kyiv region, prompting search-and-rescue operations that extracted a live child from the rubble. (Source: @eRadarrua/132687)",
-    "Ukrainian unmanned surface vessels attacked and sank the Russian corvette Mercury near Libya, also damaging the sanctioned Russian roller ASCALON carrying military equipment. (Source: @UkraineNow/85466)",
-    "Ukrainian Defense Forces repelled Russian advances near Ustynivka in Donetsk region, while Russian troops progressed near Verkhnya Tersa. (Source: @DeepStateUA/24020)",
-    "Russian tactical aviation conducted guided aerial bomb strikes on Dnipropetrovsk and Zaporizhzhia regions. (Source: @kpszsu/98530)",
-    "Slovak Prime Minister Fico announced Slovakia will not join the new €45 billion EU loan for Ukraine, calling it a politically pressured gift Ukraine cannot repay. (Source: @UkraineNow/85457)",
-    "Czech Prime Minister Babiš threatened to block the proposed €100 billion EU aid package for Ukraine, deeming the EU budget unacceptable. (Source: @UkraineNow/85461)",
-    "Russian Rosgvardia Colonel General Aleksandr Poryadin died; Ukrainian HUR attributes him to punitive operations against civilians in occupied territories. (Source: @UkraineNow/85465)"
+    "Russian reactive UAVs launched from Bryansk, Orel, Millerovo, and Gvardeyskoye targeted Chernihiv, Kyiv, Zhytomyr, Dnipro, Odesa, and Kharkiv regions. (Source: @kpszsu/98938, @eRadarrua/133041)",
+    "Russian strike on Zaporizhzhia killed 2 civilians and injured 32 including 4 children, destroying a private house and damaging a 5-story building. (Source: @UkraineNow/85502)",
+    "Russian attack on Dnipro critical infrastructure caused explosions, power outages, and possible railway station hit. (Source: @eRadarrua/133035)",
+    "Pentagon withholding ~60 Patriot interceptors from Ukraine despite European payment, suspected as leverage for territorial concessions. (Source: @UkraineNow/85508)",
+    "Ukraine and Germany agreed to jointly produce thousands of reconnaissance drones in Germany by 2027. (Source: @DeepStateUA/24024)",
+    "Ukrainian operation destroyed a Russian corvette near Libyan coast; Libya condemned the strike and demanded explanations. (Source: @UkraineNow/85501, @UkraineNow/85510)",
+    "Russian Geran-5 missile with cameras intentionally entered Polish airspace near Hhelm before returning to Volyn region. (Source: @mon1tor_ua/78738, @mon1tor_ua/78743)",
+    "DeepState map shows Russian forces advanced near Vozdvyzhivka and Bilohirya in eastern Ukraine. (Source: @DeepStateUA/24023)"
   ],
   "sentiment": "active",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Russian forces launched a massive coordinated drone assault across Ukraine overnight, with over 30 Shahed and reactive UAV groups targeting Kyiv, Vinnytsia, Dnipropetrovsk, Kharkiv, Odesa, and other regions, resulting in a strike on the Novus shopping center in Vyshneve. Ukrainian air defenses engaged numerous targets, while search-and-rescue operations recovered a live child from Vyshneve rubble. On the ground, Ukrainian forces pushed back Russian troops near Ustynivka, though the enemy advanced near Verkhnya Tersa.",
+    "executive_summary": "Russia launched a massive wave of reactive UAVs across northern, central, and southern Ukraine on 24 November 2026, striking Zaporizhzhia and Dnipro critical infrastructure with casualties and power outages. The Pentagon is delaying delivery of 60 Patriot interceptors already paid for by European allies. Ukraine confirmed destruction of a Russian corvette near Libya and signed a joint drone production agreement with Germany.",
     "ukraine": {
       "points": [
-        "Ukrainian unmanned surface vessels conducted a successful attack on the Russian corvette Mercury near the Libyan coast, sinking the vessel and damaging the sanctioned Russian roller ASCALON which was transporting military equipment including BMPs and BTRs from Baltiysk. (Source: @UkraineNow/85466, @UkraineNow/85467)",
-        "Ukrainian Defense Forces pushed back Russian troops near Ustynivka in Donetsk region, demonstrating continued effective local counterattacks despite pressure elsewhere. (Source: @DeepStateUA/24020)",
-        "Search-and-rescue teams in Vyshneve, Kyiv region, extracted a live child from the rubble of the Novus shopping center following a reactive Shahed strike, while recovering four bodies with ten people still unaccounted for. (Source: @eRadarrua/132687, @UkraineNow/85468)",
-        "Ukrainian air defense units engaged multiple waves of Shahed and reactive UAVs across at least ten oblasts, with monitoring channels reporting interceptions and tracking of drones over Kyiv, Vinnytsia, Dnipropetrovsk, Kharkiv, Odesa, and other regions. (Source: @mon1tor_ua/78725, @eRadarrua/132677)",
-        "Rescue operations continued in Dymer, Kyiv region, where a five-story building was destroyed, with rescuers recovering bodies from the rubble throughout the day. (Source: @UkraineNow/85458)"
+        "Ukraine confirmed destruction of a Russian corvette near the Libyan coast, thanking SBU and Defense Forces personnel involved in the operation. (Source: @UkraineNow/85501)",
+        "Ukrainian forces struck 16 Russian Iskander-M launchers and S-400 air defense systems in recent months, while working to degrade Russian weapons production capacity. (Source: @UkraineNow/85497)",
+        "Ukraine and Germany signed an agreement in Berlin to establish a joint venture producing several thousand Ukrainian-designed reconnaissance drones annually by 2027, financed by Germany. (Source: @DeepStateUA/24024)",
+        "Ukrainian drones damaged the road section of the Crimean Bridge, disrupting Russian logistics to occupied Crimea and forcing reliance on vulnerable land routes under constant drone sanctions. (Source: @UkraineNow/85521)",
+        "A Ukrainian officer was extradited from Moldova for torturing subordinates during fortification construction in 2024, including binding a soldier to a wooden cross. (Source: @UkraineNow/85517)"
       ]
     },
     "russia": {
       "points": [
-        "Russian forces launched Shahed and reactive UAVs from six identified airbases: Primorsko-Akhtarsk (10 groups), Orel (5+2 groups reactive), Millerovo (2+2 groups reactive), Gvardeyskoye (2+3 groups reactive), Shatalovo (2+2 groups), and Kursk (5+6 groups), indicating a large-scale coordinated strike package. (Source: @eRadarrua/132685, @eRadarrua/132691, @eRadarrua/132681, @eRadarrua/132698)",
-        "Russian tactical aviation employed guided aerial bombs against Dnipropetrovsk and Zaporizhzhia regions, continuing the campaign of stand-off strikes against Ukrainian rear areas. (Source: @kpszsu/98530, @kpszsu/98547)",
-        "Russian Rosgvardia Colonel General Aleksandr Poryadin was confirmed dead; Ukrainian military intelligence (HUR) states he was involved in punitive operations against civilians in temporarily occupied territories. (Source: @UkraineNow/85465)",
-        "Russian air defense claims of repelling a second USV attack on the corvette Mercury near Libya were contradicted by video evidence showing the vessel sinking after Ukrainian unmanned surface vessel strikes. (Source: @UkraineNow/85466)",
-        "Russian forces advanced near Verkhnya Tersa in Donetsk region while being pushed back near Ustynivka, indicating ongoing grinding attritional combat along the eastern front. (Source: @DeepStateUA/24020)"
+        "Russia launched multiple groups of reactive UAVs from Bryansk Oblast, Orel (2 groups), Millerovo (2 groups), and Gvardeyskoye (1 group) targeting Ukrainian territory. (Source: @kpszsu/98938, @eRadarrua/133041)",
+        "Russian strike on Zaporizhzhia killed 2 civilians and injured 32 including 4 children (youngest under 1 year), destroying a private house and partially damaging a 5-story building. (Source: @UkraineNow/85502)",
+        "Russian attack on Dnipro critical infrastructure on evening of 24 November caused explosions, power outages across the city and region, with reports of a railway station hit. (Source: @eRadarrua/133035)",
+        "Russia currently produces one ballistic missile every 5 hours and is increasing production rates, according to Ukrainian Defense Minister Khmar. (Source: @UkraineNow/85497)",
+        "A Russian Geran-5 missile with cameras intentionally violated Polish airspace near Hhelm, flew over Helms city, and returned to Volyn Oblast, indicating deliberate probing. (Source: @mon1tor_ua/78738, @mon1tor_ua/78743)"
       ]
     },
     "eastern_front": {
       "points": [
-        "Ukrainian forces repelled Russian advances near Ustynivka in Donetsk region, a localized tactical success amid broader pressure. (Source: @DeepStateUA/24020)",
-        "Russian troops made gains near Verkhnya Tersa in Donetsk region, continuing incremental advances in the sector. (Source: @DeepStateUA/24020)",
-        "A reactive UAV launched from Donetsk region flew toward Dnipropetrovsk region, targeting the Pavlohrad area, demonstrating cross-front drone employment. (Source: @eRadarrua/132695)",
-        "Russian guided aerial bomb strikes hit Dnipropetrovsk region, likely targeting logistics or infrastructure behind the front lines. (Source: @kpszsu/98530)",
-        "Reactive UAVs were observed over Kharkiv city and near Krasnokutsk, Bogodukhiv, Vilshana, Staryi Merchyk, and Pechenihy, indicating persistent aerial reconnaissance and strike activity along the northeastern front. (Source: @kpszsu/98529, @kpszsu/98546, @eRadarrua/132689, @eRadarrua/132690, @eRadarrua/132693, @eRadarrua/132697)"
+        "DeepState map update shows Russian forces advanced near Vozdvyzhivka and Bilohirya in Donetsk Oblast. (Source: @DeepStateUA/24023)",
+        "A group of reactive UAVs headed toward Kharkiv from the east, per monitoring channels. (Source: @kpszsu/98947)",
+        "Luhansk Oblast detected one group of reactive UAVs operating in the region. (Source: @eRadarrua/133039)",
+        "Ukrainian forces continue to degrade Russian launch capabilities, claiming 16 Iskander-M and S-400 systems destroyed in recent months. (Source: @UkraineNow/85497)"
       ]
     },
     "northern_front": {
       "points": [
-        "Multiple Geran-5 missiles and reactive Shaheds were launched from Chernihiv region toward Kyiv region (Vyshhorod district) and from Zhytomyr region toward Rivne region (Sarny district), with at least three Geran-5s and one reactive Shahed tracked on each vector. (Source: @mon1tor_ua/78725)",
-        "A reactive UAV from Chernihiv region flew past Snovsk heading south, while another from Zhytomyr region (Narodychi area) moved toward Kyiv region. (Source: @kpszsu/98521, @eRadarrua/132645)",
-        "Kyiv region air defenses engaged reactive UAVs near Ivankiv, Krasiatychi, Tetiyiv, Pereiaslav-Khmelnytskyi, and Slavutych, with the air raid alert lifted at 18:37 on 22 November 2026. (Source: @kpszsu/98524, @kpszsu/98526, @eRadarrua/132643, @eRadarrua/132682)",
-        "A Geran-5 missile struck Vyshneve/Chabany in Kyiv region, and a reactive Shahed hit the Novus shopping center in Vyshneve, causing casualties and structural collapse. (Source: @mon1tor_ua/78726, @UkraineNow/85462, @eRadarrua/132683)",
-        "Reactive UAVs from Sumy region flew past Trostianets heading north and past Novyi Sanzhary toward Poltava region, while a reactive UAV from Poltava region (Karlivka area) moved toward Poltava city. (Source: @kpszsu/98536, @kpszsu/98523, @kpszsu/98528)"
+        "Multiple reactive UAVs launched from Bryansk Oblast entered Chernihiv Oblast, passing near Korop toward Sumy Oblast and Krolevec. (Source: @eRadarrua/132995, @kpszsu/98966)",
+        "Reactive UAVs tracked over Kyiv reservoir toward Vyshhorod/Kyiv, with additional UAVs approaching Hostomel/Vyshhorod from the north. (Source: @kpszsu/98968, @kpszsu/98934, @kpszsu/98942)",
+        "Reactive UAVs targeted Bila Tserkva from the south and east, with one UAV from Chernihiv region heading toward Zhytomyr via Ovruch. (Source: @kpszsu/98933, @kpszsu/98953, @kpszsu/98912)",
+        "Chernihiv Oblast faced 4 groups of reactive UAVs; Sumy Oblast detected one strike UAV group; Kyiv air raid alerts issued and later cleared. (Source: @eRadarrua/133012, @eRadarrua/133014, @eRadarrua/133023)"
       ]
     },
     "southern_front": {
       "points": [
-        "Strike UAVs launched from the Black Sea targeted Odesa and Lyman areas, while reactive UAVs from the Black Sea headed toward the Tuzlovski Lymany national park and Mykolaiv region (Ochakiv). (Source: @kpszsu/98560, @kpszsu/98532, @kpszsu/98550)",
-        "Reactive UAVs in southern Odesa region moved toward Kiliia, and a reactive UAV from Odesa region flew toward Vinnytsia region (Haisyn district) via Liubashivka. (Source: @kpszsu/98534, @eRadarrua/132695)",
-        "A reactive UAV near Berezanka in Mykolaiv region flew on a northwesterly course, and Mykolaiv region reported four groups of reactive UAVs active. (Source: @kpszsu/98553, @eRadarrua/132642)",
-        "Ukrainian unmanned surface vessels attacked Russian naval assets near Libya, sinking the corvette Mercury and damaging the roller ASCALON carrying military equipment, extending Ukrainian reach far beyond the Black Sea. (Source: @UkraineNow/85466, @UkraineNow/85467)",
-        "Reactive UAVs from Dnipropetrovsk region targeted Kirovohrad region (Oleksandriia district) and Zaporizhzhia region reported one reactive UAV group. (Source: @mon1tor_ua/78725, @eRadarrua/132642)"
+        "Russian strike on Zaporizhzhia city killed 2 and injured 32 including 4 children, destroying residential buildings. (Source: @UkraineNow/85502)",
+        "Russian attack on Dnipro critical infrastructure caused explosions, widespread power outages, and possible railway station damage. (Source: @eRadarrua/133035)",
+        "Two reactive UAVs in southern Zaporizhzhia Oblast headed toward Kherson Oblast. (Source: @eRadarrua/133037)",
+        "Reactive UAV from Odesa Oblast passed Podilsk toward Vinnytsia Oblast; another on southern Odesa Oblast headed toward Kiliya. (Source: @kpszsu/98965, @kpszsu/98950)",
+        "Ukrainian drones damaged the Crimean Bridge road section, disrupting Russian logistics to occupied Crimea. (Source: @UkraineNow/85521)"
       ]
     },
     "air_war": {
       "points": [
-        "Russian forces launched a massive wave of Shahed and reactive UAVs from at least six airbases: Primorsko-Akhtarsk (10 groups), Orel (7 groups reactive), Millerovo (4 groups reactive), Gvardeyskoye (5 groups reactive), Shatalovo (4 groups), and Kursk (11 groups), totaling over 40 launch groups in a single night. (Source: @eRadarrua/132685, @eRadarrua/132691, @eRadarrua/132681, @eRadarrua/132698)",
-        "Reactive Shaheds and Geran-5 missiles were tracked across at least 12 Ukrainian oblasts: Kyiv, Vinnytsia, Dnipropetrovsk, Kharkiv, Odesa, Mykolaiv, Cherkasy, Kirovohrad, Poltava, Sumy, Chernihiv, Zhytomyr, and Rivne, with multiple simultaneous vectors. (Source: @mon1tor_ua/78725, @eRadarrua/132677, @eRadarrua/132667)",
-        "A reactive Shahed flying at 4,000 meters altitude and 555 km/h was tracked over Vyshhorod toward Troieshchyna in Kyiv region, indicating high-performance drone variants. (Source: @mon1tor_ua/78723)",
-        "Russian tactical aviation conducted guided aerial bomb strikes on Dnipropetrovsk and Zaporizhzhia regions, complementing the drone campaign with stand-off precision munitions. (Source: @kpszsu/98530, @kpszsu/98547)",
-        "Ukrainian air defense monitoring reported reactive UAVs near Slavutych and Cherkasy region after the main wave, with Kyiv region declared clear at 18:37 on 22 November 2026. (Source: @eRadarrua/132670, @eRadarrua/132682)"
+        "Massive reactive UAV campaign across Ukraine on 24 November with launches from Bryansk, Orel (2 groups), Millerovo (2 groups), Gvardeyskoye (1 group) targeting multiple oblasts. (Source: @eRadarrua/133041, @kpszsu/98938)",
+        "Pentagon delaying delivery of ~60 Patriot interceptors already paid for by European allies, suspected as leverage for Ukrainian territorial concessions. (Source: @UkraineNow/85508)",
+        "Russian Geran-5 missile with cameras intentionally entered Polish airspace near Hhelm, flew over Helms city, returned to Volyn Oblast — deliberate provocation. (Source: @mon1tor_ua/78738, @mon1tor_ua/78743)",
+        "NATO Secretary General Rutte stated NATO will defend every inch of territory including space, referencing potential Russian nuclear weapons in orbit. (Source: @UkraineNow/85506)",
+        "Ukraine claims Russian ballistic missile production at one missile per 5 hours with increasing rates. (Source: @UkraineNow/85497)"
       ]
     },
     "key_developments": [
-      "Massive Russian drone barrage: 40+ launch groups from six airbases (Primorsko-Akhtarsk, Orel, Millerovo, Gvardeyskoye, Shatalovo, Kursk) targeted 12+ Ukrainian oblasts with Shahed and reactive UAVs overnight 22-23 November 2026. (Source: @eRadarrua/132685, @eRadarrua/132691, @eRadarrua/132681, @eRadarrua/132698)",
-      "Reactive Shahed strike on Novus shopping center in Vyshneve, Kyiv region, caused structural collapse; rescuers extracted one live child, recovered four bodies, with ten people still missing as of 22 November. (Source: @eRadarrua/132687, @UkraineNow/85468)",
-      "Ukrainian USVs sank Russian corvette Mercury and damaged sanctioned roller ASCALON carrying BMPs/BTRs near Libya, demonstrating extended maritime strike capability. (Source: @UkraineNow/85466, @UkraineNow/85467)",
-      "Ukrainian forces pushed back Russian troops near Ustynivka (Donetsk region) while Russians advanced near Verkhnya Tersa, per DeepState map update 22 November. (Source: @DeepStateUA/24020)",
-      "Russian tactical aviation struck Dnipropetrovsk and Zaporizhzhia regions with guided aerial bombs, continuing stand-off bombardment campaign. (Source: @kpszsu/98530, @kpszsu/98547)",
-      "Slovakia (PM Fico) and Czechia (PM Babiš) opposed new EU financial packages for Ukraine (€45bn loan and €100bn aid), citing political pressure and budget concerns, threatening EU unity on Ukraine support. (Source: @UkraineNow/85457, @UkraineNow/85461)",
-      "Russian Rosgvardia Colonel General Aleksandr Poryadin killed; Ukrainian HUR links him to punitive operations against civilians in occupied territories. (Source: @UkraineNow/85465)"
+      "Russia launched massive reactive UAV wave from Bryansk, Orel, Millerovo, Gvardeyskoye targeting Chernihiv, Kyiv, Zhytomyr, Dnipro, Odesa, Kharkiv, Zaporizhzhia on 24 Nov 2026. (Source: @eRadarrua/133041, @kpszsu/98938)",
+      "Zaporizhzhia strike killed 2 civilians, injured 32 including 4 children, destroyed private house, damaged 5-story building. (Source: @UkraineNow/85502)",
+      "Dnipro critical infrastructure attack caused explosions, power outages citywide, possible railway station hit. (Source: @eRadarrua/133035)",
+      "Pentagon withholding ~60 paid-for Patriot interceptors from Ukraine, likely leverage for territorial concessions per FT. (Source: @UkraineNow/85508)",
+      "Ukraine-Germany joint venture to produce thousands of reconnaissance drones in Germany by 2027, financed by Berlin. (Source: @DeepStateUA/24024)",
+      "Ukrainian operation destroyed Russian corvette near Libya; Libya condemned strike, demanded explanations. (Source: @UkraineNow/85501, @UkraineNow/85510)",
+      "Russian Geran-5 with cameras deliberately violated Polish airspace at Hhelm, flew over Helms, returned to Volyn. (Source: @mon1tor_ua/78738, @mon1tor_ua/78743)"
     ],
-    "threat_assessment": "The scale and coordination of the 22-23 November drone wave — over 40 launch groups from six Russian airbases targeting 12+ Ukrainian regions — indicates a sustained Russian capacity for massed stand-off strikes despite Ukrainian air defense improvements. The use of high-speed reactive Shaheds (555 km/h at 4,000m) alongside Geran-5 missiles complicates interception timelines. The strike on civilian infrastructure in Vyshneve and the ongoing rescue operations highlight the persistent threat to rear areas. On the ground, the seesaw near Ustynivka/Verkhnya Tersa suggests neither side has decisive tactical advantage in eastern Donetsk. The Ukrainian USV success near Libya demonstrates an expanding asymmetric maritime threat to Russian logistics far from the Black Sea, potentially forcing Russian naval redeployments. Political fragmentation in EU aid (Slovakia, Czechia) poses a medium-term strategic risk to Ukrainian sustainment.",
-    "regional_response": "Slovak Prime Minister Fico's refusal to join the €45 billion EU loan and Czech Prime Minister Babiš's threat to block the €100 billion aid package reveal growing fractures in EU consensus on Ukraine funding, with both leaders framing assistance as politically coerced and financially unsustainable. Hungary's alignment with this stance (implied by Visegrad Four coordination) could paralyze EU-level financial mechanisms. Meanwhile, Finland's pursuit of €25+ billion in arbitration awards against Gazprom signals a parallel economic pressure track. Cyprus's expulsion of two Russian diplomats for GRU espionage targeting EU-sanctioned technology transfers reflects broader European counterintelligence pushback. These developments collectively indicate a shifting European landscape where military aid continuity is increasingly contested domestically.",
-    "intelligence_notes": "The simultaneous launch of reactive UAVs from Orel, Millerovo, Gvardeyskoye, and Kursk — all known Russian"
+    "threat_assessment": "Russia's massive reactive UAV campaign demonstrates sustained long-range strike capacity and deliberate probing of NATO airspace via the Geran-5 incursion into Poland. The Pentagon's withholding of Patriot interceptors critically degrades Ukrainian air defense against ballistic missiles, which Russia produces at accelerating rates. Russian advances near Vozdvyzhivka and Bilohirya suggest continued pressure on eastern front lines. The Crimean Bridge damage compounds Russian logistics strain but may trigger retaliatory strikes on Ukrainian infrastructure.",
+    "regional_response": "Poland detected and tracked the Geran-5 incursion, confirming intentional violation with onboard cameras. Lithuania pledged €250 million in 2027 military aid and continues training Ukrainian troops under INTERFLEX and EUMAM. Germany deepens defense industrial cooperation with Ukraine through joint drone production. NATO reaffirmed collective defense including space domain. Ukraine seeks bipartisan US Congressional support if Russia delays negotiations.",
+    "intelligence_notes": "The Geran-5's camera-equipped flight into Poland signals Russian ISR testing of NATO border defenses. Ukrainian strikes on 16 Iskander/S-400 systems indicate effective counter-battery and SEAD operations. The Pentagon's Patriot delay aligns with Trump administration pressure for territorial concessions per Financial Times. Fires at Russian industrial sites in Tolyatti and Lipetsk may reflect sabotage or accidents but lack confirmed attribution. Ukrainian domestic issues include tuberculosis outbreak in Cherkasy and corruption convictions."
   },
-  "stale_summary": true,
   "missiles": 0,
   "drones": 96,
   "kpszsu_timeline": [
-    3,
     2,
-    2,
+    5,
     5,
     6,
     5,
     5,
-    7,
-    3,
+    4,
     4,
     6,
     9,
@@ -349,13 +339,15 @@
     5,
     5,
     6,
-    15,
-    8,
+    16,
+    7,
     5,
-    5,
+    4,
     4,
     3,
     1,
+    3,
+    2,
     3
   ]
 }
