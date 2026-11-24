@@ -1,7 +1,7 @@
 {
   "conflict": "Middle-East War",
-  "updated_at": "2026-11-24T03:04:02.136883+00:00",
-  "message_count": 378,
+  "updated_at": "2026-11-24T04:46:31.271352+00:00",
+  "message_count": 380,
   "channels": [
     "N12chat",
     "manniefabian",
@@ -14,9 +14,9 @@
   ],
   "red_alerts": 2,
   "red_alerts_timeline": [
-    0,
-    0,
     2,
+    0,
+    0,
     0,
     0,
     0,
@@ -40,61 +40,67 @@
     0
   ],
   "combined_activity_timeline": [
-    4,
-    1,
-    16,
-    13,
-    24,
-    21,
+    12,
+    15,
+    17,
+    20,
     28,
+    32,
     31,
     24,
-    33,
-    43,
-    27,
-    22,
-    12,
-    23,
-    17,
-    12,
+    42,
+    34,
+    21,
+    14,
+    15,
+    24,
+    11,
+    10,
     7,
     9,
-    4,
-    2,
-    2,
     1,
-    2
+    2,
+    2,
+    2,
+    3,
+    3
   ],
   "messages_by_channel": {
     "@N12chat": 182,
     "@manniefabian": 3,
     "@yediotnews25": 74,
     "@amitsegal": 19,
-    "@Faytuks_Network": 25,
+    "@Faytuks_Network": 26,
     "@tzevaadom_en": 2,
     "@shin_persian": 42,
-    "@redlinkleb": 31
+    "@redlinkleb": 32
   },
   "recent_post_urls": {
-    "N12chat": "https://t.me/N12chat/236644",
+    "N12chat": "https://t.me/N12chat/236648",
     "manniefabian": "https://t.me/manniefabian/59574",
     "yediotnews25": "https://t.me/yediotnews25/138415",
     "amitsegal": "https://t.me/amitsegal/67479",
-    "Faytuks_Network": "https://t.me/Faytuks_Network/10367",
+    "Faytuks_Network": "https://t.me/Faytuks_Network/10368",
     "tzevaadom_en": "https://t.me/tzevaadom_en/68588",
     "shin_persian": "https://t.me/shin_persian/12805",
-    "redlinkleb": "https://t.me/redlinkleb/54722"
+    "redlinkleb": "https://t.me/redlinkleb/54729"
   },
   "cited_post_urls": {
-    "shin_persian": "https://t.me/shin_persian/12789",
-    "manniefabian": "https://t.me/manniefabian/59573",
-    "tzevaadom_en": "https://t.me/tzevaadom_en/68586",
+    "shin_persian": "https://t.me/shin_persian/12786",
+    "N12chat": "https://t.me/N12chat/236634",
     "redlinkleb": "https://t.me/redlinkleb/54717",
-    "N12chat": "https://t.me/N12chat/236640",
-    "yediotnews25": "https://t.me/yediotnews25/138408",
-    "amitsegal": "https://t.me/amitsegal/67472"
+    "Faytuks_Network": "https://t.me/Faytuks_Network/10360",
+    "tzevaadom_en": "https://t.me/tzevaadom_en/68588",
+    "amitsegal": "https://t.me/amitsegal/67460",
+    "yediotnews25": "https://t.me/yediotnews25/138404"
   },
   "media": [
+    {
+      "post_url": "https://t.me/N12chat/236645",
+      "post_id": 236645,
+      "channel": "N12chat",
+      "ts": "2026-11-24T03:13:25+00:00"
+    },
     {
       "post_url": "https://t.me/Faytuks_Network/10367",
       "post_id": 10367,
@@ -164,10 +170,22 @@
       "ts": "2026-11-23T19:38:26+00:00"
     },
     {
+      "post_url": "https://t.me/redlinkleb/54689",
+      "post_id": 54689,
+      "channel": "redlinkleb",
+      "ts": "2026-11-23T19:37:28+00:00"
+    },
+    {
       "post_url": "https://t.me/yediotnews25/138412",
       "post_id": 138412,
       "channel": "yediotnews25",
       "ts": "2026-11-23T19:32:04+00:00"
+    },
+    {
+      "post_url": "https://t.me/redlinkleb/54685",
+      "post_id": 54685,
+      "channel": "redlinkleb",
+      "ts": "2026-11-23T19:04:55+00:00"
     },
     {
       "post_url": "https://t.me/redlinkleb/54684",
@@ -198,24 +216,6 @@
       "post_id": 54677,
       "channel": "redlinkleb",
       "ts": "2026-11-23T18:27:18+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/54676",
-      "post_id": 54676,
-      "channel": "redlinkleb",
-      "ts": "2026-11-23T18:26:51+00:00"
-    },
-    {
-      "post_url": "https://t.me/N12chat/236617",
-      "post_id": 236617,
-      "channel": "N12chat",
-      "ts": "2026-11-23T18:25:50+00:00"
-    },
-    {
-      "post_url": "https://t.me/redlinkleb/54675",
-      "post_id": 54675,
-      "channel": "redlinkleb",
-      "ts": "2026-11-23T18:24:30+00:00"
     }
   ],
   "post_images": {
@@ -229,7 +229,6 @@
     "amitsegal/67476": "data/media/amitsegal_67476.jpg",
     "amitsegal/67454": "data/media/amitsegal_67454.jpg",
     "amitsegal/67455": "data/media/amitsegal_67454.jpg",
-    "Faytuks_Network/10345": "data/media/Faytuks_Network_10345.jpg",
     "Faytuks_Network/10346": "data/media/Faytuks_Network_10346.jpg",
     "Faytuks_Network/10347": "data/media/Faytuks_Network_10347.jpg",
     "Faytuks_Network/10362": "data/media/Faytuks_Network_10362.jpg",
@@ -240,78 +239,82 @@
     "Faytuks_Network/10334": "data/media/Faytuks_Network_10335.jpg",
     "Faytuks_Network/10336": "data/media/Faytuks_Network_10336.jpg",
     "Faytuks_Network/10342": "data/media/Faytuks_Network_10342.jpg",
-    "Faytuks_Network/10341": "data/media/Faytuks_Network_10342.jpg"
+    "Faytuks_Network/10341": "data/media/Faytuks_Network_10342.jpg",
+    "Faytuks_Network/10345": "data/media/Faytuks_Network_10345.jpg"
   },
-  "summary": "Iran experienced multiple missile launches from Ahvaz and air defense activity in Khuzestan and West Azerbaijan provinces. Israeli airstrikes in Gaza City killed two and wounded several, while rocket sirens sounded in northern Israeli border communities. Lebanon's southern border saw intense drone and artillery activity with 149 alerts recorded, and Saudi Arabia's Najran region reported sirens without damage.",
+  "summary": "Iran conducted multiple missile launches from Ahvaz, Urmia, and Kong while IRGC Navy reported three oil tankers struck mines in the Strait of Hormuz. Israeli-Lebanese border activity surged with 149 daily alerts including airstrikes, artillery, and armed Hermes-450 drone operations over Beirut suburbs. The US is investigating Iranian cyberattacks on approximately 50 tankers and planning a 2027 Syria training mission.",
   "key_points": [
-    "Two missiles launched from Ahvaz, Khuzestan Province, Iran, with air defense activity reported in Ramhormoz and UAV activity over Urmia. (Source: @shin_persian/12789, @shin_persian/12786, @shin_persian/12795, @shin_persian/12800)",
-    "Palestinian media reported two dead and several wounded in an Israeli airstrike in Gaza City. (Source: @manniefabian/59573)",
-    "Rocket sirens activated in Israeli border communities Even Menahem and Shtula along the Lebanon confrontation line. (Source: @manniefabian/59572, @tzevaadom_en/68586)",
-    "Lebanon border monitoring recorded 149 alerts including 89 drone detections and 34 artillery shelling incidents, concentrated in Nabatieh and Tyre districts. (Source: @redlinkleb/54717)",
-    "A Hermes-450 drone armed with four missiles was observed over Beirut's southern suburb before withdrawing southward. (Source: @redlinkleb/54652, @redlinkleb/54645)",
-    "Saudi Arabia's Najran region experienced sirens with no reported damage. (Source: @N12chat/236640)",
-    "OFAC sanctioned 22 entities and eight individuals linked to Iran's shadow banking network moving billions in oil and petrochemical revenue. (Source: @shin_persian/12799)",
-    "IDF Chief of Staff Zamir stated no urgent necessity to attack Iran, citing monitoring of ground-to-ground missiles, nuclear, and unconventional weapon threats. (Source: @yediotnews25/138408)"
+    "Iran launched missiles from Ahvaz (Khuzestan), Urmia (West Azerbaijan), and Kong (Hormozgan) within hours. (Source: @shin_persian/12786, @shin_persian/12788, @shin_persian/12796)",
+    "IRGC Navy reported three oil tankers caught fire after hitting naval mines in the Strait of Hormuz. (Source: @N12chat/236634)",
+    "US investigating suspicion Iran behind cyberattacks on ~50 tankers carrying oil and explosives in Strait of Hormuz. (Source: @N12chat/236642)",
+    "Israeli-Lebanese border alerts reached 149 in one day, 99% increase, concentrated in Nabatieh and Tyre districts. (Source: @redlinkleb/54717)",
+    "Armed Hermes-450 drones with four missiles observed at low altitude over Beirut's southern suburbs. (Source: @redlinkleb/54652)",
+    "Israeli airstrikes hit Hadatha and Barashit; artillery struck 17+ locations including Al-Mansouri, Wadi al-Saluqi, Qabrikha. (Source: @redlinkleb/54718)",
+    "US and allies discussing training Syrian troops in demining and border security, possible troop return in 2027. (Source: @Faytuks_Network/10360)",
+    "Bahrain designated PMF commander Shibl al-Zaidi on terrorism list. (Source: @Faytuks_Network/10366)"
   ],
   "sentiment": "volatile",
-  "intensity": 7,
+  "intensity": 8,
   "sections": {
-    "executive_summary": "Iran experienced multiple missile launches from Ahvaz and air defense activity in Khuzestan and West Azerbaijan provinces. Israeli airstrikes in Gaza City killed two and wounded several, while rocket sirens sounded in northern Israeli border communities. Lebanon's southern border saw intense drone and artillery activity with 149 alerts recorded, and Saudi Arabia's Najran region reported sirens without damage.",
+    "executive_summary": "Iran conducted multiple missile launches from Ahvaz, Urmia, and Kong while IRGC Navy reported three oil tankers struck mines in the Strait of Hormuz. Israeli-Lebanese border activity surged with 149 daily alerts including airstrikes, artillery, and armed Hermes-450 drone operations over Beirut suburbs. The US is investigating Iranian cyberattacks on approximately 50 tankers and planning a 2027 Syria training mission.",
     "iran": {
       "points": [
-        "Two separate missile launches occurred from the Ramadan Neighborhood in Ahvaz, Khuzestan Province, at 17:20 and 17:26 local time, indicating possible military activity or testing. (Source: @shin_persian/12786, @shin_persian/12789)",
-        "Air defense systems were activated in Ramhormoz, Khuzestan Province, at 20:36 local time, suggesting a perceived aerial threat in the region. (Source: @shin_persian/12795)",
-        "Unmanned aerial vehicle (UAV) activity was detected over Urmia in West Azerbaijan Province at 21:37 local time, marking the third Iranian province with reported aerial incidents. (Source: @shin_persian/12800)",
-        "FinCEN analysis identified approximately $14.7 billion in suspicious financial activity linked to Iranian shadow banking between January 2025 and August 2026, with primary hubs in UAE, Hong Kong, and Singapore. (Source: @shin_persian/12797)",
-        "OFAC designated 22 entities and eight individuals supporting Iran's global shadow banking system, targeting exchange houses, 'rahbar' companies, and financial intermediaries in Iran, UAE, Turkey, and Hong Kong. (Source: @shin_persian/12799)",
-        "The U.S. Treasury announced new sanctions against dozens of individuals and entities connected to Iran, further restricting financial networks. (Source: @yediotnews25/138407)"
+        "Missile launches detected from Ahvaz (Khuzestan Province) at 17:20 and 21:36 local time, from Urmia (West Azerbaijan Province) at 17:26, and from Kong (Hormozgan Province) at 20:54, indicating widespread missile activity across western and southern Iran. (Source: @shin_persian/12786, @shin_persian/12788, @shin_persian/12796, @shin_persian/12798)",
+        "Jet activity reported over Marivan (Kurdistan Province) at 17:58 and Dezful (Khuzestan Province) at 18:51 local time, suggesting heightened air force readiness or exercises. (Source: @shin_persian/12790, @shin_persian/12793)",
+        "IRGC Navy stated three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, a critical chokepoint for global oil transit. (Source: @N12chat/236634)",
+        "US authorities investigating suspicion Iran behind cyberattacks targeting approximately 50 tankers carrying oil and other explosive materials in the Strait of Hormuz. (Source: @N12chat/236642)",
+        "Qatar Foreign Minister Mohammed bin Abdulrahman Al-Thani stated Qatar working with Iran and US to revive negotiation track, indicating diplomatic engagement amid tensions. (Source: @N12chat/236629)"
       ]
     },
     "israel": {
       "points": [
-        "IDF Chief of Staff Zamir stated there is no urgent necessity to attack Iran currently, noting the military is monitoring threats including ground-to-ground missiles, nuclear programs, and unconventional weapons. (Source: @yediotnews25/138408)",
-        "Rocket warning sirens activated in the Lebanon border communities of Even Menahem and Shtula with a 15-second warning time, prompting IDF investigation into the cause. (Source: @manniefabian/59572, @tzevaadom_en/68586)",
-        "Political negotiations continue between Netanyahu and Eisenkot regarding government formation, with both exposed to the same intelligence material but differing on threat assessments. (Source: @amitsegal/67472)",
-        "Former Prime Minister Bennett warned Netanyahu that wasting time instead of pursuing unity under Eisenkot would carry consequences. (Source: @amitsegal/67467)"
+        "Red Alert incident ended at Even Menachem and Shtula in northern Israel near Lebanese border, indicating cross-border fire or infiltration alert. (Source: @tzevaadom_en/68588)",
+        "Former IDF Chief Eisenkot stated he does not see a direct and immediate Iranian threat requiring action before government formation, reflecting strategic assessment. (Source: @amitsegal/67460)",
+        "Netanyahu emphasized flexibility for national unity government while vowing to remain in politics even if a government forms, signaling political continuity. (Source: @amitsegal/67464, @amitsegal/67466)",
+        "Israeli Hermes-450 armed drones with four missiles observed at low altitude over Beirut's southern suburbs (Dahieh), demonstrating deep penetration capability. (Source: @redlinkleb/54645, @redlinkleb/54652)",
+        "Israeli Thunder B vertical takeoff surveillance drone spotted over Deir al-Zahrani and Zibdin in Nabatieh district, confirming persistent ISR operations. (Source: @redlinkleb/54693)"
       ]
     },
     "gaza_west_bank": {
       "points": [
-        "Palestinian media reported two fatalities and several wounded in an Israeli airstrike in Gaza City a short time ago. (Source: @manniefabian/59573)"
+        "No operational messages regarding Gaza or West Bank conflict found in the provided data. Israeli domestic political negotiations and coalition talks dominate Israel-related messages. (Source: @amitsegal/67464, @amitsegal/67466, @yediotnews25/138404, @yediotnews25/138406)"
       ]
     },
     "lebanon": {
       "points": [
-        "A Hermes-450 drone armed with four missiles was observed flying at low altitude over Beirut's southern suburb before withdrawing southward, documented by monitoring teams. (Source: @redlinkleb/54652, @redlinkleb/54645)",
-        "End-of-day report for November 23 recorded 149 alerts across southern Lebanon, including 89 drone detections and 34 artillery shelling incidents, a 99% increase from the previous day. (Source: @redlinkleb/54717)",
-        "Alerts concentrated in Nabatieh Governorate (78), South Governorate (40), with Tyre District (33), Nabatieh District (29), and Bint Jbeil District (28) most affected. (Source: @redlinkleb/54717)",
-        "The villages of Al-Mansouri and Meifdon each recorded seven alerts, leading all localities in incident frequency. (Source: @redlinkleb/54717)",
-        "Israeli forces dropped illumination flares over the town of Sarbin, indicating nighttime operational activity. (Source: @redlinkleb/54666)",
-        "November cumulative alerts reached 2,770 with a daily average of 120, representing a 20% increase over the same period last month. (Source: @redlinkleb/54717)"
+        "Daily alert total reached 149 on 23 November 2026, a 99% increase from previous day, with 89 drone alerts and 34 artillery alerts concentrated in Nabatieh (78), South (40), Tyre (33), and Bint Jbeil (28) districts. (Source: @redlinkleb/54717)",
+        "Israeli airstrikes struck Hadatha (2) and Barashit (2); artillery shelling hit 17+ locations including Al-Mansouri (7), Wadi al-Saluqi (5), Mayfadoun (3), Zibqin (3), Barashit (3), and Qabrikha. (Source: @redlinkleb/54718)",
+        "Explosions reported in Beit Yahoun and Kounin; machine-gun sweeping fire in Zoutar al-Sharqiyah (3), Kfar Shuba (2), Al-Khiam (2), Hadatha, Kfar Tibnit, Beit Yahoun, Sarbin, Wadi al-Saluqi. (Source: @redlinkleb/54718)",
+        "Hostile drone dropped sound bomb on Qabrikha without injuries; enemy aircraft dropped flares over Sarbin; fire sweeping/combing operations in Zoutar al-Sharqiyah. (Source: @redlinkleb/54640, @redlinkleb/54666, @redlinkleb/54716)",
+        "Armed Hermes-450 drones with four missiles operated at low altitude over Beirut's southern suburbs (Dahieh); Thunder B surveillance drone observed over Deir al-Zahrani and Zibdin in Nabatieh. (Source: @redlinkleb/54645, @redlinkleb/54652, @redlinkleb/54693)"
       ]
     },
     "syria_iraq": {
       "points": [
-        "No specific operational developments reported for Syria or Iraq in the provided messages."
+        "US and allies discussing training Syrian troops in demining, explosives disposal, and border security; proposed mission could bring small number of US troops back to Syria in 2027. (Source: @Faytuks_Network/10360)",
+        "Bahrain designated Shibl al-Zaidi, a Popular Mobilization Forces (PMF) commander and Coordination Framework leader, on its terrorism list, targeting Iraqi militia leadership. (Source: @Faytuks_Network/10366)"
       ]
     },
     "gulf_states": {
       "points": [
-        "Sirens were heard in Saudi Arabia's Najran region with no reported damage, suggesting possible aerial threat from Yemen-based actors. (Source: @N12chat/236640)",
-        "Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al-Thani and envoy Ali Al-Dawadi met with U.S. Vice President Vance at the White House to discuss restarting U.S.-Iran negotiations. (Source: @N12chat/236637)"
+        "Saudi Arabia reported sirens heard in Najran province with no damage reported, indicating possible aerial threat or false alarm near Yemen border. (Source: @N12chat/236640)",
+        "Qatar Foreign Minister Mohammed bin Abdulrahman Al-Thani stated Qatar working with Iran and US to revive negotiation track, positioning Qatar as mediator. (Source: @N12chat/236629)",
+        "Bahrain designated PMF commander Shibl al-Zaidi on terrorism list, aligning with Gulf pressure on Iranian-backed Iraqi militias. (Source: @Faytuks_Network/10366)",
+        "IRGC Navy reported three oil tankers caught fire after hitting naval mines in Strait of Hormuz, threatening Gulf energy exports. (Source: @N12chat/236634)",
+        "US investigating Iranian cyberattacks on ~50 tankers carrying oil and explosives in Strait of Hormuz, highlighting maritime security risks for Gulf states. (Source: @N12chat/236642)"
       ]
     },
     "key_developments": [
-      "Two missiles launched from Ahvaz, Khuzestan Province, Iran at 17:20 and 17:26 local time, indicating active missile operations. (Source: @shin_persian/12786, @shin_persian/12789)",
-      "Air defense activation in Ramhormoz, Khuzestan at 20:36 local time and UAV activity over Urmia, West Azerbaijan at 21:37 local time show multi-province aerial alerts. (Source: @shin_persian/12795, @shin_persian/12800)",
-      "Israeli airstrike in Gaza City killed two and wounded several according to Palestinian media reports. (Source: @manniefabian/59573)",
-      "Rocket sirens in Even Menahem and Shtula on Israel-Lebanon border with 15-second warning time, IDF investigating cause. (Source: @manniefabian/59572, @tzevaadom_en/68586)",
-      "Lebanon border monitoring recorded 149 alerts (89 drones, 34 artillery) on Nov 23, concentrated in Nabatieh and Tyre districts, 99% increase from previous day. (Source: @redlinkleb/54717)",
-      "Hermes-450 armed with four missiles observed over Beirut southern suburb before withdrawing south, indicating Hezbollah/Israeli drone operations. (Source: @redlinkleb/54652, @redlinkleb/54645)",
-      "OFAC sanctioned 22 entities and eight individuals in Iran, UAE, Turkey, Hong Kong for shadow banking moving billions in Iranian oil revenue. (Source: @shin_persian/12799)"
+      "Iran launched missiles from Ahvaz, Urmia, and Kong within 4 hours; jet activity over Marivan and Dezful indicates widespread military readiness. (Source: @shin_persian/12786, @shin_persian/12788, @shin_persian/12790, @shin_persian/12793, @shin_persian/12796, @shin_persian/12798)",
+      "IRGC Navy confirmed three oil tankers ablaze after striking naval mines in Strait of Hormuz; US attributes cyberattacks on ~50 tankers to Iran. (Source: @N12chat/236634, @N12chat/236642)",
+      "Israeli-Lebanese border alerts surged 99% to 149 daily; Nabatieh district alone recorded 78 alerts including airstrikes, artillery, and drone ops. (Source: @redlinkleb/54717, @redlinkleb/54718)",
+      "Armed Hermes-450 drones with four missiles penetrated Beirut's southern suburbs at low altitude; Thunder B surveillance drone active over Nabatieh. (Source: @redlinkleb/54645, @redlinkleb/54652, @redlinkleb/54693)",
+      "US and allies planning Syrian troop training in demining and border security with potential troop return in 2027, signaling long-term commitment. (Source: @Faytuks_Network/10360)",
+      "Bahrain designated PMF commander Shibl al-Zaidi as terrorist, expanding Gulf pressure on Iranian-backed Iraqi militia networks. (Source: @Faytuks_Network/10366)",
+      "Saudi sirens in Najran and Qatar-Iran-US diplomatic track show Gulf states managing escalation while preparing for potential spillover. (Source: @N12chat/236640, @N12chat/236629)"
     ],
-    "threat_assessment": "Iran's simultaneous missile launches from Ahvaz and air defense activations across Khuzestan and West Azerbaijan suggest heightened military readiness or testing, possibly linked to regional tensions. The OFAC sanctions targeting shadow banking networks will further constrain Iran's oil revenue but may accelerate covert financial operations. Israel's restraint on striking Iran per Zamir's statement contrasts with active Gaza operations and northern border alerts, indicating a multi-front management strategy. Lebanon's 99% daily alert increase and armed drone over Beirut signal escalating Israeli-Hezbollah confrontation. Saudi sirens in Najran reflect persistent Houthi threat projection capability.",
-    "regional_response": "Qatar's diplomatic engagement with U.S. Vice President Vance on restarting Iran negotiations shows Gulf mediation efforts continuing despite kinetic escalation. The UAE, Hong Kong, and Singapore remain primary financial hubs for Iranian shadow banking per FinCEN, suggesting sanctions enforcement gaps. Lebanon's southern villages bearing concentrated artillery and drone strikes indicate civilian infrastructure degradation. Israel's political deadlock between Netanyahu and Eisenkot over threat assessment complicates unified security decision-making.",
-    "intelligence_notes": "The 120-second delayed reporting from Iran's FromIran platform provides near-real-time missile and air defense tracking but may omit command-level context. FinCEN's $14.7 billion suspicious activity figure covers January 2025-August 2026, showing sustained sanctions evasion despite designations. November's 2,770 Lebanon border alerts at 120 daily average represent a new operational tempo baseline. The Hermes-450 with four missiles over Beirut suggests Hezbollah's precision strike capability retention despite Israeli pressure. IDF investigation into Even Menahem/Shtula sirens may reveal whether rocket launch or false alarm."
+    "threat_assessment": "Iran's simultaneous missile launches from three provinces and reported mining of tankers in the Strait of Hormuz indicate a coordinated escalation across land and maritime domains. The 99% surge in Israeli-Lebanese border alerts, coupled with armed drone penetration over Beirut, suggests Israel is intensifying pressure on Hezbollah while Iran tests red lines. US cyber attribution and planned Syria return signal a broadening confrontation that could draw in Gulf energy infrastructure and Iraqi militia networks. The convergence of kinetic, cyber, and diplomatic tracks creates high risk of miscalculation.",
+    "regional_response": "Qatar is actively mediating between Iran and the US to revive negotiations, while Bahrain targets Iranian-linked Iraqi militia leadership with terrorism designations. Saudi Arabia's Najran sirens reflect heightened air defense posture amid Houthi-Iran coordination risks. Gulf states face dual threats: maritime disruption in Hormuz and potential spillover from Israeli-Lebanese escalation. The US Syria training plan for 2027 indicates a long-term stabilization effort that may conflict with Iranian entrenchment.",
+    "intelligence_notes": "The 120-second delayed Iranian missile reports from Shin Persian suggest operational security measures but confirm real-time launch detection capability. Hermes-450 operations over Dahieh with four missiles imply Israel is testing Hezbollah air defenses and command nodes. The specificity of artillery locations (Al-Mansouri 7 rounds, Wadi al-Saluqi 5) indicates precision targeting of Hezbollah infrastructure. IRGC mine-laying in Hormuz and cyberattacks on 50 tankers reveal a dual-track strategy to disrupt energy flows while maintaining plausible deniability."
   }
 }
