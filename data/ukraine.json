@@ -1,7 +1,7 @@
 {
   "conflict": "Ukraine-Russia War",
-  "updated_at": "2026-11-28T03:07:32.999518+00:00",
-  "message_count": 206,
+  "updated_at": "2026-11-28T07:17:12.114009+00:00",
+  "message_count": 219,
   "channels": [
     "eRadarrua",
     "kpszsu",
@@ -9,20 +9,15 @@
     "UkraineNow",
     "DeepStateUA"
   ],
-  "red_alerts": 155,
+  "red_alerts": 162,
   "red_alerts_timeline": [
     0,
+    23,
     0,
+    23,
+    46,
     0,
-    0,
-    0,
-    26,
-    0,
-    26,
-    52,
-    0,
-    52,
-    0,
+    46,
     0,
     0,
     0,
@@ -34,46 +29,51 @@
     0,
     0,
     0,
-    0
+    0,
+    0,
+    0,
+    0,
+    0,
+    23
   ],
   "combined_activity_timeline": [
+    6,
+    8,
+    16,
+    18,
+    18,
+    12,
+    14,
+    12,
+    6,
+    5,
+    16,
+    7,
+    5,
+    8,
+    3,
+    6,
+    5,
     0,
     4,
-    11,
-    7,
-    11,
-    11,
+    6,
+    4,
+    14,
     16,
-    17,
-    19,
-    13,
-    15,
-    12,
-    5,
-    6,
-    15,
-    8,
-    4,
-    8,
-    5,
-    6,
-    4,
-    1,
-    4,
-    4
+    9
   ],
   "messages_by_channel": {
-    "@eRadarrua": 55,
-    "@kpszsu": 117,
-    "@mon1tor_ua": 6,
+    "@eRadarrua": 64,
+    "@kpszsu": 114,
+    "@mon1tor_ua": 13,
     "@UkraineNow": 23,
     "@DeepStateUA": 5
   },
   "recent_post_urls": {
-    "eRadarrua": "https://t.me/eRadarrua/133509",
-    "kpszsu": "https://t.me/kpszsu/99849",
-    "mon1tor_ua": "https://t.me/mon1tor_ua/78808",
-    "UkraineNow": "https://t.me/UkraineNow/85600",
+    "eRadarrua": "https://t.me/eRadarrua/133531",
+    "kpszsu": "https://t.me/kpszsu/99903",
+    "mon1tor_ua": "https://t.me/mon1tor_ua/78815",
+    "UkraineNow": "https://t.me/UkraineNow/85601",
     "DeepStateUA": "https://t.me/DeepStateUA/24035"
   },
   "cited_post_urls": {
@@ -84,6 +84,28 @@
     "mon1tor_ua": "https://t.me/mon1tor_ua/78805"
   },
   "media": [
+    {
+      "post_url": "https://t.me/eRadarrua/133530",
+      "post_id": 133530,
+      "channel": "eRadarrua",
+      "ts": "2026-11-28T06:59:01+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/kDl_iWTFdUMK5DKSuPIR9H1-3HGaJ4-HI-BQSjf3qeJ-_d4cT9LklEEfYJ2lW2A7N3yfxRIDB53oDzVQ1FUyThePVLoS_VsprhY3V2o-i3eqnqAiu2koGPpazirfsgTK-rgT7PwtWGqvf5M_97QJwQr-BX-11D1wIZvvmroflUHuRS7t_tFuJ5fCwE7xyJntju1lwkZR3nrG8faSSpDzH5SEOaUIcdE7_JAUe1Thy90ltH1Ly0-QioC6XU05MG24Qal3C0YMlYeoC5ggjdJit2JFg1HckR3WJXML-5V8X-cwyZkwgGxW-4BeYen0K_soBbcqDgZOeQvmtYXb2dzmxg.jpg",
+      "companion_text_id": 133529
+    },
+    {
+      "post_url": "https://t.me/UkraineNow/85601",
+      "post_id": 85601,
+      "channel": "UkraineNow",
+      "ts": "2026-11-28T06:16:21+00:00"
+    },
+    {
+      "post_url": "https://t.me/kpszsu/99886",
+      "post_id": 99886,
+      "channel": "kpszsu",
+      "ts": "2026-11-28T06:06:00+00:00",
+      "cdn_url": "https://cdn4.telesco.pe/file/WfoiZHlBFudi6Ms7AfhMHZTYJ-3syTU311ILRAsg7RvdVooiUq0KYzrqN-Pf89_CT7wYdaArK-PDXHi8Sl01-E4_2qicu69FEvHE6g17B55IuS-AjGQRwm5rTbiE7tCQaL7rMNfaUv2oAmyncVKkxv8qWi8Q9YeJKgPpwgeyPaWpGxfLJetQCkTBs2DIVDi8AZ1lkqwQRcTJuZYqxSUnZoJy0VIIXWDS7tUQ6ah_tFl1lLwPuAWttg6sg-v_EKsztN8yGh70awcbC6lks-HQVnT9WMQnZA1MAm01UOr9m8hd-77z93blyXksS_gB0zqj5CDeNpM2fDPlMilrK80JYw.jpg",
+      "companion_text_id": 99885
+    },
     {
       "post_url": "https://t.me/eRadarrua/133500",
       "post_id": 133500,
@@ -203,35 +225,15 @@
       "companion_text_id": 133471
     },
     {
-      "post_url": "https://t.me/eRadarrua/133464",
-      "post_id": 133464,
-      "channel": "eRadarrua",
-      "ts": "2026-11-27T14:54:11+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/oRt86rSwfm48TFAi7hHzMryBiJHDDeAP_Rpzd9jxO2Rj7ZTMNFINsXac6W4PxYD_hA1k9CDFZ_RBkxKpwxom0OWMyneBQuesNGo7wURq2ySZG8oR_hVjwG1_ZaOUuwOa31UQtktDAWv6dYGpPC5hxwZu5POFylBxHRUWqbcg_m6082BhcBLDsNPvvX9pOb45lyp8EKiPj74ZOK4pOKTGQHkmLDL0PxK-Cc6rIV0UuHphNgE5WtECFAMV_8eGFkDMUE-3GVGx2AcXqCC58EU3r7GUT3UTQeqE3cOVxXvwQN2LI59Pn4EucLEEQu1e0rECDzkNmvdGWZTUNPcSTUligg.jpg",
-      "companion_text_id": 133463
-    },
-    {
       "post_url": "https://t.me/UkraineNow/85589",
       "post_id": 85589,
       "channel": "UkraineNow",
       "ts": "2026-11-27T14:45:31+00:00"
-    },
-    {
-      "post_url": "https://t.me/UkraineNow/85585",
-      "post_id": 85585,
-      "channel": "UkraineNow",
-      "ts": "2026-11-27T13:49:20+00:00"
-    },
-    {
-      "post_url": "https://t.me/eRadarrua/133458",
-      "post_id": 133458,
-      "channel": "eRadarrua",
-      "ts": "2026-11-27T13:44:26+00:00",
-      "cdn_url": "https://cdn4.telesco.pe/file/a4S2QS1cGHUcdRb_q3dzclSGs2D-JTbr90nDN5mpbhA3WY03FpMukG_imzWQ0V8-Z9k7H6yGBFaZw2GHUOUsTwBYNoNwE-mqQfvF5bdNZxrQI3nmNoyxrAoQaF3n908XMFJL_q0r-O-JgMbWfrkSUk-4E09WnMd56aIQFvWglhRBumjinPXsiK48LCnGH4GPjE-SzZxEsAALbcK-uCeg5UTL9Xda1YRiKty7B03psOWOSz1P8i603z-ZxRG0TQXPGIxyrDsIl_VzcqNGhymNzAv5xtGNpnAYBTnYeh7tKqzVxu-DuQz2XJ--Cg5it7FfwIL1dPz5aKgU3gB8nOBpDQ.jpg",
-      "companion_text_id": 133457
     }
   ],
   "post_images": {
+    "eRadarrua/133530": "data/media/eRadarrua_133530.jpg",
+    "eRadarrua/133529": "data/media/eRadarrua_133530.jpg",
     "eRadarrua/133490": "data/media/eRadarrua_133490.jpg",
     "eRadarrua/133488": "data/media/eRadarrua_133490.jpg",
     "eRadarrua/133500": "data/media/eRadarrua_133500.jpg",
@@ -252,10 +254,8 @@
     "eRadarrua/133455": "data/media/eRadarrua_133456.jpg",
     "eRadarrua/133457": "data/media/eRadarrua_133457.jpg",
     "eRadarrua/133458": "data/media/eRadarrua_133458.jpg",
-    "eRadarrua/133464": "data/media/eRadarrua_133464.jpg",
-    "eRadarrua/133463": "data/media/eRadarrua_133464.jpg",
-    "kpszsu/99633": "data/media/kpszsu_99633.jpg",
-    "kpszsu/99634": "data/media/kpszsu_99633.jpg"
+    "kpszsu/99886": "data/media/kpszsu_99886.jpg",
+    "kpszsu/99885": "data/media/kpszsu_99886.jpg"
   },
   "summary": "Russia launched a massive wave of reactive UAVs (Shaheds) across northern, central, and western Ukraine overnight, with launches reported from Guardiyske, Orel, and Bryansk regions. Germany approved an 11.6 billion euro military aid package for Ukraine in its 2027 budget, maintaining current support levels including IRIS-T, Patriot, and drone interceptor funding. Ukraine transmitted Black Sea ceasefire conditions to partners and awaits Russia's response, while Starlink connectivity remains restricted in occupied territories.",
   "key_points": [
@@ -341,31 +341,31 @@
   },
   "stale_summary": true,
   "missiles": 0,
-  "drones": 155,
+  "drones": 162,
   "kpszsu_timeline": [
     0,
-    4,
-    11,
-    4,
-    5,
-    6,
+    3,
+    10,
     9,
+    7,
     9,
-    9,
-    9,
-    8,
-    6,
+    7,
+    7,
     2,
     3,
     7,
-    3,
+    2,
     1,
-    3,
-    4,
+    5,
+    2,
     6,
-    0,
     1,
+    0,
     3,
+    6,
+    4,
+    7,
+    9,
     4
   ]
 }
